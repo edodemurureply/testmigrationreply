@@ -1,0 +1,30 @@
+cap-probe  base 1440 → probe 2560 (from stardust/current/DESIGN.json)
+live   https://www.reply.com/4brands-reply/en
+  modules  20 sections: capped 1660 ×19, 1480 ×1 · full-bleed ×0
+  contentMaxWidth 1660px (module) · shellMaxWidth fluid · root #main-content
+build  http://localhost:8791/4brands-reply-en-proposed.html
+  modules  20 sections: capped 1660 ×19, 1480 ×1 · full-bleed ×0
+  contentMaxWidth 1660px (module) · shellMaxWidth fluid · root #main-content
+rows
+  ✓ content cap: live 1660px = build 1660px (±20, shared module cap)
+  ✓ module 1/20: 1660px = 1660px
+  ✓ module 2/20: 1660px = 1660px
+  ✓ module 3/20: 1660px = 1660px
+  ✓ module 4/20: 1660px = 1660px
+  ✓ module 5/20: 1660px = 1660px
+  ✓ module 6/20: 1660px = 1660px
+  ✓ module 7/20: 1660px = 1660px
+  ✓ module 8/20: 1660px = 1660px
+  ✓ module 9/20: 1660px = 1660px
+  ✓ module 10/20: 1660px = 1660px
+  ✓ module 11/20: 1660px = 1660px
+  ✓ module 12/20: 1660px = 1660px
+  ✓ module 13/20: 1660px = 1660px
+  ✓ module 14/20: 1660px = 1660px
+  ✓ module 15/20: 1660px = 1660px
+  ✓ module 16/20: 1660px = 1660px
+  ✓ module 17/20: 1660px = 1660px
+  ✓ module 18/20: 1660px = 1660px
+  ✓ module 19/20: 1660px = 1660px
+  ✓ module 20/20: 1480px = 1480px
+cap-probe: PASS at 2560 — 0 of 21 rows failed (evidence stardust/replica/gates/4brands-reply-en-2560/cap-iter.json)

@@ -1,0 +1,65 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-labs/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-labs/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2514,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 30946,
+  "pct": 1.19,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-labs/diff.png",
+  "masks": [
+    {
+      "yA": 92,
+      "h": 704,
+      "yB": 92
+    }
+  ],
+  "maskedRows": 704,
+  "textPct": 4.35,
+  "textBoxes": 56,
+  "textPixels": 175018,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 1.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 1.1
+    },
+    {
+      "y0": 2500,
+      "y1": 2514,
+      "pct": 0
+    }
+  ],
+  "maskReason": "hero DAM video (OTTAVO_HD, muted autoplay loop inside the cross-origin dam-media openPlayer iframe on both sides, .hero-slider.hub 48.89 % box) shows a different frame on every capture — the media rows are authored-volatile on both sides (fix-hub-f, 2026-11-16)",
+  "capturesDropped": {
+    "masks": [
+      "92:704"
+    ],
+    "edsUrl": "https://main--a355dc1b--aemcoder.aem.live/en/labs"
+  }
+}

@@ -1,0 +1,77 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.live/en/energy-and-utilities",
+ "at": "2026-11-17T00:48:50.849Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 1,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 3,
+  "offPage": 12,
+  "textNodes": 87,
+  "controls": 71,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.reply-card-image-container",
+   "path": "div.reply-card.reply-card-horizontal > div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+   "text": "testing excellence for electric vehicles charging",
+   "cutMin": 23,
+   "cutMax": 23
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h3#testing-excellence-for-electric-vehicles-charging",
+   "path": "div.reply-card-body > a.reply-card-link > div.reply-card-title > h3#testing-excellence-for-electric-vehicles-charging",
+   "text": "testing excellence for electric vehicles charging",
+   "cutMin": 5,
+   "cutMax": 5
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.slider-with-title-rail",
+   "path": "ul.slider-with-title-items > li.slider-with-title-item > div.slider-with-title-item-body > p",
+   "text": "the 20s are the electric decade: the process of replacing te",
+   "cutMin": 383,
+   "cutMax": 383
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.reply-card-abstract",
+   "path": "div.reply-card-grid > div.reply-card-body > div.reply-card-abstract > p",
+   "text": "discover a2a energia's path of transformation of business pr",
+   "cutMin": null,
+   "cutMax": null
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 2,
+   "clamped": 1,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 4,
+   "offPage": 21,
+   "textNodes": 97,
+   "controls": 71,
+   "total": 2
+  }
+ }
+}

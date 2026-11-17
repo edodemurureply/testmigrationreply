@@ -1,0 +1,1348 @@
+{
+ "url": "http://localhost:8791/en-insights-proposed.html",
+ "at": "2026-11-15T12:01:24.325Z",
+ "width": 360,
+ "status": 200,
+ "settlePasses": 2,
+ "docH": 14610,
+ "pageW": 360,
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 6,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 6,
+  "offPage": 138,
+  "textNodes": 200,
+  "controls": 133,
+  "total": 0
+ },
+ "findings": [
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "hiddenLines": 2,
+   "path": "div.reply-card-image-container > div.reply-card-body > a > h3.t-h4.t-white",
+   "text": "from code to control: ai’s takeover of software development ",
+   "clipper": "h3.t-h4.t-white",
+   "rect": {
+    "l": 72,
+    "t": 691,
+    "r": 250,
+    "b": 718,
+    "w": 178,
+    "h": 27
+   },
+   "clip": {
+    "l": 72,
+    "t": 688,
+    "r": 288,
+    "b": 822,
+    "w": 216,
+    "h": 134
+   },
+   "lines": 6
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "hiddenLines": 4,
+   "path": "div.reply-card-grid > div.reply-card-body > article.reply-card-abstract.t-p1 > p",
+   "text": "how european financial institutions are realigning their clo",
+   "clipper": "article.reply-card-abstract.t-p1",
+   "rect": {
+    "l": 80,
+    "t": 1320,
+    "r": 273,
+    "b": 1338,
+    "w": 193,
+    "h": 18
+   },
+   "clip": {
+    "l": 80,
+    "t": 1316,
+    "r": 280,
+    "b": 1398,
+    "w": 200,
+    "h": 82
+   },
+   "lines": 8
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "cut": 264,
+   "path": "ul.card-carousel__track > li.card-carousel__item.is-clone > div.reply-card.reply-card--slider > a.reply-card__cover",
+   "text": "finops for ai: controlling costs while driving innovationart",
+   "clipper": "div.card-carousel.card-carousel--simple",
+   "rect": {
+    "l": -264,
+    "t": 1670,
+    "r": 16,
+    "b": 2090,
+    "w": 280,
+    "h": 420
+   },
+   "clip": {
+    "l": 0,
+    "t": 1670,
+    "r": 360,
+    "b": 2090,
+    "w": 360,
+    "h": 420
+   }
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "hiddenLines": 3,
+   "path": "a.reply-card__cover > div.reply-card-image-container > div.reply-card-body > h3.t-h6.clamp-3",
+   "text": "sovereign ai for european organisations: foundation models, ",
+   "clipper": "h3.t-h6.clamp-3",
+   "rect": {
+    "l": 72,
+    "t": 1951,
+    "r": 221,
+    "b": 1971,
+    "w": 149,
+    "h": 20
+   },
+   "clip": {
+    "l": 72,
+    "t": 1950,
+    "r": 288,
+    "b": 2020,
+    "w": 216,
+    "h": 70
+   },
+   "lines": 6
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "cut": 264,
+   "path": "ul.card-carousel__track > li.card-carousel__item > div.reply-card.reply-card--slider > a.reply-card__cover",
+   "text": "agentic ai for batch application monitoring in financial ser",
+   "clipper": "div.card-carousel.card-carousel--simple",
+   "rect": {
+    "l": 344,
+    "t": 1670,
+    "r": 624,
+    "b": 2090,
+    "w": 280,
+    "h": 420
+   },
+   "clip": {
+    "l": 0,
+    "t": 1670,
+    "r": 360,
+    "b": 2090,
+    "w": 360,
+    "h": 420
+   }
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "cut": 264,
+   "path": "ul.card-carousel__track > li.card-carousel__item.is-clone > div.reply-card.reply-card--slider > a.reply-card__cover",
+   "text": "sfdr impacts on financial market participantswhite paper",
+   "clipper": "div.card-carousel.card-carousel--simple",
+   "rect": {
+    "l": -264,
+    "t": 2252,
+    "r": 16,
+    "b": 2672,
+    "w": 280,
+    "h": 420
+   },
+   "clip": {
+    "l": 0,
+    "t": 2252,
+    "r": 360,
+    "b": 2672,
+    "w": 360,
+    "h": 420
+   }
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "cut": 264,
+   "path": "ul.card-carousel__track > li.card-carousel__item > div.reply-card.reply-card--slider > a.reply-card__cover",
+   "text": "unlock the power of green it with our bootcampsbest practice",
+   "clipper": "div.card-carousel.card-carousel--simple",
+   "rect": {
+    "l": 344,
+    "t": 2252,
+    "r": 624,
+    "b": 2672,
+    "w": 280,
+    "h": 420
+   },
+   "clip": {
+    "l": 0,
+    "t": 2252,
+    "r": 360,
+    "b": 2672,
+    "w": 360,
+    "h": 420
+   }
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "cut": 264,
+   "path": "ul.card-carousel__track > li.card-carousel__item.is-clone > div.reply-card.reply-card--slider > a.reply-card__cover",
+   "text": "mobile banking insights: trends and user behaviourwhite pape",
+   "clipper": "div.card-carousel.card-carousel--simple",
+   "rect": {
+    "l": -264,
+    "t": 2867,
+    "r": 16,
+    "b": 3287,
+    "w": 280,
+    "h": 420
+   },
+   "clip": {
+    "l": 0,
+    "t": 2867,
+    "r": 360,
+    "b": 3287,
+    "w": 360,
+    "h": 420
+   }
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "cut": 264,
+   "path": "ul.card-carousel__track > li.card-carousel__item > div.reply-card.reply-card--slider > a.reply-card__cover",
+   "text": "insurance outlook 2030+white paper",
+   "clipper": "div.card-carousel.card-carousel--simple",
+   "rect": {
+    "l": 344,
+    "t": 2867,
+    "r": 624,
+    "b": 3287,
+    "w": 280,
+    "h": 420
+   },
+   "clip": {
+    "l": 0,
+    "t": 2867,
+    "r": 360,
+    "b": 3287,
+    "w": 360,
+    "h": 420
+   }
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.reply-card.reply-card--thumb-1-1 > div.reply-card-body > a > h3.t-h6.clamp-3",
+   "text": "cyber resilience act: from regulatory compliance to secure p",
+   "clipper": "h3.t-h6.clamp-3",
+   "rect": {
+    "l": 56,
+    "t": 5404,
+    "r": 257,
+    "b": 5424,
+    "w": 201,
+    "h": 20
+   },
+   "clip": {
+    "l": 56,
+    "t": 5403,
+    "r": 304,
+    "b": 5473,
+    "w": 248,
+    "h": 70
+   },
+   "lines": 4
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.reply-card.reply-card--thumb-2-3 > div.reply-card-body > a > h3.t-h6.clamp-3",
+   "text": "the strategic value of an api developer portal in the modern",
+   "clipper": "h3.t-h6.clamp-3",
+   "rect": {
+    "l": 56,
+    "t": 9192,
+    "r": 291,
+    "b": 9212,
+    "w": 235,
+    "h": 20
+   },
+   "clip": {
+    "l": 56,
+    "t": 9191,
+    "r": 304,
+    "b": 9261,
+    "w": 248,
+    "h": 70
+   },
+   "lines": 4
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.reply-card.reply-card--thumb-1-1 > div.reply-card-body > a > h3.t-h6.clamp-3",
+   "text": "v-cycle multi-agent architecture & silicon shoring for autom",
+   "clipper": "h3.t-h6.clamp-3",
+   "rect": {
+    "l": 56,
+    "t": 9510,
+    "r": 242,
+    "b": 9530,
+    "w": 186,
+    "h": 20
+   },
+   "clip": {
+    "l": 56,
+    "t": 9509,
+    "r": 304,
+    "b": 9579,
+    "w": 248,
+    "h": 70
+   },
+   "lines": 4
+  }
+ ],
+ "textBoxes": [
+  {
+   "x": 40,
+   "y": 111,
+   "w": 140,
+   "h": 40
+  },
+  {
+   "x": 40,
+   "y": 196,
+   "w": 259,
+   "h": 18
+  },
+  {
+   "x": 40,
+   "y": 223,
+   "w": 264,
+   "h": 18
+  },
+  {
+   "x": 40,
+   "y": 250,
+   "w": 192,
+   "h": 18
+  },
+  {
+   "x": 40,
+   "y": 369,
+   "w": 223,
+   "h": 32
+  },
+  {
+   "x": 88,
+   "y": 658,
+   "w": 84,
+   "h": 13
+  },
+  {
+   "x": 72,
+   "y": 691,
+   "w": 178,
+   "h": 27
+  },
+  {
+   "x": 72,
+   "y": 724,
+   "w": 151,
+   "h": 27
+  },
+  {
+   "x": 72,
+   "y": 758,
+   "w": 151,
+   "h": 27
+  },
+  {
+   "x": 72,
+   "y": 792,
+   "w": 112,
+   "h": 27
+  },
+  {
+   "x": 96,
+   "y": 1147,
+   "w": 84,
+   "h": 13
+  },
+  {
+   "x": 80,
+   "y": 1184,
+   "w": 126,
+   "h": 27
+  },
+  {
+   "x": 80,
+   "y": 1218,
+   "w": 102,
+   "h": 27
+  },
+  {
+   "x": 80,
+   "y": 1251,
+   "w": 112,
+   "h": 27
+  },
+  {
+   "x": 80,
+   "y": 1285,
+   "w": 108,
+   "h": 27
+  },
+  {
+   "x": 80,
+   "y": 1320,
+   "w": 193,
+   "h": 18
+  },
+  {
+   "x": 80,
+   "y": 1347,
+   "w": 199,
+   "h": 18
+  },
+  {
+   "x": 80,
+   "y": 1374,
+   "w": 199,
+   "h": 18
+  },
+  {
+   "x": 80,
+   "y": 1374,
+   "w": 185,
+   "h": 18
+  },
+  {
+   "x": 40,
+   "y": 1525,
+   "w": 143,
+   "h": 13
+  },
+  {
+   "x": 40,
+   "y": 1571,
+   "w": 126,
+   "h": 32
+  },
+  {
+   "x": 40,
+   "y": 1605,
+   "w": 167,
+   "h": 32
+  },
+  {
+   "x": 72,
+   "y": 1951,
+   "w": 149,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 1975,
+   "w": 91,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 1998,
+   "w": 136,
+   "h": 20
+  },
+  {
+   "x": 88,
+   "y": 2044,
+   "w": 63,
+   "h": 13
+  },
+  {
+   "x": 40,
+   "y": 2186,
+   "w": 194,
+   "h": 32
+  },
+  {
+   "x": 72,
+   "y": 2533,
+   "w": 157,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 2556,
+   "w": 180,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 2580,
+   "w": 51,
+   "h": 20
+  },
+  {
+   "x": 88,
+   "y": 2626,
+   "w": 63,
+   "h": 13
+  },
+  {
+   "x": 40,
+   "y": 2768,
+   "w": 159,
+   "h": 32
+  },
+  {
+   "x": 40,
+   "y": 2802,
+   "w": 265,
+   "h": 32
+  },
+  {
+   "x": 72,
+   "y": 3171,
+   "w": 134,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 3195,
+   "w": 100,
+   "h": 20
+  },
+  {
+   "x": 88,
+   "y": 3241,
+   "w": 101,
+   "h": 13
+  },
+  {
+   "x": 99,
+   "y": 3471,
+   "w": 163,
+   "h": 32
+  },
+  {
+   "x": 97,
+   "y": 3505,
+   "w": 165,
+   "h": 32
+  },
+  {
+   "x": 96,
+   "y": 3538,
+   "w": 169,
+   "h": 32
+  },
+  {
+   "x": 130,
+   "y": 3572,
+   "w": 100,
+   "h": 32
+  },
+  {
+   "x": 152,
+   "y": 3705,
+   "w": 84,
+   "h": 16
+  },
+  {
+   "x": 56,
+   "y": 4081,
+   "w": 221,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 4104,
+   "w": 225,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 4127,
+   "w": 152,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 4166,
+   "w": 101,
+   "h": 13
+  },
+  {
+   "x": 56,
+   "y": 4398,
+   "w": 234,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 4422,
+   "w": 208,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 4445,
+   "w": 55,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 4483,
+   "w": 101,
+   "h": 13
+  },
+  {
+   "x": 56,
+   "y": 4716,
+   "w": 242,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 4739,
+   "w": 82,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 4778,
+   "w": 84,
+   "h": 13
+  },
+  {
+   "x": 56,
+   "y": 5133,
+   "w": 239,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 5171,
+   "w": 101,
+   "h": 13
+  },
+  {
+   "x": 56,
+   "y": 5404,
+   "w": 201,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 5427,
+   "w": 156,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 5450,
+   "w": 208,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 5489,
+   "w": 101,
+   "h": 13
+  },
+  {
+   "x": 56,
+   "y": 5844,
+   "w": 175,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 5867,
+   "w": 170,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 5906,
+   "w": 84,
+   "h": 13
+  },
+  {
+   "x": 56,
+   "y": 6138,
+   "w": 219,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 6161,
+   "w": 200,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 6200,
+   "w": 101,
+   "h": 13
+  },
+  {
+   "x": 56,
+   "y": 6432,
+   "w": 213,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 6456,
+   "w": 242,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 6479,
+   "w": 214,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 6517,
+   "w": 84,
+   "h": 13
+  },
+  {
+   "x": 56,
+   "y": 6872,
+   "w": 239,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 6896,
+   "w": 48,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 6934,
+   "w": 84,
+   "h": 13
+  },
+  {
+   "x": 56,
+   "y": 7167,
+   "w": 138,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 7205,
+   "w": 84,
+   "h": 13
+  },
+  {
+   "x": 56,
+   "y": 7438,
+   "w": 213,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 7461,
+   "w": 82,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 7499,
+   "w": 101,
+   "h": 13
+  },
+  {
+   "x": 73,
+   "y": 7728,
+   "w": 168,
+   "h": 20
+  },
+  {
+   "x": 89,
+   "y": 7766,
+   "w": 101,
+   "h": 13
+  },
+  {
+   "x": 73,
+   "y": 7801,
+   "w": 157,
+   "h": 16
+  },
+  {
+   "x": 73,
+   "y": 7825,
+   "w": 198,
+   "h": 16
+  },
+  {
+   "x": 73,
+   "y": 7849,
+   "w": 209,
+   "h": 16
+  },
+  {
+   "x": 73,
+   "y": 7873,
+   "w": 190,
+   "h": 16
+  },
+  {
+   "x": 73,
+   "y": 7896,
+   "w": 115,
+   "h": 16
+  },
+  {
+   "x": 73,
+   "y": 7920,
+   "w": 206,
+   "h": 16
+  },
+  {
+   "x": 73,
+   "y": 7944,
+   "w": 132,
+   "h": 16
+  },
+  {
+   "x": 56,
+   "y": 8339,
+   "w": 183,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 8377,
+   "w": 84,
+   "h": 13
+  },
+  {
+   "x": 73,
+   "y": 8606,
+   "w": 163,
+   "h": 20
+  },
+  {
+   "x": 73,
+   "y": 8629,
+   "w": 170,
+   "h": 20
+  },
+  {
+   "x": 89,
+   "y": 8667,
+   "w": 101,
+   "h": 13
+  },
+  {
+   "x": 73,
+   "y": 8702,
+   "w": 189,
+   "h": 16
+  },
+  {
+   "x": 73,
+   "y": 8726,
+   "w": 170,
+   "h": 16
+  },
+  {
+   "x": 73,
+   "y": 8750,
+   "w": 179,
+   "h": 16
+  },
+  {
+   "x": 73,
+   "y": 8774,
+   "w": 195,
+   "h": 16
+  },
+  {
+   "x": 73,
+   "y": 8797,
+   "w": 189,
+   "h": 16
+  },
+  {
+   "x": 56,
+   "y": 9192,
+   "w": 235,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 9216,
+   "w": 216,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 9239,
+   "w": 172,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 9277,
+   "w": 101,
+   "h": 13
+  },
+  {
+   "x": 56,
+   "y": 9510,
+   "w": 186,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 9533,
+   "w": 202,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 9557,
+   "w": 102,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 9595,
+   "w": 101,
+   "h": 13
+  },
+  {
+   "x": 56,
+   "y": 9950,
+   "w": 224,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 9989,
+   "w": 101,
+   "h": 13
+  },
+  {
+   "x": 56,
+   "y": 10221,
+   "w": 189,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 10244,
+   "w": 245,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 10268,
+   "w": 214,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 10306,
+   "w": 101,
+   "h": 13
+  },
+  {
+   "x": 56,
+   "y": 10539,
+   "w": 227,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 10562,
+   "w": 60,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 10600,
+   "w": 84,
+   "h": 13
+  },
+  {
+   "x": 56,
+   "y": 10955,
+   "w": 240,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 10979,
+   "w": 196,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 11002,
+   "w": 81,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 11041,
+   "w": 101,
+   "h": 13
+  },
+  {
+   "x": 56,
+   "y": 11273,
+   "w": 110,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 11297,
+   "w": 141,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 11320,
+   "w": 105,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 11358,
+   "w": 101,
+   "h": 13
+  },
+  {
+   "x": 56,
+   "y": 11719,
+   "w": 239,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 11743,
+   "w": 48,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 11781,
+   "w": 84,
+   "h": 13
+  },
+  {
+   "x": 56,
+   "y": 12136,
+   "w": 206,
+   "h": 20
+  },
+  {
+   "x": 56,
+   "y": 12159,
+   "w": 120,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 12198,
+   "w": 84,
+   "h": 13
+  },
+  {
+   "x": 56,
+   "y": 12553,
+   "w": 168,
+   "h": 20
+  },
+  {
+   "x": 72,
+   "y": 12591,
+   "w": 84,
+   "h": 13
+  },
+  {
+   "x": 105,
+   "y": 12657,
+   "w": 149,
+   "h": 16
+  },
+  {
+   "x": 40,
+   "y": 12870,
+   "w": 160,
+   "h": 13
+  },
+  {
+   "x": 40,
+   "y": 12900,
+   "w": 211,
+   "h": 32
+  },
+  {
+   "x": 40,
+   "y": 12933,
+   "w": 123,
+   "h": 32
+  },
+  {
+   "x": 40,
+   "y": 12967,
+   "w": 156,
+   "h": 32
+  },
+  {
+   "x": 60,
+   "y": 13061,
+   "w": 151,
+   "h": 13
+  },
+  {
+   "x": 60,
+   "y": 13243,
+   "w": 205,
+   "h": 22
+  },
+  {
+   "x": 60,
+   "y": 13269,
+   "w": 142,
+   "h": 22
+  },
+  {
+   "x": 40,
+   "y": 13529,
+   "w": 65,
+   "h": 18
+  },
+  {
+   "x": 40,
+   "y": 13577,
+   "w": 102,
+   "h": 13
+  },
+  {
+   "x": 40,
+   "y": 13614,
+   "w": 43,
+   "h": 13
+  },
+  {
+   "x": 40,
+   "y": 13651,
+   "w": 55,
+   "h": 13
+  },
+  {
+   "x": 40,
+   "y": 13688,
+   "w": 66,
+   "h": 13
+  },
+  {
+   "x": 40,
+   "y": 13743,
+   "w": 135,
+   "h": 18
+  },
+  {
+   "x": 40,
+   "y": 13792,
+   "w": 145,
+   "h": 13
+  },
+  {
+   "x": 40,
+   "y": 13829,
+   "w": 92,
+   "h": 13
+  },
+  {
+   "x": 132,
+   "y": 13829,
+   "w": 71,
+   "h": 13
+  },
+  {
+   "x": 40,
+   "y": 13866,
+   "w": 92,
+   "h": 13
+  },
+  {
+   "x": 132,
+   "y": 13866,
+   "w": 43,
+   "h": 13
+  },
+  {
+   "x": 40,
+   "y": 13902,
+   "w": 92,
+   "h": 13
+  },
+  {
+   "x": 132,
+   "y": 13902,
+   "w": 58,
+   "h": 13
+  },
+  {
+   "x": 40,
+   "y": 13939,
+   "w": 92,
+   "h": 13
+  },
+  {
+   "x": 132,
+   "y": 13939,
+   "w": 68,
+   "h": 13
+  },
+  {
+   "x": 40,
+   "y": 13976,
+   "w": 131,
+   "h": 13
+  },
+  {
+   "x": 40,
+   "y": 14013,
+   "w": 206,
+   "h": 13
+  },
+  {
+   "x": 40,
+   "y": 14030,
+   "w": 40,
+   "h": 13
+  },
+  {
+   "x": 80,
+   "y": 14030,
+   "w": 57,
+   "h": 13
+  },
+  {
+   "x": 40,
+   "y": 14066,
+   "w": 200,
+   "h": 13
+  },
+  {
+   "x": 240,
+   "y": 14066,
+   "w": 65,
+   "h": 13
+  },
+  {
+   "x": 40,
+   "y": 14103,
+   "w": 153,
+   "h": 13
+  },
+  {
+   "x": 40,
+   "y": 14140,
+   "w": 143,
+   "h": 13
+  },
+  {
+   "x": 40,
+   "y": 14177,
+   "w": 262,
+   "h": 13
+  },
+  {
+   "x": 40,
+   "y": 14248,
+   "w": 73,
+   "h": 18
+  },
+  {
+   "x": 40,
+   "y": 14352,
+   "w": 85,
+   "h": 18
+  },
+  {
+   "x": 32,
+   "y": 14566,
+   "w": 84,
+   "h": 13
+  },
+  {
+   "x": 32,
+   "y": 14582,
+   "w": 131,
+   "h": 13
+  }
+ ],
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 6,
+   "clipper": "div.card-carousel.card-carousel--simple",
+   "path": "ul.card-carousel__track > li.card-carousel__item.is-clone > div.reply-card.reply-card--slider > a.reply-card__cover",
+   "text": "finops for ai: controlling costs while driving innovationart",
+   "cutMin": 264,
+   "cutMax": 264
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 4,
+   "clipper": "h3.t-h6.clamp-3",
+   "path": "a.reply-card__cover > div.reply-card-image-container > div.reply-card-body > h3.t-h6.clamp-3",
+   "text": "sovereign ai for european organisations: foundation models, ",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h3.t-h4.t-white",
+   "path": "div.reply-card-image-container > div.reply-card-body > a > h3.t-h4.t-white",
+   "text": "from code to control: ai’s takeover of software development ",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "article.reply-card-abstract.t-p1",
+   "path": "div.reply-card-grid > div.reply-card-body > article.reply-card-abstract.t-p1 > p",
+   "text": "how european financial institutions are realigning their clo",
+   "cutMin": null,
+   "cutMax": null
+  }
+ ],
+ "tier": "chrome"
+}

@@ -1,0 +1,113 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-15T21:58:37.058Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.reply.com",
+    "eds": "https://main--a355dc1b--aemcoder.aem.page",
+    "edsHostOverride": "https://main--a355dc1b--aemcoder.aem.page",
+    "only": [
+      "en-energy-and-utilities"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 0,
+    "overridePass": 0,
+    "fail": 1,
+    "error": 0,
+    "failPixel": 1,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 0,
+    "fontsNotLoaded": 1,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "en-energy-and-utilities",
+      "path": "/en/energy-and-utilities",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 37.25,
+      "textPct": 35.94,
+      "heightDelta": 127,
+      "originH": 7631,
+      "edsH": 7504,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": false,
+      "fontsNotLoaded": [
+        "khanqyjjei-fallback",
+        "tuqgwxsjgq-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 37.25% > 10%",
+        "font-not-loaded:khanqyjjei-fallback",
+        "font-not-loaded:tuqgwxsjgq-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 2,
+        "hiddenButtons": 0,
+        "findings": 4,
+        "variable": []
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [
+        "0-500:20.9%",
+        "500-1000:18.1%",
+        "2000-2500:58.6%",
+        "2500-3000:55%",
+        "3000-3500:66.2%",
+        "3500-4000:54.2%",
+        "4000-4500:52.9%",
+        "4500-5000:50.1%",
+        "5000-5500:57.9%",
+        "5500-6000:51%",
+        "6000-6500:50.2%",
+        "7500-7504:95.6%"
+      ],
+      "error": null
+    }
+  ]
+}

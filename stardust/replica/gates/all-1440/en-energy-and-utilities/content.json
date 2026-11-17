@@ -1,0 +1,5882 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-17T00:48:50.849Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.reply.com/en/energy-and-utilities",
+  "at": "2026-11-17T00:48:27.930Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6559,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-bottom.w-full > div.logo.flex > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "go to homepage",
+    "href": "/en"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 906,
+    "y": 28,
+    "w": 41,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 1225,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "custom-menu-runtime.header.flex > nav.header-bottom.w-full > button.hidden.lg:block",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.grid-bg__container.absolute > picture > img.grid-bg.w-full",
+    "x": 0,
+    "y": 49,
+    "w": 1440,
+    "h": 810,
+    "text": "",
+    "file": "6ae90b3a-675b-4954-a9bf-8379b150d3e5"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h1#aZsq8",
+    "x": 177,
+    "y": 417,
+    "w": 861,
+    "h": 70,
+    "level": 1,
+    "text": "energy & utilities"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h1#aZsq8 > span.colors-1-gbfb",
+    "x": 177,
+    "y": 416,
+    "w": 554,
+    "h": 71,
+    "text": "Energy & Utilities"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 177,
+    "y": 932,
+    "w": 749,
+    "h": 421,
+    "text": "",
+    "file": "5bea57ca-5c05-4579-b4bd-039c66635ea7"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > div.category-label.text-white > div.category-name",
+    "x": 241,
+    "y": 1193,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body.!m-8 > a",
+    "x": 225,
+    "y": 1227,
+    "w": 449,
+    "h": 78,
+    "text": "bmw promotes co₂-optimised charging",
+    "href": "/en/digital-experience/bmw-promotes-co2-optimised-charging"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > a > h3.h4.text-white",
+    "x": 225,
+    "y": 1227,
+    "w": 449,
+    "h": 78,
+    "level": 3,
+    "text": "bmw promotes co₂-optimised charging"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 965,
+    "y": 932,
+    "w": 749,
+    "h": 421,
+    "text": "",
+    "file": "b7f0c40b-8b1b-40ad-8a43-883b6b693235"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > div.category-label.text-white > div.category-name",
+    "x": 1029,
+    "y": 1193,
+    "w": 106,
+    "h": 14,
+    "text": "Best Practice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body.!m-8 > a",
+    "x": 1013,
+    "y": 1227,
+    "w": 449,
+    "h": 78,
+    "text": "testing excellence for electric vehicles charging",
+    "href": "/en/quality-engineering/testing-excellence-for-electric-vehicles-charging"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > a > h3.h4.text-white",
+    "x": 1013,
+    "y": 1227,
+    "w": 449,
+    "h": 78,
+    "level": 3,
+    "text": "testing excellence for electric vehicles charging"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-prev.round-bt",
+    "x": 64,
+    "y": 1217,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-next.round-bt",
+    "x": 64,
+    "y": 1273,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 289,
+    "y": 1475,
+    "w": 861,
+    "h": 101,
+    "text": "Advancing energy transition through technological innovation"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": -387,
+    "y": 1916,
+    "w": 411,
+    "h": 26,
+    "text": "Grid infrastructure"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": -387,
+    "y": 1950,
+    "w": 411,
+    "h": 95,
+    "text": "As renewable energy continues to grow, infrastructure challenges will increase i"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 219,
+    "y": 1784,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "771e9880-0c9d-4e94-8cc2-7c14b7ea909b"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 64,
+    "y": 1916,
+    "w": 411,
+    "h": 26,
+    "text": "Digitization"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 64,
+    "y": 1950,
+    "w": 411,
+    "h": 119,
+    "text": "Production, assets and infrastructure, end-user devices. Digital supports renewe"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 670,
+    "y": 1784,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "4a3213a3-2898-48a1-9f76-10b0d0b3e592"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 515,
+    "y": 1916,
+    "w": 411,
+    "h": 26,
+    "text": "Sustainability"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 515,
+    "y": 1950,
+    "w": 411,
+    "h": 71,
+    "text": "The energy transition passes through the development of circular economy initiat"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 1121,
+    "y": 1784,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "120481a6-9db8-468d-95ae-044431b9a083"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 965,
+    "y": 1916,
+    "w": 411,
+    "h": 26,
+    "text": "Renewables"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 965,
+    "y": 1950,
+    "w": 411,
+    "h": 95,
+    "text": "Production from renewable sources around the world is expected to continue to gr"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 1416,
+    "y": 1916,
+    "w": 411,
+    "h": 26,
+    "text": "Electrification"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 1416,
+    "y": 1950,
+    "w": 411,
+    "h": 95,
+    "text": "The 20s are the electric decade: the process of replacing technologies that use "
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title__container--nav > div.slider-with-title__nav > button.slider-with-title__prev.round-bt",
+    "x": 1159,
+    "y": 1696,
+    "w": 48,
+    "h": 48,
+    "text": "prev item"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title__container--nav > div.slider-with-title__nav > button.slider-with-title__next.round-bt",
+    "x": 1215,
+    "y": 1696,
+    "w": 48,
+    "h": 48,
+    "text": "next item"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#17923 > div.reply-card-image-container.aspect-w-2 > a.absolute.h-full",
+    "x": 64,
+    "y": 2229,
+    "w": 1312,
+    "h": 656,
+    "text": "data and ai: the new energy of a2a",
+    "href": "/en/energy-and-utilities/data-and-ai-a2a-new-energy"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.absolute.w-full > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 64,
+    "y": 2229,
+    "w": 1312,
+    "h": 738,
+    "text": "",
+    "file": "ae1ef1e8-42c9-4500-9ec9-9f6d8862448a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.category-label.text-white > div.category-name",
+    "x": 193,
+    "y": 2468,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-grid.pointer-events-none > div.reply-card-body > a.pointer-events-auto",
+    "x": 177,
+    "y": 2506,
+    "w": 523,
+    "h": 39,
+    "text": "data and ai: the new energy of a2a",
+    "href": "/en/energy-and-utilities/data-and-ai-a2a-new-energy"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a.pointer-events-auto > h3.h4.text-white",
+    "x": 177,
+    "y": 2506,
+    "w": 523,
+    "h": 39,
+    "level": 3,
+    "text": "data and ai: the new energy of a2a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > article.reply-card-abstract.paragraph-01--light > p",
+    "x": 177,
+    "y": 2565,
+    "w": 523,
+    "h": 82,
+    "text": "Discover A2A Energia's path of transformation of business processes from a data-"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#1084 > div.reply-card-image-container.aspect-w-2 > a.absolute.h-full",
+    "x": 64,
+    "y": 2937,
+    "w": 1312,
+    "h": 656,
+    "text": "enel: quantum algorithms for optimizing maintenance activities",
+    "href": "/data-reply/en/stories/quantum-algorithms-for-the-optimization-of-maintenance-work"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.absolute.w-full > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 64,
+    "y": 2937,
+    "w": 1312,
+    "h": 738,
+    "text": "",
+    "file": "00bba0e8-6797-4981-a207-07704928a329"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-logo.aspect-w-16 > img",
+    "x": 177,
+    "y": 3112,
+    "w": 113,
+    "h": 64,
+    "text": "",
+    "file": "59532eeb-7c69-40f9-8439-f68dcd69bfc3"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.category-label.text-white > div.category-name",
+    "x": 193,
+    "y": 3200,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-grid.pointer-events-none > div.reply-card-body > a.pointer-events-auto",
+    "x": 177,
+    "y": 3238,
+    "w": 523,
+    "h": 78,
+    "text": "enel: quantum algorithms for optimizing maintenance activities",
+    "href": "/data-reply/en/stories/quantum-algorithms-for-the-optimization-of-maintenance-work"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a.pointer-events-auto > h3.h4.text-white",
+    "x": 177,
+    "y": 3238,
+    "w": 523,
+    "h": 78,
+    "level": 3,
+    "text": "enel: quantum algorithms for optimizing maintenance activities"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > article.reply-card-abstract.paragraph-01--light > p",
+    "x": 177,
+    "y": 3336,
+    "w": 523,
+    "h": 82,
+    "text": "Data Reply has developed a quantum algorithm that allows Enel to quickly plan th"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#21789 > a",
+    "x": 64,
+    "y": 3709,
+    "w": 411,
+    "h": 487,
+    "text": "green ai bootcamp article",
+    "href": "/en/energy-and-utilities/green-ai-bootcamp"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 64,
+    "y": 3709,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "a5eea061-1c34-4257-a1c5-4c25612cfb15"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 80,
+    "y": 4140,
+    "w": 379,
+    "h": 26,
+    "text": "green ai bootcamp",
+    "href": "/en/energy-and-utilities/green-ai-bootcamp"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 80,
+    "y": 4140,
+    "w": 379,
+    "h": 26,
+    "level": 3,
+    "text": "green ai bootcamp"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#18415 > a",
+    "x": 515,
+    "y": 3709,
+    "w": 411,
+    "h": 718,
+    "text": "innovate application management with a tailored devops solution case study",
+    "href": "/en/cloud-computing/innovating-application-management-with-a-tailored-devops-solution"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 515,
+    "y": 3709,
+    "w": 411,
+    "h": 616,
+    "text": "",
+    "file": "5d0993ad-e576-4b9f-a719-fcd9ba2aaa72"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 531,
+    "y": 4345,
+    "w": 379,
+    "h": 52,
+    "text": "innovate application management with a tailored devops solution",
+    "href": "/en/cloud-computing/innovating-application-management-with-a-tailored-devops-solution"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 531,
+    "y": 4345,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "innovate application management with a tailored devops solution"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#17936 > a",
+    "x": 965,
+    "y": 3709,
+    "w": 411,
+    "h": 513,
+    "text": "sustainable data management in the cloud article",
+    "href": "/en/energy-and-utilities/sustainable-data-management-in-the-cloud"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 965,
+    "y": 3709,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "cf150729-4773-4693-b110-252564c7d72f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 981,
+    "y": 4140,
+    "w": 379,
+    "h": 52,
+    "text": "sustainable data management in the cloud",
+    "href": "/en/energy-and-utilities/sustainable-data-management-in-the-cloud"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 981,
+    "y": 4140,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "sustainable data management in the cloud"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#17955 > a",
+    "x": 64,
+    "y": 4264,
+    "w": 411,
+    "h": 513,
+    "text": "a multicloud approach for the future of energy case study",
+    "href": "/en/cloud-computing/a-multicloud-approach-for-the-future-of-energy"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 64,
+    "y": 4264,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "f9133f3b-ecec-4e11-8c1f-1ed16cc26ee7"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 80,
+    "y": 4695,
+    "w": 379,
+    "h": 52,
+    "text": "a multicloud approach for the future of energy",
+    "href": "/en/cloud-computing/a-multicloud-approach-for-the-future-of-energy"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 80,
+    "y": 4695,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "a multicloud approach for the future of energy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#13323 > a",
+    "x": 965,
+    "y": 4289,
+    "w": 411,
+    "h": 829,
+    "text": "a demand response platform for power grids case study",
+    "href": "/en/energy-and-utilities/a-demand-response-platform-for-electric-grids"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 965,
+    "y": 4289,
+    "w": 411,
+    "h": 616,
+    "text": "",
+    "file": "402bafd0-42bf-476e-a0f0-f39d5885e74f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 981,
+    "y": 4925,
+    "w": 379,
+    "h": 52,
+    "text": "a demand response platform for power grids",
+    "href": "/en/energy-and-utilities/a-demand-response-platform-for-electric-grids"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 981,
+    "y": 4925,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "a demand response platform for power grids"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#11156 > a",
+    "x": 515,
+    "y": 4494,
+    "w": 411,
+    "h": 539,
+    "text": "towards integrated mobility: iot solutions for charging electric vehicles case s",
+    "href": "/en/iot/electric-mobility"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 515,
+    "y": 4494,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "07404c8c-ef52-4559-8d13-d99510f7d1e6"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 531,
+    "y": 4925,
+    "w": 379,
+    "h": 78,
+    "text": "towards integrated mobility: iot solutions for charging electric vehicles",
+    "href": "/en/iot/electric-mobility"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 531,
+    "y": 4925,
+    "w": 379,
+    "h": 78,
+    "level": 3,
+    "text": "towards integrated mobility: iot solutions for charging electric vehicles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#11251 > a",
+    "x": 64,
+    "y": 4844,
+    "w": 411,
+    "h": 513,
+    "text": "an iot platform to harmonise renewable energy data case study",
+    "href": "/en/iot/iot-platform-for-renewables"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 64,
+    "y": 4844,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "501927eb-26cc-4b4c-860e-3d036b54b5d7"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 80,
+    "y": 5275,
+    "w": 379,
+    "h": 52,
+    "text": "an iot platform to harmonise renewable energy data",
+    "href": "/en/iot/iot-platform-for-renewables"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 80,
+    "y": 5275,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "an iot platform to harmonise renewable energy data"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#9805 > a",
+    "x": 515,
+    "y": 5099,
+    "w": 411,
+    "h": 513,
+    "text": "record, report and reduce environmental impact case study",
+    "href": "/en/ai-powered-software-engineering/automating-emission-reporting-with-low-code"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 515,
+    "y": 5099,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "452d7e68-d6bb-475b-b624-96af6696c943"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > div.reply-card-logo.absolute > img",
+    "x": 539,
+    "y": 5123,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "7963520b-0b07-4587-83e2-5b2b22a9c43f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 531,
+    "y": 5530,
+    "w": 379,
+    "h": 52,
+    "text": "record, report and reduce environmental impact",
+    "href": "/en/ai-powered-software-engineering/automating-emission-reporting-with-low-code"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 531,
+    "y": 5530,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "record, report and reduce environmental impact"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#9240 > a",
+    "x": 965,
+    "y": 5099,
+    "w": 411,
+    "h": 648,
+    "text": "piloting advanced dr, derms, and vpp platform development best practice",
+    "href": "/light-reply/en/consultative-approach-DERM"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 965,
+    "y": 5099,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "aec3b465-b035-4830-906d-011b423f50ad"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 981,
+    "y": 5530,
+    "w": 379,
+    "h": 52,
+    "text": "piloting advanced dr, derms, and vpp platform development",
+    "href": "/light-reply/en/consultative-approach-DERM"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 981,
+    "y": 5530,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "piloting advanced dr, derms, and vpp platform development"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#7173 > a",
+    "x": 64,
+    "y": 5424,
+    "w": 411,
+    "h": 487,
+    "text": "more flexibility for charging parks case study",
+    "href": "/en/automotive-and-manufacturing/more-flexibility-for-charging-parks"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 64,
+    "y": 5424,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "96024e63-b350-42d5-a833-60910a9905dd"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > div.reply-card-logo.absolute > img",
+    "x": 88,
+    "y": 5448,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "1c872517-e756-4b17-a219-834e790f373d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 80,
+    "y": 5855,
+    "w": 379,
+    "h": 26,
+    "text": "more flexibility for charging parks",
+    "href": "/en/automotive-and-manufacturing/more-flexibility-for-charging-parks"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 80,
+    "y": 5855,
+    "w": 379,
+    "h": 26,
+    "level": 3,
+    "text": "more flexibility for charging parks"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-binding > div.pager-container > button.more.pager",
+    "x": 631,
+    "y": 5974,
+    "w": 178,
+    "h": 48,
+    "text": "load more content"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.block > nav.footer.p-10 > a",
+    "x": 64,
+    "y": 6126,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 6222,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 6222,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 6269,
+    "w": 103,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 6314,
+    "w": 45,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 6359,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 6403,
+    "w": 67,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 6222,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 6222,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 6269,
+    "w": 142,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 6314,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 6375,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 6420,
+    "w": 149,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 6269,
+    "w": 161,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 6314,
+    "w": 127,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 6359,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 6269,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 6331,
+    "w": 154,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 6375,
+    "w": 147,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 6420,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "void(0)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Careers",
+    "x": 1112,
+    "y": 6222,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Contacts",
+    "x": 1112,
+    "y": 6302,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1112,
+    "y": 6382,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1124,
+    "y": 6394,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1184,
+    "y": 6382,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1196,
+    "y": 6394,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "a6732ee4-95cf-4951-9c4b-3675c7154f7e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1256,
+    "y": 6382,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1268,
+    "y": 6394,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "49664893-bfc1-4d79-9208-3bdd7083126b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1328,
+    "y": 6382,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1340,
+    "y": 6394,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "c48097ef-90ed-4c24-aa40-1764649e72ff"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > span",
+    "x": 64,
+    "y": 6526,
+    "w": 81,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > a.underline",
+    "x": 158,
+    "y": 6526,
+    "w": 136,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.text-white.py-3 > div.flex.justify-between > button#cookie-pref-center",
+    "x": 1276,
+    "y": 859,
+    "w": 164,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 2,
+    "clamped": 1,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 4,
+    "offPage": 21,
+    "textNodes": 97,
+    "controls": 71,
+    "total": 2
+   },
+   "groups": [
+    {
+     "kind": "CONTROL CLIPPED",
+     "advisory": false,
+     "n": 1,
+     "clipper": "reply-card-runtime#13323",
+     "path": "div.contents > div.cards-wall-item > reply-card-runtime#13323 > a",
+     "text": "a demand response platform for power gridscase studysense re",
+     "cutMin": 87,
+     "cutMax": 87
+    },
+    {
+     "kind": "CONTROL CLIPPED",
+     "advisory": false,
+     "n": 1,
+     "clipper": "reply-card-runtime#9240",
+     "path": "div.contents > div.cards-wall-item > reply-card-runtime#9240 > a",
+     "text": "piloting advanced dr, derms, and vpp platform developmentbes",
+     "cutMin": 111,
+     "cutMax": 111
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.slider-with-title__outer-container--items.overflow-hidden",
+     "path": "div.oyswuvtnwn > div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+     "text": "as renewable energy continues to grow, infrastructure challe",
+     "cutMin": 384,
+     "cutMax": 386
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.reply-card-image-container.aspect-w-2",
+     "path": "reply-card-runtime#w0SGR > div.reply-card-image-container.aspect-w-2 > div.reply-card-body.!m-8 > a",
+     "text": "testing excellence for electric vehicles charging",
+     "cutMin": 22,
+     "cutMax": 22
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3.h4.text-white",
+     "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body.!m-8 > a > h3.h4.text-white",
+     "text": "testing excellence for electric vehicles charging",
+     "cutMin": 13,
+     "cutMax": 13
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "article.reply-card-abstract.paragraph-01--light",
+     "path": "div.reply-card-grid.pointer-events-none > div.reply-card-body > article.reply-card-abstract.paragraph-01--light > p",
+     "text": "discover a2a energia's path of transformation of business pr",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--a355dc1b--aemcoder.aem.live/en/energy-and-utilities",
+  "at": "2026-11-17T00:48:50.660Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6557,
+  "root": "main",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-main > div.site-header-logo > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "href": "/en"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-reply-logo > img",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "file": "reply-logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 900,
+    "y": 28,
+    "w": 46,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 1224,
+    "y": 28,
+    "w": 52,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-header-bar > nav.site-header-main > button.sm-collapsed",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-hero-pic.desktop > picture > img",
+    "x": 0,
+    "y": 49,
+    "w": 1440,
+    "h": 810,
+    "text": "",
+    "file": "media_1a25dc845f7948f7cae1d489d8b4c8835a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.r-grid > div.media-hero-title.r-cell > h1#energy--utilities",
+    "x": 177,
+    "y": 417,
+    "w": 861,
+    "h": 70,
+    "level": 1,
+    "text": "energy & utilities"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-hero-title.r-cell > h1#energy--utilities > span",
+    "x": 177,
+    "y": 416,
+    "w": 554,
+    "h": 71,
+    "text": "Energy & Utilities"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 177,
+    "y": 932,
+    "w": 749,
+    "h": 421,
+    "text": "",
+    "file": "media_1dfd1022ef6cdd3b678eb443c8f132523e"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 241,
+    "y": 1193,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+    "x": 225,
+    "y": 1227,
+    "w": 449,
+    "h": 78,
+    "text": "bmw promotes co₂-optimised charging",
+    "href": "/en/digital-experience/bmw-promotes-co2-optimised-charging"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#bmw-promotes-co-optimised-charging",
+    "x": 225,
+    "y": 1227,
+    "w": 449,
+    "h": 78,
+    "level": 3,
+    "text": "bmw promotes co₂-optimised charging"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 965,
+    "y": 932,
+    "w": 749,
+    "h": 421,
+    "text": "",
+    "file": "media_14cd24909f6b7f7a6c52c9810b2c75259a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 1029,
+    "y": 1193,
+    "w": 118,
+    "h": 14,
+    "text": "Best Practice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+    "x": 1013,
+    "y": 1227,
+    "w": 449,
+    "h": 78,
+    "text": "testing excellence for electric vehicles charging",
+    "href": "/en/quality-engineering/testing-excellence-for-electric-vehicles-charging"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#testing-excellence-for-electric-vehicles-charging",
+    "x": 1013,
+    "y": 1227,
+    "w": 449,
+    "h": 78,
+    "level": 3,
+    "text": "testing excellence for electric vehicles charging"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-carousel-inner > div.card-carousel-controls > button.card-carousel-prev.round-bt",
+    "x": 64,
+    "y": 1217,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-carousel-inner > div.card-carousel-controls > button.card-carousel-next.round-bt",
+    "x": 64,
+    "y": 1273,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 289,
+    "y": 1473,
+    "w": 861,
+    "h": 101,
+    "text": "Advancing energy transition through technological innovation"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-title.text > p",
+    "x": -387,
+    "y": 1914,
+    "w": 411,
+    "h": 26,
+    "text": "Electrification"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-body > p",
+    "x": -387,
+    "y": 1948,
+    "w": 411,
+    "h": 95,
+    "text": "The 20s are the electric decade: the process of replacing technologies that use "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-media > picture > img",
+    "x": 219,
+    "y": 1782,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "media_19aba30f774e139047b41588eb0b8f63e5"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item.active > div.slider-with-title-item-title.text > p",
+    "x": 64,
+    "y": 1914,
+    "w": 411,
+    "h": 26,
+    "text": "Grid infrastructure"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item.active > div.slider-with-title-item-body > p",
+    "x": 64,
+    "y": 1948,
+    "w": 411,
+    "h": 95,
+    "text": "As renewable energy continues to grow, infrastructure challenges will increase i"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-media > picture > img",
+    "x": 670,
+    "y": 1782,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "media_1494a728a366834146f250b587c14eeaab"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-title.text > p",
+    "x": 515,
+    "y": 1914,
+    "w": 411,
+    "h": 26,
+    "text": "Digitization"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-body > p",
+    "x": 515,
+    "y": 1948,
+    "w": 411,
+    "h": 119,
+    "text": "Production, assets and infrastructure, end-user devices. Digital supports renewe"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-media > picture > img",
+    "x": 1121,
+    "y": 1782,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "media_1d995a2e94bba2c9bee8e9410304cd2e4e"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-title.text > p",
+    "x": 965,
+    "y": 1914,
+    "w": 411,
+    "h": 26,
+    "text": "Sustainability"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-body > p",
+    "x": 965,
+    "y": 1948,
+    "w": 411,
+    "h": 71,
+    "text": "The energy transition passes through the development of circular economy initiat"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-controls.r-grid > div.slider-with-title-nav > button.slider-with-title-prev.round-bt",
+    "x": 1159,
+    "y": 1694,
+    "w": 48,
+    "h": 48,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-controls.r-grid > div.slider-with-title-nav > button.slider-with-title-next.round-bt",
+    "x": 1215,
+    "y": 1694,
+    "w": 48,
+    "h": 48,
+    "text": "next"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card.reply-card-hero > div.reply-card-image-container > a.reply-card-cover",
+    "x": 64,
+    "y": 2227,
+    "w": 1312,
+    "h": 656,
+    "text": "data and ai: the new energy of a2a",
+    "href": "/en/energy-and-utilities/data-and-ai-a2a-new-energy"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 64,
+    "y": 2227,
+    "w": 1312,
+    "h": 738,
+    "text": "",
+    "file": "media_19c96a78b75fa83393eaf163f27a94ec9c"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 193,
+    "y": 2466,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#data-and-ai-the-new-energy-of-a2a",
+    "x": 177,
+    "y": 2504,
+    "w": 523,
+    "h": 39,
+    "level": 3,
+    "text": "data and ai: the new energy of a2a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#data-and-ai-the-new-energy-of-a2a > a",
+    "x": 177,
+    "y": 2507,
+    "w": 517,
+    "h": 32,
+    "text": "data and ai: the new energy of a2a",
+    "href": "/en/energy-and-utilities/data-and-ai-a2a-new-energy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-abstract > p",
+    "x": 177,
+    "y": 2563,
+    "w": 523,
+    "h": 82,
+    "text": "Discover A2A Energia's path of transformation of business processes from a data-"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card.reply-card-hero > div.reply-card-image-container > a.reply-card-cover",
+    "x": 64,
+    "y": 2951,
+    "w": 1312,
+    "h": 656,
+    "text": "enel: quantum algorithms for optimizing maintenance activities",
+    "href": "/data-reply/en/stories/quantum-algorithms-for-the-optimization-of-maintenance-work"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 64,
+    "y": 2951,
+    "w": 1312,
+    "h": 738,
+    "text": "",
+    "file": "media_109c3f24286f5df48d02a6763a9df12cce"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 177,
+    "y": 3126,
+    "w": 113,
+    "h": 64,
+    "text": "",
+    "file": "media_1729322ccd365dd9d65cde4e1bb73625cc"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 193,
+    "y": 3214,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#enel-quantum-algorithms-for-optimizing-maintenance-activities",
+    "x": 177,
+    "y": 3252,
+    "w": 523,
+    "h": 78,
+    "level": 3,
+    "text": "enel: quantum algorithms for optimizing maintenance activities"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#enel-quantum-algorithms-for-optimizing-maintenance-activities > a",
+    "x": 177,
+    "y": 3255,
+    "w": 483,
+    "h": 71,
+    "text": "enel: quantum algorithms for optimizing maintenance activities",
+    "href": "/data-reply/en/stories/quantum-algorithms-for-the-optimization-of-maintenance-work"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-abstract > p",
+    "x": 177,
+    "y": 3350,
+    "w": 523,
+    "h": 82,
+    "text": "Data Reply has developed a quantum algorithm that allows Enel to quickly plan th"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 64,
+    "y": 3707,
+    "w": 411,
+    "h": 411,
+    "text": "green ai bootcamp article",
+    "href": "/en/energy-and-utilities/green-ai-bootcamp"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 64,
+    "y": 3707,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "media_1db53c79edca7b1be8cf5c924c9c4a1ed4"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#green-ai-bootcamp",
+    "x": 80,
+    "y": 4138,
+    "w": 379,
+    "h": 26,
+    "level": 3,
+    "text": "green ai bootcamp"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#green-ai-bootcamp > a",
+    "x": 80,
+    "y": 4138,
+    "w": 379,
+    "h": 26,
+    "text": "green ai bootcamp",
+    "href": "/en/energy-and-utilities/green-ai-bootcamp"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 96,
+    "y": 4180,
+    "w": 63,
+    "h": 14,
+    "text": "Article"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 515,
+    "y": 3707,
+    "w": 411,
+    "h": 616,
+    "text": "innovate application management with a tailored devops solution case study",
+    "href": "/en/cloud-computing/innovating-application-management-with-a-tailored-devops-solution"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 515,
+    "y": 3707,
+    "w": 411,
+    "h": 616,
+    "text": "",
+    "file": "media_19f3086d68efab2d46ba6cfc7bf19e6e95"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#innovate-application-management-with-a-tailored-devops-solution",
+    "x": 531,
+    "y": 4343,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "innovate application management with a tailored devops solution"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#innovate-application-management-with-a-tailored-devops-solution > a",
+    "x": 531,
+    "y": 4343,
+    "w": 379,
+    "h": 52,
+    "text": "innovate application management with a tailored devops solution",
+    "href": "/en/cloud-computing/innovating-application-management-with-a-tailored-devops-solution"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 547,
+    "y": 4411,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 965,
+    "y": 3707,
+    "w": 411,
+    "h": 411,
+    "text": "sustainable data management in the cloud article",
+    "href": "/en/energy-and-utilities/sustainable-data-management-in-the-cloud"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 965,
+    "y": 3707,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "media_12109ddd7dd4b8ebbecda2b77b96f67422"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#sustainable-data-management-in-the-cloud",
+    "x": 981,
+    "y": 4138,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "sustainable data management in the cloud"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#sustainable-data-management-in-the-cloud > a",
+    "x": 981,
+    "y": 4138,
+    "w": 379,
+    "h": 52,
+    "text": "sustainable data management in the cloud",
+    "href": "/en/energy-and-utilities/sustainable-data-management-in-the-cloud"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 997,
+    "y": 4206,
+    "w": 63,
+    "h": 14,
+    "text": "Article"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 64,
+    "y": 4262,
+    "w": 411,
+    "h": 411,
+    "text": "a multicloud approach for the future of energy case study",
+    "href": "/en/cloud-computing/a-multicloud-approach-for-the-future-of-energy"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 64,
+    "y": 4262,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "media_19338293dba8e929fec228a92b00f027d0"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#a-multicloud-approach-for-the-future-of-energy",
+    "x": 80,
+    "y": 4693,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "a multicloud approach for the future of energy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#a-multicloud-approach-for-the-future-of-energy > a",
+    "x": 80,
+    "y": 4693,
+    "w": 379,
+    "h": 52,
+    "text": "a multicloud approach for the future of energy",
+    "href": "/en/cloud-computing/a-multicloud-approach-for-the-future-of-energy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 96,
+    "y": 4761,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-hover > a.reply-card-cover",
+    "x": 965,
+    "y": 4287,
+    "w": 411,
+    "h": 616,
+    "text": "a demand response platform for power grids case study",
+    "href": "/en/energy-and-utilities/a-demand-response-platform-for-electric-grids"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 965,
+    "y": 4287,
+    "w": 411,
+    "h": 616,
+    "text": "",
+    "file": "media_16facb5f36b2f35bd6a7131dc73ed35b11"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#a-demand-response-platform-for-power-grids",
+    "x": 981,
+    "y": 4923,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "a demand response platform for power grids"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#a-demand-response-platform-for-power-grids > a",
+    "x": 981,
+    "y": 4923,
+    "w": 379,
+    "h": 52,
+    "text": "a demand response platform for power grids",
+    "href": "/en/energy-and-utilities/a-demand-response-platform-for-electric-grids"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 997,
+    "y": 4991,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 515,
+    "y": 4492,
+    "w": 411,
+    "h": 411,
+    "text": "towards integrated mobility: iot solutions for charging electric vehicles case s",
+    "href": "/en/iot/electric-mobility"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 515,
+    "y": 4492,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "media_120b8bbe4659c92b935c673c02b2f25047"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#towards-integrated-mobility-iot-solutions-for-charging-electric-vehicles",
+    "x": 531,
+    "y": 4923,
+    "w": 379,
+    "h": 78,
+    "level": 3,
+    "text": "towards integrated mobility: iot solutions for charging electric vehicles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#towards-integrated-mobility-iot-solutions-for-charging-electric-vehicles > a",
+    "x": 531,
+    "y": 4923,
+    "w": 379,
+    "h": 78,
+    "text": "towards integrated mobility: iot solutions for charging electric vehicles",
+    "href": "/en/iot/electric-mobility"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 547,
+    "y": 5017,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 64,
+    "y": 4842,
+    "w": 411,
+    "h": 411,
+    "text": "an iot platform to harmonise renewable energy data case study",
+    "href": "/en/iot/iot-platform-for-renewables"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 64,
+    "y": 4842,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "media_139d4351d30bde70e452daf6abb2d6107b"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#an-iot-platform-to-harmonise-renewable-energy-data",
+    "x": 80,
+    "y": 5273,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "an iot platform to harmonise renewable energy data"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#an-iot-platform-to-harmonise-renewable-energy-data > a",
+    "x": 80,
+    "y": 5273,
+    "w": 379,
+    "h": 52,
+    "text": "an iot platform to harmonise renewable energy data",
+    "href": "/en/iot/iot-platform-for-renewables"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 96,
+    "y": 5341,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 515,
+    "y": 5097,
+    "w": 411,
+    "h": 411,
+    "text": "record, report and reduce environmental impact case study",
+    "href": "/en/ai-powered-software-engineering/automating-emission-reporting-with-low-code"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 515,
+    "y": 5097,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "media_11fadb79d5c9b22c5a35c92ace1179ccea"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 539,
+    "y": 5121,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_1bee4cabfdf8d32e39dc3e4072b40389eb"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#record-report-and-reduce-environmental-impact",
+    "x": 531,
+    "y": 5528,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "record, report and reduce environmental impact"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#record-report-and-reduce-environmental-impact > a",
+    "x": 531,
+    "y": 5528,
+    "w": 379,
+    "h": 52,
+    "text": "record, report and reduce environmental impact",
+    "href": "/en/ai-powered-software-engineering/automating-emission-reporting-with-low-code"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 547,
+    "y": 5596,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-hover-1-1 > a.reply-card-cover",
+    "x": 965,
+    "y": 5097,
+    "w": 411,
+    "h": 411,
+    "text": "piloting advanced dr, derms, and vpp platform development best practice",
+    "href": "/light-reply/en/consultative-approach-DERM"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 965,
+    "y": 5097,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "media_1eff99945c0943e739f94dc40a48998804"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#piloting-advanced-dr-derms-and-vpp-platform-development",
+    "x": 981,
+    "y": 5528,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "piloting advanced dr, derms, and vpp platform development"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#piloting-advanced-dr-derms-and-vpp-platform-development > a",
+    "x": 981,
+    "y": 5528,
+    "w": 379,
+    "h": 52,
+    "text": "piloting advanced dr, derms, and vpp platform development",
+    "href": "/light-reply/en/consultative-approach-DERM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 997,
+    "y": 5596,
+    "w": 118,
+    "h": 14,
+    "text": "Best Practice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 64,
+    "y": 5422,
+    "w": 411,
+    "h": 411,
+    "text": "more flexibility for charging parks case study",
+    "href": "/en/automotive-and-manufacturing/more-flexibility-for-charging-parks"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 64,
+    "y": 5422,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "media_14a56d7bdc88df520d692a1cbae36a030b"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 88,
+    "y": 5446,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_1b286e75a423aacb794fb783dc1cacafd3"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#more-flexibility-for-charging-parks",
+    "x": 80,
+    "y": 5853,
+    "w": 379,
+    "h": 26,
+    "level": 3,
+    "text": "more flexibility for charging parks"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#more-flexibility-for-charging-parks > a",
+    "x": 80,
+    "y": 5853,
+    "w": 379,
+    "h": 26,
+    "text": "more flexibility for charging parks",
+    "href": "/en/automotive-and-manufacturing/more-flexibility-for-charging-parks"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 96,
+    "y": 5895,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-cell.r-cell > div.cards-wall-pager > div.cards-wall-more",
+    "x": 633,
+    "y": 5972,
+    "w": 174,
+    "h": 48,
+    "text": "load more content"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-wrap > nav.footer-nav > a.footer-nav-home",
+    "x": 64,
+    "y": 6124,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 6220,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 6220,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 6267,
+    "w": 102,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 6312,
+    "w": 43,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 6357,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 6401,
+    "w": 66,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 6220,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 6220,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 6267,
+    "w": 145,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 6312,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 6373,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 6418,
+    "w": 150,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 6267,
+    "w": 160,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 6312,
+    "w": 131,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 6357,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 6267,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 6329,
+    "w": 153,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 6373,
+    "w": 143,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 6418,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "/en/energy-and-utilities"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 6220,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 6300,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1112,
+    "y": 6380,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1124,
+    "y": 6392,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1184,
+    "y": 6380,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1196,
+    "y": 6392,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1256,
+    "y": 6380,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1268,
+    "y": 6392,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-linkedin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1328,
+    "y": 6380,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1340,
+    "y": 6392,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-xing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > span",
+    "x": 64,
+    "y": 6524,
+    "w": 84,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > a",
+    "x": 160,
+    "y": 6524,
+    "w": 131,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-inner > div.site-legal-row > button#cookie-pref-center",
+    "x": 1278,
+    "y": 859,
+    "w": 162,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 1,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 3,
+    "offPage": 12,
+    "textNodes": 87,
+    "controls": 71,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.reply-card-image-container",
+     "path": "div.reply-card.reply-card-horizontal > div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+     "text": "testing excellence for electric vehicles charging",
+     "cutMin": 23,
+     "cutMax": 23
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3#testing-excellence-for-electric-vehicles-charging",
+     "path": "div.reply-card-body > a.reply-card-link > div.reply-card-title > h3#testing-excellence-for-electric-vehicles-charging",
+     "text": "testing excellence for electric vehicles charging",
+     "cutMin": 5,
+     "cutMax": 5
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slider-with-title-rail",
+     "path": "ul.slider-with-title-items > li.slider-with-title-item > div.slider-with-title-item-body > p",
+     "text": "the 20s are the electric decade: the process of replacing te",
+     "cutMin": 383,
+     "cutMax": 383
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.reply-card-abstract",
+     "path": "div.reply-card-grid > div.reply-card-body > div.reply-card-abstract > p",
+     "text": "discover a2a energia's path of transformation of business pr",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ],
+   "findings": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 23,
+     "path": "div.reply-card.reply-card-horizontal > div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+     "text": "testing excellence for electric vehicles charging",
+     "clipper": "div.reply-card-image-container",
+     "rect": {
+      "l": 1013,
+      "t": 1227,
+      "r": 1463,
+      "b": 1305,
+      "w": 449,
+      "h": 78
+     },
+     "clip": {
+      "l": 965,
+      "t": 932,
+      "r": 1714,
+      "b": 1353,
+      "w": 749,
+      "h": 421
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 5,
+     "path": "div.reply-card-body > a.reply-card-link > div.reply-card-title > h3#testing-excellence-for-electric-vehicles-charging",
+     "text": "testing excellence for electric vehicles charging",
+     "clipper": "h3#testing-excellence-for-electric-vehicles-charging",
+     "rect": {
+      "l": 1013,
+      "t": 1230,
+      "r": 1445,
+      "b": 1262,
+      "w": 431,
+      "h": 32
+     },
+     "clip": {
+      "l": 1013,
+      "t": 1227,
+      "r": 1462,
+      "b": 1305,
+      "w": 449,
+      "h": 78
+     },
+     "lines": 2
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 383,
+     "path": "ul.slider-with-title-items > li.slider-with-title-item > div.slider-with-title-item-body > p",
+     "text": "the 20s are the electric decade: the process of replacing te",
+     "clipper": "div.slider-with-title-rail",
+     "rect": {
+      "l": -383,
+      "t": 1951,
+      "r": 20,
+      "b": 1967,
+      "w": 403,
+      "h": 16
+     },
+     "clip": {
+      "l": 0,
+      "t": 1782,
+      "r": 1440,
+      "b": 2131,
+      "w": 1440,
+      "h": 349
+     },
+     "lines": 4
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.reply-card-grid > div.reply-card-body > div.reply-card-abstract > p",
+     "text": "discover a2a energia's path of transformation of business pr",
+     "clipper": "div.reply-card-abstract",
+     "rect": {
+      "l": 177,
+      "t": 2567,
+      "r": 649,
+      "b": 2585,
+      "w": 472,
+      "h": 18
+     },
+     "clip": {
+      "l": 177,
+      "t": 2563,
+      "r": 700,
+      "b": 2645,
+      "w": 523,
+      "h": 82
+     },
+     "lines": 5
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "energy & utilities",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 2,
+    "image": 2
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "bmw promotes co₂-optimised charging",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "testing excellence for electric vehicles charging",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 3,
+    "text": 8,
+    "image": 4
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 3,
+    "buttonHidden": 0,
+    "text": 8,
+    "textHidden": 2,
+    "image": 4,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "MISSING BUTTON",
+    "MISSING BUTTON"
+   ]
+  },
+  {
+   "index": 4,
+   "heading": "data and ai: the new energy of a2a",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 2,
+    "image": 2
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "enel: quantum algorithms for optimizing maintenance activities",
+   "variable": false,
+   "origin": {
+    "link": 4,
+    "button": 0,
+    "text": 1,
+    "image": 3
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "green ai bootcamp",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "sustainable data management in the cloud",
+   "variable": false,
+   "origin": {
+    "link": 4,
+    "button": 0,
+    "text": 0,
+    "image": 2
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "innovate application management with a tailored devops solution",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "a multicloud approach for the future of energy",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "a demand response platform for power grids",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "towards integrated mobility: iot solutions for charging electric vehicles",
+   "variable": false,
+   "origin": {
+    "link": 4,
+    "button": 0,
+    "text": 0,
+    "image": 3
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "an iot platform to harmonise renewable energy data",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 2
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 13,
+   "heading": "record, report and reduce environmental impact",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 14,
+   "heading": "piloting advanced dr, derms, and vpp platform development",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 15,
+   "heading": "more flexibility for charging parks",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"prev item\" in band \"testing excellence for electric vehicles charging\" (origin y 1696) not on the served page",
+   "band": 3,
+   "n": 1,
+   "text": "prev item"
+  },
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"next item\" in band \"testing excellence for electric vehicles charging\" (origin y 1696) not on the served page",
+   "band": 3,
+   "n": 1,
+   "text": "next item"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"previous\" served in band \"testing excellence for electric vehicles charging\", no origin link or button",
+   "band": 3,
+   "n": 1,
+   "text": "previous"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"next\" served in band \"testing excellence for electric vehicles charging\", no origin link or button",
+   "band": 3,
+   "n": 1,
+   "text": "next"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 2,
+  "missingButtons": 2,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 4,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 1339,
+    "y": 7,
+    "w": 17,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 51,
+    "w": 62,
+    "h": 16
+   },
+   {
+    "x": 612,
+    "y": 51,
+    "w": 72,
+    "h": 16
+   },
+   {
+    "x": 740,
+    "y": 51,
+    "w": 110,
+    "h": 16
+   },
+   {
+    "x": 906,
+    "y": 51,
+    "w": 41,
+    "h": 16
+   },
+   {
+    "x": 1003,
+    "y": 51,
+    "w": 60,
+    "h": 16
+   },
+   {
+    "x": 1119,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1225,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 416,
+    "w": 554,
+    "h": 71
+   },
+   {
+    "x": 241,
+    "y": 1194,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 225,
+    "y": 1230,
+    "w": 448,
+    "h": 32
+   },
+   {
+    "x": 225,
+    "y": 1269,
+    "w": 132,
+    "h": 32
+   },
+   {
+    "x": 1029,
+    "y": 1194,
+    "w": 106,
+    "h": 11
+   },
+   {
+    "x": 1013,
+    "y": 1230,
+    "w": 439,
+    "h": 32
+   },
+   {
+    "x": 1013,
+    "y": 1269,
+    "w": 257,
+    "h": 32
+   },
+   {
+    "x": 321,
+    "y": 1477,
+    "w": 799,
+    "h": 46
+   },
+   {
+    "x": 453,
+    "y": 1528,
+    "w": 534,
+    "h": 46
+   },
+   {
+    "x": -378,
+    "y": 1953,
+    "w": 393,
+    "h": 16
+   },
+   {
+    "x": -384,
+    "y": 1977,
+    "w": 405,
+    "h": 16
+   },
+   {
+    "x": 208,
+    "y": 1918,
+    "w": 123,
+    "h": 22
+   },
+   {
+    "x": 69,
+    "y": 1953,
+    "w": 400,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 1977,
+    "w": 393,
+    "h": 16
+   },
+   {
+    "x": 83,
+    "y": 2001,
+    "w": 372,
+    "h": 16
+   },
+   {
+    "x": 98,
+    "y": 2024,
+    "w": 342,
+    "h": 16
+   },
+   {
+    "x": 191,
+    "y": 2048,
+    "w": 156,
+    "h": 16
+   },
+   {
+    "x": 647,
+    "y": 1918,
+    "w": 146,
+    "h": 22
+   },
+   {
+    "x": 523,
+    "y": 1953,
+    "w": 395,
+    "h": 16
+   },
+   {
+    "x": 523,
+    "y": 1977,
+    "w": 395,
+    "h": 16
+   },
+   {
+    "x": 525,
+    "y": 2001,
+    "w": 389,
+    "h": 16
+   },
+   {
+    "x": 1107,
+    "y": 1918,
+    "w": 127,
+    "h": 22
+   },
+   {
+    "x": 972,
+    "y": 1953,
+    "w": 398,
+    "h": 16
+   },
+   {
+    "x": 989,
+    "y": 1977,
+    "w": 363,
+    "h": 16
+   },
+   {
+    "x": 989,
+    "y": 2001,
+    "w": 362,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 2024,
+    "w": 120,
+    "h": 16
+   },
+   {
+    "x": 1417,
+    "y": 1953,
+    "w": 409,
+    "h": 16
+   },
+   {
+    "x": 1429,
+    "y": 1977,
+    "w": 384,
+    "h": 16
+   },
+   {
+    "x": 1433,
+    "y": 2001,
+    "w": 377,
+    "h": 16
+   },
+   {
+    "x": 1420,
+    "y": 2024,
+    "w": 403,
+    "h": 16
+   },
+   {
+    "x": 193,
+    "y": 2469,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 2509,
+    "w": 520,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 2569,
+    "w": 472,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2596,
+    "w": 458,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2623,
+    "w": 488,
+    "h": 18
+   },
+   {
+    "x": 193,
+    "y": 3201,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 3241,
+    "w": 426,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 3280,
+    "w": 505,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 3340,
+    "w": 488,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 3367,
+    "w": 506,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 3394,
+    "w": 222,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 4142,
+    "w": 207,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 4183,
+    "w": 57,
+    "h": 11
+   },
+   {
+    "x": 531,
+    "y": 4347,
+    "w": 366,
+    "h": 22
+   },
+   {
+    "x": 531,
+    "y": 4373,
+    "w": 328,
+    "h": 22
+   },
+   {
+    "x": 547,
+    "y": 4414,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 981,
+    "y": 4142,
+    "w": 351,
+    "h": 22
+   },
+   {
+    "x": 981,
+    "y": 4168,
+    "w": 98,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 4209,
+    "w": 57,
+    "h": 11
+   },
+   {
+    "x": 80,
+    "y": 4697,
+    "w": 315,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 4723,
+    "w": 170,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 4764,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 981,
+    "y": 4927,
+    "w": 347,
+    "h": 22
+   },
+   {
+    "x": 981,
+    "y": 4953,
+    "w": 123,
+    "h": 22
+   },
+   {
+    "x": 531,
+    "y": 4927,
+    "w": 341,
+    "h": 22
+   },
+   {
+    "x": 531,
+    "y": 4953,
+    "w": 312,
+    "h": 22
+   },
+   {
+    "x": 531,
+    "y": 4979,
+    "w": 85,
+    "h": 22
+   },
+   {
+    "x": 547,
+    "y": 5020,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 80,
+    "y": 5277,
+    "w": 306,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 5303,
+    "w": 245,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 5344,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 531,
+    "y": 5532,
+    "w": 274,
+    "h": 22
+   },
+   {
+    "x": 531,
+    "y": 5558,
+    "w": 234,
+    "h": 22
+   },
+   {
+    "x": 547,
+    "y": 5599,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 981,
+    "y": 5532,
+    "w": 361,
+    "h": 22
+   },
+   {
+    "x": 981,
+    "y": 5558,
+    "w": 285,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 5857,
+    "w": 359,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 5898,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 631,
+    "y": 5989,
+    "w": 178,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 6223,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 6270,
+    "w": 103,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6315,
+    "w": 45,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6360,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6404,
+    "w": 67,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6223,
+    "w": 135,
+    "h": 16
+   },
+   {
+    "x": 402,
+    "y": 6270,
+    "w": 142,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6315,
+    "w": 89,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6332,
+    "w": 73,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6376,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 6376,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6421,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 6421,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6270,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 6270,
+    "w": 69,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6315,
+    "w": 127,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6360,
+    "w": 121,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6376,
+    "w": 85,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6393,
+    "w": 39,
+    "h": 13
+   },
+   {
+    "x": 642,
+    "y": 6393,
+    "w": 51,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6270,
+    "w": 157,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6287,
+    "w": 36,
+    "h": 13
+   },
+   {
+    "x": 841,
+    "y": 6287,
+    "w": 64,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6332,
+    "w": 154,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6376,
+    "w": 147,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6421,
+    "w": 130,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6438,
+    "w": 128,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 6238,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 1112,
+    "y": 6318,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 6527,
+    "w": 81,
+    "h": 13
+   },
+   {
+    "x": 149,
+    "y": 6527,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 158,
+    "y": 6527,
+    "w": 136,
+    "h": 13
+   },
+   {
+    "x": 1296,
+    "y": 872,
+    "w": 124,
+    "h": 13
+   }
+  ],
+  "eds": [
+   {
+    "x": 1336,
+    "y": 7,
+    "w": 20,
+    "h": 13
+   },
+   {
+    "x": 486,
+    "y": 51,
+    "w": 63,
+    "h": 16
+   },
+   {
+    "x": 605,
+    "y": 51,
+    "w": 71,
+    "h": 16
+   },
+   {
+    "x": 733,
+    "y": 51,
+    "w": 111,
+    "h": 16
+   },
+   {
+    "x": 900,
+    "y": 51,
+    "w": 46,
+    "h": 16
+   },
+   {
+    "x": 1002,
+    "y": 51,
+    "w": 59,
+    "h": 16
+   },
+   {
+    "x": 1118,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1224,
+    "y": 51,
+    "w": 52,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 416,
+    "w": 554,
+    "h": 71
+   },
+   {
+    "x": 241,
+    "y": 1193,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 225,
+    "y": 1230,
+    "w": 448,
+    "h": 32
+   },
+   {
+    "x": 225,
+    "y": 1269,
+    "w": 126,
+    "h": 32
+   },
+   {
+    "x": 1029,
+    "y": 1193,
+    "w": 118,
+    "h": 13
+   },
+   {
+    "x": 1013,
+    "y": 1230,
+    "w": 431,
+    "h": 32
+   },
+   {
+    "x": 1013,
+    "y": 1269,
+    "w": 253,
+    "h": 32
+   },
+   {
+    "x": 321,
+    "y": 1475,
+    "w": 799,
+    "h": 46
+   },
+   {
+    "x": 456,
+    "y": 1526,
+    "w": 528,
+    "h": 46
+   },
+   {
+    "x": -383,
+    "y": 1951,
+    "w": 403,
+    "h": 16
+   },
+   {
+    "x": -372,
+    "y": 1975,
+    "w": 382,
+    "h": 16
+   },
+   {
+    "x": -363,
+    "y": 1999,
+    "w": 364,
+    "h": 16
+   },
+   {
+    "x": -378,
+    "y": 2022,
+    "w": 393,
+    "h": 16
+   },
+   {
+    "x": 175,
+    "y": 1916,
+    "w": 189,
+    "h": 22
+   },
+   {
+    "x": 81,
+    "y": 1951,
+    "w": 377,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 1975,
+    "w": 393,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 1999,
+    "w": 411,
+    "h": 16
+   },
+   {
+    "x": 224,
+    "y": 2022,
+    "w": 90,
+    "h": 16
+   },
+   {
+    "x": 662,
+    "y": 1916,
+    "w": 115,
+    "h": 22
+   },
+   {
+    "x": 524,
+    "y": 1951,
+    "w": 393,
+    "h": 16
+   },
+   {
+    "x": 530,
+    "y": 1975,
+    "w": 380,
+    "h": 16
+   },
+   {
+    "x": 539,
+    "y": 1999,
+    "w": 363,
+    "h": 16
+   },
+   {
+    "x": 520,
+    "y": 2022,
+    "w": 400,
+    "h": 16
+   },
+   {
+    "x": 681,
+    "y": 2046,
+    "w": 79,
+    "h": 16
+   },
+   {
+    "x": 1101,
+    "y": 1916,
+    "w": 139,
+    "h": 22
+   },
+   {
+    "x": 969,
+    "y": 1951,
+    "w": 404,
+    "h": 16
+   },
+   {
+    "x": 990,
+    "y": 1975,
+    "w": 361,
+    "h": 16
+   },
+   {
+    "x": 982,
+    "y": 1999,
+    "w": 377,
+    "h": 16
+   },
+   {
+    "x": 193,
+    "y": 2466,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 177,
+    "y": 2507,
+    "w": 517,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 2567,
+    "w": 472,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2594,
+    "w": 450,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2621,
+    "w": 511,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2621,
+    "w": 501,
+    "h": 18
+   },
+   {
+    "x": 193,
+    "y": 3214,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 177,
+    "y": 3255,
+    "w": 417,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 3294,
+    "w": 483,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 3354,
+    "w": 518,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 3381,
+    "w": 455,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 3408,
+    "w": 209,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 4140,
+    "w": 207,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 4180,
+    "w": 63,
+    "h": 13
+   },
+   {
+    "x": 531,
+    "y": 4345,
+    "w": 353,
+    "h": 22
+   },
+   {
+    "x": 531,
+    "y": 4371,
+    "w": 321,
+    "h": 22
+   },
+   {
+    "x": 547,
+    "y": 4411,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 981,
+    "y": 4140,
+    "w": 341,
+    "h": 22
+   },
+   {
+    "x": 981,
+    "y": 4166,
+    "w": 96,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 4206,
+    "w": 63,
+    "h": 13
+   },
+   {
+    "x": 80,
+    "y": 4695,
+    "w": 371,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 4721,
+    "w": 97,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 4761,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 981,
+    "y": 4925,
+    "w": 346,
+    "h": 22
+   },
+   {
+    "x": 981,
+    "y": 4951,
+    "w": 120,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 4991,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 531,
+    "y": 4925,
+    "w": 330,
+    "h": 22
+   },
+   {
+    "x": 531,
+    "y": 4951,
+    "w": 304,
+    "h": 22
+   },
+   {
+    "x": 531,
+    "y": 4977,
+    "w": 85,
+    "h": 22
+   },
+   {
+    "x": 547,
+    "y": 5017,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 80,
+    "y": 5275,
+    "w": 302,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 5301,
+    "w": 236,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 5341,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 531,
+    "y": 5530,
+    "w": 271,
+    "h": 22
+   },
+   {
+    "x": 531,
+    "y": 5556,
+    "w": 224,
+    "h": 22
+   },
+   {
+    "x": 547,
+    "y": 5596,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 981,
+    "y": 5530,
+    "w": 369,
+    "h": 22
+   },
+   {
+    "x": 981,
+    "y": 5556,
+    "w": 284,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 5596,
+    "w": 118,
+    "h": 13
+   },
+   {
+    "x": 80,
+    "y": 5855,
+    "w": 353,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 5895,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 633,
+    "y": 5986,
+    "w": 174,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 6220,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 6268,
+    "w": 102,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6313,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6358,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6402,
+    "w": 66,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6220,
+    "w": 135,
+    "h": 18
+   },
+   {
+    "x": 402,
+    "y": 6268,
+    "w": 145,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6313,
+    "w": 88,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6330,
+    "w": 71,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6374,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 6374,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6419,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 6419,
+    "w": 58,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6268,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 6268,
+    "w": 68,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6313,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6358,
+    "w": 120,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6374,
+    "w": 83,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6391,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 643,
+    "y": 6391,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6268,
+    "w": 156,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6285,
+    "w": 41,
+    "h": 13
+   },
+   {
+    "x": 845,
+    "y": 6285,
+    "w": 65,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6330,
+    "w": 153,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6374,
+    "w": 143,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6419,
+    "w": 132,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6436,
+    "w": 126,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 6235,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 1112,
+    "y": 6315,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 6525,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 152,
+    "y": 6525,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 160,
+    "y": 6525,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 1298,
+    "y": 871,
+    "w": 122,
+    "h": 16
+   }
+  ]
+ }
+}

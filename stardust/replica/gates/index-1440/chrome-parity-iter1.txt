@@ -1,0 +1,27 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.reply.com/
+  build: http://localhost:8791/index-proposed.html
+
+■ header: 9 delta(s) — 8 paired of 8/8 texts, 4/4 icons
+  REGION BOX   Δy -44px (44→0), Δh +28px (64→92)
+  PAIR         "EN"  Δx -3px (1339→1336); Δy -16px (22→6); Δw +3px (17→20); <button> box 37×17 → 40×17
+  PAIR         "Services"  Δx -8px (494→486); Δy -16px (64→48)
+  PAIR         "Industries"  Δx -7px (612→605); Δy -16px (64→48)
+  PAIR         "Insights & Labs"  Δx -7px (740→733); Δy -16px (64→48)
+  PAIR         "ROSE"  Δx -6px (906→900); Δy -16px (64→48); Δw +5px (41→46); <a> box 41×64 → 46×64
+  PAIR         "We care"  Δy -16px (64→48)
+  PAIR         "We are"  Δy -16px (64→48)
+  PAIR         "Join us"  Δy -16px (64→48)
+
+■ footer: 8 delta(s) — 25 paired of 25/25 texts, 7/7 icons
+  OFFSET       the region and its 17 paired text(s) sit Δy +28px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+  PAIR         "Offices"  Δy +28px (15779→15807); Δw -2px (45→43)
+  PAIR         "Privacy & Cookie Policy"  Δy +28px (15734→15762); Δw +3px (142→145)
+  PAIR         "(Candidate)"  Δy +28px (15797→15825); Δw -2px (73→71)
+  PAIR         "CCPA Privacy Notice"  Δy +28px (15779→15807); Δw +4px (127→131)
+  PAIR         "(UK & IR)"  Δy +28px (15859→15887); Δw +6px (51→57)
+  PAIR         "(Germany)"  Δx +4px (841→845); Δy +28px (15752→15780)
+  PAIR         "Accessibility Statement"  Δy +28px (15841→15869); Δw -4px (147→143)
+  PAIR         "Contacts"  Δy +28px (15781→15809); Δw -3px (88→85)
+
+✗ 17 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

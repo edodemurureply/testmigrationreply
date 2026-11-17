@@ -1,0 +1,3459 @@
+/* text-band — lifted from the prototype .ed-text (ice / pendulum / framework / highlight) */
+/* stylelint-disable no-descending-specificity -- variant rules follow the base rules */
+.text-band {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.text-band .bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.text-band .bg picture {
+  display: contents;
+}
+
+.text-band .bg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.text-band .grid {
+  position: relative;
+  margin-top: 56px;
+  margin-bottom: 56px;
+}
+
+.text-band .title {
+  grid-area: 1 / 1 / 2 / 5;
+  margin-bottom: 1.5rem;
+}
+
+.text-band .body {
+  grid-area: 2 / 1 / 3 / 5;
+}
+
+.text-band .sp-top {
+  display: none;
+}
+
+.text-band .sp-group {
+  display: block;
+  width: 100%;
+  height: 42px;
+}
+
+/* title: .ct-section (h2), .ct-highlight / .ct-chart-title (highlight paragraphs) */
+.text-band .title-text {
+  overflow-wrap: break-word;
+  font-family: var(--font-lead);
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 120%;
+}
+
+.text-band .title-text :is(h2, h3, h4) {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+  white-space: break-spaces;
+}
+
+.text-band .title-text p,
+.text-band .body-text p {
+  margin: 0;
+  font: inherit;
+  white-space: break-spaces;
+}
+
+.text-band.highlight .title-text {
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.text-band.highlight.large .title-text {
+  font-size: 18px;
+  line-height: 130%;
+}
+
+/* body: canon .rich p */
+.text-band .body-text {
+  overflow-wrap: break-word;
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+.text-band .body-text p:has(+ p) {
+  margin-bottom: 0.75em;
+}
+
+.text-band .pic {
+  display: block;
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.text-band .pic picture {
+  display: contents;
+}
+
+.text-band .pic img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  border-radius: 6px;
+}
+
+/* colours */
+.text-band.orange .title-text {
+  color: #ff8c00;
+}
+
+.text-band.green .title-text {
+  color: var(--primary-color-50, #02d34a);
+}
+
+.text-band.blue .title-text {
+  color: #0052cc;
+}
+
+.text-band.magenta .title-text {
+  color: #d314c0;
+}
+
+.text-band.white .title-text,
+.text-band.framework .title-text,
+.text-band.framework .body-text {
+  color: #fff;
+}
+
+/* bands */
+.text-band.pendulum {
+  background: #f4f8fc;
+}
+
+.text-band.pendulum .grid {
+  margin-top: 0;
+}
+
+.text-band.pendulum .sp-top {
+  display: block;
+  width: 100%;
+  height: 42px;
+}
+
+@media (width >= 768px) {
+  .text-band .title {
+    grid-column: 1 / 9;
+    margin-bottom: 1.25rem;
+  }
+
+  .text-band .body {
+    grid-column: 1 / 9;
+  }
+}
+
+@media (width >= 1024px) {
+  .text-band .title,
+  .text-band .body {
+    grid-column: 3 / 11;
+  }
+}
+
+@media (width >= 1440px) {
+  .text-band .grid {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+
+  .text-band.pendulum .grid {
+    margin-top: 0;
+  }
+
+  .text-band.pendulum .sp-top {
+    height: 350px;
+  }
+
+  .text-band .title {
+    margin-bottom: 2.5rem;
+  }
+
+  .text-band .body {
+    justify-content: center;
+  }
+
+  .text-band .title-text {
+    font-size: 36px;
+  }
+
+  .text-band.highlight .title-text {
+    font-size: 18px;
+  }
+
+  .text-band.highlight.large .title-text {
+    font-size: 20px;
+  }
+
+  .text-band .title-text,
+  .text-band .body-text {
+    text-align: center;
+  }
+}
+
+/* ---------- cluster-editorial sibling variants (additive) ---------- */
+.text-band .kicker {
+  margin-bottom: 24px;
+  color: #586674;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.text-band .kicker :is(h1, h2, h3, h4, h5, h6, p) {
+  margin: 0;
+  font: inherit;
+}
+
+.text-band .lead {
+  margin-top: 24px;
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+.text-band .body-text :is(h3, h4, h5, h6) {
+  margin: 0 0 16px;
+  font-family: var(--font-lead);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.text-band .body-text :is(ul, ol) {
+  margin: 0 0 0.75em;
+  padding-left: 40px;
+}
+
+.text-band .body-text li + li {
+  margin-top: 0;
+}
+
+.text-band .body-text p:has(+ :is(ul, ol)) {
+  margin-bottom: 0.75em;
+}
+
+.text-band .body-text img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.text-band .body-text p:has(> picture) {
+  margin-bottom: 16px;
+  white-space: normal;
+}
+
+.text-band .body-text a:any-link {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.text-band .figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.text-band .figure .pic img {
+  aspect-ratio: auto;
+}
+
+/* colours */
+.text-band.grey {
+  background: #f4f8fc;
+}
+
+.text-band.dark {
+  background: #28333e;
+}
+
+.text-band.navy {
+  background: #151f27;
+}
+
+.text-band.black {
+  background: #000;
+}
+
+.text-band:is(.dark, .navy, .black) :is(.title-text, .body-text, .lead) {
+  color: #fff;
+}
+
+/* statement: large light copy */
+.text-band.statement :is(.title-text, .body-text) {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* cards: one card per body group */
+.text-band:is(.cards, .cards-left, .teasers) .body {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+.text-band:is(.cards, .cards-left, .teasers, .cols, .accordion, .agenda) .sp-group {
+  display: none;
+}
+
+.text-band.cards .body-text {
+  text-align: center;
+}
+
+.text-band.cards .body-text :is(h3, h4, h5, h6, p) {
+  margin-bottom: 12px;
+}
+
+.text-band.cards-left .body-text,
+.text-band.teasers .body-text {
+  text-align: left;
+}
+
+.text-band.teasers .body-text img {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* accordion */
+.text-band.accordion .body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.text-band.accordion .acc-item {
+  padding: 20px 24px;
+  border-radius: 4px;
+  background: #fff;
+  color: #151f27;
+}
+
+.text-band.accordion .acc-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.text-band.accordion .acc-head :is(h2, h3, h4, h5, h6, p) {
+  margin: 0;
+  font-family: var(--font-lead);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 170%;
+}
+
+.text-band.accordion .acc-icon {
+  position: relative;
+  flex: 0 0 22.5px;
+  width: 22.5px;
+  height: 22.5px;
+  color: #151f27;
+}
+
+.text-band.accordion .acc-icon::before,
+.text-band.accordion .acc-icon::after {
+  content: '';
+  position: absolute;
+  top: calc(50% - 1px);
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: currentcolor;
+}
+
+.text-band.accordion .acc-icon::after {
+  transform: rotate(90deg);
+}
+
+.text-band.accordion .open .acc-icon::after {
+  display: none;
+}
+
+.text-band.accordion .acc-panel {
+  display: none;
+  padding-top: 16px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.text-band.accordion .open .acc-panel {
+  display: block;
+}
+
+.text-band:is(.white, .grey) .acc-item {
+  background: #fff;
+}
+
+.text-band.accordion:not(.grey, .dark, .navy, .black) .acc-item {
+  background: #f4f8fc;
+}
+
+/* agenda: time | entry */
+.text-band.agenda .body {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.text-band.agenda .ag-time {
+  color: #586674;
+  font-size: 14px;
+}
+
+.text-band.agenda .ag-what p {
+  margin: 0;
+}
+
+/* cols: body groups side by side */
+.text-band.cols .body {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 27px 40px;
+}
+
+@media (width >= 768px) {
+  .text-band:is(.cards, .cards-left, .teasers) .body {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width >= 1024px) {
+  .text-band:is(.left, .wide, .split, .cols, .media, .media-right, .cards-left, .teasers)
+    :is(.title-text, .body-text) {
+    text-align: left;
+  }
+
+  .text-band.wide .title,
+  .text-band.wide .body,
+  .text-band.cols .title {
+    grid-column: 2 / 10;
+  }
+
+  .text-band.cols .body {
+    grid-column: 2 / 12;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .text-band.split .title {
+    grid-area: 1 / 2 / 2 / 7;
+    margin-bottom: 0;
+  }
+
+  .text-band.split .body {
+    grid-area: 1 / 7 / 2 / 12;
+  }
+
+  .text-band.media .figure {
+    grid-area: 1 / 2 / 3 / 6;
+  }
+
+  .text-band.media :is(.title, .body) {
+    grid-column: 8 / 12;
+  }
+
+  .text-band.media-right :is(.title, .body) {
+    grid-column: 2 / 7;
+  }
+
+  .text-band.media-right .figure {
+    grid-area: 1 / 8 / 3 / 12;
+  }
+
+  .text-band:is(.cards, .cards-left, .teasers) .body {
+    grid-column: 1 / 13;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    grid-template-columns: none;
+  }
+
+  .text-band:is(.cards, .cards-left, .teasers) .title {
+    grid-column: 2 / 12;
+  }
+
+  .text-band.accordion .body {
+    grid-column: 2 / 12;
+  }
+
+  .text-band.agenda .ag-item {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 40px;
+  }
+
+  .text-band.statement :is(.title-text, .body-text) {
+    font-size: 42px;
+  }
+}
+
+/* note: a source line under the previous band */
+.text-band.note .grid {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.text-band.note .body-text {
+  color: #5b5f61;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.text-band.no-kicker .kicker {
+  margin-bottom: 0;
+  color: inherit;
+  font: inherit;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+@media (width >= 1024px) {
+  .text-band.teasers .body {
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-flow: row;
+  }
+}
+
+/* figures: the source 4-up / 3-up figure row (.figure-data, square icons) — one figure per group */
+.text-band.figures .sp-group {
+  display: none;
+}
+
+.text-band.figures .body {
+  display: grid;
+  grid-template-columns: repeat(2, 120px);
+  justify-content: center;
+  gap: 48px 40px;
+}
+
+.text-band.figures .body-text {
+  font-family: var(--font-lead);
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+}
+
+.text-band.figures .body-text img {
+  width: 100px;
+  margin: 0 auto 16px;
+}
+
+.text-band.figures .body-text p:has(> picture) {
+  margin-bottom: 0;
+}
+
+.text-band.figures .body-text p + p {
+  margin-top: 10px;
+}
+
+.text-band.figures.figures-title .body-text img {
+  width: 120px;
+}
+
+.text-band.figures.figures-title .body-text p:has(picture) + p {
+  font-size: 20px;
+}
+
+.text-band.figures.figures-title .body-text p + p + p {
+  font-size: 14px;
+  line-height: 170%;
+}
+
+.text-band.figures.figures-stat .body-text p:has(picture) + p {
+  font-size: 24px;
+}
+
+@media (width >= 1024px) {
+  .text-band.figures .body {
+    grid-column: 2 / 12;
+    grid-template-columns: repeat(auto-fit, 185px);
+    justify-content: space-between;
+  }
+
+  .text-band.figures .body-text {
+    font-size: 18px;
+  }
+
+  .text-band.figures .body-text img {
+    margin-bottom: 32px;
+  }
+
+  .text-band.figures .lead {
+    max-width: 636px;
+  }
+
+  .text-band.figures.figures-title .body-text p:has(picture) + p {
+    font-size: 24px;
+  }
+
+  .text-band.figures.figures-stat .body-text p:has(picture) + p {
+    font-size: 28px;
+  }
+
+  .text-band.wide.figures .title-text {
+    text-align: left;
+  }
+}
+
+/* column-width modifiers on the 12-col grid (source band geometry; additive) */
+@media (width >= 1024px) {
+  .text-band.media-right.fig-3 .figure {
+    grid-column: 9 / 12;
+  }
+
+  .text-band.media-right.fig-3w .figure {
+    grid-column: 9 / 12;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+
+  .text-band.media-right.text-4 :is(.title, .body) {
+    grid-column: 2 / 6;
+  }
+
+  .text-band.media.fig-5 .figure {
+    grid-area: 1 / 2 / 3 / 7;
+  }
+
+  .text-band.media.text-6 :is(.title, .body) {
+    grid-column: 6 / 12;
+  }
+
+  .text-band.media.fig-narrow .figure {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .text-band.media.fig-narrow .figure .pic {
+    flex: 0 0 150px;
+  }
+
+  .text-band.media-right.fig-under .title {
+    grid-area: 1 / 2 / 2 / 6;
+  }
+
+  .text-band.media-right.fig-under .figure {
+    grid-area: 2 / 2 / 3 / 6;
+  }
+
+  .text-band.media-right.fig-under .body {
+    grid-area: 1 / 7 / 3 / 12;
+  }
+
+  .text-band.split.title-4 .title {
+    grid-area: 1 / 2 / 2 / 6;
+  }
+
+  .text-band.split.title-3 .title {
+    grid-area: 1 / 2 / 2 / 5;
+  }
+}
+
+/* card content modifiers (source card typography; additive) */
+.text-band:is(.icon-100, .icon-120) .body-text img {
+  width: 100px;
+  margin-bottom: 24px;
+}
+
+.text-band.icon-120 .body-text img {
+  width: 120px;
+  margin-bottom: 40px;
+}
+
+.text-band:is(.icon-100, .icon-120) .body-text p:has(> picture) {
+  margin-bottom: 0;
+}
+
+.text-band.ttl-24 .body-text p:not(:has(picture)) {
+  font-size: 14px;
+  line-height: 170%;
+}
+
+.text-band.ttl-24 .body-text p:not(:has(picture)):first-of-type,
+.text-band.ttl-24 .body-text p:has(> picture) + p {
+  margin-bottom: 16px;
+  font-family: var(--font-lead);
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.text-band.h-24 .body-text :is(h3, h4) {
+  font-size: 20px;
+}
+
+.text-band.h-24 .body-text p {
+  font-size: 14px;
+  line-height: 170%;
+}
+
+@media (width >= 1024px) {
+  .text-band.ttl-24 .body-text p:not(:has(picture)):first-of-type,
+  .text-band.ttl-24 .body-text p:has(> picture) + p {
+    font-size: 24px;
+  }
+
+  .text-band.h-24 .body-text :is(h3, h4) {
+    font-size: 24px;
+  }
+}
+
+@media (width >= 1024px) {
+  .text-band.inset .body {
+    grid-column: 2 / 12;
+    column-gap: 80px;
+    padding: 0 40px;
+  }
+}
+
+@media (width >= 1024px) {
+  .text-band.agenda .body {
+    gap: 20px;
+  }
+
+  .text-band.agenda .ag-item {
+    grid-template-columns: 215px 1fr;
+    column-gap: 0;
+  }
+
+  .text-band.agenda.left .title-text {
+    text-align: left;
+  }
+}
+
+.text-band.agenda .ag-what p + p {
+  font-size: 14px;
+}
+
+/* teasers: the heading sits on the image (source related-content tiles) */
+.text-band.teasers .body-text > div {
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.text-band.teasers .body-text p:has(> picture) {
+  margin-bottom: 0;
+}
+
+.text-band.teasers .body-text > div > :is(h3, h4) {
+  position: absolute;
+  right: 32px;
+  bottom: 32px;
+  left: 32px;
+  margin: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.text-band.teasers .body-text > div > :is(h3, h4) a:any-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* band spacing modifiers (source band rhythm; additive): dt/db = top/bottom at >= 1440,
+   mt/mb = top/bottom below 1024 */
+@media (width >= 1440px) {
+  .text-band.dt-0 .grid {
+    margin-top: 0;
+  }
+
+  .text-band.db-0 .grid {
+    margin-bottom: 0;
+  }
+
+  .text-band.dt-20 .grid {
+    margin-top: 20px;
+  }
+
+  .text-band.db-20 .grid {
+    margin-bottom: 20px;
+  }
+
+  .text-band.dt-40 .grid {
+    margin-top: 40px;
+  }
+
+  .text-band.db-40 .grid {
+    margin-bottom: 40px;
+  }
+
+  .text-band.dt-60 .grid {
+    margin-top: 60px;
+  }
+
+  .text-band.db-60 .grid {
+    margin-bottom: 60px;
+  }
+
+  .text-band.dt-80 .grid {
+    margin-top: 80px;
+  }
+
+  .text-band.db-80 .grid {
+    margin-bottom: 80px;
+  }
+
+  .text-band.dt-100 .grid {
+    margin-top: 100px;
+  }
+
+  .text-band.db-100 .grid {
+    margin-bottom: 100px;
+  }
+
+  .text-band.dt-120 .grid {
+    margin-top: 120px;
+  }
+
+  .text-band.db-120 .grid {
+    margin-bottom: 120px;
+  }
+
+  .text-band.dt-140 .grid {
+    margin-top: 140px;
+  }
+
+  .text-band.db-140 .grid {
+    margin-bottom: 140px;
+  }
+
+  .text-band.dt-160 .grid {
+    margin-top: 160px;
+  }
+
+  .text-band.db-160 .grid {
+    margin-bottom: 160px;
+  }
+
+  .text-band.dt-180 .grid {
+    margin-top: 180px;
+  }
+
+  .text-band.db-180 .grid {
+    margin-bottom: 180px;
+  }
+
+  .text-band.dt-200 .grid {
+    margin-top: 200px;
+  }
+
+  .text-band.db-200 .grid {
+    margin-bottom: 200px;
+  }
+
+  .text-band.dt-220 .grid {
+    margin-top: 220px;
+  }
+
+  .text-band.db-220 .grid {
+    margin-bottom: 220px;
+  }
+
+  .text-band.dt-240 .grid {
+    margin-top: 240px;
+  }
+
+  .text-band.db-240 .grid {
+    margin-bottom: 240px;
+  }
+}
+
+@media (width < 1024px) {
+  .text-band.mt-0 .grid {
+    margin-top: 0;
+  }
+
+  .text-band.mb-0 .grid {
+    margin-bottom: 0;
+  }
+
+  .text-band.mt-20 .grid {
+    margin-top: 20px;
+  }
+
+  .text-band.mb-20 .grid {
+    margin-bottom: 20px;
+  }
+
+  .text-band.mt-40 .grid {
+    margin-top: 40px;
+  }
+
+  .text-band.mb-40 .grid {
+    margin-bottom: 40px;
+  }
+
+  .text-band.mt-60 .grid {
+    margin-top: 60px;
+  }
+
+  .text-band.mb-60 .grid {
+    margin-bottom: 60px;
+  }
+
+  .text-band.mt-80 .grid {
+    margin-top: 80px;
+  }
+
+  .text-band.mb-80 .grid {
+    margin-bottom: 80px;
+  }
+
+  .text-band.mt-100 .grid {
+    margin-top: 100px;
+  }
+
+  .text-band.mb-100 .grid {
+    margin-bottom: 100px;
+  }
+
+  .text-band.mt-120 .grid {
+    margin-top: 120px;
+  }
+
+  .text-band.mb-120 .grid {
+    margin-bottom: 120px;
+  }
+
+  .text-band.mt-140 .grid {
+    margin-top: 140px;
+  }
+
+  .text-band.mb-140 .grid {
+    margin-bottom: 140px;
+  }
+
+  .text-band.mt-160 .grid {
+    margin-top: 160px;
+  }
+
+  .text-band.mb-160 .grid {
+    margin-bottom: 160px;
+  }
+
+  .text-band.mt-180 .grid {
+    margin-top: 180px;
+  }
+
+  .text-band.mb-180 .grid {
+    margin-bottom: 180px;
+  }
+
+  .text-band.mt-200 .grid {
+    margin-top: 200px;
+  }
+
+  .text-band.mb-200 .grid {
+    margin-bottom: 200px;
+  }
+
+  .text-band.mt-220 .grid {
+    margin-top: 220px;
+  }
+
+  .text-band.mb-220 .grid {
+    margin-bottom: 220px;
+  }
+
+  .text-band.mt-240 .grid {
+    margin-top: 240px;
+  }
+
+  .text-band.mb-240 .grid {
+    margin-bottom: 240px;
+  }
+}
+
+/* slides: the source renders these groups as a carousel row (first slides in view, the rest
+   beyond the edge); m-slide below 1024, d-slide from 1024 with a dsw-* slide width */
+@media (width < 1024px) {
+  .text-band.m-slide .body {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+    overflow: hidden;
+  }
+
+  .text-band.m-slide .body > .body-text {
+    flex: 0 0 100%;
+    max-width: none;
+  }
+}
+
+@media (width >= 1024px) {
+  .text-band.d-slide .body {
+    display: flex;
+    flex-wrap: nowrap;
+    grid-column: 1 / 13;
+    gap: 40px;
+    overflow: hidden;
+  }
+
+  .text-band.d-slide .body > .body-text {
+    flex: 0 0 298px;
+    max-width: none;
+  }
+
+  .text-band.d-slide.dsw-368 .body > .body-text {
+    flex-basis: 368px;
+  }
+
+  .text-band.d-slide.dsw-410 .body > .body-text {
+    flex-basis: 410px;
+  }
+
+  .text-band.d-slide.dsw-748 .body > .body-text {
+    flex-basis: 748px;
+  }
+
+  .text-band.d-slide.dsw-full .body {
+    grid-column: 2 / 12;
+    gap: 0;
+  }
+
+  .text-band.d-slide.dsw-full .body > .body-text {
+    flex-basis: 100%;
+  }
+}
+
+@media (width < 1024px) {
+  .text-band.fig-narrow .pic {
+    width: 100px;
+    margin-bottom: 24px;
+  }
+}
+
+@media (width >= 1024px) {
+  .text-band.statement.st-36 :is(.title-text, .body-text) {
+    font-size: 36px;
+  }
+
+  .text-band.statement.st-28 :is(.title-text, .body-text) {
+    font-size: 28px;
+  }
+}
+
+/* EDS buttons inside a band keep the canon button look */
+.text-band .body-text a.button:any-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.text-band .body-text a.button.accent:any-link,
+.text-band:is(.dark, .navy, .black, .framework) .body-text a.button:any-link {
+  background: #fff;
+  color: var(--c-ink);
+}
+
+.text-band.statement .body-text p.button-wrapper {
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+.text-band .lead img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (width >= 1024px) {
+  .text-band.full-title .title {
+    grid-column: 1 / 13;
+  }
+}
+
+/* video: 16:9 player on the body column */
+.text-band.video .video-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.text-band.video .video-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.text-band.video .video-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+@media (width >= 1024px) {
+  .text-band.video .body {
+    grid-column: 2 / 12;
+  }
+}
+
+/* gradient: the event closing band (source magenta -> orange) */
+.text-band.gradient {
+  background: linear-gradient(90deg, #f00e6c 0%, #f89824 100%);
+}
+
+.text-band.gradient :is(.title-text, .body-text, .lead) {
+  color: #fff;
+}
+
+/* split-2: first body group under the title, the rest in the right column */
+@media (width >= 1024px) {
+  .text-band.split.split-2 .body {
+    display: contents;
+  }
+
+  .text-band.split.split-2 .body > .body-text:first-of-type {
+    grid-area: 2 / 2 / 3 / 6;
+    margin-top: 40px;
+  }
+
+  .text-band.split.split-2 .body > .body-text:not(:first-of-type) {
+    grid-area: 1 / 7 / 3 / 12;
+  }
+}
+
+/* column bodies: the r-cell's wrap + 100% basis would put every item in its own column */
+.text-band:is(.accordion, .agenda) .body {
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+
+.text-band:is(.accordion, .agenda) .body > * {
+  flex-basis: auto;
+}
+
+/* flip: white tiles showing the heading; the text shows on hover / focus (source flip cards) */
+.text-band.flip .body-text > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 160px;
+  padding: 24px 32px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 4px 24px rgb(21 31 39 / 8%);
+}
+
+.text-band.flip .body-text > div :is(h3, h4) {
+  margin: 0;
+  font-size: 16px;
+}
+
+.text-band.flip .body-text > div p {
+  display: none;
+}
+
+.text-band.flip .body-text > div:is(:hover, :focus-within) p {
+  display: block;
+  margin-top: 12px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media (width >= 1024px) {
+  .text-band.flip .body-text > div :is(h3, h4) {
+    font-size: 18px;
+  }
+}
+
+/* intro-wide: large centred intro copy across the container (article lead paragraphs) */
+.text-band.intro-wide .body-text {
+  font-family: var(--font-display);
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+}
+
+@media (width >= 1024px) {
+  .text-band.intro-wide .body {
+    grid-column: 1 / 13;
+    padding: 0 70px;
+  }
+
+  .text-band.intro-wide .body-text {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .text-band.media.fig-2 .figure {
+    grid-area: 1 / 2 / 3 / 4;
+  }
+
+  .text-band.media.text-6r :is(.title, .body) {
+    grid-column: 5 / 11;
+  }
+
+  .text-band.media.text-6r .body-text {
+    font-size: 14px;
+    line-height: 170%;
+  }
+
+  .text-band.media.text-6r .title-text {
+    font-size: 24px;
+  }
+}
+
+/* chart: chart title | chart image | source note */
+.text-band.chart .body-text > div > p:first-child:not(:has(picture)) {
+  margin-bottom: 16px;
+  font-family: var(--font-lead);
+  font-size: 18px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.text-band.chart .body-text > div > p:last-child:not(:has(picture)) {
+  margin-top: 16px;
+  color: #5b5f61;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+@media (width >= 1024px) {
+  .text-band.chart .body-text > div > p:first-child:not(:has(picture)) {
+    font-size: 20px;
+  }
+}
+
+/* img-s / img-m: a body image narrower than the column (source flag strips, small charts) */
+.text-band.img-s .body-text img {
+  max-width: 444px;
+}
+
+.text-band.img-m .body-text img {
+  max-width: 500px;
+}
+
+.text-band.lead-img-s .lead img {
+  width: 340px;
+  max-width: 100%;
+  margin: 32px auto 0 35px;
+}
+
+/* untitled statement: only the first group is the large statement, later groups are body copy */
+.text-band.untitled.statement .body > .body-text:not(:first-of-type) {
+  font-family: var(--font-text);
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.text-band.untitled.statement .body > .sp-group {
+  height: 24px;
+}
+
+/* ---------- fix-editorial (additive) ---------- */
+
+/* a Heading 2 inside a body group is the source kicker (.text-maz2d: 10px label caps) */
+.text-band .body-text h2 {
+  margin: 0 0 10px;
+  color: #586674;
+  font-family: var(--font-label);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+.text-band .body-text h2 + :not(h2) {
+  margin-top: 29px;
+}
+
+.text-band:is(.dark, .navy, .black) .body-text h2 {
+  color: #c5ccd3;
+}
+
+/* dropcap: the source paints the title's first letter through its own colour span (authored as
+   emphasis); the letter keeps the title's look */
+.text-band .title-text em {
+  font-style: normal;
+}
+
+/* t-28: the source .text-eiuiy title (24px, 28px at 1440, 140 %) */
+.text-band.t-28 .title-text {
+  font-size: 24px;
+  line-height: 140%;
+}
+
+@media (width >= 1440px) {
+  .text-band.t-28 .title-text {
+    font-size: 28px;
+  }
+}
+
+/* form buttons: a bold + italic paragraph is a source form trigger (<button>, no link) */
+.text-band .body-text button.button {
+  margin: 0;
+  background: #151f27;
+  color: #fff;
+}
+
+.text-band:is(.dark, .navy, .black, .gradient) .body-text button.button {
+  background: #fff;
+  color: #151f27;
+}
+
+@media (width >= 1440px) {
+  .text-band .body-text button.button {
+    padding: 14px 24px;
+    font-size: 0.875rem;
+  }
+}
+
+@media (width >= 1024px) {
+  .text-band.split.split-2 .title {
+    padding-top: 54px;
+  }
+
+  .text-band.split.split-2 .body > .body-text:not(:first-of-type) {
+    grid-column: 8 / 12;
+  }
+}
+
+
+@media (width >= 1280px) {
+  .text-band.accordion .acc-item {
+    padding: 32px 56px;
+  }
+}
+
+/* kv: key-info cards (source slider items: 42px spacer, .text-eiuiy heading, 42px spacer, text) */
+.text-band.kv .body-text > div {
+  padding-top: 42px;
+}
+
+.text-band.kv .body-text :is(h3, h4) {
+  margin-bottom: 42px;
+  font-size: 24px;
+  line-height: 140%;
+}
+
+@media (width >= 1440px) {
+  .text-band.kv .title {
+    margin-bottom: 60px;
+  }
+
+  .text-band.kv .body-text :is(h3, h4) {
+    font-size: 28px;
+  }
+}
+
+@media (width >= 1024px) {
+  /* slides start at the container edge (the 1440 r-cell centring would push the row left) */
+  .text-band.d-slide .body {
+    justify-content: flex-start;
+  }
+
+  /* title-6: a six-column title (cols 2-7) over a card row */
+  .text-band.title-6 .title {
+    grid-column: 2 / 8;
+  }
+
+  /* acc-980: the centred 980px accordion (source timeline) */
+  .text-band.accordion.acc-980 .body {
+    grid-column: 1 / 13;
+    justify-self: center;
+    width: 100%;
+    max-width: 980px;
+  }
+
+  /* acc-r6: the accordion beside a split title, cols 6-11 */
+  .text-band.accordion.split.acc-r6 .body {
+    grid-column: 6 / 12;
+  }
+
+  /* full: title and body across the whole container (source 12-column text) */
+  .text-band.full :is(.title, .body) {
+    grid-column: 1 / 13;
+  }
+}
+
+/* partner: one company slide at a time on an ice panel — logo left, name link + text right
+   (source card-reply-company-slider) */
+.text-band.partner .body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  padding: 40px 0;
+  background: #f4f8fc;
+}
+
+.text-band.partner .body > .body-text {
+  grid-area: 1 / 1 / 2 / 2;
+  max-width: none;
+  padding: 0 40px;
+  visibility: hidden;
+}
+
+.text-band.partner .body > .body-text.current {
+  visibility: visible;
+}
+
+.text-band.partner .slide-nav {
+  grid-area: 2 / 1 / 3 / 2;
+  margin: 1.5rem 40px 0;
+}
+
+.text-band.partner .body-text > div {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1.25rem;
+}
+
+.text-band.partner .body-text p {
+  margin: 0;
+}
+
+.text-band.partner .body-text > div > p:first-child {
+  font-family: var(--font-lead);
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.text-band.partner .body-text > div > p:last-child {
+  font-family: var(--font-display);
+  font-size: 14px;
+  line-height: 170%;
+}
+
+.text-band.partner .body-text img {
+  width: 185px;
+  max-width: none;
+  height: auto;
+  margin: 0;
+}
+
+.text-band.partner .body-text > div > p {
+  align-self: start;
+}
+
+.text-band .slide-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.text-band .slide-nav button {
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 1px solid #151f27;
+  border-radius: 50%;
+  background: transparent;
+  color: #151f27;
+  font-family: 'Website Icons', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.text-band .slide-nav .prev::before {
+  content: '\ea60';
+}
+
+.text-band .slide-nav .next::before {
+  content: '\ea6c';
+}
+
+.text-band .slide-nav button:disabled {
+  border-color: #c5ccd3;
+  color: #c5ccd3;
+  cursor: default;
+}
+
+@media (width >= 1024px) {
+  .text-band.partner .body {
+    display: grid;
+    grid-column: 1 / 13;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: 40px;
+    padding: 64px 0 56px;
+  }
+
+  .text-band.partner .body > .body-text {
+    grid-area: 1 / 2 / 2 / 12;
+    padding: 0;
+  }
+
+  .text-band.partner .body-text > div {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+    gap: 1.5rem 40px;
+  }
+
+  .text-band.partner .body-text > div > p:first-child {
+    grid-area: 1 / 3 / 2 / 10;
+  }
+
+  .text-band.partner .body-text > div > p:has(> picture) {
+    display: flex;
+    grid-area: 2 / 1 / 3 / 2;
+    align-self: center;
+  }
+
+  .text-band.partner .body-text > div > p:last-child {
+    grid-area: 2 / 3 / 3 / 10;
+  }
+
+  .text-band.partner .slide-nav {
+    grid-area: 2 / 2 / 3 / 12;
+    margin: 1.5rem 0 0;
+  }
+}
+
+@media (width >= 1440px) {
+  .text-band.partner .body {
+    padding: 72px 0 64px;
+  }
+
+  .text-band.partner .body-text > div > p:first-child {
+    grid-column: 4 / 10;
+    font-size: 24px;
+  }
+
+  .text-band.partner .body-text > div > p:last-child {
+    grid-column: 4 / 10;
+  }
+}
+
+.text-band.partner .sp-group {
+  display: none;
+}
+
+.text-band.partner .body-text,
+.text-band.partner .body-text p {
+  text-align: left;
+}
+
+/* a body picture paragraph: the delivered <picture> keeps pretty-print whitespace between its
+   <source>s, which break-spaces would paint as empty lines above the image */
+.text-band .body-text p > picture {
+  display: block;
+}
+
+/* cap: the paragraph after a body image is its source caption (12px, 140 %, centred, 40px below) */
+.text-band.cap .body-text p:has(> picture) + p {
+  margin-top: 40px;
+  font-size: 12px;
+  line-height: 140%;
+  text-align: center;
+}
+
+@media (width >= 1024px) {
+  .text-band.cap .body-text p:has(> picture) + p {
+    max-width: 530px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/* img-wide: a figure row at its natural aspect across cols 2-11 (source wide diagram) */
+.text-band.img-wide .pic img {
+  aspect-ratio: auto;
+  border-radius: 0;
+}
+
+@media (width >= 1024px) {
+  .text-band.img-wide .body {
+    grid-column: 2 / 12;
+  }
+}
+
+/* bleed: a full-width 16:9 image band (source parallax-fullw: 150 % box below 768, 50 % above) */
+.text-band.bleed .grid {
+  max-width: none;
+  padding: 0;
+}
+
+.text-band.bleed .body {
+  grid-column: 1 / -1;
+}
+
+.text-band.bleed .pic {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 150%;
+}
+
+.text-band.bleed .pic img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: auto;
+  max-width: none;
+  height: 112.5%;
+  aspect-ratio: auto;
+  border-radius: 0;
+  object-fit: cover;
+  transform: translateX(-50%);
+}
+
+@media (width >= 768px) {
+  .text-band.bleed .pic {
+    padding-bottom: 50%;
+  }
+
+  .text-band.bleed .pic img {
+    left: 0;
+    width: 100%;
+    height: auto;
+    transform: none;
+  }
+}
+
+/* quote: the source quote card (card-reply-quote) — ink panel over cols 1-11, quote glyph, 20px
+   text, right-aligned orange attribution (emphasis = the grey second line) */
+.text-band.quote .body {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  row-gap: 32px;
+  padding: 40px 40px 56px;
+  background: #28333e;
+}
+
+.text-band.quote .body::before {
+  content: '';
+  width: 65px;
+  height: 50px;
+  background: #ff8c00;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 46'%3E%3Cpath d='M54.72 41.74C58.16 38.09 60 34 60 27.37 60 15.7 51.81 5.25 39.9.08l-2.98 4.59c11.12 6.01 13.29 13.82 14.16 18.74-1.79-.93-4.13-1.25-6.43-1.04-6.01.56-10.75 5.49-10.75 11.63a11.67 11.67 0 0 0 11.67 11.67c3.58 0 7-1.63 9.16-3.93ZM21.39 41.74c3.43-3.65 5.28-7.74 5.28-14.37C26.67 15.7 18.48 5.25 6.57.08L3.59 4.67c11.12 6.01 13.29 13.82 14.16 18.74-1.79-.93-4.13-1.25-6.43-1.04C5.3 22.93.56 27.86.56 34a11.67 11.67 0 0 0 11.67 11.67c3.58 0 7-1.63 9.16-3.93Z'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+.text-band.quote .body-text,
+.text-band.quote .body-text p {
+  text-align: left;
+}
+
+.text-band.quote .body-text > div {
+  display: grid;
+  row-gap: 24px;
+}
+
+.text-band.quote .body-text p {
+  margin: 0;
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 18px;
+  line-height: 190%;
+}
+
+.text-band.quote .body-text p + p {
+  color: #ff8c00;
+  font-family: var(--font-lead);
+  font-size: 14px;
+  line-height: 170%;
+  text-align: right;
+}
+
+.text-band.quote .body-text p + p em {
+  color: #a9b3bc;
+  font-style: normal;
+}
+
+@media (width >= 1024px) {
+  .text-band.quote .body {
+    grid-column: 1 / 12;
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+    column-gap: 40px;
+    padding: 64px 0 56px;
+  }
+
+  .text-band.quote .body::before {
+    grid-area: 1 / 9 / 2 / 11;
+    place-self: center end;
+  }
+
+  .text-band.quote .body > .body-text {
+    grid-area: 1 / 2 / 2 / 9;
+  }
+}
+
+@media (width >= 1440px) {
+  .text-band.quote .body {
+    padding: 96px 0 72px;
+  }
+
+  .text-band.quote .body-text p {
+    font-size: 20px;
+  }
+
+  .text-band.quote .body-text p + p {
+    font-size: 14px;
+  }
+}
+
+/* acc-18: 18px lead-face headers; acc-glyphs: the source per-item header glyphs (acknowledgement
+   accordion, Website Icons) */
+.text-band.accordion.acc-18 .acc-head :is(h2, h3, h4, h5, h6, p) {
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.text-band.acc-glyphs .acc-head::before {
+  flex: 0 0 44px;
+  font-family: 'Website Icons', sans-serif;
+  font-size: 16px;
+}
+
+.text-band.acc-glyphs .body > :nth-child(1) .acc-head::before {
+  content: '\ea19';
+}
+
+.text-band.acc-glyphs .body > :nth-child(3) .acc-head::before {
+  content: '\ea2f';
+}
+
+.text-band.acc-glyphs .body > :nth-child(5) .acc-head::before {
+  content: '\eb9b';
+}
+
+.text-band.acc-glyphs .body > :nth-child(7) .acc-head::before {
+  content: '\eadd';
+}
+
+.text-band.acc-glyphs .body > :nth-child(9) .acc-head::before {
+  content: '\eeba';
+}
+
+.text-band.acc-glyphs .acc-head > :not(.acc-icon) {
+  flex: 1;
+}
+
+/* statement steps: 28 -> 36 (>= 768) -> 42 (>= 1440), as the source .text-c0k7h */
+@media (width >= 768px) and (width < 1440px) {
+  .text-band.statement:not(.st-36, .st-28) :is(.title-text, .body-text) {
+    font-size: 36px;
+  }
+}
+
+/* nlp: the source slider-with-title item row — 298px slots (4-up at 1440), each an ice card
+   (350px, 10px radius, min 250px tall, centred copy) overlapping its neighbours; prev / next above */
+.text-band.nlp .grid {
+  overflow: hidden;
+}
+
+.text-band.nlp .slide-nav {
+  grid-column: 1 / -1;
+  margin-bottom: 40px;
+}
+
+.text-band.nlp .body {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 40px;
+  transform: translateX(calc(var(--slide, 0) * -338px));
+  transition: transform 1s ease-in-out;
+}
+
+.text-band.nlp .sp-group {
+  display: none;
+}
+
+.text-band.nlp .body > .body-text {
+  display: flex;
+  flex: 0 0 280px;
+  justify-content: center;
+}
+
+.text-band.nlp .body-text > div {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  min-height: 250px;
+  padding: 0 20px;
+  border-radius: 10px;
+  background: #f4f8fc;
+  text-align: center;
+}
+
+.text-band.nlp .body-text :is(h3, h4) {
+  margin: 0 0 20px;
+  font-family: var(--font-lead);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.text-band.nlp .body-text p {
+  margin: 0;
+}
+
+@media (width >= 1024px) {
+  .text-band.nlp .body {
+    grid-column: 1 / 13;
+    justify-content: flex-start;
+  }
+
+  .text-band.nlp .body > .body-text {
+    flex-basis: 298px;
+  }
+
+  .text-band.nlp .slide-nav {
+    grid-column: 10 / 12;
+  }
+}
+
+@media (width >= 1440px) {
+  .text-band.nlp .grid {
+    margin-top: 8px;
+  }
+
+  .text-band.nlp .body-text > div {
+    width: 350px;
+  }
+
+  .text-band.nlp .body-text :is(h3, h4) {
+    font-size: 20px;
+  }
+}
+
+/* the figure column spans the whole grid below 1024 (auto-placement gave it one 4-col track) */
+@media (width < 1024px) {
+  .text-band .figure {
+    grid-column: 1 / -1;
+    margin-top: 40px;
+  }
+}
+
+/* boxed: the band copy sits on an ice panel (source grid-item --pb-bg, 6px radius); below 768 the
+   logo comes before the text */
+.text-band.boxed .grid::before {
+  content: '';
+  grid-area: 1 / 1 / 4 / -1;
+  margin: -48px 0 -40px;
+  border-radius: 6px;
+  background: #f4f8fc;
+}
+
+@media (width < 1024px) {
+  .text-band.boxed :is(.title, .body, .figure) {
+    grid-column: 1 / -1;
+    padding: 0 44px;
+  }
+
+  .text-band.boxed .title {
+    grid-row: 1;
+  }
+
+  .text-band.boxed .figure {
+    grid-row: 2;
+    margin: 0 0 20px;
+  }
+
+  .text-band.boxed .body {
+    grid-row: 3;
+  }
+}
+
+@media (width >= 768px) {
+  .text-band.boxed .grid::before {
+    margin: -68px 0 -48px;
+  }
+}
+
+@media (width >= 1440px) {
+  .text-band.boxed .grid::before {
+    margin: -96px 0;
+  }
+}
+
+/* tile / tile-dark: each body group on a card (source grid-item cards, 30px padding, min 220px at
+   1440, copy centred); the card is drawn around the copy (negative margin + equal padding keeps the
+   copy where it is). tile: white with a 70 x 5 yellow bar; tile-dark: #28333e with a 1px border */
+.text-band:is(.tile, .tile-dark) .body > .body-text {
+  display: flex;
+}
+
+.text-band:is(.tile, .tile-dark) .body-text > div {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  min-height: 220px;
+}
+
+.text-band.tile .body-text > div {
+  margin: -59px -30px -30px;
+  padding: 59px 30px 30px;
+  background: #fff;
+}
+
+.text-band.tile .body-text > div::before {
+  content: '';
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 70px;
+  height: 5px;
+  background: #ffd138;
+}
+
+.text-band.tile-dark .body-text > div {
+  margin: -31px;
+  padding: 30px;
+  border: 1px solid #586674;
+  background: #28333e;
+}
+
+@media (width < 1024px) {
+  .text-band:is(.tile, .tile-dark) .body-text > div {
+    margin: 0;
+  }
+}
+
+/* badge-last: the group's last paragraph is a 200 x 50 grey status box (source "Sold-out Event") */
+.text-band.badge-last .body-text > div > p:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  margin-top: 45px;
+  background: #a9b3bc;
+  color: #151f27;
+  font-family: var(--font-display);
+  font-size: 16px;
+  line-height: 140%;
+}
+
+@media (width >= 768px) {
+  .text-band.badge-last .body-text > div > p:last-child {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (width >= 1440px) {
+  .text-band.badge-last .body-text > div > p:last-child {
+    font-size: 18px;
+  }
+}
+
+/* ---------- fix-editorial-2 (additive) ---------- */
+
+/* a secondary (emphasis) link on a light band keeps the ink colour (the band button rule set it
+   white) */
+.text-band:not(.dark, .navy, .black, .framework, .gradient) .body-text a.button.secondary:any-link {
+  color: var(--c-ink);
+}
+
+/* m-nav / m-nav-r: below 1024 the source slider shows prev / next under the row (48px circles,
+   centred / right-aligned, 40px below); the row moves by one group */
+.text-band .m-nav-bar {
+  display: none;
+}
+
+@media (width < 1024px) {
+  .text-band:is(.m-nav, .m-nav-r) .m-nav-bar {
+    display: flex;
+    grid-row: 9;
+    grid-column: 1 / -1;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .text-band.m-nav-r .m-nav-bar {
+    justify-content: flex-end;
+  }
+
+  .text-band:is(.m-nav, .m-nav-r) .body > * {
+    transform: translateX(var(--shift, 0));
+    transition: transform 0.6s ease-in-out;
+  }
+
+  .text-band:is(.dark, .navy, .black) .slide-nav button {
+    border-color: #fff;
+    color: #fff;
+  }
+
+  .text-band:is(.dark, .navy, .black) .slide-nav button:disabled {
+    border-color: rgb(255 255 255 / 30%);
+    color: rgb(255 255 255 / 30%);
+  }
+
+  /* nlp: prev / next under the item row, centred */
+  .text-band.nlp .slide-nav {
+    grid-row: 9;
+    justify-content: center;
+    margin: 40px 0 0;
+  }
+}
+
+@media (width < 1024px) {
+  .text-band.quote .body {
+    margin: 0 calc(-1 * var(--grid-pad));
+  }
+
+  .text-band.quote .body::before {
+    justify-self: center;
+  }
+
+  .text-band.quote .body-text p + p {
+    text-align: left;
+  }
+}
+
+/* boxed below 1024: source card copy (.text-hzf46 20px lead title, .text-xufux 14px body) */
+@media (width < 1024px) {
+  .text-band.boxed .title-text {
+    font-size: 20px;
+    line-height: 130%;
+  }
+
+  .text-band.boxed .body-text {
+    font-family: var(--font-display);
+    font-size: 14px;
+    line-height: 170%;
+  }
+}
+
+/* acc-dark: the source dark accordion items (#28333e, white header, #c5ccd3 panel) */
+.text-band.accordion.acc-dark .acc-item {
+  background: #28333e;
+  color: #fff;
+}
+
+.text-band.accordion.acc-dark .acc-icon {
+  color: #fff;
+}
+
+.text-band.accordion.acc-dark .acc-panel {
+  color: #c5ccd3;
+}
+
+/* acc-980 below 768: the timeline image is hidden (its 42px spacer stays), the title is centred
+   and the accordion sits on the inner 40px container */
+@media (width < 768px) {
+  .text-band.acc-980 .title-text {
+    text-align: center;
+  }
+
+  .text-band.acc-980 .lead {
+    height: 74px;
+    margin: 0;
+    overflow: hidden;
+    visibility: hidden;
+  }
+
+  .text-band.acc-980 .title {
+    margin-bottom: 0;
+  }
+
+  .text-band.acc-980 .body {
+    padding: 0 40px;
+  }
+}
+
+/* fig-narrow panels below 1024 (source icon panels): 150px icon, 32px below it, 24px h4 title,
+   14px copy after a blank line */
+@media (width < 1024px) {
+  .text-band.media.fig-narrow .figure {
+    grid-row: 1;
+    margin: 0 0 32px;
+  }
+
+  .text-band.media.fig-narrow .figure .pic,
+  .text-band.media.fig-narrow .pic img {
+    width: 150px;
+    height: 150px;
+    margin: 0;
+  }
+
+  .text-band.media.fig-narrow .body {
+    grid-row: 2;
+  }
+
+  .text-band.media.fig-narrow .body-text h4 {
+    margin: 0 0 12px;
+    font-family: var(--font-body);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+  }
+
+  .text-band.media.fig-narrow .body-text p {
+    font-family: var(--font-display);
+    font-size: 14px;
+    line-height: 170%;
+  }
+
+  .text-band.media.fig-narrow .body-text h4 + p {
+    margin-top: 24px;
+  }
+}
+
+/* fig-top: below 1024 the figure leads the band (source image-first stacking) */
+@media (width < 1024px) {
+  .text-band.fig-top .figure {
+    grid-row: 1;
+    margin: 0 0 24px;
+  }
+
+  .text-band.fig-top .title {
+    grid-row: 2;
+  }
+
+  .text-band.fig-top .body {
+    grid-row: 3;
+  }
+}
+
+/* pull-q: an all-emphasis paragraph is the source pull quote (.text-ep1af 18px / 190 %, 32px
+   above) and the paragraph after it its attribution (.text-teki4 14px lead, 42px above) */
+.text-band.pull-q .body-text p:has(> em:first-child) {
+  margin: 20px 0 0;
+  font-family: var(--font-display);
+  font-size: 18px;
+  line-height: 190%;
+}
+
+.text-band.pull-q .body-text p:has(> em:first-child) + p {
+  margin-top: 42px;
+  font-family: var(--font-lead);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 170%;
+}
+
+@media (width >= 1440px) {
+  .text-band.pull-q .body-text p:has(> em:first-child) {
+    font-size: 20px;
+  }
+
+  .text-band.pull-q .body-text p:has(> em:first-child) + p {
+    margin-top: 10px;
+  }
+}
+
+/* st-28 below 1024: the source statement copy is .text-eiuiy (24px lead face, 140 %) */
+@media (width < 1024px) {
+  .text-band.statement.st-28 .body-text {
+    font-family: var(--font-lead);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+  }
+}
+
+/* m-center: below 1024 the source band copy is centred (text-align-center) */
+@media (width < 1024px) {
+  .text-band.m-center :is(.title-text, .body-text) {
+    text-align: center;
+  }
+}
+
+/* below 1024 the source captions and source notes are left-aligned (centred only from 1440:
+   text-xl-align-center) */
+@media (width < 1024px) {
+  .text-band.cap .body-text p:has(> picture) + p,
+  .text-band.note .body-text {
+    text-align: left;
+  }
+}
+
+/* ct: the paragraph right before a body picture is its chart title (.text-mu4tw: a blank line,
+   then 18px lead face, 130 %) */
+@media (width < 1024px) {
+  .text-band.ct .body-text p:has(+ p > picture) {
+    margin: 24px 0 16px;
+    font-family: var(--font-lead);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 130%;
+  }
+}
+
+/* m-169: below 1024 a body picture sits in the source 16:9 box, contained */
+@media (width < 1024px) {
+  .text-band.m-169 :is(.body-text picture, .pic) img {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+  }
+}
+
+/* img-s below 1024: the source image keeps its 444px width centred on the column (it overflows
+   both edges) */
+@media (width < 1024px) {
+  .text-band.img-s .body-text img {
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* m-tile: below 1024 each card group sits on the source card (white to ice gradient, 8px radius,
+   40 / 30px padding); m-center + badge-last centres the status box */
+@media (width < 1024px) {
+  .text-band.m-tile .body > .body-text > div {
+    padding: 40px 30px 30px;
+    border-radius: 8px;
+    background: linear-gradient(#fff, #f4f8fc 50%);
+  }
+
+  .text-band.m-center.badge-last .body-text > div > p:last-child {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/* acc-980 from 768: the timeline image is 1300px at most, 32px under the title, then the source
+   spacer (72px, 100px at 1440) before the accordion */
+@media (width >= 768px) {
+  .text-band.acc-980 .title {
+    margin-bottom: 72px;
+  }
+
+  .text-band.acc-980 .lead {
+    margin-top: 32px;
+  }
+
+  .text-band.acc-980 .lead p {
+    margin: 0;
+  }
+
+  .text-band.acc-980 .lead img {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+}
+
+@media (width >= 1440px) {
+  .text-band.acc-980 .title {
+    margin-bottom: 100px;
+  }
+}
+
+/* t-20 / b-14: the source .text-hzf46 title (20px lead face, 130 %, 24px at 1440) and .text-xufux
+   body copy (14px, 170 %) */
+.text-band.t-20 .title-text {
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.text-band.b-14 :is(.body-text, .lead) p {
+  font-family: var(--font-display);
+  font-size: 14px;
+  line-height: 170%;
+}
+
+@media (width >= 1440px) {
+  .text-band.t-20 .title-text {
+    font-size: 24px;
+  }
+}
+
+/* below 1024 a media-right figure follows the copy (untitled bands left row 1 free for it), and a
+   lead-img-s picture spans the column 20px under the title */
+@media (width < 1024px) {
+  .text-band.media-right .figure {
+    grid-row: 3;
+  }
+
+  .text-band.lead-img-s .lead {
+    margin-top: 20px;
+  }
+
+  .text-band.lead-img-s .lead img {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+/* dam-videos: the source video row (dam-media players, ~2:1 tiles) — stacked 15px apart below 1024,
+   three across (40px gaps) from 1024; the authored links stay visually hidden */
+.text-band .dam-videos > div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 15px;
+  margin-top: 19px;
+}
+
+.text-band .dam-video iframe {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 280 / 143;
+  border: 0;
+}
+
+.text-band .dam-videos .video-src {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@media (width >= 1024px) {
+  /* the row spans the 12 columns: the 8-column body plus 2 columns + 2 gaps each side */
+  .text-band .body > .body-text.dam-videos {
+    margin: 0 calc(-25% - 10px);
+  }
+
+  .text-band .dam-videos > div {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 40px;
+    margin-top: -6px;
+  }
+
+  .text-band .dam-video iframe {
+    aspect-ratio: 412 / 208;
+  }
+}
+
+/* ct-16: the chart title is the source .text-3wpew (16px lead face, 140 %, no blank line) */
+@media (width < 1024px) {
+  .text-band.ct.ct-16 .body-text p:has(+ p > picture) {
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 140%;
+  }
+}
+
+/* ct-cards below 1024: chart cards — left-aligned .text-3wpew titles (16px lead face, 140 %), the
+   chart 24px under its title, 20px between cards */
+@media (width < 1024px) {
+  .text-band.cards.ct-cards .body {
+    gap: 20px;
+  }
+
+  .text-band.cards.ct-cards .body-text {
+    text-align: left;
+  }
+
+  .text-band.cards.ct-cards .body-text p:not(:has(picture)) {
+    margin-bottom: 24px;
+    font-family: var(--font-lead);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%;
+  }
+
+  .text-band.cards.ct-cards .body-text p:has(picture) {
+    margin-bottom: 0;
+  }
+}
+
+/* ag-bold below 1024: the source agenda rows on ink — time in the white label face (.text-xczn2,
+   14px), entry title in the 16px lead face (.text-qqvt1, 170 %) */
+@media (width < 1024px) {
+  .text-band.agenda.ag-bold .ag-time {
+    color: #fff;
+    font-family: var(--font-label);
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+  .text-band.agenda.ag-bold .ag-what p:first-child {
+    font-family: var(--font-lead);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 170%;
+  }
+}
+
+/* trk: below 1024 the Archivo stand-ins set prose ~1-2 % narrower than the source faces (canvas
+   advance-width probe, 16px light: live/delivered 1.011-1.020), so long paragraphs wrap a line
+   short. Per-page opt-in (a global value regressed other pages); zero specificity: explicit rules win. */
+@media (width < 1024px) {
+  :where(.text-band.trk) :where(p, li, td, th) {
+    letter-spacing: 0.008em;
+  }
+
+  :where(.text-band.trk .kicker) :where(p) {
+    letter-spacing: inherit;
+  }
+}
+
+/* h6: the source .text heading (text face 500, 18px / 130 % with 0.5em under; 20px and centred
+   from 1440 — text-xl-align-center), title or body copy. The 500 stand-in sets these uppercase
+   lines ~8 % wider than the source face (canvas advance, 18px: 564 vs 607px), so -0.05em tracking */
+.text-band .title-text > div > h6,
+.text-band .body-text h6 {
+  margin: 0 0 0.5em;
+  font-family: var(--font-text);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: -0.05em;
+}
+
+@media (width >= 1440px) {
+  .text-band .title-text > div > h6,
+  .text-band .body-text h6 {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+/* dam-videos from 1024: the row is 150 % of the 8-column body (12 columns), centred on it (the
+   body is a flex row: a fixed basis, else the item shrinks back to the body width) */
+@media (width >= 1024px) {
+  .text-band .body > .body-text.dam-videos {
+    flex: 0 0 calc(150% + 20px);
+    max-width: none;
+  }
+}
+
+/* cap-0: the source caption sits right under its figure (no gap; per band — some source captions
+   keep a 40px spacer, measured live: image bottom to caption top 0-1px) */
+.text-band.cap-0 .body-text p:has(> picture):has(+ p) {
+  margin-bottom: 0;
+}
+
+.text-band.cap-0 .body-text p:has(> picture) + p {
+  margin-top: 0;
+}
+
+/* mcap-0: the same, below 1024 only (from 1024 the caption keeps the 40px gap) */
+@media (width < 1024px) {
+  .text-band.mcap-0 .body-text p:has(> picture):has(+ p) {
+    margin-bottom: 0;
+  }
+
+  .text-band.mcap-0 .body-text p:has(> picture) + p {
+    margin-top: 0;
+  }
+}
+
+/* note-body: the source note caption (12px) is followed by body copy (16px / 27px, #151f27);
+   9px under the caption, 12px between the paragraphs */
+.text-band.note.note-body .body-text p + p {
+  color: #151f27;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.text-band.note.note-body .body-text p:has(+ p) {
+  margin-bottom: 9px;
+}
+
+.text-band.note.note-body .body-text p + p:has(+ p) {
+  margin-bottom: 12px;
+}
+
+/* d-tile: from 1024 the source slider cards are tiles too (50 / 25 / 20px padding, 8px radius,
+   white to #f4f8fc) */
+@media (width >= 1024px) {
+  .text-band.d-tile .body > .body-text > div {
+    padding: 50px 25px 20px;
+    border-radius: 8px;
+    background: linear-gradient(#fff, #f4f8fc, #f4f8fc 100%);
+  }
+}
+
+/* li-src: an emphasised source note closing a list item is the source caption line (12px, 140 %,
+   upright, on its own line) */
+.text-band.li-src li > em:last-child {
+  display: block;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 140%;
+}
+
+/* capc: below 1024 this page's source captions stay centred (text-align-center, not the xl-only
+   variant) */
+@media (width < 1024px) {
+  .text-band.capc .body-text p:has(> picture) + p,
+  .text-band.capc.chart .body-text > div > p:last-child:not(:has(picture)) {
+    text-align: center;
+  }
+}
+
+/* h4-28: from 1024 the group heading is the source 28px text-face title (500, 140 %, 32px under)
+   over 14px / 170 % display-face copy */
+@media (width >= 1024px) {
+  .text-band.h4-28 .body-text h4 {
+    margin-bottom: 32px;
+    font-family: var(--font-text);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 140%;
+  }
+
+  .text-band.h4-28 .body-text p {
+    font-family: var(--font-display);
+    font-size: 14px;
+    line-height: 170%;
+  }
+}
+
+/* t-18: the source small band title (lead face 500, 18px / 130 %, 20px from 1440), centred */
+.text-band.t-18 .title-text {
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+}
+
+.text-band.t-18 .title-text :is(h2, h3) {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+@media (width >= 1440px) {
+  .text-band.t-18 .title-text {
+    font-size: 20px;
+  }
+}
+
+/* fig-4l: the source sets the fourth figure's copy one step larger (.text-mu4tw: 18px / 130 %,
+   20px from 1440; the others .text-3wpew) */
+.text-band.figures.fig-4l .body > .body-text:nth-of-type(4) p:not(:has(> picture)) {
+  font-size: 18px;
+  line-height: 130%;
+}
+
+@media (width >= 1440px) {
+  .text-band.figures.fig-4l .body > .body-text:nth-of-type(4) p:not(:has(> picture)) {
+    font-size: 20px;
+  }
+}
+
+/* fix-small-3 — nk-gap: two stacked source headings 1em apart (28px, 36px from 1024) */
+.text-band.nk-gap :is(.kicker, h2, h3) + :is(h2, h3) {
+  margin-top: 1em;
+}
+
+/* lead-img-s: the delivered <picture> keeps pretty-print whitespace (empty lines above the image) */
+.text-band.lead-img-s .lead p {
+  margin: 0;
+}
+
+.text-band.lead-img-s .lead p > picture {
+  display: block;
+  line-height: 0;
+  white-space: normal;
+}
+
+@media (width >= 1024px) {
+  /* t-42: the source split statement title (42px / 120 %) */
+  .text-band.t-42 .title-text {
+    font-size: 42px;
+  }
+
+  /* lead-img-s: the image 40px under the title, the copy starts level with the title (kicker 14 + 24) */
+  .text-band.lead-img-s .lead img {
+    margin-top: 16px;
+  }
+
+  .text-band.lead-img-s .body {
+    padding-top: 38px;
+  }
+}
+
+/* n-full: a source note set full-bleed (no side padding) and centred below 768 */
+@media (width < 768px) {
+  .text-band.note.n-full .grid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .text-band.note.n-full .body-text {
+    text-align: center;
+  }
+}
+
+/* d-169: from 1024 a picture-only cell keeps the source 16:9 box (object-fit cover), not the square */
+@media (width >= 1024px) {
+  .text-band.d-169 .pic img {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+}
+
+/* d-ct: from 1024 the chart title is the source .text-mu4tw (a blank line, then 20px / 26px lead
+   face 300, centred) right on top of the chart, and the source caption sits flush under the chart
+   across the full column */
+@media (width >= 1024px) {
+  .text-band.d-ct .body-text p:has(+ p > picture) {
+    margin: 0;
+    padding-top: 26px;
+    font-family: var(--font-lead);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 26px;
+  }
+
+  .text-band.d-ct .body-text p:has(> picture) {
+    margin-bottom: 0;
+  }
+
+  .text-band.d-ct .body-text p:has(> picture) + p {
+    margin: 0;
+  }
+}
+
+/* disp-42: the source statement title in the display face (.text-c0k7h: 28px, 42px / 120 % from
+   1024); em-green: its colour spans (authored as emphasis) in the brand green */
+.text-band.disp-42 .title-text {
+  font-family: var(--font-display);
+}
+
+.text-band.em-green .title-text em {
+  color: var(--brand-color);
+}
+
+@media (width >= 1024px) {
+  .text-band.disp-42 .title-text {
+    font-size: 42px;
+  }
+}
+
+/* quote from 1440: the source card bleeds to the page's left edge (its copy stays on column 2) and
+   the attribution is a 375px right-aligned block */
+@media (width >= 1440px) {
+  .text-band.quote .body {
+    margin-left: calc(-1 * var(--grid-pad));
+    padding-left: var(--grid-pad);
+  }
+
+  .text-band.quote .body-text p + p {
+    max-width: 375px;
+    margin-left: auto;
+  }
+}
+
+/* pr-card: the source press-release card (card-mbcqo) on its 2.05:1 band — a white arch card
+   (radius 0 0 180px 180px, 0 30px 32px shadow) with a grey kicker heading, the title and a chevron
+   control; below 1024 the card follows the band's media box (32px under it), from 1024 it sits
+   on column 2 at the band's top */
+.text-band.pr-card .grid {
+  margin: 0;
+}
+
+.text-band.pr-card .title {
+  box-sizing: border-box;
+  margin: calc((100vw - 80px) * 0.4889 + 32px) 0 0;
+  padding: 28px 32px 47px;
+  border-radius: 0 0 180px 180px;
+  background: #fff;
+  box-shadow: 0 30px 32px rgb(0 0 0 / 10%);
+}
+
+.text-band.pr-card .title-text {
+  color: #151f27;
+  font: 500 18px / 23.4px var(--font-text);
+  text-align: center;
+}
+
+.text-band.pr-card .kicker {
+  margin: 0 0 37px;
+  color: #a9b3bc;
+  font: inherit;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.text-band.pr-card .title-text h6 {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.text-band.pr-card .title::after {
+  flex-basis: 30px;
+  height: 30px;
+  margin: 40px auto 0;
+  background: currentcolor;
+  content: '';
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath d='m13 11 4 4-4 4' fill='none' stroke='%23000' stroke-width='1.3'/%3E%3C/svg%3E") center / 30px 30px no-repeat;
+}
+
+@media (width >= 1024px) {
+  .text-band.pr-card .grid {
+    min-height: calc((100vw - 128px) * 0.4889);
+    align-content: start;
+  }
+
+  .text-band.pr-card .title {
+    grid-column: 2 / 5;
+    width: 298px;
+    margin: 0;
+  }
+
+  .text-band.pr-card .title-text {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .text-band.pr-card .kicker {
+    margin-bottom: 36px;
+  }
+}
+
+/* tk-<n> (fix-small-4): trk with a fitted value — n / 1000 em below 1024 on the band's text lines,
+   fitted per block against the live line breaks @360 (.work/rollout/fix-small-4/wrap.mjs; the
+   biotagging bands need .005 - .0125). Zero specificity like trk: explicit rules win. */
+@media (width < 1024px) {
+  :where(.text-band.tk-5) :where(p, li, h2, h3, h4) { letter-spacing: 0.005em; }
+  :where(.text-band.tk-7) :where(p, li, h2, h3, h4) { letter-spacing: 0.0075em; }
+  :where(.text-band.tk-10) :where(p, li, h2, h3, h4) { letter-spacing: 0.01em; }
+  :where(.text-band.tk-12) :where(p, li, h2, h3, h4) { letter-spacing: 0.0125em; }
+
+  :where(.text-band[class*=" tk-"] .kicker) :where(p) { letter-spacing: inherit; }
+}
+
+/* ft-298 (fix-editorial-4, ai-now-summit): the source flip tiles are 298 px squares from 1024 */
+@media (width >= 1024px) {
+  .text-band.flip.ft-298 .body-text > div {
+    min-height: 298px;
+  }
+}
+
+/* vcard (fix-editorial-4, ai-now-summit offering card): the source reply-card over a dam-media
+   player — the player fills a 2:1 card (1312 x 656 @1440), the copy sits over it on the left */
+.text-band.vcard .body {
+  display: block;
+  position: relative;
+  grid-column: 1 / -1;
+  aspect-ratio: 2 / 1;
+  overflow: hidden;
+  color: #fff;
+}
+
+.text-band.vcard .sp-group {
+  display: none;
+}
+
+.text-band.vcard .body > .body-text.dam-videos {
+  position: absolute;
+  inset: 0;
+  max-width: none;
+  margin: 0;
+}
+
+.text-band.vcard .dam-videos > div {
+  display: block;
+  height: 100%;
+  margin: 0;
+}
+
+.text-band.vcard .dam-video,
+.text-band.vcard .dam-video iframe {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: auto;
+}
+
+.text-band.vcard .body > .body-text:not(.dam-videos) {
+  position: absolute;
+  top: calc(50% - 28px);
+  left: 24px;
+  right: 24px;
+  transform: translateY(-50%);
+  color: #fff;
+  text-align: left;
+}
+
+.text-band.vcard .body-text:not(.dam-videos) > div > p:first-child {
+  margin-bottom: 56px;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.text-band.vcard .body-text :is(h3, h3 a:any-link) {
+  margin: 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (width >= 1024px) {
+  .text-band.vcard .body > .body-text:not(.dam-videos) {
+    left: 113px;
+    right: auto;
+    width: 523px;
+  }
+
+  .text-band.vcard .body-text h3 {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+}
+
+/* ncard (fix-editorial-4, ai-now-summit news row): dark teal reply-card tiles (749 x 421 @1440,
+   48 px padding), kicker + heading at the foot, the abstract hidden as on the source */
+.text-band.ncard .body-text > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  height: 100%;
+  min-height: 300px;
+  padding: 24px;
+  background: linear-gradient(90deg, #042432, #003d47);
+  color: #fff;
+}
+
+.text-band.ncard .body-text > div > p:first-child {
+  margin-bottom: 50px;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.text-band.ncard .body-text > div > p:first-child::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right: 6px;
+  border-radius: 50%;
+  background: #ff8c00;
+  vertical-align: 1px;
+}
+
+.text-band.ncard .body-text > div > p:not(:first-child) {
+  display: none;
+}
+
+.text-band.ncard .body-text :is(h3, h3 a:any-link) {
+  margin: 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (width >= 1024px) {
+  .text-band.ncard.d-slide .body {
+    grid-column: 2 / 13;
+    margin-right: -64px;
+  }
+
+  .text-band.ncard .body-text > div {
+    height: 421px;
+    padding: 48px;
+  }
+
+  .text-band.ncard .body-text h3 {
+    padding-right: 204px;
+    font-size: 28px;
+    line-height: 1.4;
+  }
+}
+
+/* fdark (fix-editorial-4, ethical-ai collaborate slider): flip tiles on the source dark card
+   (#28333e), the heading centred in white */
+.text-band.flip.fdark .body-text > div {
+  align-items: center;
+  background: #28333e;
+  box-shadow: none;
+  color: #fff;
+  text-align: center;
+}
+
+/* h3-24 (fix-editorial-4): body group headings at the source 24px / 130 % from 1024 */
+@media (width >= 1024px) {
+  .text-band.h3-24 .body-text h3 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+}
+
+/* tq (fix-editorial-4, ethical-ai "Hear from us"): from 1024 each testimonial slide is 1200 px —
+   the 200 px round portrait with name and company under it, the quote 118 px to its right */
+@media (width >= 1024px) {
+  .text-band.tq.d-slide .body {
+    grid-column: 2 / 13;
+    margin-right: -64px;
+  }
+
+  .text-band.tq.d-slide .body > .body-text {
+    flex-basis: 1200px;
+  }
+
+  .text-band.tq .body-text > div {
+    display: grid;
+    grid-template-columns: 200px 720px;
+    grid-template-rows: auto auto auto;
+    column-gap: 118px;
+    align-content: start;
+    padding-left: 35px;
+    text-align: left;
+  }
+
+  .text-band.tq .body-text > div > p:first-child {
+    grid-area: 1 / 1;
+    margin: 0;
+  }
+
+  .text-band.tq .body-text > div > p:first-child img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .text-band.tq .body-text > div > p:nth-child(2) {
+    grid-area: 2 / 1;
+    margin-top: 24px;
+    color: #586674;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .text-band.tq .body-text > div > p:nth-child(3) {
+    grid-area: 3 / 1;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .text-band.tq .body-text > div > p:nth-child(4) {
+    grid-area: 1 / 2 / 4 / 3;
+    align-self: center;
+    font-size: 18px;
+    line-height: 1.8;
+  }
+}
+
+/* cg-0 (fix-editorial-4, acknowledgement): below 1024 the source cols copy runs on without the
+   27 px group gap */
+@media (width < 1024px) {
+  .text-band.cols.cg-0 .body {
+    row-gap: 0;
+  }
+}
+
+/* em-green on an untitled statement (fix-editorial-4, ethical-ai): the emphasis is the green word */
+.text-band.statement.em-green .body-text em {
+  color: var(--brand-color);
+  font-style: normal;
+}
+
+/* ncards (fix-editorial-4, learning-partner): from 1024 the numbered slider cards — 298 px cards
+   40 px apart, a 35 px black disc with the yellow number, the 24 px heading; nc-line: 1px
+   #c5ccd3 outline on white (cards stretch to the row); nc-tile: white tiles on the grey band.
+   dshift-1: the source rail rests one card in (the first card sits beyond the left edge) */
+@media (width >= 1024px) {
+  .text-band.ncards .body-text > div {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 30px 20px 24px;
+    border: 1px solid #c5ccd3;
+    text-align: left;
+  }
+
+  .text-band.ncards.nc-tile .body {
+    align-items: flex-start;
+  }
+
+  .text-band.ncards.nc-tile .body-text > div {
+    border-color: #e6e7e8;
+    background: #fff;
+  }
+
+  .text-band.ncards .body-text > div > p:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 24px;
+    border-radius: 50%;
+    background: #000;
+    color: #ffd138;
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  .text-band.ncards .body-text h4 {
+    margin: 0 0 12px;
+    font-size: 24px;
+    line-height: 1.3;
+  }
+
+  .text-band.ncards .body-text > div > p:not(:first-child) {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .text-band.ncards.d-slide .body {
+    margin-top: 50px;
+  }
+
+  .text-band.dshift-1.d-slide .body > .body-text:first-child {
+    margin-left: -338px;
+  }
+}
+
+/* pills (fix-editorial-4, learning-partner modalities): from 1024 a centred label over three
+   outlined 64 px pills, one per third of columns 2-11 */
+@media (width >= 1024px) {
+  .text-band.pills .body {
+    display: grid;
+    grid-column: 2 / 12;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    justify-items: center;
+    gap: 0;
+  }
+
+  .text-band.pills .sp-group {
+    display: none;
+  }
+
+  .text-band.pills .body > .body-text {
+    max-width: 100%;
+  }
+
+  .text-band.pills .body > .body-text:first-child {
+    grid-column: 1 / -1;
+    margin-bottom: 64px;
+    color: #586674;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .text-band.pills .body > .body-text:not(:first-child) > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    min-height: 64px;
+    padding: 10px 24px;
+    border: 1px solid #c5ccd3;
+    border-radius: 32px;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+  }
+}
+
+/* m-card (fix-editorial-5, learning-partner lower lists): below 1024 each group is an outlined
+   white card (source grid-item: 1px #c5ccd3 border, 30px padding, 70 x 5 black bar, 24px to the
+   heading); m-tight: 30px between groups, 10px under a 26px-leading heading */
+@media (width < 1024px) {
+  .text-band.m-tight .body {
+    gap: 30px;
+  }
+
+  .text-band.m-tight .body-text :is(h3, h4) {
+    margin-bottom: 10px;
+    line-height: 26px;
+  }
+
+  .text-band.m-card .body-text > div {
+    position: relative;
+    box-sizing: border-box;
+    padding: 59px 30px 30px;
+    border: 1px solid #c5ccd3;
+    background: #fff;
+  }
+
+  .text-band.m-card .body-text > div::before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 70px;
+    height: 5px;
+    background: #000;
+  }
+}
+
+/* pills below 1024 (fix-editorial-5): left label (14px label face, 32px under), stacked outlined
+   20 px-round boxes 8/5 px padding, 15px apart, 250 px wide (the last full width), centred 14/23.8 copy */
+@media (width < 1024px) {
+  .text-band.pills .body {
+    display: grid;
+    gap: 15px;
+  }
+
+  .text-band.pills .body p {
+    margin: 0;
+  }
+
+  .text-band.pills .sp-group {
+    display: none;
+  }
+
+  .text-band.pills .body > .body-text:first-child {
+    margin-bottom: 17px;
+    color: #586674;
+    font-family: var(--font-label);
+    font-size: 14px;
+  }
+
+  .text-band.pills .body > .body-text:not(:first-child) > div {
+    box-sizing: border-box;
+    width: 250px;
+    padding: 8px 0 5px;
+    border: 1px solid #c5ccd3;
+    border-radius: 20px;
+    font-family: var(--font-display);
+    font-size: 14px;
+    line-height: 23.8px;
+    text-align: center;
+  }
+
+  .text-band.pills .body > .body-text:last-child > div {
+    width: 100%;
+  }
+}
+
+/* ncards below 1024 (fix-editorial-5): the same numbered cards at mobile — 1px outline, 30 px
+   padding, 35 px disc 24 px over a 20/26 heading (10 px under), 14/1.7 copy, 50 px under the intro */
+@media (width < 1024px) {
+  .text-band.ncards .body {
+    margin-top: 50px;
+  }
+
+  .text-band.ncards .body-text > div {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 30px;
+    border: 1px solid #c5ccd3;
+    text-align: left;
+  }
+
+  .text-band.ncards.nc-tile .body-text > div {
+    border-color: #e6e7e8;
+    background: #fff;
+  }
+
+  .text-band.ncards .body-text > div > p:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 24px;
+    border-radius: 50%;
+    background: #000;
+    color: #ffd138;
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  .text-band.ncards .body-text h4 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .text-band.ncards .body-text > div > p:not(:first-child) {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}
+
+/* m-media below 1024 (fix-editorial-5, learning-partner Elevate Academy): the source stacks the
+   gallery first (slide + arrows: 404 px to the kicker), then left-aligned copy with a
+   10px kicker paragraph over a 28/33.6 title */
+@media (width < 1024px) {
+  .text-band.cards.m-media .body {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0;
+  }
+
+  .text-band.cards.m-media .body > .pic {
+    order: -1;
+    margin-bottom: 124px;
+  }
+
+  .text-band.cards.m-media .body-text {
+    text-align: left;
+  }
+
+  .text-band.cards.m-media .body-text > div > p:first-child {
+    margin: 0 0 16px;
+    color: #586674;
+    font-family: var(--font-label);
+    font-size: 10px;
+    line-height: 14px;
+    text-transform: uppercase;
+  }
+
+  .text-band.cards.m-media .body-text h2 {
+    margin: 0 0 23px;
+    color: #151f27;
+    font-family: var(--font-lead);
+    font-size: 28px;
+    line-height: 33.6px;
+    text-transform: none;
+  }
+
+  .text-band.cards.m-media .body-text h2 + :not(h2) {
+    margin-top: 0;
+  }
+
+  .text-band.cards.m-media .body-text ul {
+    padding-left: 40px;
+  }
+}
+
+/* fig-under below 1024 (fix-editorial-6, ai-now): live order kicker / title / picture / copy —
+   10px label-face kicker 16px over the title (also kl on other bands), picture 24px under it and 32px over the copy, the
+   text link 56px under the copy; source headings render with "liga" 0 (wraps as live) */
+@media (width < 1024px) {
+  .text-band.media-right.fig-under .figure {
+    grid-row: 2;
+    margin: 0 0 32px;
+  }
+
+  .text-band.media-right.fig-under .body {
+    grid-row: 3;
+  }
+
+  .text-band:is(.fig-under, .kl) .kicker {
+    margin-bottom: 16px;
+    font-family: var(--font-label);
+    font-weight: 300;
+    letter-spacing: normal;
+  }
+
+  .text-band.fig-under .title-text h2 {
+    max-width: 270px;
+    font-feature-settings: 'liga' 0;
+  }
+
+  .text-band.fig-under .body-text p.button-wrapper {
+    margin-top: 32px;
+  }
+}
+
+/* fix-editorial-6 (ai-now 360): the source's 56px section margins below 1024; vcard as the
+   source 2:3 hero card (copy at the foot: 40px sides, 48px under, 24px / 140 % title); ncard
+   tiles 2:3 with 32px insets, an 8px orange dot and a 4-line 24px title */
+@media (width < 1024px) {
+  .text-band.mt-56 .grid {
+    margin-top: 56px;
+  }
+
+  .text-band.mb-56 .grid {
+    margin-bottom: 56px;
+  }
+
+  .text-band.vcard .body {
+    aspect-ratio: 2 / 3;
+  }
+
+  .text-band.vcard .body > .body-text:not(.dam-videos) {
+    z-index: 1;
+    inset: auto 40px 48px;
+    transform: none;
+  }
+
+  .text-band.vcard .body-text:not(.dam-videos) > div > p:first-child {
+    margin-bottom: 16px;
+  }
+
+  .text-band.vcard .body-text h3 {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  .text-band.vcard .body-text:not(.dam-videos) > div > p:not(:first-child) {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 27.2px;
+  }
+
+  .text-band.ncard .body-text > div {
+    aspect-ratio: 2 / 3;
+    min-height: 0;
+    padding: 32px;
+  }
+
+  .text-band.ncard .body-text > div > p:first-child {
+    margin-bottom: 15px;
+  }
+
+  .text-band.ncard .body-text > div > p:first-child::before {
+    width: 8px;
+    height: 8px;
+    margin-right: 8px;
+  }
+
+  .text-band.ncard .body-text h3 {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  /* the clamp sits on the link itself (the source link wraps its clamped heading) */
+  .text-band.ncard .body-text h3 a:any-link {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+  }
+
+  /* vcard foot shade: the source card darkens linearly to ~70 % black at its foot (sampled) */
+  .text-band.vcard .body::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 70%));
+    pointer-events: none;
+  }
+}
+
+/* fix-editorial-6 (ai-now 360): 48px section margins; m-white = a grey band that is white below
+   1024 on the source; sl = the source statement block below 1024 (kicker 24px over the copy,
+   the button 24px under it) */
+@media (width < 1024px) {
+  .text-band.mt-48 .grid {
+    margin-top: 48px;
+  }
+
+  .text-band.mb-48 .grid {
+    margin-bottom: 48px;
+  }
+
+  .text-band.grey.m-white {
+    background: #fff;
+  }
+
+  .text-band.statement.sl .body-text :is(h2, p) {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .text-band.statement.sl .body-text h2 {
+    margin-bottom: 24px;
+  }
+
+  .text-band.statement.sl .body-text p.button-wrapper {
+    margin-top: 24px;
+  }
+}
+
+/* fix-editorial-7 (ethical-ai 360): fdark rail below 1024 = the source 280 px square dark cards,
+   24 px apart, the heading left and vertically centred (ehjkbitsdn 700 16 / 22.4), neighbours
+   peeking into the 40 px page margins; tq below 1024 = the 200 px round portrait centred, the
+   name 24 px under it (label face 16 / 22.4 uppercase), the company (lead face 14 / 23.8) and the
+   quote 24 px under (display face 18 / 34.2, centred) */
+@media (width < 1024px) {
+  .text-band.mt-28 .grid {
+    margin-top: 28px;
+  }
+
+  /* bt-31: the source statement button sits 40 px (ink to ink) under the copy */
+  .text-band.statement.bt-31 .body-text p.button-wrapper {
+    margin-top: 31px;
+  }
+
+  .text-band.flip.fdark.m-slide .body,
+  .text-band.tq.m-slide .body {
+    margin: 0 -40px;
+    padding: 0 40px;
+  }
+
+  .text-band.flip.fdark.m-slide .body > .body-text {
+    flex: 0 0 280px;
+  }
+
+  .text-band.flip.fdark .body-text > div {
+    align-items: flex-start;
+    height: 280px;
+    padding: 20px;
+    border-radius: 0;
+    text-align: left;
+  }
+
+  .text-band.flip.fdark .body-text > div :is(h3, h4) {
+    font-family: ehjkbitsdn, var(--font-lead);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+  }
+
+  .text-band.tq.m-slide .body > .body-text {
+    flex: 0 0 280px;
+  }
+
+  .text-band.tq .body-text > div {
+    text-align: center;
+  }
+
+  .text-band.tq .body-text > div > p {
+    margin: 0;
+  }
+
+  .text-band.tq .body-text > div > p:first-child img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .text-band.tq .body-text > div > p:nth-child(2) {
+    margin-top: 24px;
+    color: #586674;
+    font-family: var(--font-label);
+    font-size: 16px;
+    line-height: 22.4px;
+    text-transform: uppercase;
+  }
+
+  .text-band.tq .body-text > div > p:nth-child(3) {
+    margin-top: 12px;
+    font-family: var(--font-lead);
+    font-size: 14px;
+    line-height: 23.8px;
+  }
+
+  .text-band.tq .body-text > div > p:nth-child(4) {
+    padding-top: 24px;
+    font-family: var(--font-display);
+    font-size: 18px;
+    line-height: 34.2px;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "instrument": "crawl-fullpage",
+  "asymmetric": true,
+  "note": "stitch exit 1: stitch-shot error: scroll stall at chunk target 3620px: window scroll is a no-op (window.scrollY stuck at 3592px) while the document reports 4520px — likely an inner scroll container / scroll-jacked layout (html/body overflow:hidden). Stitched capture cannot measure this page class (capturing the inner scroller is future work): record the page as gate-blocked for the pixel probe and rely on content-diff/visual-diff. — crawl screenshot used",
+  "at": "2026-11-17T01:55:34.248Z"
+}

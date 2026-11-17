@@ -1,0 +1,5162 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-17T01:47:32.081Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.reply.com/en/frontier-event-2026",
+  "at": "2026-11-17T01:47:07.511Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 7995,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-bottom.w-full > div.logo.flex > a",
+    "x": 40,
+    "y": 0,
+    "w": 129,
+    "h": 64,
+    "text": "go to homepage",
+    "href": "/en"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 232,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 232,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.lg:hidden.first-level > button#mobile-menu-toggle",
+    "x": 296,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "text": "toggle menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.lg:hidden.first-level > button#mobile-menu-toggle",
+    "x": 296,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "label": "toggle menu",
+    "value": "toggle menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.eventpagetop__cover.parallax-fullw > picture > img.grid-bg",
+    "x": 0,
+    "y": 11,
+    "w": 360,
+    "h": 540,
+    "text": "",
+    "file": "e269e5af-5b47-43cc-849e-c0dbf0fed7df"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.eventpagetop__title.d-flex > div.d-flex.items-baseline > div.label--xsmall-upcase.text-white",
+    "x": 40,
+    "y": 200,
+    "w": 29,
+    "h": 14,
+    "text": "live"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "eventpagetop-runtime > div.eventpagetop__title.d-flex > h1.h1--light.line-clamp-4",
+    "x": 40,
+    "y": 230,
+    "w": 280,
+    "h": 119,
+    "level": 1,
+    "text": "ai frontier: from vision to e7"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "eventpagetop-runtime > div.eventpagetop__abstract.paragraph-01--light > p",
+    "x": 40,
+    "y": 718,
+    "w": 280,
+    "h": 135,
+    "text": "Reply and Microsoft are hosting an event entirely dedicated to Microsoft 365 E7,"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "eventpagetop-runtime > div.eventpagetop__infobox.infobox > div.h6.infobox__label",
+    "x": 64,
+    "y": 468,
+    "w": 232,
+    "h": 23,
+    "text": "Info"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.infobox__infos > div.infobox__date.d-flex > span",
+    "x": 86,
+    "y": 511,
+    "w": 148,
+    "h": 24,
+    "text": "September 22, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.infobox__infos > div.infobox__time.d-flex > span",
+    "x": 86,
+    "y": 547,
+    "w": 184,
+    "h": 24,
+    "text": "9:30 AM – 6:30 PM GMT+2"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.infobox__infos > div.d-flex.items-center > span",
+    "x": 86,
+    "y": 583,
+    "w": 210,
+    "h": 71,
+    "text": "Microsoft House - Envisioning Theater | Viale Pasubio 21, Milan"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-16.aspect-h-9 > picture > img.content.picture",
+    "x": 40,
+    "y": 1474,
+    "w": 280,
+    "h": 158,
+    "text": "",
+    "file": "ff1a8889-94c0-4c45-9cdf-3c7d3d170e5b"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#KEGgr",
+    "x": 40,
+    "y": 917,
+    "w": 280,
+    "h": 67,
+    "level": 2,
+    "text": "the frontier suite microsoft"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 40,
+    "y": 1001,
+    "w": 280,
+    "h": 189,
+    "text": "Microsoft 365 E7 brings together productivity, security, digital identity, and a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 40,
+    "y": 1202,
+    "w": 280,
+    "h": 216,
+    "text": "Built to accelerate AI transformation at scale, E7 empowers organizations to dep"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#bdKrd",
+    "x": 40,
+    "y": 1687,
+    "w": 280,
+    "h": 134,
+    "level": 2,
+    "text": "italian premiere: the first event dedicated to microsoft 365 e7"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 40,
+    "y": 1845,
+    "w": 280,
+    "h": 243,
+    "text": "Reply and Microsoft are bringing a new vision for enterprise AI to the stage wit"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 40,
+    "y": 2100,
+    "w": 280,
+    "h": 216,
+    "text": "Hosted at Microsoft’s on , this exclusive event offers a unique opportunity to d"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > em",
+    "x": 40,
+    "y": 2371,
+    "w": 252,
+    "h": 99,
+    "text": "Exclusive invitation-only event with limited attendance. Participation is subjec"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 40,
+    "y": 2531,
+    "w": 200,
+    "h": 22,
+    "text": "Sold-out Event"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#hOrUR",
+    "x": 40,
+    "y": 2687,
+    "w": 280,
+    "h": 67,
+    "level": 2,
+    "text": "ai is no longer a side project"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 40,
+    "y": 2797,
+    "w": 280,
+    "h": 162,
+    "text": "Organizations across every industry are looking to embed AI into everyday work a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 40,
+    "y": 2971,
+    "w": 280,
+    "h": 162,
+    "text": "Microsoft 365 E7 marks a significant evolution in enterprise technology strategy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 40,
+    "y": 3145,
+    "w": 280,
+    "h": 189,
+    "text": "explores this transformation through Reply’s experience supporting organizations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 40,
+    "y": 3346,
+    "w": 280,
+    "h": 108,
+    "text": "Together, we will explore the most impactful opportunities to reshape the workpl"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 40,
+    "y": 3466,
+    "w": 280,
+    "h": 216,
+    "text": "The event delivers an immersive Microsoft 365 E7 experience, showcasing a unifie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 40,
+    "y": 3694,
+    "w": 280,
+    "h": 216,
+    "text": "Through real-world scenarios, use cases, live demonstrations, and discussions wi"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#JDAtJ",
+    "x": 40,
+    "y": 4038,
+    "w": 280,
+    "h": 14,
+    "level": 2,
+    "text": "agenda"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#wJyO0",
+    "x": 40,
+    "y": 4062,
+    "w": 280,
+    "h": 14,
+    "level": 2,
+    "text": "september 22, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p > strong",
+    "x": 40,
+    "y": 4119,
+    "w": 254,
+    "h": 45,
+    "text": "09:30 - 10:00 |"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 40,
+    "y": 4181,
+    "w": 280,
+    "h": 81,
+    "text": "Welcome remarks from Reply and Microsoft."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 40,
+    "y": 4274,
+    "w": 280,
+    "h": 189,
+    "text": "Exploring the transition from AI assistants to Frontier Firms, where people lead"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p > strong",
+    "x": 40,
+    "y": 4479,
+    "w": 224,
+    "h": 18,
+    "text": "11:00 - 11:15 |"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 40,
+    "y": 4514,
+    "w": 280,
+    "h": 162,
+    "text": "Reply supports organizations throughout the entire technological evolution journ"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 40,
+    "y": 4688,
+    "w": 280,
+    "h": 243,
+    "text": "How Reply supports organizations throughout their transformation journey, from s"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p > strong",
+    "x": 40,
+    "y": 4947,
+    "w": 169,
+    "h": 18,
+    "text": "13.00- 14:30 |"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 40,
+    "y": 4982,
+    "w": 280,
+    "h": 81,
+    "text": "Speaker: Federica Didonna"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 40,
+    "y": 5075,
+    "w": 280,
+    "h": 54,
+    "text": "Speaker: Feliciano Intini"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 40,
+    "y": 5141,
+    "w": 280,
+    "h": 81,
+    "text": "Speaker: Michela Lecce"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 40,
+    "y": 5234,
+    "w": 280,
+    "h": 135,
+    "text": "Meet Microsoft and Reply experts, explore dedicated booths and solution desks."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#lsTHa",
+    "x": 40,
+    "y": 5433,
+    "w": 280,
+    "h": 34,
+    "level": 2,
+    "text": "why attend"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 40,
+    "y": 5490,
+    "w": 280,
+    "h": 243,
+    "text": "Discover how to lay the foundations for a new generation of intelligent enterpri"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 65,
+    "y": 5803,
+    "w": 230,
+    "h": 78,
+    "text": "Build a secure and scalable AI Frontier strategy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 65,
+    "y": 5901,
+    "w": 230,
+    "h": 119,
+    "text": "Gain a clear vision of how productivity, digital identity, security, and agentic"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title__container--nav > div.slider-with-title__nav > button.slider-with-title__prev.round-bt",
+    "x": 128,
+    "y": 6104,
+    "w": 48,
+    "h": 48,
+    "text": "prev item"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title__container--nav > div.slider-with-title__nav > button.slider-with-title__next.round-bt",
+    "x": 184,
+    "y": 6104,
+    "w": 48,
+    "h": 48,
+    "text": "next item"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#pDWqw",
+    "x": 40,
+    "y": 6304,
+    "w": 280,
+    "h": 101,
+    "level": 2,
+    "text": "lead your organization into the ai frontier"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h2#pDWqw > span.colors-1-gbfb",
+    "x": 50,
+    "y": 6304,
+    "w": 259,
+    "h": 99,
+    "text": "Lead your organization into the AI Frontier"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-1-gbfb",
+    "x": 43,
+    "y": 6433,
+    "w": 275,
+    "h": 72,
+    "text": "Discover the full potential of Microsoft 365 E7 and learn how to move from visio"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > em",
+    "x": 54,
+    "y": 6526,
+    "w": 252,
+    "h": 99,
+    "text": "Exclusive invitation-only event with limited attendance. Participation is subjec"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 80,
+    "y": 6686,
+    "w": 200,
+    "h": 22,
+    "text": "Sold-out Event"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.block > nav.footer.p-10 > a",
+    "x": 40,
+    "y": 6818,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 40,
+    "y": 6914,
+    "w": 280,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 40,
+    "y": 6914,
+    "w": 280,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 6961,
+    "w": 103,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 6998,
+    "w": 45,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 7035,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 7072,
+    "w": 67,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 40,
+    "y": 7129,
+    "w": 280,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 40,
+    "y": 7129,
+    "w": 280,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 7176,
+    "w": 142,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 7213,
+    "w": 165,
+    "h": 17,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 7250,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 7287,
+    "w": 149,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 7323,
+    "w": 161,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 7360,
+    "w": 127,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 7397,
+    "w": 208,
+    "h": 34,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 7451,
+    "w": 261,
+    "h": 17,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 7487,
+    "w": 154,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 7524,
+    "w": 147,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 7561,
+    "w": 261,
+    "h": 17,
+    "text": "do not sell/share my personal information",
+    "href": "void(0)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Careers",
+    "x": 40,
+    "y": 7618,
+    "w": 280,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Contacts",
+    "x": 40,
+    "y": 7722,
+    "w": 280,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 40,
+    "y": 7826,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 52,
+    "y": 7838,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 117,
+    "y": 7826,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 129,
+    "y": 7838,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "a6732ee4-95cf-4951-9c4b-3675c7154f7e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 195,
+    "y": 7826,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 207,
+    "y": 7838,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "49664893-bfc1-4d79-9208-3bdd7083126b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 272,
+    "y": 7826,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 284,
+    "y": 7838,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "c48097ef-90ed-4c24-aa40-1764649e72ff"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > span",
+    "x": 32,
+    "y": 7950,
+    "w": 136,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > a.underline",
+    "x": 32,
+    "y": 7967,
+    "w": 136,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.text-white.py-3 > div.flex.justify-between > button#cookie-pref-center",
+    "x": 296,
+    "y": 832,
+    "w": 48,
+    "h": 48,
+    "text": "open cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 6,
+    "textNodes": 98,
+    "controls": 31,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--a355dc1b--aemcoder.aem.live/en/frontier-event-2026",
+  "at": "2026-11-17T01:47:31.965Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 7863,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-main > div.site-header-logo > a",
+    "x": 40,
+    "y": 0,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "href": "/en"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-reply-logo > img",
+    "x": 40,
+    "y": 0,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "file": "reply-logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 232,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 232,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.mobile-toggle > button#mobile-menu-toggle",
+    "x": 296,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "text": "toggle menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.mobile-toggle > button#mobile-menu-toggle",
+    "x": 296,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "label": "toggle menu",
+    "value": "toggle menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pic-mobile > picture > img",
+    "x": 0,
+    "y": 19,
+    "w": 360,
+    "h": 540,
+    "text": "",
+    "file": "media_10652dc50e6d1fae392e4c9f61a4221351"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-name > div > p",
+    "x": 40,
+    "y": 200,
+    "w": 32,
+    "h": 14,
+    "text": "live"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-text > div > h1#ai-frontier-from-vision-to-e7",
+    "x": 40,
+    "y": 230,
+    "w": 280,
+    "h": 119,
+    "level": 1,
+    "text": "ai frontier: from vision to e7"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > h1#ai-frontier-from-vision-to-e7 > span.ink",
+    "x": 40,
+    "y": 229,
+    "w": 244,
+    "h": 119,
+    "text": "AI Frontier: from vision to E7"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.txt > div > p",
+    "x": 40,
+    "y": 718,
+    "w": 280,
+    "h": 136,
+    "text": "Reply and Microsoft are hosting an event entirely dedicated to Microsoft 365 E7,"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.txt > div > p",
+    "x": 64,
+    "y": 468,
+    "w": 232,
+    "h": 23,
+    "text": "Info"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.txt > div > p",
+    "x": 64,
+    "y": 511,
+    "w": 232,
+    "h": 24,
+    "text": "September 22, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.txt > div > p",
+    "x": 64,
+    "y": 547,
+    "w": 232,
+    "h": 24,
+    "text": "9:30 AM – 6:30 PM GMT+2"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.txt > div > p",
+    "x": 64,
+    "y": 583,
+    "w": 232,
+    "h": 71,
+    "text": "Microsoft House - Envisioning Theater | Viale Pasubio 21, Milan"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-text > div > h2#the-frontier-suite-microsoft",
+    "x": 40,
+    "y": 914,
+    "w": 280,
+    "h": 67,
+    "level": 2,
+    "text": "the frontier suite microsoft"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 40,
+    "y": 1006,
+    "w": 280,
+    "h": 189,
+    "text": "Microsoft 365 E7 brings together productivity, security, digital identity, and a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 40,
+    "y": 1207,
+    "w": 280,
+    "h": 216,
+    "text": "Built to accelerate AI transformation at scale, E7 empowers organizations to dep"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pic > picture > img",
+    "x": 40,
+    "y": 1463,
+    "w": 280,
+    "h": 158,
+    "text": "",
+    "file": "media_1dee037c3740f31dc225946ee1222a19d6"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-text > div > h2#italian-premiere-the-first-event-dedicated-to-microsoft-365-e7",
+    "x": 40,
+    "y": 1700,
+    "w": 280,
+    "h": 134,
+    "level": 2,
+    "text": "italian premiere: the first event dedicated to microsoft 365 e7"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 40,
+    "y": 1858,
+    "w": 280,
+    "h": 216,
+    "text": "Reply and Microsoft are bringing a new vision for enterprise AI to the stage wit"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 40,
+    "y": 2086,
+    "w": 280,
+    "h": 216,
+    "text": "Hosted at Microsoft’s on , this exclusive event offers a unique opportunity to d"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > p > em",
+    "x": 40,
+    "y": 2318,
+    "w": 247,
+    "h": 99,
+    "text": "Exclusive invitation-only event with limited attendance. Participation is subjec"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 40,
+    "y": 2467,
+    "w": 200,
+    "h": 50,
+    "text": "Sold-out Event"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-text > div > h2#ai-is-no-longer-a-side-project",
+    "x": 40,
+    "y": 2657,
+    "w": 280,
+    "h": 67,
+    "level": 2,
+    "text": "ai is no longer a side project"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 40,
+    "y": 2749,
+    "w": 280,
+    "h": 162,
+    "text": "Organizations across every industry are looking to embed AI into everyday work a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 40,
+    "y": 2923,
+    "w": 280,
+    "h": 162,
+    "text": "Microsoft 365 E7 marks a significant evolution in enterprise technology strategy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 40,
+    "y": 3097,
+    "w": 280,
+    "h": 189,
+    "text": "explores this transformation through Reply’s experience supporting organizations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 40,
+    "y": 3298,
+    "w": 280,
+    "h": 108,
+    "text": "Together, we will explore the most impactful opportunities to reshape the workpl"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 40,
+    "y": 3418,
+    "w": 280,
+    "h": 216,
+    "text": "The event delivers an immersive Microsoft 365 E7 experience, showcasing a unifie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 40,
+    "y": 3646,
+    "w": 280,
+    "h": 216,
+    "text": "Through real-world scenarios, use cases, live demonstrations, and discussions wi"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > h2#agenda",
+    "x": 40,
+    "y": 3904,
+    "w": 280,
+    "h": 14,
+    "level": 2,
+    "text": "agenda"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > h2#september-22-2026",
+    "x": 40,
+    "y": 3928,
+    "w": 280,
+    "h": 14,
+    "level": 2,
+    "text": "september 22, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > p > strong",
+    "x": 40,
+    "y": 3975,
+    "w": 250,
+    "h": 45,
+    "text": "09:30 - 10:00 |"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 40,
+    "y": 4037,
+    "w": 280,
+    "h": 81,
+    "text": "Welcome remarks from Reply and Microsoft."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 40,
+    "y": 4130,
+    "w": 280,
+    "h": 189,
+    "text": "Exploring the transition from AI assistants to Frontier Firms, where people lead"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > p > strong",
+    "x": 40,
+    "y": 4335,
+    "w": 233,
+    "h": 18,
+    "text": "11:00 - 11:15 |"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 40,
+    "y": 4370,
+    "w": 280,
+    "h": 162,
+    "text": "Reply supports organizations throughout the entire technological evolution journ"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 40,
+    "y": 4544,
+    "w": 280,
+    "h": 216,
+    "text": "How Reply supports organizations throughout their transformation journey, from s"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > p > strong",
+    "x": 40,
+    "y": 4776,
+    "w": 172,
+    "h": 18,
+    "text": "13.00- 14:30 |"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 40,
+    "y": 4811,
+    "w": 280,
+    "h": 81,
+    "text": "Speaker: Federica Didonna"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 40,
+    "y": 4904,
+    "w": 280,
+    "h": 54,
+    "text": "Speaker: Feliciano Intini"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 40,
+    "y": 4970,
+    "w": 280,
+    "h": 81,
+    "text": "Speaker: Michela Lecce"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 40,
+    "y": 5063,
+    "w": 280,
+    "h": 135,
+    "text": "Meet Microsoft and Reply experts, explore dedicated booths and solution desks."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-text > div > h2#why-attend",
+    "x": 40,
+    "y": 5278,
+    "w": 280,
+    "h": 34,
+    "level": 2,
+    "text": "why attend"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 40,
+    "y": 5335,
+    "w": 280,
+    "h": 243,
+    "text": "Discover how to lay the foundations for a new generation of intelligent enterpri"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 70,
+    "y": 5658,
+    "w": 220,
+    "h": 78,
+    "text": "Build a secure and scalable AI Frontier strategy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 70,
+    "y": 5752,
+    "w": 220,
+    "h": 119,
+    "text": "Gain a clear vision of how productivity, digital identity, security, and agentic"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.grid.r-grid > div.slide-nav.m-nav-bar > button.prev",
+    "x": 128,
+    "y": 5977,
+    "w": 48,
+    "h": 48,
+    "text": "prev item"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.grid.r-grid > div.slide-nav.m-nav-bar > button.next",
+    "x": 184,
+    "y": 5977,
+    "w": 48,
+    "h": 48,
+    "text": "next item"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-text > div > h2#lead-your-organization-into-the-ai-frontier",
+    "x": 40,
+    "y": 6165,
+    "w": 280,
+    "h": 101,
+    "level": 2,
+    "text": "lead your organization into the ai frontier"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 40,
+    "y": 6290,
+    "w": 280,
+    "h": 81,
+    "text": "Discover the full potential of Microsoft 365 E7 and learn how to move from visio"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > p > em",
+    "x": 57,
+    "y": 6387,
+    "w": 247,
+    "h": 99,
+    "text": "Exclusive invitation-only event with limited attendance. Participation is subjec"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 80,
+    "y": 6536,
+    "w": 200,
+    "h": 50,
+    "text": "Sold-out Event"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-wrap > nav.footer-nav > a.footer-nav-home",
+    "x": 40,
+    "y": 6686,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 40,
+    "y": 6782,
+    "w": 280,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 40,
+    "y": 6782,
+    "w": 280,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 40,
+    "y": 6829,
+    "w": 102,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 40,
+    "y": 6866,
+    "w": 43,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 40,
+    "y": 6903,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 40,
+    "y": 6940,
+    "w": 66,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 40,
+    "y": 6997,
+    "w": 280,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 40,
+    "y": 6997,
+    "w": 280,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 7044,
+    "w": 145,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 7081,
+    "w": 163,
+    "h": 17,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 7118,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 7155,
+    "w": 150,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 7191,
+    "w": 160,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 7228,
+    "w": 131,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 7265,
+    "w": 206,
+    "h": 34,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 7319,
+    "w": 266,
+    "h": 17,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 7355,
+    "w": 153,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 7392,
+    "w": 143,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 7429,
+    "w": 262,
+    "h": 17,
+    "text": "do not sell/share my personal information",
+    "href": "/en/frontier-event-2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 40,
+    "y": 7486,
+    "w": 280,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 40,
+    "y": 7590,
+    "w": 280,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 40,
+    "y": 7694,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 52,
+    "y": 7706,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 117,
+    "y": 7694,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 129,
+    "y": 7706,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 195,
+    "y": 7694,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 207,
+    "y": 7706,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-linkedin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 272,
+    "y": 7694,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 284,
+    "y": 7706,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-xing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > span",
+    "x": 32,
+    "y": 7818,
+    "w": 131,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > a",
+    "x": 32,
+    "y": 7834,
+    "w": 131,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-inner > div.site-legal-row > button#cookie-pref-center",
+    "x": 296,
+    "y": 832,
+    "w": 48,
+    "h": 48,
+    "text": "open cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 6,
+    "textNodes": 98,
+    "controls": 31,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "ai frontier: from vision to e7",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 5,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 5,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "the frontier suite microsoft",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "italian premiere: the first event dedicated to microsoft 365 e7",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 4,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "ai is no longer a side project",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 6,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "agenda",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "september 22, 2026",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 11,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 11,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "why attend",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 2,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "lead your organization into the ai frontier",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 4,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 40,
+    "y": 201,
+    "w": 29,
+    "h": 11
+   },
+   {
+    "x": 40,
+    "y": 229,
+    "w": 200,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 268,
+    "w": 251,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 308,
+    "w": 42,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 722,
+    "w": 259,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 749,
+    "w": 248,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 776,
+    "w": 210,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 803,
+    "w": 264,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 830,
+    "w": 120,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 469,
+    "w": 37,
+    "h": 20
+   },
+   {
+    "x": 86,
+    "y": 514,
+    "w": 148,
+    "h": 16
+   },
+   {
+    "x": 86,
+    "y": 550,
+    "w": 184,
+    "h": 16
+   },
+   {
+    "x": 86,
+    "y": 586,
+    "w": 129,
+    "h": 16
+   },
+   {
+    "x": 86,
+    "y": 610,
+    "w": 193,
+    "h": 16
+   },
+   {
+    "x": 86,
+    "y": 634,
+    "w": 123,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 920,
+    "w": 229,
+    "h": 27
+   },
+   {
+    "x": 40,
+    "y": 954,
+    "w": 122,
+    "h": 27
+   },
+   {
+    "x": 40,
+    "y": 1005,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1032,
+    "w": 236,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1059,
+    "w": 214,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1086,
+    "w": 274,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1113,
+    "w": 280,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1140,
+    "w": 230,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1167,
+    "w": 89,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1206,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1233,
+    "w": 224,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1260,
+    "w": 229,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1287,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1314,
+    "w": 221,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1341,
+    "w": 215,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1368,
+    "w": 262,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1395,
+    "w": 233,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1687,
+    "w": 248,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 1721,
+    "w": 222,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 1754,
+    "w": 200,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 1788,
+    "w": 243,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 1849,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1876,
+    "w": 259,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1903,
+    "w": 280,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1930,
+    "w": 143,
+    "h": 18
+   },
+   {
+    "x": 183,
+    "y": 1930,
+    "w": 107,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1957,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1984,
+    "w": 234,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2011,
+    "w": 263,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2038,
+    "w": 212,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2065,
+    "w": 77,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2104,
+    "w": 179,
+    "h": 18
+   },
+   {
+    "x": 219,
+    "y": 2104,
+    "w": 101,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2131,
+    "w": 139,
+    "h": 18
+   },
+   {
+    "x": 179,
+    "y": 2131,
+    "w": 28,
+    "h": 18
+   },
+   {
+    "x": 207,
+    "y": 2131,
+    "w": 100,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2158,
+    "w": 74,
+    "h": 18
+   },
+   {
+    "x": 114,
+    "y": 2158,
+    "w": 170,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2185,
+    "w": 249,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2212,
+    "w": 263,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2239,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2266,
+    "w": 265,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2293,
+    "w": 250,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2371,
+    "w": 252,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2398,
+    "w": 207,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2425,
+    "w": 211,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2452,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 2533,
+    "w": 120,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2690,
+    "w": 257,
+    "h": 27
+   },
+   {
+    "x": 40,
+    "y": 2724,
+    "w": 92,
+    "h": 27
+   },
+   {
+    "x": 40,
+    "y": 2801,
+    "w": 227,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2828,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2855,
+    "w": 256,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2882,
+    "w": 233,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2909,
+    "w": 196,
+    "h": 18
+   },
+   {
+    "x": 236,
+    "y": 2909,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2936,
+    "w": 46,
+    "h": 18
+   },
+   {
+    "x": 86,
+    "y": 2936,
+    "w": 4,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2975,
+    "w": 208,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3002,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3029,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3056,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3083,
+    "w": 248,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3110,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3149,
+    "w": 224,
+    "h": 18
+   },
+   {
+    "x": 264,
+    "y": 3149,
+    "w": 4,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3176,
+    "w": 235,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3203,
+    "w": 225,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3230,
+    "w": 280,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3257,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3284,
+    "w": 223,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3311,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3350,
+    "w": 238,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3377,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3404,
+    "w": 228,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3431,
+    "w": 233,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3470,
+    "w": 265,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3497,
+    "w": 238,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3524,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3551,
+    "w": 252,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3578,
+    "w": 265,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3605,
+    "w": 271,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3632,
+    "w": 246,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3659,
+    "w": 185,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3698,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3725,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3752,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3779,
+    "w": 239,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3806,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3833,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3860,
+    "w": 234,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3887,
+    "w": 249,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4039,
+    "w": 57,
+    "h": 11
+   },
+   {
+    "x": 40,
+    "y": 4063,
+    "w": 145,
+    "h": 11
+   },
+   {
+    "x": 40,
+    "y": 4119,
+    "w": 126,
+    "h": 18
+   },
+   {
+    "x": 166,
+    "y": 4119,
+    "w": 128,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4146,
+    "w": 79,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4185,
+    "w": 196,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4212,
+    "w": 245,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4239,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4278,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4305,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4332,
+    "w": 227,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4359,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4386,
+    "w": 270,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4413,
+    "w": 249,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4440,
+    "w": 215,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4479,
+    "w": 109,
+    "h": 18
+   },
+   {
+    "x": 149,
+    "y": 4479,
+    "w": 115,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4518,
+    "w": 261,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4545,
+    "w": 241,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4572,
+    "w": 180,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4599,
+    "w": 264,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4626,
+    "w": 221,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4653,
+    "w": 148,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4692,
+    "w": 209,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4719,
+    "w": 227,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4746,
+    "w": 167,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4773,
+    "w": 255,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4800,
+    "w": 240,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4827,
+    "w": 192,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4854,
+    "w": 229,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4881,
+    "w": 257,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4908,
+    "w": 146,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4947,
+    "w": 117,
+    "h": 18
+   },
+   {
+    "x": 157,
+    "y": 4947,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4986,
+    "w": 240,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5013,
+    "w": 147,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5040,
+    "w": 220,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5079,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5106,
+    "w": 193,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5145,
+    "w": 217,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5172,
+    "w": 175,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5199,
+    "w": 194,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5238,
+    "w": 117,
+    "h": 18
+   },
+   {
+    "x": 157,
+    "y": 5238,
+    "w": 122,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5265,
+    "w": 81,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5292,
+    "w": 213,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5319,
+    "w": 224,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5346,
+    "w": 216,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5433,
+    "w": 174,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 5494,
+    "w": 194,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5521,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5548,
+    "w": 243,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5575,
+    "w": 238,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5602,
+    "w": 253,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5629,
+    "w": 264,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5656,
+    "w": 267,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5683,
+    "w": 259,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5710,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 83,
+    "y": 5805,
+    "w": 194,
+    "h": 22
+   },
+   {
+    "x": 76,
+    "y": 5831,
+    "w": 208,
+    "h": 22
+   },
+   {
+    "x": 135,
+    "y": 5857,
+    "w": 91,
+    "h": 22
+   },
+   {
+    "x": 87,
+    "y": 5904,
+    "w": 186,
+    "h": 16
+   },
+   {
+    "x": 77,
+    "y": 5928,
+    "w": 205,
+    "h": 16
+   },
+   {
+    "x": 81,
+    "y": 5952,
+    "w": 199,
+    "h": 16
+   },
+   {
+    "x": 69,
+    "y": 5976,
+    "w": 222,
+    "h": 16
+   },
+   {
+    "x": 160,
+    "y": 5999,
+    "w": 40,
+    "h": 16
+   },
+   {
+    "x": 104,
+    "y": 6304,
+    "w": 152,
+    "h": 32
+   },
+   {
+    "x": 50,
+    "y": 6338,
+    "w": 259,
+    "h": 32
+   },
+   {
+    "x": 75,
+    "y": 6371,
+    "w": 210,
+    "h": 32
+   },
+   {
+    "x": 63,
+    "y": 6433,
+    "w": 234,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 6460,
+    "w": 259,
+    "h": 18
+   },
+   {
+    "x": 43,
+    "y": 6487,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 54,
+    "y": 6526,
+    "w": 252,
+    "h": 18
+   },
+   {
+    "x": 77,
+    "y": 6553,
+    "w": 207,
+    "h": 18
+   },
+   {
+    "x": 74,
+    "y": 6580,
+    "w": 211,
+    "h": 18
+   },
+   {
+    "x": 141,
+    "y": 6607,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 120,
+    "y": 6688,
+    "w": 120,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 6915,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 6962,
+    "w": 103,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6999,
+    "w": 45,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7036,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7073,
+    "w": 67,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7130,
+    "w": 135,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 7177,
+    "w": 142,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7214,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 7214,
+    "w": 73,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7251,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 7251,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7288,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 7288,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7324,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 7324,
+    "w": 69,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7361,
+    "w": 127,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7398,
+    "w": 208,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7415,
+    "w": 39,
+    "h": 13
+   },
+   {
+    "x": 79,
+    "y": 7415,
+    "w": 51,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7452,
+    "w": 196,
+    "h": 13
+   },
+   {
+    "x": 236,
+    "y": 7452,
+    "w": 64,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7488,
+    "w": 154,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7525,
+    "w": 147,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7562,
+    "w": 261,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7634,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 7738,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 7951,
+    "w": 81,
+    "h": 13
+   },
+   {
+    "x": 32,
+    "y": 7968,
+    "w": 136,
+    "h": 13
+   }
+  ],
+  "eds": [
+   {
+    "x": 40,
+    "y": 200,
+    "w": 32,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 229,
+    "w": 201,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 268,
+    "w": 244,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 308,
+    "w": 51,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 722,
+    "w": 256,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 750,
+    "w": 239,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 777,
+    "w": 210,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 804,
+    "w": 259,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 831,
+    "w": 120,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 469,
+    "w": 35,
+    "h": 20
+   },
+   {
+    "x": 86,
+    "y": 514,
+    "w": 149,
+    "h": 16
+   },
+   {
+    "x": 86,
+    "y": 550,
+    "w": 197,
+    "h": 16
+   },
+   {
+    "x": 86,
+    "y": 586,
+    "w": 129,
+    "h": 16
+   },
+   {
+    "x": 86,
+    "y": 610,
+    "w": 191,
+    "h": 16
+   },
+   {
+    "x": 86,
+    "y": 634,
+    "w": 127,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 917,
+    "w": 229,
+    "h": 27
+   },
+   {
+    "x": 40,
+    "y": 951,
+    "w": 118,
+    "h": 27
+   },
+   {
+    "x": 40,
+    "y": 1010,
+    "w": 271,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1037,
+    "w": 221,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1064,
+    "w": 207,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1091,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1118,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1145,
+    "w": 235,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1172,
+    "w": 90,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1211,
+    "w": 174,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1238,
+    "w": 222,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1265,
+    "w": 223,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1292,
+    "w": 259,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1319,
+    "w": 215,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1346,
+    "w": 208,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1373,
+    "w": 259,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1400,
+    "w": 226,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1700,
+    "w": 244,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 1734,
+    "w": 229,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 1767,
+    "w": 194,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 1801,
+    "w": 248,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 1862,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1889,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1916,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1943,
+    "w": 145,
+    "h": 18
+   },
+   {
+    "x": 185,
+    "y": 1943,
+    "w": 107,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1970,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1997,
+    "w": 216,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2024,
+    "w": 257,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2051,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2090,
+    "w": 177,
+    "h": 18
+   },
+   {
+    "x": 217,
+    "y": 2090,
+    "w": 103,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2117,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 176,
+    "y": 2117,
+    "w": 30,
+    "h": 18
+   },
+   {
+    "x": 206,
+    "y": 2117,
+    "w": 99,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2144,
+    "w": 74,
+    "h": 18
+   },
+   {
+    "x": 114,
+    "y": 2144,
+    "w": 171,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2171,
+    "w": 240,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2198,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2225,
+    "w": 245,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2252,
+    "w": 255,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2279,
+    "w": 243,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2318,
+    "w": 247,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2345,
+    "w": 196,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2372,
+    "w": 207,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2399,
+    "w": 74,
+    "h": 18
+   },
+   {
+    "x": 79,
+    "y": 2483,
+    "w": 121,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2660,
+    "w": 263,
+    "h": 27
+   },
+   {
+    "x": 40,
+    "y": 2694,
+    "w": 86,
+    "h": 27
+   },
+   {
+    "x": 40,
+    "y": 2753,
+    "w": 225,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2780,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2807,
+    "w": 252,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2834,
+    "w": 226,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2861,
+    "w": 193,
+    "h": 18
+   },
+   {
+    "x": 233,
+    "y": 2861,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2888,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 84,
+    "y": 2888,
+    "w": 4,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2927,
+    "w": 214,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2954,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2981,
+    "w": 271,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3008,
+    "w": 246,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3035,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3062,
+    "w": 25,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3101,
+    "w": 223,
+    "h": 18
+   },
+   {
+    "x": 263,
+    "y": 3101,
+    "w": 5,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3128,
+    "w": 229,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3155,
+    "w": 224,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3182,
+    "w": 270,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3209,
+    "w": 267,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3236,
+    "w": 211,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3263,
+    "w": 262,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3302,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3329,
+    "w": 210,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3356,
+    "w": 223,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3383,
+    "w": 232,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3422,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3449,
+    "w": 243,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3476,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3503,
+    "w": 280,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3530,
+    "w": 235,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3557,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3584,
+    "w": 241,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3611,
+    "w": 180,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3650,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3677,
+    "w": 259,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3704,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3731,
+    "w": 235,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3758,
+    "w": 265,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3785,
+    "w": 263,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3812,
+    "w": 229,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3839,
+    "w": 243,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3904,
+    "w": 64,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 3928,
+    "w": 154,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 3975,
+    "w": 123,
+    "h": 18
+   },
+   {
+    "x": 163,
+    "y": 3975,
+    "w": 127,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4002,
+    "w": 80,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4041,
+    "w": 195,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4068,
+    "w": 280,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4095,
+    "w": 80,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4134,
+    "w": 279,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4161,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4188,
+    "w": 229,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4215,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4242,
+    "w": 261,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4269,
+    "w": 279,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4296,
+    "w": 174,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4335,
+    "w": 121,
+    "h": 18
+   },
+   {
+    "x": 161,
+    "y": 4335,
+    "w": 112,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4374,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4401,
+    "w": 239,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4428,
+    "w": 173,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4455,
+    "w": 256,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4482,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4509,
+    "w": 75,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4548,
+    "w": 211,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4575,
+    "w": 231,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4602,
+    "w": 168,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4629,
+    "w": 245,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4656,
+    "w": 230,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4683,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4710,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4737,
+    "w": 243,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4776,
+    "w": 119,
+    "h": 18
+   },
+   {
+    "x": 159,
+    "y": 4776,
+    "w": 53,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4815,
+    "w": 242,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4842,
+    "w": 145,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4869,
+    "w": 221,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4908,
+    "w": 271,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4935,
+    "w": 192,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4974,
+    "w": 221,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5001,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5028,
+    "w": 195,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5067,
+    "w": 119,
+    "h": 18
+   },
+   {
+    "x": 159,
+    "y": 5067,
+    "w": 121,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5094,
+    "w": 77,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5121,
+    "w": 213,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5148,
+    "w": 280,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5175,
+    "w": 155,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5278,
+    "w": 170,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 5339,
+    "w": 193,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5366,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5393,
+    "w": 240,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5420,
+    "w": 244,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5447,
+    "w": 252,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5474,
+    "w": 261,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5501,
+    "w": 256,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5528,
+    "w": 248,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5555,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 82,
+    "y": 5660,
+    "w": 197,
+    "h": 22
+   },
+   {
+    "x": 77,
+    "y": 5686,
+    "w": 206,
+    "h": 22
+   },
+   {
+    "x": 138,
+    "y": 5712,
+    "w": 85,
+    "h": 22
+   },
+   {
+    "x": 88,
+    "y": 5755,
+    "w": 185,
+    "h": 16
+   },
+   {
+    "x": 86,
+    "y": 5779,
+    "w": 189,
+    "h": 16
+   },
+   {
+    "x": 83,
+    "y": 5803,
+    "w": 195,
+    "h": 16
+   },
+   {
+    "x": 71,
+    "y": 5827,
+    "w": 217,
+    "h": 16
+   },
+   {
+    "x": 161,
+    "y": 5850,
+    "w": 37,
+    "h": 16
+   },
+   {
+    "x": 105,
+    "y": 6165,
+    "w": 151,
+    "h": 32
+   },
+   {
+    "x": 56,
+    "y": 6199,
+    "w": 248,
+    "h": 32
+   },
+   {
+    "x": 77,
+    "y": 6232,
+    "w": 207,
+    "h": 32
+   },
+   {
+    "x": 66,
+    "y": 6294,
+    "w": 229,
+    "h": 18
+   },
+   {
+    "x": 49,
+    "y": 6321,
+    "w": 262,
+    "h": 18
+   },
+   {
+    "x": 47,
+    "y": 6348,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 57,
+    "y": 6387,
+    "w": 247,
+    "h": 18
+   },
+   {
+    "x": 82,
+    "y": 6414,
+    "w": 196,
+    "h": 18
+   },
+   {
+    "x": 76,
+    "y": 6441,
+    "w": 207,
+    "h": 18
+   },
+   {
+    "x": 143,
+    "y": 6468,
+    "w": 74,
+    "h": 18
+   },
+   {
+    "x": 119,
+    "y": 6552,
+    "w": 121,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 6782,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 6830,
+    "w": 102,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6867,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6904,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6941,
+    "w": 66,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6997,
+    "w": 135,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 7045,
+    "w": 145,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7082,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 7082,
+    "w": 71,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7119,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 7119,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7156,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 7156,
+    "w": 58,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7192,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 7192,
+    "w": 68,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7229,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7266,
+    "w": 206,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7283,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 80,
+    "y": 7283,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7320,
+    "w": 200,
+    "h": 13
+   },
+   {
+    "x": 240,
+    "y": 7320,
+    "w": 65,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7356,
+    "w": 153,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7393,
+    "w": 143,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7430,
+    "w": 262,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7501,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 7605,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 32,
+    "y": 7819,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 32,
+    "y": 7835,
+    "w": 131,
+    "h": 13
+   }
+  ]
+ }
+}

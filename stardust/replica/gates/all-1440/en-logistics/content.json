@@ -1,0 +1,7581 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-17T04:06:34.864Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.reply.com/en/logistics",
+  "at": "2026-11-17T04:06:10.586Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 7245,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-bottom.w-full > div.logo.flex > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "go to homepage",
+    "href": "/en"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 906,
+    "y": 28,
+    "w": 41,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 1225,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "custom-menu-runtime.header.flex > nav.header-bottom.w-full > button.hidden.lg:block",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.grid-bg__container.absolute > picture > img.grid-bg.w-full",
+    "x": 0,
+    "y": 49,
+    "w": 1440,
+    "h": 810,
+    "text": "",
+    "file": "6da0482b-fff5-4373-85fa-464a60a6f726"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h1#CmsCy",
+    "x": 177,
+    "y": 417,
+    "w": 861,
+    "h": 70,
+    "level": 1,
+    "text": "logistics"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h1#CmsCy > span.colors-1-gbfb",
+    "x": 177,
+    "y": 416,
+    "w": 290,
+    "h": 71,
+    "text": "Logistics"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "sticky-highlight-runtime.dark > picture > img.sticky-highlight__picture",
+    "x": 1149,
+    "y": 109,
+    "w": 116,
+    "h": 116,
+    "text": "",
+    "file": "18ccce01-a720-4edb-89d4-25717d87a0e9"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > sticky-highlight-runtime.dark > p.sticky-highlight__title.self-center",
+    "x": 1283,
+    "y": 128,
+    "w": 116,
+    "h": 78,
+    "text": "Visionaries in the Gartner® Magic Quadrant™ for WMS"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > sticky-highlight-runtime.dark > button#sticky-highlight-abstract-toggle",
+    "x": 1400,
+    "y": 109,
+    "w": 40,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > sticky-highlight-runtime.dark > button#sticky-highlight-abstract-toggle",
+    "x": 1400,
+    "y": 109,
+    "w": 40,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 289,
+    "y": 932,
+    "w": 861,
+    "h": 302,
+    "text": "Whether you are involved in the postal business, delivering express parcels, tra"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#ZV3Ri",
+    "x": 177,
+    "y": 1354,
+    "w": 1087,
+    "h": 43,
+    "level": 2,
+    "text": "highlights"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 177,
+    "y": 1438,
+    "w": 749,
+    "h": 421,
+    "text": "",
+    "file": "62c9f5ff-aa0c-4052-99e8-bd9bba14d4c2"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > div.category-label.text-white > div.category-name",
+    "x": 241,
+    "y": 1698,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body.!m-8 > a",
+    "x": 225,
+    "y": 1732,
+    "w": 449,
+    "h": 78,
+    "text": "puma accelerates logistics innovation with galilea",
+    "href": "/en/supply-chain-management/puma-accelerates-logistics-innovation-with-galilea"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > a > h3.h4.text-white",
+    "x": 225,
+    "y": 1732,
+    "w": 449,
+    "h": 78,
+    "level": 3,
+    "text": "puma accelerates logistics innovation with galilea"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 965,
+    "y": 1438,
+    "w": 749,
+    "h": 421,
+    "text": "",
+    "file": "bb0c8819-d462-4e41-8dd3-34d270b32102"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > div.category-label.text-white > div.category-name",
+    "x": 1029,
+    "y": 1659,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body.!m-8 > a",
+    "x": 1013,
+    "y": 1693,
+    "w": 449,
+    "h": 118,
+    "text": "shorter delivery times for the supplement manufacturer tqg",
+    "href": "/en/supply-chain-management/shorter-delivery-times-for-the-supplement-manufacturer-tqg"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > a > h3.h4.text-white",
+    "x": 1013,
+    "y": 1693,
+    "w": 449,
+    "h": 118,
+    "level": 3,
+    "text": "shorter delivery times for the supplement manufacturer tqg"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-prev.round-bt",
+    "x": 64,
+    "y": 1723,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-next.round-bt",
+    "x": 64,
+    "y": 1779,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#nOoFN",
+    "x": 177,
+    "y": 1979,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "how we work"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": -387,
+    "y": 2214,
+    "w": 411,
+    "h": 48,
+    "text": "We can drive innovation with you in Marketing, Sales, Operation, HR, and finance"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 219,
+    "y": 2082,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "d8fa3f9f-af36-4661-8299-4ebed90254cb"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 64,
+    "y": 2214,
+    "w": 411,
+    "h": 48,
+    "text": "We use digital social listening to help understand global trends and individual "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 670,
+    "y": 2082,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "f0b1098f-7659-4446-b67b-0c8eb0edb53f"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 515,
+    "y": 2214,
+    "w": 411,
+    "h": 48,
+    "text": "We virtualize your assets and make them more flexible and reusable for an end-to"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 1121,
+    "y": 2082,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "e6ec83fd-cf24-4c2e-ac54-cd8edb955640"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 965,
+    "y": 2214,
+    "w": 411,
+    "h": 71,
+    "text": "We apply artificial intelligence and machine learning to manage complexity both "
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 1416,
+    "y": 2214,
+    "w": 411,
+    "h": 48,
+    "text": "We can drive innovation with you in Marketing, Sales, Operation, HR, and finance"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title__container--nav > div.slider-with-title__nav > button.slider-with-title__prev.round-bt",
+    "x": 1159,
+    "y": 1994,
+    "w": 48,
+    "h": 48,
+    "text": "prev item"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title__container--nav > div.slider-with-title__nav > button.slider-with-title__next.round-bt",
+    "x": 1215,
+    "y": 1994,
+    "w": 48,
+    "h": 48,
+    "text": "next item"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#kIRon > div.reply-card-image-container.aspect-w-2 > a.absolute.h-full",
+    "x": 64,
+    "y": 2445,
+    "w": 1312,
+    "h": 656,
+    "text": "our focus on supply chain execution",
+    "href": "/en/supply-chain-management"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.absolute.w-full > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 64,
+    "y": 2445,
+    "w": 1312,
+    "h": 738,
+    "text": "",
+    "file": "fdb23e6c-cb5c-40b1-8bbd-0c5ca6f46530"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-grid.pointer-events-none > div.reply-card-body > a.pointer-events-auto",
+    "x": 177,
+    "y": 2694,
+    "w": 523,
+    "h": 78,
+    "text": "our focus on supply chain execution",
+    "href": "/en/supply-chain-management"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a.pointer-events-auto > h3.h4.text-white",
+    "x": 177,
+    "y": 2694,
+    "w": 523,
+    "h": 78,
+    "level": 3,
+    "text": "our focus on supply chain execution"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-cta.pointer-events-auto > a.button.button-4cibs",
+    "x": 177,
+    "y": 2805,
+    "w": 180,
+    "h": 48,
+    "text": "discover more",
+    "href": "/en/supply-chain-management"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#zjrEu",
+    "x": 177,
+    "y": 3221,
+    "w": 1087,
+    "h": 43,
+    "level": 2,
+    "text": "our experiences"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#22833 > a",
+    "x": 64,
+    "y": 3305,
+    "w": 298,
+    "h": 575,
+    "text": "conad nord ovest: intelligent warehouse orchestration for fresh goods with logis",
+    "href": "/logistics-reply/en/lea-reply/conad-case-study"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 64,
+    "y": 3305,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "b9ac556c-2b1a-4ec0-8b8e-745c96398cbf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 80,
+    "y": 3772,
+    "w": 266,
+    "h": 78,
+    "text": "conad nord ovest: intelligent warehouse orchestration for fresh goods with logis",
+    "href": "/logistics-reply/en/lea-reply/conad-case-study"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 80,
+    "y": 3772,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "conad nord ovest: intelligent warehouse orchestration for fresh goods with logistics reply"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#21220 > a",
+    "x": 402,
+    "y": 3305,
+    "w": 298,
+    "h": 426,
+    "text": "scaling otto group’s logistics with a digital twin case study",
+    "href": "/en/robotics-and-autonomous-things/ai-driven-robot-orchestration"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 402,
+    "y": 3305,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "5f060252-7868-4966-9bd3-3e5c52efb2d4"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > div.reply-card-logo.absolute > img",
+    "x": 426,
+    "y": 3329,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "52a9704a-969e-4d9e-9cff-03aaecc415ba"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 418,
+    "y": 3623,
+    "w": 266,
+    "h": 78,
+    "text": "scaling otto group’s logistics with a digital twin",
+    "href": "/en/robotics-and-autonomous-things/ai-driven-robot-orchestration"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 418,
+    "y": 3623,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "scaling otto group’s logistics with a digital twin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#19569 > a",
+    "x": 740,
+    "y": 3305,
+    "w": 298,
+    "h": 575,
+    "text": "computer vision for enhanced security, quality, and efficiency best practice",
+    "href": "/en/artificial-intelligence/computer-vision-for-enhanced-security-quality-and-efficiency"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 740,
+    "y": 3305,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "cec1176b-54ad-49c2-9634-e006f26d6e65"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 756,
+    "y": 3772,
+    "w": 266,
+    "h": 78,
+    "text": "computer vision for enhanced security, quality, and efficiency",
+    "href": "/en/artificial-intelligence/computer-vision-for-enhanced-security-quality-and-efficiency"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 756,
+    "y": 3772,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "computer vision for enhanced security, quality, and efficiency"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#19138 > a",
+    "x": 1078,
+    "y": 3305,
+    "w": 298,
+    "h": 426,
+    "text": "puma accelerates logistics innovation with galilea case study",
+    "href": "/en/supply-chain-management/puma-accelerates-logistics-innovation-with-galilea"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 1078,
+    "y": 3305,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "62c9f5ff-aa0c-4052-99e8-bd9bba14d4c2"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > div.reply-card-logo.absolute > img",
+    "x": 1102,
+    "y": 3329,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "06f59f8c-e001-40e4-9af7-b011ff91703c"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 1094,
+    "y": 3623,
+    "w": 266,
+    "h": 78,
+    "text": "puma accelerates logistics innovation with galilea",
+    "href": "/en/supply-chain-management/puma-accelerates-logistics-innovation-with-galilea"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 1094,
+    "y": 3623,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "puma accelerates logistics innovation with galilea"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#18503 > a",
+    "x": 402,
+    "y": 3800,
+    "w": 298,
+    "h": 575,
+    "text": "delivering beauty faster: kiko milano’s logistics evolution case study",
+    "href": "/en/supply-chain-management/kiko-milano-partners-with-logistics-reply-to-accelerate-e-commerce-delivery"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 402,
+    "y": 3800,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "77e6c11f-238e-4de3-a334-ba3d0f121f32"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > div.reply-card-logo.absolute > img",
+    "x": 426,
+    "y": 3824,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "95441c00-4a7c-4ca0-b702-a0744ea9b49c"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 418,
+    "y": 4267,
+    "w": 266,
+    "h": 78,
+    "text": "delivering beauty faster: kiko milano’s logistics evolution",
+    "href": "/en/supply-chain-management/kiko-milano-partners-with-logistics-reply-to-accelerate-e-commerce-delivery"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 418,
+    "y": 4267,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "delivering beauty faster: kiko milano’s logistics evolution"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#10450 > a",
+    "x": 1078,
+    "y": 3800,
+    "w": 298,
+    "h": 575,
+    "text": "data processing with aws-native services in the container terminal case study",
+    "href": "/en/iot/data-processing-with-aws-native-services-in-the-container-terminal"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 1078,
+    "y": 3800,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "5ce89c4c-5519-4745-aedc-009d757637a1"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > div.reply-card-logo.absolute > img",
+    "x": 1102,
+    "y": 3824,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "72d48b23-6e14-4df6-a4ad-88751c0a2557"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 1094,
+    "y": 4267,
+    "w": 266,
+    "h": 78,
+    "text": "data processing with aws-native services in the container terminal",
+    "href": "/en/iot/data-processing-with-aws-native-services-in-the-container-terminal"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 1094,
+    "y": 4267,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "data processing with aws-native services in the container terminal"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#7561 > a",
+    "x": 64,
+    "y": 3945,
+    "w": 298,
+    "h": 426,
+    "text": "managing resilience and scalability in a multicloud environment case study",
+    "href": "/en/cloud-computing/multicloud-scalability-and-resilience"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 64,
+    "y": 3945,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "81352871-5f38-43fe-9f3e-bee1726fb6d4"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > div.reply-card-logo.absolute > img",
+    "x": 88,
+    "y": 3969,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "92c2f1cc-2c2e-4e06-a6e1-4dbcc9bacec0"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 80,
+    "y": 4263,
+    "w": 266,
+    "h": 78,
+    "text": "managing resilience and scalability in a multicloud environment",
+    "href": "/en/cloud-computing/multicloud-scalability-and-resilience"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 80,
+    "y": 4263,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "managing resilience and scalability in a multicloud environment"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#4241 > a",
+    "x": 740,
+    "y": 3945,
+    "w": 298,
+    "h": 447,
+    "text": "lea reply™ product & accelerator",
+    "href": "/lea-reply/en/homepage"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 740,
+    "y": 3945,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "c19a21a7-22f2-4a50-b753-ab2285b120bc"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": 772,
+    "y": 4296,
+    "w": 234,
+    "h": 26,
+    "level": 3,
+    "text": "lea reply™"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-binding > div.pager-container > button.more.pager",
+    "x": 631,
+    "y": 4455,
+    "w": 178,
+    "h": 48,
+    "text": "load more content"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#yocCk",
+    "x": 230,
+    "y": 4718,
+    "w": 572,
+    "h": 86,
+    "level": 3,
+    "text": "some of our customers and partners"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall__item > div > img.w-full.h-auto",
+    "x": 84,
+    "y": 4865,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "4d2fbd0d-4d6b-4a5e-acfe-c1f300a4202b"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall__item > div > img.w-full.h-auto",
+    "x": 371,
+    "y": 4865,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "efb61719-4765-45d6-98b1-2b5d3a4190c2"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall__item > div > img.w-full.h-auto",
+    "x": 658,
+    "y": 4865,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "fc2c2102-ee0b-45b7-b209-7969c7efc046"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall__item > div > img.w-full.h-auto",
+    "x": 945,
+    "y": 4865,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "8904aacf-22b4-4765-b8da-26de510b481a"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall__item > div > img.w-full.h-auto",
+    "x": 1232,
+    "y": 4865,
+    "w": 124,
+    "h": 89,
+    "text": "",
+    "file": "c0a74e11-fa01-4d12-9b2b-0e1575d6afc1"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall__item > div > img.w-full.h-auto",
+    "x": 84,
+    "y": 4986,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "fa5f6605-f07e-4652-84b4-275533847f86"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall__item > div > img.w-full.h-auto",
+    "x": 371,
+    "y": 4986,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "330bcc0c-eae4-4df6-83b7-517c03ce8937"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall__item > div > img.w-full.h-auto",
+    "x": 658,
+    "y": 4986,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "fb3e19e9-5571-45e5-a25c-190802e7ec64"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall__item > div > img.w-full.h-auto",
+    "x": 945,
+    "y": 4986,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "82b6d6bb-c857-40ba-96fc-714e618e11ce"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall__item > div > img.w-full.h-auto",
+    "x": 1232,
+    "y": 4986,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "2bd97386-8778-4b63-941d-7853f7c87028"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall__item > div > img.w-full.h-auto",
+    "x": 84,
+    "y": 5108,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "83081fa1-97b0-4ad5-9e3c-bfe2d03389da"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall__item > div > img.w-full.h-auto",
+    "x": 371,
+    "y": 5108,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "ea25a3f9-25d2-495b-9048-2348c7cf01a0"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall__item > div > img.w-full.h-auto",
+    "x": 658,
+    "y": 5108,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "7d036e23-e19c-4b90-95e7-a1557bfbfee6"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 289,
+    "y": 5410,
+    "w": 861,
+    "h": 50,
+    "text": "Innovation made true"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": -274,
+    "y": 5580,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "36031f2b-6056-4593-8e00-9457a8e6d6be"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 64,
+    "y": 5580,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "ce90b8ac-c213-48c9-8dd1-d38721b348ed"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-header.flex > div.category-label.text-white > div.category-name",
+    "x": 104,
+    "y": 5624,
+    "w": 35,
+    "h": 14,
+    "text": "Labs"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-5 > div.reply-card-content > a.pointer-events-auto",
+    "x": 104,
+    "y": 5925,
+    "w": 218,
+    "h": 62,
+    "text": "autonomous warehouse lab",
+    "href": "/en/labs/autonomous-warehouse-lab"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-content > a.pointer-events-auto > h3.h5--bold.line-clamp-4",
+    "x": 104,
+    "y": 5925,
+    "w": 218,
+    "h": 62,
+    "level": 3,
+    "text": "autonomous warehouse lab"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 402,
+    "y": 5580,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "e71a0e62-8b14-462f-b727-f952aca6a0bd"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-header.flex > div.category-label.text-white > div.category-name",
+    "x": 442,
+    "y": 5624,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-5 > div.reply-card-header.flex > img.shrink-0.h-20",
+    "x": 442,
+    "y": 5666,
+    "w": 142,
+    "h": 80,
+    "text": "",
+    "file": "8bf99da2-d471-4c9e-93b5-4a9cd8384704"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-5 > div.reply-card-content > a.pointer-events-auto",
+    "x": 442,
+    "y": 5863,
+    "w": 218,
+    "h": 124,
+    "text": "fraport: computer vision and ai optimise airport operations",
+    "href": "/en/artificial-intelligence/fraport-computer-vision-and-ai-optimise-airport-operations"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-content > a.pointer-events-auto > h3.h5--bold.line-clamp-4",
+    "x": 442,
+    "y": 5863,
+    "w": 218,
+    "h": 124,
+    "level": 3,
+    "text": "fraport: computer vision and ai optimise airport operations"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 740,
+    "y": 5580,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "251d87fe-f544-4cb5-a7c1-9a48c6e4b4d8"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-header.flex > div.category-label.text-white > div.category-name",
+    "x": 780,
+    "y": 5624,
+    "w": 90,
+    "h": 14,
+    "text": "White Paper"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-5 > div.reply-card-content > a.pointer-events-auto",
+    "x": 780,
+    "y": 5863,
+    "w": 218,
+    "h": 124,
+    "text": "quantum computing: the best ally for last mile optimisation",
+    "href": "/en/quantum-computing/the-best-ally-for-last-mile-optimisation"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-content > a.pointer-events-auto > h3.h5--bold.line-clamp-4",
+    "x": 780,
+    "y": 5863,
+    "w": 218,
+    "h": 124,
+    "level": 3,
+    "text": "quantum computing: the best ally for last mile optimisation"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 1078,
+    "y": 5580,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "3bce6a78-5f7b-4c1e-b03d-aca408559a67"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-header.flex > div.category-label.text-white > div.category-name",
+    "x": 1118,
+    "y": 5624,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-5 > div.reply-card-header.flex > img.shrink-0.h-20",
+    "x": 1118,
+    "y": 5666,
+    "w": 142,
+    "h": 80,
+    "text": "",
+    "file": "efa960a0-39be-4a08-8e8f-a4d162427318"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-5 > div.reply-card-content > a.pointer-events-auto",
+    "x": 1118,
+    "y": 5863,
+    "w": 218,
+    "h": 124,
+    "text": "lea reply boosts the capabilities of micro-fulfilment centres",
+    "href": "/en/supply-chain-management/lea-reply-boosts-the-capabilities-of-micro-fulfilment-centres"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-content > a.pointer-events-auto > h3.h5--bold.line-clamp-4",
+    "x": 1118,
+    "y": 5863,
+    "w": 218,
+    "h": 124,
+    "level": 3,
+    "text": "lea reply boosts the capabilities of micro-fulfilment centres"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 1416,
+    "y": 5580,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "baba4749-5822-4d04-b45a-0c6d3594d76d"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-prev.round-bt",
+    "x": 89,
+    "y": 5780,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-next.round-bt",
+    "x": 1303,
+    "y": 5780,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#EpgST",
+    "x": 177,
+    "y": 6147,
+    "w": 1087,
+    "h": 43,
+    "level": 2,
+    "text": "acknowledgements"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 177,
+    "y": 6230,
+    "w": 749,
+    "h": 421,
+    "text": "",
+    "file": "7d175053-3a77-4df9-bf40-0d5c825c45af"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > div.category-label.text-white > div.category-name",
+    "x": 241,
+    "y": 6413,
+    "w": 138,
+    "h": 14,
+    "text": "Acknowledgment"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body.!m-8 > a",
+    "x": 225,
+    "y": 6447,
+    "w": 449,
+    "h": 157,
+    "text": "logistics reply named a visionary in the 2026 gartner® magic quadrant™ for wareh",
+    "href": "/logistics-reply/en/gartner-magic-quadrant-report-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > a > h3.h4.text-white",
+    "x": 225,
+    "y": 6447,
+    "w": 449,
+    "h": 157,
+    "level": 3,
+    "text": "logistics reply named a visionary in the 2026 gartner® magic quadrant™ for warehouse management systems"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 965,
+    "y": 6230,
+    "w": 749,
+    "h": 421,
+    "text": "",
+    "file": "66c93065-edee-4d95-96ee-33a2888dbe3a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > div.category-label.text-white > div.category-name",
+    "x": 1029,
+    "y": 6413,
+    "w": 41,
+    "h": 14,
+    "text": "News"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body.!m-8 > a",
+    "x": 1013,
+    "y": 6447,
+    "w": 449,
+    "h": 157,
+    "text": "fraunhofer iml once again confirms the efficiency of lea reply™ – ai assistants ",
+    "href": "/en/newsroom/news/fraunhofer-iml-confirms-the-efficiency-of-lea-reply-2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > a > h3.h4.text-white",
+    "x": 1013,
+    "y": 6447,
+    "w": 449,
+    "h": 157,
+    "level": 3,
+    "text": "fraunhofer iml once again confirms the efficiency of lea reply™ – ai assistants set new standards"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-prev.round-bt",
+    "x": 64,
+    "y": 6515,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-next.round-bt",
+    "x": 64,
+    "y": 6571,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.block > nav.footer.p-10 > a",
+    "x": 64,
+    "y": 6811,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 6907,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 6907,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 6955,
+    "w": 103,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 7000,
+    "w": 45,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 7045,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 7089,
+    "w": 67,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 6907,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 6907,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 6955,
+    "w": 142,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 7000,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 7061,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 7106,
+    "w": 149,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 6955,
+    "w": 161,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 7000,
+    "w": 127,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 7045,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 6955,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 7017,
+    "w": 154,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 7061,
+    "w": 147,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 7106,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "void(0)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Careers",
+    "x": 1112,
+    "y": 6907,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Contacts",
+    "x": 1112,
+    "y": 6987,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1112,
+    "y": 7067,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1124,
+    "y": 7080,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1184,
+    "y": 7067,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1196,
+    "y": 7080,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "a6732ee4-95cf-4951-9c4b-3675c7154f7e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1256,
+    "y": 7067,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1268,
+    "y": 7080,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "49664893-bfc1-4d79-9208-3bdd7083126b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1328,
+    "y": 7067,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1340,
+    "y": 7080,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "c48097ef-90ed-4c24-aa40-1764649e72ff"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > span",
+    "x": 64,
+    "y": 7212,
+    "w": 81,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > a.underline",
+    "x": 158,
+    "y": 7212,
+    "w": 136,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.text-white.py-3 > div.flex.justify-between > button#cookie-pref-center",
+    "x": 1276,
+    "y": 859,
+    "w": 164,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 6,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 6,
+    "offPage": 46,
+    "textNodes": 120,
+    "controls": 87,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 3,
+     "clipper": "h3.h5--bold.line-clamp-4",
+     "path": "div.reply-card-body.!m-5 > div.reply-card-content > a.pointer-events-auto > h3.h5--bold.line-clamp-4",
+     "text": "fraport: computer vision and ai optimise airport operations",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.reply-card-image-container.aspect-w-2",
+     "path": "reply-card-runtime#IM9Tz > div.reply-card-image-container.aspect-w-2 > div.reply-card-body.!m-8 > a",
+     "text": "shorter delivery times for the supplement manufacturer tqg",
+     "cutMin": 22,
+     "cutMax": 22
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.slider-with-title__outer-container--items.overflow-hidden",
+     "path": "div.kuifgeleym > div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+     "text": "we can drive innovation with you in marketing, sales, operat",
+     "cutMin": 371,
+     "cutMax": 371
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "p.sticky-highlight__title.self-center",
+     "path": "div.gzchtryikj > div > sticky-highlight-runtime.dark > p.sticky-highlight__title.self-center",
+     "text": "visionaries in the gartner® magic quadrant™ for wms",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3.h6--medium.line-clamp-3",
+     "path": "a > div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+     "text": "conad nord ovest: intelligent warehouse orchestration for fr",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3.h6--medium.line-clamp-3",
+     "path": "a > div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+     "text": "delivering beauty faster: kiko milano’s logistics evolution",
+     "cutMin": 21,
+     "cutMax": 21
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3.h4.text-white",
+     "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body.!m-8 > a > h3.h4.text-white",
+     "text": "logistics reply named a visionary in the 2026 gartner® magic",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3.h4.text-white",
+     "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body.!m-8 > a > h3.h4.text-white",
+     "text": "fraunhofer iml once again confirms the efficiency of lea rep",
+     "cutMin": 19,
+     "cutMax": 19
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--a355dc1b--aemcoder.aem.page/en/logistics",
+  "at": "2026-11-17T04:06:34.680Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 7182,
+  "root": "main",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-main > div.site-header-logo > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "href": "/en"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-reply-logo > img",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "file": "reply-logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 900,
+    "y": 28,
+    "w": 46,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 1224,
+    "y": 28,
+    "w": 52,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-header-bar > nav.site-header-main > button.sm-collapsed",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-hero-pic.desktop > picture > img",
+    "x": 0,
+    "y": 49,
+    "w": 1440,
+    "h": 810,
+    "text": "",
+    "file": "media_13ae364388ac6654809c32a9a917975dc0"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.r-grid > div.media-hero-title.r-cell > h1#logistics",
+    "x": 177,
+    "y": 417,
+    "w": 861,
+    "h": 70,
+    "level": 1,
+    "text": "logistics"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-hero-title.r-cell > h1#logistics > span",
+    "x": 177,
+    "y": 416,
+    "w": 285,
+    "h": 71,
+    "text": "Logistics"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-highlight-img.desktop > picture > img",
+    "x": 1149,
+    "y": 109,
+    "w": 116,
+    "h": 116,
+    "text": "",
+    "file": "media_1972bd143bc2ae5db1dc1ca6852d0e6270"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "aside.b4-highlight-card > div.b4-highlight-title > p",
+    "x": 1283,
+    "y": 128,
+    "w": 116,
+    "h": 78,
+    "text": "Visionaries in the Gartner® Magic Quadrant™ for WMS"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-highlight.block > aside.b4-highlight-card > button.b4-highlight-toggle",
+    "x": 1400,
+    "y": 109,
+    "w": 40,
+    "h": 32,
+    "text": "toggle teaser"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-highlight.block > aside.b4-highlight-card > button.b4-highlight-toggle",
+    "x": 1400,
+    "y": 109,
+    "w": 40,
+    "h": 32,
+    "label": "toggle teaser",
+    "value": "toggle teaser",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 289,
+    "y": 932,
+    "w": 861,
+    "h": 302,
+    "text": "Whether you are involved in the postal business, delivering express parcels, tra"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h2#highlights",
+    "x": 177,
+    "y": 1354,
+    "w": 1087,
+    "h": 43,
+    "level": 2,
+    "text": "highlights"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 177,
+    "y": 1438,
+    "w": 749,
+    "h": 421,
+    "text": "",
+    "file": "media_19772d6def43a0ec017132bfb05df3e21f"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 241,
+    "y": 1698,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+    "x": 225,
+    "y": 1732,
+    "w": 449,
+    "h": 78,
+    "text": "puma accelerates logistics innovation with galilea",
+    "href": "/en/supply-chain-management/puma-accelerates-logistics-innovation-with-galilea"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#puma-accelerates-logistics-innovation-with-galilea",
+    "x": 225,
+    "y": 1732,
+    "w": 449,
+    "h": 78,
+    "level": 3,
+    "text": "puma accelerates logistics innovation with galilea"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 965,
+    "y": 1438,
+    "w": 749,
+    "h": 421,
+    "text": "",
+    "file": "media_144571e4ecdd0bfeaefc9be96c8c1292b9"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 1029,
+    "y": 1659,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+    "x": 1013,
+    "y": 1693,
+    "w": 449,
+    "h": 118,
+    "text": "shorter delivery times for the supplement manufacturer tqg",
+    "href": "/en/supply-chain-management/shorter-delivery-times-for-the-supplement-manufacturer-tqg"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#shorter-delivery-times-for-the-supplement-manufacturer-tqg",
+    "x": 1013,
+    "y": 1693,
+    "w": 449,
+    "h": 118,
+    "level": 3,
+    "text": "shorter delivery times for the supplement manufacturer tqg"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-carousel-inner > div.card-carousel-controls > button.card-carousel-prev.round-bt",
+    "x": 64,
+    "y": 1723,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-carousel-inner > div.card-carousel-controls > button.card-carousel-next.round-bt",
+    "x": 64,
+    "y": 1779,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-text.r-grid > div.slider-with-title-title.r-cell > h3#how-we-work",
+    "x": 177,
+    "y": 1979,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "how we work"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-media > picture > img",
+    "x": 219,
+    "y": 2067,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "media_1801a4903707e909f0a7fde7455bf5de3a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item.active > div.slider-with-title-item-body > p",
+    "x": 64,
+    "y": 2214,
+    "w": 411,
+    "h": 48,
+    "text": "We virtualize your assets and make them more flexible and reusable for an end-to"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-media > picture > img",
+    "x": 670,
+    "y": 2067,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "media_1e2d6bb9bcc6ab2877aceb53af29aea66b"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-body > p",
+    "x": 515,
+    "y": 2214,
+    "w": 411,
+    "h": 71,
+    "text": "We apply artificial intelligence and machine learning to manage complexity both "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-media > picture > img",
+    "x": 1121,
+    "y": 2067,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "media_1a361936836d1af59edd7e1d29ac37d6f7"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-body > p",
+    "x": 965,
+    "y": 2214,
+    "w": 411,
+    "h": 48,
+    "text": "We can drive innovation with you in Marketing, Sales, Operation, HR, and finance"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-body > p",
+    "x": 1416,
+    "y": 2214,
+    "w": 411,
+    "h": 48,
+    "text": "We use digital social listening to help understand global trends and individual "
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-controls.r-grid > div.slider-with-title-nav > button.slider-with-title-prev.round-bt",
+    "x": 1159,
+    "y": 1979,
+    "w": 48,
+    "h": 48,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-controls.r-grid > div.slider-with-title-nav > button.slider-with-title-next.round-bt",
+    "x": 1215,
+    "y": 1979,
+    "w": 48,
+    "h": 48,
+    "text": "next"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-card-card > div.hero-card-image-container > a.hero-card-cover",
+    "x": 64,
+    "y": 2445,
+    "w": 1312,
+    "h": 656,
+    "text": "our focus on supply chain execution",
+    "href": "/en/supply-chain-management"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-card-pic.desktop > picture > img",
+    "x": 64,
+    "y": 2445,
+    "w": 1312,
+    "h": 738,
+    "text": "",
+    "file": "media_1e8ae33e04d85b31bb3b2acd8f8f0e5694"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-card-body > div.hero-card-title > h3#our-focus-on-supply-chain-execution",
+    "x": 177,
+    "y": 2694,
+    "w": 523,
+    "h": 78,
+    "level": 3,
+    "text": "our focus on supply chain execution"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-card-title > h3#our-focus-on-supply-chain-execution > a",
+    "x": 177,
+    "y": 2697,
+    "w": 386,
+    "h": 71,
+    "text": "our focus on supply chain execution",
+    "href": "/en/supply-chain-management"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-card-cta > p > a.hero-card-btn",
+    "x": 177,
+    "y": 2805,
+    "w": 181,
+    "h": 48,
+    "text": "discover more",
+    "href": "/en/supply-chain-management"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h2#our-experiences",
+    "x": 177,
+    "y": 3221,
+    "w": 1087,
+    "h": 43,
+    "level": 2,
+    "text": "our experiences"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 64,
+    "y": 3304,
+    "w": 298,
+    "h": 447,
+    "text": "conad nord ovest: intelligent warehouse orchestration for fresh goods with logis",
+    "href": "/logistics-reply/en/lea-reply/conad-case-study"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 64,
+    "y": 3304,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_14e6570a9505996878b183459567047425"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#conad-nord-ovest-intelligent-warehouse-orchestration-for-fresh-goods-with-logistics-reply",
+    "x": 80,
+    "y": 3771,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "conad nord ovest: intelligent warehouse orchestration for fresh goods with logistics reply"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#conad-nord-ovest-intelligent-warehouse-orchestration-for-fresh-goods-with-logistics-reply > a",
+    "x": 80,
+    "y": 3771,
+    "w": 266,
+    "h": 78,
+    "text": "conad nord ovest: intelligent warehouse orchestration for fresh goods with logis",
+    "href": "/logistics-reply/en/lea-reply/conad-case-study"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 96,
+    "y": 3865,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 402,
+    "y": 3304,
+    "w": 298,
+    "h": 298,
+    "text": "scaling otto group’s logistics with a digital twin case study",
+    "href": "/en/robotics-and-autonomous-things/ai-driven-robot-orchestration"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 402,
+    "y": 3304,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "media_1d947deaea6b3d7b3bb0f0238e7241d5c7"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 426,
+    "y": 3328,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_1e5203404af7e80bf116cfcf0d6cbda5c9"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#scaling-otto-groups-logistics-with-a-digital-twin",
+    "x": 418,
+    "y": 3622,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "scaling otto group’s logistics with a digital twin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#scaling-otto-groups-logistics-with-a-digital-twin > a",
+    "x": 418,
+    "y": 3622,
+    "w": 266,
+    "h": 78,
+    "text": "scaling otto group’s logistics with a digital twin",
+    "href": "/en/robotics-and-autonomous-things/ai-driven-robot-orchestration"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 434,
+    "y": 3716,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 740,
+    "y": 3304,
+    "w": 298,
+    "h": 447,
+    "text": "computer vision for enhanced security, quality, and efficiency best practice",
+    "href": "/en/artificial-intelligence/computer-vision-for-enhanced-security-quality-and-efficiency"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 740,
+    "y": 3304,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_1cb6c3079ecacaf52f46751024456ef970"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#computer-vision-for-enhanced-security-quality-and-efficiency",
+    "x": 756,
+    "y": 3771,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "computer vision for enhanced security, quality, and efficiency"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#computer-vision-for-enhanced-security-quality-and-efficiency > a",
+    "x": 756,
+    "y": 3771,
+    "w": 266,
+    "h": 78,
+    "text": "computer vision for enhanced security, quality, and efficiency",
+    "href": "/en/artificial-intelligence/computer-vision-for-enhanced-security-quality-and-efficiency"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 772,
+    "y": 3865,
+    "w": 118,
+    "h": 14,
+    "text": "Best Practice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 1078,
+    "y": 3304,
+    "w": 298,
+    "h": 298,
+    "text": "puma accelerates logistics innovation with galilea case study",
+    "href": "/en/supply-chain-management/puma-accelerates-logistics-innovation-with-galilea"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 1078,
+    "y": 3304,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "media_1526203aaed8ed93acb65ef29f7818da66"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 1102,
+    "y": 3328,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_198a834e42a0bc817a7a29fc93acd4a842"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#puma-accelerates-logistics-innovation-with-galilea-1",
+    "x": 1094,
+    "y": 3622,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "puma accelerates logistics innovation with galilea"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#puma-accelerates-logistics-innovation-with-galilea-1 > a",
+    "x": 1094,
+    "y": 3622,
+    "w": 266,
+    "h": 78,
+    "text": "puma accelerates logistics innovation with galilea",
+    "href": "/en/supply-chain-management/puma-accelerates-logistics-innovation-with-galilea"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 1110,
+    "y": 3716,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 402,
+    "y": 3799,
+    "w": 298,
+    "h": 447,
+    "text": "delivering beauty faster: kiko milano’s logistics evolution case study",
+    "href": "/en/supply-chain-management/kiko-milano-partners-with-logistics-reply-to-accelerate-e-commerce-delivery"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 402,
+    "y": 3799,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_187e9597cb80c2c07270223cd4fabadba0"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 426,
+    "y": 3823,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_1d798ef59f46e1456e7d239f533b67cd14"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#delivering-beauty-faster-kiko-milanos-logistics-evolution",
+    "x": 418,
+    "y": 4266,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "delivering beauty faster: kiko milano’s logistics evolution"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#delivering-beauty-faster-kiko-milanos-logistics-evolution > a",
+    "x": 418,
+    "y": 4266,
+    "w": 266,
+    "h": 78,
+    "text": "delivering beauty faster: kiko milano’s logistics evolution",
+    "href": "/en/supply-chain-management/kiko-milano-partners-with-logistics-reply-to-accelerate-e-commerce-delivery"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 434,
+    "y": 4360,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 1078,
+    "y": 3799,
+    "w": 298,
+    "h": 447,
+    "text": "data processing with aws-native services in the container terminal case study",
+    "href": "/en/iot/data-processing-with-aws-native-services-in-the-container-terminal"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 1078,
+    "y": 3799,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_14c27cc0027300325cead8ded5db9fd88c"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 1102,
+    "y": 3823,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_1173398cea5a3f4845f32205d17242e8d9"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#data-processing-with-aws-native-services-in-the-container-terminal",
+    "x": 1094,
+    "y": 4266,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "data processing with aws-native services in the container terminal"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#data-processing-with-aws-native-services-in-the-container-terminal > a",
+    "x": 1094,
+    "y": 4266,
+    "w": 266,
+    "h": 78,
+    "text": "data processing with aws-native services in the container terminal",
+    "href": "/en/iot/data-processing-with-aws-native-services-in-the-container-terminal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 1110,
+    "y": 4360,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 64,
+    "y": 3944,
+    "w": 298,
+    "h": 298,
+    "text": "managing resilience and scalability in a multicloud environment case study",
+    "href": "/en/cloud-computing/multicloud-scalability-and-resilience"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 64,
+    "y": 3944,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "media_1cc7c9b1b74cc05b7947affa66d46ecfed"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 88,
+    "y": 3968,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_1d23959503d9de6260f29f79a1ec765a9f"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#managing-resilience-and-scalability-in-a-multicloud-environment",
+    "x": 80,
+    "y": 4262,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "managing resilience and scalability in a multicloud environment"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#managing-resilience-and-scalability-in-a-multicloud-environment > a",
+    "x": 80,
+    "y": 4262,
+    "w": 266,
+    "h": 78,
+    "text": "managing resilience and scalability in a multicloud environment",
+    "href": "/en/cloud-computing/multicloud-scalability-and-resilience"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 96,
+    "y": 4356,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-product > a.reply-card-cover",
+    "x": 740,
+    "y": 3944,
+    "w": 298,
+    "h": 447,
+    "text": "lea reply™ product & accelerator",
+    "href": "/lea-reply/en/homepage"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 740,
+    "y": 3944,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_1a93d1b238f70aede51ee0868d248344dc"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#lea-reply",
+    "x": 772,
+    "y": 4295,
+    "w": 234,
+    "h": 26,
+    "level": 3,
+    "text": "lea reply™"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-cell.r-cell > div.cards-wall-pager > div.cards-wall-more",
+    "x": 633,
+    "y": 4454,
+    "w": 174,
+    "h": 48,
+    "text": "load more content"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall-text.r-grid > div.logo-wall-title.r-cell > h3#some-of-our-customersand-partners",
+    "x": 177,
+    "y": 4717,
+    "w": 636,
+    "h": 86,
+    "level": 3,
+    "text": "some of our customers and partners"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall-box > picture > img",
+    "x": 84,
+    "y": 4863,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "media_1f62ab493e27a3e1d286cba5ec611dcb17"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall-box > picture > img",
+    "x": 371,
+    "y": 4863,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "media_175c1b783ee046306ca31f5f5b16593864"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall-box > picture > img",
+    "x": 658,
+    "y": 4863,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "media_1ba00b1d9d8b6d526a7ef1a1c1b7331a0a"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall-box > picture > img",
+    "x": 945,
+    "y": 4863,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "media_1f5441d960b12d8d2b24023baa87832596"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall-box > picture > img",
+    "x": 1232,
+    "y": 4863,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "media_1dcf53287bdb80c8405bfd3edbbbccfa46"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall-box > picture > img",
+    "x": 84,
+    "y": 4985,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "media_13c9538552fd539f181133deea1e225a8e"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall-box > picture > img",
+    "x": 371,
+    "y": 4985,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "media_159f9900cefe98b677712a928b324d1834"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall-box > picture > img",
+    "x": 658,
+    "y": 4985,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "media_1da36f706a489a04ef21ee90febbdd63a9"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall-box > picture > img",
+    "x": 945,
+    "y": 4985,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "media_11b49f3f4203a42d8b68dcb18fb0b63d30"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall-box > picture > img",
+    "x": 1232,
+    "y": 4985,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "media_189d2fb7929f174538fe2f0b5d5ec35b15"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall-box > picture > img",
+    "x": 84,
+    "y": 5107,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "media_1baf818dc94880f55cbbf29b1ff01c5a09"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall-box > picture > img",
+    "x": 371,
+    "y": 5107,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "media_1c45c7d4cb1b8916d4561af963c608b3c8"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.logo-wall-box > picture > img",
+    "x": 658,
+    "y": 5107,
+    "w": 124,
+    "h": 70,
+    "text": "",
+    "file": "media_19d266f367285c90ee2c8ca39d20535f97"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 289,
+    "y": 5409,
+    "w": 861,
+    "h": 50,
+    "text": "Innovation made true"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": -274,
+    "y": 5579,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_102d06c7c611c32c3b7214d8153904ea1b"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 64,
+    "y": 5579,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_16255251b63d0177353ac9cab1e119d495"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 104,
+    "y": 5615,
+    "w": 38,
+    "h": 14,
+    "text": "Labs"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-content > a.reply-card-link",
+    "x": 104,
+    "y": 5924,
+    "w": 218,
+    "h": 62,
+    "text": "autonomous warehouse lab",
+    "href": "/en/labs/autonomous-warehouse-lab"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#autonomous-warehouse-lab",
+    "x": 104,
+    "y": 5924,
+    "w": 218,
+    "h": 62,
+    "level": 3,
+    "text": "autonomous warehouse lab"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 402,
+    "y": 5579,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_18804763a2fcd1902a59399e59cea4d7ba"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 442,
+    "y": 5615,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-content > a.reply-card-link",
+    "x": 442,
+    "y": 5862,
+    "w": 218,
+    "h": 124,
+    "text": "fraport: computer vision and ai optimise airport operations",
+    "href": "/en/artificial-intelligence/fraport-computer-vision-and-ai-optimise-airport-operations"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#fraport-computer-vision-and-ai-optimise-airport-operations",
+    "x": 442,
+    "y": 5862,
+    "w": 218,
+    "h": 125,
+    "level": 3,
+    "text": "fraport: computer vision and ai optimise airport operations"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 740,
+    "y": 5579,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_1635a16ea19c728378159a4022a8d3b0a4"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 780,
+    "y": 5615,
+    "w": 101,
+    "h": 14,
+    "text": "White Paper"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-content > a.reply-card-link",
+    "x": 780,
+    "y": 5862,
+    "w": 218,
+    "h": 124,
+    "text": "quantum computing: the best ally for last mile optimisation",
+    "href": "/en/quantum-computing/the-best-ally-for-last-mile-optimisation"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#quantum-computing-the-best-ally-for-last-mile-optimisation",
+    "x": 780,
+    "y": 5862,
+    "w": 218,
+    "h": 125,
+    "level": 3,
+    "text": "quantum computing: the best ally for last mile optimisation"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 1078,
+    "y": 5579,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_1c39c8f4fd9b774383b6b20d29b625b271"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 1118,
+    "y": 5615,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-content > a.reply-card-link",
+    "x": 1118,
+    "y": 5862,
+    "w": 218,
+    "h": 124,
+    "text": "lea reply boosts the capabilities of micro-fulfilment centres",
+    "href": "/en/supply-chain-management/lea-reply-boosts-the-capabilities-of-micro-fulfilment-centres"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#lea-reply-boosts-the-capabilities-of-micro-fulfilment-centres",
+    "x": 1118,
+    "y": 5862,
+    "w": 218,
+    "h": 125,
+    "level": 3,
+    "text": "lea reply boosts the capabilities of micro-fulfilment centres"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 1416,
+    "y": 5579,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_10a435fb205876679a35d3103764cd3019"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.labs-inner > div.labs-controls > button.labs-prev.round-bt",
+    "x": 89,
+    "y": 5778,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.labs-inner > div.labs-controls > button.labs-next.round-bt",
+    "x": 1303,
+    "y": 5778,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h2#acknowledgements",
+    "x": 177,
+    "y": 6146,
+    "w": 1087,
+    "h": 43,
+    "level": 2,
+    "text": "acknowledgements"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 177,
+    "y": 6245,
+    "w": 749,
+    "h": 421,
+    "text": "",
+    "file": "media_15daff31526fa9ea22188544db2b7d2bb7"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 241,
+    "y": 6428,
+    "w": 151,
+    "h": 14,
+    "text": "Acknowledgment"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+    "x": 225,
+    "y": 6462,
+    "w": 449,
+    "h": 157,
+    "text": "logistics reply named a visionary in the 2026 gartner® magic quadrant™ for wareh",
+    "href": "/logistics-reply/en/gartner-magic-quadrant-report-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#logistics-reply-named-a-visionary-in-the-2026-gartner-magic-quadrant-for-warehouse-management-systems",
+    "x": 225,
+    "y": 6462,
+    "w": 449,
+    "h": 157,
+    "level": 3,
+    "text": "logistics reply named a visionary in the 2026 gartner® magic quadrant™ for warehouse management systems"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 965,
+    "y": 6245,
+    "w": 749,
+    "h": 421,
+    "text": "",
+    "file": "media_1b0dc6f8700036a21757e828a9d54e8519"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 1029,
+    "y": 6428,
+    "w": 44,
+    "h": 14,
+    "text": "News"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+    "x": 1013,
+    "y": 6462,
+    "w": 449,
+    "h": 157,
+    "text": "fraunhofer iml once again confirms the efficiency of lea reply™ – ai assistants ",
+    "href": "/en/newsroom/news/fraunhofer-iml-confirms-the-efficiency-of-lea-reply-2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#fraunhofer-iml-once-again-confirms-the-efficiency-of-lea-reply--ai-assistants-set-new-standards",
+    "x": 1013,
+    "y": 6462,
+    "w": 449,
+    "h": 157,
+    "level": 3,
+    "text": "fraunhofer iml once again confirms the efficiency of lea reply™ – ai assistants set new standards"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-carousel-inner > div.card-carousel-controls > button.card-carousel-prev.round-bt",
+    "x": 64,
+    "y": 6530,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-carousel-inner > div.card-carousel-controls > button.card-carousel-next.round-bt",
+    "x": 64,
+    "y": 6586,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-wrap > nav.footer-nav > a.footer-nav-home",
+    "x": 64,
+    "y": 6749,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 6845,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 6845,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 6893,
+    "w": 102,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 6938,
+    "w": 43,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 6982,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 7027,
+    "w": 66,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 6845,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 6845,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 6893,
+    "w": 145,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 6938,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 6999,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 7044,
+    "w": 150,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 6893,
+    "w": 160,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 6938,
+    "w": 131,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 6982,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 6893,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 6954,
+    "w": 153,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 6999,
+    "w": 143,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 7044,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "/en/logistics"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 6845,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 6925,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1112,
+    "y": 7005,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1124,
+    "y": 7017,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1184,
+    "y": 7005,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1196,
+    "y": 7017,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1256,
+    "y": 7005,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1268,
+    "y": 7017,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-linkedin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1328,
+    "y": 7005,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1340,
+    "y": 7017,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-xing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > span",
+    "x": 64,
+    "y": 7150,
+    "w": 84,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > a",
+    "x": 160,
+    "y": 7150,
+    "w": 131,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-inner > div.site-legal-row > button#cookie-pref-center",
+    "x": 1278,
+    "y": 859,
+    "w": 162,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 6,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 4,
+    "offPage": 27,
+    "textNodes": 105,
+    "controls": 82,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.reply-card-image-container",
+     "path": "div.reply-card.reply-card-horizontal > div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+     "text": "shorter delivery times for the supplement manufacturer tqg",
+     "cutMin": 23,
+     "cutMax": 23
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "p",
+     "path": "div.b4-highlight.block > aside.b4-highlight-card > div.b4-highlight-title > p",
+     "text": "visionaries in the gartner® magic quadrant™ for wms",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slider-with-title-rail",
+     "path": "ul.slider-with-title-items > li.slider-with-title-item > div.slider-with-title-item-body > p",
+     "text": "we use digital social listening to help understand global tr",
+     "cutMin": 375,
+     "cutMax": 375
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "a",
+     "path": "div.reply-card-body > div.reply-card-title > h3#conad-nord-ovest-intelligent-warehouse-orchestration-for-fresh-goods-with-logistics-reply > a",
+     "text": "conad nord ovest: intelligent warehouse orchestration for fr",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3#fraport-computer-vision-and-ai-optimise-airport-operations",
+     "path": "div.reply-card-content > a.reply-card-link > div.reply-card-title > h3#fraport-computer-vision-and-ai-optimise-airport-operations",
+     "text": "fraport: computer vision and ai optimise airport operations",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3#quantum-computing-the-best-ally-for-last-mile-optimisation",
+     "path": "div.reply-card-content > a.reply-card-link > div.reply-card-title > h3#quantum-computing-the-best-ally-for-last-mile-optimisation",
+     "text": "quantum computing: the best ally for last mile optimisation",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3#lea-reply-boosts-the-capabilities-of-micro-fulfilment-centres",
+     "path": "div.reply-card-content > a.reply-card-link > div.reply-card-title > h3#lea-reply-boosts-the-capabilities-of-micro-fulfilment-centres",
+     "text": "lea reply boosts the capabilities of micro-fulfilment centre",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3#logistics-reply-named-a-visionary-in-the-2026-gartner-magic-quadrant-for-warehouse-management-systems",
+     "path": "div.reply-card-body > a.reply-card-link > div.reply-card-title > h3#logistics-reply-named-a-visionary-in-the-2026-gartner-magic-quadrant-for-warehouse-management-systems",
+     "text": "logistics reply named a visionary in the 2026 gartner® magic",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3#fraunhofer-iml-once-again-confirms-the-efficiency-of-lea-reply--ai-assistants-set-new-standards",
+     "path": "div.reply-card-body > a.reply-card-link > div.reply-card-title > h3#fraunhofer-iml-once-again-confirms-the-efficiency-of-lea-reply--ai-assistants-set-new-standards",
+     "text": "fraunhofer iml once again confirms the efficiency of lea rep",
+     "cutMin": 7,
+     "cutMax": 7
+    }
+   ],
+   "findings": [
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.b4-highlight.block > aside.b4-highlight-card > div.b4-highlight-title > p",
+     "text": "visionaries in the gartner® magic quadrant™ for wms",
+     "clipper": "p",
+     "rect": {
+      "l": 1283,
+      "t": 129,
+      "r": 1386,
+      "b": 146,
+      "w": 103,
+      "h": 17
+     },
+     "clip": {
+      "l": 1283,
+      "t": 128,
+      "r": 1399,
+      "b": 206,
+      "w": 116,
+      "h": 78
+     },
+     "lines": 6
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 23,
+     "path": "div.reply-card.reply-card-horizontal > div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+     "text": "shorter delivery times for the supplement manufacturer tqg",
+     "clipper": "div.reply-card-image-container",
+     "rect": {
+      "l": 1013,
+      "t": 1693,
+      "r": 1463,
+      "b": 1811,
+      "w": 449,
+      "h": 118
+     },
+     "clip": {
+      "l": 965,
+      "t": 1438,
+      "r": 1714,
+      "b": 1859,
+      "w": 749,
+      "h": 421
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 375,
+     "path": "ul.slider-with-title-items > li.slider-with-title-item > div.slider-with-title-item-body > p",
+     "text": "we use digital social listening to help understand global tr",
+     "clipper": "div.slider-with-title-rail",
+     "rect": {
+      "l": 1427,
+      "t": 2217,
+      "r": 1815,
+      "b": 2233,
+      "w": 388,
+      "h": 16
+     },
+     "clip": {
+      "l": 0,
+      "t": 2067,
+      "r": 1440,
+      "b": 2349,
+      "w": 1440,
+      "h": 282
+     },
+     "lines": 2
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 2,
+     "path": "div.reply-card-body > div.reply-card-title > h3#conad-nord-ovest-intelligent-warehouse-orchestration-for-fresh-goods-with-logistics-reply > a",
+     "text": "conad nord ovest: intelligent warehouse orchestration for fr",
+     "clipper": "a",
+     "rect": {
+      "l": 80,
+      "t": 3773,
+      "r": 280,
+      "b": 3795,
+      "w": 200,
+      "h": 22
+     },
+     "clip": {
+      "l": 80,
+      "t": 3771,
+      "r": 346,
+      "b": 3849,
+      "w": 266,
+      "h": 78
+     },
+     "lines": 5
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.reply-card-content > a.reply-card-link > div.reply-card-title > h3#fraport-computer-vision-and-ai-optimise-airport-operations",
+     "text": "fraport: computer vision and ai optimise airport operations",
+     "clipper": "h3#fraport-computer-vision-and-ai-optimise-airport-operations",
+     "rect": {
+      "l": 442,
+      "t": 5864,
+      "r": 545,
+      "b": 5891,
+      "w": 103,
+      "h": 27
+     },
+     "clip": {
+      "l": 442,
+      "t": 5862,
+      "r": 660,
+      "b": 5987,
+      "w": 218,
+      "h": 125
+     },
+     "lines": 5
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.reply-card-content > a.reply-card-link > div.reply-card-title > h3#quantum-computing-the-best-ally-for-last-mile-optimisation",
+     "text": "quantum computing: the best ally for last mile optimisation",
+     "clipper": "h3#quantum-computing-the-best-ally-for-last-mile-optimisation",
+     "rect": {
+      "l": 780,
+      "t": 5864,
+      "r": 899,
+      "b": 5891,
+      "w": 119,
+      "h": 27
+     },
+     "clip": {
+      "l": 780,
+      "t": 5862,
+      "r": 998,
+      "b": 5987,
+      "w": 218,
+      "h": 125
+     },
+     "lines": 5
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.reply-card-content > a.reply-card-link > div.reply-card-title > h3#lea-reply-boosts-the-capabilities-of-micro-fulfilment-centres",
+     "text": "lea reply boosts the capabilities of micro-fulfilment centre",
+     "clipper": "h3#lea-reply-boosts-the-capabilities-of-micro-fulfilment-centres",
+     "rect": {
+      "l": 1118,
+      "t": 5864,
+      "r": 1251,
+      "b": 5891,
+      "w": 133,
+      "h": 27
+     },
+     "clip": {
+      "l": 1118,
+      "t": 5862,
+      "r": 1336,
+      "b": 5987,
+      "w": 218,
+      "h": 125
+     },
+     "lines": 6
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.reply-card-body > a.reply-card-link > div.reply-card-title > h3#logistics-reply-named-a-visionary-in-the-2026-gartner-magic-quadrant-for-warehouse-management-systems",
+     "text": "logistics reply named a visionary in the 2026 gartner® magic",
+     "clipper": "h3#logistics-reply-named-a-visionary-in-the-2026-gartner-magic-quadrant-for-warehouse-management-systems",
+     "rect": {
+      "l": 225,
+      "t": 6465,
+      "r": 585,
+      "b": 6497,
+      "w": 360,
+      "h": 32
+     },
+     "clip": {
+      "l": 225,
+      "t": 6462,
+      "r": 674,
+      "b": 6619,
+      "w": 449,
+      "h": 157
+     },
+     "lines": 5
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 23,
+     "path": "div.reply-card.reply-card-horizontal > div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+     "text": "fraunhofer iml once again confirms the efficiency of lea rep",
+     "clipper": "div.reply-card-image-container",
+     "rect": {
+      "l": 1013,
+      "t": 6462,
+      "r": 1463,
+      "b": 6618,
+      "w": 449,
+      "h": 157
+     },
+     "clip": {
+      "l": 965,
+      "t": 6245,
+      "r": 1714,
+      "b": 6666,
+      "w": 749,
+      "h": 421
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 7,
+     "path": "div.reply-card-body > a.reply-card-link > div.reply-card-title > h3#fraunhofer-iml-once-again-confirms-the-efficiency-of-lea-reply--ai-assistants-set-new-standards",
+     "text": "fraunhofer iml once again confirms the efficiency of lea rep",
+     "clipper": "h3#fraunhofer-iml-once-again-confirms-the-efficiency-of-lea-reply--ai-assistants-set-new-standards",
+     "rect": {
+      "l": 1013,
+      "t": 6465,
+      "r": 1402,
+      "b": 6497,
+      "w": 388,
+      "h": 32
+     },
+     "clip": {
+      "l": 1013,
+      "t": 6462,
+      "r": 1462,
+      "b": 6619,
+      "w": 449,
+      "h": 157
+     },
+     "lines": 4
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 2,
+    "image": 2
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "CONTROL STATE"
+   ]
+  },
+  {
+   "index": 1,
+   "heading": "logistics",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "highlights",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 2
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "shorter delivery times for the supplement manufacturer tqg",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "puma accelerates logistics innovation with galilea",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "how we work",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 2,
+    "text": 3,
+    "image": 4
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 1,
+    "image": 4,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "MISSING BUTTON",
+    "MISSING BUTTON"
+   ]
+  },
+  {
+   "index": 6,
+   "heading": "our focus on supply chain execution",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "our experiences",
+   "variable": false,
+   "origin": {
+    "link": 4,
+    "button": 0,
+    "text": 0,
+    "image": 6
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 6,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "scaling otto group’s logistics with a digital twin",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "puma accelerates logistics innovation with galilea",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "conad nord ovest: intelligent warehouse orchestration for fresh goods with logistics reply",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "computer vision for enhanced security, quality, and efficiency",
+   "variable": false,
+   "origin": {
+    "link": 6,
+    "button": 0,
+    "text": 0,
+    "image": 7
+   },
+   "eds": {
+    "link": 6,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 7,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "managing resilience and scalability in a multicloud environment",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 13,
+   "heading": "delivering beauty faster: kiko milano’s logistics evolution",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 14,
+   "heading": "data processing with aws-native services in the container terminal",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 15,
+   "heading": "lea reply™",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 16,
+   "heading": "some of our customers and partners",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 2,
+    "text": 5,
+    "image": 19
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 5,
+    "textHidden": 0,
+    "image": 17,
+    "imageHidden": 2
+   },
+   "findings": []
+  },
+  {
+   "index": 17,
+   "heading": "fraport: computer vision and ai optimise airport operations",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 18,
+   "heading": "quantum computing: the best ally for last mile optimisation",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 19,
+   "heading": "lea reply boosts the capabilities of micro-fulfilment centres",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 20,
+   "heading": "autonomous warehouse lab",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 21,
+   "heading": "acknowledgements",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 2
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 22,
+   "heading": "logistics reply named a visionary in the 2026 gartner® magic quadrant™ for warehouse management systems",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 23,
+   "heading": "fraunhofer iml once again confirms the efficiency of lea reply™ – ai assistants set new standards",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 2,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟠",
+   "kind": "CONTROL STATE",
+   "msg": "trigger: origin \"\" → served \"toggle teaser\" (band \"(top)\")",
+   "band": 0,
+   "label": "trigger",
+   "origin": "",
+   "eds": "toggle teaser"
+  },
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"prev item\" in band \"how we work\" (origin y 1994) not on the served page",
+   "band": 5,
+   "n": 1,
+   "text": "prev item"
+  },
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"next item\" in band \"how we work\" (origin y 1994) not on the served page",
+   "band": 5,
+   "n": 1,
+   "text": "next item"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"toggle teaser\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "toggle teaser"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"previous\" served in band \"how we work\", no origin link or button",
+   "band": 5,
+   "n": 1,
+   "text": "previous"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"next\" served in band \"how we work\", no origin link or button",
+   "band": 5,
+   "n": 1,
+   "text": "next"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 3,
+  "missingButtons": 2,
+  "hiddenButtons": 0,
+  "controlState": 1,
+  "countDeltas": 0,
+  "findings": 6,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 1339,
+    "y": 7,
+    "w": 17,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 51,
+    "w": 62,
+    "h": 16
+   },
+   {
+    "x": 612,
+    "y": 51,
+    "w": 72,
+    "h": 16
+   },
+   {
+    "x": 740,
+    "y": 51,
+    "w": 110,
+    "h": 16
+   },
+   {
+    "x": 906,
+    "y": 51,
+    "w": 41,
+    "h": 16
+   },
+   {
+    "x": 1003,
+    "y": 51,
+    "w": 60,
+    "h": 16
+   },
+   {
+    "x": 1119,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1225,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 416,
+    "w": 290,
+    "h": 71
+   },
+   {
+    "x": 1283,
+    "y": 129,
+    "w": 104,
+    "h": 17
+   },
+   {
+    "x": 1283,
+    "y": 149,
+    "w": 103,
+    "h": 17
+   },
+   {
+    "x": 1283,
+    "y": 168,
+    "w": 49,
+    "h": 17
+   },
+   {
+    "x": 1283,
+    "y": 188,
+    "w": 92,
+    "h": 17
+   },
+   {
+    "x": 306,
+    "y": 934,
+    "w": 828,
+    "h": 46
+   },
+   {
+    "x": 332,
+    "y": 984,
+    "w": 776,
+    "h": 46
+   },
+   {
+    "x": 299,
+    "y": 1035,
+    "w": 842,
+    "h": 46
+   },
+   {
+    "x": 337,
+    "y": 1085,
+    "w": 765,
+    "h": 46
+   },
+   {
+    "x": 316,
+    "y": 1136,
+    "w": 807,
+    "h": 46
+   },
+   {
+    "x": 406,
+    "y": 1186,
+    "w": 627,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 1355,
+    "w": 192,
+    "h": 40
+   },
+   {
+    "x": 241,
+    "y": 1699,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 225,
+    "y": 1735,
+    "w": 394,
+    "h": 32
+   },
+   {
+    "x": 225,
+    "y": 1775,
+    "w": 353,
+    "h": 32
+   },
+   {
+    "x": 1029,
+    "y": 1660,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 1013,
+    "y": 1696,
+    "w": 427,
+    "h": 32
+   },
+   {
+    "x": 1013,
+    "y": 1735,
+    "w": 388,
+    "h": 32
+   },
+   {
+    "x": 1013,
+    "y": 1775,
+    "w": 67,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 1980,
+    "w": 254,
+    "h": 40
+   },
+   {
+    "x": -371,
+    "y": 2217,
+    "w": 380,
+    "h": 16
+   },
+   {
+    "x": 70,
+    "y": 2217,
+    "w": 399,
+    "h": 16
+   },
+   {
+    "x": 163,
+    "y": 2241,
+    "w": 212,
+    "h": 16
+   },
+   {
+    "x": 524,
+    "y": 2217,
+    "w": 392,
+    "h": 16
+   },
+   {
+    "x": 556,
+    "y": 2241,
+    "w": 328,
+    "h": 16
+   },
+   {
+    "x": 972,
+    "y": 2217,
+    "w": 398,
+    "h": 16
+   },
+   {
+    "x": 972,
+    "y": 2241,
+    "w": 397,
+    "h": 16
+   },
+   {
+    "x": 1032,
+    "y": 2265,
+    "w": 277,
+    "h": 16
+   },
+   {
+    "x": 1431,
+    "y": 2217,
+    "w": 380,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 2697,
+    "w": 386,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 2737,
+    "w": 147,
+    "h": 32
+   },
+   {
+    "x": 201,
+    "y": 2820,
+    "w": 132,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 3222,
+    "w": 307,
+    "h": 40
+   },
+   {
+    "x": 80,
+    "y": 3774,
+    "w": 199,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 3800,
+    "w": 228,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 3826,
+    "w": 237,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 3867,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 418,
+    "y": 3625,
+    "w": 219,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 3651,
+    "w": 230,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 3677,
+    "w": 47,
+    "h": 22
+   },
+   {
+    "x": 434,
+    "y": 3718,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 756,
+    "y": 3774,
+    "w": 211,
+    "h": 22
+   },
+   {
+    "x": 756,
+    "y": 3800,
+    "w": 199,
+    "h": 22
+   },
+   {
+    "x": 756,
+    "y": 3826,
+    "w": 235,
+    "h": 22
+   },
+   {
+    "x": 772,
+    "y": 3867,
+    "w": 106,
+    "h": 11
+   },
+   {
+    "x": 1094,
+    "y": 3625,
+    "w": 190,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 3651,
+    "w": 255,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 3677,
+    "w": 84,
+    "h": 22
+   },
+   {
+    "x": 1110,
+    "y": 3718,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 418,
+    "y": 4269,
+    "w": 263,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 4295,
+    "w": 53,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 4321,
+    "w": 287,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 4321,
+    "w": 246,
+    "h": 22
+   },
+   {
+    "x": 434,
+    "y": 4362,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 1094,
+    "y": 4269,
+    "w": 223,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 4295,
+    "w": 237,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 4321,
+    "w": 238,
+    "h": 22
+   },
+   {
+    "x": 1110,
+    "y": 4362,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 80,
+    "y": 4265,
+    "w": 255,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 4291,
+    "w": 151,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 4317,
+    "w": 251,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 4358,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 772,
+    "y": 4298,
+    "w": 124,
+    "h": 22
+   },
+   {
+    "x": 788,
+    "y": 4347,
+    "w": 182,
+    "h": 11
+   },
+   {
+    "x": 631,
+    "y": 4470,
+    "w": 178,
+    "h": 16
+   },
+   {
+    "x": 230,
+    "y": 4719,
+    "w": 434,
+    "h": 40
+   },
+   {
+    "x": 230,
+    "y": 4762,
+    "w": 243,
+    "h": 40
+   },
+   {
+    "x": 488,
+    "y": 5412,
+    "w": 463,
+    "h": 46
+   },
+   {
+    "x": 104,
+    "y": 5625,
+    "w": 35,
+    "h": 11
+   },
+   {
+    "x": 104,
+    "y": 5927,
+    "w": 165,
+    "h": 27
+   },
+   {
+    "x": 104,
+    "y": 5958,
+    "w": 197,
+    "h": 27
+   },
+   {
+    "x": 442,
+    "y": 5625,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 442,
+    "y": 5865,
+    "w": 106,
+    "h": 27
+   },
+   {
+    "x": 442,
+    "y": 5896,
+    "w": 207,
+    "h": 27
+   },
+   {
+    "x": 442,
+    "y": 5928,
+    "w": 201,
+    "h": 27
+   },
+   {
+    "x": 442,
+    "y": 5959,
+    "w": 91,
+    "h": 27
+   },
+   {
+    "x": 780,
+    "y": 5625,
+    "w": 90,
+    "h": 11
+   },
+   {
+    "x": 780,
+    "y": 5865,
+    "w": 123,
+    "h": 27
+   },
+   {
+    "x": 780,
+    "y": 5896,
+    "w": 202,
+    "h": 27
+   },
+   {
+    "x": 780,
+    "y": 5928,
+    "w": 208,
+    "h": 27
+   },
+   {
+    "x": 780,
+    "y": 5959,
+    "w": 55,
+    "h": 27
+   },
+   {
+    "x": 1118,
+    "y": 5625,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 1118,
+    "y": 5865,
+    "w": 129,
+    "h": 27
+   },
+   {
+    "x": 1118,
+    "y": 5896,
+    "w": 136,
+    "h": 27
+   },
+   {
+    "x": 1118,
+    "y": 5928,
+    "w": 186,
+    "h": 27
+   },
+   {
+    "x": 1118,
+    "y": 5959,
+    "w": 215,
+    "h": 27
+   },
+   {
+    "x": 1118,
+    "y": 5959,
+    "w": 187,
+    "h": 27
+   },
+   {
+    "x": 177,
+    "y": 6148,
+    "w": 379,
+    "h": 40
+   },
+   {
+    "x": 241,
+    "y": 6414,
+    "w": 138,
+    "h": 11
+   },
+   {
+    "x": 225,
+    "y": 6450,
+    "w": 359,
+    "h": 32
+   },
+   {
+    "x": 225,
+    "y": 6489,
+    "w": 307,
+    "h": 32
+   },
+   {
+    "x": 225,
+    "y": 6528,
+    "w": 413,
+    "h": 32
+   },
+   {
+    "x": 225,
+    "y": 6567,
+    "w": 418,
+    "h": 32
+   },
+   {
+    "x": 1029,
+    "y": 6414,
+    "w": 41,
+    "h": 11
+   },
+   {
+    "x": 1013,
+    "y": 6450,
+    "w": 391,
+    "h": 32
+   },
+   {
+    "x": 1013,
+    "y": 6489,
+    "w": 442,
+    "h": 32
+   },
+   {
+    "x": 1013,
+    "y": 6528,
+    "w": 445,
+    "h": 32
+   },
+   {
+    "x": 1013,
+    "y": 6567,
+    "w": 149,
+    "h": 32
+   },
+   {
+    "x": 64,
+    "y": 6908,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 6956,
+    "w": 103,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 7001,
+    "w": 45,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 7046,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 7090,
+    "w": 67,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6908,
+    "w": 135,
+    "h": 16
+   },
+   {
+    "x": 402,
+    "y": 6956,
+    "w": 142,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 7001,
+    "w": 89,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 7018,
+    "w": 73,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 7062,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 7062,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 7107,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 7107,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6956,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 6956,
+    "w": 69,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 7001,
+    "w": 127,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 7046,
+    "w": 121,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 7062,
+    "w": 85,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 7079,
+    "w": 39,
+    "h": 13
+   },
+   {
+    "x": 642,
+    "y": 7079,
+    "w": 51,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6956,
+    "w": 157,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6973,
+    "w": 36,
+    "h": 13
+   },
+   {
+    "x": 841,
+    "y": 6973,
+    "w": 64,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 7018,
+    "w": 154,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 7062,
+    "w": 147,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 7107,
+    "w": 130,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 7124,
+    "w": 128,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 6923,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 1112,
+    "y": 7003,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 7213,
+    "w": 81,
+    "h": 13
+   },
+   {
+    "x": 149,
+    "y": 7213,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 158,
+    "y": 7213,
+    "w": 136,
+    "h": 13
+   },
+   {
+    "x": 1296,
+    "y": 872,
+    "w": 124,
+    "h": 13
+   }
+  ],
+  "eds": [
+   {
+    "x": 1336,
+    "y": 7,
+    "w": 20,
+    "h": 13
+   },
+   {
+    "x": 486,
+    "y": 51,
+    "w": 63,
+    "h": 16
+   },
+   {
+    "x": 605,
+    "y": 51,
+    "w": 71,
+    "h": 16
+   },
+   {
+    "x": 733,
+    "y": 51,
+    "w": 111,
+    "h": 16
+   },
+   {
+    "x": 900,
+    "y": 51,
+    "w": 46,
+    "h": 16
+   },
+   {
+    "x": 1002,
+    "y": 51,
+    "w": 59,
+    "h": 16
+   },
+   {
+    "x": 1118,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1224,
+    "y": 51,
+    "w": 52,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 416,
+    "w": 285,
+    "h": 71
+   },
+   {
+    "x": 1283,
+    "y": 129,
+    "w": 103,
+    "h": 17
+   },
+   {
+    "x": 1283,
+    "y": 149,
+    "w": 101,
+    "h": 17
+   },
+   {
+    "x": 1283,
+    "y": 168,
+    "w": 48,
+    "h": 17
+   },
+   {
+    "x": 1283,
+    "y": 188,
+    "w": 114,
+    "h": 17
+   },
+   {
+    "x": 1283,
+    "y": 188,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 299,
+    "y": 934,
+    "w": 843,
+    "h": 46
+   },
+   {
+    "x": 317,
+    "y": 984,
+    "w": 806,
+    "h": 46
+   },
+   {
+    "x": 303,
+    "y": 1035,
+    "w": 834,
+    "h": 46
+   },
+   {
+    "x": 334,
+    "y": 1085,
+    "w": 771,
+    "h": 46
+   },
+   {
+    "x": 308,
+    "y": 1136,
+    "w": 825,
+    "h": 46
+   },
+   {
+    "x": 410,
+    "y": 1186,
+    "w": 620,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 1355,
+    "w": 191,
+    "h": 40
+   },
+   {
+    "x": 241,
+    "y": 1698,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 225,
+    "y": 1735,
+    "w": 391,
+    "h": 32
+   },
+   {
+    "x": 225,
+    "y": 1775,
+    "w": 345,
+    "h": 32
+   },
+   {
+    "x": 1029,
+    "y": 1659,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 1013,
+    "y": 1696,
+    "w": 417,
+    "h": 32
+   },
+   {
+    "x": 1013,
+    "y": 1735,
+    "w": 374,
+    "h": 32
+   },
+   {
+    "x": 1013,
+    "y": 1775,
+    "w": 71,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 1980,
+    "w": 249,
+    "h": 40
+   },
+   {
+    "x": 77,
+    "y": 2217,
+    "w": 384,
+    "h": 16
+   },
+   {
+    "x": 110,
+    "y": 2241,
+    "w": 319,
+    "h": 16
+   },
+   {
+    "x": 529,
+    "y": 2217,
+    "w": 381,
+    "h": 16
+   },
+   {
+    "x": 532,
+    "y": 2241,
+    "w": 377,
+    "h": 16
+   },
+   {
+    "x": 583,
+    "y": 2264,
+    "w": 274,
+    "h": 16
+   },
+   {
+    "x": 985,
+    "y": 2217,
+    "w": 372,
+    "h": 16
+   },
+   {
+    "x": 1074,
+    "y": 2241,
+    "w": 193,
+    "h": 16
+   },
+   {
+    "x": 1427,
+    "y": 2217,
+    "w": 388,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 2697,
+    "w": 386,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 2736,
+    "w": 146,
+    "h": 32
+   },
+   {
+    "x": 201,
+    "y": 2819,
+    "w": 133,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 3222,
+    "w": 316,
+    "h": 40
+   },
+   {
+    "x": 80,
+    "y": 3773,
+    "w": 200,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 3799,
+    "w": 220,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 3825,
+    "w": 229,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 3865,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 418,
+    "y": 3624,
+    "w": 215,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 3650,
+    "w": 219,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 3676,
+    "w": 42,
+    "h": 22
+   },
+   {
+    "x": 434,
+    "y": 3716,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 756,
+    "y": 3773,
+    "w": 206,
+    "h": 22
+   },
+   {
+    "x": 756,
+    "y": 3799,
+    "w": 194,
+    "h": 22
+   },
+   {
+    "x": 756,
+    "y": 3825,
+    "w": 220,
+    "h": 22
+   },
+   {
+    "x": 772,
+    "y": 3865,
+    "w": 118,
+    "h": 13
+   },
+   {
+    "x": 1094,
+    "y": 3624,
+    "w": 189,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 3650,
+    "w": 246,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 3676,
+    "w": 86,
+    "h": 22
+   },
+   {
+    "x": 1110,
+    "y": 3716,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 418,
+    "y": 4268,
+    "w": 261,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 4294,
+    "w": 244,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 4320,
+    "w": 97,
+    "h": 22
+   },
+   {
+    "x": 434,
+    "y": 4360,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 1094,
+    "y": 4268,
+    "w": 218,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 4294,
+    "w": 238,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 4320,
+    "w": 231,
+    "h": 22
+   },
+   {
+    "x": 1110,
+    "y": 4360,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 80,
+    "y": 4264,
+    "w": 251,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 4290,
+    "w": 257,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 4316,
+    "w": 130,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 4356,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 772,
+    "y": 4297,
+    "w": 129,
+    "h": 22
+   },
+   {
+    "x": 788,
+    "y": 4345,
+    "w": 202,
+    "h": 13
+   },
+   {
+    "x": 633,
+    "y": 4468,
+    "w": 174,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 4718,
+    "w": 437,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 4761,
+    "w": 236,
+    "h": 40
+   },
+   {
+    "x": 488,
+    "y": 5411,
+    "w": 463,
+    "h": 46
+   },
+   {
+    "x": 104,
+    "y": 5615,
+    "w": 38,
+    "h": 13
+   },
+   {
+    "x": 104,
+    "y": 5926,
+    "w": 165,
+    "h": 27
+   },
+   {
+    "x": 104,
+    "y": 5957,
+    "w": 199,
+    "h": 27
+   },
+   {
+    "x": 442,
+    "y": 5615,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 442,
+    "y": 5864,
+    "w": 103,
+    "h": 27
+   },
+   {
+    "x": 442,
+    "y": 5895,
+    "w": 205,
+    "h": 27
+   },
+   {
+    "x": 442,
+    "y": 5926,
+    "w": 198,
+    "h": 27
+   },
+   {
+    "x": 442,
+    "y": 5958,
+    "w": 85,
+    "h": 27
+   },
+   {
+    "x": 780,
+    "y": 5615,
+    "w": 101,
+    "h": 13
+   },
+   {
+    "x": 780,
+    "y": 5864,
+    "w": 119,
+    "h": 27
+   },
+   {
+    "x": 780,
+    "y": 5895,
+    "w": 197,
+    "h": 27
+   },
+   {
+    "x": 780,
+    "y": 5926,
+    "w": 201,
+    "h": 27
+   },
+   {
+    "x": 780,
+    "y": 5958,
+    "w": 54,
+    "h": 27
+   },
+   {
+    "x": 1118,
+    "y": 5615,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 1118,
+    "y": 5864,
+    "w": 133,
+    "h": 27
+   },
+   {
+    "x": 1118,
+    "y": 5895,
+    "w": 136,
+    "h": 27
+   },
+   {
+    "x": 1118,
+    "y": 5926,
+    "w": 179,
+    "h": 27
+   },
+   {
+    "x": 1118,
+    "y": 5958,
+    "w": 202,
+    "h": 27
+   },
+   {
+    "x": 1118,
+    "y": 5958,
+    "w": 193,
+    "h": 27
+   },
+   {
+    "x": 177,
+    "y": 6147,
+    "w": 380,
+    "h": 40
+   },
+   {
+    "x": 241,
+    "y": 6428,
+    "w": 151,
+    "h": 13
+   },
+   {
+    "x": 225,
+    "y": 6465,
+    "w": 360,
+    "h": 32
+   },
+   {
+    "x": 225,
+    "y": 6504,
+    "w": 446,
+    "h": 32
+   },
+   {
+    "x": 225,
+    "y": 6543,
+    "w": 308,
+    "h": 32
+   },
+   {
+    "x": 225,
+    "y": 6582,
+    "w": 365,
+    "h": 32
+   },
+   {
+    "x": 1029,
+    "y": 6428,
+    "w": 44,
+    "h": 13
+   },
+   {
+    "x": 1013,
+    "y": 6465,
+    "w": 388,
+    "h": 32
+   },
+   {
+    "x": 1013,
+    "y": 6504,
+    "w": 434,
+    "h": 32
+   },
+   {
+    "x": 1013,
+    "y": 6543,
+    "w": 383,
+    "h": 32
+   },
+   {
+    "x": 1013,
+    "y": 6582,
+    "w": 213,
+    "h": 32
+   },
+   {
+    "x": 64,
+    "y": 6845,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 6894,
+    "w": 102,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6939,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6983,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 7028,
+    "w": 66,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6845,
+    "w": 135,
+    "h": 18
+   },
+   {
+    "x": 402,
+    "y": 6894,
+    "w": 145,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6939,
+    "w": 88,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6955,
+    "w": 71,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 7000,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 7000,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 7045,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 7045,
+    "w": 58,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6894,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 6894,
+    "w": 68,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6939,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6983,
+    "w": 120,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 7000,
+    "w": 83,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 7017,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 643,
+    "y": 7017,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6894,
+    "w": 156,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6911,
+    "w": 41,
+    "h": 13
+   },
+   {
+    "x": 845,
+    "y": 6911,
+    "w": 65,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6955,
+    "w": 153,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 7000,
+    "w": 143,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 7045,
+    "w": 132,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 7062,
+    "w": 126,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 6860,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 1112,
+    "y": 6940,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 7151,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 152,
+    "y": 7151,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 160,
+    "y": 7151,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 1298,
+    "y": 871,
+    "w": 122,
+    "h": 16
+   }
+  ]
+ }
+}

@@ -1,20 +1,219 @@
-footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+/* stylelint-disable no-descending-specificity -- cascade order lifted verbatim from the gated canon */
+
+/* Reply footer — lifted from stardust/prototypes/canon.css (FOOTER) + brand.css (BRAND FOOTER),
+   class names kebab-cased (`__`/`--` -> `-`). The block renders div.site-footer + div.site-legal. */
+footer .footer-nav-home .icon,
+footer .brand-copyright-logo .icon {
+  display: inline;
+  width: auto;
+  height: auto;
 }
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+footer .footer-nav-home .icon img {
+  display: block;
+  width: 113px;
+  height: 56px;
 }
 
-footer .footer p {
-  margin: 0;
+footer .brand-copyright-logo .icon img {
+  display: inline;
+  width: 52px;
+  height: 26px;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
+footer .round-bt .icon img,
+footer .round-bt i img {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+
+/* =====================================================================
+   FOOTER — dark nav block (#151f27) + black legal strip (#000)
+   ===================================================================== */
+footer .site-footer{position:relative;display:flex;width:100%;max-width:100%;background:var(--c-ink)}
+footer .site-footer-wrap{width:100%;min-width:0;margin:0 auto}
+footer .footer-nav{display:flex;flex-direction:column;align-items:flex-start;row-gap:2.5rem;padding:2.5rem 2.5rem 4rem}
+footer .footer-nav-home svg{display:block;width:113px;height:56px}
+footer .footer-nav-grid{display:grid;grid-template-columns:1fr;gap:2.5rem;width:100%;color:#fff}
+footer .footer-nav-group{display:flex;flex-direction:column;row-gap:.25rem}
+footer .footer-nav-toggle{display:flex;justify-content:space-between;background:transparent;border:none;padding:0;color:#fff;cursor:pointer;line-height:1.7;text-align:center}
+footer .footer-plus{position:relative;width:.875rem;height:.875rem}
+footer .footer-plus>div{position:absolute;top:50%;left:0;width:100%;height:2px;background:#fff}
+footer .footer-plus>div:nth-of-type(2){transition:transform .3s ease-out;transform:rotate(90deg)}
+footer [aria-expanded="true"]>.footer-plus>div:last-of-type{transform:rotate(180deg)}
+
+footer .footer-nav-list{padding-top:1.5rem;columns:1;height:100%;
+  opacity:0;max-height:0;overflow:hidden;transition:max-height .35s ease-out,opacity .25s ease-out}
+footer .footer-nav-list.show{opacity:1;max-height:28rem;transition:max-height .35s ease-out,opacity .25s ease-out .1s}
+footer .footer-nav-list>li{display:flex}
+footer .footer-nav-list>li+li{margin-top:1.25rem}
+footer .footer-nav-list .q{color:var(--c-mute)}
+footer .footer-nav-actions{display:flex;flex-direction:column;align-items:flex-end;row-gap:3.5rem}
+footer .footer-nav-actions>li{width:100%}
+
+footer .footer-cta{position:relative;z-index:0;display:flex;flex-direction:row-reverse;justify-content:space-between;column-gap:0;
+  padding:14px 16px 14px 0;border-radius:4px;color:#fff;font-family:tuqgwxsjgq, sans-serif;font-size:14px;line-height:20px;white-space:nowrap;
+  transition:padding .3s cubic-bezier(.09,.72,.76,1.01)}
+footer .footer-cta::before{content:"";position:absolute;z-index:-1;bottom:0;left:50%;transform:translate(-50%);width:100%;height:.125rem;background:#fff}
+footer .footer-cta i{display:block;color:transparent;font-size:1.5rem;font-style:normal}
+footer .footer-cta i svg{vertical-align:middle}
+footer .footer-cta span{transition:transform .2s ease-out}
+footer .footer-cta:hover{color:var(--c-ink)}
+footer .footer-cta:hover i{color:var(--c-ink)}
+footer .footer-cta:hover span{transform:translate(1.25rem);transition:color 50ms ease-out .25s,transform .2s ease-out}
+footer .footer-cta:hover::before{height:100%;border-radius:4px;transition:height .2s ease-out .2s}
+footer .footer-social{display:flex;justify-content:space-between;gap:1.25rem}
+
+footer .round-bt{position:relative;display:flex;flex-shrink:0;justify-content:center;align-items:center;width:3rem;height:3rem;border-radius:50%;
+  color:#fff;border:.0625rem solid #fff;background:none;transition:border-color 50ms linear}
+
+footer .round-bt::after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;border-radius:50%;pointer-events:none;background:var(--brand-color);
+  opacity:0;transform:scale(0);transform-origin:50%;transition:transform .4s cubic-bezier(.09,.72,.76,1.01),opacity .3s cubic-bezier(.09,.72,.76,1.01)}
+footer .round-bt i{position:relative;z-index:1;font-style:normal}
+footer .round-bt:hover{color:var(--text-on-brand-color);border-color:transparent;transition:border-color .15s linear .25s}
+footer .round-bt:hover::after{opacity:1;transform:scale(1)}
+footer .round-bt:hover img{filter:invert(1);transition:filter .3s cubic-bezier(.09,.72,.76,1.01)}
+
+footer .site-legal{position:relative;display:flex;width:100%;max-width:100%;background:var(--c-black)}
+footer .site-legal-inner{color:#fff;padding:.75rem 2rem}
+footer .site-legal-row{display:flex;justify-content:space-between}
+footer .site-legal-text{display:flex;flex-direction:column}
+footer .site-legal-sep{display:none;margin:0 .25rem}
+footer .site-legal-text a{display:block;text-decoration:underline}
+
+footer .cookie-pref{position:fixed;bottom:1.25rem;right:1rem;z-index:3;display:flex;padding:.875rem;border:none;border-radius:50%;
+  color:#fff;background-color:var(--c-ink-2)!important;box-shadow:0 16px 32px #0003}
+footer .cookie-pref span{display:none}
+
+@media (width >=768px){
+  footer .footer-nav{padding:2.5rem 4rem 4rem;row-gap:1.75rem}
+  footer .footer-nav-grid{grid-template-columns:repeat(8,1fr)}
+  footer .footer-nav-group-a{grid-column:span 3/span 3}
+  footer .footer-nav-group-b{grid-column:4/span 3}
+  footer .footer-nav-actions-col{grid-column:span 2/span 2;justify-self:end;width:100%}
+  footer .footer-plus{display:none}
+  footer .footer-nav-list{opacity:1;max-height:none!important}
+  footer .footer-nav-list>li+li{margin-top:1.75rem}
+  footer .footer-nav-actions{row-gap:2.25rem}
+  footer .footer-nav-actions>li.footer-nav-social-li{width:8rem}
+  footer .footer-social{justify-content:flex-end;flex-wrap:wrap}
+  footer .site-legal-inner{padding-left:4rem;padding-right:4rem}
+  footer .site-legal-text{flex-direction:row}
+  footer .site-legal-sep{display:inline-block}
+
+  footer .cookie-pref{display:inline-flex;flex-direction:row-reverse;justify-content:center;align-items:center;column-gap:.625rem;bottom:0;right:0;z-index:0;
+    padding:12px 20px;border-radius:4px;background-color:var(--c-ink)!important;overflow:hidden;
+    font-family:var(--font-label);font-size:.75rem;line-height:1.4;text-align:center}
+  footer .cookie-pref span{display:inline}
+  footer .cookie-pref svg{display:none}
+}
+
+@media (width >=1024px){
+  footer .footer-nav{padding-bottom:5rem;row-gap:4rem}
+  footer .footer-nav-grid{grid-template-columns:repeat(12,1fr)}
+  footer .footer-nav-group-b{grid-column:4/span 5}
+  footer .footer-nav-group-b .footer-nav-list{columns:2;column-gap:2.5rem;margin-right:-2.5rem}
+  footer .footer-nav-actions-col{grid-column-end:13!important;width:auto}
+  footer .footer-nav-actions{row-gap:1.25rem}
+  footer .footer-cta{column-gap:3rem}
+}
+
+@media (width >=1440px){
+  footer .site-footer-wrap,footer .site-legal .r-wrap{max-width:1660px}
+  footer .footer-nav{padding-top:4rem;padding-bottom:3.5rem;row-gap:2.5rem}
+  footer .footer-nav-group-b .footer-nav-list{columns:3}
+  footer .footer-nav-actions-col{grid-column:span 3/13!important}
+  footer .footer-nav-actions{row-gap:2rem}
+  footer .footer-nav-actions>li.footer-nav-social-li{width:auto}
+  footer .footer-social{column-gap:1.5rem}
+  footer .site-legal-inner{padding-top:1rem;padding-bottom:1rem}
+  footer .cookie-pref{column-gap:.6875rem}
+}
+
+/* =====================================================================
+   BRAND FOOTER — footer.footer-minisites (dark nav: logo, 3 CTA links, Privacy and Legal list)
+   + copyright-minisites strip (Reply logo | Reply © 2026, cookie settings).
+   Tailwind utilities from the captured markup; dropdown padding from theme.cfd8e300.css .footer-minisites.
+   ===================================================================== */
+footer .brand-footer{display:flex;flex-direction:column;align-items:flex-start;row-gap:.75rem;padding:2.5rem}
+footer .brand-footer-logo{display:block;width:auto;height:71px} /* img height="71", width from the DAM svg ratio */
+footer .brand-footer-grid{display:grid;grid-template-columns:repeat(1,minmax(0,1fr));gap:2.75rem 2.5rem;width:100%;margin:0;padding:0;list-style:none;color:#fff}
+footer .brand-footer-stack{display:flex;flex-direction:column;row-gap:2.5rem;margin:0;padding:0;list-style:none}
+footer .brand-footer-cta-li{width:100%}
+footer .brand-footer-cta-list{display:flex;flex-direction:column;gap:1.25rem 2.5rem}
+footer .brand-footer-social{display:flex;flex-wrap:wrap;justify-content:flex-start;gap:1.25rem}
+footer .site-footer-brand .footer-cta{justify-content:space-between;column-gap:0;font-weight:300}
+footer .brand-footer-legal{display:flex;flex-direction:column}
+footer .brand-footer-toggle{display:flex;justify-content:space-between;padding:0;border:none;background:transparent;color:#fff;cursor:pointer;text-align:left}
+footer .brand-footer-toggle .label-medium{line-height:20px}
+
+footer .brand-footer-list{columns:1;padding-top:0;opacity:0;max-height:0;overflow:hidden;
+  transition:max-height .35s ease-out,opacity .25s ease-out,padding-top .1s ease-out}
+footer .brand-footer-list.show{padding-top:28px;opacity:1;max-height:40rem;transition:max-height .35s ease-out,opacity .25s ease-out .1s,padding-top .1s ease-out}
+footer .brand-footer-list>li{display:flex}
+footer .brand-footer-list>li+li{margin-top:1.25rem}
+footer .brand-footer-list .q{color:var(--c-mute)}
+footer .brand-footer-list>li:nth-child(7) a{letter-spacing:.01em} /* R-02 metric compensation: the live column (206.7px @1440) wraps "Modern Slavery Act Transparency" (208px); the substitute set it 206px and kept one line, re-balancing the 3 columns */
+footer .brand-copyright{padding:.5rem 2.5rem .75rem;color:#fff}
+footer .brand-copyright-row{display:flex;justify-content:space-between}
+footer .brand-copyright-info{display:grid;grid-template-areas:"logo separator copyright";row-gap:2px;align-items:baseline}
+footer .brand-copyright-logo{grid-area:logo}
+footer .brand-copyright-logo svg{display:inline;width:52px;height:26px}
+footer .brand-copyright-sep{grid-area:separator;position:relative;top:1px;width:1px;height:10px;margin:0 .5rem;background-color:#586674}
+footer .brand-copyright-copy{grid-area:copyright}
+
+@media (width >=768px){
+  footer .brand-footer{padding:3rem 4rem;row-gap:1.5rem}
+  footer .brand-footer-grid{grid-template-columns:repeat(8,minmax(0,1fr))}
+  footer .brand-footer-ctas{grid-column:span 2/span 2;justify-self:start;margin-right:-2.5rem}
+  footer .brand-footer-stack{row-gap:2rem}
+  footer .brand-footer-social-li{width:8rem}
+  footer .brand-footer-legal{grid-column:5/span 4;row-gap:1.75rem;margin-left:-2.5rem}
+  footer .brand-footer-toggle .footer-plus{display:none}
+  footer .brand-footer-list,footer .brand-footer-list.show{columns:2;column-gap:1.75rem;padding-top:0!important;opacity:1;max-height:none}
+  footer .brand-footer-list>li+li{margin-top:1.75rem}
+  footer .brand-copyright{padding:1rem 4rem}
+  footer .brand-copyright-info{align-items:center}
+  footer .brand-copyright-sep{height:23px;margin:0 1rem}
+}
+
+@media (width >=1024px){
+  footer .brand-footer-grid{grid-template-columns:repeat(12,minmax(0,1fr))}
+  footer .brand-footer-ctas{grid-column:span 6/span 6;margin-right:0}
+  footer .brand-footer-stack{row-gap:3rem}
+  footer .brand-footer-cta-list{flex-direction:row}
+  footer .brand-footer-social-li{width:auto}
+  footer .brand-footer-social{gap:1.5rem}
+  footer .site-footer-brand .footer-cta{column-gap:min(3vw,3rem)}
+  footer .brand-footer-legal{grid-column:7/span 6;margin-left:0}
+  footer .brand-footer-list,footer .brand-footer-list.show{columns:3}
+}
+
+@media (width >=1440px){
+  footer .brand-footer-ctas{grid-column:span 5/span 5}
+  footer .brand-footer-legal{margin-left:-2.5rem}
+}
+
+/* the cookie-settings disc rides above the 4brands bottom sheet < 768 (brand.css) */
+.brand-4b footer .cookie-pref {
+  transition: transform .3s ease-out;
+}
+
+.brand-4b.sticky-highlight-visible footer .cookie-pref {
+  transition: transform .3s ease-out 1s;
+  transform: translateY(-109px);
+}
+
+@media (width >= 768px) {
+  .brand-4b footer .cookie-pref,
+  .brand-4b.sticky-highlight-visible footer .cookie-pref {
+    transition: none !important;
+    transform: none !important;
   }
+}
+
+body > footer {
+  position: relative;
 }

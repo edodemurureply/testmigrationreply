@@ -1,0 +1,52 @@
+[live-session] waiting to pace live navigations to www.reply.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 933 ms
+
+Content diff @ 1440px (profile "generic", roots: #main-content, header, footer)
+root "#main-content"
+  source: 11 text nodes — 3 headings, 0 eyebrows, 3 CTAs, 5 body; 0 img
+  build: 11 text nodes — 3 headings, 0 eyebrows, 3 CTAs, 5 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 8 / build 8
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root "header"
+  source: 110 text nodes — 0 headings, 0 eyebrows, 96 CTAs, 14 body; 17 img
+  build: 102 text nodes — 0 headings, 0 eyebrows, 88 CTAs, 14 body; 9 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 29 / build 19; icons: source 45 / build 35
+root "footer"
+  source: 19 text nodes — 0 headings, 0 eyebrows, 17 CTAs, 2 body; 4 img
+  build: 19 text nodes — 0 headings, 0 eyebrows, 17 CTAs, 2 body; 4 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 7 / build 7; icons: source 7 / build 7
+
+Findings: 31 (18 structural 🔴)
+Tiers: looks-same 🔴 18 · nothing-lost 🟡 11 · accepted 🟢 0 (owner 0, auto 0) · advisory 2
+  🔴 MISSING CTA [header]: source cta "Symbiosys: Move at AI speed. Decide with evidenc" → /symbiosis-reply/en has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Reply Model Factory Read more" → /en/artificial-intelligence/reply-model-factory has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Industrial Agentic AI Read more" → /en/artificial-intelligence/industrial-agentic-ai has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Brick Cognitive: Agentic AI to scale manufacturi" → https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "AI for Retailers Discover More" → /en/artificial-intelligence/ai-for-retailers has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Scaling AI in 2026 Discover More" → /en/artificial-intelligence/scaling-ai-in-2026 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "About Reply Read More" → /en/company-profile has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "The Board of Directors approves the quarterly fi" → https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING ICON [header]: source inline svg 0 0 8 14 / 1 shape(s) (8×14) at "previous slide" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source inline svg 0 0 8 14 / 1 shape(s) (8×14) at "next slide" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source inline svg 0 0 8 14 / 1 shape(s) (8×14) at "previous slide" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source inline svg 0 0 8 14 / 1 shape(s) (8×14) at "next slide" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source inline svg 0 0 8 14 / 1 shape(s) (8×14) at "previous slide" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source inline svg 0 0 8 14 / 1 shape(s) (8×14) at "next slide" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source inline svg 0 0 8 14 / 1 shape(s) (0×0) at "previous slide" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source inline svg 0 0 8 14 / 1 shape(s) (0×0) at "next slide" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source inline svg 0 0 8 14 / 1 shape(s) (8×14) at "previous slide" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source inline svg 0 0 8 14 / 1 shape(s) (8×14) at "next slide" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ARIA-LABEL [header]: source <button> aria-label="Previous slide" has no build <button> with that aria-label (build <button> aria-labels: "Close Services", "Close Industries", "Close Insights & Labs"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [header]: source <button> aria-label="Next slide" has no build <button> with that aria-label (build <button> aria-labels: "Close Services", "Close Industries", "Close Insights & Labs"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [header]: source <button> aria-label="Previous slide" has no build <button> with that aria-label (build <button> aria-labels: "Close Services", "Close Industries", "Close Insights & Labs"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [header]: source <button> aria-label="Next slide" has no build <button> with that aria-label (build <button> aria-labels: "Close Services", "Close Industries", "Close Insights & Labs"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [header]: source <button> aria-label="Close Insights &amp; Labs" has no build <button> with that aria-label (build <button> aria-labels: "Close Services", "Close Industries", "Close Insights & Labs"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [header]: source <button> aria-label="Previous slide" has no build <button> with that aria-label (build <button> aria-labels: "Close Services", "Close Industries", "Close Insights & Labs"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [header]: source <button> aria-label="Next slide" has no build <button> with that aria-label (build <button> aria-labels: "Close Services", "Close Industries", "Close Insights & Labs"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [header]: source <button> aria-label="Previous slide" has no build <button> with that aria-label (build <button> aria-labels: "Close Services", "Close Industries", "Close Insights & Labs"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [header]: source <button> aria-label="Next slide" has no build <button> with that aria-label (build <button> aria-labels: "Close Services", "Close Industries", "Close Insights & Labs"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [header]: source <button> aria-label="Previous slide" has no build <button> with that aria-label (build <button> aria-labels: "Close Services", "Close Industries", "Close Insights & Labs"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [header]: source <button> aria-label="Next slide" has no build <button> with that aria-label (build <button> aria-labels: "Close Services", "Close Industries", "Close Insights & Labs"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Close Insights & Labs" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON MOVED [header]: source inline svg 0 0 24 25 / 1 shape(s) (0×0) at "close insights &amp; labs" is at "close insights & labs" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.

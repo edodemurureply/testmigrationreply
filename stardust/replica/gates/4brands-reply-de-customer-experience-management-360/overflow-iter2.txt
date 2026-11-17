@@ -1,0 +1,9 @@
+measure: http://localhost:8791/4brands-reply-de-customer-experience-management-proposed.html @360: horizontal overflow +1px (scrollWidth 361 > viewport 360)
+measure  http://localhost:8791/4brands-reply-de-customer-experience-management-proposed.html
+  widths 360 · 1 selector(s) · 1 props · first match
+
+@ 360px
+  root  scrollWidth   361  viewport 360  scrollHeight   6491  ◄◄ OVERFLOW +1px
+  html
+       x     0  y      0  w   360  h  6491  vis  "OFFERING Customer Experience Management…"
+      display: block

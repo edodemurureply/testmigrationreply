@@ -1,0 +1,66 @@
+{
+  "a": "stardust/replica/gates/all-1440/4brands-reply-de-recipe-for-sap-ibp/origin.png",
+  "b": "stardust/replica/gates/all-1440/4brands-reply-de-recipe-for-sap-ibp/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3681,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 158415,
+  "pct": 2.99,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/4brands-reply-de-recipe-for-sap-ibp/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 15.28,
+  "textBoxes": 73,
+  "textPixels": 536348,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 7.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 3
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 3.1
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 2.7
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0.9
+    },
+    {
+      "y0": 3500,
+      "y1": 3681,
+      "pct": 0.3
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--a355dc1b--aemcoder.aem.page/4brands-reply/de/recipe-for-sap-ibp"
+  }
+}

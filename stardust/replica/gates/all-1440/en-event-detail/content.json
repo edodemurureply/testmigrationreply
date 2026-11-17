@@ -1,0 +1,3840 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-17T00:52:59.492Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.reply.com/en/event-detail",
+  "at": "2026-11-17T00:52:41.710Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 2857,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-bottom.w-full > div.logo.flex > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "go to homepage",
+    "href": "/en"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 906,
+    "y": 28,
+    "w": 41,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 1225,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "custom-menu-runtime.header.flex > nav.header-bottom.w-full > button.hidden.lg:block",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "eventpagetop-runtime > div.eventpagetop__title.d-flex > h1.h1--light.line-clamp-4",
+    "x": 177,
+    "y": 290,
+    "w": 861,
+    "h": 141,
+    "level": 1,
+    "text": "title max 55 characters tellus dui aliquam."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "eventpagetop-runtime > div.eventpagetop__infobox.infobox > div.h6.infobox__label",
+    "x": 1021,
+    "y": 718,
+    "w": 331,
+    "h": 26,
+    "text": "Info"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-maz2d > span.colors-oc5-d5",
+    "x": 177,
+    "y": 941,
+    "w": 42,
+    "h": 11,
+    "text": "Label"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#JRagt",
+    "x": 177,
+    "y": 978,
+    "w": 749,
+    "h": 86,
+    "level": 2,
+    "text": "title 55 characters max, lorem ipsum dolor sit amet"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-xufux",
+    "x": 177,
+    "y": 1088,
+    "w": 636,
+    "h": 48,
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis erat co"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.yffdjmomjz.yffdjmomjz-md > div > button#YHkhR",
+    "x": 1134,
+    "y": 997,
+    "w": 129,
+    "h": 48,
+    "text": "do something"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-teki4",
+    "x": 382,
+    "y": 1216,
+    "w": 151,
+    "h": 24,
+    "text": "Tab"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 382,
+    "y": 1243,
+    "w": 107,
+    "h": 16,
+    "text": "Day, Month 00"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-teki4",
+    "x": 645,
+    "y": 1216,
+    "w": 151,
+    "h": 24,
+    "text": "Tab"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 645,
+    "y": 1243,
+    "w": 107,
+    "h": 16,
+    "text": "Day, Month 00"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-teki4",
+    "x": 907,
+    "y": 1216,
+    "w": 151,
+    "h": 24,
+    "text": "Tab"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 907,
+    "y": 1243,
+    "w": 107,
+    "h": 16,
+    "text": "Day, Month 00"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 289,
+    "y": 1347,
+    "w": 70,
+    "h": 16,
+    "text": "00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 289,
+    "y": 1370,
+    "w": 70,
+    "h": 16,
+    "text": "00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-qqvt1",
+    "x": 401,
+    "y": 1344,
+    "w": 613,
+    "h": 54,
+    "text": "Title 100 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ccpplczhao.ccpplczhao-md > div.inline-block > div.tag-badge",
+    "x": 1075,
+    "y": 1344,
+    "w": 76,
+    "h": 22,
+    "text": "category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-vgevi > span.colors-oc5-d5",
+    "x": 401,
+    "y": 1402,
+    "w": 653,
+    "h": 72,
+    "text": "Title 200 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 289,
+    "y": 1523,
+    "w": 70,
+    "h": 16,
+    "text": "00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 289,
+    "y": 1546,
+    "w": 70,
+    "h": 16,
+    "text": "00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-qqvt1",
+    "x": 401,
+    "y": 1520,
+    "w": 613,
+    "h": 54,
+    "text": "Title 100 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ccpplczhao.ccpplczhao-md > div.inline-block > div.tag-badge",
+    "x": 1075,
+    "y": 1520,
+    "w": 76,
+    "h": 22,
+    "text": "category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-vgevi > span.colors-oc5-d5",
+    "x": 401,
+    "y": 1578,
+    "w": 653,
+    "h": 72,
+    "text": "Title 200 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 289,
+    "y": 1699,
+    "w": 70,
+    "h": 16,
+    "text": "00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 289,
+    "y": 1722,
+    "w": 70,
+    "h": 16,
+    "text": "00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-qqvt1",
+    "x": 401,
+    "y": 1696,
+    "w": 613,
+    "h": 54,
+    "text": "Title 100 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ccpplczhao.ccpplczhao-md > div.inline-block > div.tag-badge",
+    "x": 1075,
+    "y": 1696,
+    "w": 76,
+    "h": 22,
+    "text": "category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-vgevi > span.colors-oc5-d5",
+    "x": 401,
+    "y": 1754,
+    "w": 653,
+    "h": 72,
+    "text": "Title 200 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 289,
+    "y": 1875,
+    "w": 70,
+    "h": 16,
+    "text": "00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 289,
+    "y": 1898,
+    "w": 70,
+    "h": 16,
+    "text": "00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-qqvt1",
+    "x": 401,
+    "y": 1872,
+    "w": 613,
+    "h": 54,
+    "text": "Title 100 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ccpplczhao.ccpplczhao-md > div.inline-block > div.tag-badge",
+    "x": 1075,
+    "y": 1872,
+    "w": 76,
+    "h": 22,
+    "text": "category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-vgevi > span.colors-oc5-d5",
+    "x": 401,
+    "y": 1930,
+    "w": 653,
+    "h": 72,
+    "text": "Title 200 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 289,
+    "y": 2051,
+    "w": 70,
+    "h": 16,
+    "text": "00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 289,
+    "y": 2074,
+    "w": 70,
+    "h": 16,
+    "text": "00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-qqvt1",
+    "x": 401,
+    "y": 2048,
+    "w": 613,
+    "h": 54,
+    "text": "Title 100 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ccpplczhao.ccpplczhao-md > div.inline-block > div.tag-badge",
+    "x": 1075,
+    "y": 2048,
+    "w": 76,
+    "h": 22,
+    "text": "category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-vgevi > span.colors-oc5-d5",
+    "x": 401,
+    "y": 2106,
+    "w": 653,
+    "h": 72,
+    "text": "Title 200 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 289,
+    "y": 2227,
+    "w": 70,
+    "h": 16,
+    "text": "00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 289,
+    "y": 2250,
+    "w": 70,
+    "h": 16,
+    "text": "00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-qqvt1",
+    "x": 401,
+    "y": 2224,
+    "w": 613,
+    "h": 54,
+    "text": "Title 100 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ccpplczhao.ccpplczhao-md > div.inline-block > div.tag-badge",
+    "x": 1075,
+    "y": 2224,
+    "w": 76,
+    "h": 22,
+    "text": "category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-vgevi > span.colors-oc5-d5",
+    "x": 401,
+    "y": 2282,
+    "w": 653,
+    "h": 72,
+    "text": "Title 200 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.block > nav.footer.p-10 > a",
+    "x": 64,
+    "y": 2424,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 2520,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 2520,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 2567,
+    "w": 103,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 2612,
+    "w": 45,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 2657,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 2702,
+    "w": 67,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 2520,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 2520,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 2567,
+    "w": 142,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 2612,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 2674,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 2718,
+    "w": 149,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 2567,
+    "w": 161,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 2612,
+    "w": 127,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 2657,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 2567,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 2629,
+    "w": 154,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 2674,
+    "w": 147,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 2718,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "void(0)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Careers",
+    "x": 1112,
+    "y": 2520,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Contacts",
+    "x": 1112,
+    "y": 2600,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1112,
+    "y": 2680,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1124,
+    "y": 2692,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1184,
+    "y": 2680,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1196,
+    "y": 2692,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "a6732ee4-95cf-4951-9c4b-3675c7154f7e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1256,
+    "y": 2680,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1268,
+    "y": 2692,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "49664893-bfc1-4d79-9208-3bdd7083126b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1328,
+    "y": 2680,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1340,
+    "y": 2692,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "c48097ef-90ed-4c24-aa40-1764649e72ff"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > span",
+    "x": 64,
+    "y": 2824,
+    "w": 81,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > a.underline",
+    "x": 158,
+    "y": 2824,
+    "w": 136,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.text-white.py-3 > div.flex.justify-between > button#cookie-pref-center",
+    "x": 1276,
+    "y": 859,
+    "w": 164,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 80,
+    "controls": 38,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--a355dc1b--aemcoder.aem.live/en/event-detail",
+  "at": "2026-11-17T00:52:59.383Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 2857,
+  "root": "main",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-main > div.site-header-logo > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "href": "/en"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-reply-logo > img",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "file": "reply-logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 900,
+    "y": 28,
+    "w": 46,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 1224,
+    "y": 28,
+    "w": 52,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-header-bar > nav.site-header-main > button.sm-collapsed",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-hero-grid > div.event-hero-title > h1#title-max-55-characters-tellus-dui-aliquam",
+    "x": 177,
+    "y": 290,
+    "w": 861,
+    "h": 141,
+    "level": 1,
+    "text": "title max 55 characters tellus dui aliquam."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-hero-grid > div.event-hero-infobox > div.event-hero-info-label",
+    "x": 1021,
+    "y": 718,
+    "w": 363,
+    "h": 26,
+    "text": "Info"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-intro > div.event-agenda-label > p",
+    "x": 177,
+    "y": 940,
+    "w": 749,
+    "h": 14,
+    "text": "Label"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-intro > div.event-agenda-title > h2#title-55-characters-max-lorem-ipsum-dolor-sit-amet",
+    "x": 177,
+    "y": 978,
+    "w": 749,
+    "h": 86,
+    "level": 2,
+    "text": "title 55 characters max, lorem ipsum dolor sit amet"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-intro > div.event-agenda-text > p",
+    "x": 177,
+    "y": 1088,
+    "w": 636,
+    "h": 48,
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis erat co"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-intro > div.event-agenda-cta > button.button.secondary",
+    "x": 1135,
+    "y": 997,
+    "w": 128,
+    "h": 48,
+    "text": "do something"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-tabber > div.event-agenda-tabs > button#event-agenda-c7u9l-tab-0",
+    "x": 326,
+    "y": 1192,
+    "w": 263,
+    "h": 96,
+    "text": "tab day, month 00"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-tabber > div.event-agenda-tabs > button#event-agenda-c7u9l-tab-1",
+    "x": 589,
+    "y": 1192,
+    "w": 263,
+    "h": 96,
+    "text": "tab day, month 00"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-tabber > div.event-agenda-tabs > button#event-agenda-c7u9l-tab-2",
+    "x": 851,
+    "y": 1192,
+    "w": 263,
+    "h": 96,
+    "text": "tab day, month 00"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-time > p",
+    "x": 289,
+    "y": 1344,
+    "w": 72,
+    "h": 48,
+    "text": "00:00 PM 00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-session-title > p",
+    "x": 401,
+    "y": 1344,
+    "w": 613,
+    "h": 54,
+    "text": "Title 100 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-category > span.event-agenda-tag",
+    "x": 1070,
+    "y": 1344,
+    "w": 81,
+    "h": 22,
+    "text": "category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-desc > p",
+    "x": 401,
+    "y": 1398,
+    "w": 653,
+    "h": 82,
+    "text": "Title 200 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-time > p",
+    "x": 289,
+    "y": 1520,
+    "w": 72,
+    "h": 48,
+    "text": "00:00 PM 00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-session-title > p",
+    "x": 401,
+    "y": 1520,
+    "w": 613,
+    "h": 54,
+    "text": "Title 100 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-category > span.event-agenda-tag",
+    "x": 1070,
+    "y": 1520,
+    "w": 81,
+    "h": 22,
+    "text": "category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-desc > p",
+    "x": 401,
+    "y": 1574,
+    "w": 653,
+    "h": 82,
+    "text": "Title 200 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-time > p",
+    "x": 289,
+    "y": 1696,
+    "w": 72,
+    "h": 48,
+    "text": "00:00 PM 00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-session-title > p",
+    "x": 401,
+    "y": 1696,
+    "w": 613,
+    "h": 54,
+    "text": "Title 100 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-category > span.event-agenda-tag",
+    "x": 1070,
+    "y": 1696,
+    "w": 81,
+    "h": 22,
+    "text": "category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-desc > p",
+    "x": 401,
+    "y": 1750,
+    "w": 653,
+    "h": 82,
+    "text": "Title 200 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-time > p",
+    "x": 289,
+    "y": 1872,
+    "w": 72,
+    "h": 48,
+    "text": "00:00 PM 00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-session-title > p",
+    "x": 401,
+    "y": 1872,
+    "w": 613,
+    "h": 54,
+    "text": "Title 100 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-category > span.event-agenda-tag",
+    "x": 1070,
+    "y": 1872,
+    "w": 81,
+    "h": 22,
+    "text": "category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-desc > p",
+    "x": 401,
+    "y": 1926,
+    "w": 653,
+    "h": 82,
+    "text": "Title 200 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-time > p",
+    "x": 289,
+    "y": 2048,
+    "w": 72,
+    "h": 48,
+    "text": "00:00 PM 00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-session-title > p",
+    "x": 401,
+    "y": 2048,
+    "w": 613,
+    "h": 54,
+    "text": "Title 100 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-category > span.event-agenda-tag",
+    "x": 1070,
+    "y": 2048,
+    "w": 81,
+    "h": 22,
+    "text": "category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-desc > p",
+    "x": 401,
+    "y": 2102,
+    "w": 653,
+    "h": 82,
+    "text": "Title 200 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-time > p",
+    "x": 289,
+    "y": 2224,
+    "w": 72,
+    "h": 48,
+    "text": "00:00 PM 00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-session-title > p",
+    "x": 401,
+    "y": 2224,
+    "w": 613,
+    "h": 54,
+    "text": "Title 100 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-category > span.event-agenda-tag",
+    "x": 1070,
+    "y": 2224,
+    "w": 81,
+    "h": 22,
+    "text": "category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-desc > p",
+    "x": 401,
+    "y": 2278,
+    "w": 653,
+    "h": 82,
+    "text": "Title 200 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-wrap > nav.footer-nav > a.footer-nav-home",
+    "x": 64,
+    "y": 2424,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 2520,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 2520,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 2567,
+    "w": 102,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 2612,
+    "w": 43,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 2657,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 2702,
+    "w": 66,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 2520,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 2520,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 2567,
+    "w": 145,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 2612,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 2674,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 2718,
+    "w": 150,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 2567,
+    "w": 160,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 2612,
+    "w": 131,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 2657,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 2567,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 2629,
+    "w": 153,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 2674,
+    "w": 143,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 2718,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "/en/event-detail"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 2520,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 2600,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1112,
+    "y": 2680,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1124,
+    "y": 2692,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1184,
+    "y": 2680,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1196,
+    "y": 2692,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1256,
+    "y": 2680,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1268,
+    "y": 2692,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-linkedin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1328,
+    "y": 2680,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1340,
+    "y": 2692,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-xing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > span",
+    "x": 64,
+    "y": 2824,
+    "w": 84,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > a",
+    "x": 160,
+    "y": 2824,
+    "w": 131,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-inner > div.site-legal-row > button#cookie-pref-center",
+    "x": 1278,
+    "y": 859,
+    "w": 162,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 80,
+    "controls": 41,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "title max 55 characters tellus dui aliquam.",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "title 55 characters max, lorem ipsum dolor sit amet",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 37,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 4,
+    "buttonHidden": 0,
+    "text": 25,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "COUNT TEXT"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "×3 \"tab day, month 00\" served in band \"title 55 characters max, lorem ipsum dolor sit amet\", no origin link or button",
+   "band": 2,
+   "n": 3,
+   "text": "tab day, month 00"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT TEXT",
+   "msg": "band \"title 55 characters max, lorem ipsum dolor sit amet\": 37 origin → 25 served visible",
+   "band": 2,
+   "origin": 37,
+   "eds": 25,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 3,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 1,
+  "findings": 2,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 1339,
+    "y": 7,
+    "w": 17,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 51,
+    "w": 62,
+    "h": 16
+   },
+   {
+    "x": 612,
+    "y": 51,
+    "w": 72,
+    "h": 16
+   },
+   {
+    "x": 740,
+    "y": 51,
+    "w": 110,
+    "h": 16
+   },
+   {
+    "x": 906,
+    "y": 51,
+    "w": 41,
+    "h": 16
+   },
+   {
+    "x": 1003,
+    "y": 51,
+    "w": 60,
+    "h": 16
+   },
+   {
+    "x": 1119,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1225,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 289,
+    "w": 778,
+    "h": 71
+   },
+   {
+    "x": 177,
+    "y": 359,
+    "w": 592,
+    "h": 71
+   },
+   {
+    "x": 1021,
+    "y": 720,
+    "w": 41,
+    "h": 22
+   },
+   {
+    "x": 177,
+    "y": 941,
+    "w": 42,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 979,
+    "w": 705,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 1022,
+    "w": 262,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 1091,
+    "w": 598,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 1115,
+    "w": 357,
+    "h": 16
+   },
+   {
+    "x": 1134,
+    "y": 1012,
+    "w": 129,
+    "h": 16
+   },
+   {
+    "x": 382,
+    "y": 1219,
+    "w": 27,
+    "h": 16
+   },
+   {
+    "x": 382,
+    "y": 1243,
+    "w": 107,
+    "h": 16
+   },
+   {
+    "x": 645,
+    "y": 1219,
+    "w": 27,
+    "h": 16
+   },
+   {
+    "x": 645,
+    "y": 1243,
+    "w": 107,
+    "h": 16
+   },
+   {
+    "x": 907,
+    "y": 1219,
+    "w": 27,
+    "h": 16
+   },
+   {
+    "x": 907,
+    "y": 1243,
+    "w": 107,
+    "h": 16
+   },
+   {
+    "x": 289,
+    "y": 1347,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 289,
+    "y": 1370,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 401,
+    "y": 1348,
+    "w": 590,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 1375,
+    "w": 246,
+    "h": 18
+   },
+   {
+    "x": 1083,
+    "y": 1351,
+    "w": 60,
+    "h": 11
+   },
+   {
+    "x": 401,
+    "y": 1402,
+    "w": 653,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 1429,
+    "w": 568,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 1456,
+    "w": 425,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1523,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 289,
+    "y": 1546,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 401,
+    "y": 1524,
+    "w": 590,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 1551,
+    "w": 246,
+    "h": 18
+   },
+   {
+    "x": 1083,
+    "y": 1527,
+    "w": 60,
+    "h": 11
+   },
+   {
+    "x": 401,
+    "y": 1578,
+    "w": 653,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 1605,
+    "w": 568,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 1632,
+    "w": 425,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1699,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 289,
+    "y": 1722,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 401,
+    "y": 1700,
+    "w": 590,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 1727,
+    "w": 246,
+    "h": 18
+   },
+   {
+    "x": 1083,
+    "y": 1703,
+    "w": 60,
+    "h": 11
+   },
+   {
+    "x": 401,
+    "y": 1754,
+    "w": 653,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 1781,
+    "w": 568,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 1808,
+    "w": 425,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1875,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 289,
+    "y": 1898,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 401,
+    "y": 1876,
+    "w": 590,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 1903,
+    "w": 246,
+    "h": 18
+   },
+   {
+    "x": 1083,
+    "y": 1879,
+    "w": 60,
+    "h": 11
+   },
+   {
+    "x": 401,
+    "y": 1930,
+    "w": 653,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 1957,
+    "w": 568,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 1984,
+    "w": 425,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 2051,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 289,
+    "y": 2074,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 401,
+    "y": 2052,
+    "w": 590,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 2079,
+    "w": 246,
+    "h": 18
+   },
+   {
+    "x": 1083,
+    "y": 2055,
+    "w": 60,
+    "h": 11
+   },
+   {
+    "x": 401,
+    "y": 2106,
+    "w": 653,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 2133,
+    "w": 568,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 2160,
+    "w": 425,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 2227,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 289,
+    "y": 2250,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 401,
+    "y": 2228,
+    "w": 590,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 2255,
+    "w": 246,
+    "h": 18
+   },
+   {
+    "x": 1083,
+    "y": 2231,
+    "w": 60,
+    "h": 11
+   },
+   {
+    "x": 401,
+    "y": 2282,
+    "w": 653,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 2309,
+    "w": 568,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 2336,
+    "w": 425,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 2521,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 2568,
+    "w": 103,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 2613,
+    "w": 45,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 2658,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 2703,
+    "w": 67,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 2521,
+    "w": 135,
+    "h": 16
+   },
+   {
+    "x": 402,
+    "y": 2568,
+    "w": 142,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 2613,
+    "w": 89,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 2630,
+    "w": 73,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 2675,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 2675,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 2719,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 2719,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 2568,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 2568,
+    "w": 69,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 2613,
+    "w": 127,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 2658,
+    "w": 121,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 2675,
+    "w": 85,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 2691,
+    "w": 39,
+    "h": 13
+   },
+   {
+    "x": 642,
+    "y": 2691,
+    "w": 51,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 2568,
+    "w": 157,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 2585,
+    "w": 36,
+    "h": 13
+   },
+   {
+    "x": 841,
+    "y": 2585,
+    "w": 64,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 2630,
+    "w": 154,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 2675,
+    "w": 147,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 2719,
+    "w": 130,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 2736,
+    "w": 128,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 2536,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 1112,
+    "y": 2616,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 2825,
+    "w": 81,
+    "h": 13
+   },
+   {
+    "x": 149,
+    "y": 2825,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 158,
+    "y": 2825,
+    "w": 136,
+    "h": 13
+   },
+   {
+    "x": 1296,
+    "y": 872,
+    "w": 124,
+    "h": 13
+   }
+  ],
+  "eds": [
+   {
+    "x": 1336,
+    "y": 7,
+    "w": 20,
+    "h": 13
+   },
+   {
+    "x": 486,
+    "y": 51,
+    "w": 63,
+    "h": 16
+   },
+   {
+    "x": 605,
+    "y": 51,
+    "w": 71,
+    "h": 16
+   },
+   {
+    "x": 733,
+    "y": 51,
+    "w": 111,
+    "h": 16
+   },
+   {
+    "x": 900,
+    "y": 51,
+    "w": 46,
+    "h": 16
+   },
+   {
+    "x": 1002,
+    "y": 51,
+    "w": 59,
+    "h": 16
+   },
+   {
+    "x": 1118,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1224,
+    "y": 51,
+    "w": 52,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 289,
+    "w": 768,
+    "h": 71
+   },
+   {
+    "x": 177,
+    "y": 359,
+    "w": 576,
+    "h": 71
+   },
+   {
+    "x": 1021,
+    "y": 720,
+    "w": 39,
+    "h": 22
+   },
+   {
+    "x": 177,
+    "y": 940,
+    "w": 47,
+    "h": 13
+   },
+   {
+    "x": 177,
+    "y": 979,
+    "w": 690,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 1022,
+    "w": 253,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 1091,
+    "w": 635,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 1115,
+    "w": 300,
+    "h": 16
+   },
+   {
+    "x": 1135,
+    "y": 1011,
+    "w": 128,
+    "h": 18
+   },
+   {
+    "x": 382,
+    "y": 1219,
+    "w": 27,
+    "h": 16
+   },
+   {
+    "x": 382,
+    "y": 1243,
+    "w": 104,
+    "h": 16
+   },
+   {
+    "x": 645,
+    "y": 1219,
+    "w": 27,
+    "h": 16
+   },
+   {
+    "x": 645,
+    "y": 1243,
+    "w": 104,
+    "h": 16
+   },
+   {
+    "x": 907,
+    "y": 1219,
+    "w": 27,
+    "h": 16
+   },
+   {
+    "x": 907,
+    "y": 1243,
+    "w": 104,
+    "h": 16
+   },
+   {
+    "x": 289,
+    "y": 1347,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 289,
+    "y": 1370,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 401,
+    "y": 1348,
+    "w": 605,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 1375,
+    "w": 219,
+    "h": 18
+   },
+   {
+    "x": 1078,
+    "y": 1351,
+    "w": 65,
+    "h": 11
+   },
+   {
+    "x": 401,
+    "y": 1402,
+    "w": 641,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 1429,
+    "w": 651,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 1456,
+    "w": 326,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1523,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 289,
+    "y": 1546,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 401,
+    "y": 1524,
+    "w": 605,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 1551,
+    "w": 219,
+    "h": 18
+   },
+   {
+    "x": 1078,
+    "y": 1527,
+    "w": 65,
+    "h": 11
+   },
+   {
+    "x": 401,
+    "y": 1578,
+    "w": 641,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 1605,
+    "w": 651,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 1632,
+    "w": 326,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1699,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 289,
+    "y": 1722,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 401,
+    "y": 1700,
+    "w": 605,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 1727,
+    "w": 219,
+    "h": 18
+   },
+   {
+    "x": 1078,
+    "y": 1703,
+    "w": 65,
+    "h": 11
+   },
+   {
+    "x": 401,
+    "y": 1754,
+    "w": 641,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 1781,
+    "w": 651,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 1808,
+    "w": 326,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1875,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 289,
+    "y": 1898,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 401,
+    "y": 1876,
+    "w": 605,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 1903,
+    "w": 219,
+    "h": 18
+   },
+   {
+    "x": 1078,
+    "y": 1879,
+    "w": 65,
+    "h": 11
+   },
+   {
+    "x": 401,
+    "y": 1930,
+    "w": 641,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 1957,
+    "w": 651,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 1984,
+    "w": 326,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 2051,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 289,
+    "y": 2074,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 401,
+    "y": 2052,
+    "w": 605,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 2079,
+    "w": 219,
+    "h": 18
+   },
+   {
+    "x": 1078,
+    "y": 2055,
+    "w": 65,
+    "h": 11
+   },
+   {
+    "x": 401,
+    "y": 2106,
+    "w": 641,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 2133,
+    "w": 651,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 2160,
+    "w": 326,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 2227,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 289,
+    "y": 2250,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 401,
+    "y": 2228,
+    "w": 605,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 2255,
+    "w": 219,
+    "h": 18
+   },
+   {
+    "x": 1078,
+    "y": 2231,
+    "w": 65,
+    "h": 11
+   },
+   {
+    "x": 401,
+    "y": 2282,
+    "w": 641,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 2309,
+    "w": 651,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 2336,
+    "w": 326,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 2520,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 2568,
+    "w": 102,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 2613,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 2658,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 2703,
+    "w": 66,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 2520,
+    "w": 135,
+    "h": 18
+   },
+   {
+    "x": 402,
+    "y": 2568,
+    "w": 145,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 2613,
+    "w": 88,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 2630,
+    "w": 71,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 2675,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 2675,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 2719,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 2719,
+    "w": 58,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 2568,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 2568,
+    "w": 68,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 2613,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 2658,
+    "w": 120,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 2675,
+    "w": 83,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 2691,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 643,
+    "y": 2691,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 2568,
+    "w": 156,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 2585,
+    "w": 41,
+    "h": 13
+   },
+   {
+    "x": 845,
+    "y": 2585,
+    "w": 65,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 2630,
+    "w": 153,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 2675,
+    "w": 143,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 2719,
+    "w": 132,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 2736,
+    "w": 126,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 2535,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 1112,
+    "y": 2615,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 2825,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 152,
+    "y": 2825,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 160,
+    "y": 2825,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 1298,
+    "y": 871,
+    "w": 122,
+    "h": 16
+   }
+  ]
+ }
+}

@@ -1,0 +1,61 @@
+{
+  "a": "stardust/replica/gates/all-360/en-impressum/origin.png",
+  "b": "stardust/replica/gates/all-360/en-impressum/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3034,
+    "mode": "overlap"
+  },
+  "heightDelta": -29,
+  "differingPixels": 75905,
+  "pct": 6.95,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/en-impressum/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 16.51,
+  "textBoxes": 89,
+  "textPixels": 265938,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 4.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 7.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 7.5
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 9.7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 3.3
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 7.8
+    },
+    {
+      "y0": 3000,
+      "y1": 3034,
+      "pct": 21.6
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--a355dc1b--aemcoder.aem.live/en/impressum"
+  }
+}

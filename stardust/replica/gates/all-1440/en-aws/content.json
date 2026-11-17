@@ -1,0 +1,9417 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-17T05:07:16.314Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.reply.com/en/aws",
+  "at": "2026-11-17T05:06:53.149Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6227,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 33,
+    "w": 37,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 33,
+    "w": 37,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-bottom.w-full > div.logo.flex > a",
+    "x": 64,
+    "y": 55,
+    "w": 129,
+    "h": 64,
+    "text": "go to homepage",
+    "href": "/en"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 55,
+    "w": 62,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 55,
+    "w": 62,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 55,
+    "w": 72,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 55,
+    "w": 72,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 55,
+    "w": 110,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 55,
+    "w": 110,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 906,
+    "y": 55,
+    "w": 41,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 55,
+    "w": 60,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 55,
+    "w": 60,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 55,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 55,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 1225,
+    "y": 55,
+    "w": 51,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 55,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 55,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "custom-menu-runtime.header.flex > nav.header-bottom.w-full > button.hidden.lg:block",
+    "x": 1376,
+    "y": -9,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.grid-bg__container.absolute > picture > img.grid-bg.w-full",
+    "x": 0,
+    "y": 46,
+    "w": 1440,
+    "h": 810,
+    "text": "",
+    "file": "f2636f40-c065-4266-9e40-273013c0c45e"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.category-label.light > div.category-name",
+    "x": 177,
+    "y": 317,
+    "w": 69,
+    "h": 14,
+    "text": "Offering"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h1#qQhED",
+    "x": 177,
+    "y": 355,
+    "w": 861,
+    "h": 70,
+    "level": 1,
+    "text": "reply and aws"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h1#qQhED > span.colors-1-gbfb",
+    "x": 177,
+    "y": 354,
+    "w": 493,
+    "h": 71,
+    "text": "Reply and AWS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-vzc3d",
+    "x": 289,
+    "y": 465,
+    "w": 523,
+    "h": 54,
+    "text": "AWS Premier Consulting partner to transform and connect your business in Cloud"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.inline-block > div.hubspot-container > button.cursor-pointer.button",
+    "x": 289,
+    "y": 539,
+    "w": 151,
+    "h": 48,
+    "text": "contact us"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.inline-block > div.hubspot-container > button.cursor-pointer.button",
+    "x": 289,
+    "y": 539,
+    "w": 151,
+    "h": 48,
+    "label": "trigger",
+    "value": "contact us",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-1-gbfb",
+    "x": 51,
+    "y": 803,
+    "w": 259,
+    "h": 11,
+    "text": "2013 - 2014 - 2015 - 2016 - 2017 - 2018 -"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-1-gbfb",
+    "x": 43,
+    "y": 817,
+    "w": 43,
+    "h": 11,
+    "text": "2019 -"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-1-gbfb",
+    "x": 86,
+    "y": 817,
+    "w": 231,
+    "h": 25,
+    "text": "2020 - 2021 - 2022 - 2023 - 2024 - 2025 - 2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h4#oCmVY",
+    "x": 40,
+    "y": 868,
+    "w": 280,
+    "h": 94,
+    "level": 4,
+    "text": "aws premier consulting partner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h4#oCmVY > span.colors-1-gbfb",
+    "x": 92,
+    "y": 870,
+    "w": 176,
+    "h": 27,
+    "text": "AWS PREMIER"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h4#oCmVY > span.colors-1-gbfb",
+    "x": 91,
+    "y": 901,
+    "w": 178,
+    "h": 58,
+    "text": "CONSULTING PARTNER"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-1-gbfb",
+    "x": 403,
+    "y": 803,
+    "w": 274,
+    "h": 39,
+    "text": "2013 - 2014 - 2015 - 2016 - 2017 - 2018 - 2019 - 2020 - 2021 - 2022 - 2023 - 202"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h4#jSKdX",
+    "x": 401,
+    "y": 868,
+    "w": 279,
+    "h": 62,
+    "level": 4,
+    "text": "aws managed service provider"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h4#jSKdX > span.colors-1-gbfb",
+    "x": 441,
+    "y": 870,
+    "w": 199,
+    "h": 27,
+    "text": "AWS MANAGED"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h4#jSKdX > span.colors-1-gbfb",
+    "x": 417,
+    "y": 901,
+    "w": 247,
+    "h": 27,
+    "text": "SERVICE PROVIDER"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-1-gbfb",
+    "x": 765,
+    "y": 803,
+    "w": 134,
+    "h": 11,
+    "text": "2018 - 2019 - 2020 -"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-1-gbfb",
+    "x": 899,
+    "y": 803,
+    "w": 43,
+    "h": 11,
+    "text": "2021 -"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-1-gbfb",
+    "x": 858,
+    "y": 803,
+    "w": 177,
+    "h": 25,
+    "text": "2022 - 2023 - 2024 - 2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h4#uxCPA",
+    "x": 755,
+    "y": 854,
+    "w": 290,
+    "h": 94,
+    "level": 4,
+    "text": "aws well architected partner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h4#uxCPA > span.colors-1-gbfb",
+    "x": 805,
+    "y": 856,
+    "w": 190,
+    "h": 89,
+    "text": "AWS WELL ARCHITECTED PARTNER"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-1-gbfb",
+    "x": 1126,
+    "y": 803,
+    "w": 268,
+    "h": 11,
+    "text": "2020 - 2021 - 2022 - 2023 - 2024 - 2025"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-1-gbfb",
+    "x": 1164,
+    "y": 840,
+    "w": 192,
+    "h": 27,
+    "text": "AWS TRAINING"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-1-gbfb",
+    "x": 1201,
+    "y": 871,
+    "w": 117,
+    "h": 27,
+    "text": "PARTNER"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 289,
+    "y": 1112,
+    "w": 861,
+    "h": 202,
+    "text": "Reply recognized by AWS as EMEA Partner of the Year Award for the Energy & Utili"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mbkimsbbkb.mbkimsbbkb-md > div > a#NiBbf",
+    "x": 669,
+    "y": 1346,
+    "w": 101,
+    "h": 48,
+    "text": "read more",
+    "href": "/en/newsroom/news/reply-awarded-a-2025-aws-partner-of-the-year-award"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.flex.flex-col > li.nav-item.nav-link > a.whitespace-nowrap",
+    "x": 40,
+    "y": 1516,
+    "w": 216,
+    "h": 16,
+    "text": "aws competencies achieved",
+    "href": "/en/aws"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.flex.flex-col > li.nav-item.nav-link > a.whitespace-nowrap",
+    "x": 296,
+    "y": 1516,
+    "w": 192,
+    "h": 16,
+    "text": "focus on reply companies",
+    "href": "/en/aws"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.flex.flex-col > li.nav-item.nav-link > a.whitespace-nowrap",
+    "x": 528,
+    "y": 1516,
+    "w": 178,
+    "h": 16,
+    "text": "reply’s expertise on aws",
+    "href": "/en/aws"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.flex.flex-col > li.nav-item.nav-link > a.whitespace-nowrap",
+    "x": 746,
+    "y": 1516,
+    "w": 90,
+    "h": 16,
+    "text": "latest news",
+    "href": "/en/aws"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#XxZww",
+    "x": 177,
+    "y": 1645,
+    "w": 411,
+    "h": 43,
+    "level": 3,
+    "text": "aws competencies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.kqsfvmbenh.kqsfvmbenh-md > div > a#ypOLl",
+    "x": 1192,
+    "y": 1643,
+    "w": 71,
+    "h": 48,
+    "text": "view all",
+    "href": "/en/aws/competencies"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": -53,
+    "y": 1766,
+    "w": 90,
+    "h": 90,
+    "text": "",
+    "file": "bf75e515-8075-4230-8e12-032fbc08f16d"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-nk7e9 > span.colors-b-wm-m5",
+    "x": -53,
+    "y": 1888,
+    "w": 108,
+    "h": 18,
+    "text": "SECURITY"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-pfihz > span.colors-sp-nl1",
+    "x": -53,
+    "y": 1912,
+    "w": 115,
+    "h": 13,
+    "text": "Competency"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card.card-uofhl > div > a#WZRs4",
+    "x": -53,
+    "y": 1963,
+    "w": 138,
+    "h": 41,
+    "text": "discover more",
+    "href": "/spike-reply/en/security-for-your-AWS-environment"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 187,
+    "y": 1766,
+    "w": 90,
+    "h": 90,
+    "text": "",
+    "file": "a46afaac-5540-4a11-a1cd-8fc1711d8397"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-pfihz > span.colors-sp-nl1",
+    "x": 187,
+    "y": 1869,
+    "w": 37,
+    "h": 13,
+    "text": "AWS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-nk7e9 > span.colors-b-wm-m5",
+    "x": 187,
+    "y": 1888,
+    "w": 35,
+    "h": 18,
+    "text": "IOT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-pfihz > span.colors-sp-nl1",
+    "x": 187,
+    "y": 1912,
+    "w": 115,
+    "h": 13,
+    "text": "Competency"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card.card-uofhl > div > a#STSbZ",
+    "x": 187,
+    "y": 1963,
+    "w": 138,
+    "h": 41,
+    "text": "discover more",
+    "href": "/storm-reply/en/storm-innovator"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 427,
+    "y": 1766,
+    "w": 90,
+    "h": 90,
+    "text": "",
+    "file": "9a25113f-1338-4f76-8c43-ef82a90e0dde"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-pfihz > span.colors-sp-nl1",
+    "x": 427,
+    "y": 1869,
+    "w": 37,
+    "h": 13,
+    "text": "AWS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-nk7e9 > span.colors-b-wm-m5",
+    "x": 427,
+    "y": 1888,
+    "w": 119,
+    "h": 45,
+    "text": "FINANCIAL SERVICES"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-pfihz > span.colors-sp-nl1",
+    "x": 427,
+    "y": 1939,
+    "w": 115,
+    "h": 13,
+    "text": "Competency"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card.card-uofhl > div > a#qyvqt",
+    "x": 427,
+    "y": 1963,
+    "w": 138,
+    "h": 41,
+    "text": "discover more",
+    "href": "/en/financial-services/airwalk-reply-financial-services-security-and-compliance-framework"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 667,
+    "y": 1766,
+    "w": 90,
+    "h": 90,
+    "text": "",
+    "file": "2a5ab8fe-dfad-4bd9-b402-a5c65c60af39"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-pfihz > span.colors-sp-nl1",
+    "x": 667,
+    "y": 1869,
+    "w": 37,
+    "h": 13,
+    "text": "AWS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-nk7e9 > span.colors-b-wm-m5",
+    "x": 667,
+    "y": 1888,
+    "w": 90,
+    "h": 18,
+    "text": "DEVOPS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-pfihz > span.colors-sp-nl1",
+    "x": 667,
+    "y": 1912,
+    "w": 115,
+    "h": 13,
+    "text": "Competency"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 907,
+    "y": 1766,
+    "w": 90,
+    "h": 90,
+    "text": "",
+    "file": "099b21d6-0d37-43e7-ab49-05c8afd1390a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-pfihz > span.colors-sp-nl1",
+    "x": 907,
+    "y": 1869,
+    "w": 37,
+    "h": 13,
+    "text": "AWS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-nk7e9 > span.colors-b-wm-m5",
+    "x": 907,
+    "y": 1888,
+    "w": 73,
+    "h": 18,
+    "text": "RETAIL"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-pfihz > span.colors-sp-nl1",
+    "x": 907,
+    "y": 1912,
+    "w": 115,
+    "h": 13,
+    "text": "Competency"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 1147,
+    "y": 1766,
+    "w": 90,
+    "h": 90,
+    "text": "",
+    "file": "799a5f1d-8a12-43ce-9474-3ccae2e2c3ab"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-pfihz > span.colors-sp-nl1",
+    "x": 1147,
+    "y": 1869,
+    "w": 37,
+    "h": 13,
+    "text": "AWS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-nk7e9 > span.colors-b-wm-m5",
+    "x": 1147,
+    "y": 1888,
+    "w": 121,
+    "h": 18,
+    "text": "MIGRATION"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-pfihz > span.colors-sp-nl1",
+    "x": 1147,
+    "y": 1912,
+    "w": 115,
+    "h": 13,
+    "text": "Competency"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 1387,
+    "y": 1766,
+    "w": 90,
+    "h": 90,
+    "text": "",
+    "file": "c36d8bba-a1b8-4245-9091-a5d19c0ad96a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-pfihz > span.colors-sp-nl1",
+    "x": 1387,
+    "y": 1869,
+    "w": 37,
+    "h": 13,
+    "text": "AWS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-nk7e9 > span.colors-b-wm-m5",
+    "x": 1387,
+    "y": 1888,
+    "w": 88,
+    "h": 18,
+    "text": "ENERGY"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-pfihz > span.colors-sp-nl1",
+    "x": 1387,
+    "y": 1912,
+    "w": 115,
+    "h": 13,
+    "text": "Competency"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#Nanwi",
+    "x": 177,
+    "y": 2149,
+    "w": 1087,
+    "h": 43,
+    "level": 2,
+    "text": "focus on reply companies"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#WX32A > a",
+    "x": -387,
+    "y": 2310,
+    "w": 411,
+    "h": 231,
+    "text": "concept reply",
+    "href": "/concept-reply/en/"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": -387,
+    "y": 2310,
+    "w": 411,
+    "h": 231,
+    "text": "",
+    "file": "26310a7b-c6d0-494e-b7c2-1e66dee5d331"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#WX32A > div.reply-card-body > a",
+    "x": -387,
+    "y": 2561,
+    "w": 411,
+    "h": 175,
+    "text": "iot and cloud computing specialist concept reply concept reply specialises in in",
+    "href": "/concept-reply/en/"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h5--medium.line-clamp-2",
+    "x": -387,
+    "y": 2587,
+    "w": 411,
+    "h": 62,
+    "level": 3,
+    "text": "concept reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 64,
+    "y": 2310,
+    "w": 411,
+    "h": 231,
+    "text": "",
+    "file": "bacb48e8-d115-42fa-879c-c51d7eb0994b"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#Dyoul > div.reply-card-body > div.label--xsmall-upcase.colors-oc5-d5",
+    "x": 64,
+    "y": 2561,
+    "w": 160,
+    "h": 14,
+    "text": "BIG DATA INTELLIGENCE"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#Dyoul > div.reply-card-body > h3.h5--medium.line-clamp-2",
+    "x": 64,
+    "y": 2587,
+    "w": 139,
+    "h": 62,
+    "level": 3,
+    "text": "data reply"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > article.reply-card-abstract.text > p",
+    "x": 64,
+    "y": 2661,
+    "w": 411,
+    "h": 48,
+    "text": "Data Reply specialises in Big Data, Data Science and Artificial Intelligence."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.label--xsmall-upcase.reply-card-sitelinks > p > a",
+    "x": 64,
+    "y": 2733,
+    "w": 71,
+    "h": 11,
+    "text": "data.com",
+    "href": "/data-reply/en/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#pwBcs > a",
+    "x": 515,
+    "y": 2310,
+    "w": 411,
+    "h": 231,
+    "text": "discovery reply",
+    "href": "/discovery-reply/en/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 515,
+    "y": 2310,
+    "w": 411,
+    "h": 231,
+    "text": "",
+    "file": "16478d94-7693-4753-b875-ab364f107477"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#pwBcs > div.reply-card-body > a",
+    "x": 515,
+    "y": 2561,
+    "w": 411,
+    "h": 175,
+    "text": "digital experience management discovery reply discovery reply specializes in the",
+    "href": "/discovery-reply/en/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h5--medium.line-clamp-2",
+    "x": 515,
+    "y": 2587,
+    "w": 411,
+    "h": 62,
+    "level": 3,
+    "text": "discovery reply"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.label--xsmall-upcase.reply-card-sitelinks > p > a",
+    "x": 515,
+    "y": 2757,
+    "w": 115,
+    "h": 11,
+    "text": "discovery.com",
+    "href": "/discovery-reply/en/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 965,
+    "y": 2310,
+    "w": 411,
+    "h": 231,
+    "text": "",
+    "file": "a7b07c7a-98d7-4141-8755-eea6f00a8d83"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#Sx53U > div.reply-card-body > div.label--xsmall-upcase.colors-oc5-d5",
+    "x": 965,
+    "y": 2561,
+    "w": 265,
+    "h": 14,
+    "text": "IOT SOLUTIONS FOR ENERGY&UTILITIES"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#Sx53U > div.reply-card-body > h3.h5--medium.line-clamp-2",
+    "x": 965,
+    "y": 2587,
+    "w": 151,
+    "h": 62,
+    "level": 3,
+    "text": "sense reply"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > article.reply-card-abstract.text > p",
+    "x": 965,
+    "y": 2661,
+    "w": 411,
+    "h": 48,
+    "text": "Sense Reply specialises in IoT end-to-end solutions for Energy&Utilities, Teleco"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.label--xsmall-upcase.reply-card-sitelinks > p > a",
+    "x": 965,
+    "y": 2733,
+    "w": 61,
+    "h": 11,
+    "text": "sense.it",
+    "href": "/sense-reply/en/"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 1416,
+    "y": 2310,
+    "w": 411,
+    "h": 231,
+    "text": "",
+    "file": "fa6ff962-3600-4275-84c2-cb40952f470c"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#qONj0 > div.reply-card-body > div.label--xsmall-upcase.colors-oc5-d5",
+    "x": 1416,
+    "y": 2561,
+    "w": 243,
+    "h": 14,
+    "text": "MAKING THE CLOUD WORK FOR YOU"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#qONj0 > div.reply-card-body > h3.h5--medium.line-clamp-2",
+    "x": 1416,
+    "y": 2587,
+    "w": 154,
+    "h": 62,
+    "level": 3,
+    "text": "storm reply"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > article.reply-card-abstract.text > p",
+    "x": 1416,
+    "y": 2661,
+    "w": 411,
+    "h": 71,
+    "text": "Storm Reply specialises in the design and implementation of Amazon cloud-based s"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.label--xsmall-upcase.reply-card-sitelinks > p > a",
+    "x": 1416,
+    "y": 2757,
+    "w": 85,
+    "h": 11,
+    "text": "storm.com",
+    "href": "/storm-reply/en/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title__container--nav > div.slider-with-title__nav > button.slider-with-title__prev.round-bt",
+    "x": 1159,
+    "y": 2222,
+    "w": 48,
+    "h": 48,
+    "text": "prev item"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title__container--nav > div.slider-with-title__nav > button.slider-with-title__next.round-bt",
+    "x": 1215,
+    "y": 2222,
+    "w": 48,
+    "h": 48,
+    "text": "next item"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#Vzkx1",
+    "x": 289,
+    "y": 2992,
+    "w": 861,
+    "h": 43,
+    "level": 2,
+    "text": "reply’s expertise on aws"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 289,
+    "y": 3075,
+    "w": 861,
+    "h": 216,
+    "text": "Reply provides solutions on starting from . are the companies highly specialized"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.text.text-xl-align-center > strong > a",
+    "x": 296,
+    "y": 3079,
+    "w": 821,
+    "h": 45,
+    "text": "managed services",
+    "href": "/en/cloud-computing/next-gen-msp"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#25086 > a",
+    "x": 64,
+    "y": 3381,
+    "w": 298,
+    "h": 447,
+    "text": "adr optimizes the intelligent management of airport assets with ai and iot",
+    "href": "/en/iot/adr-ottimizza-la-gestione-intelligente-degli-asset-aeroportuali-con-ai-e-iot"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 64,
+    "y": 3381,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "e8ea9842-9866-4746-bf5c-2f483df4d863"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > div.reply-card-logo.absolute > img",
+    "x": 88,
+    "y": 3405,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "92b418f7-872f-43d5-9f59-6bed280f42f9"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#25086 > div.reply-card-body > a",
+    "x": 80,
+    "y": 3848,
+    "w": 266,
+    "h": 78,
+    "text": "adr optimizes the intelligent management of airport assets with ai and iot",
+    "href": "/en/iot/adr-ottimizza-la-gestione-intelligente-degli-asset-aeroportuali-con-ai-e-iot"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 80,
+    "y": 3848,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "adr optimizes the intelligent management of airport assets with ai and iot"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 96,
+    "y": 3942,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#24759 > a",
+    "x": 402,
+    "y": 3381,
+    "w": 298,
+    "h": 298,
+    "text": "from a fan to a smart energy system",
+    "href": "/en/iot/from-a-fan-to-a-smart-energy-system"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 402,
+    "y": 3381,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "4282fb31-e395-486d-adea-2facc9bbd913"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#24759 > div.reply-card-body > a",
+    "x": 418,
+    "y": 3699,
+    "w": 266,
+    "h": 52,
+    "text": "from a fan to a smart energy system",
+    "href": "/en/iot/from-a-fan-to-a-smart-energy-system"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 418,
+    "y": 3699,
+    "w": 266,
+    "h": 52,
+    "level": 3,
+    "text": "from a fan to a smart energy system"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 434,
+    "y": 3767,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#24469 > a",
+    "x": 740,
+    "y": 3381,
+    "w": 298,
+    "h": 447,
+    "text": "yougov sport modernises sponsorship analytics on aws",
+    "href": "/en/data-world/yougov-sport-modernises-sponsorship-analytics-on-aws"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 740,
+    "y": 3381,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "42f85692-b778-40aa-b0c9-0a1545c99d97"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > div.reply-card-logo.absolute > img",
+    "x": 764,
+    "y": 3405,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "0b56d3a2-da1d-421c-a3f9-cb1bb870b7da"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#24469 > div.reply-card-body > a",
+    "x": 756,
+    "y": 3848,
+    "w": 266,
+    "h": 78,
+    "text": "yougov sport modernises sponsorship analytics on aws",
+    "href": "/en/data-world/yougov-sport-modernises-sponsorship-analytics-on-aws"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 756,
+    "y": 3848,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "yougov sport modernises sponsorship analytics on aws"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 772,
+    "y": 3942,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#21578 > a",
+    "x": 1078,
+    "y": 3381,
+    "w": 298,
+    "h": 298,
+    "text": "ai-powered comment management for social media",
+    "href": "/storm-reply/en/ai-powered-comment-management-for-social-media"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 1078,
+    "y": 3381,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "87c71173-78d8-4e78-9025-4fb83ec5f206"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > div.reply-card-logo.absolute > img",
+    "x": 1102,
+    "y": 3405,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "fdcd3709-9f60-4048-b71a-647a4b9c4bda"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#21578 > div.reply-card-body > a",
+    "x": 1094,
+    "y": 3699,
+    "w": 266,
+    "h": 78,
+    "text": "ai-powered comment management for social media",
+    "href": "/storm-reply/en/ai-powered-comment-management-for-social-media"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 1094,
+    "y": 3699,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "ai-powered comment management for social media"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 1110,
+    "y": 3793,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#20815 > a",
+    "x": 402,
+    "y": 3846,
+    "w": 298,
+    "h": 447,
+    "text": "generali country italia enhances the customer experience with an aws-based conta",
+    "href": "/en/cx-and-digital-commerce/generali-country-italia-enhances-the-customer-experience-with-an-aws-based-contact-centre"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 402,
+    "y": 3846,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "bb3e5f57-16c5-4945-853a-9e6c1c3d7a22"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > div.reply-card-logo.absolute > img",
+    "x": 426,
+    "y": 3870,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "150095cf-8a6e-47fa-8464-a61c5b77b33f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#20815 > div.reply-card-body > a",
+    "x": 418,
+    "y": 4313,
+    "w": 266,
+    "h": 78,
+    "text": "generali country italia enhances the customer experience with an aws-based conta",
+    "href": "/en/cx-and-digital-commerce/generali-country-italia-enhances-the-customer-experience-with-an-aws-based-contact-centre"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 418,
+    "y": 4313,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "generali country italia enhances the customer experience with an aws-based contact center"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 434,
+    "y": 4407,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#20293 > a",
+    "x": 1078,
+    "y": 3876,
+    "w": 298,
+    "h": 447,
+    "text": "rome airports redefines the airport experience with agentic ai",
+    "href": "/en/artificial-intelligence/adr-redesigns-the-airport-experience-with-agentic-ai"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 1078,
+    "y": 3876,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "ef2f5d7c-7b1a-4098-83b3-b2e24b852309"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > div.reply-card-logo.absolute > img",
+    "x": 1102,
+    "y": 3900,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "bc57f59b-50bb-40da-9eb3-c21928df0f65"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#20293 > div.reply-card-body > a",
+    "x": 1094,
+    "y": 4343,
+    "w": 266,
+    "h": 78,
+    "text": "rome airports redefines the airport experience with agentic ai",
+    "href": "/en/artificial-intelligence/adr-redesigns-the-airport-experience-with-agentic-ai"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 1094,
+    "y": 4343,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "rome airports redefines the airport experience with agentic ai"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 1110,
+    "y": 4437,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#19754 > a",
+    "x": 64,
+    "y": 4021,
+    "w": 298,
+    "h": 298,
+    "text": "mainstreet partners: cloud ready for the future",
+    "href": "/storm-reply/en/mainstreet-partners-cloud-ready-for-the-future"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 64,
+    "y": 4021,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "f01498ae-2ebd-4cea-89ab-faa8bac2436a"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > div.reply-card-logo.absolute > img",
+    "x": 88,
+    "y": 4045,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "9257d11a-4153-48e2-8f92-99034d52ba00"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#19754 > div.reply-card-body > a",
+    "x": 80,
+    "y": 4339,
+    "w": 266,
+    "h": 78,
+    "text": "mainstreet partners: cloud ready for the future",
+    "href": "/storm-reply/en/mainstreet-partners-cloud-ready-for-the-future"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 80,
+    "y": 4339,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "mainstreet partners: cloud ready for the future"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 96,
+    "y": 4433,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#20533 > a",
+    "x": 740,
+    "y": 4021,
+    "w": 298,
+    "h": 447,
+    "text": "foodlabs.edu for altrimodi",
+    "href": "/storm-reply/en/foodlabs-edu-altrimodi"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 740,
+    "y": 4021,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "78e27e40-f110-40ed-b862-8e736978aabc"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#20533 > div.reply-card-body > a",
+    "x": 756,
+    "y": 4488,
+    "w": 266,
+    "h": 52,
+    "text": "foodlabs.edu for altrimodi",
+    "href": "/storm-reply/en/foodlabs-edu-altrimodi"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 756,
+    "y": 4488,
+    "w": 266,
+    "h": 52,
+    "level": 3,
+    "text": "foodlabs.edu for altrimodi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 772,
+    "y": 4556,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-binding > div.pager-container > button.more.pager",
+    "x": 631,
+    "y": 4631,
+    "w": 178,
+    "h": 48,
+    "text": "load more content"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#F5qJQ",
+    "x": 177,
+    "y": 4779,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "latest news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#23979 > a",
+    "x": 65,
+    "y": 4893,
+    "w": 296,
+    "h": 454,
+    "text": "13 – 14 april 2027 genai launchpad with reply and aws event the genai launchpad ",
+    "href": "/en/newsroom/events/genai-launchpad-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body.p-8 > h3.h6--medium.line-clamp-3",
+    "x": 97,
+    "y": 5044,
+    "w": 232,
+    "h": 52,
+    "level": 3,
+    "text": "genai launchpad with reply and aws"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#25955 > a",
+    "x": 403,
+    "y": 4893,
+    "w": 296,
+    "h": 452,
+    "text": "30 november 2026 04 december 2026 aws re:invent 2026 event meet reply at aws re:",
+    "href": "/en/newsroom/events/aws-reinvent-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body.p-8 > h3.h6--medium.line-clamp-3",
+    "x": 435,
+    "y": 5044,
+    "w": 232,
+    "h": 26,
+    "level": 3,
+    "text": "aws re:invent 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#25004 > a",
+    "x": 741,
+    "y": 4893,
+    "w": 296,
+    "h": 607,
+    "text": "05 november 2026 unlocking the power of synthetic audiences - round 2 event join",
+    "href": "/en/newsroom/events/unlocking-the-power-of-synthetic-audiences-round-2"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body.p-8 > h3.h6--medium.line-clamp-3",
+    "x": 773,
+    "y": 5044,
+    "w": 232,
+    "h": 78,
+    "level": 3,
+    "text": "unlocking the power of synthetic audiences - round 2"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#24560 > a",
+    "x": 1079,
+    "y": 4893,
+    "w": 296,
+    "h": 510,
+    "text": "02 september 2026 aws summit zurich 2026 event reply showcases at aws summit zur",
+    "href": "/en/newsroom/events/aws-summit-zurich-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body.p-8 > h3.h6--medium.line-clamp-3",
+    "x": 1111,
+    "y": 5044,
+    "w": 232,
+    "h": 52,
+    "level": 3,
+    "text": "aws summit zurich 2026"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-binding > div.pager-container > button.more.pager",
+    "x": 631,
+    "y": 5562,
+    "w": 178,
+    "h": 48,
+    "text": "load more content"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.block > nav.footer.p-10 > a",
+    "x": 64,
+    "y": 5793,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 5889,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 5889,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 5937,
+    "w": 103,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 5982,
+    "w": 45,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 6027,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 6071,
+    "w": 67,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 5889,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 5889,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 5937,
+    "w": 142,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 5982,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 6043,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 6088,
+    "w": 149,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 5937,
+    "w": 161,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 5982,
+    "w": 127,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 6027,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 5937,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 5999,
+    "w": 154,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 6043,
+    "w": 147,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 6088,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "void(0)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Careers",
+    "x": 1112,
+    "y": 5889,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Contacts",
+    "x": 1112,
+    "y": 5969,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1112,
+    "y": 6049,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1124,
+    "y": 6062,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1184,
+    "y": 6049,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1196,
+    "y": 6062,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "a6732ee4-95cf-4951-9c4b-3675c7154f7e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1256,
+    "y": 6049,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1268,
+    "y": 6062,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "49664893-bfc1-4d79-9208-3bdd7083126b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1328,
+    "y": 6049,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1340,
+    "y": 6062,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "c48097ef-90ed-4c24-aa40-1764649e72ff"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > span",
+    "x": 64,
+    "y": 6194,
+    "w": 81,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > a.underline",
+    "x": 158,
+    "y": 6194,
+    "w": 136,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.text-white.py-3 > div.flex.justify-between > button#cookie-pref-center",
+    "x": 1276,
+    "y": 886,
+    "w": 164,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 3,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 14,
+    "offPage": 137,
+    "textNodes": 288,
+    "controls": 99,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 3,
+     "clipper": "div.slider-with-title__outer-container--items.overflow-hidden",
+     "path": "div.kjqwwrkqcc > div.block > reply-card-runtime#WX32A > a",
+     "text": "",
+     "cutMin": 61,
+     "cutMax": 387
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "continuous-slider-runtime.overflow-hidden.flex",
+     "path": "div.block > div.ProseMirror.content-body > p.text-nk7e9 > span.colors-b-wm-m5",
+     "text": "security",
+     "cutMin": 43,
+     "cutMax": 45
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "continuous-slider-runtime.overflow-hidden.flex",
+     "path": "div.block > div.ProseMirror.content-body > p.text-pfihz > span.colors-sp-nl1",
+     "text": "competency",
+     "cutMin": 45,
+     "cutMax": 70
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "article.reply-card-abstract.text",
+     "path": "div.reply-card-body > a > article.reply-card-abstract.text > p",
+     "text": "concept reply specialises in innovative iot solutions and of",
+     "cutMin": 365,
+     "cutMax": 387
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 2,
+     "clipper": "h3.h6--medium.line-clamp-3",
+     "path": "reply-card-runtime#25086 > div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+     "text": "adr optimizes the intelligent management of airport assets w",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "continuous-slider-runtime.overflow-hidden.flex",
+     "path": "div > div.card.card-uofhl > div > a#WZRs4",
+     "text": "discover more",
+     "cutMin": 45,
+     "cutMax": 45
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "continuous-slider-runtime.overflow-hidden.flex",
+     "path": "div.card.card-uofhl > div > a#WZRs4 > span",
+     "text": "discover more",
+     "cutMin": 33,
+     "cutMax": 33
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "article.reply-card-abstract.text",
+     "path": "a > article.reply-card-abstract.text > p > span",
+     "text": "discovery reply specializes in the development of end-to-end",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slider-with-title__outer-container--items.overflow-hidden",
+     "path": "div.block > reply-card-runtime#qONj0 > div.reply-card-body > div.label--xsmall-upcase.colors-oc5-d5",
+     "text": "making the cloud work for you",
+     "cutMin": 219,
+     "cutMax": 219
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3.h5--medium.line-clamp-2",
+     "path": "div.block > reply-card-runtime#qONj0 > div.reply-card-body > h3.h5--medium.line-clamp-2",
+     "text": "storm reply",
+     "cutMin": 130,
+     "cutMax": 130
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slider-with-title__outer-container--items.overflow-hidden",
+     "path": "div.reply-card-body > div.label--xsmall-upcase.reply-card-sitelinks > p > a",
+     "text": "storm.com",
+     "cutMin": 61,
+     "cutMax": 61
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--a355dc1b--aemcoder.aem.page/en/aws",
+  "at": "2026-11-17T05:07:16.202Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6227,
+  "root": "main",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-main > div.site-header-logo > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "href": "/en"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-reply-logo > img",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "file": "reply-logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 900,
+    "y": 28,
+    "w": 46,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 1224,
+    "y": 28,
+    "w": 52,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-header-bar > nav.site-header-main > button.sm-collapsed",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-hero-pic.desktop > picture > img",
+    "x": 0,
+    "y": 49,
+    "w": 1440,
+    "h": 810,
+    "text": "",
+    "file": "media_1674517cc5df5168b36b01eeefd56cedb7"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.r-grid > div.media-hero-title.r-cell > div.media-hero-label",
+    "x": 177,
+    "y": 317,
+    "w": 861,
+    "h": 14,
+    "text": "Offering"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.r-grid > div.media-hero-title.r-cell > h1#reply-and-aws",
+    "x": 177,
+    "y": 355,
+    "w": 861,
+    "h": 70,
+    "level": 1,
+    "text": "reply and aws"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-hero-title.r-cell > h1#reply-and-aws > span",
+    "x": 177,
+    "y": 354,
+    "w": 494,
+    "h": 71,
+    "text": "Reply and AWS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.r-grid > div.media-hero-intro.r-cell > p",
+    "x": 289,
+    "y": 465,
+    "w": 523,
+    "h": 54,
+    "text": "AWS Premier Consulting partner to transform and connect your business in Cloud"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-hero-intro.r-cell > p.media-hero-cta-wrap > button.media-hero-cta",
+    "x": 289,
+    "y": 540,
+    "w": 149,
+    "h": 48,
+    "text": "contact us"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.aws-awards-tile > div.aws-awards-body > p",
+    "x": 40,
+    "y": 802,
+    "w": 280,
+    "h": 42,
+    "text": "2013 - 2014 - 2015 - 2016 - 2017 - 2018 - 2019 - 2020 - 2021 - 2022 - 2023 - 202"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.aws-awards-tile > div.aws-awards-body > h4#aws-premierconsulting-partner",
+    "x": 40,
+    "y": 868,
+    "w": 280,
+    "h": 94,
+    "level": 4,
+    "text": "aws premier consulting partner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.aws-awards-tile > div.aws-awards-body > p",
+    "x": 400,
+    "y": 802,
+    "w": 280,
+    "h": 42,
+    "text": "2013 - 2014 - 2015 - 2016 - 2017 - 2018 - 2019 - 2020 - 2021 - 2022 - 2023 - 202"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.aws-awards-tile > div.aws-awards-body > h4#aws-managedservice-provider",
+    "x": 400,
+    "y": 868,
+    "w": 280,
+    "h": 62,
+    "level": 4,
+    "text": "aws managed service provider"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.aws-awards-tile > div.aws-awards-body > p",
+    "x": 760,
+    "y": 802,
+    "w": 280,
+    "h": 28,
+    "text": "2018 - 2019 - 2020 - 2021 - 2022 - 2023 - 2024 - 2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.aws-awards-tile > div.aws-awards-body > h4#aws-well-architected-partner",
+    "x": 760,
+    "y": 854,
+    "w": 280,
+    "h": 94,
+    "level": 4,
+    "text": "aws well architected partner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.aws-awards-tile > div.aws-awards-body > p",
+    "x": 1120,
+    "y": 802,
+    "w": 280,
+    "h": 28,
+    "text": "2020 - 2021 - 2022 - 2023 - 2024 - 2025"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.aws-awards-tile > div.aws-awards-body > p",
+    "x": 1120,
+    "y": 838,
+    "w": 280,
+    "h": 62,
+    "text": "AWS TRAINING PARTNER"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.statement-cell.r-cell > div.statement-text > p",
+    "x": 289,
+    "y": 1112,
+    "w": 861,
+    "h": 202,
+    "text": "Reply recognized by AWS as EMEA Partner of the Year Award for the Energy & Utili"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.statement-text > p.button-wrapper > a.button.secondary",
+    "x": 667,
+    "y": 1322,
+    "w": 107,
+    "h": 48,
+    "text": "read more",
+    "href": "/en/newsroom/news/reply-awarded-a-2025-aws-partner-of-the-year-award"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1492,
+    "w": 213,
+    "h": 16,
+    "text": "aws competencies achieved",
+    "href": "/en/aws"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.active > a",
+    "x": 293,
+    "y": 1492,
+    "w": 199,
+    "h": 16,
+    "text": "focus on reply companies",
+    "href": "/en/aws"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 533,
+    "y": 1492,
+    "w": 185,
+    "h": 16,
+    "text": "reply’s expertise on aws",
+    "href": "/en/aws"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 758,
+    "y": 1492,
+    "w": 89,
+    "h": 16,
+    "text": "latest news",
+    "href": "/en/aws"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h3#aws-competencies",
+    "x": 177,
+    "y": 1621,
+    "w": 411,
+    "h": 43,
+    "level": 3,
+    "text": "aws competencies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.button-wrapper.hub-grid-node > a.button.secondary",
+    "x": 1192,
+    "y": 1619,
+    "w": 69,
+    "h": 48,
+    "text": "view all",
+    "href": "/en/aws/competencies"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.marquee-item > div.marquee-labels > p",
+    "x": -104,
+    "y": 1843,
+    "w": 158,
+    "h": 17,
+    "text": "AWS"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.marquee-labels > p > em",
+    "x": -104,
+    "y": 1860,
+    "w": 158,
+    "h": 22,
+    "text": "MIGRATION"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.marquee-item > div.marquee-labels > p",
+    "x": -104,
+    "y": 1882,
+    "w": 158,
+    "h": 17,
+    "text": "Competency"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.marquee-media > picture > img",
+    "x": 136,
+    "y": 1741,
+    "w": 90,
+    "h": 90,
+    "text": "",
+    "file": "media_19eead9c2e74d1a920a82904524dfdcdae"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.marquee-item > div.marquee-labels > p",
+    "x": 136,
+    "y": 1843,
+    "w": 158,
+    "h": 17,
+    "text": "AWS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.marquee-labels > p > em",
+    "x": 136,
+    "y": 1860,
+    "w": 158,
+    "h": 22,
+    "text": "ENERGY"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.marquee-item > div.marquee-labels > p",
+    "x": 136,
+    "y": 1882,
+    "w": 158,
+    "h": 17,
+    "text": "Competency"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.marquee-media > picture > img",
+    "x": 376,
+    "y": 1741,
+    "w": 90,
+    "h": 90,
+    "text": "",
+    "file": "media_1626af91ecfed047ae0313b6aef01036b6"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.marquee-item > div.marquee-labels > p",
+    "x": 376,
+    "y": 1843,
+    "w": 158,
+    "h": 17,
+    "text": "AWS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.marquee-labels > p > em",
+    "x": 376,
+    "y": 1860,
+    "w": 158,
+    "h": 45,
+    "text": "INDUSTRIAL SOFTWARE"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.marquee-item > div.marquee-labels > p",
+    "x": 376,
+    "y": 1905,
+    "w": 158,
+    "h": 17,
+    "text": "Competency"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.marquee-media > picture > img",
+    "x": 616,
+    "y": 1741,
+    "w": 90,
+    "h": 90,
+    "text": "",
+    "file": "media_111de3fda8e4baf744582b98fdb075e1b5"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.marquee-item > div.marquee-labels > p",
+    "x": 616,
+    "y": 1843,
+    "w": 158,
+    "h": 17,
+    "text": "AWS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.marquee-labels > p > em",
+    "x": 616,
+    "y": 1860,
+    "w": 158,
+    "h": 45,
+    "text": "GENERATIVE AI"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.marquee-item > div.marquee-labels > p",
+    "x": 616,
+    "y": 1905,
+    "w": 158,
+    "h": 17,
+    "text": "Competency"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.marquee-cta > p.button-wrapper > a.button.primary",
+    "x": 616,
+    "y": 1930,
+    "w": 138,
+    "h": 41,
+    "text": "discover more",
+    "href": "/en/aws/generative-ai"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.marquee-media > picture > img",
+    "x": 856,
+    "y": 1741,
+    "w": 90,
+    "h": 90,
+    "text": "",
+    "file": "media_1501f553d04acab29ad9a5c9c3cf9580a6"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.marquee-labels > p > em",
+    "x": 856,
+    "y": 1843,
+    "w": 158,
+    "h": 22,
+    "text": "NEW"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.marquee-item > div.marquee-labels > p",
+    "x": 856,
+    "y": 1866,
+    "w": 158,
+    "h": 17,
+    "text": "AWS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.marquee-labels > p > em",
+    "x": 856,
+    "y": 1882,
+    "w": 158,
+    "h": 90,
+    "text": "ADVERTISING & MARKETING TECHNOLOGY"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.marquee-item > div.marquee-labels > p",
+    "x": 856,
+    "y": 1972,
+    "w": 158,
+    "h": 17,
+    "text": "COMPETENCY"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.marquee-media > picture > img",
+    "x": 1096,
+    "y": 1741,
+    "w": 90,
+    "h": 90,
+    "text": "",
+    "file": "media_1123d99e23c44faefcb31cd34629b750bd"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.marquee-item > div.marquee-labels > p",
+    "x": 1096,
+    "y": 1843,
+    "w": 158,
+    "h": 17,
+    "text": "AWS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.marquee-labels > p > em",
+    "x": 1096,
+    "y": 1860,
+    "w": 158,
+    "h": 22,
+    "text": "AUTOMOTIVE"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.marquee-item > div.marquee-labels > p",
+    "x": 1096,
+    "y": 1882,
+    "w": 158,
+    "h": 17,
+    "text": "Competency"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.marquee-cta > p.button-wrapper > a.button.primary",
+    "x": 1096,
+    "y": 1907,
+    "w": 138,
+    "h": 41,
+    "text": "discover more",
+    "href": "/en/aws/automotive"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.marquee-media > picture > img",
+    "x": 1336,
+    "y": 1741,
+    "w": 90,
+    "h": 90,
+    "text": "",
+    "file": "media_111a4f98095cf011299faf8da16cc510c0"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.marquee-item > div.marquee-labels > p",
+    "x": 1336,
+    "y": 1843,
+    "w": 158,
+    "h": 17,
+    "text": "AWS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.marquee-labels > p > em",
+    "x": 1336,
+    "y": 1860,
+    "w": 158,
+    "h": 45,
+    "text": "CLOUD OPERATIONS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.marquee-item > div.marquee-labels > p",
+    "x": 1336,
+    "y": 1905,
+    "w": 158,
+    "h": 17,
+    "text": "Competency"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-heading-cell.r-cell > div.section-heading-title > h2#focus-on-reply-companies",
+    "x": 177,
+    "y": 2134,
+    "w": 1087,
+    "h": 43,
+    "level": 2,
+    "text": "focus on reply companies"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-media > picture > img",
+    "x": -387,
+    "y": 2295,
+    "w": 411,
+    "h": 231,
+    "text": "",
+    "file": "media_12561849fcdf3246977410ed703b8c886a"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-title.text > p",
+    "x": -387,
+    "y": 2546,
+    "w": 411,
+    "h": 14,
+    "text": "IOT AND CLOUD COMPUTING SPECIALIST"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-body > p",
+    "x": -387,
+    "y": 2646,
+    "w": 411,
+    "h": 71,
+    "text": "Concept Reply specialises in innovative IoT solutions and offers solutions in th"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-media > picture > img",
+    "x": 64,
+    "y": 2295,
+    "w": 411,
+    "h": 231,
+    "text": "",
+    "file": "media_1a4eb0f6af48f04d2cae41f47e3645c869"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item.active > div.slider-with-title-item-title.text > p",
+    "x": 64,
+    "y": 2546,
+    "w": 411,
+    "h": 14,
+    "text": "BIG DATA INTELLIGENCE"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item.active > div.slider-with-title-item-body > h3#data-reply",
+    "x": 64,
+    "y": 2572,
+    "w": 411,
+    "h": 62,
+    "level": 3,
+    "text": "data reply"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item.active > div.slider-with-title-item-body > p",
+    "x": 64,
+    "y": 2646,
+    "w": 411,
+    "h": 48,
+    "text": "Data Reply specialises in Big Data, Data Science and Artificial Intelligence."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-item-cta > p > a",
+    "x": 64,
+    "y": 2716,
+    "w": 78,
+    "h": 13,
+    "text": "data.com",
+    "href": "/data-reply/en/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-media > picture > img",
+    "x": 515,
+    "y": 2295,
+    "w": 411,
+    "h": 231,
+    "text": "",
+    "file": "media_1ec24781ea5984b0f7c450d9720c240511"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-title.text > p",
+    "x": 515,
+    "y": 2546,
+    "w": 411,
+    "h": 14,
+    "text": "DIGITAL EXPERIENCE MANAGEMENT"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-body > h3#discovery-reply",
+    "x": 515,
+    "y": 2572,
+    "w": 411,
+    "h": 62,
+    "level": 3,
+    "text": "discovery reply"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-item-body > h3#discovery-reply > a",
+    "x": 515,
+    "y": 2574,
+    "w": 207,
+    "h": 27,
+    "text": "discovery reply",
+    "href": "/discovery-reply/en/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-body > p",
+    "x": 515,
+    "y": 2646,
+    "w": 411,
+    "h": 71,
+    "text": "Discovery Reply specializes in the development of end-to-end cloud first AWS sol"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-item-cta > p > a",
+    "x": 515,
+    "y": 2739,
+    "w": 125,
+    "h": 13,
+    "text": "discovery.com",
+    "href": "/discovery-reply/en/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-media > picture > img",
+    "x": 965,
+    "y": 2295,
+    "w": 411,
+    "h": 231,
+    "text": "",
+    "file": "media_111b16d0915030b4ecc45ff4876a37c282"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-title.text > p",
+    "x": 965,
+    "y": 2546,
+    "w": 411,
+    "h": 14,
+    "text": "IOT SOLUTIONS FOR ENERGY&UTILITIES"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-body > h3#sense-reply",
+    "x": 965,
+    "y": 2572,
+    "w": 411,
+    "h": 62,
+    "level": 3,
+    "text": "sense reply"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-body > p",
+    "x": 965,
+    "y": 2646,
+    "w": 411,
+    "h": 48,
+    "text": "Sense Reply specialises in IoT end-to-end solutions for Energy&Utilities, Teleco"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-item-cta > p > a",
+    "x": 965,
+    "y": 2716,
+    "w": 69,
+    "h": 13,
+    "text": "sense.it",
+    "href": "/sense-reply/en/"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-media > picture > img",
+    "x": 1416,
+    "y": 2295,
+    "w": 411,
+    "h": 231,
+    "text": "",
+    "file": "media_10d00b1ec1355b8ed52da641e50c29e93e"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-title.text > p",
+    "x": 1416,
+    "y": 2546,
+    "w": 411,
+    "h": 14,
+    "text": "MAKING THE CLOUD WORK FOR YOU"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-body > h3#storm-reply",
+    "x": 1416,
+    "y": 2572,
+    "w": 411,
+    "h": 62,
+    "level": 3,
+    "text": "storm reply"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-body > p",
+    "x": 1416,
+    "y": 2646,
+    "w": 411,
+    "h": 71,
+    "text": "Storm Reply specialises in the design and implementation of Amazon cloud-based s"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-item-cta > p > a",
+    "x": 1416,
+    "y": 2739,
+    "w": 94,
+    "h": 13,
+    "text": "storm.com",
+    "href": "/storm-reply/en/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-controls.r-grid > div.slider-with-title-nav > button.slider-with-title-prev.round-bt",
+    "x": 1159,
+    "y": 2207,
+    "w": 48,
+    "h": 48,
+    "text": "prev item"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-controls.r-grid > div.slider-with-title-nav > button.slider-with-title-next.round-bt",
+    "x": 1215,
+    "y": 2207,
+    "w": 48,
+    "h": 48,
+    "text": "next item"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-heading-cell.r-cell > div.section-heading-title > h2#replys-expertise-on-aws",
+    "x": 289,
+    "y": 2985,
+    "w": 861,
+    "h": 43,
+    "level": 2,
+    "text": "reply’s expertise on aws"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-heading-cell.r-cell > div.section-heading-title > p",
+    "x": 289,
+    "y": 3068,
+    "w": 861,
+    "h": 218,
+    "text": "Reply provides solutions on starting from . are the companies highly specialized"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > strong > a",
+    "x": 982,
+    "y": 3072,
+    "w": 149,
+    "h": 18,
+    "text": "managed services",
+    "href": "/en/cloud-computing/next-gen-msp"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 64,
+    "y": 3376,
+    "w": 298,
+    "h": 447,
+    "text": "adr optimizes the intelligent management of airport assets with ai and iot",
+    "href": "/en/iot/adr-ottimizza-la-gestione-intelligente-degli-asset-aeroportuali-con-ai-e-iot"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 64,
+    "y": 3376,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_160effda08fe0461e902a4d5f6f0a822b5"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 88,
+    "y": 3400,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_1673dbce73a3a51b85807b8597dfc95c31"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#adr-optimizes-the-intelligent-management-of-airport-assets-with-ai-and-iot",
+    "x": 80,
+    "y": 3843,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "adr optimizes the intelligent management of airport assets with ai and iot"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#adr-optimizes-the-intelligent-management-of-airport-assets-with-ai-and-iot > a",
+    "x": 80,
+    "y": 3843,
+    "w": 266,
+    "h": 78,
+    "text": "adr optimizes the intelligent management of airport assets with ai and iot",
+    "href": "/en/iot/adr-ottimizza-la-gestione-intelligente-degli-asset-aeroportuali-con-ai-e-iot"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 96,
+    "y": 3937,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 402,
+    "y": 3376,
+    "w": 298,
+    "h": 298,
+    "text": "from a fan to a smart energy system",
+    "href": "/en/iot/from-a-fan-to-a-smart-energy-system"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 402,
+    "y": 3376,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "media_142de04f5b442e924da64d62f0ef324ee4"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#from-a-fan-to-a-smart-energy-system",
+    "x": 418,
+    "y": 3694,
+    "w": 266,
+    "h": 52,
+    "level": 3,
+    "text": "from a fan to a smart energy system"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#from-a-fan-to-a-smart-energy-system > a",
+    "x": 418,
+    "y": 3694,
+    "w": 266,
+    "h": 52,
+    "text": "from a fan to a smart energy system",
+    "href": "/en/iot/from-a-fan-to-a-smart-energy-system"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 434,
+    "y": 3762,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 740,
+    "y": 3376,
+    "w": 298,
+    "h": 447,
+    "text": "yougov sport modernises sponsorship analytics on aws",
+    "href": "/en/data-world/yougov-sport-modernises-sponsorship-analytics-on-aws"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 740,
+    "y": 3376,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_1e71ffcfb0823ba647e4c13e654102a07c"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 764,
+    "y": 3400,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_18a28f2b479e32cec89498dd1a03fb7e6a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#yougov-sport-modernises-sponsorship-analytics-on-aws",
+    "x": 756,
+    "y": 3843,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "yougov sport modernises sponsorship analytics on aws"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#yougov-sport-modernises-sponsorship-analytics-on-aws > a",
+    "x": 756,
+    "y": 3843,
+    "w": 266,
+    "h": 78,
+    "text": "yougov sport modernises sponsorship analytics on aws",
+    "href": "/en/data-world/yougov-sport-modernises-sponsorship-analytics-on-aws"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 772,
+    "y": 3937,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 1078,
+    "y": 3376,
+    "w": 298,
+    "h": 298,
+    "text": "ai-powered comment management for social media",
+    "href": "/storm-reply/en/ai-powered-comment-management-for-social-media"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 1078,
+    "y": 3376,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "media_102ee9e698aef82a9ca22de53e64159b01"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 1102,
+    "y": 3400,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_15ab0ead3838a09a9e1048d640a4c09f2f"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#ai-powered-comment-management-for-social-media",
+    "x": 1094,
+    "y": 3694,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "ai-powered comment management for social media"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#ai-powered-comment-management-for-social-media > a",
+    "x": 1094,
+    "y": 3694,
+    "w": 266,
+    "h": 78,
+    "text": "ai-powered comment management for social media",
+    "href": "/storm-reply/en/ai-powered-comment-management-for-social-media"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 1110,
+    "y": 3788,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 402,
+    "y": 3841,
+    "w": 298,
+    "h": 447,
+    "text": "generali country italia enhances the customer experience with an aws-based conta",
+    "href": "/en/cx-and-digital-commerce/generali-country-italia-enhances-the-customer-experience-with-an-aws-based-contact-centre"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 402,
+    "y": 3841,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_180e48517feed2a4cfd7f8ca1a86da817d"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 426,
+    "y": 3865,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_16cdf947000ecd5fa10318037a641d3601"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#generali-country-italia-enhances-the-customer-experience-with-an-aws-based-contact-center",
+    "x": 418,
+    "y": 4308,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "generali country italia enhances the customer experience with an aws-based contact center"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#generali-country-italia-enhances-the-customer-experience-with-an-aws-based-contact-center > a",
+    "x": 418,
+    "y": 4308,
+    "w": 266,
+    "h": 78,
+    "text": "generali country italia enhances the customer experience with an aws-based conta",
+    "href": "/en/cx-and-digital-commerce/generali-country-italia-enhances-the-customer-experience-with-an-aws-based-contact-centre"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 434,
+    "y": 4402,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 1078,
+    "y": 3871,
+    "w": 298,
+    "h": 447,
+    "text": "rome airports redefines the airport experience with agentic ai",
+    "href": "/en/artificial-intelligence/adr-redesigns-the-airport-experience-with-agentic-ai"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 1078,
+    "y": 3871,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_1e6d90215dff453e7d83ff1fc79c2f6f44"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 1102,
+    "y": 3895,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_1a5eb47430eca2790efa098ccda8a5c146"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#rome-airports-redefines-the-airport-experience-with-agentic-ai",
+    "x": 1094,
+    "y": 4338,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "rome airports redefines the airport experience with agentic ai"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#rome-airports-redefines-the-airport-experience-with-agentic-ai > a",
+    "x": 1094,
+    "y": 4338,
+    "w": 266,
+    "h": 78,
+    "text": "rome airports redefines the airport experience with agentic ai",
+    "href": "/en/artificial-intelligence/adr-redesigns-the-airport-experience-with-agentic-ai"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 1110,
+    "y": 4432,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 64,
+    "y": 4016,
+    "w": 298,
+    "h": 298,
+    "text": "mainstreet partners: cloud ready for the future",
+    "href": "/storm-reply/en/mainstreet-partners-cloud-ready-for-the-future"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 64,
+    "y": 4016,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "media_1d900162fa3edcacb72c530e25b3515a2d"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 88,
+    "y": 4040,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_1d665a06134233e72ec374778892f355f2"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#mainstreet-partners-cloud-ready-for-the-future",
+    "x": 80,
+    "y": 4334,
+    "w": 266,
+    "h": 52,
+    "level": 3,
+    "text": "mainstreet partners: cloud ready for the future"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#mainstreet-partners-cloud-ready-for-the-future > a",
+    "x": 80,
+    "y": 4334,
+    "w": 266,
+    "h": 52,
+    "text": "mainstreet partners: cloud ready for the future",
+    "href": "/storm-reply/en/mainstreet-partners-cloud-ready-for-the-future"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 96,
+    "y": 4402,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 740,
+    "y": 4016,
+    "w": 298,
+    "h": 447,
+    "text": "foodlabs.edu for altrimodi",
+    "href": "/storm-reply/en/foodlabs-edu-altrimodi"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 740,
+    "y": 4016,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_18b63da2c8a3ebaa8a6312a8106b61ca6d"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#foodlabsedu-for-altrimodi",
+    "x": 756,
+    "y": 4483,
+    "w": 266,
+    "h": 52,
+    "level": 3,
+    "text": "foodlabs.edu for altrimodi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#foodlabsedu-for-altrimodi > a",
+    "x": 756,
+    "y": 4483,
+    "w": 266,
+    "h": 52,
+    "text": "foodlabs.edu for altrimodi",
+    "href": "/storm-reply/en/foodlabs-edu-altrimodi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 772,
+    "y": 4551,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-cell.r-cell > div.cards-wall-pager > div.cards-wall-more",
+    "x": 633,
+    "y": 4626,
+    "w": 174,
+    "h": 48,
+    "text": "load more content"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-heading-cell.r-cell > div.section-heading-title > h3#latest-news",
+    "x": 177,
+    "y": 4773,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "latest news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-event > a.reply-card-cover",
+    "x": 65,
+    "y": 4887,
+    "w": 296,
+    "h": 446,
+    "text": "13 – 14 april 2027 genai launchpad with reply and aws event the genai launchpad ",
+    "href": "/en/newsroom/events/genai-launchpad-2026"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 65,
+    "y": 4887,
+    "w": 296,
+    "h": 132,
+    "text": "",
+    "file": "media_1317daa42d06edc51aa752ea7b11a5963c"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#genai-launchpad-with-reply-and-aws",
+    "x": 97,
+    "y": 5039,
+    "w": 232,
+    "h": 52,
+    "level": 3,
+    "text": "genai launchpad with reply and aws"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-event > a.reply-card-cover",
+    "x": 403,
+    "y": 4887,
+    "w": 296,
+    "h": 444,
+    "text": "30 november 2026 04 december 2026 aws re:invent 2026 event meet reply at aws re:",
+    "href": "/en/newsroom/events/aws-reinvent-2026"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 403,
+    "y": 4887,
+    "w": 296,
+    "h": 132,
+    "text": "",
+    "file": "media_1123b2cf825356ed43eadad1c7fbcb66ee"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#aws-reinvent-2026",
+    "x": 435,
+    "y": 5039,
+    "w": 232,
+    "h": 26,
+    "level": 3,
+    "text": "aws re:invent 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-event > a.reply-card-cover",
+    "x": 741,
+    "y": 4887,
+    "w": 296,
+    "h": 599,
+    "text": "05 november 2026 unlocking the power of synthetic audiences - round 2 event join",
+    "href": "/en/newsroom/events/unlocking-the-power-of-synthetic-audiences-round-2"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 741,
+    "y": 4887,
+    "w": 296,
+    "h": 132,
+    "text": "",
+    "file": "media_1b0821aa59f01e0a1e11be241ef29c0afd"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#unlocking-the-power-of-synthetic-audiences---round-2",
+    "x": 773,
+    "y": 5039,
+    "w": 232,
+    "h": 78,
+    "level": 3,
+    "text": "unlocking the power of synthetic audiences - round 2"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-event > a.reply-card-cover",
+    "x": 1079,
+    "y": 4887,
+    "w": 296,
+    "h": 502,
+    "text": "02 september 2026 aws summit zurich 2026 event reply showcases at aws summit zur",
+    "href": "/en/newsroom/events/aws-summit-zurich-2026"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 1079,
+    "y": 4887,
+    "w": 296,
+    "h": 132,
+    "text": "",
+    "file": "media_166ef396c712ddbda0066dd91e31375351"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#aws-summit-zurich-2026",
+    "x": 1111,
+    "y": 5039,
+    "w": 232,
+    "h": 52,
+    "level": 3,
+    "text": "aws summit zurich 2026"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-cell.r-cell > div.cards-wall-pager > div.cards-wall-more",
+    "x": 633,
+    "y": 5556,
+    "w": 174,
+    "h": 48,
+    "text": "load more content"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-wrap > nav.footer-nav > a.footer-nav-home",
+    "x": 64,
+    "y": 5794,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 5890,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 5890,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 5938,
+    "w": 102,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 5982,
+    "w": 43,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 6027,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 6072,
+    "w": 66,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 5890,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 5890,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 5938,
+    "w": 145,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 5982,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 6044,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 6089,
+    "w": 150,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 5938,
+    "w": 160,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 5982,
+    "w": 131,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 6027,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 5938,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 5999,
+    "w": 153,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 6044,
+    "w": 143,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 6089,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "/en/aws"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 5890,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 5970,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1112,
+    "y": 6050,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1124,
+    "y": 6062,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1184,
+    "y": 6050,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1196,
+    "y": 6062,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1256,
+    "y": 6050,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1268,
+    "y": 6062,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-linkedin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1328,
+    "y": 6050,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1340,
+    "y": 6062,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-xing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > span",
+    "x": 64,
+    "y": 6194,
+    "w": 84,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > a",
+    "x": 160,
+    "y": 6194,
+    "w": 131,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-inner > div.site-legal-row > button#cookie-pref-center",
+    "x": 1278,
+    "y": 859,
+    "w": 162,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 3,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 10,
+    "offPage": 112,
+    "textNodes": 264,
+    "controls": 90,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.marquee-viewport",
+     "path": "li.marquee-item > div.marquee-labels > p > em",
+     "text": "migration",
+     "cutMin": 54,
+     "cutMax": 101
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.marquee-viewport",
+     "path": "ul.marquee-set > li.marquee-item > div.marquee-labels > p",
+     "text": "competency",
+     "cutMin": 26,
+     "cutMax": 101
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "p",
+     "path": "ul.slider-with-title-items > li.slider-with-title-item > div.slider-with-title-item-body > p",
+     "text": "concept reply specialises in innovative iot solutions and of",
+     "cutMin": 368,
+     "cutMax": 387
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 2,
+     "clipper": "a",
+     "path": "div.reply-card-body > div.reply-card-title > h3#adr-optimizes-the-intelligent-management-of-airport-assets-with-ai-and-iot > a",
+     "text": "adr optimizes the intelligent management of airport assets w",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "p",
+     "path": "ul.slider-with-title-items > li.slider-with-title-item > div.slider-with-title-item-body > p",
+     "text": "discovery reply specializes in the development of end-to-end",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slider-with-title-rail",
+     "path": "ul.slider-with-title-items > li.slider-with-title-item > div.slider-with-title-item-title.text > p",
+     "text": "making the cloud work for you",
+     "cutMin": 249,
+     "cutMax": 249
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3#storm-reply",
+     "path": "ul.slider-with-title-items > li.slider-with-title-item > div.slider-with-title-item-body > h3#storm-reply",
+     "text": "storm reply",
+     "cutMin": 134,
+     "cutMax": 134
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slider-with-title-rail",
+     "path": "li.slider-with-title-item > div.slider-with-title-item-cta > p > a",
+     "text": "storm.com",
+     "cutMin": 70,
+     "cutMax": 70
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slider-with-title-rail",
+     "path": "li.slider-with-title-item > div.slider-with-title-item-cta > p > a",
+     "text": "storm.com",
+     "cutMin": 70,
+     "cutMax": 70
+    }
+   ],
+   "findings": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 101,
+     "path": "li.marquee-item > div.marquee-labels > p > em",
+     "text": "migration",
+     "clipper": "div.marquee-viewport",
+     "rect": {
+      "l": -101,
+      "t": 1860,
+      "r": 32,
+      "b": 1881,
+      "w": 133,
+      "h": 21
+     },
+     "clip": {
+      "l": 0,
+      "t": 1716,
+      "r": 1440,
+      "b": 2014,
+      "w": 1440,
+      "h": 298
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 101,
+     "path": "ul.marquee-set > li.marquee-item > div.marquee-labels > p",
+     "text": "competency",
+     "clipper": "div.marquee-viewport",
+     "rect": {
+      "l": -101,
+      "t": 1882,
+      "r": 26,
+      "b": 1898,
+      "w": 128,
+      "h": 16
+     },
+     "clip": {
+      "l": 0,
+      "t": 1716,
+      "r": 1440,
+      "b": 2014,
+      "w": 1440,
+      "h": 298
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 54,
+     "path": "li.marquee-item > div.marquee-labels > p > em",
+     "text": "cloud operations",
+     "clipper": "div.marquee-viewport",
+     "rect": {
+      "l": 1339,
+      "t": 1860,
+      "r": 1422,
+      "b": 1881,
+      "w": 83,
+      "h": 21
+     },
+     "clip": {
+      "l": 0,
+      "t": 1716,
+      "r": 1440,
+      "b": 2014,
+      "w": 1440,
+      "h": 298
+     },
+     "lines": 2
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 26,
+     "path": "ul.marquee-set > li.marquee-item > div.marquee-labels > p",
+     "text": "competency",
+     "clipper": "div.marquee-viewport",
+     "rect": {
+      "l": 1339,
+      "t": 1905,
+      "r": 1466,
+      "b": 1921,
+      "w": 128,
+      "h": 16
+     },
+     "clip": {
+      "l": 0,
+      "t": 1716,
+      "r": 1440,
+      "b": 2014,
+      "w": 1440,
+      "h": 298
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 387,
+     "path": "ul.slider-with-title-items > li.slider-with-title-item > div.slider-with-title-item-body > p",
+     "text": "concept reply specialises in innovative iot solutions and of",
+     "clipper": "p",
+     "rect": {
+      "l": -387,
+      "t": 2649,
+      "r": -1,
+      "b": 2665,
+      "w": 385,
+      "h": 16
+     },
+     "clip": {
+      "l": -387,
+      "t": 2646,
+      "r": 24,
+      "b": 2717,
+      "w": 411,
+      "h": 71
+     },
+     "lines": 3
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "ul.slider-with-title-items > li.slider-with-title-item > div.slider-with-title-item-body > p",
+     "text": "discovery reply specializes in the development of end-to-end",
+     "clipper": "p",
+     "rect": {
+      "l": 515,
+      "t": 2649,
+      "r": 916,
+      "b": 2665,
+      "w": 402,
+      "h": 16
+     },
+     "clip": {
+      "l": 515,
+      "t": 2646,
+      "r": 926,
+      "b": 2717,
+      "w": 411,
+      "h": 71
+     },
+     "lines": 4
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 249,
+     "path": "ul.slider-with-title-items > li.slider-with-title-item > div.slider-with-title-item-title.text > p",
+     "text": "making the cloud work for you",
+     "clipper": "div.slider-with-title-rail",
+     "rect": {
+      "l": 1416,
+      "t": 2546,
+      "r": 1689,
+      "b": 2559,
+      "w": 273,
+      "h": 13
+     },
+     "clip": {
+      "l": 0,
+      "t": 2295,
+      "r": 1440,
+      "b": 2834,
+      "w": 1440,
+      "h": 539
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 134,
+     "path": "ul.slider-with-title-items > li.slider-with-title-item > div.slider-with-title-item-body > h3#storm-reply",
+     "text": "storm reply",
+     "clipper": "h3#storm-reply",
+     "rect": {
+      "l": 1416,
+      "t": 2574,
+      "r": 1574,
+      "b": 2601,
+      "w": 158,
+      "h": 27
+     },
+     "clip": {
+      "l": 1416,
+      "t": 2572,
+      "r": 1827,
+      "b": 2634,
+      "w": 411,
+      "h": 62
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 368,
+     "path": "ul.slider-with-title-items > li.slider-with-title-item > div.slider-with-title-item-body > p",
+     "text": "storm reply specialises in the design and implementation of ",
+     "clipper": "p",
+     "rect": {
+      "l": 1416,
+      "t": 2649,
+      "r": 1720,
+      "b": 2665,
+      "w": 304,
+      "h": 16
+     },
+     "clip": {
+      "l": 1416,
+      "t": 2646,
+      "r": 1827,
+      "b": 2717,
+      "w": 411,
+      "h": 71
+     },
+     "lines": 3
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 70,
+     "path": "li.slider-with-title-item > div.slider-with-title-item-cta > p > a",
+     "text": "storm.com",
+     "clipper": "div.slider-with-title-rail",
+     "rect": {
+      "l": 1416,
+      "t": 2739,
+      "r": 1510,
+      "b": 2752,
+      "w": 94,
+      "h": 13
+     },
+     "clip": {
+      "l": 0,
+      "t": 2295,
+      "r": 1440,
+      "b": 2834,
+      "w": 1440,
+      "h": 539
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 70,
+     "path": "li.slider-with-title-item > div.slider-with-title-item-cta > p > a",
+     "text": "storm.com",
+     "clipper": "div.slider-with-title-rail",
+     "rect": {
+      "l": 1416,
+      "t": 2739,
+      "r": 1510,
+      "b": 2752,
+      "w": 94,
+      "h": 13
+     },
+     "clip": {
+      "l": 0,
+      "t": 2295,
+      "r": 1440,
+      "b": 2834,
+      "w": 1440,
+      "h": 539
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.reply-card-body > div.reply-card-title > h3#adr-optimizes-the-intelligent-management-of-airport-assets-with-ai-and-iot > a",
+     "text": "adr optimizes the intelligent management of airport assets w",
+     "clipper": "a",
+     "rect": {
+      "l": 80,
+      "t": 3845,
+      "r": 274,
+      "b": 3867,
+      "w": 194,
+      "h": 22
+     },
+     "clip": {
+      "l": 80,
+      "t": 3843,
+      "r": 346,
+      "b": 3921,
+      "w": 266,
+      "h": 78
+     },
+     "lines": 4
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.reply-card-body > div.reply-card-title > h3#generali-country-italia-enhances-the-customer-experience-with-an-aws-based-contact-center > a",
+     "text": "generali country italia enhances the customer experience wit",
+     "clipper": "a",
+     "rect": {
+      "l": 418,
+      "t": 4310,
+      "r": 649,
+      "b": 4332,
+      "w": 231,
+      "h": 22
+     },
+     "clip": {
+      "l": 418,
+      "t": 4308,
+      "r": 684,
+      "b": 4386,
+      "w": 266,
+      "h": 78
+     },
+     "lines": 5
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "reply and aws",
+   "variable": false,
+   "origin": {
+    "link": 6,
+    "button": 1,
+    "text": 17,
+    "image": 0
+   },
+   "eds": {
+    "link": 6,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 7,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "COUNT TEXT",
+    "CONTROL MISSING"
+   ]
+  },
+  {
+   "index": 2,
+   "heading": "aws competencies",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 19,
+    "image": 6
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 19,
+    "textHidden": 3,
+    "image": 6,
+    "imageHidden": 0
+   },
+   "findings": [
+    "MISSING LINK"
+   ]
+  },
+  {
+   "index": 3,
+   "heading": "focus on reply companies",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 2,
+    "text": 2,
+    "image": 3
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 2,
+    "image": 3,
+    "imageHidden": 2
+   },
+   "findings": [
+    "MOVED LINK",
+    "MISSING LINK"
+   ]
+  },
+  {
+   "index": 4,
+   "heading": "data reply",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "discovery reply",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "sense reply",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 1,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 2,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "reply’s expertise on aws",
+   "variable": false,
+   "origin": {
+    "link": 5,
+    "button": 0,
+    "text": 1,
+    "image": 7
+   },
+   "eds": {
+    "link": 5,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 7,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "from a fan to a smart energy system",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "ai-powered comment management for social media",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "adr optimizes the intelligent management of airport assets with ai and iot",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "yougov sport modernises sponsorship analytics on aws",
+   "variable": false,
+   "origin": {
+    "link": 5,
+    "button": 0,
+    "text": 2,
+    "image": 6
+   },
+   "eds": {
+    "link": 5,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 6,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "generali country italia enhances the customer experience with an aws-based contact center",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 13,
+   "heading": "mainstreet partners: cloud ready for the future",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 14,
+   "heading": "rome airports redefines the airport experience with agentic ai",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 15,
+   "heading": "foodlabs.edu for altrimodi",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 16,
+   "heading": "latest news",
+   "variable": false,
+   "origin": {
+    "link": 4,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 4,
+    "imageHidden": 0
+   },
+   "findings": [
+    "COUNT IMAGES"
+   ]
+  },
+  {
+   "index": 17,
+   "heading": "genai launchpad with reply and aws",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 18,
+   "heading": "aws re:invent 2026",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 19,
+   "heading": "unlocking the power of synthetic audiences - round 2",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 20,
+   "heading": "aws summit zurich 2026",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"discover more\" → /spike-reply/en/security-for-your-AWS-environment in band \"aws competencies\" (origin y 1963) not on the served page",
+   "band": 2,
+   "n": 1,
+   "text": "discover more",
+   "href": "/spike-reply/en/security-for-your-AWS-environment"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"digital experience management discovery reply discovery reply specializes in the\" → /discovery-reply/en/ in band \"focus on reply companies\" (origin y 2561) not on the served page",
+   "band": 3,
+   "n": 1,
+   "text": "digital experience management discovery reply discovery reply specializes in the",
+   "href": "/discovery-reply/en/"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT TEXT",
+   "msg": "band \"reply and aws\": 17 origin → 7 served visible",
+   "band": 1,
+   "origin": 17,
+   "eds": 7,
+   "hidden": 0
+  },
+  {
+   "sev": "🟡",
+   "kind": "CONTROL MISSING",
+   "msg": "trigger = \"contact us\" (band \"reply and aws\") has no served counterpart",
+   "band": 1,
+   "label": "trigger",
+   "value": "contact us"
+  },
+  {
+   "sev": "🟡",
+   "kind": "MOVED LINK",
+   "msg": "\"discovery reply\" short in band \"focus on reply companies\" but visible elsewhere on the served page",
+   "band": 3,
+   "n": 1,
+   "text": "discovery reply"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"latest news\": 0 origin → 4 served visible",
+   "band": 16,
+   "origin": 0,
+   "eds": 4,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 2,
+  "hiddenLinks": 0,
+  "movedLinks": 1,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 2,
+  "findings": 6,
+  "structural": 2,
+  "missing": 2,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 1339,
+    "y": 34,
+    "w": 17,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 78,
+    "w": 62,
+    "h": 16
+   },
+   {
+    "x": 612,
+    "y": 78,
+    "w": 72,
+    "h": 16
+   },
+   {
+    "x": 740,
+    "y": 78,
+    "w": 110,
+    "h": 16
+   },
+   {
+    "x": 906,
+    "y": 78,
+    "w": 41,
+    "h": 16
+   },
+   {
+    "x": 1003,
+    "y": 78,
+    "w": 60,
+    "h": 16
+   },
+   {
+    "x": 1119,
+    "y": 78,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1225,
+    "y": 78,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 318,
+    "w": 69,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 354,
+    "w": 493,
+    "h": 71
+   },
+   {
+    "x": 289,
+    "y": 469,
+    "w": 406,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 496,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 313,
+    "y": 554,
+    "w": 103,
+    "h": 16
+   },
+   {
+    "x": 51,
+    "y": 803,
+    "w": 259,
+    "h": 11
+   },
+   {
+    "x": 43,
+    "y": 817,
+    "w": 43,
+    "h": 11
+   },
+   {
+    "x": 86,
+    "y": 817,
+    "w": 231,
+    "h": 11
+   },
+   {
+    "x": 138,
+    "y": 831,
+    "w": 83,
+    "h": 11
+   },
+   {
+    "x": 92,
+    "y": 870,
+    "w": 176,
+    "h": 27
+   },
+   {
+    "x": 91,
+    "y": 901,
+    "w": 178,
+    "h": 27
+   },
+   {
+    "x": 121,
+    "y": 932,
+    "w": 117,
+    "h": 27
+   },
+   {
+    "x": 411,
+    "y": 803,
+    "w": 259,
+    "h": 11
+   },
+   {
+    "x": 403,
+    "y": 817,
+    "w": 274,
+    "h": 11
+   },
+   {
+    "x": 499,
+    "y": 831,
+    "w": 83,
+    "h": 11
+   },
+   {
+    "x": 441,
+    "y": 870,
+    "w": 199,
+    "h": 27
+   },
+   {
+    "x": 417,
+    "y": 901,
+    "w": 247,
+    "h": 27
+   },
+   {
+    "x": 765,
+    "y": 803,
+    "w": 134,
+    "h": 11
+   },
+   {
+    "x": 899,
+    "y": 803,
+    "w": 43,
+    "h": 11
+   },
+   {
+    "x": 942,
+    "y": 803,
+    "w": 93,
+    "h": 11
+   },
+   {
+    "x": 858,
+    "y": 817,
+    "w": 84,
+    "h": 11
+   },
+   {
+    "x": 830,
+    "y": 856,
+    "w": 139,
+    "h": 27
+   },
+   {
+    "x": 805,
+    "y": 887,
+    "w": 190,
+    "h": 27
+   },
+   {
+    "x": 841,
+    "y": 918,
+    "w": 117,
+    "h": 27
+   },
+   {
+    "x": 1126,
+    "y": 803,
+    "w": 268,
+    "h": 11
+   },
+   {
+    "x": 1259,
+    "y": 817,
+    "w": 3,
+    "h": 11
+   },
+   {
+    "x": 1164,
+    "y": 840,
+    "w": 192,
+    "h": 27
+   },
+   {
+    "x": 1201,
+    "y": 871,
+    "w": 117,
+    "h": 27
+   },
+   {
+    "x": 346,
+    "y": 1114,
+    "w": 747,
+    "h": 46
+   },
+   {
+    "x": 361,
+    "y": 1164,
+    "w": 717,
+    "h": 46
+   },
+   {
+    "x": 538,
+    "y": 1215,
+    "w": 364,
+    "h": 46
+   },
+   {
+    "x": 414,
+    "y": 1265,
+    "w": 612,
+    "h": 46
+   },
+   {
+    "x": 669,
+    "y": 1361,
+    "w": 101,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 1516,
+    "w": 216,
+    "h": 16
+   },
+   {
+    "x": 296,
+    "y": 1516,
+    "w": 192,
+    "h": 16
+   },
+   {
+    "x": 528,
+    "y": 1516,
+    "w": 178,
+    "h": 16
+   },
+   {
+    "x": 746,
+    "y": 1516,
+    "w": 90,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 1646,
+    "w": 373,
+    "h": 40
+   },
+   {
+    "x": 1192,
+    "y": 1658,
+    "w": 71,
+    "h": 16
+   },
+   {
+    "x": -45,
+    "y": 1888,
+    "w": 108,
+    "h": 18
+   },
+   {
+    "x": -45,
+    "y": 1912,
+    "w": 115,
+    "h": 13
+   },
+   {
+    "x": -33,
+    "y": 1977,
+    "w": 114,
+    "h": 13
+   },
+   {
+    "x": 195,
+    "y": 1869,
+    "w": 37,
+    "h": 13
+   },
+   {
+    "x": 195,
+    "y": 1888,
+    "w": 35,
+    "h": 18
+   },
+   {
+    "x": 195,
+    "y": 1912,
+    "w": 115,
+    "h": 13
+   },
+   {
+    "x": 207,
+    "y": 1977,
+    "w": 114,
+    "h": 13
+   },
+   {
+    "x": 435,
+    "y": 1869,
+    "w": 37,
+    "h": 13
+   },
+   {
+    "x": 435,
+    "y": 1888,
+    "w": 119,
+    "h": 18
+   },
+   {
+    "x": 435,
+    "y": 1915,
+    "w": 107,
+    "h": 18
+   },
+   {
+    "x": 435,
+    "y": 1939,
+    "w": 115,
+    "h": 13
+   },
+   {
+    "x": 447,
+    "y": 1977,
+    "w": 114,
+    "h": 13
+   },
+   {
+    "x": 675,
+    "y": 1869,
+    "w": 37,
+    "h": 13
+   },
+   {
+    "x": 675,
+    "y": 1888,
+    "w": 90,
+    "h": 18
+   },
+   {
+    "x": 675,
+    "y": 1912,
+    "w": 115,
+    "h": 13
+   },
+   {
+    "x": 915,
+    "y": 1869,
+    "w": 37,
+    "h": 13
+   },
+   {
+    "x": 915,
+    "y": 1888,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 915,
+    "y": 1912,
+    "w": 115,
+    "h": 13
+   },
+   {
+    "x": 1155,
+    "y": 1869,
+    "w": 37,
+    "h": 13
+   },
+   {
+    "x": 1155,
+    "y": 1888,
+    "w": 121,
+    "h": 18
+   },
+   {
+    "x": 1155,
+    "y": 1912,
+    "w": 115,
+    "h": 13
+   },
+   {
+    "x": 1395,
+    "y": 1869,
+    "w": 37,
+    "h": 13
+   },
+   {
+    "x": 1395,
+    "y": 1888,
+    "w": 88,
+    "h": 18
+   },
+   {
+    "x": 1395,
+    "y": 1912,
+    "w": 115,
+    "h": 13
+   },
+   {
+    "x": 177,
+    "y": 2150,
+    "w": 502,
+    "h": 40
+   },
+   {
+    "x": -387,
+    "y": 2664,
+    "w": 404,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 2562,
+    "w": 160,
+    "h": 11
+   },
+   {
+    "x": 64,
+    "y": 2589,
+    "w": 139,
+    "h": 27
+   },
+   {
+    "x": 64,
+    "y": 2664,
+    "w": 376,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 2688,
+    "w": 152,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 2733,
+    "w": 71,
+    "h": 11
+   },
+   {
+    "x": 515,
+    "y": 2562,
+    "w": 241,
+    "h": 11
+   },
+   {
+    "x": 515,
+    "y": 2589,
+    "w": 200,
+    "h": 27
+   },
+   {
+    "x": 515,
+    "y": 2664,
+    "w": 392,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 2688,
+    "w": 342,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 2712,
+    "w": 347,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 2757,
+    "w": 115,
+    "h": 11
+   },
+   {
+    "x": 965,
+    "y": 2562,
+    "w": 265,
+    "h": 11
+   },
+   {
+    "x": 965,
+    "y": 2589,
+    "w": 151,
+    "h": 27
+   },
+   {
+    "x": 965,
+    "y": 2664,
+    "w": 382,
+    "h": 16
+   },
+   {
+    "x": 965,
+    "y": 2688,
+    "w": 398,
+    "h": 16
+   },
+   {
+    "x": 965,
+    "y": 2733,
+    "w": 61,
+    "h": 11
+   },
+   {
+    "x": 1416,
+    "y": 2562,
+    "w": 243,
+    "h": 11
+   },
+   {
+    "x": 1416,
+    "y": 2589,
+    "w": 154,
+    "h": 27
+   },
+   {
+    "x": 1416,
+    "y": 2664,
+    "w": 293,
+    "h": 16
+   },
+   {
+    "x": 1416,
+    "y": 2688,
+    "w": 389,
+    "h": 16
+   },
+   {
+    "x": 1416,
+    "y": 2712,
+    "w": 62,
+    "h": 16
+   },
+   {
+    "x": 1416,
+    "y": 2757,
+    "w": 85,
+    "h": 11
+   },
+   {
+    "x": 485,
+    "y": 2993,
+    "w": 470,
+    "h": 40
+   },
+   {
+    "x": 323,
+    "y": 3079,
+    "w": 224,
+    "h": 18
+   },
+   {
+    "x": 547,
+    "y": 3079,
+    "w": 41,
+    "h": 18
+   },
+   {
+    "x": 587,
+    "y": 3079,
+    "w": 116,
+    "h": 18
+   },
+   {
+    "x": 703,
+    "y": 3079,
+    "w": 329,
+    "h": 18
+   },
+   {
+    "x": 1032,
+    "y": 3079,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 296,
+    "y": 3106,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 367,
+    "y": 3106,
+    "w": 8,
+    "h": 18
+   },
+   {
+    "x": 375,
+    "y": 3106,
+    "w": 769,
+    "h": 18
+   },
+   {
+    "x": 303,
+    "y": 3133,
+    "w": 246,
+    "h": 18
+   },
+   {
+    "x": 549,
+    "y": 3133,
+    "w": 335,
+    "h": 18
+   },
+   {
+    "x": 883,
+    "y": 3133,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 1039,
+    "y": 3133,
+    "w": 98,
+    "h": 18
+   },
+   {
+    "x": 295,
+    "y": 3160,
+    "w": 750,
+    "h": 18
+   },
+   {
+    "x": 1044,
+    "y": 3160,
+    "w": 101,
+    "h": 18
+   },
+   {
+    "x": 331,
+    "y": 3187,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 359,
+    "y": 3187,
+    "w": 750,
+    "h": 18
+   },
+   {
+    "x": 331,
+    "y": 3214,
+    "w": 777,
+    "h": 18
+   },
+   {
+    "x": 297,
+    "y": 3241,
+    "w": 107,
+    "h": 18
+   },
+   {
+    "x": 404,
+    "y": 3241,
+    "w": 739,
+    "h": 18
+   },
+   {
+    "x": 526,
+    "y": 3268,
+    "w": 388,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 3850,
+    "w": 193,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 3876,
+    "w": 255,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 3902,
+    "w": 249,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 3902,
+    "w": 243,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 3943,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 418,
+    "y": 3701,
+    "w": 225,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 3727,
+    "w": 153,
+    "h": 22
+   },
+   {
+    "x": 434,
+    "y": 3768,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 756,
+    "y": 3850,
+    "w": 145,
+    "h": 22
+   },
+   {
+    "x": 756,
+    "y": 3876,
+    "w": 250,
+    "h": 22
+   },
+   {
+    "x": 756,
+    "y": 3902,
+    "w": 181,
+    "h": 22
+   },
+   {
+    "x": 772,
+    "y": 3943,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 1094,
+    "y": 3701,
+    "w": 230,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 3727,
+    "w": 244,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 3753,
+    "w": 66,
+    "h": 22
+   },
+   {
+    "x": 1110,
+    "y": 3794,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 418,
+    "y": 4315,
+    "w": 240,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 4341,
+    "w": 246,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 4367,
+    "w": 262,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 4367,
+    "w": 240,
+    "h": 22
+   },
+   {
+    "x": 434,
+    "y": 4408,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 1094,
+    "y": 4345,
+    "w": 253,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 4371,
+    "w": 234,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 4397,
+    "w": 161,
+    "h": 22
+   },
+   {
+    "x": 1110,
+    "y": 4438,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 80,
+    "y": 4341,
+    "w": 218,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 4367,
+    "w": 203,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 4393,
+    "w": 66,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 4434,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 756,
+    "y": 4490,
+    "w": 183,
+    "h": 22
+   },
+   {
+    "x": 756,
+    "y": 4516,
+    "w": 98,
+    "h": 22
+   },
+   {
+    "x": 772,
+    "y": 4557,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 631,
+    "y": 4646,
+    "w": 178,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 4780,
+    "w": 235,
+    "h": 40
+   },
+   {
+    "x": 97,
+    "y": 4924,
+    "w": 117,
+    "h": 40
+   },
+   {
+    "x": 97,
+    "y": 4971,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 97,
+    "y": 5046,
+    "w": 189,
+    "h": 22
+   },
+   {
+    "x": 97,
+    "y": 5072,
+    "w": 209,
+    "h": 22
+   },
+   {
+    "x": 97,
+    "y": 5121,
+    "w": 46,
+    "h": 11
+   },
+   {
+    "x": 97,
+    "y": 5155,
+    "w": 219,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 5179,
+    "w": 227,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 5203,
+    "w": 220,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 5227,
+    "w": 231,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 5251,
+    "w": 216,
+    "h": 16
+   },
+   {
+    "x": 121,
+    "y": 5294,
+    "w": 130,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 4916,
+    "w": 49,
+    "h": 40
+   },
+   {
+    "x": 484,
+    "y": 4932,
+    "w": 133,
+    "h": 18
+   },
+   {
+    "x": 435,
+    "y": 4960,
+    "w": 51,
+    "h": 40
+   },
+   {
+    "x": 486,
+    "y": 4976,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 435,
+    "y": 5046,
+    "w": 204,
+    "h": 22
+   },
+   {
+    "x": 435,
+    "y": 5095,
+    "w": 46,
+    "h": 11
+   },
+   {
+    "x": 435,
+    "y": 5129,
+    "w": 202,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5153,
+    "w": 183,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5177,
+    "w": 221,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5201,
+    "w": 229,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5225,
+    "w": 194,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5248,
+    "w": 37,
+    "h": 16
+   },
+   {
+    "x": 459,
+    "y": 5292,
+    "w": 104,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 4924,
+    "w": 50,
+    "h": 40
+   },
+   {
+    "x": 773,
+    "y": 4971,
+    "w": 133,
+    "h": 18
+   },
+   {
+    "x": 773,
+    "y": 5046,
+    "w": 215,
+    "h": 22
+   },
+   {
+    "x": 773,
+    "y": 5072,
+    "w": 129,
+    "h": 22
+   },
+   {
+    "x": 773,
+    "y": 5098,
+    "w": 211,
+    "h": 22
+   },
+   {
+    "x": 773,
+    "y": 5147,
+    "w": 46,
+    "h": 11
+   },
+   {
+    "x": 773,
+    "y": 5181,
+    "w": 191,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5205,
+    "w": 170,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5229,
+    "w": 226,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5253,
+    "w": 211,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5277,
+    "w": 171,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5300,
+    "w": 167,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5324,
+    "w": 216,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5348,
+    "w": 132,
+    "h": 16
+   },
+   {
+    "x": 797,
+    "y": 5392,
+    "w": 152,
+    "h": 16
+   },
+   {
+    "x": 797,
+    "y": 5424,
+    "w": 187,
+    "h": 16
+   },
+   {
+    "x": 797,
+    "y": 5447,
+    "w": 140,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 4924,
+    "w": 49,
+    "h": 40
+   },
+   {
+    "x": 1111,
+    "y": 4971,
+    "w": 141,
+    "h": 18
+   },
+   {
+    "x": 1111,
+    "y": 5046,
+    "w": 207,
+    "h": 22
+   },
+   {
+    "x": 1111,
+    "y": 5072,
+    "w": 53,
+    "h": 22
+   },
+   {
+    "x": 1111,
+    "y": 5121,
+    "w": 46,
+    "h": 11
+   },
+   {
+    "x": 1111,
+    "y": 5155,
+    "w": 178,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 5179,
+    "w": 203,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 5203,
+    "w": 212,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 5227,
+    "w": 205,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 5251,
+    "w": 196,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 5274,
+    "w": 187,
+    "h": 16
+   },
+   {
+    "x": 1135,
+    "y": 5318,
+    "w": 189,
+    "h": 16
+   },
+   {
+    "x": 1135,
+    "y": 5350,
+    "w": 95,
+    "h": 16
+   },
+   {
+    "x": 631,
+    "y": 5577,
+    "w": 178,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 5890,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 5938,
+    "w": 103,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 5983,
+    "w": 45,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6028,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6072,
+    "w": 67,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 5890,
+    "w": 135,
+    "h": 16
+   },
+   {
+    "x": 402,
+    "y": 5938,
+    "w": 142,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 5983,
+    "w": 89,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6000,
+    "w": 73,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6044,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 6044,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6089,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 6089,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 5938,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 5938,
+    "w": 69,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 5983,
+    "w": 127,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6028,
+    "w": 121,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6044,
+    "w": 85,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6061,
+    "w": 39,
+    "h": 13
+   },
+   {
+    "x": 642,
+    "y": 6061,
+    "w": 51,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 5938,
+    "w": 157,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 5955,
+    "w": 36,
+    "h": 13
+   },
+   {
+    "x": 841,
+    "y": 5955,
+    "w": 64,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6000,
+    "w": 154,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6044,
+    "w": 147,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6089,
+    "w": 130,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6106,
+    "w": 128,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 5905,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 1112,
+    "y": 5985,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 6195,
+    "w": 81,
+    "h": 13
+   },
+   {
+    "x": 149,
+    "y": 6195,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 158,
+    "y": 6195,
+    "w": 136,
+    "h": 13
+   },
+   {
+    "x": 1296,
+    "y": 899,
+    "w": 124,
+    "h": 13
+   }
+  ],
+  "eds": [
+   {
+    "x": 1336,
+    "y": 7,
+    "w": 20,
+    "h": 13
+   },
+   {
+    "x": 486,
+    "y": 51,
+    "w": 63,
+    "h": 16
+   },
+   {
+    "x": 605,
+    "y": 51,
+    "w": 71,
+    "h": 16
+   },
+   {
+    "x": 733,
+    "y": 51,
+    "w": 111,
+    "h": 16
+   },
+   {
+    "x": 900,
+    "y": 51,
+    "w": 46,
+    "h": 16
+   },
+   {
+    "x": 1002,
+    "y": 51,
+    "w": 59,
+    "h": 16
+   },
+   {
+    "x": 1118,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1224,
+    "y": 51,
+    "w": 52,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 317,
+    "w": 77,
+    "h": 13
+   },
+   {
+    "x": 177,
+    "y": 354,
+    "w": 494,
+    "h": 71
+   },
+   {
+    "x": 289,
+    "y": 469,
+    "w": 402,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 496,
+    "w": 253,
+    "h": 18
+   },
+   {
+    "x": 313,
+    "y": 554,
+    "w": 101,
+    "h": 18
+   },
+   {
+    "x": 43,
+    "y": 802,
+    "w": 274,
+    "h": 13
+   },
+   {
+    "x": 41,
+    "y": 816,
+    "w": 279,
+    "h": 13
+   },
+   {
+    "x": 139,
+    "y": 830,
+    "w": 82,
+    "h": 13
+   },
+   {
+    "x": 80,
+    "y": 870,
+    "w": 200,
+    "h": 27
+   },
+   {
+    "x": 88,
+    "y": 901,
+    "w": 185,
+    "h": 27
+   },
+   {
+    "x": 113,
+    "y": 932,
+    "w": 135,
+    "h": 27
+   },
+   {
+    "x": 403,
+    "y": 802,
+    "w": 274,
+    "h": 13
+   },
+   {
+    "x": 401,
+    "y": 816,
+    "w": 279,
+    "h": 13
+   },
+   {
+    "x": 499,
+    "y": 830,
+    "w": 82,
+    "h": 13
+   },
+   {
+    "x": 432,
+    "y": 870,
+    "w": 216,
+    "h": 27
+   },
+   {
+    "x": 401,
+    "y": 901,
+    "w": 278,
+    "h": 27
+   },
+   {
+    "x": 761,
+    "y": 802,
+    "w": 278,
+    "h": 13
+   },
+   {
+    "x": 859,
+    "y": 816,
+    "w": 82,
+    "h": 13
+   },
+   {
+    "x": 827,
+    "y": 856,
+    "w": 147,
+    "h": 27
+   },
+   {
+    "x": 798,
+    "y": 887,
+    "w": 203,
+    "h": 27
+   },
+   {
+    "x": 833,
+    "y": 918,
+    "w": 135,
+    "h": 27
+   },
+   {
+    "x": 1125,
+    "y": 802,
+    "w": 271,
+    "h": 13
+   },
+   {
+    "x": 1258,
+    "y": 816,
+    "w": 3,
+    "h": 13
+   },
+   {
+    "x": 1156,
+    "y": 840,
+    "w": 208,
+    "h": 27
+   },
+   {
+    "x": 1193,
+    "y": 871,
+    "w": 135,
+    "h": 27
+   },
+   {
+    "x": 327,
+    "y": 1114,
+    "w": 785,
+    "h": 46
+   },
+   {
+    "x": 367,
+    "y": 1164,
+    "w": 706,
+    "h": 46
+   },
+   {
+    "x": 534,
+    "y": 1214,
+    "w": 373,
+    "h": 46
+   },
+   {
+    "x": 416,
+    "y": 1265,
+    "w": 609,
+    "h": 46
+   },
+   {
+    "x": 667,
+    "y": 1336,
+    "w": 107,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1492,
+    "w": 213,
+    "h": 16
+   },
+   {
+    "x": 293,
+    "y": 1492,
+    "w": 199,
+    "h": 16
+   },
+   {
+    "x": 533,
+    "y": 1492,
+    "w": 185,
+    "h": 16
+   },
+   {
+    "x": 758,
+    "y": 1492,
+    "w": 89,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 1622,
+    "w": 386,
+    "h": 40
+   },
+   {
+    "x": 1192,
+    "y": 1633,
+    "w": 69,
+    "h": 18
+   },
+   {
+    "x": -101,
+    "y": 1860,
+    "w": 133,
+    "h": 21
+   },
+   {
+    "x": -101,
+    "y": 1882,
+    "w": 128,
+    "h": 16
+   },
+   {
+    "x": 139,
+    "y": 1843,
+    "w": 40,
+    "h": 16
+   },
+   {
+    "x": 139,
+    "y": 1860,
+    "w": 101,
+    "h": 21
+   },
+   {
+    "x": 139,
+    "y": 1882,
+    "w": 128,
+    "h": 16
+   },
+   {
+    "x": 379,
+    "y": 1843,
+    "w": 40,
+    "h": 16
+   },
+   {
+    "x": 379,
+    "y": 1860,
+    "w": 141,
+    "h": 21
+   },
+   {
+    "x": 379,
+    "y": 1882,
+    "w": 134,
+    "h": 21
+   },
+   {
+    "x": 379,
+    "y": 1905,
+    "w": 128,
+    "h": 16
+   },
+   {
+    "x": 619,
+    "y": 1843,
+    "w": 40,
+    "h": 16
+   },
+   {
+    "x": 619,
+    "y": 1860,
+    "w": 152,
+    "h": 21
+   },
+   {
+    "x": 619,
+    "y": 1882,
+    "w": 23,
+    "h": 21
+   },
+   {
+    "x": 619,
+    "y": 1905,
+    "w": 128,
+    "h": 16
+   },
+   {
+    "x": 631,
+    "y": 1942,
+    "w": 114,
+    "h": 16
+   },
+   {
+    "x": 859,
+    "y": 1843,
+    "w": 55,
+    "h": 21
+   },
+   {
+    "x": 859,
+    "y": 1866,
+    "w": 40,
+    "h": 16
+   },
+   {
+    "x": 859,
+    "y": 1882,
+    "w": 161,
+    "h": 21
+   },
+   {
+    "x": 859,
+    "y": 1905,
+    "w": 16,
+    "h": 21
+   },
+   {
+    "x": 859,
+    "y": 1927,
+    "w": 143,
+    "h": 21
+   },
+   {
+    "x": 859,
+    "y": 1950,
+    "w": 168,
+    "h": 21
+   },
+   {
+    "x": 859,
+    "y": 1972,
+    "w": 128,
+    "h": 16
+   },
+   {
+    "x": 1099,
+    "y": 1843,
+    "w": 40,
+    "h": 16
+   },
+   {
+    "x": 1099,
+    "y": 1860,
+    "w": 158,
+    "h": 21
+   },
+   {
+    "x": 1099,
+    "y": 1882,
+    "w": 128,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 1919,
+    "w": 114,
+    "h": 16
+   },
+   {
+    "x": 1339,
+    "y": 1843,
+    "w": 40,
+    "h": 16
+   },
+   {
+    "x": 1339,
+    "y": 1860,
+    "w": 83,
+    "h": 21
+   },
+   {
+    "x": 1339,
+    "y": 1882,
+    "w": 155,
+    "h": 21
+   },
+   {
+    "x": 1339,
+    "y": 1905,
+    "w": 128,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 2135,
+    "w": 513,
+    "h": 40
+   },
+   {
+    "x": -387,
+    "y": 2673,
+    "w": 405,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 2546,
+    "w": 181,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 2574,
+    "w": 141,
+    "h": 27
+   },
+   {
+    "x": 64,
+    "y": 2649,
+    "w": 391,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 2673,
+    "w": 150,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 2716,
+    "w": 78,
+    "h": 13
+   },
+   {
+    "x": 515,
+    "y": 2546,
+    "w": 273,
+    "h": 13
+   },
+   {
+    "x": 515,
+    "y": 2574,
+    "w": 207,
+    "h": 27
+   },
+   {
+    "x": 515,
+    "y": 2649,
+    "w": 402,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 2673,
+    "w": 348,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 2697,
+    "w": 345,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 2739,
+    "w": 125,
+    "h": 13
+   },
+   {
+    "x": 965,
+    "y": 2546,
+    "w": 299,
+    "h": 13
+   },
+   {
+    "x": 965,
+    "y": 2574,
+    "w": 161,
+    "h": 27
+   },
+   {
+    "x": 965,
+    "y": 2649,
+    "w": 399,
+    "h": 16
+   },
+   {
+    "x": 965,
+    "y": 2673,
+    "w": 407,
+    "h": 16
+   },
+   {
+    "x": 965,
+    "y": 2716,
+    "w": 69,
+    "h": 13
+   },
+   {
+    "x": 1416,
+    "y": 2546,
+    "w": 273,
+    "h": 13
+   },
+   {
+    "x": 1416,
+    "y": 2574,
+    "w": 158,
+    "h": 27
+   },
+   {
+    "x": 1416,
+    "y": 2649,
+    "w": 304,
+    "h": 16
+   },
+   {
+    "x": 1416,
+    "y": 2673,
+    "w": 392,
+    "h": 16
+   },
+   {
+    "x": 1416,
+    "y": 2697,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 1416,
+    "y": 2739,
+    "w": 94,
+    "h": 13
+   },
+   {
+    "x": 478,
+    "y": 2986,
+    "w": 483,
+    "h": 40
+   },
+   {
+    "x": 305,
+    "y": 3072,
+    "w": 226,
+    "h": 18
+   },
+   {
+    "x": 531,
+    "y": 3072,
+    "w": 42,
+    "h": 18
+   },
+   {
+    "x": 573,
+    "y": 3072,
+    "w": 112,
+    "h": 18
+   },
+   {
+    "x": 684,
+    "y": 3072,
+    "w": 297,
+    "h": 18
+   },
+   {
+    "x": 982,
+    "y": 3072,
+    "w": 149,
+    "h": 18
+   },
+   {
+    "x": 1130,
+    "y": 3072,
+    "w": 4,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 3099,
+    "w": 861,
+    "h": 18
+   },
+   {
+    "x": 302,
+    "y": 3126,
+    "w": 103,
+    "h": 18
+   },
+   {
+    "x": 405,
+    "y": 3126,
+    "w": 331,
+    "h": 18
+   },
+   {
+    "x": 736,
+    "y": 3126,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 886,
+    "y": 3126,
+    "w": 252,
+    "h": 18
+   },
+   {
+    "x": 323,
+    "y": 3154,
+    "w": 594,
+    "h": 18
+   },
+   {
+    "x": 917,
+    "y": 3154,
+    "w": 116,
+    "h": 18
+   },
+   {
+    "x": 1038,
+    "y": 3154,
+    "w": 79,
+    "h": 18
+   },
+   {
+    "x": 302,
+    "y": 3181,
+    "w": 836,
+    "h": 18
+   },
+   {
+    "x": 296,
+    "y": 3208,
+    "w": 615,
+    "h": 18
+   },
+   {
+    "x": 911,
+    "y": 3208,
+    "w": 232,
+    "h": 18
+   },
+   {
+    "x": 344,
+    "y": 3235,
+    "w": 753,
+    "h": 18
+   },
+   {
+    "x": 665,
+    "y": 3262,
+    "w": 111,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 3845,
+    "w": 194,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 3871,
+    "w": 244,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 3897,
+    "w": 243,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 3937,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 418,
+    "y": 3696,
+    "w": 222,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 3722,
+    "w": 153,
+    "h": 22
+   },
+   {
+    "x": 434,
+    "y": 3762,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 756,
+    "y": 3845,
+    "w": 145,
+    "h": 22
+   },
+   {
+    "x": 756,
+    "y": 3871,
+    "w": 254,
+    "h": 22
+   },
+   {
+    "x": 756,
+    "y": 3897,
+    "w": 181,
+    "h": 22
+   },
+   {
+    "x": 772,
+    "y": 3937,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 1094,
+    "y": 3696,
+    "w": 224,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 3722,
+    "w": 237,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 3748,
+    "w": 64,
+    "h": 22
+   },
+   {
+    "x": 1110,
+    "y": 3788,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 418,
+    "y": 4310,
+    "w": 231,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 4336,
+    "w": 245,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 4362,
+    "w": 259,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 4362,
+    "w": 236,
+    "h": 22
+   },
+   {
+    "x": 434,
+    "y": 4402,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 1094,
+    "y": 4340,
+    "w": 252,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 4366,
+    "w": 227,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 4392,
+    "w": 156,
+    "h": 22
+   },
+   {
+    "x": 1110,
+    "y": 4432,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 80,
+    "y": 4336,
+    "w": 215,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 4362,
+    "w": 263,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 4402,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 756,
+    "y": 4485,
+    "w": 184,
+    "h": 22
+   },
+   {
+    "x": 756,
+    "y": 4511,
+    "w": 93,
+    "h": 22
+   },
+   {
+    "x": 772,
+    "y": 4551,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 633,
+    "y": 4640,
+    "w": 174,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 4774,
+    "w": 234,
+    "h": 40
+   },
+   {
+    "x": 97,
+    "y": 4919,
+    "w": 132,
+    "h": 40
+   },
+   {
+    "x": 97,
+    "y": 4965,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 97,
+    "y": 5041,
+    "w": 188,
+    "h": 22
+   },
+   {
+    "x": 97,
+    "y": 5067,
+    "w": 209,
+    "h": 22
+   },
+   {
+    "x": 97,
+    "y": 5107,
+    "w": 50,
+    "h": 13
+   },
+   {
+    "x": 97,
+    "y": 5142,
+    "w": 222,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 5166,
+    "w": 220,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 5190,
+    "w": 220,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 5213,
+    "w": 228,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 5237,
+    "w": 212,
+    "h": 16
+   },
+   {
+    "x": 121,
+    "y": 5281,
+    "w": 129,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 4911,
+    "w": 48,
+    "h": 40
+   },
+   {
+    "x": 483,
+    "y": 4927,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 435,
+    "y": 4954,
+    "w": 48,
+    "h": 40
+   },
+   {
+    "x": 483,
+    "y": 4970,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 435,
+    "y": 5041,
+    "w": 207,
+    "h": 22
+   },
+   {
+    "x": 435,
+    "y": 5081,
+    "w": 50,
+    "h": 13
+   },
+   {
+    "x": 435,
+    "y": 5116,
+    "w": 205,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5140,
+    "w": 178,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5164,
+    "w": 212,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5187,
+    "w": 220,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5211,
+    "w": 190,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5235,
+    "w": 40,
+    "h": 16
+   },
+   {
+    "x": 459,
+    "y": 5279,
+    "w": 106,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 4919,
+    "w": 48,
+    "h": 40
+   },
+   {
+    "x": 773,
+    "y": 4965,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 773,
+    "y": 5041,
+    "w": 214,
+    "h": 22
+   },
+   {
+    "x": 773,
+    "y": 5067,
+    "w": 124,
+    "h": 22
+   },
+   {
+    "x": 773,
+    "y": 5093,
+    "w": 216,
+    "h": 22
+   },
+   {
+    "x": 773,
+    "y": 5133,
+    "w": 50,
+    "h": 13
+   },
+   {
+    "x": 773,
+    "y": 5168,
+    "w": 191,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5192,
+    "w": 171,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5216,
+    "w": 228,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5239,
+    "w": 204,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5263,
+    "w": 168,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5287,
+    "w": 161,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5311,
+    "w": 208,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5334,
+    "w": 130,
+    "h": 16
+   },
+   {
+    "x": 797,
+    "y": 5378,
+    "w": 159,
+    "h": 16
+   },
+   {
+    "x": 797,
+    "y": 5410,
+    "w": 195,
+    "h": 16
+   },
+   {
+    "x": 797,
+    "y": 5434,
+    "w": 145,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 4919,
+    "w": 48,
+    "h": 40
+   },
+   {
+    "x": 1111,
+    "y": 4965,
+    "w": 140,
+    "h": 18
+   },
+   {
+    "x": 1111,
+    "y": 5041,
+    "w": 210,
+    "h": 22
+   },
+   {
+    "x": 1111,
+    "y": 5067,
+    "w": 53,
+    "h": 22
+   },
+   {
+    "x": 1111,
+    "y": 5107,
+    "w": 50,
+    "h": 13
+   },
+   {
+    "x": 1111,
+    "y": 5142,
+    "w": 182,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 5166,
+    "w": 198,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 5190,
+    "w": 215,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 5213,
+    "w": 202,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 5237,
+    "w": 230,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 5261,
+    "w": 155,
+    "h": 16
+   },
+   {
+    "x": 1135,
+    "y": 5305,
+    "w": 197,
+    "h": 16
+   },
+   {
+    "x": 1135,
+    "y": 5336,
+    "w": 99,
+    "h": 16
+   },
+   {
+    "x": 633,
+    "y": 5570,
+    "w": 174,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 5890,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 5939,
+    "w": 102,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 5983,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6028,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6073,
+    "w": 66,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 5890,
+    "w": 135,
+    "h": 18
+   },
+   {
+    "x": 402,
+    "y": 5939,
+    "w": 145,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 5983,
+    "w": 88,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6000,
+    "w": 71,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6045,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 6045,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6090,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 6090,
+    "w": 58,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 5939,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 5939,
+    "w": 68,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 5983,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6028,
+    "w": 120,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6045,
+    "w": 83,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6062,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 643,
+    "y": 6062,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 5939,
+    "w": 156,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 5955,
+    "w": 41,
+    "h": 13
+   },
+   {
+    "x": 845,
+    "y": 5955,
+    "w": 65,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6000,
+    "w": 153,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6045,
+    "w": 143,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6090,
+    "w": 132,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6107,
+    "w": 126,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 5905,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 1112,
+    "y": 5985,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 6195,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 152,
+    "y": 6195,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 160,
+    "y": 6195,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 1298,
+    "y": 871,
+    "w": 122,
+    "h": 16
+   }
+  ]
+ }
+}

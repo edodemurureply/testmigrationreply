@@ -1,0 +1,20 @@
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.reply.com/en/accessibility (live side from cache stardust/replica/gates/en-accessibility-360/chrome-live.json, probed 2026-11-15T09:53:36.122Z — delete the file to re-probe)
+  build: http://localhost:8791/en-accessibility-proposed.html
+
+■ header: ✓ parity — 0 paired of 0/0 texts, 3/3 icons
+
+■ footer: 11 delta(s) — 25 paired of 25/25 texts, 7/7 icons
+  PAIR         "Offices"  Δw -2px (45→43)
+  PAIR         "Privacy & Cookie Policy"  Δw +3px (142→145)
+  PAIR         "Privacy Notice"  Δw -2px (165→163)
+  PAIR         "(Candidate)"  Δw -2px (73→71); <a> box 165×17 → 163×17
+  PAIR         "CCPA Privacy Notice"  Δw +4px (127→131)
+  PAIR         "Modern Slavery Act Transparency Policy"  Δw -2px (208→206)
+  PAIR         "(UK & IR)"  Δw +6px (51→57); <a> box 208×34 → 206×34
+  PAIR         "Declaration of Principles - LKSG"  Δw +5px (261→266)
+  PAIR         "(Germany)"  Δx +4px (236→240); <a> box 261×17 → 266×17
+  PAIR         "Accessibility Statement"  Δw -4px (147→143)
+  PAIR         "Contacts"  Δw -3px (88→85)
+
+✗ 11 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

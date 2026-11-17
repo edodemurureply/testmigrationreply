@@ -1,0 +1,172 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-15T21:11:15.370Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.reply.com",
+    "eds": "https://main--a355dc1b--aemcoder.aem.page",
+    "edsHostOverride": "https://main--a355dc1b--aemcoder.aem.page",
+    "only": [
+      "index"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 0,
+    "overridePass": 0,
+    "fail": 1,
+    "error": 0,
+    "failPixel": 1,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 1,
+    "failUnits": 0,
+    "fontsNotLoaded": 1,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "index",
+      "path": "/",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 10.34,
+      "textPct": 12.74,
+      "heightDelta": 0,
+      "originH": 16052,
+      "edsH": 16052,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 13,
+      "clipPass": true,
+      "clipAllowance": 13,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": false,
+      "fontsNotLoaded": [
+        "khanqyjjei-fallback",
+        "tuqgwxsjgq-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 10.34% > 10%",
+        "content MISSING 5 / HIDDEN 0",
+        "font-not-loaded:khanqyjjei-fallback",
+        "font-not-loaded:tuqgwxsjgq-fallback"
+      ],
+      "clipGroups": [
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#unipol-accelerates-innovation-in-the-insurance-sector-thanks-to-generative-ai",
+          "path": "div.reply-card-body > div.reply-card-title > h3#unipol-accelerates-innovation-in-the-insurance-sector-thanks-to-generative-ai > a",
+          "text": "unipol accelerates innovation in the insurance sector thanks",
+          "cutMin": 24,
+          "cutMax": 24
+        },
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#generali-country-italia-enhances-the-customer-experience-with-an-aws-based-contact-center",
+          "path": "div.reply-card-body > div.reply-card-title > h3#generali-country-italia-enhances-the-customer-experience-with-an-aws-based-contact-center > a",
+          "text": "generali country italia enhances the customer experience wit",
+          "cutMin": 24,
+          "cutMax": 24
+        },
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#bmw-accelerates-migration-to-cloud-native-bi-with-storm-reply-and-aws",
+          "path": "div.reply-card-body > div.reply-card-title > h3#bmw-accelerates-migration-to-cloud-native-bi-with-storm-reply-and-aws > a",
+          "text": "bmw accelerates migration to cloud-native bi with storm repl",
+          "cutMin": 24,
+          "cutMax": 24
+        },
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#game-set-ai-match-changing-insights-at-the-billie-jean-king-cup-by-gainbridge",
+          "path": "div.reply-card-body > div.reply-card-title > h3#game-set-ai-match-changing-insights-at-the-billie-jean-king-cup-by-gainbridge > a",
+          "text": "game, set, ai: match-changing insights at the billie jean ki",
+          "cutMin": 24,
+          "cutMax": 24
+        },
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#riverty-transforms-customer-service-with-ai-and-an-omnichannel-strategy",
+          "path": "div.reply-card-body > div.reply-card-title > h3#riverty-transforms-customer-service-with-ai-and-an-omnichannel-strategy > a",
+          "text": "riverty transforms customer service with ai and an omnichann",
+          "cutMin": 24,
+          "cutMax": 24
+        },
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#devbot-audis-intelligent-multi-agent-system-for-smarter-and-safer-cloud-use",
+          "path": "div.reply-card-body > div.reply-card-title > h3#devbot-audis-intelligent-multi-agent-system-for-smarter-and-safer-cloud-use > a",
+          "text": "devbot: audi’s intelligent multi-agent system for smarter an",
+          "cutMin": 24,
+          "cutMax": 24
+        }
+      ],
+      "clipAllowReason": "source-faithful: home wall card titles longer than 3 lines are line-clamped to 3 by the source itself (h3.line-clamp-3 inside the card anchor; identical heading boxes on the origin); the title link sits inside the clamped heading, so the probe reports CONTROL CLIPPED (unipol, generali, bmw, billie jean king cup, riverty, devbot, a new era in design, southstate, smart bean, unipolsai, apple vision pro, audi rag, omnichannel …)",
+      "content": {
+        "missing": 5,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 7,
+        "hiddenButtons": 0,
+        "findings": 34,
+        "variable": [
+          "[data-carousel-type=\"reply-card-slider-scale\"]=.card-carousel.scale",
+          "[data-slider-type=\"reply-card-slider-simple\"]=.card-carousel.simple",
+          "[data-carousel-type=\"reply-statements-slider\"]=.believe-rail"
+        ]
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [
+        "0-500:66.6%",
+        "500-1000:58.5%",
+        "1000-1500:53.6%",
+        "2000-2500:16.7%",
+        "5000-5500:41.9%"
+      ],
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,512 @@
+/* b4-tabber — lifted from stardust/prototypes/brand.css (module: b4-tabber) + the page sheet (.cxm-dark band,
+   .cxm-services margin-bottom 56 / 120 @1440). 4 / 8 / 12-col grid, padding 40 / 64, rows controls | tab
+   cards | panel (row-gap 2.25rem). Tab = icon card, 1px #d6e0ea base line, 4px accent bar on the active tab.
+   Items: 100%-80 / min(n,3) @768 / min(n,4) @1024 / min(n,6) @1440; .all-displayed centres the row and
+   drops the padding + arrows. Panel: cols 1/-1, 2/-2 @1024, 3/-3 @1440. */
+.b4-tabber {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #151f27;
+}
+
+.b4-tabber .b4-tabber-grid {
+  --gutter: 40px;
+  --grid-padding: 40px;
+
+  flex: 1 1 100%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: minmax(0, 1fr) auto auto;
+  gap: 2.25rem var(--gutter);
+  width: 100%;
+  min-width: 0;
+  max-width: 1660px;
+  margin: 0 auto 56px;
+  padding: 0 var(--grid-padding);
+}
+
+/* controls: round-bt round-bt--outline-on-dark */
+.b4-tabber .b4-tabber-controls {
+  grid-area: 1 / 1 / span 1 / -1;
+  justify-self: center;
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+.b4-tabber .round-bt {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  padding: 1px 6px;
+  border: 0.0625rem solid #fff;
+  border-radius: 50%;
+  background: none;
+  color: #fff;
+  transition: border-color 50ms linear;
+}
+
+.b4-tabber .round-bt::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  pointer-events: none;
+  background: var(--brand-color);
+  opacity: 0;
+  transform: scale(0);
+  transform-origin: 50%;
+  transition: transform 0.4s cubic-bezier(0.09, 0.72, 0.76, 1.01), opacity 0.3s cubic-bezier(0.09, 0.72, 0.76, 1.01);
+}
+
+.b4-tabber .round-bt svg {
+  position: relative;
+  z-index: 1;
+}
+
+.b4-tabber .round-bt:hover {
+  color: var(--text-on-brand-color);
+  border-color: transparent;
+  transition: border-color 0.15s linear 0.25s;
+}
+
+.b4-tabber .round-bt:hover::after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.b4-tabber .round-bt:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.b4-tabber .round-bt:disabled:hover {
+  color: inherit;
+  border-color: currentcolor;
+}
+
+.b4-tabber .round-bt:disabled:hover::after {
+  opacity: 0;
+  transform: scale(0);
+}
+
+.b4-tabber .all-displayed .b4-tabber-prev,
+.b4-tabber .all-displayed .b4-tabber-next {
+  display: none;
+}
+
+.b4-tabber .b4-tabber-nav-wrap {
+  grid-column: 1 / -1;
+  grid-row: 2 / span 1;
+  margin: 0 -40px;
+  overflow: hidden;
+  touch-action: pan-y;
+  user-select: none;
+}
+
+.b4-tabber .b4-tabber-nav {
+  --padding: 40px;
+  --item-width: calc(100% - var(--padding) * 2);
+
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: start;
+  box-sizing: content-box;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 var(--padding);
+  column-gap: var(--gutter);
+  list-style: none;
+  transition: transform 1s ease-out;
+}
+
+.b4-tabber .all-displayed .b4-tabber-nav {
+  justify-content: center;
+  padding: 0;
+}
+
+.b4-tabber .b4-tabber-tab {
+  position: relative;
+  flex: 0 0 var(--item-width);
+  max-width: var(--item-width);
+  padding-bottom: 2rem;
+  border-radius: 0.125rem;
+  cursor: pointer;
+}
+
+.b4-tabber .b4-tabber-tab::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: calc(var(--gutter) * -1);
+  display: block;
+  width: calc(100% + var(--gutter) * 2);
+  height: 1px;
+  background-color: #d6e0ea;
+}
+
+.b4-tabber .b4-tabber-tab:first-of-type::before {
+  left: 0;
+  width: calc(100% + var(--gutter));
+}
+
+.b4-tabber .b4-tabber-tab:last-of-type::before {
+  width: calc(100% + var(--gutter));
+}
+
+.b4-tabber .b4-tabber-tab::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: var(--accent-color, var(--brand-color));
+  opacity: 0;
+}
+
+.b4-tabber .b4-tabber-tab.is-active::after {
+  opacity: 1;
+}
+
+.b4-tabber .b4-tabber-tab.enter-left::after {
+  animation: 0.3s ease-out b4-tabber-enter-left;
+}
+
+.b4-tabber .b4-tabber-tab.enter-right::after {
+  animation: 0.3s ease-out b4-tabber-enter-right;
+}
+
+.b4-tabber .b4-tabber-tab:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+.b4-tabber .b4-tabber-card {
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center center;
+  color: #fff;
+  text-align: center;
+}
+
+.b4-tabber .b4-tabber-iconbox {
+  display: inline-block;
+}
+
+.b4-tabber .b4-tabber-iconbox img {
+  width: 120px;
+  height: auto;
+}
+
+.b4-tabber .b4-tabber-gap {
+  flex-basis: 100%;
+  height: 20px;
+}
+
+.b4-tabber .b4-tabber-name {
+  flex-basis: 100%;
+}
+
+/* tab label: t-lead t-center t-white */
+.b4-tabber .b4-tabber-name p {
+  margin: 0;
+  color: #fff;
+  font-family: var(--font-lead);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 130%;
+  text-align: center;
+}
+
+.b4-tabber .b4-tabber-panel {
+  grid-column: 1 / -1;
+  grid-row: 3 / span 1;
+  display: flex;
+  flex-grow: 1;
+  max-height: 0;
+  opacity: 0;
+  visibility: hidden;
+  color: #fff;
+  transition: opacity 0.4s, visibility 0.4s;
+}
+
+.b4-tabber .b4-tabber-panel.is-active {
+  max-height: none;
+  opacity: 1;
+  visibility: visible;
+}
+
+.b4-tabber .b4-tabber-body {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  min-width: 0;
+}
+
+.b4-tabber .b4-tabber-body > div {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.b4-tabber .b4-tabber-title {
+  margin-bottom: 28px;
+}
+
+.b4-tabber .b4-tabber-title :is(p, h2, h3, h4, h5, h6) {
+  margin: 0;
+  font-family: var(--font-lead);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.b4-tabber .b4-tabber-text p,
+.b4-tabber .b4-tabber-list li {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 170%;
+}
+
+.b4-tabber .b4-tabber-label {
+  margin-top: 42px;
+  margin-bottom: 28px;
+}
+
+.b4-tabber .b4-tabber-label p {
+  margin: 0;
+  font-family: var(--font-lead);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 170%;
+}
+
+.b4-tabber .b4-tabber-list :is(ul, ol) {
+  margin: 0;
+  padding-left: 40px;
+}
+
+.b4-tabber .b4-tabber-list li {
+  position: relative;
+}
+
+@keyframes b4-tabber-enter-left {
+  0% { transform: translate(-100%); }
+  100% { transform: translate(0); }
+}
+
+@keyframes b4-tabber-enter-right {
+  0% { transform: translate(100%); }
+  100% { transform: translate(0); }
+}
+
+/* R-02 metric compensation: the tab abstracts set one line short at 360 */
+@media (width < 768px) {
+  .b4-tabber .b4-tabber-text p,
+  .b4-tabber .b4-tabber-list li {
+    letter-spacing: 0.01em;
+  }
+}
+
+@media (width >= 768px) {
+  .b4-tabber .b4-tabber-grid {
+    --grid-padding: 64px;
+
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+
+  .b4-tabber .b4-tabber-controls {
+    justify-self: end;
+  }
+
+  .b4-tabber .b4-tabber-nav-wrap {
+    margin: 0 -64px;
+  }
+
+  .b4-tabber .b4-tabber-nav {
+    --padding: 64px;
+    --bp-tabs-count: min(var(--tabs-count), 3);
+    --item-width: calc((100% - var(--padding) * 2 - var(--gutter) * (var(--bp-tabs-count) - 1)) / var(--bp-tabs-count));
+  }
+}
+
+@media (width >= 1024px) {
+  .b4-tabber .b4-tabber-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .b4-tabber .b4-tabber-nav {
+    --bp-tabs-count: min(var(--tabs-count), 4);
+  }
+
+  .b4-tabber .b4-tabber-panel {
+    grid-column: 2 / -2;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-tabber .b4-tabber-grid {
+    margin-bottom: 120px;
+  }
+
+  .b4-tabber .b4-tabber-nav {
+    --bp-tabs-count: min(var(--tabs-count), 6);
+  }
+
+  .b4-tabber .b4-tabber-panel {
+    grid-column: 3 / -3;
+  }
+
+  .b4-tabber .b4-tabber-name p {
+    font-size: 24px;
+
+    /* R-02: "Consumer Service" keeps one line in its 230px tab */
+    letter-spacing: -0.02em;
+  }
+
+  .b4-tabber .b4-tabber-title {
+    margin-bottom: 24px;
+  }
+
+  .b4-tabber .b4-tabber-title :is(p, h2, h3, h4, h5, h6) {
+    font-size: 18px;
+  }
+
+  .b4-tabber .b4-tabber-label {
+    margin-bottom: 24px;
+  }
+}
+
+/* variant ice (cluster-brand-solution): the tabber on the #f4f8fc band — ink labels, panel copy and
+   arrow buttons instead of white. */
+.b4-tabber.ice,
+.b4-tabber.ice .b4-tabber-grid {
+  background-color: var(--c-ice);
+}
+
+.b4-tabber.ice .b4-tabber-card,
+.b4-tabber.ice .b4-tabber-name p,
+.b4-tabber.ice .b4-tabber-panel {
+  color: var(--c-ink);
+}
+
+.b4-tabber.ice .b4-tabber-grid .round-bt:is(:enabled, :disabled) {
+  border-color: var(--c-ink);
+  color: var(--c-ink);
+}
+
+/* tab abstract (cluster-brand-case-study): a second label paragraph is the tab's short text
+   (14 px / 300, 12 px under the title); single-paragraph labels are untouched */
+.b4-tabber .b4-tabber-card .b4-tabber-name p + p {
+  margin-top: 12px;
+  font-family: var(--font-text);
+  font-size: 14px;
+  line-height: 23.8px;
+  letter-spacing: normal;
+}
+
+@media (width >= 1440px) {
+  .b4-tabber .b4-tabber-card .b4-tabber-name p + p {
+    font-size: 14px;
+    letter-spacing: normal;
+  }
+}
+
+/* variant label-s (fix-brand-solution, agentic-ai-rgm): the smaller tab label of the source
+   (text-mu4tw: 18 px, 20 px from 1440, normal tracking) instead of 20 / 24 px. */
+.b4-tabber.label-s .b4-tabber-card .b4-tabber-name p:first-child {
+  font-size: 18px;
+  letter-spacing: normal;
+}
+
+@media (width >= 1440px) {
+  .b4-tabber.label-s .b4-tabber-card .b4-tabber-name p:first-child {
+    font-size: 20px;
+  }
+}
+
+/* ls-<n> (fix-small-2): R-02 wrap compensation below 768 — one tracking (n / 1000 em, ls-0 =
+   normal) on every text line of the block, measured per block against the live line breaks
+   @360 (stand-in faces set ~2 % narrower; .work/rollout/fix-small-2/wrap.mjs) */
+@media (width < 768px) {
+  .b4-tabber.ls-0 { --ls-v: normal; }
+  .b4-tabber.ls-5 { --ls-v: 0.005em; }
+  .b4-tabber.ls-7 { --ls-v: 0.0075em; }
+  .b4-tabber.ls-10 { --ls-v: 0.01em; }
+  .b4-tabber.ls-12 { --ls-v: 0.0125em; }
+  .b4-tabber.ls-15 { --ls-v: 0.015em; }
+  .b4-tabber.ls-20 { --ls-v: 0.02em; }
+  .b4-tabber.ls-25 { --ls-v: 0.025em; }
+
+  main div.b4-tabber.block[class*=" ls-"] :is(p, li, h1, h2, h3, h4, h5, h6) {
+    letter-spacing: var(--ls-v, normal);
+  }
+}
+
+/* variant nolead (fix-brand-solution-4, artificial-intelligence-consumer-goods): the panel's first
+   paragraph is plain copy (source p.text-xufux 14 / 170 %, 14 px to the next paragraph), not the
+   lead title */
+.b4-tabber.nolead .b4-tabber-title {
+  margin-bottom: 14px;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.b4-tabber.nolead .b4-tabber-title p {
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 170%;
+}
+
+/* nls-10 / pc (fix-brand-solution-5, demand-driven-replenishment + intelligent-product-recommendations
+   whitepaper tabbers): tab labels tracked +.01em from 1440 (instead of the -.02em R-02 default) to
+   match the live 3-line / 2-line label breaks; pc = panel copy centred (source text-align-center) */
+@media (width >= 1440px) {
+  .b4-tabber.nls-10 .b4-tabber-name p {
+    letter-spacing: 0.01em;
+  }
+}
+
+.b4-tabber.pc .b4-tabber-panel {
+  text-align: center;
+}
+
+/* variant ltitle (fix-brand-solution-6, REVE offer tabber): the paragraph before the list is the
+   panel title of the source (16 / 140 % lead bold, 18 from 1440, flush on the panel top, 24 px to
+   the list); list items 2.8 px apart (live li pitch 26.6 @1440) */
+.b4-tabber.ltitle .b4-tabber-label {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.b4-tabber.ltitle .b4-tabber-label p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.b4-tabber.ltitle .b4-tabber-list li {
+  margin-bottom: 2.8px;
+}
+
+@media (width >= 1440px) {
+  /* stylelint-disable-next-line no-descending-specificity */
+  .b4-tabber.ltitle .b4-tabber-label p {
+    font-size: 18px;
+  }
+}

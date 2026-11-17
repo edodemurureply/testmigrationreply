@@ -1,0 +1,492 @@
+{
+  "slug": "en-governance-risk-and-compliance",
+  "type": "hub",
+  "renderBranch": "A'",
+  "template": "en-iot",
+  "modules": [
+    "media-hero",
+    "statement",
+    "section-heading",
+    "labs",
+    "card-carousel",
+    "cards-wall",
+    "hub-text",
+    "rose-cta",
+    "discover-also"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "media-hero",
+    "statement",
+    "section-heading",
+    "labs",
+    "section-heading",
+    "card-carousel",
+    "section-heading",
+    "cards-wall",
+    "section-heading",
+    "card-carousel",
+    "hub-text",
+    "rose-cta",
+    "discover-also"
+  ],
+  "canonShas": {
+    "header": "ba66d288c426",
+    "footer": "cb39f4a9e7a8",
+    "css": "5bf5dffd7509"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Governance, Risk and Compliance | Reply",
+    "description": "Discover the solutions offered by Reply for its customers in the estimation and development of business risk management strategies.",
+    "canonical": "https://www.reply.com/en/governance-risk-and-compliance",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Governance, Risk and Compliance | Reply",
+    "description": "Discover the solutions offered by Reply for its customers in the estimation and development of business risk management strategies.",
+    "url": "https://www.reply.com/en/governance-risk-and-compliance"
+  },
+  "migratedAt": "2026-11-15T22:20:57Z",
+  "designMdSha": "d809c0215087",
+  "designJsonSha": "bdcb89ad7bf4",
+  "sourceCurrentSha": "f4f58830e213",
+  "sourceProposedSha": "806c68732586",
+  "fidelityTier": "sibling",
+  "archetypeSource": "en-iot",
+  "archetypeSha": "0f103c077137",
+  "variants": [
+    "card-carousel--awards card-carousel--horizontal card-carousel--hub card-carousel--simple hub-text--b-149 hub-text--bm-23 hub-text--mixed hub-text--t-184 hub-text--tm-76 section-heading--t-96 section-heading--tm-80 section-heading--w-6 statement--hub"
+  ],
+  "gatesPassed": [
+    "delivery-lint"
+  ],
+  "gateEvidence": {
+    "pixel-gate-1440": "OPEN: no row in the pixel table (prototypes-1440) — run gate-all.mjs --stage prototype so the page is measured",
+    "pixel-gate-360": "OPEN: no row in the pixel table (prototypes-360) — run gate-all.mjs --stage prototype so the page is measured",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /en/governance-risk-and-compliance)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "module-flattened",
+      "source": "cardcarousel-runtime,gridcontainer-runtime (section 10)",
+      "target": "hub-text",
+      "reason": "one-off source runtime without a hub block; content kept verbatim in order"
+    }
+  ],
+  "assetsBundled": 5,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/de/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/metaverse",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/prebuilt-ai-apps",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quality-engineering",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quantum-computing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/robotics-and-autonomous-things",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/strategy-and-business-model-transformation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/supply-chain-management",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-networks",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/logistics",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/retail-and-consumer-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-and-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/labs/area-42",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-73",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-phi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/cyber-security-lab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-house-of-models",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-iot-labs-concept-quality",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/testautomationcentre",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/xchange",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/energy-and-emissions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/reply-to-the-earth",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/sustainable-supply-chain",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/continuous-learning",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/wellbeing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/inclusion-and-diversity",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/governance-system",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/governance-policies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/governance/our-commitment-to-ethical-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/newsroom?type=financial-news",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/reply-share-information",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-highlights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-calendar-and-events",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-reports",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/shareholders-meeting",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/loyalty-shares",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors#H6tmz",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/governance-risk-and-compliance/responsible-ai-and-eu-ai-act-compliance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cybersecurity/digital-operational-resilience-act",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/avantage-reply/en/publications/white-paper/governance-risk-compliance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/avantage-reply/en/publications/Liquidity-Stress-Testing-Toolkit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contents/A-Practical-Guide-to-Wind-Down-Planning.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contents/ARF-Climate-Risk-Into-Credit-Risk-Models.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contents/EXPLORING_THE_IMPLEMENTATION_OF_THE_EU_TAXONOMY_FOR_FINANCIAL_INSTITUTIONS.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/governance-risk-and-compliance/iveco-group-introduces-a-structured-governance-framework-for-responsible-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/sprint-reply-and-wm-reply-at-the-national-ai-in-government-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/governance-risk-and-compliance/your-way-to-ethical-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/breakfast-briefing-ransomware-resilience-and-reality",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/dla-piper-european-technology-summit-2025",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/events/compliance-and-innovation-under-the-lens-vavigating-the-eu-ai-act",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/events/riskminds-2023",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/avantage-reply/en/publications/white-paper/sustainable-frtb",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/glue-reply/en/fca-consumer-duty-consulting-service",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contents/AR_-Outsourcing_Circular.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contents/Alternative_Reference_Rates.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contents/ARF_IT_Outsourcing_Modified_CSSF_Circular.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/avantage-reply/en/newsroom/news/aml-package-2021",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/uk/jobsearch?title=&company=Avantage%20Reply&city=&country=UK&role=&classification=&technology=",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quality-engineering",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-networks",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/strategy-and-business-model-transformation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-candidate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-client",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-supplier",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-marketing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/modern-slavery-statement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contents/Reply_Company_Information_en.pdf",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "en/governance-risk-and-compliance/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "en/governance-risk-and-compliance/_meta.json",
+  "driverVersion": "1"
+}

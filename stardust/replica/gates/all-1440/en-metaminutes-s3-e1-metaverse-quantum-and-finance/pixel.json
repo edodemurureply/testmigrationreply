@@ -1,0 +1,56 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-metaminutes-s3-e1-metaverse-quantum-and-finance/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-metaminutes-s3-e1-metaverse-quantum-and-finance/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2527,
+    "mode": "overlap"
+  },
+  "heightDelta": 27,
+  "differingPixels": 228306,
+  "pct": 6.27,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-metaminutes-s3-e1-metaverse-quantum-and-finance/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 12.75,
+  "textBoxes": 57,
+  "textPixels": 314926,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.8
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 2.6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 8.7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 12.6
+    },
+    {
+      "y0": 2500,
+      "y1": 2527,
+      "pct": 95.6
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--a355dc1b--aemcoder.aem.live/en/metaminutes-s3-e1-metaverse-quantum-and-finance"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "slug": "4brands-reply-de-connected-shelf-iot-supermarket",
+  "type": "brand-case-study",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "b4-hero",
+    "statement",
+    "b4-intro",
+    "b4-text",
+    "b4-slider",
+    "b4-tabber",
+    "b4-profile"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "b4-hero",
+    "statement",
+    "b4-intro",
+    "b4-text",
+    "b4-slider",
+    "statement",
+    "b4-tabber",
+    "b4-profile"
+  ],
+  "canonShas": {
+    "header": "09e604c21c9e",
+    "footer": "6f23b422f32c",
+    "css": "5bf5dffd7509"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "IoT im Supermarkt: Connected Shelf für volle Regale | 4brands Reply",
+    "description": "Mit dem Connected Shelf leere Regale vermeiden: Echtzeit-Überwachung und Prognosen für Bestände im Regal verbessern die Kundenzufriedenheit und den Umsatz.",
+    "canonical": "https://www.reply.com/4brands-reply/de/connected-shelf-iot-supermarket",
+    "lang": "de"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "IoT im Supermarkt: Connected Shelf für volle Regale | 4brands Reply",
+    "description": "Mit dem Connected Shelf leere Regale vermeiden: Echtzeit-Überwachung und Prognosen für Bestände im Regal verbessern die Kundenzufriedenheit und den Umsatz.",
+    "url": "https://www.reply.com/4brands-reply/de/connected-shelf-iot-supermarket"
+  },
+  "migratedAt": "2026-11-15T20:46:25Z",
+  "designMdSha": "d809c0215087",
+  "designJsonSha": "bdcb89ad7bf4",
+  "sourceCurrentSha": "d6acd362cde1",
+  "sourceProposedSha": "9070cc087310",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "delivery-lint"
+  ],
+  "gateEvidence": {
+    "pixel-gate-1440": "OPEN: no row in the pixel table (prototypes-1440) — run gate-all.mjs --stage prototype so the page is measured",
+    "pixel-gate-360": "OPEN: no row in the pixel table (prototypes-360) — run gate-all.mjs --stage prototype so the page is measured",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /4brands-reply/de/connected-shelf-iot-supermarket)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 16,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/4brands-reply/en/rotkaeppchen-mumm-sektkellereien",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/de/transparency-with-sap-embedded-analytics",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/de/about/careers/de/job-search?country=de&company=4brands_reply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/en/rotkaeppchen-mumm-sektkellereien",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/de/about/careers/de/job-search?country=de&company=4brands_reply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/de/impressum",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/privacy-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/privacy-notice-candidate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/privacy-notice-client",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/privacy-notice-supplier",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/privacy-notice-marketing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/declaration-of-principles",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/accessibility",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "4brands-reply/de/connected-shelf-iot-supermarket/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "4brands-reply/de/connected-shelf-iot-supermarket/_meta.json",
+  "driverVersion": "1"
+}

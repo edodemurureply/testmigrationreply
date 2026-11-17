@@ -1,0 +1,324 @@
+[live-session] waiting to pace live navigations to www.reply.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/4brands-reply-de-rotkaeppchen-mumm-sektkellereien-1440/vdiff-iter1/
+
+build red flags (advisory): 
+  • IMAGE DID NOT LOAD: 38c0db8d-047e-44b6-8ffe-9d2a57010952.png rendered 185x80 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 4554,
+  "textLen": 3364,
+  "images": [
+   {
+    "src": "65e121cb-a2d4-437e-996d-420a6ce754e1.svg",
+    "natural": "300x101",
+    "rendered": "190x64",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1ca5453d-becb-4d39-8b48-626834aa67a4.jpg?im=Crop,rect=(78,0,1252,704),allowExpansion",
+    "natural": "1252x704",
+    "rendered": "1440x810",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "856d00b5-a544-47e4-8eeb-70093be49106.png",
+    "natural": "1560x622",
+    "rendered": "298x119",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "38c0db8d-047e-44b6-8ffe-9d2a57010952.png",
+    "natural": "652x283",
+    "rendered": "185x80",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "06f51f8d-270a-4b57-ad4e-47ac6ad7083d.svg",
+    "natural": "0x0",
+    "rendered": "0x71",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Reply_-_LOGO__150dpi.jpg",
+    "natural": "614x164",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Rotkäppchen-Mumm",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "64px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Erfolgreiche Umstellung mit CRM-",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Der Kunde",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Die Herausforderung",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Die Lösung",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "fuyvanaywc",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "xsktolgvcc",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "dmfztqydac",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "ylmkeyntap",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "yeiwdmfzik",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "hgnjpkzaod",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "wyahfcyfjr",
+    "width": 1263,
+    "left": 0
+   },
+   {
+    "sel": "dklrnilhdz",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "rkhayjttkt",
+    "width": 1263,
+    "left": 0
+   },
+   {
+    "sel": "wfhsnfymve",
+    "width": 1312,
+    "left": 64
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 4554,
+  "textLen": 3350,
+  "images": [
+   {
+    "src": "65e121cb-a2d4-437e-996d-420a6ce754e1.svg",
+    "natural": "300x101",
+    "rendered": "190x64",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1ca5453d-becb-4d39-8b48-626834aa67a4.jpg?im=Crop,rect=(78,0,1252,704),allowExpansion",
+    "natural": "1252x704",
+    "rendered": "1440x810",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "856d00b5-a544-47e4-8eeb-70093be49106.png",
+    "natural": "1560x622",
+    "rendered": "298x119",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "38c0db8d-047e-44b6-8ffe-9d2a57010952.png",
+    "natural": "0x0",
+    "rendered": "185x80",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "06f51f8d-270a-4b57-ad4e-47ac6ad7083d.svg",
+    "natural": "0x0",
+    "rendered": "0x71",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Rotkäppchen-Mumm",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "64px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Erfolgreiche Umstellung mit CRM-",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Der Kunde",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Die Herausforderung",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Die Lösung",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "r-grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "r-grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "b4cs-intro__grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "b4cs-client__grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "b4cs-challenge__grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "b4cs-solution__grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "b4-quote__panel",
+    "width": 1263,
+    "left": 0
+   },
+   {
+    "sel": "b4cs-statement__grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "b4-quote__panel",
+    "width": 1263,
+    "left": 0
+   },
+   {
+    "sel": "b4-profile__inner",
+    "width": 1312,
+    "left": 64
+   }
+  ]
+ }
+}

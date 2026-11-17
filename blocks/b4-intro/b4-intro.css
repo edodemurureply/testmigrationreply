@@ -1,0 +1,278 @@
+/* b4-intro — lifted from the brand-solution prototype (.cxm-intro): grid margin-bottom 56 / 120 @1440;
+   title (t-section) cols 1-4 / 1-8 / 2-5 / 2-6, text cols 1-4 / 1-8 / 6-11 / 7-11. */
+.b4-intro {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.b4-intro .b4-intro-grid {
+  flex: 1 1 100%;
+  margin-top: 0;
+  margin-bottom: 56px;
+}
+
+.b4-intro .b4-intro-title {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  margin-bottom: 1.5rem;
+}
+
+.b4-intro .b4-intro-title :is(h1, h2, h3, h4) {
+  margin: 0;
+  font-family: var(--font-lead);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.b4-intro .b4-intro-text {
+  grid-column: 1 / 5;
+  grid-row: 2 / 3;
+}
+
+@media (width >= 768px) {
+  .b4-intro .b4-intro-title {
+    grid-column: 1 / 9;
+    margin-bottom: 2.5rem;
+  }
+
+  .b4-intro .b4-intro-text {
+    grid-column: 1 / 9;
+  }
+}
+
+@media (width >= 1024px) {
+  .b4-intro .b4-intro-title {
+    grid-column: 2 / 6;
+    margin-bottom: 0;
+  }
+
+  .b4-intro .b4-intro-text {
+    grid-column: 6 / 12;
+    grid-row: 1 / 2;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-intro .b4-intro-grid {
+    margin-bottom: 120px;
+  }
+
+  .b4-intro .b4-intro-title {
+    grid-column: 2 / 7;
+  }
+
+  .b4-intro .b4-intro-title :is(h1, h2, h3, h4) {
+    font-size: 36px;
+  }
+
+  .b4-intro .b4-intro-text {
+    grid-column: 7 / 12;
+  }
+}
+
+/* variant split (brand-case-study .b4cs-intro): grid margin 28 / 56, 120 / 120 @1440; title (h3, #000)
+   1-4 / 1-5 / 2-7; col1 1-4 / 1-4 / 2-6; col2 1-4 / 5-8 / 7-11 (rows: title | col1 | col2 below 768). */
+.b4-intro.split .b4-intro-grid {
+  margin-top: 28px;
+}
+
+.b4-intro.split .b4-intro-title :is(h1, h2, h3, h4) {
+  color: #000;
+}
+
+.b4-intro.split .b4-intro-col1 {
+  grid-column: 1 / 5;
+  grid-row: 2 / 3;
+  margin-bottom: 2rem;
+}
+
+.b4-intro.split .b4-intro-col2 {
+  grid-column: 1 / 5;
+  grid-row: 3 / 4;
+}
+
+@media (width < 768px) {
+  /* R-02 wrap compensation (live col 2 = 21 lines @360 on the substitute face) */
+  .b4-intro.split .b4-intro-col2 p {
+    letter-spacing: 0.01em;
+  }
+}
+
+@media (width >= 768px) {
+  .b4-intro.split .b4-intro-title {
+    grid-column: 1 / 6;
+    margin-bottom: 2rem;
+  }
+
+  .b4-intro.split .b4-intro-col1 {
+    grid-column: 1 / 5;
+    margin-bottom: 0;
+  }
+
+  .b4-intro.split .b4-intro-col2 {
+    grid-column: 5 / 9;
+    grid-row: 2 / 3;
+  }
+}
+
+@media (width >= 1024px) {
+  .b4-intro.split .b4-intro-title {
+    grid-column: 2 / 8;
+    margin-bottom: 2.5rem;
+  }
+
+  .b4-intro.split .b4-intro-col1 {
+    grid-column: 2 / 7;
+    grid-row: 2 / 3;
+  }
+
+  .b4-intro.split .b4-intro-col2 {
+    grid-column: 7 / 12;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-intro.split .b4-intro-grid {
+    margin-top: 120px;
+  }
+
+  .b4-intro.split .b4-intro-title {
+    grid-column: 2 / 8;
+  }
+}
+
+/* variants dark / ice (cluster-brand-solution): band colour painted by the block */
+.b4-intro.dark {
+  background-color: #151f27;
+  color: #fff;
+}
+
+.b4-intro.ice {
+  background-color: var(--c-ice);
+}
+
+.b4-intro.dark .b4-intro-grid,
+.b4-intro.ice .b4-intro-grid {
+  padding-top: 56px;
+}
+
+.b4-intro.dark :is(h1, h2, h3, h4, p, li) {
+  color: #fff;
+}
+
+@media (width >= 1440px) {
+  .b4-intro.dark .b4-intro-grid,
+  .b4-intro.ice .b4-intro-grid {
+    padding-top: 120px;
+  }
+}
+
+/* cluster-brand-case-study (additive): split on a painted band (padding carries the top space),
+   eyebrow label, spacing top0 / bot0; mid = a split band further down the page (56 px top below 1440,
+   the archetype's 28 px belongs to the first band under the hero) */
+
+.b4-intro.top0 .b4-intro-grid {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.b4-intro.bot0 .b4-intro-grid {
+  margin-bottom: 0;
+}
+
+@media (width < 1440px) {
+  .b4-intro.split.mid .b4-intro-grid {
+    margin-top: 56px;
+  }
+}
+
+.b4-intro.split:is(.dark, .ice) .b4-intro-grid {
+  margin-top: 0;
+}
+
+.b4-intro .b4-intro-title .b4-intro-eyebrow {
+  margin: 0 0 12px;
+  color: #586674;
+  font-family: var(--font-text);
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+@media (width >= 1440px) {
+  .b4-intro .b4-intro-title .b4-intro-eyebrow {
+    margin-bottom: 24px;
+  }
+}
+
+/* source ProseMirror headings: overflow-wrap break-word + white-space break-spaces (measured @360,
+   fix-4brands-small) */
+.b4-intro :is(h1, h2, h3, h4) {
+  overflow-wrap: break-word;
+  white-space: break-spaces;
+}
+
+/* ls-<n> (fix-small-2): R-02 wrap compensation below 768 — one tracking (n / 1000 em, ls-0 =
+   normal) on every text line of the block, measured per block against the live line breaks
+   @360 (stand-in faces set ~2 % narrower; .work/rollout/fix-small-2/wrap.mjs) */
+@media (width < 768px) {
+  .b4-intro.ls-0 { --ls-v: normal; }
+  .b4-intro.ls-5 { --ls-v: 0.005em; }
+  .b4-intro.ls-7 { --ls-v: 0.0075em; }
+  .b4-intro.ls-10 { --ls-v: 0.01em; }
+  .b4-intro.ls-12 { --ls-v: 0.0125em; }
+  .b4-intro.ls-15 { --ls-v: 0.015em; }
+  .b4-intro.ls-20 { --ls-v: 0.02em; }
+  .b4-intro.ls-25 { --ls-v: 0.025em; }
+
+  main div.b4-intro.block[class*=" ls-"] :is(p, li, h1, h2, h3, h4, h5, h6) {
+    letter-spacing: var(--ls-v, normal);
+  }
+}
+
+/* variant top (fix-brand-solution-4, intelligent-enterprise): the source intro section's margin
+   sits above the title (56 / 120 @1440), none below it (the tile band that follows has its own) */
+/* stylelint-disable-next-line no-descending-specificity */
+.b4-intro.top .b4-intro-grid {
+  margin-top: 56px;
+  margin-bottom: 0;
+}
+
+@media (width >= 1440px) {
+  .b4-intro.top .b4-intro-grid {
+    margin-top: 120px;
+    margin-bottom: 0;
+  }
+}
+
+/* variant tb (fix-brand-solution-5, revenue-growth-management-reve "Konkretes Planungsproblem"): the
+   source intro section carries its margin above the title as well as below (56 / 120 @1440) */
+/* stylelint-disable-next-line no-descending-specificity */
+.b4-intro.tb .b4-intro-grid {
+  margin-top: 56px;
+}
+
+@media (width >= 1440px) {
+  /* stylelint-disable-next-line no-descending-specificity */
+  .b4-intro.tb .b4-intro-grid {
+    margin-top: 120px;
+  }
+}
+
+/* eyebrow (fix-brand-solution-6, composable-customer-data-platform "Das Ergebnis"): from 1024 the
+   copy column starts level with the title, under the eyebrow label (10 / 14 + 12 px; + 24 px from
+   1440: live p y 158 = h3 y 158) */
+@media (width >= 1024px) {
+  .b4-intro.eyebrow:not(.split) .b4-intro-text {
+    padding-top: 26px;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-intro.eyebrow:not(.split) .b4-intro-text {
+    padding-top: 38px;
+  }
+}

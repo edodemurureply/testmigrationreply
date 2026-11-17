@@ -1,0 +1,147 @@
+/* adobe-pillars — live en/adobe pillars row (probe 1440 / 360): ink band, cards 280 / 298 px
+   square (radius 6, white), gap 24 / 40, rail inset 40 < 1024, centred row >= 1024; band
+   padding 28 / 56 -> 56 / 120; plus glyph 30 px at 20 / 20; icon 26 px #8d99a5, title 16 / 22.4
+   -> 18 / 25.2 (medium label face), 16 px from the icon, centred vertically, 20 px side inset. */
+.adobe-pillars {
+  padding: 28px 0 56px;
+  background-color: #151f27;
+}
+
+.adobe-pillars .adobe-pillars-rail {
+  overflow: hidden;
+}
+
+.adobe-pillars .adobe-pillars-track {
+  display: flex;
+  column-gap: 24px;
+  margin: 0;
+  padding: 0 0 0 40px;
+  list-style: none;
+}
+
+.adobe-pillars .adobe-pillars-item {
+  flex: 0 0 280px;
+}
+
+.adobe-pillars .adobe-pillars-card {
+  position: relative;
+  height: 280px;
+  overflow: hidden;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #151f27;
+  outline: none;
+}
+
+.adobe-pillars .adobe-pillars-plus {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.adobe-pillars .adobe-pillars-plus::before,
+.adobe-pillars .adobe-pillars-plus::after {
+  content: "";
+  position: absolute;
+  background-color: #151f27;
+  transition: transform 0.3s ease;
+}
+
+.adobe-pillars .adobe-pillars-plus::before {
+  top: 15px;
+  left: 0;
+  width: 30px;
+  height: 1px;
+}
+
+.adobe-pillars .adobe-pillars-plus::after {
+  top: 0;
+  left: 15px;
+  width: 1px;
+  height: 30px;
+}
+
+.adobe-pillars .adobe-pillars-body {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  left: 20px;
+  transform: translateY(-50%);
+}
+
+.adobe-pillars .adobe-pillars-title {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 16px;
+}
+
+.adobe-pillars .adobe-pillars-icon {
+  flex-shrink: 0;
+  width: 26px;
+  color: #8d99a5;
+  font-family: "Website Icons", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  line-height: 27.2px;
+}
+
+.adobe-pillars .adobe-pillars-title :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  color: #151f27;
+  font-family: ehjkbitsdn, khanqyjjei-fallback, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  letter-spacing: 0.0095em;
+}
+
+.adobe-pillars .adobe-pillars-abstract {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.adobe-pillars .adobe-pillars-abstract p {
+  margin: 12px 0 0;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 23.8px;
+}
+
+.adobe-pillars .adobe-pillars-card:is(:hover, :focus-visible) .adobe-pillars-abstract {
+  max-height: 200px;
+}
+
+.adobe-pillars .adobe-pillars-card:is(:hover, :focus-visible) .adobe-pillars-plus::after {
+  transform: scaleY(0);
+}
+
+@media (width >= 768px) {
+  .adobe-pillars {
+    padding: 56px 0 120px;
+  }
+}
+
+@media (width >= 1024px) {
+  .adobe-pillars .adobe-pillars-track {
+    justify-content: center;
+    column-gap: 40px;
+    padding: 0;
+  }
+
+  .adobe-pillars .adobe-pillars-item {
+    flex-basis: 298px;
+  }
+
+  .adobe-pillars .adobe-pillars-card {
+    height: 298px;
+  }
+
+  .adobe-pillars .adobe-pillars-title :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 18px;
+    line-height: 25.2px;
+  }
+}

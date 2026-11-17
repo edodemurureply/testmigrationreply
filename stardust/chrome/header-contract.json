@@ -1,0 +1,2027 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://www.reply.com/en",
+ "at": "2026-11-16T20:11:44.677Z",
+ "shots": "stardust/.work/chrome/header-contract",
+ "widths": {
+  "360": {
+   "root": "#header-content",
+   "controls": [
+    {
+     "name": "Go to homepage",
+     "key": "go to homepage",
+     "role": "link",
+     "kind": "link",
+     "sel": "#header-content>div>div>div>custom-menu-runtime>nav:nth-of-type(2)>div:nth-of-type(1)>a",
+     "href": "https://www.reply.com/en",
+     "expanded": null,
+     "rect": [
+      40,
+      0,
+      129,
+      64
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Toggle search",
+     "key": "toggle search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#search-toggle",
+     "expanded": "false",
+     "rect": [
+      232,
+      0,
+      64,
+      64
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Search results"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         64,
+         360,
+         164
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "cubic-bezier(0.09, 0.72, 0.76, 1.01)",
+         "target": "picture.reply-card-image"
+        }
+       ],
+       "shot": "360-001-Toggle-search-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Search results"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         64,
+         360,
+         164
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "360-002-Toggle-search-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     }
+    },
+    {
+     "name": "Toggle menu",
+     "key": "toggle menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "#mobile-menu-toggle",
+     "expanded": "false",
+     "rect": [
+      296,
+      0,
+      64,
+      64
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "ROSE",
+          "href": "https://onlineservices.reply.com/"
+         },
+         {
+          "text": "Join us",
+          "href": "https://www.reply.com/en/about/careers/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Services",
+         "Industries",
+         "Insights & Labs",
+         "We care",
+         "We are",
+         "English"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         360,
+         844
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "cubic-bezier(0.09, 0.72, 0.76, 1.01)",
+         "target": "picture.reply-card-image"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.dropdown"
+        }
+       ],
+       "shot": "360-003-Toggle-menu-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "ROSE",
+          "href": "https://onlineservices.reply.com/"
+         },
+         {
+          "text": "Join us",
+          "href": "https://www.reply.com/en/about/careers/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Services",
+         "Industries",
+         "Insights & Labs",
+         "We care",
+         "We are",
+         "English"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         360,
+         844
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "cubic-bezier(0.09, 0.72, 0.76, 1.01)",
+         "target": "picture.reply-card-image"
+        }
+       ],
+       "shot": "360-004-Toggle-menu-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": null,
+      "toggle": true
+     }
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 64,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 64,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 64,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 64,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 4,
+   "truncated": "depth 1 at Toggle search",
+   "loads": 1,
+   "requests": 45,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  },
+  "1440": {
+   "root": "#header-content",
+   "controls": [
+    {
+     "name": "EN",
+     "key": "en",
+     "role": "toggle",
+     "kind": "locale",
+     "sel": "#header-content>div>div>div>custom-menu-runtime>nav:nth-of-type(1)>div>button",
+     "expanded": "false",
+     "rect": [
+      1339,
+      6,
+      37,
+      17
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "DE",
+          "href": "https://www.reply.com/de"
+         },
+         {
+          "text": "EN",
+          "href": "https://www.reply.com/en"
+         },
+         {
+          "text": "FR",
+          "href": "https://www.reply.com/fr"
+         },
+         {
+          "text": "IT",
+          "href": "https://www.reply.com/it"
+         },
+         {
+          "text": "PT",
+          "href": "https://www.reply.com/pt"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1311,
+         31,
+         74,
+         204
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 1000,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.carousel-items"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "svg"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.dropdown"
+        }
+       ],
+       "shot": "1440-001-EN-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "DE",
+          "href": "https://www.reply.com/de"
+         },
+         {
+          "text": "EN",
+          "href": "https://www.reply.com/en"
+         },
+         {
+          "text": "FR",
+          "href": "https://www.reply.com/fr"
+         },
+         {
+          "text": "IT",
+          "href": "https://www.reply.com/it"
+         },
+         {
+          "text": "PT",
+          "href": "https://www.reply.com/pt"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1311,
+         31,
+         74,
+         204
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "svg"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.dropdown"
+        }
+       ],
+       "shot": "1440-002-EN-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     }
+    },
+    {
+     "name": "Go to homepage",
+     "key": "go to homepage",
+     "role": "link",
+     "kind": "link",
+     "sel": "#header-content>div>div>div>custom-menu-runtime>nav:nth-of-type(2)>div:nth-of-type(1)>a",
+     "href": "https://www.reply.com/en",
+     "expanded": null,
+     "rect": [
+      64,
+      28,
+      129,
+      64
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Services",
+     "key": "services",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#services",
+     "expanded": "false",
+     "rect": [
+      494,
+      28,
+      62,
+      64
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Artificial Intelligence",
+          "href": "https://www.reply.com/en/artificial-intelligence"
+         },
+         {
+          "text": "AI-powered Software Engineering",
+          "href": "https://www.reply.com/en/ai-powered-software-engineering"
+         },
+         {
+          "text": "Cloud Computing",
+          "href": "https://www.reply.com/en/cloud-computing"
+         },
+         {
+          "text": "CX & Digital Commerce",
+          "href": "https://www.reply.com/en/cx-and-digital-commerce"
+         },
+         {
+          "text": "Cybersecurity",
+          "href": "https://www.reply.com/en/cybersecurity"
+         },
+         {
+          "text": "Data World",
+          "href": "https://www.reply.com/en/data-world"
+         },
+         {
+          "text": "Design",
+          "href": "https://www.reply.com/en/design"
+         },
+         {
+          "text": "Digital Assets",
+          "href": "https://www.reply.com/en/digital-assets"
+         },
+         {
+          "text": "Digital Experience",
+          "href": "https://www.reply.com/en/digital-experience"
+         },
+         {
+          "text": "Gaming",
+          "href": "https://www.reply.com/en/gaming"
+         },
+         {
+          "text": "Governance, Risk and Compliance",
+          "href": "https://www.reply.com/en/governance-risk-and-compliance"
+         },
+         {
+          "text": "Hybrid Work",
+          "href": "https://www.reply.com/en/hybrid-work"
+         },
+         {
+          "text": "Internet of Things",
+          "href": "https://www.reply.com/en/iot"
+         },
+         {
+          "text": "Metaverse",
+          "href": "https://www.reply.com/en/metaverse"
+         },
+         {
+          "text": "Prebuilt AI Apps",
+          "href": "https://www.reply.com/en/prebuilt-ai-apps"
+         },
+         {
+          "text": "Quality Engineering",
+          "href": "https://www.reply.com/en/quality-engineering"
+         },
+         {
+          "text": "Quantum Computing",
+          "href": "https://www.reply.com/en/quantum-computing"
+         },
+         {
+          "text": "Robotics & Autonomous Things",
+          "href": "https://www.reply.com/en/robotics-and-autonomous-things"
+         },
+         {
+          "text": "Social Media",
+          "href": "https://www.reply.com/en/social-media"
+         },
+         {
+          "text": "Strategy and Business Model Transformation",
+          "href": "https://www.reply.com/en/strategy-and-business-model-transformation"
+         },
+         {
+          "text": "Supply Chain Management",
+          "href": "https://www.reply.com/en/supply-chain-management"
+         },
+         {
+          "text": "Telco Networks",
+          "href": "https://www.reply.com/en/telco-networks"
+         },
+         {
+          "text": "3D & Mixed Reality",
+          "href": "https://www.reply.com/en/3d-and-mixed-reality"
+         },
+         {
+          "text": "Reply Model Factory Read more",
+          "href": "https://www.reply.com/en/artificial-intelligence/reply-model-factory"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [
+         "Previous slide",
+         "Next slide"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         92,
+         1440,
+         587
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dropdown"
+        }
+       ],
+       "shot": "1440-003-Services-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Artificial Intelligence",
+          "href": "https://www.reply.com/en/artificial-intelligence"
+         },
+         {
+          "text": "AI-powered Software Engineering",
+          "href": "https://www.reply.com/en/ai-powered-software-engineering"
+         },
+         {
+          "text": "Cloud Computing",
+          "href": "https://www.reply.com/en/cloud-computing"
+         },
+         {
+          "text": "CX & Digital Commerce",
+          "href": "https://www.reply.com/en/cx-and-digital-commerce"
+         },
+         {
+          "text": "Cybersecurity",
+          "href": "https://www.reply.com/en/cybersecurity"
+         },
+         {
+          "text": "Data World",
+          "href": "https://www.reply.com/en/data-world"
+         },
+         {
+          "text": "Design",
+          "href": "https://www.reply.com/en/design"
+         },
+         {
+          "text": "Digital Assets",
+          "href": "https://www.reply.com/en/digital-assets"
+         },
+         {
+          "text": "Digital Experience",
+          "href": "https://www.reply.com/en/digital-experience"
+         },
+         {
+          "text": "Gaming",
+          "href": "https://www.reply.com/en/gaming"
+         },
+         {
+          "text": "Governance, Risk and Compliance",
+          "href": "https://www.reply.com/en/governance-risk-and-compliance"
+         },
+         {
+          "text": "Hybrid Work",
+          "href": "https://www.reply.com/en/hybrid-work"
+         },
+         {
+          "text": "Internet of Things",
+          "href": "https://www.reply.com/en/iot"
+         },
+         {
+          "text": "Metaverse",
+          "href": "https://www.reply.com/en/metaverse"
+         },
+         {
+          "text": "Prebuilt AI Apps",
+          "href": "https://www.reply.com/en/prebuilt-ai-apps"
+         },
+         {
+          "text": "Quality Engineering",
+          "href": "https://www.reply.com/en/quality-engineering"
+         },
+         {
+          "text": "Quantum Computing",
+          "href": "https://www.reply.com/en/quantum-computing"
+         },
+         {
+          "text": "Robotics & Autonomous Things",
+          "href": "https://www.reply.com/en/robotics-and-autonomous-things"
+         },
+         {
+          "text": "Social Media",
+          "href": "https://www.reply.com/en/social-media"
+         },
+         {
+          "text": "Strategy and Business Model Transformation",
+          "href": "https://www.reply.com/en/strategy-and-business-model-transformation"
+         },
+         {
+          "text": "Supply Chain Management",
+          "href": "https://www.reply.com/en/supply-chain-management"
+         },
+         {
+          "text": "Telco Networks",
+          "href": "https://www.reply.com/en/telco-networks"
+         },
+         {
+          "text": "3D & Mixed Reality",
+          "href": "https://www.reply.com/en/3d-and-mixed-reality"
+         },
+         {
+          "text": "Reply Model Factory Read more",
+          "href": "https://www.reply.com/en/artificial-intelligence/reply-model-factory"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [
+         "Previous slide",
+         "Next slide"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         92,
+         1440,
+         587
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 1000,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.carousel-items"
+        }
+       ],
+       "shot": "1440-004-Services-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     }
+    },
+    {
+     "name": "Industries",
+     "key": "industries",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav-container>li:nth-of-type(2)>button",
+     "expanded": "false",
+     "rect": [
+      612,
+      28,
+      72,
+      64
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Automotive & Manufacturing",
+          "href": "https://www.reply.com/en/automotive-and-manufacturing"
+         },
+         {
+          "text": "Energy & Utilities",
+          "href": "https://www.reply.com/en/energy-and-utilities"
+         },
+         {
+          "text": "Financial Services",
+          "href": "https://www.reply.com/en/financial-services"
+         },
+         {
+          "text": "Logistics",
+          "href": "https://www.reply.com/en/logistics"
+         },
+         {
+          "text": "Retail & Consumer Products",
+          "href": "https://www.reply.com/en/retail-and-consumer-products"
+         },
+         {
+          "text": "Telco & Media",
+          "href": "https://www.reply.com/en/telco-and-media"
+         },
+         {
+          "text": "Brick Cognitive: Agentic AI to scale manufacturing Read more",
+          "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [
+         "Previous slide",
+         "Next slide"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         92,
+         1440,
+         513
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dropdown"
+        }
+       ],
+       "shot": "1440-005-Industries-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Automotive & Manufacturing",
+          "href": "https://www.reply.com/en/automotive-and-manufacturing"
+         },
+         {
+          "text": "Energy & Utilities",
+          "href": "https://www.reply.com/en/energy-and-utilities"
+         },
+         {
+          "text": "Financial Services",
+          "href": "https://www.reply.com/en/financial-services"
+         },
+         {
+          "text": "Logistics",
+          "href": "https://www.reply.com/en/logistics"
+         },
+         {
+          "text": "Retail & Consumer Products",
+          "href": "https://www.reply.com/en/retail-and-consumer-products"
+         },
+         {
+          "text": "Telco & Media",
+          "href": "https://www.reply.com/en/telco-and-media"
+         },
+         {
+          "text": "Brick Cognitive: Agentic AI to scale manufacturing Read more",
+          "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [
+         "Previous slide",
+         "Next slide"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         92,
+         1440,
+         513
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 1000,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.carousel-items"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 500,
+         "easing": "cubic-bezier(0.09, 0.72, 0.76, 1.01)",
+         "target": "div.carousel-item"
+        }
+       ],
+       "shot": "1440-006-Industries-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     }
+    },
+    {
+     "name": "Insights & Labs",
+     "key": "insights labs",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+     "expanded": "false",
+     "rect": [
+      740,
+      28,
+      110,
+      64
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Labs",
+          "href": "https://www.reply.com/en/labs"
+         },
+         {
+          "text": "Area42",
+          "href": "https://www.reply.com/en/labs/area-42"
+         },
+         {
+          "text": "Area73",
+          "href": "https://www.reply.com/en/labs/area-73"
+         },
+         {
+          "text": "Area Phi",
+          "href": "https://www.reply.com/en/labs/area-phi"
+         },
+         {
+          "text": "Cyber Security Lab",
+          "href": "https://www.reply.com/en/labs/cyber-security-lab"
+         },
+         {
+          "text": "House of Models",
+          "href": "https://www.reply.com/en/labs/reply-house-of-models"
+         },
+         {
+          "text": "IoT Validation Lab",
+          "href": "https://www.reply.com/en/labs/reply-iot-labs-concept-quality"
+         },
+         {
+          "text": "Test Automation Center",
+          "href": "https://www.reply.com/en/labs/testautomationcentre"
+         },
+         {
+          "text": "Challenges",
+          "href": "https://challenges.reply.com/tamtamy/home.action"
+         },
+         {
+          "text": "Insights",
+          "href": "https://www.reply.com/en/insights"
+         },
+         {
+          "text": "Xchange",
+          "href": "https://www.reply.com/en/xchange"
+         },
+         {
+          "text": "Webinars",
+          "href": "https://webinars.reply.com/home.action"
+         },
+         {
+          "text": "Scaling AI in 2026 Discover More",
+          "href": "https://www.reply.com/en/artificial-intelligence/scaling-ai-in-2026"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [
+         "Previous slide",
+         "Next slide"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         92,
+         1440,
+         602
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dropdown"
+        }
+       ],
+       "shot": "1440-007-Insights-Labs-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Labs",
+          "href": "https://www.reply.com/en/labs"
+         },
+         {
+          "text": "Area42",
+          "href": "https://www.reply.com/en/labs/area-42"
+         },
+         {
+          "text": "Area73",
+          "href": "https://www.reply.com/en/labs/area-73"
+         },
+         {
+          "text": "Area Phi",
+          "href": "https://www.reply.com/en/labs/area-phi"
+         },
+         {
+          "text": "Cyber Security Lab",
+          "href": "https://www.reply.com/en/labs/cyber-security-lab"
+         },
+         {
+          "text": "House of Models",
+          "href": "https://www.reply.com/en/labs/reply-house-of-models"
+         },
+         {
+          "text": "IoT Validation Lab",
+          "href": "https://www.reply.com/en/labs/reply-iot-labs-concept-quality"
+         },
+         {
+          "text": "Test Automation Center",
+          "href": "https://www.reply.com/en/labs/testautomationcentre"
+         },
+         {
+          "text": "Challenges",
+          "href": "https://challenges.reply.com/tamtamy/home.action"
+         },
+         {
+          "text": "Insights",
+          "href": "https://www.reply.com/en/insights"
+         },
+         {
+          "text": "Xchange",
+          "href": "https://www.reply.com/en/xchange"
+         },
+         {
+          "text": "Webinars",
+          "href": "https://webinars.reply.com/home.action"
+         },
+         {
+          "text": "Scaling AI in 2026 Discover More",
+          "href": "https://www.reply.com/en/artificial-intelligence/scaling-ai-in-2026"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [
+         "Previous slide",
+         "Next slide"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         92,
+         1440,
+         602
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.nav-link"
+        }
+       ],
+       "shot": "1440-008-Insights-Labs-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     }
+    },
+    {
+     "name": "ROSE",
+     "key": "rose",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav-container>li:nth-of-type(4)>a",
+     "expanded": null,
+     "rect": [
+      906,
+      28,
+      41,
+      64
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "We care",
+     "key": "we care",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav-container>li:nth-of-type(5)>button",
+     "expanded": "false",
+     "rect": [
+      1003,
+      28,
+      60,
+      64
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Making a difference",
+          "href": "https://www.reply.com/en/esg"
+         },
+         {
+          "text": "Environment",
+          "href": "https://www.reply.com/en/environment"
+         },
+         {
+          "text": "Energy & Emissions",
+          "href": "https://www.reply.com/en/environment/energy-and-emissions"
+         },
+         {
+          "text": "Reply to the Earth",
+          "href": "https://www.reply.com/en/environment/reply-to-the-earth"
+         },
+         {
+          "text": "Sustainable Supply Chain",
+          "href": "https://www.reply.com/en/environment/sustainable-supply-chain"
+         },
+         {
+          "text": "Social",
+          "href": "https://www.reply.com/en/social"
+         },
+         {
+          "text": "Continuous Learning Culture",
+          "href": "https://www.reply.com/en/people/continuous-learning"
+         },
+         {
+          "text": "Wellbeing",
+          "href": "https://www.reply.com/en/people/wellbeing"
+         },
+         {
+          "text": "Diversity, Equity and Inclusion",
+          "href": "https://www.reply.com/en/people/inclusion-and-diversity"
+         },
+         {
+          "text": "Governance",
+          "href": "https://www.reply.com/en/governance"
+         },
+         {
+          "text": "Governance System",
+          "href": "https://www.reply.com/en/investors/governance-system"
+         },
+         {
+          "text": "Governance Policies",
+          "href": "https://www.reply.com/en/investors/governance-policies"
+         },
+         {
+          "text": "Ethical AI",
+          "href": "https://www.reply.com/en/governance/our-commitment-to-ethical-ai"
+         },
+         {
+          "text": "Sustainability at Reply Discover More",
+          "href": "https://www.reply.com/en/esg"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         92,
+         1440,
+         531
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dropdown"
+        }
+       ],
+       "shot": "1440-009-We-care-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Making a difference",
+          "href": "https://www.reply.com/en/esg"
+         },
+         {
+          "text": "Environment",
+          "href": "https://www.reply.com/en/environment"
+         },
+         {
+          "text": "Energy & Emissions",
+          "href": "https://www.reply.com/en/environment/energy-and-emissions"
+         },
+         {
+          "text": "Reply to the Earth",
+          "href": "https://www.reply.com/en/environment/reply-to-the-earth"
+         },
+         {
+          "text": "Sustainable Supply Chain",
+          "href": "https://www.reply.com/en/environment/sustainable-supply-chain"
+         },
+         {
+          "text": "Social",
+          "href": "https://www.reply.com/en/social"
+         },
+         {
+          "text": "Continuous Learning Culture",
+          "href": "https://www.reply.com/en/people/continuous-learning"
+         },
+         {
+          "text": "Wellbeing",
+          "href": "https://www.reply.com/en/people/wellbeing"
+         },
+         {
+          "text": "Diversity, Equity and Inclusion",
+          "href": "https://www.reply.com/en/people/inclusion-and-diversity"
+         },
+         {
+          "text": "Governance",
+          "href": "https://www.reply.com/en/governance"
+         },
+         {
+          "text": "Governance System",
+          "href": "https://www.reply.com/en/investors/governance-system"
+         },
+         {
+          "text": "Governance Policies",
+          "href": "https://www.reply.com/en/investors/governance-policies"
+         },
+         {
+          "text": "Ethical AI",
+          "href": "https://www.reply.com/en/governance/our-commitment-to-ethical-ai"
+         },
+         {
+          "text": "Sustainability at Reply Discover More",
+          "href": "https://www.reply.com/en/esg"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         92,
+         1440,
+         531
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dropdown"
+        }
+       ],
+       "shot": "1440-010-We-care-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     }
+    },
+    {
+     "name": "We are",
+     "key": "we are",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+     "expanded": "false",
+     "rect": [
+      1119,
+      28,
+      51,
+      64
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Company profile",
+          "href": "https://www.reply.com/en/company-profile"
+         },
+         {
+          "text": "Offices",
+          "href": "https://www.reply.com/en/offices"
+         },
+         {
+          "text": "Contacts",
+          "href": "https://www.reply.com/en/contacts"
+         },
+         {
+          "text": "Newsroom",
+          "href": "https://www.reply.com/en/newsroom"
+         },
+         {
+          "text": "Investors",
+          "href": "https://www.reply.com/en/investors"
+         },
+         {
+          "text": "Financial News",
+          "href": "https://www.reply.com/en/newsroom?type=financial-news"
+         },
+         {
+          "text": "Share Information",
+          "href": "https://www.reply.com/en/investors/reply-share-information"
+         },
+         {
+          "text": "Financial Highlights",
+          "href": "https://www.reply.com/en/investors/financial-highlights"
+         },
+         {
+          "text": "Financial Calendar & Events",
+          "href": "https://www.reply.com/en/investors/financial-calendar-and-events"
+         },
+         {
+          "text": "Financial Reports",
+          "href": "https://www.reply.com/en/investors/financial-reports"
+         },
+         {
+          "text": "Shareholders' Meeting",
+          "href": "https://www.reply.com/en/investors/shareholders-meeting"
+         },
+         {
+          "text": "Loyalty Shares",
+          "href": "https://www.reply.com/en/investors/loyalty-shares"
+         },
+         {
+          "text": "Governance",
+          "href": "https://www.reply.com/en/investors#H6tmz"
+         },
+         {
+          "text": "The Board of Directors approves the quarterly financial report as of 30 September 2026 Discover more",
+          "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [
+         "Previous slide",
+         "Next slide"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         92,
+         1440,
+         658
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dropdown"
+        }
+       ],
+       "shot": "1440-011-We-are-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Company profile",
+          "href": "https://www.reply.com/en/company-profile"
+         },
+         {
+          "text": "Offices",
+          "href": "https://www.reply.com/en/offices"
+         },
+         {
+          "text": "Contacts",
+          "href": "https://www.reply.com/en/contacts"
+         },
+         {
+          "text": "Newsroom",
+          "href": "https://www.reply.com/en/newsroom"
+         },
+         {
+          "text": "Investors",
+          "href": "https://www.reply.com/en/investors"
+         },
+         {
+          "text": "Financial News",
+          "href": "https://www.reply.com/en/newsroom?type=financial-news"
+         },
+         {
+          "text": "Share Information",
+          "href": "https://www.reply.com/en/investors/reply-share-information"
+         },
+         {
+          "text": "Financial Highlights",
+          "href": "https://www.reply.com/en/investors/financial-highlights"
+         },
+         {
+          "text": "Financial Calendar & Events",
+          "href": "https://www.reply.com/en/investors/financial-calendar-and-events"
+         },
+         {
+          "text": "Financial Reports",
+          "href": "https://www.reply.com/en/investors/financial-reports"
+         },
+         {
+          "text": "Shareholders' Meeting",
+          "href": "https://www.reply.com/en/investors/shareholders-meeting"
+         },
+         {
+          "text": "Loyalty Shares",
+          "href": "https://www.reply.com/en/investors/loyalty-shares"
+         },
+         {
+          "text": "Governance",
+          "href": "https://www.reply.com/en/investors#H6tmz"
+         },
+         {
+          "text": "The Board of Directors approves the quarterly financial report as of 30 September 2026 Discover more",
+          "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [
+         "Previous slide",
+         "Next slide"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         92,
+         1440,
+         658
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.nav-link"
+        }
+       ],
+       "shot": "1440-012-We-are-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     }
+    },
+    {
+     "name": "Join us",
+     "key": "join us",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav-container>li:nth-of-type(7)>a",
+     "expanded": null,
+     "rect": [
+      1225,
+      28,
+      51,
+      64
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": false,
+       "navigates": "https://www.reply.com/en/about/careers/"
+      },
+      "key": {
+       "opened": false,
+       "navigates": "https://www.reply.com/en/about/careers/"
+      }
+     }
+    },
+    {
+     "name": "Toggle search",
+     "key": "toggle search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#search-toggle",
+     "expanded": "false",
+     "rect": [
+      1312,
+      28,
+      64,
+      64
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Search results"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         92,
+         1440,
+         246
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 150,
+         "delay": 250,
+         "easing": "linear",
+         "target": "span.hidden"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 150,
+         "delay": 250,
+         "easing": "linear",
+         "target": "span.hidden"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 150,
+         "delay": 250,
+         "easing": "linear",
+         "target": "span.hidden"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 150,
+         "delay": 250,
+         "easing": "linear",
+         "target": "span.hidden"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "span.hidden"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "span.hidden"
+        }
+       ],
+       "shot": "1440-013-Toggle-search-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Search results"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         92,
+         1440,
+         246
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dropdown"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "span.hidden"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "span.hidden"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 150,
+         "delay": 250,
+         "easing": "linear",
+         "target": "span.hidden"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 150,
+         "delay": 250,
+         "easing": "linear",
+         "target": "span.hidden"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 150,
+         "delay": 250,
+         "easing": "linear",
+         "target": "span.hidden"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 150,
+         "delay": 250,
+         "easing": "linear",
+         "target": "span.hidden"
+        }
+       ],
+       "shot": "1440-014-Toggle-search-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     }
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#header-content>div>div>div>custom-menu-runtime>nav:nth-of-type(2)>button",
+     "expanded": null,
+     "rect": [
+      1376,
+      -36,
+      64,
+      64
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 92,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 92,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 92,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 92,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 14,
+   "truncated": "depth 1 at EN",
+   "loads": 1,
+   "requests": 52,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": null
+}

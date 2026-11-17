@@ -1,0 +1,23 @@
+[live-session] waiting to pace live navigations to www.reply.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 989 ms
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.reply.com/4brands-reply/en
+  build: http://localhost:8791/4brands-reply-en-proposed.html
+
+■ header: ✓ parity — 0 paired of 0/0 texts, 2/2 icons
+
+■ footer: 12 delta(s) — 21 paired of 21/21 texts, 4/4 icons
+  OFFSET       the region and its 9 paired text(s) sit Δy -124px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+  PAIR         "Contact Us"  fontWeight 300 → 400; Δy -124px (11206→11082)
+  PAIR         "Careers"  fontWeight 300 → 400; Δy -124px (11274→11150)
+  PAIR         "Imprint"  fontWeight 300 → 400; Δy -124px (11342→11218); Δw -3px (66→63)
+  PAIR         "Privacy & Cookie Policy"  Δy -124px (11508→11384); Δw +3px (142→145)
+  PAIR         "Privacy Notice"  Δy -125px (11545→11420); Δw -2px (165→163)
+  PAIR         "(Candidate)"  Δy -125px (11546→11421); Δw -2px (73→71); <a> box 165×17 → 163×17
+  PAIR         "CCPA Privacy Notice"  Δy -125px (11692→11567); Δw +4px (127→131)
+  PAIR         "Modern Slavery Act Transparency Policy"  Δy -125px (11729→11604); Δw -2px (208→206)
+  PAIR         "(UK & IR)"  Δy -125px (11747→11622); Δw +6px (51→57); <a> box 208×34 → 206×34
+  PAIR         "Declaration of Principles - LKSG"  Δy -124px (11782→11658); Δw +5px (261→266)
+  PAIR         "(Germany)"  Δx +4px (236→240); Δy -124px (11783→11659); <a> box 261×17 → 266×17
+  PAIR         "Accessibility Statement"  Δy -125px (11856→11731); Δw -4px (147→143)
+
+✗ 12 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

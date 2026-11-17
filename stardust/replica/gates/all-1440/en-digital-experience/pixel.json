@@ -1,0 +1,184 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-digital-experience/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-digital-experience/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 14826,
+    "mode": "overlap"
+  },
+  "heightDelta": 5,
+  "differingPixels": 1697723,
+  "pct": 8.81,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-digital-experience/diff.png",
+  "masks": [
+    {
+      "yA": 92,
+      "h": 782,
+      "yB": 92
+    },
+    {
+      "yA": 1358,
+      "h": 656,
+      "yB": 1358
+    }
+  ],
+  "maskedRows": 1438,
+  "textPct": 13.77,
+  "textBoxes": 391,
+  "textPixels": 1571198,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 2.5
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 7
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 22.3
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 2.8
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 1.8
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 3.9
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 8.1
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 3.1
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 2.2
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 1.7
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 0.8
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 1.6
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 1.3
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 3.4
+    },
+    {
+      "y0": 8500,
+      "y1": 9000,
+      "pct": 15.3
+    },
+    {
+      "y0": 9000,
+      "y1": 9500,
+      "pct": 8.4
+    },
+    {
+      "y0": 9500,
+      "y1": 10000,
+      "pct": 3.8
+    },
+    {
+      "y0": 10000,
+      "y1": 10500,
+      "pct": 2.5
+    },
+    {
+      "y0": 10500,
+      "y1": 11000,
+      "pct": 23.6
+    },
+    {
+      "y0": 11000,
+      "y1": 11500,
+      "pct": 8.8
+    },
+    {
+      "y0": 11500,
+      "y1": 12000,
+      "pct": 26.4
+    },
+    {
+      "y0": 12000,
+      "y1": 12500,
+      "pct": 59.1
+    },
+    {
+      "y0": 12500,
+      "y1": 13000,
+      "pct": 2.8
+    },
+    {
+      "y0": 13000,
+      "y1": 13500,
+      "pct": 5.5
+    },
+    {
+      "y0": 13500,
+      "y1": 14000,
+      "pct": 10.9
+    },
+    {
+      "y0": 14000,
+      "y1": 14500,
+      "pct": 2.2
+    },
+    {
+      "y0": 14500,
+      "y1": 14826,
+      "pct": 5.6
+    }
+  ],
+  "maskReason": "two DAM videos (muted autoplay loops inside the cross-origin dam-media openPlayer iframes, on both sides): the hero-slider w169 player (Video RDX 2026_169, 1440x782 at y92) and the Labyrinth Reply hero-card player (1312x656 at y1358) show a different frame on every capture (origin: magenta title frame / NOW-quiz frame and dancer vs priest frames in the 01:2x run) — the media rows are authored-volatile on both sides, same treatment as the home, company-profile and labs heroes; row extents measured on both captures with stardust/.work/rollout/fix-hub-h/col.mjs (92-874, 1358-2014 identical) — masks are yA:height (fix-hub-h, 2026-11-17)"
+}

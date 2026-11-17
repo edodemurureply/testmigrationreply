@@ -1,0 +1,26 @@
+
+Content diff @ 360px (profile "generic", roots: #main-content, header, footer)
+root "#main-content"
+  source: 104 text nodes — 6 headings, 2 eyebrows, 11 CTAs, 85 body; 18 img
+  build: 104 text nodes — 7 headings, 2 eyebrows, 11 CTAs, 84 body; 18 img
+  editable texts (outermost h*/p/ul/ol): source 73 / build 73
+  attributes (placeholder/aria-label/title): source 8 / build 9; icons: source 8 / build 8
+root "header"
+  source: 110 text nodes — 0 headings, 0 eyebrows, 96 CTAs, 14 body; 17 img
+  build: 110 text nodes — 0 headings, 0 eyebrows, 96 CTAs, 14 body; 17 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 29 / build 29; icons: source 45 / build 45
+  accepted (invisible, nothing lost): 1 SAME IMAGE — "Reply Logo ↔ What will be the implications in 2021 with covid-19 still on play? | Reply"
+root "footer"
+  source: 19 text nodes — 0 headings, 0 eyebrows, 17 CTAs, 2 body; 4 img
+  build: 19 text nodes — 0 headings, 0 eyebrows, 17 CTAs, 2 body; 4 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 7 / build 7; icons: source 7 / build 7
+
+Findings: 5 (1 structural 🔴)
+Tiers: looks-same 🔴 1 · nothing-lost 🟡 0 · accepted 🟢 1 (owner 0, auto 1) · advisory 4
+  🔴 ROLE SWAP [#main-content]: "What will be the implications in 2021 wi" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🟠 FONT FORK [#main-content]: 84 matched line(s) render a DIFFERENT face: body "What will be the implication": source aawdfdgnxz→sys vs build aawdfdgnxz (158%); body "A data-based report on consu": source aawdfdgnxz→sys vs build aawdfdgnxz (191%); body "#new normal #covid-19 implic": source sekprcvhoj→sys vs build sekprcvhoj (148%); cta "Preliminary remarks": source Alaska→sys vs build Alaska→sys (36%); cta "The new normal in 2021 tensi": source Alaska→sys vs build Alaska→sys (186%); cta "Getting prepared for 2021": source Alaska→sys vs build Alaska→sys (70%); heading "Preliminary remarks": source sekprcvhoj→sys vs build sekprcvhoj (36%); body "Reply leverages Data and Ana": source khanqyjjei→sys vs build khanqyjjei (166%) (+76 more). A matched line renders a different typeface. A "→sys" on the source side means it named a font it never loaded; confirm the substitution is intended, else load the missing face.
+  🟠 FONT FORK [header]: 56 matched line(s) render a DIFFERENT face: cta "FR": source Alaska→sys vs build Alaska→sys (-18%); cta "IT": source Alaska→sys vs build Alaska→sys (-18%); cta "PT": source Alaska→sys vs build Alaska→sys (-15%); cta "Artificial Intelligence": source khanqyjjei→sys vs build Alaska→sys (36%); cta "AI-powered Software Engineer": source khanqyjjei→sys vs build Alaska→sys (125%); cta "Cloud Computing": source khanqyjjei→sys vs build Alaska→sys (15%); cta "CX & Digital Commerce": source khanqyjjei→sys vs build Alaska→sys (54%); cta "Digital Experience": source khanqyjjei→sys vs build Alaska→sys (22%) (+48 more). A matched line renders a different typeface. A "→sys" on the source side means it named a font it never loaded; confirm the substitution is intended, else load the missing face.
+  🟠 FONT FORK [footer]: 12 matched line(s) render a DIFFERENT face: body "Privacy & legal": source tuqgwxsjgq→sys vs build tuqgwxsjgq (26%); cta "Privacy & Cookie Policy": source Alaska→sys vs build Alaska→sys (54%); cta "Privacy Notice (Candidate)": source Alaska→sys vs build Alaska→sys (73%); cta "Privacy Notice (Client)": source Alaska→sys vs build Alaska→sys (42%); cta "Privacy Notice (Supplier)": source Alaska→sys vs build Alaska→sys (59%); cta "Privacy Notice (Marketing)": source Alaska→sys vs build Alaska→sys (73%); cta "CCPA Privacy Notice": source Alaska→sys vs build Alaska→sys (31%); cta "Modern Slavery Act Transpare": source Alaska→sys vs build Alaska→sys (172%) (+4 more). A matched line renders a different typeface. A "→sys" on the source side means it named a font it never loaded; confirm the substitution is intended, else load the missing face.
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <nav> aria-label="Page index" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

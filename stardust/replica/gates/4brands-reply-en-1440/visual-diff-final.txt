@@ -1,0 +1,2132 @@
+[live-session] waiting to pace live navigations to www.reply.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 713 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/4brands-reply-en-1440/vdiff-final/
+
+build red flags (advisory): 
+  • FLUSH-LEFT TEXT: <h3> "More impact in FMCG marketin" sits at left -73px (no padding). Left-anchored text at the viewport edge — likely a dropped max-width / centering container.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 8572,
+  "textLen": 9985,
+  "images": [
+   {
+    "src": "65e121cb-a2d4-437e-996d-420a6ce754e1.svg",
+    "natural": "300x101",
+    "rendered": "190x64",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "97ab90ba-cdad-40ff-8b82-203b4b4cb563.jpg?im=Crop,rect=(0,0,1920,1080),allowExpansion",
+    "natural": "1920x1080",
+    "rendered": "1440x810",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "5204c07b-9cda-42b7-9cbc-a3d5d68c7bab.png?im=Crop,rect=(420,0,1080,1080),allowExpansion",
+    "natural": "1080x1080",
+    "rendered": "116x116",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "df889eba-6000-4c05-a5fc-677b0e88578f.png?im=Crop,rect=(981,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "3afdeef1-16fa-4a84-9b06-29f2b871608f.png?im=Crop,rect=(896,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "85dd38b6-72aa-4118-ab68-56367d1c9ff0.png?im=Crop,rect=(994,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "c7fe5eac-56ee-4164-9312-c1b09e7f90de.png?im=Crop,rect=(995,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "463c2323-12e4-410a-b0f6-8103705b5d94.png?im=Crop,rect=(0,0,1920,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "749x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "3abc233d-80b7-4505-8601-b13e465d0356.png?im=Crop,rect=(0,0,1920,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "749x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "187b81c9-5705-474b-bce8-5a6c5b27c9de.png?im=Crop,rect=(0,0,1920,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "749x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "c23521d0-68f3-4e2a-9d53-0050c267acf0.png?im=Crop,rect=(0,0,1920,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "749x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fa17ab4c-2559-4141-810c-952ea50980dd.jpg?im=Crop,rect=(217,122,1703,958),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "749x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1ca5453d-becb-4d39-8b48-626834aa67a4.jpg?im=Crop,rect=(78,0,1252,704),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "749x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fefc39b2-293f-4107-8896-b106c65063f1.jpg?im=Crop,rect=(149,0,427,240),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "749x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "031901c9-020c-4316-91e1-a4c8fa9eba8f.jpg?im=Crop,rect=(0,0,1252,704),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "749x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aaebc57c-06ae-4833-9d9c-b6b5ea365cab.png?im=Crop,rect=(1200,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "23f789c6-77fa-4b11-8a3a-e34a9c7c61a8.png?im=Crop,rect=(649,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "e405c4bb-587e-46a4-b726-fc38aef60f50.png?im=Crop,rect=(1008,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "335x503",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "46c57fd1-b2f6-4778-9654-a4d96885387c.png?im=Crop,rect=(262,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "96f67271-ade2-44ff-8db7-b6c7a542edd8.jpeg?im=Crop,rect=(589,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "5c15be1d-3827-4db6-9a57-5bb01bea0c7e.png?im=Crop,rect=(366,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "298x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "965dc3b1-da5d-48c3-b4ea-8ae35165279f.jpg?im=Crop,rect=(863,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "298x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "36c040dd-c775-4a7c-b22d-8730bd80bbc7.jpg?im=Crop,rect=(1064,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "298x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "9f65fa1b-e21a-43ff-bdd4-5e656d2d725e.jpg?im=Crop,rect=(170,0,469,704),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "298x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "71d7b568-ebb8-451c-82b6-dddab52b265e.jpg?im=Crop,rect=(409,0,633,950),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "298x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fbdb14e6-23a9-41b4-b973-f22ebab6b7ca.jpg?im=Crop,rect=(611,0,633,950),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "298x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "8078c845-ae8d-4291-bc1f-1f489d82ddc3.jpg?im=Crop,rect=(636,0,469,704),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "298x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aaebc57c-06ae-4833-9d9c-b6b5ea365cab.png?im=Crop,rect=(1200,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "23f789c6-77fa-4b11-8a3a-e34a9c7c61a8.png?im=Crop,rect=(649,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "e405c4bb-587e-46a4-b726-fc38aef60f50.png?im=Crop,rect=(1008,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "46c57fd1-b2f6-4778-9654-a4d96885387c.png?im=Crop,rect=(262,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "96f67271-ade2-44ff-8db7-b6c7a542edd8.jpeg?im=Crop,rect=(589,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "2fed55f1-4e6b-4467-a257-23c72cd5629c.jpg?im=Crop,rect=(0,0,1920,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "749x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bb7cdcbc-3982-4e94-b9f7-822b72aeb0db.png?im=AspectCrop=(16,9);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "749x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d4c3575e-1a45-41c7-901f-4ab8fb992b0e.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "749x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d6d757ea-2804-4985-b445-7bf646217c7c.jpg?im=AspectCrop=(16,9);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "749x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "2436e6a5-6e22-408b-b65c-e395a3b47c6e.jpg?im=Crop,rect=(78,0,1252,704),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "749x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "c2e8dcd1-990b-4479-a486-e59127e84df1.png?im=Crop,rect=(668,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "298x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "dd27812a-253a-4200-9a07-722cb49d2d68.png?im=Crop,rect=(434,9,581,871),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "298x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d25c786b-63af-4097-b3a1-e2761dcb26da.png?im=Crop,rect=(1145,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "298x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ba4585ed-1e59-4427-8374-47e7ba706500.png?im=Crop,rect=(847,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "298x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "48ae9902-3281-4bf0-9482-11fa1b03174f.png?im=Crop,rect=(0,0,1920,1080),allowExpansion;Resize,width=1660",
+    "natural": "0x0",
+    "rendered": "749x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "c9a73a7e-8e37-45c2-a5d6-05741cd720f0.jpg?im=Crop,rect=(4,0,1912,1076),allowExpansion;Resize,width=1660",
+    "natural": "0x0",
+    "rendered": "749x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6a354f5c-d979-40be-b4da-d3cea809cc74.jpg?im=AspectCrop=(16,9);Resize,width=1660",
+    "natural": "0x0",
+    "rendered": "749x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aa8da4ac-d396-4ab5-a8cb-9bfe21b26e43.jpg?im=AspectCrop=(16,9);Resize,width=1660",
+    "natural": "0x0",
+    "rendered": "749x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "5dca0b43-5a4b-444f-8851-8ba12761ff5a.png?im=AspectCrop=(16,9);Resize,width=1660",
+    "natural": "0x0",
+    "rendered": "749x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "274ed6c3-8b25-4065-af2c-4b6b483e8b4a.png?im=AspectCrop=(16,9);Resize,width=1660",
+    "natural": "0x0",
+    "rendered": "749x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "06f51f8d-270a-4b57-ad4e-47ac6ad7083d.svg",
+    "natural": "0x0",
+    "rendered": "0x71",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Reply_-_LOGO__150dpi.jpg",
+    "natural": "614x164",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Your digitalization partner for ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "64px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "About 4brands Reply",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Discover our services in detail",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "42px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Customer Experience Management",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Customer & Consumer Engagement",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Data Value Management",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Revenue Growth Management",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Our success stories",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Rotkäppchen-Mumm manages sales a",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Gerolsteiner lays the foundation",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Bitburger: Gamification as the k",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Bitburger creates a unique and p",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A seamless sales system for Ritt",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Rotkaeppchen-Mumm Sektkellereien",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "With 4brands Reply, Zentis strea",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Avoiding production bottlenecks",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Innovation driver for the consum",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "42px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "More impact in FMCG marketing wi",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Optimization of consumer goods l",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "REVE - The Planning Interface fo",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Data & AI for Consumer Goods",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Simulation of consumer behavior ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Equipping The Supply Chain With ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI Store Check: Shelf Survey at ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Analysing Online Menus",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Smart glasses in use: efficient ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "IoT at the Supermarket: the inte",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "An AI Assistant for Sales",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Automation in Tour Planning",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "More impact in FMCG marketing wi",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Optimization of consumer goods l",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "REVE - The Planning Interface fo",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Data & AI for Consumer Goods",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Simulation of consumer behavior ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Our strong partnership enables u",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "42px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply and SAP",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Leading in SAP implementation & ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply Recognized in SAP Services",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Top ranking for Reply in SAP-rel",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Our app on SAP® Store",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Our FMCG expertise at a glance",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "42px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Process Mining: Transparency for",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "VisionGallery AI: AI image analy",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Agentic AI Revenue Growth Manage",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Full control over conditions wit",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "News & Events",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI excellence ensures top rankin",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply remains at the forefront o",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Leader in Digital Experience Ser",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Revenue Growth Management: Next ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Cloud Experiences with SAP",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Impact analysis: How is the cons",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "SAP KonsumKompass 2027",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "4brands Reply at the LZ AI Day 2",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply at SAP NOW AI Tour Germany",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "SAP Customer Community",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Find our offices near you",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "36px",
+    "family": "khanqyjjei",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Germany",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "28px",
+    "family": "khanqyjjei",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Offering",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Offering",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Offering",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Offering",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "flushText": [
+   {
+    "tag": "h3",
+    "text": "More impact in FMCG marketin",
+    "left": -73
+   }
+  ],
+  "contentBoxes": [
+   {
+    "sel": "kwhiwyatvl",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "fuyvanaywc",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "xsktolgvcc",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "bmmuoxoopi",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "uusozqldkz",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "carousel-items",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "efejisojbv",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "carousel-items",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "qhjxhpcpvz",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "carousel-items",
+    "width": 1617,
+    "left": 0
+   },
+   {
+    "sel": "ProseMirror",
+    "width": 1087,
+    "left": 177
+   },
+   {
+    "sel": "carousel-items",
+    "width": 1312,
+    "left": -105
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 8572,
+  "textLen": 10005,
+  "images": [
+   {
+    "src": "65e121cb-a2d4-437e-996d-420a6ce754e1.svg",
+    "natural": "300x101",
+    "rendered": "190x64",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "97ab90ba-cdad-40ff-8b82-203b4b4cb563.jpg?im=Crop,rect=(0,0,1920,1080),allowExpansion",
+    "natural": "1920x1080",
+    "rendered": "1440x810",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "5204c07b-9cda-42b7-9cbc-a3d5d68c7bab.png?im=Crop,rect=(420,0,1080,1080),allowExpansion",
+    "natural": "1080x1080",
+    "rendered": "116x116",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "df889eba-6000-4c05-a5fc-677b0e88578f.png?im=Crop,rect=(981,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "3afdeef1-16fa-4a84-9b06-29f2b871608f.png?im=Crop,rect=(896,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "85dd38b6-72aa-4118-ab68-56367d1c9ff0.png?im=Crop,rect=(994,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "c7fe5eac-56ee-4164-9312-c1b09e7f90de.png?im=Crop,rect=(995,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "463c2323-12e4-410a-b0f6-8103705b5d94.png?im=Crop,rect=(0,0,1920,1080),allowExpansion;Resize,width=660",
+    "natural": "660x371",
+    "rendered": "749x421",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "3abc233d-80b7-4505-8601-b13e465d0356.png?im=Crop,rect=(0,0,1920,1080),allowExpansion;Resize,width=660",
+    "natural": "660x371",
+    "rendered": "749x421",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "187b81c9-5705-474b-bce8-5a6c5b27c9de.png?im=Crop,rect=(0,0,1920,1080),allowExpansion;Resize,width=660",
+    "natural": "660x371",
+    "rendered": "749x421",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "c23521d0-68f3-4e2a-9d53-0050c267acf0.png?im=Crop,rect=(0,0,1920,1080),allowExpansion;Resize,width=660",
+    "natural": "660x371",
+    "rendered": "749x421",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fa17ab4c-2559-4141-810c-952ea50980dd.jpg?im=Crop,rect=(217,122,1703,958),allowExpansion;Resize,width=660",
+    "natural": "660x371",
+    "rendered": "749x421",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1ca5453d-becb-4d39-8b48-626834aa67a4.jpg?im=Crop,rect=(78,0,1252,704),allowExpansion;Resize,width=660",
+    "natural": "660x371",
+    "rendered": "749x421",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fefc39b2-293f-4107-8896-b106c65063f1.jpg?im=Crop,rect=(149,0,427,240),allowExpansion;Resize,width=660",
+    "natural": "660x371",
+    "rendered": "749x421",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "031901c9-020c-4316-91e1-a4c8fa9eba8f.jpg?im=Crop,rect=(0,0,1252,704),allowExpansion;Resize,width=660",
+    "natural": "660x371",
+    "rendered": "749x421",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aaebc57c-06ae-4833-9d9c-b6b5ea365cab.png?im=Crop,rect=(1200,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "23f789c6-77fa-4b11-8a3a-e34a9c7c61a8.png?im=Crop,rect=(649,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "e405c4bb-587e-46a4-b726-fc38aef60f50.png?im=Crop,rect=(1008,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "335x503",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "46c57fd1-b2f6-4778-9654-a4d96885387c.png?im=Crop,rect=(262,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "96f67271-ade2-44ff-8db7-b6c7a542edd8.jpeg?im=Crop,rect=(589,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "5c15be1d-3827-4db6-9a57-5bb01bea0c7e.png?im=Crop,rect=(366,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "965dc3b1-da5d-48c3-b4ea-8ae35165279f.jpg?im=Crop,rect=(863,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "36c040dd-c775-4a7c-b22d-8730bd80bbc7.jpg?im=Crop,rect=(1064,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "9f65fa1b-e21a-43ff-bdd4-5e656d2d725e.jpg?im=Crop,rect=(170,0,469,704),allowExpansion;Resize,width=660",
+    "natural": "660x991",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "71d7b568-ebb8-451c-82b6-dddab52b265e.jpg?im=Crop,rect=(409,0,633,950),allowExpansion;Resize,width=660",
+    "natural": "660x991",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fbdb14e6-23a9-41b4-b973-f22ebab6b7ca.jpg?im=Crop,rect=(611,0,633,950),allowExpansion;Resize,width=660",
+    "natural": "660x991",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "8078c845-ae8d-4291-bc1f-1f489d82ddc3.jpg?im=Crop,rect=(636,0,469,704),allowExpansion;Resize,width=660",
+    "natural": "660x991",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aaebc57c-06ae-4833-9d9c-b6b5ea365cab.png?im=Crop,rect=(1200,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "23f789c6-77fa-4b11-8a3a-e34a9c7c61a8.png?im=Crop,rect=(649,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "e405c4bb-587e-46a4-b726-fc38aef60f50.png?im=Crop,rect=(1008,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "46c57fd1-b2f6-4778-9654-a4d96885387c.png?im=Crop,rect=(262,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "96f67271-ade2-44ff-8db7-b6c7a542edd8.jpeg?im=Crop,rect=(589,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "2fed55f1-4e6b-4467-a257-23c72cd5629c.jpg?im=Crop,rect=(0,0,1920,1080),allowExpansion;Resize,width=660",
+    "natural": "660x371",
+    "rendered": "749x421",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bb7cdcbc-3982-4e94-b9f7-822b72aeb0db.png?im=AspectCrop=(16,9);Resize,width=660",
+    "natural": "660x371",
+    "rendered": "749x421",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d4c3575e-1a45-41c7-901f-4ab8fb992b0e.png?im=AspectCrop=(16,9)",
+    "natural": "1451x816",
+    "rendered": "749x421",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d6d757ea-2804-4985-b445-7bf646217c7c.jpg?im=AspectCrop=(16,9);Resize,width=660",
+    "natural": "660x371",
+    "rendered": "749x421",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "2436e6a5-6e22-408b-b65c-e395a3b47c6e.jpg?im=Crop,rect=(78,0,1252,704),allowExpansion;Resize,width=660",
+    "natural": "660x371",
+    "rendered": "749x421",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "c2e8dcd1-990b-4479-a486-e59127e84df1.png?im=Crop,rect=(668,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "dd27812a-253a-4200-9a07-722cb49d2d68.png?im=Crop,rect=(434,9,581,871),allowExpansion;Resize,width=660",
+    "natural": "660x989",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d25c786b-63af-4097-b3a1-e2761dcb26da.png?im=Crop,rect=(1145,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ba4585ed-1e59-4427-8374-47e7ba706500.png?im=Crop,rect=(847,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "48ae9902-3281-4bf0-9482-11fa1b03174f.png?im=Crop,rect=(0,0,1920,1080),allowExpansion;Resize,width=1660",
+    "natural": "1660x934",
+    "rendered": "749x421",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "c9a73a7e-8e37-45c2-a5d6-05741cd720f0.jpg?im=Crop,rect=(4,0,1912,1076),allowExpansion;Resize,width=1660",
+    "natural": "1660x934",
+    "rendered": "749x421",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6a354f5c-d979-40be-b4da-d3cea809cc74.jpg?im=AspectCrop=(16,9);Resize,width=1660",
+    "natural": "1660x934",
+    "rendered": "749x421",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aa8da4ac-d396-4ab5-a8cb-9bfe21b26e43.jpg?im=AspectCrop=(16,9);Resize,width=1660",
+    "natural": "1660x934",
+    "rendered": "749x421",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "5dca0b43-5a4b-444f-8851-8ba12761ff5a.png?im=AspectCrop=(16,9);Resize,width=1660",
+    "natural": "1660x934",
+    "rendered": "749x421",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "274ed6c3-8b25-4065-af2c-4b6b483e8b4a.png?im=AspectCrop=(16,9);Resize,width=1660",
+    "natural": "1660x934",
+    "rendered": "749x421",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "vt?pb=!1m5!1m4!1i6!2i32!3i20!4i256!2m3!1e4!2st!3i803!2m3!1e0!2sr!3i803569816!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sTerrain!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5jOiMzMTMzM2Uscy5lOmd8cC5jOiMxNTFmMjcscy5lOmwudC5mfHAuYzojYWRhZGFkLHMuZTpsLnQuc3xwLmM6IzBmMTYyNixzLnQ6MTd8cy5lOmcuc3xwLmM6IzE4MWMyMCxzLnQ6MjF8cy5lOmx8cC52Om9mZixzLnQ6MTh8cy5lOmcuc3xwLmM6IzIwMjQyOCxzLnQ6NXxwLmM6IzMxMzMzZSxzLnQ6ODF8cy5lOmd8cC5jOiMyODMzM2Uscy50OjgyfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzEzfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzE0fHMuZTpnfHAuYzojMjgzMzNlLHMudDoyfHAudjpvZmYscy50OjN8cy5lOmd8cC5jOiMzZjQ2NWEscy50OjN8cy5lOmwudC5mfHAuYzojOThhNWJlLHMudDozfHMuZTpsLnQuc3xwLmM6IzFkMmM0ZCxzLnQ6NDl8cy5lOmd8cC5jOiMxYzIyMzEscy50OjQ5fHMuZTpsLnQuZnxwLmM6I2IwZDVjZSxzLnQ6NDl8cy5lOmwudC5zfHAuYzojMDIzZTU4LHMudDo1MXxzLmU6bHxwLnY6b2ZmLHMudDo0fHMuZTpsLnQuZnxwLmM6Izk0OTQ5NCxzLnQ6NHxzLmU6bC50LnN8cC5jOiMwZjE2MjYscy50OjY1fHMuZTpnLmZ8cC5jOiMxZjI2MmQscy50OjY2fHMuZTpnfHAuYzojMWYyNjJkLHMudDo2fHAuYzojMTUxZjI3LHMudDo2fHMuZTpnfHAuYzojMGUxNjI2LHMudDo2fHMuZTpsLnQuZnxwLmM6IzNmNGQ1YQ!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyBRc6IderW1Ycgj5McAA6IV_yhtKSreyN8&token=46933",
+    "natural": "256x256",
+    "rendered": "256x256",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "vt?pb=!1m5!1m4!1i6!2i33!3i20!4i256!2m3!1e4!2st!3i803!2m3!1e0!2sr!3i803569816!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sTerrain!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5jOiMzMTMzM2Uscy5lOmd8cC5jOiMxNTFmMjcscy5lOmwudC5mfHAuYzojYWRhZGFkLHMuZTpsLnQuc3xwLmM6IzBmMTYyNixzLnQ6MTd8cy5lOmcuc3xwLmM6IzE4MWMyMCxzLnQ6MjF8cy5lOmx8cC52Om9mZixzLnQ6MTh8cy5lOmcuc3xwLmM6IzIwMjQyOCxzLnQ6NXxwLmM6IzMxMzMzZSxzLnQ6ODF8cy5lOmd8cC5jOiMyODMzM2Uscy50OjgyfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzEzfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzE0fHMuZTpnfHAuYzojMjgzMzNlLHMudDoyfHAudjpvZmYscy50OjN8cy5lOmd8cC5jOiMzZjQ2NWEscy50OjN8cy5lOmwudC5mfHAuYzojOThhNWJlLHMudDozfHMuZTpsLnQuc3xwLmM6IzFkMmM0ZCxzLnQ6NDl8cy5lOmd8cC5jOiMxYzIyMzEscy50OjQ5fHMuZTpsLnQuZnxwLmM6I2IwZDVjZSxzLnQ6NDl8cy5lOmwudC5zfHAuYzojMDIzZTU4LHMudDo1MXxzLmU6bHxwLnY6b2ZmLHMudDo0fHMuZTpsLnQuZnxwLmM6Izk0OTQ5NCxzLnQ6NHxzLmU6bC50LnN8cC5jOiMwZjE2MjYscy50OjY1fHMuZTpnLmZ8cC5jOiMxZjI2MmQscy50OjY2fHMuZTpnfHAuYzojMWYyNjJkLHMudDo2fHAuYzojMTUxZjI3LHMudDo2fHMuZTpnfHAuYzojMGUxNjI2LHMudDo2fHMuZTpsLnQuZnxwLmM6IzNmNGQ1YQ!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyBRc6IderW1Ycgj5McAA6IV_yhtKSreyN8&token=66137",
+    "natural": "256x256",
+    "rendered": "256x256",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "vt?pb=!1m5!1m4!1i6!2i34!3i21!4i256!2m3!1e4!2st!3i803!2m3!1e0!2sr!3i803569816!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sTerrain!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5jOiMzMTMzM2Uscy5lOmd8cC5jOiMxNTFmMjcscy5lOmwudC5mfHAuYzojYWRhZGFkLHMuZTpsLnQuc3xwLmM6IzBmMTYyNixzLnQ6MTd8cy5lOmcuc3xwLmM6IzE4MWMyMCxzLnQ6MjF8cy5lOmx8cC52Om9mZixzLnQ6MTh8cy5lOmcuc3xwLmM6IzIwMjQyOCxzLnQ6NXxwLmM6IzMxMzMzZSxzLnQ6ODF8cy5lOmd8cC5jOiMyODMzM2Uscy50OjgyfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzEzfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzE0fHMuZTpnfHAuYzojMjgzMzNlLHMudDoyfHAudjpvZmYscy50OjN8cy5lOmd8cC5jOiMzZjQ2NWEscy50OjN8cy5lOmwudC5mfHAuYzojOThhNWJlLHMudDozfHMuZTpsLnQuc3xwLmM6IzFkMmM0ZCxzLnQ6NDl8cy5lOmd8cC5jOiMxYzIyMzEscy50OjQ5fHMuZTpsLnQuZnxwLmM6I2IwZDVjZSxzLnQ6NDl8cy5lOmwudC5zfHAuYzojMDIzZTU4LHMudDo1MXxzLmU6bHxwLnY6b2ZmLHMudDo0fHMuZTpsLnQuZnxwLmM6Izk0OTQ5NCxzLnQ6NHxzLmU6bC50LnN8cC5jOiMwZjE2MjYscy50OjY1fHMuZTpnLmZ8cC5jOiMxZjI2MmQscy50OjY2fHMuZTpnfHAuYzojMWYyNjJkLHMudDo2fHAuYzojMTUxZjI3LHMudDo2fHMuZTpnfHAuYzojMGUxNjI2LHMudDo2fHMuZTpsLnQuZnxwLmM6IzNmNGQ1YQ!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyBRc6IderW1Ycgj5McAA6IV_yhtKSreyN8&token=112892",
+    "natural": "256x256",
+    "rendered": "256x256",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "vt?pb=!1m5!1m4!1i6!2i34!3i22!4i256!2m3!1e4!2st!3i803!2m3!1e0!2sr!3i803569816!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sTerrain!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5jOiMzMTMzM2Uscy5lOmd8cC5jOiMxNTFmMjcscy5lOmwudC5mfHAuYzojYWRhZGFkLHMuZTpsLnQuc3xwLmM6IzBmMTYyNixzLnQ6MTd8cy5lOmcuc3xwLmM6IzE4MWMyMCxzLnQ6MjF8cy5lOmx8cC52Om9mZixzLnQ6MTh8cy5lOmcuc3xwLmM6IzIwMjQyOCxzLnQ6NXxwLmM6IzMxMzMzZSxzLnQ6ODF8cy5lOmd8cC5jOiMyODMzM2Uscy50OjgyfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzEzfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzE0fHMuZTpnfHAuYzojMjgzMzNlLHMudDoyfHAudjpvZmYscy50OjN8cy5lOmd8cC5jOiMzZjQ2NWEscy50OjN8cy5lOmwudC5mfHAuYzojOThhNWJlLHMudDozfHMuZTpsLnQuc3xwLmM6IzFkMmM0ZCxzLnQ6NDl8cy5lOmd8cC5jOiMxYzIyMzEscy50OjQ5fHMuZTpsLnQuZnxwLmM6I2IwZDVjZSxzLnQ6NDl8cy5lOmwudC5zfHAuYzojMDIzZTU4LHMudDo1MXxzLmU6bHxwLnY6b2ZmLHMudDo0fHMuZTpsLnQuZnxwLmM6Izk0OTQ5NCxzLnQ6NHxzLmU6bC50LnN8cC5jOiMwZjE2MjYscy50OjY1fHMuZTpnLmZ8cC5jOiMxZjI2MmQscy50OjY2fHMuZTpnfHAuYzojMWYyNjJkLHMudDo2fHAuYzojMTUxZjI3LHMudDo2fHMuZTpnfHAuYzojMGUxNjI2LHMudDo2fHMuZTpsLnQuZnxwLmM6IzNmNGQ1YQ!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyBRc6IderW1Ycgj5McAA6IV_yhtKSreyN8&token=9372",
+    "natural": "256x256",
+    "rendered": "256x256",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "vt?pb=!1m5!1m4!1i6!2i33!3i22!4i256!2m3!1e4!2st!3i803!2m3!1e0!2sr!3i803569816!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sTerrain!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5jOiMzMTMzM2Uscy5lOmd8cC5jOiMxNTFmMjcscy5lOmwudC5mfHAuYzojYWRhZGFkLHMuZTpsLnQuc3xwLmM6IzBmMTYyNixzLnQ6MTd8cy5lOmcuc3xwLmM6IzE4MWMyMCxzLnQ6MjF8cy5lOmx8cC52Om9mZixzLnQ6MTh8cy5lOmcuc3xwLmM6IzIwMjQyOCxzLnQ6NXxwLmM6IzMxMzMzZSxzLnQ6ODF8cy5lOmd8cC5jOiMyODMzM2Uscy50OjgyfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzEzfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzE0fHMuZTpnfHAuYzojMjgzMzNlLHMudDoyfHAudjpvZmYscy50OjN8cy5lOmd8cC5jOiMzZjQ2NWEscy50OjN8cy5lOmwudC5mfHAuYzojOThhNWJlLHMudDozfHMuZTpsLnQuc3xwLmM6IzFkMmM0ZCxzLnQ6NDl8cy5lOmd8cC5jOiMxYzIyMzEscy50OjQ5fHMuZTpsLnQuZnxwLmM6I2IwZDVjZSxzLnQ6NDl8cy5lOmwudC5zfHAuYzojMDIzZTU4LHMudDo1MXxzLmU6bHxwLnY6b2ZmLHMudDo0fHMuZTpsLnQuZnxwLmM6Izk0OTQ5NCxzLnQ6NHxzLmU6bC50LnN8cC5jOiMwZjE2MjYscy50OjY1fHMuZTpnLmZ8cC5jOiMxZjI2MmQscy50OjY2fHMuZTpnfHAuYzojMWYyNjJkLHMudDo2fHAuYzojMTUxZjI3LHMudDo2fHMuZTpnfHAuYzojMGUxNjI2LHMudDo2fHMuZTpsLnQuZnxwLmM6IzNmNGQ1YQ!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyBRc6IderW1Ycgj5McAA6IV_yhtKSreyN8&token=121239",
+    "natural": "256x256",
+    "rendered": "256x256",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "vt?pb=!1m5!1m4!1i6!2i31!3i22!4i256!2m3!1e4!2st!3i803!2m3!1e0!2sr!3i803569780!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sTerrain!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5jOiMzMTMzM2Uscy5lOmd8cC5jOiMxNTFmMjcscy5lOmwudC5mfHAuYzojYWRhZGFkLHMuZTpsLnQuc3xwLmM6IzBmMTYyNixzLnQ6MTd8cy5lOmcuc3xwLmM6IzE4MWMyMCxzLnQ6MjF8cy5lOmx8cC52Om9mZixzLnQ6MTh8cy5lOmcuc3xwLmM6IzIwMjQyOCxzLnQ6NXxwLmM6IzMxMzMzZSxzLnQ6ODF8cy5lOmd8cC5jOiMyODMzM2Uscy50OjgyfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzEzfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzE0fHMuZTpnfHAuYzojMjgzMzNlLHMudDoyfHAudjpvZmYscy50OjN8cy5lOmd8cC5jOiMzZjQ2NWEscy50OjN8cy5lOmwudC5mfHAuYzojOThhNWJlLHMudDozfHMuZTpsLnQuc3xwLmM6IzFkMmM0ZCxzLnQ6NDl8cy5lOmd8cC5jOiMxYzIyMzEscy50OjQ5fHMuZTpsLnQuZnxwLmM6I2IwZDVjZSxzLnQ6NDl8cy5lOmwudC5zfHAuYzojMDIzZTU4LHMudDo1MXxzLmU6bHxwLnY6b2ZmLHMudDo0fHMuZTpsLnQuZnxwLmM6Izk0OTQ5NCxzLnQ6NHxzLmU6bC50LnN8cC5jOiMwZjE2MjYscy50OjY1fHMuZTpnLmZ8cC5jOiMxZjI2MmQscy50OjY2fHMuZTpnfHAuYzojMWYyNjJkLHMudDo2fHAuYzojMTUxZjI3LHMudDo2fHMuZTpnfHAuYzojMGUxNjI2LHMudDo2fHMuZTpsLnQuZnxwLmM6IzNmNGQ1YQ!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyBRc6IderW1Ycgj5McAA6IV_yhtKSreyN8&token=90989",
+    "natural": "256x256",
+    "rendered": "256x256",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "vt?pb=!1m5!1m4!1i6!2i31!3i20!4i256!2m3!1e4!2st!3i803!2m3!1e0!2sr!3i803569780!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sTerrain!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5jOiMzMTMzM2Uscy5lOmd8cC5jOiMxNTFmMjcscy5lOmwudC5mfHAuYzojYWRhZGFkLHMuZTpsLnQuc3xwLmM6IzBmMTYyNixzLnQ6MTd8cy5lOmcuc3xwLmM6IzE4MWMyMCxzLnQ6MjF8cy5lOmx8cC52Om9mZixzLnQ6MTh8cy5lOmcuc3xwLmM6IzIwMjQyOCxzLnQ6NXxwLmM6IzMxMzMzZSxzLnQ6ODF8cy5lOmd8cC5jOiMyODMzM2Uscy50OjgyfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzEzfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzE0fHMuZTpnfHAuYzojMjgzMzNlLHMudDoyfHAudjpvZmYscy50OjN8cy5lOmd8cC5jOiMzZjQ2NWEscy50OjN8cy5lOmwudC5mfHAuYzojOThhNWJlLHMudDozfHMuZTpsLnQuc3xwLmM6IzFkMmM0ZCxzLnQ6NDl8cy5lOmd8cC5jOiMxYzIyMzEscy50OjQ5fHMuZTpsLnQuZnxwLmM6I2IwZDVjZSxzLnQ6NDl8cy5lOmwudC5zfHAuYzojMDIzZTU4LHMudDo1MXxzLmU6bHxwLnY6b2ZmLHMudDo0fHMuZTpsLnQuZnxwLmM6Izk0OTQ5NCxzLnQ6NHxzLmU6bC50LnN8cC5jOiMwZjE2MjYscy50OjY1fHMuZTpnLmZ8cC5jOiMxZjI2MmQscy50OjY2fHMuZTpnfHAuYzojMWYyNjJkLHMudDo2fHAuYzojMTUxZjI3LHMudDo2fHMuZTpnfHAuYzojMGUxNjI2LHMudDo2fHMuZTpsLnQuZnxwLmM6IzNmNGQ1YQ!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyBRc6IderW1Ycgj5McAA6IV_yhtKSreyN8&token=35887",
+    "natural": "256x256",
+    "rendered": "256x256",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "vt?pb=!1m5!1m4!1i6!2i32!3i22!4i256!2m3!1e4!2st!3i803!2m3!1e0!2sr!3i803569816!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sTerrain!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5jOiMzMTMzM2Uscy5lOmd8cC5jOiMxNTFmMjcscy5lOmwudC5mfHAuYzojYWRhZGFkLHMuZTpsLnQuc3xwLmM6IzBmMTYyNixzLnQ6MTd8cy5lOmcuc3xwLmM6IzE4MWMyMCxzLnQ6MjF8cy5lOmx8cC52Om9mZixzLnQ6MTh8cy5lOmcuc3xwLmM6IzIwMjQyOCxzLnQ6NXxwLmM6IzMxMzMzZSxzLnQ6ODF8cy5lOmd8cC5jOiMyODMzM2Uscy50OjgyfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzEzfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzE0fHMuZTpnfHAuYzojMjgzMzNlLHMudDoyfHAudjpvZmYscy50OjN8cy5lOmd8cC5jOiMzZjQ2NWEscy50OjN8cy5lOmwudC5mfHAuYzojOThhNWJlLHMudDozfHMuZTpsLnQuc3xwLmM6IzFkMmM0ZCxzLnQ6NDl8cy5lOmd8cC5jOiMxYzIyMzEscy50OjQ5fHMuZTpsLnQuZnxwLmM6I2IwZDVjZSxzLnQ6NDl8cy5lOmwudC5zfHAuYzojMDIzZTU4LHMudDo1MXxzLmU6bHxwLnY6b2ZmLHMudDo0fHMuZTpsLnQuZnxwLmM6Izk0OTQ5NCxzLnQ6NHxzLmU6bC50LnN8cC5jOiMwZjE2MjYscy50OjY1fHMuZTpnLmZ8cC5jOiMxZjI2MmQscy50OjY2fHMuZTpnfHAuYzojMWYyNjJkLHMudDo2fHAuYzojMTUxZjI3LHMudDo2fHMuZTpnfHAuYzojMGUxNjI2LHMudDo2fHMuZTpsLnQuZnxwLmM6IzNmNGQ1YQ!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyBRc6IderW1Ycgj5McAA6IV_yhtKSreyN8&token=102035",
+    "natural": "256x256",
+    "rendered": "256x256",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "vt?pb=!1m5!1m4!1i6!2i35!3i20!4i256!2m3!1e4!2st!3i803!2m3!1e0!2sr!3i803569780!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sTerrain!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5jOiMzMTMzM2Uscy5lOmd8cC5jOiMxNTFmMjcscy5lOmwudC5mfHAuYzojYWRhZGFkLHMuZTpsLnQuc3xwLmM6IzBmMTYyNixzLnQ6MTd8cy5lOmcuc3xwLmM6IzE4MWMyMCxzLnQ6MjF8cy5lOmx8cC52Om9mZixzLnQ6MTh8cy5lOmcuc3xwLmM6IzIwMjQyOCxzLnQ6NXxwLmM6IzMxMzMzZSxzLnQ6ODF8cy5lOmd8cC5jOiMyODMzM2Uscy50OjgyfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzEzfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzE0fHMuZTpnfHAuYzojMjgzMzNlLHMudDoyfHAudjpvZmYscy50OjN8cy5lOmd8cC5jOiMzZjQ2NWEscy50OjN8cy5lOmwudC5mfHAuYzojOThhNWJlLHMudDozfHMuZTpsLnQuc3xwLmM6IzFkMmM0ZCxzLnQ6NDl8cy5lOmd8cC5jOiMxYzIyMzEscy50OjQ5fHMuZTpsLnQuZnxwLmM6I2IwZDVjZSxzLnQ6NDl8cy5lOmwudC5zfHAuYzojMDIzZTU4LHMudDo1MXxzLmU6bHxwLnY6b2ZmLHMudDo0fHMuZTpsLnQuZnxwLmM6Izk0OTQ5NCxzLnQ6NHxzLmU6bC50LnN8cC5jOiMwZjE2MjYscy50OjY1fHMuZTpnLmZ8cC5jOiMxZjI2MmQscy50OjY2fHMuZTpnfHAuYzojMWYyNjJkLHMudDo2fHAuYzojMTUxZjI3LHMudDo2fHMuZTpnfHAuYzojMGUxNjI2LHMudDo2fHMuZTpsLnQuZnxwLmM6IzNmNGQ1YQ!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyBRc6IderW1Ycgj5McAA6IV_yhtKSreyN8&token=112703",
+    "natural": "256x256",
+    "rendered": "256x256",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "vt?pb=!1m5!1m4!1i6!2i35!3i22!4i256!2m3!1e4!2st!3i803!2m3!1e0!2sr!3i803569780!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sTerrain!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5jOiMzMTMzM2Uscy5lOmd8cC5jOiMxNTFmMjcscy5lOmwudC5mfHAuYzojYWRhZGFkLHMuZTpsLnQuc3xwLmM6IzBmMTYyNixzLnQ6MTd8cy5lOmcuc3xwLmM6IzE4MWMyMCxzLnQ6MjF8cy5lOmx8cC52Om9mZixzLnQ6MTh8cy5lOmcuc3xwLmM6IzIwMjQyOCxzLnQ6NXxwLmM6IzMxMzMzZSxzLnQ6ODF8cy5lOmd8cC5jOiMyODMzM2Uscy50OjgyfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzEzfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzE0fHMuZTpnfHAuYzojMjgzMzNlLHMudDoyfHAudjpvZmYscy50OjN8cy5lOmd8cC5jOiMzZjQ2NWEscy50OjN8cy5lOmwudC5mfHAuYzojOThhNWJlLHMudDozfHMuZTpsLnQuc3xwLmM6IzFkMmM0ZCxzLnQ6NDl8cy5lOmd8cC5jOiMxYzIyMzEscy50OjQ5fHMuZTpsLnQuZnxwLmM6I2IwZDVjZSxzLnQ6NDl8cy5lOmwudC5zfHAuYzojMDIzZTU4LHMudDo1MXxzLmU6bHxwLnY6b2ZmLHMudDo0fHMuZTpsLnQuZnxwLmM6Izk0OTQ5NCxzLnQ6NHxzLmU6bC50LnN8cC5jOiMwZjE2MjYscy50OjY1fHMuZTpnLmZ8cC5jOiMxZjI2MmQscy50OjY2fHMuZTpnfHAuYzojMWYyNjJkLHMudDo2fHAuYzojMTUxZjI3LHMudDo2fHMuZTpnfHAuYzojMGUxNjI2LHMudDo2fHMuZTpsLnQuZnxwLmM6IzNmNGQ1YQ!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyBRc6IderW1Ycgj5McAA6IV_yhtKSreyN8&token=36734",
+    "natural": "256x256",
+    "rendered": "256x256",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "vt?pb=!1m5!1m4!1i6!2i36!3i22!4i256!2m3!1e4!2st!3i803!2m3!1e0!2sr!3i803569780!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sTerrain!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5jOiMzMTMzM2Uscy5lOmd8cC5jOiMxNTFmMjcscy5lOmwudC5mfHAuYzojYWRhZGFkLHMuZTpsLnQuc3xwLmM6IzBmMTYyNixzLnQ6MTd8cy5lOmcuc3xwLmM6IzE4MWMyMCxzLnQ6MjF8cy5lOmx8cC52Om9mZixzLnQ6MTh8cy5lOmcuc3xwLmM6IzIwMjQyOCxzLnQ6NXxwLmM6IzMxMzMzZSxzLnQ6ODF8cy5lOmd8cC5jOiMyODMzM2Uscy50OjgyfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzEzfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzE0fHMuZTpnfHAuYzojMjgzMzNlLHMudDoyfHAudjpvZmYscy50OjN8cy5lOmd8cC5jOiMzZjQ2NWEscy50OjN8cy5lOmwudC5mfHAuYzojOThhNWJlLHMudDozfHMuZTpsLnQuc3xwLmM6IzFkMmM0ZCxzLnQ6NDl8cy5lOmd8cC5jOiMxYzIyMzEscy50OjQ5fHMuZTpsLnQuZnxwLmM6I2IwZDVjZSxzLnQ6NDl8cy5lOmwudC5zfHAuYzojMDIzZTU4LHMudDo1MXxzLmU6bHxwLnY6b2ZmLHMudDo0fHMuZTpsLnQuZnxwLmM6Izk0OTQ5NCxzLnQ6NHxzLmU6bC50LnN8cC5jOiMwZjE2MjYscy50OjY1fHMuZTpnLmZ8cC5jOiMxZjI2MmQscy50OjY2fHMuZTpnfHAuYzojMWYyNjJkLHMudDo2fHAuYzojMTUxZjI3LHMudDo2fHMuZTpnfHAuYzojMGUxNjI2LHMudDo2fHMuZTpsLnQuZnxwLmM6IzNmNGQ1YQ!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyBRc6IderW1Ycgj5McAA6IV_yhtKSreyN8&token=55938",
+    "natural": "256x256",
+    "rendered": "256x256",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "vt?pb=!1m5!1m4!1i6!2i30!3i22!4i256!2m3!1e4!2st!3i803!2m3!1e0!2sr!3i803569780!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sTerrain!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5jOiMzMTMzM2Uscy5lOmd8cC5jOiMxNTFmMjcscy5lOmwudC5mfHAuYzojYWRhZGFkLHMuZTpsLnQuc3xwLmM6IzBmMTYyNixzLnQ6MTd8cy5lOmcuc3xwLmM6IzE4MWMyMCxzLnQ6MjF8cy5lOmx8cC52Om9mZixzLnQ6MTh8cy5lOmcuc3xwLmM6IzIwMjQyOCxzLnQ6NXxwLmM6IzMxMzMzZSxzLnQ6ODF8cy5lOmd8cC5jOiMyODMzM2Uscy50OjgyfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzEzfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzE0fHMuZTpnfHAuYzojMjgzMzNlLHMudDoyfHAudjpvZmYscy50OjN8cy5lOmd8cC5jOiMzZjQ2NWEscy50OjN8cy5lOmwudC5mfHAuYzojOThhNWJlLHMudDozfHMuZTpsLnQuc3xwLmM6IzFkMmM0ZCxzLnQ6NDl8cy5lOmd8cC5jOiMxYzIyMzEscy50OjQ5fHMuZTpsLnQuZnxwLmM6I2IwZDVjZSxzLnQ6NDl8cy5lOmwudC5zfHAuYzojMDIzZTU4LHMudDo1MXxzLmU6bHxwLnY6b2ZmLHMudDo0fHMuZTpsLnQuZnxwLmM6Izk0OTQ5NCxzLnQ6NHxzLmU6bC50LnN8cC5jOiMwZjE2MjYscy50OjY1fHMuZTpnLmZ8cC5jOiMxZjI2MmQscy50OjY2fHMuZTpnfHAuYzojMWYyNjJkLHMudDo2fHAuYzojMTUxZjI3LHMudDo2fHMuZTpnfHAuYzojMGUxNjI2LHMudDo2fHMuZTpsLnQuZnxwLmM6IzNmNGQ1YQ!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyBRc6IderW1Ycgj5McAA6IV_yhtKSreyN8&token=71785",
+    "natural": "256x256",
+    "rendered": "256x256",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "vt?pb=!1m5!1m4!1i6!2i30!3i21!4i256!2m3!1e4!2st!3i803!2m3!1e0!2sr!3i803569780!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sTerrain!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5jOiMzMTMzM2Uscy5lOmd8cC5jOiMxNTFmMjcscy5lOmwudC5mfHAuYzojYWRhZGFkLHMuZTpsLnQuc3xwLmM6IzBmMTYyNixzLnQ6MTd8cy5lOmcuc3xwLmM6IzE4MWMyMCxzLnQ6MjF8cy5lOmx8cC52Om9mZixzLnQ6MTh8cy5lOmcuc3xwLmM6IzIwMjQyOCxzLnQ6NXxwLmM6IzMxMzMzZSxzLnQ6ODF8cy5lOmd8cC5jOiMyODMzM2Uscy50OjgyfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzEzfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzE0fHMuZTpnfHAuYzojMjgzMzNlLHMudDoyfHAudjpvZmYscy50OjN8cy5lOmd8cC5jOiMzZjQ2NWEscy50OjN8cy5lOmwudC5mfHAuYzojOThhNWJlLHMudDozfHMuZTpsLnQuc3xwLmM6IzFkMmM0ZCxzLnQ6NDl8cy5lOmd8cC5jOiMxYzIyMzEscy50OjQ5fHMuZTpsLnQuZnxwLmM6I2IwZDVjZSxzLnQ6NDl8cy5lOmwudC5zfHAuYzojMDIzZTU4LHMudDo1MXxzLmU6bHxwLnY6b2ZmLHMudDo0fHMuZTpsLnQuZnxwLmM6Izk0OTQ5NCxzLnQ6NHxzLmU6bC50LnN8cC5jOiMwZjE2MjYscy50OjY1fHMuZTpnLmZ8cC5jOiMxZjI2MmQscy50OjY2fHMuZTpnfHAuYzojMWYyNjJkLHMudDo2fHAuYzojMTUxZjI3LHMudDo2fHMuZTpnfHAuYzojMGUxNjI2LHMudDo2fHMuZTpsLnQuZnxwLmM6IzNmNGQ1YQ!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyBRc6IderW1Ycgj5McAA6IV_yhtKSreyN8&token=44234",
+    "natural": "256x256",
+    "rendered": "256x256",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "vt?pb=!1m5!1m4!1i6!2i30!3i20!4i256!2m3!1e4!2st!3i803!2m3!1e0!2sr!3i803569780!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sTerrain!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5jOiMzMTMzM2Uscy5lOmd8cC5jOiMxNTFmMjcscy5lOmwudC5mfHAuYzojYWRhZGFkLHMuZTpsLnQuc3xwLmM6IzBmMTYyNixzLnQ6MTd8cy5lOmcuc3xwLmM6IzE4MWMyMCxzLnQ6MjF8cy5lOmx8cC52Om9mZixzLnQ6MTh8cy5lOmcuc3xwLmM6IzIwMjQyOCxzLnQ6NXxwLmM6IzMxMzMzZSxzLnQ6ODF8cy5lOmd8cC5jOiMyODMzM2Uscy50OjgyfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzEzfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzE0fHMuZTpnfHAuYzojMjgzMzNlLHMudDoyfHAudjpvZmYscy50OjN8cy5lOmd8cC5jOiMzZjQ2NWEscy50OjN8cy5lOmwudC5mfHAuYzojOThhNWJlLHMudDozfHMuZTpsLnQuc3xwLmM6IzFkMmM0ZCxzLnQ6NDl8cy5lOmd8cC5jOiMxYzIyMzEscy50OjQ5fHMuZTpsLnQuZnxwLmM6I2IwZDVjZSxzLnQ6NDl8cy5lOmwudC5zfHAuYzojMDIzZTU4LHMudDo1MXxzLmU6bHxwLnY6b2ZmLHMudDo0fHMuZTpsLnQuZnxwLmM6Izk0OTQ5NCxzLnQ6NHxzLmU6bC50LnN8cC5jOiMwZjE2MjYscy50OjY1fHMuZTpnLmZ8cC5jOiMxZjI2MmQscy50OjY2fHMuZTpnfHAuYzojMWYyNjJkLHMudDo2fHAuYzojMTUxZjI3LHMudDo2fHMuZTpnfHAuYzojMGUxNjI2LHMudDo2fHMuZTpsLnQuZnxwLmM6IzNmNGQ1YQ!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyBRc6IderW1Ycgj5McAA6IV_yhtKSreyN8&token=16683",
+    "natural": "256x256",
+    "rendered": "256x256",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "vt?pb=!1m5!1m4!1i6!2i35!3i21!4i256!2m3!1e4!2st!3i803!2m3!1e0!2sr!3i803569780!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sTerrain!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5jOiMzMTMzM2Uscy5lOmd8cC5jOiMxNTFmMjcscy5lOmwudC5mfHAuYzojYWRhZGFkLHMuZTpsLnQuc3xwLmM6IzBmMTYyNixzLnQ6MTd8cy5lOmcuc3xwLmM6IzE4MWMyMCxzLnQ6MjF8cy5lOmx8cC52Om9mZixzLnQ6MTh8cy5lOmcuc3xwLmM6IzIwMjQyOCxzLnQ6NXxwLmM6IzMxMzMzZSxzLnQ6ODF8cy5lOmd8cC5jOiMyODMzM2Uscy50OjgyfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzEzfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzE0fHMuZTpnfHAuYzojMjgzMzNlLHMudDoyfHAudjpvZmYscy50OjN8cy5lOmd8cC5jOiMzZjQ2NWEscy50OjN8cy5lOmwudC5mfHAuYzojOThhNWJlLHMudDozfHMuZTpsLnQuc3xwLmM6IzFkMmM0ZCxzLnQ6NDl8cy5lOmd8cC5jOiMxYzIyMzEscy50OjQ5fHMuZTpsLnQuZnxwLmM6I2IwZDVjZSxzLnQ6NDl8cy5lOmwudC5zfHAuYzojMDIzZTU4LHMudDo1MXxzLmU6bHxwLnY6b2ZmLHMudDo0fHMuZTpsLnQuZnxwLmM6Izk0OTQ5NCxzLnQ6NHxzLmU6bC50LnN8cC5jOiMwZjE2MjYscy50OjY1fHMuZTpnLmZ8cC5jOiMxZjI2MmQscy50OjY2fHMuZTpnfHAuYzojMWYyNjJkLHMudDo2fHAuYzojMTUxZjI3LHMudDo2fHMuZTpnfHAuYzojMGUxNjI2LHMudDo2fHMuZTpsLnQuZnxwLmM6IzNmNGQ1YQ!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyBRc6IderW1Ycgj5McAA6IV_yhtKSreyN8&token=9183",
+    "natural": "256x256",
+    "rendered": "256x256",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "vt?pb=!1m5!1m4!1i6!2i36!3i21!4i256!2m3!1e4!2st!3i803!2m3!1e0!2sr!3i803569780!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sTerrain!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5jOiMzMTMzM2Uscy5lOmd8cC5jOiMxNTFmMjcscy5lOmwudC5mfHAuYzojYWRhZGFkLHMuZTpsLnQuc3xwLmM6IzBmMTYyNixzLnQ6MTd8cy5lOmcuc3xwLmM6IzE4MWMyMCxzLnQ6MjF8cy5lOmx8cC52Om9mZixzLnQ6MTh8cy5lOmcuc3xwLmM6IzIwMjQyOCxzLnQ6NXxwLmM6IzMxMzMzZSxzLnQ6ODF8cy5lOmd8cC5jOiMyODMzM2Uscy50OjgyfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzEzfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzE0fHMuZTpnfHAuYzojMjgzMzNlLHMudDoyfHAudjpvZmYscy50OjN8cy5lOmd8cC5jOiMzZjQ2NWEscy50OjN8cy5lOmwudC5mfHAuYzojOThhNWJlLHMudDozfHMuZTpsLnQuc3xwLmM6IzFkMmM0ZCxzLnQ6NDl8cy5lOmd8cC5jOiMxYzIyMzEscy50OjQ5fHMuZTpsLnQuZnxwLmM6I2IwZDVjZSxzLnQ6NDl8cy5lOmwudC5zfHAuYzojMDIzZTU4LHMudDo1MXxzLmU6bHxwLnY6b2ZmLHMudDo0fHMuZTpsLnQuZnxwLmM6Izk0OTQ5NCxzLnQ6NHxzLmU6bC50LnN8cC5jOiMwZjE2MjYscy50OjY1fHMuZTpnLmZ8cC5jOiMxZjI2MmQscy50OjY2fHMuZTpnfHAuYzojMWYyNjJkLHMudDo2fHAuYzojMTUxZjI3LHMudDo2fHMuZTpnfHAuYzojMGUxNjI2LHMudDo2fHMuZTpsLnQuZnxwLmM6IzNmNGQ1YQ!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyBRc6IderW1Ycgj5McAA6IV_yhtKSreyN8&token=28387",
+    "natural": "256x256",
+    "rendered": "256x256",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "vt?pb=!1m5!1m4!1i6!2i36!3i20!4i256!2m3!1e4!2st!3i803!2m3!1e0!2sr!3i803569780!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sTerrain!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5jOiMzMTMzM2Uscy5lOmd8cC5jOiMxNTFmMjcscy5lOmwudC5mfHAuYzojYWRhZGFkLHMuZTpsLnQuc3xwLmM6IzBmMTYyNixzLnQ6MTd8cy5lOmcuc3xwLmM6IzE4MWMyMCxzLnQ6MjF8cy5lOmx8cC52Om9mZixzLnQ6MTh8cy5lOmcuc3xwLmM6IzIwMjQyOCxzLnQ6NXxwLmM6IzMxMzMzZSxzLnQ6ODF8cy5lOmd8cC5jOiMyODMzM2Uscy50OjgyfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzEzfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzE0fHMuZTpnfHAuYzojMjgzMzNlLHMudDoyfHAudjpvZmYscy50OjN8cy5lOmd8cC5jOiMzZjQ2NWEscy50OjN8cy5lOmwudC5mfHAuYzojOThhNWJlLHMudDozfHMuZTpsLnQuc3xwLmM6IzFkMmM0ZCxzLnQ6NDl8cy5lOmd8cC5jOiMxYzIyMzEscy50OjQ5fHMuZTpsLnQuZnxwLmM6I2IwZDVjZSxzLnQ6NDl8cy5lOmwudC5zfHAuYzojMDIzZTU4LHMudDo1MXxzLmU6bHxwLnY6b2ZmLHMudDo0fHMuZTpsLnQuZnxwLmM6Izk0OTQ5NCxzLnQ6NHxzLmU6bC50LnN8cC5jOiMwZjE2MjYscy50OjY1fHMuZTpnLmZ8cC5jOiMxZjI2MmQscy50OjY2fHMuZTpnfHAuYzojMWYyNjJkLHMudDo2fHAuYzojMTUxZjI3LHMudDo2fHMuZTpnfHAuYzojMGUxNjI2LHMudDo2fHMuZTpsLnQuZnxwLmM6IzNmNGQ1YQ!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyBRc6IderW1Ycgj5McAA6IV_yhtKSreyN8&token=836",
+    "natural": "256x256",
+    "rendered": "256x256",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "vt?pb=!1m5!1m4!1i6!2i32!3i21!4i256!2m3!1e4!2st!3i803!2m3!1e0!2sr!3i803569816!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sTerrain!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5jOiMzMTMzM2Uscy5lOmd8cC5jOiMxNTFmMjcscy5lOmwudC5mfHAuYzojYWRhZGFkLHMuZTpsLnQuc3xwLmM6IzBmMTYyNixzLnQ6MTd8cy5lOmcuc3xwLmM6IzE4MWMyMCxzLnQ6MjF8cy5lOmx8cC52Om9mZixzLnQ6MTh8cy5lOmcuc3xwLmM6IzIwMjQyOCxzLnQ6NXxwLmM6IzMxMzMzZSxzLnQ6ODF8cy5lOmd8cC5jOiMyODMzM2Uscy50OjgyfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzEzfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzE0fHMuZTpnfHAuYzojMjgzMzNlLHMudDoyfHAudjpvZmYscy50OjN8cy5lOmd8cC5jOiMzZjQ2NWEscy50OjN8cy5lOmwudC5mfHAuYzojOThhNWJlLHMudDozfHMuZTpsLnQuc3xwLmM6IzFkMmM0ZCxzLnQ6NDl8cy5lOmd8cC5jOiMxYzIyMzEscy50OjQ5fHMuZTpsLnQuZnxwLmM6I2IwZDVjZSxzLnQ6NDl8cy5lOmwudC5zfHAuYzojMDIzZTU4LHMudDo1MXxzLmU6bHxwLnY6b2ZmLHMudDo0fHMuZTpsLnQuZnxwLmM6Izk0OTQ5NCxzLnQ6NHxzLmU6bC50LnN8cC5jOiMwZjE2MjYscy50OjY1fHMuZTpnLmZ8cC5jOiMxZjI2MmQscy50OjY2fHMuZTpnfHAuYzojMWYyNjJkLHMudDo2fHAuYzojMTUxZjI3LHMudDo2fHMuZTpnfHAuYzojMGUxNjI2LHMudDo2fHMuZTpsLnQuZnxwLmM6IzNmNGQ1YQ!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyBRc6IderW1Ycgj5McAA6IV_yhtKSreyN8&token=74484",
+    "natural": "256x256",
+    "rendered": "256x256",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "vt?pb=!1m5!1m4!1i6!2i34!3i20!4i256!2m3!1e4!2st!3i803!2m3!1e0!2sr!3i803569816!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sTerrain!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5jOiMzMTMzM2Uscy5lOmd8cC5jOiMxNTFmMjcscy5lOmwudC5mfHAuYzojYWRhZGFkLHMuZTpsLnQuc3xwLmM6IzBmMTYyNixzLnQ6MTd8cy5lOmcuc3xwLmM6IzE4MWMyMCxzLnQ6MjF8cy5lOmx8cC52Om9mZixzLnQ6MTh8cy5lOmcuc3xwLmM6IzIwMjQyOCxzLnQ6NXxwLmM6IzMxMzMzZSxzLnQ6ODF8cy5lOmd8cC5jOiMyODMzM2Uscy50OjgyfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzEzfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzE0fHMuZTpnfHAuYzojMjgzMzNlLHMudDoyfHAudjpvZmYscy50OjN8cy5lOmd8cC5jOiMzZjQ2NWEscy50OjN8cy5lOmwudC5mfHAuYzojOThhNWJlLHMudDozfHMuZTpsLnQuc3xwLmM6IzFkMmM0ZCxzLnQ6NDl8cy5lOmd8cC5jOiMxYzIyMzEscy50OjQ5fHMuZTpsLnQuZnxwLmM6I2IwZDVjZSxzLnQ6NDl8cy5lOmwudC5zfHAuYzojMDIzZTU4LHMudDo1MXxzLmU6bHxwLnY6b2ZmLHMudDo0fHMuZTpsLnQuZnxwLmM6Izk0OTQ5NCxzLnQ6NHxzLmU6bC50LnN8cC5jOiMwZjE2MjYscy50OjY1fHMuZTpnLmZ8cC5jOiMxZjI2MmQscy50OjY2fHMuZTpnfHAuYzojMWYyNjJkLHMudDo2fHAuYzojMTUxZjI3LHMudDo2fHMuZTpnfHAuYzojMGUxNjI2LHMudDo2fHMuZTpsLnQuZnxwLmM6IzNmNGQ1YQ!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyBRc6IderW1Ycgj5McAA6IV_yhtKSreyN8&token=85341",
+    "natural": "256x256",
+    "rendered": "256x256",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "vt?pb=!1m5!1m4!1i6!2i31!3i21!4i256!2m3!1e4!2st!3i803!2m3!1e0!2sr!3i803569780!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sTerrain!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5jOiMzMTMzM2Uscy5lOmd8cC5jOiMxNTFmMjcscy5lOmwudC5mfHAuYzojYWRhZGFkLHMuZTpsLnQuc3xwLmM6IzBmMTYyNixzLnQ6MTd8cy5lOmcuc3xwLmM6IzE4MWMyMCxzLnQ6MjF8cy5lOmx8cC52Om9mZixzLnQ6MTh8cy5lOmcuc3xwLmM6IzIwMjQyOCxzLnQ6NXxwLmM6IzMxMzMzZSxzLnQ6ODF8cy5lOmd8cC5jOiMyODMzM2Uscy50OjgyfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzEzfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzE0fHMuZTpnfHAuYzojMjgzMzNlLHMudDoyfHAudjpvZmYscy50OjN8cy5lOmd8cC5jOiMzZjQ2NWEscy50OjN8cy5lOmwudC5mfHAuYzojOThhNWJlLHMudDozfHMuZTpsLnQuc3xwLmM6IzFkMmM0ZCxzLnQ6NDl8cy5lOmd8cC5jOiMxYzIyMzEscy50OjQ5fHMuZTpsLnQuZnxwLmM6I2IwZDVjZSxzLnQ6NDl8cy5lOmwudC5zfHAuYzojMDIzZTU4LHMudDo1MXxzLmU6bHxwLnY6b2ZmLHMudDo0fHMuZTpsLnQuZnxwLmM6Izk0OTQ5NCxzLnQ6NHxzLmU6bC50LnN8cC5jOiMwZjE2MjYscy50OjY1fHMuZTpnLmZ8cC5jOiMxZjI2MmQscy50OjY2fHMuZTpnfHAuYzojMWYyNjJkLHMudDo2fHAuYzojMTUxZjI3LHMudDo2fHMuZTpnfHAuYzojMGUxNjI2LHMudDo2fHMuZTpsLnQuZnxwLmM6IzNmNGQ1YQ!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyBRc6IderW1Ycgj5McAA6IV_yhtKSreyN8&token=63438",
+    "natural": "256x256",
+    "rendered": "256x256",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "vt?pb=!1m5!1m4!1i6!2i33!3i21!4i256!2m3!1e4!2st!3i803!2m3!1e0!2sr!3i803569816!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sTerrain!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5jOiMzMTMzM2Uscy5lOmd8cC5jOiMxNTFmMjcscy5lOmwudC5mfHAuYzojYWRhZGFkLHMuZTpsLnQuc3xwLmM6IzBmMTYyNixzLnQ6MTd8cy5lOmcuc3xwLmM6IzE4MWMyMCxzLnQ6MjF8cy5lOmx8cC52Om9mZixzLnQ6MTh8cy5lOmcuc3xwLmM6IzIwMjQyOCxzLnQ6NXxwLmM6IzMxMzMzZSxzLnQ6ODF8cy5lOmd8cC5jOiMyODMzM2Uscy50OjgyfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzEzfHMuZTpnfHAuYzojMjgzMzNlLHMudDoxMzE0fHMuZTpnfHAuYzojMjgzMzNlLHMudDoyfHAudjpvZmYscy50OjN8cy5lOmd8cC5jOiMzZjQ2NWEscy50OjN8cy5lOmwudC5mfHAuYzojOThhNWJlLHMudDozfHMuZTpsLnQuc3xwLmM6IzFkMmM0ZCxzLnQ6NDl8cy5lOmd8cC5jOiMxYzIyMzEscy50OjQ5fHMuZTpsLnQuZnxwLmM6I2IwZDVjZSxzLnQ6NDl8cy5lOmwudC5zfHAuYzojMDIzZTU4LHMudDo1MXxzLmU6bHxwLnY6b2ZmLHMudDo0fHMuZTpsLnQuZnxwLmM6Izk0OTQ5NCxzLnQ6NHxzLmU6bC50LnN8cC5jOiMwZjE2MjYscy50OjY1fHMuZTpnLmZ8cC5jOiMxZjI2MmQscy50OjY2fHMuZTpnfHAuYzojMWYyNjJkLHMudDo2fHAuYzojMTUxZjI3LHMudDo2fHMuZTpnfHAuYzojMGUxNjI2LHMudDo2fHMuZTpsLnQuZnxwLmM6IzNmNGQ1YQ!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyBRc6IderW1Ycgj5McAA6IV_yhtKSreyN8&token=93688",
+    "natural": "256x256",
+    "rendered": "256x256",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "svg+xml;base64,PHN2ZyB3aWR0aD0iMjciIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAyNyAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxLjk5MTkgMjIuMjc2TDEzLjA5MDkgMzEuMjg4NUw0LjE4OTkzIDIyLjI3NkMyLjQyODYgMjAuNDkyNiAxLjIyODQ0IDE4LjIxOTcgMC43NDIxNTUgMTUuNzQ0M0MwLjI1NTg2NiAxMy4yNjg5IDAuNTA1NTE3IDEwLjcwMzEgMS40NTkyOCA4LjM3MTcxQzIuNDEzMDIgNi4wNDAzNiA0LjAyNzcgNC4wNDg3MyA2LjA5ODE5IDIuNjQ3OTZDOC4xNjg2IDEuMjQ3MjQgMTAuNjAyMSAwLjUgMTMuMDkwOSAwLjVDMTUuNTc5OCAwLjUgMTguMDEzMiAxLjI0NzI0IDIwLjA4MzYgMi42NDc5NkMyMi4xNTQxIDQuMDQ4NzMgMjMuNzY4OCA2LjA0MDM2IDI0LjcyMjYgOC4zNzE3MUMyNS42NzYzIDEwLjcwMzEgMjUuOTI2IDEzLjI2ODkgMjUuNDM5NyAxNS43NDQzQzI0Ljk1MzQgMTguMjE5NyAyMy43NTMyIDIwLjQ5MjYgMjEuOTkxOSAyMi4yNzZaIiBmaWxsPSIjOEQ5OUE1IiBzdHJva2U9IiMxNTFGMjciLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNS41OTI5IDkuMjAzMzhDMTUuNTkyOSA4LjUzODYgMTYuMTMxIDggMTYuNzk3MiA4QzE3LjQ2MDMgOCAxOCA4LjUzODYgMTggOS4yMDMzOEMxOCA5Ljg2NjYzIDE3LjQ2MDMgMTAuNDAzNyAxNi43OTcyIDEwLjQwMzdDMTYuMTMxIDEwLjQwMzcgMTUuNTkyOSA5Ljg2NjYzIDE1LjU5MjkgOS4yMDMzOFpNMTUuNjYxNCAxMS4wNzkzTDE0LjE1NjQgMTMuMDU2N0wxMy43NzU1IDEzLjU2OTJMMTUuNTk2NiAxNi4wMTlDMTUuNjk2OSAxNi4xNTI5IDE1Ljc1MDggMTYuMzE2IDE1Ljc0OTMgMTYuNDgzOEwxNS43MzcgMTkuNzIzMUMxNS43MzcgMTkuODc2OSAxNS42MTIxIDIwLjAwMDEgMTUuNDU5NCAyMC4wMDAxSDE1LjI0NjZDMTUuMTA3OCAyMC4wMDAxIDE0Ljk4OTEgMTkuODk2OSAxNC45NzA2IDE5Ljc2TDE0LjU3NDMgMTYuODQwOEMxNC41NjA0IDE2LjczNjEgMTQuNTA2NCAxNi42NDIzIDE0LjQyMzEgMTYuNTc3NkwxMi4zMzY3IDE0LjkyMzRMMTEuMzQ4MyAxNS41MjUxQzExLjIxNzIgMTUuNjAzNSAxMS4wNjc2IDE1LjY0NjYgMTAuOTE0OSAxNS42NDk3TDYuNzg2ODUgMTUuNzE3NEM2LjY2NjU3IDE1LjcxOSA2LjU0OTM4IDE1LjY2OTcgNi40Njc2NSAxNS41ODJMNi4wNDk3NSAxNS4xMzQyQzUuOTQ3OTcgMTUuMDI2NSA2LjAxMTIgMTQuODQ2NCA2LjE1OTIzIDE0LjgyNjRMMTAuNDMzOCAxNC4yMjAxTDEzLjY4MjkgMTAuNzM2MUwxMS4wNTY4IDEwLjI0MjJDMTAuOTgxMyAxMC4yMjgzIDEwLjkxMDMgMTAuMTk2IDEwLjg1MTcgMTAuMTQ4M0wxMC40Mjc3IDkuODA2NjhDMTAuMzM1MSA5LjczMjgxIDEwLjM4NzYgOS41ODUwOCAxMC41MDYzIDkuNTg1MDhIMTIuMDE5MUwxNC43NzYzIDkuNTY2NjFDMTQuODgyNyA5LjU2NTA4IDE0Ljk4MTQgOS42MjA0NyAxNS4wMzg0IDkuNzA5NzNMMTUuNjc2OCAxMC43MzMxQzE1Ljc0NDcgMTAuODQwOCAxNS43Mzg1IDEwLjk3OTMgMTUuNjYxNCAxMS4wNzkzWiIgZmlsbD0iIzE1MUYyNyIvPgo8L3N2Zz4K",
+    "natural": "27x32",
+    "rendered": "40x48",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "svg+xml;base64,PHN2ZyB3aWR0aD0iMjciIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAyNyAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxLjk5MTkgMjIuMjc2TDEzLjA5MDkgMzEuMjg4NUw0LjE4OTkzIDIyLjI3NkMyLjQyODYgMjAuNDkyNiAxLjIyODQ0IDE4LjIxOTcgMC43NDIxNTUgMTUuNzQ0M0MwLjI1NTg2NiAxMy4yNjg5IDAuNTA1NTE3IDEwLjcwMzEgMS40NTkyOCA4LjM3MTcxQzIuNDEzMDIgNi4wNDAzNiA0LjAyNzcgNC4wNDg3MyA2LjA5ODE5IDIuNjQ3OTZDOC4xNjg2IDEuMjQ3MjQgMTAuNjAyMSAwLjUgMTMuMDkwOSAwLjVDMTUuNTc5OCAwLjUgMTguMDEzMiAxLjI0NzI0IDIwLjA4MzYgMi42NDc5NkMyMi4xNTQxIDQuMDQ4NzMgMjMuNzY4OCA2LjA0MDM2IDI0LjcyMjYgOC4zNzE3MUMyNS42NzYzIDEwLjcwMzEgMjUuOTI2IDEzLjI2ODkgMjUuNDM5NyAxNS43NDQzQzI0Ljk1MzQgMTguMjE5NyAyMy43NTMyIDIwLjQ5MjYgMjEuOTkxOSAyMi4yNzZaIiBmaWxsPSIjOEQ5OUE1IiBzdHJva2U9IiMxNTFGMjciLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNS41OTI5IDkuMjAzMzhDMTUuNTkyOSA4LjUzODYgMTYuMTMxIDggMTYuNzk3MiA4QzE3LjQ2MDMgOCAxOCA4LjUzODYgMTggOS4yMDMzOEMxOCA5Ljg2NjYzIDE3LjQ2MDMgMTAuNDAzNyAxNi43OTcyIDEwLjQwMzdDMTYuMTMxIDEwLjQwMzcgMTUuNTkyOSA5Ljg2NjYzIDE1LjU5MjkgOS4yMDMzOFpNMTUuNjYxNCAxMS4wNzkzTDE0LjE1NjQgMTMuMDU2N0wxMy43NzU1IDEzLjU2OTJMMTUuNTk2NiAxNi4wMTlDMTUuNjk2OSAxNi4xNTI5IDE1Ljc1MDggMTYuMzE2IDE1Ljc0OTMgMTYuNDgzOEwxNS43MzcgMTkuNzIzMUMxNS43MzcgMTkuODc2OSAxNS42MTIxIDIwLjAwMDEgMTUuNDU5NCAyMC4wMDAxSDE1LjI0NjZDMTUuMTA3OCAyMC4wMDAxIDE0Ljk4OTEgMTkuODk2OSAxNC45NzA2IDE5Ljc2TDE0LjU3NDMgMTYuODQwOEMxNC41NjA0IDE2LjczNjEgMTQuNTA2NCAxNi42NDIzIDE0LjQyMzEgMTYuNTc3NkwxMi4zMzY3IDE0LjkyMzRMMTEuMzQ4MyAxNS41MjUxQzExLjIxNzIgMTUuNjAzNSAxMS4wNjc2IDE1LjY0NjYgMTAuOTE0OSAxNS42NDk3TDYuNzg2ODUgMTUuNzE3NEM2LjY2NjU3IDE1LjcxOSA2LjU0OTM4IDE1LjY2OTcgNi40Njc2NSAxNS41ODJMNi4wNDk3NSAxNS4xMzQyQzUuOTQ3OTcgMTUuMDI2NSA2LjAxMTIgMTQuODQ2NCA2LjE1OTIzIDE0LjgyNjRMMTAuNDMzOCAxNC4yMjAxTDEzLjY4MjkgMTAuNzM2MUwxMS4wNTY4IDEwLjI0MjJDMTAuOTgxMyAxMC4yMjgzIDEwLjkxMDMgMTAuMTk2IDEwLjg1MTcgMTAuMTQ4M0wxMC40Mjc3IDkuODA2NjhDMTAuMzM1MSA5LjczMjgxIDEwLjM4NzYgOS41ODUwOCAxMC41MDYzIDkuNTg1MDhIMTIuMDE5MUwxNC43NzYzIDkuNTY2NjFDMTQuODgyNyA5LjU2NTA4IDE0Ljk4MTQgOS42MjA0NyAxNS4wMzg0IDkuNzA5NzNMMTUuNjc2OCAxMC43MzMxQzE1Ljc0NDcgMTAuODQwOCAxNS43Mzg1IDEwLjk3OTMgMTUuNjYxNCAxMS4wNzkzWiIgZmlsbD0iIzE1MUYyNyIvPgo8L3N2Zz4K",
+    "natural": "27x32",
+    "rendered": "40x48",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "06f51f8d-270a-4b57-ad4e-47ac6ad7083d.svg",
+    "natural": "0x0",
+    "rendered": "0x71",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Your digitalization partner for ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "64px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "About 4brands Reply",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Discover our services in detail",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "42px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Customer Experience Management",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Customer & Consumer Engagement",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Data Value Management",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Revenue Growth Management",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Our success stories",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Rotkäppchen-Mumm manages sales a",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Gerolsteiner lays the foundation",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Bitburger: Gamification as the k",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Bitburger creates a unique and p",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A seamless sales system for Ritt",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Rotkaeppchen-Mumm Sektkellereien",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "With 4brands Reply, Zentis strea",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Avoiding production bottlenecks",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Innovation driver for the consum",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "42px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "More impact in FMCG marketing wi",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Optimization of consumer goods l",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "REVE - The Planning Interface fo",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Data & AI for Consumer Goods",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Simulation of consumer behavior ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Equipping The Supply Chain With ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI Store Check: Shelf Survey at ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Analysing Online Menus",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Smart glasses in use: efficient ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "IoT at the Supermarket: the inte",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "An AI Assistant for Sales",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Automation in Tour Planning",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "More impact in FMCG marketing wi",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Optimization of consumer goods l",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "REVE - The Planning Interface fo",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Data & AI for Consumer Goods",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Simulation of consumer behavior ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Our strong partnership enables u",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "42px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply and SAP",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Leading in SAP implementation & ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply Recognized in SAP Services",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Top ranking for Reply in SAP-rel",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Our app on SAP® Store",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Our FMCG expertise at a glance",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "42px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Process Mining: Transparency for",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "VisionGallery AI: AI image analy",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Agentic AI Revenue Growth Manage",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Full control over conditions wit",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "News & Events",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI excellence ensures top rankin",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply remains at the forefront o",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Leader in Digital Experience Ser",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Revenue Growth Management: Next ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Cloud Experiences with SAP",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Impact analysis: How is the cons",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "SAP KonsumKompass 2027",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "4brands Reply at the LZ AI Day 2",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply at SAP NOW AI Tour Germany",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "SAP Customer Community",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Find our offices near you",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "36px",
+    "family": "khanqyjjei",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Germany",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "28px",
+    "family": "khanqyjjei",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Offering",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Offering",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Offering",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Offering",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "flushText": [
+   {
+    "tag": "h3",
+    "text": "More impact in FMCG marketin",
+    "left": -73
+   }
+  ],
+  "contentBoxes": [
+   {
+    "sel": "r-grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "r-grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "b4-statement__grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "b4-about__grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "card-carousel__track",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "b4-band__grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "card-carousel__track",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "b4-head__grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "card-carousel__track",
+    "width": 1617,
+    "left": 0
+   },
+   {
+    "sel": "b4-band__cell",
+    "width": 1087,
+    "left": 177
+   },
+   {
+    "sel": "card-carousel__track",
+    "width": 1312,
+    "left": -105
+   },
+   {
+    "sel": "b4-partner__grid",
+    "width": 1440,
+    "left": 0
+   }
+  ]
+ }
+}

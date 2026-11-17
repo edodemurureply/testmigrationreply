@@ -1,0 +1,521 @@
+/* b4-accordion — lifted from stardust/prototypes/brand.css (module: b4-accordion) + the page sheet
+   (.cxm-acc: grid margin 28 / 56, 56 / 120 @1440; cell 1-4 / 1-8 / 3-10). Dark #28333e tiles, radius 4,
+   gap .75rem, padding 1.25rem 1.5rem / 2rem 3.5rem @1440, icon column 2.75rem (glyph 1.5rem), title
+   16px / 170%, 22.5px plus (2px bars); open item widens -1.25rem / -2rem @1440, body text #c5ccd3. */
+.b4-accordion {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.b4-accordion.ice {
+  background-color: var(--c-ice);
+}
+
+.b4-accordion .b4-accordion-grid {
+  flex: 1 1 100%;
+  margin-top: 28px;
+  margin-bottom: 56px;
+}
+
+.b4-accordion .b4-accordion-cell {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  align-items: center;
+  place-content: center center;
+}
+
+.b4-accordion .b4-accordion-list {
+  width: 100%;
+}
+
+.b4-accordion .b4-accordion-item {
+  padding: 1.25rem 1.5rem;
+  border-radius: 4px;
+  background-color: #28333e;
+  color: #fff;
+  transform-origin: 50%;
+  transition: all 0.3s;
+}
+
+.b4-accordion .b4-accordion-item + .b4-accordion-item {
+  margin-top: 0.75rem;
+}
+
+.b4-accordion .b4-accordion-item.is-open {
+  margin-left: -1.25rem;
+  margin-right: -1.25rem;
+}
+
+.b4-accordion .b4-accordion-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1px 6px;
+  color: #fff;
+  text-align: start;
+  cursor: pointer;
+}
+
+.b4-accordion .b4-accordion-header:focus {
+  outline: none;
+}
+
+.b4-accordion .b4-accordion-header:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+.b4-accordion .b4-accordion-lead {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.b4-accordion .b4-accordion-iconcol {
+  display: flex;
+  flex: 0 0 2.75rem;
+  width: 2.75rem;
+}
+
+.b4-accordion .b4-accordion-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Website Icons", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.b4-accordion .b4-accordion-icon::before {
+  font-size: 1.5rem;
+}
+
+/* icon-font glyphs (styles-eca1f14e.css .icon-bn-gu7 / .icon-h4-qri / .icon-8mw0p :before) */
+.b4-accordion .b4-accordion-icon[data-icon="cart"]::before {
+  content: "\f120";
+}
+
+.b4-accordion .b4-accordion-icon[data-icon="cloud"]::before {
+  content: "\eb9d";
+}
+
+.b4-accordion .b4-accordion-icon[data-icon="image"]::before {
+  content: "\ea80";
+}
+
+.b4-accordion .b4-accordion-labels {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 1rem;
+}
+
+.b4-accordion .b4-accordion-labels :is(h2, h3, h4, h5, h6, p) {
+  display: block;
+  margin: 0;
+  font-family: var(--font-lead);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 170%;
+}
+
+.b4-accordion .b4-accordion-plus {
+  position: relative;
+  display: block;
+  align-self: center;
+  flex-shrink: 0;
+  width: 22.5px;
+  height: 22.5px;
+  transition: transform 1s;
+}
+
+.b4-accordion .b4-accordion-plus::before,
+.b4-accordion .b4-accordion-plus::after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  transition: transform 0.2s ease-out;
+}
+
+.b4-accordion .b4-accordion-plus::before {
+  top: 0;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  margin-left: -1px;
+}
+
+.b4-accordion .b4-accordion-plus::after {
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  margin-top: -1px;
+}
+
+.b4-accordion .b4-accordion-item.is-open .b4-accordion-plus::before {
+  transform: scale(0);
+}
+
+.b4-accordion .b4-accordion-body {
+  display: flex;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 1s;
+}
+
+.b4-accordion .b4-accordion-body::before {
+  content: "";
+  flex: 0 0 2.75rem;
+}
+
+.b4-accordion .b4-accordion-inner {
+  flex: 1;
+  min-width: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.1s linear 0.3s;
+}
+
+.b4-accordion .b4-accordion-item.is-open .b4-accordion-body {
+  max-height: max-content;
+  padding-top: 1rem;
+}
+
+.b4-accordion .b4-accordion-item.is-open .b4-accordion-inner {
+  visibility: visible;
+  opacity: 1;
+}
+
+.b4-accordion .b4-accordion-inner :is(p, li) {
+  margin: 0;
+  padding-bottom: 4px;
+  color: #c5ccd3;
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 170%;
+}
+
+/* R-02 metric compensation (brand-solution, 360) */
+@media (width < 768px) {
+  .b4-accordion .b4-accordion-labels :is(h2, h3, h4, h5, h6, p) {
+    letter-spacing: -0.03em;
+  }
+}
+
+@media (width >= 768px) {
+  .b4-accordion .b4-accordion-cell {
+    grid-column: 1 / 9;
+  }
+}
+
+@media (width >= 1024px) {
+  .b4-accordion .b4-accordion-cell {
+    grid-column: 3 / 11;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-accordion .b4-accordion-grid {
+    margin-top: 56px;
+    margin-bottom: 120px;
+  }
+
+  .b4-accordion .b4-accordion-item {
+    padding: 2rem 3.5rem;
+  }
+
+  .b4-accordion .b4-accordion-item.is-open {
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
+}
+
+/* variant dark (cluster-brand-solution): #151f27 band */
+.b4-accordion.dark {
+  background-color: #151f27;
+}
+
+/* variant split (cluster-brand-solution): module title + text (t-section 28 / 36 px, 500, 120 %;
+   text 16 / 300 / 150 %, 24 px apart) in an intro column, stacked above the list below 1024, beside
+   it from 1024 (intro cols 2-4, list cols 6-11, both top-aligned); grid margin 120 / 120 @1440. */
+.b4-accordion.split .b4-accordion-intro {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  margin-bottom: 40px;
+}
+
+.b4-accordion.split .b4-accordion-cell {
+  grid-row: 2 / 3;
+}
+
+.b4-accordion.split .b4-accordion-intro :is(h2, h3) {
+  margin: 0 0 24px;
+  color: var(--c-ink);
+  font-family: var(--font-lead);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.b4-accordion.split .b4-accordion-intro :is(p, li) {
+  margin: 0 0 16px;
+  color: var(--c-ink);
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.b4-accordion.split.dark .b4-accordion-intro :is(h2, h3, p, li) {
+  color: #fff;
+}
+
+@media (width >= 768px) {
+  .b4-accordion.split .b4-accordion-intro,
+  .b4-accordion.split .b4-accordion-cell {
+    grid-column: 1 / 9;
+  }
+}
+
+@media (width >= 1024px) {
+  .b4-accordion.split .b4-accordion-intro {
+    grid-column: 2 / 5;
+    margin-bottom: 0;
+  }
+
+  .b4-accordion.split .b4-accordion-cell {
+    grid-column: 6 / 12;
+    grid-row: 1 / 2;
+    align-self: start;
+    place-content: start;
+  }
+
+  .b4-accordion.split .b4-accordion-intro :is(h2, h3) {
+    font-size: 36px;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-accordion.split .b4-accordion-grid {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+}
+
+/* icon-font glyphs of the SAC FAQ items (styles-eca1f14e.css .icon-po-xrx / .icon-hn-yhl /
+   .icon-d69t-s / .icon-d-ibzk :before) */
+.b4-accordion .b4-accordion-icon[data-icon="person"]::before {
+  content: "\ead0";
+}
+
+.b4-accordion .b4-accordion-icon[data-icon="people"]::before {
+  content: "\ede3";
+}
+
+.b4-accordion .b4-accordion-icon[data-icon="list"]::before {
+  content: "\ea7e";
+}
+
+.b4-accordion .b4-accordion-icon[data-icon="bulb"]::before {
+  content: "\eea9";
+}
+
+/* variant pair (fix-brand-solution, SAC trainings FAQ): heading (cols 1-4 / 1-5 / 2-7) over two
+   accordions — stacked < 768, cols 1-4 | 5-8 from 768, 2-6 | 7-11 from 1024; grid margin 56 / 120. */
+.b4-accordion.pair .b4-accordion-grid {
+  margin-top: 56px;
+  margin-bottom: 56px;
+}
+
+.b4-accordion.pair .b4-accordion-intro {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  margin-bottom: 1.5rem;
+}
+
+.b4-accordion.pair .b4-accordion-intro :is(h2, h3) {
+  margin: 0;
+  color: var(--c-ink);
+  font-family: var(--font-lead);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.b4-accordion.pair .b4-accordion-cell {
+  grid-column: 1 / 5;
+  grid-row: 2 / 3;
+  align-self: start;
+  place-content: start;
+  margin-bottom: 2rem;
+}
+
+.b4-accordion.pair .b4-accordion-cell-2 {
+  grid-row: 3 / 4;
+  margin-bottom: 0;
+}
+
+@media (width >= 768px) {
+  .b4-accordion.pair .b4-accordion-intro {
+    grid-column: 1 / 6;
+    margin-bottom: 2rem;
+  }
+
+  .b4-accordion.pair .b4-accordion-cell {
+    margin-bottom: 0;
+  }
+
+  .b4-accordion.pair .b4-accordion-cell-2 {
+    grid-column: 5 / 9;
+    grid-row: 2 / 3;
+  }
+}
+
+@media (width >= 1024px) {
+  .b4-accordion.pair .b4-accordion-intro {
+    grid-column: 2 / 8;
+    margin-bottom: 2.5rem;
+  }
+
+  .b4-accordion.pair .b4-accordion-intro :is(h2, h3) {
+    font-size: 36px;
+  }
+
+  .b4-accordion.pair .b4-accordion-cell {
+    grid-column: 2 / 7;
+  }
+
+  .b4-accordion.pair .b4-accordion-cell-2 {
+    grid-column: 7 / 12;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-accordion.pair .b4-accordion-grid {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+}
+
+/* variant light (fix-4brands-small, smart-glasses): white tiles on the band (accordion-item.light:
+   #fff tile, #151f27 copy, #28333e plus bars); icon names edit / screen (.icon-m50y-i /
+   .icon-eg-cl-t :before) */
+.b4-accordion.light .b4-accordion-item {
+  background-color: #fff;
+  color: #151f27;
+}
+
+.b4-accordion.light .b4-accordion-item :is(h2, h3, h4, p, li, span) {
+  color: #151f27;
+}
+
+.b4-accordion.light .b4-accordion-item .b4-accordion-plus::before,
+.b4-accordion.light .b4-accordion-item .b4-accordion-plus::after {
+  background-color: #28333e;
+}
+
+.b4-accordion.light .b4-accordion-header:focus-visible {
+  outline-color: #151f27;
+}
+
+.b4-accordion .b4-accordion-icon[data-icon="edit"]::before {
+  content: "\ea8e";
+}
+
+.b4-accordion .b4-accordion-icon[data-icon="screen"]::before {
+  content: "\f154";
+}
+
+/* ls-<n> (fix-brand-solution-3, as fix-small-2): R-02 wrap compensation below 768 — one tracking
+   (n / 1000 em; 7 = .0075, 12 = .0125, 17 = .0175, 22 = .0225) on every text line of the block,
+   fitted per block against the live line breaks @360 (.work/rollout/fix-brand-solution-3/wrap.mjs) */
+@media (width < 768px) {
+  .b4-accordion.ls-5 { --ls-v: 0.005em; }
+  .b4-accordion.ls-7 { --ls-v: 0.0075em; }
+  .b4-accordion.ls-10 { --ls-v: 0.01em; }
+  .b4-accordion.ls-12 { --ls-v: 0.0125em; }
+  .b4-accordion.ls-15 { --ls-v: 0.015em; }
+  .b4-accordion.ls-17 { --ls-v: 0.0175em; }
+  .b4-accordion.ls-20 { --ls-v: 0.02em; }
+  .b4-accordion.ls-22 { --ls-v: 0.0225em; }
+  .b4-accordion.ls-25 { --ls-v: 0.025em; }
+  .b4-accordion.ls-30 { --ls-v: 0.03em; }
+  .b4-accordion.ls-35 { --ls-v: 0.035em; }
+
+  main div.b4-accordion.block[class*=" ls-"] :is(p, li, h1, h2, h3, h4, h5, h6) {
+    letter-spacing: var(--ls-v, normal);
+  }
+}
+
+/* spacing tokens (fix-brand-solution-4): b-0 / bm-0 = no grid margin below the list from 768 /
+   below 768 (artificial-intelligence-consumer-goods: the closing statement band follows flush) */
+@media (width < 768px) {
+  div.b4-accordion.block.bm-0 .b4-accordion-grid { margin-bottom: 0; }
+}
+
+@media (width >= 768px) {
+  div.b4-accordion.block.b-0 .b4-accordion-grid { margin-bottom: 0; }
+}
+
+/* pair titles (fix-brand-solution-4): the source ProseMirror heading breaks an over-long word
+   (overflow-wrap: break-word; min-width 0 so the flex item may shrink below its longest word) —
+   "Programmierkenntnisse?" in the 138 px label @360 sets on 3 lines instead of overflowing */
+.b4-accordion.pair .b4-accordion-labels :is(h2, h3, h4, p) {
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+
+/* variant bw (fix-small-5): the pair break-word for every accordion — the lead and label flex
+   items may shrink below their longest word too, so "Kreditmanagement" / "Programmierkenntnisse?"
+   break inside the live 138 px label @360 instead of widening the header */
+.b4-accordion.bw .b4-accordion-lead,
+.b4-accordion.bw .b4-accordion-labels,
+.b4-accordion.bw .b4-accordion-labels :is(h2, h3, h4, p) {
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+
+/* tm-56 / ib-32 (fix-small-5, sap-finance split @360): source list section margin-top 56 (grid
+   default 28) and intro column 32 px above the list (split default 40) */
+@media (width < 768px) {
+  div.b4-accordion.block.tm-56 .b4-accordion-grid { margin-top: 56px; }
+  div.b4-accordion.block.split.ib-32 .b4-accordion-intro { margin-bottom: 32px; }
+}
+
+/* icon-font glyphs of the SAP Finance offer items (fix-small-5; styles-eca1f14e.css .icon-nr-xyk /
+   .icon-9r-mnr / .icon-ay-dc-y / .icon-8bh-i0 :before; E-Rechnung is list) */
+.b4-accordion .b4-accordion-icon[data-icon="rocket"]::before {
+  content: "\f096";
+}
+
+.b4-accordion .b4-accordion-icon[data-icon="transfer"]::before {
+  content: "\ea3a";
+}
+
+.b4-accordion .b4-accordion-icon[data-icon="credit"]::before {
+  content: "\edf1";
+}
+
+.b4-accordion .b4-accordion-icon[data-icon="grid"]::before {
+  content: "\ea42";
+}
+
+/* fix-brand-solution-6 (REVE FAQ): t-0 / tm-0 = no grid margin above the list from 768 / below 768
+   (the list band starts flush under the statement); wide = list on cols 2-11 from 1024 (source
+   accordion 1087 px @1440) */
+@media (width < 768px) {
+  div.b4-accordion.block.tm-0 .b4-accordion-grid { margin-top: 0; }
+}
+
+@media (width >= 768px) {
+  div.b4-accordion.block.t-0 .b4-accordion-grid { margin-top: 0; }
+}
+
+@media (width >= 1024px) {
+  div.b4-accordion.block.wide .b4-accordion-cell { grid-column: 2 / 12; }
+}

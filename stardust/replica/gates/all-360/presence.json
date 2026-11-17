@@ -1,0 +1,42 @@
+{
+  "4brands-reply-de-customer-experience-management": {
+    "variable": [
+      ".card-carousel-runtime=.card-carousel"
+    ],
+    "why": "related card carousel autoplays every 5 s on live (data-carousel-autoplay, restored at delivery): which cards sit in the viewport depends on capture timing, so the region is counted, not matched card by card (archetype-brand-solution, 2026-11-15)"
+  },
+  "4brands-reply-en": {
+    "variable": [
+      "[data-carousel-type=\"reply-card-slider-scale\"]=.card-carousel.scale",
+      ".gm-style=.b4-map-frame"
+    ],
+    "why": "innovation scale slider is infinite with a partly off-screen peek card: the peek card's visible link text (category label clipped at x<0) depends on slide position, so the region is counted, not matched card by card; the offices map is a live Google Maps embed (captureState restoreAtDelivery) whose map controls (zoom, fullscreen, keyboard shortcuts, scale, Terms) are drawn by Google inside the map widget — an iframe on delivery — so they are counted, not matched (archetype-brand-home, 2026-11-15)"
+  },
+  "4brands-reply-de": {
+    "variable": [
+      "[data-carousel-type=\"reply-card-slider-scale\"]=.card-carousel.scale",
+      ".gm-style=.b4-map-frame"
+    ],
+    "why": "innovation scale slider is infinite with a partly off-screen peek card: the peek card's visible link text (category label clipped at x<0) depends on slide position, so the region is counted, not matched card by card; the offices map is a live Google Maps embed (captureState restoreAtDelivery) whose map controls (zoom, fullscreen, keyboard shortcuts, scale, Terms) are drawn by Google inside the map widget — an iframe on delivery — so they are counted, not matched (archetype-brand-home; same regions on the DE sibling, cluster-brand-home, 2026-11-15)"
+  },
+  "index": {
+    "variable": [
+      ".card-carousel-runtime=.card-carousel",
+      ".card-carousel-runtime=.believe-rail"
+    ],
+    "why": "home highlights (scale) and latest-insights (simple) rails autoplay every 5 s on live (data-carousel-autoplay, restored at delivery) and the statements slider opens on a random statement (data-random): which cards / statement sit in the viewport depends on capture timing, so the regions are counted, not matched card by card (archetype-home, 2026-11-15)"
+  },
+  "en": {
+    "variable": [
+      ".card-carousel-runtime=.card-carousel",
+      ".card-carousel-runtime=.believe-rail"
+    ],
+    "why": "/en is the index clone: home highlights (scale) and latest-insights (simple) rails autoplay every 5 s on live (data-carousel-autoplay, restored at delivery) and the statements slider opens on a random statement (data-random): which cards / statement sit in the viewport depends on capture timing, so the regions are counted, not matched card by card (archetype-home, 2026-11-15)"
+  },
+  "en-christmas": {
+    "variable": [
+      ".card-carousel-runtime=.card-carousel"
+    ],
+    "why": "xmas highlights (scale) and latest-insights (simple) rails autoplay every 3 s on live (data-carousel-autoplay-interval 3000, restored at delivery as interval-3000): which cards sit in the viewport depends on capture timing, so the rail regions are counted, not matched card by card (fix-small-2, 2026-11-16)"
+  }
+}

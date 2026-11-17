@@ -1,0 +1,77 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.page/en/environment",
+ "at": "2026-11-17T03:56:33.069Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 1,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 3,
+  "offPage": 9,
+  "textNodes": 82,
+  "controls": 42,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "p.hub-grid-node.hub-grid-clamp",
+   "path": "div.hub-grid.l1-3-3 > div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node.hub-grid-clamp",
+   "text": "we launched “reply to the earth”, an internal communication ",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.slider-with-title-rail",
+   "path": "ul.slider-with-title-items > li.slider-with-title-item > div.slider-with-title-item-body > p",
+   "text": "we have set a goal to eliminate single-use plastic in all ou",
+   "cutMin": 220,
+   "cutMax": 220
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "making a difference",
+   "cutMin": 23,
+   "cutMax": 23
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "making a difference",
+   "cutMin": 23,
+   "cutMax": 23
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 1,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 3,
+   "offPage": 15,
+   "textNodes": 88,
+   "controls": 42,
+   "total": 0
+  }
+ }
+}

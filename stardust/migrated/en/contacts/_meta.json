@@ -1,0 +1,490 @@
+{
+  "slug": "en-contacts",
+  "type": "plain",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "intro",
+    "quicklinks",
+    "accordion"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "statement-intro",
+    "quicklinks",
+    "reply-accordion"
+  ],
+  "canonShas": {
+    "header": "79242f0847c0",
+    "footer": "6650fdfefa25",
+    "css": "5bf5dffd7509"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Contacts | Reply",
+    "description": "Discover the office locations and the contacts of Reply S.p.A. on the official website.",
+    "canonical": "https://www.reply.com/en/contacts",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Contacts | Reply",
+    "description": "Discover the office locations and the contacts of Reply S.p.A. on the official website.",
+    "url": "https://www.reply.com/en/contacts"
+  },
+  "migratedAt": "2026-11-15T13:49:46Z",
+  "designMdSha": "d809c0215087",
+  "designJsonSha": "bdcb89ad7bf4",
+  "sourceCurrentSha": "2e7833131318",
+  "sourceProposedSha": "d4794aec7c28",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [
+    "intro.ice"
+  ],
+  "gatesPassed": [
+    "delivery-lint"
+  ],
+  "gateEvidence": {
+    "pixel-gate-1440": "OPEN: no row in the pixel table (prototypes-1440) — run gate-all.mjs --stage prototype so the page is measured",
+    "pixel-gate-360": "OPEN: no row in the pixel table (prototypes-360) — run gate-all.mjs --stage prototype so the page is measured",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /en/contacts)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "form-trigger",
+      "source": "HubSpot modal buttons (Send us a message, Send us an RFP, Ask Rose, Contact us)",
+      "target": "static card / paragraph labels",
+      "reason": "HubSpot forms backend pending (dynamic-features-plan row 18, needs-backend); labels kept verbatim"
+    },
+    {
+      "kind": "carousel",
+      "source": "card-carousel-runtime quick-link slider",
+      "target": "quicklinks block (4-up grid >=1024, horizontal scroll below)",
+      "reason": "all 4 cards display at desktop on the source (all-displayed); no rotation"
+    }
+  ],
+  "assetsBundled": 3,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/de/accessibility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/accessibility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/accessibility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/accessibility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/artificial-intelligence",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/cloud-computing",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/cx-and-digital-commerce",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/cybersecurity",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/data-world",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/design",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/digital-assets",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/digital-experience",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/gaming",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/governance-risk-and-compliance",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/hybrid-work",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/metaverse",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/prebuilt-ai-apps",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quality-engineering",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quantum-computing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/robotics-and-autonomous-things",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/strategy-and-business-model-transformation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/supply-chain-management",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-networks",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/3d-and-mixed-reality",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/automotive-and-manufacturing",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/energy-and-utilities",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/financial-services",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/logistics",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/retail-and-consumer-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-and-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/labs/area-42",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-73",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-phi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/cyber-security-lab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-house-of-models",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-iot-labs-concept-quality",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/testautomationcentre",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/xchange",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/esg",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/environment",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/environment/energy-and-emissions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/reply-to-the-earth",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/sustainable-supply-chain",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/continuous-learning",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/wellbeing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/inclusion-and-diversity",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/governance",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/investors/governance-system",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/governance-policies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/governance/our-commitment-to-ethical-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/esg",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/company-profile",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/newsroom?type=financial-news",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/reply-share-information",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-highlights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-calendar-and-events",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-reports",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/shareholders-meeting",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/loyalty-shares",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors#H6tmz",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/company-profile",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/company-profile",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/accessibility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/accessibility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/accessibility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/accessibility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/company-profile",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-candidate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-client",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-supplier",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-marketing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/modern-slavery-statement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contents/Reply_Company_Information_en.pdf",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "en/contacts/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "en/contacts/_meta.json",
+  "driverVersion": "1"
+}

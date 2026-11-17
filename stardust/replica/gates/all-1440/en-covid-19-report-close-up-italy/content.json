@@ -1,0 +1,5936 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-17T00:44:02.794Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.reply.com/en/covid-19-report-close-up-italy",
+  "at": "2026-11-17T00:43:33.633Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 11482,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-bottom.w-full > div.logo.flex > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "go to homepage",
+    "href": "/en"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 906,
+    "y": 28,
+    "w": 41,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 1225,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "custom-menu-runtime.header.flex > nav.header-bottom.w-full > button.hidden.lg:block",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.grid-bg__container.absolute > picture > img.grid-bg.w-full",
+    "x": 0,
+    "y": 49,
+    "w": 1440,
+    "h": 810,
+    "text": "",
+    "file": "560b17db-fbc0-4cfb-804a-96839c005dfd"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.category-label.light > div.category-name",
+    "x": 193,
+    "y": 280,
+    "w": 74,
+    "h": 14,
+    "text": "Research"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h1#ztoGX",
+    "x": 177,
+    "y": 318,
+    "w": 861,
+    "h": 211,
+    "level": 1,
+    "text": "the coronavirus in italy: keeping up with a new reality"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h1#ztoGX > span.colors-1-gbfb",
+    "x": 177,
+    "y": 317,
+    "w": 799,
+    "h": 212,
+    "text": "The Coronavirus in Italy: keeping up with a new reality"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-vzc3d",
+    "x": 289,
+    "y": 570,
+    "w": 523,
+    "h": 54,
+    "text": "A data-based report on COVID-19 that reveals how it is setting new paradigms for"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.flex.flex-col > li.nav-item.nav-link > a.whitespace-nowrap",
+    "x": 40,
+    "y": 839,
+    "w": 147,
+    "h": 16,
+    "text": "preliminary remarks",
+    "href": "/en/covid-19-report-close-up-italy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.flex.flex-col > li.nav-item.nav-link > a.whitespace-nowrap",
+    "x": 227,
+    "y": 839,
+    "w": 34,
+    "h": 16,
+    "text": "intro",
+    "href": "/en/covid-19-report-close-up-italy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.flex.flex-col > li.nav-item.nav-link > a.whitespace-nowrap",
+    "x": 301,
+    "y": 839,
+    "w": 98,
+    "h": 16,
+    "text": "focus on italy",
+    "href": "/en/covid-19-report-close-up-italy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.flex.flex-col > li.nav-item.nav-link > a.whitespace-nowrap",
+    "x": 440,
+    "y": 839,
+    "w": 147,
+    "h": 16,
+    "text": "sense of community",
+    "href": "/en/covid-19-report-close-up-italy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.flex.flex-col > li.nav-item.nav-link > a.whitespace-nowrap",
+    "x": 627,
+    "y": 839,
+    "w": 139,
+    "h": 16,
+    "text": "feeling of solidarity",
+    "href": "/en/covid-19-report-close-up-italy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.secondary-actions.hidden > div.flex.items-center > span.paragraph-02.whitespace-nowrap",
+    "x": 1297,
+    "y": 841,
+    "w": 55,
+    "h": 14,
+    "text": "10' read"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.social-share.relative > div.social-trigger.flex > button.share-icon.round-bt",
+    "x": 1372,
+    "y": 824,
+    "w": 48,
+    "h": 48,
+    "text": "share with a friend"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.social-share.relative > div.social-trigger.flex > button.share-icon.round-bt",
+    "x": 1372,
+    "y": 824,
+    "w": 48,
+    "h": 48,
+    "label": "share with a friend",
+    "value": "share with a friend",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#pXOlV",
+    "x": 289,
+    "y": 984,
+    "w": 861,
+    "h": 43,
+    "level": 2,
+    "text": "preliminary remarks"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 289,
+    "y": 1067,
+    "w": 861,
+    "h": 81,
+    "text": "This report provides data-driven insights about the global pandemic with special"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > strong",
+    "x": 290,
+    "y": 1194,
+    "w": 860,
+    "h": 45,
+    "text": "This report is in no way intended to distract from the fact that the outbreak of"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 289,
+    "y": 1256,
+    "w": 861,
+    "h": 54,
+    "text": "As the situation is evolving rapidly, please note that this page reflects the da"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#o6pzX",
+    "x": 289,
+    "y": 1550,
+    "w": 861,
+    "h": 14,
+    "level": 2,
+    "text": "intro"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h2#o6pzX > span.colors-default",
+    "x": 699,
+    "y": 1551,
+    "w": 42,
+    "h": 11,
+    "text": "Intro"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#ZMntt",
+    "x": 289,
+    "y": 1584,
+    "w": 861,
+    "h": 43,
+    "level": 2,
+    "text": "the european timeline of restricting freedom"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 289,
+    "y": 1667,
+    "w": 861,
+    "h": 81,
+    "text": "In order to combat the exponential spread of the pandemic and save lives, govern"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-16.aspect-h-9 > picture > img.content.picture",
+    "x": 289,
+    "y": 1787,
+    "w": 861,
+    "h": 485,
+    "text": "",
+    "file": "70943dbd-2e97-4ca7-b44e-3e321e3757fd"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-default",
+    "x": 455,
+    "y": 2315,
+    "w": 530,
+    "h": 13,
+    "text": "Data retrieved from Google trends for five countries on March 18th for the last "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#LugFq",
+    "x": 289,
+    "y": 2571,
+    "w": 861,
+    "h": 43,
+    "level": 2,
+    "text": "focus on italy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h2#LugFq > span.colors-1-gbfb",
+    "x": 590,
+    "y": 2572,
+    "w": 260,
+    "h": 40,
+    "text": "Focus on Italy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-1-gbfb",
+    "x": 292,
+    "y": 2658,
+    "w": 856,
+    "h": 72,
+    "text": "Due to the rapid increase in new infections with COVID-19, the Italian governmen"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-16.aspect-h-9 > picture > img.content.picture",
+    "x": 289,
+    "y": 2735,
+    "w": 861,
+    "h": 485,
+    "text": "",
+    "file": "272787a7-8d23-4600-aa90-0c016d70ec75"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#zHdkA",
+    "x": 289,
+    "y": 3340,
+    "w": 861,
+    "h": 43,
+    "level": 2,
+    "text": "in search of physical contact, online"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 289,
+    "y": 3423,
+    "w": 861,
+    "h": 108,
+    "text": "People forced into quarantine express their need for physical contact with other"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-16.aspect-h-9 > picture > img.content.picture",
+    "x": 289,
+    "y": 3570,
+    "w": 861,
+    "h": 485,
+    "text": "",
+    "file": "2c7fc6ce-626c-4945-a08d-738dbfd3385d"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-default",
+    "x": 657,
+    "y": 4055,
+    "w": 126,
+    "h": 13,
+    "text": "Source: Brandwatch"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#Zfy2d",
+    "x": 289,
+    "y": 4311,
+    "w": 861,
+    "h": 14,
+    "level": 2,
+    "text": "sense of community"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h2#Zfy2d > span.colors-1-gbfb",
+    "x": 643,
+    "y": 4312,
+    "w": 155,
+    "h": 11,
+    "text": "Sense of community"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#thO6O",
+    "x": 289,
+    "y": 4345,
+    "w": 861,
+    "h": 86,
+    "level": 2,
+    "text": "looking for points of reference to feel part of a community"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h2#thO6O > span.colors-1-gbfb",
+    "x": 292,
+    "y": 4346,
+    "w": 856,
+    "h": 83,
+    "text": "Looking for points of reference to feel part of a community"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-1-gbfb",
+    "x": 291,
+    "y": 4476,
+    "w": 858,
+    "h": 72,
+    "text": "In order to counteract the isolation, the online behaviour of Italians shows tha"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 251,
+    "y": 4746,
+    "w": 150,
+    "h": 150,
+    "text": "",
+    "file": "fdbb4e68-0757-4645-b0d7-6a9510bc83f9"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h4#UF0mZ",
+    "x": 627,
+    "y": 4723,
+    "w": 636,
+    "h": 39,
+    "level": 4,
+    "text": "feeling part of a family"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h4#UF0mZ > span.colors-1-gbfb",
+    "x": 627,
+    "y": 4726,
+    "w": 339,
+    "h": 32,
+    "text": "Feeling part of a family"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-xufux > span.colors-1-gbfb",
+    "x": 627,
+    "y": 4803,
+    "w": 632,
+    "h": 111,
+    "text": "The first way for Italians to find a reference point is to feel part of their fa"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 289,
+    "y": 5049,
+    "w": 861,
+    "h": 26,
+    "text": "TRADITIONAL AND FAMILY FOOD"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-16.aspect-h-9 > picture > img.content.picture",
+    "x": 289,
+    "y": 5075,
+    "w": 861,
+    "h": 485,
+    "text": "",
+    "file": "8aa1e8d6-ca46-4b44-a496-b873d894e71a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-default",
+    "x": 651,
+    "y": 5560,
+    "w": 138,
+    "h": 13,
+    "text": "Source: Google Trends"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 289,
+    "y": 5682,
+    "w": 861,
+    "h": 26,
+    "text": "ACTIVITIES TO SPEND TIME TOGETHER AT HOME"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-16.aspect-h-9 > picture > img.content.picture",
+    "x": 289,
+    "y": 5748,
+    "w": 861,
+    "h": 485,
+    "text": "",
+    "file": "a47cc144-b5b2-417e-8b5d-d72520778a2c"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-default",
+    "x": 651,
+    "y": 6233,
+    "w": 138,
+    "h": 13,
+    "text": "Source: Google Trends"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 289,
+    "y": 6349,
+    "w": 861,
+    "h": 26,
+    "text": "DIGITAL AS A TOOL OF CONNECTION BETWEEN FAMILIES AND FRIENDS"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-16.aspect-h-9 > picture > img.content.picture",
+    "x": 289,
+    "y": 6415,
+    "w": 861,
+    "h": 485,
+    "text": "",
+    "file": "f0d79721-ae6c-4c0e-8d0c-e74d38d98405"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 289,
+    "y": 6900,
+    "w": 861,
+    "h": 17,
+    "text": "Source: Google Trends"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 251,
+    "y": 7087,
+    "w": 150,
+    "h": 150,
+    "text": "",
+    "file": "c7762744-ab3a-439d-ac8b-640a2ab1111a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h4#KCfAB",
+    "x": 627,
+    "y": 7087,
+    "w": 636,
+    "h": 39,
+    "level": 4,
+    "text": "feeling united as a nation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h4#KCfAB > span.colors-1-gbfb",
+    "x": 627,
+    "y": 7090,
+    "w": 379,
+    "h": 32,
+    "text": "Feeling united as a Nation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-xufux > span.colors-1-gbfb",
+    "x": 627,
+    "y": 7167,
+    "w": 613,
+    "h": 64,
+    "text": "Even if the Italians are very patriotic, they are rediscovering themselves as a "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#ScomV",
+    "x": 289,
+    "y": 7387,
+    "w": 861,
+    "h": 26,
+    "level": 2,
+    "text": "balcony flash mob"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 289,
+    "y": 7453,
+    "w": 861,
+    "h": 54,
+    "text": "Thanks to the coordination through social media, Italians sing the Italian hymn "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-16.aspect-h-9 > picture > img.content.picture",
+    "x": 289,
+    "y": 7507,
+    "w": 861,
+    "h": 485,
+    "text": "",
+    "file": "2355af80-170b-418a-9156-1792ba371176"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 289,
+    "y": 8011,
+    "w": 861,
+    "h": 26,
+    "text": "TRENDING HASHTAGS TO CREATE OPTIMISM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 289,
+    "y": 8077,
+    "w": 861,
+    "h": 54,
+    "text": "Many hashtags like #andratuttobene, #celafaremo #forzaitaliacelafaremo have beco"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-16.aspect-h-9 > picture > img.content.picture",
+    "x": 289,
+    "y": 8131,
+    "w": 861,
+    "h": 485,
+    "text": "",
+    "file": "138c8a85-f2da-4cda-8f55-98ff2650ce84"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#H4jbO",
+    "x": 289,
+    "y": 8856,
+    "w": 861,
+    "h": 14,
+    "level": 2,
+    "text": "feeling of solidarity"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h2#H4jbO > span.colors-1-gbfb",
+    "x": 639,
+    "y": 8857,
+    "w": 162,
+    "h": 11,
+    "text": "Feeling of solidarity"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#fwJXv",
+    "x": 289,
+    "y": 8890,
+    "w": 861,
+    "h": 43,
+    "level": 2,
+    "text": "solidarity at every level"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h2#fwJXv > span.colors-1-gbfb",
+    "x": 498,
+    "y": 8891,
+    "w": 443,
+    "h": 40,
+    "text": "Solidarity at every level"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-1-gbfb",
+    "x": 329,
+    "y": 8977,
+    "w": 781,
+    "h": 45,
+    "text": "In this moment of crisis, everyone is putting in their skills and resources to p"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 251,
+    "y": 9232,
+    "w": 150,
+    "h": 150,
+    "text": "",
+    "file": "14c6bf29-bc5b-4ef7-a8d2-8eda817d6aeb"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h4#hPq3L",
+    "x": 627,
+    "y": 9197,
+    "w": 636,
+    "h": 39,
+    "level": 4,
+    "text": "citizens"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h4#hPq3L > span.colors-1-gbfb",
+    "x": 627,
+    "y": 9200,
+    "w": 120,
+    "h": 32,
+    "text": "Citizens"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-xufux > span.colors-1-gbfb",
+    "x": 627,
+    "y": 9277,
+    "w": 636,
+    "h": 135,
+    "text": "Many citizens donate money or part of their free time to help weak people. The v"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-16.aspect-h-9 > picture > img.content.picture",
+    "x": 289,
+    "y": 9587,
+    "w": 861,
+    "h": 485,
+    "text": "",
+    "file": "fb7b7265-5a59-41f8-97c1-7e262e8e32a6"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-default",
+    "x": 651,
+    "y": 10072,
+    "w": 138,
+    "h": 13,
+    "text": "Source: Google Trends"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 209,
+    "y": 10328,
+    "w": 120,
+    "h": 120,
+    "text": "",
+    "file": "cdb76a30-e141-4e30-b358-89150b451527"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 177,
+    "y": 10480,
+    "w": 185,
+    "h": 62,
+    "text": "Service providers"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 177,
+    "y": 10551,
+    "w": 185,
+    "h": 238,
+    "text": "Many companies that provide digital services are offering them for free or with "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 510,
+    "y": 10328,
+    "w": 120,
+    "h": 120,
+    "text": "",
+    "file": "91fbf642-81b3-49fa-aa96-673b0cb68eff"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 477,
+    "y": 10480,
+    "w": 185,
+    "h": 31,
+    "text": "Companies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 477,
+    "y": 10519,
+    "w": 185,
+    "h": 238,
+    "text": "Many companies are switching their production to goods that are in short supply."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 810,
+    "y": 10328,
+    "w": 120,
+    "h": 120,
+    "text": "",
+    "file": "d2754e5f-0c97-4ad5-ac60-4885e69c264e"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 778,
+    "y": 10480,
+    "w": 185,
+    "h": 31,
+    "text": "Influencers"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 778,
+    "y": 10519,
+    "w": 185,
+    "h": 190,
+    "text": "Influencers use their popularity to collect donations. Many of them have used th"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 1111,
+    "y": 10328,
+    "w": 120,
+    "h": 120,
+    "text": "",
+    "file": "185f4698-6669-436a-a051-156599521c35"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 1079,
+    "y": 10480,
+    "w": 185,
+    "h": 31,
+    "text": "Artists"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 1079,
+    "y": 10519,
+    "w": 185,
+    "h": 309,
+    "text": "Many artists are using social media to offer their performance to people forced "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.block > nav.footer.p-10 > a",
+    "x": 64,
+    "y": 11049,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 11145,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 11145,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 11192,
+    "w": 103,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 11237,
+    "w": 45,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 11282,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 11327,
+    "w": 67,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 11145,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 11145,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 11192,
+    "w": 142,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 11237,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 11299,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 11344,
+    "w": 149,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 11192,
+    "w": 161,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 11237,
+    "w": 127,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 11282,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 11192,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 11254,
+    "w": 154,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 11299,
+    "w": 147,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 11344,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "void(0)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Careers",
+    "x": 1112,
+    "y": 11145,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Contacts",
+    "x": 1112,
+    "y": 11225,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1112,
+    "y": 11305,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1124,
+    "y": 11317,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1184,
+    "y": 11305,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1196,
+    "y": 11317,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "a6732ee4-95cf-4951-9c4b-3675c7154f7e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1256,
+    "y": 11305,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1268,
+    "y": 11317,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "49664893-bfc1-4d79-9208-3bdd7083126b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1328,
+    "y": 11305,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1340,
+    "y": 11317,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "c48097ef-90ed-4c24-aa40-1764649e72ff"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > span",
+    "x": 64,
+    "y": 11449,
+    "w": 81,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > a.underline",
+    "x": 158,
+    "y": 11449,
+    "w": 136,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.text-white.py-3 > div.flex.justify-between > button#cookie-pref-center",
+    "x": 1276,
+    "y": 859,
+    "w": 164,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 100,
+    "controls": 43,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--a355dc1b--aemcoder.aem.live/en/covid-19-report-close-up-italy",
+  "at": "2026-11-17T00:44:02.677Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 11343,
+  "root": "main",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-main > div.site-header-logo > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "href": "/en"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-reply-logo > img",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "file": "reply-logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 900,
+    "y": 28,
+    "w": 46,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 1224,
+    "y": 28,
+    "w": 52,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-header-bar > nav.site-header-main > button.sm-collapsed",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pic-desktop > picture > img",
+    "x": 0,
+    "y": 47,
+    "w": 1440,
+    "h": 810,
+    "text": "",
+    "file": "media_1047b5b58866679ec1bec92f9fa697ddef"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-name > div > p",
+    "x": 193,
+    "y": 280,
+    "w": 84,
+    "h": 14,
+    "text": "Research"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-text > div > h1#the-coronavirus-in-italy-keeping-up-with-a-new-reality",
+    "x": 177,
+    "y": 318,
+    "w": 861,
+    "h": 211,
+    "level": 1,
+    "text": "the coronavirus in italy: keeping up with a new reality"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > h1#the-coronavirus-in-italy-keeping-up-with-a-new-reality > span.ink",
+    "x": 177,
+    "y": 317,
+    "w": 779,
+    "h": 212,
+    "text": "The Coronavirus in Italy: keeping up with a new reality"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.txt > div > p",
+    "x": 289,
+    "y": 570,
+    "w": 523,
+    "h": 54,
+    "text": "A data-based report on COVID-19 that reveals how it is setting new paradigms for"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.active > a",
+    "x": 40,
+    "y": 839,
+    "w": 144,
+    "h": 16,
+    "text": "preliminary remarks",
+    "href": "/en/covid-19-report-close-up-italy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 224,
+    "y": 839,
+    "w": 32,
+    "h": 16,
+    "text": "intro",
+    "href": "/en/covid-19-report-close-up-italy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 296,
+    "y": 839,
+    "w": 99,
+    "h": 16,
+    "text": "focus on italy",
+    "href": "/en/covid-19-report-close-up-italy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 435,
+    "y": 839,
+    "w": 147,
+    "h": 16,
+    "text": "sense of community",
+    "href": "/en/covid-19-report-close-up-italy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 622,
+    "y": 839,
+    "w": 136,
+    "h": 16,
+    "text": "feeling of solidarity",
+    "href": "/en/covid-19-report-close-up-italy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sep.has-read > span.read > p",
+    "x": 1295,
+    "y": 841,
+    "w": 56,
+    "h": 14,
+    "text": "10' read"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.actions > div.share.social-share > button.share-trigger.round-bt",
+    "x": 1372,
+    "y": 824,
+    "w": 48,
+    "h": 48,
+    "text": "share with a friend"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.actions > div.share.social-share > button.share-trigger.round-bt",
+    "x": 1372,
+    "y": 824,
+    "w": 48,
+    "h": 48,
+    "label": "share with a friend",
+    "value": "share with a friend",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-text > div > h2#preliminary-remarks",
+    "x": 289,
+    "y": 984,
+    "w": 861,
+    "h": 43,
+    "level": 2,
+    "text": "preliminary remarks"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 289,
+    "y": 1067,
+    "w": 861,
+    "h": 81,
+    "text": "This report provides data-driven insights about the global pandemic with special"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > p > strong",
+    "x": 290,
+    "y": 1194,
+    "w": 860,
+    "h": 45,
+    "text": "This report is in no way intended to distract from the fact that the outbreak of"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 289,
+    "y": 1256,
+    "w": 861,
+    "h": 54,
+    "text": "As the situation is evolving rapidly, please note that this page reflects the da"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > div.kicker > h2#intro",
+    "x": 289,
+    "y": 1550,
+    "w": 861,
+    "h": 14,
+    "level": 2,
+    "text": "intro"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-text > div > h2#the-european-timeline-of-restricting-freedom",
+    "x": 289,
+    "y": 1588,
+    "w": 861,
+    "h": 43,
+    "level": 2,
+    "text": "the european timeline of restricting freedom"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 289,
+    "y": 1671,
+    "w": 861,
+    "h": 81,
+    "text": "In order to combat the exponential spread of the pandemic and save lives, govern"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 289,
+    "y": 1764,
+    "w": 861,
+    "h": 484,
+    "text": "",
+    "file": "media_14f407fe2e8d3a3007ea58411e3806cd32"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 455,
+    "y": 2289,
+    "w": 530,
+    "h": 17,
+    "text": "Data retrieved from Google trends for five countries on March 18th for the last "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.bg > picture > img",
+    "x": 0,
+    "y": 2446,
+    "w": 1440,
+    "h": 797,
+    "text": "",
+    "file": "media_1df1c576eafa646817876f7a06d22ceb32"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-text > div > h2#focus-on-italy",
+    "x": 289,
+    "y": 2546,
+    "w": 861,
+    "h": 43,
+    "level": 2,
+    "text": "focus on italy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > h2#focus-on-italy > span.ink",
+    "x": 590,
+    "y": 2547,
+    "w": 260,
+    "h": 40,
+    "text": "Focus on Italy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 289,
+    "y": 2629,
+    "w": 861,
+    "h": 81,
+    "text": "Due to the rapid increase in new infections with COVID-19, the Italian governmen"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 289,
+    "y": 2722,
+    "w": 861,
+    "h": 484,
+    "text": "",
+    "file": "media_1da55088598b1b9d0efd4e402a835b8959"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-text > div > h2#in-search-of-physical-contact-online",
+    "x": 289,
+    "y": 3322,
+    "w": 861,
+    "h": 43,
+    "level": 2,
+    "text": "in search of physical contact, online"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 289,
+    "y": 3406,
+    "w": 861,
+    "h": 108,
+    "text": "People forced into quarantine express their need for physical contact with other"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 289,
+    "y": 3526,
+    "w": 861,
+    "h": 484,
+    "text": "",
+    "file": "media_1d0fd54b582f47853df60b4138734f5424"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 455,
+    "y": 4050,
+    "w": 530,
+    "h": 17,
+    "text": "Source: Brandwatch"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > div.kicker > h2#sense-of-community",
+    "x": 289,
+    "y": 4327,
+    "w": 861,
+    "h": 14,
+    "level": 2,
+    "text": "sense of community"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-text > div > h2#looking-for-points-of-reference-to-feel-part-of-a-community",
+    "x": 289,
+    "y": 4365,
+    "w": 861,
+    "h": 86,
+    "level": 2,
+    "text": "looking for points of reference to feel part of a community"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 289,
+    "y": 4491,
+    "w": 861,
+    "h": 81,
+    "text": "In order to counteract the isolation, the online behaviour of Italians shows tha"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > h4#feeling-part-of-a-family",
+    "x": 627,
+    "y": 4752,
+    "w": 636,
+    "h": 39,
+    "level": 4,
+    "text": "feeling part of a family"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 627,
+    "y": 4823,
+    "w": 636,
+    "h": 119,
+    "text": "The first way for Italians to find a reference point is to feel part of their fa"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pic > picture > img",
+    "x": 437,
+    "y": 4752,
+    "w": 150,
+    "h": 150,
+    "text": "",
+    "file": "media_1cd00d6198c9f8dbb73e5b202149732d45"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 289,
+    "y": 5082,
+    "w": 861,
+    "h": 26,
+    "text": "TRADITIONAL AND FAMILY FOOD"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 289,
+    "y": 5124,
+    "w": 861,
+    "h": 484,
+    "text": "",
+    "file": "media_1645251a2bf1cbd3372fcdc766649ddb43"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 289,
+    "y": 5625,
+    "w": 861,
+    "h": 18,
+    "text": "Source: Google Trends"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 289,
+    "y": 5743,
+    "w": 861,
+    "h": 26,
+    "text": "ACTIVITIES TO SPEND TIME TOGETHER AT HOME"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 289,
+    "y": 5785,
+    "w": 861,
+    "h": 484,
+    "text": "",
+    "file": "media_17fa65ff0228ef9c0d1b1bd43387115442"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 289,
+    "y": 6285,
+    "w": 861,
+    "h": 18,
+    "text": "Source: Google Trends"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 289,
+    "y": 6403,
+    "w": 861,
+    "h": 26,
+    "text": "DIGITAL AS A TOOL OF CONNECTION BETWEEN FAMILIES AND FRIENDS"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 289,
+    "y": 6445,
+    "w": 861,
+    "h": 484,
+    "text": "",
+    "file": "media_12bae7ca43f662bb9af935a906a9bd29a3"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 289,
+    "y": 6946,
+    "w": 861,
+    "h": 18,
+    "text": "Source: Google Trends"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > h4#feeling-united-as-a-nation",
+    "x": 627,
+    "y": 7111,
+    "w": 636,
+    "h": 39,
+    "level": 4,
+    "text": "feeling united as a nation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 627,
+    "y": 7183,
+    "w": 636,
+    "h": 71,
+    "text": "Even if the Italians are very patriotic, they are rediscovering themselves as a "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pic > picture > img",
+    "x": 437,
+    "y": 7104,
+    "w": 150,
+    "h": 150,
+    "text": "",
+    "file": "media_1d8872694dff2e7de6f24627d987218cd4"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-text > div > h2#balcony-flash-mob",
+    "x": 289,
+    "y": 7414,
+    "w": 861,
+    "h": 26,
+    "level": 2,
+    "text": "balcony flash mob"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 289,
+    "y": 7480,
+    "w": 861,
+    "h": 54,
+    "text": "Thanks to the coordination through social media, Italians sing the Italian hymn "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 289,
+    "y": 7546,
+    "w": 861,
+    "h": 484,
+    "text": "",
+    "file": "media_147642d03b499398e0c02d2201c66546fd"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 289,
+    "y": 8046,
+    "w": 861,
+    "h": 26,
+    "text": "TRENDING HASHTAGS TO CREATE OPTIMISM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 289,
+    "y": 8088,
+    "w": 861,
+    "h": 54,
+    "text": "Many hashtags like #andratuttobene, #celafaremo #forzaitaliacelafaremo have beco"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 289,
+    "y": 8154,
+    "w": 861,
+    "h": 484,
+    "text": "",
+    "file": "media_1835f1293a954e3fbfde54a47638526a14"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > div.kicker > h2#feeling-of-solidarity",
+    "x": 289,
+    "y": 8875,
+    "w": 861,
+    "h": 14,
+    "level": 2,
+    "text": "feeling of solidarity"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-text > div > h2#solidarity-at-every-level",
+    "x": 289,
+    "y": 8913,
+    "w": 861,
+    "h": 43,
+    "level": 2,
+    "text": "solidarity at every level"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 289,
+    "y": 8996,
+    "w": 861,
+    "h": 54,
+    "text": "In this moment of crisis, everyone is putting in their skills and resources to p"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > h4#citizens",
+    "x": 627,
+    "y": 9230,
+    "w": 636,
+    "h": 39,
+    "level": 4,
+    "text": "citizens"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 627,
+    "y": 9301,
+    "w": 636,
+    "h": 143,
+    "text": "Many citizens donate money or part of their free time to help weak people. The v"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pic > picture > img",
+    "x": 437,
+    "y": 9230,
+    "w": 150,
+    "h": 150,
+    "text": "",
+    "file": "media_1a3c35500205f4f3754a0ff824b9e072d7"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 289,
+    "y": 9584,
+    "w": 861,
+    "h": 484,
+    "text": "",
+    "file": "media_1142582fe99f1f0178cec8fc7f63461b08"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 455,
+    "y": 10109,
+    "w": 530,
+    "h": 17,
+    "text": "Source: Google Trends"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 209,
+    "y": 10365,
+    "w": 120,
+    "h": 120,
+    "text": "",
+    "file": "media_1140a5f523bf12e8d5bad9c562675e8a85"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 177,
+    "y": 10517,
+    "w": 185,
+    "h": 50,
+    "text": "Service providers"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 177,
+    "y": 10586,
+    "w": 185,
+    "h": 238,
+    "text": "Many companies that provide digital services are offering them for free or with "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 510,
+    "y": 10365,
+    "w": 120,
+    "h": 120,
+    "text": "",
+    "file": "media_16b8e85b69ac314494cffad74d8ee47c61"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 477,
+    "y": 10517,
+    "w": 185,
+    "h": 25,
+    "text": "Companies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 477,
+    "y": 10561,
+    "w": 185,
+    "h": 214,
+    "text": "Many companies are switching their production to goods that are in short supply."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 810,
+    "y": 10365,
+    "w": 120,
+    "h": 120,
+    "text": "",
+    "file": "media_199411dbb8bcad1e201fa760993c5a1b48"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 778,
+    "y": 10517,
+    "w": 185,
+    "h": 25,
+    "text": "Influencers"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 778,
+    "y": 10561,
+    "w": 185,
+    "h": 167,
+    "text": "Influencers use their popularity to collect donations. Many of them have used th"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 1111,
+    "y": 10365,
+    "w": 120,
+    "h": 120,
+    "text": "",
+    "file": "media_12a314d5faf713909fb7d794e93fbea47a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 1078,
+    "y": 10517,
+    "w": 185,
+    "h": 25,
+    "text": "Artists"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 1078,
+    "y": 10561,
+    "w": 185,
+    "h": 286,
+    "text": "Many artists are using social media to offer their performance to people forced "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-wrap > nav.footer-nav > a.footer-nav-home",
+    "x": 64,
+    "y": 10910,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 11006,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 11006,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 11054,
+    "w": 102,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 11099,
+    "w": 43,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 11143,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 11188,
+    "w": 66,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 11006,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 11006,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 11054,
+    "w": 145,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 11099,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 11160,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 11205,
+    "w": 150,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 11054,
+    "w": 160,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 11099,
+    "w": 131,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 11143,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 11054,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 11115,
+    "w": 153,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 11160,
+    "w": 143,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 11205,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "/en/covid-19-report-close-up-italy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 11006,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 11086,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1112,
+    "y": 11166,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1124,
+    "y": 11178,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1184,
+    "y": 11166,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1196,
+    "y": 11178,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1256,
+    "y": 11166,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1268,
+    "y": 11178,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-linkedin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1328,
+    "y": 11166,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1340,
+    "y": 11178,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-xing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > span",
+    "x": 64,
+    "y": 11310,
+    "w": 84,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > a",
+    "x": 160,
+    "y": 11310,
+    "w": 131,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-inner > div.site-legal-row > button#cookie-pref-center",
+    "x": 1278,
+    "y": 859,
+    "w": 162,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 100,
+    "controls": 43,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "the coronavirus in italy: keeping up with a new reality",
+   "variable": false,
+   "origin": {
+    "link": 5,
+    "button": 1,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 5,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "preliminary remarks",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "intro",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "the european timeline of restricting freedom",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "focus on italy",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "in search of physical contact, online",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "sense of community",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "looking for points of reference to feel part of a community",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 12,
+    "image": 5
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 9,
+    "textHidden": 0,
+    "image": 5,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "balcony flash mob",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 3,
+    "image": 2
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "feeling of solidarity",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "solidarity at every level",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 13,
+    "image": 6
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 11,
+    "textHidden": 0,
+    "image": 6,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 1339,
+    "y": 7,
+    "w": 17,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 51,
+    "w": 62,
+    "h": 16
+   },
+   {
+    "x": 612,
+    "y": 51,
+    "w": 72,
+    "h": 16
+   },
+   {
+    "x": 740,
+    "y": 51,
+    "w": 110,
+    "h": 16
+   },
+   {
+    "x": 906,
+    "y": 51,
+    "w": 41,
+    "h": 16
+   },
+   {
+    "x": 1003,
+    "y": 51,
+    "w": 60,
+    "h": 16
+   },
+   {
+    "x": 1119,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1225,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 193,
+    "y": 281,
+    "w": 74,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 317,
+    "w": 799,
+    "h": 71
+   },
+   {
+    "x": 177,
+    "y": 388,
+    "w": 749,
+    "h": 71
+   },
+   {
+    "x": 177,
+    "y": 458,
+    "w": 210,
+    "h": 71
+   },
+   {
+    "x": 289,
+    "y": 574,
+    "w": 512,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 601,
+    "w": 219,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 839,
+    "w": 147,
+    "h": 16
+   },
+   {
+    "x": 227,
+    "y": 839,
+    "w": 34,
+    "h": 16
+   },
+   {
+    "x": 301,
+    "y": 839,
+    "w": 98,
+    "h": 16
+   },
+   {
+    "x": 440,
+    "y": 839,
+    "w": 147,
+    "h": 16
+   },
+   {
+    "x": 627,
+    "y": 839,
+    "w": 139,
+    "h": 16
+   },
+   {
+    "x": 1297,
+    "y": 840,
+    "w": 55,
+    "h": 16
+   },
+   {
+    "x": 531,
+    "y": 985,
+    "w": 378,
+    "h": 40
+   },
+   {
+    "x": 304,
+    "y": 1071,
+    "w": 832,
+    "h": 18
+   },
+   {
+    "x": 293,
+    "y": 1098,
+    "w": 771,
+    "h": 18
+   },
+   {
+    "x": 1065,
+    "y": 1098,
+    "w": 82,
+    "h": 18
+   },
+   {
+    "x": 414,
+    "y": 1125,
+    "w": 50,
+    "h": 18
+   },
+   {
+    "x": 464,
+    "y": 1125,
+    "w": 39,
+    "h": 18
+   },
+   {
+    "x": 503,
+    "y": 1125,
+    "w": 255,
+    "h": 18
+   },
+   {
+    "x": 758,
+    "y": 1125,
+    "w": 182,
+    "h": 18
+   },
+   {
+    "x": 939,
+    "y": 1125,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 1022,
+    "y": 1125,
+    "w": 4,
+    "h": 18
+   },
+   {
+    "x": 290,
+    "y": 1194,
+    "w": 860,
+    "h": 18
+   },
+   {
+    "x": 371,
+    "y": 1221,
+    "w": 698,
+    "h": 18
+   },
+   {
+    "x": 312,
+    "y": 1260,
+    "w": 748,
+    "h": 18
+   },
+   {
+    "x": 1060,
+    "y": 1260,
+    "w": 39,
+    "h": 18
+   },
+   {
+    "x": 1103,
+    "y": 1260,
+    "w": 25,
+    "h": 18
+   },
+   {
+    "x": 666,
+    "y": 1287,
+    "w": 104,
+    "h": 18
+   },
+   {
+    "x": 770,
+    "y": 1287,
+    "w": 4,
+    "h": 18
+   },
+   {
+    "x": 699,
+    "y": 1551,
+    "w": 42,
+    "h": 11
+   },
+   {
+    "x": 296,
+    "y": 1585,
+    "w": 848,
+    "h": 40
+   },
+   {
+    "x": 291,
+    "y": 1671,
+    "w": 858,
+    "h": 18
+   },
+   {
+    "x": 320,
+    "y": 1698,
+    "w": 799,
+    "h": 18
+   },
+   {
+    "x": 410,
+    "y": 1725,
+    "w": 621,
+    "h": 18
+   },
+   {
+    "x": 455,
+    "y": 2315,
+    "w": 530,
+    "h": 13
+   },
+   {
+    "x": 590,
+    "y": 2572,
+    "w": 260,
+    "h": 40
+   },
+   {
+    "x": 292,
+    "y": 2658,
+    "w": 856,
+    "h": 18
+   },
+   {
+    "x": 296,
+    "y": 2685,
+    "w": 848,
+    "h": 18
+   },
+   {
+    "x": 391,
+    "y": 2712,
+    "w": 658,
+    "h": 18
+   },
+   {
+    "x": 382,
+    "y": 3341,
+    "w": 676,
+    "h": 40
+   },
+   {
+    "x": 300,
+    "y": 3427,
+    "w": 840,
+    "h": 18
+   },
+   {
+    "x": 323,
+    "y": 3454,
+    "w": 794,
+    "h": 18
+   },
+   {
+    "x": 295,
+    "y": 3481,
+    "w": 850,
+    "h": 18
+   },
+   {
+    "x": 669,
+    "y": 3508,
+    "w": 101,
+    "h": 18
+   },
+   {
+    "x": 657,
+    "y": 4055,
+    "w": 126,
+    "h": 13
+   },
+   {
+    "x": 643,
+    "y": 4312,
+    "w": 155,
+    "h": 11
+   },
+   {
+    "x": 292,
+    "y": 4346,
+    "w": 856,
+    "h": 40
+   },
+   {
+    "x": 595,
+    "y": 4389,
+    "w": 249,
+    "h": 40
+   },
+   {
+    "x": 291,
+    "y": 4476,
+    "w": 858,
+    "h": 18
+   },
+   {
+    "x": 304,
+    "y": 4503,
+    "w": 833,
+    "h": 18
+   },
+   {
+    "x": 554,
+    "y": 4530,
+    "w": 332,
+    "h": 18
+   },
+   {
+    "x": 627,
+    "y": 4726,
+    "w": 339,
+    "h": 32
+   },
+   {
+    "x": 627,
+    "y": 4803,
+    "w": 632,
+    "h": 16
+   },
+   {
+    "x": 627,
+    "y": 4826,
+    "w": 595,
+    "h": 16
+   },
+   {
+    "x": 627,
+    "y": 4850,
+    "w": 620,
+    "h": 16
+   },
+   {
+    "x": 627,
+    "y": 4874,
+    "w": 586,
+    "h": 16
+   },
+   {
+    "x": 627,
+    "y": 4898,
+    "w": 527,
+    "h": 16
+   },
+   {
+    "x": 545,
+    "y": 5051,
+    "w": 350,
+    "h": 22
+   },
+   {
+    "x": 651,
+    "y": 5560,
+    "w": 138,
+    "h": 13
+   },
+   {
+    "x": 464,
+    "y": 5684,
+    "w": 512,
+    "h": 22
+   },
+   {
+    "x": 651,
+    "y": 6233,
+    "w": 138,
+    "h": 13
+   },
+   {
+    "x": 344,
+    "y": 6351,
+    "w": 753,
+    "h": 22
+   },
+   {
+    "x": 651,
+    "y": 6901,
+    "w": 138,
+    "h": 13
+   },
+   {
+    "x": 627,
+    "y": 7090,
+    "w": 379,
+    "h": 32
+   },
+   {
+    "x": 627,
+    "y": 7167,
+    "w": 613,
+    "h": 16
+   },
+   {
+    "x": 627,
+    "y": 7190,
+    "w": 579,
+    "h": 16
+   },
+   {
+    "x": 627,
+    "y": 7214,
+    "w": 434,
+    "h": 16
+   },
+   {
+    "x": 602,
+    "y": 7389,
+    "w": 237,
+    "h": 22
+   },
+   {
+    "x": 322,
+    "y": 7457,
+    "w": 796,
+    "h": 18
+   },
+   {
+    "x": 598,
+    "y": 7484,
+    "w": 243,
+    "h": 18
+   },
+   {
+    "x": 483,
+    "y": 8013,
+    "w": 474,
+    "h": 22
+   },
+   {
+    "x": 300,
+    "y": 8081,
+    "w": 840,
+    "h": 18
+   },
+   {
+    "x": 559,
+    "y": 8108,
+    "w": 323,
+    "h": 18
+   },
+   {
+    "x": 639,
+    "y": 8857,
+    "w": 162,
+    "h": 11
+   },
+   {
+    "x": 498,
+    "y": 8891,
+    "w": 443,
+    "h": 40
+   },
+   {
+    "x": 329,
+    "y": 8977,
+    "w": 781,
+    "h": 18
+   },
+   {
+    "x": 671,
+    "y": 9004,
+    "w": 98,
+    "h": 18
+   },
+   {
+    "x": 627,
+    "y": 9200,
+    "w": 120,
+    "h": 32
+   },
+   {
+    "x": 627,
+    "y": 9277,
+    "w": 624,
+    "h": 16
+   },
+   {
+    "x": 627,
+    "y": 9301,
+    "w": 600,
+    "h": 16
+   },
+   {
+    "x": 627,
+    "y": 9325,
+    "w": 636,
+    "h": 16
+   },
+   {
+    "x": 627,
+    "y": 9348,
+    "w": 610,
+    "h": 16
+   },
+   {
+    "x": 627,
+    "y": 9372,
+    "w": 564,
+    "h": 16
+   },
+   {
+    "x": 627,
+    "y": 9396,
+    "w": 387,
+    "h": 16
+   },
+   {
+    "x": 651,
+    "y": 10072,
+    "w": 138,
+    "h": 13
+   },
+   {
+    "x": 219,
+    "y": 10482,
+    "w": 100,
+    "h": 27
+   },
+   {
+    "x": 210,
+    "y": 10513,
+    "w": 118,
+    "h": 27
+   },
+   {
+    "x": 189,
+    "y": 10554,
+    "w": 160,
+    "h": 16
+   },
+   {
+    "x": 185,
+    "y": 10577,
+    "w": 168,
+    "h": 16
+   },
+   {
+    "x": 193,
+    "y": 10601,
+    "w": 153,
+    "h": 16
+   },
+   {
+    "x": 199,
+    "y": 10625,
+    "w": 140,
+    "h": 16
+   },
+   {
+    "x": 193,
+    "y": 10649,
+    "w": 153,
+    "h": 16
+   },
+   {
+    "x": 212,
+    "y": 10673,
+    "w": 113,
+    "h": 16
+   },
+   {
+    "x": 195,
+    "y": 10696,
+    "w": 147,
+    "h": 16
+   },
+   {
+    "x": 179,
+    "y": 10720,
+    "w": 181,
+    "h": 16
+   },
+   {
+    "x": 190,
+    "y": 10744,
+    "w": 158,
+    "h": 16
+   },
+   {
+    "x": 232,
+    "y": 10768,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 498,
+    "y": 10482,
+    "w": 144,
+    "h": 27
+   },
+   {
+    "x": 493,
+    "y": 10546,
+    "w": 153,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 10570,
+    "w": 109,
+    "h": 16
+   },
+   {
+    "x": 478,
+    "y": 10594,
+    "w": 184,
+    "h": 16
+   },
+   {
+    "x": 487,
+    "y": 10618,
+    "w": 166,
+    "h": 16
+   },
+   {
+    "x": 502,
+    "y": 10641,
+    "w": 136,
+    "h": 16
+   },
+   {
+    "x": 481,
+    "y": 10665,
+    "w": 178,
+    "h": 16
+   },
+   {
+    "x": 478,
+    "y": 10689,
+    "w": 183,
+    "h": 16
+   },
+   {
+    "x": 505,
+    "y": 10713,
+    "w": 128,
+    "h": 16
+   },
+   {
+    "x": 504,
+    "y": 10737,
+    "w": 132,
+    "h": 16
+   },
+   {
+    "x": 800,
+    "y": 10482,
+    "w": 141,
+    "h": 27
+   },
+   {
+    "x": 797,
+    "y": 10546,
+    "w": 147,
+    "h": 16
+   },
+   {
+    "x": 796,
+    "y": 10570,
+    "w": 149,
+    "h": 16
+   },
+   {
+    "x": 779,
+    "y": 10594,
+    "w": 182,
+    "h": 16
+   },
+   {
+    "x": 814,
+    "y": 10618,
+    "w": 112,
+    "h": 16
+   },
+   {
+    "x": 783,
+    "y": 10641,
+    "w": 175,
+    "h": 16
+   },
+   {
+    "x": 782,
+    "y": 10665,
+    "w": 176,
+    "h": 16
+   },
+   {
+    "x": 779,
+    "y": 10689,
+    "w": 182,
+    "h": 16
+   },
+   {
+    "x": 1129,
+    "y": 10482,
+    "w": 84,
+    "h": 27
+   },
+   {
+    "x": 1091,
+    "y": 10546,
+    "w": 160,
+    "h": 16
+   },
+   {
+    "x": 1095,
+    "y": 10570,
+    "w": 151,
+    "h": 16
+   },
+   {
+    "x": 1095,
+    "y": 10594,
+    "w": 153,
+    "h": 16
+   },
+   {
+    "x": 1093,
+    "y": 10618,
+    "w": 157,
+    "h": 16
+   },
+   {
+    "x": 1103,
+    "y": 10641,
+    "w": 135,
+    "h": 16
+   },
+   {
+    "x": 1092,
+    "y": 10665,
+    "w": 158,
+    "h": 16
+   },
+   {
+    "x": 1090,
+    "y": 10689,
+    "w": 162,
+    "h": 16
+   },
+   {
+    "x": 1088,
+    "y": 10713,
+    "w": 166,
+    "h": 16
+   },
+   {
+    "x": 1090,
+    "y": 10737,
+    "w": 162,
+    "h": 16
+   },
+   {
+    "x": 1140,
+    "y": 10760,
+    "w": 63,
+    "h": 16
+   },
+   {
+    "x": 1087,
+    "y": 10784,
+    "w": 169,
+    "h": 16
+   },
+   {
+    "x": 1128,
+    "y": 10808,
+    "w": 87,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 11146,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 11193,
+    "w": 103,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 11238,
+    "w": 45,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 11283,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 11328,
+    "w": 67,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 11146,
+    "w": 135,
+    "h": 16
+   },
+   {
+    "x": 402,
+    "y": 11193,
+    "w": 142,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 11238,
+    "w": 89,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 11255,
+    "w": 73,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 11300,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 11300,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 11345,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 11345,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 11193,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 11193,
+    "w": 69,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 11238,
+    "w": 127,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 11283,
+    "w": 121,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 11300,
+    "w": 85,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 11317,
+    "w": 39,
+    "h": 13
+   },
+   {
+    "x": 642,
+    "y": 11317,
+    "w": 51,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 11193,
+    "w": 157,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 11210,
+    "w": 36,
+    "h": 13
+   },
+   {
+    "x": 841,
+    "y": 11210,
+    "w": 64,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 11255,
+    "w": 154,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 11300,
+    "w": 147,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 11345,
+    "w": 130,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 11361,
+    "w": 128,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 11161,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 1112,
+    "y": 11241,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 11450,
+    "w": 81,
+    "h": 13
+   },
+   {
+    "x": 149,
+    "y": 11450,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 158,
+    "y": 11450,
+    "w": 136,
+    "h": 13
+   },
+   {
+    "x": 1296,
+    "y": 872,
+    "w": 124,
+    "h": 13
+   }
+  ],
+  "eds": [
+   {
+    "x": 1336,
+    "y": 7,
+    "w": 20,
+    "h": 13
+   },
+   {
+    "x": 486,
+    "y": 51,
+    "w": 63,
+    "h": 16
+   },
+   {
+    "x": 605,
+    "y": 51,
+    "w": 71,
+    "h": 16
+   },
+   {
+    "x": 733,
+    "y": 51,
+    "w": 111,
+    "h": 16
+   },
+   {
+    "x": 900,
+    "y": 51,
+    "w": 46,
+    "h": 16
+   },
+   {
+    "x": 1002,
+    "y": 51,
+    "w": 59,
+    "h": 16
+   },
+   {
+    "x": 1118,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1224,
+    "y": 51,
+    "w": 52,
+    "h": 16
+   },
+   {
+    "x": 193,
+    "y": 280,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 177,
+    "y": 317,
+    "w": 779,
+    "h": 71
+   },
+   {
+    "x": 177,
+    "y": 388,
+    "w": 711,
+    "h": 71
+   },
+   {
+    "x": 177,
+    "y": 458,
+    "w": 192,
+    "h": 71
+   },
+   {
+    "x": 289,
+    "y": 574,
+    "w": 506,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 601,
+    "w": 211,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 839,
+    "w": 144,
+    "h": 16
+   },
+   {
+    "x": 224,
+    "y": 839,
+    "w": 32,
+    "h": 16
+   },
+   {
+    "x": 296,
+    "y": 839,
+    "w": 99,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 839,
+    "w": 147,
+    "h": 16
+   },
+   {
+    "x": 622,
+    "y": 839,
+    "w": 136,
+    "h": 16
+   },
+   {
+    "x": 1295,
+    "y": 840,
+    "w": 56,
+    "h": 16
+   },
+   {
+    "x": 534,
+    "y": 985,
+    "w": 371,
+    "h": 40
+   },
+   {
+    "x": 316,
+    "y": 1071,
+    "w": 808,
+    "h": 18
+   },
+   {
+    "x": 296,
+    "y": 1098,
+    "w": 768,
+    "h": 18
+   },
+   {
+    "x": 1064,
+    "y": 1098,
+    "w": 80,
+    "h": 18
+   },
+   {
+    "x": 421,
+    "y": 1125,
+    "w": 47,
+    "h": 18
+   },
+   {
+    "x": 468,
+    "y": 1125,
+    "w": 40,
+    "h": 18
+   },
+   {
+    "x": 508,
+    "y": 1125,
+    "w": 246,
+    "h": 18
+   },
+   {
+    "x": 754,
+    "y": 1125,
+    "w": 182,
+    "h": 18
+   },
+   {
+    "x": 936,
+    "y": 1125,
+    "w": 79,
+    "h": 18
+   },
+   {
+    "x": 1014,
+    "y": 1125,
+    "w": 4,
+    "h": 18
+   },
+   {
+    "x": 290,
+    "y": 1194,
+    "w": 860,
+    "h": 18
+   },
+   {
+    "x": 387,
+    "y": 1221,
+    "w": 667,
+    "h": 18
+   },
+   {
+    "x": 292,
+    "y": 1260,
+    "w": 731,
+    "h": 18
+   },
+   {
+    "x": 1023,
+    "y": 1260,
+    "w": 37,
+    "h": 18
+   },
+   {
+    "x": 1065,
+    "y": 1260,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 696,
+    "y": 1287,
+    "w": 43,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1287,
+    "w": 4,
+    "h": 18
+   },
+   {
+    "x": 699,
+    "y": 1551,
+    "w": 41,
+    "h": 11
+   },
+   {
+    "x": 305,
+    "y": 1589,
+    "w": 831,
+    "h": 40
+   },
+   {
+    "x": 299,
+    "y": 1675,
+    "w": 842,
+    "h": 18
+   },
+   {
+    "x": 329,
+    "y": 1702,
+    "w": 782,
+    "h": 18
+   },
+   {
+    "x": 415,
+    "y": 1729,
+    "w": 609,
+    "h": 18
+   },
+   {
+    "x": 457,
+    "y": 2290,
+    "w": 525,
+    "h": 13
+   },
+   {
+    "x": 590,
+    "y": 2547,
+    "w": 260,
+    "h": 40
+   },
+   {
+    "x": 296,
+    "y": 2633,
+    "w": 849,
+    "h": 18
+   },
+   {
+    "x": 303,
+    "y": 2660,
+    "w": 835,
+    "h": 18
+   },
+   {
+    "x": 397,
+    "y": 2687,
+    "w": 645,
+    "h": 18
+   },
+   {
+    "x": 387,
+    "y": 3323,
+    "w": 666,
+    "h": 40
+   },
+   {
+    "x": 311,
+    "y": 3410,
+    "w": 819,
+    "h": 18
+   },
+   {
+    "x": 327,
+    "y": 3437,
+    "w": 785,
+    "h": 18
+   },
+   {
+    "x": 305,
+    "y": 3464,
+    "w": 829,
+    "h": 18
+   },
+   {
+    "x": 672,
+    "y": 3491,
+    "w": 96,
+    "h": 18
+   },
+   {
+    "x": 658,
+    "y": 4051,
+    "w": 124,
+    "h": 13
+   },
+   {
+    "x": 644,
+    "y": 4328,
+    "w": 151,
+    "h": 11
+   },
+   {
+    "x": 303,
+    "y": 4366,
+    "w": 834,
+    "h": 40
+   },
+   {
+    "x": 599,
+    "y": 4409,
+    "w": 241,
+    "h": 40
+   },
+   {
+    "x": 290,
+    "y": 4495,
+    "w": 860,
+    "h": 18
+   },
+   {
+    "x": 292,
+    "y": 4522,
+    "w": 856,
+    "h": 18
+   },
+   {
+    "x": 587,
+    "y": 4549,
+    "w": 265,
+    "h": 18
+   },
+   {
+    "x": 627,
+    "y": 4755,
+    "w": 327,
+    "h": 32
+   },
+   {
+    "x": 627,
+    "y": 4826,
+    "w": 632,
+    "h": 16
+   },
+   {
+    "x": 627,
+    "y": 4850,
+    "w": 567,
+    "h": 16
+   },
+   {
+    "x": 627,
+    "y": 4874,
+    "w": 603,
+    "h": 16
+   },
+   {
+    "x": 627,
+    "y": 4898,
+    "w": 575,
+    "h": 16
+   },
+   {
+    "x": 627,
+    "y": 4922,
+    "w": 513,
+    "h": 16
+   },
+   {
+    "x": 536,
+    "y": 5084,
+    "w": 368,
+    "h": 22
+   },
+   {
+    "x": 650,
+    "y": 5627,
+    "w": 141,
+    "h": 13
+   },
+   {
+    "x": 442,
+    "y": 5745,
+    "w": 556,
+    "h": 22
+   },
+   {
+    "x": 650,
+    "y": 6287,
+    "w": 141,
+    "h": 13
+   },
+   {
+    "x": 314,
+    "y": 6405,
+    "w": 811,
+    "h": 22
+   },
+   {
+    "x": 650,
+    "y": 6948,
+    "w": 141,
+    "h": 13
+   },
+   {
+    "x": 627,
+    "y": 7114,
+    "w": 376,
+    "h": 32
+   },
+   {
+    "x": 627,
+    "y": 7186,
+    "w": 634,
+    "h": 16
+   },
+   {
+    "x": 627,
+    "y": 7209,
+    "w": 614,
+    "h": 16
+   },
+   {
+    "x": 627,
+    "y": 7233,
+    "w": 352,
+    "h": 16
+   },
+   {
+    "x": 594,
+    "y": 7416,
+    "w": 251,
+    "h": 22
+   },
+   {
+    "x": 292,
+    "y": 7484,
+    "w": 857,
+    "h": 18
+   },
+   {
+    "x": 638,
+    "y": 7511,
+    "w": 164,
+    "h": 18
+   },
+   {
+    "x": 464,
+    "y": 8048,
+    "w": 512,
+    "h": 22
+   },
+   {
+    "x": 291,
+    "y": 8092,
+    "w": 858,
+    "h": 18
+   },
+   {
+    "x": 584,
+    "y": 8119,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 640,
+    "y": 8876,
+    "w": 161,
+    "h": 11
+   },
+   {
+    "x": 506,
+    "y": 8914,
+    "w": 429,
+    "h": 40
+   },
+   {
+    "x": 331,
+    "y": 9000,
+    "w": 778,
+    "h": 18
+   },
+   {
+    "x": 674,
+    "y": 9027,
+    "w": 92,
+    "h": 18
+   },
+   {
+    "x": 627,
+    "y": 9233,
+    "w": 117,
+    "h": 32
+   },
+   {
+    "x": 627,
+    "y": 9304,
+    "w": 631,
+    "h": 16
+   },
+   {
+    "x": 627,
+    "y": 9328,
+    "w": 626,
+    "h": 16
+   },
+   {
+    "x": 627,
+    "y": 9352,
+    "w": 578,
+    "h": 16
+   },
+   {
+    "x": 627,
+    "y": 9376,
+    "w": 605,
+    "h": 16
+   },
+   {
+    "x": 627,
+    "y": 9399,
+    "w": 558,
+    "h": 16
+   },
+   {
+    "x": 627,
+    "y": 9423,
+    "w": 383,
+    "h": 16
+   },
+   {
+    "x": 650,
+    "y": 10110,
+    "w": 141,
+    "h": 13
+   },
+   {
+    "x": 219,
+    "y": 10516,
+    "w": 101,
+    "h": 27
+   },
+   {
+    "x": 211,
+    "y": 10542,
+    "w": 115,
+    "h": 27
+   },
+   {
+    "x": 189,
+    "y": 10589,
+    "w": 160,
+    "h": 16
+   },
+   {
+    "x": 185,
+    "y": 10613,
+    "w": 169,
+    "h": 16
+   },
+   {
+    "x": 178,
+    "y": 10636,
+    "w": 183,
+    "h": 16
+   },
+   {
+    "x": 216,
+    "y": 10660,
+    "w": 107,
+    "h": 16
+   },
+   {
+    "x": 191,
+    "y": 10684,
+    "w": 156,
+    "h": 16
+   },
+   {
+    "x": 212,
+    "y": 10708,
+    "w": 115,
+    "h": 16
+   },
+   {
+    "x": 196,
+    "y": 10732,
+    "w": 145,
+    "h": 16
+   },
+   {
+    "x": 179,
+    "y": 10755,
+    "w": 181,
+    "h": 16
+   },
+   {
+    "x": 190,
+    "y": 10779,
+    "w": 158,
+    "h": 16
+   },
+   {
+    "x": 233,
+    "y": 10803,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 498,
+    "y": 10516,
+    "w": 143,
+    "h": 27
+   },
+   {
+    "x": 492,
+    "y": 10564,
+    "w": 155,
+    "h": 16
+   },
+   {
+    "x": 516,
+    "y": 10587,
+    "w": 108,
+    "h": 16
+   },
+   {
+    "x": 479,
+    "y": 10611,
+    "w": 181,
+    "h": 16
+   },
+   {
+    "x": 485,
+    "y": 10635,
+    "w": 170,
+    "h": 16
+   },
+   {
+    "x": 502,
+    "y": 10659,
+    "w": 136,
+    "h": 16
+   },
+   {
+    "x": 481,
+    "y": 10683,
+    "w": 177,
+    "h": 16
+   },
+   {
+    "x": 478,
+    "y": 10706,
+    "w": 183,
+    "h": 16
+   },
+   {
+    "x": 506,
+    "y": 10730,
+    "w": 127,
+    "h": 16
+   },
+   {
+    "x": 503,
+    "y": 10754,
+    "w": 133,
+    "h": 16
+   },
+   {
+    "x": 801,
+    "y": 10516,
+    "w": 138,
+    "h": 27
+   },
+   {
+    "x": 795,
+    "y": 10564,
+    "w": 151,
+    "h": 16
+   },
+   {
+    "x": 797,
+    "y": 10587,
+    "w": 146,
+    "h": 16
+   },
+   {
+    "x": 779,
+    "y": 10611,
+    "w": 183,
+    "h": 16
+   },
+   {
+    "x": 813,
+    "y": 10635,
+    "w": 114,
+    "h": 16
+   },
+   {
+    "x": 783,
+    "y": 10659,
+    "w": 175,
+    "h": 16
+   },
+   {
+    "x": 782,
+    "y": 10683,
+    "w": 176,
+    "h": 16
+   },
+   {
+    "x": 779,
+    "y": 10706,
+    "w": 183,
+    "h": 16
+   },
+   {
+    "x": 1130,
+    "y": 10516,
+    "w": 81,
+    "h": 27
+   },
+   {
+    "x": 1089,
+    "y": 10564,
+    "w": 163,
+    "h": 16
+   },
+   {
+    "x": 1096,
+    "y": 10587,
+    "w": 150,
+    "h": 16
+   },
+   {
+    "x": 1095,
+    "y": 10611,
+    "w": 151,
+    "h": 16
+   },
+   {
+    "x": 1093,
+    "y": 10635,
+    "w": 157,
+    "h": 16
+   },
+   {
+    "x": 1101,
+    "y": 10659,
+    "w": 140,
+    "h": 16
+   },
+   {
+    "x": 1090,
+    "y": 10683,
+    "w": 162,
+    "h": 16
+   },
+   {
+    "x": 1090,
+    "y": 10706,
+    "w": 161,
+    "h": 16
+   },
+   {
+    "x": 1089,
+    "y": 10730,
+    "w": 164,
+    "h": 16
+   },
+   {
+    "x": 1090,
+    "y": 10754,
+    "w": 161,
+    "h": 16
+   },
+   {
+    "x": 1139,
+    "y": 10778,
+    "w": 63,
+    "h": 16
+   },
+   {
+    "x": 1085,
+    "y": 10802,
+    "w": 171,
+    "h": 16
+   },
+   {
+    "x": 1127,
+    "y": 10825,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 11006,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 11055,
+    "w": 102,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 11100,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 11144,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 11189,
+    "w": 66,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 11006,
+    "w": 135,
+    "h": 18
+   },
+   {
+    "x": 402,
+    "y": 11055,
+    "w": 145,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 11100,
+    "w": 88,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 11116,
+    "w": 71,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 11161,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 11161,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 11206,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 11206,
+    "w": 58,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 11055,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 11055,
+    "w": 68,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 11100,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 11144,
+    "w": 120,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 11161,
+    "w": 83,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 11178,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 643,
+    "y": 11178,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 11055,
+    "w": 156,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 11072,
+    "w": 41,
+    "h": 13
+   },
+   {
+    "x": 845,
+    "y": 11072,
+    "w": 65,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 11116,
+    "w": 153,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 11161,
+    "w": 143,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 11206,
+    "w": 132,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 11223,
+    "w": 126,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 11021,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 1112,
+    "y": 11101,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 11311,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 152,
+    "y": 11311,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 160,
+    "y": 11311,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 1298,
+    "y": 871,
+    "w": 122,
+    "h": 16
+   }
+  ]
+ }
+}

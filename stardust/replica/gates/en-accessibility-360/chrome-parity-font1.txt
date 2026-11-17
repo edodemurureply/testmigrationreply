@@ -1,0 +1,34 @@
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.reply.com/en/accessibility (live side from cache stardust/replica/gates/en-accessibility-360/chrome-live.json, probed 2026-11-15T09:53:36.122Z — delete the file to re-probe)
+  build: http://localhost:8791/en-accessibility-proposed.html
+
+■ header: ✓ parity — 0 paired of 0/0 texts, 3/3 icons
+
+■ footer: 24 delta(s) — 25 paired of 25/25 texts, 7/7 icons
+  OFFSET       the region and its 1 paired text(s) sit Δy +27px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+  PAIR         "We are"  Δy +27px (1833→1860); Δw -4px (64→60)
+  PAIR         "Company Profile"  Δy +27px (1881→1908); Δw +3px (103→106)
+  PAIR         "Investors"  Δy +27px (1954→1981); Δw +5px (55→60)
+  PAIR         "Newsroom"  Δy +27px (1991→2018); Δw +3px (67→70)
+  PAIR         "Privacy & legal"  Δy +27px (2048→2075); Δw -10px (135→125)
+  PAIR         "Privacy & Cookie Policy"  Δy +27px (2095→2122); Δw +10px (142→152)
+  PAIR         "Privacy Notice"  Δy +27px (2132→2159); Δw +7px (165→172)
+  PAIR         "(Candidate)"  Δx +5px (132→137); Δy +27px (2133→2160); Δw +2px (73→75); <a> box 165×17 → 172×17
+  PAIR         "Privacy Notice"  Δy +27px (2169→2196); Δw +8px (135→143)
+  PAIR         "(Client)"  Δx +5px (132→137); Δy +27px (2170→2197); Δw +3px (43→46); <a> box 135×17 → 143×17
+  PAIR         "Privacy Notice"  Δy +27px (2206→2233); Δw +9px (149→158)
+  PAIR         "(Supplier)"  Δx +5px (132→137); Δy +27px (2207→2234); Δw +5px (57→62); <a> box 149×17 → 158×17
+  PAIR         "Privacy Notice"  Δy +27px (2243→2270); Δw +9px (161→170)
+  PAIR         "(Marketing)"  Δx +5px (132→137); Δy +27px (2244→2271); Δw +4px (69→73); <a> box 161×17 → 170×17
+  PAIR         "CCPA Privacy Notice"  Δy +27px (2279→2306); Δw +8px (127→135)
+  PAIR         "Modern Slavery Act Transparency Policy"  Δy +27px (2316→2343); Δw +9px (208→217)
+  PAIR         "(UK & IR)"  Δx +3px (79→82); Δy +27px (2334→2361); Δw +7px (51→58); <a> box 208×34 → 217×34
+  PAIR         "Declaration of Principles - LKSG"  Δy +27px (2370→2397); Δw +15px (261→276)
+  PAIR         "(Germany)"  Δx +12px (236→248); Δy +27px (2371→2398); Δw +4px (64→68); <a> box 261×17 → 276×17
+  PAIR         "Approach to UK Taxation"  Δy +27px (2407→2434); Δw +6px (154→160)
+  PAIR         "Accessibility Statement"  Δy +27px (2443→2470); Δw +6px (147→153)
+  PAIR         "Do Not Sell/Share My Personal Informatio"  Δy +27px (2480→2507); Δw +11px (261→272)
+  PAIR         "Careers"  Δy +27px (2551→2578); Δw -5px (73→68)
+  PAIR         "Contacts"  Δy +27px (2655→2682); Δw -10px (88→78)
+
+✗ 24 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

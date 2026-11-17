@@ -1,0 +1,62 @@
+{
+ "index": {
+  "verdict": "instrument",
+  "reason": "content HIDDEN = carousel peek cards clipped by the rail viewport on BOTH sides: origin.items and eds.items of content.json both carry the same four hidden peek links (highlights x -264 / 344 y 700: unipol, bmw; latest insights x -264 / 344 y 5209); content-presence drops the origin's hidden items before diffing and counts the served ones, so the identical clipped peeks read HIDDEN only on delivery. Pixel, height and clip pass; MISSING 0 (fix-small-2, 2026-11-16)"
+ },
+ "en": {
+  "verdict": "instrument",
+  "reason": "content HIDDEN = carousel peek cards clipped by the rail viewport on BOTH sides: origin.items and eds.items of content.json both carry the same four hidden peek links (highlights x -264 / 344 y 700: unipol, bmw; latest insights x -264 / 344 y 5209); content-presence drops the origin's hidden items before diffing and counts the served ones, so the identical clipped peeks read HIDDEN only on delivery. Pixel, height and clip pass; MISSING 0 (fix-small-2, 2026-11-16)"
+ },
+ "en-christmas": {
+  "verdict": "instrument",
+  "reason": "content HIDDEN = carousel peek cards clipped by the rail viewport on BOTH sides (origin.items carry the same hidden peek links: nft x -225/-264 y 367, ai-enhanced x -264 and new era x 344 y 5513; the 12:3x run had all four identical); content-presence drops the origin hidden items and counts the served ones. MISSING 0, pixel 7 % (hero video masked), Δh -21, clip 5 within the source-faithful allowance (fix-small-2, 2026-11-16)"
+ },
+ "4brands-reply-de-agentic-ai-rgm": {
+  "verdict": "instrument",
+  "reason": "content HIDDEN 2 = the autoplay related rail (card-carousel simple autoplay) caught at a different slide position: same 5 cards in the same order on both sides, the right-hand peek card \"Data & AI für Konsumgüter\" sits 192 px (origin) vs 235 px (delivery) into the 360 viewport and reads clipped only on delivery. Instrument stardust/.work/rollout/fix-brand-solution-4/slide-log.mjs (sl-agr-*-360.json) replaying the probe visit: the LIVE rail itself slides at a run-dependent time (run A 15:xx: slide at 5.7 s, none at 16 s; run B 21:0x: none at 5 s, slide at 16.2 s) with hover pauses, so the captured offset is timing only. Pixel 9.41 % and height pass; MISSING 0 (fix-brand-solution-4, 2026-11-16)"
+ },
+ "4brands-reply-de-customer-experience-management": {
+  "verdict": "instrument",
+  "reason": "content HIDDEN 2 = the autoplay related rail caught mid-slide on delivery (cards at x -61/243) vs at rest on origin (-138/166): Instrument stardust/.work/rollout/fix-small-5/tl-cem.log (fix-small-4/probe-settle.mjs: rail timeline under the gate's visit+settle, live then delivery, same minute) shows the same card sequence (VisionGallery, AI Voice Assistant, Reply Routes, Intelligente Produktempfehlung) at the same rest x 72 with the same 5 s steps and 1 s slide on both sides; the phase differs only by the parked-mouse hover pause (live 3rd slide 18.5 s, delivered 16.0 s). Pixel 6.34 %, height pass (fix-small-5, 2026-11-16)"
+ },
+ "4brands-reply-de-sap-ccm": {
+  "verdict": "instrument",
+  "reason": "content MISSING 1 / HIDDEN 2 = the autoplay related rail caught at a different phase: origin at x -121/183, delivery mid-slide at -53/251, so the right card is clipped past 50 % and the left card's 'Offering' label (link text) is cut at x<0 on origin only (live card does carry the Offering label, see fix-small-4/live-sapccm.html); Instrument stardust/.work/rollout/fix-small-5/tl-sapccm360-cce1440-fin1440.log (fix-small-4/probe-settle.mjs: rail timeline under the gate's visit+settle, live then delivery, same minute): same card order (Agentic AI RGM, SAP Finance, From Dashboard..., Revenue Growth Management), same rest x 72, 5 s steps on both sides, phase shifted only by the hover pause. Pixel 9.41 %, height pass (fix-small-5, 2026-11-16)"
+ },
+ "4brands-reply-de-customer-and-consumer-engagement": {
+  "verdict": "instrument",
+  "reason": "content MISSING 2 = the autoplay related rail (card-carousel simple autoplay) captured one slide apart: the origin probe holds 'Mehr Wirkung im FMCG-Marketing mit der Composable CDP' in view, delivery the next card 'Intelligente Produktempfehlung' (+ 'Bitburger schafft...' peek) - Instrument stardust/.work/rollout/fix-small-5/tl-cce-360.log (fix-small-4/probe-settle.mjs, live then delivery, same minute): same card sequence (Gerolsteiner, Bitburger: Gamification, Mehr Wirkung, Intelligente Produktempfehlung), same rest x 72, first slide at ~5.7 s on both sides, 5 s steps; later steps drift only with the parked-mouse hover pause (live 3rd card at 11.4 s / 4th at 19.4 s, delivered 11.4 s / 16.8 s). Pixel 4.9 %, height pass (fix-small-5, 2026-11-16)"
+ },
+ "en-automotive-and-manufacturing": {
+  "verdict": "timing",
+  "reason": "content = rail phase only: the expertise slider-with-title rail (live data-autoplay 5000 ms, infinite) sits one item apart in the probe (origin software defined vehicle x40, served x-260 = the next slot) and the our-assets labs rail was caught mid-slide on the served side (brick reply x-90 | axulus 210 vs origin brick cognitive x60) — the stitched captures of the same run show both assets rails on Brick Cognitive at the same x (eds.png / origin.png y 8190-8400) and the same card order; pixel 4.15 %, dh -32, clip 0 (run 2026-11-16T22-41-22; run 2026-11-16T23-34-38: HIDDEN 1 = the same software defined vehicle slot, pixel 4.15 %) (fix-hub-g, 2026-11-16)"
+ },
+ "en-ai-powered-software-engineering": {
+  "verdict": "timing",
+  "reason": "content = rail phase only: the AI agents rail (live slider-with-title-runtime data-infinite) was probed on item 1 on the origin (rethink software development x73) while the stitched origin.png of the same run shows item 2 (embed ai in your architecture) as the served side does — same 3 items, same order; the our-expertise card-carousel scale autoplay rail was caught mid-slide on both sides (origin agentic ai x-95 | ai change request assistant 209, served x-17 | 287: same cards, same order, 304 px pitch), so the second card reads HIDDEN. Pixel 3.28 % (hero DAM video masked), dh 0, clip 0 (run 2026-11-16T22-50-31; run 2026-11-16T23-34-38 reproduces the agents-rail reading — MISSING 2, HIDDEN 0, pixel 3.28 %, dh 0) (fix-hub-g, 2026-11-16)"
+ },
+ "en-aws": {
+  "verdict": "timing",
+  "reason": "content = autoplay timing only: the 'Focus on Reply Companies' rail (slider-with-title autoplay infinite) holds the same 7 company cards in the same order on both sides and opens at the same phase at the same probe time (fix-hub-i mev hj probe p5 @360: live Storm -860 / Airwalk -560 / Comsysto -260 / Concept 40 / Data 340 ..., delivered Airwalk -560 / Comsysto -260 / Concept 40 ...); the one 'discover more' (AWS competencies) is the marquee awards rail (continuous scroll, same 15 cards both sides, 240 px pitch in the p1 probe) at another offset; in the gate capture the live company rail had advanced further, so the next company's heading / links read MISSING and the rail buttons differ by label only. Pixel 9.63 %, dh 68 (0.6 %), clip 0 (fix-hub-i, 2026-11-17)"
+ },
+ "en-3d-and-mixed-reality": {
+  "verdict": "timing",
+  "reason": "content MISSING 2 = the 'Our assets' labs scale autoplay rail caught at another step: origin on 'VTO - Virtual Try on' (step 4), served on 'Virtual Interactive Showroom' (step 2) - same 7 cards in the same order (AI Product Discovery, Smart Maintenance, Virtual Interactive Showroom, 3D Platform, VTO, ARIA, Roboverse). Instrument stardust/.work/rollout/fix-hub-k/tl-3d-da-360.log (fix-small-4/probe-settle.mjs under the gate's visit+settle, live then delivery, same minute): the live clock runs from load with ~5 s steps stretched by hover pauses (5.6 / 10.6 / 18.4 / 27.7 s), the delivered inview clock starts when the rail enters the viewport (28.8 / 37.9 s) - the inview clock was chosen at 1440 where a load clock ran 5 steps vs live 3 (fix-hub-h). Pixel 9.67 % (Say Hello DAM video masked), dh 2, clip 1 within the source-faithful allowance (fix-hub-k, 2026-11-17)"
+ },
+ "en-digital-experience": {
+  "verdict": "timing",
+  "reason": "content MISSING 2 = the 'Best practice and insights' card-carousel simple autoplay rail caught one card apart: the origin's card in view varies run to run (run 04:57 'Reply AI Challenges', run 05:07 'Total Search Marketing', run 05:25 'AI for Creativity'), served 'Digital Experience Trends 2025' - same 9 cards in the same order. Instrument stardust/.work/rollout/fix-hub-k/tl-dx-360.log (fix-small-4/probe-settle.mjs under the gate's visit+settle, live then delivery, same minute): identical sequence (Total Search Marketing, Reply AI Challenges, What is GEO, The new search, Digital Experience Trends 2025, How does AI sound, Digital accessibility, AI for Creativity) at the same rest x 72 with 5 s steps and a 1 s slide on both sides; the phase drifts only with the hover pauses of the settle scroll (live 7th card at 33.1 s, delivered 31.2 s). Pixel 6.98 / 6.97 / 7.23 % (two DAM videos masked), dh -7, clip 0 (fix-hub-k, 2026-11-17)"
+ },
+ "en-gaming": {
+  "verdict": "timing",
+  "reason": "content = third-party feed phase only: the Reply Totem social wall (live Flockler carousel_v2, delivered social-wall with the same 12 posts in the live feed order) opens at a different card on every live capture (1440 origin captures 03:58 vs 04:37: post 1975249140062806323 author link x 19 vs 128; 360 origin 04:21 shows post 1971157251361734946 first). The one HIDDEN item is that post's X badge, present in the delivered DOM on its card one rail position away; the live 'play' / popup buttons are Flockler widget controls. Pixel 8.59 %, dh 9 (0.08 %), clip 0 (fix-hub-l, 2026-11-17)"
+ },
+ "en-ethical-ai-shaping-the-future-of-responsible-innovation": {
+  "verdict": "timing",
+  "reason": "content MISSING 1 = autoplay rail phase only: the collaborate flip-tile rail (live cardcarousel-runtime, data-infinite true, data-carousel-autoplay true) steps every ~5 s at 360 — timeline stardust/.work/rollout/fix-editorial-6/tl-ethical-360.log (fix-small-4/probe-settle.mjs under the gate visit+settle, live then served, 2026-11-17 05:50-05:51): live Quarterly meetings -> Member-driven agenda -> Collaborative decision framework -> Dedicated workstream 1 -> 2, the served rail rests at Quarterly meetings with the same 7 tiles in the same order. The gate origin capture caught phase \"dedicated workstream 2\" at x 60 y 5181 (content.json origin.items) while the served h3 at x 60 y 5173 is \"quarterly meetings\" (the EXTRA HEADING finding); every rail heading is present in the served DOM. Pixel 8.44 % and Δh -2 pass (fix-editorial-7, 2026-11-17; same basis as the 1440 entry)"
+ },
+ "en-cloud-computing": {
+  "verdict": "timing",
+  "reason": "content = autoplay timing only: the 'Technology' rail (slider-with-title autoplay infinite, live data-infinite slider) holds the same 4 items (Cloud Native Architecture, Cloud Automation, Observability, Security & Compliance) in the same order on both sides; each side is probed at another rail phase, so the one heading in the viewport slot differs (360 06:19 gate: origin h3 'Security & Compliance' at y 6019, delivered 'Cloud Native Architecture' at y 6020 = MISSING 1 + EXTRA 1; fix-hub-m mev probe 06:07: live 'Cloud Native Architecture' peeking at x 340 y 6019 while delivered holds it at x 40; 360 05:25 gate (fix-hub-l): live item 4 at x 40, delivered item 1) — same evidence basis as the 1440 entry. Pixel 5.46 %, dh 8, clip 0 at 06:19 (fix-hub-m, 2026-11-17)"
+ }
+}

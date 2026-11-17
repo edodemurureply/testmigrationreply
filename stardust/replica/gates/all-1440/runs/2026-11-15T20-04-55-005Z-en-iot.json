@@ -1,0 +1,119 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-15T20:04:55.005Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.reply.com",
+    "eds": "https://main--a355dc1b--aemcoder.aem.page",
+    "edsHostOverride": "https://main--a355dc1b--aemcoder.aem.page",
+    "only": [
+      "en-iot"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 0,
+    "overridePass": 0,
+    "fail": 1,
+    "error": 0,
+    "failPixel": 1,
+    "failHeight": 0,
+    "failClip": 1,
+    "failContent": 1,
+    "failUnits": 0,
+    "fontsNotLoaded": 1,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "en-iot",
+      "path": "/en/iot",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 13.78,
+      "textPct": 20.11,
+      "heightDelta": -20,
+      "originH": 7284,
+      "edsH": 7304,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 1,
+      "clipPass": false,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": false,
+      "fontsNotLoaded": [
+        "khanqyjjei-fallback",
+        "tuqgwxsjgq-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 13.78% > 10%",
+        "clipped 1 (text 0, controls 1)",
+        "content MISSING 3 / HIDDEN 0",
+        "font-not-loaded:khanqyjjei-fallback",
+        "font-not-loaded:tuqgwxsjgq-fallback"
+      ],
+      "clipGroups": [
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#ai-powered-digital-twins-for-maintenance-anomaly-detection-and-productivity",
+          "path": "div.reply-card-body > div.reply-card-title > h3#ai-powered-digital-twins-for-maintenance-anomaly-detection-and-productivity > a",
+          "text": "ai-powered digital twins for maintenance, anomaly detection ",
+          "cutMin": 24,
+          "cutMax": 24
+        }
+      ],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 3,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 3,
+        "variable": []
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [
+        "1500-2000:19.5%",
+        "2000-2500:18.9%",
+        "3000-3500:36.1%",
+        "3500-4000:42.1%",
+        "7000-7284:16.2%"
+      ],
+      "error": null
+    }
+  ]
+}

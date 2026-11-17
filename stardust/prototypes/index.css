@@ -1,0 +1,91 @@
+/* index (page type: home) — section placement only; the modules (hero-slider, loop-carousel,
+   reply-card variants, cards-wall, rose-cta, btn-ghost) live in modules.css.
+   Values lifted from stardust/current/assets/css/pages/index.css (per-section hashed grids):
+   .hxwywxfrob (highlights), .lmkrppjzpp/.utmdpppyem/.kapbvushcs (we believe), .kqtxyjwczm / .zryyqrrnus
+   (featured cards), .pmgnkjvxlb/.saggpscqob (we make), .kjubgpbddo / .pextejogqy (walls),
+   .flbssrkcan/.exyxjnbdax (insights head), .okbqblcrwd (insights rail); type from styles-eca1f14e.css
+   (.text-icmzv, .text-ryqho, .text-default = h2 on khanqyjjei). Breakpoints 576 / 768 / 1024 / 1440. */
+.home{display:block;width:100%;background:#fff}
+.home-believe,.home-feature,.home-make,.home-wall{display:flow-root}
+
+/* highlights rail */
+.home-highlights{display:flow-root;padding:56px 0 60px;background:#fff}
+
+/* WE BELIEVE */
+.home-believe__grid{row-gap:2.5rem;margin-top:0;margin-bottom:40px}
+.home-believe__eyebrow{grid-column:1/3;grid-row:1/2;min-width:0}
+.home-believe__statements{grid-column:1/5;grid-row:2/3;min-width:0}
+.home-believe__statement{margin:0;color:var(--c-ink)}
+.home-eyebrow{margin:0;color:var(--c-slate);font-family:var(--font-label);font-size:14px;font-weight:300;line-height:140%;text-transform:uppercase}
+.home-eyebrow--make{line-height:27px;text-transform:none}
+.home-believe__eyebrow .home-eyebrow{white-space:nowrap} /* R-02: the expanded substitute runs wider than AlaskaExp; the live eyebrow sits on one line */
+
+/* featured banners (card-hero) */
+.home-feature__cell{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;min-width:0}
+.home-feature__cell>.reply-card{width:100%}
+.home-feature__grid--first{margin-top:24px;margin-bottom:56px}
+.home-feature__grid--second{margin-top:0;margin-bottom:56px}
+
+/* WE MAKE */
+.home-make__grid{margin-top:0;margin-bottom:32px}
+.home-make__text{grid-column:1/5;min-width:0}
+.home-make__title{margin:0;font-family:var(--font-text);font-size:28px;font-weight:500;line-height:120%}
+
+/* case-study walls */
+.home-wall__cell{grid-column:1/-1;min-width:0}
+.home-wall__grid--featured{margin-top:0;margin-bottom:56px}
+.home-wall__grid--main{margin-top:60px;margin-bottom:40px}
+
+/* Latest insights (dark band) */
+.home-insights-head{display:flow-root;background:#151f27}
+.home-insights-head__grid{margin-top:56px;margin-bottom:32px}
+.home-insights-head__row{grid-column:1/5;display:grid;grid-template-columns:3fr 1fr;align-items:center;min-width:0}
+.home-insights-head__title{grid-column:1/2;margin:0}
+.home-insights-head__cta{grid-column:2/3;display:flex;flex-wrap:wrap;align-content:center;justify-content:flex-end}
+.home-insights{display:flow-root;padding-bottom:56px;background:#151f27}
+.home-insights-head__btn--lg{display:none}  /* source concealable-content: one "View all" below lg, one from lg */
+
+@media (min-width:576px){
+  .home-wall__grid--featured{margin-bottom:0}
+}
+@media (min-width:768px){
+  .home-highlights{padding-top:88px}
+  .home-believe__grid{margin-bottom:88px}
+  .home-believe__statements{grid-column:1/9}
+  .home-feature__grid--first{margin-bottom:88px}
+  .home-make__grid{margin-bottom:36px}
+  .home-make__text{grid-column:1/9}
+  .home-make__title{font-size:36px}
+  .home-wall__grid--featured{margin-bottom:88px}
+  .home-insights-head__grid{margin-top:64px;margin-bottom:36px}
+  .home-insights-head__row{grid-column:1/9}
+}
+@media (min-width:1024px){
+  .home-believe__grid{margin-top:60px;margin-bottom:60px}
+  .home-believe__eyebrow{grid-column:2/4;padding-top:12px}
+  .home-believe__statements{grid-column:4/11;grid-row:1/2}
+  .home-make__grid{margin-top:46px}
+  .home-make__text{grid-column:2/10}
+  .home-insights-head__row{grid-column:2/12}
+  .home-insights-head__btn--sm{display:none}
+  .home-insights-head__btn--lg{display:inline-block}
+}
+@media (min-width:1440px){
+  .home-highlights{padding-top:120px}
+  .home-believe__grid{margin-top:50px;margin-bottom:70px}
+  .home-feature__grid--first{margin-top:66px}
+  .home-make__grid{margin-bottom:40px}
+  .home-make__text{padding-right:300px}
+  .home-make__title{font-size:42px}
+  .home-wall__grid--featured{margin-bottom:60px}
+  .home-wall__grid--main{margin-top:80px;margin-bottom:80px}
+  .home-insights-head__grid{margin-top:72px;margin-bottom:72px}
+  .home-insights{padding-bottom:120px}
+}
+
+/* R-02 metric compensation (measured, home scope): the Archivo substitute runs ~1-2 % narrower than
+   Alaska on these roles, flipping line breaks (360: 3 wall titles 2 vs 3 lines, the tallest statement
+   7 vs 8 lines). Tracking calibrated with measure.mjs against the live line counts (wall 62 titles,
+   featured 6, rails 21, statements 5 at 360 and 1440). */
+.home .t-h6{letter-spacing:.01em}
+.home .home-believe__statement{letter-spacing:.015em}

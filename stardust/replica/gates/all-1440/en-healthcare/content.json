@@ -1,0 +1,7785 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-17T04:05:45.484Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.reply.com/en/healthcare",
+  "at": "2026-11-17T04:05:21.081Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 7359,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-bottom.w-full > div.logo.flex > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "go to homepage",
+    "href": "/en"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 906,
+    "y": 28,
+    "w": 41,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 1225,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "custom-menu-runtime.header.flex > nav.header-bottom.w-full > button.hidden.lg:block",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.grid-bg__container.absolute > picture > img.grid-bg.w-full",
+    "x": 0,
+    "y": 49,
+    "w": 1440,
+    "h": 810,
+    "text": "",
+    "file": "11ce1d5e-05ef-44a5-bda9-5ad20b757889"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h1#N9wlX",
+    "x": 177,
+    "y": 374,
+    "w": 861,
+    "h": 141,
+    "level": 1,
+    "text": "government and healthcare"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h1#N9wlX > span.colors-1-gbfb",
+    "x": 177,
+    "y": 373,
+    "w": 573,
+    "h": 141,
+    "text": "Government and Healthcare"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 289,
+    "y": 932,
+    "w": 861,
+    "h": 202,
+    "text": "Innovation and transformation in Government and Healthcare to enable better outc"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.inline-block > div.hubspot-container > button.cursor-pointer.button",
+    "x": 644,
+    "y": 1174,
+    "w": 151,
+    "h": 48,
+    "text": "contact us"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.inline-block > div.hubspot-container > button.cursor-pointer.button",
+    "x": 644,
+    "y": 1174,
+    "w": 151,
+    "h": 48,
+    "label": "trigger",
+    "value": "contact us",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#sVzRH",
+    "x": 177,
+    "y": 1437,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "our capabilities"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h3#sVzRH > span.colors-1-gbfb",
+    "x": 177,
+    "y": 1438,
+    "w": 301,
+    "h": 40,
+    "text": "Our capabilities"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#of08D > a",
+    "x": -274,
+    "y": 1520,
+    "w": 298,
+    "h": 447,
+    "text": "digitisation",
+    "href": "/en/public-sector-capabilities"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": -274,
+    "y": 1520,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "a181fd37-5682-4989-a145-66192758ec48"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#UTLmE > a",
+    "x": 64,
+    "y": 1520,
+    "w": 298,
+    "h": 447,
+    "text": "critical national infrastructure",
+    "href": "/en/public-sector-capabilities"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 64,
+    "y": 1520,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "62fd6378-4163-43d9-ac14-9c28c5c18338"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": 96,
+    "y": 1883,
+    "w": 234,
+    "h": 52,
+    "level": 3,
+    "text": "critical national infrastructure"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#CffT1 > a",
+    "x": 402,
+    "y": 1520,
+    "w": 298,
+    "h": 447,
+    "text": "verification",
+    "href": "/en/public-sector-capabilities"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 402,
+    "y": 1520,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "0c065920-e7fb-46f4-9aaf-04f42a835bc0"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": 434,
+    "y": 1909,
+    "w": 234,
+    "h": 26,
+    "level": 3,
+    "text": "verification"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#QkUNH > a",
+    "x": 740,
+    "y": 1520,
+    "w": 298,
+    "h": 447,
+    "text": "managed services",
+    "href": "/en/public-sector-capabilities"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 740,
+    "y": 1520,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "a1d73b15-93eb-47aa-8894-8addf584648a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": 772,
+    "y": 1909,
+    "w": 234,
+    "h": 26,
+    "level": 3,
+    "text": "managed services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#c4wH4 > a",
+    "x": 1078,
+    "y": 1520,
+    "w": 298,
+    "h": 447,
+    "text": "data driven",
+    "href": "/en/public-sector-capabilities"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 1078,
+    "y": 1520,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "9541186c-8533-4999-aa6f-7f997b5e18ef"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": 1110,
+    "y": 1909,
+    "w": 234,
+    "h": 26,
+    "level": 3,
+    "text": "data driven"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#v4ZjT > a",
+    "x": 1416,
+    "y": 1520,
+    "w": 298,
+    "h": 447,
+    "text": "accelerated delivery",
+    "href": "/en/public-sector-capabilities"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 1416,
+    "y": 1520,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "b9901ad5-52ba-4529-9ddd-4eeb885c3cb0"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-prev.round-bt",
+    "x": 89,
+    "y": 1720,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-next.round-bt",
+    "x": 1303,
+    "y": 1720,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#z48uL",
+    "x": 177,
+    "y": 2207,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "insights"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 177,
+    "y": 2291,
+    "w": 749,
+    "h": 421,
+    "text": "",
+    "file": "a629233b-77ea-4266-b316-9e1ba18aff9a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > div.category-label.text-white > div.category-name",
+    "x": 241,
+    "y": 2512,
+    "w": 90,
+    "h": 14,
+    "text": "White Paper"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body.!m-8 > a",
+    "x": 225,
+    "y": 2546,
+    "w": 449,
+    "h": 118,
+    "text": "navigating the shift from project delivery to product centricity",
+    "href": "/production/11/11/a3d807bc-23b5-12ea-6a1a-97af617b4d3d/019f5869-140f-40bb-987d-dd64bc72aecb.pdf"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > a > h3.h4.text-white",
+    "x": 225,
+    "y": 2546,
+    "w": 449,
+    "h": 118,
+    "level": 3,
+    "text": "navigating the shift from project delivery to product centricity"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 965,
+    "y": 2291,
+    "w": 749,
+    "h": 421,
+    "text": "",
+    "file": "2979ee0e-12e4-4363-ac67-b10cb2880035"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > div.category-label.text-white > div.category-name",
+    "x": 1029,
+    "y": 2551,
+    "w": 90,
+    "h": 14,
+    "text": "White Paper"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body.!m-8 > a",
+    "x": 1013,
+    "y": 2585,
+    "w": 449,
+    "h": 78,
+    "text": "the power of generative ai to transform the public sector",
+    "href": "/go-reply/en/the-power-of-generative-ai-to-transform-the-public-sector"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > a > h3.h4.text-white",
+    "x": 1013,
+    "y": 2585,
+    "w": 449,
+    "h": 78,
+    "level": 3,
+    "text": "the power of generative ai to transform the public sector"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-prev.round-bt",
+    "x": 64,
+    "y": 2576,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-next.round-bt",
+    "x": 64,
+    "y": 2632,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#K3ZFw",
+    "x": 177,
+    "y": 2832,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "our expertise"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 97,
+    "y": 2948,
+    "w": 232,
+    "h": 130,
+    "text": "",
+    "file": "15724ee2-7923-46fb-a082-7b4363e65e47"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > div.reply-card-logo.absolute > img",
+    "x": 121,
+    "y": 2972,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "8c922f87-d8e9-4fac-b5f5-8449da29d0bf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#11487 > div.reply-card-body > a",
+    "x": 97,
+    "y": 3098,
+    "w": 232,
+    "h": 78,
+    "text": "ieo charts the future of healthcare with value based medicine",
+    "href": "/en/data-world/value-based-medicine"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 97,
+    "y": 3098,
+    "w": 232,
+    "h": 78,
+    "level": 3,
+    "text": "ieo charts the future of healthcare with value based medicine"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 113,
+    "y": 3192,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > article.reply-card-abstract.text > p",
+    "x": 97,
+    "y": 3224,
+    "w": 232,
+    "h": 167,
+    "text": "Laife Reply collaborates with IEO to innovate diagnosis-therapeutic paths throug"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#19642 > a",
+    "x": 402,
+    "y": 2915,
+    "w": 298,
+    "h": 298,
+    "text": "transforming controlled drug processes with intelligent digital solutions",
+    "href": "/solidsoft-reply/en/transforming-controlled-drug-processes"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 402,
+    "y": 2915,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "eda45b13-0555-4be3-bcbc-47424d1e5868"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#19642 > div.reply-card-body > a",
+    "x": 418,
+    "y": 3233,
+    "w": 266,
+    "h": 78,
+    "text": "transforming controlled drug processes with intelligent digital solutions",
+    "href": "/solidsoft-reply/en/transforming-controlled-drug-processes"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 418,
+    "y": 3233,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "transforming controlled drug processes with intelligent digital solutions"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 434,
+    "y": 3327,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#19186 > a",
+    "x": 740,
+    "y": 2915,
+    "w": 298,
+    "h": 298,
+    "text": "ieo innovates mammographic screening with agent-based systems powered by artific",
+    "href": "/en/artificial-intelligence/ieo-innovates-mammography-screening-with-agentic-systems-based-on-artificial-intelligence"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 740,
+    "y": 2915,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "cb969da1-ac1b-4773-989a-07995f05a2fe"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > div.reply-card-logo.absolute > img",
+    "x": 764,
+    "y": 2939,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "8c922f87-d8e9-4fac-b5f5-8449da29d0bf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#19186 > div.reply-card-body > a",
+    "x": 756,
+    "y": 3233,
+    "w": 266,
+    "h": 78,
+    "text": "ieo innovates mammographic screening with agent-based systems powered by artific",
+    "href": "/en/artificial-intelligence/ieo-innovates-mammography-screening-with-agentic-systems-based-on-artificial-intelligence"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 756,
+    "y": 3233,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "ieo innovates mammographic screening with agent-based systems powered by artificial intelligence"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 772,
+    "y": 3327,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 1111,
+    "y": 2948,
+    "w": 232,
+    "h": 131,
+    "text": "",
+    "file": "250fdc15-318e-4cfa-bce3-0f8b342773b0"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#17817 > div.reply-card-body > a",
+    "x": 1111,
+    "y": 3098,
+    "w": 232,
+    "h": 78,
+    "text": "nhs blood & transplant: glue blood testing development",
+    "href": "/production/12/12/6a9173e9-09b2-6f27-7d6e-594c663ab004/a9f78724-ce44-4c1e-8b52-1e3e0a500115.pdf"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 1111,
+    "y": 3098,
+    "w": 232,
+    "h": 78,
+    "level": 3,
+    "text": "nhs blood & transplant: glue blood testing development"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 1127,
+    "y": 3192,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > article.reply-card-abstract.text > p",
+    "x": 1111,
+    "y": 3224,
+    "w": 232,
+    "h": 238,
+    "text": "NHS Blood and Transplant (NHSBT) saves lives through the management of blood don"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-cta.mt-5 > a.button.button-link",
+    "x": 1111,
+    "y": 3482,
+    "w": 96,
+    "h": 27,
+    "text": "download",
+    "href": "/production/12/12/6a9173e9-09b2-6f27-7d6e-594c663ab004/a9f78724-ce44-4c1e-8b52-1e3e0a500115.pdf"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 435,
+    "y": 3443,
+    "w": 232,
+    "h": 130,
+    "text": "",
+    "file": "2b032494-eb42-4ca4-8c23-d17883a870dd"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#17816 > div.reply-card-body > a",
+    "x": 435,
+    "y": 3593,
+    "w": 232,
+    "h": 52,
+    "text": "complex technology transformation",
+    "href": "/complex-technology-transformation"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 435,
+    "y": 3593,
+    "w": 232,
+    "h": 52,
+    "level": 3,
+    "text": "complex technology transformation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 451,
+    "y": 3661,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > article.reply-card-abstract.text > p",
+    "x": 435,
+    "y": 3693,
+    "w": 232,
+    "h": 238,
+    "text": "Faced with a complex IT transformation, the Bank of England brought in Airwalk R"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 773,
+    "y": 3443,
+    "w": 232,
+    "h": 130,
+    "text": "",
+    "file": "fdc55582-234e-4211-8037-02186a8cf158"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#17815 > div.reply-card-body > a",
+    "x": 773,
+    "y": 3593,
+    "w": 232,
+    "h": 78,
+    "text": "finops for an essential government programme",
+    "href": "/finops-for-an-essential-government-programme"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 773,
+    "y": 3593,
+    "w": 232,
+    "h": 78,
+    "level": 3,
+    "text": "finops for an essential government programme"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 789,
+    "y": 3687,
+    "w": 106,
+    "h": 14,
+    "text": "Best Practice"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > article.reply-card-abstract.text > p",
+    "x": 773,
+    "y": 3719,
+    "w": 232,
+    "h": 167,
+    "text": "Airwalk Reply was selected as the lead delivery partner to design‭, ‬build and r"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 97,
+    "y": 3523,
+    "w": 232,
+    "h": 130,
+    "text": "",
+    "file": "95ded736-5d12-44eb-9817-c4f98e672d93"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#17813 > div.reply-card-body > a",
+    "x": 97,
+    "y": 3673,
+    "w": 232,
+    "h": 78,
+    "text": "a modern workplace in uk central government",
+    "href": "/a-modern-workplace-central-government"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 97,
+    "y": 3673,
+    "w": 232,
+    "h": 78,
+    "level": 3,
+    "text": "a modern workplace in uk central government"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 113,
+    "y": 3767,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > article.reply-card-abstract.text > p",
+    "x": 97,
+    "y": 3799,
+    "w": 232,
+    "h": 238,
+    "text": "Airwalk Reply was selected as the lead technology implementation and delivery pa"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 1111,
+    "y": 3643,
+    "w": 232,
+    "h": 130,
+    "text": "",
+    "file": "54522100-0b9f-4948-b2b5-b5b5bbdc5b22"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#17670 > div.reply-card-body > a",
+    "x": 1111,
+    "y": 3793,
+    "w": 232,
+    "h": 52,
+    "text": "launching a new service for the elderly",
+    "href": "/en/design/launching-new-service-for-the-elderlies"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 1111,
+    "y": 3793,
+    "w": 232,
+    "h": 52,
+    "level": 3,
+    "text": "launching a new service for the elderly"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 1127,
+    "y": 3861,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > article.reply-card-abstract.text > p",
+    "x": 1111,
+    "y": 3893,
+    "w": 232,
+    "h": 238,
+    "text": "We supported the largest American health insurance company in launching an onlin"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-binding > div.pager-container > button.more.pager",
+    "x": 631,
+    "y": 4225,
+    "w": 178,
+    "h": 48,
+    "text": "load more content"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#ixrJC",
+    "x": 177,
+    "y": 4489,
+    "w": 523,
+    "h": 43,
+    "level": 2,
+    "text": "our assets"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 64,
+    "y": 4572,
+    "w": 411,
+    "h": 616,
+    "text": "",
+    "file": "1a6397e5-fad1-4729-9d2f-4a5208687ec9"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-5 > div.reply-card-content > a.pointer-events-auto",
+    "x": 104,
+    "y": 5085,
+    "w": 331,
+    "h": 62,
+    "text": "x-rais: the third eye in medical imaging",
+    "href": "/en/healthcare/x-rais"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-content > a.pointer-events-auto > h3.h5--bold.line-clamp-4",
+    "x": 104,
+    "y": 5085,
+    "w": 331,
+    "h": 62,
+    "level": 3,
+    "text": "x-rais: the third eye in medical imaging"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 515,
+    "y": 4572,
+    "w": 411,
+    "h": 616,
+    "text": "",
+    "file": "a22c7d79-96a4-4a06-9ad3-a3e04a65c5f2"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-5 > div.reply-card-content > a.pointer-events-auto",
+    "x": 555,
+    "y": 5117,
+    "w": 331,
+    "h": 31,
+    "text": "healthcare as a platform",
+    "href": "/arlanis-reply/en/healthcare-as-a-platform"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-content > a.pointer-events-auto > h3.h5--bold.line-clamp-4",
+    "x": 555,
+    "y": 5117,
+    "w": 331,
+    "h": 31,
+    "level": 3,
+    "text": "healthcare as a platform"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 965,
+    "y": 4572,
+    "w": 411,
+    "h": 616,
+    "text": "",
+    "file": "fbc70751-ccc9-4ef9-8790-028b0d412004"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-5 > div.reply-card-content > a.pointer-events-auto",
+    "x": 1005,
+    "y": 5054,
+    "w": 331,
+    "h": 94,
+    "text": "e-cdr pro: efficient controlled drugs management",
+    "href": "/solidsoft-reply/en/ecdr-pro"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-content > a.pointer-events-auto > h3.h5--bold.line-clamp-4",
+    "x": 1005,
+    "y": 5054,
+    "w": 331,
+    "h": 94,
+    "level": 3,
+    "text": "e-cdr pro: efficient controlled drugs management"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 1416,
+    "y": 4572,
+    "w": 411,
+    "h": 616,
+    "text": "",
+    "file": "67b5cafb-8ed7-4d1d-af88-e27abab9d2e9"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-prev.round-bt",
+    "x": 89,
+    "y": 4856,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-next.round-bt",
+    "x": 1303,
+    "y": 4856,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#Vdi9p > div.reply-card-image-container.aspect-w-2 > a.absolute.h-full",
+    "x": 177,
+    "y": 5428,
+    "w": 1087,
+    "h": 543,
+    "text": "telemedicine and connected care",
+    "href": "/en/healthcare/telemedicine-and-connected-care"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.absolute.w-full > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 177,
+    "y": 5428,
+    "w": 1087,
+    "h": 611,
+    "text": "",
+    "file": "b80a952e-d6ba-40f1-b300-b4655893af58"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.category-label.text-white > div.category-name",
+    "x": 287,
+    "y": 5590,
+    "w": 106,
+    "h": 14,
+    "text": "Best Practice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-grid.pointer-events-none > div.reply-card-body > a.pointer-events-auto",
+    "x": 271,
+    "y": 5628,
+    "w": 429,
+    "h": 78,
+    "text": "telemedicine and connected care",
+    "href": "/en/healthcare/telemedicine-and-connected-care"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a.pointer-events-auto > h3.h4.text-white",
+    "x": 271,
+    "y": 5628,
+    "w": 429,
+    "h": 78,
+    "level": 3,
+    "text": "telemedicine and connected care"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-grid.pointer-events-none > div.reply-card-body > article.reply-card-abstract.paragraph-01--light",
+    "x": 271,
+    "y": 5727,
+    "w": 429,
+    "h": 82,
+    "text": "Wearables, medical devices and sensors harness the potential of IoT and Big Data"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.banner-content.flex > picture.banner-logo > img.picture.grid-bg",
+    "x": 177,
+    "y": 6147,
+    "w": 103,
+    "h": 36,
+    "text": "reply rose logo",
+    "file": "6fcab6ec-285b-4545-a46d-72f4927d4bbe"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-banner-container.rosepub > div.banner-content.flex > h3.banner-title.text-white",
+    "x": 177,
+    "y": 6195,
+    "w": 411,
+    "h": 151,
+    "level": 3,
+    "text": "start matching your business with our expertise"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-banner-container.rosepub > div.banner-content.flex > div.banner-abstract.text-white",
+    "x": 177,
+    "y": 6366,
+    "w": 411,
+    "h": 82,
+    "text": "Book your one-to-one online sessions with Reply’s worldwide network of experts a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-banner-container.rosepub > div.banner-content.flex > a#rose-banner-cta",
+    "x": 177,
+    "y": 6472,
+    "w": 187,
+    "h": 56,
+    "text": "go to rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.banner-card-list.flex > div.rose-cards-slider__nav.self-end > button.rose-cards-slider__prev.carousel-control-prev",
+    "x": 1155,
+    "y": 6155,
+    "w": 48,
+    "h": 48,
+    "text": "prev item"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.banner-card-list.flex > div.rose-cards-slider__nav.self-end > button.rose-cards-slider__next.carousel-control-next",
+    "x": 1211,
+    "y": 6155,
+    "w": 48,
+    "h": 48,
+    "text": "next item"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.contents > picture > img.mx-4",
+    "x": 643,
+    "y": 6231,
+    "w": 266,
+    "h": 266,
+    "text": "",
+    "file": "Understand_how_to_take_advantage_of_ALFA"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.contents > div.rose-card-text.absolute > h4.rose-card-title.line-clamp-4",
+    "x": 659,
+    "y": 6508,
+    "w": 234,
+    "h": 104,
+    "level": 4,
+    "text": "understand how alfabeto can support healthcare professionals"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.contents > picture > img.mx-4",
+    "x": 981,
+    "y": 6231,
+    "w": 266,
+    "h": 266,
+    "text": "",
+    "file": "Digital_Therapeutics_green_(4)"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.contents > div.rose-card-text.absolute > h4.rose-card-title.line-clamp-4",
+    "x": 997,
+    "y": 6508,
+    "w": 234,
+    "h": 104,
+    "level": 4,
+    "text": "digital therapeutics (dtx): the new challenges in the healthcare sector"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.contents > picture > img.mx-4",
+    "x": 1319,
+    "y": 6231,
+    "w": 266,
+    "h": 266,
+    "text": "",
+    "file": "Silvia-Chiappi-purple"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.contents > div.rose-card-text.absolute > h4.rose-card-title.line-clamp-4",
+    "x": 1335,
+    "y": 6534,
+    "w": 234,
+    "h": 78,
+    "level": 4,
+    "text": "e-mobility: electrical is the forerunner of smart mobility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.block > nav.footer.p-10 > a",
+    "x": 64,
+    "y": 6926,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 7022,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 7022,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 7070,
+    "w": 103,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 7114,
+    "w": 45,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 7159,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 7204,
+    "w": 67,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 7022,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 7022,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 7070,
+    "w": 142,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 7114,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 7176,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 7221,
+    "w": 149,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 7070,
+    "w": 161,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 7114,
+    "w": 127,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 7159,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 7070,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 7131,
+    "w": 154,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 7176,
+    "w": 147,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 7221,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "void(0)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Careers",
+    "x": 1112,
+    "y": 7022,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Contacts",
+    "x": 1112,
+    "y": 7102,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1112,
+    "y": 7182,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1124,
+    "y": 7194,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1184,
+    "y": 7182,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1196,
+    "y": 7194,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "a6732ee4-95cf-4951-9c4b-3675c7154f7e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1256,
+    "y": 7182,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1268,
+    "y": 7194,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "49664893-bfc1-4d79-9208-3bdd7083126b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1328,
+    "y": 7182,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1340,
+    "y": 7194,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "c48097ef-90ed-4c24-aa40-1764649e72ff"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > span",
+    "x": 64,
+    "y": 7326,
+    "w": 81,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > a.underline",
+    "x": 158,
+    "y": 7326,
+    "w": 136,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.text-white.py-3 > div.flex.justify-between > button#cookie-pref-center",
+    "x": 1276,
+    "y": 859,
+    "w": 164,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 6,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 7,
+    "offPage": 37,
+    "textNodes": 120,
+    "controls": 84,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 3,
+     "clipper": "h3.h6--medium.line-clamp-3",
+     "path": "reply-card-runtime#19642 > div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+     "text": "transforming controlled drug processes with intelligent digi",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 3,
+     "clipper": "article.reply-card-abstract.text",
+     "path": "reply-card-runtime#17817 > div.reply-card-body > article.reply-card-abstract.text > p",
+     "text": "nhs blood and transplant (nhsbt) saves lives through the man",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "cardcarousel-runtime#pNnLq",
+     "path": "div.yxrceuaktc > div.block > reply-card-runtime#of08D > a",
+     "text": "digitisation",
+     "cutMin": 274,
+     "cutMax": 274
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.reply-card-image-container.aspect-w-2",
+     "path": "reply-card-runtime#ulyFI > div.reply-card-image-container.aspect-w-2 > div.reply-card-body.!m-8 > a",
+     "text": "the power of generative ai to transform the public sector",
+     "cutMin": 22,
+     "cutMax": 22
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3.h4.text-white",
+     "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body.!m-8 > a > h3.h4.text-white",
+     "text": "the power of generative ai to transform the public sector",
+     "cutMin": 13,
+     "cutMax": 13
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "rose-banner-runtime",
+     "path": "div#SW10305 > a.contents > div.rose-card-text.absolute > div.rose-card-typology.label--xsmall-upcase",
+     "text": "ask the expert",
+     "cutMin": 11,
+     "cutMax": 11
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h4.rose-card-title.line-clamp-4",
+     "path": "div#SW10305 > a.contents > div.rose-card-text.absolute > h4.rose-card-title.line-clamp-4",
+     "text": "e-mobility: electrical is the forerunner of smart mobility",
+     "cutMin": 113,
+     "cutMax": 113
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "rose-banner-runtime",
+     "path": "div#SW10305 > a.contents > div.rose-card-text.absolute > div.rose-card-info.label--xsmall-upcase",
+     "text": "it/en • 1 session x 1h",
+     "cutMin": 43,
+     "cutMax": 43
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--a355dc1b--aemcoder.aem.page/en/healthcare",
+  "at": "2026-11-17T04:05:45.211Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 7246,
+  "root": "main",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-main > div.site-header-logo > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "href": "/en"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-reply-logo > img",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "file": "reply-logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 900,
+    "y": 28,
+    "w": 46,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 1224,
+    "y": 28,
+    "w": 52,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-header-bar > nav.site-header-main > button.sm-collapsed",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-hero-pic.desktop > picture > img",
+    "x": 0,
+    "y": 49,
+    "w": 1440,
+    "h": 810,
+    "text": "",
+    "file": "media_1f83e42529912c3c3a4054c444112b0a3a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.r-grid > div.media-hero-title.r-cell > h1#government-and-healthcare",
+    "x": 177,
+    "y": 382,
+    "w": 861,
+    "h": 141,
+    "level": 1,
+    "text": "government and healthcare"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-hero-title.r-cell > h1#government-and-healthcare > span",
+    "x": 177,
+    "y": 381,
+    "w": 549,
+    "h": 141,
+    "text": "Government and Healthcare"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 289,
+    "y": 932,
+    "w": 861,
+    "h": 202,
+    "text": "Innovation and transformation in Government and Healthcare to enable better outc"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.hub-grid-node.button-wrapper > button.button.primary",
+    "x": 644,
+    "y": 1174,
+    "w": 149,
+    "h": 48,
+    "text": "contact us"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h3#our-capabilities",
+    "x": 177,
+    "y": 1437,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "our capabilities"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": -274,
+    "y": 1520,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_1e44fd819de8c8f411ffcf47142169b34d"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 64,
+    "y": 1520,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_1d63405f1725a8cc41385a1296e3088851"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-content > a.reply-card-link",
+    "x": 104,
+    "y": 1865,
+    "w": 218,
+    "h": 62,
+    "text": "critical national infrastructure",
+    "href": "/en/public-sector-capabilities"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#critical-national-infrastructure",
+    "x": 104,
+    "y": 1865,
+    "w": 218,
+    "h": 62,
+    "level": 3,
+    "text": "critical national infrastructure"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 402,
+    "y": 1520,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_1e76273e196301205773532282447cf305"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-content > a.reply-card-link",
+    "x": 442,
+    "y": 1896,
+    "w": 218,
+    "h": 31,
+    "text": "verification",
+    "href": "/en/public-sector-capabilities"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#verification",
+    "x": 442,
+    "y": 1896,
+    "w": 218,
+    "h": 31,
+    "level": 3,
+    "text": "verification"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 740,
+    "y": 1520,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_187ed2641bd7e22dc64d4ad6ad41840503"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-content > a.reply-card-link",
+    "x": 780,
+    "y": 1865,
+    "w": 218,
+    "h": 62,
+    "text": "managed services",
+    "href": "/en/public-sector-capabilities"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#managed-services",
+    "x": 780,
+    "y": 1865,
+    "w": 218,
+    "h": 62,
+    "level": 3,
+    "text": "managed services"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 1078,
+    "y": 1520,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_1cae92282ecb455f02897c5afc1ed48e1a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-content > a.reply-card-link",
+    "x": 1118,
+    "y": 1896,
+    "w": 218,
+    "h": 31,
+    "text": "data driven",
+    "href": "/en/public-sector-capabilities"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#data-driven",
+    "x": 1118,
+    "y": 1896,
+    "w": 218,
+    "h": 31,
+    "level": 3,
+    "text": "data driven"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 1416,
+    "y": 1520,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_1eefbfbbba6d70483478951483e122a4dc"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.labs-inner > div.labs-controls > button.labs-prev.round-bt",
+    "x": 89,
+    "y": 1720,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.labs-inner > div.labs-controls > button.labs-next.round-bt",
+    "x": 1303,
+    "y": 1720,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h3#insights",
+    "x": 177,
+    "y": 2207,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "insights"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 177,
+    "y": 2291,
+    "w": 749,
+    "h": 421,
+    "text": "",
+    "file": "media_1db9fac235bd99437753743ee6187e2ea0"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 241,
+    "y": 2512,
+    "w": 101,
+    "h": 14,
+    "text": "White Paper"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+    "x": 225,
+    "y": 2546,
+    "w": 449,
+    "h": 118,
+    "text": "navigating the shift from project delivery to product centricity",
+    "href": "/production/11/11/a3d807bc-23b5-12ea-6a1a-97af617b4d3d/019f5869-140f-40bb-987d-dd64bc72aecb.pdf"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#navigating-the-shift-from-project-delivery-to-product-centricity",
+    "x": 225,
+    "y": 2546,
+    "w": 449,
+    "h": 118,
+    "level": 3,
+    "text": "navigating the shift from project delivery to product centricity"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 965,
+    "y": 2291,
+    "w": 749,
+    "h": 421,
+    "text": "",
+    "file": "media_18974102278d3a8b669fc7557e08a99d7d"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 1029,
+    "y": 2551,
+    "w": 101,
+    "h": 14,
+    "text": "White Paper"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+    "x": 1013,
+    "y": 2585,
+    "w": 449,
+    "h": 78,
+    "text": "the power of generative ai to transform the public sector",
+    "href": "/go-reply/en/the-power-of-generative-ai-to-transform-the-public-sector"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#the-power-of-generative-ai-to-transform-the-public-sector",
+    "x": 1013,
+    "y": 2585,
+    "w": 449,
+    "h": 78,
+    "level": 3,
+    "text": "the power of generative ai to transform the public sector"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-carousel-inner > div.card-carousel-controls > button.card-carousel-prev.round-bt",
+    "x": 64,
+    "y": 2576,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-carousel-inner > div.card-carousel-controls > button.card-carousel-next.round-bt",
+    "x": 64,
+    "y": 2632,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h3#our-expertise",
+    "x": 177,
+    "y": 2832,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "our expertise"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 97,
+    "y": 2948,
+    "w": 232,
+    "h": 131,
+    "text": "",
+    "file": "media_1cf6e318b3f23c725df6fa8af8bfe52e68"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#ieo-charts-the-future-of-healthcare-with-value-based-medicine",
+    "x": 97,
+    "y": 3098,
+    "w": 232,
+    "h": 78,
+    "level": 3,
+    "text": "ieo charts the future of healthcare with value based medicine"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#ieo-charts-the-future-of-healthcare-with-value-based-medicine > a",
+    "x": 97,
+    "y": 3098,
+    "w": 232,
+    "h": 78,
+    "text": "ieo charts the future of healthcare with value based medicine",
+    "href": "/en/data-world/value-based-medicine"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 113,
+    "y": 3192,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-abstract > p",
+    "x": 97,
+    "y": 3224,
+    "w": 232,
+    "h": 167,
+    "text": "Laife Reply collaborates with IEO to innovate diagnosis-therapeutic paths throug"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 402,
+    "y": 2915,
+    "w": 298,
+    "h": 298,
+    "text": "transforming controlled drug processes with intelligent digital solutions",
+    "href": "/solidsoft-reply/en/transforming-controlled-drug-processes"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 402,
+    "y": 2915,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "media_10b6ddd6e5fb6e7aa3ccfbe8e8df6a8493"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#transforming-controlled-drug-processes-with-intelligent-digital-solutions",
+    "x": 418,
+    "y": 3233,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "transforming controlled drug processes with intelligent digital solutions"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#transforming-controlled-drug-processes-with-intelligent-digital-solutions > a",
+    "x": 418,
+    "y": 3233,
+    "w": 266,
+    "h": 78,
+    "text": "transforming controlled drug processes with intelligent digital solutions",
+    "href": "/solidsoft-reply/en/transforming-controlled-drug-processes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 434,
+    "y": 3327,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 740,
+    "y": 2915,
+    "w": 298,
+    "h": 298,
+    "text": "ieo innovates mammographic screening with agent-based systems powered by artific",
+    "href": "/en/artificial-intelligence/ieo-innovates-mammography-screening-with-agentic-systems-based-on-artificial-intelligence"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 740,
+    "y": 2915,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "media_1107307cc7574ebb42cd1b1fa3314462b6"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 764,
+    "y": 2939,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_120501a0502476a2e220f884ec63b1e8ca"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#ieo-innovates-mammographic-screening-with-agent-based-systems-powered-by-artificial-intelligence",
+    "x": 756,
+    "y": 3233,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "ieo innovates mammographic screening with agent-based systems powered by artificial intelligence"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#ieo-innovates-mammographic-screening-with-agent-based-systems-powered-by-artificial-intelligence > a",
+    "x": 756,
+    "y": 3233,
+    "w": 266,
+    "h": 78,
+    "text": "ieo innovates mammographic screening with agent-based systems powered by artific",
+    "href": "/en/artificial-intelligence/ieo-innovates-mammography-screening-with-agentic-systems-based-on-artificial-intelligence"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 772,
+    "y": 3327,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 1111,
+    "y": 2948,
+    "w": 232,
+    "h": 131,
+    "text": "",
+    "file": "media_1077653f595ecdf65e62384b7d8d76e161"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#nhs-blood--transplant-glue-blood-testing-development",
+    "x": 1111,
+    "y": 3098,
+    "w": 232,
+    "h": 78,
+    "level": 3,
+    "text": "nhs blood & transplant: glue blood testing development"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#nhs-blood--transplant-glue-blood-testing-development > a",
+    "x": 1111,
+    "y": 3098,
+    "w": 232,
+    "h": 78,
+    "text": "nhs blood & transplant: glue blood testing development",
+    "href": "/production/12/12/6a9173e9-09b2-6f27-7d6e-594c663ab004/a9f78724-ce44-4c1e-8b52-1e3e0a500115.pdf"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 1127,
+    "y": 3192,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-abstract > p",
+    "x": 1111,
+    "y": 3224,
+    "w": 232,
+    "h": 238,
+    "text": "NHS Blood and Transplant (NHSBT) saves lives through the management of blood don"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-cta > p > a",
+    "x": 1111,
+    "y": 3483,
+    "w": 73,
+    "h": 16,
+    "text": "download",
+    "href": "/production/12/12/6a9173e9-09b2-6f27-7d6e-594c663ab004/a9f78724-ce44-4c1e-8b52-1e3e0a500115.pdf"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 435,
+    "y": 3443,
+    "w": 232,
+    "h": 131,
+    "text": "",
+    "file": "media_10495ceaca5d37156af1608baed6bea297"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#complex-technology-transformation",
+    "x": 435,
+    "y": 3593,
+    "w": 232,
+    "h": 52,
+    "level": 3,
+    "text": "complex technology transformation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#complex-technology-transformation > a",
+    "x": 435,
+    "y": 3593,
+    "w": 232,
+    "h": 52,
+    "text": "complex technology transformation",
+    "href": "/complex-technology-transformation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 451,
+    "y": 3661,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-abstract > p",
+    "x": 435,
+    "y": 3693,
+    "w": 232,
+    "h": 238,
+    "text": "Faced with a complex IT transformation, the Bank of England brought in Airwalk R"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 773,
+    "y": 3443,
+    "w": 232,
+    "h": 131,
+    "text": "",
+    "file": "media_186dab4dc9dd498a60843da3f57f9422d2"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#finops-for-an-essential-government-programme",
+    "x": 773,
+    "y": 3593,
+    "w": 232,
+    "h": 78,
+    "level": 3,
+    "text": "finops for an essential government programme"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#finops-for-an-essential-government-programme > a",
+    "x": 773,
+    "y": 3593,
+    "w": 232,
+    "h": 78,
+    "text": "finops for an essential government programme",
+    "href": "/finops-for-an-essential-government-programme"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 789,
+    "y": 3687,
+    "w": 118,
+    "h": 14,
+    "text": "Best Practice"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-abstract > p",
+    "x": 773,
+    "y": 3719,
+    "w": 232,
+    "h": 167,
+    "text": "Airwalk Reply was selected as the lead delivery partner to design‭, ‬build and r"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 97,
+    "y": 3523,
+    "w": 232,
+    "h": 131,
+    "text": "",
+    "file": "media_10670188a6dd66bf0d644b29770eb6563f"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#a-modern-workplace-in-uk-central-government",
+    "x": 97,
+    "y": 3673,
+    "w": 232,
+    "h": 78,
+    "level": 3,
+    "text": "a modern workplace in uk central government"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#a-modern-workplace-in-uk-central-government > a",
+    "x": 97,
+    "y": 3673,
+    "w": 232,
+    "h": 78,
+    "text": "a modern workplace in uk central government",
+    "href": "/a-modern-workplace-central-government"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 113,
+    "y": 3767,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-abstract > p",
+    "x": 97,
+    "y": 3799,
+    "w": 232,
+    "h": 238,
+    "text": "Airwalk Reply was selected as the lead technology implementation and delivery pa"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 1111,
+    "y": 3643,
+    "w": 232,
+    "h": 131,
+    "text": "",
+    "file": "media_1f79377de51a7e68d797fad627afbdefd6"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#launching-a-new-service-for-the-elderly",
+    "x": 1111,
+    "y": 3793,
+    "w": 232,
+    "h": 52,
+    "level": 3,
+    "text": "launching a new service for the elderly"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#launching-a-new-service-for-the-elderly > a",
+    "x": 1111,
+    "y": 3793,
+    "w": 232,
+    "h": 52,
+    "text": "launching a new service for the elderly",
+    "href": "/en/design/launching-new-service-for-the-elderlies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 1127,
+    "y": 3861,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-abstract > p",
+    "x": 1111,
+    "y": 3893,
+    "w": 232,
+    "h": 238,
+    "text": "We supported the largest American health insurance company in launching an onlin"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-cell.r-cell > div.cards-wall-pager > div.cards-wall-more",
+    "x": 633,
+    "y": 4225,
+    "w": 174,
+    "h": 48,
+    "text": "load more content"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h2#our-assets",
+    "x": 177,
+    "y": 4489,
+    "w": 523,
+    "h": 43,
+    "level": 2,
+    "text": "our assets"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 64,
+    "y": 4572,
+    "w": 411,
+    "h": 616,
+    "text": "",
+    "file": "media_1fcae8c2d8ee295b823432275719a3d2a5"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-content > a.reply-card-link",
+    "x": 104,
+    "y": 5085,
+    "w": 331,
+    "h": 62,
+    "text": "x-rais: the third eye in medical imaging",
+    "href": "/en/healthcare/x-rais"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#x-rais-the-third-eye-in-medical-imaging",
+    "x": 104,
+    "y": 5085,
+    "w": 331,
+    "h": 62,
+    "level": 3,
+    "text": "x-rais: the third eye in medical imaging"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 515,
+    "y": 4572,
+    "w": 411,
+    "h": 616,
+    "text": "",
+    "file": "media_1cecaa028a957a43d235c5ff5eabd19099"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-content > a.reply-card-link",
+    "x": 555,
+    "y": 5117,
+    "w": 331,
+    "h": 31,
+    "text": "healthcare as a platform",
+    "href": "/arlanis-reply/en/healthcare-as-a-platform"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#healthcare-as-a-platform",
+    "x": 555,
+    "y": 5117,
+    "w": 331,
+    "h": 31,
+    "level": 3,
+    "text": "healthcare as a platform"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 965,
+    "y": 4572,
+    "w": 411,
+    "h": 616,
+    "text": "",
+    "file": "media_124b8664b3f3b65635d9c74d201ea3b42b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-content > a.reply-card-link",
+    "x": 1005,
+    "y": 5054,
+    "w": 331,
+    "h": 94,
+    "text": "e-cdr pro: efficient controlled drugs management",
+    "href": "/solidsoft-reply/en/ecdr-pro"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#e-cdr-pro-efficient-controlled-drugs-management",
+    "x": 1005,
+    "y": 5054,
+    "w": 331,
+    "h": 94,
+    "level": 3,
+    "text": "e-cdr pro: efficient controlled drugs management"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 1416,
+    "y": 4572,
+    "w": 411,
+    "h": 616,
+    "text": "",
+    "file": "media_1aad9f089ce8e7a6e81118ff9781afb17d"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.labs-inner > div.labs-controls > button.labs-prev.round-bt",
+    "x": 89,
+    "y": 4856,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.labs-inner > div.labs-controls > button.labs-next.round-bt",
+    "x": 1303,
+    "y": 4856,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-card-card > div.hero-card-image-container > a.hero-card-cover",
+    "x": 177,
+    "y": 5428,
+    "w": 1087,
+    "h": 543,
+    "text": "telemedicine and connected care",
+    "href": "/en/healthcare/telemedicine-and-connected-care"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-card-pic.desktop > picture > img",
+    "x": 177,
+    "y": 5428,
+    "w": 1087,
+    "h": 611,
+    "text": "",
+    "file": "media_1e4f363468bb85bb5b90101225f5da85e5"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 287,
+    "y": 5590,
+    "w": 118,
+    "h": 14,
+    "text": "Best Practice"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-card-body > div.hero-card-title > h3#telemedicine-and-connected-care",
+    "x": 271,
+    "y": 5628,
+    "w": 429,
+    "h": 78,
+    "level": 3,
+    "text": "telemedicine and connected care"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-card-title > h3#telemedicine-and-connected-care > a",
+    "x": 271,
+    "y": 5631,
+    "w": 419,
+    "h": 71,
+    "text": "telemedicine and connected care",
+    "href": "/en/healthcare/telemedicine-and-connected-care"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-card-body > div.hero-card-abstract > p",
+    "x": 271,
+    "y": 5727,
+    "w": 429,
+    "h": 82,
+    "text": "Wearables, medical devices and sensors harness the potential of IoT and Big Data"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-logo > picture > img",
+    "x": 177,
+    "y": 6154,
+    "w": 103,
+    "h": 36,
+    "text": "reply rose logo",
+    "file": "media_1e36aa2918a3736dbda877e3fa482274ca"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-content > div.rose-cta-title > h3#start-matching-your-business-with-our-expertise",
+    "x": 177,
+    "y": 6202,
+    "w": 411,
+    "h": 151,
+    "level": 3,
+    "text": "start matching your business with our expertise"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-content > div.rose-cta-abstract > p",
+    "x": 177,
+    "y": 6373,
+    "w": 411,
+    "h": 82,
+    "text": "Book your one-to-one online sessions with Reply’s worldwide network of experts a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-action > p.button-wrapper > a.button.primary",
+    "x": 177,
+    "y": 6479,
+    "w": 196,
+    "h": 56,
+    "text": "go to rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-cards > div.rose-cta-nav > button.rose-cta-prev.round-bt",
+    "x": 1155,
+    "y": 6162,
+    "w": 48,
+    "h": 48,
+    "text": "prev item"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-cards > div.rose-cta-nav > button.rose-cta-next.round-bt",
+    "x": 1211,
+    "y": 6162,
+    "w": 48,
+    "h": 48,
+    "text": "next item"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-card-image > picture > img",
+    "x": 643,
+    "y": 6238,
+    "w": 266,
+    "h": 266,
+    "text": "",
+    "file": "media_1e6beaf74b4b8e66e22533f4e8438b73f3"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-card-text > div.rose-card-title > h4#understand-how-alfabeto-can-support-healthcare-professionals",
+    "x": 659,
+    "y": 6515,
+    "w": 234,
+    "h": 104,
+    "level": 4,
+    "text": "understand how alfabeto can support healthcare professionals"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-card-image > picture > img",
+    "x": 981,
+    "y": 6238,
+    "w": 266,
+    "h": 266,
+    "text": "",
+    "file": "media_13e159d56d6734fed23c546cd98b84a439"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-card-text > div.rose-card-title > h4#digital-therapeutics-dtx-the-new-challenges-in-the-healthcare-sector",
+    "x": 997,
+    "y": 6515,
+    "w": 234,
+    "h": 104,
+    "level": 4,
+    "text": "digital therapeutics (dtx): the new challenges in the healthcare sector"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-card-image > picture > img",
+    "x": 1319,
+    "y": 6238,
+    "w": 266,
+    "h": 266,
+    "text": "",
+    "file": "media_1b691c8314e445c85a9ced380a625e2500"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-card-text > div.rose-card-title > h4#e-mobility-electrical-is-the-forerunner-of-smart-mobility",
+    "x": 1335,
+    "y": 6541,
+    "w": 234,
+    "h": 78,
+    "level": 4,
+    "text": "e-mobility: electrical is the forerunner of smart mobility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-wrap > nav.footer-nav > a.footer-nav-home",
+    "x": 64,
+    "y": 6813,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 6909,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 6909,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 6957,
+    "w": 102,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 7001,
+    "w": 43,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 7046,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 7091,
+    "w": 66,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 6909,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 6909,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 6957,
+    "w": 145,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 7001,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 7063,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 7108,
+    "w": 150,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 6957,
+    "w": 160,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 7001,
+    "w": 131,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 7046,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 6957,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 7018,
+    "w": 153,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 7063,
+    "w": 143,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 7108,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "/en/healthcare"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 6909,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 6989,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1112,
+    "y": 7069,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1124,
+    "y": 7081,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1184,
+    "y": 7069,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1196,
+    "y": 7081,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1256,
+    "y": 7069,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1268,
+    "y": 7081,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-linkedin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1328,
+    "y": 7069,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1340,
+    "y": 7081,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-xing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > span",
+    "x": 64,
+    "y": 7213,
+    "w": 84,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > a",
+    "x": 160,
+    "y": 7213,
+    "w": 131,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-inner > div.site-legal-row > button#cookie-pref-center",
+    "x": 1278,
+    "y": 859,
+    "w": 162,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 5,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 5,
+    "offPage": 29,
+    "textNodes": 115,
+    "controls": 79,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 3,
+     "clipper": "a",
+     "path": "div.reply-card-body > div.reply-card-title > h3#transforming-controlled-drug-processes-with-intelligent-digital-solutions > a",
+     "text": "transforming controlled drug processes with intelligent digi",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.reply-card-abstract",
+     "path": "div.reply-card.reply-card-kind-abstract > div.reply-card-body > div.reply-card-abstract > p",
+     "text": "nhs blood and transplant (nhsbt) saves lives through the man",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.rose-cta.gap-56m",
+     "path": "a.rose-card-link > div.rose-card-text > div.rose-card-label.top > p",
+     "text": "ask the expert",
+     "cutMin": 24,
+     "cutMax": 60
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.reply-card-image-container",
+     "path": "div.reply-card.reply-card-horizontal > div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+     "text": "the power of generative ai to transform the public sector",
+     "cutMin": 23,
+     "cutMax": 23
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3#the-power-of-generative-ai-to-transform-the-public-sector",
+     "path": "div.reply-card-body > a.reply-card-link > div.reply-card-title > h3#the-power-of-generative-ai-to-transform-the-public-sector",
+     "text": "the power of generative ai to transform the public sector",
+     "cutMin": 7,
+     "cutMax": 7
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h4#e-mobility-electrical-is-the-forerunner-of-smart-mobility",
+     "path": "a.rose-card-link > div.rose-card-text > div.rose-card-title > h4#e-mobility-electrical-is-the-forerunner-of-smart-mobility",
+     "text": "e-mobility: electrical is the forerunner of smart mobility",
+     "cutMin": 107,
+     "cutMax": 107
+    }
+   ],
+   "findings": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 23,
+     "path": "div.reply-card.reply-card-horizontal > div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+     "text": "the power of generative ai to transform the public sector",
+     "clipper": "div.reply-card-image-container",
+     "rect": {
+      "l": 1013,
+      "t": 2585,
+      "r": 1463,
+      "b": 2664,
+      "w": 449,
+      "h": 78
+     },
+     "clip": {
+      "l": 965,
+      "t": 2291,
+      "r": 1714,
+      "b": 2712,
+      "w": 749,
+      "h": 421
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 7,
+     "path": "div.reply-card-body > a.reply-card-link > div.reply-card-title > h3#the-power-of-generative-ai-to-transform-the-public-sector",
+     "text": "the power of generative ai to transform the public sector",
+     "clipper": "h3#the-power-of-generative-ai-to-transform-the-public-sector",
+     "rect": {
+      "l": 1013,
+      "t": 2588,
+      "r": 1447,
+      "b": 2620,
+      "w": 433,
+      "h": 32
+     },
+     "clip": {
+      "l": 1013,
+      "t": 2585,
+      "r": 1462,
+      "b": 2663,
+      "w": 449,
+      "h": 78
+     },
+     "lines": 2
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.reply-card-body > div.reply-card-title > h3#transforming-controlled-drug-processes-with-intelligent-digital-solutions > a",
+     "text": "transforming controlled drug processes with intelligent digi",
+     "clipper": "a",
+     "rect": {
+      "l": 418,
+      "t": 3235,
+      "r": 668,
+      "b": 3257,
+      "w": 250,
+      "h": 22
+     },
+     "clip": {
+      "l": 418,
+      "t": 3233,
+      "r": 684,
+      "b": 3311,
+      "w": 266,
+      "h": 78
+     },
+     "lines": 4
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 2,
+     "path": "div.reply-card-body > div.reply-card-title > h3#ieo-innovates-mammographic-screening-with-agent-based-systems-powered-by-artificial-intelligence > a",
+     "text": "ieo innovates mammographic screening with agent-based system",
+     "clipper": "a",
+     "rect": {
+      "l": 756,
+      "t": 3235,
+      "r": 902,
+      "b": 3257,
+      "w": 146,
+      "h": 22
+     },
+     "clip": {
+      "l": 756,
+      "t": 3233,
+      "r": 1022,
+      "b": 3311,
+      "w": 266,
+      "h": 78
+     },
+     "lines": 5
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.reply-card-body > div.reply-card-title > h3#nhs-blood--transplant-glue-blood-testing-development > a",
+     "text": "nhs blood & transplant: glue blood testing development",
+     "clipper": "a",
+     "rect": {
+      "l": 1111,
+      "t": 3100,
+      "r": 1249,
+      "b": 3122,
+      "w": 138,
+      "h": 22
+     },
+     "clip": {
+      "l": 1111,
+      "t": 3098,
+      "r": 1343,
+      "b": 3176,
+      "w": 232,
+      "h": 78
+     },
+     "lines": 4
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 3,
+     "path": "div.reply-card.reply-card-kind-abstract > div.reply-card-body > div.reply-card-abstract > p",
+     "text": "nhs blood and transplant (nhsbt) saves lives through the man",
+     "clipper": "div.reply-card-abstract",
+     "rect": {
+      "l": 1111,
+      "t": 3227,
+      "r": 1301,
+      "b": 3243,
+      "w": 190,
+      "h": 16
+     },
+     "clip": {
+      "l": 1111,
+      "t": 3224,
+      "r": 1343,
+      "b": 3462,
+      "w": 232,
+      "h": 238
+     },
+     "lines": 13
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 2,
+     "path": "div.reply-card.reply-card-kind-abstract > div.reply-card-body > div.reply-card-abstract > p",
+     "text": "airwalk reply was selected as the lead technology implementa",
+     "clipper": "div.reply-card-abstract",
+     "rect": {
+      "l": 97,
+      "t": 3802,
+      "r": 310,
+      "b": 3818,
+      "w": 213,
+      "h": 16
+     },
+     "clip": {
+      "l": 97,
+      "t": 3799,
+      "r": 329,
+      "b": 4037,
+      "w": 232,
+      "h": 238
+     },
+     "lines": 12
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 24,
+     "path": "a.rose-card-link > div.rose-card-text > div.rose-card-label.top > p",
+     "text": "ask the expert",
+     "clipper": "div.rose-cta.gap-56m",
+     "rect": {
+      "l": 1335,
+      "t": 6511,
+      "r": 1464,
+      "b": 6524,
+      "w": 129,
+      "h": 13
+     },
+     "clip": {
+      "l": 0,
+      "t": 6098,
+      "r": 1440,
+      "b": 6749,
+      "w": 1440,
+      "h": 651
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 107,
+     "path": "a.rose-card-link > div.rose-card-text > div.rose-card-title > h4#e-mobility-electrical-is-the-forerunner-of-smart-mobility",
+     "text": "e-mobility: electrical is the forerunner of smart mobility",
+     "clipper": "h4#e-mobility-electrical-is-the-forerunner-of-smart-mobility",
+     "rect": {
+      "l": 1335,
+      "t": 6543,
+      "r": 1547,
+      "b": 6565,
+      "w": 212,
+      "h": 22
+     },
+     "clip": {
+      "l": 1335,
+      "t": 6541,
+      "r": 1569,
+      "b": 6619,
+      "w": 234,
+      "h": 78
+     },
+     "lines": 3
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 60,
+     "path": "a.rose-card-link > div.rose-card-text > div.rose-card-label.bottom > p",
+     "text": "it/en • 1 session x 1h",
+     "clipper": "div.rose-cta.gap-56m",
+     "rect": {
+      "l": 1335,
+      "t": 6643,
+      "r": 1500,
+      "b": 6656,
+      "w": 165,
+      "h": 13
+     },
+     "clip": {
+      "l": 0,
+      "t": 6098,
+      "r": 1440,
+      "b": 6749,
+      "w": 1440,
+      "h": 651
+     },
+     "lines": 1
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "government and healthcare",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "CONTROL MISSING"
+   ]
+  },
+  {
+   "index": 2,
+   "heading": "our capabilities",
+   "variable": false,
+   "origin": {
+    "link": 4,
+    "button": 2,
+    "text": 1,
+    "image": 4
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 4,
+    "imageHidden": 2
+   },
+   "findings": [
+    "MOVED LINK",
+    "MOVED LINK",
+    "MOVED LINK",
+    "MOVED LINK"
+   ]
+  },
+  {
+   "index": 3,
+   "heading": "critical national infrastructure",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "HEADING AS TEXT"
+   ]
+  },
+  {
+   "index": 4,
+   "heading": "managed services",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "data driven",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "insights",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 2
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "navigating the shift from project delivery to product centricity",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "the power of generative ai to transform the public sector",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "our expertise",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 6
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 5,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "ieo charts the future of healthcare with value based medicine",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "nhs blood & transplant: glue blood testing development",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 4,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "transforming controlled drug processes with intelligent digital solutions",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 13,
+   "heading": "ieo innovates mammographic screening with agent-based systems powered by artificial intelligence",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 2,
+    "image": 3
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 14,
+   "heading": "complex technology transformation",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 15,
+   "heading": "finops for an essential government programme",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 16,
+   "heading": "a modern workplace in uk central government",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 4,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 17,
+   "heading": "launching a new service for the elderly",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 18,
+   "heading": "our assets",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 2,
+    "text": 0,
+    "image": 3
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 1
+   },
+   "findings": []
+  },
+  {
+   "index": 19,
+   "heading": "e-cdr pro: efficient controlled drugs management",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 20,
+   "heading": "x-rais: the third eye in medical imaging",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 21,
+   "heading": "healthcare as a platform",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 22,
+   "heading": "telemedicine and connected care",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 2,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 23,
+   "heading": "start matching your business with our expertise",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 2
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 1
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "HEADING AS TEXT",
+   "msg": "origin h3 \"verification\" is served as plain text / a link, not a heading (visually present — semantics only)",
+   "band": 3,
+   "text": "verification"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"verification\" (y 1896) has no origin heading",
+   "text": "verification"
+  },
+  {
+   "sev": "🟡",
+   "kind": "CONTROL MISSING",
+   "msg": "trigger = \"contact us\" (band \"government and healthcare\") has no served counterpart",
+   "band": 1,
+   "label": "trigger",
+   "value": "contact us"
+  },
+  {
+   "sev": "🟡",
+   "kind": "MOVED LINK",
+   "msg": "\"critical national infrastructure\" short in band \"our capabilities\" but visible elsewhere on the served page",
+   "band": 2,
+   "n": 1,
+   "text": "critical national infrastructure"
+  },
+  {
+   "sev": "🟡",
+   "kind": "MOVED LINK",
+   "msg": "\"verification\" short in band \"our capabilities\" but visible elsewhere on the served page",
+   "band": 2,
+   "n": 1,
+   "text": "verification"
+  },
+  {
+   "sev": "🟡",
+   "kind": "MOVED LINK",
+   "msg": "\"managed services\" short in band \"our capabilities\" but visible elsewhere on the served page",
+   "band": 2,
+   "n": 1,
+   "text": "managed services"
+  },
+  {
+   "sev": "🟡",
+   "kind": "MOVED LINK",
+   "msg": "\"data driven\" short in band \"our capabilities\" but visible elsewhere on the served page",
+   "band": 2,
+   "n": 1,
+   "text": "data driven"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 1,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 4,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 7,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 1339,
+    "y": 7,
+    "w": 17,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 51,
+    "w": 62,
+    "h": 16
+   },
+   {
+    "x": 612,
+    "y": 51,
+    "w": 72,
+    "h": 16
+   },
+   {
+    "x": 740,
+    "y": 51,
+    "w": 110,
+    "h": 16
+   },
+   {
+    "x": 906,
+    "y": 51,
+    "w": 41,
+    "h": 16
+   },
+   {
+    "x": 1003,
+    "y": 51,
+    "w": 60,
+    "h": 16
+   },
+   {
+    "x": 1119,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1225,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 373,
+    "w": 573,
+    "h": 71
+   },
+   {
+    "x": 177,
+    "y": 443,
+    "w": 371,
+    "h": 71
+   },
+   {
+    "x": 362,
+    "y": 934,
+    "w": 717,
+    "h": 46
+   },
+   {
+    "x": 299,
+    "y": 984,
+    "w": 843,
+    "h": 46
+   },
+   {
+    "x": 364,
+    "y": 1035,
+    "w": 712,
+    "h": 46
+   },
+   {
+    "x": 641,
+    "y": 1085,
+    "w": 157,
+    "h": 46
+   },
+   {
+    "x": 668,
+    "y": 1189,
+    "w": 103,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 1438,
+    "w": 301,
+    "h": 40
+   },
+   {
+    "x": 96,
+    "y": 1885,
+    "w": 174,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 1911,
+    "w": 149,
+    "h": 22
+   },
+   {
+    "x": 434,
+    "y": 1911,
+    "w": 125,
+    "h": 22
+   },
+   {
+    "x": 772,
+    "y": 1911,
+    "w": 193,
+    "h": 22
+   },
+   {
+    "x": 1110,
+    "y": 1911,
+    "w": 125,
+    "h": 22
+   },
+   {
+    "x": 177,
+    "y": 2208,
+    "w": 147,
+    "h": 40
+   },
+   {
+    "x": 241,
+    "y": 2513,
+    "w": 90,
+    "h": 11
+   },
+   {
+    "x": 225,
+    "y": 2549,
+    "w": 377,
+    "h": 32
+   },
+   {
+    "x": 225,
+    "y": 2588,
+    "w": 394,
+    "h": 32
+   },
+   {
+    "x": 225,
+    "y": 2628,
+    "w": 150,
+    "h": 32
+   },
+   {
+    "x": 1029,
+    "y": 2552,
+    "w": 90,
+    "h": 11
+   },
+   {
+    "x": 1013,
+    "y": 2588,
+    "w": 439,
+    "h": 32
+   },
+   {
+    "x": 1013,
+    "y": 2628,
+    "w": 401,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 2833,
+    "w": 257,
+    "h": 40
+   },
+   {
+    "x": 97,
+    "y": 3100,
+    "w": 219,
+    "h": 22
+   },
+   {
+    "x": 97,
+    "y": 3126,
+    "w": 194,
+    "h": 22
+   },
+   {
+    "x": 97,
+    "y": 3152,
+    "w": 229,
+    "h": 22
+   },
+   {
+    "x": 113,
+    "y": 3193,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 97,
+    "y": 3227,
+    "w": 208,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3251,
+    "w": 187,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3275,
+    "w": 190,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3299,
+    "w": 164,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3323,
+    "w": 206,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3346,
+    "w": 184,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3370,
+    "w": 67,
+    "h": 16
+   },
+   {
+    "x": 418,
+    "y": 3235,
+    "w": 258,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 3261,
+    "w": 211,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 3287,
+    "w": 183,
+    "h": 22
+   },
+   {
+    "x": 434,
+    "y": 3328,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 756,
+    "y": 3235,
+    "w": 144,
+    "h": 22
+   },
+   {
+    "x": 756,
+    "y": 3261,
+    "w": 169,
+    "h": 22
+   },
+   {
+    "x": 756,
+    "y": 3287,
+    "w": 229,
+    "h": 22
+   },
+   {
+    "x": 772,
+    "y": 3328,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 1111,
+    "y": 3100,
+    "w": 132,
+    "h": 22
+   },
+   {
+    "x": 1111,
+    "y": 3126,
+    "w": 173,
+    "h": 22
+   },
+   {
+    "x": 1111,
+    "y": 3152,
+    "w": 142,
+    "h": 22
+   },
+   {
+    "x": 1127,
+    "y": 3193,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 1111,
+    "y": 3227,
+    "w": 188,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3251,
+    "w": 223,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3275,
+    "w": 230,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3299,
+    "w": 218,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3323,
+    "w": 163,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3346,
+    "w": 217,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3370,
+    "w": 188,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3394,
+    "w": 224,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3418,
+    "w": 213,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3442,
+    "w": 207,
+    "h": 16
+   },
+   {
+    "x": 1132,
+    "y": 3488,
+    "w": 75,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 3595,
+    "w": 219,
+    "h": 22
+   },
+   {
+    "x": 435,
+    "y": 3621,
+    "w": 161,
+    "h": 22
+   },
+   {
+    "x": 451,
+    "y": 3662,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 435,
+    "y": 3696,
+    "w": 175,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 3720,
+    "w": 198,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 3744,
+    "w": 193,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 3768,
+    "w": 208,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 3792,
+    "w": 208,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 3815,
+    "w": 201,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 3839,
+    "w": 220,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 3863,
+    "w": 203,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 3887,
+    "w": 203,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 3911,
+    "w": 203,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 3595,
+    "w": 139,
+    "h": 22
+   },
+   {
+    "x": 773,
+    "y": 3621,
+    "w": 227,
+    "h": 22
+   },
+   {
+    "x": 773,
+    "y": 3647,
+    "w": 125,
+    "h": 22
+   },
+   {
+    "x": 789,
+    "y": 3688,
+    "w": 106,
+    "h": 11
+   },
+   {
+    "x": 773,
+    "y": 3722,
+    "w": 215,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 3746,
+    "w": 195,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 3770,
+    "w": 160,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 3794,
+    "w": 205,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 3818,
+    "w": 218,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 3841,
+    "w": 158,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 3865,
+    "w": 230,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3675,
+    "w": 218,
+    "h": 22
+   },
+   {
+    "x": 97,
+    "y": 3701,
+    "w": 138,
+    "h": 22
+   },
+   {
+    "x": 97,
+    "y": 3727,
+    "w": 132,
+    "h": 22
+   },
+   {
+    "x": 113,
+    "y": 3768,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 97,
+    "y": 3802,
+    "w": 215,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3826,
+    "w": 144,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3850,
+    "w": 207,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3874,
+    "w": 222,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3898,
+    "w": 185,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3921,
+    "w": 205,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3945,
+    "w": 212,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3969,
+    "w": 229,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3993,
+    "w": 193,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 4017,
+    "w": 221,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 4017,
+    "w": 212,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3795,
+    "w": 177,
+    "h": 22
+   },
+   {
+    "x": 1111,
+    "y": 3821,
+    "w": 226,
+    "h": 22
+   },
+   {
+    "x": 1127,
+    "y": 3862,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 1111,
+    "y": 3896,
+    "w": 181,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3920,
+    "w": 192,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3944,
+    "w": 226,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3968,
+    "w": 195,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3992,
+    "w": 230,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 4015,
+    "w": 180,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 4039,
+    "w": 193,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 4063,
+    "w": 200,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 4087,
+    "w": 209,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 4111,
+    "w": 200,
+    "h": 16
+   },
+   {
+    "x": 631,
+    "y": 4240,
+    "w": 178,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 4490,
+    "w": 202,
+    "h": 40
+   },
+   {
+    "x": 104,
+    "y": 5087,
+    "w": 298,
+    "h": 27
+   },
+   {
+    "x": 104,
+    "y": 5119,
+    "w": 214,
+    "h": 27
+   },
+   {
+    "x": 555,
+    "y": 5119,
+    "w": 324,
+    "h": 27
+   },
+   {
+    "x": 1005,
+    "y": 5056,
+    "w": 258,
+    "h": 27
+   },
+   {
+    "x": 1005,
+    "y": 5087,
+    "w": 219,
+    "h": 27
+   },
+   {
+    "x": 1005,
+    "y": 5119,
+    "w": 173,
+    "h": 27
+   },
+   {
+    "x": 287,
+    "y": 5591,
+    "w": 106,
+    "h": 11
+   },
+   {
+    "x": 271,
+    "y": 5631,
+    "w": 424,
+    "h": 32
+   },
+   {
+    "x": 271,
+    "y": 5671,
+    "w": 67,
+    "h": 32
+   },
+   {
+    "x": 271,
+    "y": 5731,
+    "w": 427,
+    "h": 18
+   },
+   {
+    "x": 271,
+    "y": 5758,
+    "w": 411,
+    "h": 18
+   },
+   {
+    "x": 271,
+    "y": 5785,
+    "w": 113,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 6197,
+    "w": 330,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 6247,
+    "w": 393,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 6298,
+    "w": 281,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 6370,
+    "w": 401,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 6397,
+    "w": 396,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 6425,
+    "w": 231,
+    "h": 18
+   },
+   {
+    "x": 201,
+    "y": 6491,
+    "w": 108,
+    "h": 16
+   },
+   {
+    "x": 659,
+    "y": 6479,
+    "w": 116,
+    "h": 11
+   },
+   {
+    "x": 659,
+    "y": 6510,
+    "w": 173,
+    "h": 22
+   },
+   {
+    "x": 659,
+    "y": 6536,
+    "w": 156,
+    "h": 22
+   },
+   {
+    "x": 659,
+    "y": 6562,
+    "w": 206,
+    "h": 22
+   },
+   {
+    "x": 659,
+    "y": 6588,
+    "w": 139,
+    "h": 22
+   },
+   {
+    "x": 659,
+    "y": 6637,
+    "w": 148,
+    "h": 11
+   },
+   {
+    "x": 997,
+    "y": 6479,
+    "w": 116,
+    "h": 11
+   },
+   {
+    "x": 997,
+    "y": 6510,
+    "w": 214,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 6536,
+    "w": 148,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 6562,
+    "w": 176,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 6588,
+    "w": 187,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 6637,
+    "w": 148,
+    "h": 11
+   },
+   {
+    "x": 1335,
+    "y": 6505,
+    "w": 116,
+    "h": 11
+   },
+   {
+    "x": 1335,
+    "y": 6536,
+    "w": 217,
+    "h": 22
+   },
+   {
+    "x": 1335,
+    "y": 6562,
+    "w": 199,
+    "h": 22
+   },
+   {
+    "x": 1335,
+    "y": 6588,
+    "w": 154,
+    "h": 22
+   },
+   {
+    "x": 1335,
+    "y": 6637,
+    "w": 148,
+    "h": 11
+   },
+   {
+    "x": 64,
+    "y": 7023,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 7071,
+    "w": 103,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 7115,
+    "w": 45,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 7160,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 7205,
+    "w": 67,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 7023,
+    "w": 135,
+    "h": 16
+   },
+   {
+    "x": 402,
+    "y": 7071,
+    "w": 142,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 7115,
+    "w": 89,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 7132,
+    "w": 73,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 7177,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 7177,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 7222,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 7222,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 7071,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 7071,
+    "w": 69,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 7115,
+    "w": 127,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 7160,
+    "w": 121,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 7177,
+    "w": 85,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 7194,
+    "w": 39,
+    "h": 13
+   },
+   {
+    "x": 642,
+    "y": 7194,
+    "w": 51,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 7071,
+    "w": 157,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 7087,
+    "w": 36,
+    "h": 13
+   },
+   {
+    "x": 841,
+    "y": 7087,
+    "w": 64,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 7132,
+    "w": 154,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 7177,
+    "w": 147,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 7222,
+    "w": 130,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 7239,
+    "w": 128,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 7038,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 1112,
+    "y": 7118,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 7327,
+    "w": 81,
+    "h": 13
+   },
+   {
+    "x": 149,
+    "y": 7327,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 158,
+    "y": 7327,
+    "w": 136,
+    "h": 13
+   },
+   {
+    "x": 1296,
+    "y": 872,
+    "w": 124,
+    "h": 13
+   }
+  ],
+  "eds": [
+   {
+    "x": 1336,
+    "y": 7,
+    "w": 20,
+    "h": 13
+   },
+   {
+    "x": 486,
+    "y": 51,
+    "w": 63,
+    "h": 16
+   },
+   {
+    "x": 605,
+    "y": 51,
+    "w": 71,
+    "h": 16
+   },
+   {
+    "x": 733,
+    "y": 51,
+    "w": 111,
+    "h": 16
+   },
+   {
+    "x": 900,
+    "y": 51,
+    "w": 46,
+    "h": 16
+   },
+   {
+    "x": 1002,
+    "y": 51,
+    "w": 59,
+    "h": 16
+   },
+   {
+    "x": 1118,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1224,
+    "y": 51,
+    "w": 52,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 381,
+    "w": 549,
+    "h": 71
+   },
+   {
+    "x": 177,
+    "y": 451,
+    "w": 358,
+    "h": 71
+   },
+   {
+    "x": 362,
+    "y": 934,
+    "w": 715,
+    "h": 46
+   },
+   {
+    "x": 293,
+    "y": 984,
+    "w": 853,
+    "h": 46
+   },
+   {
+    "x": 362,
+    "y": 1035,
+    "w": 716,
+    "h": 46
+   },
+   {
+    "x": 642,
+    "y": 1085,
+    "w": 156,
+    "h": 46
+   },
+   {
+    "x": 668,
+    "y": 1188,
+    "w": 101,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1438,
+    "w": 299,
+    "h": 40
+   },
+   {
+    "x": 104,
+    "y": 1867,
+    "w": 206,
+    "h": 27
+   },
+   {
+    "x": 104,
+    "y": 1898,
+    "w": 176,
+    "h": 27
+   },
+   {
+    "x": 442,
+    "y": 1898,
+    "w": 147,
+    "h": 27
+   },
+   {
+    "x": 780,
+    "y": 1867,
+    "w": 120,
+    "h": 27
+   },
+   {
+    "x": 780,
+    "y": 1898,
+    "w": 112,
+    "h": 27
+   },
+   {
+    "x": 1118,
+    "y": 1898,
+    "w": 151,
+    "h": 27
+   },
+   {
+    "x": 177,
+    "y": 2208,
+    "w": 150,
+    "h": 40
+   },
+   {
+    "x": 241,
+    "y": 2512,
+    "w": 101,
+    "h": 13
+   },
+   {
+    "x": 225,
+    "y": 2549,
+    "w": 359,
+    "h": 32
+   },
+   {
+    "x": 225,
+    "y": 2588,
+    "w": 389,
+    "h": 32
+   },
+   {
+    "x": 225,
+    "y": 2628,
+    "w": 140,
+    "h": 32
+   },
+   {
+    "x": 1029,
+    "y": 2551,
+    "w": 101,
+    "h": 13
+   },
+   {
+    "x": 1013,
+    "y": 2588,
+    "w": 433,
+    "h": 32
+   },
+   {
+    "x": 1013,
+    "y": 2628,
+    "w": 389,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 2833,
+    "w": 264,
+    "h": 40
+   },
+   {
+    "x": 97,
+    "y": 3100,
+    "w": 216,
+    "h": 22
+   },
+   {
+    "x": 97,
+    "y": 3126,
+    "w": 184,
+    "h": 22
+   },
+   {
+    "x": 97,
+    "y": 3152,
+    "w": 231,
+    "h": 22
+   },
+   {
+    "x": 113,
+    "y": 3192,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 97,
+    "y": 3227,
+    "w": 202,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3251,
+    "w": 188,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3275,
+    "w": 182,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3299,
+    "w": 163,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3323,
+    "w": 206,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3346,
+    "w": 186,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3370,
+    "w": 62,
+    "h": 16
+   },
+   {
+    "x": 418,
+    "y": 3235,
+    "w": 250,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 3261,
+    "w": 214,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 3287,
+    "w": 172,
+    "h": 22
+   },
+   {
+    "x": 434,
+    "y": 3327,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 756,
+    "y": 3235,
+    "w": 146,
+    "h": 22
+   },
+   {
+    "x": 756,
+    "y": 3261,
+    "w": 163,
+    "h": 22
+   },
+   {
+    "x": 756,
+    "y": 3287,
+    "w": 222,
+    "h": 22
+   },
+   {
+    "x": 772,
+    "y": 3327,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 1111,
+    "y": 3100,
+    "w": 138,
+    "h": 22
+   },
+   {
+    "x": 1111,
+    "y": 3126,
+    "w": 170,
+    "h": 22
+   },
+   {
+    "x": 1111,
+    "y": 3152,
+    "w": 142,
+    "h": 22
+   },
+   {
+    "x": 1127,
+    "y": 3192,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 1111,
+    "y": 3227,
+    "w": 190,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3251,
+    "w": 232,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3275,
+    "w": 222,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3299,
+    "w": 215,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3323,
+    "w": 161,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3346,
+    "w": 220,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3370,
+    "w": 182,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3394,
+    "w": 215,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3418,
+    "w": 202,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3442,
+    "w": 204,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3483,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 3595,
+    "w": 214,
+    "h": 22
+   },
+   {
+    "x": 435,
+    "y": 3621,
+    "w": 152,
+    "h": 22
+   },
+   {
+    "x": 451,
+    "y": 3661,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 435,
+    "y": 3696,
+    "w": 173,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 3720,
+    "w": 192,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 3744,
+    "w": 188,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 3768,
+    "w": 206,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 3792,
+    "w": 204,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 3815,
+    "w": 198,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 3839,
+    "w": 212,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 3863,
+    "w": 201,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 3887,
+    "w": 201,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 3911,
+    "w": 196,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 3595,
+    "w": 140,
+    "h": 22
+   },
+   {
+    "x": 773,
+    "y": 3621,
+    "w": 224,
+    "h": 22
+   },
+   {
+    "x": 773,
+    "y": 3647,
+    "w": 120,
+    "h": 22
+   },
+   {
+    "x": 789,
+    "y": 3687,
+    "w": 118,
+    "h": 13
+   },
+   {
+    "x": 773,
+    "y": 3722,
+    "w": 213,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 3746,
+    "w": 188,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 3770,
+    "w": 158,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 3794,
+    "w": 196,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 3818,
+    "w": 207,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 3841,
+    "w": 158,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 3865,
+    "w": 221,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3675,
+    "w": 217,
+    "h": 22
+   },
+   {
+    "x": 97,
+    "y": 3701,
+    "w": 137,
+    "h": 22
+   },
+   {
+    "x": 97,
+    "y": 3727,
+    "w": 130,
+    "h": 22
+   },
+   {
+    "x": 113,
+    "y": 3767,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 97,
+    "y": 3802,
+    "w": 213,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3826,
+    "w": 139,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3850,
+    "w": 199,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3874,
+    "w": 214,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3898,
+    "w": 181,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3921,
+    "w": 206,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3945,
+    "w": 226,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3969,
+    "w": 218,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 3993,
+    "w": 216,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 4017,
+    "w": 216,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3795,
+    "w": 174,
+    "h": 22
+   },
+   {
+    "x": 1111,
+    "y": 3821,
+    "w": 221,
+    "h": 22
+   },
+   {
+    "x": 1127,
+    "y": 3861,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 1111,
+    "y": 3896,
+    "w": 178,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3920,
+    "w": 189,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3944,
+    "w": 222,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3968,
+    "w": 222,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 3992,
+    "w": 219,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 4015,
+    "w": 214,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 4039,
+    "w": 203,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 4063,
+    "w": 221,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 4087,
+    "w": 219,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 4111,
+    "w": 114,
+    "h": 16
+   },
+   {
+    "x": 633,
+    "y": 4239,
+    "w": 174,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 4490,
+    "w": 214,
+    "h": 40
+   },
+   {
+    "x": 104,
+    "y": 5087,
+    "w": 294,
+    "h": 27
+   },
+   {
+    "x": 104,
+    "y": 5119,
+    "w": 209,
+    "h": 27
+   },
+   {
+    "x": 555,
+    "y": 5119,
+    "w": 315,
+    "h": 27
+   },
+   {
+    "x": 1005,
+    "y": 5056,
+    "w": 256,
+    "h": 27
+   },
+   {
+    "x": 1005,
+    "y": 5087,
+    "w": 217,
+    "h": 27
+   },
+   {
+    "x": 1005,
+    "y": 5119,
+    "w": 170,
+    "h": 27
+   },
+   {
+    "x": 287,
+    "y": 5590,
+    "w": 118,
+    "h": 13
+   },
+   {
+    "x": 271,
+    "y": 5631,
+    "w": 419,
+    "h": 32
+   },
+   {
+    "x": 271,
+    "y": 5671,
+    "w": 64,
+    "h": 32
+   },
+   {
+    "x": 271,
+    "y": 5731,
+    "w": 429,
+    "h": 18
+   },
+   {
+    "x": 271,
+    "y": 5758,
+    "w": 428,
+    "h": 18
+   },
+   {
+    "x": 271,
+    "y": 5785,
+    "w": 80,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 6204,
+    "w": 315,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 6254,
+    "w": 388,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 6305,
+    "w": 276,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 6377,
+    "w": 404,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 6404,
+    "w": 376,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 6432,
+    "w": 228,
+    "h": 18
+   },
+   {
+    "x": 201,
+    "y": 6497,
+    "w": 117,
+    "h": 18
+   },
+   {
+    "x": 659,
+    "y": 6485,
+    "w": 129,
+    "h": 13
+   },
+   {
+    "x": 659,
+    "y": 6517,
+    "w": 170,
+    "h": 22
+   },
+   {
+    "x": 659,
+    "y": 6543,
+    "w": 166,
+    "h": 22
+   },
+   {
+    "x": 659,
+    "y": 6569,
+    "w": 199,
+    "h": 22
+   },
+   {
+    "x": 659,
+    "y": 6595,
+    "w": 139,
+    "h": 22
+   },
+   {
+    "x": 659,
+    "y": 6643,
+    "w": 165,
+    "h": 13
+   },
+   {
+    "x": 997,
+    "y": 6485,
+    "w": 129,
+    "h": 13
+   },
+   {
+    "x": 997,
+    "y": 6517,
+    "w": 208,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 6543,
+    "w": 149,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 6569,
+    "w": 175,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 6595,
+    "w": 182,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 6643,
+    "w": 165,
+    "h": 13
+   },
+   {
+    "x": 1335,
+    "y": 6511,
+    "w": 129,
+    "h": 13
+   },
+   {
+    "x": 1335,
+    "y": 6543,
+    "w": 212,
+    "h": 22
+   },
+   {
+    "x": 1335,
+    "y": 6569,
+    "w": 195,
+    "h": 22
+   },
+   {
+    "x": 1335,
+    "y": 6595,
+    "w": 146,
+    "h": 22
+   },
+   {
+    "x": 1335,
+    "y": 6643,
+    "w": 165,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6909,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 6958,
+    "w": 102,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 7002,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 7047,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 7092,
+    "w": 66,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6909,
+    "w": 135,
+    "h": 18
+   },
+   {
+    "x": 402,
+    "y": 6958,
+    "w": 145,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 7002,
+    "w": 88,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 7019,
+    "w": 71,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 7064,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 7064,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 7109,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 7109,
+    "w": 58,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6958,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 6958,
+    "w": 68,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 7002,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 7047,
+    "w": 120,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 7064,
+    "w": 83,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 7081,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 643,
+    "y": 7081,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6958,
+    "w": 156,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6974,
+    "w": 41,
+    "h": 13
+   },
+   {
+    "x": 845,
+    "y": 6974,
+    "w": 65,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 7019,
+    "w": 153,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 7064,
+    "w": 143,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 7109,
+    "w": 132,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 7126,
+    "w": 126,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 6924,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 1112,
+    "y": 7004,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 7214,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 152,
+    "y": 7214,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 160,
+    "y": 7214,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 1298,
+    "y": 871,
+    "w": 122,
+    "h": 16
+   }
+  ]
+ }
+}

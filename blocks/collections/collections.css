@@ -1,0 +1,115 @@
+/* collections — en-insights.css .ins-collections (ink band) / .ins-coll-head (+ --first, __cell--wide)
+   / .ins-eyebrow--on-dark / .ins-eyebrow-gap--coll; title = modules.css .t-section .t-white. */
+.collections-container {
+  display: flow-root;
+  padding-bottom: 88px; /* .ins-coll--last margin-bottom, painted in the band colour */
+  background-color: #151f27;
+}
+
+.collections {
+  display: flow-root;
+}
+
+.collections .collections-grid {
+  margin-top: 96px;
+  margin-bottom: 32px;
+}
+
+.collections.first .collections-grid {
+  margin-top: 80px;
+}
+
+.collections .collections-cell {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  align-items: center;
+  align-content: center;
+}
+
+.collections .collections-eyebrow p {
+  margin: 0;
+  color: #a9b3bc;
+  font-family: txtislskto, var(--font-label);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+.collections .collections-gap {
+  height: 32px;
+}
+
+.collections .collections-title :is(h1, h2, h3, h4, h5, h6, p) {
+  margin: 0;
+  color: #fff;
+  font-family: var(--font-lead);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+@media (width >= 768px) {
+  .collections .collections-grid {
+    margin-top: 104px;
+    margin-bottom: 36px;
+  }
+
+  .collections.first .collections-grid {
+    margin-top: 88px;
+  }
+
+  .collections .collections-cell:not(.has-eyebrow) {
+    grid-column: 1 / 9;
+  }
+
+  .collections .collections-gap {
+    height: 36px;
+  }
+}
+
+@media (width >= 1024px) {
+  .collections .collections-grid {
+    margin-top: 96px;
+  }
+
+  .collections.first .collections-grid {
+    margin-bottom: 0;
+  }
+
+  .collections .collections-cell {
+    grid-column: 2 / 7;
+  }
+
+  .collections .collections-cell:not(.has-eyebrow) {
+    grid-column: 2 / 10;
+  }
+
+  .collections .collections-gap {
+    height: 40px;
+  }
+}
+
+@media (width >= 1440px) {
+  .collections-container {
+    padding-bottom: 120px;
+  }
+
+  .collections .collections-grid {
+    margin-top: 120px;
+    margin-bottom: 40px;
+  }
+
+  .collections.first .collections-grid {
+    margin-top: 96px;
+    margin-bottom: 40px;
+  }
+
+  .collections .collections-gap {
+    height: 28px;
+  }
+
+  .collections .collections-title :is(h1, h2, h3, h4, h5, h6, p) {
+    font-size: 36px;
+  }
+}

@@ -1,0 +1,71 @@
+[live-session] waiting to pace live navigations to www.reply.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 803 ms
+
+Content diff @ 360px (profile "generic", roots: #main-content, header, footer)
+root "#main-content"
+  source: 179 text nodes — 28 headings, 48 eyebrows, 26 CTAs, 77 body; 44 img
+  build: 180 text nodes — 29 headings, 47 eyebrows, 28 CTAs, 76 body; 67 img
+  editable texts (outermost h*/p/ul/ol): source 100 / build 42
+  attributes (placeholder/aria-label/title): source 70 / build 85; icons: source 24 / build 29
+root "header"
+  source: 25 text nodes — 0 headings, 0 eyebrows, 17 CTAs, 8 body; 1 img
+  build: 25 text nodes — 0 headings, 0 eyebrows, 17 CTAs, 8 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 11 / build 11; icons: source 14 / build 14
+root "footer"
+  source: 15 text nodes — 0 headings, 0 eyebrows, 14 CTAs, 1 body; 1 img
+  build: 15 text nodes — 0 headings, 0 eyebrows, 14 CTAs, 1 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 0 / build 1; icons: source 3 / build 3
+
+Findings: 50 (1 structural 🔴)
+Tiers: looks-same 🔴 1 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 49
+  🔴 ROLE SWAP [#main-content]: "Main" is a eyebrow in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🟠 EXTRA [#main-content]: build heading "Our strong partnership enables us to deliver exc" has no source source — Unexpected node with no source.
+  🟠 EXTRA [#main-content]: build cta "Google" has no source source — Unexpected node with no source.
+  🟠 EXTRA [#main-content]: build cta "Terms" has no source source — Unexpected node with no source.
+  🟠 FONT FORK [#main-content]: 118 matched line(s) render a DIFFERENT face: body "Rotkäppchen-Mum: manages sal": source Alaska→sys vs build Alaska→sys (191%); body "Rotkäppchen-Mum: manages sal": source Alaska→sys vs build Alaska→sys (191%); body "A central sales platform con": source Alaska→sys vs build Alaska→sys (179%); body "Your digitalization partner ": source aawdfdgnxz→sys vs build aawdfdgnxz (151%); body "We shape the digital future ": source aawdfdgnxz→sys vs build aawdfdgnxz (160%); body "We are in and support compan": source aawdfdgnxz→sys vs build aawdfdgnxz (172%); body "consumer goods": source aawdfdgnxz vs build aawdfdgnxz (13%); body "We are in and support compan": source aawdfdgnxz→sys vs build aawdfdgnxz (172%) (+110 more). A matched line renders a different typeface. A "→sys" on the source side means it named a font it never loaded; confirm the substitution is intended, else load the missing face.
+  🟠 FONT FORK [header]: 7 matched line(s) render a DIFFERENT face: cta "CX Sales & Service Managemen": source khanqyjjei→sys vs build Alaska→sys (120%); cta "Customer and Consumer Engage": source khanqyjjei→sys vs build Alaska→sys (159%); cta "Data Value Management": source khanqyjjei→sys vs build Alaska→sys (67%); cta "Revenue Growth Management": source khanqyjjei→sys vs build Alaska→sys (102%); cta "Data & Analytics Workshop": source khanqyjjei→sys vs build Alaska→sys (81%); cta "SAP Analytics Cloud": source khanqyjjei→sys vs build Alaska→sys (32%); body "What are you looking for?": source tuqgwxsjgq→sys vs build tuqgwxsjgq (107%). A matched line renders a different typeface. A "→sys" on the source side means it named a font it never loaded; confirm the substitution is intended, else load the missing face.
+  🟠 FONT FORK [footer]: 12 matched line(s) render a DIFFERENT face: body "Privacy and Legal": source tuqgwxsjgq→sys vs build tuqgwxsjgq (45%); cta "Privacy & Cookie Policy": source Alaska→sys vs build Alaska→sys (54%); cta "Privacy Notice (Candidate)": source Alaska→sys vs build Alaska→sys (73%); cta "Privacy Notice (Client)": source Alaska→sys vs build Alaska→sys (42%); cta "Privacy Notice (Supplier)": source Alaska→sys vs build Alaska→sys (59%); cta "Privacy Notice (Marketing)": source Alaska→sys vs build Alaska→sys (73%); cta "CCPA Privacy Notice": source Alaska→sys vs build Alaska→sys (31%); cta "Modern Slavery Act Transpare": source Alaska→sys vs build Alaska→sys (172%) (+4 more). A matched line renders a different typeface. A "→sys" on the source side means it named a font it never loaded; confirm the substitution is intended, else load the missing face.
+  🟡 MISSING BODY [#main-content]: source body "Our strong enables us to deliver excellent solut"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "partnership"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "No contents here."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Gütersloh"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [#main-content]: build body "Map Data" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "100 km" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EDITABLE COUNT [#main-content]: build has 42 outermost editable element(s) vs 100 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 MISSING TITLE [#main-content]: source <a> title="https://www.reply.com/en/retail-and-consumer-pro" has no build <a> with that title (build <a> titles: "Rotkäppchen-Mumm manages sales and retai", "Gerolsteiner lays the foundation for per", "Bitburger: Gamification as the key to da"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#main-content]: source <a> title="Customer Experience Management" has no build <a> with that title (build <a> titles: "Rotkäppchen-Mumm manages sales and retai", "Gerolsteiner lays the foundation for per", "Bitburger: Gamification as the key to da"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#main-content]: source <a> title="Customer & Consumer Engagement" has no build <a> with that title (build <a> titles: "Rotkäppchen-Mumm manages sales and retai", "Gerolsteiner lays the foundation for per", "Bitburger: Gamification as the key to da"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#main-content]: source <a> title="Data Value Management" has no build <a> with that title (build <a> titles: "Rotkäppchen-Mumm manages sales and retai", "Gerolsteiner lays the foundation for per", "Bitburger: Gamification as the key to da"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#main-content]: source <a> title="Revenue Growth Management" has no build <a> with that title (build <a> titles: "Rotkäppchen-Mumm manages sales and retai", "Gerolsteiner lays the foundation for per", "Bitburger: Gamification as the key to da"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <button> aria-label="Close" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <aside> aria-label="Highlight" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <button> aria-label="Toggle abstract" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <div> aria-label="Key figures" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <div> aria-label="Services" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <input> aria-label="Show abstract" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <input> aria-label="Show abstract" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <input> aria-label="Show abstract" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <input> aria-label="Show abstract" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <div> aria-label="Our success stories" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <div> aria-label="Innovation driver" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <div> aria-label="Our strong partnership" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <div> aria-label="News & Events" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <div> aria-label="Map" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <button> aria-label="Toggle fullscreen view" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <button> aria-label="Map camera controls" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <button> aria-label="Zoom in" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <button> aria-label="Zoom out" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <a> aria-label="Open this area in Google Maps (opens a new windo" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <a> aria-label="Terms (opens in new tab)" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON MOVED [#main-content]: source icon-font glyph U+EB98 (Website Icons, 22×12) at "button#1" is at "toggle abstract" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source icon-font glyph U+EA4E (Website Icons, 0×0) at "button#1" is at "toggle abstract" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source inline svg 0 0 20 20 / 1 shape(s) (20×20) at "button#2" is at "close" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 MISSING ICON [#main-content]: source inline svg 0 0 18 11 / 1 shape(s) (0×0) at "germany 1 offices main gütersloh gütersl" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 EXTRA ICON [#main-content]: build image data:image/svg+xml… (40×48) at "google map data 100 km terms" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image data:image/svg+xml… (40×48) at "google map data 100 km terms" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build inline svg 0 0 18 18 / 1 shape(s) (18×18) at "toggle fullscreen view" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build inline svg 0 0 18 18 / 1 shape(s) (18×18) at "map camera controls" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build inline svg 0 0 18 18 / 1 shape(s) (18×18) at "zoom in" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build inline svg 0 0 18 18 / 1 shape(s) (18×18) at "zoom out" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ARIA-LABEL [footer]: build <nav> aria-label="Footer navigation" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

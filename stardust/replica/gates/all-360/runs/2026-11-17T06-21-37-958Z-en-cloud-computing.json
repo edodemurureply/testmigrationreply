@@ -1,0 +1,100 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-17T06:21:37.957Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.reply.com",
+    "eds": "https://main--a355dc1b--aemcoder.aem.page",
+    "edsHostOverride": "https://main--a355dc1b--aemcoder.aem.page",
+    "only": [
+      "en-cloud-computing"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 1,
+    "overridePass": 1,
+    "fail": 1,
+    "error": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 1,
+    "failUnits": 0,
+    "fontsNotLoaded": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 1
+  },
+  "rows": [
+    {
+      "slug": "en-cloud-computing",
+      "path": "/en/cloud-computing",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 5.46,
+      "textPct": 21.34,
+      "heightDelta": 8,
+      "originH": 22048,
+      "edsH": 22040,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "content MISSING 1 / HIDDEN 0"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 1,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 2,
+        "variable": []
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "timing",
+        "reason": "content = autoplay timing only: the 'Technology' rail (slider-with-title autoplay infinite, live data-infinite slider) holds the same 4 items (Cloud Native Architecture, Cloud Automation, Observability, Security & Compliance) in the same order on both sides; each side is probed at another rail phase, so the one heading in the viewport slot differs (360 06:19 gate: origin h3 'Security & Compliance' at y 6019, delivered 'Cloud Native Architecture' at y 6020 = MISSING 1 + EXTRA 1; fix-hub-m mev probe 06:07: live 'Cloud Native Architecture' peeking at x 340 y 6019 while delivered holds it at x 40; 360 05:25 gate (fix-hub-l): live item 4 at x 40, delivered item 1) — same evidence basis as the 1440 entry. Pixel 5.46 %, dh 8, clip 0 at 06:19 (fix-hub-m, 2026-11-17)"
+      },
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [
+        "1000-1500:18.5%"
+      ],
+      "error": null
+    }
+  ]
+}

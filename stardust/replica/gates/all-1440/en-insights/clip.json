@@ -1,0 +1,97 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.live/en/insights",
+ "at": "2026-11-17T00:57:22.198Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 8,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 7,
+  "offPage": 129,
+  "textNodes": 232,
+  "controls": 162,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 6,
+   "clipper": "div.card-carousel.simple",
+   "path": "ul.card-carousel-track > li.card-carousel-item.is-clone > div.reply-card.reply-card-slider > a.reply-card-cover",
+   "text": "finops for ai: controlling costs while driving innovationart",
+   "cutMin": 274,
+   "cutMax": 274
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 5,
+   "clipper": "a",
+   "path": "div.reply-card-body > div.reply-card-title > h3#cyber-resilience-act-from-regulatory-compliance-to-secure-product-lifecycle > a",
+   "text": "cyber resilience act: from regulatory compliance to secure p",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.reply-card-image-container",
+   "path": "div.reply-card.reply-card-horizontal > div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+   "text": "digital experience trends 2026",
+   "cutMin": 23,
+   "cutMax": 23
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h3#sovereign-ai-for-european-organisations-foundation-models-infrastructure-and-compliance",
+   "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#sovereign-ai-for-european-organisations-foundation-models-infrastructure-and-compliance",
+   "text": "sovereign ai for european organisations: foundation models, ",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h3#llmops-how-organisations-can-scale-generative-ai-cost-effectively-and-securely",
+   "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#llmops-how-organisations-can-scale-generative-ai-cost-effectively-and-securely",
+   "text": "llmops: how organisations can scale generative ai cost-effec",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h3#how-companies-can-build-a-competitive-marketing-organization-in-the-age-of-ai",
+   "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#how-companies-can-build-a-competitive-marketing-organization-in-the-age-of-ai",
+   "text": "how companies can build a competitive marketing organization",
+   "cutMin": null,
+   "cutMax": null
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 10,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 7,
+   "offPage": 129,
+   "textNodes": 230,
+   "controls": 161,
+   "total": 0
+  }
+ }
+}

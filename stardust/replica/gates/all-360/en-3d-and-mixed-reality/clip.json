@@ -1,0 +1,87 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.page/en/3d-and-mixed-reality",
+ "at": "2026-11-17T05:04:23.742Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 1,
+  "clamped": 3,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 2,
+  "offPage": 74,
+  "textNodes": 128,
+  "controls": 107,
+  "total": 1
+ },
+ "groups": [
+  {
+   "kind": "CONTROL CLIPPED",
+   "advisory": false,
+   "n": 1,
+   "clipper": "div.reply-card-image-container",
+   "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-content > a.reply-card-link",
+   "text": "virtual interactive showroomprotocube reply believes that th",
+   "cutMin": 8,
+   "cutMax": 8
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.hero-card-abstract",
+   "path": "div.hero-card-grid > div.hero-card-body > div.hero-card-abstract > p",
+   "text": "products to explore. stories to enter. experiences to live w",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "a",
+   "path": "div.reply-card-body > div.reply-card-title > h3#step-into-the-new-era-of-spatial-computing-with-apple-vision-pro-and-reply > a",
+   "text": "step into the new era of spatial computing with apple vision",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "artificial intelligence",
+   "cutMin": 131,
+   "cutMax": 131
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "artificial intelligence",
+   "cutMin": 131,
+   "cutMax": 131
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 1,
+   "clamped": 3,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 52,
+   "textNodes": 113,
+   "controls": 90,
+   "total": 1
+  }
+ }
+}

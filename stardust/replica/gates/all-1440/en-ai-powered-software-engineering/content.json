@@ -1,0 +1,5180 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-17T00:34:02.147Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.reply.com/en/ai-powered-software-engineering",
+  "at": "2026-11-17T00:33:41.743Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4736,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-bottom.w-full > div.logo.flex > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "go to homepage",
+    "href": "/en"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 906,
+    "y": 28,
+    "w": 41,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 1225,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "custom-menu-runtime.header.flex > nav.header-bottom.w-full > button.hidden.lg:block",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pt-5.xl:pt-6 > div.flex.items-center > a.flex.items-center",
+    "x": 177,
+    "y": 716,
+    "w": 593,
+    "h": 54,
+    "text": "from code to control a forrester study for reply explores the shift toward agent",
+    "href": "/en/artificial-intelligence/from-code-to-control-ais-takeover-of-software-development-lifecycle"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h1#e18S5",
+    "x": 177,
+    "y": 382,
+    "w": 861,
+    "h": 141,
+    "level": 1,
+    "text": "ai-powered software engineering"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h1#e18S5 > span.colors-1-gbfb",
+    "x": 177,
+    "y": 381,
+    "w": 725,
+    "h": 141,
+    "text": "AI-powered Software Engineering"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h1#YVdu3",
+    "x": 289,
+    "y": 908,
+    "w": 861,
+    "h": 14,
+    "level": 1,
+    "text": "future-proofing with artificial intelligence"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 289,
+    "y": 946,
+    "w": 861,
+    "h": 173,
+    "text": "In the fast-paced Generative AI revolution, IT evolves swiftly, transforming cha"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 219,
+    "y": 1255,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "f3fc2e48-3e43-4b46-a8b6-a73b17d3f30b"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 64,
+    "y": 1375,
+    "w": 411,
+    "h": 94,
+    "text": "AI Agents for Software Development Life Cycle"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 64,
+    "y": 1478,
+    "w": 411,
+    "h": 54,
+    "text": "Our Silicon Shoring model introduce AI Agents in every phase of the SDLC."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 97,
+    "y": 1588,
+    "w": 345,
+    "h": 194,
+    "text": "",
+    "file": "f16c225a-b3ba-49fe-8351-7068a18615a9"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#B9JSI > div.reply-card-body > a",
+    "x": 97,
+    "y": 1802,
+    "w": 345,
+    "h": 26,
+    "text": "rethink software development",
+    "href": "/en/ai-powered-software-engineering/silicon-shoring"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 97,
+    "y": 1802,
+    "w": 345,
+    "h": 26,
+    "level": 3,
+    "text": "rethink software development"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-cta.mt-5 > a.button.button-1cehk",
+    "x": 97,
+    "y": 1866,
+    "w": 345,
+    "h": 41,
+    "text": "find out more",
+    "href": "/en/ai-powered-software-engineering/silicon-shoring"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 670,
+    "y": 1255,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "9e69756b-3ba7-4509-bd51-f2f203f03ad1"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 515,
+    "y": 1375,
+    "w": 411,
+    "h": 94,
+    "text": "Next-gen architectures powered by Artificial Intelligence"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 515,
+    "y": 1478,
+    "w": 411,
+    "h": 54,
+    "text": "The adoption of AI-centric architectures fosters the rise of a new wave of appli"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 548,
+    "y": 1588,
+    "w": 345,
+    "h": 194,
+    "text": "",
+    "file": "a579e077-c486-48c2-8425-26a1211f253c"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#Jyuuk > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": 548,
+    "y": 1802,
+    "w": 345,
+    "h": 26,
+    "level": 3,
+    "text": "embed ai in your architecture"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-cta.mt-5 > a.button.button-1cehk",
+    "x": 548,
+    "y": 1866,
+    "w": 345,
+    "h": 41,
+    "text": "find out more",
+    "href": "/en/ai-powered-software-engineering/next-gen-architectures-powered-by-ai"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 1121,
+    "y": 1255,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "8019100f-ae01-4f80-8a70-93397cd44d1b"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 965,
+    "y": 1375,
+    "w": 411,
+    "h": 62,
+    "text": "Artificial Intelligence for legacy modernisation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 965,
+    "y": 1447,
+    "w": 411,
+    "h": 54,
+    "text": "Generative AI to expedite the comprehension, rewriting, and update of legacy sys"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 998,
+    "y": 1588,
+    "w": 345,
+    "h": 194,
+    "text": "",
+    "file": "adfbacba-a54b-41df-87f8-f9a3494eaea9"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#sCA81 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": 998,
+    "y": 1802,
+    "w": 345,
+    "h": 26,
+    "level": 3,
+    "text": "evolve faster, with less risks"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-cta.mt-5 > a.button.button-1cehk",
+    "x": 998,
+    "y": 1866,
+    "w": 345,
+    "h": 41,
+    "text": "find out more",
+    "href": "/en/ai-powered-software-engineering/artificial-intelligence-for-legacy-modernisation"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h4#Fk7ca",
+    "x": 177,
+    "y": 2100,
+    "w": 411,
+    "h": 78,
+    "level": 4,
+    "text": "leverage on copilots along all your organisation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h4#Fk7ca > span.colors-1-gbfb",
+    "x": 177,
+    "y": 2103,
+    "w": 406,
+    "h": 71,
+    "text": "Leverage on Copilots along all your organisation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.fvsnrmsuzw.fvsnrmsuzw-md > div > a#ypOLl",
+    "x": 1131,
+    "y": 2100,
+    "w": 132,
+    "h": 48,
+    "text": "discover more",
+    "href": "/en/ai-powered-software-engineering/boosting-copilot-adoption"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p > span.colors-1-gbfb",
+    "x": 177,
+    "y": 2222,
+    "w": 705,
+    "h": 72,
+    "text": "Copilots are indispensable allies, seamlessly integrating into the daily activit"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > strong > span.colors-1-gbfb",
+    "x": 364,
+    "y": 2276,
+    "w": 163,
+    "h": 18,
+    "text": "intelligent systems"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p > span.colors-1-gbfb",
+    "x": 177,
+    "y": 2276,
+    "w": 697,
+    "h": 99,
+    "text": "effectively collaborate with human counterparts, streamlining tasks and offering"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#FHLQq",
+    "x": 177,
+    "y": 2620,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "our expertise"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#OoaJn > a",
+    "x": -105,
+    "y": 2773,
+    "w": 298,
+    "h": 447,
+    "text": "low-code best practice",
+    "href": "/en/ai-powered-software-engineering/low-code"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": -105,
+    "y": 2773,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "f37bc945-b54e-49fc-9079-d2acca246b02"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": -73,
+    "y": 3124,
+    "w": 234,
+    "h": 26,
+    "level": 3,
+    "text": "low-code"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#XWXN3 > a",
+    "x": 233,
+    "y": 2773,
+    "w": 298,
+    "h": 447,
+    "text": "sovereign ai coding article",
+    "href": "/en/ai-powered-software-engineering/sovereign-ai-coding-running-on-edge-environments-for-compliant-software-development"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 233,
+    "y": 2773,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "4a71a971-c7f2-4857-80d5-3483d3fc1582"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": 265,
+    "y": 3124,
+    "w": 234,
+    "h": 26,
+    "level": 3,
+    "text": "sovereign ai coding"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#XWXN3 > a",
+    "x": 571,
+    "y": 2773,
+    "w": 298,
+    "h": 447,
+    "text": "how audi is redefining software development for the “used car platform” case stu",
+    "href": "/en/ai-powered-software-engineering/how-audi-is-redefining-software-development"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 571,
+    "y": 2773,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "c4cbfd2f-2984-4ffa-9722-42d02033955c"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": 603,
+    "y": 3072,
+    "w": 234,
+    "h": 78,
+    "level": 3,
+    "text": "how audi is redefining software development for the “used car platform”"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#XWXN3 > a",
+    "x": 909,
+    "y": 2773,
+    "w": 298,
+    "h": 447,
+    "text": "agentic ai for legacy modernisation best practice",
+    "href": "/en/artificial-intelligence/agentic-ai-for-legacy-modernisation"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 909,
+    "y": 2773,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "70dffb98-120f-474d-94f7-a2b3b7db553c"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": 941,
+    "y": 3098,
+    "w": 234,
+    "h": 52,
+    "level": 3,
+    "text": "agentic ai for legacy modernisation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#XWXN3 > a",
+    "x": 1247,
+    "y": 2773,
+    "w": 298,
+    "h": 447,
+    "text": "ai change request assistant case study",
+    "href": "/en/ai-powered-software-engineering/ai-change-request-assistant"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 1247,
+    "y": 2773,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "9e70646f-a0bb-425f-8c7e-9aaa325e8557"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": 1279,
+    "y": 3098,
+    "w": 234,
+    "h": 52,
+    "level": 3,
+    "text": "ai change request assistant"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-prev.round-bt",
+    "x": 89,
+    "y": 2973,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-next.round-bt",
+    "x": 1303,
+    "y": 2973,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.banner-content.flex > picture.banner-logo > img.picture.grid-bg",
+    "x": 177,
+    "y": 3524,
+    "w": 103,
+    "h": 36,
+    "text": "reply rose logo",
+    "file": "6fcab6ec-285b-4545-a46d-72f4927d4bbe"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-banner-container.rosepub > div.banner-content.flex > h3.banner-title.text-white",
+    "x": 177,
+    "y": 3572,
+    "w": 411,
+    "h": 202,
+    "level": 3,
+    "text": "the one click between a challenge and its solution"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-banner-container.rosepub > div.banner-content.flex > div.banner-abstract.text-white",
+    "x": 177,
+    "y": 3794,
+    "w": 411,
+    "h": 82,
+    "text": "Gain expertise with Reply’s worldwide network of experts and find practical solu"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-banner-container.rosepub > div.banner-content.flex > a#rose-banner-cta",
+    "x": 177,
+    "y": 3899,
+    "w": 187,
+    "h": 56,
+    "text": "go to rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.banner-card-list.flex > div.rose-cards-slider__nav.self-end > button.rose-cards-slider__prev.carousel-control-prev",
+    "x": 1155,
+    "y": 3532,
+    "w": 48,
+    "h": 48,
+    "text": "prev item"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.banner-card-list.flex > div.rose-cards-slider__nav.self-end > button.rose-cards-slider__next.carousel-control-next",
+    "x": 1211,
+    "y": 3532,
+    "w": 48,
+    "h": 48,
+    "text": "next item"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.contents > picture > img.mx-4",
+    "x": 643,
+    "y": 3608,
+    "w": 266,
+    "h": 266,
+    "text": "",
+    "file": "Giuseppe-Rossini-orange"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.contents > div.rose-card-text.absolute > h4.rose-card-title.line-clamp-4",
+    "x": 659,
+    "y": 3937,
+    "w": 234,
+    "h": 52,
+    "level": 4,
+    "text": "making software with ai: an overview"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.contents > picture > img.mx-4",
+    "x": 981,
+    "y": 3608,
+    "w": 266,
+    "h": 266,
+    "text": "",
+    "file": "Andrea-Pasquarelli-purple"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.contents > div.rose-card-text.absolute > h4.rose-card-title.line-clamp-4",
+    "x": 997,
+    "y": 3885,
+    "w": 234,
+    "h": 104,
+    "level": 4,
+    "text": "overview of silicon shoring: a new ai-powered software delivery model"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cards-slider__item.carousel-item > div.rose-card-text.absolute > h4.rose-card-title.line-clamp-4",
+    "x": 1335,
+    "y": 3895,
+    "w": 234,
+    "h": 52,
+    "level": 4,
+    "text": "want to know more about this topic?"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cards-slider__item.carousel-item > div.rose-card-text.absolute > a#rb-ct-btn",
+    "x": 1335,
+    "y": 3971,
+    "w": 164,
+    "h": 56,
+    "text": "ask rose",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.block > nav.footer.p-10 > a",
+    "x": 64,
+    "y": 4303,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 4399,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 4399,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 4447,
+    "w": 103,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 4492,
+    "w": 45,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 4536,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 4581,
+    "w": 67,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 4399,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 4399,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 4447,
+    "w": 142,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 4492,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 4553,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 4598,
+    "w": 149,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 4447,
+    "w": 161,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 4492,
+    "w": 127,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 4536,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 4447,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 4508,
+    "w": 154,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 4553,
+    "w": 147,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 4598,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "void(0)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Careers",
+    "x": 1112,
+    "y": 4399,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Contacts",
+    "x": 1112,
+    "y": 4479,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1112,
+    "y": 4559,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1124,
+    "y": 4572,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1184,
+    "y": 4559,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1196,
+    "y": 4572,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "a6732ee4-95cf-4951-9c4b-3675c7154f7e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1256,
+    "y": 4559,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1268,
+    "y": 4572,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "49664893-bfc1-4d79-9208-3bdd7083126b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1328,
+    "y": 4559,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1340,
+    "y": 4572,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "c48097ef-90ed-4c24-aa40-1764649e72ff"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > span",
+    "x": 64,
+    "y": 4704,
+    "w": 81,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > a.underline",
+    "x": 158,
+    "y": 4704,
+    "w": 136,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.text-white.py-3 > div.flex.justify-between > button#cookie-pref-center",
+    "x": 1276,
+    "y": 859,
+    "w": 164,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 1,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 8,
+    "offPage": 72,
+    "textNodes": 131,
+    "controls": 78,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "cardcarousel-runtime#Xwg0C",
+     "path": "div.pnuovamucu > div.block > reply-card-runtime#OoaJn > a",
+     "text": "low-codebest practice",
+     "cutMin": 103,
+     "cutMax": 107
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "h3.h6--medium.line-clamp-3",
+     "path": "a > div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+     "text": "low-code",
+     "cutMin": 37,
+     "cutMax": 75
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.reply-card-image-container.aspect-w-2",
+     "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > div.category-label.light > div.category-name",
+     "text": "best practice",
+     "cutMin": 59,
+     "cutMax": 59
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3.h6--medium.line-clamp-3",
+     "path": "a > div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+     "text": "how audi is redefining software development for the “used ca",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h4.rose-card-title.line-clamp-4",
+     "path": "div.rose-cards-slider__items.carousel-items > div.rose-cards-slider__item.carousel-item > div.rose-card-text.absolute > h4.rose-card-title.line-clamp-4",
+     "text": "want to know more about this topic?",
+     "cutMin": 100,
+     "cutMax": 100
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "rose-banner-runtime",
+     "path": "div.rose-cards-slider__items.carousel-items > div.rose-cards-slider__item.carousel-item > div.rose-card-text.absolute > a#rb-ct-btn",
+     "text": "ask rose",
+     "cutMin": 60,
+     "cutMax": 60
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "a#rb-ct-btn",
+     "path": "div.rose-cards-slider__item.carousel-item > div.rose-card-text.absolute > a#rb-ct-btn > span",
+     "text": "ask rose",
+     "cutMin": 5,
+     "cutMax": 5
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--a355dc1b--aemcoder.aem.live/en/ai-powered-software-engineering",
+  "at": "2026-11-17T00:34:02.017Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4743,
+  "root": "main",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-main > div.site-header-logo > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "href": "/en"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-reply-logo > img",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "file": "reply-logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 900,
+    "y": 28,
+    "w": 46,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 1224,
+    "y": 28,
+    "w": 52,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-header-bar > nav.site-header-main > button.sm-collapsed",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slider.mid > div.hero-slider-media > button.hero-slider-toggle",
+    "x": 1388,
+    "y": 112,
+    "w": 32,
+    "h": 32,
+    "text": "pause video"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slider-heading-grid > div.hero-slider-heading > h1#ai-powered-software-engineering",
+    "x": 177,
+    "y": 382,
+    "w": 861,
+    "h": 140,
+    "level": 1,
+    "text": "ai-powered software engineering"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slider-rule > div.hero-slider-row > a.hero-slider-link",
+    "x": 177,
+    "y": 716,
+    "w": 582,
+    "h": 54,
+    "text": "from code to control a forrester study for reply explores the shift toward agent",
+    "href": "/en/artificial-intelligence/from-code-to-control-ais-takeover-of-software-development-lifecycle"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aise-intro.block > div.aise-intro-col > h2#future-proofing-with-artificial-intelligence",
+    "x": 289,
+    "y": 908,
+    "w": 861,
+    "h": 14,
+    "level": 2,
+    "text": "future-proofing with artificial intelligence"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aise-intro.block > div.aise-intro-col > p.aise-intro-lead",
+    "x": 289,
+    "y": 946,
+    "w": 861,
+    "h": 173,
+    "text": "In the fast-paced Generative AI revolution, IT evolves swiftly, transforming cha"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 219,
+    "y": 1255,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "media_14858bdcabef9b08fd76ce9493ba2ebb86"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.aise-agents-item > div.aise-agents-intro > p.aise-agents-title",
+    "x": 64,
+    "y": 1375,
+    "w": 411,
+    "h": 94,
+    "text": "AI Agents for Software Development Life Cycle"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.aise-agents-item > div.aise-agents-intro > p.aise-agents-copy",
+    "x": 64,
+    "y": 1478,
+    "w": 411,
+    "h": 54,
+    "text": "Our Silicon Shoring model introduce AI Agents in every phase of the SDLC."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 97,
+    "y": 1588,
+    "w": 345,
+    "h": 194,
+    "text": "",
+    "file": "media_10befd8f334448a0f7829c6c2a42ff4305"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aise-agents-card > div.aise-agents-body > h3#rethink-software-development",
+    "x": 97,
+    "y": 1802,
+    "w": 345,
+    "h": 26,
+    "level": 3,
+    "text": "rethink software development"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aise-agents-body > h3#rethink-software-development > a",
+    "x": 97,
+    "y": 1804,
+    "w": 315,
+    "h": 22,
+    "text": "rethink software development",
+    "href": "/en/ai-powered-software-engineering/silicon-shoring"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aise-agents-body > p.button-wrapper.aise-agents-cta > a.button.primary",
+    "x": 97,
+    "y": 1866,
+    "w": 345,
+    "h": 48,
+    "text": "find out more",
+    "href": "/en/ai-powered-software-engineering/silicon-shoring"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 670,
+    "y": 1255,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "media_161e50c1b826d37cfa53675680d59bd6a5"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.aise-agents-item > div.aise-agents-intro > p.aise-agents-title",
+    "x": 515,
+    "y": 1375,
+    "w": 411,
+    "h": 62,
+    "text": "Next-gen architectures powered by Artificial Intelligence"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.aise-agents-item > div.aise-agents-intro > p.aise-agents-copy",
+    "x": 515,
+    "y": 1447,
+    "w": 411,
+    "h": 54,
+    "text": "The adoption of AI-centric architectures fosters the rise of a new wave of appli"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 548,
+    "y": 1588,
+    "w": 345,
+    "h": 194,
+    "text": "",
+    "file": "media_1563be76d6f1f1ee78f44afd6f6ec028ca"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aise-agents-card > div.aise-agents-body > h3#embed-ai-in-your-architecture",
+    "x": 548,
+    "y": 1802,
+    "w": 345,
+    "h": 26,
+    "level": 3,
+    "text": "embed ai in your architecture"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aise-agents-body > p.button-wrapper.aise-agents-cta > a.button.primary",
+    "x": 548,
+    "y": 1866,
+    "w": 345,
+    "h": 48,
+    "text": "find out more",
+    "href": "/en/ai-powered-software-engineering/next-gen-architectures-powered-by-ai"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 1121,
+    "y": 1255,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "media_18e321d54f16926e5f96102b16bcebcafe"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.aise-agents-item > div.aise-agents-intro > p.aise-agents-title",
+    "x": 965,
+    "y": 1375,
+    "w": 411,
+    "h": 62,
+    "text": "Artificial Intelligence for legacy modernisation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.aise-agents-item > div.aise-agents-intro > p.aise-agents-copy",
+    "x": 965,
+    "y": 1447,
+    "w": 411,
+    "h": 54,
+    "text": "Generative AI to expedite the comprehension, rewriting, and update of legacy sys"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 998,
+    "y": 1588,
+    "w": 345,
+    "h": 194,
+    "text": "",
+    "file": "media_1c76135cf4f489d5241b73664c3c877407"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aise-agents-card > div.aise-agents-body > h3#evolve-faster-with-less-risks",
+    "x": 998,
+    "y": 1802,
+    "w": 345,
+    "h": 26,
+    "level": 3,
+    "text": "evolve faster, with less risks"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aise-agents-body > p.button-wrapper.aise-agents-cta > a.button.primary",
+    "x": 998,
+    "y": 1866,
+    "w": 345,
+    "h": 48,
+    "text": "find out more",
+    "href": "/en/ai-powered-software-engineering/artificial-intelligence-for-legacy-modernisation"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h4#leverage-on-copilots-along-all-your-organisation",
+    "x": 177,
+    "y": 2106,
+    "w": 411,
+    "h": 78,
+    "level": 4,
+    "text": "leverage on copilots along all your organisation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.button-wrapper.hub-grid-node > a.button.secondary",
+    "x": 1131,
+    "y": 2106,
+    "w": 133,
+    "h": 67,
+    "text": "discover more",
+    "href": "/en/ai-powered-software-engineering/boosting-copilot-adoption"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 177,
+    "y": 2225,
+    "w": 725,
+    "h": 162,
+    "text": "Copilots are indispensable allies, seamlessly integrating into the daily activit"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-heading-cell.r-cell > div.section-heading-title > h3#our-expertise",
+    "x": 177,
+    "y": 2627,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "our expertise"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.card-carousel-item.is-clone > div.reply-card.reply-card-slider > a.reply-card-cover",
+    "x": -105,
+    "y": 2780,
+    "w": 298,
+    "h": 447,
+    "text": "low-code best practice",
+    "href": "/en/ai-powered-software-engineering/low-code"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image > picture > img",
+    "x": -105,
+    "y": 2780,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_158394d61a54ee8a6d645daafef0d5867b"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#low-code",
+    "x": -73,
+    "y": 3131,
+    "w": 234,
+    "h": 26,
+    "level": 3,
+    "text": "low-code"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+    "x": 233,
+    "y": 2780,
+    "w": 298,
+    "h": 447,
+    "text": "sovereign ai coding article",
+    "href": "/en/ai-powered-software-engineering/sovereign-ai-coding-running-on-edge-environments-for-compliant-software-development"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image > picture > img",
+    "x": 233,
+    "y": 2780,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_16e711075424f8782d648e0f4b74906185"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#sovereign-ai-coding",
+    "x": 265,
+    "y": 3131,
+    "w": 234,
+    "h": 26,
+    "level": 3,
+    "text": "sovereign ai coding"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.card-carousel-item.is-active > div.reply-card.reply-card-slider > a.reply-card-cover",
+    "x": 552,
+    "y": 2752,
+    "w": 335,
+    "h": 503,
+    "text": "how audi is redefining software development for the “used car platform” case stu",
+    "href": "/en/ai-powered-software-engineering/how-audi-is-redefining-software-development"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image > picture > img",
+    "x": 552,
+    "y": 2752,
+    "w": 335,
+    "h": 503,
+    "text": "",
+    "file": "media_1f1eac232be701732507e120170a77df9f"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#how-audi-is-redefining-software-development-for-the-used-car-platform",
+    "x": 588,
+    "y": 3088,
+    "w": 263,
+    "h": 88,
+    "level": 3,
+    "text": "how audi is redefining software development for the “used car platform”"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+    "x": 909,
+    "y": 2780,
+    "w": 298,
+    "h": 447,
+    "text": "agentic ai for legacy modernisation best practice",
+    "href": "/en/artificial-intelligence/agentic-ai-for-legacy-modernisation"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image > picture > img",
+    "x": 909,
+    "y": 2780,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_106646362a8ea7d9c247267e488873251d"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#agentic-ai-for-legacy-modernisation",
+    "x": 941,
+    "y": 3105,
+    "w": 234,
+    "h": 52,
+    "level": 3,
+    "text": "agentic ai for legacy modernisation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+    "x": 1247,
+    "y": 2780,
+    "w": 298,
+    "h": 447,
+    "text": "ai change request assistant case study",
+    "href": "/en/ai-powered-software-engineering/ai-change-request-assistant"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image > picture > img",
+    "x": 1247,
+    "y": 2780,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_1fb5b6641ba042829eab7e3976a9f8a24a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#ai-change-request-assistant",
+    "x": 1279,
+    "y": 3105,
+    "w": 234,
+    "h": 52,
+    "level": 3,
+    "text": "ai change request assistant"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-carousel-inner > div.card-carousel-controls > button.card-carousel-prev.round-bt",
+    "x": 89,
+    "y": 2979,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-carousel-inner > div.card-carousel-controls > button.card-carousel-next.round-bt",
+    "x": 1303,
+    "y": 2979,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-logo > picture > img",
+    "x": 177,
+    "y": 3531,
+    "w": 103,
+    "h": 36,
+    "text": "reply rose logo",
+    "file": "media_1e36aa2918a3736dbda877e3fa482274ca"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-content > div.rose-cta-title > h3#the-one-click-between-a-challenge-and-its-solution",
+    "x": 177,
+    "y": 3579,
+    "w": 411,
+    "h": 202,
+    "level": 3,
+    "text": "the one click between a challenge and its solution"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-content > div.rose-cta-abstract > p",
+    "x": 177,
+    "y": 3800,
+    "w": 411,
+    "h": 82,
+    "text": "Gain expertise with Reply’s worldwide network of experts and find practical solu"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-action > p.button-wrapper > a.button.primary",
+    "x": 177,
+    "y": 3906,
+    "w": 196,
+    "h": 56,
+    "text": "go to rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-cards > div.rose-cta-nav > button.rose-cta-prev.round-bt",
+    "x": 1155,
+    "y": 3539,
+    "w": 48,
+    "h": 48,
+    "text": "prev item"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-cards > div.rose-cta-nav > button.rose-cta-next.round-bt",
+    "x": 1211,
+    "y": 3539,
+    "w": 48,
+    "h": 48,
+    "text": "next item"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-card-image > picture > img",
+    "x": 643,
+    "y": 3615,
+    "w": 266,
+    "h": 266,
+    "text": "",
+    "file": "media_1f4d1981e4fb55123a57718a088179b4d2"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-card-text > div.rose-card-title > h4#making-software-with-ai-an-overview",
+    "x": 659,
+    "y": 3944,
+    "w": 234,
+    "h": 52,
+    "level": 4,
+    "text": "making software with ai: an overview"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-card-image > picture > img",
+    "x": 981,
+    "y": 3615,
+    "w": 266,
+    "h": 266,
+    "text": "",
+    "file": "media_1f7f6e8ad2111e9a03fce99f522ce9fab0"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-card-text > div.rose-card-title > h4#overview-of-silicon-shoring-a-new-ai-powered-software-delivery-model",
+    "x": 997,
+    "y": 3892,
+    "w": 234,
+    "h": 104,
+    "level": 4,
+    "text": "overview of silicon shoring: a new ai-powered software delivery model"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-card-text > div.rose-card-title > h4#want-to-know-more-about-this-topic",
+    "x": 1335,
+    "y": 3902,
+    "w": 234,
+    "h": 52,
+    "level": 4,
+    "text": "want to know more about this topic?"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-card-action > p.button-wrapper > a.button.primary",
+    "x": 1335,
+    "y": 3978,
+    "w": 167,
+    "h": 56,
+    "text": "ask rose",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-wrap > nav.footer-nav > a.footer-nav-home",
+    "x": 64,
+    "y": 4310,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 4406,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 4406,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 4453,
+    "w": 102,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 4498,
+    "w": 43,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 4543,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 4588,
+    "w": 66,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 4406,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 4406,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 4453,
+    "w": 145,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 4498,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 4560,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 4605,
+    "w": 150,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 4453,
+    "w": 160,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 4498,
+    "w": 131,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 4543,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 4453,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 4515,
+    "w": 153,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 4560,
+    "w": 143,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 4605,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "/en/ai-powered-software-engineering"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 4406,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 4486,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1112,
+    "y": 4566,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1124,
+    "y": 4578,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1184,
+    "y": 4566,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1196,
+    "y": 4578,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1256,
+    "y": 4566,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1268,
+    "y": 4578,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-linkedin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1328,
+    "y": 4566,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1340,
+    "y": 4578,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-xing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > span",
+    "x": 64,
+    "y": 4710,
+    "w": 84,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > a",
+    "x": 160,
+    "y": 4710,
+    "w": 131,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-inner > div.site-legal-row > button#cookie-pref-center",
+    "x": 1278,
+    "y": 859,
+    "w": 162,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 8,
+    "offPage": 72,
+    "textNodes": 132,
+    "controls": 80,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.card-carousel.scale",
+     "path": "ul.card-carousel-track > li.card-carousel-item.is-clone > div.reply-card.reply-card-slider > a.reply-card-cover",
+     "text": "low-codebest practice",
+     "cutMin": 105,
+     "cutMax": 105
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.card-carousel.scale",
+     "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#low-code",
+     "text": "low-code",
+     "cutMin": 73,
+     "cutMax": 73
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.card-carousel.scale",
+     "path": "div.reply-card-body > div.category-label > div.category-name > p",
+     "text": "best practice",
+     "cutMin": 57,
+     "cutMax": 57
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.card-carousel.scale",
+     "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#ai-change-request-assistant",
+     "text": "ai change request assistant",
+     "cutMin": 41,
+     "cutMax": 41
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h4#want-to-know-more-about-this-topic",
+     "path": "li.rose-card.rose-card-contact > div.rose-card-text > div.rose-card-title > h4#want-to-know-more-about-this-topic",
+     "text": "want to know more about this topic?",
+     "cutMin": 95,
+     "cutMax": 95
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.rose-cta.rail-gap",
+     "path": "div.rose-card-text > div.rose-card-action > p.button-wrapper > a.button.primary",
+     "text": "ask rose",
+     "cutMin": 63,
+     "cutMax": 63
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "a.button.primary",
+     "path": "div.rose-card-text > div.rose-card-action > p.button-wrapper > a.button.primary",
+     "text": "ask rose",
+     "cutMin": 8,
+     "cutMax": 8
+    }
+   ],
+   "findings": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 105,
+     "path": "ul.card-carousel-track > li.card-carousel-item.is-clone > div.reply-card.reply-card-slider > a.reply-card-cover",
+     "text": "low-codebest practice",
+     "clipper": "div.card-carousel.scale",
+     "rect": {
+      "l": -105,
+      "t": 2780,
+      "r": 193,
+      "b": 3227,
+      "w": 298,
+      "h": 447
+     },
+     "clip": {
+      "l": 0,
+      "t": 2740,
+      "r": 1440,
+      "b": 3267,
+      "w": 1440,
+      "h": 527
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 73,
+     "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#low-code",
+     "text": "low-code",
+     "clipper": "div.card-carousel.scale",
+     "rect": {
+      "l": -73,
+      "t": 3133,
+      "r": 29,
+      "b": 3155,
+      "w": 102,
+      "h": 22
+     },
+     "clip": {
+      "l": 0,
+      "t": 2740,
+      "r": 1440,
+      "b": 3267,
+      "w": 1440,
+      "h": 527
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 57,
+     "path": "div.reply-card-body > div.category-label > div.category-name > p",
+     "text": "best practice",
+     "clipper": "div.card-carousel.scale",
+     "rect": {
+      "l": -57,
+      "t": 3181,
+      "r": 61,
+      "b": 3194,
+      "w": 118,
+      "h": 13
+     },
+     "clip": {
+      "l": 0,
+      "t": 2740,
+      "r": 1440,
+      "b": 3267,
+      "w": 1440,
+      "h": 527
+     },
+     "lines": 1
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 105,
+     "path": "ul.card-carousel-track > li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+     "text": "ai change request assistantcase study",
+     "clipper": "div.card-carousel.scale",
+     "rect": {
+      "l": 1247,
+      "t": 2780,
+      "r": 1545,
+      "b": 3227,
+      "w": 298,
+      "h": 447
+     },
+     "clip": {
+      "l": 0,
+      "t": 2740,
+      "r": 1440,
+      "b": 3267,
+      "w": 1440,
+      "h": 527
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 41,
+     "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#ai-change-request-assistant",
+     "text": "ai change request assistant",
+     "clipper": "div.card-carousel.scale",
+     "rect": {
+      "l": 1279,
+      "t": 3107,
+      "r": 1481,
+      "b": 3129,
+      "w": 203,
+      "h": 22
+     },
+     "clip": {
+      "l": 0,
+      "t": 2740,
+      "r": 1440,
+      "b": 3267,
+      "w": 1440,
+      "h": 527
+     },
+     "lines": 2
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 95,
+     "path": "li.rose-card.rose-card-contact > div.rose-card-text > div.rose-card-title > h4#want-to-know-more-about-this-topic",
+     "text": "want to know more about this topic?",
+     "clipper": "h4#want-to-know-more-about-this-topic",
+     "rect": {
+      "l": 1335,
+      "t": 3904,
+      "r": 1535,
+      "b": 3926,
+      "w": 200,
+      "h": 22
+     },
+     "clip": {
+      "l": 1335,
+      "t": 3902,
+      "r": 1569,
+      "b": 3954,
+      "w": 234,
+      "h": 52
+     },
+     "lines": 2
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 63,
+     "path": "div.rose-card-text > div.rose-card-action > p.button-wrapper > a.button.primary",
+     "text": "ask rose",
+     "clipper": "div.rose-cta.rail-gap",
+     "rect": {
+      "l": 1335,
+      "t": 3978,
+      "r": 1503,
+      "b": 4034,
+      "w": 167,
+      "h": 56
+     },
+     "clip": {
+      "l": 0,
+      "t": 3475,
+      "r": 1440,
+      "b": 4126,
+      "w": 1440,
+      "h": 651
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 8,
+     "path": "div.rose-card-text > div.rose-card-action > p.button-wrapper > a.button.primary",
+     "text": "ask rose",
+     "clipper": "a.button.primary",
+     "rect": {
+      "l": 1359,
+      "t": 3996,
+      "r": 1448,
+      "b": 4014,
+      "w": 88,
+      "h": 18
+     },
+     "clip": {
+      "l": 1335,
+      "t": 3978,
+      "r": 1502,
+      "b": 4034,
+      "w": 167,
+      "h": 56
+     },
+     "lines": 1
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 1,
+   "heading": "ai-powered software engineering",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "future-proofing with artificial intelligence",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 7,
+    "image": 6
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 7,
+    "textHidden": 0,
+    "image": 6,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "rethink software development",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "embed ai in your architecture",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "evolve faster, with less risks",
+   "variable": false,
+   "origin": {
+    "link": 5,
+    "button": 0,
+    "text": 4,
+    "image": 0
+   },
+   "eds": {
+    "link": 5,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "our expertise",
+   "variable": false,
+   "origin": {
+    "link": 5,
+    "button": 2,
+    "text": 0,
+    "image": 5
+   },
+   "eds": {
+    "link": 5,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 5,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "how audi is redefining software development for the “used car platform”",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "agentic ai for legacy modernisation",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "ai change request assistant",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "low-code",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "sovereign ai coding",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 2,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "the one click between a challenge and its solution",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 2
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"pause video\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "pause video"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 1,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 1339,
+    "y": 7,
+    "w": 17,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 51,
+    "w": 62,
+    "h": 16
+   },
+   {
+    "x": 612,
+    "y": 51,
+    "w": 72,
+    "h": 16
+   },
+   {
+    "x": 740,
+    "y": 51,
+    "w": 110,
+    "h": 16
+   },
+   {
+    "x": 906,
+    "y": 51,
+    "w": 41,
+    "h": 16
+   },
+   {
+    "x": 1003,
+    "y": 51,
+    "w": 60,
+    "h": 16
+   },
+   {
+    "x": 1119,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1225,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 718,
+    "w": 229,
+    "h": 22
+   },
+   {
+    "x": 177,
+    "y": 749,
+    "w": 593,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 381,
+    "w": 725,
+    "h": 71
+   },
+   {
+    "x": 177,
+    "y": 451,
+    "w": 388,
+    "h": 71
+   },
+   {
+    "x": 548,
+    "y": 909,
+    "w": 343,
+    "h": 11
+   },
+   {
+    "x": 304,
+    "y": 947,
+    "w": 832,
+    "h": 40
+   },
+   {
+    "x": 308,
+    "y": 990,
+    "w": 823,
+    "h": 40
+   },
+   {
+    "x": 306,
+    "y": 1033,
+    "w": 828,
+    "h": 40
+   },
+   {
+    "x": 448,
+    "y": 1077,
+    "w": 544,
+    "h": 40
+   },
+   {
+    "x": 123,
+    "y": 1377,
+    "w": 293,
+    "h": 27
+   },
+   {
+    "x": 184,
+    "y": 1408,
+    "w": 170,
+    "h": 27
+   },
+   {
+    "x": 207,
+    "y": 1439,
+    "w": 125,
+    "h": 27
+   },
+   {
+    "x": 71,
+    "y": 1482,
+    "w": 397,
+    "h": 18
+   },
+   {
+    "x": 167,
+    "y": 1509,
+    "w": 204,
+    "h": 18
+   },
+   {
+    "x": 97,
+    "y": 1804,
+    "w": 325,
+    "h": 22
+   },
+   {
+    "x": 215,
+    "y": 1880,
+    "w": 109,
+    "h": 13
+   },
+   {
+    "x": 570,
+    "y": 1377,
+    "w": 300,
+    "h": 27
+   },
+   {
+    "x": 585,
+    "y": 1408,
+    "w": 270,
+    "h": 27
+   },
+   {
+    "x": 646,
+    "y": 1439,
+    "w": 149,
+    "h": 27
+   },
+   {
+    "x": 523,
+    "y": 1482,
+    "w": 394,
+    "h": 18
+   },
+   {
+    "x": 563,
+    "y": 1509,
+    "w": 314,
+    "h": 18
+   },
+   {
+    "x": 548,
+    "y": 1804,
+    "w": 312,
+    "h": 22
+   },
+   {
+    "x": 665,
+    "y": 1880,
+    "w": 109,
+    "h": 13
+   },
+   {
+    "x": 969,
+    "y": 1377,
+    "w": 403,
+    "h": 27
+   },
+   {
+    "x": 1079,
+    "y": 1408,
+    "w": 184,
+    "h": 27
+   },
+   {
+    "x": 980,
+    "y": 1451,
+    "w": 381,
+    "h": 18
+   },
+   {
+    "x": 1004,
+    "y": 1478,
+    "w": 333,
+    "h": 18
+   },
+   {
+    "x": 998,
+    "y": 1804,
+    "w": 288,
+    "h": 22
+   },
+   {
+    "x": 1116,
+    "y": 1880,
+    "w": 109,
+    "h": 13
+   },
+   {
+    "x": 177,
+    "y": 2103,
+    "w": 406,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 2142,
+    "w": 300,
+    "h": 32
+   },
+   {
+    "x": 1131,
+    "y": 2115,
+    "w": 132,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 2222,
+    "w": 668,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2249,
+    "w": 705,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2276,
+    "w": 187,
+    "h": 18
+   },
+   {
+    "x": 364,
+    "y": 2276,
+    "w": 163,
+    "h": 18
+   },
+   {
+    "x": 527,
+    "y": 2276,
+    "w": 297,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2303,
+    "w": 674,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2330,
+    "w": 697,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2357,
+    "w": 461,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2621,
+    "w": 255,
+    "h": 40
+   },
+   {
+    "x": -75,
+    "y": 3126,
+    "w": 105,
+    "h": 22
+   },
+   {
+    "x": -59,
+    "y": 3175,
+    "w": 106,
+    "h": 11
+   },
+   {
+    "x": 263,
+    "y": 3126,
+    "w": 212,
+    "h": 22
+   },
+   {
+    "x": 279,
+    "y": 3175,
+    "w": 57,
+    "h": 11
+   },
+   {
+    "x": 601,
+    "y": 3074,
+    "w": 234,
+    "h": 22
+   },
+   {
+    "x": 601,
+    "y": 3100,
+    "w": 96,
+    "h": 22
+   },
+   {
+    "x": 601,
+    "y": 3126,
+    "w": 214,
+    "h": 22
+   },
+   {
+    "x": 617,
+    "y": 3175,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 939,
+    "y": 3100,
+    "w": 227,
+    "h": 22
+   },
+   {
+    "x": 939,
+    "y": 3126,
+    "w": 152,
+    "h": 22
+   },
+   {
+    "x": 955,
+    "y": 3175,
+    "w": 106,
+    "h": 11
+   },
+   {
+    "x": 1277,
+    "y": 3100,
+    "w": 200,
+    "h": 22
+   },
+   {
+    "x": 1277,
+    "y": 3126,
+    "w": 98,
+    "h": 22
+   },
+   {
+    "x": 1293,
+    "y": 3175,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 3574,
+    "w": 280,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 3625,
+    "w": 232,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 3675,
+    "w": 366,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 3726,
+    "w": 170,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 3798,
+    "w": 404,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 3825,
+    "w": 349,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 3852,
+    "w": 93,
+    "h": 18
+   },
+   {
+    "x": 201,
+    "y": 3919,
+    "w": 108,
+    "h": 16
+   },
+   {
+    "x": 659,
+    "y": 3908,
+    "w": 116,
+    "h": 11
+   },
+   {
+    "x": 659,
+    "y": 3939,
+    "w": 233,
+    "h": 22
+   },
+   {
+    "x": 659,
+    "y": 3965,
+    "w": 159,
+    "h": 22
+   },
+   {
+    "x": 659,
+    "y": 4014,
+    "w": 148,
+    "h": 11
+   },
+   {
+    "x": 997,
+    "y": 3856,
+    "w": 116,
+    "h": 11
+   },
+   {
+    "x": 997,
+    "y": 3887,
+    "w": 202,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 3913,
+    "w": 188,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 3939,
+    "w": 194,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 3965,
+    "w": 154,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 4014,
+    "w": 148,
+    "h": 11
+   },
+   {
+    "x": 1335,
+    "y": 3897,
+    "w": 205,
+    "h": 22
+   },
+   {
+    "x": 1335,
+    "y": 3923,
+    "w": 177,
+    "h": 22
+   },
+   {
+    "x": 1359,
+    "y": 3990,
+    "w": 85,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 4400,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 4448,
+    "w": 103,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 4493,
+    "w": 45,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 4537,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 4582,
+    "w": 67,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 4400,
+    "w": 135,
+    "h": 16
+   },
+   {
+    "x": 402,
+    "y": 4448,
+    "w": 142,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 4493,
+    "w": 89,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 4509,
+    "w": 73,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 4554,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 4554,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 4599,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 4599,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 4448,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 4448,
+    "w": 69,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 4493,
+    "w": 127,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 4537,
+    "w": 121,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 4554,
+    "w": 85,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 4571,
+    "w": 39,
+    "h": 13
+   },
+   {
+    "x": 642,
+    "y": 4571,
+    "w": 51,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 4448,
+    "w": 157,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 4465,
+    "w": 36,
+    "h": 13
+   },
+   {
+    "x": 841,
+    "y": 4465,
+    "w": 64,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 4509,
+    "w": 154,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 4554,
+    "w": 147,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 4599,
+    "w": 130,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 4616,
+    "w": 128,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 4415,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 1112,
+    "y": 4495,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 4705,
+    "w": 81,
+    "h": 13
+   },
+   {
+    "x": 149,
+    "y": 4705,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 158,
+    "y": 4705,
+    "w": 136,
+    "h": 13
+   },
+   {
+    "x": 1296,
+    "y": 872,
+    "w": 124,
+    "h": 13
+   }
+  ],
+  "eds": [
+   {
+    "x": 1336,
+    "y": 7,
+    "w": 20,
+    "h": 13
+   },
+   {
+    "x": 486,
+    "y": 51,
+    "w": 63,
+    "h": 16
+   },
+   {
+    "x": 605,
+    "y": 51,
+    "w": 71,
+    "h": 16
+   },
+   {
+    "x": 733,
+    "y": 51,
+    "w": 111,
+    "h": 16
+   },
+   {
+    "x": 900,
+    "y": 51,
+    "w": 46,
+    "h": 16
+   },
+   {
+    "x": 1002,
+    "y": 51,
+    "w": 59,
+    "h": 16
+   },
+   {
+    "x": 1118,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1224,
+    "y": 51,
+    "w": 52,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 381,
+    "w": 682,
+    "h": 71
+   },
+   {
+    "x": 177,
+    "y": 451,
+    "w": 387,
+    "h": 71
+   },
+   {
+    "x": 177,
+    "y": 718,
+    "w": 230,
+    "h": 22
+   },
+   {
+    "x": 177,
+    "y": 749,
+    "w": 582,
+    "h": 16
+   },
+   {
+    "x": 529,
+    "y": 908,
+    "w": 382,
+    "h": 13
+   },
+   {
+    "x": 313,
+    "y": 947,
+    "w": 815,
+    "h": 40
+   },
+   {
+    "x": 327,
+    "y": 990,
+    "w": 787,
+    "h": 40
+   },
+   {
+    "x": 305,
+    "y": 1033,
+    "w": 830,
+    "h": 40
+   },
+   {
+    "x": 481,
+    "y": 1077,
+    "w": 478,
+    "h": 40
+   },
+   {
+    "x": 129,
+    "y": 1377,
+    "w": 281,
+    "h": 27
+   },
+   {
+    "x": 186,
+    "y": 1408,
+    "w": 167,
+    "h": 27
+   },
+   {
+    "x": 208,
+    "y": 1439,
+    "w": 123,
+    "h": 27
+   },
+   {
+    "x": 68,
+    "y": 1482,
+    "w": 403,
+    "h": 18
+   },
+   {
+    "x": 164,
+    "y": 1510,
+    "w": 211,
+    "h": 18
+   },
+   {
+    "x": 97,
+    "y": 1804,
+    "w": 315,
+    "h": 22
+   },
+   {
+    "x": 206,
+    "y": 1880,
+    "w": 127,
+    "h": 18
+   },
+   {
+    "x": 520,
+    "y": 1377,
+    "w": 400,
+    "h": 27
+   },
+   {
+    "x": 577,
+    "y": 1408,
+    "w": 287,
+    "h": 27
+   },
+   {
+    "x": 524,
+    "y": 1451,
+    "w": 391,
+    "h": 18
+   },
+   {
+    "x": 563,
+    "y": 1478,
+    "w": 313,
+    "h": 18
+   },
+   {
+    "x": 548,
+    "y": 1804,
+    "w": 307,
+    "h": 22
+   },
+   {
+    "x": 656,
+    "y": 1880,
+    "w": 127,
+    "h": 18
+   },
+   {
+    "x": 981,
+    "y": 1377,
+    "w": 379,
+    "h": 27
+   },
+   {
+    "x": 1082,
+    "y": 1408,
+    "w": 178,
+    "h": 27
+   },
+   {
+    "x": 980,
+    "y": 1451,
+    "w": 380,
+    "h": 18
+   },
+   {
+    "x": 1005,
+    "y": 1478,
+    "w": 332,
+    "h": 18
+   },
+   {
+    "x": 998,
+    "y": 1804,
+    "w": 288,
+    "h": 22
+   },
+   {
+    "x": 1107,
+    "y": 1880,
+    "w": 127,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2109,
+    "w": 324,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 2148,
+    "w": 389,
+    "h": 32
+   },
+   {
+    "x": 1157,
+    "y": 2120,
+    "w": 81,
+    "h": 18
+   },
+   {
+    "x": 1173,
+    "y": 2140,
+    "w": 47,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2229,
+    "w": 675,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2256,
+    "w": 706,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2283,
+    "w": 192,
+    "h": 18
+   },
+   {
+    "x": 368,
+    "y": 2283,
+    "w": 165,
+    "h": 18
+   },
+   {
+    "x": 534,
+    "y": 2283,
+    "w": 292,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2310,
+    "w": 680,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2337,
+    "w": 690,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2364,
+    "w": 463,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2628,
+    "w": 252,
+    "h": 40
+   },
+   {
+    "x": -73,
+    "y": 3133,
+    "w": 102,
+    "h": 22
+   },
+   {
+    "x": -57,
+    "y": 3181,
+    "w": 118,
+    "h": 13
+   },
+   {
+    "x": 265,
+    "y": 3133,
+    "w": 212,
+    "h": 22
+   },
+   {
+    "x": 281,
+    "y": 3181,
+    "w": 63,
+    "h": 13
+   },
+   {
+    "x": 588,
+    "y": 3091,
+    "w": 259,
+    "h": 25
+   },
+   {
+    "x": 588,
+    "y": 3120,
+    "w": 260,
+    "h": 25
+   },
+   {
+    "x": 588,
+    "y": 3149,
+    "w": 201,
+    "h": 25
+   },
+   {
+    "x": 588,
+    "y": 3178,
+    "w": 110,
+    "h": 25
+   },
+   {
+    "x": 606,
+    "y": 3203,
+    "w": 107,
+    "h": 15
+   },
+   {
+    "x": 941,
+    "y": 3107,
+    "w": 222,
+    "h": 22
+   },
+   {
+    "x": 941,
+    "y": 3133,
+    "w": 148,
+    "h": 22
+   },
+   {
+    "x": 957,
+    "y": 3181,
+    "w": 118,
+    "h": 13
+   },
+   {
+    "x": 1279,
+    "y": 3107,
+    "w": 203,
+    "h": 22
+   },
+   {
+    "x": 1279,
+    "y": 3133,
+    "w": 98,
+    "h": 22
+   },
+   {
+    "x": 1295,
+    "y": 3181,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 177,
+    "y": 3581,
+    "w": 282,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 3631,
+    "w": 221,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 3682,
+    "w": 358,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 3732,
+    "w": 165,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 3804,
+    "w": 390,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 3832,
+    "w": 340,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 3859,
+    "w": 92,
+    "h": 18
+   },
+   {
+    "x": 201,
+    "y": 3924,
+    "w": 117,
+    "h": 18
+   },
+   {
+    "x": 659,
+    "y": 3914,
+    "w": 129,
+    "h": 13
+   },
+   {
+    "x": 659,
+    "y": 3946,
+    "w": 222,
+    "h": 22
+   },
+   {
+    "x": 659,
+    "y": 3972,
+    "w": 157,
+    "h": 22
+   },
+   {
+    "x": 659,
+    "y": 4020,
+    "w": 165,
+    "h": 13
+   },
+   {
+    "x": 997,
+    "y": 3862,
+    "w": 129,
+    "h": 13
+   },
+   {
+    "x": 997,
+    "y": 3894,
+    "w": 198,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 3920,
+    "w": 188,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 3946,
+    "w": 185,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 3972,
+    "w": 150,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 4020,
+    "w": 165,
+    "h": 13
+   },
+   {
+    "x": 1335,
+    "y": 3904,
+    "w": 200,
+    "h": 22
+   },
+   {
+    "x": 1335,
+    "y": 3930,
+    "w": 172,
+    "h": 22
+   },
+   {
+    "x": 1359,
+    "y": 3996,
+    "w": 88,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 4406,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 4454,
+    "w": 102,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 4499,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 4544,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 4589,
+    "w": 66,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 4406,
+    "w": 135,
+    "h": 18
+   },
+   {
+    "x": 402,
+    "y": 4454,
+    "w": 145,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 4499,
+    "w": 88,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 4516,
+    "w": 71,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 4561,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 4561,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 4606,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 4606,
+    "w": 58,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 4454,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 4454,
+    "w": 68,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 4499,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 4544,
+    "w": 120,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 4561,
+    "w": 83,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 4578,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 643,
+    "y": 4578,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 4454,
+    "w": 156,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 4471,
+    "w": 41,
+    "h": 13
+   },
+   {
+    "x": 845,
+    "y": 4471,
+    "w": 65,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 4516,
+    "w": 153,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 4561,
+    "w": 143,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 4606,
+    "w": 132,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 4622,
+    "w": 126,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 4421,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 1112,
+    "y": 4501,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 4711,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 152,
+    "y": 4711,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 160,
+    "y": 4711,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 1298,
+    "y": 871,
+    "w": 122,
+    "h": 16
+   }
+  ]
+ }
+}

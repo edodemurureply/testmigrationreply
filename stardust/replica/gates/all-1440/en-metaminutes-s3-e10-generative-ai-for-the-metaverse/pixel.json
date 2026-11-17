@@ -1,0 +1,56 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-metaminutes-s3-e10-generative-ai-for-the-metaverse/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-metaminutes-s3-e10-generative-ai-for-the-metaverse/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2505,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 66162,
+  "pct": 1.83,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-metaminutes-s3-e10-generative-ai-for-the-metaverse/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 12.64,
+  "textBoxes": 57,
+  "textPixels": 344313,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.8
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 3.5
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 1.3
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 1.4
+    },
+    {
+      "y0": 2500,
+      "y1": 2505,
+      "pct": 0
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--a355dc1b--aemcoder.aem.live/en/metaminutes-s3-e10-generative-ai-for-the-metaverse"
+  }
+}

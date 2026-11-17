@@ -1,0 +1,61 @@
+{
+  "a": "stardust/replica/gates/all-360/en-metaminutes-s3-e2-education-in-the-metaverse-for-emerging-markets/origin.png",
+  "b": "stardust/replica/gates/all-360/en-metaminutes-s3-e2-education-in-the-metaverse-for-emerging-markets/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3140,
+    "mode": "overlap"
+  },
+  "heightDelta": -9,
+  "differingPixels": 59130,
+  "pct": 5.23,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/en-metaminutes-s3-e2-education-in-the-metaverse-for-emerging-markets/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 17.13,
+  "textBoxes": 64,
+  "textPixels": 215446,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 4.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3.6
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 8.9
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 6.8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 2.7
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 4.2
+    },
+    {
+      "y0": 3000,
+      "y1": 3140,
+      "pct": 8.5
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--a355dc1b--aemcoder.aem.live/en/metaminutes-s3-e2-education-in-the-metaverse-for-emerging-markets"
+  }
+}

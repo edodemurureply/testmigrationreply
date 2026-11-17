@@ -1,0 +1,873 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-15T12:04:28.539Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-15T20:16:11.902Z",
+  "blocks": [
+    {
+      "id": "awards",
+      "label": "awards",
+      "kind": "module",
+      "signature": "module:awards",
+      "source": null,
+      "usedByTemplates": [
+        "en-insights",
+        "en-iot"
+      ],
+      "usedByPages": [
+        "en-insights",
+        "en-iot"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "card-carousel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "b4-about",
+      "label": "b4-about",
+      "kind": "module",
+      "signature": "module:b4-about",
+      "source": null,
+      "usedByTemplates": [
+        "4brands-reply-en"
+      ],
+      "usedByPages": [
+        "4brands-reply-en"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "b4-about",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "b4-accordion",
+      "label": "b4-accordion",
+      "kind": "module",
+      "signature": "module:b4-accordion",
+      "source": null,
+      "usedByTemplates": [
+        "4brands-reply-de-customer-experience-management"
+      ],
+      "usedByPages": [
+        "4brands-reply-de-customer-experience-management"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "b4-accordion",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "b4-band",
+      "label": "b4-band",
+      "kind": "module",
+      "signature": "module:b4-band",
+      "source": null,
+      "usedByTemplates": [
+        "4brands-reply-en"
+      ],
+      "usedByPages": [
+        "4brands-reply-en"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "b4-band",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "b4-client",
+      "label": "b4-client",
+      "kind": "module",
+      "signature": "module:b4-client",
+      "source": null,
+      "usedByTemplates": [
+        "4brands-reply-de-rotkaeppchen-mumm-sektkellereien"
+      ],
+      "usedByPages": [
+        "4brands-reply-de-rotkaeppchen-mumm-sektkellereien"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "b4-client",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "b4-events",
+      "label": "b4-events",
+      "kind": "module",
+      "signature": "module:b4-events",
+      "source": null,
+      "usedByTemplates": [
+        "4brands-reply-en"
+      ],
+      "usedByPages": [
+        "4brands-reply-en"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "b4-events",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "b4-hero",
+      "label": "b4-hero",
+      "kind": "module",
+      "signature": "module:b4-hero",
+      "source": null,
+      "usedByTemplates": [
+        "4brands-reply-de-customer-experience-management",
+        "4brands-reply-de-rotkaeppchen-mumm-sektkellereien",
+        "4brands-reply-en"
+      ],
+      "usedByPages": [
+        "4brands-reply-de-customer-experience-management",
+        "4brands-reply-de-rotkaeppchen-mumm-sektkellereien",
+        "4brands-reply-en"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "b4-hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "b4-intro",
+      "label": "b4-intro",
+      "kind": "module",
+      "signature": "module:b4-intro",
+      "source": null,
+      "usedByTemplates": [
+        "4brands-reply-de-customer-experience-management",
+        "4brands-reply-de-rotkaeppchen-mumm-sektkellereien"
+      ],
+      "usedByPages": [
+        "4brands-reply-de-customer-experience-management",
+        "4brands-reply-de-rotkaeppchen-mumm-sektkellereien"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "b4-intro",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "b4-news",
+      "label": "b4-news",
+      "kind": "module",
+      "signature": "module:b4-news",
+      "source": null,
+      "usedByTemplates": [
+        "4brands-reply-en"
+      ],
+      "usedByPages": [
+        "4brands-reply-en"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "b4-news",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "b4-newsroom",
+      "label": "b4-newsroom",
+      "kind": "module",
+      "signature": "module:b4-newsroom",
+      "source": null,
+      "usedByTemplates": [
+        "4brands-reply-en"
+      ],
+      "usedByPages": [
+        "4brands-reply-en"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "b4-newsroom",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "b4-offices",
+      "label": "b4-offices",
+      "kind": "module",
+      "signature": "module:b4-offices",
+      "source": null,
+      "usedByTemplates": [
+        "4brands-reply-en"
+      ],
+      "usedByPages": [
+        "4brands-reply-en"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "b4-offices",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "b4-partner",
+      "label": "b4-partner",
+      "kind": "module",
+      "signature": "module:b4-partner",
+      "source": null,
+      "usedByTemplates": [
+        "4brands-reply-en"
+      ],
+      "usedByPages": [
+        "4brands-reply-en"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "b4-partner",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "b4-profile",
+      "label": "b4-profile",
+      "kind": "module",
+      "signature": "module:b4-profile",
+      "source": null,
+      "usedByTemplates": [
+        "4brands-reply-de-rotkaeppchen-mumm-sektkellereien"
+      ],
+      "usedByPages": [
+        "4brands-reply-de-rotkaeppchen-mumm-sektkellereien"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "b4-profile",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "b4-quote",
+      "label": "b4-quote",
+      "kind": "module",
+      "signature": "module:b4-quote",
+      "source": null,
+      "usedByTemplates": [
+        "4brands-reply-de-rotkaeppchen-mumm-sektkellereien"
+      ],
+      "usedByPages": [
+        "4brands-reply-de-rotkaeppchen-mumm-sektkellereien"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "b4-quote",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "b4-roadmap",
+      "label": "b4-roadmap",
+      "kind": "module",
+      "signature": "module:b4-roadmap",
+      "source": null,
+      "usedByTemplates": [
+        "4brands-reply-de-customer-experience-management"
+      ],
+      "usedByPages": [
+        "4brands-reply-de-customer-experience-management"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "b4-roadmap",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "b4-split",
+      "label": "b4-split",
+      "kind": "module",
+      "signature": "module:b4-split",
+      "source": null,
+      "usedByTemplates": [
+        "4brands-reply-en"
+      ],
+      "usedByPages": [
+        "4brands-reply-en"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "b4-split",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "b4-stats",
+      "label": "b4-stats",
+      "kind": "module",
+      "signature": "module:b4-stats",
+      "source": null,
+      "usedByTemplates": [
+        "4brands-reply-en"
+      ],
+      "usedByPages": [
+        "4brands-reply-en"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "b4-stats",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "b4-tabber",
+      "label": "b4-tabber",
+      "kind": "module",
+      "signature": "module:b4-tabber",
+      "source": null,
+      "usedByTemplates": [
+        "4brands-reply-de-customer-experience-management"
+      ],
+      "usedByPages": [
+        "4brands-reply-de-customer-experience-management"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "b4-tabber",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "b4-teaser",
+      "label": "b4-teaser",
+      "kind": "module",
+      "signature": "module:b4-teaser",
+      "source": null,
+      "usedByTemplates": [
+        "4brands-reply-de-customer-experience-management"
+      ],
+      "usedByPages": [
+        "4brands-reply-de-customer-experience-management"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "b4-teaser",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "b4-text",
+      "label": "b4-text",
+      "kind": "module",
+      "signature": "module:b4-text",
+      "source": null,
+      "usedByTemplates": [
+        "4brands-reply-de-rotkaeppchen-mumm-sektkellereien"
+      ],
+      "usedByPages": [
+        "4brands-reply-de-rotkaeppchen-mumm-sektkellereien"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "b4-text",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "card-carousel",
+      "label": "card-carousel",
+      "kind": "module",
+      "signature": "module:card-carousel",
+      "source": null,
+      "usedByTemplates": [
+        "4brands-reply-de-customer-experience-management",
+        "4brands-reply-en",
+        "en-insights",
+        "index"
+      ],
+      "usedByPages": [
+        "4brands-reply-de-customer-experience-management",
+        "4brands-reply-en",
+        "en-insights",
+        "index"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "card-carousel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "cards-wall",
+      "label": "cards-wall",
+      "kind": "module",
+      "signature": "module:cards-wall",
+      "source": null,
+      "usedByTemplates": [
+        "4brands-reply-en",
+        "en-insights",
+        "en-iot",
+        "index"
+      ],
+      "usedByPages": [
+        "4brands-reply-en",
+        "en-insights",
+        "en-iot",
+        "index"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "cards-wall",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "collections",
+      "label": "collections",
+      "kind": "module",
+      "signature": "module:collections",
+      "source": null,
+      "usedByTemplates": [
+        "en-insights"
+      ],
+      "usedByPages": [
+        "en-insights"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "collections",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "discover-also",
+      "label": "discover-also",
+      "kind": "module",
+      "signature": "module:discover-also",
+      "source": null,
+      "usedByTemplates": [
+        "en-iot"
+      ],
+      "usedByPages": [
+        "en-iot"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "discover-also",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "editorial-hero",
+      "label": "editorial-hero",
+      "kind": "module",
+      "signature": "module:editorial-hero",
+      "source": null,
+      "usedByTemplates": [
+        "en-covid-19-implications-2021"
+      ],
+      "usedByPages": [
+        "en-covid-19-implications-2021"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "editorial-hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "explore",
+      "label": "explore",
+      "kind": "module",
+      "signature": "module:explore",
+      "source": null,
+      "usedByTemplates": [
+        "en-insights"
+      ],
+      "usedByPages": [
+        "en-insights"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "explore",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "feature",
+      "label": "feature",
+      "kind": "module",
+      "signature": "module:feature",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "feature",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "featured",
+      "label": "featured",
+      "kind": "module",
+      "signature": "module:featured",
+      "source": null,
+      "usedByTemplates": [
+        "en-iot"
+      ],
+      "usedByPages": [
+        "en-iot"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "card-carousel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero-card",
+      "label": "hero-card",
+      "kind": "module",
+      "signature": "module:hero-card",
+      "source": null,
+      "usedByTemplates": [
+        "en-insights"
+      ],
+      "usedByPages": [
+        "en-insights"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "hero-card",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero-slider",
+      "label": "hero-slider",
+      "kind": "module",
+      "signature": "module:hero-slider",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "hero-slider",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "intro",
+      "label": "intro",
+      "kind": "module",
+      "signature": "module:intro",
+      "source": null,
+      "usedByTemplates": [
+        "en-accessibility",
+        "en-insights"
+      ],
+      "usedByPages": [
+        "en-accessibility",
+        "en-insights"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "intro",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "labs",
+      "label": "labs",
+      "kind": "module",
+      "signature": "module:labs",
+      "source": null,
+      "usedByTemplates": [
+        "en-iot"
+      ],
+      "usedByPages": [
+        "en-iot"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "labs",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "make",
+      "label": "make",
+      "kind": "module",
+      "signature": "module:make",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "make",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "media-hero",
+      "label": "media-hero",
+      "kind": "module",
+      "signature": "module:media-hero",
+      "source": null,
+      "usedByTemplates": [
+        "en-iot"
+      ],
+      "usedByPages": [
+        "en-iot"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "media-hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "page-index",
+      "label": "page-index",
+      "kind": "module",
+      "signature": "module:page-index",
+      "source": null,
+      "usedByTemplates": [
+        "en-covid-19-implications-2021"
+      ],
+      "usedByPages": [
+        "en-covid-19-implications-2021"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "page-index",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "prepare",
+      "label": "prepare",
+      "kind": "module",
+      "signature": "module:prepare",
+      "source": null,
+      "usedByTemplates": [
+        "en-covid-19-implications-2021"
+      ],
+      "usedByPages": [
+        "en-covid-19-implications-2021"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "prepare",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "rose-cta",
+      "label": "rose-cta",
+      "kind": "module",
+      "signature": "module:rose-cta",
+      "source": null,
+      "usedByTemplates": [
+        "en-iot",
+        "index"
+      ],
+      "usedByPages": [
+        "en-iot",
+        "index"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "rose-cta",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "section-heading",
+      "label": "section-heading",
+      "kind": "module",
+      "signature": "module:section-heading",
+      "source": null,
+      "usedByTemplates": [
+        "4brands-reply-de-customer-experience-management",
+        "4brands-reply-en",
+        "en-insights",
+        "en-iot",
+        "index"
+      ],
+      "usedByPages": [
+        "4brands-reply-de-customer-experience-management",
+        "4brands-reply-en",
+        "en-insights",
+        "en-iot",
+        "index"
+      ],
+      "instanceCount": 5,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "section-heading",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "statement",
+      "label": "statement",
+      "kind": "module",
+      "signature": "module:statement",
+      "source": null,
+      "usedByTemplates": [
+        "4brands-reply-de-customer-experience-management",
+        "4brands-reply-de-rotkaeppchen-mumm-sektkellereien",
+        "4brands-reply-en",
+        "en-iot",
+        "index"
+      ],
+      "usedByPages": [
+        "4brands-reply-de-customer-experience-management",
+        "4brands-reply-de-rotkaeppchen-mumm-sektkellereien",
+        "4brands-reply-en",
+        "en-iot",
+        "index"
+      ],
+      "instanceCount": 5,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "statement",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "tension",
+      "label": "tension",
+      "kind": "module",
+      "signature": "module:tension",
+      "source": null,
+      "usedByTemplates": [
+        "en-covid-19-implications-2021"
+      ],
+      "usedByPages": [
+        "en-covid-19-implications-2021"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "tension",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "text-band",
+      "label": "text-band",
+      "kind": "module",
+      "signature": "module:text-band",
+      "source": null,
+      "usedByTemplates": [
+        "en-covid-19-implications-2021"
+      ],
+      "usedByPages": [
+        "en-covid-19-implications-2021"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "text-band",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

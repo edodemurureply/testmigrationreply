@@ -1,0 +1,474 @@
+{
+  "slug": "en-healthcare",
+  "type": "hub",
+  "renderBranch": "A'",
+  "template": "en-iot",
+  "modules": [
+    "media-hero",
+    "hub-text",
+    "section-heading",
+    "card-carousel",
+    "cards-wall",
+    "labs",
+    "hero-card",
+    "rose-cta"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "media-hero",
+    "hub-text",
+    "section-heading",
+    "card-carousel",
+    "section-heading",
+    "card-carousel",
+    "section-heading",
+    "cards-wall",
+    "section-heading",
+    "labs",
+    "hero-card",
+    "rose-cta"
+  ],
+  "canonShas": {
+    "header": "e47b9c14af9e",
+    "footer": "b9199d0fef51",
+    "css": "5bf5dffd7509"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Government and Healthcare | Reply",
+    "description": "Innovation and transformation in Government and Healthcare to enable better outcomes for citizens and society.",
+    "canonical": "https://www.reply.com/en/healthcare",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Government and Healthcare | Reply",
+    "description": "Innovation and transformation in Government and Healthcare to enable better outcomes for citizens and society.",
+    "url": "https://www.reply.com/en/healthcare"
+  },
+  "migratedAt": "2026-11-15T22:20:57Z",
+  "designMdSha": "d809c0215087",
+  "designJsonSha": "bdcb89ad7bf4",
+  "sourceCurrentSha": "9e81d138faf9",
+  "sourceProposedSha": "c4e016c88677",
+  "fidelityTier": "sibling",
+  "archetypeSource": "en-iot",
+  "archetypeSha": "0f103c077137",
+  "variants": [
+    "card-carousel--awards card-carousel--horizontal card-carousel--hub card-carousel--simple cards-wall--tm-33 hero-card--b-7 hero-card--bm-56 hero-card--hub hero-card--t-120 hero-card--tm-56 hub-text--b-207 hub-text--bm-109 hub-text--mixed hub-text--t-120 hub-text--tm-0 section-heading--t-96 section-heading--tm-56 section-heading--tm-80 section-heading--w-5 section-heading--w-6"
+  ],
+  "gatesPassed": [
+    "delivery-lint"
+  ],
+  "gateEvidence": {
+    "pixel-gate-1440": "OPEN: no row in the pixel table (prototypes-1440) — run gate-all.mjs --stage prototype so the page is measured",
+    "pixel-gate-360": "OPEN: no row in the pixel table (prototypes-360) — run gate-all.mjs --stage prototype so the page is measured",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /en/healthcare)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "module-flattened",
+      "source": "cardcarousel-runtime,hubspot-runtime (section 1)",
+      "target": "hub-text",
+      "reason": "one-off source runtime without a hub block; content kept verbatim in order"
+    }
+  ],
+  "assetsBundled": 5,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/de/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/metaverse",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/prebuilt-ai-apps",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quality-engineering",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quantum-computing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/robotics-and-autonomous-things",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/strategy-and-business-model-transformation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/supply-chain-management",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-networks",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/logistics",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/retail-and-consumer-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-and-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/labs/area-42",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-73",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-phi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/cyber-security-lab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-house-of-models",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-iot-labs-concept-quality",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/testautomationcentre",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/xchange",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/energy-and-emissions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/reply-to-the-earth",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/sustainable-supply-chain",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/continuous-learning",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/wellbeing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/inclusion-and-diversity",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/governance-system",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/governance-policies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/governance/our-commitment-to-ethical-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/newsroom?type=financial-news",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/reply-share-information",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-highlights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-calendar-and-events",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-reports",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/shareholders-meeting",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/loyalty-shares",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors#H6tmz",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/public-sector-capabilities#a3YWN",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/public-sector-capabilities#vo8jl",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/public-sector-capabilities#MYWAt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/public-sector-capabilities#MYWAt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/public-sector-capabilities#O7say",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/public-sector-capabilities#DJMi3",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/public-sector-capabilities#QqcmT",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/go-reply/en/the-power-of-generative-ai-to-transform-the-public-sector",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/sprint-reply/en/ipa-and-financial-crime-regulation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/data-world/value-based-medicine",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/solidsoft-reply/en/transforming-controlled-drug-processes",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ieo-innovates-mammography-screening-with-agentic-systems-based-on-artificial-intelligence",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/design/launching-new-service-for-the-elderlies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/healthcare/x-rais",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/arlanis-reply/en/healthcare-as-a-platform",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/solidsoft-reply/en/ecdr-pro",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/ticuro-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/solidsoft-reply/en/trvst",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/solidsoft-reply/en/verilite",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/healthcare/telemedicine-and-connected-care",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-candidate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-client",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-supplier",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-marketing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/modern-slavery-statement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contents/Reply_Company_Information_en.pdf",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "en/healthcare/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "en/healthcare/_meta.json",
+  "driverVersion": "1"
+}

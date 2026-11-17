@@ -1,0 +1,8396 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-17T00:42:06.820Z",
+  "width": 1440,
+  "variable": [
+   ".card-carousel-runtime"
+  ],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.reply.com/en/christmas",
+  "at": "2026-11-17T00:41:40.509Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 8777,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-bottom.w-full > div.logo.flex > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "go to homepage",
+    "href": "/en"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 906,
+    "y": 28,
+    "w": 41,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 1225,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "custom-menu-runtime.header.flex > nav.header-bottom.w-full > button.hidden.lg:block",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#301Uk > a",
+    "x": -105,
+    "y": 1002,
+    "w": 298,
+    "h": 447,
+    "text": "area42",
+    "href": "/en/labs/area-42"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": -105,
+    "y": 1002,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "ee890cb6-a745-4a54-8b9a-262ca7aeb508"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": -73,
+    "y": 1353,
+    "w": 234,
+    "h": 26,
+    "level": 3,
+    "text": "area42"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#Mj1co > a",
+    "x": 233,
+    "y": 1002,
+    "w": 298,
+    "h": 447,
+    "text": "the ai-enhanced customer experience research",
+    "href": "/en/artificial-intelligence/ai-enhanced-customer-experience"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 233,
+    "y": 1002,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "96ce37cb-eba5-49cf-9f19-050a7a419d27"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": 265,
+    "y": 1327,
+    "w": 234,
+    "h": 52,
+    "level": 3,
+    "text": "the ai-enhanced customer experience"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#bzn4X > a",
+    "x": 552,
+    "y": 974,
+    "w": 335,
+    "h": 503,
+    "text": "cloud adoption in financial services research",
+    "href": "/en/financial-services/cloud-adoption-in-financial-services"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 552,
+    "y": 974,
+    "w": 335,
+    "h": 503,
+    "text": "",
+    "file": "72f795f1-b5a0-47e2-b2f7-60e0e6803920"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": 588,
+    "y": 1340,
+    "w": 263,
+    "h": 59,
+    "level": 3,
+    "text": "cloud adoption in financial services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#eXVjf > a",
+    "x": 909,
+    "y": 1002,
+    "w": 298,
+    "h": 447,
+    "text": "nft: enter the world of digital ownership best practice",
+    "href": "/en/metaverse/nfts-enablers-of-digital-ownership"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 909,
+    "y": 1002,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "a3ff9ec7-efa3-496c-96b5-c02db5202413"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": 941,
+    "y": 1327,
+    "w": 234,
+    "h": 52,
+    "level": 3,
+    "text": "nft: enter the world of digital ownership"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#wZEIx > a",
+    "x": 1247,
+    "y": 1002,
+    "w": 298,
+    "h": 447,
+    "text": "optimize your warehouse operations with reply acknowledgment",
+    "href": "/en/supply-chain-management/optimize-your-warehouse-operations-with-reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 1247,
+    "y": 1002,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "65fb8cfd-8d41-4e42-906b-2ebf3b0ca0b5"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": 1279,
+    "y": 1301,
+    "w": 234,
+    "h": 78,
+    "level": 3,
+    "text": "optimize your warehouse operations with reply"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-prev.round-bt",
+    "x": 89,
+    "y": 1202,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-next.round-bt",
+    "x": 1303,
+    "y": 1202,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-ryqho",
+    "x": 140,
+    "y": 1659,
+    "w": 200,
+    "h": 27,
+    "text": "WE BELIEVE"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#7vrQI",
+    "x": 380,
+    "y": 1659,
+    "w": 800,
+    "h": 151,
+    "level": 2,
+    "text": "it's not the ability to have a vision, it's the ability to make it real that will get you ahead in your business."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#yHmsb",
+    "x": 380,
+    "y": 1866,
+    "w": 800,
+    "h": 50,
+    "level": 2,
+    "text": "make forward"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "mark > span.colors-sp-nl1 > a",
+    "x": 380,
+    "y": 1868,
+    "w": 308,
+    "h": 46,
+    "text": "make forward",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-ryqho",
+    "x": 140,
+    "y": 2087,
+    "w": 920,
+    "h": 27,
+    "text": "GET INSPIRED"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#BjsZS",
+    "x": 140,
+    "y": 2114,
+    "w": 920,
+    "h": 50,
+    "level": 2,
+    "text": "explore our stories"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "videostory-runtime.aspect-w-2.aspect-h-3 > div.absolute.inset-0 > img.absolute.h-full",
+    "x": 140,
+    "y": 2212,
+    "w": 387,
+    "h": 580,
+    "text": "",
+    "file": "714a434b-1b06-405e-8bb7-4db4a83f9331"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.absolute.inset-0 > div.flex.flex-col > button.round-bt.round-bt--lg",
+    "x": 297,
+    "y": 2466,
+    "w": 72,
+    "h": 72,
+    "text": "play"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "videostory-runtime.aspect-w-2.aspect-h-3 > div.absolute.inset-0 > img.absolute.h-full",
+    "x": 527,
+    "y": 2212,
+    "w": 387,
+    "h": 580,
+    "text": "",
+    "file": "360c4480-28e1-4221-b062-41d0b4378e8f"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.absolute.inset-0 > div.flex.flex-col > button.round-bt.round-bt--lg",
+    "x": 684,
+    "y": 2466,
+    "w": 72,
+    "h": 72,
+    "text": "play"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "videostory-runtime.aspect-w-2.aspect-h-3 > div.absolute.inset-0 > img.absolute.h-full",
+    "x": 913,
+    "y": 2212,
+    "w": 387,
+    "h": 580,
+    "text": "",
+    "file": "771aa25f-61ee-40c3-ab55-1812246b162e"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.absolute.inset-0 > div.flex.flex-col > button.round-bt.round-bt--lg",
+    "x": 1071,
+    "y": 2466,
+    "w": 72,
+    "h": 72,
+    "text": "play"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-ryqho",
+    "x": 177,
+    "y": 2912,
+    "w": 861,
+    "h": 27,
+    "text": "WE MAKE"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#VKEIh",
+    "x": 177,
+    "y": 2939,
+    "w": 861,
+    "h": 50,
+    "level": 2,
+    "text": "portiamo innovazione in tutti i settori"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.grid-bg__container.absolute > picture > img.grid-bg.w-full",
+    "x": 64,
+    "y": 3045,
+    "w": 1312,
+    "h": 738,
+    "text": "",
+    "file": "6641daa8-5112-4a5b-93ad-8c266de6edac"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-maz2d > span.colors-1-gbfb",
+    "x": 179,
+    "y": 3212,
+    "w": 100,
+    "h": 11,
+    "text": "DIGITAL EVENT"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h4#xC8e4",
+    "x": 179,
+    "y": 3235,
+    "w": 567,
+    "h": 78,
+    "level": 4,
+    "text": "the rose room presents: rose the digital human"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h4#xC8e4 > span.colors-1-gbfb",
+    "x": 179,
+    "y": 3238,
+    "w": 375,
+    "h": 32,
+    "text": "The ROSE Room presents:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h4#xC8e4 > span.colors-1-gbfb",
+    "x": 179,
+    "y": 3277,
+    "w": 343,
+    "h": 32,
+    "text": "Rose the Digital Human"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-miz3u > span.colors-1-gbfb",
+    "x": 179,
+    "y": 3324,
+    "w": 233,
+    "h": 11,
+    "text": "18 gennaio 2023 | 12:00 - 13:00 CET"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p > span.colors-1-gbfb",
+    "x": 179,
+    "y": 3361,
+    "w": 535,
+    "h": 72,
+    "text": "Segui lo streaming dell’evento e interagisci in diretta con Rose, il Digital Hum"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-miz3u > span.colors-1-gbfb",
+    "x": 179,
+    "y": 3449,
+    "w": 349,
+    "h": 11,
+    "text": "L’evento è dedicato esclusivamente agli iscritti ROSE"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.wsvoekcqfu.wsvoekcqfu-md > div > button#4LBBl",
+    "x": 179,
+    "y": 3487,
+    "w": 187,
+    "h": 56,
+    "text": "go to rose"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.wsvoekcqfu.wsvoekcqfu-md > div > button#6TGe5",
+    "x": 179,
+    "y": 3568,
+    "w": 111,
+    "h": 48,
+    "text": "scopri di più"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#4103 > a",
+    "x": 64,
+    "y": 3807,
+    "w": 411,
+    "h": 616,
+    "text": "fraport: computer vision and ai optimise airport operations",
+    "href": "/en/artificial-intelligence/fraport-computer-vision-and-ai-optimise-airport-operations"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 64,
+    "y": 3807,
+    "w": 411,
+    "h": 616,
+    "text": "",
+    "file": "e71a0e62-8b14-462f-b727-f952aca6a0bd"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#4103 > div.reply-card-body > a",
+    "x": 80,
+    "y": 4443,
+    "w": 379,
+    "h": 52,
+    "text": "fraport: computer vision and ai optimise airport operations",
+    "href": "/en/artificial-intelligence/fraport-computer-vision-and-ai-optimise-airport-operations"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 80,
+    "y": 4443,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "fraport: computer vision and ai optimise airport operations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 96,
+    "y": 4511,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#3468 > a",
+    "x": 515,
+    "y": 3807,
+    "w": 411,
+    "h": 411,
+    "text": "the digital humans revolution",
+    "href": "/en/artificial-intelligence/the-digital-humans-revolution"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 515,
+    "y": 3807,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "cbf5b9ba-215a-4af9-be81-678bb0053eb2"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#3468 > div.reply-card-body > a",
+    "x": 531,
+    "y": 4238,
+    "w": 379,
+    "h": 26,
+    "text": "the digital humans revolution",
+    "href": "/en/artificial-intelligence/the-digital-humans-revolution"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 531,
+    "y": 4238,
+    "w": 379,
+    "h": 26,
+    "level": 3,
+    "text": "the digital humans revolution"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 547,
+    "y": 4280,
+    "w": 106,
+    "h": 14,
+    "text": "Best Practice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#3899 > a",
+    "x": 965,
+    "y": 3807,
+    "w": 411,
+    "h": 411,
+    "text": "meta minutes",
+    "href": "/en/metaverse/meta-minutes"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 965,
+    "y": 3807,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "840ee4a1-3e8e-4ac5-8070-bf9911f3bd70"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#3899 > div.reply-card-body > a",
+    "x": 981,
+    "y": 4238,
+    "w": 379,
+    "h": 26,
+    "text": "meta minutes",
+    "href": "/en/metaverse/meta-minutes"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 981,
+    "y": 4238,
+    "w": 379,
+    "h": 26,
+    "level": 3,
+    "text": "meta minutes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 997,
+    "y": 4280,
+    "w": 106,
+    "h": 14,
+    "text": "Best Practice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#1231 > a",
+    "x": 515,
+    "y": 4362,
+    "w": 411,
+    "h": 616,
+    "text": "machine translation as a service",
+    "href": "/en/artificial-intelligence/machine-learning-bmw"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 515,
+    "y": 4362,
+    "w": 411,
+    "h": 617,
+    "text": "",
+    "file": "973043e2-edc7-465d-aac5-9843567f3898"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#1231 > div.reply-card-body > a",
+    "x": 531,
+    "y": 4998,
+    "w": 379,
+    "h": 26,
+    "text": "machine translation as a service",
+    "href": "/en/artificial-intelligence/machine-learning-bmw"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 531,
+    "y": 4998,
+    "w": 379,
+    "h": 26,
+    "level": 3,
+    "text": "machine translation as a service"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flex.items-center > div.category-label > div.category-name",
+    "x": 547,
+    "y": 5040,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#3463 > a",
+    "x": 965,
+    "y": 4362,
+    "w": 411,
+    "h": 411,
+    "text": "ritter sport: the unicorn chocolate",
+    "href": "/en/cases/the-unicorn-chocolate/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 965,
+    "y": 4362,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "ded0c707-9aff-4bb1-8d1f-562f2b440969"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > div.reply-card-logo.absolute > img",
+    "x": 989,
+    "y": 4386,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "973dff81-4251-476a-8466-aaa45789db61"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#3463 > div.reply-card-body > a",
+    "x": 981,
+    "y": 4793,
+    "w": 379,
+    "h": 26,
+    "text": "ritter sport: the unicorn chocolate",
+    "href": "/en/cases/the-unicorn-chocolate/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 981,
+    "y": 4793,
+    "w": 379,
+    "h": 26,
+    "level": 3,
+    "text": "ritter sport: the unicorn chocolate"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 997,
+    "y": 4835,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#4099 > a",
+    "x": 64,
+    "y": 4592,
+    "w": 411,
+    "h": 616,
+    "text": "predictive maintenance with spot",
+    "href": "/en/robotics-and-autonomous-things/predictive-maintenance-with-spot"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 64,
+    "y": 4592,
+    "w": 411,
+    "h": 616,
+    "text": "",
+    "file": "10dc2333-ee04-4923-847d-3842de012d46"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > div.reply-card-logo.absolute > img",
+    "x": 88,
+    "y": 4616,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "3706d8be-b6e8-4d8f-8f85-16ed46ee6b5b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#4099 > div.reply-card-body > a",
+    "x": 80,
+    "y": 5228,
+    "w": 379,
+    "h": 26,
+    "text": "predictive maintenance with spot",
+    "href": "/en/robotics-and-autonomous-things/predictive-maintenance-with-spot"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 80,
+    "y": 5228,
+    "w": 379,
+    "h": 26,
+    "level": 3,
+    "text": "predictive maintenance with spot"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 96,
+    "y": 5270,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#2877 > a",
+    "x": 965,
+    "y": 4917,
+    "w": 411,
+    "h": 411,
+    "text": "coca-cola: the benefits of advanced retail analytics",
+    "href": "/project/coca-cola-advanced-retail-analytics/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 965,
+    "y": 4917,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "b52350c0-2607-4e9b-94f3-aac75e531a5a"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > div.reply-card-logo.absolute > img",
+    "x": 989,
+    "y": 4941,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "eaebfbbf-6d4c-4c99-8135-8698a57e8974"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#2877 > div.reply-card-body > a",
+    "x": 981,
+    "y": 5348,
+    "w": 379,
+    "h": 52,
+    "text": "coca-cola: the benefits of advanced retail analytics",
+    "href": "/project/coca-cola-advanced-retail-analytics/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 981,
+    "y": 5348,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "coca-cola: the benefits of advanced retail analytics"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 997,
+    "y": 5416,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#tnK5u",
+    "x": 177,
+    "y": 5632,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "latest insights"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h3#tnK5u > span.colors-1-gbfb",
+    "x": 177,
+    "y": 5633,
+    "w": 277,
+    "h": 40,
+    "text": "Latest insights"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#yvKdr > a",
+    "x": -277,
+    "y": 5736,
+    "w": 298,
+    "h": 447,
+    "text": "sustainability trends: a data-driven overview",
+    "href": "/en/sustainability-trends"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": -277,
+    "y": 5736,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "4b0e74d5-c823-4b79-827c-d4b8bb3c831e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#mo7FM > a",
+    "x": 61,
+    "y": 5736,
+    "w": 298,
+    "h": 447,
+    "text": "the ai-enhanced customer experience research",
+    "href": "/en/artificial-intelligence/ai-enhanced-customer-experience"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 61,
+    "y": 5736,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "96ce37cb-eba5-49cf-9f19-050a7a419d27"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": 93,
+    "y": 6061,
+    "w": 234,
+    "h": 52,
+    "level": 3,
+    "text": "the ai-enhanced customer experience"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#PGYKl > a",
+    "x": 399,
+    "y": 5736,
+    "w": 298,
+    "h": 447,
+    "text": "metaverse: disentangling the value from the hype research",
+    "href": "/en/metaverse/metaverse-disentangling-the-value-from-the-hype"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 399,
+    "y": 5736,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "370d3a53-ab3f-489a-a2df-e82cbe89042d"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": 431,
+    "y": 6035,
+    "w": 234,
+    "h": 78,
+    "level": 3,
+    "text": "metaverse: disentangling the value from the hype"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#FKeE8 > a",
+    "x": 737,
+    "y": 5736,
+    "w": 298,
+    "h": 447,
+    "text": "the new era of cybersecurity automation research",
+    "href": "/en/cybersecurity/cybersecurity-automation"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 737,
+    "y": 5736,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "3a24f545-d6ac-425e-a727-f7b2f038889e"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": 769,
+    "y": 6035,
+    "w": 234,
+    "h": 78,
+    "level": 3,
+    "text": "the new era of cybersecurity automation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#JR6eW > a",
+    "x": 1075,
+    "y": 5736,
+    "w": 298,
+    "h": 447,
+    "text": "the state of business intelligence and advanced analytics research",
+    "href": "/en/data-world/business-intelligence-and-advanced-analytics"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 1075,
+    "y": 5736,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "9733a0a6-ce7a-43e3-8302-711f14b5c93e"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": 1107,
+    "y": 6035,
+    "w": 234,
+    "h": 78,
+    "level": 3,
+    "text": "the state of business intelligence and advanced analytics"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#IkcLf > a",
+    "x": 1413,
+    "y": 5736,
+    "w": 298,
+    "h": 447,
+    "text": "hybrid work",
+    "href": "/en/hybrid-work/hybrid-work"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 1413,
+    "y": 5736,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "afef9a1d-ec8b-4306-8c81-1ba9999604f9"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-prev.round-bt",
+    "x": 89,
+    "y": 5935,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-next.round-bt",
+    "x": 1303,
+    "y": 5935,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.oyzzxyzsgv.oyzzxyzsgv-md > div > a#bfhO4",
+    "x": 654,
+    "y": 6243,
+    "w": 132,
+    "h": 48,
+    "text": "discover more",
+    "href": "/en/insights"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#10205 > a",
+    "x": 64,
+    "y": 6430,
+    "w": 298,
+    "h": 447,
+    "text": "spotlight on ai-embodied agents",
+    "href": "/en/robotics-and-autonomous-things/spotlight-on-ai-embodied-agents"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 64,
+    "y": 6430,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "ac1ea336-ce0f-4f7f-91c3-7e63f6fb8884"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#10205 > div.reply-card-body > a",
+    "x": 80,
+    "y": 6897,
+    "w": 266,
+    "h": 52,
+    "text": "spotlight on ai-embodied agents",
+    "href": "/en/robotics-and-autonomous-things/spotlight-on-ai-embodied-agents"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 80,
+    "y": 6897,
+    "w": 266,
+    "h": 52,
+    "level": 3,
+    "text": "spotlight on ai-embodied agents"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 96,
+    "y": 6965,
+    "w": 106,
+    "h": 14,
+    "text": "Best Practice"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 435,
+    "y": 6463,
+    "w": 232,
+    "h": 130,
+    "text": "",
+    "file": "7b7f3647-20e1-418c-801f-fb1aa0e4d6bf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#3734 > div.reply-card-body > a",
+    "x": 435,
+    "y": 6614,
+    "w": 232,
+    "h": 52,
+    "text": "wealth management observatory | q2 2026",
+    "href": "/en/strategy-and-business-model-transformation/wealth-management"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 435,
+    "y": 6614,
+    "w": 232,
+    "h": 52,
+    "level": 3,
+    "text": "wealth management observatory | q2 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 451,
+    "y": 6682,
+    "w": 74,
+    "h": 14,
+    "text": "Research"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > article.reply-card-abstract.text > p",
+    "x": 435,
+    "y": 6714,
+    "w": 232,
+    "h": 214,
+    "text": "As of compared with Q2 2025, representing a 14% growth. Find out more in the ext"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#9150 > a",
+    "x": 740,
+    "y": 6430,
+    "w": 298,
+    "h": 447,
+    "text": "a new multi-channel platform for bper banca",
+    "href": "/en/financial-services/new-digital-channels-bper-banca"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 740,
+    "y": 6430,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "9c12262b-ee5c-428a-8c5c-3f1d534e8443"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > div.reply-card-logo.absolute > img",
+    "x": 764,
+    "y": 6454,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "c32077aa-1def-4215-8579-0875383af9b8"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#9150 > div.reply-card-body > a",
+    "x": 756,
+    "y": 6897,
+    "w": 266,
+    "h": 52,
+    "text": "a new multi-channel platform for bper banca",
+    "href": "/en/financial-services/new-digital-channels-bper-banca"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 756,
+    "y": 6897,
+    "w": 266,
+    "h": 52,
+    "level": 3,
+    "text": "a new multi-channel platform for bper banca"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 772,
+    "y": 6965,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#7301 > a",
+    "x": 1078,
+    "y": 6430,
+    "w": 298,
+    "h": 447,
+    "text": "redefining it system integration with an api-first approach",
+    "href": "/en/telco-and-media/it-system-integration-api-first"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 1078,
+    "y": 6430,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "68619213-dba4-4d90-9182-0c6e54ef577c"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > div.reply-card-logo.absolute > img",
+    "x": 1102,
+    "y": 6454,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "c687b180-2c8f-4448-adca-f0382320799a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#7301 > div.reply-card-body > a",
+    "x": 1094,
+    "y": 6897,
+    "w": 266,
+    "h": 78,
+    "text": "redefining it system integration with an api-first approach",
+    "href": "/en/telco-and-media/it-system-integration-api-first"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 1094,
+    "y": 6897,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "redefining it system integration with an api-first approach"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 1110,
+    "y": 6991,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#7173 > a",
+    "x": 402,
+    "y": 7030,
+    "w": 298,
+    "h": 298,
+    "text": "more flexibility for charging parks",
+    "href": "/en/automotive-and-manufacturing/more-flexibility-for-charging-parks"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 402,
+    "y": 7030,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "96024e63-b350-42d5-a833-60910a9905dd"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > div.reply-card-logo.absolute > img",
+    "x": 426,
+    "y": 7054,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "1c872517-e756-4b17-a219-834e790f373d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#7173 > div.reply-card-body > a",
+    "x": 418,
+    "y": 7348,
+    "w": 266,
+    "h": 52,
+    "text": "more flexibility for charging parks",
+    "href": "/en/automotive-and-manufacturing/more-flexibility-for-charging-parks"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 418,
+    "y": 7348,
+    "w": 266,
+    "h": 52,
+    "level": 3,
+    "text": "more flexibility for charging parks"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 434,
+    "y": 7416,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#6426 > a",
+    "x": 64,
+    "y": 7045,
+    "w": 298,
+    "h": 298,
+    "text": "hyperautomation in private banking",
+    "href": "/en/artificial-intelligence/hyperautomation-private-banking"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 64,
+    "y": 7045,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "c0aeb4bd-3cb9-45ca-9dc3-5a9d87b59439"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > div.reply-card-logo.absolute > img",
+    "x": 88,
+    "y": 7069,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "a3dacc60-2b49-4520-9e41-c145f3ada8b1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#6426 > div.reply-card-body > a",
+    "x": 80,
+    "y": 7363,
+    "w": 266,
+    "h": 52,
+    "text": "hyperautomation in private banking",
+    "href": "/en/artificial-intelligence/hyperautomation-private-banking"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 80,
+    "y": 7363,
+    "w": 266,
+    "h": 52,
+    "level": 3,
+    "text": "hyperautomation in private banking"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 96,
+    "y": 7431,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#6398 > a",
+    "x": 740,
+    "y": 7045,
+    "w": 298,
+    "h": 447,
+    "text": "intelligent diagnostics for on-board systems",
+    "href": "/en/data-world/intelligent-diagnostics-for-on-board-systems"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 740,
+    "y": 7045,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "72d1d000-8dce-46a7-9e82-2c0e29337a7e"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > div.reply-card-logo.absolute > img",
+    "x": 764,
+    "y": 7069,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "1a8c1e01-8fae-4c7a-b479-a589bcb73a62"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#6398 > div.reply-card-body > a",
+    "x": 756,
+    "y": 7512,
+    "w": 266,
+    "h": 52,
+    "text": "intelligent diagnostics for on-board systems",
+    "href": "/en/data-world/intelligent-diagnostics-for-on-board-systems"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 756,
+    "y": 7512,
+    "w": 266,
+    "h": 52,
+    "level": 3,
+    "text": "intelligent diagnostics for on-board systems"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 772,
+    "y": 7580,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#6539 > a",
+    "x": 1078,
+    "y": 7070,
+    "w": 298,
+    "h": 298,
+    "text": "dish order: development of a fair online ordering system",
+    "href": "/en/retail-and-consumer-products/dish-order-development-of-a-fair-delivery-service"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 1078,
+    "y": 7070,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "bd2d1b83-86f1-4f74-bdff-f596da44718e"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > div.reply-card-logo.absolute > img",
+    "x": 1102,
+    "y": 7094,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "064b64fc-2c73-489e-b43f-7e2f6d4dcafc"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#6539 > div.reply-card-body > a",
+    "x": 1094,
+    "y": 7388,
+    "w": 266,
+    "h": 78,
+    "text": "dish order: development of a fair online ordering system",
+    "href": "/en/retail-and-consumer-products/dish-order-development-of-a-fair-delivery-service"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 1094,
+    "y": 7388,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "dish order: development of a fair online ordering system"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 1110,
+    "y": 7482,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-binding > div.pager-container > button.more.pager",
+    "x": 631,
+    "y": 7655,
+    "w": 178,
+    "h": 48,
+    "text": "load more content"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > picture > img.content.picture",
+    "x": 634,
+    "y": 7842,
+    "w": 172,
+    "h": 60,
+    "text": "",
+    "file": "6fcab6ec-285b-4545-a46d-72f4927d4bbe"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-sm-align-center > span.colors-1-gbfb",
+    "x": 258,
+    "y": 7953,
+    "w": 924,
+    "h": 141,
+    "text": "Engage with our network of experts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ffyncdinjb.ffyncdinjb-sm > div > a#3ZFLT",
+    "x": 627,
+    "y": 8147,
+    "w": 187,
+    "h": 56,
+    "text": "go to rose",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.block > nav.footer.p-10 > a",
+    "x": 64,
+    "y": 8344,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 8440,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 8440,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 8487,
+    "w": 103,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 8532,
+    "w": 45,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 8577,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 8622,
+    "w": 67,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 8440,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 8440,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 8487,
+    "w": 142,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 8532,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 8594,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 8638,
+    "w": 149,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 8487,
+    "w": 161,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 8532,
+    "w": 127,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 8577,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 8487,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 8549,
+    "w": 154,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 8594,
+    "w": 147,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 8638,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "void(0)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Careers",
+    "x": 1112,
+    "y": 8440,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Contacts",
+    "x": 1112,
+    "y": 8520,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1112,
+    "y": 8600,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1124,
+    "y": 8612,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1184,
+    "y": 8600,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1196,
+    "y": 8612,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "a6732ee4-95cf-4951-9c4b-3675c7154f7e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1256,
+    "y": 8600,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1268,
+    "y": 8612,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "49664893-bfc1-4d79-9208-3bdd7083126b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1328,
+    "y": 8600,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1340,
+    "y": 8612,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "c48097ef-90ed-4c24-aa40-1764649e72ff"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > span",
+    "x": 64,
+    "y": 8744,
+    "w": 81,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > a.underline",
+    "x": 158,
+    "y": 8744,
+    "w": 136,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.text-white.py-3 > div.flex.justify-between > button#cookie-pref-center",
+    "x": 1276,
+    "y": 859,
+    "w": 164,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 1,
+    "textHidden": 1,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 7,
+    "offPage": 67,
+    "textNodes": 156,
+    "controls": 111,
+    "total": 2
+   },
+   "groups": [
+    {
+     "kind": "TEXT CLIPPED",
+     "advisory": false,
+     "n": 1,
+     "clipper": "h3.h6--medium.line-clamp-3",
+     "path": "a > div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+     "text": "cloud adoption in financial services",
+     "cutMin": 4,
+     "cutMax": 4
+    },
+    {
+     "kind": "TEXT HIDDEN",
+     "advisory": false,
+     "n": 1,
+     "clipper": "div.reply-card-image-container.aspect-w-2",
+     "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > div.category-label.light > div.category-name",
+     "text": "research",
+     "cutMin": 12,
+     "cutMax": 12
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 3,
+     "clipper": "h3.h6--medium.line-clamp-3",
+     "path": "a > div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+     "text": "area42",
+     "cutMin": 72,
+     "cutMax": 122
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "cardcarousel-runtime#o4JoG",
+     "path": "div.kgtefhlefu > div.block > reply-card-runtime#301Uk > a",
+     "text": "area42labs",
+     "cutMin": 105,
+     "cutMax": 105
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "cardcarousel-runtime#RdJwA",
+     "path": "div.efktomfrop > div.block > reply-card-runtime#yvKdr > a",
+     "text": "sustainability trends: a data-driven overviewwhite paper",
+     "cutMin": 259,
+     "cutMax": 289
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--a355dc1b--aemcoder.aem.live/en/christmas",
+  "at": "2026-11-17T00:42:06.663Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 8798,
+  "root": "main",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-main > div.site-header-logo > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "href": "/en"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-reply-logo > img",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "file": "reply-logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 900,
+    "y": 28,
+    "w": 46,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 1224,
+    "y": 28,
+    "w": 52,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-header-bar > nav.site-header-main > button.sm-collapsed",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+    "x": -105,
+    "y": 1002,
+    "w": 298,
+    "h": 447,
+    "text": "the ai-enhanced customer experience research",
+    "href": "/en/artificial-intelligence/ai-enhanced-customer-experience"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image > picture > img",
+    "x": -105,
+    "y": 1002,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_18f256eec08fd182691a9444ebcd45f283"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#the-ai-enhanced-customer-experience",
+    "x": -73,
+    "y": 1327,
+    "w": 234,
+    "h": 52,
+    "level": 3,
+    "text": "the ai-enhanced customer experience"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+    "x": 233,
+    "y": 1002,
+    "w": 298,
+    "h": 447,
+    "text": "cloud adoption in financial services research",
+    "href": "/en/financial-services/cloud-adoption-in-financial-services"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image > picture > img",
+    "x": 233,
+    "y": 1002,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_13741329a1bee8a53ec30e054b38098268"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#cloud-adoption-in-financial-services",
+    "x": 265,
+    "y": 1327,
+    "w": 234,
+    "h": 52,
+    "level": 3,
+    "text": "cloud adoption in financial services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.card-carousel-item.is-active > div.reply-card.reply-card-slider > a.reply-card-cover",
+    "x": 552,
+    "y": 974,
+    "w": 335,
+    "h": 503,
+    "text": "nft: enter the world of digital ownership best practice",
+    "href": "/en/metaverse/nfts-enablers-of-digital-ownership"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image > picture > img",
+    "x": 552,
+    "y": 974,
+    "w": 335,
+    "h": 503,
+    "text": "",
+    "file": "media_150a3e3c2c77f8f327db0c9fc91fad5d59"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#nft-enter-the-world-of-digital-ownership",
+    "x": 588,
+    "y": 1340,
+    "w": 263,
+    "h": 59,
+    "level": 3,
+    "text": "nft: enter the world of digital ownership"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+    "x": 909,
+    "y": 1002,
+    "w": 298,
+    "h": 447,
+    "text": "optimize your warehouse operations with reply acknowledgment",
+    "href": "/en/supply-chain-management/optimize-your-warehouse-operations-with-reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image > picture > img",
+    "x": 909,
+    "y": 1002,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_1faf11887fff07eaff49ede58a0414db28"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#optimize-your-warehouse-operations-with-reply",
+    "x": 941,
+    "y": 1301,
+    "w": 234,
+    "h": 78,
+    "level": 3,
+    "text": "optimize your warehouse operations with reply"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+    "x": 1247,
+    "y": 1002,
+    "w": 298,
+    "h": 447,
+    "text": "reply cyber security lab labs",
+    "href": "/en/labs/cyber-security-lab"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image > picture > img",
+    "x": 1247,
+    "y": 1002,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_1f860f8b9e9ba6c7f93513f3d1c5513e7b"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#reply-cyber-security-lab",
+    "x": 1279,
+    "y": 1327,
+    "w": 234,
+    "h": 52,
+    "level": 3,
+    "text": "reply cyber security lab"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-carousel-inner > div.card-carousel-controls > button.card-carousel-prev.round-bt",
+    "x": 89,
+    "y": 1202,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-carousel-inner > div.card-carousel-controls > button.card-carousel-next.round-bt",
+    "x": 1303,
+    "y": 1202,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.believe-grid.r-grid > div.believe-eyebrow > p",
+    "x": 140,
+    "y": 1659,
+    "w": 200,
+    "h": 20,
+    "text": "WE BELIEVE"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.believe-track > li.believe-item > h1#its-not-the-ability-to-have-a-vision-its-the-ability-to-make-it-real-that-will-get-you-ahead-in-your-business",
+    "x": 380,
+    "y": 1659,
+    "w": 800,
+    "h": 151,
+    "level": 1,
+    "text": "it's not the ability to have a vision, it's the ability to make it real that will get you ahead in your business."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.believe-statements > div.believe-forward > h2#make-forward",
+    "x": 380,
+    "y": 1866,
+    "w": 800,
+    "h": 50,
+    "level": 2,
+    "text": "make forward"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.believe-forward > h2#make-forward > a",
+    "x": 380,
+    "y": 1868,
+    "w": 303,
+    "h": 46,
+    "text": "make forward",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.make-text > div.make-eyebrow > p",
+    "x": 140,
+    "y": 2087,
+    "w": 920,
+    "h": 27,
+    "text": "GET INSPIRED"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.make-text > div.make-title > h2#explore-our-stories",
+    "x": 140,
+    "y": 2114,
+    "w": 920,
+    "h": 50,
+    "level": 2,
+    "text": "explore our stories"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.video-stories-still > picture > img",
+    "x": 140,
+    "y": 2212,
+    "w": 387,
+    "h": 580,
+    "text": "",
+    "file": "media_1ead4a5ee7432a10751eb5d936ca1c3832"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.video-stories-story > div.video-stories-overlay > button.video-stories-disc.play",
+    "x": 297,
+    "y": 2466,
+    "w": 72,
+    "h": 72,
+    "text": "play beth campbell_v12"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.video-stories-still > picture > img",
+    "x": 527,
+    "y": 2212,
+    "w": 387,
+    "h": 580,
+    "text": "",
+    "file": "media_118b7b3e505cbc49930276abfef88e9f35"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.video-stories-story > div.video-stories-overlay > button.video-stories-disc.play",
+    "x": 684,
+    "y": 2466,
+    "w": 72,
+    "h": 72,
+    "text": "play reply_interview_volkler glaeser"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.video-stories-still > picture > img",
+    "x": 913,
+    "y": 2212,
+    "w": 387,
+    "h": 580,
+    "text": "",
+    "file": "media_1853c71a981d0f0597d80e66e08ecda8c1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.video-stories-story > div.video-stories-overlay > button.video-stories-disc.play",
+    "x": 1071,
+    "y": 2466,
+    "w": 72,
+    "h": 72,
+    "text": "play reply_interview_ozge fedai"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.make-text > div.make-eyebrow > p",
+    "x": 177,
+    "y": 2912,
+    "w": 861,
+    "h": 27,
+    "text": "WE MAKE"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.make-text > div.make-title > h2#portiamo-innovazione-in-tutti-i-settori",
+    "x": 177,
+    "y": 2939,
+    "w": 861,
+    "h": 50,
+    "level": 2,
+    "text": "portiamo innovazione in tutti i settori"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 64,
+    "y": 3045,
+    "w": 1312,
+    "h": 738,
+    "text": "",
+    "file": "media_157e95e82210a8c790155e7f30bc4ac34f"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-banner-text > div.media-banner-eyebrow > p",
+    "x": 179,
+    "y": 3211,
+    "w": 567,
+    "h": 14,
+    "text": "DIGITAL EVENT"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-banner-text > div.media-banner-title > h4#the-rose-room-presentsrose-the-digital-human",
+    "x": 179,
+    "y": 3235,
+    "w": 567,
+    "h": 78,
+    "level": 4,
+    "text": "the rose room presents: rose the digital human"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-banner-text > div.media-banner-meta > p",
+    "x": 179,
+    "y": 3323,
+    "w": 567,
+    "h": 14,
+    "text": "18 gennaio 2023 | 12:00 - 13:00 CET"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-banner-text > div.media-banner-body > p",
+    "x": 179,
+    "y": 3357,
+    "w": 567,
+    "h": 81,
+    "text": "Segui lo streaming dell’evento e interagisci in diretta con Rose, il Digital Hum"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-banner-text > div.media-banner-note > p",
+    "x": 179,
+    "y": 3448,
+    "w": 567,
+    "h": 14,
+    "text": "L’evento è dedicato esclusivamente agli iscritti ROSE"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-banner-pill > p > em",
+    "x": 203,
+    "y": 3506,
+    "w": 117,
+    "h": 20,
+    "text": "Go to ROSE"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-banner-pill > p > em",
+    "x": 179,
+    "y": 3582,
+    "w": 112,
+    "h": 20,
+    "text": "Scopri di più"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 64,
+    "y": 3807,
+    "w": 411,
+    "h": 616,
+    "text": "fraport: computer vision and ai optimise airport operations",
+    "href": "/en/artificial-intelligence/fraport-computer-vision-and-ai-optimise-airport-operations"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 64,
+    "y": 3807,
+    "w": 411,
+    "h": 616,
+    "text": "",
+    "file": "media_12f97c8f5e14c8781c2df9319157459fc3"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#fraport-computer-vision-and-ai-optimise-airport-operations",
+    "x": 80,
+    "y": 4443,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "fraport: computer vision and ai optimise airport operations"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#fraport-computer-vision-and-ai-optimise-airport-operations > a",
+    "x": 80,
+    "y": 4443,
+    "w": 379,
+    "h": 52,
+    "text": "fraport: computer vision and ai optimise airport operations",
+    "href": "/en/artificial-intelligence/fraport-computer-vision-and-ai-optimise-airport-operations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 96,
+    "y": 4511,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 515,
+    "y": 3807,
+    "w": 411,
+    "h": 411,
+    "text": "the digital humans revolution",
+    "href": "/en/artificial-intelligence/the-digital-humans-revolution"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 515,
+    "y": 3807,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "media_1741bec04d7c3e6a4ef0b7c6079fd40a64"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#the-digital-humans-revolution",
+    "x": 531,
+    "y": 4238,
+    "w": 379,
+    "h": 26,
+    "level": 3,
+    "text": "the digital humans revolution"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#the-digital-humans-revolution > a",
+    "x": 531,
+    "y": 4238,
+    "w": 379,
+    "h": 26,
+    "text": "the digital humans revolution",
+    "href": "/en/artificial-intelligence/the-digital-humans-revolution"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 547,
+    "y": 4280,
+    "w": 118,
+    "h": 14,
+    "text": "Best Practice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 965,
+    "y": 3807,
+    "w": 411,
+    "h": 411,
+    "text": "meta minutes",
+    "href": "/en/metaverse/meta-minutes"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 965,
+    "y": 3807,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "media_12e2c5149b3c08194eba171e6016879d66"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#meta-minutes",
+    "x": 981,
+    "y": 4238,
+    "w": 379,
+    "h": 26,
+    "level": 3,
+    "text": "meta minutes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#meta-minutes > a",
+    "x": 981,
+    "y": 4238,
+    "w": 379,
+    "h": 26,
+    "text": "meta minutes",
+    "href": "/en/metaverse/meta-minutes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 997,
+    "y": 4280,
+    "w": 118,
+    "h": 14,
+    "text": "Best Practice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-hover > a.reply-card-cover",
+    "x": 515,
+    "y": 4362,
+    "w": 411,
+    "h": 616,
+    "text": "machine translation as a service",
+    "href": "/en/artificial-intelligence/machine-learning-bmw"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 515,
+    "y": 4362,
+    "w": 411,
+    "h": 616,
+    "text": "",
+    "file": "media_1b021bac56be119b76a174ce5a3538f8f8"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#machine-translation-as-a-service",
+    "x": 531,
+    "y": 4998,
+    "w": 379,
+    "h": 26,
+    "level": 3,
+    "text": "machine translation as a service"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#machine-translation-as-a-service > a",
+    "x": 531,
+    "y": 4998,
+    "w": 379,
+    "h": 26,
+    "text": "machine translation as a service",
+    "href": "/en/artificial-intelligence/machine-learning-bmw"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 547,
+    "y": 5040,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 965,
+    "y": 4362,
+    "w": 411,
+    "h": 411,
+    "text": "ritter sport: the unicorn chocolate",
+    "href": "/en/cases/the-unicorn-chocolate/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 965,
+    "y": 4362,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "media_167e5b00d5fd19456a2281f09a1eacf72e"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 989,
+    "y": 4386,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_117cec627b9db4bc10be72f70f309902b4"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#ritter-sport-the-unicorn-chocolate",
+    "x": 981,
+    "y": 4793,
+    "w": 379,
+    "h": 26,
+    "level": 3,
+    "text": "ritter sport: the unicorn chocolate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#ritter-sport-the-unicorn-chocolate > a",
+    "x": 981,
+    "y": 4793,
+    "w": 379,
+    "h": 26,
+    "text": "ritter sport: the unicorn chocolate",
+    "href": "/en/cases/the-unicorn-chocolate/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 997,
+    "y": 4835,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 64,
+    "y": 4592,
+    "w": 411,
+    "h": 616,
+    "text": "predictive maintenance with spot",
+    "href": "/en/robotics-and-autonomous-things/predictive-maintenance-with-spot"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 64,
+    "y": 4592,
+    "w": 411,
+    "h": 616,
+    "text": "",
+    "file": "media_1c8512e5682e20d32cfd4811aa77e0ba53"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 88,
+    "y": 4616,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_132bb5fae66f8c415ef1ec2266a9766778"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#predictive-maintenance-with-spot-1",
+    "x": 80,
+    "y": 5228,
+    "w": 379,
+    "h": 26,
+    "level": 3,
+    "text": "predictive maintenance with spot"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#predictive-maintenance-with-spot-1 > a",
+    "x": 80,
+    "y": 5228,
+    "w": 379,
+    "h": 26,
+    "text": "predictive maintenance with spot",
+    "href": "/en/robotics-and-autonomous-things/predictive-maintenance-with-spot"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 96,
+    "y": 5270,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 965,
+    "y": 4917,
+    "w": 411,
+    "h": 411,
+    "text": "coca-cola: the benefits of advanced retail analytics",
+    "href": "/project/coca-cola-advanced-retail-analytics/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 965,
+    "y": 4917,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "media_1a1d6b11f19b2a32b00c1a9d4f3894be0b"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 989,
+    "y": 4941,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_14640338b6b7417658071867bb999904f8"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#coca-cola-the-benefits-of-advanced-retail-analytics",
+    "x": 981,
+    "y": 5348,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "coca-cola: the benefits of advanced retail analytics"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#coca-cola-the-benefits-of-advanced-retail-analytics > a",
+    "x": 981,
+    "y": 5348,
+    "w": 379,
+    "h": 52,
+    "text": "coca-cola: the benefits of advanced retail analytics",
+    "href": "/project/coca-cola-advanced-retail-analytics/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 997,
+    "y": 5416,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-heading-cell.r-cell > div.section-heading-title > h3#latest-insights",
+    "x": 177,
+    "y": 5632,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "latest insights"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+    "x": -274,
+    "y": 5736,
+    "w": 298,
+    "h": 447,
+    "text": "metaverse: disentangling the value from the hype research",
+    "href": "/en/metaverse/metaverse-disentangling-the-value-from-the-hype"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image > picture > img",
+    "x": -274,
+    "y": 5736,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_1bbd56d01a0fa7729345448c853c3f5f63"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.card-carousel-item.is-active > div.reply-card.reply-card-slider > a.reply-card-cover",
+    "x": 64,
+    "y": 5736,
+    "w": 298,
+    "h": 447,
+    "text": "the new era of cybersecurity automation research",
+    "href": "/en/cybersecurity/cybersecurity-automation"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image > picture > img",
+    "x": 64,
+    "y": 5736,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_1188325b2a1e0156394634c76e507de14f"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#the-new-era-of-cybersecurity-automation-1",
+    "x": 96,
+    "y": 6035,
+    "w": 234,
+    "h": 78,
+    "level": 3,
+    "text": "the new era of cybersecurity automation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+    "x": 402,
+    "y": 5736,
+    "w": 298,
+    "h": 447,
+    "text": "the state of business intelligence and advanced analytics research",
+    "href": "/en/data-world/business-intelligence-and-advanced-analytics"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image > picture > img",
+    "x": 402,
+    "y": 5736,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_1239a8218e138fb699ffcdb48904063ebb"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#the-state-of-business-intelligence-and-advanced-analytics",
+    "x": 434,
+    "y": 6035,
+    "w": 234,
+    "h": 78,
+    "level": 3,
+    "text": "the state of business intelligence and advanced analytics"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+    "x": 740,
+    "y": 5736,
+    "w": 298,
+    "h": 447,
+    "text": "hybrid work research",
+    "href": "/en/hybrid-work/hybrid-work"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image > picture > img",
+    "x": 740,
+    "y": 5736,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_18bc1fa2aac14fd5c20e70d957822fc311"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#hybrid-work",
+    "x": 772,
+    "y": 6087,
+    "w": 234,
+    "h": 26,
+    "level": 3,
+    "text": "hybrid work"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+    "x": 1078,
+    "y": 5736,
+    "w": 298,
+    "h": 447,
+    "text": "industrial iot: a reality check research",
+    "href": "/en/iot/industrial-iot-a-reality-check"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image > picture > img",
+    "x": 1078,
+    "y": 5736,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_18dbb2e3bac5cd829351ea321076c2e96f"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#industrial-iot-a-reality-check",
+    "x": 1110,
+    "y": 6061,
+    "w": 234,
+    "h": 52,
+    "level": 3,
+    "text": "industrial iot: a reality check"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+    "x": 1416,
+    "y": 5736,
+    "w": 298,
+    "h": 447,
+    "text": "sustainability trends: a data-driven overview white paper",
+    "href": "/en/sustainability-trends"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image > picture > img",
+    "x": 1416,
+    "y": 5736,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_1ff61de87976a226b80907b35620448e17"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-carousel-inner > div.card-carousel-controls > button.card-carousel-prev.round-bt",
+    "x": 89,
+    "y": 5935,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-carousel-inner > div.card-carousel-controls > button.card-carousel-next.round-bt",
+    "x": 1303,
+    "y": 5935,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p.button-wrapper > a.button.primary",
+    "x": 653,
+    "y": 6243,
+    "w": 133,
+    "h": 48,
+    "text": "discover more",
+    "href": "/en/insights"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 64,
+    "y": 6431,
+    "w": 298,
+    "h": 447,
+    "text": "spotlight on ai-embodied agents",
+    "href": "/en/robotics-and-autonomous-things/spotlight-on-ai-embodied-agents"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 64,
+    "y": 6431,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_18686486bc6be97bc59708e3661d8e78c2"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#spotlight-on-ai-embodied-agents",
+    "x": 80,
+    "y": 6898,
+    "w": 266,
+    "h": 52,
+    "level": 3,
+    "text": "spotlight on ai-embodied agents"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#spotlight-on-ai-embodied-agents > a",
+    "x": 80,
+    "y": 6898,
+    "w": 266,
+    "h": 52,
+    "text": "spotlight on ai-embodied agents",
+    "href": "/en/robotics-and-autonomous-things/spotlight-on-ai-embodied-agents"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 96,
+    "y": 6966,
+    "w": 118,
+    "h": 14,
+    "text": "Best Practice"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 435,
+    "y": 6464,
+    "w": 232,
+    "h": 131,
+    "text": "",
+    "file": "media_10e2e9cfee9b7b7126c9a089bb93cd5c66"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#wealth-management-observatory--q2-2026",
+    "x": 435,
+    "y": 6614,
+    "w": 232,
+    "h": 78,
+    "level": 3,
+    "text": "wealth management observatory | q2 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#wealth-management-observatory--q2-2026 > a",
+    "x": 435,
+    "y": 6614,
+    "w": 232,
+    "h": 78,
+    "text": "wealth management observatory | q2 2026",
+    "href": "/en/strategy-and-business-model-transformation/wealth-management"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 451,
+    "y": 6708,
+    "w": 84,
+    "h": 14,
+    "text": "Research"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-abstract > p",
+    "x": 435,
+    "y": 6740,
+    "w": 232,
+    "h": 214,
+    "text": "As of 30 June 2026, Assets under Management (AUM) increased by approximately €13"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 740,
+    "y": 6431,
+    "w": 298,
+    "h": 447,
+    "text": "a new multi-channel platform for bper banca",
+    "href": "/en/financial-services/new-digital-channels-bper-banca"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 740,
+    "y": 6431,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_13c12ab502cd81833cc87334da2fb7b8af"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 764,
+    "y": 6455,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_1ea3091d151f3070ead580112bec0834b2"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#a-new-multi-channel-platform-for-bper-banca",
+    "x": 756,
+    "y": 6898,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "a new multi-channel platform for bper banca"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#a-new-multi-channel-platform-for-bper-banca > a",
+    "x": 756,
+    "y": 6898,
+    "w": 266,
+    "h": 78,
+    "text": "a new multi-channel platform for bper banca",
+    "href": "/en/financial-services/new-digital-channels-bper-banca"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 772,
+    "y": 6992,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 1078,
+    "y": 6431,
+    "w": 298,
+    "h": 447,
+    "text": "redefining it system integration with an api-first approach",
+    "href": "/en/telco-and-media/it-system-integration-api-first"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 1078,
+    "y": 6431,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_1300a5371e2ed2506fb893866741928ba4"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 1102,
+    "y": 6455,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_16461b42d583f4e49e74e571d72c4f692d"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#redefining-it-system-integration-with-an-api-first-approach",
+    "x": 1094,
+    "y": 6898,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "redefining it system integration with an api-first approach"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#redefining-it-system-integration-with-an-api-first-approach > a",
+    "x": 1094,
+    "y": 6898,
+    "w": 266,
+    "h": 78,
+    "text": "redefining it system integration with an api-first approach",
+    "href": "/en/telco-and-media/it-system-integration-api-first"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 1110,
+    "y": 6992,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 402,
+    "y": 7031,
+    "w": 298,
+    "h": 298,
+    "text": "more flexibility for charging parks",
+    "href": "/en/automotive-and-manufacturing/more-flexibility-for-charging-parks"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 402,
+    "y": 7031,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "media_10b0324387385ed9d71f11e9e0f0589f67"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 426,
+    "y": 7055,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_1b1b9584edeaa4d34dd50e1f7e7ce921f8"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#more-flexibility-for-charging-parks",
+    "x": 418,
+    "y": 7349,
+    "w": 266,
+    "h": 52,
+    "level": 3,
+    "text": "more flexibility for charging parks"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#more-flexibility-for-charging-parks > a",
+    "x": 418,
+    "y": 7349,
+    "w": 266,
+    "h": 52,
+    "text": "more flexibility for charging parks",
+    "href": "/en/automotive-and-manufacturing/more-flexibility-for-charging-parks"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 434,
+    "y": 7417,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 64,
+    "y": 7046,
+    "w": 298,
+    "h": 298,
+    "text": "hyperautomation in private banking",
+    "href": "/en/artificial-intelligence/hyperautomation-private-banking"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 64,
+    "y": 7046,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "media_1181b7063335a0686bbe4f6757486c09a1"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 88,
+    "y": 7070,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_1aab637d60a637bcb04dd55c160ecc6755"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#hyperautomation-in-private-banking",
+    "x": 80,
+    "y": 7364,
+    "w": 266,
+    "h": 52,
+    "level": 3,
+    "text": "hyperautomation in private banking"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#hyperautomation-in-private-banking > a",
+    "x": 80,
+    "y": 7364,
+    "w": 266,
+    "h": 52,
+    "text": "hyperautomation in private banking",
+    "href": "/en/artificial-intelligence/hyperautomation-private-banking"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 96,
+    "y": 7432,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 740,
+    "y": 7046,
+    "w": 298,
+    "h": 447,
+    "text": "intelligent diagnostics for on-board systems",
+    "href": "/en/data-world/intelligent-diagnostics-for-on-board-systems"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 740,
+    "y": 7046,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_194a7bce55d5a223725a91dd8bb45639d6"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 764,
+    "y": 7070,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_1fead6890a8ec36cc4e876712e9129d348"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#intelligent-diagnostics-for-on-board-systems",
+    "x": 756,
+    "y": 7513,
+    "w": 266,
+    "h": 52,
+    "level": 3,
+    "text": "intelligent diagnostics for on-board systems"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#intelligent-diagnostics-for-on-board-systems > a",
+    "x": 756,
+    "y": 7513,
+    "w": 266,
+    "h": 52,
+    "text": "intelligent diagnostics for on-board systems",
+    "href": "/en/data-world/intelligent-diagnostics-for-on-board-systems"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 772,
+    "y": 7581,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 1078,
+    "y": 7071,
+    "w": 298,
+    "h": 298,
+    "text": "dish order: development of a fair online ordering system",
+    "href": "/en/retail-and-consumer-products/dish-order-development-of-a-fair-delivery-service"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 1078,
+    "y": 7071,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "media_1e289fd41ab7f2a323f47c1c4f72ff102f"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 1102,
+    "y": 7095,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_15e7e28647c41eb7426147ba2c9e420259"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#dish-order-development-of-a-fair-online-ordering-system",
+    "x": 1094,
+    "y": 7389,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "dish order: development of a fair online ordering system"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#dish-order-development-of-a-fair-online-ordering-system > a",
+    "x": 1094,
+    "y": 7389,
+    "w": 266,
+    "h": 78,
+    "text": "dish order: development of a fair online ordering system",
+    "href": "/en/retail-and-consumer-products/dish-order-development-of-a-fair-delivery-service"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 1110,
+    "y": 7483,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-cell.r-cell > div.cards-wall-pager > div.cards-wall-more",
+    "x": 633,
+    "y": 7656,
+    "w": 174,
+    "h": 48,
+    "text": "load more content"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-logo-box > picture > img",
+    "x": 645,
+    "y": 7882,
+    "w": 150,
+    "h": 52,
+    "text": "",
+    "file": "media_1e36aa2918a3736dbda877e3fa482274ca"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-col > div.rose-cta-text > p",
+    "x": 177,
+    "y": 7967,
+    "w": 1087,
+    "h": 141,
+    "text": "Engage with our network of experts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-action > p.button-wrapper > a.button.primary",
+    "x": 622,
+    "y": 8127,
+    "w": 196,
+    "h": 56,
+    "text": "go to rose",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-wrap > nav.footer-nav > a.footer-nav-home",
+    "x": 64,
+    "y": 8364,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 8460,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 8460,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 8508,
+    "w": 102,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 8553,
+    "w": 43,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 8598,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 8642,
+    "w": 66,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 8460,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 8460,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 8508,
+    "w": 145,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 8553,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 8614,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 8659,
+    "w": 150,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 8508,
+    "w": 160,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 8553,
+    "w": 131,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 8598,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 8508,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 8570,
+    "w": 153,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 8614,
+    "w": 143,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 8659,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "/en/christmas"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 8460,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 8540,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1112,
+    "y": 8620,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1124,
+    "y": 8632,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1184,
+    "y": 8620,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1196,
+    "y": 8632,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1256,
+    "y": 8620,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1268,
+    "y": 8632,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-linkedin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1328,
+    "y": 8620,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1340,
+    "y": 8632,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-xing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > span",
+    "x": 64,
+    "y": 8765,
+    "w": 84,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > a",
+    "x": 160,
+    "y": 8765,
+    "w": 131,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-inner > div.site-legal-row > button#cookie-pref-center",
+    "x": 1278,
+    "y": 859,
+    "w": 162,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 7,
+    "offPage": 67,
+    "textNodes": 157,
+    "controls": 113,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.card-carousel.scale",
+     "path": "ul.card-carousel-track > li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+     "text": "the ai-enhanced customer experienceresearch",
+     "cutMin": 105,
+     "cutMax": 105
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.card-carousel.simple",
+     "path": "ul.card-carousel-track > li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+     "text": "metaverse: disentangling the value from the hyperesearch",
+     "cutMin": 274,
+     "cutMax": 274
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.card-carousel.scale",
+     "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#the-ai-enhanced-customer-experience",
+     "text": "the ai-enhanced customer experience",
+     "cutMin": 73,
+     "cutMax": 73
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.card-carousel.scale",
+     "path": "div.reply-card-body > div.category-label > div.category-name > p",
+     "text": "research",
+     "cutMin": 57,
+     "cutMax": 57
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.card-carousel.scale",
+     "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#reply-cyber-security-lab",
+     "text": "reply cyber security lab",
+     "cutMin": 61,
+     "cutMax": 61
+    }
+   ],
+   "findings": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 105,
+     "path": "ul.card-carousel-track > li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+     "text": "the ai-enhanced customer experienceresearch",
+     "clipper": "div.card-carousel.scale",
+     "rect": {
+      "l": -105,
+      "t": 1002,
+      "r": 193,
+      "b": 1449,
+      "w": 298,
+      "h": 447
+     },
+     "clip": {
+      "l": 0,
+      "t": 962,
+      "r": 1440,
+      "b": 1489,
+      "w": 1440,
+      "h": 527
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 73,
+     "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#the-ai-enhanced-customer-experience",
+     "text": "the ai-enhanced customer experience",
+     "clipper": "div.card-carousel.scale",
+     "rect": {
+      "l": -73,
+      "t": 1329,
+      "r": 109,
+      "b": 1351,
+      "w": 182,
+      "h": 22
+     },
+     "clip": {
+      "l": 0,
+      "t": 962,
+      "r": 1440,
+      "b": 1489,
+      "w": 1440,
+      "h": 527
+     },
+     "lines": 2
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 57,
+     "path": "div.reply-card-body > div.category-label > div.category-name > p",
+     "text": "research",
+     "clipper": "div.card-carousel.scale",
+     "rect": {
+      "l": -57,
+      "t": 1403,
+      "r": 26,
+      "b": 1416,
+      "w": 84,
+      "h": 13
+     },
+     "clip": {
+      "l": 0,
+      "t": 962,
+      "r": 1440,
+      "b": 1489,
+      "w": 1440,
+      "h": 527
+     },
+     "lines": 1
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 105,
+     "path": "ul.card-carousel-track > li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+     "text": "reply cyber security lablabs",
+     "clipper": "div.card-carousel.scale",
+     "rect": {
+      "l": 1247,
+      "t": 1002,
+      "r": 1545,
+      "b": 1449,
+      "w": 298,
+      "h": 447
+     },
+     "clip": {
+      "l": 0,
+      "t": 962,
+      "r": 1440,
+      "b": 1489,
+      "w": 1440,
+      "h": 527
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 61,
+     "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#reply-cyber-security-lab",
+     "text": "reply cyber security lab",
+     "clipper": "div.card-carousel.scale",
+     "rect": {
+      "l": 1279,
+      "t": 1329,
+      "r": 1501,
+      "b": 1351,
+      "w": 222,
+      "h": 22
+     },
+     "clip": {
+      "l": 0,
+      "t": 962,
+      "r": 1440,
+      "b": 1489,
+      "w": 1440,
+      "h": 527
+     },
+     "lines": 2
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 274,
+     "path": "ul.card-carousel-track > li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+     "text": "metaverse: disentangling the value from the hyperesearch",
+     "clipper": "div.card-carousel.simple",
+     "rect": {
+      "l": -274,
+      "t": 5736,
+      "r": 24,
+      "b": 6183,
+      "w": 298,
+      "h": 447
+     },
+     "clip": {
+      "l": 0,
+      "t": 5736,
+      "r": 1440,
+      "b": 6183,
+      "w": 1440,
+      "h": 447
+     }
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 274,
+     "path": "ul.card-carousel-track > li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+     "text": "sustainability trends: a data-driven overviewwhite paper",
+     "clipper": "div.card-carousel.simple",
+     "rect": {
+      "l": 1416,
+      "t": 5736,
+      "r": 1714,
+      "b": 6183,
+      "w": 298,
+      "h": 447
+     },
+     "clip": {
+      "l": 0,
+      "t": 5736,
+      "r": 1440,
+      "b": 6183,
+      "w": 1440,
+      "h": 447
+     }
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": true,
+   "origin": {
+    "link": 5,
+    "button": 2,
+    "text": 0,
+    "image": 5
+   },
+   "eds": {
+    "link": 5,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 5,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 1,
+   "heading": "optimize your warehouse operations with reply",
+   "variable": true,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "the ai-enhanced customer experience",
+   "variable": true,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "HEADING AS TEXT"
+   ]
+  },
+  {
+   "index": 3,
+   "heading": "cloud adoption in financial services",
+   "variable": true,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "it's not the ability to have a vision, it's the ability to make it real that will get you ahead in your business.",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "MISSING HEADING"
+   ]
+  },
+  {
+   "index": 5,
+   "heading": "make forward",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "explore our stories",
+   "variable": true,
+   "origin": {
+    "link": 0,
+    "button": 3,
+    "text": 1,
+    "image": 3
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 3,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "COUNT BUTTONS"
+   ]
+  },
+  {
+   "index": 7,
+   "heading": "portiamo innovazione in tutti i settori",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 2,
+    "text": 6,
+    "image": 4
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 4,
+    "imageHidden": 0
+   },
+   "findings": [
+    "MISSING BUTTON",
+    "MISSING BUTTON"
+   ]
+  },
+  {
+   "index": 8,
+   "heading": "the digital humans revolution",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "meta minutes",
+   "variable": false,
+   "origin": {
+    "link": 4,
+    "button": 0,
+    "text": 2,
+    "image": 3
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "fraport: computer vision and ai optimise airport operations",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 2
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "ritter sport: the unicorn chocolate",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 2
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "machine translation as a service",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 13,
+   "heading": "predictive maintenance with spot",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 14,
+   "heading": "coca-cola: the benefits of advanced retail analytics",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 15,
+   "heading": "latest insights",
+   "variable": true,
+   "origin": {
+    "link": 4,
+    "button": 2,
+    "text": 1,
+    "image": 4
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 2,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 4,
+    "imageHidden": 2
+   },
+   "findings": [
+    "HIDDEN LINK",
+    "EXTRA LINK",
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 16,
+   "heading": "the new era of cybersecurity automation",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 17,
+   "heading": "the state of business intelligence and advanced analytics",
+   "variable": true,
+   "origin": {
+    "link": 4,
+    "button": 0,
+    "text": 0,
+    "image": 6
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 6,
+    "imageHidden": 0
+   },
+   "findings": [
+    "MISSING HEADING"
+   ]
+  },
+  {
+   "index": 18,
+   "heading": "wealth management observatory | q2 2026",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 19,
+   "heading": "spotlight on ai-embodied agents",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 20,
+   "heading": "a new multi-channel platform for bper banca",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "HEADING AS TEXT"
+   ]
+  },
+  {
+   "index": 21,
+   "heading": "redefining it system integration with an api-first approach",
+   "variable": false,
+   "origin": {
+    "link": 7,
+    "button": 0,
+    "text": 3,
+    "image": 8
+   },
+   "eds": {
+    "link": 7,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 8,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 22,
+   "heading": "more flexibility for charging parks",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 23,
+   "heading": "hyperautomation in private banking",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 24,
+   "heading": "dish order: development of a fair online ordering system",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 25,
+   "heading": "intelligent diagnostics for on-board systems",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 1,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🔴",
+   "kind": "MISSING HEADING",
+   "msg": "h3 \"area42\" (origin y 1353) has no served heading",
+   "band": 4,
+   "text": "area42"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING HEADING",
+   "msg": "h3 \"metaverse: disentangling the value from the hype\" (origin y 6035) has no served heading",
+   "band": 17,
+   "text": "metaverse: disentangling the value from the hype"
+  },
+  {
+   "sev": "🔴",
+   "kind": "HIDDEN LINK",
+   "msg": "×2 links clipped away inside the session-variable region of band \"latest insights\"",
+   "band": 15,
+   "n": 2,
+   "variable": true
+  },
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"go to rose\" in band \"portiamo innovazione in tutti i settori\" (origin y 3487) not on the served page",
+   "band": 7,
+   "n": 1,
+   "text": "go to rose"
+  },
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"scopri di più\" in band \"portiamo innovazione in tutti i settori\" (origin y 3568) not on the served page",
+   "band": 7,
+   "n": 1,
+   "text": "scopri di più"
+  },
+  {
+   "sev": "🟡",
+   "kind": "HEADING AS TEXT",
+   "msg": "origin h3 \"nft: enter the world of digital ownership\" is served as plain text / a link, not a heading (visually present — semantics only)",
+   "band": 2,
+   "text": "nft: enter the world of digital ownership"
+  },
+  {
+   "sev": "🟡",
+   "kind": "HEADING AS TEXT",
+   "msg": "origin h3 \"the ai-enhanced customer experience\" is served as plain text / a link, not a heading (visually present — semantics only)",
+   "band": 20,
+   "text": "the ai-enhanced customer experience"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"reply cyber security lab\" (y 1327) has no origin heading",
+   "text": "reply cyber security lab"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"nft: enter the world of digital ownership\" (y 1340) has no origin heading",
+   "text": "nft: enter the world of digital ownership"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"industrial iot: a reality check\" (y 6061) has no origin heading",
+   "text": "industrial iot: a reality check"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"hybrid work\" (y 6087) has no origin heading",
+   "text": "hybrid work"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"reply cyber security lab labs\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "reply cyber security lab labs"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"play beth campbell_v12\" served in band \"explore our stories\", no origin link or button",
+   "band": 6,
+   "n": 1,
+   "text": "play beth campbell_v12"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"play reply_interview_volkler glaeser\" served in band \"explore our stories\", no origin link or button",
+   "band": 6,
+   "n": 1,
+   "text": "play reply_interview_volkler glaeser"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"play reply_interview_ozge fedai\" served in band \"explore our stories\", no origin link or button",
+   "band": 6,
+   "n": 1,
+   "text": "play reply_interview_ozge fedai"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT BUTTONS",
+   "msg": "session-variable region in band \"explore our stories\": 3 origin → 0 served",
+   "band": 6
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"hybrid work research\" served in band \"latest insights\", no origin link or button",
+   "band": 15,
+   "n": 1,
+   "text": "hybrid work research"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"industrial iot: a reality check research\" served in band \"latest insights\", no origin link or button",
+   "band": 15,
+   "n": 1,
+   "text": "industrial iot: a reality check research"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 2,
+  "hiddenHeadings": 0,
+  "extraHeadings": 4,
+  "missingLinks": 0,
+  "hiddenLinks": 2,
+  "movedLinks": 0,
+  "extraLinks": 6,
+  "missingButtons": 2,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 1,
+  "findings": 18,
+  "structural": 3,
+  "missing": 2,
+  "hidden": 2
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 1339,
+    "y": 7,
+    "w": 17,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 51,
+    "w": 62,
+    "h": 16
+   },
+   {
+    "x": 612,
+    "y": 51,
+    "w": 72,
+    "h": 16
+   },
+   {
+    "x": 740,
+    "y": 51,
+    "w": 110,
+    "h": 16
+   },
+   {
+    "x": 906,
+    "y": 51,
+    "w": 41,
+    "h": 16
+   },
+   {
+    "x": 1003,
+    "y": 51,
+    "w": 60,
+    "h": 16
+   },
+   {
+    "x": 1119,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1225,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": -73,
+    "y": 1355,
+    "w": 77,
+    "h": 22
+   },
+   {
+    "x": 265,
+    "y": 1329,
+    "w": 179,
+    "h": 22
+   },
+   {
+    "x": 265,
+    "y": 1355,
+    "w": 226,
+    "h": 22
+   },
+   {
+    "x": 281,
+    "y": 1404,
+    "w": 74,
+    "h": 11
+   },
+   {
+    "x": 588,
+    "y": 1342,
+    "w": 209,
+    "h": 25
+   },
+   {
+    "x": 588,
+    "y": 1371,
+    "w": 213,
+    "h": 25
+   },
+   {
+    "x": 941,
+    "y": 1329,
+    "w": 213,
+    "h": 22
+   },
+   {
+    "x": 941,
+    "y": 1355,
+    "w": 208,
+    "h": 22
+   },
+   {
+    "x": 957,
+    "y": 1404,
+    "w": 106,
+    "h": 11
+   },
+   {
+    "x": 1279,
+    "y": 1303,
+    "w": 149,
+    "h": 22
+   },
+   {
+    "x": 1279,
+    "y": 1329,
+    "w": 117,
+    "h": 22
+   },
+   {
+    "x": 1279,
+    "y": 1355,
+    "w": 233,
+    "h": 22
+   },
+   {
+    "x": 1295,
+    "y": 1404,
+    "w": 138,
+    "h": 11
+   },
+   {
+    "x": 140,
+    "y": 1664,
+    "w": 112,
+    "h": 16
+   },
+   {
+    "x": 380,
+    "y": 1661,
+    "w": 798,
+    "h": 46
+   },
+   {
+    "x": 380,
+    "y": 1711,
+    "w": 729,
+    "h": 46
+   },
+   {
+    "x": 380,
+    "y": 1762,
+    "w": 666,
+    "h": 46
+   },
+   {
+    "x": 380,
+    "y": 1868,
+    "w": 308,
+    "h": 46
+   },
+   {
+    "x": 140,
+    "y": 2092,
+    "w": 130,
+    "h": 16
+   },
+   {
+    "x": 140,
+    "y": 2116,
+    "w": 406,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 2917,
+    "w": 90,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 2941,
+    "w": 814,
+    "h": 46
+   },
+   {
+    "x": 179,
+    "y": 3212,
+    "w": 100,
+    "h": 11
+   },
+   {
+    "x": 179,
+    "y": 3238,
+    "w": 375,
+    "h": 32
+   },
+   {
+    "x": 179,
+    "y": 3277,
+    "w": 343,
+    "h": 32
+   },
+   {
+    "x": 179,
+    "y": 3324,
+    "w": 233,
+    "h": 11
+   },
+   {
+    "x": 179,
+    "y": 3361,
+    "w": 525,
+    "h": 18
+   },
+   {
+    "x": 179,
+    "y": 3388,
+    "w": 535,
+    "h": 18
+   },
+   {
+    "x": 179,
+    "y": 3415,
+    "w": 93,
+    "h": 18
+   },
+   {
+    "x": 179,
+    "y": 3449,
+    "w": 349,
+    "h": 11
+   },
+   {
+    "x": 203,
+    "y": 3507,
+    "w": 108,
+    "h": 16
+   },
+   {
+    "x": 179,
+    "y": 3583,
+    "w": 111,
+    "h": 16
+   },
+   {
+    "x": 80,
+    "y": 4445,
+    "w": 330,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 4471,
+    "w": 288,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 4512,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 531,
+    "y": 4240,
+    "w": 321,
+    "h": 22
+   },
+   {
+    "x": 547,
+    "y": 4281,
+    "w": 106,
+    "h": 11
+   },
+   {
+    "x": 981,
+    "y": 4240,
+    "w": 143,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 4281,
+    "w": 106,
+    "h": 11
+   },
+   {
+    "x": 531,
+    "y": 5000,
+    "w": 337,
+    "h": 22
+   },
+   {
+    "x": 547,
+    "y": 5041,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 981,
+    "y": 4795,
+    "w": 364,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 4836,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 80,
+    "y": 5230,
+    "w": 364,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 5271,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 981,
+    "y": 5350,
+    "w": 278,
+    "h": 22
+   },
+   {
+    "x": 981,
+    "y": 5376,
+    "w": 268,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 5417,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 5633,
+    "w": 277,
+    "h": 40
+   },
+   {
+    "x": 81,
+    "y": 6063,
+    "w": 179,
+    "h": 22
+   },
+   {
+    "x": 81,
+    "y": 6089,
+    "w": 226,
+    "h": 22
+   },
+   {
+    "x": 97,
+    "y": 6138,
+    "w": 74,
+    "h": 11
+   },
+   {
+    "x": 419,
+    "y": 6037,
+    "w": 117,
+    "h": 22
+   },
+   {
+    "x": 419,
+    "y": 6063,
+    "w": 184,
+    "h": 22
+   },
+   {
+    "x": 419,
+    "y": 6089,
+    "w": 209,
+    "h": 22
+   },
+   {
+    "x": 435,
+    "y": 6138,
+    "w": 74,
+    "h": 11
+   },
+   {
+    "x": 757,
+    "y": 6037,
+    "w": 154,
+    "h": 22
+   },
+   {
+    "x": 757,
+    "y": 6063,
+    "w": 146,
+    "h": 22
+   },
+   {
+    "x": 757,
+    "y": 6089,
+    "w": 125,
+    "h": 22
+   },
+   {
+    "x": 773,
+    "y": 6138,
+    "w": 74,
+    "h": 11
+   },
+   {
+    "x": 1095,
+    "y": 6037,
+    "w": 220,
+    "h": 22
+   },
+   {
+    "x": 1095,
+    "y": 6063,
+    "w": 169,
+    "h": 22
+   },
+   {
+    "x": 1095,
+    "y": 6089,
+    "w": 211,
+    "h": 22
+   },
+   {
+    "x": 1111,
+    "y": 6138,
+    "w": 74,
+    "h": 11
+   },
+   {
+    "x": 1433,
+    "y": 6089,
+    "w": 129,
+    "h": 22
+   },
+   {
+    "x": 654,
+    "y": 6258,
+    "w": 132,
+    "h": 16
+   },
+   {
+    "x": 80,
+    "y": 6899,
+    "w": 164,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 6925,
+    "w": 184,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 6966,
+    "w": 106,
+    "h": 11
+   },
+   {
+    "x": 435,
+    "y": 6616,
+    "w": 221,
+    "h": 22
+   },
+   {
+    "x": 435,
+    "y": 6642,
+    "w": 231,
+    "h": 22
+   },
+   {
+    "x": 451,
+    "y": 6683,
+    "w": 74,
+    "h": 11
+   },
+   {
+    "x": 435,
+    "y": 6717,
+    "w": 39,
+    "h": 16
+   },
+   {
+    "x": 474,
+    "y": 6717,
+    "w": 107,
+    "h": 16
+   },
+   {
+    "x": 584,
+    "y": 6717,
+    "w": 50,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 6741,
+    "w": 196,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 6764,
+    "w": 211,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 6788,
+    "w": 87,
+    "h": 16
+   },
+   {
+    "x": 522,
+    "y": 6788,
+    "w": 138,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 6812,
+    "w": 179,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 6836,
+    "w": 201,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 6860,
+    "w": 219,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 6883,
+    "w": 150,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 6907,
+    "w": 189,
+    "h": 16
+   },
+   {
+    "x": 756,
+    "y": 6899,
+    "w": 215,
+    "h": 22
+   },
+   {
+    "x": 756,
+    "y": 6925,
+    "w": 259,
+    "h": 22
+   },
+   {
+    "x": 772,
+    "y": 6966,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 1094,
+    "y": 6899,
+    "w": 218,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 6925,
+    "w": 249,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 6951,
+    "w": 150,
+    "h": 22
+   },
+   {
+    "x": 1110,
+    "y": 6992,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 418,
+    "y": 7350,
+    "w": 195,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 7376,
+    "w": 160,
+    "h": 22
+   },
+   {
+    "x": 434,
+    "y": 7417,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 80,
+    "y": 7365,
+    "w": 212,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 7391,
+    "w": 166,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 7432,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 756,
+    "y": 7514,
+    "w": 235,
+    "h": 22
+   },
+   {
+    "x": 756,
+    "y": 7540,
+    "w": 222,
+    "h": 22
+   },
+   {
+    "x": 772,
+    "y": 7581,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 1094,
+    "y": 7390,
+    "w": 124,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 7416,
+    "w": 228,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 7442,
+    "w": 237,
+    "h": 22
+   },
+   {
+    "x": 1110,
+    "y": 7483,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 631,
+    "y": 7670,
+    "w": 178,
+    "h": 16
+   },
+   {
+    "x": 258,
+    "y": 7953,
+    "w": 924,
+    "h": 71
+   },
+   {
+    "x": 596,
+    "y": 8023,
+    "w": 248,
+    "h": 71
+   },
+   {
+    "x": 651,
+    "y": 8166,
+    "w": 108,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 8441,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 8488,
+    "w": 103,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 8533,
+    "w": 45,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 8578,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 8623,
+    "w": 67,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 8441,
+    "w": 135,
+    "h": 16
+   },
+   {
+    "x": 402,
+    "y": 8488,
+    "w": 142,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 8533,
+    "w": 89,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 8550,
+    "w": 73,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 8595,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 8595,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 8639,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 8639,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 8488,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 8488,
+    "w": 69,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 8533,
+    "w": 127,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 8578,
+    "w": 121,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 8595,
+    "w": 85,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 8611,
+    "w": 39,
+    "h": 13
+   },
+   {
+    "x": 642,
+    "y": 8611,
+    "w": 51,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 8488,
+    "w": 157,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 8505,
+    "w": 36,
+    "h": 13
+   },
+   {
+    "x": 841,
+    "y": 8505,
+    "w": 64,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 8550,
+    "w": 154,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 8595,
+    "w": 147,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 8639,
+    "w": 130,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 8656,
+    "w": 128,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 8456,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 1112,
+    "y": 8536,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 8745,
+    "w": 81,
+    "h": 13
+   },
+   {
+    "x": 149,
+    "y": 8745,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 158,
+    "y": 8745,
+    "w": 136,
+    "h": 13
+   },
+   {
+    "x": 1296,
+    "y": 872,
+    "w": 124,
+    "h": 13
+   }
+  ],
+  "eds": [
+   {
+    "x": 1336,
+    "y": 7,
+    "w": 20,
+    "h": 13
+   },
+   {
+    "x": 486,
+    "y": 51,
+    "w": 63,
+    "h": 16
+   },
+   {
+    "x": 605,
+    "y": 51,
+    "w": 71,
+    "h": 16
+   },
+   {
+    "x": 733,
+    "y": 51,
+    "w": 111,
+    "h": 16
+   },
+   {
+    "x": 900,
+    "y": 51,
+    "w": 46,
+    "h": 16
+   },
+   {
+    "x": 1002,
+    "y": 51,
+    "w": 59,
+    "h": 16
+   },
+   {
+    "x": 1118,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1224,
+    "y": 51,
+    "w": 52,
+    "h": 16
+   },
+   {
+    "x": -73,
+    "y": 1329,
+    "w": 182,
+    "h": 22
+   },
+   {
+    "x": -73,
+    "y": 1355,
+    "w": 230,
+    "h": 22
+   },
+   {
+    "x": -57,
+    "y": 1403,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 265,
+    "y": 1329,
+    "w": 185,
+    "h": 22
+   },
+   {
+    "x": 265,
+    "y": 1355,
+    "w": 193,
+    "h": 22
+   },
+   {
+    "x": 281,
+    "y": 1403,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 588,
+    "y": 1342,
+    "w": 242,
+    "h": 25
+   },
+   {
+    "x": 588,
+    "y": 1371,
+    "w": 229,
+    "h": 25
+   },
+   {
+    "x": 606,
+    "y": 1425,
+    "w": 133,
+    "h": 15
+   },
+   {
+    "x": 941,
+    "y": 1303,
+    "w": 146,
+    "h": 22
+   },
+   {
+    "x": 941,
+    "y": 1329,
+    "w": 120,
+    "h": 22
+   },
+   {
+    "x": 941,
+    "y": 1355,
+    "w": 232,
+    "h": 22
+   },
+   {
+    "x": 957,
+    "y": 1403,
+    "w": 151,
+    "h": 13
+   },
+   {
+    "x": 1279,
+    "y": 1329,
+    "w": 222,
+    "h": 22
+   },
+   {
+    "x": 1279,
+    "y": 1355,
+    "w": 39,
+    "h": 22
+   },
+   {
+    "x": 1295,
+    "y": 1403,
+    "w": 38,
+    "h": 13
+   },
+   {
+    "x": 140,
+    "y": 1659,
+    "w": 125,
+    "h": 18
+   },
+   {
+    "x": 380,
+    "y": 1661,
+    "w": 800,
+    "h": 46
+   },
+   {
+    "x": 380,
+    "y": 1711,
+    "w": 790,
+    "h": 46
+   },
+   {
+    "x": 380,
+    "y": 1762,
+    "w": 603,
+    "h": 46
+   },
+   {
+    "x": 380,
+    "y": 1868,
+    "w": 303,
+    "h": 46
+   },
+   {
+    "x": 140,
+    "y": 2091,
+    "w": 147,
+    "h": 18
+   },
+   {
+    "x": 140,
+    "y": 2116,
+    "w": 408,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 2916,
+    "w": 99,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2941,
+    "w": 789,
+    "h": 46
+   },
+   {
+    "x": 179,
+    "y": 3211,
+    "w": 110,
+    "h": 13
+   },
+   {
+    "x": 179,
+    "y": 3238,
+    "w": 395,
+    "h": 32
+   },
+   {
+    "x": 179,
+    "y": 3277,
+    "w": 344,
+    "h": 32
+   },
+   {
+    "x": 179,
+    "y": 3323,
+    "w": 241,
+    "h": 13
+   },
+   {
+    "x": 179,
+    "y": 3361,
+    "w": 516,
+    "h": 18
+   },
+   {
+    "x": 179,
+    "y": 3388,
+    "w": 525,
+    "h": 18
+   },
+   {
+    "x": 179,
+    "y": 3415,
+    "w": 91,
+    "h": 18
+   },
+   {
+    "x": 179,
+    "y": 3448,
+    "w": 347,
+    "h": 13
+   },
+   {
+    "x": 203,
+    "y": 3506,
+    "w": 117,
+    "h": 18
+   },
+   {
+    "x": 179,
+    "y": 3582,
+    "w": 112,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 4445,
+    "w": 331,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 4471,
+    "w": 283,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 4511,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 531,
+    "y": 4240,
+    "w": 326,
+    "h": 22
+   },
+   {
+    "x": 547,
+    "y": 4280,
+    "w": 118,
+    "h": 13
+   },
+   {
+    "x": 981,
+    "y": 4240,
+    "w": 144,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 4280,
+    "w": 118,
+    "h": 13
+   },
+   {
+    "x": 531,
+    "y": 5000,
+    "w": 339,
+    "h": 22
+   },
+   {
+    "x": 547,
+    "y": 5040,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 981,
+    "y": 4795,
+    "w": 363,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 4835,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 80,
+    "y": 5230,
+    "w": 367,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 5270,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 981,
+    "y": 5350,
+    "w": 277,
+    "h": 22
+   },
+   {
+    "x": 981,
+    "y": 5376,
+    "w": 261,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 5416,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 177,
+    "y": 5633,
+    "w": 272,
+    "h": 40
+   },
+   {
+    "x": 96,
+    "y": 6037,
+    "w": 156,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 6063,
+    "w": 143,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 6089,
+    "w": 120,
+    "h": 22
+   },
+   {
+    "x": 112,
+    "y": 6137,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 434,
+    "y": 6037,
+    "w": 230,
+    "h": 22
+   },
+   {
+    "x": 434,
+    "y": 6063,
+    "w": 167,
+    "h": 22
+   },
+   {
+    "x": 434,
+    "y": 6089,
+    "w": 210,
+    "h": 22
+   },
+   {
+    "x": 450,
+    "y": 6137,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 772,
+    "y": 6089,
+    "w": 129,
+    "h": 22
+   },
+   {
+    "x": 788,
+    "y": 6137,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 1110,
+    "y": 6063,
+    "w": 165,
+    "h": 22
+   },
+   {
+    "x": 1110,
+    "y": 6089,
+    "w": 134,
+    "h": 22
+   },
+   {
+    "x": 1126,
+    "y": 6137,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 653,
+    "y": 6258,
+    "w": 133,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 6900,
+    "w": 163,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 6926,
+    "w": 183,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 6966,
+    "w": 118,
+    "h": 13
+   },
+   {
+    "x": 435,
+    "y": 6616,
+    "w": 218,
+    "h": 22
+   },
+   {
+    "x": 435,
+    "y": 6642,
+    "w": 175,
+    "h": 22
+   },
+   {
+    "x": 435,
+    "y": 6668,
+    "w": 54,
+    "h": 22
+   },
+   {
+    "x": 451,
+    "y": 6708,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 435,
+    "y": 6743,
+    "w": 198,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 6767,
+    "w": 190,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 6791,
+    "w": 194,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 6815,
+    "w": 215,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 6838,
+    "w": 182,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 6862,
+    "w": 197,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 6886,
+    "w": 210,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 6910,
+    "w": 150,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 6934,
+    "w": 180,
+    "h": 16
+   },
+   {
+    "x": 756,
+    "y": 6900,
+    "w": 214,
+    "h": 22
+   },
+   {
+    "x": 756,
+    "y": 6926,
+    "w": 192,
+    "h": 22
+   },
+   {
+    "x": 756,
+    "y": 6952,
+    "w": 68,
+    "h": 22
+   },
+   {
+    "x": 772,
+    "y": 6992,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 1094,
+    "y": 6900,
+    "w": 223,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 6926,
+    "w": 245,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 6952,
+    "w": 146,
+    "h": 22
+   },
+   {
+    "x": 1110,
+    "y": 6992,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 418,
+    "y": 7351,
+    "w": 193,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 7377,
+    "w": 162,
+    "h": 22
+   },
+   {
+    "x": 434,
+    "y": 7417,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 80,
+    "y": 7366,
+    "w": 207,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 7392,
+    "w": 161,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 7432,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 756,
+    "y": 7515,
+    "w": 264,
+    "h": 22
+   },
+   {
+    "x": 756,
+    "y": 7541,
+    "w": 190,
+    "h": 22
+   },
+   {
+    "x": 772,
+    "y": 7581,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 1094,
+    "y": 7391,
+    "w": 129,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 7417,
+    "w": 226,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 7443,
+    "w": 239,
+    "h": 22
+   },
+   {
+    "x": 1110,
+    "y": 7483,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 633,
+    "y": 7670,
+    "w": 174,
+    "h": 18
+   },
+   {
+    "x": 281,
+    "y": 7966,
+    "w": 878,
+    "h": 71
+   },
+   {
+    "x": 599,
+    "y": 8036,
+    "w": 242,
+    "h": 71
+   },
+   {
+    "x": 646,
+    "y": 8146,
+    "w": 117,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 8460,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 8509,
+    "w": 102,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 8554,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 8599,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 8643,
+    "w": 66,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 8460,
+    "w": 135,
+    "h": 18
+   },
+   {
+    "x": 402,
+    "y": 8509,
+    "w": 145,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 8554,
+    "w": 88,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 8571,
+    "w": 71,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 8615,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 8615,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 8660,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 8660,
+    "w": 58,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 8509,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 8509,
+    "w": 68,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 8554,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 8599,
+    "w": 120,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 8615,
+    "w": 83,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 8632,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 643,
+    "y": 8632,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 8509,
+    "w": 156,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 8526,
+    "w": 41,
+    "h": 13
+   },
+   {
+    "x": 845,
+    "y": 8526,
+    "w": 65,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 8571,
+    "w": 153,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 8615,
+    "w": 143,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 8660,
+    "w": 132,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 8677,
+    "w": 126,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 8475,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 1112,
+    "y": 8555,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 8766,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 152,
+    "y": 8766,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 160,
+    "y": 8766,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 1298,
+    "y": 871,
+    "w": 122,
+    "h": 16
+   }
+  ]
+ }
+}

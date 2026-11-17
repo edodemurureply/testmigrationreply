@@ -1,0 +1,7148 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-17T00:57:25.860Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.reply.com/en/investors",
+  "at": "2026-11-17T00:57:03.173Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6647,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-bottom.w-full > div.logo.flex > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "go to homepage",
+    "href": "/en"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 906,
+    "y": 28,
+    "w": 41,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 1225,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "custom-menu-runtime.header.flex > nav.header-bottom.w-full > button.hidden.lg:block",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.grid-bg__container.absolute > picture > img.grid-bg.w-full",
+    "x": 0,
+    "y": -3,
+    "w": 1440,
+    "h": 810,
+    "text": "",
+    "file": "fed160b5-60fb-4fc2-b58c-67c84a5a4c62"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h1#At2Br",
+    "x": 177,
+    "y": 197,
+    "w": 861,
+    "h": 70,
+    "level": 1,
+    "text": "investors"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h1#At2Br > span.colors-1-gbfb",
+    "x": 177,
+    "y": 196,
+    "w": 296,
+    "h": 71,
+    "text": "Investors"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p > span.colors-1-gbfb",
+    "x": 289,
+    "y": 295,
+    "w": 522,
+    "h": 126,
+    "text": "Made up of a network of highly-specialised companies in different areas of exper"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.flex.flex-col > li.nav-item.nav-link > a.whitespace-nowrap",
+    "x": 40,
+    "y": 558,
+    "w": 145,
+    "h": 16,
+    "text": "financial highlights",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.flex.flex-col > li.nav-item.nav-link > a.whitespace-nowrap",
+    "x": 225,
+    "y": 558,
+    "w": 85,
+    "h": 16,
+    "text": "reply stock",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.flex.flex-col > li.nav-item.nav-link > a.whitespace-nowrap",
+    "x": 350,
+    "y": 558,
+    "w": 173,
+    "h": 16,
+    "text": "financial news & events",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.flex.flex-col > li.nav-item.nav-link > a.whitespace-nowrap",
+    "x": 563,
+    "y": 558,
+    "w": 89,
+    "h": 16,
+    "text": "governance",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.flex.flex-col > li.nav-item.nav-link > a.whitespace-nowrap",
+    "x": 691,
+    "y": 558,
+    "w": 124,
+    "h": 16,
+    "text": "financial reports",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.flex.flex-col > li.nav-item.nav-link > a.whitespace-nowrap",
+    "x": 855,
+    "y": 558,
+    "w": 193,
+    "h": 16,
+    "text": "other financial documents",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.flex.flex-col > li.nav-item.nav-link > a.whitespace-nowrap",
+    "x": 1088,
+    "y": 558,
+    "w": 68,
+    "h": 16,
+    "text": "contacts",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#iV6rV",
+    "x": 177,
+    "y": 687,
+    "w": 411,
+    "h": 43,
+    "level": 3,
+    "text": "financial highlights"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cofnzjdpew.cofnzjdpew-md > div > a#ypOLl",
+    "x": 1152,
+    "y": 685,
+    "w": 111,
+    "h": 48,
+    "text": "view all",
+    "href": "/en/investors/financial-highlights"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h1#TeDOT",
+    "x": 64,
+    "y": 821,
+    "w": 411,
+    "h": 50,
+    "level": 1,
+    "text": "14.7%"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h1#TeDOT > span.colors-b-wm-m5",
+    "x": 203,
+    "y": 823,
+    "w": 133,
+    "h": 46,
+    "text": "14.7%"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 64,
+    "y": 871,
+    "w": 411,
+    "h": 101,
+    "text": "Annual shareholder return for a 10-year investment in Reply shares (2013-2025, d"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h4#AA4nL",
+    "x": 515,
+    "y": 821,
+    "w": 411,
+    "h": 50,
+    "level": 4,
+    "text": "13.4%"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h4#AA4nL > span.colors-b-wm-m5",
+    "x": 652,
+    "y": 823,
+    "w": 136,
+    "h": 46,
+    "text": "13.4%"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 515,
+    "y": 892,
+    "w": 411,
+    "h": 50,
+    "text": "Compound annual revenue growth during the last 10 financial years"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h4#ZTzcr",
+    "x": 965,
+    "y": 821,
+    "w": 411,
+    "h": 50,
+    "level": 4,
+    "text": "13.8%"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h4#ZTzcr > span.colors-b-wm-m5",
+    "x": 1103,
+    "y": 823,
+    "w": 135,
+    "h": 46,
+    "text": "13.8%"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 965,
+    "y": 892,
+    "w": 411,
+    "h": 50,
+    "text": "Average EBIT margin during the last 10 financial years"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.concealable-content.ilkrtqdqnt-xl > div > a#Go7Jf",
+    "x": 1104,
+    "y": 1144,
+    "w": 159,
+    "h": 48,
+    "text": "view section",
+    "href": "/it/investors/reply-share-information"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#LOucS",
+    "x": 177,
+    "y": 1146,
+    "w": 815,
+    "h": 43,
+    "level": 3,
+    "text": "reply stock"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-16.aspect-h-9 > picture > img.content.picture",
+    "x": 209,
+    "y": 1263,
+    "w": 100,
+    "h": 56,
+    "text": "",
+    "file": "f992d08e-110f-486a-a021-78a7ebec6c59"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-xczn2",
+    "x": 209,
+    "y": 1330,
+    "w": 339,
+    "h": 20,
+    "text": "ISIN"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-xczn2",
+    "x": 209,
+    "y": 1354,
+    "w": 339,
+    "h": 20,
+    "text": "Symbol"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-xczn2",
+    "x": 209,
+    "y": 1379,
+    "w": 339,
+    "h": 20,
+    "text": "Reuters"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-xczn2",
+    "x": 209,
+    "y": 1404,
+    "w": 339,
+    "h": 20,
+    "text": "Bloomberg"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-xczn2",
+    "x": 209,
+    "y": 1428,
+    "w": 339,
+    "h": 20,
+    "text": "Market segment"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mamxxxqbep.mamxxxqbep-md > div > a#RGQPM",
+    "x": 657,
+    "y": 1296,
+    "w": 204,
+    "h": 42,
+    "text": "analyst coverage",
+    "href": "/en/investors/reply-share-information"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mamxxxqbep.mamxxxqbep-md > div > a#z67SF",
+    "x": 877,
+    "y": 1296,
+    "w": 197,
+    "h": 42,
+    "text": "basic share data",
+    "href": "/en/investors/reply-share-information"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mamxxxqbep.mamxxxqbep-md > div > a#pK7wp",
+    "x": 657,
+    "y": 1372,
+    "w": 132,
+    "h": 42,
+    "text": "dividends",
+    "href": "/en/investors/reply-share-information"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mamxxxqbep.mamxxxqbep-md > div > a#43tGj",
+    "x": 805,
+    "y": 1372,
+    "w": 164,
+    "h": 42,
+    "text": "share capital",
+    "href": "/en/investors/reply-share-information"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mamxxxqbep.mamxxxqbep-md > div > a#n6hgf",
+    "x": 986,
+    "y": 1372,
+    "w": 190,
+    "h": 42,
+    "text": "yearly statistics",
+    "href": "/en/investors/reply-share-information"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#sMVbc",
+    "x": 177,
+    "y": 1752,
+    "w": 411,
+    "h": 86,
+    "level": 3,
+    "text": "latest financial news"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-miz3u",
+    "x": 177,
+    "y": 1878,
+    "w": 411,
+    "h": 14,
+    "text": "12/11/2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-qqvt1 > a",
+    "x": 177,
+    "y": 1908,
+    "w": 387,
+    "h": 45,
+    "text": "the board of directors approves the quarterly financial report as of 30 septembe",
+    "href": "/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-miz3u",
+    "x": 177,
+    "y": 2008,
+    "w": 411,
+    "h": 14,
+    "text": "30/07/2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-qqvt1 > a",
+    "x": 177,
+    "y": 2038,
+    "w": 386,
+    "h": 45,
+    "text": "the board of directors approves the half-year financial report as of 30 june 202",
+    "href": "/en/newsroom/financial-news/the-board-of-directors-approves-the-half-year-financial-report-as-of-30-june-2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-miz3u",
+    "x": 177,
+    "y": 2137,
+    "w": 411,
+    "h": 14,
+    "text": "15/05/2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-qqvt1 > a",
+    "x": 177,
+    "y": 2167,
+    "w": 387,
+    "h": 45,
+    "text": "the board of directors approves the quarterly report dated 31 march 2026",
+    "href": "/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-report-dated-31-march-2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.qtsosqvuvo.qtsosqvuvo-md > div > a#3yn4Z",
+    "x": 177,
+    "y": 2312,
+    "w": 71,
+    "h": 48,
+    "text": "view all",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#ay2V0",
+    "x": 853,
+    "y": 1757,
+    "w": 411,
+    "h": 86,
+    "level": 3,
+    "text": "calendar and events"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > calendarbox-runtime.flex.flex-col > div.label--xsmall-upcase.colors-oc5-d5",
+    "x": 853,
+    "y": 1883,
+    "w": 411,
+    "h": 14,
+    "text": "30/07/26"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "calendarbox-runtime.flex.flex-col > div.flex.justify-between > p.paragraph-01--medium.mb-0",
+    "x": 853,
+    "y": 1909,
+    "w": 335,
+    "h": 54,
+    "text": "Half Year Report 30 June 2026 | Q2 Earnings Call"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "calendarbox-runtime.flex.flex-col > div.flex.justify-between > a.square-bt",
+    "x": 1219,
+    "y": 1909,
+    "w": 44,
+    "h": 44,
+    "text": "download half year report 30 june 2026 | q2 earnings call calendar",
+    "href": "https://www.reply.com/baf9575c-2fa7-473d-957f-6ac34518b288"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > calendarbox-runtime.flex.flex-col > div.label--xsmall-upcase.colors-oc5-d5",
+    "x": 853,
+    "y": 2013,
+    "w": 411,
+    "h": 14,
+    "text": "12/11/26"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "calendarbox-runtime.flex.flex-col > div.flex.justify-between > p.paragraph-01--medium.mb-0",
+    "x": 853,
+    "y": 2039,
+    "w": 335,
+    "h": 54,
+    "text": "Consolidated results for Third Quarter 2026 | Q3 Earnings Call"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "calendarbox-runtime.flex.flex-col > div.flex.justify-between > a.square-bt",
+    "x": 1219,
+    "y": 2039,
+    "w": 44,
+    "h": 44,
+    "text": "download consolidated results for third quarter 2026 | q3 earnings call calendar",
+    "href": "https://www.reply.com/afb2e141-9bda-453c-82e8-30b9bfd25c28"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > calendarbox-runtime.flex.flex-col > div.label--xsmall-upcase.colors-oc5-d5",
+    "x": 853,
+    "y": 2142,
+    "w": 411,
+    "h": 14,
+    "text": "23-24/11/26"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "calendarbox-runtime.flex.flex-col > div.flex.justify-between > p.paragraph-01--medium.mb-0",
+    "x": 853,
+    "y": 2168,
+    "w": 111,
+    "h": 44,
+    "text": "Equity Forum"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "calendarbox-runtime.flex.flex-col > div.flex.justify-between > a.square-bt",
+    "x": 1219,
+    "y": 2168,
+    "w": 44,
+    "h": 44,
+    "text": "download equity forum calendar",
+    "href": "https://www.reply.com/b1293bae-e95b-47fd-a5c4-ed7ecd481377"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.jzqstabegp.jzqstabegp-md > div > a#6z78w",
+    "x": 853,
+    "y": 2307,
+    "w": 71,
+    "h": 48,
+    "text": "view all",
+    "href": "/en/investors/financial-calendar-and-events"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#H6tmz",
+    "x": 177,
+    "y": 2576,
+    "w": 1087,
+    "h": 43,
+    "level": 3,
+    "text": "governance"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 177,
+    "y": 2643,
+    "w": 861,
+    "h": 54,
+    "text": "Our ethical values are aligned with local legislation as well as international n"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 163,
+    "y": 2761,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "b1689304-351b-475d-a8f6-9dcbcc164d87"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 64,
+    "y": 2893,
+    "w": 298,
+    "h": 52,
+    "text": "Board of directors and other Corporate bodies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.zysqtjlnnt.zysqtjlnnt-md > div > a#j4zSt",
+    "x": 189,
+    "y": 2977,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/en/investors/board-of-directors-and-other-corporate-bodies"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 501,
+    "y": 2761,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "4230c2bc-0d13-4b02-85b9-6c0dbeb6e055"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 402,
+    "y": 2893,
+    "w": 298,
+    "h": 52,
+    "text": "Governance system"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.nklkhflptu.nklkhflptu-md > div > a#yVE8X",
+    "x": 527,
+    "y": 2977,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/en/investors/governance-system"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 839,
+    "y": 2761,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "71cdb082-93ae-48bc-904b-c46c9c27bf38"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 740,
+    "y": 2893,
+    "w": 298,
+    "h": 52,
+    "text": "Governance policies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.bpxycgwtwp.bpxycgwtwp-md > div > a#goo4x",
+    "x": 865,
+    "y": 2977,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/en/investors/governance-policies"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 1177,
+    "y": 2761,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "8aa1643b-3277-4a39-81b6-8ae95fa06705"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 1078,
+    "y": 2893,
+    "w": 298,
+    "h": 52,
+    "text": "Loyalty shares"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.czqsndbdxq.czqsndbdxq-md > div > a#NMvbP",
+    "x": 1203,
+    "y": 2977,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/en/investors/loyalty-shares"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h4#Gk77A",
+    "x": 177,
+    "y": 3121,
+    "w": 1087,
+    "h": 39,
+    "level": 4,
+    "text": "featured documents"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.bkwyjycgiv.bkwyjycgiv-md > div.block > a",
+    "x": 177,
+    "y": 3200,
+    "w": 523,
+    "h": 98,
+    "text": "whistleblowing policy",
+    "href": "/contents/Reply-Whistleblowing-Policy_ENG.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.dvcrcbqqtl.dvcrcbqqtl-md > div.block > a",
+    "x": 740,
+    "y": 3200,
+    "w": 523,
+    "h": 98,
+    "text": "modello 231 (italian version)",
+    "href": "/contents/modello231_reply.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.dsfpquubko.dsfpquubko-md > div.block > a",
+    "x": 177,
+    "y": 3310,
+    "w": 523,
+    "h": 98,
+    "text": "code of ethics",
+    "href": "/contents/Code_of_Ethics.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.levmdjlhxx.levmdjlhxx-md > div.block > a",
+    "x": 740,
+    "y": 3310,
+    "w": 523,
+    "h": 98,
+    "text": "articles of association",
+    "href": "/contents/Reply_SpA_Articles_of_Association_(EN).pdf"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.grid-bg__container.absolute > picture > img.grid-bg.w-full",
+    "x": 177,
+    "y": 3526,
+    "w": 1087,
+    "h": 611,
+    "text": "",
+    "file": "32281efa-65ff-4225-b742-81b0132935da"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-eiuiy > span.colors-1-gbfb",
+    "x": 227,
+    "y": 3649,
+    "w": 295,
+    "h": 32,
+    "text": "Making a difference"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p > span.colors-1-gbfb",
+    "x": 227,
+    "y": 3710,
+    "w": 569,
+    "h": 99,
+    "text": "\"Make forward\" for us also means taking concrete action to make the change we wa"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.jhvdiuziyc.jhvdiuziyc-md > div > a#P3Ybg",
+    "x": 227,
+    "y": 3844,
+    "w": 132,
+    "h": 48,
+    "text": "discover more",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.fxcbruiomn.fxcbruiomn-md > div > a#xYVDY",
+    "x": 509,
+    "y": 3844,
+    "w": 282,
+    "h": 68,
+    "text": "consolidated sustainability statement 2025",
+    "href": "/contents/REPLY_Bilancio_2025_ENG.pdf"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#I7uZB",
+    "x": 177,
+    "y": 4192,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "financial reports"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.concealable-content.pzqbccruwz > div > a#zVRWi",
+    "x": 1152,
+    "y": 4190,
+    "w": 111,
+    "h": 48,
+    "text": "view all",
+    "href": "/en/investors/financial-reports"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > div.inline-block > a.block",
+    "x": 178,
+    "y": 4278,
+    "w": 409,
+    "h": 409,
+    "text": "",
+    "href": "/contents/Interim_Management_Report_at_30_September_2026.pdf"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 178,
+    "y": 4278,
+    "w": 409,
+    "h": 409,
+    "text": "",
+    "file": "244c4635-541e-4c5b-b7d5-c01ea66dadf9"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mooqtjhgxn.mooqtjhgxn-md > div.block > a",
+    "x": 627,
+    "y": 4277,
+    "w": 298,
+    "h": 186,
+    "text": "30/06/2026 half year report 2026",
+    "href": "/contents/Half_year_Financial_Report_2026.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lgjeomgicb.lgjeomgicb-md > div.block > a",
+    "x": 965,
+    "y": 4277,
+    "w": 298,
+    "h": 186,
+    "text": "31/03/2026 quarterly report q1 2026",
+    "href": "/contents/Interim_Management_Report_at_31_March_2026-1.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.zdwfvllddd.zdwfvllddd-md > div.block > a",
+    "x": 627,
+    "y": 4503,
+    "w": 298,
+    "h": 186,
+    "text": "31/12/2025 annual report 2025",
+    "href": "/contents/REPLY_Bilancio_2025_ENG.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ernglubjbf.ernglubjbf-md > div.block > a",
+    "x": 965,
+    "y": 4503,
+    "w": 298,
+    "h": 186,
+    "text": "30/09/2025 quarterly report q3 2025",
+    "href": "/contents/Interim_Management_Report_at_30_September_2025.pdf"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#QTWK5",
+    "x": 177,
+    "y": 4928,
+    "w": 411,
+    "h": 14,
+    "level": 2,
+    "text": "other financial documents"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#csqTN",
+    "x": 177,
+    "y": 4974,
+    "w": 411,
+    "h": 31,
+    "level": 3,
+    "text": "shareholders’ meeting"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-xufux",
+    "x": 177,
+    "y": 5022,
+    "w": 411,
+    "h": 167,
+    "text": "2,300.5"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cvaplhqygk.cvaplhqygk-md > div > a#ZjOr9",
+    "x": 177,
+    "y": 5218,
+    "w": 182,
+    "h": 48,
+    "text": "view all documents",
+    "href": "/en/investors/shareholders-meeting"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#NgwJT",
+    "x": 853,
+    "y": 4977,
+    "w": 411,
+    "h": 31,
+    "level": 3,
+    "text": "extraordinary transactions"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-xufux",
+    "x": 853,
+    "y": 5024,
+    "w": 411,
+    "h": 143,
+    "text": "Here you can find relevant documents for extraordinary transactions conducted by"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.siafbvbiis.siafbvbiis-md > div > a#PRGYu",
+    "x": 853,
+    "y": 5217,
+    "w": 119,
+    "h": 48,
+    "text": "view section",
+    "href": "/en/investors/extraordinary-transactions"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#cLMb3",
+    "x": 177,
+    "y": 5506,
+    "w": 1087,
+    "h": 43,
+    "level": 3,
+    "text": "contacts"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-card.bg-white > div.xl:pt-5 > p.h7--medium.mb-1",
+    "x": 218,
+    "y": 5650,
+    "w": 441,
+    "h": 25,
+    "text": "Michael Lückenkötter"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-card.bg-white > div.xl:pt-5 > p.paragraph-02--medium.colors-oc5-d5",
+    "x": 218,
+    "y": 5679,
+    "w": 441,
+    "h": 24,
+    "text": "Investor Relations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flex.flex-col > div.contact-card__wrapped-text > p.label--xsmall-upcase.colors-oc5-d5",
+    "x": 218,
+    "y": 5727,
+    "w": 194,
+    "h": 14,
+    "text": "phone"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flex.flex-col > div.contact-card__wrapped-text > a.paragraph-02--light",
+    "x": 218,
+    "y": 5751,
+    "w": 162,
+    "h": 16,
+    "text": "+49 (0) 52 41 - 50 09 611",
+    "href": "+49 (0) 52 41 - 50 09 611"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flex.flex-col > div.contact-card__wrapped-text > p.label--xsmall-upcase.colors-oc5-d5",
+    "x": 444,
+    "y": 5727,
+    "w": 194,
+    "h": 14,
+    "text": "fax"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flex.flex-col > div.contact-card__wrapped-text > a.paragraph-02--light",
+    "x": 444,
+    "y": 5751,
+    "w": 165,
+    "h": 16,
+    "text": "+49 (0) 52 41 - 50 09 701",
+    "href": "+49 (0) 52 41 - 50 09 701"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flex.flex-col > div > p.label--xsmall-upcase.colors-oc5-d5",
+    "x": 218,
+    "y": 5788,
+    "w": 216,
+    "h": 14,
+    "text": "email"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flex.flex-col > div > a.paragraph-02--medium.block",
+    "x": 218,
+    "y": 5806,
+    "w": 216,
+    "h": 24,
+    "text": "m.lueckenkoetter@reply.com",
+    "href": "m.lueckenkoetter@reply.com"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flex.flex-col > div > a.paragraph-02--medium.block",
+    "x": 218,
+    "y": 5830,
+    "w": 216,
+    "h": 24,
+    "text": "investor@reply.com",
+    "href": "investor@reply.com"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-card.bg-white > div.xl:pt-5 > p.h7--medium.mb-1",
+    "x": 781,
+    "y": 5650,
+    "w": 441,
+    "h": 25,
+    "text": "Paolo Capitelli"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-card.bg-white > div.xl:pt-5 > p.paragraph-02--medium.colors-oc5-d5",
+    "x": 781,
+    "y": 5679,
+    "w": 441,
+    "h": 24,
+    "text": "Investor Relations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flex.flex-col > div.contact-card__wrapped-text > p.label--xsmall-upcase.colors-oc5-d5",
+    "x": 781,
+    "y": 5727,
+    "w": 194,
+    "h": 14,
+    "text": "phone"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flex.flex-col > div.contact-card__wrapped-text > a.paragraph-02--light",
+    "x": 781,
+    "y": 5751,
+    "w": 100,
+    "h": 16,
+    "text": "+39 02 535761",
+    "href": "+39 02 535761"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flex.flex-col > div.contact-card__wrapped-text > p.label--xsmall-upcase.colors-oc5-d5",
+    "x": 1007,
+    "y": 5727,
+    "w": 194,
+    "h": 14,
+    "text": "fax"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flex.flex-col > div.contact-card__wrapped-text > a.paragraph-02--light",
+    "x": 1007,
+    "y": 5751,
+    "w": 122,
+    "h": 16,
+    "text": "+39 02 53576444",
+    "href": "+39 02 53576444"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flex.flex-col > div > p.label--xsmall-upcase.colors-oc5-d5",
+    "x": 781,
+    "y": 5788,
+    "w": 159,
+    "h": 14,
+    "text": "email"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flex.flex-col > div > a.paragraph-02--medium.block",
+    "x": 781,
+    "y": 5806,
+    "w": 159,
+    "h": 24,
+    "text": "p.capitelli@reply.com",
+    "href": "p.capitelli@reply.com"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flex.flex-col > div > a.paragraph-02--medium.block",
+    "x": 781,
+    "y": 5830,
+    "w": 159,
+    "h": 24,
+    "text": "investor@reply.com",
+    "href": "investor@reply.com"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-xufux",
+    "x": 177,
+    "y": 5935,
+    "w": 1087,
+    "h": 95,
+    "text": "For the dissemination and storage of regulated information, Reply S.p.A. uses eM"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-xufux > a",
+    "x": 499,
+    "y": 5961,
+    "w": 196,
+    "h": 16,
+    "text": "www.emarketstorage.com",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-xufux > a",
+    "x": 265,
+    "y": 6009,
+    "w": 89,
+    "h": 16,
+    "text": "www.1info.it",
+    "href": "/PORTALE1INFO"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.block > nav.footer.p-10 > a",
+    "x": 64,
+    "y": 6214,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 6310,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 6310,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 6357,
+    "w": 103,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 6402,
+    "w": 45,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 6447,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 6492,
+    "w": 67,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 6310,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 6310,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 6357,
+    "w": 142,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 6402,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 6464,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 6509,
+    "w": 149,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 6357,
+    "w": 161,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 6402,
+    "w": 127,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 6447,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 6357,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 6419,
+    "w": 154,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 6464,
+    "w": 147,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 6509,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "void(0)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Careers",
+    "x": 1112,
+    "y": 6310,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Contacts",
+    "x": 1112,
+    "y": 6390,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1112,
+    "y": 6470,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1124,
+    "y": 6482,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1184,
+    "y": 6470,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1196,
+    "y": 6482,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "a6732ee4-95cf-4951-9c4b-3675c7154f7e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1256,
+    "y": 6470,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1268,
+    "y": 6482,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "49664893-bfc1-4d79-9208-3bdd7083126b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1328,
+    "y": 6470,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1340,
+    "y": 6482,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "c48097ef-90ed-4c24-aa40-1764649e72ff"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > span",
+    "x": 64,
+    "y": 6614,
+    "w": 81,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > a.underline",
+    "x": 158,
+    "y": 6614,
+    "w": 136,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.text-white.py-3 > div.flex.justify-between > button#cookie-pref-center",
+    "x": 1276,
+    "y": 859,
+    "w": 164,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 162,
+    "controls": 87,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--a355dc1b--aemcoder.aem.live/en/investors",
+  "at": "2026-11-17T00:57:25.730Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6693,
+  "root": "main",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-main > div.site-header-logo > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "href": "/en"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-reply-logo > img",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "file": "reply-logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 900,
+    "y": 28,
+    "w": 46,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 1224,
+    "y": 28,
+    "w": 52,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-header-bar > nav.site-header-main > button.sm-collapsed",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.hub-grid-node.hub-grid-pic > picture.hub-grid-pic-d > img",
+    "x": 0,
+    "y": -3,
+    "w": 1441,
+    "h": 810,
+    "text": "",
+    "file": "media_19fa68ea44676e2d927950ab7ae75196a1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h1#investors",
+    "x": 177,
+    "y": 197,
+    "w": 862,
+    "h": 70,
+    "level": 1,
+    "text": "investors"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 290,
+    "y": 292,
+    "w": 523,
+    "h": 135,
+    "text": "Made up of a network of highly-specialised companies in different areas of exper"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.active > a",
+    "x": 40,
+    "y": 559,
+    "w": 142,
+    "h": 16,
+    "text": "financial highlights",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 233,
+    "y": 559,
+    "w": 86,
+    "h": 16,
+    "text": "reply stock",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 371,
+    "y": 559,
+    "w": 177,
+    "h": 16,
+    "text": "financial news & events",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 599,
+    "y": 559,
+    "w": 88,
+    "h": 16,
+    "text": "governance",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 738,
+    "y": 559,
+    "w": 124,
+    "h": 16,
+    "text": "financial reports",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 914,
+    "y": 559,
+    "w": 187,
+    "h": 16,
+    "text": "other financial documents",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 1153,
+    "y": 559,
+    "w": 65,
+    "h": 16,
+    "text": "contacts",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h3#financial-highlights",
+    "x": 177,
+    "y": 688,
+    "w": 411,
+    "h": 43,
+    "level": 3,
+    "text": "financial highlights"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.button-wrapper.hub-grid-node > a.button.secondary",
+    "x": 1152,
+    "y": 686,
+    "w": 69,
+    "h": 48,
+    "text": "view all",
+    "href": "/en/investors/financial-highlights"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h2#147",
+    "x": 64,
+    "y": 821,
+    "w": 411,
+    "h": 50,
+    "level": 2,
+    "text": "14.7%"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 64,
+    "y": 872,
+    "w": 411,
+    "h": 76,
+    "text": "Annual shareholder return for a 10-year investment in Reply shares (2013-2025, d"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h4#134",
+    "x": 515,
+    "y": 821,
+    "w": 411,
+    "h": 50,
+    "level": 4,
+    "text": "13.4%"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 515,
+    "y": 893,
+    "w": 411,
+    "h": 50,
+    "text": "Compound annual revenue growth during the last 10 financial years"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h4#138",
+    "x": 965,
+    "y": 821,
+    "w": 411,
+    "h": 50,
+    "level": 4,
+    "text": "13.8%"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 965,
+    "y": 893,
+    "w": 411,
+    "h": 50,
+    "text": "Average EBIT margin during the last 10 financial years"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.button-wrapper.hub-grid-node > a.button.secondary",
+    "x": 1104,
+    "y": 1144,
+    "w": 116,
+    "h": 48,
+    "text": "view section",
+    "href": "/it/investors/reply-share-information"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h3#reply-stock",
+    "x": 177,
+    "y": 1146,
+    "w": 815,
+    "h": 43,
+    "level": 3,
+    "text": "reply stock"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.hub-grid-node.hub-grid-pic > picture > img",
+    "x": 209,
+    "y": 1264,
+    "w": 100,
+    "h": 57,
+    "text": "",
+    "file": "media_145af9303840547b6cf89436fcf8bebb07"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 209,
+    "y": 1330,
+    "w": 339,
+    "h": 20,
+    "text": "ISIN IT0005282865"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 209,
+    "y": 1355,
+    "w": 339,
+    "h": 20,
+    "text": "Symbol REY"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 209,
+    "y": 1379,
+    "w": 339,
+    "h": 20,
+    "text": "Reuters REY.MI"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 209,
+    "y": 1404,
+    "w": 339,
+    "h": 20,
+    "text": "Bloomberg REY.IM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 209,
+    "y": 1429,
+    "w": 339,
+    "h": 20,
+    "text": "Market segment STAR"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.button-wrapper.hub-grid-node > a.button.primary",
+    "x": 657,
+    "y": 1297,
+    "w": 207,
+    "h": 48,
+    "text": "analyst coverage",
+    "href": "/en/investors/reply-share-information"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.button-wrapper.hub-grid-node > a.button.primary",
+    "x": 877,
+    "y": 1297,
+    "w": 202,
+    "h": 48,
+    "text": "basic share data",
+    "href": "/en/investors/reply-share-information"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.button-wrapper.hub-grid-node > a.button.primary",
+    "x": 657,
+    "y": 1372,
+    "w": 137,
+    "h": 48,
+    "text": "dividends",
+    "href": "/en/investors/reply-share-information"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.button-wrapper.hub-grid-node > a.button.primary",
+    "x": 806,
+    "y": 1372,
+    "w": 169,
+    "h": 48,
+    "text": "share capital",
+    "href": "/en/investors/reply-share-information"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.button-wrapper.hub-grid-node > a.button.primary",
+    "x": 986,
+    "y": 1372,
+    "w": 190,
+    "h": 48,
+    "text": "yearly statistics",
+    "href": "/en/investors/reply-share-information"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h3#latestfinancial-news",
+    "x": 177,
+    "y": 1752,
+    "w": 411,
+    "h": 86,
+    "level": 3,
+    "text": "latest financial news"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 177,
+    "y": 1879,
+    "w": 411,
+    "h": 14,
+    "text": "12/11/2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.hub-grid-node > a",
+    "x": 177,
+    "y": 1909,
+    "w": 393,
+    "h": 45,
+    "text": "the board of directors approves the quarterly financial report as of 30 septembe",
+    "href": "/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 177,
+    "y": 2008,
+    "w": 411,
+    "h": 14,
+    "text": "30/07/2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.hub-grid-node > a",
+    "x": 177,
+    "y": 2038,
+    "w": 392,
+    "h": 45,
+    "text": "the board of directors approves the half-year financial report as of 30 june 202",
+    "href": "/en/newsroom/financial-news/the-board-of-directors-approves-the-half-year-financial-report-as-of-30-june-2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 177,
+    "y": 2137,
+    "w": 411,
+    "h": 14,
+    "text": "15/05/2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.hub-grid-node > a",
+    "x": 177,
+    "y": 2167,
+    "w": 393,
+    "h": 45,
+    "text": "the board of directors approves the quarterly report dated 31 march 2026",
+    "href": "/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-report-dated-31-march-2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.button-wrapper.hub-grid-node > a.button.secondary",
+    "x": 177,
+    "y": 2313,
+    "w": 69,
+    "h": 48,
+    "text": "view all",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h3#calendarand-events",
+    "x": 853,
+    "y": 1757,
+    "w": 411,
+    "h": 86,
+    "level": 3,
+    "text": "calendar and events"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 853,
+    "y": 1884,
+    "w": 411,
+    "h": 14,
+    "text": "30/07/26"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node.hub-grid-has-ics",
+    "x": 853,
+    "y": 1910,
+    "w": 335,
+    "h": 54,
+    "text": "Half Year Report 30 June 2026 | Q2 Earnings Call"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.hub-grid-node.hub-grid-has-ics > a.hub-grid-ics",
+    "x": 1219,
+    "y": 1910,
+    "w": 44,
+    "h": 44,
+    "text": "download half year report 30 june 2026 | q2 earnings call calendar",
+    "href": "https://main--a355dc1b--aemcoder.aem.live/04bea9ee-9f2e-4b77-a3c7-4017797846e9"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 853,
+    "y": 2013,
+    "w": 411,
+    "h": 14,
+    "text": "12/11/26"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node.hub-grid-has-ics",
+    "x": 853,
+    "y": 2039,
+    "w": 335,
+    "h": 54,
+    "text": "Consolidated results for Third Quarter 2026 | Q3 Earnings Call"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.hub-grid-node.hub-grid-has-ics > a.hub-grid-ics",
+    "x": 1219,
+    "y": 2039,
+    "w": 44,
+    "h": 44,
+    "text": "download consolidated results for third quarter 2026 | q3 earnings call calendar",
+    "href": "https://main--a355dc1b--aemcoder.aem.live/e9e3d934-cbc6-4533-a368-520a4f49c583"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 853,
+    "y": 2142,
+    "w": 411,
+    "h": 14,
+    "text": "23-24/11/26"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node.hub-grid-has-ics",
+    "x": 853,
+    "y": 2168,
+    "w": 111,
+    "h": 54,
+    "text": "Equity Forum"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.hub-grid-node.hub-grid-has-ics > a.hub-grid-ics",
+    "x": 1219,
+    "y": 2168,
+    "w": 44,
+    "h": 44,
+    "text": "download equity forum calendar",
+    "href": "https://main--a355dc1b--aemcoder.aem.live/d24309c5-da44-4a2f-b968-abc04a8569fd"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.button-wrapper.hub-grid-node > a.button.secondary",
+    "x": 853,
+    "y": 2318,
+    "w": 69,
+    "h": 48,
+    "text": "view all",
+    "href": "/en/investors/financial-calendar-and-events"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h3#governance",
+    "x": 177,
+    "y": 2581,
+    "w": 1087,
+    "h": 43,
+    "level": 3,
+    "text": "governance"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 177,
+    "y": 2649,
+    "w": 861,
+    "h": 54,
+    "text": "Our ethical values are aligned with local legislation as well as international n"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.hub-grid-node.hub-grid-pic > picture > img",
+    "x": 163,
+    "y": 2767,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "media_1079eeed8127a7e61c5d0761eaa4091e1d"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 64,
+    "y": 2899,
+    "w": 298,
+    "h": 52,
+    "text": "Board of directors and other Corporate bodies"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.hub-grid-node.hub-grid-pic > picture > img",
+    "x": 501,
+    "y": 2767,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "media_1bd7bc6df6db07be897ad98db630edb43d"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 402,
+    "y": 2899,
+    "w": 298,
+    "h": 52,
+    "text": "Governance system"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.hub-grid-node.hub-grid-pic > picture > img",
+    "x": 839,
+    "y": 2767,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "media_159b24286a7d8a1d76189d843d0de54f8a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 740,
+    "y": 2899,
+    "w": 298,
+    "h": 52,
+    "text": "Governance policies"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.hub-grid-node.hub-grid-pic > picture > img",
+    "x": 1177,
+    "y": 2767,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "media_1036aba0df20cef878a7c2e7da99e47c14"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 1078,
+    "y": 2899,
+    "w": 298,
+    "h": 52,
+    "text": "Loyalty shares"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h4#featured-documents",
+    "x": 177,
+    "y": 3116,
+    "w": 1087,
+    "h": 39,
+    "level": 4,
+    "text": "featured documents"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > a.hub-grid-boxlink",
+    "x": 177,
+    "y": 3241,
+    "w": 523,
+    "h": 27,
+    "text": "whistleblowing policy",
+    "href": "/contents/Reply-Whistleblowing-Policy_ENG.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > a.hub-grid-boxlink",
+    "x": 740,
+    "y": 3241,
+    "w": 523,
+    "h": 27,
+    "text": "modello 231 (italian version)",
+    "href": "/contents/modello231_reply.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > a.hub-grid-boxlink",
+    "x": 177,
+    "y": 3351,
+    "w": 523,
+    "h": 27,
+    "text": "code of ethics",
+    "href": "/contents/Code_of_Ethics.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > a.hub-grid-boxlink",
+    "x": 740,
+    "y": 3351,
+    "w": 523,
+    "h": 27,
+    "text": "articles of association",
+    "href": "/contents/Reply_SpA_Articles_of_Association_(EN).pdf"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.hub-grid-node.hub-grid-pic > picture > img",
+    "x": 177,
+    "y": 3522,
+    "w": 1087,
+    "h": 611,
+    "text": "",
+    "file": "media_157dbc0d5960a6bbca9020b82ed9f43ba0"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 227,
+    "y": 3642,
+    "w": 594,
+    "h": 39,
+    "text": "Making a difference"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 227,
+    "y": 3701,
+    "w": 594,
+    "h": 108,
+    "text": "\"Make forward\" for us also means taking concrete action to make the change we wa"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell.hub-grid-inv > p.button-wrapper.hub-grid-node > a.button.secondary",
+    "x": 227,
+    "y": 3839,
+    "w": 133,
+    "h": 48,
+    "text": "discover more",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell.hub-grid-inv > p.button-wrapper.hub-grid-node > a.button.secondary",
+    "x": 509,
+    "y": 3839,
+    "w": 304,
+    "h": 67,
+    "text": "consolidated sustainability statement 2025",
+    "href": "/contents/REPLY_Bilancio_2025_ENG.pdf"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h3#financial-reports",
+    "x": 177,
+    "y": 4187,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "financial reports"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.button-wrapper.hub-grid-node > a.button.secondary",
+    "x": 1152,
+    "y": 4185,
+    "w": 69,
+    "h": 48,
+    "text": "view all",
+    "href": "/en/investors/financial-reports"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > picture.hub-grid-node.hub-grid-pic > img",
+    "x": 177,
+    "y": 4274,
+    "w": 409,
+    "h": 409,
+    "text": "",
+    "file": "media_10ea37602278719b7d528a33d5d062865f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > a.hub-grid-boxlink",
+    "x": 627,
+    "y": 4388,
+    "w": 298,
+    "h": 72,
+    "text": "30/06/2026 half year report 2026",
+    "href": "/contents/Half_year_Financial_Report_2026.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > a.hub-grid-boxlink",
+    "x": 965,
+    "y": 4361,
+    "w": 298,
+    "h": 72,
+    "text": "31/03/2026 quarterly report q1 2026",
+    "href": "/contents/Interim_Management_Report_at_31_March_2026-1.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > a.hub-grid-boxlink",
+    "x": 627,
+    "y": 4614,
+    "w": 298,
+    "h": 72,
+    "text": "31/12/2025 annual report 2025",
+    "href": "/contents/REPLY_Bilancio_2025_ENG.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > a.hub-grid-boxlink",
+    "x": 965,
+    "y": 4587,
+    "w": 298,
+    "h": 72,
+    "text": "30/09/2025 quarterly report q3 2025",
+    "href": "/contents/Interim_Management_Report_at_30_September_2025.pdf"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h2#other-financial-documents",
+    "x": 177,
+    "y": 4951,
+    "w": 411,
+    "h": 14,
+    "level": 2,
+    "text": "other financial documents"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h3#shareholders-meeting",
+    "x": 177,
+    "y": 4997,
+    "w": 411,
+    "h": 31,
+    "level": 3,
+    "text": "shareholders’ meeting"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 177,
+    "y": 5044,
+    "w": 411,
+    "h": 167,
+    "text": "12.03.2026 - Approved the Financial Statements for the financial year 2025, cons"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.button-wrapper.hub-grid-node > a.button.secondary",
+    "x": 177,
+    "y": 5241,
+    "w": 177,
+    "h": 48,
+    "text": "view all documents",
+    "href": "/en/investors/shareholders-meeting"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h3#extraordinary-transactions",
+    "x": 853,
+    "y": 5000,
+    "w": 411,
+    "h": 31,
+    "level": 3,
+    "text": "extraordinary transactions"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 853,
+    "y": 5047,
+    "w": 411,
+    "h": 143,
+    "text": "Here you can find relevant documents for extraordinary transactions conducted by"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.button-wrapper.hub-grid-node > a.button.secondary",
+    "x": 853,
+    "y": 5240,
+    "w": 116,
+    "h": 48,
+    "text": "view section",
+    "href": "/en/investors/extraordinary-transactions"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h3#contacts",
+    "x": 177,
+    "y": 5528,
+    "w": 1087,
+    "h": 43,
+    "level": 3,
+    "text": "contacts"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 217,
+    "y": 5673,
+    "w": 441,
+    "h": 25,
+    "text": "Michael Lückenkötter"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 217,
+    "y": 5702,
+    "w": 441,
+    "h": 24,
+    "text": "Investor Relations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 217,
+    "y": 5811,
+    "w": 216,
+    "h": 14,
+    "text": "email"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.hub-grid-node > a",
+    "x": 217,
+    "y": 5832,
+    "w": 203,
+    "h": 40,
+    "text": "m.lueckenkoetter@reply.com",
+    "href": "m.lueckenkoetter@reply.com"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.hub-grid-node > a",
+    "x": 217,
+    "y": 5879,
+    "w": 148,
+    "h": 16,
+    "text": "investor@reply.com",
+    "href": "investor@reply.com"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 218,
+    "y": 5750,
+    "w": 194,
+    "h": 14,
+    "text": "phone"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.hub-grid-node > a",
+    "x": 218,
+    "y": 5777,
+    "w": 159,
+    "h": 40,
+    "text": "+49 (0) 52 41 - 50 09 611",
+    "href": "+49052415009611"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 444,
+    "y": 5750,
+    "w": 194,
+    "h": 14,
+    "text": "fax"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.hub-grid-node > a",
+    "x": 444,
+    "y": 5777,
+    "w": 159,
+    "h": 40,
+    "text": "+49 (0) 52 41 - 50 09 701",
+    "href": "+49052415009701"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 781,
+    "y": 5673,
+    "w": 441,
+    "h": 25,
+    "text": "Paolo Capitelli"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 781,
+    "y": 5702,
+    "w": 441,
+    "h": 24,
+    "text": "Investor Relations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 781,
+    "y": 5811,
+    "w": 159,
+    "h": 14,
+    "text": "email"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.hub-grid-node > a",
+    "x": 781,
+    "y": 5832,
+    "w": 159,
+    "h": 16,
+    "text": "p.capitelli@reply.com",
+    "href": "p.capitelli@reply.com"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.hub-grid-node > a",
+    "x": 781,
+    "y": 5855,
+    "w": 148,
+    "h": 16,
+    "text": "investor@reply.com",
+    "href": "investor@reply.com"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 781,
+    "y": 5750,
+    "w": 194,
+    "h": 14,
+    "text": "phone"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.hub-grid-node > a",
+    "x": 781,
+    "y": 5777,
+    "w": 57,
+    "h": 40,
+    "text": "+39 02 535761",
+    "href": "+3902535761"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 1007,
+    "y": 5750,
+    "w": 194,
+    "h": 14,
+    "text": "fax"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.hub-grid-node > a",
+    "x": 1007,
+    "y": 5777,
+    "w": 74,
+    "h": 40,
+    "text": "+39 02 53576444",
+    "href": "+390253576444"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 177,
+    "y": 5981,
+    "w": 1087,
+    "h": 95,
+    "text": "For the dissemination and storage of regulated information, Reply S.p.A. uses eM"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.hub-grid-node > a",
+    "x": 518,
+    "y": 6008,
+    "w": 187,
+    "h": 16,
+    "text": "www.emarketstorage.com",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.hub-grid-node > a",
+    "x": 264,
+    "y": 6055,
+    "w": 83,
+    "h": 16,
+    "text": "www.1info.it",
+    "href": "/PORTALE1INFO"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-wrap > nav.footer-nav > a.footer-nav-home",
+    "x": 64,
+    "y": 6260,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 6356,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 6356,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 6404,
+    "w": 102,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 6449,
+    "w": 43,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 6493,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 6538,
+    "w": 66,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 6356,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 6356,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 6404,
+    "w": 145,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 6449,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 6510,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 6555,
+    "w": 150,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 6404,
+    "w": 160,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 6449,
+    "w": 131,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 6493,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 6404,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 6465,
+    "w": 153,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 6510,
+    "w": 143,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 6555,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 6356,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 6436,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1112,
+    "y": 6516,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1124,
+    "y": 6528,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1184,
+    "y": 6516,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1196,
+    "y": 6528,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1256,
+    "y": 6516,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1268,
+    "y": 6528,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-linkedin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1328,
+    "y": 6516,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1340,
+    "y": 6528,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-xing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > span",
+    "x": 64,
+    "y": 6661,
+    "w": 84,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > a",
+    "x": 160,
+    "y": 6661,
+    "w": 131,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-inner > div.site-legal-row > button#cookie-pref-center",
+    "x": 1278,
+    "y": 859,
+    "w": 162,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 155,
+    "controls": 82,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "investors",
+   "variable": false,
+   "origin": {
+    "link": 8,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 8,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "financial highlights",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "14.7%",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 6,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "reply stock",
+   "variable": false,
+   "origin": {
+    "link": 5,
+    "button": 0,
+    "text": 5,
+    "image": 1
+   },
+   "eds": {
+    "link": 5,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 5,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "latest financial news",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "calendar and events",
+   "variable": false,
+   "origin": {
+    "link": 8,
+    "button": 0,
+    "text": 9,
+    "image": 0
+   },
+   "eds": {
+    "link": 8,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 9,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "governance",
+   "variable": false,
+   "origin": {
+    "link": 11,
+    "button": 0,
+    "text": 7,
+    "image": 5
+   },
+   "eds": {
+    "link": 7,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 7,
+    "textHidden": 0,
+    "image": 5,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "financial reports",
+   "variable": false,
+   "origin": {
+    "link": 5,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "other financial documents",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "shareholders’ meeting",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "extraordinary transactions",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "contacts",
+   "variable": false,
+   "origin": {
+    "link": 10,
+    "button": 0,
+    "text": 11,
+    "image": 0
+   },
+   "eds": {
+    "link": 10,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 11,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 1339,
+    "y": 7,
+    "w": 17,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 51,
+    "w": 62,
+    "h": 16
+   },
+   {
+    "x": 612,
+    "y": 51,
+    "w": 72,
+    "h": 16
+   },
+   {
+    "x": 740,
+    "y": 51,
+    "w": 110,
+    "h": 16
+   },
+   {
+    "x": 906,
+    "y": 51,
+    "w": 41,
+    "h": 16
+   },
+   {
+    "x": 1003,
+    "y": 51,
+    "w": 60,
+    "h": 16
+   },
+   {
+    "x": 1119,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1225,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 196,
+    "w": 296,
+    "h": 71
+   },
+   {
+    "x": 289,
+    "y": 295,
+    "w": 468,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 322,
+    "w": 522,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 349,
+    "w": 437,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 376,
+    "w": 514,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 403,
+    "w": 374,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 558,
+    "w": 145,
+    "h": 16
+   },
+   {
+    "x": 225,
+    "y": 558,
+    "w": 85,
+    "h": 16
+   },
+   {
+    "x": 350,
+    "y": 558,
+    "w": 173,
+    "h": 16
+   },
+   {
+    "x": 563,
+    "y": 558,
+    "w": 89,
+    "h": 16
+   },
+   {
+    "x": 691,
+    "y": 558,
+    "w": 124,
+    "h": 16
+   },
+   {
+    "x": 855,
+    "y": 558,
+    "w": 193,
+    "h": 16
+   },
+   {
+    "x": 1088,
+    "y": 558,
+    "w": 68,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 688,
+    "w": 373,
+    "h": 40
+   },
+   {
+    "x": 1172,
+    "y": 700,
+    "w": 71,
+    "h": 16
+   },
+   {
+    "x": 203,
+    "y": 823,
+    "w": 133,
+    "h": 46
+   },
+   {
+    "x": 83,
+    "y": 898,
+    "w": 372,
+    "h": 20
+   },
+   {
+    "x": 86,
+    "y": 923,
+    "w": 367,
+    "h": 20
+   },
+   {
+    "x": 169,
+    "y": 949,
+    "w": 201,
+    "h": 20
+   },
+   {
+    "x": 652,
+    "y": 823,
+    "w": 136,
+    "h": 46
+   },
+   {
+    "x": 557,
+    "y": 894,
+    "w": 327,
+    "h": 20
+   },
+   {
+    "x": 568,
+    "y": 919,
+    "w": 304,
+    "h": 20
+   },
+   {
+    "x": 1103,
+    "y": 823,
+    "w": 135,
+    "h": 46
+   },
+   {
+    "x": 1040,
+    "y": 894,
+    "w": 262,
+    "h": 20
+   },
+   {
+    "x": 1051,
+    "y": 919,
+    "w": 239,
+    "h": 20
+   },
+   {
+    "x": 1124,
+    "y": 1159,
+    "w": 119,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 1147,
+    "w": 225,
+    "h": 40
+   },
+   {
+    "x": 209,
+    "y": 1331,
+    "w": 40,
+    "h": 16
+   },
+   {
+    "x": 249,
+    "y": 1331,
+    "w": 146,
+    "h": 16
+   },
+   {
+    "x": 209,
+    "y": 1355,
+    "w": 74,
+    "h": 16
+   },
+   {
+    "x": 283,
+    "y": 1355,
+    "w": 38,
+    "h": 16
+   },
+   {
+    "x": 209,
+    "y": 1380,
+    "w": 77,
+    "h": 16
+   },
+   {
+    "x": 285,
+    "y": 1380,
+    "w": 61,
+    "h": 16
+   },
+   {
+    "x": 209,
+    "y": 1405,
+    "w": 105,
+    "h": 16
+   },
+   {
+    "x": 314,
+    "y": 1405,
+    "w": 61,
+    "h": 16
+   },
+   {
+    "x": 209,
+    "y": 1429,
+    "w": 157,
+    "h": 16
+   },
+   {
+    "x": 366,
+    "y": 1429,
+    "w": 49,
+    "h": 16
+   },
+   {
+    "x": 678,
+    "y": 1308,
+    "w": 162,
+    "h": 16
+   },
+   {
+    "x": 898,
+    "y": 1308,
+    "w": 155,
+    "h": 16
+   },
+   {
+    "x": 678,
+    "y": 1384,
+    "w": 90,
+    "h": 16
+   },
+   {
+    "x": 826,
+    "y": 1384,
+    "w": 122,
+    "h": 16
+   },
+   {
+    "x": 1007,
+    "y": 1384,
+    "w": 148,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 1753,
+    "w": 123,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 1796,
+    "w": 284,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 1879,
+    "w": 72,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 1908,
+    "w": 387,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1935,
+    "w": 345,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2009,
+    "w": 84,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 2038,
+    "w": 386,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2065,
+    "w": 291,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2138,
+    "w": 81,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 2167,
+    "w": 387,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2194,
+    "w": 232,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2327,
+    "w": 71,
+    "h": 16
+   },
+   {
+    "x": 853,
+    "y": 1758,
+    "w": 176,
+    "h": 40
+   },
+   {
+    "x": 853,
+    "y": 1801,
+    "w": 207,
+    "h": 40
+   },
+   {
+    "x": 853,
+    "y": 1884,
+    "w": 66,
+    "h": 11
+   },
+   {
+    "x": 853,
+    "y": 1913,
+    "w": 291,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 1941,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 2014,
+    "w": 53,
+    "h": 11
+   },
+   {
+    "x": 853,
+    "y": 2043,
+    "w": 318,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 2070,
+    "w": 192,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 2143,
+    "w": 80,
+    "h": 11
+   },
+   {
+    "x": 853,
+    "y": 2172,
+    "w": 111,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 2322,
+    "w": 71,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 2577,
+    "w": 232,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 2647,
+    "w": 836,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2674,
+    "w": 772,
+    "h": 18
+   },
+   {
+    "x": 96,
+    "y": 2895,
+    "w": 235,
+    "h": 22
+   },
+   {
+    "x": 90,
+    "y": 2921,
+    "w": 246,
+    "h": 22
+   },
+   {
+    "x": 487,
+    "y": 2895,
+    "w": 129,
+    "h": 22
+   },
+   {
+    "x": 513,
+    "y": 2921,
+    "w": 75,
+    "h": 22
+   },
+   {
+    "x": 825,
+    "y": 2895,
+    "w": 129,
+    "h": 22
+   },
+   {
+    "x": 849,
+    "y": 2921,
+    "w": 80,
+    "h": 22
+   },
+   {
+    "x": 1188,
+    "y": 2895,
+    "w": 79,
+    "h": 22
+   },
+   {
+    "x": 1193,
+    "y": 2921,
+    "w": 69,
+    "h": 22
+   },
+   {
+    "x": 177,
+    "y": 3124,
+    "w": 307,
+    "h": 32
+   },
+   {
+    "x": 202,
+    "y": 3250,
+    "w": 183,
+    "h": 18
+   },
+   {
+    "x": 765,
+    "y": 3250,
+    "w": 232,
+    "h": 18
+   },
+   {
+    "x": 202,
+    "y": 3360,
+    "w": 122,
+    "h": 18
+   },
+   {
+    "x": 765,
+    "y": 3360,
+    "w": 188,
+    "h": 18
+   },
+   {
+    "x": 227,
+    "y": 3649,
+    "w": 295,
+    "h": 32
+   },
+   {
+    "x": 227,
+    "y": 3710,
+    "w": 569,
+    "h": 18
+   },
+   {
+    "x": 227,
+    "y": 3737,
+    "w": 556,
+    "h": 18
+   },
+   {
+    "x": 227,
+    "y": 3764,
+    "w": 497,
+    "h": 18
+   },
+   {
+    "x": 227,
+    "y": 3791,
+    "w": 111,
+    "h": 18
+   },
+   {
+    "x": 227,
+    "y": 3859,
+    "w": 132,
+    "h": 16
+   },
+   {
+    "x": 527,
+    "y": 3859,
+    "w": 254,
+    "h": 16
+   },
+   {
+    "x": 509,
+    "y": 3879,
+    "w": 158,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 4193,
+    "w": 328,
+    "h": 40
+   },
+   {
+    "x": 1172,
+    "y": 4205,
+    "w": 71,
+    "h": 16
+   },
+   {
+    "x": 652,
+    "y": 4394,
+    "w": 85,
+    "h": 11
+   },
+   {
+    "x": 652,
+    "y": 4415,
+    "w": 185,
+    "h": 18
+   },
+   {
+    "x": 990,
+    "y": 4366,
+    "w": 80,
+    "h": 11
+   },
+   {
+    "x": 990,
+    "y": 4387,
+    "w": 167,
+    "h": 18
+   },
+   {
+    "x": 990,
+    "y": 4415,
+    "w": 42,
+    "h": 18
+   },
+   {
+    "x": 652,
+    "y": 4619,
+    "w": 76,
+    "h": 11
+   },
+   {
+    "x": 652,
+    "y": 4640,
+    "w": 166,
+    "h": 18
+   },
+   {
+    "x": 990,
+    "y": 4592,
+    "w": 85,
+    "h": 11
+   },
+   {
+    "x": 990,
+    "y": 4613,
+    "w": 171,
+    "h": 18
+   },
+   {
+    "x": 990,
+    "y": 4640,
+    "w": 42,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 4929,
+    "w": 212,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 4976,
+    "w": 285,
+    "h": 27
+   },
+   {
+    "x": 177,
+    "y": 5025,
+    "w": 397,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 5048,
+    "w": 380,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 5072,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 241,
+    "y": 5072,
+    "w": 53,
+    "h": 16
+   },
+   {
+    "x": 294,
+    "y": 5072,
+    "w": 288,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 5096,
+    "w": 368,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 5120,
+    "w": 338,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 5144,
+    "w": 379,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 5167,
+    "w": 216,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 5233,
+    "w": 182,
+    "h": 16
+   },
+   {
+    "x": 853,
+    "y": 4979,
+    "w": 341,
+    "h": 27
+   },
+   {
+    "x": 853,
+    "y": 5027,
+    "w": 402,
+    "h": 16
+   },
+   {
+    "x": 853,
+    "y": 5051,
+    "w": 364,
+    "h": 16
+   },
+   {
+    "x": 853,
+    "y": 5099,
+    "w": 84,
+    "h": 16
+   },
+   {
+    "x": 936,
+    "y": 5099,
+    "w": 134,
+    "h": 16
+   },
+   {
+    "x": 853,
+    "y": 5123,
+    "w": 10,
+    "h": 16
+   },
+   {
+    "x": 862,
+    "y": 5123,
+    "w": 80,
+    "h": 16
+   },
+   {
+    "x": 942,
+    "y": 5123,
+    "w": 82,
+    "h": 16
+   },
+   {
+    "x": 853,
+    "y": 5146,
+    "w": 10,
+    "h": 16
+   },
+   {
+    "x": 862,
+    "y": 5146,
+    "w": 25,
+    "h": 16
+   },
+   {
+    "x": 888,
+    "y": 5146,
+    "w": 83,
+    "h": 16
+   },
+   {
+    "x": 853,
+    "y": 5232,
+    "w": 119,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 5507,
+    "w": 178,
+    "h": 40
+   },
+   {
+    "x": 218,
+    "y": 5652,
+    "w": 205,
+    "h": 20
+   },
+   {
+    "x": 218,
+    "y": 5682,
+    "w": 131,
+    "h": 16
+   },
+   {
+    "x": 218,
+    "y": 5728,
+    "w": 48,
+    "h": 11
+   },
+   {
+    "x": 218,
+    "y": 5751,
+    "w": 162,
+    "h": 16
+   },
+   {
+    "x": 444,
+    "y": 5728,
+    "w": 27,
+    "h": 11
+   },
+   {
+    "x": 444,
+    "y": 5751,
+    "w": 165,
+    "h": 16
+   },
+   {
+    "x": 218,
+    "y": 5789,
+    "w": 41,
+    "h": 11
+   },
+   {
+    "x": 218,
+    "y": 5809,
+    "w": 216,
+    "h": 16
+   },
+   {
+    "x": 218,
+    "y": 5833,
+    "w": 145,
+    "h": 16
+   },
+   {
+    "x": 781,
+    "y": 5652,
+    "w": 138,
+    "h": 20
+   },
+   {
+    "x": 781,
+    "y": 5682,
+    "w": 131,
+    "h": 16
+   },
+   {
+    "x": 781,
+    "y": 5728,
+    "w": 48,
+    "h": 11
+   },
+   {
+    "x": 781,
+    "y": 5751,
+    "w": 100,
+    "h": 16
+   },
+   {
+    "x": 1007,
+    "y": 5728,
+    "w": 27,
+    "h": 11
+   },
+   {
+    "x": 1007,
+    "y": 5751,
+    "w": 122,
+    "h": 16
+   },
+   {
+    "x": 781,
+    "y": 5789,
+    "w": 41,
+    "h": 11
+   },
+   {
+    "x": 781,
+    "y": 5809,
+    "w": 159,
+    "h": 16
+   },
+   {
+    "x": 781,
+    "y": 5833,
+    "w": 145,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 5938,
+    "w": 1049,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 5961,
+    "w": 323,
+    "h": 16
+   },
+   {
+    "x": 499,
+    "y": 5961,
+    "w": 196,
+    "h": 16
+   },
+   {
+    "x": 695,
+    "y": 5961,
+    "w": 544,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 5985,
+    "w": 1022,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 6009,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 265,
+    "y": 6009,
+    "w": 89,
+    "h": 16
+   },
+   {
+    "x": 354,
+    "y": 6009,
+    "w": 577,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 6311,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 6358,
+    "w": 103,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6403,
+    "w": 45,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6448,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6493,
+    "w": 67,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6311,
+    "w": 135,
+    "h": 16
+   },
+   {
+    "x": 402,
+    "y": 6358,
+    "w": 142,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6403,
+    "w": 89,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6420,
+    "w": 73,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6465,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 6465,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6510,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 6510,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6358,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 6358,
+    "w": 69,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6403,
+    "w": 127,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6448,
+    "w": 121,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6465,
+    "w": 85,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6482,
+    "w": 39,
+    "h": 13
+   },
+   {
+    "x": 642,
+    "y": 6482,
+    "w": 51,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6358,
+    "w": 157,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6375,
+    "w": 36,
+    "h": 13
+   },
+   {
+    "x": 841,
+    "y": 6375,
+    "w": 64,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6420,
+    "w": 154,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6465,
+    "w": 147,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6510,
+    "w": 130,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6526,
+    "w": 128,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 6326,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 1112,
+    "y": 6406,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 6615,
+    "w": 81,
+    "h": 13
+   },
+   {
+    "x": 149,
+    "y": 6615,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 158,
+    "y": 6615,
+    "w": 136,
+    "h": 13
+   },
+   {
+    "x": 1296,
+    "y": 872,
+    "w": 124,
+    "h": 13
+   }
+  ],
+  "eds": [
+   {
+    "x": 1336,
+    "y": 7,
+    "w": 20,
+    "h": 13
+   },
+   {
+    "x": 486,
+    "y": 51,
+    "w": 63,
+    "h": 16
+   },
+   {
+    "x": 605,
+    "y": 51,
+    "w": 71,
+    "h": 16
+   },
+   {
+    "x": 733,
+    "y": 51,
+    "w": 111,
+    "h": 16
+   },
+   {
+    "x": 900,
+    "y": 51,
+    "w": 46,
+    "h": 16
+   },
+   {
+    "x": 1002,
+    "y": 51,
+    "w": 59,
+    "h": 16
+   },
+   {
+    "x": 1118,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1224,
+    "y": 51,
+    "w": 52,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 196,
+    "w": 304,
+    "h": 71
+   },
+   {
+    "x": 290,
+    "y": 296,
+    "w": 474,
+    "h": 18
+   },
+   {
+    "x": 290,
+    "y": 323,
+    "w": 494,
+    "h": 18
+   },
+   {
+    "x": 290,
+    "y": 350,
+    "w": 469,
+    "h": 18
+   },
+   {
+    "x": 290,
+    "y": 377,
+    "w": 510,
+    "h": 18
+   },
+   {
+    "x": 290,
+    "y": 404,
+    "w": 377,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 559,
+    "w": 142,
+    "h": 16
+   },
+   {
+    "x": 233,
+    "y": 559,
+    "w": 86,
+    "h": 16
+   },
+   {
+    "x": 371,
+    "y": 559,
+    "w": 177,
+    "h": 16
+   },
+   {
+    "x": 599,
+    "y": 559,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 738,
+    "y": 559,
+    "w": 124,
+    "h": 16
+   },
+   {
+    "x": 914,
+    "y": 559,
+    "w": 187,
+    "h": 16
+   },
+   {
+    "x": 1153,
+    "y": 559,
+    "w": 65,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 689,
+    "w": 375,
+    "h": 40
+   },
+   {
+    "x": 1152,
+    "y": 700,
+    "w": 69,
+    "h": 18
+   },
+   {
+    "x": 199,
+    "y": 823,
+    "w": 141,
+    "h": 46
+   },
+   {
+    "x": 80,
+    "y": 874,
+    "w": 379,
+    "h": 20
+   },
+   {
+    "x": 77,
+    "y": 899,
+    "w": 386,
+    "h": 20
+   },
+   {
+    "x": 168,
+    "y": 924,
+    "w": 203,
+    "h": 20
+   },
+   {
+    "x": 649,
+    "y": 823,
+    "w": 143,
+    "h": 46
+   },
+   {
+    "x": 556,
+    "y": 895,
+    "w": 328,
+    "h": 20
+   },
+   {
+    "x": 566,
+    "y": 920,
+    "w": 308,
+    "h": 20
+   },
+   {
+    "x": 1099,
+    "y": 823,
+    "w": 143,
+    "h": 46
+   },
+   {
+    "x": 1036,
+    "y": 895,
+    "w": 269,
+    "h": 20
+   },
+   {
+    "x": 1049,
+    "y": 920,
+    "w": 243,
+    "h": 20
+   },
+   {
+    "x": 1104,
+    "y": 1158,
+    "w": 116,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1147,
+    "w": 231,
+    "h": 40
+   },
+   {
+    "x": 209,
+    "y": 1330,
+    "w": 186,
+    "h": 18
+   },
+   {
+    "x": 209,
+    "y": 1355,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 209,
+    "y": 1379,
+    "w": 146,
+    "h": 18
+   },
+   {
+    "x": 209,
+    "y": 1404,
+    "w": 175,
+    "h": 18
+   },
+   {
+    "x": 209,
+    "y": 1429,
+    "w": 212,
+    "h": 18
+   },
+   {
+    "x": 681,
+    "y": 1311,
+    "w": 159,
+    "h": 18
+   },
+   {
+    "x": 901,
+    "y": 1311,
+    "w": 154,
+    "h": 18
+   },
+   {
+    "x": 681,
+    "y": 1386,
+    "w": 89,
+    "h": 18
+   },
+   {
+    "x": 830,
+    "y": 1386,
+    "w": 121,
+    "h": 18
+   },
+   {
+    "x": 1010,
+    "y": 1386,
+    "w": 142,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1753,
+    "w": 121,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 1796,
+    "w": 292,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 1879,
+    "w": 73,
+    "h": 13
+   },
+   {
+    "x": 177,
+    "y": 1909,
+    "w": 393,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1936,
+    "w": 347,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2008,
+    "w": 76,
+    "h": 13
+   },
+   {
+    "x": 177,
+    "y": 2038,
+    "w": 392,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2065,
+    "w": 295,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2137,
+    "w": 76,
+    "h": 13
+   },
+   {
+    "x": 177,
+    "y": 2167,
+    "w": 393,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2195,
+    "w": 237,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2327,
+    "w": 69,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 1758,
+    "w": 175,
+    "h": 40
+   },
+   {
+    "x": 853,
+    "y": 1801,
+    "w": 211,
+    "h": 40
+   },
+   {
+    "x": 853,
+    "y": 1884,
+    "w": 59,
+    "h": 13
+   },
+   {
+    "x": 853,
+    "y": 1914,
+    "w": 305,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 1941,
+    "w": 113,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 2013,
+    "w": 56,
+    "h": 13
+   },
+   {
+    "x": 853,
+    "y": 2043,
+    "w": 325,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 2070,
+    "w": 201,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 2142,
+    "w": 80,
+    "h": 13
+   },
+   {
+    "x": 853,
+    "y": 2172,
+    "w": 59,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 2200,
+    "w": 55,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 2332,
+    "w": 69,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2582,
+    "w": 236,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 2653,
+    "w": 847,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2680,
+    "w": 777,
+    "h": 18
+   },
+   {
+    "x": 95,
+    "y": 2901,
+    "w": 237,
+    "h": 22
+   },
+   {
+    "x": 90,
+    "y": 2927,
+    "w": 246,
+    "h": 22
+   },
+   {
+    "x": 485,
+    "y": 2901,
+    "w": 131,
+    "h": 22
+   },
+   {
+    "x": 512,
+    "y": 2927,
+    "w": 78,
+    "h": 22
+   },
+   {
+    "x": 823,
+    "y": 2901,
+    "w": 131,
+    "h": 22
+   },
+   {
+    "x": 848,
+    "y": 2927,
+    "w": 81,
+    "h": 22
+   },
+   {
+    "x": 1189,
+    "y": 2901,
+    "w": 77,
+    "h": 22
+   },
+   {
+    "x": 1191,
+    "y": 2927,
+    "w": 72,
+    "h": 22
+   },
+   {
+    "x": 177,
+    "y": 3119,
+    "w": 309,
+    "h": 32
+   },
+   {
+    "x": 202,
+    "y": 3245,
+    "w": 184,
+    "h": 18
+   },
+   {
+    "x": 765,
+    "y": 3245,
+    "w": 241,
+    "h": 18
+   },
+   {
+    "x": 202,
+    "y": 3355,
+    "w": 126,
+    "h": 18
+   },
+   {
+    "x": 765,
+    "y": 3355,
+    "w": 192,
+    "h": 18
+   },
+   {
+    "x": 227,
+    "y": 3645,
+    "w": 293,
+    "h": 32
+   },
+   {
+    "x": 227,
+    "y": 3705,
+    "w": 575,
+    "h": 18
+   },
+   {
+    "x": 227,
+    "y": 3732,
+    "w": 564,
+    "h": 18
+   },
+   {
+    "x": 227,
+    "y": 3759,
+    "w": 507,
+    "h": 18
+   },
+   {
+    "x": 227,
+    "y": 3786,
+    "w": 112,
+    "h": 18
+   },
+   {
+    "x": 227,
+    "y": 3853,
+    "w": 133,
+    "h": 18
+   },
+   {
+    "x": 537,
+    "y": 3853,
+    "w": 247,
+    "h": 18
+   },
+   {
+    "x": 586,
+    "y": 3872,
+    "w": 151,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 4188,
+    "w": 336,
+    "h": 40
+   },
+   {
+    "x": 1152,
+    "y": 4199,
+    "w": 69,
+    "h": 18
+   },
+   {
+    "x": 652,
+    "y": 4388,
+    "w": 77,
+    "h": 13
+   },
+   {
+    "x": 652,
+    "y": 4410,
+    "w": 144,
+    "h": 18
+   },
+   {
+    "x": 652,
+    "y": 4437,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 990,
+    "y": 4361,
+    "w": 76,
+    "h": 13
+   },
+   {
+    "x": 990,
+    "y": 4383,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 990,
+    "y": 4410,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 652,
+    "y": 4614,
+    "w": 74,
+    "h": 13
+   },
+   {
+    "x": 652,
+    "y": 4636,
+    "w": 127,
+    "h": 18
+   },
+   {
+    "x": 652,
+    "y": 4663,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 990,
+    "y": 4587,
+    "w": 77,
+    "h": 13
+   },
+   {
+    "x": 990,
+    "y": 4609,
+    "w": 177,
+    "h": 18
+   },
+   {
+    "x": 990,
+    "y": 4636,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 4951,
+    "w": 239,
+    "h": 13
+   },
+   {
+    "x": 177,
+    "y": 4999,
+    "w": 288,
+    "h": 27
+   },
+   {
+    "x": 177,
+    "y": 5047,
+    "w": 410,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 5071,
+    "w": 386,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 5095,
+    "w": 398,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 5119,
+    "w": 410,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 5143,
+    "w": 348,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 5166,
+    "w": 385,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 5190,
+    "w": 219,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 5255,
+    "w": 177,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 5002,
+    "w": 338,
+    "h": 27
+   },
+   {
+    "x": 853,
+    "y": 5050,
+    "w": 404,
+    "h": 16
+   },
+   {
+    "x": 853,
+    "y": 5074,
+    "w": 370,
+    "h": 16
+   },
+   {
+    "x": 853,
+    "y": 5122,
+    "w": 85,
+    "h": 16
+   },
+   {
+    "x": 937,
+    "y": 5122,
+    "w": 138,
+    "h": 16
+   },
+   {
+    "x": 853,
+    "y": 5146,
+    "w": 10,
+    "h": 16
+   },
+   {
+    "x": 862,
+    "y": 5146,
+    "w": 83,
+    "h": 16
+   },
+   {
+    "x": 945,
+    "y": 5146,
+    "w": 82,
+    "h": 16
+   },
+   {
+    "x": 853,
+    "y": 5169,
+    "w": 10,
+    "h": 16
+   },
+   {
+    "x": 862,
+    "y": 5169,
+    "w": 29,
+    "h": 16
+   },
+   {
+    "x": 891,
+    "y": 5169,
+    "w": 87,
+    "h": 16
+   },
+   {
+    "x": 853,
+    "y": 5254,
+    "w": 116,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 5529,
+    "w": 176,
+    "h": 40
+   },
+   {
+    "x": 217,
+    "y": 5675,
+    "w": 206,
+    "h": 20
+   },
+   {
+    "x": 217,
+    "y": 5705,
+    "w": 135,
+    "h": 16
+   },
+   {
+    "x": 217,
+    "y": 5811,
+    "w": 45,
+    "h": 13
+   },
+   {
+    "x": 217,
+    "y": 5832,
+    "w": 203,
+    "h": 16
+   },
+   {
+    "x": 217,
+    "y": 5855,
+    "w": 14,
+    "h": 16
+   },
+   {
+    "x": 217,
+    "y": 5879,
+    "w": 148,
+    "h": 16
+   },
+   {
+    "x": 218,
+    "y": 5750,
+    "w": 54,
+    "h": 13
+   },
+   {
+    "x": 218,
+    "y": 5777,
+    "w": 159,
+    "h": 16
+   },
+   {
+    "x": 218,
+    "y": 5800,
+    "w": 26,
+    "h": 16
+   },
+   {
+    "x": 444,
+    "y": 5750,
+    "w": 29,
+    "h": 13
+   },
+   {
+    "x": 444,
+    "y": 5777,
+    "w": 159,
+    "h": 16
+   },
+   {
+    "x": 444,
+    "y": 5800,
+    "w": 27,
+    "h": 16
+   },
+   {
+    "x": 781,
+    "y": 5675,
+    "w": 138,
+    "h": 20
+   },
+   {
+    "x": 781,
+    "y": 5705,
+    "w": 135,
+    "h": 16
+   },
+   {
+    "x": 781,
+    "y": 5811,
+    "w": 45,
+    "h": 13
+   },
+   {
+    "x": 781,
+    "y": 5832,
+    "w": 159,
+    "h": 16
+   },
+   {
+    "x": 781,
+    "y": 5855,
+    "w": 148,
+    "h": 16
+   },
+   {
+    "x": 781,
+    "y": 5750,
+    "w": 54,
+    "h": 13
+   },
+   {
+    "x": 781,
+    "y": 5777,
+    "w": 57,
+    "h": 16
+   },
+   {
+    "x": 781,
+    "y": 5800,
+    "w": 55,
+    "h": 16
+   },
+   {
+    "x": 1007,
+    "y": 5750,
+    "w": 29,
+    "h": 13
+   },
+   {
+    "x": 1007,
+    "y": 5777,
+    "w": 57,
+    "h": 16
+   },
+   {
+    "x": 1007,
+    "y": 5800,
+    "w": 74,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 5984,
+    "w": 1074,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 6008,
+    "w": 341,
+    "h": 16
+   },
+   {
+    "x": 518,
+    "y": 6008,
+    "w": 187,
+    "h": 16
+   },
+   {
+    "x": 705,
+    "y": 6008,
+    "w": 538,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 6032,
+    "w": 1079,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 6055,
+    "w": 87,
+    "h": 16
+   },
+   {
+    "x": 264,
+    "y": 6055,
+    "w": 83,
+    "h": 16
+   },
+   {
+    "x": 347,
+    "y": 6055,
+    "w": 598,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 6356,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 6405,
+    "w": 102,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6450,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6494,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6539,
+    "w": 66,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6356,
+    "w": 135,
+    "h": 18
+   },
+   {
+    "x": 402,
+    "y": 6405,
+    "w": 145,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6450,
+    "w": 88,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6466,
+    "w": 71,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6511,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 6511,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6556,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 6556,
+    "w": 58,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6405,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 6405,
+    "w": 68,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6450,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6494,
+    "w": 120,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6511,
+    "w": 83,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6528,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 643,
+    "y": 6528,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6405,
+    "w": 156,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6422,
+    "w": 41,
+    "h": 13
+   },
+   {
+    "x": 845,
+    "y": 6422,
+    "w": 65,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6466,
+    "w": 153,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6511,
+    "w": 143,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6556,
+    "w": 132,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6573,
+    "w": 126,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 6371,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 1112,
+    "y": 6451,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 6662,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 152,
+    "y": 6662,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 160,
+    "y": 6662,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 1298,
+    "y": 871,
+    "w": 122,
+    "h": 16
+   }
+  ]
+ }
+}

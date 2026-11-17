@@ -1,0 +1,19 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.reply.com/en/insights
+  modules  14 sections: capped 1660 ×14 · full-bleed ×0
+  contentMaxWidth 1660px (module) · shellMaxWidth fluid · root #main-content
+build  http://localhost:8791/en-insights-proposed.html
+  modules  8 sections: capped 1660 ×8 · full-bleed ×0
+  contentMaxWidth 1660px (module) · shellMaxWidth fluid · root #main-content
+rows
+  ✓ content cap: live 1660px = build 1660px (±20, shared module cap)
+  ⚠ sections: live 14 vs build 8 top-level sections — module rows compared by order up to the shorter side, advisory until the structure matches
+  ✓ module 1/14: 1660px = 1660px
+  ✓ module 2/14: 1660px = 1660px
+  ✓ module 3/14: 1660px = 1660px
+  ✓ module 4/14: 1660px = 1660px
+  ✓ module 5/14: 1660px = 1660px
+  ✓ module 6/14: 1660px = 1660px
+  ✓ module 7/14: 1660px = 1660px
+  ✓ module 8/14: 1660px = 1660px
+cap-probe: PASS at 2560 — 0 of 10 rows failed (evidence stardust/replica/gates/en-insights-2560/cap-iter.json)

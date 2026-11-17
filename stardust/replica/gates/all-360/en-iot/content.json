@@ -1,0 +1,6645 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-17T01:52:36.119Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.reply.com/en/iot",
+  "at": "2026-11-17T01:52:08.011Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 10530,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-bottom.w-full > div.logo.flex > a",
+    "x": 40,
+    "y": 0,
+    "w": 129,
+    "h": 64,
+    "text": "go to homepage",
+    "href": "/en"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 232,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 232,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.lg:hidden.first-level > button#mobile-menu-toggle",
+    "x": 296,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "text": "toggle menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.lg:hidden.first-level > button#mobile-menu-toggle",
+    "x": 296,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "label": "toggle menu",
+    "value": "toggle menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.grid-bg__container.absolute > picture > img.grid-bg.w-full",
+    "x": 0,
+    "y": 18,
+    "w": 360,
+    "h": 608,
+    "text": "",
+    "file": "a6fa97a7-6033-4142-87d1-af619cc93101"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h1#Zz3jU",
+    "x": 40,
+    "y": 477,
+    "w": 280,
+    "h": 79,
+    "level": 1,
+    "text": "internet of things"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h1#Zz3jU > span.colors-1-gbfb",
+    "x": 40,
+    "y": 476,
+    "w": 204,
+    "h": 80,
+    "text": "Internet of Things"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#Qz5cY",
+    "x": 40,
+    "y": 700,
+    "w": 280,
+    "h": 101,
+    "level": 2,
+    "text": "we are a leader in end-to-end iot systems."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#xCLsd",
+    "x": 40,
+    "y": 801,
+    "w": 280,
+    "h": 134,
+    "level": 3,
+    "text": "accelerate your iot initiatives or create a new generation of connected products."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 1031,
+    "w": 280,
+    "h": 420,
+    "text": "",
+    "file": "b0020ce7-46e0-4222-9da0-d06c8fbfd9dc"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > div.category-label.text-white > div.category-name",
+    "x": 88,
+    "y": 1255,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body.!m-8 > a",
+    "x": 72,
+    "y": 1285,
+    "w": 216,
+    "h": 134,
+    "text": "iveco accelerates digital transformation with industrial iot",
+    "href": "/en/internet-of-things/iveco-accelerates-the-digital-transformation-with-industrial-iot"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > a > h3.h4.text-white",
+    "x": 72,
+    "y": 1285,
+    "w": 216,
+    "h": 134,
+    "level": 3,
+    "text": "iveco accelerates digital transformation with industrial iot"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 340,
+    "y": 1031,
+    "w": 280,
+    "h": 420,
+    "text": "",
+    "file": "12612503-4afe-40a8-ba28-6eca76c4ffaa"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-prev.round-bt",
+    "x": 216,
+    "y": 1475,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-next.round-bt",
+    "x": 272,
+    "y": 1475,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#25086 > div.reply-card-image-container.aspect-w-2 > a.absolute.h-full",
+    "x": 40,
+    "y": 1590,
+    "w": 280,
+    "h": 420,
+    "text": "adr optimizes the intelligent management of airport assets with ai and iot",
+    "href": "/en/iot/adr-ottimizza-la-gestione-intelligente-degli-asset-aeroportuali-con-ai-e-iot"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.absolute.w-full > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 1590,
+    "w": 280,
+    "h": 420,
+    "text": "",
+    "file": "e8ea9842-9866-4746-bf5c-2f483df4d863"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-logo.aspect-w-16 > img",
+    "x": 80,
+    "y": 1606,
+    "w": 90,
+    "h": 51,
+    "text": "",
+    "file": "92b418f7-872f-43d5-9f59-6bed280f42f9"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.category-label.text-white > div.category-name",
+    "x": 96,
+    "y": 1645,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-grid.pointer-events-none > div.reply-card-body > a.pointer-events-auto",
+    "x": 80,
+    "y": 1679,
+    "w": 200,
+    "h": 202,
+    "text": "adr optimizes the intelligent management of airport assets with ai and iot",
+    "href": "/en/iot/adr-ottimizza-la-gestione-intelligente-degli-asset-aeroportuali-con-ai-e-iot"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a.pointer-events-auto > h3.h4.text-white",
+    "x": 80,
+    "y": 1679,
+    "w": 200,
+    "h": 202,
+    "level": 3,
+    "text": "adr optimizes the intelligent management of airport assets with ai and iot"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > article.reply-card-abstract.paragraph-01--light > p",
+    "x": 80,
+    "y": 1881,
+    "w": 200,
+    "h": 82,
+    "text": "Discover how Sense Reply supported the management of Rome Fiumicino and Ciampino"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#24759 > a",
+    "x": 40,
+    "y": 2066,
+    "w": 280,
+    "h": 254,
+    "text": "from a fan to a smart energy system case study",
+    "href": "/en/iot/from-a-fan-to-a-smart-energy-system"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 2066,
+    "w": 280,
+    "h": 157,
+    "text": "",
+    "file": "4282fb31-e395-486d-adea-2facc9bbd913"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 56,
+    "y": 2244,
+    "w": 248,
+    "h": 47,
+    "text": "from a fan to a smart energy system",
+    "href": "/en/iot/from-a-fan-to-a-smart-energy-system"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 56,
+    "y": 2244,
+    "w": 248,
+    "h": 47,
+    "level": 3,
+    "text": "from a fan to a smart energy system"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#20494 > a",
+    "x": 40,
+    "y": 2360,
+    "w": 280,
+    "h": 400,
+    "text": "ai-powered digital twins for maintenance, anomaly detection and productivity art",
+    "href": "/en/artificial-intelligence/ai-powered-digital-twins-for-maintenance-anomaly-detection-and-productivity"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 2360,
+    "w": 280,
+    "h": 280,
+    "text": "",
+    "file": "72d224b2-cc38-40ae-b7a1-cb27eaa52fe5"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 56,
+    "y": 2660,
+    "w": 248,
+    "h": 70,
+    "text": "ai-powered digital twins for maintenance, anomaly detection and productivity",
+    "href": "/en/artificial-intelligence/ai-powered-digital-twins-for-maintenance-anomaly-detection-and-productivity"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 56,
+    "y": 2660,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "ai-powered digital twins for maintenance, anomaly detection and productivity"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 73,
+    "y": 2834,
+    "w": 214,
+    "h": 120,
+    "text": "",
+    "file": "76d3ea5d-c1e0-4e46-9877-e6f7bab086ba"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#19294 > div.reply-card-body > a",
+    "x": 73,
+    "y": 2974,
+    "w": 214,
+    "h": 47,
+    "text": "iot for smarter car wash operations",
+    "href": "/concept-reply/en/smart-carwash-operations"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 73,
+    "y": 2974,
+    "w": 214,
+    "h": 47,
+    "level": 3,
+    "text": "iot for smarter car wash operations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 89,
+    "y": 3037,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > article.reply-card-abstract.text > p",
+    "x": 73,
+    "y": 3069,
+    "w": 214,
+    "h": 238,
+    "text": "Concept Reply partnered with OnLogic to equip Steve’s Auto World, a leading U.S."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#13323 > a",
+    "x": 40,
+    "y": 3380,
+    "w": 280,
+    "h": 512,
+    "text": "a demand response platform for power grids case study",
+    "href": "/en/energy-and-utilities/a-demand-response-platform-for-electric-grids"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 3380,
+    "w": 280,
+    "h": 280,
+    "text": "",
+    "file": "402bafd0-42bf-476e-a0f0-f39d5885e74f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 56,
+    "y": 3680,
+    "w": 248,
+    "h": 47,
+    "text": "a demand response platform for power grids",
+    "href": "/en/energy-and-utilities/a-demand-response-platform-for-electric-grids"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 56,
+    "y": 3680,
+    "w": 248,
+    "h": 47,
+    "level": 3,
+    "text": "a demand response platform for power grids"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#12497 > a",
+    "x": 40,
+    "y": 3826,
+    "w": 280,
+    "h": 278,
+    "text": "agrirouter 2.0: a modern data platform as basis for smart farming case study",
+    "href": "/en/iot/agrirouter"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 3826,
+    "w": 280,
+    "h": 157,
+    "text": "",
+    "file": "db8277e3-0e42-4454-a509-8f747e366f00"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > div.reply-card-logo.absolute > img",
+    "x": 60,
+    "y": 3846,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "d3bca125-017f-4017-a446-1f11dc6e41de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 56,
+    "y": 4003,
+    "w": 248,
+    "h": 70,
+    "text": "agrirouter 2.0: a modern data platform as basis for smart farming",
+    "href": "/en/iot/agrirouter"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 56,
+    "y": 4003,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "agrirouter 2.0: a modern data platform as basis for smart farming"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#12322 > a",
+    "x": 40,
+    "y": 4143,
+    "w": 280,
+    "h": 400,
+    "text": "a new connected and digital motorcycling experience case study",
+    "href": "/en/iot/a-new-connected-and-digital-motorcycling-experience"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 4143,
+    "w": 280,
+    "h": 280,
+    "text": "",
+    "file": "7eef6ff0-ce41-4528-814a-c2b98d8b0a52"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 56,
+    "y": 4443,
+    "w": 248,
+    "h": 70,
+    "text": "a new connected and digital motorcycling experience",
+    "href": "/en/iot/a-new-connected-and-digital-motorcycling-experience"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 56,
+    "y": 4443,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "a new connected and digital motorcycling experience"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#11817 > a",
+    "x": 40,
+    "y": 4584,
+    "w": 280,
+    "h": 278,
+    "text": "combining ai and edge computing for industrial iot best practice",
+    "href": "/en/iot/combining-ai-and-edge-computing-for-industrial-iot"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 4584,
+    "w": 280,
+    "h": 157,
+    "text": "",
+    "file": "ca3506f5-ef0c-43f5-b744-6db4fa634e00"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 56,
+    "y": 4761,
+    "w": 248,
+    "h": 70,
+    "text": "combining ai and edge computing for industrial iot",
+    "href": "/en/iot/combining-ai-and-edge-computing-for-industrial-iot"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 56,
+    "y": 4761,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "combining ai and edge computing for industrial iot"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#11725 > a",
+    "x": 40,
+    "y": 4901,
+    "w": 280,
+    "h": 377,
+    "text": "precision farming: how to develop isobus conform? white paper",
+    "href": "/concept-reply/en/precision-farming-how-to-develop-isobus-conform"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 4901,
+    "w": 280,
+    "h": 280,
+    "text": "",
+    "file": "865b14d0-2f0e-42b9-a1c0-e6cb0459ca3a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 56,
+    "y": 5201,
+    "w": 248,
+    "h": 47,
+    "text": "precision farming: how to develop isobus conform?",
+    "href": "/concept-reply/en/precision-farming-how-to-develop-isobus-conform"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 56,
+    "y": 5201,
+    "w": 248,
+    "h": 47,
+    "level": 3,
+    "text": "precision farming: how to develop isobus conform?"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#11156 > a",
+    "x": 40,
+    "y": 5318,
+    "w": 280,
+    "h": 278,
+    "text": "towards integrated mobility: iot solutions for charging electric vehicles case s",
+    "href": "/en/iot/electric-mobility"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 5318,
+    "w": 280,
+    "h": 157,
+    "text": "",
+    "file": "07404c8c-ef52-4559-8d13-d99510f7d1e6"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 56,
+    "y": 5496,
+    "w": 248,
+    "h": 70,
+    "text": "towards integrated mobility: iot solutions for charging electric vehicles",
+    "href": "/en/iot/electric-mobility"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 56,
+    "y": 5496,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "towards integrated mobility: iot solutions for charging electric vehicles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#11251 > a",
+    "x": 40,
+    "y": 5636,
+    "w": 280,
+    "h": 278,
+    "text": "an iot platform to harmonise renewable energy data case study",
+    "href": "/en/iot/iot-platform-for-renewables"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 5636,
+    "w": 280,
+    "h": 157,
+    "text": "",
+    "file": "501927eb-26cc-4b4c-860e-3d036b54b5d7"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 56,
+    "y": 5813,
+    "w": 248,
+    "h": 70,
+    "text": "an iot platform to harmonise renewable energy data",
+    "href": "/en/iot/iot-platform-for-renewables"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 56,
+    "y": 5813,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "an iot platform to harmonise renewable energy data"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#10450 > a",
+    "x": 40,
+    "y": 5953,
+    "w": 280,
+    "h": 400,
+    "text": "data processing with aws-native services in the container terminal case study",
+    "href": "/en/iot/data-processing-with-aws-native-services-in-the-container-terminal"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 5953,
+    "w": 280,
+    "h": 280,
+    "text": "",
+    "file": "5ce89c4c-5519-4745-aedc-009d757637a1"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > div.reply-card-logo.absolute > img",
+    "x": 60,
+    "y": 5973,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "72d48b23-6e14-4df6-a4ad-88751c0a2557"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 56,
+    "y": 6253,
+    "w": 248,
+    "h": 70,
+    "text": "data processing with aws-native services in the container terminal",
+    "href": "/en/iot/data-processing-with-aws-native-services-in-the-container-terminal"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 56,
+    "y": 6253,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "data processing with aws-native services in the container terminal"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#10524 > a",
+    "x": 40,
+    "y": 6394,
+    "w": 280,
+    "h": 377,
+    "text": "smart services for multivac case study",
+    "href": "/en/iot/smart-services-for-multivac"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 6394,
+    "w": 280,
+    "h": 280,
+    "text": "",
+    "file": "84c07394-cd2d-462f-9298-12283e4636fc"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > div.reply-card-logo.absolute > img",
+    "x": 60,
+    "y": 6414,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "8fda3848-da5b-4aaf-8bc5-b362bdb95fb0"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 56,
+    "y": 6694,
+    "w": 248,
+    "h": 47,
+    "text": "smart services for multivac",
+    "href": "/en/iot/smart-services-for-multivac"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 56,
+    "y": 6694,
+    "w": 248,
+    "h": 47,
+    "level": 3,
+    "text": "smart services for multivac"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-binding > div.pager-container > button.more.pager",
+    "x": 104,
+    "y": 6810,
+    "w": 152,
+    "h": 41,
+    "text": "load more content"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#xvBhV",
+    "x": 40,
+    "y": 6947,
+    "w": 280,
+    "h": 67,
+    "level": 2,
+    "text": "discover our iot labs"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 80,
+    "y": 7046,
+    "w": 200,
+    "h": 200,
+    "text": "",
+    "file": "2ae02eaa-72b6-41f6-bce9-4bd1bccb86b0"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-5 > div.category-label.text-white > div.category-name",
+    "x": 100,
+    "y": 7074,
+    "w": 35,
+    "h": 14,
+    "text": "Labs"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-5 > div.reply-card-content > a.pointer-events-auto",
+    "x": 100,
+    "y": 7174,
+    "w": 160,
+    "h": 52,
+    "text": "connected products lab",
+    "href": "/en/labs/connected-products-lab"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-content > a.pointer-events-auto > h3.h5--bold.line-clamp-2",
+    "x": 100,
+    "y": 7174,
+    "w": 160,
+    "h": 52,
+    "level": 3,
+    "text": "connected products lab"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 300,
+    "y": 7046,
+    "w": 200,
+    "h": 200,
+    "text": "",
+    "file": "fb186ed9-5601-4c4d-9051-a663c5ea98f3"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-5 > div.category-label.text-white > div.category-name",
+    "x": 320,
+    "y": 7074,
+    "w": 35,
+    "h": 14,
+    "text": "Labs"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-5 > div.reply-card-content > a.pointer-events-auto",
+    "x": 320,
+    "y": 7174,
+    "w": 160,
+    "h": 52,
+    "text": "global test automation center",
+    "href": "/en/labs/testautomationcentre"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-content > a.pointer-events-auto > h3.h5--bold.line-clamp-2",
+    "x": 320,
+    "y": 7174,
+    "w": 160,
+    "h": 52,
+    "level": 3,
+    "text": "global test automation center"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#BMViY",
+    "x": 40,
+    "y": 7342,
+    "w": 280,
+    "h": 34,
+    "level": 2,
+    "text": "acknowledgments"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 7408,
+    "w": 280,
+    "h": 420,
+    "text": "",
+    "file": "b819c1d2-d2bb-4f05-9ddc-2233bdf9a3c0"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body.!m-8 > a",
+    "x": 72,
+    "y": 7662,
+    "w": 216,
+    "h": 134,
+    "text": "reply named a leader in the idc marketscape report on smart manufacturing in eur",
+    "href": "/en/newsroom/news/reply-named-a-leader-in-the-idc-marketscape-report-on-smart-manufacturing-in-europe"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > a > h3.h4.text-white",
+    "x": 72,
+    "y": 7662,
+    "w": 216,
+    "h": 134,
+    "level": 3,
+    "text": "reply named a leader in the idc marketscape report on smart manufacturing in europe"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 340,
+    "y": 7408,
+    "w": 280,
+    "h": 420,
+    "text": "",
+    "file": "65fb8cfd-8d41-4e42-906b-2ebf3b0ca0b5"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-prev.round-bt",
+    "x": 216,
+    "y": 7852,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-next.round-bt",
+    "x": 272,
+    "y": 7852,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.banner-content.flex > picture.banner-logo > img.picture.grid-bg",
+    "x": 40,
+    "y": 8039,
+    "w": 103,
+    "h": 36,
+    "text": "reply rose logo",
+    "file": "6fcab6ec-285b-4545-a46d-72f4927d4bbe"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-banner-container.rosepub > div.banner-content.flex > h3.banner-title.text-white",
+    "x": 40,
+    "y": 8087,
+    "w": 280,
+    "h": 134,
+    "level": 3,
+    "text": "the one click between a challenge and its solution"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-banner-container.rosepub > div.banner-content.flex > div.banner-abstract.text-white",
+    "x": 40,
+    "y": 8233,
+    "w": 280,
+    "h": 109,
+    "text": "Gain expertise with Reply’s worldwide network of experts and find practical solu"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-banner-container.rosepub > div.banner-content.flex > a#rose-banner-cta",
+    "x": 40,
+    "y": 8362,
+    "w": 158,
+    "h": 46,
+    "text": "go to rose",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.contents > picture > img.mx-4",
+    "x": 56,
+    "y": 8448,
+    "w": 248,
+    "h": 248,
+    "text": "",
+    "file": "AXULUS_purple"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.contents > div.rose-card-text.absolute > h4.rose-card-title.line-clamp-4",
+    "x": 72,
+    "y": 8732,
+    "w": 216,
+    "h": 70,
+    "level": 4,
+    "text": "scale your digital solutions with axulus"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.contents > picture > img.mx-4",
+    "x": 352,
+    "y": 8448,
+    "w": 248,
+    "h": 248,
+    "text": "",
+    "file": "Ohana_orange"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-mu4tw",
+    "x": 40,
+    "y": 9012,
+    "w": 320,
+    "h": 23,
+    "text": "Discover also"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cxrpqxkrep > div > a#eUy9E",
+    "x": 40,
+    "y": 9068,
+    "w": 160,
+    "h": 41,
+    "text": "artificial intelligence",
+    "href": "/en/artificial-intelligence"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.zkxsnmunnh > div > a#PPvAc",
+    "x": 232,
+    "y": 9068,
+    "w": 167,
+    "h": 41,
+    "text": "quantum computing",
+    "href": "/en/quantum-computing"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-prev.round-bt",
+    "x": 44,
+    "y": 9141,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-next.round-bt",
+    "x": 100,
+    "y": 9141,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.block > nav.footer.p-10 > a",
+    "x": 40,
+    "y": 9353,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 40,
+    "y": 9449,
+    "w": 280,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 40,
+    "y": 9449,
+    "w": 280,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 9496,
+    "w": 103,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 9533,
+    "w": 45,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 9570,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 9607,
+    "w": 67,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 40,
+    "y": 9663,
+    "w": 280,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 40,
+    "y": 9663,
+    "w": 280,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 9711,
+    "w": 142,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 9748,
+    "w": 165,
+    "h": 17,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 9785,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 9821,
+    "w": 149,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 9858,
+    "w": 161,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 9895,
+    "w": 127,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 9932,
+    "w": 208,
+    "h": 34,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 9985,
+    "w": 261,
+    "h": 17,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 10022,
+    "w": 154,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 10059,
+    "w": 147,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 10096,
+    "w": 261,
+    "h": 17,
+    "text": "do not sell/share my personal information",
+    "href": "void(0)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Careers",
+    "x": 40,
+    "y": 10153,
+    "w": 280,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Contacts",
+    "x": 40,
+    "y": 10257,
+    "w": 280,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 40,
+    "y": 10361,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 52,
+    "y": 10373,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 117,
+    "y": 10361,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 129,
+    "y": 10373,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "a6732ee4-95cf-4951-9c4b-3675c7154f7e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 195,
+    "y": 10361,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 207,
+    "y": 10373,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "49664893-bfc1-4d79-9208-3bdd7083126b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 272,
+    "y": 10361,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 284,
+    "y": 10373,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "c48097ef-90ed-4c24-aa40-1764649e72ff"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > span",
+    "x": 32,
+    "y": 10485,
+    "w": 136,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > a.underline",
+    "x": 32,
+    "y": 10501,
+    "w": 136,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.text-white.py-3 > div.flex.justify-between > button#cookie-pref-center",
+    "x": 296,
+    "y": 832,
+    "w": 48,
+    "h": 48,
+    "text": "open cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 1,
+    "clamped": 6,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 4,
+    "offPage": 27,
+    "textNodes": 95,
+    "controls": 78,
+    "total": 1
+   },
+   "groups": [
+    {
+     "kind": "CONTROL CLIPPED",
+     "advisory": false,
+     "n": 1,
+     "clipper": "reply-card-runtime#13323",
+     "path": "div.contents > div.cards-wall-item > reply-card-runtime#13323 > a",
+     "text": "a demand response platform for power gridscase studysense re",
+     "cutMin": 106,
+     "cutMax": 106
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 2,
+     "clipper": "h3.h4.text-white",
+     "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body.!m-8 > a > h3.h4.text-white",
+     "text": "iveco accelerates digital transformation with industrial iot",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "article.reply-card-abstract.paragraph-01--light",
+     "path": "div.reply-card-grid.pointer-events-none > div.reply-card-body > article.reply-card-abstract.paragraph-01--light > p",
+     "text": "discover how sense reply supported the management of rome fi",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3.h6--medium.line-clamp-3",
+     "path": "a > div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+     "text": "ai-powered digital twins for maintenance, anomaly detection ",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "article.reply-card-abstract.text",
+     "path": "reply-card-runtime#19294 > div.reply-card-body > article.reply-card-abstract.text > p",
+     "text": "concept reply partnered with onlogic to equip steve’s auto w",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT X-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.reply-card-image-container.aspect-w-1",
+     "path": "div.reply-card-image-container.aspect-w-1 > div.reply-card-body.!m-5 > div.category-label.text-white > div.category-name",
+     "text": "labs",
+     "cutMin": 0,
+     "cutMax": 0
+    },
+    {
+     "kind": "CONTROL X-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.reply-card-image-container.aspect-w-1",
+     "path": "div.reply-card-image-container.aspect-w-1 > div.reply-card-body.!m-5 > div.reply-card-content > a.pointer-events-auto",
+     "text": "global test automation centerdiscover the reply centre dedic",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3.h5--bold.line-clamp-2",
+     "path": "div.reply-card-body.!m-5 > div.reply-card-content > a.pointer-events-auto > h3.h5--bold.line-clamp-2",
+     "text": "global test automation center",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "cardcarousel-runtime#eaZSI",
+     "path": "div.ohkdwqcrkr.ohkdwqcrkr-sm > div.zkxsnmunnh > div > a#PPvAc",
+     "text": "quantum computing",
+     "cutMin": 39,
+     "cutMax": 39
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "cardcarousel-runtime#eaZSI",
+     "path": "div.zkxsnmunnh > div > a#PPvAc > span",
+     "text": "quantum computing",
+     "cutMin": 39,
+     "cutMax": 39
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--a355dc1b--aemcoder.aem.live/en/iot",
+  "at": "2026-11-17T01:52:35.996Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 10554,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-main > div.site-header-logo > a",
+    "x": 40,
+    "y": 0,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "href": "/en"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-reply-logo > img",
+    "x": 40,
+    "y": 0,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "file": "reply-logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 232,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 232,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.mobile-toggle > button#mobile-menu-toggle",
+    "x": 296,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "text": "toggle menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.mobile-toggle > button#mobile-menu-toggle",
+    "x": 296,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "label": "toggle menu",
+    "value": "toggle menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-hero-pic.mobile > picture > img",
+    "x": 0,
+    "y": 18,
+    "w": 360,
+    "h": 608,
+    "text": "",
+    "file": "media_1679120a924a977d82e884e6640c0ed16b"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.r-grid > div.media-hero-title.r-cell > h1#internet-of-things",
+    "x": 40,
+    "y": 477,
+    "w": 280,
+    "h": 79,
+    "level": 1,
+    "text": "internet of things"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-hero-title.r-cell > h1#internet-of-things > span",
+    "x": 40,
+    "y": 476,
+    "w": 186,
+    "h": 80,
+    "text": "Internet of Things"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.statement-cell.r-cell > div.statement-text > h2#we-are-a-leader-in-end-to-end-iot-systems",
+    "x": 40,
+    "y": 700,
+    "w": 280,
+    "h": 101,
+    "level": 2,
+    "text": "we are a leader in end-to-end iot systems."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.statement-cell.r-cell > div.statement-text > h3#accelerate-your-iot-initiatives-or-create-a-new-generation-of-connected-products",
+    "x": 40,
+    "y": 801,
+    "w": 280,
+    "h": 134,
+    "level": 3,
+    "text": "accelerate your iot initiatives or create a new generation of connected products."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 1031,
+    "w": 280,
+    "h": 420,
+    "text": "",
+    "file": "media_12e735ea52c26424f3637f376d715369e7"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 88,
+    "y": 1255,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+    "x": 72,
+    "y": 1285,
+    "w": 216,
+    "h": 134,
+    "text": "iveco accelerates digital transformation with industrial iot",
+    "href": "/en/internet-of-things/iveco-accelerates-the-digital-transformation-with-industrial-iot"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#iveco-accelerates-digital-transformation-with-industrial-iot",
+    "x": 72,
+    "y": 1285,
+    "w": 216,
+    "h": 134,
+    "level": 3,
+    "text": "iveco accelerates digital transformation with industrial iot"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 340,
+    "y": 1031,
+    "w": 280,
+    "h": 420,
+    "text": "",
+    "file": "media_1ea4381bbce48cde30e0fd1353172ef4b1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-carousel-inner > div.card-carousel-controls > button.card-carousel-prev.round-bt",
+    "x": 216,
+    "y": 1475,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-carousel-inner > div.card-carousel-controls > button.card-carousel-next.round-bt",
+    "x": 272,
+    "y": 1475,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card.reply-card-hero > div.reply-card-image-container > a.reply-card-cover",
+    "x": 40,
+    "y": 1590,
+    "w": 280,
+    "h": 420,
+    "text": "adr optimizes the intelligent management of airport assets with ai and iot",
+    "href": "/en/iot/adr-ottimizza-la-gestione-intelligente-degli-asset-aeroportuali-con-ai-e-iot"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 1590,
+    "w": 280,
+    "h": 420,
+    "text": "",
+    "file": "media_160effda08fe0461e902a4d5f6f0a822b5"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 80,
+    "y": 1606,
+    "w": 90,
+    "h": 51,
+    "text": "",
+    "file": "media_1673dbce73a3a51b85807b8597dfc95c31"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 96,
+    "y": 1746,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#adr-optimizes-the-intelligent-management-of-airport-assets-with-ai-and-iot",
+    "x": 80,
+    "y": 1780,
+    "w": 200,
+    "h": 101,
+    "level": 3,
+    "text": "adr optimizes the intelligent management of airport assets with ai and iot"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#adr-optimizes-the-intelligent-management-of-airport-assets-with-ai-and-iot > a",
+    "x": 80,
+    "y": 1780,
+    "w": 200,
+    "h": 101,
+    "text": "adr optimizes the intelligent management of airport assets with ai and iot",
+    "href": "/en/iot/adr-ottimizza-la-gestione-intelligente-degli-asset-aeroportuali-con-ai-e-iot"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-abstract > p",
+    "x": 80,
+    "y": 1881,
+    "w": 200,
+    "h": 82,
+    "text": "Discover how Sense Reply supported the management of Rome Fiumicino and Ciampino"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 40,
+    "y": 2066,
+    "w": 280,
+    "h": 158,
+    "text": "from a fan to a smart energy system case study",
+    "href": "/en/iot/from-a-fan-to-a-smart-energy-system"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 2066,
+    "w": 280,
+    "h": 158,
+    "text": "",
+    "file": "media_1f094ea040b7a17af2eccf8b46155c60e1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#from-a-fan-to-a-smart-energy-system",
+    "x": 56,
+    "y": 2244,
+    "w": 248,
+    "h": 47,
+    "level": 3,
+    "text": "from a fan to a smart energy system"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#from-a-fan-to-a-smart-energy-system > a",
+    "x": 56,
+    "y": 2244,
+    "w": 248,
+    "h": 47,
+    "text": "from a fan to a smart energy system",
+    "href": "/en/iot/from-a-fan-to-a-smart-energy-system"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 72,
+    "y": 2306,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 40,
+    "y": 2360,
+    "w": 280,
+    "h": 280,
+    "text": "ai-powered digital twins for maintenance, anomaly detection and productivity art",
+    "href": "/en/artificial-intelligence/ai-powered-digital-twins-for-maintenance-anomaly-detection-and-productivity"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 2360,
+    "w": 280,
+    "h": 280,
+    "text": "",
+    "file": "media_1187564e072b1f0be34df5e6842df7034e"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#ai-powered-digital-twins-for-maintenance-anomaly-detection-and-productivity",
+    "x": 56,
+    "y": 2660,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "ai-powered digital twins for maintenance, anomaly detection and productivity"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#ai-powered-digital-twins-for-maintenance-anomaly-detection-and-productivity > a",
+    "x": 56,
+    "y": 2660,
+    "w": 248,
+    "h": 70,
+    "text": "ai-powered digital twins for maintenance, anomaly detection and productivity",
+    "href": "/en/artificial-intelligence/ai-powered-digital-twins-for-maintenance-anomaly-detection-and-productivity"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 72,
+    "y": 2747,
+    "w": 63,
+    "h": 14,
+    "text": "Article"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 73,
+    "y": 2834,
+    "w": 214,
+    "h": 120,
+    "text": "",
+    "file": "media_1337624e03c929188ed67ae1c30abeaedd"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#iot-for-smarter-car-wash-operations",
+    "x": 73,
+    "y": 2974,
+    "w": 214,
+    "h": 47,
+    "level": 3,
+    "text": "iot for smarter car wash operations"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#iot-for-smarter-car-wash-operations > a",
+    "x": 73,
+    "y": 2974,
+    "w": 214,
+    "h": 47,
+    "text": "iot for smarter car wash operations",
+    "href": "/concept-reply/en/smart-carwash-operations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 89,
+    "y": 3037,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-abstract > p",
+    "x": 73,
+    "y": 3069,
+    "w": 214,
+    "h": 238,
+    "text": "Concept Reply partnered with OnLogic to equip Steve’s Auto World, a leading U.S."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-hover > a.reply-card-cover",
+    "x": 40,
+    "y": 3380,
+    "w": 280,
+    "h": 280,
+    "text": "a demand response platform for power grids case study",
+    "href": "/en/energy-and-utilities/a-demand-response-platform-for-electric-grids"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 3380,
+    "w": 280,
+    "h": 280,
+    "text": "",
+    "file": "media_1cb9f415951869281a3664cec88e409756"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#a-demand-response-platform-for-power-grids",
+    "x": 56,
+    "y": 3680,
+    "w": 248,
+    "h": 47,
+    "level": 3,
+    "text": "a demand response platform for power grids"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#a-demand-response-platform-for-power-grids > a",
+    "x": 56,
+    "y": 3680,
+    "w": 248,
+    "h": 47,
+    "text": "a demand response platform for power grids",
+    "href": "/en/energy-and-utilities/a-demand-response-platform-for-electric-grids"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 72,
+    "y": 3743,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 40,
+    "y": 3826,
+    "w": 280,
+    "h": 158,
+    "text": "agrirouter 2.0: a modern data platform as basis for smart farming case study",
+    "href": "/en/iot/agrirouter"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 3826,
+    "w": 280,
+    "h": 158,
+    "text": "",
+    "file": "media_10e3b339b8febc947d4d5b0c41ec1a6a0f"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 60,
+    "y": 3846,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_1aa7621fd40e666547f367ea302800d077"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#agrirouter-20-a-modern-data-platform-as-basis-for-smart-farming",
+    "x": 56,
+    "y": 4003,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "agrirouter 2.0: a modern data platform as basis for smart farming"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#agrirouter-20-a-modern-data-platform-as-basis-for-smart-farming > a",
+    "x": 56,
+    "y": 4003,
+    "w": 248,
+    "h": 70,
+    "text": "agrirouter 2.0: a modern data platform as basis for smart farming",
+    "href": "/en/iot/agrirouter"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 72,
+    "y": 4089,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 40,
+    "y": 4143,
+    "w": 280,
+    "h": 280,
+    "text": "a new connected and digital motorcycling experience case study",
+    "href": "/en/iot/a-new-connected-and-digital-motorcycling-experience"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 4143,
+    "w": 280,
+    "h": 280,
+    "text": "",
+    "file": "media_1c664cbddee01adc963bec0ad83c0a367b"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#a-new-connected-and-digital-motorcycling-experience",
+    "x": 56,
+    "y": 4443,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "a new connected and digital motorcycling experience"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#a-new-connected-and-digital-motorcycling-experience > a",
+    "x": 56,
+    "y": 4443,
+    "w": 248,
+    "h": 70,
+    "text": "a new connected and digital motorcycling experience",
+    "href": "/en/iot/a-new-connected-and-digital-motorcycling-experience"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 72,
+    "y": 4530,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 40,
+    "y": 4584,
+    "w": 280,
+    "h": 158,
+    "text": "combining ai and edge computing for industrial iot best practice",
+    "href": "/en/iot/combining-ai-and-edge-computing-for-industrial-iot"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 4584,
+    "w": 280,
+    "h": 158,
+    "text": "",
+    "file": "media_1f6b6e58c66103be2edf9261e0a3461d79"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#combining-ai-and-edge-computing-for-industrial-iot",
+    "x": 56,
+    "y": 4761,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "combining ai and edge computing for industrial iot"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#combining-ai-and-edge-computing-for-industrial-iot > a",
+    "x": 56,
+    "y": 4761,
+    "w": 248,
+    "h": 70,
+    "text": "combining ai and edge computing for industrial iot",
+    "href": "/en/iot/combining-ai-and-edge-computing-for-industrial-iot"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 72,
+    "y": 4847,
+    "w": 118,
+    "h": 14,
+    "text": "Best Practice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 40,
+    "y": 4901,
+    "w": 280,
+    "h": 280,
+    "text": "precision farming: how to develop isobus conform? white paper",
+    "href": "/concept-reply/en/precision-farming-how-to-develop-isobus-conform"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 4901,
+    "w": 280,
+    "h": 280,
+    "text": "",
+    "file": "media_1660f562628675b24ef24d314daf5c2c1f"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#precision-farming-how-to-develop-isobus-conform",
+    "x": 56,
+    "y": 5201,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "precision farming: how to develop isobus conform?"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#precision-farming-how-to-develop-isobus-conform > a",
+    "x": 56,
+    "y": 5201,
+    "w": 248,
+    "h": 70,
+    "text": "precision farming: how to develop isobus conform?",
+    "href": "/concept-reply/en/precision-farming-how-to-develop-isobus-conform"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 72,
+    "y": 5287,
+    "w": 101,
+    "h": 14,
+    "text": "White Paper"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 40,
+    "y": 5341,
+    "w": 280,
+    "h": 158,
+    "text": "towards integrated mobility: iot solutions for charging electric vehicles case s",
+    "href": "/en/iot/electric-mobility"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 5341,
+    "w": 280,
+    "h": 158,
+    "text": "",
+    "file": "media_1520e4b5dd710d97313063cf53e9f5d587"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#towards-integrated-mobility-iot-solutions-for-charging-electric-vehicles",
+    "x": 56,
+    "y": 5519,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "towards integrated mobility: iot solutions for charging electric vehicles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#towards-integrated-mobility-iot-solutions-for-charging-electric-vehicles > a",
+    "x": 56,
+    "y": 5519,
+    "w": 248,
+    "h": 70,
+    "text": "towards integrated mobility: iot solutions for charging electric vehicles",
+    "href": "/en/iot/electric-mobility"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 72,
+    "y": 5605,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 40,
+    "y": 5659,
+    "w": 280,
+    "h": 158,
+    "text": "an iot platform to harmonise renewable energy data case study",
+    "href": "/en/iot/iot-platform-for-renewables"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 5659,
+    "w": 280,
+    "h": 158,
+    "text": "",
+    "file": "media_1e8a97513b4a78461dabd3b59bf563130c"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#an-iot-platform-to-harmonise-renewable-energy-data",
+    "x": 56,
+    "y": 5837,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "an iot platform to harmonise renewable energy data"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#an-iot-platform-to-harmonise-renewable-energy-data > a",
+    "x": 56,
+    "y": 5837,
+    "w": 248,
+    "h": 70,
+    "text": "an iot platform to harmonise renewable energy data",
+    "href": "/en/iot/iot-platform-for-renewables"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 72,
+    "y": 5923,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 40,
+    "y": 5977,
+    "w": 280,
+    "h": 280,
+    "text": "data processing with aws-native services in the container terminal case study",
+    "href": "/en/iot/data-processing-with-aws-native-services-in-the-container-terminal"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 5977,
+    "w": 280,
+    "h": 280,
+    "text": "",
+    "file": "media_140f1a460456deaf8fc178aad2ca70eddb"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 60,
+    "y": 5997,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_1173398cea5a3f4845f32205d17242e8d9"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#data-processing-with-aws-native-services-in-the-container-terminal",
+    "x": 56,
+    "y": 6277,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "data processing with aws-native services in the container terminal"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#data-processing-with-aws-native-services-in-the-container-terminal > a",
+    "x": 56,
+    "y": 6277,
+    "w": 248,
+    "h": 70,
+    "text": "data processing with aws-native services in the container terminal",
+    "href": "/en/iot/data-processing-with-aws-native-services-in-the-container-terminal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 72,
+    "y": 6363,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 40,
+    "y": 6417,
+    "w": 280,
+    "h": 280,
+    "text": "smart services for multivac case study",
+    "href": "/en/iot/smart-services-for-multivac"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 6417,
+    "w": 280,
+    "h": 280,
+    "text": "",
+    "file": "media_12ba840a2fd6bc4b69b870ae3cb0706b73"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 60,
+    "y": 6437,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_175293272edead7e16ac933f565e5fac93"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#smart-services-for-multivac",
+    "x": 56,
+    "y": 6717,
+    "w": 248,
+    "h": 47,
+    "level": 3,
+    "text": "smart services for multivac"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#smart-services-for-multivac > a",
+    "x": 56,
+    "y": 6717,
+    "w": 248,
+    "h": 47,
+    "text": "smart services for multivac",
+    "href": "/en/iot/smart-services-for-multivac"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 72,
+    "y": 6780,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-cell.r-cell > div.cards-wall-pager > div.cards-wall-more",
+    "x": 105,
+    "y": 6834,
+    "w": 149,
+    "h": 41,
+    "text": "load more content"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-heading-cell.r-cell > div.section-heading-title > h2#discover-our-iot-labs",
+    "x": 40,
+    "y": 6971,
+    "w": 280,
+    "h": 67,
+    "level": 2,
+    "text": "discover our iot labs"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 80,
+    "y": 7070,
+    "w": 200,
+    "h": 200,
+    "text": "",
+    "file": "media_15864afd1ee6e8dc24c3116ab036a85aab"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 100,
+    "y": 7098,
+    "w": 38,
+    "h": 14,
+    "text": "Labs"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-content > a.reply-card-link",
+    "x": 100,
+    "y": 7198,
+    "w": 160,
+    "h": 52,
+    "text": "connected products lab",
+    "href": "/en/labs/connected-products-lab"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#connected-products-lab",
+    "x": 100,
+    "y": 7198,
+    "w": 160,
+    "h": 52,
+    "level": 3,
+    "text": "connected products lab"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 300,
+    "y": 7070,
+    "w": 200,
+    "h": 200,
+    "text": "",
+    "file": "media_182d7111ed0b93dbc14c121ad977b62de6"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 320,
+    "y": 7098,
+    "w": 38,
+    "h": 14,
+    "text": "Labs"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-content > a.reply-card-link",
+    "x": 320,
+    "y": 7198,
+    "w": 160,
+    "h": 52,
+    "text": "global test automation center",
+    "href": "/en/labs/testautomationcentre"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#global-test-automation-center",
+    "x": 320,
+    "y": 7198,
+    "w": 160,
+    "h": 52,
+    "level": 3,
+    "text": "global test automation center"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-heading-cell.r-cell > div.section-heading-title > h2#acknowledgments",
+    "x": 40,
+    "y": 7366,
+    "w": 280,
+    "h": 34,
+    "level": 2,
+    "text": "acknowledgments"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 7431,
+    "w": 280,
+    "h": 420,
+    "text": "",
+    "file": "media_16ed6763422d5686939fbda5d3a93dccf4"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+    "x": 72,
+    "y": 7685,
+    "w": 216,
+    "h": 134,
+    "text": "reply named a leader in the idc marketscape report on smart manufacturing in eur",
+    "href": "/en/newsroom/news/reply-named-a-leader-in-the-idc-marketscape-report-on-smart-manufacturing-in-europe"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#reply-named-a-leader-in-the-idc-marketscape-report-on-smart-manufacturing-in-europe",
+    "x": 72,
+    "y": 7685,
+    "w": 216,
+    "h": 134,
+    "level": 3,
+    "text": "reply named a leader in the idc marketscape report on smart manufacturing in europe"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 340,
+    "y": 7431,
+    "w": 280,
+    "h": 420,
+    "text": "",
+    "file": "media_1faf11887fff07eaff49ede58a0414db28"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-carousel-inner > div.card-carousel-controls > button.card-carousel-prev.round-bt",
+    "x": 216,
+    "y": 7875,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-carousel-inner > div.card-carousel-controls > button.card-carousel-next.round-bt",
+    "x": 272,
+    "y": 7875,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-logo > picture > img",
+    "x": 40,
+    "y": 8062,
+    "w": 103,
+    "h": 36,
+    "text": "reply rose logo",
+    "file": "media_1e36aa2918a3736dbda877e3fa482274ca"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-content > div.rose-cta-title > h3#the-one-click-between-a-challenge-and-its-solution",
+    "x": 40,
+    "y": 8110,
+    "w": 280,
+    "h": 134,
+    "level": 3,
+    "text": "the one click between a challenge and its solution"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-content > div.rose-cta-abstract > p",
+    "x": 40,
+    "y": 8257,
+    "w": 280,
+    "h": 109,
+    "text": "Gain expertise with Reply’s worldwide network of experts and find practical solu"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-action > p.button-wrapper > a.button.primary",
+    "x": 40,
+    "y": 8385,
+    "w": 166,
+    "h": 46,
+    "text": "go to rose",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-card-image > picture > img",
+    "x": 56,
+    "y": 8472,
+    "w": 248,
+    "h": 248,
+    "text": "",
+    "file": "media_15f36d3795e42cc81319da4bbba39db1a3"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-card-text > div.rose-card-title > h4#scale-your-digital-solutions-with-axulus",
+    "x": 72,
+    "y": 8756,
+    "w": 216,
+    "h": 70,
+    "level": 4,
+    "text": "scale your digital solutions with axulus"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-card-image > picture > img",
+    "x": 352,
+    "y": 8472,
+    "w": 248,
+    "h": 248,
+    "text": "",
+    "file": "media_12add23b593638d5cd2f6e8003fb1fd35d"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.discover-also-cell.r-cell > div.discover-also-kicker > p",
+    "x": 40,
+    "y": 9036,
+    "w": 320,
+    "h": 23,
+    "text": "Discover also"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.active > a",
+    "x": 40,
+    "y": 9091,
+    "w": 156,
+    "h": 41,
+    "text": "artificial intelligence",
+    "href": "/en/artificial-intelligence"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 228,
+    "y": 9091,
+    "w": 165,
+    "h": 41,
+    "text": "quantum computing",
+    "href": "/en/quantum-computing"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.discover-also-rail > div.discover-also-controls > button.discover-also-prev.round-bt",
+    "x": 44,
+    "y": 9164,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.discover-also-rail > div.discover-also-controls > button.discover-also-next.round-bt",
+    "x": 100,
+    "y": 9164,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-wrap > nav.footer-nav > a.footer-nav-home",
+    "x": 40,
+    "y": 9376,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 40,
+    "y": 9472,
+    "w": 280,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 40,
+    "y": 9472,
+    "w": 280,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 40,
+    "y": 9520,
+    "w": 102,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 40,
+    "y": 9556,
+    "w": 43,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 40,
+    "y": 9593,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 40,
+    "y": 9630,
+    "w": 66,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 40,
+    "y": 9687,
+    "w": 280,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 40,
+    "y": 9687,
+    "w": 280,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 9734,
+    "w": 145,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 9771,
+    "w": 163,
+    "h": 17,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 9808,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 9845,
+    "w": 150,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 9882,
+    "w": 160,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 9918,
+    "w": 131,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 9955,
+    "w": 206,
+    "h": 34,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 10009,
+    "w": 266,
+    "h": 17,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 10046,
+    "w": 153,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 10082,
+    "w": 143,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 10119,
+    "w": 262,
+    "h": 17,
+    "text": "do not sell/share my personal information",
+    "href": "/en/iot"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 40,
+    "y": 10176,
+    "w": 280,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 40,
+    "y": 10280,
+    "w": 280,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 40,
+    "y": 10384,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 52,
+    "y": 10396,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 117,
+    "y": 10384,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 129,
+    "y": 10396,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 195,
+    "y": 10384,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 207,
+    "y": 10396,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-linkedin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 272,
+    "y": 10384,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 284,
+    "y": 10396,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-xing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > span",
+    "x": 32,
+    "y": 10508,
+    "w": 131,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > a",
+    "x": 32,
+    "y": 10525,
+    "w": 131,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-inner > div.site-legal-row > button#cookie-pref-center",
+    "x": 296,
+    "y": 832,
+    "w": 48,
+    "h": 48,
+    "text": "open cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 6,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 4,
+    "offPage": 27,
+    "textNodes": 95,
+    "controls": 78,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.reply-card-abstract",
+     "path": "div.reply-card-grid > div.reply-card-body > div.reply-card-abstract > p",
+     "text": "discover how sense reply supported the management of rome fi",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3#iveco-accelerates-digital-transformation-with-industrial-iot",
+     "path": "div.reply-card-body > a.reply-card-link > div.reply-card-title > h3#iveco-accelerates-digital-transformation-with-industrial-iot",
+     "text": "iveco accelerates digital transformation with industrial iot",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "a",
+     "path": "div.reply-card-body > div.reply-card-title > h3#adr-optimizes-the-intelligent-management-of-airport-assets-with-ai-and-iot > a",
+     "text": "adr optimizes the intelligent management of airport assets w",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT X-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.reply-card-image-container",
+     "path": "div.reply-card-body > div.category-label > div.category-name > p",
+     "text": "labs",
+     "cutMin": 0,
+     "cutMax": 0
+    },
+    {
+     "kind": "CONTROL X-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.reply-card-image-container",
+     "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-content > a.reply-card-link",
+     "text": "global test automation centerdiscover the reply centre dedic",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3#global-test-automation-center",
+     "path": "div.reply-card-content > a.reply-card-link > div.reply-card-title > h3#global-test-automation-center",
+     "text": "global test automation center",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3#reply-named-a-leader-in-the-idc-marketscape-report-on-smart-manufacturing-in-europe",
+     "path": "div.reply-card-body > a.reply-card-link > div.reply-card-title > h3#reply-named-a-leader-in-the-idc-marketscape-report-on-smart-manufacturing-in-europe",
+     "text": "reply named a leader in the idc marketscape report on smart ",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.discover-also-rail",
+     "path": "div.discover-also-track > ul > li > a",
+     "text": "quantum computing",
+     "cutMin": 33,
+     "cutMax": 33
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.discover-also-rail",
+     "path": "div.discover-also-track > ul > li > a",
+     "text": "quantum computing",
+     "cutMin": 33,
+     "cutMax": 33
+    }
+   ],
+   "findings": [
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 2,
+     "path": "div.reply-card-body > a.reply-card-link > div.reply-card-title > h3#iveco-accelerates-digital-transformation-with-industrial-iot",
+     "text": "iveco accelerates digital transformation with industrial iot",
+     "clipper": "h3#iveco-accelerates-digital-transformation-with-industrial-iot",
+     "rect": {
+      "l": 72,
+      "t": 1288,
+      "r": 159,
+      "b": 1315,
+      "w": 87,
+      "h": 27
+     },
+     "clip": {
+      "l": 72,
+      "t": 1285,
+      "r": 288,
+      "b": 1419,
+      "w": 216,
+      "h": 134
+     },
+     "lines": 6
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 2,
+     "path": "div.reply-card-body > div.reply-card-title > h3#adr-optimizes-the-intelligent-management-of-airport-assets-with-ai-and-iot > a",
+     "text": "adr optimizes the intelligent management of airport assets w",
+     "clipper": "a",
+     "rect": {
+      "l": 80,
+      "t": 1783,
+      "r": 266,
+      "b": 1810,
+      "w": 186,
+      "h": 27
+     },
+     "clip": {
+      "l": 80,
+      "t": 1780,
+      "r": 280,
+      "b": 1881,
+      "w": 200,
+      "h": 101
+     },
+     "lines": 6
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 4,
+     "path": "div.reply-card-grid > div.reply-card-body > div.reply-card-abstract > p",
+     "text": "discover how sense reply supported the management of rome fi",
+     "clipper": "div.reply-card-abstract",
+     "rect": {
+      "l": 80,
+      "t": 1885,
+      "r": 246,
+      "b": 1903,
+      "w": 166,
+      "h": 18
+     },
+     "clip": {
+      "l": 80,
+      "t": 1881,
+      "r": 280,
+      "b": 1963,
+      "w": 200,
+      "h": 82
+     },
+     "lines": 7
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.reply-card.reply-card-kind-abstract > div.reply-card-body > div.reply-card-abstract > p",
+     "text": "concept reply partnered with onlogic to equip steve’s auto w",
+     "clipper": "div.reply-card-abstract",
+     "rect": {
+      "l": 73,
+      "t": 3072,
+      "r": 284,
+      "b": 3088,
+      "w": 211,
+      "h": 16
+     },
+     "clip": {
+      "l": 73,
+      "t": 3069,
+      "r": 287,
+      "b": 3307,
+      "w": 214,
+      "h": 238
+     },
+     "lines": 11
+    },
+    {
+     "kind": "TEXT X-HIDDEN",
+     "advisory": true,
+     "cut": 0,
+     "path": "div.reply-card-body > div.category-label > div.category-name > p",
+     "text": "labs",
+     "clipper": "div.reply-card-image-container",
+     "rect": {
+      "l": 320,
+      "t": 7098,
+      "r": 358,
+      "b": 7111,
+      "w": 38,
+      "h": 13
+     },
+     "clip": {
+      "l": 300,
+      "t": 7070,
+      "r": 500,
+      "b": 7270,
+      "w": 200,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "CONTROL X-HIDDEN",
+     "advisory": true,
+     "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-content > a.reply-card-link",
+     "text": "global test automation centerdiscover the reply centre dedic",
+     "clipper": "div.reply-card-image-container",
+     "rect": {
+      "l": 320,
+      "t": 7198,
+      "r": 480,
+      "b": 7250,
+      "w": 160,
+      "h": 52
+     },
+     "clip": {
+      "l": 300,
+      "t": 7070,
+      "r": 500,
+      "b": 7270,
+      "w": 200,
+      "h": 200
+     }
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.reply-card-content > a.reply-card-link > div.reply-card-title > h3#global-test-automation-center",
+     "text": "global test automation center",
+     "clipper": "h3#global-test-automation-center",
+     "rect": {
+      "l": 320,
+      "t": 7200,
+      "r": 437,
+      "b": 7222,
+      "w": 117,
+      "h": 22
+     },
+     "clip": {
+      "l": 320,
+      "t": 7198,
+      "r": 480,
+      "b": 7250,
+      "w": 160,
+      "h": 52
+     },
+     "lines": 3
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 2,
+     "path": "div.reply-card-body > a.reply-card-link > div.reply-card-title > h3#reply-named-a-leader-in-the-idc-marketscape-report-on-smart-manufacturing-in-europe",
+     "text": "reply named a leader in the idc marketscape report on smart ",
+     "clipper": "h3#reply-named-a-leader-in-the-idc-marketscape-report-on-smart-manufacturing-in-europe",
+     "rect": {
+      "l": 72,
+      "t": 7688,
+      "r": 258,
+      "b": 7715,
+      "w": 186,
+      "h": 27
+     },
+     "clip": {
+      "l": 72,
+      "t": 7685,
+      "r": 288,
+      "b": 7819,
+      "w": 216,
+      "h": 134
+     },
+     "lines": 7
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 33,
+     "path": "div.discover-also-track > ul > li > a",
+     "text": "quantum computing",
+     "clipper": "div.discover-also-rail",
+     "rect": {
+      "l": 228,
+      "t": 9091,
+      "r": 393,
+      "b": 9132,
+      "w": 165,
+      "h": 41
+     },
+     "clip": {
+      "l": 40,
+      "t": 9087,
+      "r": 360,
+      "b": 9216,
+      "w": 320,
+      "h": 129
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 33,
+     "path": "div.discover-also-track > ul > li > a",
+     "text": "quantum computing",
+     "clipper": "div.discover-also-rail",
+     "rect": {
+      "l": 228,
+      "t": 9103,
+      "r": 393,
+      "b": 9119,
+      "w": 165,
+      "h": 16
+     },
+     "clip": {
+      "l": 40,
+      "t": 9087,
+      "r": 360,
+      "b": 9216,
+      "w": 320,
+      "h": 129
+     },
+     "lines": 1
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "internet of things",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "we are a leader in end-to-end iot systems.",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "accelerate your iot initiatives or create a new generation of connected products.",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 1
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "iveco accelerates digital transformation with industrial iot",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 2,
+    "text": 1,
+    "image": 2
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "adr optimizes the intelligent management of airport assets with ai and iot",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "from a fan to a smart energy system",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "ai-powered digital twins for maintenance, anomaly detection and productivity",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "iot for smarter car wash operations",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "a demand response platform for power grids",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 2
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "agrirouter 2.0: a modern data platform as basis for smart farming",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "a new connected and digital motorcycling experience",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "combining ai and edge computing for industrial iot",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 13,
+   "heading": "precision farming: how to develop isobus conform?",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 14,
+   "heading": "towards integrated mobility: iot solutions for charging electric vehicles",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 15,
+   "heading": "an iot platform to harmonise renewable energy data",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 2
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 16,
+   "heading": "data processing with aws-native services in the container terminal",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 2
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 17,
+   "heading": "smart services for multivac",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 18,
+   "heading": "discover our iot labs",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 1,
+    "image": 1,
+    "imageHidden": 1
+   },
+   "findings": []
+  },
+  {
+   "index": 19,
+   "heading": "connected products lab",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 1,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 20,
+   "heading": "acknowledgments",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 1
+   },
+   "findings": []
+  },
+  {
+   "index": 21,
+   "heading": "reply named a leader in the idc marketscape report on smart manufacturing in europe",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 2,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 22,
+   "heading": "the one click between a challenge and its solution",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 2,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 1
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 40,
+    "y": 476,
+    "w": 204,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 515,
+    "w": 121,
+    "h": 40
+   },
+   {
+    "x": 49,
+    "y": 700,
+    "w": 262,
+    "h": 32
+   },
+   {
+    "x": 70,
+    "y": 734,
+    "w": 219,
+    "h": 32
+   },
+   {
+    "x": 118,
+    "y": 767,
+    "w": 125,
+    "h": 32
+   },
+   {
+    "x": 57,
+    "y": 804,
+    "w": 246,
+    "h": 27
+   },
+   {
+    "x": 47,
+    "y": 837,
+    "w": 265,
+    "h": 27
+   },
+   {
+    "x": 64,
+    "y": 871,
+    "w": 231,
+    "h": 27
+   },
+   {
+    "x": 52,
+    "y": 905,
+    "w": 257,
+    "h": 27
+   },
+   {
+    "x": 88,
+    "y": 1256,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 72,
+    "y": 1288,
+    "w": 83,
+    "h": 27
+   },
+   {
+    "x": 72,
+    "y": 1321,
+    "w": 151,
+    "h": 27
+   },
+   {
+    "x": 72,
+    "y": 1355,
+    "w": 82,
+    "h": 27
+   },
+   {
+    "x": 72,
+    "y": 1389,
+    "w": 193,
+    "h": 27
+   },
+   {
+    "x": 96,
+    "y": 1646,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 80,
+    "y": 1682,
+    "w": 184,
+    "h": 27
+   },
+   {
+    "x": 80,
+    "y": 1716,
+    "w": 177,
+    "h": 27
+   },
+   {
+    "x": 80,
+    "y": 1749,
+    "w": 172,
+    "h": 27
+   },
+   {
+    "x": 80,
+    "y": 1783,
+    "w": 120,
+    "h": 27
+   },
+   {
+    "x": 80,
+    "y": 1816,
+    "w": 174,
+    "h": 27
+   },
+   {
+    "x": 80,
+    "y": 1850,
+    "w": 94,
+    "h": 27
+   },
+   {
+    "x": 80,
+    "y": 1885,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 1912,
+    "w": 166,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 1939,
+    "w": 186,
+    "h": 18
+   },
+   {
+    "x": 56,
+    "y": 2245,
+    "w": 202,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 2268,
+    "w": 138,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 2307,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 56,
+    "y": 2661,
+    "w": 235,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 2685,
+    "w": 162,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 2708,
+    "w": 224,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 2748,
+    "w": 57,
+    "h": 11
+   },
+   {
+    "x": 73,
+    "y": 2975,
+    "w": 183,
+    "h": 20
+   },
+   {
+    "x": 73,
+    "y": 2998,
+    "w": 162,
+    "h": 20
+   },
+   {
+    "x": 89,
+    "y": 3038,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 73,
+    "y": 3072,
+    "w": 182,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 3096,
+    "w": 213,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 3119,
+    "w": 211,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 3143,
+    "w": 157,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 3167,
+    "w": 198,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 3191,
+    "w": 206,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 3215,
+    "w": 169,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 3238,
+    "w": 172,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 3262,
+    "w": 198,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 3286,
+    "w": 122,
+    "h": 16
+   },
+   {
+    "x": 56,
+    "y": 3681,
+    "w": 193,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 3704,
+    "w": 230,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 4004,
+    "w": 230,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 4028,
+    "w": 244,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 4051,
+    "w": 135,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 4090,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 56,
+    "y": 4444,
+    "w": 205,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 4468,
+    "w": 192,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 4491,
+    "w": 105,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 4531,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 56,
+    "y": 4762,
+    "w": 220,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 4785,
+    "w": 232,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 4809,
+    "w": 30,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 4848,
+    "w": 106,
+    "h": 11
+   },
+   {
+    "x": 56,
+    "y": 5202,
+    "w": 242,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 5226,
+    "w": 248,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 5265,
+    "w": 90,
+    "h": 11
+   },
+   {
+    "x": 56,
+    "y": 5497,
+    "w": 186,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 5520,
+    "w": 237,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 5543,
+    "w": 242,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 5583,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 56,
+    "y": 5814,
+    "w": 172,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 5838,
+    "w": 204,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 5861,
+    "w": 116,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 5900,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 56,
+    "y": 6254,
+    "w": 201,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 6278,
+    "w": 213,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 6301,
+    "w": 214,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 6341,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 56,
+    "y": 6695,
+    "w": 172,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 6718,
+    "w": 82,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 6757,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 104,
+    "y": 6823,
+    "w": 152,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6947,
+    "w": 240,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 6981,
+    "w": 61,
+    "h": 32
+   },
+   {
+    "x": 100,
+    "y": 7075,
+    "w": 35,
+    "h": 11
+   },
+   {
+    "x": 100,
+    "y": 7176,
+    "w": 120,
+    "h": 22
+   },
+   {
+    "x": 100,
+    "y": 7202,
+    "w": 142,
+    "h": 22
+   },
+   {
+    "x": 320,
+    "y": 7075,
+    "w": 35,
+    "h": 11
+   },
+   {
+    "x": 320,
+    "y": 7176,
+    "w": 120,
+    "h": 22
+   },
+   {
+    "x": 320,
+    "y": 7202,
+    "w": 128,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 7342,
+    "w": 277,
+    "h": 32
+   },
+   {
+    "x": 72,
+    "y": 7665,
+    "w": 186,
+    "h": 27
+   },
+   {
+    "x": 72,
+    "y": 7698,
+    "w": 164,
+    "h": 27
+   },
+   {
+    "x": 72,
+    "y": 7732,
+    "w": 47,
+    "h": 27
+   },
+   {
+    "x": 72,
+    "y": 7765,
+    "w": 171,
+    "h": 27
+   },
+   {
+    "x": 40,
+    "y": 8087,
+    "w": 187,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 8121,
+    "w": 155,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 8154,
+    "w": 244,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 8188,
+    "w": 113,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 8237,
+    "w": 220,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 8264,
+    "w": 246,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 8292,
+    "w": 243,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 8319,
+    "w": 133,
+    "h": 18
+   },
+   {
+    "x": 60,
+    "y": 8378,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 72,
+    "y": 8695,
+    "w": 116,
+    "h": 11
+   },
+   {
+    "x": 72,
+    "y": 8733,
+    "w": 166,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 8757,
+    "w": 134,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 8780,
+    "w": 79,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 8827,
+    "w": 154,
+    "h": 11
+   },
+   {
+    "x": 40,
+    "y": 9013,
+    "w": 124,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 9081,
+    "w": 160,
+    "h": 13
+   },
+   {
+    "x": 232,
+    "y": 9081,
+    "w": 167,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9450,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 9497,
+    "w": 103,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9534,
+    "w": 45,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9571,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9608,
+    "w": 67,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9664,
+    "w": 135,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 9712,
+    "w": 142,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9749,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 9749,
+    "w": 73,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9786,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 9786,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9822,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 9822,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9859,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 9859,
+    "w": 69,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9896,
+    "w": 127,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9933,
+    "w": 208,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9950,
+    "w": 39,
+    "h": 13
+   },
+   {
+    "x": 79,
+    "y": 9950,
+    "w": 51,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9986,
+    "w": 196,
+    "h": 13
+   },
+   {
+    "x": 236,
+    "y": 9986,
+    "w": 64,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10023,
+    "w": 154,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10060,
+    "w": 147,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10097,
+    "w": 261,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10169,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 10273,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 10486,
+    "w": 81,
+    "h": 13
+   },
+   {
+    "x": 32,
+    "y": 10502,
+    "w": 136,
+    "h": 13
+   }
+  ],
+  "eds": [
+   {
+    "x": 40,
+    "y": 476,
+    "w": 186,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 515,
+    "w": 122,
+    "h": 40
+   },
+   {
+    "x": 53,
+    "y": 700,
+    "w": 255,
+    "h": 32
+   },
+   {
+    "x": 74,
+    "y": 734,
+    "w": 211,
+    "h": 32
+   },
+   {
+    "x": 117,
+    "y": 767,
+    "w": 126,
+    "h": 32
+   },
+   {
+    "x": 61,
+    "y": 804,
+    "w": 239,
+    "h": 27
+   },
+   {
+    "x": 55,
+    "y": 837,
+    "w": 250,
+    "h": 27
+   },
+   {
+    "x": 72,
+    "y": 871,
+    "w": 217,
+    "h": 27
+   },
+   {
+    "x": 55,
+    "y": 905,
+    "w": 250,
+    "h": 27
+   },
+   {
+    "x": 88,
+    "y": 1255,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 72,
+    "y": 1288,
+    "w": 87,
+    "h": 27
+   },
+   {
+    "x": 72,
+    "y": 1321,
+    "w": 146,
+    "h": 27
+   },
+   {
+    "x": 72,
+    "y": 1355,
+    "w": 74,
+    "h": 27
+   },
+   {
+    "x": 72,
+    "y": 1389,
+    "w": 183,
+    "h": 27
+   },
+   {
+    "x": 96,
+    "y": 1746,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 80,
+    "y": 1783,
+    "w": 186,
+    "h": 27
+   },
+   {
+    "x": 80,
+    "y": 1816,
+    "w": 167,
+    "h": 27
+   },
+   {
+    "x": 80,
+    "y": 1850,
+    "w": 197,
+    "h": 27
+   },
+   {
+    "x": 80,
+    "y": 1850,
+    "w": 172,
+    "h": 27
+   },
+   {
+    "x": 80,
+    "y": 1885,
+    "w": 166,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 1912,
+    "w": 163,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 1939,
+    "w": 184,
+    "h": 18
+   },
+   {
+    "x": 56,
+    "y": 2245,
+    "w": 199,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 2268,
+    "w": 137,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 2306,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 56,
+    "y": 2661,
+    "w": 233,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 2685,
+    "w": 244,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 2708,
+    "w": 247,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 2747,
+    "w": 63,
+    "h": 13
+   },
+   {
+    "x": 73,
+    "y": 2975,
+    "w": 179,
+    "h": 20
+   },
+   {
+    "x": 73,
+    "y": 2998,
+    "w": 161,
+    "h": 20
+   },
+   {
+    "x": 89,
+    "y": 3037,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 73,
+    "y": 3072,
+    "w": 211,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 3096,
+    "w": 178,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 3119,
+    "w": 211,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 3143,
+    "w": 148,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 3167,
+    "w": 194,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 3191,
+    "w": 202,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 3215,
+    "w": 167,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 3238,
+    "w": 214,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 3262,
+    "w": 199,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 3286,
+    "w": 193,
+    "h": 16
+   },
+   {
+    "x": 56,
+    "y": 3681,
+    "w": 199,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 3704,
+    "w": 220,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 3743,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 56,
+    "y": 4004,
+    "w": 226,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 4028,
+    "w": 236,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 4051,
+    "w": 130,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 4089,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 56,
+    "y": 4444,
+    "w": 203,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 4468,
+    "w": 181,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 4491,
+    "w": 104,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 4530,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 56,
+    "y": 4762,
+    "w": 220,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 4785,
+    "w": 223,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 4809,
+    "w": 30,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 4847,
+    "w": 118,
+    "h": 13
+   },
+   {
+    "x": 56,
+    "y": 5202,
+    "w": 239,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 5226,
+    "w": 158,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 5249,
+    "w": 90,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 5287,
+    "w": 101,
+    "h": 13
+   },
+   {
+    "x": 56,
+    "y": 5520,
+    "w": 179,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 5543,
+    "w": 232,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 5567,
+    "w": 236,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 5605,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 56,
+    "y": 5838,
+    "w": 168,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 5861,
+    "w": 200,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 5884,
+    "w": 111,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 5923,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 56,
+    "y": 6278,
+    "w": 196,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 6301,
+    "w": 214,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 6325,
+    "w": 208,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 6363,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 56,
+    "y": 6718,
+    "w": 170,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 6741,
+    "w": 78,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 6780,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 105,
+    "y": 6846,
+    "w": 149,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 6971,
+    "w": 238,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 7004,
+    "w": 60,
+    "h": 32
+   },
+   {
+    "x": 100,
+    "y": 7098,
+    "w": 38,
+    "h": 13
+   },
+   {
+    "x": 100,
+    "y": 7200,
+    "w": 118,
+    "h": 22
+   },
+   {
+    "x": 100,
+    "y": 7226,
+    "w": 140,
+    "h": 22
+   },
+   {
+    "x": 320,
+    "y": 7098,
+    "w": 38,
+    "h": 13
+   },
+   {
+    "x": 320,
+    "y": 7200,
+    "w": 117,
+    "h": 22
+   },
+   {
+    "x": 320,
+    "y": 7226,
+    "w": 122,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 7366,
+    "w": 270,
+    "h": 32
+   },
+   {
+    "x": 72,
+    "y": 7688,
+    "w": 186,
+    "h": 27
+   },
+   {
+    "x": 72,
+    "y": 7722,
+    "w": 216,
+    "h": 27
+   },
+   {
+    "x": 72,
+    "y": 7755,
+    "w": 167,
+    "h": 27
+   },
+   {
+    "x": 72,
+    "y": 7789,
+    "w": 206,
+    "h": 27
+   },
+   {
+    "x": 72,
+    "y": 7789,
+    "w": 188,
+    "h": 27
+   },
+   {
+    "x": 40,
+    "y": 8110,
+    "w": 188,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 8144,
+    "w": 148,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 8177,
+    "w": 239,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 8211,
+    "w": 110,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 8261,
+    "w": 218,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 8288,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 8315,
+    "w": 240,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 8342,
+    "w": 92,
+    "h": 18
+   },
+   {
+    "x": 60,
+    "y": 8400,
+    "w": 100,
+    "h": 16
+   },
+   {
+    "x": 72,
+    "y": 8718,
+    "w": 129,
+    "h": 13
+   },
+   {
+    "x": 72,
+    "y": 8757,
+    "w": 163,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 8780,
+    "w": 130,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 8803,
+    "w": 84,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 8850,
+    "w": 173,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9037,
+    "w": 126,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 9103,
+    "w": 156,
+    "h": 16
+   },
+   {
+    "x": 228,
+    "y": 9103,
+    "w": 165,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 9472,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 9521,
+    "w": 102,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9557,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9594,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9631,
+    "w": 66,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9687,
+    "w": 135,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 9735,
+    "w": 145,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9772,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 9772,
+    "w": 71,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9809,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 9809,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9846,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 9846,
+    "w": 58,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9883,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 9883,
+    "w": 68,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9919,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9956,
+    "w": 206,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9973,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 80,
+    "y": 9973,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10010,
+    "w": 200,
+    "h": 13
+   },
+   {
+    "x": 240,
+    "y": 10010,
+    "w": 65,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10047,
+    "w": 153,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10083,
+    "w": 143,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10120,
+    "w": 262,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10191,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 10295,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 32,
+    "y": 10509,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 32,
+    "y": 10526,
+    "w": 131,
+    "h": 13
+   }
+  ]
+ }
+}

@@ -1,0 +1,22 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.reply.com/4brands-reply/en (live side from cache stardust/replica/gates/4brands-reply-en-1440/chrome-live.json, probed 2026-11-15T11:12:54.918Z — delete the file to re-probe)
+  build: http://localhost:8791/4brands-reply-en-proposed.html
+
+■ header: 4 delta(s) — 5 paired of 5/5 texts, 3/3 icons
+  OFFSET       the region and its 1 paired text(s) sit Δy -27px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+  PAIR         "EN"  Δx -3px (1339→1336); Δy -27px (33→6); Δw +3px (17→20); <button> box 37×17 → 40×17
+  PAIR         "Knowledge"  Δy -27px (75→48); Δw -2px (83→81); <button> box 83×64 → 81×64
+  PAIR         "Contact"  Δy -27px (75→48); Δw -3px (62→59); <a> box 62×64 → 59×64
+  PAIR         "Career"  Δx -4px (693→689); Δy -27px (75→48)
+
+■ footer: 8 delta(s) — 21 paired of 21/21 texts, 4/4 icons
+  PAIR         "Imprint"  Δw -3px (66→63); <a> box 141×48 → 138×48
+  PAIR         "Privacy & Cookie Policy"  Δw +3px (142→145)
+  PAIR         "Privacy Notice"  Δw -2px (165→163)
+  PAIR         "(Candidate)"  Δw -2px (73→71); <a> box 165×17 → 163×17
+  PAIR         "CCPA Privacy Notice"  Δw +4px (127→131)
+  PAIR         "Modern Slavery Act Transparency Policy"  letterSpacing normal → 0.12px
+  PAIR         "(UK & IR)"  letterSpacing normal → 0.12px; Δw +7px (51→58)
+  PAIR         "Accessibility Statement"  Δw -4px (147→143)
+
+✗ 12 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

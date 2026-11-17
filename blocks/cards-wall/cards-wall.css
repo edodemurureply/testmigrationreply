@@ -1,0 +1,1217 @@
+/* cards-wall — lifted from stardust/prototypes/modules.css (module: cards-wall, reply-card base +
+   --thumb-2-3, buttons .btn-link) + brand.css (cards-wall--dark, btn-link--on-dark) +
+   4brands-reply-en.css § 14 (.bjixzhlhub mb 56 / 120; cell 1-4 / 1-8 / 1-12). */
+.cards-wall {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards-wall.dark {
+  background-color: #151f27;
+}
+
+.cards-wall .cards-wall-wrap {
+  flex: 1 1 100%;
+}
+
+.cards-wall.dark .cards-wall-wrap {
+  margin-bottom: 56px;
+}
+
+.cards-wall .cards-wall-cell {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  align-items: center;
+  place-content: center center;
+}
+
+.cards-wall .cards-wall-grid {
+  width: 100%;
+}
+
+.cards-wall .cards-wall-item {
+  margin-bottom: 2.5rem;
+}
+
+.cards-wall .cards-wall-item[hidden] {
+  display: none;
+}
+
+/* reply-card --thumb-2-3 */
+.cards-wall .reply-card {
+  position: relative;
+  display: block;
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.cards-wall .reply-card-cover {
+  display: block;
+}
+
+.cards-wall .reply-card-image-container {
+  --r: 100%;
+  --r-md: 150%;
+
+  position: relative;
+  z-index: 0;
+  display: flex;
+  overflow: hidden;
+  border-radius: 0.375rem;
+}
+
+.cards-wall .reply-card-image-container::before {
+  content: "";
+  float: left;
+  width: 1px;
+  height: 0;
+  margin-left: -1px;
+  padding-bottom: var(--r);
+}
+
+.cards-wall .reply-card-image-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.cards-wall .reply-card-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s cubic-bezier(0.09, 0.72, 0.76, 1.01);
+}
+
+.cards-wall .reply-card-pic,
+.cards-wall .reply-card-image picture,
+.cards-wall .reply-card-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cards-wall .reply-card-pic.desktop {
+  display: none;
+}
+
+.cards-wall .reply-card:hover .reply-card-image {
+  transform: scale(1.05);
+}
+
+.cards-wall .reply-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-basis: 100%;
+  max-width: 100%;
+  margin: 1.25rem 1rem 0.875rem;
+  color: var(--c-ink);
+}
+
+.cards-wall .reply-card-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.cards-wall .reply-card-title :is(h2, h3, h4, h5, h6, p) {
+  display: -webkit-box;
+  margin: 0;
+  overflow: hidden;
+  color: inherit;
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.3;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.cards-wall .reply-card-meta {
+  margin-top: 1rem;
+}
+
+.cards-wall .category-label {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0.5rem 0 0;
+}
+
+.cards-wall .category-dot {
+  flex-shrink: 0;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+}
+
+.cards-wall .category-name p {
+  margin: 0;
+  font-family: var(--font-label);
+  font-size: 0.625rem;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.cards-wall .reply-card-abstract p {
+  margin: 1rem 0 0;
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.cards-wall.dark .reply-card-body {
+  color: #fff;
+}
+
+/* pager: .btn-link (underline that grows to an outline on hover) */
+.cards-wall .cards-wall-pager {
+  display: flex;
+  justify-content: center;
+}
+
+.cards-wall .cards-wall-pager[hidden] {
+  display: none;
+}
+
+.cards-wall .cards-wall-more {
+  position: relative;
+  display: inline-block;
+  padding: 12px 0;
+  color: var(--c-ink);
+  text-align: center;
+  cursor: pointer;
+  transition: padding 0.2s ease-out;
+}
+
+.cards-wall .cards-wall-more p {
+  margin: 0;
+  font-family: var(--font-label);
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.cards-wall .cards-wall-more::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  height: 0;
+  border: 0.125rem solid transparent;
+  border-bottom-color: currentcolor;
+  border-radius: 0.25rem;
+  transform: translate(-50%);
+  transition: border-color 0.1s ease-out 80ms, height 0.25s ease-out 0.15s;
+}
+
+.cards-wall .cards-wall-more:hover {
+  padding: 12px 16px;
+}
+
+.cards-wall .cards-wall-more:hover::after,
+.cards-wall .cards-wall-more:focus-visible::after {
+  height: 100%;
+  border-color: currentcolor;
+}
+
+.cards-wall .cards-wall-more:focus {
+  outline: none;
+}
+
+.cards-wall.dark .cards-wall-more {
+  color: #fff;
+}
+
+@media (width >= 577px) {
+  .cards-wall .reply-card-pic.desktop {
+    display: block;
+  }
+
+  .cards-wall .reply-card-pic.mobile {
+    display: none;
+  }
+}
+
+@media (width >= 768px) {
+  .cards-wall .cards-wall-cell {
+    grid-column: 1 / 9;
+  }
+
+  .cards-wall .cards-wall-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(calc((100% - 40px) / 2), 1fr));
+    grid-auto-rows: 0;
+    gap: 0.3125rem 40px;
+    margin-bottom: 4.875rem;
+  }
+
+  .cards-wall .reply-card-image-container::before {
+    padding-bottom: var(--r-md);
+  }
+}
+
+@media (width >= 1024px) {
+  .cards-wall .cards-wall-cell {
+    grid-column: 1 / 13;
+  }
+
+  .cards-wall .cards-wall-grid {
+    grid-template-columns: repeat(auto-fill, minmax(calc((100% - 80px) / 3), 1fr));
+    margin-bottom: 3.25rem;
+  }
+}
+
+@media (width >= 1112px) {
+  .cards-wall .cards-wall-grid {
+    grid-template-columns: repeat(auto-fill, minmax(calc((100% - 120px) / 4), 1fr));
+    margin-bottom: 0;
+  }
+
+  .cards-wall .cards-wall-item {
+    margin-bottom: 3.5rem;
+  }
+}
+
+@media (width >= 1440px) {
+  .cards-wall.dark .cards-wall-wrap {
+    margin-bottom: 120px;
+  }
+
+  .cards-wall .reply-card-title :is(h2, h3, h4, h5, h6, p) {
+    font-size: 1.25rem;
+  }
+
+  .cards-wall .cards-wall-more {
+    padding: 14px 0;
+  }
+
+  .cards-wall .cards-wall-more p {
+    font-size: 0.875rem;
+  }
+
+  .cards-wall .cards-wall-more:hover {
+    padding: 14px 24px;
+  }
+}
+
+/* card types (hub wall, archetype-hub) — modules.css reply-card --hero / --thumb-1-1 / --logo /
+   --abstract / --hover and cards-wall__item--featured. Untyped cards keep the thumb-2-3 look above. */
+.cards-wall .cards-wall-item.featured {
+  margin-bottom: 3.5rem;
+}
+
+.cards-wall .reply-card-kind-thumb-1-1 .reply-card-image-container {
+  --r: 56.25%;
+  --r-md: 100%;
+}
+
+.cards-wall .reply-card-logo {
+  max-width: 9rem;
+  margin: 1.25rem 0 auto 1.25rem;
+}
+
+.cards-wall .reply-card-logo picture,
+.cards-wall .reply-card-logo img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.cards-wall .reply-card-logo-over .reply-card-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* --abstract: bordered white card, abstract visible (clamp 10) */
+.cards-wall .reply-card-kind-abstract {
+  padding: 2rem;
+  border: 1px solid var(--c-line);
+  border-radius: 0.375rem;
+  background: #fff;
+}
+
+.cards-wall .reply-card-kind-abstract .reply-card-image-container {
+  --r: 56.25%;
+  --r-md: 56.25%;
+
+  margin-bottom: 1.25rem;
+}
+
+.cards-wall .reply-card-kind-abstract .reply-card-body {
+  margin: 0;
+}
+
+.cards-wall .reply-card-kind-abstract .reply-card-abstract {
+  display: -webkit-box;
+  margin-top: 1.125rem;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 10;
+}
+
+.cards-wall .reply-card-kind-abstract .reply-card-abstract p {
+  margin: 0;
+}
+
+/* --hover: 2:3 image that shrinks on hover to reveal the abstract (clamp 5 / 6) */
+.cards-wall .reply-card-kind-hover {
+  --initial-ratio: 100%;
+
+  height: 0;
+  padding-bottom: calc(var(--initial-ratio) + 126px);
+  overflow: hidden;
+}
+
+.cards-wall .reply-card-kind-hover .reply-card-image-container::before {
+  padding-bottom: var(--initial-ratio);
+  transition: padding-bottom 0.3s ease-out;
+}
+
+.cards-wall .reply-card-kind-hover:hover .reply-card-image-container::before {
+  padding-bottom: 56.25%;
+}
+
+.cards-wall .reply-card-kind-hover .reply-card-abstract {
+  display: -webkit-box;
+  padding-top: 1rem;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  transition: opacity 0.3s ease-out;
+}
+
+.cards-wall .reply-card-kind-hover .reply-card-abstract p {
+  margin: 0;
+}
+
+.cards-wall .reply-card-kind-hover:hover .reply-card-abstract {
+  opacity: 1;
+}
+
+/* --hero: full-width featured card, body over the image */
+.cards-wall .reply-card-hero .reply-card-image-container {
+  --r: 150%;
+  --r-md: 50%;
+}
+
+.cards-wall .reply-card-hero .reply-card-cover {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cards-wall .reply-card-hero:hover .reply-card-image {
+  transform: scale(1);
+}
+
+.cards-wall .reply-card-grid {
+  position: relative;
+  display: grid;
+  flex-basis: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2.5rem;
+  pointer-events: none;
+}
+
+.cards-wall .reply-card-hero .reply-card-body {
+  display: flex;
+  grid-column: 1 / span 4;
+  flex-direction: column;
+  margin: 0;
+  padding: 0 2.5rem 3rem;
+  background: linear-gradient(#0000 0%, #000000b3 100%);
+  color: #fff;
+}
+
+.cards-wall .reply-card-hero .reply-card-body a {
+  pointer-events: auto;
+}
+
+.cards-wall .reply-card-hero .reply-card-logo {
+  position: absolute;
+  top: 1rem;
+  align-self: flex-start;
+  width: 5.625rem;
+  margin: 0;
+}
+
+.cards-wall .reply-card-hero .category-label {
+  margin: 0 0 1.25rem;
+  color: #fff;
+}
+
+.cards-wall .reply-card-hero .reply-card-title :is(h2, h3, h4, h5, h6, p) {
+  display: block;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.cards-wall .reply-card.reply-card-hero .reply-card-abstract {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.cards-wall .reply-card.reply-card-hero .reply-card-abstract p {
+  margin: 0;
+  color: #fff;
+  font-size: 1rem;
+}
+
+/* the hero's art direction switches at 767 (the other cards at 576) */
+@media (width >= 577px) and (width < 768px) {
+  .cards-wall .reply-card-hero .reply-card-pic.desktop {
+    display: none;
+  }
+
+  .cards-wall .reply-card-hero .reply-card-pic.mobile {
+    display: block;
+  }
+}
+
+@media (width >= 768px) {
+  .cards-wall .cards-wall-item.featured {
+    grid-column: span 2;
+    margin-bottom: 4rem;
+  }
+
+  .cards-wall .reply-card-logo {
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .cards-wall .reply-card-kind-hover {
+    --initial-ratio: 150%;
+  }
+
+  .cards-wall .reply-card-kind-hover:hover .reply-card-image-container::before {
+    padding-bottom: 100%;
+  }
+
+  .cards-wall .reply-card-grid {
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+    background: linear-gradient(24deg, #00000059 0%, #0000 100%);
+  }
+
+  .cards-wall .reply-card-hero .reply-card-body {
+    grid-column: 2 / span 4;
+    padding: 0;
+    background: none;
+  }
+
+  .cards-wall .reply-card-hero .reply-card-logo {
+    position: relative;
+    top: 0;
+    width: 7.0625rem;
+    margin: 0 0 1.5rem;
+  }
+
+  .cards-wall .reply-card-hero .category-label {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (width >= 1024px) {
+  .cards-wall .cards-wall-item.featured {
+    grid-column: span 3;
+    margin-bottom: 4.5rem;
+  }
+
+  .cards-wall .reply-card-grid {
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .cards-wall .reply-card-hero .reply-card-body {
+    grid-column: 2 / span 5;
+  }
+
+  .cards-wall .reply-card.reply-card-hero .reply-card-abstract {
+    margin-top: 0.75rem;
+  }
+}
+
+@media (width >= 1024px) and (width < 1440px) {
+  .cards-wall .reply-card-kind-abstract {
+    padding: 1.75rem;
+  }
+}
+
+@media (width >= 1112px) {
+  .cards-wall .cards-wall-item.featured {
+    grid-column: span 4;
+    margin-bottom: 4.5rem;
+  }
+}
+
+@media (width >= 1440px) {
+  .cards-wall .reply-card-kind-hover .reply-card-abstract {
+    -webkit-line-clamp: 6;
+  }
+
+  .cards-wall .reply-card-hero .reply-card-title :is(h2, h3, h4, h5, h6, p) {
+    font-size: 1.75rem;
+  }
+
+  .cards-wall .reply-card.reply-card-hero .reply-card-abstract {
+    margin-top: 1.25rem;
+  }
+}
+
+/* card type hover-1-1 (en-insights, index): modules.css reply-card--hover-1-1 ratios */
+.cards-wall .reply-card-kind-hover-1-1 {
+  --initial-ratio: 56.25%;
+}
+
+.cards-wall .reply-card-kind-hover-1-1:hover .reply-card-image-container::before {
+  padding-bottom: 33.3333%;
+}
+
+/* variant listing (en-insights .ins-wall): margin-bottom 96 / 104 / 96 / 120 */
+.cards-wall.listing .cards-wall-wrap {
+  margin-bottom: 96px;
+}
+
+@media (width >= 768px) {
+  .cards-wall .reply-card-kind-hover-1-1 {
+    --initial-ratio: 100%;
+  }
+
+  .cards-wall .reply-card-kind-hover-1-1:hover .reply-card-image-container::before {
+    padding-bottom: 56.25%;
+  }
+
+  .cards-wall.listing .cards-wall-wrap {
+    margin-bottom: 104px;
+  }
+}
+
+@media (width >= 1024px) {
+  .cards-wall.listing .cards-wall-wrap {
+    margin-bottom: 96px;
+  }
+}
+
+@media (width >= 1440px) {
+  .cards-wall .reply-card-kind-hover-1-1 .reply-card-abstract {
+    -webkit-line-clamp: 5;
+  }
+
+  .cards-wall.listing .cards-wall-wrap {
+    margin-bottom: 120px;
+  }
+}
+
+/* card type product (index, modules.css reply-card--slider --product): 2:3 cover, copy over a
+   light bottom scrim, the whole card one link */
+.cards-wall .reply-card-kind-product .reply-card-image-container {
+  --r: 150%;
+  --r-md: 150%;
+}
+
+.cards-wall .reply-card-kind-product .reply-card-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#0000 43.5%, #0c11158a 100%);
+}
+
+.cards-wall .reply-card-kind-product .reply-card-body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 1.25rem 2rem 2rem;
+}
+
+.cards-wall .reply-card-kind-product .reply-card-title :is(h2, h3, h4, h5, h6, p) {
+  color: #fff;
+}
+
+.cards-wall .reply-card-kind-product .category-label {
+  margin-top: 1.5rem;
+  color: #fff;
+}
+
+/* card video (index): DAM player in the image box on the apply-default-bg gradient + pause disc */
+.cards-wall .reply-card-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-width: 50px;
+  height: 100%;
+  overflow: hidden;
+  background: linear-gradient(340deg, #003038 0%, #014753 100%);
+}
+
+.cards-wall .reply-card-video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.cards-wall .reply-card-player-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.cards-wall .reply-card-video-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cards-wall .reply-card-toggle {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #ffffff1f;
+  backdrop-filter: blur(20px);
+  cursor: pointer;
+}
+
+.cards-wall .reply-card-toggle .reply-card-play,
+.cards-wall .reply-card-toggle[data-state="paused"] .reply-card-pause {
+  display: none;
+}
+
+.cards-wall .reply-card-toggle[data-state="paused"] .reply-card-play {
+  display: block;
+}
+
+/* card play (insights, card-wall-thumb-2-3 player-icon-container): 72 px round-bt--filled-on-dark
+   play disc centred over the image; the DAM player opens in a modal dialog */
+.cards-wall .reply-card-play-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.cards-wall .reply-card-play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+}
+
+.cards-wall .reply-card-play-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  padding: 0 0 0 4px;
+  border: 0;
+  border-radius: 50%;
+  background: #ffffff1f;
+  backdrop-filter: blur(20px);
+  cursor: pointer;
+}
+
+.cards-wall .reply-card-modal {
+  width: min(100% - 2rem, 1100px);
+  max-width: none;
+  padding: 0;
+  border: 0;
+  background: #000;
+}
+
+.cards-wall .reply-card-modal::backdrop {
+  background: #000000d9;
+}
+
+.cards-wall .reply-card-modal-frame {
+  position: relative;
+  aspect-ratio: 16 / 9;
+}
+
+.cards-wall .reply-card-modal-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.cards-wall .reply-card-modal-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 1;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 0;
+  border-radius: 50%;
+  background: #ffffff1f;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+/* index walls: margins (featured 0 / 56 -> 0 >= 576 -> 88 >= 768 -> 60 >= 1440; main 60 / 40 ->
+   80 / 80 >= 1440) and the home R-02 tracking (.home .t-h6 letter-spacing .01em) */
+.cards-wall.home-featured .cards-wall-wrap {
+  margin-bottom: 56px;
+}
+
+.cards-wall.home-main .cards-wall-wrap {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.cards-wall:is(.home-featured, .home-main) .reply-card-title :is(h2, h3, h4, h5, h6, p) {
+  letter-spacing: 0.01em;
+}
+
+@media (width >= 576px) {
+  .cards-wall.home-featured .cards-wall-wrap {
+    margin-bottom: 0;
+  }
+}
+
+@media (width >= 768px) {
+  .cards-wall.home-featured .cards-wall-wrap {
+    margin-bottom: 88px;
+  }
+}
+
+@media (width >= 1112px) {
+  .cards-wall.special .cards-wall-grid {
+    grid-template-columns: repeat(auto-fill, minmax(calc((100% - 80px) / 3), 1fr));
+  }
+}
+
+@media (width >= 1440px) {
+  .cards-wall.home-featured .cards-wall-wrap {
+    margin-bottom: 60px;
+  }
+
+  .cards-wall.home-main .cards-wall-wrap {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+}
+
+/* time stamp in the meta row (index news cards): inline label in a 27.2 px body line box */
+.cards-wall .reply-card-time {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.cards-wall .reply-card .reply-card-meta .reply-card-time p {
+  display: inline;
+  margin: 0;
+  color: #71808e;
+  font-family: txtislskto, var(--font-label);
+  font-size: 0.625rem;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+/* special (3 columns from 1112): the featured card spans the 3 tracks (hub energy / design walls) */
+@media (width >= 1112px) {
+  .cards-wall.special .cards-wall-item.featured {
+    grid-column: span 3;
+  }
+}
+
+/* hub spacing tokens (cluster-hub): measured space above the wall */
+.cards-wall.spaced .cards-wall-wrap {
+  margin-top: var(--sp-tm, 0);
+}
+
+@media (width >= 768px) {
+  .cards-wall.spaced .cards-wall-wrap {
+    margin-top: var(--sp-t, 0);
+  }
+}
+
+/* event (card-wall-event): bordered white card, 9:4 head, date block (day .h3 + month) over the
+   photo (20 % multiply veil), body padding 32 / 28 (lg) / 32 (xl) */
+.cards-wall .reply-card.reply-card-event {
+  border: 1px solid var(--c-line);
+  border-radius: 0.375rem;
+  background-color: #fff;
+}
+
+.cards-wall .reply-card.reply-card-event .reply-card-cover {
+  display: block;
+  color: var(--c-ink);
+  text-decoration: none;
+}
+
+.cards-wall .reply-card.reply-card-event .reply-card-image-container {
+  --r: 0;
+  --r-md: 0;
+
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 44.4444%;
+  border-radius: 5px 5px 0 0;
+  background-color: #0003;
+}
+
+.cards-wall .reply-card.reply-card-event .reply-card-image {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+}
+
+.cards-wall .reply-card.reply-card-event .reply-card-pic {
+  position: absolute;
+  inset: 0;
+}
+
+.cards-wall .reply-card.reply-card-event .reply-card-pic picture,
+.cards-wall .reply-card.reply-card-event .reply-card-pic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cards-wall .reply-card.reply-card-event .reply-card-date {
+  position: relative;
+  margin-left: 2rem;
+  color: #fff;
+}
+
+.cards-wall .reply-card.reply-card-event .reply-card-date p {
+  margin: 0;
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.cards-wall .reply-card.reply-card-event .reply-card-day p {
+  font-size: 1.75rem;
+  line-height: 1.2;
+}
+
+.cards-wall .reply-card.reply-card-event .reply-card-body {
+  margin: 0;
+  padding: 2rem;
+}
+
+.cards-wall .reply-card.reply-card-event .reply-card-abstract {
+  margin-top: 1.125rem;
+}
+
+.cards-wall .reply-card.reply-card-event .reply-card-event-info {
+  margin-top: 1.25rem;
+}
+
+/* time / location rows: paragraph-02 with the source icon glyphs (Website Icons time, map pin) */
+.cards-wall .reply-card.reply-card-event .reply-card-event-info > div {
+  display: flex;
+}
+
+.cards-wall .reply-card.reply-card-event .reply-card-event-info > div:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.cards-wall .reply-card.reply-card-event .reply-card-event-info > div::before {
+  margin-right: 0.5rem;
+  font-family: "Website Icons", sans-serif;
+  font-size: 1rem;
+  line-height: 1.4875;
+}
+
+.cards-wall .reply-card.reply-card-event .reply-card-time-row::before {
+  content: "\f20f";
+}
+
+.cards-wall .reply-card.reply-card-event .reply-card-location::before {
+  content: "\ef0a";
+}
+
+.cards-wall .reply-card.reply-card-event .reply-card-event-info p {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+@media (width >= 1024px) {
+  .cards-wall .reply-card.reply-card-event .reply-card-body {
+    padding: 1.75rem;
+  }
+}
+
+@media (width >= 1440px) {
+  .cards-wall .reply-card.reply-card-event .reply-card-body {
+    padding: 2rem;
+  }
+
+  .cards-wall .reply-card.reply-card-event .reply-card-day p {
+    font-size: 2.25rem;
+  }
+}
+
+/* home-featured xmas (en-christmas .idxltngrgg: margin-bottom 96 below 1440, 60 from 1440) */
+.cards-wall.home-featured.xmas .cards-wall-wrap {
+  margin-bottom: 96px;
+}
+
+@media (width >= 1440px) {
+  .cards-wall.home-featured.xmas .cards-wall-wrap {
+    margin-bottom: 60px;
+  }
+}
+
+/* fix-hub-c: the source clamps the card title inside its link (a > h3.line-clamp-3), so the link box
+   is the clamped box; here the authored link sits in the heading — clamp on the link itself, the
+   heading wraps it (same 3-line box, the control is no longer cut by an ancestor) */
+.cards-wall.cards-wall .reply-card-title :is(h2, h3, h4, h5, h6, p):has(> a:only-child) {
+  display: block;
+  overflow: visible;
+}
+
+.cards-wall.cards-wall .reply-card-title :is(h2, h3, h4, h5, h6, p) > a:only-child {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: inherit;
+}
+
+/* fix-hub-c: event card abstract — the source sets the copy 18 px under the label (the abstract
+   box margin only); the generic abstract paragraph margin (1rem) does not apply here */
+.cards-wall .reply-card.reply-card-event .reply-card-abstract p:first-child {
+  margin-top: 0;
+}
+
+/* the event card title sits 20 px under the image at 360 and 1440 (live probe), not 32 */
+.cards-wall .reply-card.reply-card-event .reply-card-body.reply-card-body {
+  padding-top: 1.25rem;
+}
+
+/* variant hfull (fix-hub-e): the live hero card title (reply-card-hero > a > h3.h4) has no line
+   clamp — a long title grows the 2:3 card at 360 (ai Unipol hero: 8 lines, card 532 px); the
+   link-clamp rule above must not clip it */
+.cards-wall.hfull .reply-card-hero .reply-card-title :is(h2, h3, h4, h5, h6, p) > a:only-child {
+  display: inline;
+  overflow: visible;
+  -webkit-line-clamp: none;
+}
+
+/* variant ranges (fix-hub-e, hub news walls): an event spanning two months carries four date
+   paragraphs (day, month year, day, month year) — the live lower / upper containers: each day
+   (.h3) run straight into its month (no gap), one line each */
+.cards-wall.ranges .reply-card.reply-card-event .reply-card-date:has(.reply-card-month > p:nth-child(3)) {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: baseline;
+}
+
+.cards-wall.ranges .reply-card.reply-card-event .reply-card-date .reply-card-month:has(> p:nth-child(3)) {
+  display: contents;
+}
+
+.cards-wall.ranges .reply-card.reply-card-event .reply-card-month > p:nth-child(2):has(+ p) {
+  font-size: 1.75rem;
+  line-height: 1.2;
+}
+
+@media (width >= 1440px) {
+  .cards-wall.ranges .reply-card.reply-card-event .reply-card-month > p:nth-child(2):has(+ p) {
+    font-size: 2.25rem;
+  }
+}
+
+/* adobe-news (fix-hub-e, en/adobe news wall): ice band, band bottom 56 / 120 below the pager */
+.cards-wall.adobe-news {
+  background-color: #f4f8fc;
+}
+
+.cards-wall.cards-wall.adobe-news .cards-wall-wrap {
+  margin-bottom: 56px;
+}
+
+@media (width >= 768px) {
+  .cards-wall.cards-wall.adobe-news .cards-wall-wrap {
+    margin-bottom: 120px;
+  }
+}
+
+/* htop (fix-hub-f): the live hero card keeps its 16:9 picture at full width from 768 (img
+   width 100 %, height auto), top-anchored in the 2:1 box — the lower 82 px at 1440 are cut */
+@media (width >= 768px) {
+  .cards-wall.htop .reply-card-hero .reply-card-image :is(.reply-card-pic, picture) {
+    height: auto;
+  }
+
+  .cards-wall.htop .reply-card-hero .reply-card-image img {
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+}
+
+/* hub spacing below the wall (fix-hub-f): b / bm / bx tokens (>= 768 / < 768 / >= 1440) */
+.cards-wall.spaced.spaced-b .cards-wall-wrap {
+  margin-bottom: var(--sp-bm, 0);
+}
+
+@media (width >= 768px) {
+  .cards-wall.spaced.spaced-b .cards-wall-wrap {
+    margin-bottom: var(--sp-b, 0);
+  }
+}
+
+@media (width >= 1440px) {
+  .cards-wall.spaced.spaced-b .cards-wall-wrap {
+    margin-bottom: var(--sp-bx, var(--sp-b, 0));
+  }
+}
+
+/* card CTA (fix-hub-f, abstract card "Download" button-link: mt-5, 14 / 19.6 medium) */
+.cards-wall .reply-card-cta {
+  margin-top: 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+/* htop (fix-hub-f): a second / later featured card tucks up under the one above (live
+   .cards-wall-item.featured:nth-of-type(n+2) margin-top -.5rem / -.25rem / 0 / -1rem) */
+.cards-wall.htop .cards-wall-item.featured ~ .cards-wall-item.featured {
+  margin-top: -0.5rem;
+}
+
+@media (width >= 768px) {
+  .cards-wall.htop .cards-wall-item.featured ~ .cards-wall-item.featured {
+    margin-top: -0.25rem;
+  }
+}
+
+@media (width >= 1024px) {
+  .cards-wall.htop .cards-wall-item.featured ~ .cards-wall-item.featured {
+    margin-top: 0;
+  }
+}
+
+@media (width >= 1112px) {
+  .cards-wall.htop .cards-wall-item.featured ~ .cards-wall-item.featured {
+    margin-top: -1rem;
+  }
+}
+
+/* variant ev24 (fix-hub-j, en-digital-assets event cards, live probe 360 / 1440): the event card's
+   category label sits 24 px under the title (live .category-label mt 24), not the 16 px meta gap */
+.cards-wall.ev24 .reply-card.reply-card-event .reply-card-meta {
+  margin-top: 24px;
+}
+
+/* variant ttrack (fix-hub-h, en/cx-and-digital-commerce @360): card titles carry .01em below 768 —
+   the Archivo stand-in sets 1-4 px narrower than the live face, so 2 of the wall's titles wrapped
+   one line short (cwtune.mjs: 4 line-count mismatches unset, 2 at .01em) */
+@media (width < 768px) {
+  .cards-wall.ttrack .reply-card-title a {
+    letter-spacing: 0.01em;
+  }
+}
+
+/* variant catnw (fix-hub-j, en-logistics LEA Reply hero card @360): the live category label
+   "Product & Accelerator" holds one line (the stand-in label face runs wider and wrapped it) */
+@media (width < 768px) {
+  .cards-wall.catnw .category-name {
+    white-space: nowrap;
+  }
+}
+
+/* variant t18 (fix-hub-j, en-logistics / en-digital-assets walls @360): the card titles' stand-in
+   face runs ~2 % narrower than the live face, so "Scaling Otto Group's logistics with a digital
+   twin" held 2 lines (live 3); .02em brings the line fit back (every other title keeps its lines) */
+@media (width < 768px) {
+  .cards-wall.t18 .reply-card-title :is(h2, h3, h4, h5, h6) {
+    letter-spacing: 0.02em;
+  }
+}
+
+/* variant evtrack (fix-hub-h, en/governance-risk-and-compliance @360): event card abstracts carry
+   .015em below 768 — the stand-in face sets the DLA Piper abstract in 8 lines where live wraps 9
+   (cwtune.mjs: .01-.025em match every event abstract on the wall) */
+@media (width < 768px) {
+  .cards-wall.evtrack .reply-card-event .reply-card-abstract p {
+    letter-spacing: 0.015em;
+  }
+}
+
+/* per-card tracking tokens tls-N / als-N (fix-hub-k, en/digital-experience @360): the card's title /
+   abstract carries N ‰em below 768 where the stand-in face sets one line short of the live face
+   (perls.mjs sweep per card: Eden / Geox titles, U-Power / ABB / L.K. Bennett abstracts) */
+@media (width < 768px) {
+  .cards-wall .reply-card-tls .reply-card-title :is(h2, h3, h4, h5, h6, a) {
+    letter-spacing: var(--cw-tls);
+  }
+
+  .cards-wall .reply-card-als .reply-card-abstract,
+  .cards-wall .reply-card-als .reply-card-abstract :is(p, a) {
+    letter-spacing: var(--cw-als);
+  }
+}
+
+/* variant evtime (fix-hub-k, en/digital-assets event cards @360): the live time row holds one line
+   (Solirius "11:00 AM – 5:30 PM GMT+1" 189 px in the 190 px column); the stand-in face runs a px
+   wider and wrapped it */
+@media (width < 768px) {
+  .cards-wall.evtime .reply-card.reply-card-event .reply-card-time-row p {
+    white-space: nowrap;
+  }
+}
+
+/* variant evdim (fix-hub-k, en/digital-assets event cards, live probe 360): the live event head is
+   .reply-card-image.needs-overlay — the photo is a background under rgba(0, 0, 0, .2), multiplied
+   (stitched origin mean 139 vs delivered 171 = x .8); the delivered <img> takes the same .8 */
+.cards-wall.evdim .reply-card.reply-card-event .reply-card-image-container img {
+  filter: brightness(0.8);
+}
+
+/* variant evmeta (fix-hub-m, en/cloud-computing event cards, mev 360): the live category label
+   sits 24 px under the title (div.category-label mt 24), not 16 — each card ran 8 px short */
+@media (width < 768px) {
+  .cards-wall.evmeta .reply-card.reply-card-event .reply-card-meta {
+    margin-top: 1.5rem;
+  }
+}

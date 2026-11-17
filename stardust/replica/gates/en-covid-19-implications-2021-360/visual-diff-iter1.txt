@@ -1,0 +1,1029 @@
+[live-session] waiting to pace live navigations to www.reply.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 970 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/en-covid-19-implications-2021-360/vdiff-iter1/
+
+build red flags (advisory): 
+  • SURFACE/GROUND MISMATCH: heading "The new normal in 2021 tension f" is rgb(21, 31, 39) in build vs rgb(255, 255, 255) in source (luminance 29 vs 255). A matched heading renders on a different ground (dark vs light) — check the section background.
+  • SURFACE/GROUND MISMATCH: heading "Getting prepared for 2021" is rgb(21, 31, 39) in build vs rgb(255, 255, 255) in source (luminance 29 vs 255). A matched heading renders on a different ground (dark vs light) — check the section background.
+  • IMAGE DID NOT LOAD: f56ec3f9-312b-40e1-b47d-bdebc0a5c918.svg rendered 24x24 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: a6732ee4-95cf-4951-9c4b-3675c7154f7e.svg rendered 24x24 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 49664893-bfc1-4d79-9208-3bdd7083126b.svg rendered 24x24 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: c48097ef-90ed-4c24-aa40-1764649e72ff.svg rendered 24x24 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 16158,
+  "textLen": 8652,
+  "images": [
+   {
+    "src": "pixel.gif?clkgypv=jstag&ws=1&b=avmWr5wEbzGyNxKtaWfC64T2",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4?clkgypv=jstag&ws=1&b=avmWr5wEbzGyNxKtaWfC64T2",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "pixel.gif?ch=319&cm=1cb85bc308262d1e73cc1794732211",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "pixel.gif?ch=278&cm=1cb85bc308262d1e73cc1794732211",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6a83d9fb-6523-4b54-ac4a-12b422b1769f.png?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d0322109-575b-45fd-9971-45190633c2b6.png?im=Crop,rect=(381,0,1076,1076),allowExpansion;Resize,width=600",
+    "natural": "600x600",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6a83d9fb-6523-4b54-ac4a-12b422b1769f.png?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d0322109-575b-45fd-9971-45190633c2b6.png?im=Crop,rect=(381,0,1076,1076),allowExpansion;Resize,width=600",
+    "natural": "600x600",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aa4238ba-3403-49d7-a043-8101b9cc4847.png?im=AspectCrop=(16,9);Resize,width=1000",
+    "natural": "1000x563",
+    "rendered": "360x211",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f727e88f-8ead-431b-a235-3071066e869b.png?im=Crop,rect=(318,175,1595,897),allowExpansion;Resize,width=1000",
+    "natural": "1000x562",
+    "rendered": "360x263",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aa4238ba-3403-49d7-a043-8101b9cc4847.png?im=AspectCrop=(16,9);Resize,width=1000",
+    "natural": "1000x563",
+    "rendered": "360x211",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f727e88f-8ead-431b-a235-3071066e869b.png?im=Crop,rect=(318,175,1595,897),allowExpansion;Resize,width=1000",
+    "natural": "1000x562",
+    "rendered": "360x263",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4a3ac8fc-61fc-44d6-b871-c03234921740.png?im=AspectCrop=(16,9);Resize,width=1000",
+    "natural": "0x0",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "590a6b5b-6b81-4e68-963c-33f1418ad260.png?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "0x0",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "4a3ac8fc-61fc-44d6-b871-c03234921740.png?im=AspectCrop=(16,9);Resize,width=1000",
+    "natural": "0x0",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "590a6b5b-6b81-4e68-963c-33f1418ad260.png?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "0x0",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "32281efa-65ff-4225-b742-81b0132935da.jpg?im=Crop,rect=(837,0,1080,1080),allowExpansion;Resize,width=600",
+    "natural": "0x0",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "7105a802-e582-481d-9ddb-871fc30c6b71.jpg?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "0x0",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "7105a802-e582-481d-9ddb-871fc30c6b71.jpg?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "0x0",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "7105a802-e582-481d-9ddb-871fc30c6b71.jpg?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "0x0",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "7105a802-e582-481d-9ddb-871fc30c6b71.jpg?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "0x0",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "abbf29a5-a79d-4af9-92cd-7b5a62483b92.png?im=AspectCrop=(2,3)",
+    "natural": "721x1081",
+    "rendered": "360x608",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "caac675f-83d7-49d3-941a-158fbfda0eed.png?im=AspectCrop=(1,1)",
+    "natural": "4167x4167",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ccf34727-0ce4-4fcd-8642-b6ad69bb730b.png?im=AspectCrop=(1,1)",
+    "natural": "1250x1250",
+    "rendered": "300x300",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6e76aaf5-a0ab-4021-8c0f-0e60cdf85cd5.png?im=AspectCrop=(1,1)",
+    "natural": "1250x1250",
+    "rendered": "300x300",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "2ad3254f-2e46-47de-aee9-562449f83367.png?im=AspectCrop=(1,1)",
+    "natural": "1250x1250",
+    "rendered": "300x300",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "9ba89e48-7660-4c0b-a2ab-4b107a3c1345.png?im=AspectCrop=(1,1)",
+    "natural": "1250x1250",
+    "rendered": "300x300",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fcfcd598-dbc3-4e99-94d7-2607e6f2589e.png?im=AspectCrop=(1,1)",
+    "natural": "1250x1250",
+    "rendered": "300x300",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "56106430-bd27-45cf-aa8e-c381f5684751.png?im=AspectCrop=(1,1)",
+    "natural": "1250x1250",
+    "rendered": "300x300",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1bd97372-d6c2-448b-ad52-b00bbf7c8686.png?im=AspectCrop=(1,1)",
+    "natural": "1250x1250",
+    "rendered": "300x300",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "c38c62a8-0740-4876-a7f1-ff78af7d026a.png?im=AspectCrop=(1,1)",
+    "natural": "1250x1250",
+    "rendered": "300x300",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "421e6f7d-f003-4b28-bfeb-6d2d786bac49.png?im=AspectCrop=(1,1)",
+    "natural": "1250x1250",
+    "rendered": "300x300",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "54ac5fb9-2e66-4164-9439-eb370527815c.png?im=AspectCrop=(1,1)",
+    "natural": "1250x1250",
+    "rendered": "300x300",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "afcd167f-8314-45d2-84f2-bbbf0e9f8704.png?im=AspectCrop=(1,1)",
+    "natural": "1250x1250",
+    "rendered": "300x300",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "cb0df27b-a6a2-4ca6-8a1b-e35b9930ed78.png?im=AspectCrop=(1,1)",
+    "natural": "1250x1250",
+    "rendered": "300x300",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7736a790-2a4d-4319-9b6c-997b6a1e85a7.png?im=AspectCrop=(1,1)",
+    "natural": "264x264",
+    "rendered": "120x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d293fbb1-e4f0-4fec-81ee-4a83c5a69fb0.png?im=AspectCrop=(1,1)",
+    "natural": "264x264",
+    "rendered": "120x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "cba52e84-cf84-4fe6-b738-0e87b51067b6.png?im=AspectCrop=(1,1)",
+    "natural": "264x264",
+    "rendered": "120x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "825cb7e8-d7b8-48d2-b4f5-f75bf3bab0bc.png?im=AspectCrop=(1,1)",
+    "natural": "264x264",
+    "rendered": "120x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918.svg",
+    "natural": "0x0",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "a6732ee4-95cf-4951-9c4b-3675c7154f7e.svg",
+    "natural": "0x0",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "49664893-bfc1-4d79-9208-3bdd7083126b.svg",
+    "natural": "0x0",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "c48097ef-90ed-4c24-aa40-1764649e72ff.svg",
+    "natural": "0x0",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "Reply_-_LOGO__150dpi.jpg",
+    "natural": "614x164",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=6ffefa6f-cba7-4af8-a1b3-69bf116d79a2&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=1cf8f2f7-a2f8-43cf-a430-bfd1af21a5c3&tw_document_href=https%3A%2F%2Fwww.reply.com%2Fen%2Fcovid-19-implications-2021&tw_engaged_ms=2&tw_iframe_status=0&tw_pid_src=2&tw_session_count=2&tw_session_id=1794740791813-388431517&twpid=tw.1794732210194.762815424698551296&txn_id=o5y7w&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=6ffefa6f-cba7-4af8-a1b3-69bf116d79a2&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=1cf8f2f7-a2f8-43cf-a430-bfd1af21a5c3&tw_document_href=https%3A%2F%2Fwww.reply.com%2Fen%2Fcovid-19-implications-2021&tw_engaged_ms=2&tw_iframe_status=0&tw_pid_src=2&tw_session_count=2&tw_session_id=1794740791813-388431517&twpid=tw.1794732210194.762815424698551296&txn_id=o5y7w&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=2&event_id=62470fbc-fa1e-465f-b904-f14cc0383524&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=1cf8f2f7-a2f8-43cf-a430-bfd1af21a5c3&tw_document_href=https%3A%2F%2Fwww.reply.com%2Fen%2Fcovid-19-implications-2021&tw_engaged_ms=10002&tw_iframe_status=0&tw_pid_src=2&tw_session_count=2&tw_session_id=1794740791813-388431517&twpid=tw.1794732210194.762815424698551296&txn_id=o5y7w&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=2&event_id=62470fbc-fa1e-465f-b904-f14cc0383524&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=1cf8f2f7-a2f8-43cf-a430-bfd1af21a5c3&tw_document_href=https%3A%2F%2Fwww.reply.com%2Fen%2Fcovid-19-implications-2021&tw_engaged_ms=10002&tw_iframe_status=0&tw_pid_src=2&tw_session_count=2&tw_session_id=1794740791813-388431517&twpid=tw.1794732210194.762815424698551296&txn_id=o5y7w&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "What will be the implications in",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "36px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Preliminary remarks",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "28px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "A pendulum of mood swings",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "28px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "The new normal in 2021 tension f",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Tension 1",
+    "color": "rgb(88, 102, 116)",
+    "fontSize": "10px",
+    "family": "txtislskto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Tension 2",
+    "color": "rgb(88, 102, 116)",
+    "fontSize": "10px",
+    "family": "txtislskto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Tension 3",
+    "color": "rgb(88, 102, 116)",
+    "fontSize": "10px",
+    "family": "txtislskto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Tension 4",
+    "color": "rgb(88, 102, 116)",
+    "fontSize": "10px",
+    "family": "txtislskto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Getting prepared for 2021",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Research",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "INDEX",
+    "color": "rgb(21, 31, 39)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "ProseMirror",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "ProseMirror",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "ProseMirror",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "ProseMirror",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "ProseMirror",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "ProseMirror",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "ProseMirror",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "ProseMirror",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "ProseMirror",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "ProseMirror",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "ProseMirror",
+    "width": 300,
+    "left": 40
+   },
+   {
+    "sel": "ProseMirror",
+    "width": 300,
+    "left": 40
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 12370,
+  "textLen": 8652,
+  "images": [
+   {
+    "src": "6a83d9fb-6523-4b54-ac4a-12b422b1769f.png?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d0322109-575b-45fd-9971-45190633c2b6.png?im=Crop,rect=(381,0,1076,1076),allowExpansion;Resize,width=600",
+    "natural": "600x600",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6a83d9fb-6523-4b54-ac4a-12b422b1769f.png?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d0322109-575b-45fd-9971-45190633c2b6.png?im=Crop,rect=(381,0,1076,1076),allowExpansion;Resize,width=600",
+    "natural": "600x600",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aa4238ba-3403-49d7-a043-8101b9cc4847.png?im=AspectCrop=(16,9);Resize,width=1000",
+    "natural": "1000x563",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f727e88f-8ead-431b-a235-3071066e869b.png?im=Crop,rect=(318,175,1595,897),allowExpansion;Resize,width=1000",
+    "natural": "1000x562",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aa4238ba-3403-49d7-a043-8101b9cc4847.png?im=AspectCrop=(16,9);Resize,width=1000",
+    "natural": "1000x563",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f727e88f-8ead-431b-a235-3071066e869b.png?im=Crop,rect=(318,175,1595,897),allowExpansion;Resize,width=1000",
+    "natural": "1000x562",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4a3ac8fc-61fc-44d6-b871-c03234921740.png?im=AspectCrop=(16,9);Resize,width=1000",
+    "natural": "1000x563",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "590a6b5b-6b81-4e68-963c-33f1418ad260.png?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4a3ac8fc-61fc-44d6-b871-c03234921740.png?im=AspectCrop=(16,9);Resize,width=1000",
+    "natural": "1000x563",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "590a6b5b-6b81-4e68-963c-33f1418ad260.png?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "32281efa-65ff-4225-b742-81b0132935da.jpg?im=Crop,rect=(837,0,1080,1080),allowExpansion;Resize,width=600",
+    "natural": "600x600",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7105a802-e582-481d-9ddb-871fc30c6b71.jpg?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7105a802-e582-481d-9ddb-871fc30c6b71.jpg?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7105a802-e582-481d-9ddb-871fc30c6b71.jpg?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7105a802-e582-481d-9ddb-871fc30c6b71.jpg?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "abbf29a5-a79d-4af9-92cd-7b5a62483b92.png?im=AspectCrop=(2,3)",
+    "natural": "721x1081",
+    "rendered": "360x608",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "caac675f-83d7-49d3-941a-158fbfda0eed.png?im=AspectCrop=(1,1)",
+    "natural": "4167x4167",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ccf34727-0ce4-4fcd-8642-b6ad69bb730b.png?im=AspectCrop=(1,1)",
+    "natural": "0x0",
+    "rendered": "300x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6e76aaf5-a0ab-4021-8c0f-0e60cdf85cd5.png?im=AspectCrop=(1,1)",
+    "natural": "0x0",
+    "rendered": "300x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "2ad3254f-2e46-47de-aee9-562449f83367.png?im=AspectCrop=(1,1)",
+    "natural": "0x0",
+    "rendered": "300x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "9ba89e48-7660-4c0b-a2ab-4b107a3c1345.png?im=AspectCrop=(1,1)",
+    "natural": "0x0",
+    "rendered": "300x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fcfcd598-dbc3-4e99-94d7-2607e6f2589e.png?im=AspectCrop=(1,1)",
+    "natural": "0x0",
+    "rendered": "300x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "56106430-bd27-45cf-aa8e-c381f5684751.png?im=AspectCrop=(1,1)",
+    "natural": "0x0",
+    "rendered": "300x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1bd97372-d6c2-448b-ad52-b00bbf7c8686.png?im=AspectCrop=(1,1)",
+    "natural": "0x0",
+    "rendered": "300x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "c38c62a8-0740-4876-a7f1-ff78af7d026a.png?im=AspectCrop=(1,1)",
+    "natural": "0x0",
+    "rendered": "300x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "421e6f7d-f003-4b28-bfeb-6d2d786bac49.png?im=AspectCrop=(1,1)",
+    "natural": "0x0",
+    "rendered": "300x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "54ac5fb9-2e66-4164-9439-eb370527815c.png?im=AspectCrop=(1,1)",
+    "natural": "0x0",
+    "rendered": "300x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "afcd167f-8314-45d2-84f2-bbbf0e9f8704.png?im=AspectCrop=(1,1)",
+    "natural": "0x0",
+    "rendered": "300x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "cb0df27b-a6a2-4ca6-8a1b-e35b9930ed78.png?im=AspectCrop=(1,1)",
+    "natural": "0x0",
+    "rendered": "300x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7736a790-2a4d-4319-9b6c-997b6a1e85a7.png?im=AspectCrop=(1,1)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d293fbb1-e4f0-4fec-81ee-4a83c5a69fb0.png?im=AspectCrop=(1,1)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "cba52e84-cf84-4fe6-b738-0e87b51067b6.png?im=AspectCrop=(1,1)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "825cb7e8-d7b8-48d2-b4f5-f75bf3bab0bc.png?im=AspectCrop=(1,1)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918.svg",
+    "natural": "0x0",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "a6732ee4-95cf-4951-9c4b-3675c7154f7e.svg",
+    "natural": "0x0",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "49664893-bfc1-4d79-9208-3bdd7083126b.svg",
+    "natural": "0x0",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "c48097ef-90ed-4c24-aa40-1764649e72ff.svg",
+    "natural": "0x0",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "What will be the implications in",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "36px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Preliminary remarks",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "28px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "A pendulum of mood swings",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "28px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "The new normal in 2021 tension f",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "28px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Tension 1",
+    "color": "rgb(88, 102, 116)",
+    "fontSize": "10px",
+    "family": "txtislskto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Tension 2",
+    "color": "rgb(88, 102, 116)",
+    "fontSize": "10px",
+    "family": "txtislskto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Tension 3",
+    "color": "rgb(88, 102, 116)",
+    "fontSize": "10px",
+    "family": "txtislskto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Tension 4",
+    "color": "rgb(88, 102, 116)",
+    "fontSize": "10px",
+    "family": "txtislskto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Getting prepared for 2021",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "28px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Research",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "INDEX",
+    "color": "rgb(21, 31, 39)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "ed-hero__title",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "rich",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "rich",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "rich",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "rich",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "rich",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "rich",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "rich",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "rich",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "rich",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "rich",
+    "width": 300,
+    "left": 40
+   },
+   {
+    "sel": "rich",
+    "width": 300,
+    "left": 40
+   }
+  ]
+ }
+}

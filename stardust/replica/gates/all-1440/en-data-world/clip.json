@@ -1,0 +1,117 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.page/en/data-world",
+ "at": "2026-11-17T05:31:14.572Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 5,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 7,
+  "offPage": 6,
+  "textNodes": 111,
+  "controls": 74,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 4,
+   "clipper": "a",
+   "path": "div.reply-card-body > div.reply-card-title > h3#game-set-ai-match-changing-insights-at-the-billie-jean-king-cup-by-gainbridge > a",
+   "text": "game, set, ai: match-changing insights at the billie jean ki",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.rose-cta.block",
+   "path": "a.rose-card-link > div.rose-card-text > div.rose-card-label.top > p",
+   "text": "show me how",
+   "cutMin": 8,
+   "cutMax": 61
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.reply-card-abstract",
+   "path": "div.reply-card.reply-card-kind-abstract > div.reply-card-body > div.reply-card-abstract > p",
+   "text": "aston martin lagonda (aml), a british manufacturer of ultra-",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h4#genai-for-decision-intelligence",
+   "path": "a.rose-card-link > div.rose-card-text > div.rose-card-title > h4#genai-for-decision-intelligence",
+   "text": "genai for decision intelligence",
+   "cutMin": 91,
+   "cutMax": 91
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "telco networks",
+   "cutMin": 42,
+   "cutMax": 42
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "telco networks",
+   "cutMin": 42,
+   "cutMax": 42
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "cybersecurity",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "cybersecurity",
+   "cutMin": 0,
+   "cutMax": 0
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 6,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 6,
+   "offPage": 6,
+   "textNodes": 111,
+   "controls": 74,
+   "total": 0
+  }
+ }
+}

@@ -1,0 +1,81 @@
+/* dw-quote — live .szncddyrbk (padding 48 / 56 @768 / 64 @1024 / 96 @1440, sides 40 / 64,
+   margin 8 / 32 @768 / 24 @1440 — fix-hub-i: live tiles start 24 px under the band @1440,
+   mev 2026-11-17), .zzhxggbana (cols 1-4 / 1-8 / 3-10, padding 0 200px @1440), h2.text-ufev2,
+   spacer .ahcmvltuls 22 px, p.text-ofmue; theme mark = underline in --brand-color */
+.dw-quote {
+  max-width: 576px;
+  margin: 8px auto;
+  padding: 48px 40px;
+}
+
+.dw-quote .dw-quote-col {
+  text-align: center;
+}
+
+.dw-quote .dw-quote-text {
+  margin: 0 0 22px;
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.dw-quote .dw-quote-text mark {
+  background: none;
+  color: inherit;
+  text-decoration: underline var(--brand-color);
+}
+
+.dw-quote .dw-quote-author {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+@media (width >= 576px) {
+  .dw-quote {
+    max-width: 768px;
+  }
+}
+
+@media (width >= 768px) {
+  .dw-quote {
+    max-width: 1024px;
+    margin: 32px auto;
+    padding: 56px 64px;
+  }
+}
+
+@media (width >= 1024px) {
+  .dw-quote {
+    max-width: 1440px;
+    margin-bottom: -30px;
+    padding: 64px;
+  }
+
+  .dw-quote .dw-quote-col {
+    margin: 0 calc((100% + 40px) / 6);
+  }
+}
+
+@media (width >= 1440px) {
+  .dw-quote {
+    max-width: 1660px;
+    margin: 24px auto;
+    padding: 96px 64px;
+  }
+
+  .dw-quote .dw-quote-col {
+    padding: 0 200px;
+  }
+
+  .dw-quote .dw-quote-text {
+    font-size: 36px;
+  }
+
+  .dw-quote .dw-quote-author {
+    font-size: 18px;
+  }
+}

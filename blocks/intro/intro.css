@@ -1,0 +1,403 @@
+/* intro — statement intro band (canon .statement-intro / .ins-intro).
+   Lifted from stardust/prototypes/en-accessibility.css; BEM __ -> - (kebab-case). */
+.intro {
+  display: block;
+  width: 100%;
+}
+
+.intro .intro-grid {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.intro .intro-title {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  margin-bottom: 2.5rem;
+}
+
+.intro .intro-rule {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  display: none;
+}
+
+.intro .intro-dash {
+  flex-basis: auto;
+  min-width: 48px;
+  max-width: 48px;
+  margin-top: 13px;
+  border-top: 1px solid #151f27;
+}
+
+.intro .intro-lead {
+  grid-column: 1 / 5;
+  grid-row: 2 / 3;
+  margin-bottom: 2.5rem;
+}
+
+.intro .intro-spacer {
+  grid-column: 1 / 5;
+  grid-row: 3 / 4;
+  height: 0;
+}
+
+/* title face: canon .t-display (styled through the wrapper, EW2) */
+.intro .intro-title :is(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--font-display);
+  font-size: 36px;
+  line-height: 110%;
+  font-weight: 500;
+}
+
+/* ---------- statement body: default content in the intro's section (canon .statement-body) */
+main .section.intro-container .default-content-wrapper {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 56px;
+  overflow-wrap: break-word;
+  white-space: break-spaces;
+  font-variant-ligatures: none;
+  font-feature-settings: "liga" 0;
+}
+
+.intro-container .default-content-wrapper a[href] {
+  text-decoration: underline;
+}
+
+.intro-container .default-content-wrapper :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: .5em;
+}
+
+.intro-container .default-content-wrapper :is(h1, h2, h3, h4, h5, h6):not(:first-child) {
+  margin-top: 1em;
+}
+
+.intro-container .default-content-wrapper p {
+  margin-bottom: 1.25em;
+}
+
+.intro-container .default-content-wrapper p:has(+ p) {
+  margin-bottom: .75em;
+}
+
+/* the source opens each paragraph after a heading with a <br> (one blank 27px line);
+   the delivery pipeline drops a leading <br>, so the line is restored here */
+.intro-container .default-content-wrapper :is(h1, h2, h3, h4, h5, h6) + p {
+  padding-top: 27px;
+}
+
+.intro-container .default-content-wrapper h6 {
+  font-family: var(--font-text);
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+/* break-subheads: the source opens every sub-heading after the first with a <br> (a blank
+   line inside the h6); the pipeline drops a leading <br>, so the line is restored here */
+.intro-container:has(.intro.break-subheads) .default-content-wrapper h6:not(:first-child)::before {
+  content: "";
+  display: block;
+  height: 1.3em;
+}
+
+/* fit-wrap: the Archivo stand-ins for the source text / lead faces set lowercase prose ~2 % narrower
+   (16px sample: 991.5 vs 1011.4px, +0.16px a glyph), so long legal copy wrapped one line short per
+   paragraph at 360. A 0.01em tracking restores the source line breaks (foundation request filed). */
+.intro-container:has(.intro.fit-wrap) .default-content-wrapper,
+.intro.fit-wrap .intro-lead {
+  letter-spacing: .01em;
+}
+
+/* lists: the delivered markup indents <li> on new lines; under break-spaces those whitespace
+   nodes became 27px blank lines (ul 136px for one item). Source: 0 0 16px, text face 300. */
+.intro-container .default-content-wrapper :is(ul, ol) {
+  margin-top: 0;
+  margin-bottom: 16px;
+  white-space: normal;
+  font-family: var(--font-text);
+  font-weight: 300;
+}
+
+.intro-container .default-content-wrapper li > p {
+  margin-bottom: 0;
+  white-space: break-spaces;
+}
+
+/* h5: the source's lead-face sub-heading paragraph (.text-mu4tw, legal pages) */
+.intro-container .default-content-wrapper h5 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-family: var(--font-lead);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+.intro-container .default-content-wrapper h5 + p {
+  padding-top: 0;
+}
+
+.intro-container .default-content-wrapper p:has(+ h5) {
+  margin-bottom: .75em;
+}
+
+.intro-container .default-content-wrapper :last-child {
+  margin-bottom: 0;
+}
+
+/* lead face: canon .rich .t-lead (the foundation lacks the .rich .t-lead override) */
+.intro:not(.plain-lead) .intro-lead p {
+  font-family: var(--font-lead);
+  font-size: 20px;
+  line-height: 130%;
+  font-weight: 300;
+}
+
+@media (width >= 768px) {
+  .intro .intro-grid {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .intro .intro-title {
+    grid-column: 1 / 9;
+    margin-bottom: 1.5rem;
+  }
+
+  .intro .intro-lead {
+    grid-column: 1 / 6;
+    margin-bottom: 0;
+  }
+
+  .intro .intro-spacer {
+    grid-column: 6 / 9;
+    grid-row: 2 / 3;
+  }
+
+  .intro .intro-title :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 42px;
+  }
+}
+
+@media (width >= 1024px) {
+  .intro .intro-grid {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .intro .intro-title {
+    grid-column: 2 / 10;
+  }
+
+  .intro .intro-rule {
+    display: flex;
+    grid-column: 2 / 3;
+  }
+
+  .intro .intro-lead {
+    grid-column: 3 / 8;
+  }
+
+  .intro .intro-spacer {
+    grid-column: 9 / 12;
+  }
+
+  /* body on grid columns 3/11 of 12: 2 columns + 2 gaps off each side; the source's grid track
+     sum lands one layout unit (1/64 px) narrower than this margin calc (861.328 vs 861.344 at
+     1440), which flips the wrap of a line that fits to the 1/64 px: matched by the 1/64 px */
+  .intro-container .default-content-wrapper
+  :is(p, h1, h2, h3, h4, h5, h6, ul, ol, blockquote, pre):not(:is(li, blockquote) *) {
+    margin-left: calc((100% - 11 * var(--grid-gap)) / 6 + 2 * var(--grid-gap));
+    margin-right: calc((100% - 11 * var(--grid-gap)) / 6 + 2 * var(--grid-gap) + 1px / 64);
+  }
+}
+
+@media (width >= 1440px) {
+  .intro .intro-grid {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+
+  .intro .intro-title {
+    margin-bottom: 2.5rem;
+  }
+
+  .intro .intro-title :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 64px;
+  }
+
+  .intro:not(.plain-lead) .intro-lead p {
+    font-size: 24px;
+  }
+
+  main .section.intro-container .default-content-wrapper {
+    margin-bottom: 120px;
+  }
+
+  .intro-container .default-content-wrapper :is(h5, h6) {
+    font-size: 20px;
+  }
+}
+
+/* ---------- cluster-plain additive variants ---------- */
+
+/* eyebrow label above the title (canon .text-pfihz: label face, 12px, slate, uppercase) */
+.intro .intro-eyebrow {
+  margin-bottom: 16px;
+  color: #586674;
+  font-family: var(--font-label);
+  font-size: 12px;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+.intro .intro-title .intro-eyebrow p {
+  margin: 0;
+}
+
+/* ice band (contacts) */
+.intro.ice {
+  background: var(--c-ice);
+}
+
+/* simple: legacy content-body intro (canon container 540/720/960/1140, cell padding 5/15px) */
+.intro.simple .intro-grid {
+  display: block;
+  max-width: 540px;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.intro.simple .intro-rule,
+.intro.simple .intro-spacer {
+  display: none;
+}
+
+.intro.simple :is(.intro-title, .intro-lead) {
+  margin: 0;
+}
+
+.intro.simple .intro-title :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: .5em;
+  font-family: var(--font-text);
+  font-weight: 500;
+}
+
+/* the source opens the lead with a <br> the pipeline drops: one 27px line restored */
+.intro.simple .intro-lead {
+  padding-top: 27px;
+}
+
+/* flush: the lead follows the title directly (no source <br> line; /en/lufhtansa, ADAS) */
+.intro.simple.flush .intro-lead {
+  padding-top: 0;
+}
+
+.intro.simple:not(.plain-lead) .intro-lead p {
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+/* simple without lead (datenschutzerklaerung): source eyebrow .text-maz2d (10px label, 300),
+   20px spacer, h1 with no bottom margin, body 40px below the title */
+.intro.simple .intro-eyebrow {
+  margin-bottom: 20px;
+  font-family: txtislskto, var(--font-label);
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.intro.simple.no-lead .intro-lead {
+  display: none;
+}
+
+.intro.simple.no-lead .intro-title :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 0;
+}
+
+/* dark: ink band, white light title */
+.intro.dark {
+  background: var(--c-ink);
+  color: #fff;
+}
+
+.intro.dark .intro-title :is(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--font-body);
+  font-weight: 300;
+  color: #fff;
+}
+
+.intro.dark .intro-dash {
+  border-top-color: #fff;
+}
+
+@media (width >= 768px) {
+  .intro.simple .intro-grid {
+    max-width: 720px;
+    margin: 15px auto;
+    padding: 15px;
+  }
+}
+
+@media (width >= 1024px) {
+  .intro.simple .intro-grid {
+    max-width: 960px;
+  }
+
+  .intro.dark .intro-grid {
+    padding-top: 8.5rem;
+    padding-bottom: 12rem;
+  }
+
+  .intro.dark .intro-rule {
+    grid-row: 3 / 4;
+  }
+}
+
+@media (width >= 1440px) {
+  .intro.simple .intro-grid {
+    max-width: 1140px;
+    margin: 25px auto;
+  }
+}
+
+/* variant listing (en-insights .ins-intro): margin-bottom 8 / 24 / 8 */
+.intro.listing {
+  margin-bottom: 8px;
+}
+
+@media (width >= 768px) {
+  .intro.listing {
+    margin-bottom: 24px;
+  }
+}
+
+@media (width >= 1440px) {
+  .intro.listing {
+    margin-bottom: 8px;
+  }
+}
+
+/* variant newsroom (4brands newsroom): ice title band, h1 only (no rule / lead), 56 / 72 padding */
+.intro.newsroom .intro-grid {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.intro.newsroom .intro-title {
+  margin-bottom: 0;
+}
+
+.intro.newsroom :is(.intro-rule, .intro-lead, .intro-spacer) {
+  display: none;
+}
+
+@media (width >= 1440px) {
+  .intro.newsroom .intro-grid {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+}

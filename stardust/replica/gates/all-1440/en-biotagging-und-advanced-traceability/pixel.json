@@ -1,0 +1,115 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-biotagging-und-advanced-traceability/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-biotagging-und-advanced-traceability/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 7935,
+    "mode": "overlap"
+  },
+  "heightDelta": -16,
+  "differingPixels": 767839,
+  "pct": 7.39,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-biotagging-und-advanced-traceability/diff.png",
+  "masks": [
+    {
+      "yA": 92,
+      "h": 720,
+      "yB": 92
+    }
+  ],
+  "maskedRows": 720,
+  "textPct": 16.16,
+  "textBoxes": 205,
+  "textPixels": 1378851,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 3.2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 8.5
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 7.6
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 7.2
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 6.4
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 6.2
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 7.2
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 6.1
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 11.8
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 6.6
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 11.8
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 6.9
+    },
+    {
+      "y0": 7500,
+      "y1": 7935,
+      "pct": 9.6
+    }
+  ],
+  "maskReason": "hero DAM video (muted autoplay loop inside the cross-origin dam-media openPlayer iframe, live data-video-status + pause control on the cover) shows a different frame on every capture; the delivered cover is its poster still — the media rows are authored-volatile, same treatment as the home hero (fix-small-3, 2026-11-16)",
+  "capturesDropped": {
+    "masks": [
+      "92:720"
+    ],
+    "edsUrl": "https://main--a355dc1b--aemcoder.aem.live/en/biotagging-und-advanced-traceability"
+  }
+}

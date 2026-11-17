@@ -1,0 +1,117 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.page/en/gaming",
+ "at": "2026-11-17T05:46:21.733Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 5,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 5,
+  "offPage": 71,
+  "textNodes": 126,
+  "controls": 102,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.hero-card-abstract",
+   "path": "div.hero-card-grid > div.hero-card-body > div.hero-card-abstract > p",
+   "text": "the explosive action game, soulstice encourages the players ",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 2,
+   "clipper": "a",
+   "path": "div.reply-card-body > div.reply-card-title > h3#enhancing-the-security-of-online-esports-tournaments-with-ai-driven-solutions > a",
+   "text": "enhancing the security of online esports tournaments with ai",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.reply-card-abstract",
+   "path": "div.reply-card-grid > div.reply-card-body > div.reply-card-abstract > p",
+   "text": "the video game we created for the italian ministry of foreig",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.social-wall-post",
+   "path": "li.social-wall-card > div.social-wall-post > div.social-wall-meta > a.social-wall-profile",
+   "text": "reply totemsee profile page of @reply_totem (x (twitter))@re",
+   "cutMin": 143,
+   "cutMax": 143
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.social-wall-post",
+   "path": "li.social-wall-card > div.social-wall-post > div.social-wall-footer > a.social-wall-source",
+   "text": "1 yr. agosee original post on twitter (opens in a new window",
+   "cutMin": 80,
+   "cutMax": 80
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.social-wall-post",
+   "path": "li.social-wall-card > div.social-wall-post > div.social-wall-meta > a.social-wall-badge",
+   "text": "see original post on twitter (opens in a new window)",
+   "cutMin": 40,
+   "cutMax": 40
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "social media",
+   "cutMin": 43,
+   "cutMax": 43
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "social media",
+   "cutMin": 43,
+   "cutMax": 43
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 1,
+   "clamped": 6,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 3,
+   "offPage": 83,
+   "textNodes": 126,
+   "controls": 114,
+   "total": 1
+  }
+ }
+}

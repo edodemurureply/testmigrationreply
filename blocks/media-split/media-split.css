@@ -1,0 +1,122 @@
+/* media-split — 16:9 media + text column (plain template). Values from the live section
+   (/en/lufhtansa: grid 4/8/12, media 2-6 + copy 8-11 at 1440, copy-then-media below 1024). */
+.media-split {
+  display: block;
+  width: 100%;
+}
+
+.media-split .media-split-grid {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.media-split .media-split-text,
+.media-split .media-split-media {
+  grid-column: 1 / 5;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+}
+
+.media-split .media-split-text {
+  grid-row: 1 / 2;
+}
+
+.media-split .media-split-media {
+  grid-row: 2 / 3;
+  margin-top: 2.5rem;
+}
+
+.media-split .media-split-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.media-split .media-split-frame > * {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.media-split .media-split-frame picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.media-split .media-split-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #cccccc30;
+}
+
+.media-split .media-split-empty svg {
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+
+/* copy: lead (canon .t-lead), 16px spacer, body (text face), 16px spacer, CTA; 0.01em tracking:
+   the Archivo stand-in sets prose ~2 % narrower than the source face (see intro fit-wrap) */
+.media-split .media-split-text p {
+  margin: 0;
+  letter-spacing: .01em;
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+.media-split .media-split-text p + p {
+  margin-top: 16px;
+}
+
+.media-split .media-split-text p.media-split-lead {
+  margin-bottom: 16px;
+  font-family: var(--font-lead);
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.media-split .media-split-text p.media-split-lead + p {
+  margin-top: 0;
+}
+
+.media-split .media-split-cta {
+  margin-top: 16px;
+}
+
+@media (width >= 768px) {
+  .media-split .media-split-text,
+  .media-split .media-split-media {
+    grid-column: 2 / 8;
+  }
+}
+
+@media (width >= 1024px) {
+  .media-split .media-split-media {
+    grid-column: 2 / 7;
+    grid-row: 1 / 2;
+    margin-top: 0;
+  }
+
+  .media-split .media-split-text {
+    grid-column: 7 / 12;
+  }
+}
+
+@media (width >= 1440px) {
+  .media-split .media-split-text {
+    grid-column: 8 / 12;
+  }
+
+  .media-split .media-split-text p.media-split-lead {
+    font-size: 24px;
+  }
+}

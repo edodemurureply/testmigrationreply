@@ -1,0 +1,46 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-accessibility/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-accessibility/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 1543,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 49115,
+  "pct": 2.21,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-accessibility/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 11.3,
+  "textBoxes": 64,
+  "textPixels": 294309,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1.1
+    },
+    {
+      "y0": 1500,
+      "y1": 1543,
+      "pct": 0
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--a355dc1b--aemcoder.aem.live/en/accessibility"
+  }
+}

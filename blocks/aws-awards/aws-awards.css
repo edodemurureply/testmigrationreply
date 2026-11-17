@@ -1,0 +1,99 @@
+/* aws-awards — live .wblimoxxuh tiles: grid-item #ff8c00, margin 10 20 0, padding 30 10
+   (min-height 260 >= 768, 220 >= 1024); content top-aligned as measured on the live capture
+   (360: years at tile + 31, tile 1 840-1013; 1440: tile 762-963, years at + 40, no bottom pad);
+   years .text-miz3u 10 px / 140 % (txtislskto), title .text-hzf46 20 / 24 px / 130 %
+   (sekprcvhoj, 500); content-body margins (p 1.25em, p + p .75em, h4 margin-top 1em) */
+.aws-awards .aws-awards-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 1660px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.aws-awards .aws-awards-tile {
+  display: block;
+  margin: 10px 20px 0;
+  padding: 30px 10px;
+  background-color: #ff8c00;
+  color: #fff;
+  text-align: center;
+}
+
+.aws-awards .aws-awards-body {
+  width: 100%;
+}
+
+.aws-awards .aws-awards-body p {
+  margin: 0 0 1.25em;
+  color: #fff;
+  font-family: txtislskto, var(--font-body);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.012em;
+}
+
+.aws-awards .aws-awards-body p:has(+ p) {
+  margin-bottom: 0.75em;
+}
+
+.aws-awards .aws-awards-body em {
+  color: #ff8c00;
+  font-style: normal;
+}
+
+.aws-awards .aws-awards-body :is(h4, p + p) {
+  margin: 0;
+  color: #fff;
+  font-family: var(--font-lead);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0.0145em;
+}
+
+.aws-awards .aws-awards-body h4:not(:first-child) {
+  margin-top: 1em;
+}
+
+.aws-awards .aws-awards-body > :last-child {
+  margin-bottom: 0;
+}
+
+@media (width >= 768px) {
+  .aws-awards .aws-awards-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .aws-awards .aws-awards-tile {
+    min-height: 260px;
+  }
+}
+
+@media (width >= 1024px) {
+  .aws-awards .aws-awards-tile {
+    min-height: 220px;
+  }
+}
+
+@media (width >= 1440px) {
+  .aws-awards {
+    margin-top: -60px;
+  }
+
+  .aws-awards .aws-awards-tile {
+    position: relative;
+    min-height: 0;
+    padding: 40px 10px 0;
+  }
+
+  .aws-awards .aws-awards-body {
+    padding: 0 10px;
+  }
+
+  .aws-awards .aws-awards-body :is(h4, p + p) {
+    font-size: 24px;
+  }
+}

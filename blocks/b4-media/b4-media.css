@@ -1,0 +1,175 @@
+/* b4-media — 4brands media band: pictures / 16:9 DAM video on the 12-col grid (cols 1-4 / 1-8 /
+   2-11); margin-bottom 56 / 120 @1440. */
+.b4-media {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.b4-media.dark {
+  background-color: #151f27;
+}
+
+.b4-media.ice {
+  background-color: var(--c-ice);
+}
+
+.b4-media .b4-media-grid {
+  flex: 1 1 100%;
+  margin: 0;
+  padding-bottom: 56px;
+}
+
+.b4-media .b4-media-cell {
+  grid-column: 1 / 5;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.b4-media .b4-media-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.b4-media .b4-media-item p {
+  margin: 0;
+}
+
+.b4-media .b4-media-video {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.b4-media .b4-media-video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.b4-media .b4-media-caption {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@media (width >= 768px) {
+  .b4-media .b4-media-cell {
+    grid-column: 1 / 9;
+  }
+}
+
+@media (width >= 1024px) {
+  .b4-media .b4-media-cell {
+    grid-column: 2 / 12;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-media .b4-media-grid {
+    padding-bottom: 120px;
+  }
+}
+
+/* variant full (cluster-brand-case-study): full-bleed picture band (source parallax media) —
+   no grid margins, 2:1 crop (540 px tall below 768) */
+.b4-media.full .b4-media-grid {
+  display: block;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.b4-media.full .b4-media-item img {
+  height: 540px;
+  object-fit: cover;
+}
+
+@media (width >= 768px) {
+  .b4-media.full .b4-media-item img {
+    height: auto;
+    aspect-ratio: 2 / 1;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-media.full .b4-media-grid {
+    padding: 0;
+  }
+}
+
+/* fix-brand-solution-2 variants (measured source section grids): narrow — player on cols 3-10
+   from 1024; top — 56 px above the player @1440; flush-b — no space below (the next band pads) */
+@media (width >= 1024px) {
+  .b4-media.narrow .b4-media-cell {
+    grid-column: 3 / 11;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-media.top .b4-media-grid {
+    padding-top: 56px;
+  }
+}
+
+.b4-media.flush-b .b4-media-grid {
+  padding-bottom: 0;
+}
+
+/* fix-small-2 (with full, below 768): plx — the source parallax-fullw image (112.5 % tall, 608 px)
+   at its scrolled end state (translateY -64.5 px, measured @360); focus-76 — the source mobile
+   rendition crop (rect x 917 of 1920 = object-position 76.4 %) */
+@media (width < 768px) {
+  .b4-media.full.plx .b4-media-item {
+    height: 540px;
+    overflow: hidden;
+  }
+
+  .b4-media.full.plx .b4-media-item img {
+    height: 608px;
+    transform: translateY(-64.5px);
+  }
+
+  .b4-media.full.focus-76 .b4-media-item img {
+    object-position: 76.4% 50%;
+  }
+}
+
+/* fix-brand-solution-3: pair — the source concealable desktop / mobile picture pair (cell 1 shown
+   from 768, cell 2 below 768); space above = source section margin-top 56 / 90 @1440 (the
+   section-heading above is nosp since fix-brand-solution-5, so no tail is subtracted any more —
+   fix-brand-solution-6 measured 56 / 90) */
+.b4-media.pair .b4-media-grid {
+  padding-top: 56px;
+}
+
+.b4-media.pair .b4-media-item:first-child {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .b4-media.pair .b4-media-item:first-child {
+    display: block;
+  }
+
+  .b4-media.pair .b4-media-item:nth-child(2) {
+    display: none;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-media.pair .b4-media-grid {
+    padding-top: 90px;
+  }
+}
+
+/* tm-28 (fix-brand-solution-6, REVE dark product shot): the source band opens 28 px above the
+   picture below 768 (flush from 768) */
+@media (width < 768px) {
+  div.b4-media.block.tm-28 .b4-media-grid { padding-top: 28px; }
+}

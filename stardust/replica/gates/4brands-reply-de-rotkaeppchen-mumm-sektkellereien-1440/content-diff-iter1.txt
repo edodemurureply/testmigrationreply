@@ -1,0 +1,37 @@
+[live-session] waiting to pace live navigations to www.reply.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 918 ms
+
+Content diff @ 1440px (profile "generic", roots: #main-content, header, footer)
+root "#main-content"
+  source: 23 text nodes — 2 headings, 1 eyebrows, 1 CTAs, 19 body; 3 img
+  build: 23 text nodes — 5 headings, 1 eyebrows, 1 CTAs, 16 body; 3 img
+  editable texts (outermost h*/p/ul/ol): source 21 / build 21
+  attributes (placeholder/aria-label/title): source 0 / build 1; icons: source 3 / build 3
+  accepted (invisible, nothing lost): 3 ROLE UPGRADE body → heading — "Rotkäppchen-Mumm", "Erfolgreiche Umstellung mit CRM-Lösung", "Die Herausforderung"
+root "header"
+  source: 25 text nodes — 0 headings, 0 eyebrows, 17 CTAs, 8 body; 1 img
+  build: 25 text nodes — 0 headings, 0 eyebrows, 17 CTAs, 8 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 11 / build 11; icons: source 14 / build 14
+root "footer"
+  source: 11 text nodes — 0 headings, 0 eyebrows, 10 CTAs, 1 body; 1 img
+  build: 12 text nodes — 0 headings, 0 eyebrows, 11 CTAs, 1 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 0 / build 1; icons: source 3 / build 4
+
+Findings: 15 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 3 (owner 0, auto 3) · advisory 15
+  🟠 EXTRA [footer]: build cta "Imprint" has no source source — Unexpected node with no source.
+  🟡 MISSING BODY [#main-content]: source body "Die eleganten Flaschen mit prickelndem Inhalt au"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Die Software schafft die Voraussetzungen dafür,"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Da sich der Konsumgütermarkt permanent ändert, "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Geschäftsführer, 4brands Reply"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Rotkäppchen-Mumm ist von der Zusammenarbeit mit "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [#main-content]: build body "Die eleganten Flaschen mit prickelndem Inhalt au" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "Die Software schafft die Voraussetzungen dafür, " has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "Da sich der Konsumgütermarkt permanent ändert, w" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "Geschäftsführer, 4brands Reply" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "Rotkäppchen-Mumm ist von der Zusammenarbeit mit " has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <button> aria-label="Close" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON MOVED [#main-content]: source inline svg 0 0 20 20 / 1 shape(s) (20×20) at "button#1" is at "close" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 EXTRA ARIA-LABEL [footer]: build <nav> aria-label="Footer navigation" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ICON [footer]: build inline svg 0 0 18 11 / 1 shape(s) (16×10) at "imprint" has no source source. Build-only icon — confirm it is intended.

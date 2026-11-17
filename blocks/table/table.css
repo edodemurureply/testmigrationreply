@@ -1,0 +1,229 @@
+/* table — canon .reply-table (theme.cfd8e300.css), scoped to .table. */
+.table {
+  --col-align: right;
+  --item-width: calc(var(--col-width) * 2 + 40px - 2rem + 40px);
+  --col-width: calc((100% + 2rem * 2 - 40px * 3) / 4);
+
+  width: 100%;
+  margin: 1rem 0 2.5rem;
+}
+
+.table.align-left {
+  --col-align: left;
+}
+
+.table table {
+  display: grid;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table table :is(thead, tbody) {
+  display: contents;
+}
+
+.table table tr {
+  position: relative;
+  display: grid;
+  grid-template-columns: var(--item-width) repeat(calc(var(--table-cols, 3) - 1), 1fr);
+  column-gap: 1rem;
+  padding: 0 2rem;
+  background: #fff;
+}
+
+.table table thead tr {
+  grid-template-rows: minmax(3rem, auto);
+  color: #fff;
+  background: #0b5a55;
+}
+
+.table table tbody tr {
+  grid-template-rows: minmax(3.125rem, auto);
+}
+
+.table table tbody tr + tr::before,
+.table table tbody tr:last-of-type::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  display: block;
+  width: 100%;
+  border-top: 1px solid #d6e0ea;
+}
+
+.table table tbody tr + tr::before {
+  top: 0;
+}
+
+.table table tbody tr:last-of-type::after {
+  bottom: 0;
+}
+
+.table table :is(td, th) {
+  align-self: center;
+  padding: 1rem 0;
+  font-weight: inherit;
+  text-align: left;
+}
+
+.table table :is(td, th):not(:first-child) {
+  text-align: var(--col-align);
+}
+
+.table table :is(td, th) p {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: .875rem;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.table table th,
+.table table th p {
+  font-family: var(--font-label);
+  font-size: .625rem;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* mobile collapse (< 768): first column label (h5 face 20/26 500) + 48px round toggle, 20px
+   block padding; the table opens below it with a 24px gap */
+.table .table-mobile-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 0;
+}
+
+.table .table-mobile-head h3 {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.table .table-toggle {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  margin: 0;
+  padding: 1px 6px;
+  border: 1px solid var(--c-ink);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--c-ink);
+  cursor: pointer;
+}
+
+.table .table-toggle::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  margin-top: -4px;
+  border-right: 1.5px solid currentcolor;
+  border-bottom: 1.5px solid currentcolor;
+  transform: rotate(45deg);
+  transition: transform .2s ease-out;
+}
+
+.table.open .table-toggle::before {
+  margin-top: 4px;
+  transform: rotate(-135deg);
+}
+
+@media (width < 768px) {
+  .table {
+    margin-top: 42px;
+    padding: 20px 0;
+  }
+
+  .table .table-dropdown {
+    max-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+  }
+
+  .table.open .table-dropdown {
+    max-height: none;
+    overflow: visible;
+    visibility: visible;
+  }
+
+  .table .table-dropdown table {
+    margin-top: 24px;
+  }
+}
+
+@media (width >= 768px) {
+  .table {
+    --col-width: calc((100% + 2rem * 2 - 40px * 7) / 8);
+  }
+
+  .table .table-mobile-head {
+    display: none;
+  }
+
+  .table table thead tr,
+  .table table tbody tr {
+    grid-template-rows: minmax(3.5rem, auto);
+  }
+}
+
+@media (width >= 1024px) {
+  .table {
+    --col-width: calc((100% + 2rem * 2 - 40px * 9) / 10);
+    --item-width: calc(var(--col-width) * 4 + 40px * 3 - 2rem);
+  }
+
+  .table table tr {
+    column-gap: 1.5rem;
+  }
+}
+
+/* placement inside a plain statement body (section .intro-container): same container as the
+   section's default content, body columns 3/11 at >= 1024 */
+main > .section > .table-wrapper {
+  width: 100%;
+  max-width: 576px;
+  margin: 0 auto;
+  padding: 0 var(--grid-pad);
+}
+
+main .section.intro-container .default-content-wrapper:has(+ .table-wrapper) {
+  margin-bottom: 0;
+}
+
+@media (width >= 576px) {
+  main > .section > .table-wrapper {
+    max-width: 768px;
+  }
+}
+
+@media (width >= 768px) {
+  main > .section > .table-wrapper {
+    max-width: 1024px;
+  }
+}
+
+@media (width >= 1024px) {
+  main > .section > .table-wrapper {
+    max-width: 1440px;
+  }
+
+  .intro-container .table {
+    width: auto;
+    margin-left: calc((100% - 11 * var(--grid-gap)) / 6 + 2 * var(--grid-gap));
+    margin-right: calc((100% - 11 * var(--grid-gap)) / 6 + 2 * var(--grid-gap));
+  }
+}
+
+@media (width >= 1440px) {
+  main > .section > .table-wrapper {
+    max-width: 1660px;
+  }
+}

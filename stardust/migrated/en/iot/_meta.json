@@ -1,0 +1,658 @@
+{
+  "slug": "en-iot",
+  "type": "hub",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "media-hero",
+    "statement",
+    "featured",
+    "cards-wall",
+    "section-heading",
+    "labs",
+    "awards",
+    "rose-cta",
+    "discover-also"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "media-hero",
+    "highlight-statement",
+    "iot-featured",
+    "iot-wall",
+    "section-heading",
+    "iot-labs",
+    "section-heading",
+    "iot-awards",
+    "iot-rose",
+    "discover-also"
+  ],
+  "canonShas": {
+    "header": "e52e84c1c867",
+    "footer": "165dfd32d83d",
+    "css": "5bf5dffd7509"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "IoT - Internet of Things Solutions | Reply",
+    "description": "Discover IoT technologies and their applications, from Industry 4.0 to smart homes, and how Reply supports companies in transforming their product and services.",
+    "canonical": "https://www.reply.com/en/iot",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "IoT - Internet of Things Solutions | Reply",
+    "description": "Discover IoT technologies and their applications, from Industry 4.0 to smart homes, and how Reply supports companies in transforming their product and services.",
+    "url": "https://www.reply.com/en/iot"
+  },
+  "migratedAt": "2026-11-15T12:03:33Z",
+  "designMdSha": "d809c0215087",
+  "designJsonSha": "bdcb89ad7bf4",
+  "sourceCurrentSha": "a543c85aad0a",
+  "sourceProposedSha": "0f103c077137",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 5,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/de/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/artificial-intelligence",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/cloud-computing",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/cx-and-digital-commerce",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/cybersecurity",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/data-world",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/design",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/digital-assets",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/digital-experience",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/gaming",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/governance-risk-and-compliance",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/hybrid-work",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/metaverse",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/prebuilt-ai-apps",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quality-engineering",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quantum-computing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/robotics-and-autonomous-things",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/strategy-and-business-model-transformation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/supply-chain-management",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-networks",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/3d-and-mixed-reality",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/automotive-and-manufacturing",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/energy-and-utilities",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/financial-services",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/logistics",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/retail-and-consumer-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-and-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/labs/area-42",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-73",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-phi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/cyber-security-lab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-house-of-models",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-iot-labs-concept-quality",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/testautomationcentre",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/xchange",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/esg",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/environment",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/environment/energy-and-emissions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/reply-to-the-earth",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/sustainable-supply-chain",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/continuous-learning",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/wellbeing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/inclusion-and-diversity",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/governance",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/investors/governance-system",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/governance-policies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/governance/our-commitment-to-ethical-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/esg",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/company-profile",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/contacts",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/newsroom?type=financial-news",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/reply-share-information",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-highlights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-calendar-and-events",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-reports",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/shareholders-meeting",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/loyalty-shares",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors#H6tmz",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/company-profile",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/company-profile",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/internet-of-things/iveco-accelerates-the-digital-transformation-with-industrial-iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/1nce-enables-the-iot-of-tomorrow-with-unified-apis",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/connected-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/adr-ottimizza-la-gestione-intelligente-degli-asset-aeroportuali-con-ai-e-iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/adr-ottimizza-la-gestione-intelligente-degli-asset-aeroportuali-con-ai-e-iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/from-a-fan-to-a-smart-energy-system",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/from-a-fan-to-a-smart-energy-system",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-powered-digital-twins-for-maintenance-anomaly-detection-and-productivity",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-powered-digital-twins-for-maintenance-anomaly-detection-and-productivity",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/concept-reply/en/smart-carwash-operations",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/energy-and-utilities/a-demand-response-platform-for-electric-grids",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/energy-and-utilities/a-demand-response-platform-for-electric-grids",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/agrirouter",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/agrirouter",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/a-new-connected-and-digital-motorcycling-experience",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/a-new-connected-and-digital-motorcycling-experience",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/combining-ai-and-edge-computing-for-industrial-iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/combining-ai-and-edge-computing-for-industrial-iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/concept-reply/en/precision-farming-how-to-develop-isobus-conform",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/concept-reply/en/precision-farming-how-to-develop-isobus-conform",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/electric-mobility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/electric-mobility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/iot-platform-for-renewables",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/iot-platform-for-renewables",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/data-processing-with-aws-native-services-in-the-container-terminal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/data-processing-with-aws-native-services-in-the-container-terminal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/smart-services-for-multivac",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/smart-services-for-multivac",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/connected-products-lab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/testautomationcentre",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-iot-labs-concept-quality",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/news/reply-named-a-leader-in-the-idc-marketscape-report-on-smart-manufacturing-in-europe",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/teknowlogy-iot-survey-2020",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/contacts?formId=Zmaw7",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/artificial-intelligence",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/quantum-computing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/robotics-and-autonomous-things",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/automotive-and-manufacturing",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/cybersecurity",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/data-world",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/company-profile",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-candidate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-client",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-supplier",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-marketing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/CCPA-privacy-notice",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/modern-slavery-statement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/declaration-of-principles",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/approach-to-uk-taxation",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/contacts",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/contents/Reply_Company_Information_en.pdf",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "en/iot/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "en/iot/_meta.json",
+  "driverVersion": "1"
+}

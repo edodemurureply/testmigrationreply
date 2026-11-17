@@ -1,0 +1,112 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-17T05:49:24.878Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.reply.com",
+    "eds": "https://main--a355dc1b--aemcoder.aem.page",
+    "edsHostOverride": "https://main--a355dc1b--aemcoder.aem.page",
+    "only": [
+      "en-ai-now-summit-reply-sail-reply-sovereign-ai"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 0,
+    "overridePass": 0,
+    "fail": 1,
+    "error": 0,
+    "failPixel": 1,
+    "failHeight": 0,
+    "failClip": 1,
+    "failContent": 0,
+    "failUnits": 0,
+    "fontsNotLoaded": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "en-ai-now-summit-reply-sail-reply-sovereign-ai",
+      "path": "/en/ai-now-summit-reply-sail-reply-sovereign-ai",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 10.56,
+      "textPct": 14.92,
+      "heightDelta": -45,
+      "originH": 7263,
+      "edsH": 7308,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 1,
+      "clipPass": false,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 10.56% > 10%",
+        "clipped 1 (text 0, controls 1)"
+      ],
+      "clipGroups": [
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#the-austrian-academy-of-sciences-is-developing-apollo-an-ai-specialized-in-ancient-greece",
+          "path": "div.body-text > div > h3#the-austrian-academy-of-sciences-is-developing-apollo-an-ai-specialized-in-ancient-greece > a",
+          "text": "the austrian academy of sciences is developing \"apollo,\" an ",
+          "cutMin": 98,
+          "cutMax": 98
+        }
+      ],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 2,
+        "missingButtons": 2,
+        "hiddenButtons": 0,
+        "findings": 11,
+        "variable": []
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [
+        "4000-4500:18.8%",
+        "4500-5000:29.6%",
+        "5500-6000:20.2%",
+        "7000-7263:32.7%"
+      ],
+      "error": null
+    }
+  ]
+}

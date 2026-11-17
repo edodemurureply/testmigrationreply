@@ -1,0 +1,146 @@
+[
+ {
+  "domainScript": "93b766e1-abbc-4ac6-8595-a8b1084d9583",
+  "version": "202503.1.0",
+  "ruleSets": [
+   {
+    "name": "US-Policy",
+    "type": "GDPR",
+    "countries": 1,
+    "default": false,
+    "gpc": true,
+    "consentModel": "opt-in",
+    "banner": true,
+    "languages": 5,
+    "groups": [
+     {
+      "id": "C0001",
+      "name": "Technical and strictly necessary Cookies",
+      "status": "always active",
+      "hosts": [
+       "replyonlineservices.b2clogin.com",
+       "www.treedom.net",
+       "broadcaster.walls.io",
+       "t.co",
+       "d1z7icpqkuzo43.cloudfront.net",
+       "treedom.net",
+       "youtube.be"
+      ]
+     },
+     {
+      "id": "C0003",
+      "name": "Technical-Functional Cookies",
+      "status": "inactive",
+      "hosts": [
+       "visme.co",
+       "www.treedom.net",
+       "treedom.net",
+       "vimeo.com"
+      ]
+     },
+     {
+      "id": "C0002",
+      "name": "Profiling Analytics Cookies",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "C0004",
+      "name": "Profiling Cookies",
+      "status": "inactive",
+      "hosts": [
+       "snap.licdn.com",
+       "www.google.com",
+       "t.co",
+       "www.linkedin.com",
+       "www.facebook.com",
+       "rdstation.com.br",
+       "twitter.com",
+       "ads.linkedin.com",
+       "slideshare.net",
+       "doubleclick.net",
+       "youtube.com",
+       "www.youtube.com",
+       "linkedin.com"
+      ]
+     },
+     {
+      "id": "C0005",
+      "name": "Social Media Cookies",
+      "status": "inactive",
+      "hosts": []
+     }
+    ]
+   },
+   {
+    "name": "GDPR",
+    "type": "GDPR",
+    "countries": 210,
+    "default": true,
+    "gpc": true,
+    "consentModel": "opt-in",
+    "banner": true,
+    "languages": 5,
+    "groups": [
+     {
+      "id": "C0001",
+      "name": "Technical and strictly necessary Cookies",
+      "status": "always active",
+      "hosts": [
+       "replyonlineservices.b2clogin.com",
+       "www.treedom.net",
+       "broadcaster.walls.io",
+       "t.co",
+       "d1z7icpqkuzo43.cloudfront.net",
+       "treedom.net",
+       "youtube.be"
+      ]
+     },
+     {
+      "id": "C0003",
+      "name": "Technical-Functional Cookies",
+      "status": "inactive",
+      "hosts": [
+       "visme.co",
+       "www.treedom.net",
+       "treedom.net",
+       "vimeo.com"
+      ]
+     },
+     {
+      "id": "C0002",
+      "name": "Profiling Analytics Cookies",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "C0004",
+      "name": "Profiling Cookies",
+      "status": "inactive",
+      "hosts": [
+       "snap.licdn.com",
+       "www.google.com",
+       "t.co",
+       "www.linkedin.com",
+       "www.facebook.com",
+       "rdstation.com.br",
+       "twitter.com",
+       "ads.linkedin.com",
+       "slideshare.net",
+       "doubleclick.net",
+       "youtube.com",
+       "www.youtube.com",
+       "linkedin.com"
+      ]
+     },
+     {
+      "id": "C0005",
+      "name": "Social Media Cookies",
+      "status": "inactive",
+      "hosts": []
+     }
+    ]
+   }
+  ]
+ }
+]

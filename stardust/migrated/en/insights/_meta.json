@@ -1,0 +1,855 @@
+{
+  "slug": "en-insights",
+  "type": "listing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "intro",
+    "section-heading",
+    "card-carousel",
+    "hero-card",
+    "collections",
+    "explore",
+    "cards-wall",
+    "awards"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "ins-intro",
+    "ins-heading",
+    "ins-latest",
+    "ins-hero",
+    "ins-collections",
+    "ins-explore",
+    "ins-wall",
+    "ins-awards"
+  ],
+  "canonShas": {
+    "header": "f02ed32d7a1f",
+    "footer": "165dfd32d83d",
+    "css": "5bf5dffd7509"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Insights | Reply",
+    "description": "Reply's research and insights cover all industries and explore the latest innovative trends in each sector. Discover more.",
+    "canonical": "https://www.reply.com/en/insights",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Insights | Reply",
+    "description": "Reply's research and insights cover all industries and explore the latest innovative trends in each sector. Discover more.",
+    "url": "https://www.reply.com/en/insights"
+  },
+  "migratedAt": "2026-11-15T12:03:33Z",
+  "designMdSha": "d809c0215087",
+  "designJsonSha": "bdcb89ad7bf4",
+  "sourceCurrentSha": "b22bc2f31b81",
+  "sourceProposedSha": "285b93a62458",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 6,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/de/insights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/insights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/insights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/insights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/artificial-intelligence",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/cloud-computing",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/cx-and-digital-commerce",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/cybersecurity",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/data-world",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/design",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/digital-assets",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/digital-experience",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/gaming",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/governance-risk-and-compliance",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/hybrid-work",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/metaverse",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/prebuilt-ai-apps",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quality-engineering",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quantum-computing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/robotics-and-autonomous-things",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/strategy-and-business-model-transformation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/supply-chain-management",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-networks",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/3d-and-mixed-reality",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/automotive-and-manufacturing",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/energy-and-utilities",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/financial-services",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/logistics",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/retail-and-consumer-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-and-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/labs/area-42",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-73",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-phi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/cyber-security-lab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-house-of-models",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-iot-labs-concept-quality",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/testautomationcentre",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/xchange",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/esg",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/environment",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/environment/energy-and-emissions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/reply-to-the-earth",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/sustainable-supply-chain",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/continuous-learning",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/wellbeing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/inclusion-and-diversity",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/governance",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/investors/governance-system",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/governance-policies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/governance/our-commitment-to-ethical-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/esg",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/company-profile",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/contacts",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/newsroom?type=financial-news",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/reply-share-information",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-highlights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-calendar-and-events",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-reports",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/shareholders-meeting",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/loyalty-shares",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors#H6tmz",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/company-profile",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/company-profile",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/insights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/insights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/insights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/insights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/from-code-to-control-ais-takeover-of-software-development-lifecycle",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/digital-experience-trends-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/integrating-multi-agent-systems",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-social-impact",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/reply-cloud-service-providers-monitor",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/sovereign-cloud-in-financial-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/sovereign-cloud-in-financial-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/sovereign-ai-for-european-organisations-foundation-models-infrastructure-and-compliance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/agentic-ai-for-batch-application-monitoring-in-financial-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/llmops-scale-generative-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cx-and-digital-commerce/marketing-organization-in-the-age-of-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/luenendonk-agentic-ai-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/long-running-ai-agents-engineering-multi-agent-systems-for-extended-autonomous-operation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/world-generation-making-spatial-intelligence-operational",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/sovereign-ai-beyond-the-buzz-and-industrialising-sovereign-llms-in-europe",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/the-power-of-digital-twins-and-edge-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/finops-for-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/energy-and-utilities/sustainable-data-management-in-the-cloud",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/making-a-difference/unlock-the-power-of-green-it-with-our-bootcamps",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/boosting-green-cloud-practices-on-aws",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/strategy-and-business-model-transformation/sustainability-strategy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/making-a-difference/green-cloud-computing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/energy-and-utilities/ev-charging-stations-map",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/insights/green-web-design",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/sustainability-trends",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/hybrid-work/sustainability-matcha-reply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contents/SFDR_ENG.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/financial-services/agentic-credit-revolution",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/strategy-and-business-models-transformation/insurance-outlook-2030",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/financial-services/generative-ai-for-financial-advisors",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/generative-ai-centred-architectures-for-financial-institutions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-assets/digital-assets-in-financial-institutions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/cloud-adoption-in-financial-services-second-edition",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cybersecurity/digital-operational-resilience-act",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/strategy-and-business-model-transformation/wealth-management",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/glue-reply/en/fca-consumer-duty-consulting-service",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/financial-services/mobile-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/total-search-marketing-rethinking-visibility-in-the-age-of-ai-search",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/total-search-marketing-rethinking-visibility-in-the-age-of-ai-search",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/modernize-sap-without-disruption",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/modernize-sap-without-disruption",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/luenendonk-agentic-ai-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/luenendonk-agentic-ai-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/financial-services/agentic-credit-revolution",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/financial-services/agentic-credit-revolution",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cybersecurity/cyber-resilience-act",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cybersecurity/cyber-resilience-act",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/sovereign-cloud-in-financial-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/sovereign-cloud-in-financial-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cx-and-digital-commerce/beyond-commerce-ai-powered-b2b-portals",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cx-and-digital-commerce/beyond-commerce-ai-powered-b2b-portals",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/from-code-to-control-ais-takeover-of-software-development-lifecycle",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/from-code-to-control-ais-takeover-of-software-development-lifecycle",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/digital-experience-trends-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/integrating-multi-agent-systems",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/integrating-multi-agent-systems",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-social-impact",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-social-impact",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/wm-reply/en/the-complete-guide-to-power-platform-adoption",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/strategy-and-business-model-transformation/the-strategic-value-of-an-api-developer-portal-in-the-modern-ai-api-economy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/strategy-and-business-model-transformation/the-strategic-value-of-an-api-developer-portal-in-the-modern-ai-api-economy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/automotive-and-manufacturing/v-cycle-multi-agent-architecture-and-silicon-shoring-for-automotive",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/automotive-and-manufacturing/v-cycle-multi-agent-architecture-and-silicon-shoring-for-automotive",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cybersecurity/geopolitical-intelligence",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cybersecurity/geopolitical-intelligence",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/arlanis-reply/en/smarter-insurance-sales-with-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/arlanis-reply/en/smarter-insurance-sales-with-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/data-world/synthetic-data-business-opportunities-and-use-cases",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/data-world/synthetic-data-business-opportunities-and-use-cases",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quantum-computing/quantum-machine-learning",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quantum-computing/quantum-machine-learning",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cx-and-digital-commerce/ai-powered-conversational-commerce",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cx-and-digital-commerce/ai-powered-conversational-commerce",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/digital-experience-trends-2025",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/digital-experience-trends-2025",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/strategy-and-business-model-transformation/digital-compliance-for-banking-hub",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/strategy-and-business-model-transformation/digital-compliance-for-banking-hub",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2025",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2025",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/leading-provider-of-sap-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/supply-chain-management/optimize-your-warehouse-operations-with-reply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/digital-experience-services-luenendonk-market-study-2021",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/crm-and-cx-with-reply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/number-one-in-digital-experience",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/best-in-class-provider-in-ai-related-services-in-germany",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/teknowlogy-iot-survey-2020",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/company-profile",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-candidate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-client",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-supplier",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-marketing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/CCPA-privacy-notice",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/modern-slavery-statement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/declaration-of-principles",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/approach-to-uk-taxation",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/contacts",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/contents/Reply_Company_Information_en.pdf",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "en/insights/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "en/insights/_meta.json",
+  "driverVersion": "1"
+}

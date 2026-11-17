@@ -1,0 +1,115 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-15T16:42:24.923Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.reply.com",
+    "eds": "https://main--a355dc1b--aemcoder.aem.page",
+    "edsHostOverride": "https://main--a355dc1b--aemcoder.aem.page",
+    "only": [
+      "4brands-reply-en"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 1,
+    "overridePass": 0,
+    "fail": 1,
+    "error": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 1,
+    "failContent": 1,
+    "failUnits": 0,
+    "fontsNotLoaded": 1,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "4brands-reply-en",
+      "path": "/4brands-reply/en",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 5.21,
+      "textPct": 17.98,
+      "heightDelta": 8,
+      "originH": 11998,
+      "edsH": 11990,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 1,
+      "clipPass": false,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "passWithOverride": false,
+      "fontsNotLoaded": [
+        "khanqyjjei-fallback",
+        "tuqgwxsjgq-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "clipped 1 (text 1, controls 0)",
+        "content MISSING 7 / HIDDEN 0 (+2 control state)",
+        "font-not-loaded:khanqyjjei-fallback",
+        "font-not-loaded:tuqgwxsjgq-fallback"
+      ],
+      "clipGroups": [
+        {
+          "kind": "TEXT CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#reve---the-planning-interface-for-revenue-growth-management",
+          "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#reve---the-planning-interface-for-revenue-growth-management",
+          "text": "reve - the planning interface for revenue growth management",
+          "cutMin": 3,
+          "cutMax": 3
+        }
+      ],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 7,
+        "hidden": 0,
+        "controlState": 2,
+        "missingButtons": 7,
+        "hiddenButtons": 0,
+        "findings": 20,
+        "variable": []
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [
+        "10000-10500:18.7%",
+        "10500-11000:27.5%"
+      ],
+      "error": null
+    }
+  ]
+}

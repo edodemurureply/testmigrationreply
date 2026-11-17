@@ -1,0 +1,1181 @@
+{
+  "types": {
+    "en-accessibility": {
+      "archetype": "en-accessibility",
+      "type": "plain",
+      "prototype": "stardust/prototypes/en-accessibility-proposed.html",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": 3.82,
+          "dh": 0,
+          "contentRed": 0,
+          "nothingLost": 0,
+          "clipped": 0,
+          "visual": "4 advisory IMAGE DID NOT LOAD (lazy footer social svgs; rendered in pixel capture)",
+          "round": "font3"
+        },
+        "1440": {
+          "pixel": 2.21,
+          "dh": 0,
+          "contentRed": 0,
+          "nothingLost": 0,
+          "clipped": 0,
+          "visual": "none",
+          "round": "font3"
+        }
+      },
+      "capProbe": "PASS",
+      "residuals": [
+        "chrome-parity 13/11 sub-5px text-width deltas from the R-02 font substitute (Archivo for Alaska) — justified by register R-02",
+        "pre-substitution rounds iter1-3 measured 0.00% with the original Alaska files (gate-only)"
+      ],
+      "motion": {
+        "observed": [
+          "header scroll-collapse",
+          "mega-menu open",
+          "language dropdown",
+          "search panel"
+        ],
+        "implemented": [
+          "header scroll-collapse",
+          "mega-menu",
+          "language dropdown",
+          "search panel",
+          "mobile drawer",
+          "footer accordions <768"
+        ],
+        "dead": [
+          "hover on nav/content links (no live change)"
+        ]
+      },
+      "register": [
+        "R-02"
+      ],
+      "recordedAt": "2026-11-15T10:09:34.663Z"
+    },
+    "en-iot": {
+      "archetype": "en-iot",
+      "type": "hub",
+      "prototype": "stardust/prototypes/en-iot-proposed.html",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": 9.46,
+          "dh": 24,
+          "contentRed": 0,
+          "nothingLost": 0,
+          "clipped": 0,
+          "visual": "advisory footer social svgs"
+        },
+        "1440": {
+          "pixel": 2.91,
+          "dh": 0,
+          "contentRed": 0,
+          "nothingLost": 0,
+          "clipped": 0,
+          "visual": "advisory footer social svgs"
+        }
+      },
+      "capProbe": "PASS",
+      "residuals": [
+        "360 |dh| 24px > 8px after the 3-iteration cap: R-02 substitute-font wrap forks (wall title 3 vs 2 lines +23px; ADR hero h3 5 vs 6 lines -34px) — logged residual, justified by R-02",
+        "chrome-parity small text-width deltas from R-02"
+      ],
+      "motion": {
+        "observed": [
+          "header scroll-collapse",
+          "card-carousel transform 1s + active",
+          "ROSE slider transform + out opacity"
+        ],
+        "implemented": [
+          "card-carousel prev/next",
+          "ROSE slider",
+          "cards-wall masonry + load-more",
+          "media-hero parallax",
+          "info-card hover reveal"
+        ],
+        "dead": [
+          "Next card/item pager pokes (no sampled change)",
+          "reply-card hover (no diff)"
+        ]
+      },
+      "register": [
+        "R-02"
+      ],
+      "recordedAt": "2026-11-15T10:36:13.719Z"
+    },
+    "index": {
+      "archetype": "index",
+      "type": "home",
+      "prototype": "stardust/prototypes/index-proposed.html",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": 5.59,
+          "dh": 0,
+          "contentRed": 0,
+          "nothingLost": 0,
+          "clipped": 0,
+          "visual": "justified (same causes)"
+        },
+        "1440": {
+          "pixel": 9.44,
+          "dh": 0,
+          "contentRed": 0,
+          "nothingLost": 0,
+          "clipped": 0,
+          "visual": "justified: lazy IMAGE DID NOT LOAD, SURFACE/GROUND pairing, FLUSH-LEFT carousel offsets (same as live)"
+        }
+      },
+      "capProbe": "PASS",
+      "residuals": [
+        "hero DAM video frame differs per capture (0-1000px bands)",
+        "live carousels autoplay; capture caught different slides",
+        "chrome-parity text-width deltas from R-02",
+        "home-only tracking to match live line counts under R-02"
+      ],
+      "captureState": [
+        {
+          "what": "highlights rail autoplay 5s pause-on-hover",
+          "restoreAtDelivery": true
+        },
+        {
+          "what": "insights rail autoplay 5s pause-on-hover",
+          "restoreAtDelivery": true
+        },
+        {
+          "what": "hero DAM video autoplay muted loop",
+          "restoreAtDelivery": true
+        },
+        {
+          "what": "St. Peter wall card video",
+          "restoreAtDelivery": true
+        }
+      ],
+      "motion": {
+        "observed": [
+          "header scroll-collapse",
+          "carousel prev/next 1s",
+          "active card scale",
+          "parallax hero + featured cards",
+          "autoplay 5s pause on hover"
+        ],
+        "implemented": [
+          "infinite carousels",
+          "active card scale",
+          "hero + featured parallax",
+          "autoplay (switched off for capture, restore at delivery)",
+          "video play/pause + modal"
+        ],
+        "dead": [
+          "hover on wall/rail cards"
+        ]
+      },
+      "register": [
+        "R-02"
+      ],
+      "recordedAt": "2026-11-15T10:56:20.093Z"
+    },
+    "en-insights": {
+      "archetype": "en-insights",
+      "type": "listing",
+      "prototype": "stardust/prototypes/en-insights-proposed.html",
+      "iterations": {
+        "360": 2,
+        "1440": 2
+      },
+      "gates": {
+        "360": {
+          "pixel": 2.01,
+          "dh": 0,
+          "contentRed": 0,
+          "nothingLost": 0,
+          "clipped": 0,
+          "visual": "advisory only, justified: same three causes"
+        },
+        "1440": {
+          "pixel": 1.28,
+          "dh": 0,
+          "contentRed": 0,
+          "nothingLost": 0,
+          "clipped": 0,
+          "visual": "advisory only, justified: duplicate-title SURFACE/GROUND pairing, lazy-image probe, loop-clone FLUSH-LEFT"
+        }
+      },
+      "capProbe": "PASS",
+      "residuals": [
+        "chrome-parity: shared canon header residual Δy -15px / Δx ≤ -8px (as index); footer Δw ±2–6px (R-02)",
+        "R-02 line-break parity <768px: two headings carry max-width caps to break as live",
+        "visual-diff advisories: duplicate card titles paired across backgrounds; lazy images; loop clones",
+        "cap-probe: 14 live vs 8 build sections (wrapper divs) — informational",
+        "Load-more: next batch not captured, reveals nothing (D-02)"
+      ],
+      "motion": {
+        "observed": [
+          "carousel slide",
+          "load-more pager",
+          "filter dropdown open",
+          "btn-primary hover wipe",
+          "header collapse on scroll",
+          "card image hover zoom"
+        ],
+        "implemented": [
+          "carousel slide (modules.js)",
+          "pager (modules.js, D-02)",
+          "filter dropdown (en-insights.js)",
+          "btn-primary hover wipe (CSS)",
+          "header collapse (canon.js)",
+          "card hover zoom (modules.css)"
+        ],
+        "dead": [
+          "card-wall class adds on uncaptured load-more batch (D-02)",
+          ".scrolled/.out classes with no styling rule",
+          "btn-primary entrance: hover-only on build, probe miss"
+        ]
+      },
+      "register": [
+        "R-02"
+      ],
+      "recordedAt": "2026-11-15T11:15:10.121Z"
+    },
+    "4brands-reply-en": {
+      "archetype": "4brands-reply-en",
+      "type": "brand-home",
+      "prototype": "stardust/prototypes/4brands-reply-en-proposed.html",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": 3.16,
+          "dh": 2,
+          "contentRed": 0,
+          "nothingLost": 0,
+          "clipped": 0,
+          "visual": "1 advisory FLUSH-LEFT TEXT (same clone)"
+        },
+        "1440": {
+          "pixel": 2.04,
+          "dh": 0,
+          "contentRed": 0,
+          "nothingLost": 0,
+          "clipped": 0,
+          "visual": "1 advisory FLUSH-LEFT TEXT (scale-carousel loop clone off-screen, as live)"
+        }
+      },
+      "capProbe": "PASS",
+      "residuals": [
+        "chrome-parity: sub-8px text-width deltas footer legal + header nav (R-02)",
+        "chrome-parity header Δy -27px @1440 — header scroll-state offset, as index/en-iot",
+        "R-02 letter-spacing fixes (.01–.02em) measured against live line counts",
+        "Google Maps rebuilt as static capture — delivery must wire the real map (dynamics row v-maps-embedded-map-service)",
+        "Load more content: index-backed on live, nothing extra in prototype (D-02)"
+      ],
+      "captureState": [
+        {
+          "what": "Google Maps embed rendered as static tiles",
+          "restoreAtDelivery": true
+        }
+      ],
+      "motion": {
+        "observed": [
+          "header scroll-collapse",
+          "horizontal carousel prev/next",
+          "scale loop carousel next",
+          "search panel .show",
+          "office-locations map→list toggle",
+          "load-more pager",
+          "hero parallax"
+        ],
+        "implemented": [
+          "header scroll-collapse (canon.js)",
+          "horizontal + scale carousels (modules.js)",
+          "search panel (canon.js)",
+          "map→office list toggle (brand.js)",
+          "brand rails prev/next",
+          "hero parallax",
+          "footer accordion <768"
+        ],
+        "dead": [
+          "hover on info/editorial cards",
+          "sticky-highlight toggle (no sampled change)",
+          "scrolled/out/gm-* classes"
+        ]
+      },
+      "register": [
+        "R-01",
+        "R-02"
+      ],
+      "recordedAt": "2026-11-15T11:30:59.023Z"
+    },
+    "en-covid-19-implications-2021": {
+      "archetype": "en-covid-19-implications-2021",
+      "type": "editorial",
+      "prototype": "stardust/prototypes/en-covid-19-implications-2021-proposed.html",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": 8.89,
+          "dh": 2,
+          "contentRed": 0,
+          "nothingLost": 0,
+          "clipped": 0,
+          "visual": "justified: same 4 canon footer SVGs"
+        },
+        "1440": {
+          "pixel": 2.81,
+          "dh": 0,
+          "contentRed": 0,
+          "nothingLost": 0,
+          "clipped": 0,
+          "visual": "justified: 4 canon footer social SVGs IMAGE DID NOT LOAD (same on gated en-iot/en-insights)"
+        }
+      },
+      "capProbe": "PASS",
+      "residuals": [
+        "360 hot bands 2500–3500 / 14000–15500: R-02 substitute-font wrap forks (framework lead 4 vs 5 lines, tension subtitle, 120px figure titles); offsets cancel, Δh 2",
+        "chrome-parity 13/11 deltas, all canon header/footer text widths (R-02) + footer offset; crop gates header 1.55/0.00 %, footer 1.08/1.68 %",
+        "live overflows 10px (tension grid margin-left 10px + width 100%); prototype clips via overflow-x:clip to meet the overflow assert",
+        "advisory FONT FORK entries (R-02)"
+      ],
+      "motion": {
+        "observed": [
+          "header collapsed",
+          "page-index fixed-nav",
+          "scroll-spy active",
+          "share open"
+        ],
+        "implemented": [
+          "fixed-nav",
+          "scroll-spy + smooth scroll",
+          "share open"
+        ],
+        "dead": [
+          "share-icon widget frames",
+          "index link widget frames",
+          "li hover"
+        ]
+      },
+      "register": [
+        "R-02"
+      ],
+      "recordedAt": "2026-11-15T11:36:44.155Z"
+    },
+    "4brands-reply-de-rotkaeppchen-mumm-sektkellereien": {
+      "archetype": "4brands-reply-de-rotkaeppchen-mumm-sektkellereien",
+      "type": "brand-case-study",
+      "prototype": "stardust/prototypes/4brands-reply-de-rotkaeppchen-mumm-sektkellereien-proposed.html",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": 3.87,
+          "dh": 2,
+          "contentRed": 0,
+          "nothingLost": 0,
+          "clipped": 0,
+          "visual": "none"
+        },
+        "1440": {
+          "pixel": 1.68,
+          "dh": -1,
+          "contentRed": 0,
+          "nothingLost": 0,
+          "clipped": 0,
+          "visual": "none"
+        }
+      },
+      "capProbe": "PASS",
+      "residuals": [
+        "chrome-parity: header nav / footer legal text boxes 2–5 px (R-02 glyph widths), no wrap change",
+        "360: two paragraphs matched with ±0.01em letter-spacing <768px (R-02)"
+      ],
+      "captureState": [
+        {
+          "what": "HubSpot form (third-party) inside the contact modal",
+          "restoreAtDelivery": true
+        }
+      ],
+      "motion": {
+        "observed": [
+          "header scroll-morph",
+          "hero CTA opens HubSpot form modal (.show, .3s)",
+          "hsfc btn-primary entrance in HubSpot form"
+        ],
+        "implemented": [
+          "header scroll-morph (canon.js)",
+          "form modal + backdrop, close/backdrop/Escape"
+        ],
+        "dead": [
+          "main button hover (no measured diff)",
+          "hsfc-Button entrance (third-party, restoreAtDelivery)"
+        ]
+      },
+      "register": [
+        "R-02"
+      ],
+      "recordedAt": "2026-11-15T11:50:26.098Z"
+    },
+    "4brands-reply-de-customer-experience-management": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "type": "brand-solution",
+      "prototype": "stardust/prototypes/4brands-reply-de-customer-experience-management-proposed.html",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": 3.65,
+          "dh": -2,
+          "contentRed": 0,
+          "nothingLost": 0,
+          "clipped": 0,
+          "visual": "advisory, justified: same lazy carousel images"
+        },
+        "1440": {
+          "pixel": 1.74,
+          "dh": 0,
+          "contentRed": 0,
+          "nothingLost": 0,
+          "clipped": 0,
+          "visual": "advisory, justified: 2 lazy off-screen carousel images 0x0; 5 off-screen carousel h3 FLUSH-LEFT"
+        }
+      },
+      "capProbe": "PASS",
+      "residuals": [
+        "chrome-parity 11 deltas/width: 2–5px header/footer text widths (R-02)",
+        "R-02 letter-spacing tweaks to match live line breaks (statement, tab abstracts, accordion titles, tab labels)",
+        "related carousel starts on slide 4 as captured; live autoplays 5s (restoreAtDelivery)",
+        "hidden tab panels 2–5 verbatim with live span splits (#87)",
+        "modal close + related carousel carry aria-labels live lacks (advisory) — to drop at delivery if strict parity wanted"
+      ],
+      "captureState": [
+        {
+          "what": "related carousel autoplay 5s",
+          "restoreAtDelivery": true
+        }
+      ],
+      "motion": {
+        "observed": [
+          "tab switch + accent-bar enter-left",
+          "accordion open",
+          "carousel next",
+          "carousel autoplay",
+          "header scroll-morph"
+        ],
+        "implemented": [
+          "tab switch + accent bar",
+          "accordion toggle",
+          "carousel prev/next loop",
+          "header scroll-morph (canon)"
+        ],
+        "dead": [
+          "hover .reply-card",
+          "hover .accordion-item",
+          "hover tab items"
+        ]
+      },
+      "register": [
+        "R-02"
+      ],
+      "recordedAt": "2026-11-15T11:51:43.979Z"
+    }
+  },
+  "siblings": {
+    "4brands-reply-de-agentic-ai-rgm": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-cta--dark b4-hero--solution card-carousel--autoplay card-carousel--simple section-heading--b4 section-heading--center statement--lead statement--left"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/agentic-ai-rgm/index.html"
+    },
+    "4brands-reply-de-ai-voice-assistant-fmcg-sales": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-hero--solution card-carousel--autoplay card-carousel--simple section-heading--b4 section-heading--center section-heading--dark statement--lead statement--left"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/ai-voice-assistant-fmcg-sales/index.html"
+    },
+    "4brands-reply-de-artificial-intelligence-consumer-goods": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-hero--solution card-carousel--autoplay card-carousel--simple statement--dark statement--lead statement--left"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/artificial-intelligence-consumer-goods/index.html"
+    },
+    "4brands-reply-de-composable-customer-data-platform": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-hero--solution b4-media--ice b4-media--video b4-slider--center b4-slider--dark card-carousel--autoplay card-carousel--simple section-heading--b4 section-heading--near statement--dark statement--ice statement--lead statement--left"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/composable-customer-data-platform/index.html"
+    },
+    "4brands-reply-de-customer-and-consumer-engagement": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-accordion--ice b4-hero--solution card-carousel--autoplay card-carousel--simple section-heading--b4 section-heading--center section-heading--dark section-heading--near statement--ice statement--lead statement--left"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/customer-and-consumer-engagement/index.html"
+    },
+    "4brands-reply-de-data-and-analytics-strategie-workshop": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-hero--solution b4-slider--cards b4-slider--center b4-slider--dark b4-slider--grid b4-slider--ice b4-slider--icon b4-slider--info section-heading--b4 section-heading--near statement--dark statement--ice statement--lead statement--left"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/data-and-analytics-strategie-workshop/index.html"
+    },
+    "4brands-reply-de-data-value-management": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-accordion--ice b4-hero--solution card-carousel--autoplay card-carousel--simple section-heading--b4 section-heading--center section-heading--dark section-heading--near statement--ice statement--lead statement--left"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/data-value-management/index.html"
+    },
+    "4brands-reply-de-demand-driven-replenishment": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-hero--solution b4-intro--dark b4-intro--ice b4-slider--center b4-slider--dark card-carousel--autoplay card-carousel--simple section-heading--b4 section-heading--center section-heading--dark section-heading--near statement--dark statement--ice statement--lead statement--left"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/demand-driven-replenishment/index.html"
+    },
+    "4brands-reply-de-intelligent-enterprise": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-hero--solution b4-slider--cards b4-slider--grid b4-slider--icon section-heading--b4 section-heading--center section-heading--dark section-heading--near"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/intelligent-enterprise/index.html"
+    },
+    "4brands-reply-de-intelligent-product-recommendations": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-hero--solution card-carousel--autoplay card-carousel--simple section-heading--b4 section-heading--center section-heading--dark statement--lead statement--left"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/intelligent-product-recommendations/index.html"
+    },
+    "4brands-reply-de-ki-assistent-fuer-den-vertrieb": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-hero--solution b4-media--ice b4-media--video b4-slider--cards b4-slider--center b4-slider--dark b4-slider--grid b4-slider--icon b4-slider--info section-heading--b4 section-heading--center section-heading--near statement--dark statement--ice statement--lead statement--left"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/ki-assistent-fuer-den-vertrieb/index.html"
+    },
+    "4brands-reply-de-mit-scrum-kundenzentrierte-erfolge-erzielen": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-hero--solution b4-intro--ice b4-slider--center b4-slider--dark b4-slider--grid b4-slider--info section-heading--b4 section-heading--center section-heading--dark statement--lead"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/mit-scrum-kundenzentrierte-erfolge-erzielen/index.html"
+    },
+    "4brands-reply-de-potenziale-mit-preis-sensing": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-hero--solution b4-intro--ice b4-slider--cards b4-slider--grid b4-slider--icon section-heading--b4 section-heading--center statement--lead"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/potenziale-mit-preis-sensing/index.html"
+    },
+    "4brands-reply-de-process-mining": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-cta--dark b4-hero--solution b4-slider--center b4-slider--ice b4-slider--info card-carousel--autoplay card-carousel--simple section-heading--b4 statement--lead statement--left"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/process-mining/index.html"
+    },
+    "4brands-reply-de-recipe-for-sap-ibp": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-hero--solution b4-slider--center b4-slider--dark section-heading--b4 section-heading--dark statement--ice statement--lead statement--left"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/recipe-for-sap-ibp/index.html"
+    },
+    "4brands-reply-de-reply-routes": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-hero--solution b4-slider--center b4-slider--grid statement--dark statement--lead statement--left"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/reply-routes/index.html"
+    },
+    "4brands-reply-de-revenue-growth-management": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-accordion--ice b4-cta--banner b4-hero--solution card-carousel--autoplay card-carousel--simple section-heading--b4 section-heading--center section-heading--dark section-heading--near statement--ice statement--lead statement--left"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/revenue-growth-management/index.html"
+    },
+    "4brands-reply-de-revenue-growth-management-reve": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-hero--solution b4-media--dark b4-media--video b4-slider--center b4-slider--grid b4-slider--ice section-heading--b4 section-heading--center section-heading--dark statement--dark statement--ice statement--lead statement--left"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/revenue-growth-management-reve/index.html"
+    },
+    "4brands-reply-de-sac-advanced-scripting": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-cta--dark b4-hero--solution b4-slider--cards b4-slider--center b4-slider--grid b4-slider--ice card-carousel--autoplay card-carousel--simple section-heading--b4 section-heading--dark statement--ice statement--lead"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/sac-advanced-scripting/index.html"
+    },
+    "4brands-reply-de-sac-essentials": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-cta--dark b4-hero--solution b4-slider--cards b4-slider--center b4-slider--grid b4-slider--ice card-carousel--autoplay card-carousel--simple section-heading--b4 section-heading--dark statement--ice statement--lead"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/sac-essentials/index.html"
+    },
+    "4brands-reply-de-sac-insight-story-design": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-cta--dark b4-hero--solution b4-slider--cards b4-slider--center b4-slider--grid b4-slider--ice card-carousel--autoplay card-carousel--simple section-heading--b4 section-heading--dark statement--ice statement--lead"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/sac-insight-story-design/index.html"
+    },
+    "4brands-reply-de-sac-modeling-and-insights-lab": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-cta--dark b4-hero--solution b4-slider--cards b4-slider--center b4-slider--grid b4-slider--ice card-carousel--autoplay card-carousel--simple section-heading--b4 section-heading--dark statement--ice statement--lead"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/sac-modeling-and-insights-lab/index.html"
+    },
+    "4brands-reply-de-sap-analytics-cloud": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-hero--solution b4-slider--center b4-slider--dark b4-slider--grid b4-slider--info card-carousel--autoplay card-carousel--simple statement--dark statement--lead statement--left"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/sap-analytics-cloud/index.html"
+    },
+    "4brands-reply-de-sap-ccm": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-cta--dark b4-hero--solution b4-slider--center b4-slider--grid b4-slider--ice card-carousel--autoplay card-carousel--simple section-heading--b4 section-heading--center statement--lead statement--left"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/sap-ccm/index.html"
+    },
+    "4brands-reply-de-sap-datasphere-trainings": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-hero--solution b4-slider--center b4-slider--dark b4-slider--grid b4-slider--info statement--dark statement--lead"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/sap-datasphere-trainings/index.html"
+    },
+    "4brands-reply-de-sap-finance-knowledge-and-training": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-accordion--ice b4-hero--solution b4-slider--center b4-slider--dark section-heading--b4 statement--dark statement--lead statement--left"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/sap-finance-knowledge-and-training/index.html"
+    },
+    "4brands-reply-de-smart-retail-execution": {
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "variants": [
+        "b4-hero--solution b4-intro--ice b4-slider--center b4-slider--dark b4-slider--grid b4-slider--info section-heading--b4 section-heading--center section-heading--dark statement--lead"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/smart-retail-execution/index.html"
+    },
+    "4brands-reply-de-newsroom": {
+      "archetype": "en-insights",
+      "variants": [
+        "intro.ice intro.newsroom explore.newsroom b4-events.newsroom"
+      ],
+      "pixel": {},
+      "contentDiff": "88 (0 structural 🔴)",
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "variance-probe",
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/4brands-reply/de/newsroom/index.html"
+    },
+    "en-cx-and-digital-commerce": {
+      "archetype": "en-iot",
+      "variants": [
+        "card-carousel--awards card-carousel--b-0 card-carousel--bm-0 card-carousel--horizontal card-carousel--t-256 card-carousel--tm-254 cards-wall--t-40 cards-wall--t-50 cards-wall--tm-40 cards-wall--tm-56 hero-card--b-120 hero-card--bm-56 hero-card--hub page-index--hub section-heading--b-71 section-heading--b-72 section-heading--bm-36 section-heading--bm-56 section-heading--bm-57 section-heading--lead section-heading--t-64 section-heading--t-72 section-heading--tm-0 section-heading--tm-56 section-heading--w-6 section-heading--w-8 statement--bm-100 statement--hub",
+        "card-carousel--awards card-carousel--horizontal cards-wall--t-40 cards-wall--t-50 cards-wall--tm-40 cards-wall--tm-56 hero-card--b-120 hero-card--bm-56 hero-card--hub page-index--hub section-heading--b-71 section-heading--b-72 section-heading--bm-36 section-heading--bm-56 section-heading--bm-57 section-heading--lead section-heading--t-64 section-heading--t-72 section-heading--tm-0 section-heading--tm-56 section-heading--w-6 section-heading--w-8 statement--bm-100 statement--hub"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/en/cx-and-digital-commerce/index.html"
+    },
+    "en-cybersecurity": {
+      "archetype": "en-iot",
+      "variants": [
+        "hero-card--b-40 hero-card--bm-32 hero-card--hub hero-card--t-120 hero-card--tm-50 hub-text--b-120 hub-text--bm-76 hub-text--mixed hub-text--t-262 hub-text--tm-318 section-heading--b-68 section-heading--bm-48 section-heading--w-6 section-heading--w-8",
+        "cards-wall--all hero-card--b-40 hero-card--bm-32 hero-card--hub hero-card--t-120 hero-card--tm-50 hub-text--b-120 hub-text--bm-76 hub-text--mixed hub-text--t-262 hub-text--tm-318 section-heading--b-68 section-heading--bm-48 section-heading--w-6 section-heading--w-8"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/en/cybersecurity/index.html"
+    },
+    "en-data-world": {
+      "archetype": "en-iot",
+      "variants": [
+        "hero-card--hub hub-text--b-0 hub-text--bm-0 hub-text--mixed hub-text--t-0 hub-text--tm-0 section-heading--tm-0 section-heading--tm-56 section-heading--w-6 slider-with-title--icons slider-with-title--t-77 slider-with-title--tm-57 statement--bm-56 statement--hub statement--tm-56",
+        "hero-card--hub hub-text--b-0 hub-text--bm-0 hub-text--mixed hub-text--t-0 hub-text--tm-0 section-heading--b-121 section-heading--bm-56 section-heading--center section-heading--lead section-heading--tm-0 section-heading--tm-56 section-heading--w-6 slider-with-title--icons slider-with-title--t-77 slider-with-title--tm-57"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/en/data-world/index.html"
+    },
+    "en-design": {
+      "archetype": "en-iot",
+      "variants": [
+        "cards-wall--special hero-card--b-120 hero-card--bm-56 hero-card--hub section-heading--tm-56 slider-with-title--autoplay slider-with-title--b-119 slider-with-title--bm-104 slider-with-title--infinite slider-with-title--t-120 slider-with-title--tm-56 statement--bm-56 statement--hub statement--tm-56"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/en/design/index.html"
+    },
+    "en-digital-assets": {
+      "archetype": "en-iot",
+      "variants": [
+        "hero-card--hub hub-text--b-0 hub-text--b-42 hub-text--bm-0 hub-text--bm-42 hub-text--mixed hub-text--t-120 hub-text--t-16 hub-text--tm-16 hub-text--tm-96 section-heading--t-0 section-heading--tm-48 section-heading--w-6 statement--bm-48 statement--hub"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/en/digital-assets/index.html"
+    },
+    "en-digital-experience": {
+      "archetype": "en-iot",
+      "variants": [
+        "card-carousel--autoplay card-carousel--awards card-carousel--b-0 card-carousel--bm-108 card-carousel--horizontal card-carousel--hub card-carousel--simple card-carousel--t-217 card-carousel--tm-253 hero-card--hub media-hero--slide section-heading--b-56 section-heading--t-50 section-heading--t-64 section-heading--t-88 section-heading--tm-50 section-heading--tm-56 slider-with-title--b-46 slider-with-title--bm-60 slider-with-title--cards statement--b-162 statement--bm-90 statement--hub",
+        "card-carousel--autoplay card-carousel--awards card-carousel--horizontal card-carousel--hub card-carousel--simple hero-card--hub hero-slider--hub section-heading--b-56 section-heading--t-50 section-heading--t-64 section-heading--t-88 section-heading--tm-50 section-heading--tm-56 slider-with-title--b-46 slider-with-title--bm-60 slider-with-title--cards statement--b-162 statement--bm-90 statement--hub"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/en/digital-experience/index.html"
+    },
+    "en-environment": {
+      "archetype": "en-iot",
+      "variants": [
+        "hub-text--b-0 hub-text--b-119 hub-text--b-120 hub-text--b-96 hub-text--b-97 hub-text--bm-136 hub-text--bm-79 hub-text--bm-95 hub-text--bm-96 hub-text--mixed hub-text--t-0 hub-text--t-120 hub-text--t-96 hub-text--tm-0 hub-text--tm-194 hub-text--tm-80 hub-text--tm-96 hub-text--w-5 hub-text--w-7 slider-with-title--autoplay slider-with-title--b-96 slider-with-title--bm-96 slider-with-title--dark slider-with-title--infinite slider-with-title--tm-10"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/en/environment/index.html"
+    },
+    "en-esg": {
+      "archetype": "en-iot",
+      "variants": [
+        "card-carousel--hub card-carousel--simple hub-text--b-120 hub-text--b-121 hub-text--b-147 hub-text--b-161 hub-text--b-39 hub-text--bm-133 hub-text--bm-169 hub-text--bm-76 hub-text--mixed hub-text--t-120 hub-text--t-50 hub-text--t-90 hub-text--tm-28 hub-text--tm-38 section-heading--b-0 section-heading--b-1 section-heading--b-120 section-heading--bm-0 section-heading--bm-24 section-heading--bm-56 section-heading--lead section-heading--t-0 section-heading--tm-0 section-heading--tm-56 section-heading--w-5 section-heading--w-6 statement--b-124 statement--b-207 statement--bm-147 statement--bm-76 statement--hub statement--t-124 statement--t-68 statement--t-96 statement--tm-48 statement--tm-76"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/en/esg/index.html"
+    },
+    "en-financial-services": {
+      "archetype": "en-iot",
+      "variants": [
+        "card-carousel--autoplay card-carousel--b-0 card-carousel--bm-0 card-carousel--featured card-carousel--horizontal card-carousel--hub card-carousel--simple card-carousel--t-120 card-carousel--tm-96 section-heading--w-6 slider-with-title--autoplay slider-with-title--infinite statement--hub"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/en/financial-services/index.html"
+    },
+    "en-gaming": {
+      "archetype": "en-iot",
+      "variants": [
+        "hero-card--b-64 hero-card--bm-120 hero-card--hub hero-card--logo hub-text--b-0 hub-text--bm-0 hub-text--mixed hub-text--t-96 hub-text--tm-80 hub-text--w-4 page-index--hub section-heading--b-72 section-heading--bm-56 section-heading--lead section-heading--t-72 section-heading--tm-48 section-heading--w-8 statement--bm-48 statement--hub",
+        "cards-wall--all hero-card--b-64 hero-card--bm-120 hero-card--hub hero-card--logo hub-text--b-0 hub-text--bm-0 hub-text--mixed hub-text--t-96 hub-text--tm-80 hub-text--w-4 page-index--hub section-heading--b-72 section-heading--bm-56 section-heading--lead section-heading--t-72 section-heading--tm-48 section-heading--w-8 statement--bm-48 statement--hub"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/en/gaming/index.html"
+    },
+    "en-google-cloud": {
+      "archetype": "en-iot",
+      "variants": [
+        "cards-wall--tm-174 hub-text--b-81 hub-text--bm-0 hub-text--mixed hub-text--t-120 media-hero--intro page-index--hub section-heading--b-120 section-heading--b-70 section-heading--bm-24 section-heading--bm-56 section-heading--center section-heading--lead section-heading--t-100 section-heading--t-56 section-heading--tm-0 section-heading--tm-56 section-heading--w-5 section-heading--w-6 slider-with-title--b-174 slider-with-title--b-86 slider-with-title--bm-103 slider-with-title--bm-165 slider-with-title--cards slider-with-title--dark slider-with-title--four slider-with-title--t-30 slider-with-title--t-88 slider-with-title--tm-30 slider-with-title--tm-56"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/en/google-cloud/index.html"
+    },
+    "en-governance": {
+      "archetype": "en-iot",
+      "variants": [
+        "hub-text--b-120 hub-text--t-0 hub-text--tm-0 hub-text--w-4 hub-text--w-5 statement--bm-56 statement--hub statement--tm-56"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/en/governance/index.html"
+    },
+    "en-governance-risk-and-compliance": {
+      "archetype": "en-iot",
+      "variants": [
+        "card-carousel--awards card-carousel--horizontal card-carousel--hub card-carousel--simple hub-text--b-149 hub-text--bm-23 hub-text--mixed hub-text--t-184 hub-text--tm-76 section-heading--t-96 section-heading--tm-80 section-heading--w-6 statement--hub"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/en/governance-risk-and-compliance/index.html"
+    },
+    "en-healthcare": {
+      "archetype": "en-iot",
+      "variants": [
+        "card-carousel--awards card-carousel--horizontal card-carousel--hub card-carousel--simple cards-wall--tm-33 hero-card--b-7 hero-card--bm-56 hero-card--hub hero-card--t-120 hero-card--tm-56 hub-text--b-207 hub-text--bm-109 hub-text--mixed hub-text--t-120 hub-text--tm-0 section-heading--t-96 section-heading--tm-56 section-heading--tm-80 section-heading--w-5 section-heading--w-6"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/en/healthcare/index.html"
+    },
+    "en-hybrid-work": {
+      "archetype": "en-iot",
+      "variants": [
+        "cards-wall--t-120 cards-wall--tm-96 hero-card--b-120 hero-card--hub logo-wall--b-61 logo-wall--bm-123 logo-wall--ice logo-wall--t-96 logo-wall--tm-80 page-index--hub section-heading--b-0 section-heading--b-72 section-heading--bm-56 section-heading--lead section-heading--w-6 section-heading--w-8 slider-with-title--autoplay slider-with-title--bm-24 slider-with-title--icons slider-with-title--infinite statement--bm-48 statement--hub"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/en/hybrid-work/index.html"
+    },
+    "en-investors": {
+      "archetype": "en-iot",
+      "variants": [
+        "hub-text--b-0 hub-text--b-119 hub-text--b-120 hub-text--b-183 hub-text--b-40 hub-text--b-52 hub-text--b-64 hub-text--b-81 hub-text--b-88 hub-text--b-96 hub-text--bm-0 hub-text--bm-112 hub-text--bm-32 hub-text--bm-64 hub-text--bm-81 hub-text--bm-96 hub-text--center hub-text--mixed hub-text--t-0 hub-text--t-120 hub-text--t-30 hub-text--t-32 hub-text--t-40 hub-text--t-61 hub-text--t-82 hub-text--tm-0 hub-text--tm-32 hub-text--tm-33 hub-text--tm-64 hub-text--tm-66 hub-text--w-4 hub-text--w-5 hub-text--w-6 hub-text--w-8 media-hero--intro page-index--hub page-index--light section-heading--b-0 section-heading--b-24 section-heading--bm-0 section-heading--t-0 section-heading--t-96 section-heading--tm-0 section-heading--tm-80 slider-with-title--b-60 slider-with-title--bm-57 slider-with-title--tm-32"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/en/investors/index.html"
+    },
+    "en-labs": {
+      "archetype": "en-iot",
+      "variants": [
+        "hero-slider--hub hub-text--b-225 hub-text--bm-144 hub-text--mixed hub-text--t-25 hub-text--tm-15 statement--b-96 statement--bm-48 statement--hub statement--t-96 statement--tm-48"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/en/labs/index.html"
+    },
+    "en-logistics": {
+      "archetype": "en-iot",
+      "variants": [
+        "card-carousel--awards card-carousel--horizontal hero-card--hub hero-card--t-120 hero-card--tm-96 logo-wall--b-80 logo-wall--bm-126 logo-wall--ice logo-wall--t-96 logo-wall--tm-80 media-hero--intro section-heading--t-0 section-heading--tm-0 slider-with-title--autoplay slider-with-title--icons slider-with-title--infinite slider-with-title--t-120 slider-with-title--tm-96 statement--hub"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/en/logistics/index.html"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+ "4brands-reply-en": {
+  "max": 1,
+  "reason": "source-faithful: the REVE card title (4 lines) is line-clamped to 3 by the source itself (origin clip probe reports the identical TEXT CLIPPED, h3.line-clamp-3, cut 3px)"
+ },
+ "en-insights": {
+  "max": 3,
+  "reason": "source-faithful: wall card titles longer than 3 lines are line-clamped to 3 by the source itself (h3.h6--medium.line-clamp-3; origin heading boxes identical, 266x78 at 1440); the title link sits inside the clamped heading, so the probe reports CONTROL CLIPPED (cyber resilience act, from code to control, strategic value of an api developer portal, v-cycle …)"
+ },
+ "index": {
+  "max": 15,
+  "reason": "source-faithful: home wall card titles longer than 3 lines are line-clamped to 3 by the source itself (h3.line-clamp-3 inside the card anchor; identical heading boxes on the origin); the title link sits inside the clamped heading, so the probe reports CONTROL CLIPPED (unipol, generali, bmw, billie jean king cup, riverty, devbot, a new era in design, southstate, smart bean, unipolsai, apple vision pro, audi rag, omnichannel …)"
+ },
+ "en-becoming-ai-native-embracing-the-future-of-digital-experience": {
+  "max": 1,
+  "reason": "source-faithful: the event-page title is line-clamped to 4 lines below 768 by the source itself (h1.h1--light.line-clamp-4.md:line-clamp-3 in eventpagetop; the origin capture shows 'Becoming AI-Native: Embracing the Future of…'); the served h1 carries the same 4-line clamp, so the probe reports TEXT CLIPPED on it"
+ },
+ "en-christmas": {
+  "max": 5,
+  "reason": "source-faithful: the ROSE Room event card copy (DIGITAL EVENT eyebrow, title, date) overflows the top of the 2:3 parallax box below 768 on the source itself (origin clip probe: 6 counted, h4 \"the rose room presents\" hidden); the served card is anchored bottom-left the same way (fix-small-2)"
+ },
+ "en": {
+  "max": 15,
+  "reason": "source-faithful: /en is the index clone — home wall card titles longer than 3 lines are line-clamped to 3 by the source itself (h3.line-clamp-3 inside the card anchor); same allowance as index"
+ },
+ "en-labs": {
+  "max": 1,
+  "reason": "source-faithful: the labs slider active card link (area73 — title + abstract) is cut by its card image container on the source itself (origin clip probe reports the identical CONTROL CLIPPED, a.pointer-events-auto in .reply-card-body, same cut px) (fix-hub-f)"
+ },
+ "en-hybrid-work": {
+  "max": 1,
+  "reason": "source-faithful: the labs slider active card link (workita cluster reply — title + abstract) is cut by its card image container on the source itself (origin clip probe reports the identical CONTROL CLIPPED, same cut px) (fix-hub-f)"
+ },
+ "en-3d-and-mixed-reality": {
+  "max": 1,
+  "reason": "source-faithful: the scale rail active card link (scaled 1.07 below 768) is cut by its unscaled card image container on the source itself — origin clip probe @360 (stardust/.work/rollout/fix-hub-h/clip3d-origin-360.json, VTO active) reports the identical CONTROL CLIPPED, a.pointer-events-auto in .reply-card-body, cut 8px, clip box 30,5850 280x420; delivered gate clip.json same kind / clipper / cut 8 (fix-hub-h, 2026-11-17)"
+ }
+}

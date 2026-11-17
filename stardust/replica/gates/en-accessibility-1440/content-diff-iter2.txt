@@ -1,0 +1,28 @@
+
+Content diff @ 1440px (profile "generic", roots: #main-content, header, footer)
+root "#main-content"
+  source: 11 text nodes — 3 headings, 0 eyebrows, 3 CTAs, 5 body; 0 img
+  build: 11 text nodes — 3 headings, 0 eyebrows, 3 CTAs, 5 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 8 / build 8
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root "header"
+  source: 110 text nodes — 0 headings, 0 eyebrows, 96 CTAs, 14 body; 17 img
+  build: 102 text nodes — 0 headings, 0 eyebrows, 88 CTAs, 14 body; 9 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 29 / build 29; icons: source 45 / build 45
+root "footer"
+  source: 19 text nodes — 0 headings, 0 eyebrows, 17 CTAs, 2 body; 4 img
+  build: 19 text nodes — 0 headings, 0 eyebrows, 17 CTAs, 2 body; 4 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 7 / build 7; icons: source 7 / build 7
+
+Findings: 8 (8 structural 🔴)
+Tiers: looks-same 🔴 8 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 0
+  🔴 MISSING CTA [header]: source cta "Symbiosys: Move at AI speed. Decide with evidenc" → /symbiosis-reply/en has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Reply Model Factory Read more" → /en/artificial-intelligence/reply-model-factory has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Industrial Agentic AI Read more" → /en/artificial-intelligence/industrial-agentic-ai has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Brick Cognitive: Agentic AI to scale manufacturi" → https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "AI for Retailers Discover More" → /en/artificial-intelligence/ai-for-retailers has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Scaling AI in 2026 Discover More" → /en/artificial-intelligence/scaling-ai-in-2026 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "About Reply Read More" → /en/company-profile has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "The Board of Directors approves the quarterly fi" → https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.

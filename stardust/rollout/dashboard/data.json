@@ -1,0 +1,1034 @@
+{
+  "generatedAt": "2026-11-16T21:47:06.440Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.reply.com/",
+    "liveHost": "main--a355dc1b--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 100,
+    "prototyped": 100,
+    "deployed": 47,
+    "optimised": 0
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 53,
+    "deployed": 47,
+    "optimised": 0
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "prototyped",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 3
+    },
+    {
+      "slug": "4brands-reply-de",
+      "path": "/4brands-reply/de",
+      "stage": "deployed",
+      "templateId": "brand-home",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-agentic-ai-rgm",
+      "path": "/4brands-reply/de/agentic-ai-rgm",
+      "stage": "deployed",
+      "templateId": "brand-solution",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-ai-voice-assistant-fmcg-sales",
+      "path": "/4brands-reply/de/ai-voice-assistant-fmcg-sales",
+      "stage": "prototyped",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-artificial-intelligence-consumer-goods",
+      "path": "/4brands-reply/de/artificial-intelligence-consumer-goods",
+      "stage": "deployed",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-composable-customer-data-platform",
+      "path": "/4brands-reply/de/composable-customer-data-platform",
+      "stage": "prototyped",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-connected-shelf-iot-supermarket",
+      "path": "/4brands-reply/de/connected-shelf-iot-supermarket",
+      "stage": "deployed",
+      "templateId": "brand-case-study",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-customer-and-consumer-engagement",
+      "path": "/4brands-reply/de/customer-and-consumer-engagement",
+      "stage": "prototyped",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-customer-experience-management",
+      "path": "/4brands-reply/de/customer-experience-management",
+      "stage": "prototyped",
+      "templateId": "4brands-reply-de-customer-experience-management",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-data-and-analytics-strategie-workshop",
+      "path": "/4brands-reply/de/data-and-analytics-strategie-workshop",
+      "stage": "prototyped",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-data-value-management",
+      "path": "/4brands-reply/de/data-value-management",
+      "stage": "deployed",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-demand-driven-replenishment",
+      "path": "/4brands-reply/de/demand-driven-replenishment",
+      "stage": "prototyped",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-engpaesse-in-der-produktion-vermeiden",
+      "path": "/4brands-reply/de/engpaesse-in-der-produktion-vermeiden",
+      "stage": "deployed",
+      "templateId": "brand-case-study",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-gerolsteiner-personalisierte-kundenansprache",
+      "path": "/4brands-reply/de/gerolsteiner-personalisierte-kundenansprache",
+      "stage": "deployed",
+      "templateId": "brand-case-study",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "4brands-reply-de-intelligent-enterprise",
+      "path": "/4brands-reply/de/intelligent-enterprise",
+      "stage": "deployed",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-intelligent-product-recommendations",
+      "path": "/4brands-reply/de/intelligent-product-recommendations",
+      "stage": "prototyped",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-ki-assistent-fuer-den-vertrieb",
+      "path": "/4brands-reply/de/ki-assistent-fuer-den-vertrieb",
+      "stage": "prototyped",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-mit-scrum-kundenzentrierte-erfolge-erzielen",
+      "path": "/4brands-reply/de/mit-scrum-kundenzentrierte-erfolge-erzielen",
+      "stage": "prototyped",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-newsroom",
+      "path": "/4brands-reply/de/newsroom",
+      "stage": "prototyped",
+      "templateId": "listing",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-potenziale-mit-preis-sensing",
+      "path": "/4brands-reply/de/potenziale-mit-preis-sensing",
+      "stage": "prototyped",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-preis-sensing-smarte-insights-zu-endverbraucherpreisen",
+      "path": "/4brands-reply/de/preis-sensing-smarte-insights-zu-endverbraucherpreisen",
+      "stage": "deployed",
+      "templateId": "brand-case-study",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "4brands-reply-de-preis-und-konditionsmanagement-zentis",
+      "path": "/4brands-reply/de/preis-und-konditionsmanagement-zentis",
+      "stage": "deployed",
+      "templateId": "brand-case-study",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-process-mining",
+      "path": "/4brands-reply/de/process-mining",
+      "stage": "deployed",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-recipe-for-sap-ibp",
+      "path": "/4brands-reply/de/recipe-for-sap-ibp",
+      "stage": "prototyped",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-reply-routes",
+      "path": "/4brands-reply/de/reply-routes",
+      "stage": "deployed",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-revenue-growth-management",
+      "path": "/4brands-reply/de/revenue-growth-management",
+      "stage": "prototyped",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-revenue-growth-management-reve",
+      "path": "/4brands-reply/de/revenue-growth-management-reve",
+      "stage": "prototyped",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "4brands-reply-de-rotkaeppchen-mumm-sektkellereien",
+      "path": "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+      "stage": "deployed",
+      "templateId": "4brands-reply-de-rotkaeppchen-mumm-sektkellereien",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-sac-advanced-scripting",
+      "path": "/4brands-reply/de/sac-advanced-scripting",
+      "stage": "prototyped",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-sac-essentials",
+      "path": "/4brands-reply/de/sac-essentials",
+      "stage": "prototyped",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-sac-insight-story-design",
+      "path": "/4brands-reply/de/sac-insight-story-design",
+      "stage": "prototyped",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-sac-modeling-and-insights-lab",
+      "path": "/4brands-reply/de/sac-modeling-and-insights-lab",
+      "stage": "deployed",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-sap-analytics-cloud",
+      "path": "/4brands-reply/de/sap-analytics-cloud",
+      "stage": "prototyped",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-sap-c4-hana-bei-einem-grosshaendler",
+      "path": "/4brands-reply/de/sap-c4-hana-bei-einem-grosshaendler",
+      "stage": "deployed",
+      "templateId": "brand-case-study",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-sap-ccm",
+      "path": "/4brands-reply/de/sap-ccm",
+      "stage": "prototyped",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-sap-datasphere-trainings",
+      "path": "/4brands-reply/de/sap-datasphere-trainings",
+      "stage": "prototyped",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-sap-finance-knowledge-and-training",
+      "path": "/4brands-reply/de/sap-finance-knowledge-and-training",
+      "stage": "prototyped",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-smart-glasses",
+      "path": "/4brands-reply/de/smart-glasses",
+      "stage": "deployed",
+      "templateId": "brand-case-study",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-de-smart-retail-execution",
+      "path": "/4brands-reply/de/smart-retail-execution",
+      "stage": "deployed",
+      "templateId": "brand-solution",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "4brands-reply-en",
+      "path": "/4brands-reply/en",
+      "stage": "deployed",
+      "templateId": "4brands-reply-en",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "en",
+      "path": "/en",
+      "stage": "prototyped",
+      "templateId": "home",
+      "isTemplate": true,
+      "openFindings": 3
+    },
+    {
+      "slug": "en-3d-and-mixed-reality",
+      "path": "/en/3d-and-mixed-reality",
+      "stage": "prototyped",
+      "templateId": "hub",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-a-very-covid-19-christmas",
+      "path": "/en/a-very-covid-19-christmas",
+      "stage": "deployed",
+      "templateId": "editorial",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-accessibility",
+      "path": "/en/accessibility",
+      "stage": "deployed",
+      "templateId": "en-accessibility",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "en-acknowledgement",
+      "path": "/en/acknowledgement",
+      "stage": "prototyped",
+      "templateId": "editorial",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "en-adobe",
+      "path": "/en/adobe",
+      "stage": "prototyped",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-ai-now-summit-reply-sail-reply-sovereign-ai",
+      "path": "/en/ai-now-summit-reply-sail-reply-sovereign-ai",
+      "stage": "prototyped",
+      "templateId": "editorial",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "en-ai-powered-software-engineering",
+      "path": "/en/ai-powered-software-engineering",
+      "stage": "prototyped",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-approach-to-uk-taxation",
+      "path": "/en/approach-to-uk-taxation",
+      "stage": "deployed",
+      "templateId": "plain",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-artificial-intelligence",
+      "path": "/en/artificial-intelligence",
+      "stage": "prototyped",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-automotive-and-manufacturing",
+      "path": "/en/automotive-and-manufacturing",
+      "stage": "prototyped",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-autonomousdrivingsafety",
+      "path": "/en/autonomousdrivingsafety",
+      "stage": "deployed",
+      "templateId": "plain",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "en-aws",
+      "path": "/en/aws",
+      "stage": "prototyped",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-becoming-ai-native-embracing-the-future-of-digital-experience",
+      "path": "/en/becoming-ai-native-embracing-the-future-of-digital-experience",
+      "stage": "deployed",
+      "templateId": "editorial",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-biotagging-and-advanced-traceability",
+      "path": "/en/biotagging-and-advanced-traceability",
+      "stage": "prototyped",
+      "templateId": "editorial",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-biotagging-und-advanced-traceability",
+      "path": "/en/biotagging-und-advanced-traceability",
+      "stage": "prototyped",
+      "templateId": "editorial",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-building-resilient-eu-forms-infrastructure",
+      "path": "/en/building-resilient-eu-forms-infrastructure",
+      "stage": "deployed",
+      "templateId": "editorial",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "en-ccpa-privacy-notice",
+      "path": "/en/ccpa-privacy-notice",
+      "stage": "deployed",
+      "templateId": "plain",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "en-christmas",
+      "path": "/en/christmas",
+      "stage": "deployed",
+      "templateId": "home",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "en-cloud-computing",
+      "path": "/en/cloud-computing",
+      "stage": "prototyped",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-company-profile",
+      "path": "/en/company-profile",
+      "stage": "prototyped",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-contacts",
+      "path": "/en/contacts",
+      "stage": "deployed",
+      "templateId": "plain",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-covid-19-implications-2021",
+      "path": "/en/covid-19-implications-2021",
+      "stage": "deployed",
+      "templateId": "en-covid-19-implications-2021",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "en-covid-19-report-close-up-italy",
+      "path": "/en/covid-19-report-close-up-italy",
+      "stage": "prototyped",
+      "templateId": "editorial",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-covid-19-travel-and-tourism",
+      "path": "/en/covid-19-travel-and-tourism",
+      "stage": "deployed",
+      "templateId": "editorial",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-cx-and-digital-commerce",
+      "path": "/en/cx-and-digital-commerce",
+      "stage": "prototyped",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-cybersecurity",
+      "path": "/en/cybersecurity",
+      "stage": "deployed",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-data-world",
+      "path": "/en/data-world",
+      "stage": "prototyped",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-datenschutzerklaerung",
+      "path": "/en/datenschutzerklaerung",
+      "stage": "deployed",
+      "templateId": "plain",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "en-declaration-of-principles",
+      "path": "/en/declaration-of-principles",
+      "stage": "deployed",
+      "templateId": "plain",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-deep-and-transformational-growth",
+      "path": "/en/deep-and-transformational-growth",
+      "stage": "deployed",
+      "templateId": "editorial",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-design",
+      "path": "/en/design",
+      "stage": "deployed",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-digital-assets",
+      "path": "/en/digital-assets",
+      "stage": "prototyped",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-digital-experience",
+      "path": "/en/digital-experience",
+      "stage": "prototyped",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-energy-and-utilities",
+      "path": "/en/energy-and-utilities",
+      "stage": "deployed",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-environment",
+      "path": "/en/environment",
+      "stage": "deployed",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-esg",
+      "path": "/en/esg",
+      "stage": "prototyped",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-ethical-ai-shaping-the-future-of-responsible-innovation",
+      "path": "/en/ethical-ai-shaping-the-future-of-responsible-innovation",
+      "stage": "prototyped",
+      "templateId": "editorial",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-event-detail",
+      "path": "/en/event-detail",
+      "stage": "deployed",
+      "templateId": "plain",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "en-financial-services",
+      "path": "/en/financial-services",
+      "stage": "prototyped",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-frontier-event-2026",
+      "path": "/en/frontier-event-2026",
+      "stage": "deployed",
+      "templateId": "editorial",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-gaming",
+      "path": "/en/gaming",
+      "stage": "prototyped",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-google-cloud",
+      "path": "/en/google-cloud",
+      "stage": "prototyped",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-governance",
+      "path": "/en/governance",
+      "stage": "prototyped",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-governance-risk-and-compliance",
+      "path": "/en/governance-risk-and-compliance",
+      "stage": "prototyped",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-healthcare",
+      "path": "/en/healthcare",
+      "stage": "prototyped",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-hybrid-work",
+      "path": "/en/hybrid-work",
+      "stage": "prototyped",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-impressum",
+      "path": "/en/impressum",
+      "stage": "deployed",
+      "templateId": "plain",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "en-insights",
+      "path": "/en/insights",
+      "stage": "prototyped",
+      "templateId": "en-insights",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-investors",
+      "path": "/en/investors",
+      "stage": "deployed",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-iot",
+      "path": "/en/iot",
+      "stage": "prototyped",
+      "templateId": "en-iot",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-labs",
+      "path": "/en/labs",
+      "stage": "deployed",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-learning-partner-for-microsoft",
+      "path": "/en/learning-partner-for-microsoft",
+      "stage": "prototyped",
+      "templateId": "editorial",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "en-logistics",
+      "path": "/en/logistics",
+      "stage": "prototyped",
+      "templateId": "hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-lufhtansa",
+      "path": "/en/lufhtansa",
+      "stage": "deployed",
+      "templateId": "plain",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "en-master-polito-artificial-intelligence-and-cloud",
+      "path": "/en/master-polito-artificial-intelligence-and-cloud",
+      "stage": "deployed",
+      "templateId": "editorial",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-metaminutes-s3-e1-metaverse-quantum-and-finance",
+      "path": "/en/metaminutes-s3-e1-metaverse-quantum-and-finance",
+      "stage": "deployed",
+      "templateId": "plain",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-metaminutes-s3-e10-generative-ai-for-the-metaverse",
+      "path": "/en/metaminutes-s3-e10-generative-ai-for-the-metaverse",
+      "stage": "deployed",
+      "templateId": "plain",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-metaminutes-s3-e2-education-in-the-metaverse-for-emerging-markets",
+      "path": "/en/metaminutes-s3-e2-education-in-the-metaverse-for-emerging-markets",
+      "stage": "deployed",
+      "templateId": "plain",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "en-metaminutes-s3-e3-mixed-reality-first-responder-training",
+      "path": "/en/metaminutes-s3-e3-mixed-reality-first-responder-training",
+      "stage": "deployed",
+      "templateId": "plain",
+      "isTemplate": false,
+      "openFindings": 1
+    }
+  ],
+  "templates": [
+    {
+      "id": "4brands-reply-de-customer-experience-management",
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 1,
+        "deployed": 0,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "4brands-reply-de-rotkaeppchen-mumm-sektkellereien",
+      "archetype": "4brands-reply-de-rotkaeppchen-mumm-sektkellereien",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "4brands-reply-en",
+      "archetype": "4brands-reply-en",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "brand-case-study",
+      "archetype": "4brands-reply-de-connected-shelf-iot-supermarket",
+      "pageCount": 7,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 7,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "brand-home",
+      "archetype": "4brands-reply-de",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "brand-solution",
+      "archetype": "4brands-reply-de-agentic-ai-rgm",
+      "pageCount": 27,
+      "stages": {
+        "identified": 0,
+        "prototyped": 19,
+        "deployed": 8,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "editorial",
+      "archetype": "en-a-very-covid-19-christmas",
+      "pageCount": 14,
+      "stages": {
+        "identified": 0,
+        "prototyped": 7,
+        "deployed": 7,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "en-accessibility",
+      "archetype": "en-accessibility",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "en-covid-19-implications-2021",
+      "archetype": "en-covid-19-implications-2021",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "en-insights",
+      "archetype": "en-insights",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 1,
+        "deployed": 0,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "en-iot",
+      "archetype": "en-iot",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 1,
+        "deployed": 0,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "home",
+      "archetype": "en",
+      "pageCount": 2,
+      "stages": {
+        "identified": 0,
+        "prototyped": 1,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "hub",
+      "archetype": "en-3d-and-mixed-reality",
+      "pageCount": 27,
+      "stages": {
+        "identified": 0,
+        "prototyped": 21,
+        "deployed": 6,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 1,
+        "deployed": 0,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "listing",
+      "archetype": "4brands-reply-de-newsroom",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 1,
+        "deployed": 0,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "plain",
+      "archetype": "en-approach-to-uk-taxation",
+      "pageCount": 13,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 13,
+        "optimised": 0
+      }
+    }
+  ],
+  "blocks": {
+    "total": 41,
+    "converted": 21
+  },
+  "quality": {
+    "overall": 67,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": 100,
+      "content-conversion": null,
+      "ai-search": 0,
+      "cross-page": 100
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 100,
+      "P3": 0
+    },
+    "history": [
+      67,
+      67
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "platform-migration": 100,
+      "out-of-scope": 9
+    },
+    "byAutofix": {
+      "pending": 100
+    }
+  }
+}

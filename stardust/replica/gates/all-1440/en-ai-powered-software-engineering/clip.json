@@ -1,0 +1,107 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.live/en/ai-powered-software-engineering",
+ "at": "2026-11-17T00:34:02.147Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 8,
+  "offPage": 72,
+  "textNodes": 132,
+  "controls": 80,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.card-carousel.scale",
+   "path": "ul.card-carousel-track > li.card-carousel-item.is-clone > div.reply-card.reply-card-slider > a.reply-card-cover",
+   "text": "low-codebest practice",
+   "cutMin": 105,
+   "cutMax": 105
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.card-carousel.scale",
+   "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#low-code",
+   "text": "low-code",
+   "cutMin": 73,
+   "cutMax": 73
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.card-carousel.scale",
+   "path": "div.reply-card-body > div.category-label > div.category-name > p",
+   "text": "best practice",
+   "cutMin": 57,
+   "cutMax": 57
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.card-carousel.scale",
+   "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#ai-change-request-assistant",
+   "text": "ai change request assistant",
+   "cutMin": 41,
+   "cutMax": 41
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h4#want-to-know-more-about-this-topic",
+   "path": "li.rose-card.rose-card-contact > div.rose-card-text > div.rose-card-title > h4#want-to-know-more-about-this-topic",
+   "text": "want to know more about this topic?",
+   "cutMin": 95,
+   "cutMax": 95
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.rose-cta.rail-gap",
+   "path": "div.rose-card-text > div.rose-card-action > p.button-wrapper > a.button.primary",
+   "text": "ask rose",
+   "cutMin": 63,
+   "cutMax": 63
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "a.button.primary",
+   "path": "div.rose-card-text > div.rose-card-action > p.button-wrapper > a.button.primary",
+   "text": "ask rose",
+   "cutMin": 8,
+   "cutMax": 8
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 1,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 8,
+   "offPage": 72,
+   "textNodes": 131,
+   "controls": 78,
+   "total": 0
+  }
+ }
+}

@@ -1,0 +1,101 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-17T06:15:39.009Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.reply.com",
+    "eds": "https://main--a355dc1b--aemcoder.aem.page",
+    "edsHostOverride": "https://main--a355dc1b--aemcoder.aem.page",
+    "only": [
+      "en-ethical-ai-shaping-the-future-of-responsible-innovation"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 1,
+    "overridePass": 1,
+    "fail": 1,
+    "error": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 1,
+    "failUnits": 0,
+    "fontsNotLoaded": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 1
+  },
+  "rows": [
+    {
+      "slug": "en-ethical-ai-shaping-the-future-of-responsible-innovation",
+      "path": "/en/ethical-ai-shaping-the-future-of-responsible-innovation",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 8.44,
+      "textPct": 16.68,
+      "heightDelta": -2,
+      "originH": 10188,
+      "edsH": 10190,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "content MISSING 1 / HIDDEN 0"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 1,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 5,
+        "variable": []
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "timing",
+        "reason": "content MISSING 1 = autoplay rail phase only: the collaborate flip-tile rail (live cardcarousel-runtime, data-infinite true, data-carousel-autoplay true) steps every ~5 s at 360 — timeline stardust/.work/rollout/fix-editorial-6/tl-ethical-360.log (fix-small-4/probe-settle.mjs under the gate visit+settle, live then served, 2026-11-17 05:50-05:51): live Quarterly meetings -> Member-driven agenda -> Collaborative decision framework -> Dedicated workstream 1 -> 2, the served rail rests at Quarterly meetings with the same 7 tiles in the same order. The gate origin capture caught phase \"dedicated workstream 2\" at x 60 y 5181 (content.json origin.items) while the served h3 at x 60 y 5173 is \"quarterly meetings\" (the EXTRA HEADING finding); every rail heading is present in the served DOM. Pixel 8.44 % and Δh -2 pass (fix-editorial-7, 2026-11-17; same basis as the 1440 entry)"
+      },
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [
+        "1000-1500:28.5%",
+        "8500-9000:29.4%"
+      ],
+      "error": null
+    }
+  ]
+}

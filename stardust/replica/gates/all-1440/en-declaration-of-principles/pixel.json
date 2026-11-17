@@ -1,0 +1,56 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-declaration-of-principles/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-declaration-of-principles/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2533,
+    "mode": "overlap"
+  },
+  "heightDelta": -64,
+  "differingPixels": 341823,
+  "pct": 9.37,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-declaration-of-principles/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 10.14,
+  "textBoxes": 91,
+  "textPixels": 835946,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 4.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 4.9
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 4.8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 23.4
+    },
+    {
+      "y0": 2500,
+      "y1": 2533,
+      "pct": 100
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--a355dc1b--aemcoder.aem.live/en/declaration-of-principles"
+  }
+}

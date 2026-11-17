@@ -1,0 +1,473 @@
+{
+  "slug": "en-energy-and-utilities",
+  "type": "hub",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "media-hero",
+    "card-carousel",
+    "statement",
+    "slider-with-title",
+    "cards-wall"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "media-hero",
+    "card-carousel",
+    "statement",
+    "slider-with-title",
+    "cards-wall"
+  ],
+  "canonShas": {
+    "header": "1831eb751335",
+    "footer": "a009c7684bfa",
+    "css": "5bf5dffd7509"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Energy &amp; Utilities Solutions | Reply",
+    "description": "Reply, in its approach to the world of energy &amp; utilities, aims to support companies throughout the value chain in defining new operating models.",
+    "canonical": "https://www.reply.com/en/energy-and-utilities",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Energy &amp; Utilities Solutions | Reply",
+    "description": "Reply, in its approach to the world of energy &amp; utilities, aims to support companies throughout the value chain in defining new operating models.",
+    "url": "https://www.reply.com/en/energy-and-utilities"
+  },
+  "migratedAt": "2026-11-15T22:09:09Z",
+  "designMdSha": "d809c0215087",
+  "designJsonSha": "bdcb89ad7bf4",
+  "sourceCurrentSha": "dfebe5b83c9e",
+  "sourceProposedSha": "fe7584eaedb8",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [
+    "card-carousel--b-0 card-carousel--bm-0 card-carousel--featured card-carousel--horizontal card-carousel--t-120 card-carousel--tm-96 cards-wall--special cards-wall--t-120 cards-wall--tm-96 slider-with-title--autoplay slider-with-title--icons slider-with-title--infinite statement--hub"
+  ],
+  "gatesPassed": [
+    "delivery-lint"
+  ],
+  "gateEvidence": {
+    "pixel-gate-1440": "OPEN: no row in the pixel table (prototypes-1440) — run gate-all.mjs --stage prototype so the page is measured",
+    "pixel-gate-360": "OPEN: no row in the pixel table (prototypes-360) — run gate-all.mjs --stage prototype so the page is measured",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /en/energy-and-utilities)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 5,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/de/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/gaming",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/governance-risk-and-compliance",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/hybrid-work",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/metaverse",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/prebuilt-ai-apps",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quality-engineering",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quantum-computing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/robotics-and-autonomous-things",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/strategy-and-business-model-transformation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/supply-chain-management",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-networks",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/financial-services",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/logistics",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/retail-and-consumer-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-and-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/labs/area-42",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-73",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-phi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/cyber-security-lab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-house-of-models",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-iot-labs-concept-quality",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/testautomationcentre",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/xchange",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/esg",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/environment/energy-and-emissions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/reply-to-the-earth",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/sustainable-supply-chain",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/continuous-learning",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/wellbeing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/inclusion-and-diversity",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/governance",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/investors/governance-system",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/governance-policies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/governance/our-commitment-to-ethical-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/esg",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/newsroom?type=financial-news",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/reply-share-information",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-highlights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-calendar-and-events",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-reports",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/shareholders-meeting",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/loyalty-shares",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors#H6tmz",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/bmw-promotes-co2-optimised-charging",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quality-engineering/testing-excellence-for-electric-vehicles-charging",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/energy-and-utilities/ev-charging-stations-map",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/energy-and-utilities/sustainable-energy-transition",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/energy-and-utilities/future-mobility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/energy-and-utilities/data-and-ai-a2a-new-energy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/data-reply/en/stories/quantum-algorithms-for-the-optimization-of-maintenance-work",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/energy-and-utilities/green-ai-bootcamp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/innovating-application-management-with-a-tailored-devops-solution",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/energy-and-utilities/sustainable-data-management-in-the-cloud",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/a-multicloud-approach-for-the-future-of-energy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/energy-and-utilities/a-demand-response-platform-for-electric-grids",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/electric-mobility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/iot-platform-for-renewables",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/automating-emission-reporting-with-low-code",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/light-reply/en/consultative-approach-DERM",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/automotive-and-manufacturing/more-flexibility-for-charging-parks",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-candidate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-client",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-supplier",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-marketing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/modern-slavery-statement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contents/Reply_Company_Information_en.pdf",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "en/energy-and-utilities/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "en/energy-and-utilities/_meta.json",
+  "driverVersion": "1"
+}

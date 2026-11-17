@@ -1,0 +1,1516 @@
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/en-iot-1440/vdiff-confirm/
+
+build red flags (advisory): 
+  • IMAGE DID NOT LOAD: f56ec3f9-312b-40e1-b47d-bdebc0a5c918.svg rendered 24x24 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: a6732ee4-95cf-4951-9c4b-3675c7154f7e.svg rendered 24x24 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 49664893-bfc1-4d79-9208-3bdd7083126b.svg rendered 24x24 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: c48097ef-90ed-4c24-aa40-1764649e72ff.svg rendered 24x24 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 6695,
+  "textLen": 3617,
+  "images": [
+   {
+    "src": "pixel.gif?clkgypv=jstag&ws=1&b=avmKCPxazvjPloAoUxj1YQov",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4?clkgypv=jstag&ws=1&b=avmKCPxazvjPloAoUxj1YQov",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "pixel.gif?ch=319&cm=1cb85bc308262d1e73cc1794732211",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "pixel.gif?ch=278&cm=1cb85bc308262d1e73cc1794732211",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6a83d9fb-6523-4b54-ac4a-12b422b1769f.png?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "411x411",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d0322109-575b-45fd-9971-45190633c2b6.png?im=Crop,rect=(381,0,1076,1076),allowExpansion;Resize,width=600",
+    "natural": "0x0",
+    "rendered": "411x411",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "6a83d9fb-6523-4b54-ac4a-12b422b1769f.png?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "411x411",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d0322109-575b-45fd-9971-45190633c2b6.png?im=Crop,rect=(381,0,1076,1076),allowExpansion;Resize,width=600",
+    "natural": "0x0",
+    "rendered": "411x411",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "aa4238ba-3403-49d7-a043-8101b9cc4847.png?im=AspectCrop=(16,9);Resize,width=1000",
+    "natural": "1000x563",
+    "rendered": "749x421",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f727e88f-8ead-431b-a235-3071066e869b.png?im=Crop,rect=(318,175,1595,897),allowExpansion;Resize,width=1000",
+    "natural": "1000x562",
+    "rendered": "749x421",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aa4238ba-3403-49d7-a043-8101b9cc4847.png?im=AspectCrop=(16,9);Resize,width=1000",
+    "natural": "1000x563",
+    "rendered": "749x421",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f727e88f-8ead-431b-a235-3071066e869b.png?im=Crop,rect=(318,175,1595,897),allowExpansion;Resize,width=1000",
+    "natural": "1000x562",
+    "rendered": "749x421",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4a3ac8fc-61fc-44d6-b871-c03234921740.png?im=AspectCrop=(16,9);Resize,width=1000",
+    "natural": "1000x563",
+    "rendered": "416x416",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "590a6b5b-6b81-4e68-963c-33f1418ad260.png?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "0x0",
+    "rendered": "416x416",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "4a3ac8fc-61fc-44d6-b871-c03234921740.png?im=AspectCrop=(16,9);Resize,width=1000",
+    "natural": "1000x563",
+    "rendered": "416x416",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "590a6b5b-6b81-4e68-963c-33f1418ad260.png?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "0x0",
+    "rendered": "416x416",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "32281efa-65ff-4225-b742-81b0132935da.jpg?im=Crop,rect=(837,0,1080,1080),allowExpansion;Resize,width=600",
+    "natural": "0x0",
+    "rendered": "416x416",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "7105a802-e582-481d-9ddb-871fc30c6b71.jpg?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "416x416",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7105a802-e582-481d-9ddb-871fc30c6b71.jpg?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "416x416",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7105a802-e582-481d-9ddb-871fc30c6b71.jpg?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "416x416",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7105a802-e582-481d-9ddb-871fc30c6b71.jpg?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "416x416",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "a6fa97a7-6033-4142-87d1-af619cc93101.jpg?im=AspectCrop=(16,9)",
+    "natural": "1920x1080",
+    "rendered": "1440x810",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "b0020ce7-46e0-4222-9da0-d06c8fbfd9dc.png?im=AspectCrop=(16,9);Resize,width=660",
+    "natural": "660x371",
+    "rendered": "749x421",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "12612503-4afe-40a8-ba28-6eca76c4ffaa.png?im=Crop,rect=(5,0,2902,1632),allowExpansion;Resize,width=660",
+    "natural": "660x371",
+    "rendered": "749x421",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4b27d62e-b797-4eab-be9a-c7e9cfedd851.png?im=AspectCrop=(16,9);Resize,width=660",
+    "natural": "660x371",
+    "rendered": "749x421",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "e8ea9842-9866-4746-bf5c-2f483df4d863.jpg?im=AspectCrop=(16,9);Resize,width=1660",
+    "natural": "1660x934",
+    "rendered": "1312x738",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "92b418f7-872f-43d5-9f59-6bed280f42f9.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "113x64",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4282fb31-e395-486d-adea-2facc9bbd913.png?im=Crop,rect=(420,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "660x660",
+    "rendered": "298x298",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "72d224b2-cc38-40ae-b7a1-cb27eaa52fe5.png?im=Crop,rect=(693,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "76d3ea5d-c1e0-4e46-9877-e6f7bab086ba.png?im=AspectCrop=(16,9);Resize,width=660",
+    "natural": "660x371",
+    "rendered": "232x130",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "402bafd0-42bf-476e-a0f0-f39d5885e74f.png?im=Crop,rect=(485,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "db8277e3-0e42-4454-a509-8f747e366f00.png?im=Crop,rect=(595,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "660x660",
+    "rendered": "298x298",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d3bca125-017f-4017-a446-1f11dc6e41de.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7eef6ff0-ce41-4528-814a-c2b98d8b0a52.png?im=Crop,rect=(886,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ca3506f5-ef0c-43f5-b744-6db4fa634e00.png?im=Crop,rect=(797,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "660x660",
+    "rendered": "298x298",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "865b14d0-2f0e-42b9-a1c0-e6cb0459ca3a.jpeg?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "07404c8c-ef52-4559-8d13-d99510f7d1e6.jpg?im=AspectCrop=(1,1);Resize,width=660",
+    "natural": "660x660",
+    "rendered": "298x298",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "501927eb-26cc-4b4c-860e-3d036b54b5d7.jpg?im=AspectCrop=(1,1);Resize,width=660",
+    "natural": "660x660",
+    "rendered": "298x298",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "5ce89c4c-5519-4745-aedc-009d757637a1.png?im=Crop,rect=(816,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "72d48b23-6e14-4df6-a4ad-88751c0a2557.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "84c07394-cd2d-462f-9298-12283e4636fc.jpg?im=Crop,rect=(957,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "8fda3848-da5b-4aaf-8bc5-b362bdb95fb0.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "2ae02eaa-72b6-41f6-bce9-4bd1bccb86b0.jpg?im=Crop,rect=(618,0,1080,1080),allowExpansion",
+    "natural": "1080x1080",
+    "rendered": "368x368",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fb186ed9-5601-4c4d-9051-a663c5ea98f3.jpg?im=Crop,rect=(840,0,1080,1080),allowExpansion",
+    "natural": "1080x1080",
+    "rendered": "368x368",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "24c613dd-e2f9-4df2-a809-794837619e5f.jpg?im=Crop,rect=(741,0,1080,1080),allowExpansion",
+    "natural": "1080x1080",
+    "rendered": "368x368",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "b819c1d2-d2bb-4f05-9ddc-2233bdf9a3c0.jpg?im=AspectCrop=(16,9);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "719x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "65fb8cfd-8d41-4e42-906b-2ebf3b0ca0b5.jpg?im=AspectCrop=(16,9);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "719x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6fcab6ec-285b-4545-a46d-72f4927d4bbe.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "AXULUS_purple.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Ohana_orange.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918.svg",
+    "natural": "0x0",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "a6732ee4-95cf-4951-9c4b-3675c7154f7e.svg",
+    "natural": "0x0",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "49664893-bfc1-4d79-9208-3bdd7083126b.svg",
+    "natural": "0x0",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "c48097ef-90ed-4c24-aa40-1764649e72ff.svg",
+    "natural": "0x0",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "Reply_-_LOGO__150dpi.jpg",
+    "natural": "614x164",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261440%261000%264%2624%261440%261000%260%26na%261&eci=3&event=%7B%7D&event_id=55f7df92-a6f1-4e0a-8f66-536e0330dd5f&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=2a66a87c-c1b1-43a8-836d-8f0723a73c3b&tw_document_href=https%3A%2F%2Fwww.reply.com%2Fen%2Fiot&tw_engaged_ms=2&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794732210195-980206746&twpid=tw.1794732210194.762815424698551296&txn_id=o5y7w&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261440%261000%264%2624%261440%261000%260%26na%261&eci=3&event=%7B%7D&event_id=55f7df92-a6f1-4e0a-8f66-536e0330dd5f&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=2a66a87c-c1b1-43a8-836d-8f0723a73c3b&tw_document_href=https%3A%2F%2Fwww.reply.com%2Fen%2Fiot&tw_engaged_ms=2&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794732210195-980206746&twpid=tw.1794732210194.762815424698551296&txn_id=o5y7w&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "00900665-f0ff-4d2a-8572-693aac6eb9c6",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261440%261000%264%2624%261440%261000%260%26na%261&eci=2&event_id=4e0c1f75-fcfc-4b4f-8536-2c7e8bc53a5b&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=2a66a87c-c1b1-43a8-836d-8f0723a73c3b&tw_document_href=https%3A%2F%2Fwww.reply.com%2Fen%2Fiot&tw_engaged_ms=10005&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794732210195-980206746&twpid=tw.1794732210194.762815424698551296&txn_id=o5y7w&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261440%261000%264%2624%261440%261000%260%26na%261&eci=2&event_id=4e0c1f75-fcfc-4b4f-8536-2c7e8bc53a5b&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=2a66a87c-c1b1-43a8-836d-8f0723a73c3b&tw_document_href=https%3A%2F%2Fwww.reply.com%2Fen%2Fiot&tw_engaged_ms=10005&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794732210195-980206746&twpid=tw.1794732210194.762815424698551296&txn_id=o5y7w&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Internet of Things",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "64px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "We are a leader in end-to-end Io",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "42px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Accelerate your IoT initiatives ",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "28px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "IVECO accelerates digital transf",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "1NCE enables the IoT of tomorrow",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Connected Products: behind the s",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "ADR optimizes the intelligent ma",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "From a fan to a smart energy sys",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI-Powered Digital Twins for Mai",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "IoT for Smarter Car Wash Operati",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A Demand Response platform for p",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "agrirouter 2.0: A modern data pl",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A new connected and digital moto",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Combining AI and Edge Computing ",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Precision farming: How to develo",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Towards integrated mobility: IoT",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "An IoT platform to harmonise ren",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Data processing with AWS-native ",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Smart services for Multivac",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Discover our IoT labs",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Connected products Lab",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Global test automation center",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "IoT Validation Lab",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Acknowledgments",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply named a Leader in the IDC ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply named Europe's leading IoT",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "The one click between a challeng",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "42px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Research",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(21, 31, 39)"
+   },
+   {
+    "text": "Article",
+    "color": "rgb(21, 31, 39)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(21, 31, 39)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(21, 31, 39)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "aursgiwpzb",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "jamvkunxzc",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "carousel-items",
+    "width": 1617,
+    "left": 0
+   },
+   {
+    "sel": "reply-card-grid",
+    "width": 1312,
+    "left": 64
+   },
+   {
+    "sel": "ProseMirror",
+    "width": 1087,
+    "left": 177
+   },
+   {
+    "sel": "carousel-items",
+    "width": 1312,
+    "left": 64
+   },
+   {
+    "sel": "ProseMirror",
+    "width": 1087,
+    "left": 177
+   },
+   {
+    "sel": "carousel-items",
+    "width": 1617,
+    "left": 0
+   },
+   {
+    "sel": "rose-banner-container",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "ProseMirror",
+    "width": 1053,
+    "left": 173
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 6695,
+  "textLen": 3617,
+  "images": [
+   {
+    "src": "6a83d9fb-6523-4b54-ac4a-12b422b1769f.png?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d0322109-575b-45fd-9971-45190633c2b6.png?im=Crop,rect=(381,0,1076,1076),allowExpansion;Resize,width=600",
+    "natural": "600x600",
+    "rendered": "411x411",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6a83d9fb-6523-4b54-ac4a-12b422b1769f.png?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d0322109-575b-45fd-9971-45190633c2b6.png?im=Crop,rect=(381,0,1076,1076),allowExpansion;Resize,width=600",
+    "natural": "600x600",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aa4238ba-3403-49d7-a043-8101b9cc4847.png?im=AspectCrop=(16,9);Resize,width=1000",
+    "natural": "1000x563",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f727e88f-8ead-431b-a235-3071066e869b.png?im=Crop,rect=(318,175,1595,897),allowExpansion;Resize,width=1000",
+    "natural": "1000x562",
+    "rendered": "749x421",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aa4238ba-3403-49d7-a043-8101b9cc4847.png?im=AspectCrop=(16,9);Resize,width=1000",
+    "natural": "1000x563",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f727e88f-8ead-431b-a235-3071066e869b.png?im=Crop,rect=(318,175,1595,897),allowExpansion;Resize,width=1000",
+    "natural": "1000x562",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4a3ac8fc-61fc-44d6-b871-c03234921740.png?im=AspectCrop=(16,9);Resize,width=1000",
+    "natural": "1000x563",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "590a6b5b-6b81-4e68-963c-33f1418ad260.png?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "411x411",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4a3ac8fc-61fc-44d6-b871-c03234921740.png?im=AspectCrop=(16,9);Resize,width=1000",
+    "natural": "1000x563",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "590a6b5b-6b81-4e68-963c-33f1418ad260.png?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "32281efa-65ff-4225-b742-81b0132935da.jpg?im=Crop,rect=(837,0,1080,1080),allowExpansion;Resize,width=600",
+    "natural": "600x600",
+    "rendered": "411x411",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7105a802-e582-481d-9ddb-871fc30c6b71.jpg?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7105a802-e582-481d-9ddb-871fc30c6b71.jpg?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "358x358",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7105a802-e582-481d-9ddb-871fc30c6b71.jpg?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7105a802-e582-481d-9ddb-871fc30c6b71.jpg?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "a6fa97a7-6033-4142-87d1-af619cc93101.jpg?im=AspectCrop=(16,9)",
+    "natural": "1920x1080",
+    "rendered": "1440x810",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "b0020ce7-46e0-4222-9da0-d06c8fbfd9dc.png?im=AspectCrop=(16,9);Resize,width=660",
+    "natural": "660x371",
+    "rendered": "749x421",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "12612503-4afe-40a8-ba28-6eca76c4ffaa.png?im=Crop,rect=(5,0,2902,1632),allowExpansion;Resize,width=660",
+    "natural": "660x371",
+    "rendered": "749x421",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4b27d62e-b797-4eab-be9a-c7e9cfedd851.png?im=AspectCrop=(16,9);Resize,width=660",
+    "natural": "660x371",
+    "rendered": "749x421",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "e8ea9842-9866-4746-bf5c-2f483df4d863.jpg?im=AspectCrop=(16,9);Resize,width=1660",
+    "natural": "1660x934",
+    "rendered": "1312x656",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "92b418f7-872f-43d5-9f59-6bed280f42f9.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "113x64",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4282fb31-e395-486d-adea-2facc9bbd913.png?im=Crop,rect=(420,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "660x660",
+    "rendered": "298x298",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "72d224b2-cc38-40ae-b7a1-cb27eaa52fe5.png?im=Crop,rect=(693,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "76d3ea5d-c1e0-4e46-9877-e6f7bab086ba.png?im=AspectCrop=(16,9);Resize,width=660",
+    "natural": "660x371",
+    "rendered": "232x131",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "402bafd0-42bf-476e-a0f0-f39d5885e74f.png?im=Crop,rect=(485,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "db8277e3-0e42-4454-a509-8f747e366f00.png?im=Crop,rect=(595,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "660x660",
+    "rendered": "298x298",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d3bca125-017f-4017-a446-1f11dc6e41de.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7eef6ff0-ce41-4528-814a-c2b98d8b0a52.png?im=Crop,rect=(886,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ca3506f5-ef0c-43f5-b744-6db4fa634e00.png?im=Crop,rect=(797,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "660x660",
+    "rendered": "298x298",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "865b14d0-2f0e-42b9-a1c0-e6cb0459ca3a.jpeg?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "07404c8c-ef52-4559-8d13-d99510f7d1e6.jpg?im=AspectCrop=(1,1);Resize,width=660",
+    "natural": "660x660",
+    "rendered": "298x298",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "501927eb-26cc-4b4c-860e-3d036b54b5d7.jpg?im=AspectCrop=(1,1);Resize,width=660",
+    "natural": "660x660",
+    "rendered": "298x298",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "5ce89c4c-5519-4745-aedc-009d757637a1.png?im=Crop,rect=(816,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "72d48b23-6e14-4df6-a4ad-88751c0a2557.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "84c07394-cd2d-462f-9298-12283e4636fc.jpg?im=Crop,rect=(957,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "8fda3848-da5b-4aaf-8bc5-b362bdb95fb0.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "2ae02eaa-72b6-41f6-bce9-4bd1bccb86b0.jpg?im=Crop,rect=(618,0,1080,1080),allowExpansion",
+    "natural": "1080x1080",
+    "rendered": "368x368",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fb186ed9-5601-4c4d-9051-a663c5ea98f3.jpg?im=Crop,rect=(840,0,1080,1080),allowExpansion",
+    "natural": "1080x1080",
+    "rendered": "368x368",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "24c613dd-e2f9-4df2-a809-794837619e5f.jpg?im=Crop,rect=(741,0,1080,1080),allowExpansion",
+    "natural": "1080x1080",
+    "rendered": "368x368",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "b819c1d2-d2bb-4f05-9ddc-2233bdf9a3c0.jpg?im=AspectCrop=(16,9);Resize,width=660",
+    "natural": "660x371",
+    "rendered": "719x404",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "65fb8cfd-8d41-4e42-906b-2ebf3b0ca0b5.jpg?im=AspectCrop=(16,9);Resize,width=660",
+    "natural": "660x371",
+    "rendered": "719x404",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6fcab6ec-285b-4545-a46d-72f4927d4bbe.svg",
+    "natural": "103x36",
+    "rendered": "103x36",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "AXULUS_purple.png",
+    "natural": "826x826",
+    "rendered": "266x266",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Ohana_orange.png",
+    "natural": "826x826",
+    "rendered": "266x266",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918.svg",
+    "natural": "0x0",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "a6732ee4-95cf-4951-9c4b-3675c7154f7e.svg",
+    "natural": "0x0",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "49664893-bfc1-4d79-9208-3bdd7083126b.svg",
+    "natural": "0x0",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "c48097ef-90ed-4c24-aa40-1764649e72ff.svg",
+    "natural": "0x0",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Internet of Things",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "64px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "We are a leader in end-to-end Io",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "42px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Accelerate your IoT initiatives ",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "28px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "IVECO accelerates digital transf",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "1NCE enables the IoT of tomorrow",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Connected Products: behind the s",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "ADR optimizes the intelligent ma",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "From a fan to a smart energy sys",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI-Powered Digital Twins for Mai",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "IoT for Smarter Car Wash Operati",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A Demand Response platform for p",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "agrirouter 2.0: A modern data pl",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A new connected and digital moto",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Combining AI and Edge Computing ",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Precision farming: How to develo",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Towards integrated mobility: IoT",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "An IoT platform to harmonise ren",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Data processing with AWS-native ",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Smart services for Multivac",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Discover our IoT labs",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Connected products Lab",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Global test automation center",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "IoT Validation Lab",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Acknowledgments",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply named a Leader in the IDC ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply named Europe's leading IoT",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "The one click between a challeng",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "42px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Research",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(21, 31, 39)"
+   },
+   {
+    "text": "Article",
+    "color": "rgb(21, 31, 39)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(21, 31, 39)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(21, 31, 39)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "r-grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "highlight-statement",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "card-carousel__track",
+    "width": 1617,
+    "left": 0
+   },
+   {
+    "sel": "reply-card-grid",
+    "width": 1312,
+    "left": 64
+   },
+   {
+    "sel": "card-carousel__track",
+    "width": 1312,
+    "left": 64
+   },
+   {
+    "sel": "card-carousel__track",
+    "width": 1617,
+    "left": 0
+   },
+   {
+    "sel": "rose-banner__grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "discover-also__cell",
+    "width": 1053,
+    "left": 173
+   }
+  ]
+ }
+}

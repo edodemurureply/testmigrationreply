@@ -1,0 +1,537 @@
+/* page-index — lifted from the prototype .page-index (page-index-runtime.dark) + .social-share */
+.page-index {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.page-index .index {
+  position: relative;
+  z-index: 4;
+  display: block;
+  font-weight: 300;
+}
+
+.page-index .toggle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  appearance: none;
+}
+
+.page-index .nav {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #fff;
+  background: #28333e;
+  border-radius: 2px;
+  transform-origin: 50%;
+}
+
+.page-index .container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.page-index .scroll {
+  position: static;
+  flex: 1;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.page-index .scroll ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  list-style: none;
+}
+
+.page-index .scroll li {
+  position: relative;
+  color: #fff;
+  margin-bottom: 0;
+  padding: 1.5rem 0;
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.7;
+  list-style: none;
+}
+
+.page-index .scroll li.active {
+  font-weight: 400;
+}
+
+.page-index .scroll li a {
+  color: #fff;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.page-index .scroll li::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  background-color: var(--primary-color-20, #00ea51);
+}
+
+.page-index .actions {
+  display: none;
+}
+
+.page-index .button svg {
+  flex-shrink: 0;
+}
+
+.page-index .button > span {
+  display: flex;
+}
+
+.page-index .title {
+  font-family: var(--font-label);
+  font-size: 0.875rem;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.page-index .title :is(div, p) {
+  margin: 0;
+  font: inherit;
+}
+
+/* round buttons (canon .round-bt + modules .round-bt--filled-on-dark) */
+.page-index .round-bt {
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  color: #fff;
+  border: 0;
+  background: none;
+  padding: 1px 6px;
+  cursor: pointer;
+}
+
+.page-index .round-bt::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  pointer-events: none;
+  background: var(--brand-color);
+  opacity: 0;
+  transform: scale(0);
+  transform-origin: 50%;
+  transition: transform 0.4s cubic-bezier(0.09, 0.72, 0.76, 1.01), opacity 0.3s ease-out;
+}
+
+.page-index .round-bt:hover {
+  color: var(--text-on-brand-color);
+}
+
+.page-index .round-bt:hover::after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.page-index .round-bt svg {
+  position: relative;
+  z-index: 1;
+}
+
+.page-index .share-trigger {
+  background-color: #ffffff1a;
+  backdrop-filter: blur(2.125rem);
+  transition: background 0.3s cubic-bezier(0.09, 0.72, 0.76, 1.01);
+}
+
+.page-index .share-trigger:focus-visible {
+  outline: 0.0625rem solid #fff;
+}
+
+/* social share popover */
+.page-index .share {
+  position: relative;
+}
+
+.page-index .share-panel {
+  position: absolute;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+  padding: 1rem 0.75rem 1.25rem;
+  left: -0.5rem;
+  top: 100%;
+  border-radius: 0.25rem;
+  background: #28333e;
+  box-shadow: 0 16px 32px #0003;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(5px);
+  transition: visibility linear, opacity 0.25s ease-out, transform 0.35s ease-out;
+}
+
+.page-index .share.open .share-panel {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.page-index .share-panel .round-bt {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+@media (width < 768px) {
+  .page-index .panel {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    transform-origin: bottom;
+    background: #28333e;
+    border-radius: 1.25rem 1.25rem 0 0;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    z-index: 4;
+  }
+
+  .page-index .toggle:not(:checked) + .panel {
+    height: 0;
+    background: transparent;
+  }
+
+  .page-index .button {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 0;
+    cursor: pointer;
+    color: #c5ccd3;
+    background: #28333e;
+    border-radius: 1.25rem 1.25rem 0 0;
+  }
+
+  .page-index .toggle:not(:checked) + .panel > .button {
+    position: fixed;
+    right: 1rem;
+    bottom: 5.25rem;
+    width: 3rem;
+    height: 3rem;
+    justify-content: center;
+    border-radius: 5rem;
+    background: var(--brand-color, #8d99a5);
+    color: var(--text-on-brand-color, #151f27);
+    box-shadow: 0 16px 32px #0003;
+  }
+
+  .page-index .toggle:not(:checked) + .panel .title,
+  .page-index .toggle:not(:checked) + .panel .icon-links-selected,
+  .page-index .toggle:not(:checked) + .panel .nav,
+  .page-index .toggle:checked + .panel .icon-links {
+    display: none;
+  }
+
+  .page-index .toggle:checked + .panel > .button {
+    justify-content: space-between;
+    padding: 1.5rem 2.5rem;
+  }
+
+  .page-index .container {
+    border-top: 1px solid #586674;
+  }
+
+  .page-index .scroll ul {
+    width: 100%;
+    max-height: 45vh;
+    overflow-y: auto;
+  }
+
+  .page-index .scroll li {
+    margin: 0 2.5rem;
+    padding: 1rem 0;
+  }
+
+  .page-index .scroll li::after {
+    left: -2.5rem;
+    width: 0;
+    height: 100%;
+    transition: width 0.3s;
+  }
+
+  .page-index .scroll li.active::after {
+    width: 4px;
+  }
+}
+
+@media (width >= 768px) {
+  .page-index .button {
+    display: none;
+  }
+
+  .page-index .nav {
+    flex-direction: row;
+  }
+
+  .page-index .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .page-index .scroll {
+    display: grid;
+    align-items: center;
+  }
+
+  .page-index .scroll::before,
+  .page-index .scroll::after {
+    content: "";
+    pointer-events: none;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+  }
+
+  .page-index .scroll::before {
+    z-index: 1;
+    left: 0;
+    width: 2rem;
+    background: linear-gradient(90deg, #28333e 0%, #28333e00 100%);
+  }
+
+  .page-index .scroll::after {
+    right: 0;
+    width: 10rem;
+    background: linear-gradient(270deg, #28333e 0%, #28333e00 100%);
+  }
+
+  .page-index .scroll ul {
+    grid-area: 1 / 1;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 2rem;
+    padding-left: 2.5rem;
+    padding-right: 10rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+  }
+
+  .page-index .scroll ul::-webkit-scrollbar {
+    display: none;
+  }
+
+  .page-index .scroll li::after {
+    left: 0;
+    width: 100%;
+    height: 0;
+    transition: height 0.3s;
+  }
+
+  .page-index .scroll li.active::after {
+    height: 4px;
+  }
+
+  .page-index .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 1.25rem;
+    padding: 0.75rem 0;
+  }
+
+  .page-index .sep {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    height: 1.5rem;
+    padding-right: 0.625rem;
+  }
+
+  .page-index .share {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    padding-left: 0.625rem;
+  }
+
+  /* sticky state (page-index-runtime nav.fixed-nav): pinned under the header */
+  .page-index .nav.fixed-nav {
+    position: fixed;
+    top: -7.5rem;
+    left: 0;
+    width: 100%;
+    transform: translateY(calc(7.5rem + var(--header-height)));
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .page-index .fixed-nav .scroll li {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 1rem 0;
+  }
+
+  .page-index .fixed-nav .scroll ul {
+    padding-left: 64px;
+  }
+
+  .page-index .fixed-nav .actions {
+    margin-right: 64px;
+    padding: 0.5rem 0;
+  }
+
+  .page-index .fixed-nav .sep {
+    padding-right: 1.5rem;
+    border-right: 1px solid #3f4d5a;
+  }
+
+  .page-index .fixed-nav .share {
+    column-gap: 0.25rem;
+    padding-left: 1.5rem;
+  }
+
+  .page-index .fixed-nav .share-trigger {
+    background-color: #0000;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+@media (width >= 1024px) {
+  .page-index .scroll ul {
+    column-gap: 2.5rem;
+  }
+}
+
+@media (width >= 1440px) {
+  .page-index .container {
+    max-width: 1440px;
+  }
+}
+
+/* hub (cluster-hub): below 768 the hub index takes no room in the flow (source height 0) */
+@media (width < 768px) {
+  .page-index.hub {
+    display: none;
+  }
+}
+
+/* fix-editorial: optional reading time (separator slot) and round download button */
+.page-index .sep.has-read {
+  border-right: 1px solid #586674;
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.page-index .read-icon::before {
+  content: '\f20f';
+  font-family: 'Website Icons', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.page-index .read :is(p, div) {
+  margin: 0;
+}
+
+.page-index .download {
+  margin-left: 0.625rem;
+  background-color: #ffffff1a;
+  color: #fff;
+  text-decoration: none;
+}
+
+.page-index .download::before {
+  content: '\ec5a';
+  font-family: 'Website Icons', sans-serif;
+  font-size: 1.125rem;
+}
+
+.page-index .download-label {
+  display: none;
+}
+
+.page-index.packed .scroll ul {
+  justify-content: flex-start;
+}
+
+/* light (page-index-runtime.light, en-investors): #f4f8fc bar, ink entries, accent underline
+   (accent-<hex>: the runtime's accent-color), ink-tint share disc; noshare — no share action */
+.page-index.light {
+  --pi-accent: var(--primary-color-50, #02d34a);
+}
+
+.page-index.light.accent-0b5a55 {
+  --pi-accent: #0b5a55;
+}
+
+.page-index.light .nav,
+.page-index.light .button {
+  background: #f4f8fc;
+  color: #151f27;
+}
+
+.page-index.light .scroll li,
+.page-index.light .scroll li a {
+  color: #151f27;
+}
+
+.page-index.light .scroll li::after {
+  background-color: var(--pi-accent);
+}
+
+.page-index.light .scroll::before {
+  background: linear-gradient(90deg, #f4f8fc 0%, #f4f8fc00 100%);
+}
+
+.page-index.light .scroll::after {
+  background: linear-gradient(270deg, #f4f8fc 0%, #f4f8fc00 100%);
+}
+
+.page-index.light .share-trigger {
+  background-color: #151f271f;
+  color: #151f27;
+}
+
+.page-index.noshare .share {
+  display: none;
+}
+
+/* inset (fix-hub-e, en/cx-and-digital-commerce live index): the bar sits on the grid (64 px
+   side inset >= 1024, 40 px >= 768) and never pins under the header */
+@media (width >= 768px) {
+  .page-index.inset .index {
+    margin: 0 40px;
+  }
+}
+
+@media (width >= 1024px) {
+  .page-index.inset .index {
+    margin: 0 64px;
+  }
+}

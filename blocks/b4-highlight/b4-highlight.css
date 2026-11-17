@@ -1,0 +1,226 @@
+/* b4-highlight — lifted from stardust/prototypes/brand.css (module: sticky-highlight). Fixed teaser:
+   bottom sheet < 768 (178x108 picture, 20px top radius), right-edge tab >= 768 (top 108px, 272 / 292
+   wide). Visible while body.sticky-highlight-visible. The block itself takes no space in flow. */
+.b4-highlight {
+  height: 0;
+}
+
+.b4-highlight .b4-highlight-card {
+  position: fixed;
+  z-index: 5;
+  inset: auto 0 0;
+  display: grid;
+  grid-template:
+    "picture title" 108px
+    "abstract abstract" minmax(0, 1fr) / 178px 1fr;
+  column-gap: 3%;
+  overflow: hidden;
+  border: 1px solid #d6e0ea;
+  border-bottom-width: 0;
+  border-radius: 20px 20px 0 0;
+  background-color: #28333e;
+  box-shadow: 0 16px 32px #0003;
+  color: #fff;
+  cursor: pointer;
+  visibility: hidden;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-out, visibility 0.3s ease-out;
+}
+
+.sticky-highlight-visible .b4-highlight .b4-highlight-card {
+  visibility: visible;
+  transform: translateY(0);
+  transition: transform 0.3s ease-out 1s, visibility 0.3s ease-out 1s;
+}
+
+.b4-highlight .b4-highlight-pic {
+  grid-area: picture;
+  display: block;
+}
+
+.b4-highlight .b4-highlight-img.desktop {
+  display: none;
+}
+
+.b4-highlight .b4-highlight-pic img {
+  display: block;
+  width: 178px;
+  height: 108px;
+  border-top-left-radius: 20px;
+  object-fit: cover;
+}
+
+.b4-highlight .b4-highlight-title {
+  grid-area: title;
+  align-self: center;
+  width: calc(97% - 44px);
+}
+
+.b4-highlight .b4-highlight-title :is(p, h2, h3, h4) {
+  display: -webkit-box;
+  margin: 0;
+  overflow: hidden;
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+
+.b4-highlight .b4-highlight-toggle {
+  position: absolute;
+  right: 0;
+  width: 40px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  color: #fff;
+  font-size: 22px;
+  line-height: 12px;
+  cursor: pointer;
+}
+
+.b4-highlight .b4-highlight-toggle i {
+  font-family: "Website Icons", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.b4-highlight .b4-highlight-toggle .icon-chevron::before {
+  content: "\ea4e";
+}
+
+.b4-highlight .b4-highlight-toggle .icon-close::before {
+  content: "\eb98";
+}
+
+.b4-highlight .b4-highlight-toggle[aria-expanded="false"] .icon-close,
+.b4-highlight .b4-highlight-toggle[aria-expanded="true"] .icon-chevron {
+  display: none;
+}
+
+.b4-highlight .b4-highlight-abstract {
+  grid-area: abstract;
+  display: none;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.b4-highlight .b4-highlight-abstract p {
+  display: -webkit-box;
+  margin: 1rem 0 0;
+  overflow: hidden;
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 300;
+  line-height: 1.4;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+
+.b4-highlight .b4-highlight-abstract p.b4-highlight-cta {
+  display: block;
+  margin: 0;
+  overflow: visible;
+}
+
+.b4-highlight a.b4-highlight-btn {
+  display: inline-flex;
+  width: min-content;
+  margin-bottom: 1rem;
+  padding: 12px 20px;
+  border-radius: 4px;
+  background: #fff;
+  color: var(--c-ink);
+  font-family: var(--font-label);
+  font-size: 12px;
+  line-height: 17px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.b4-highlight a.b4-highlight-btn:hover {
+  background: var(--primary-color-20);
+}
+
+@media (width >= 768px) {
+  .b4-highlight .b4-highlight-card {
+    inset: 108px 0 auto auto;
+    grid-template:
+      "picture title" 100px
+      "abstract abstract" minmax(0, 1fr) / 100px 1fr;
+    width: 272px;
+    column-gap: 14px;
+    border-right-width: 0;
+    border-bottom-width: 1px;
+    border-radius: 6px 0 0 6px;
+    cursor: auto;
+    transform: translate(100%);
+  }
+
+  .sticky-highlight-visible .b4-highlight .b4-highlight-card {
+    transform: translate(0);
+  }
+
+  .b4-highlight .b4-highlight-img.desktop {
+    display: block;
+  }
+
+  .b4-highlight .b4-highlight-img.mobile {
+    display: none;
+  }
+
+  .b4-highlight .b4-highlight-pic img {
+    width: 100px;
+    height: 100px;
+    border-radius: 6px 0 0 6px;
+  }
+
+  .b4-highlight .b4-highlight-title {
+    width: 116px;
+  }
+
+  .b4-highlight .b4-highlight-title :is(p, h2, h3, h4) {
+    font-size: 13px;
+  }
+
+  .b4-highlight .b4-highlight-abstract {
+    display: flex;
+    max-height: 0;
+    padding-inline: 15px;
+    opacity: 0;
+    transition: max-height 0.3s ease-out, opacity 70ms ease-out;
+  }
+
+  .b4-highlight .b4-highlight-toggle[aria-expanded="true"] + .b4-highlight-abstract {
+    max-height: 156px;
+    opacity: 1;
+    transition: max-height 0.3s ease-out, opacity 70ms ease-out 0.23s;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-highlight .b4-highlight-card {
+    grid-template-rows: 116px minmax(0, 1fr);
+    grid-template-columns: 116px 1fr;
+    width: 292px;
+    column-gap: 18px;
+  }
+
+  .b4-highlight .b4-highlight-pic img {
+    width: 116px;
+    height: 116px;
+  }
+
+  .b4-highlight .b4-highlight-title :is(p, h2, h3, h4) {
+    font-size: 15px;
+  }
+
+  .b4-highlight .b4-highlight-abstract {
+    padding-inline: 25px;
+  }
+}

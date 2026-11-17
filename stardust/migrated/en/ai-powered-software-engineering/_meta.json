@@ -1,0 +1,492 @@
+{
+  "slug": "en-ai-powered-software-engineering",
+  "type": "hub",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hero-slider",
+    "section-heading",
+    "slider-with-title",
+    "hub-text",
+    "card-carousel",
+    "rose-cta"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "hero-slider",
+    "section-heading",
+    "slider-with-title",
+    "hub-text",
+    "hub-text",
+    "section-heading",
+    "card-carousel",
+    "rose-cta"
+  ],
+  "canonShas": {
+    "header": "4dd40df186cc",
+    "footer": "ad7b86d8aece",
+    "css": "5bf5dffd7509"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "AI-powered Software Engineering | Reply",
+    "description": "In the fast-paced Generative AI revolution, IT evolves swiftly, transforming challenges into efficiency and agility. Welcome to the future of ICT: smarter, faster, better. ",
+    "canonical": "https://www.reply.com/en/ai-powered-software-engineering",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "AI-powered Software Engineering | Reply",
+    "description": "In the fast-paced Generative AI revolution, IT evolves swiftly, transforming challenges into efficiency and agility. Welcome to the future of ICT: smarter, faster, better. ",
+    "url": "https://www.reply.com/en/ai-powered-software-engineering"
+  },
+  "migratedAt": "2026-11-15T23:03:25Z",
+  "designMdSha": "d809c0215087",
+  "designJsonSha": "bdcb89ad7bf4",
+  "sourceCurrentSha": "eb45babb8d1f",
+  "sourceProposedSha": "2e22223a370a",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [
+    "card-carousel--autoplay card-carousel--hub card-carousel--scale hub-text--b-120 hub-text--b-40 hub-text--bm-1 hub-text--bm-88 hub-text--mixed hub-text--t-0 hub-text--tm-0 hub-text--tm-42 hub-text--w-4 media-hero--slide section-heading--b-70 section-heading--bm-56 section-heading--tm-56 section-heading--w-6 slider-with-title--autoplay slider-with-title--b-153 slider-with-title--bm-33 slider-with-title--cards slider-with-title--icons slider-with-title--infinite statement--b-96 statement--bm-48 statement--hub statement--t-96 statement--tm-48",
+    "card-carousel--autoplay card-carousel--hub card-carousel--scale hero-slider--hub hub-text--b-120 hub-text--b-40 hub-text--bm-1 hub-text--bm-88 hub-text--mixed hub-text--t-0 hub-text--tm-0 hub-text--tm-42 hub-text--w-4 section-heading--b-70 section-heading--bm-56 section-heading--tm-56 section-heading--w-6 slider-with-title--autoplay slider-with-title--b-153 slider-with-title--bm-33 slider-with-title--cards slider-with-title--icons slider-with-title--infinite statement--b-96 statement--bm-48 statement--hub statement--t-96 statement--tm-48",
+    "card-carousel--autoplay card-carousel--hub card-carousel--scale hero-slider--hub hub-text--b-120 hub-text--b-40 hub-text--bm-1 hub-text--bm-88 hub-text--mixed hub-text--t-0 hub-text--tm-0 hub-text--tm-42 hub-text--w-4 section-heading--b-70 section-heading--b-96 section-heading--bm-48 section-heading--bm-56 section-heading--center section-heading--lead section-heading--t-96 section-heading--tm-48 section-heading--tm-56 section-heading--w-6 slider-with-title--autoplay slider-with-title--b-153 slider-with-title--bm-33 slider-with-title--cards slider-with-title--icons slider-with-title--infinite"
+  ],
+  "gatesPassed": [
+    "delivery-lint"
+  ],
+  "gateEvidence": {
+    "pixel-gate-1440": "OPEN: no row in the pixel table (prototypes-1440) — run gate-all.mjs --stage prototype so the page is measured",
+    "pixel-gate-360": "OPEN: no row in the pixel table (prototypes-360) — run gate-all.mjs --stage prototype so the page is measured",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /en/ai-powered-software-engineering)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "module-flattened",
+      "source": "gridcontainer-runtime (section 4)",
+      "target": "hub-text",
+      "reason": "one-off source runtime without a hub block; content kept verbatim in order"
+    },
+    {
+      "kind": "heading-demotion",
+      "source": "<h1> FUTURE-PROOFING WITH ARTIFICIAL INTELLIGENCE",
+      "target": "<h2>",
+      "reason": "a second source h1 outside the hero; the delivery contract allows one h1"
+    }
+  ],
+  "assetsBundled": 5,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/de/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/metaverse",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/prebuilt-ai-apps",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quality-engineering",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quantum-computing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/robotics-and-autonomous-things",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/strategy-and-business-model-transformation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/supply-chain-management",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-networks",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/retail-and-consumer-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-and-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-42",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-73",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-phi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/cyber-security-lab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-house-of-models",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-iot-labs-concept-quality",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/testautomationcentre",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/xchange",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/energy-and-emissions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/reply-to-the-earth",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/sustainable-supply-chain",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/continuous-learning",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/wellbeing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/inclusion-and-diversity",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/governance-system",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/governance-policies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/governance/our-commitment-to-ethical-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom?type=financial-news",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/reply-share-information",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-highlights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-calendar-and-events",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-reports",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/shareholders-meeting",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/loyalty-shares",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/from-code-to-control-ais-takeover-of-software-development-lifecycle",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/silicon-shoring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/silicon-shoring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/next-gen-architectures-powered-by-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/artificial-intelligence-for-legacy-modernisation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/boosting-copilot-adoption",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/sovereign-ai-coding-running-on-edge-environments-for-compliant-software-development",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/how-audi-is-redefining-software-development",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/agentic-ai-for-legacy-modernisation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/ai-change-request-assistant",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/integrating-ai-powered-agentic-systems",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/agile-buddy-ai-power-for-better-teamwork-in-the-it-department",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-and-media/ai-driven-architectures-for-telcos-bss",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/keeping-legacy-applications-up-to-date-with-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/ai-powered-esb-transformation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/secure-software-development-with-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/ai-supported-3rd-level-support",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-software-development",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/kicode-reply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/ai-agents-automate-merge-processes",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/generative-ai-centred-architectures-for-financial-institutions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/conversational-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/assisted-coding-for-financial-institutions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/an-intelligent-code-review-service",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quality-engineering/elevate-your-software-testing-with-generative-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/generating-functional-analysis-documents-with-kicode-reply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/accelerate-business-requirements-collection-with-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/cassiopea-reply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/enhance-it-operations-and-service-management",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/low-code",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-candidate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-client",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-supplier",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-marketing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/modern-slavery-statement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contents/Reply_Company_Information_en.pdf",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "en/ai-powered-software-engineering/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "en/ai-powered-software-engineering/_meta.json",
+  "driverVersion": "1"
+}

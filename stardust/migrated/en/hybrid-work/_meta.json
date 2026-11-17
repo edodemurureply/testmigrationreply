@@ -1,0 +1,496 @@
+{
+  "slug": "en-hybrid-work",
+  "type": "hub",
+  "renderBranch": "A'",
+  "template": "en-iot",
+  "modules": [
+    "media-hero",
+    "statement",
+    "hero-card",
+    "page-index",
+    "section-heading",
+    "slider-with-title",
+    "cards-wall",
+    "labs",
+    "logo-wall",
+    "rose-cta",
+    "discover-also"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "media-hero",
+    "statement",
+    "hero-card",
+    "page-index",
+    "section-heading",
+    "slider-with-title",
+    "cards-wall",
+    "section-heading",
+    "labs",
+    "section-heading",
+    "cards-wall",
+    "logo-wall",
+    "rose-cta",
+    "discover-also"
+  ],
+  "canonShas": {
+    "header": "92297a4d3b61",
+    "footer": "e18b59d03a3c",
+    "css": "5bf5dffd7509"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "The Future of Work: Hybrid Models and the Digital Workplace | Reply",
+    "description": "Discover new trends about the future of work as well as Reply&#x27;s offer in providing tools and solutions for the digital redesign of the workplace.",
+    "canonical": "https://www.reply.com/en/hybrid-work",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "The Future of Work: Hybrid Models and the Digital Workplace | Reply",
+    "description": "Discover new trends about the future of work as well as Reply&#x27;s offer in providing tools and solutions for the digital redesign of the workplace.",
+    "url": "https://www.reply.com/en/hybrid-work"
+  },
+  "migratedAt": "2026-11-15T22:20:57Z",
+  "designMdSha": "d809c0215087",
+  "designJsonSha": "bdcb89ad7bf4",
+  "sourceCurrentSha": "8fccb8a307af",
+  "sourceProposedSha": "57eacf878e72",
+  "fidelityTier": "sibling",
+  "archetypeSource": "en-iot",
+  "archetypeSha": "0f103c077137",
+  "variants": [
+    "cards-wall--t-120 cards-wall--tm-96 hero-card--b-120 hero-card--hub logo-wall--b-61 logo-wall--bm-123 logo-wall--ice logo-wall--t-96 logo-wall--tm-80 page-index--hub section-heading--b-0 section-heading--b-72 section-heading--bm-56 section-heading--lead section-heading--w-6 section-heading--w-8 slider-with-title--autoplay slider-with-title--bm-24 slider-with-title--icons slider-with-title--infinite statement--bm-48 statement--hub"
+  ],
+  "gatesPassed": [
+    "delivery-lint"
+  ],
+  "gateEvidence": {
+    "pixel-gate-1440": "OPEN: no row in the pixel table (prototypes-1440) — run gate-all.mjs --stage prototype so the page is measured",
+    "pixel-gate-360": "OPEN: no row in the pixel table (prototypes-360) — run gate-all.mjs --stage prototype so the page is measured",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /en/hybrid-work)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 5,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/de/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/metaverse",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/prebuilt-ai-apps",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quality-engineering",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quantum-computing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/robotics-and-autonomous-things",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/strategy-and-business-model-transformation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/supply-chain-management",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-networks",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/logistics",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/retail-and-consumer-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-and-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/labs/area-42",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-73",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-phi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/cyber-security-lab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-house-of-models",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-iot-labs-concept-quality",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/testautomationcentre",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/xchange",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/energy-and-emissions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/reply-to-the-earth",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/sustainable-supply-chain",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/continuous-learning",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/wellbeing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/inclusion-and-diversity",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/governance-system",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/governance-policies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/governance/our-commitment-to-ethical-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/newsroom?type=financial-news",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/reply-share-information",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-highlights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-calendar-and-events",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-reports",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/shareholders-meeting",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/loyalty-shares",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors#H6tmz",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/app-to-the-future",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/hybrid-work/oxfordshire-county-council-copilot-rollout",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/valorem-reply/en/resources/work/2026/mw/how-a-leading-retail-pharmacy-is-turning-ai-into-everyday-impact",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/hybrid-work/one-smile-connects-a-global-workforce-to-deliver-better-care",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-adoption-across-the-aa-with-chatgpt-enterprise",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/news/wm-reply-cqc-silver-ice-awards-2025",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/hybrid-work/leading-copilot-adoption-at-lumen-from-vision-to-impact",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/hybrid-work/revolutionizing-workplace-dynamics-with-gen-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/hybrid-work/feedback-process-teams",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/cluster-reply-italy/it/workit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/tamtamy-reply/en/product/for-employees",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/omnifraime",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/discovery-reply/en/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/hybrid-work/wtr-whatever-you-want-reservation-tool",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/financial-services/how-unipol-makes-insurance-processes-more-efficient-with-process-intelligence-and-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/automotive-and-manufacturing/cnh-sales-request-hub",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/automated-loan-granting",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/the-full-potential-of-rpa",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/financial-services/anchor-rpa-in-the-long-term-at-gothaer",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/financial-services/automation-of-digital-processes-at-helvetia",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/fraport-computer-vision-and-ai-optimise-airport-operations",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/financial-services/rpa-for-sparda-bank",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/blueprint-for-ipa-project-setup",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quantum-computing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/robotics-and-autonomous-things",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-networks",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-candidate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-client",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-supplier",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-marketing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/modern-slavery-statement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contents/Reply_Company_Information_en.pdf",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "en/hybrid-work/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "en/hybrid-work/_meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,97 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/sap-ccm",
+ "at": "2026-11-17T01:21:25.641Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 8,
+  "offPage": 20,
+  "textNodes": 56,
+  "controls": 25,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.card-carousel.simple",
+   "path": "ul.card-carousel-track > li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+   "text": "revenue growth managementoffering",
+   "cutMin": 69,
+   "cutMax": 155
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.reply-card-image-container",
+   "path": "div.reply-card-body > div.category-label > div.category-name > p",
+   "text": "offering",
+   "cutMin": 24,
+   "cutMax": 37
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": null,
+   "path": "div.statement-grid.r-grid > div.statement-cell.r-cell > div.statement-text > h2#konditionsmanagement-neu-gedacht-mit-sap-ccm-zu-transparenten-und-automatisierten-prozessen",
+   "text": "konditionsmanagement neu gedacht: mit sap ccm zu transparent",
+   "cutMin": 40,
+   "cutMax": 40
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.b4-slider-viewport",
+   "path": "li.b4-slider-item > div.b4-slider-card > div.b4-slider-body > p",
+   "text": "lernen sie kennen, wie sap condition contract management kon",
+   "cutMin": 262,
+   "cutMax": 262
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h3#revenue-growth-management",
+   "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#revenue-growth-management",
+   "text": "revenue growth management",
+   "cutMin": 37,
+   "cutMax": 37
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h3#agentic-ai-revenue-growth-management-für-fmcg",
+   "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#agentic-ai-revenue-growth-management-für-fmcg",
+   "text": "agentic ai revenue growth management für fmcg",
+   "cutMin": 104,
+   "cutMax": 104
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 6,
+   "offPage": 25,
+   "textNodes": 62,
+   "controls": 25,
+   "total": 0
+  }
+ }
+}

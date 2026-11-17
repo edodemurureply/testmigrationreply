@@ -1,0 +1,19 @@
+cap-probe  base 1440 → probe 2560 (from stardust/current/DESIGN.json)
+live   https://www.reply.com/4brands-reply/de/rotkaeppchen-mumm-sektkellereien
+  modules  9 sections: capped 1660 ×9 · full-bleed ×0
+  contentMaxWidth 1660px (module) · shellMaxWidth fluid · root #main-content
+build  http://localhost:8791/4brands-reply-de-rotkaeppchen-mumm-sektkellereien-proposed.html
+  modules  9 sections: capped 1660 ×9 · full-bleed ×0
+  contentMaxWidth 1660px (module) · shellMaxWidth fluid · root #main-content
+rows
+  ✓ content cap: live 1660px = build 1660px (±20, shared module cap)
+  ✓ module 1/9: 1660px = 1660px
+  ✓ module 2/9: 1660px = 1660px
+  ✓ module 3/9: 1660px = 1660px
+  ✓ module 4/9: 1660px = 1660px
+  ✓ module 5/9: 1660px = 1660px
+  ✓ module 6/9: 1660px = 1660px
+  ✓ module 7/9: 1660px = 1660px
+  ✓ module 8/9: 1660px = 1660px
+  ✓ module 9/9: 1660px = 1660px
+cap-probe: PASS at 2560 — 0 of 10 rows failed (evidence stardust/replica/gates/4brands-reply-de-rotkaeppchen-mumm-sektkellereien-2560/cap-iter.json)

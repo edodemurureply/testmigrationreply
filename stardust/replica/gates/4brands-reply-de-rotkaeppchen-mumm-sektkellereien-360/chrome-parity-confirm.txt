@@ -1,0 +1,20 @@
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.reply.com/4brands-reply/de/rotkaeppchen-mumm-sektkellereien (live side from cache stardust/replica/gates/4brands-reply-de-rotkaeppchen-mumm-sektkellereien-360/chrome-live.json, probed 2026-11-15T11:43:38.720Z — delete the file to re-probe)
+  build: http://localhost:8791/4brands-reply-de-rotkaeppchen-mumm-sektkellereien-proposed.html
+
+■ header: ✓ parity — 0 paired of 0/0 texts, 2/2 icons
+
+■ footer: 11 delta(s) — 16 paired of 16/16 texts, 4/4 icons
+  PAIR         "Impressum"  Δw -2px (104→102)
+  PAIR         "Datenschutzhinweis"  Δw -2px (194→192)
+  PAIR         "(Bewerber)"  Δx -2px (168→166); <a> box 194×17 → 192×17
+  PAIR         "(Kunden)"  Δx -2px (168→166)
+  PAIR         "Datenschutzhinweis"  Δw -2px (211→209)
+  PAIR         "(Dienstleister)"  Δx -2px (168→166); <a> box 211×17 → 209×17
+  PAIR         "Datenschutzhinweis"  Δw -3px (197→194)
+  PAIR         "(Marketing)"  Δx -2px (168→166); <a> box 197×17 → 194×17
+  PAIR         "Grundsatzerklärung - LKSG"  Δw +3px (255→258)
+  PAIR         "(Deutschland)"  Δx +2px (210→212); <a> box 255×17 → 258×17
+  PAIR         "Accessibility Statement"  Δw -4px (147→143)
+
+✗ 11 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

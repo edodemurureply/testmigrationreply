@@ -1,0 +1,299 @@
+/* discover-also — lifted from stardust/prototypes/modules.css (module: discover-also, card-carousel
+   --keywords, .btn-link, .t-kicker, canon .round-bt + --outline). */
+.discover-also {
+  display: grid;
+  grid-template-columns: auto;
+  width: 100%;
+  max-width: 576px;
+  margin: 32px auto 80px;
+}
+
+.discover-also .discover-also-panel {
+  border-radius: 6px;
+  background: var(--c-ice);
+}
+
+.discover-also .discover-also-grid {
+  padding: 3rem 2.5rem 2.5rem;
+}
+
+.discover-also .discover-also-cell {
+  grid-column: 1 / 5;
+  align-items: center;
+  place-content: center center;
+  margin-right: -2.5rem;
+}
+
+.discover-also .discover-also-kicker p {
+  margin: 0;
+  color: var(--c-ink);
+  font-family: var(--font-lead);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+.discover-also .discover-also-spacer {
+  height: 28px;
+}
+
+.discover-also .discover-also-rail {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  padding: 0.25rem 0;
+}
+
+.discover-also .discover-also-viewport {
+  flex: 1 1 auto;
+  width: 100%;
+  min-width: 0;
+  max-width: 1660px;
+  margin: 0 auto;
+  touch-action: pan-y;
+  user-select: none;
+}
+
+.discover-also .discover-also-track {
+  position: relative;
+  width: 100%;
+  transition: transform 1s ease-in-out;
+}
+
+.discover-also .discover-also-track :is(ul, ol) {
+  display: flex;
+  column-gap: 2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.discover-also .discover-also-track li {
+  position: relative;
+  display: flex;
+  flex: 0 0 auto;
+  min-width: 0;
+}
+
+/* .btn-link */
+.discover-also .discover-also-track a {
+  position: relative;
+  display: inline-block;
+  padding: 12px 0;
+  border: 0;
+  background: none;
+  color: var(--c-ink);
+  font-family: var(--font-label);
+  font-size: 0.75rem;
+  line-height: 1.4;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  transition: padding 0.2s ease-out;
+}
+
+.discover-also .discover-also-track a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  height: 0;
+  border: 0.125rem solid transparent;
+  border-bottom-color: var(--c-ink);
+  border-radius: 0.25rem;
+  transform: translate(-50%);
+  transition: border-color 0.1s ease-out 80ms, height 0.25s ease-out 0.15s;
+}
+
+.discover-also .discover-also-track a:hover {
+  padding: 12px 16px;
+}
+
+.discover-also .discover-also-track a:hover::after,
+.discover-also .discover-also-track a:focus-visible::after {
+  height: 100%;
+  border-color: var(--c-ink);
+}
+
+.discover-also .discover-also-track a:focus {
+  outline: none;
+}
+
+.discover-also .discover-also-controls {
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  column-gap: 8px;
+  height: 3rem;
+  margin-top: 32px;
+  padding: 0 4px;
+  background: var(--c-ice);
+}
+
+/* round-bt round-bt--outline */
+.discover-also .round-bt {
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  padding: 1px 6px;
+  border: 0.0625rem solid var(--c-ink);
+  border-radius: 50%;
+  background: none;
+  color: var(--c-ink);
+  cursor: pointer;
+  transition: border-color 50ms linear;
+}
+
+.discover-also .round-bt::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  pointer-events: none;
+  background: var(--brand-color);
+  opacity: 0;
+  transform: scale(0);
+  transition: transform 0.4s cubic-bezier(0.09, 0.72, 0.76, 1.01), opacity 0.3s ease-out;
+}
+
+.discover-also .round-bt svg {
+  position: relative;
+  z-index: 1;
+}
+
+.discover-also .round-bt:hover {
+  border-color: transparent;
+  color: var(--text-on-brand-color);
+}
+
+.discover-also .round-bt:hover::after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.discover-also .round-bt:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+@media (width >= 576px) {
+  .discover-also {
+    max-width: 768px;
+  }
+}
+
+@media (width >= 768px) {
+  .discover-also {
+    max-width: 1024px;
+    margin-top: 40px;
+    margin-bottom: 88px;
+    padding: 0 4rem;
+  }
+
+  .discover-also .discover-also-grid {
+    padding-bottom: 3rem;
+    padding-left: 0;
+  }
+
+  .discover-also .discover-also-cell {
+    grid-column: 2 / 8;
+    margin-left: -2.5rem;
+  }
+
+  .discover-also .discover-also-spacer {
+    height: 20px;
+  }
+
+  .discover-also .discover-also-rail {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .discover-also .discover-also-viewport {
+    width: auto;
+  }
+
+  .discover-also .discover-also-controls {
+    height: 100%;
+    margin-top: 0;
+    padding-left: 20px;
+  }
+}
+
+@media (width >= 1024px) {
+  .discover-also {
+    max-width: 1440px;
+  }
+
+  .discover-also .discover-also-grid {
+    padding-bottom: 3.5rem;
+  }
+
+  .discover-also .discover-also-cell {
+    grid-column: 2 / 12;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .discover-also .discover-also-spacer {
+    height: 24px;
+  }
+
+  .discover-also .discover-also-controls {
+    padding-bottom: 4px;
+    padding-left: 24px;
+  }
+}
+
+@media (width >= 1440px) {
+  .discover-also {
+    max-width: 1660px;
+    margin-top: 64px;
+    margin-bottom: 96px;
+  }
+
+  .discover-also .discover-also-grid {
+    padding-bottom: 4rem;
+  }
+
+  .discover-also .discover-also-kicker p {
+    font-size: 20px;
+  }
+
+  .discover-also .discover-also-track a {
+    padding: 14px 0;
+    font-size: 0.875rem;
+  }
+
+  .discover-also .discover-also-track a:hover {
+    padding: 14px 24px;
+  }
+}
+
+/* variant hub (fix-hub-e, en-design): this discover-also section sits 56 px under the section
+   above below 768 (live .kbisgcoivf margin-top 56; most hub pages keep the modules.css 32) */
+@media (width < 768px) {
+  .discover-also.hub {
+    margin-top: 56px;
+  }
+}
+
+/* fits (fix-hub-f, set by the block when every link fits the rail >= 768): the source hides
+   prev / next (display none) and centres the list in the cell (en/environment) */
+.discover-also.fits .discover-also-controls {
+  display: none;
+}
+
+.discover-also.fits .discover-also-track :is(ul, ol) {
+  justify-content: center;
+}

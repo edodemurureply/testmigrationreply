@@ -1,0 +1,634 @@
+/* rose-cta — lifted from stardust/prototypes/modules.css (module: rose-banner, rose-card, .btn
+   --white / --rose + icon-arrow, canon .round-bt + --outline-on-dark, .t-title / .t-p1 / .t-h6 /
+   .t-label-xs) + en-iot.css (.iot-rose margin-top 96 / 104 / 120). */
+.rose-cta {
+  display: block;
+  margin-top: 96px;
+  overflow: hidden;
+}
+
+.rose-cta .rose-cta-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: auto auto auto;
+  gap: 40px;
+  width: 100%;
+  max-width: 1660px;
+  margin: 0 auto 4rem;
+  padding: 0 40px;
+}
+
+.rose-cta .rose-cta-bg {
+  grid-area: 1 / 1 / 3 / span 4;
+  margin: 0 -40px;
+  background: linear-gradient(93.67deg, #f00d6c -0.33%, #f89a23 100%);
+}
+
+.rose-cta .rose-cta-content {
+  z-index: 1;
+  display: flex;
+  grid-area: 1 / 1 / 2 / span 4;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 2.5rem;
+}
+
+.rose-cta .rose-cta-logo,
+.rose-cta .rose-cta-logo picture {
+  display: block;
+}
+
+.rose-cta .rose-cta-logo img {
+  display: block;
+  border-radius: 6px;
+}
+
+.rose-cta .rose-cta-title :is(h1, h2, h3, h4, h5, h6, p) {
+  margin: 0.75rem 0;
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.rose-cta .rose-cta-abstract p {
+  margin: 0;
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.rose-cta .rose-cta-action {
+  margin-top: 1.25rem;
+}
+
+.rose-cta :is(.rose-cta-action, .rose-card-action) p {
+  margin: 0;
+}
+
+/* .btn (+ --white / --rose): label, then the arrow glyph (Website Icons \ea6c) */
+.rose-cta :is(.rose-cta-action, .rose-card-action) a {
+  position: relative;
+  z-index: 0;
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.625rem;
+  overflow: hidden;
+  margin: 0;
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 4px;
+  background: #fff;
+  color: var(--c-ink);
+  font-family: var(--font-label);
+  font-size: 0.75rem;
+  line-height: 1.4;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.rose-cta :is(.rose-cta-action, .rose-card-action) a::after {
+  content: "\ea6c";
+  font-family: "Website Icons", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  vertical-align: middle;
+}
+
+.rose-cta .rose-card-action a {
+  background: #f8004f;
+  color: #fff;
+}
+
+.rose-cta .rose-card-action a:hover {
+  background: #d50049;
+}
+
+.rose-cta .rose-cta-action a:hover {
+  background: var(--brand-color);
+  color: var(--text-on-brand-color);
+}
+
+.rose-cta .rose-cta-cards {
+  display: flex;
+  grid-area: 2 / 1 / 4 / span 4;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.rose-cta .rose-cta-nav {
+  display: none;
+  align-self: flex-end;
+}
+
+/* round-bt round-bt--outline-on-dark */
+.rose-cta .round-bt {
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  margin: 0 0.25rem;
+  padding: 1px 6px;
+  border: 0.0625rem solid #fff;
+  border-radius: 50%;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  transition: border-color 50ms linear;
+}
+
+.rose-cta .round-bt::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  pointer-events: none;
+  background: var(--brand-color);
+  opacity: 0;
+  transform: scale(0);
+  transition: transform 0.4s cubic-bezier(0.09, 0.72, 0.76, 1.01), opacity 0.3s ease-out;
+}
+
+.rose-cta .round-bt svg {
+  position: relative;
+  z-index: 1;
+}
+
+.rose-cta .round-bt:hover {
+  border-color: transparent;
+  color: var(--text-on-brand-color);
+}
+
+.rose-cta .round-bt:hover::after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.rose-cta .round-bt:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.rose-cta .rose-cta-slider {
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: visible;
+  touch-action: pan-y;
+  user-select: none;
+}
+
+.rose-cta .rose-cta-track {
+  --gutter: 1rem;
+  --item-width: 100%;
+
+  display: flex;
+  width: 100%;
+  column-gap: var(--gutter);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: transform 1s ease-in-out;
+}
+
+.rose-cta .rose-card {
+  position: relative;
+  display: flex;
+  flex: 0 0 var(--item-width);
+  max-width: var(--item-width);
+  height: 0;
+  padding-bottom: calc(var(--item-width) / 2 * 3);
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 16px 32px #0000001a;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.rose-cta .rose-card.out {
+  opacity: 0;
+}
+
+.rose-cta .rose-card-link {
+  display: contents;
+  color: var(--c-ink);
+  text-decoration: none;
+}
+
+.rose-cta .rose-card-image,
+.rose-cta .rose-card-image picture {
+  display: block;
+  width: 100%;
+}
+
+.rose-cta .rose-card-image img {
+  display: block;
+  width: calc(100% - 2rem);
+  height: auto;
+  margin: 0 1rem;
+  object-fit: cover;
+}
+
+.rose-cta .rose-card-text {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0 2rem 1.75rem;
+  color: var(--c-ink);
+}
+
+.rose-cta .rose-card-label p {
+  margin: 0;
+  font-family: var(--font-label);
+  font-size: 0.625rem;
+  font-weight: 500;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.rose-cta .rose-card-title :is(h1, h2, h3, h4, h5, h6, p) {
+  display: -webkit-box;
+  margin: 1.5rem 0;
+  overflow: hidden;
+  color: var(--c-ink);
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.3;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+
+.rose-cta .rose-card-icon {
+  display: flex;
+  width: 67px;
+  height: 70px;
+  margin-bottom: 1rem;
+  background: url("rose-bell.svg") no-repeat 0 0 / 67px 70px;
+}
+
+@media (width >= 768px) {
+  .rose-cta {
+    margin-top: 104px;
+  }
+
+  .rose-cta .rose-cta-grid {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    grid-template-rows: auto auto;
+    row-gap: 0;
+    padding: 0 64px;
+  }
+
+  .rose-cta .rose-cta-bg {
+    grid-area: 1 / 1 / 2 / span 8;
+    margin: 0 -64px;
+  }
+
+  .rose-cta .rose-cta-content {
+    grid-area: 1 / 1 / 2 / span 5;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .rose-cta .rose-cta-cards {
+    grid-area: 1 / 6 / 3 / span 3;
+    margin-top: 3rem;
+  }
+
+  .rose-cta .rose-cta-nav {
+    display: flex;
+  }
+
+  .rose-cta .rose-cta-slider {
+    margin-top: 1.75rem;
+  }
+
+  .rose-cta .rose-cta-track {
+    --gutter: 40px;
+  }
+
+  .rose-cta .rose-card-text {
+    padding: 0 1.5rem 1.5rem;
+  }
+
+  .rose-cta .rose-card-title :is(h1, h2, h3, h4, h5, h6, p) {
+    margin: 0.75rem 0;
+  }
+
+  .rose-cta .rose-cta-title :is(h1, h2, h3, h4, h5, h6, p) {
+    font-size: 36px;
+  }
+}
+
+@media (width >= 1024px) {
+  .rose-cta .rose-cta-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .rose-cta .rose-cta-bg {
+    grid-column: 1 / span 12;
+    margin: 0;
+    border-radius: 6px;
+  }
+
+  .rose-cta .rose-cta-content {
+    grid-column: 2 / span 6;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .rose-cta .rose-cta-title :is(h1, h2, h3, h4, h5, h6, p) {
+    margin-bottom: 1.25rem;
+  }
+
+  .rose-cta .rose-cta-action {
+    margin-top: 1.5rem;
+  }
+
+  .rose-cta .rose-cta-cards {
+    grid-column: 8 / span 4;
+    margin-top: 3.5rem;
+  }
+
+  .rose-cta .rose-card-text {
+    padding: 0 2rem 1.75rem;
+  }
+
+  .rose-cta .rose-card-title :is(h1, h2, h3, h4, h5, h6, p) {
+    margin: 1rem 0 1.5rem;
+  }
+}
+
+@media (width >= 1440px) {
+  .rose-cta {
+    margin-top: 120px;
+  }
+
+  .rose-cta .rose-cta-content {
+    grid-column: 2 / span 4;
+  }
+
+  .rose-cta .rose-cta-cards {
+    grid-column: 6 / span 6;
+    margin-top: 4rem;
+  }
+
+  .rose-cta .rose-cta-track {
+    --item-width: calc((100% - var(--gutter)) / 2);
+  }
+
+  .rose-cta .rose-cta-title :is(h1, h2, h3, h4, h5, h6, p) {
+    font-size: 42px;
+  }
+
+  .rose-cta .rose-card-title :is(h1, h2, h3, h4, h5, h6, p) {
+    font-size: 1.25rem;
+  }
+
+  .rose-cta :is(.rose-cta-action, .rose-card-action) a {
+    column-gap: 0.6875rem;
+    padding: 14px 24px;
+    font-size: 0.875rem;
+  }
+
+  .rose-cta :is(.rose-cta-action, .rose-card-action) a::after {
+    font-size: 1.25rem;
+  }
+}
+
+/* variant band (index .rose-cta: modules.css rose-cta module): 94deg pink -> orange band, centred
+   column (cols 1-4 / 1-8 / 2-11) of spacer 40 | 150 px logo in a 16:9 box | display line
+   (36 / 42 / 64, weight 300) | spacer 20 | white button | spacer 40; padding 24 -> 59 / 77 >= 576 */
+.rose-cta.band {
+  margin-top: 0;
+  background-image: linear-gradient(94deg, #f00d6c, #f89a23 100%);
+}
+
+.rose-cta.band .rose-cta-col {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 1 / 5;
+  align-items: center;
+  place-content: center center;
+  min-width: 0;
+  padding: 24px 0;
+}
+
+.rose-cta.band .rose-cta-spacer {
+  flex-basis: 100%;
+  width: 100%;
+  height: 40px;
+}
+
+.rose-cta.band .rose-cta-spacer.h20 {
+  height: 20px;
+}
+
+.rose-cta.band .rose-cta-logo {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+}
+
+.rose-cta.band .rose-cta-logo-box {
+  width: 150px;
+  aspect-ratio: 16 / 9;
+}
+
+.rose-cta.band .rose-cta-logo-box img {
+  display: block;
+  width: 150px;
+  height: auto;
+  border-radius: 6px;
+}
+
+.rose-cta.band .rose-cta-text {
+  flex-basis: 100%;
+}
+
+.rose-cta.band .rose-cta-text p {
+  margin: 0;
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 110%;
+  text-align: center;
+}
+
+.rose-cta.band .rose-cta-action {
+  margin-top: 0;
+}
+
+@media (width >= 576px) {
+  .rose-cta.band .rose-cta-col {
+    padding: 59px 0 77px;
+  }
+}
+
+@media (width >= 768px) {
+  .rose-cta.band .rose-cta-col {
+    grid-column: 1 / 9;
+  }
+
+  .rose-cta.band .rose-cta-text p {
+    font-size: 42px;
+  }
+}
+
+@media (width >= 1024px) {
+  .rose-cta.band .rose-cta-col {
+    grid-column: 2 / 12;
+  }
+}
+
+@media (width >= 1440px) {
+  .rose-cta.band .rose-cta-text p {
+    font-size: 64px;
+  }
+}
+
+/* variant rail-gap (fix-hub-e, /en/ai-powered-software-engineering): the ROSE section right after
+   a scale rail — live .fhyloxnisa margin 56 / 88 @768 above, 56 / 120 @1440 below, plus the rail
+   section's own margin-bottom 120 @1440 (.gkcdlfpmbr) carried here as the gap above */
+.rose-cta.rail-gap {
+  margin-top: 56px;
+  margin-bottom: 56px;
+}
+
+@media (width >= 768px) {
+  .rose-cta.rail-gap {
+    margin-top: 88px;
+  }
+}
+
+@media (width >= 1440px) {
+  .rose-cta.rail-gap {
+    margin-top: 208px;
+    margin-bottom: 120px;
+  }
+}
+
+/* variants (fix-hub-e) — the ROSE section's own margin-top on hub pages that differ from the
+   96 / 104 / 120 default: gap-80 (en-design .vvjwbaqwcl 80 / 88 @768 / 96 @1440) and gap-56m
+   (en-digital-assets .wboqzcpvnt 56 below 768, the default above) */
+.rose-cta.gap-80 {
+  margin-top: 80px;
+}
+
+.rose-cta.gap-56m {
+  margin-top: 56px;
+}
+
+@media (width >= 768px) {
+  .rose-cta.gap-80 {
+    margin-top: 88px;
+  }
+
+  .rose-cta.gap-56m {
+    margin-top: 104px;
+  }
+}
+
+@media (width >= 1440px) {
+  .rose-cta.gap-80 {
+    margin-top: 96px;
+  }
+
+  .rose-cta.gap-56m {
+    margin-top: 120px;
+  }
+}
+
+/* variant wall-gap (fix-hub-e, /en/3d-and-mixed-reality): the ROSE section right after a card wall
+   pager — measured 42 px closer @360 (54) and 8 px closer @1440 (112) than the default margin */
+.rose-cta.wall-gap {
+  margin-top: 54px;
+}
+
+@media (width >= 768px) {
+  .rose-cta.wall-gap {
+    margin-top: 104px;
+  }
+}
+
+@media (width >= 1440px) {
+  .rose-cta.wall-gap {
+    margin-top: 112px;
+  }
+}
+
+/* variant trk-d (fix-hub-e, en-design @1440): the source face's advance on the stand-in — live
+   "One tap between" 372 px vs 361 delivered at 42 px; the live title breaks "path to reach /
+   them" in the 4-col content cell, the untracked stand-in kept one line */
+@media (width >= 1024px) {
+  .rose-cta.trk-d .rose-cta-title :is(h1, h2, h3, h4, h5, h6, p) {
+    letter-spacing: .017em;
+  }
+}
+
+/* variant nonav (fix-hub-e, en-design): a single contact card — the live arrows keep their row
+   but are not drawn (origin 1440 shows no arrows; the card sits at the same height) */
+.rose-cta.nonav .rose-cta-nav {
+  visibility: hidden;
+}
+
+/* variant gap-56 (fix-brand-solution-4, 4brands revenue-growth-management): the ROSE section right
+   after a related-cards rail — live margin-top 56 at every width (rail ends flush) */
+.rose-cta.gap-56 {
+  margin-top: 56px;
+}
+
+/* variant ls10 (fix-hub-j, en-digital-assets "Jump into the world of digital ownership" @360): the
+   stand-in display face runs narrower than the live face (2 lines vs live 3); .01em restores the
+   live line fit below 768 */
+@media (width < 768px) {
+  .rose-cta.ls10 .rose-cta-title :is(h1, h2, h3, h4, h5, h6) {
+    letter-spacing: 0.01em;
+  }
+}
+
+/* variants ls25 / cls15 (fix-hub-k, en/digital-experience ROSE @360, perls.mjs sweep): the stand-in
+   faces set the title "The first step towards your future digital experience" in 3 lines (live 4,
+   fit from .02em) and the card title "The Generative AI Revolution in Creativity" in 2 (live 3, fit
+   from .005em) below 768 */
+@media (width < 768px) {
+  .rose-cta.ls25 .rose-cta-title :is(h1, h2, h3, h4, h5, h6) {
+    letter-spacing: 0.025em;
+  }
+
+  .rose-cta.cls15 .rose-card-title :is(h1, h2, h3, h4, h5, h6) {
+    letter-spacing: 0.015em;
+  }
+}
+
+/* variant solo (fix-hub-l, en/gaming): the only card is the "Ask Rose" contact card; >= 1440 the
+   live rail shows it in the second slot (x 965 in the origin capture, one 340 px pitch right) */
+@media (width >= 1440px) {
+  .rose-cta.solo .rose-card:first-child {
+    margin-left: calc(var(--item-width) + var(--gutter));
+  }
+}
+
+/* variant logo27 (fix-hub-m, en/cloud-computing @360): the live banner-logo box is 27 px tall
+   (picture line box, img 0 x 0) with the ROSE glyph overflowing it — glyph rows 3..32 of the box
+   (stitched origin 19560-19589 vs box 19557); the delivered 36 px img set the title 9 px low */
+@media (width < 768px) {
+  .rose-cta.logo27 .rose-cta-logo {
+    height: 27px;
+  }
+
+  .rose-cta.logo27 .rose-cta-logo img {
+    margin-top: -3px;
+  }
+}

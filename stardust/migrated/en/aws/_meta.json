@@ -1,0 +1,498 @@
+{
+  "slug": "en-aws",
+  "type": "hub",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "media-hero",
+    "hub-text",
+    "statement",
+    "page-index",
+    "marquee",
+    "section-heading",
+    "slider-with-title",
+    "cards-wall"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "media-hero",
+    "hub-text",
+    "statement",
+    "page-index",
+    "hub-text",
+    "marquee",
+    "section-heading",
+    "slider-with-title",
+    "section-heading",
+    "cards-wall",
+    "section-heading",
+    "cards-wall"
+  ],
+  "canonShas": {
+    "header": "e850620a22d5",
+    "footer": "de0f7c4ac9e9",
+    "css": "5bf5dffd7509"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "AWS Solutions | Connect your Business in Cloud with Reply",
+    "description": "Reply provides solutions on AWS starting from digital transformation consultancy to managed services.",
+    "canonical": "https://www.reply.com/en/aws",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "AWS Solutions | Connect your Business in Cloud with Reply",
+    "description": "Reply provides solutions on AWS starting from digital transformation consultancy to managed services.",
+    "url": "https://www.reply.com/en/aws"
+  },
+  "migratedAt": "2026-11-15T23:03:25Z",
+  "designMdSha": "d809c0215087",
+  "designJsonSha": "bdcb89ad7bf4",
+  "sourceCurrentSha": "8470d2728b49",
+  "sourceProposedSha": "5437ea0a8438",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [
+    "hub-text--b-30 hub-text--b-50 hub-text--bm-31 hub-text--hero-after hub-text--mixed hub-text--t-0 hub-text--t-82 hub-text--tm-40 hub-text--tm-66 hub-text--w-4 page-index--hub section-heading--b-0 section-heading--b-70 section-heading--bm-0 section-heading--bm-56 section-heading--t-0 section-heading--t-30 section-heading--tm-0 section-heading--w-6 slider-with-title--autoplay slider-with-title--b-85 slider-with-title--bm-112 slider-with-title--cards slider-with-title--infinite slider-with-title--t-30 slider-with-title--tm-30 statement--b-90 statement--b-95 statement--bm-48 statement--bm-56 statement--hub statement--t-90 statement--tm-0 statement--tm-72",
+    "hub-text--b-30 hub-text--b-50 hub-text--bm-31 hub-text--mixed hub-text--t-0 hub-text--t-82 hub-text--tm-40 hub-text--tm-66 hub-text--w-4 media-hero--intro page-index--hub section-heading--b-0 section-heading--b-70 section-heading--bm-0 section-heading--bm-56 section-heading--t-0 section-heading--t-30 section-heading--tm-0 section-heading--w-6 slider-with-title--autoplay slider-with-title--b-85 slider-with-title--bm-112 slider-with-title--cards slider-with-title--infinite slider-with-title--t-30 slider-with-title--tm-30 statement--b-90 statement--b-95 statement--bm-48 statement--bm-56 statement--hub statement--t-90 statement--tm-0 statement--tm-72",
+    "hub-text--b-30 hub-text--b-50 hub-text--bm-31 hub-text--mixed hub-text--t-0 hub-text--t-82 hub-text--tm-40 hub-text--tm-66 hub-text--w-4 media-hero--intro page-index--hub section-heading--b-0 section-heading--b-70 section-heading--b-90 section-heading--bm-0 section-heading--bm-56 section-heading--center section-heading--lead section-heading--t-0 section-heading--t-30 section-heading--t-90 section-heading--tm-0 section-heading--w-6 slider-with-title--autoplay slider-with-title--b-85 slider-with-title--bm-112 slider-with-title--cards slider-with-title--infinite slider-with-title--t-30 slider-with-title--tm-30 statement--b-95 statement--bm-48 statement--hub statement--tm-72"
+  ],
+  "gatesPassed": [
+    "delivery-lint"
+  ],
+  "gateEvidence": {
+    "pixel-gate-1440": "OPEN: no row in the pixel table (prototypes-1440) — run gate-all.mjs --stage prototype so the page is measured",
+    "pixel-gate-360": "OPEN: no row in the pixel table (prototypes-360) — run gate-all.mjs --stage prototype so the page is measured",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /en/aws)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "module-flattened",
+      "source": "gridcontainer-runtime (section 1)",
+      "target": "hub-text",
+      "reason": "one-off source runtime without a hub block; content kept verbatim in order"
+    },
+    {
+      "kind": "module-flattened",
+      "source": "continuous-slider-runtime (section 5)",
+      "target": "hub-text",
+      "reason": "one-off source runtime without a hub block; content kept verbatim in order"
+    }
+  ],
+  "assetsBundled": 5,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/de/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/metaverse",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/prebuilt-ai-apps",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quality-engineering",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quantum-computing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/robotics-and-autonomous-things",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/strategy-and-business-model-transformation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/supply-chain-management",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-networks",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/retail-and-consumer-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-and-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-42",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-73",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-phi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/cyber-security-lab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-house-of-models",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-iot-labs-concept-quality",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/testautomationcentre",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/xchange",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/energy-and-emissions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/reply-to-the-earth",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/sustainable-supply-chain",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/continuous-learning",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/wellbeing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/inclusion-and-diversity",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/governance-system",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/governance-policies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/governance/our-commitment-to-ethical-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom?type=financial-news",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/reply-share-information",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-highlights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-calendar-and-events",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-reports",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/shareholders-meeting",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/loyalty-shares",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/news/reply-awarded-a-2025-aws-partner-of-the-year-award",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/aws/competencies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/aws/automotive",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/data-reply/en/demand-forecast-poc-in-a-box-from-amazon-and-reply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/spike-reply/en/security-for-your-AWS-environment",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/storm-reply/en/storm-innovator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/financial-services/airwalk-reply-financial-services-security-and-compliance-framework",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/aws/generative-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/concept-reply/en/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/concept-reply/en/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/concept-reply/en/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/data-reply/en/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/discovery-reply/en/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/discovery-reply/en/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/discovery-reply/en/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/sense-reply/en/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/storm-reply/en/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/next-gen-msp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/adr-ottimizza-la-gestione-intelligente-degli-asset-aeroportuali-con-ai-e-iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/from-a-fan-to-a-smart-energy-system",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/data-world/yougov-sport-modernises-sponsorship-analytics-on-aws",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/storm-reply/en/ai-powered-comment-management-for-social-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cx-and-digital-commerce/generali-country-italia-enhances-the-customer-experience-with-an-aws-based-contact-centre",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/adr-redesigns-the-airport-experience-with-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/storm-reply/en/mainstreet-partners-cloud-ready-for-the-future",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/storm-reply/en/foodlabs-edu-altrimodi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/events/genai-launchpad-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/events/aws-reinvent-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/events/unlocking-the-power-of-synthetic-audiences-round-2",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/events/aws-summit-zurich-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-candidate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-client",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-supplier",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-marketing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/modern-slavery-statement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contents/Reply_Company_Information_en.pdf",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "en/aws/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "en/aws/_meta.json",
+  "driverVersion": "1"
+}

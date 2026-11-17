@@ -1,0 +1,183 @@
+/* social-wall — embedded social feed carousel (Flockler carousel_v2, en-gaming), measured on the
+   live wall (fix-hub-i mev 2026-11-17): the wall is 421 px high with 70 px below it on the
+   #151f27 band; 300 px cells (padding 20 / 10) centred on the selected one and wrapping;
+   #222 card (radius 4): 64 px author row (36 px round avatar, 13 / 600 name, 12 px handle,
+   44 px white X badge), the 280 px square post picture, a 36 px footer (12 px age, clock and
+   out icons); 44 px rgba(255 255 255 / 10%) round buttons 10 px from the edges, 188 px down */
+.social-wall {
+  box-sizing: border-box;
+  padding-bottom: 70px;
+  background: #151f27;
+  color: #fff;
+}
+
+.social-wall .social-wall-skip,
+.social-wall .social-wall-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.social-wall .social-wall-inner {
+  position: relative;
+}
+
+.social-wall .social-wall-viewport {
+  height: 421px;
+  overflow: hidden;
+}
+
+.social-wall .social-wall-rail {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-wall .social-wall-card {
+  box-sizing: border-box;
+  flex: 0 0 300px;
+  padding: 20px 10px;
+}
+
+.social-wall .social-wall-post {
+  overflow: hidden;
+  border-radius: 4px;
+  background: #222;
+  font-family: var(--font-body);
+}
+
+.social-wall .social-wall-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  padding: 0 16px;
+}
+
+.social-wall a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.social-wall .social-wall-profile {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+}
+
+.social-wall .social-wall-avatar {
+  flex: 0 0 36px;
+  width: 36px;
+  height: 36px;
+  margin-right: 8px;
+  overflow: hidden;
+  border-radius: 100%;
+  background: #8080801a;
+}
+
+.social-wall .social-wall-avatar img {
+  display: block;
+  width: 36px;
+  height: 36px;
+}
+
+.social-wall .social-wall-details {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.social-wall .social-wall-name {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15.6px;
+}
+
+.social-wall .social-wall-handle {
+  margin-top: 2px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+}
+
+.social-wall .social-wall-badge {
+  display: flex;
+  flex: 0 0 44px;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #fff;
+  color: #000;
+}
+
+.social-wall .social-wall-media,
+.social-wall .social-wall-media picture {
+  display: block;
+  width: 280px;
+  height: 280px;
+}
+
+.social-wall .social-wall-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.social-wall .social-wall-footer {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  padding: 0 12px;
+  font-size: 12px;
+  line-height: 14.4px;
+}
+
+.social-wall .social-wall-source {
+  display: flex;
+  align-items: center;
+}
+
+.social-wall .social-wall-source svg:first-child {
+  margin-right: 3px;
+}
+
+.social-wall .social-wall-age {
+  padding-left: 0;
+}
+
+.social-wall .social-wall-source svg:last-child {
+  margin-left: 6px;
+}
+
+.social-wall .round-bt {
+  display: flex;
+  position: absolute;
+  top: 188px;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #ffffff1a;
+  color: #fff;
+  cursor: pointer;
+}
+
+.social-wall .social-wall-prev {
+  left: 10px;
+}
+
+.social-wall .social-wall-next {
+  right: 10px;
+}

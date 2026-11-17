@@ -1,0 +1,22 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.reply.com/4brands-reply/de/rotkaeppchen-mumm-sektkellereien
+  build: http://localhost:8791/4brands-reply-de-rotkaeppchen-mumm-sektkellereien-proposed.html
+
+■ header: 4 delta(s) — 5 paired of 5/5 texts, 3/3 icons
+  PAIR         "DE"  Δx -3px (1339→1336); Δw +3px (17→20); <button> box 37×17 → 40×17
+  PAIR         "Knowledge"  Δw -2px (83→81); <button> box 83×64 → 81×64
+  PAIR         "Kontakt"  Δw -3px (60→57); <a> box 60×64 → 57×64
+  PAIR         "Karriere"  Δx -5px (692→687); Δw -2px (59→57); <a> box 59×64 → 57×64
+
+■ footer: 9 delta(s) — 16 paired of 16/17 texts, 4/5 icons
+  PAIR         "Impressum"  Δw -2px (104→102); <a> box 179×48 → 177×48
+  PAIR         "Datenschutzhinweis"  Δw -2px (194→192)
+  PAIR         "(Bewerber)"  Δx -2px (828→826); <a> box 194×17 → 192×17
+  PAIR         "(Kunden)"  Δx -2px (828→826)
+  PAIR         "Datenschutzhinweis"  Δw -3px (197→194)
+  PAIR         "(Marketing)"  Δx -3px (1063→1060); <a> box 197×17 → 194×17
+  PAIR         "Accessibility Statement"  letterSpacing normal → 0.12px
+  EXTRA        "Imprint"  build <span> "Imprint" has no live source
+  ICONS        4 live vs 5 build (svg/img) — harvest the live vectors verbatim (recreation-procedure.md § Asset harvest), never approximate
+
+✗ 13 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

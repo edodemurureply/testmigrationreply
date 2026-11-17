@@ -1,0 +1,22 @@
+[live-session] waiting to pace live navigations to www.reply.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.reply.com/4brands-reply/de/customer-experience-management
+  build: http://localhost:8791/4brands-reply-de-customer-experience-management-proposed.html
+
+■ header: ✓ parity — 0 paired of 0/0 texts, 2/2 icons
+
+■ footer: 11 delta(s) — 16 paired of 16/16 texts, 4/4 icons
+  OFFSET       the region and its 5 paired text(s) sit Δy -46px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+  PAIR         "Impressum"  Δy -46px (6002→5956); Δw -2px (104→102)
+  PAIR         "Datenschutzhinweis"  Δy -45px (6204→6159); Δw -2px (194→192)
+  PAIR         "(Bewerber)"  Δx -2px (168→166); Δy -45px (6205→6160); <a> box 194×17 → 192×17
+  PAIR         "(Kunden)"  Δx -2px (168→166); Δy -45px (6242→6197)
+  PAIR         "Datenschutzhinweis"  Δy -46px (6278→6232); Δw -2px (211→209)
+  PAIR         "(Dienstleister)"  Δx -2px (168→166); Δy -46px (6279→6233); <a> box 211×17 → 209×17
+  PAIR         "Datenschutzhinweis"  Δy -45px (6314→6269); Δw -3px (197→194)
+  PAIR         "(Marketing)"  Δx -2px (168→166); Δy -45px (6315→6270); <a> box 197×17 → 194×17
+  PAIR         "Grundsatzerklärung - LKSG"  Δy -45px (6351→6306); Δw +3px (255→258)
+  PAIR         "(Deutschland)"  Δx +2px (210→212); Δy -45px (6352→6307); <a> box 255×17 → 258×17
+  PAIR         "Accessibility Statement"  letterSpacing normal → 0.12px; Δy -45px (6388→6343)
+
+✗ 11 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

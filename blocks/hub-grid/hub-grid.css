@@ -1,0 +1,275 @@
+/* hub-grid — hub page-builder section on the 4 / 12-col grid with measured cell and node geometry
+   (values set per node by hub-grid.js from the block's tokens). */
+.hub-grid {
+  padding-bottom: var(--hg-bm, 0);
+  background-color: var(--hg-bgm, transparent);
+  background-image: var(--hg-gdm, none);
+  color: var(--c-ink);
+}
+
+.hub-grid .hub-grid-grid {
+  grid-auto-flow: row;
+  align-items: start;
+  row-gap: 0;
+}
+
+.hub-grid .hub-grid-cell {
+  position: relative;
+  display: var(--m-show, block);
+  grid-row: var(--m-row, auto);
+  grid-column: var(--m-col, 1 / -1);
+  min-width: 0;
+  margin-top: var(--m-mt, 0);
+  padding-bottom: var(--m-pb, 0);
+}
+
+.hub-grid .hub-grid-card {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: var(--m-kx, 0);
+  width: var(--m-kw, 100%);
+  border: var(--k-border, none);
+  border-radius: var(--k-radius, 0);
+  background: var(--k-bg, transparent);
+  box-shadow: var(--k-shadow, none);
+}
+
+.hub-grid .hub-grid-node {
+  position: relative;
+  display: var(--m-show, block);
+  box-sizing: border-box;
+  width: var(--m-w, 100%);
+  max-width: none;
+  margin: var(--m-mt, 0) 0 0 var(--m-x, 0);
+  padding: 0;
+  color: var(--a-color, inherit);
+  font-family: var(--a-ff, var(--font-text));
+  font-size: var(--m-fs, 16px);
+  font-weight: var(--a-fw, 300);
+  line-height: var(--m-lh, 1.7);
+  letter-spacing: var(--d-ls, var(--a-ls, normal));
+  text-align: var(--m-al, left);
+  text-transform: var(--a-tt, none);
+  overflow-wrap: break-word;
+
+  /* source ProseMirror text: break-spaces (a line-end space keeps its width), no ligatures */
+  white-space: break-spaces;
+  font-variant-ligatures: none;
+}
+
+.hub-grid .hub-grid-node :is(strong, b) {
+  font-weight: 700;
+}
+
+.hub-grid .hub-grid-node a:not(.button) {
+  color: inherit;
+}
+
+.hub-grid :is(ul, ol).hub-grid-node {
+  padding-left: 20px;
+  white-space: normal;
+}
+
+.hub-grid :is(ul, ol).hub-grid-node li {
+  margin: 0;
+  white-space: break-spaces;
+}
+
+.hub-grid .hub-grid-btn {
+  width: auto;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.hub-grid .hub-grid-pic {
+  overflow: hidden;
+  aspect-ratio: var(--m-ar, auto);
+
+  /* (fix-hub-f) the served markup indents <picture> / <source> / <img>: under the node's
+     break-spaces those indents became blank lines that pushed the image out of its box */
+  white-space: normal;
+}
+
+.hub-grid .hub-grid-pic picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.hub-grid .hub-grid-pic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: var(--a-fit, cover);
+  object-position: var(--a-pos, 50% 50%);
+}
+
+.hub-grid .hub-grid-pic.placed img {
+  position: absolute;
+  top: var(--m-iy, 0);
+  left: var(--m-ix, 0);
+  width: var(--m-iw, 100%);
+  max-width: none;
+  height: auto;
+}
+
+/* the source picture's < 768 crop (second authored picture) */
+.hub-grid .hub-grid-pic picture.hub-grid-pic-m {
+  display: none;
+}
+
+@media (width < 768px) {
+  .hub-grid .hub-grid-pic picture.hub-grid-pic-d {
+    display: none;
+  }
+
+  .hub-grid .hub-grid-pic picture.hub-grid-pic-m {
+    display: block;
+  }
+}
+
+@media (width < 1024px) {
+  .hub-grid .hub-grid-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (width >= 1024px) {
+  .hub-grid {
+    padding-bottom: var(--hg-b, 0);
+    background-color: var(--hg-bg, transparent);
+    background-image: var(--hg-gd, none);
+  }
+
+  .hub-grid .hub-grid-cell {
+    display: var(--d-show, block);
+    grid-row: var(--d-row, auto);
+    grid-column: var(--d-col, 1 / -1);
+    margin-top: var(--d-mt, 0);
+    padding-bottom: var(--d-pb, 0);
+  }
+
+  .hub-grid .hub-grid-card {
+    left: var(--d-kx, 0);
+    width: var(--d-kw, 100%);
+  }
+
+  .hub-grid .hub-grid-node {
+    display: var(--d-show, block);
+    width: var(--d-w, 100%);
+    margin: var(--d-mt, 0) 0 0 var(--d-x, 0);
+    font-size: var(--d-fs, 16px);
+    line-height: var(--d-lh, 1.7);
+    text-align: var(--d-al, left);
+  }
+
+  .hub-grid .hub-grid-btn {
+    width: auto;
+  }
+
+  .hub-grid .hub-grid-pic {
+    aspect-ratio: var(--d-ar, auto);
+  }
+
+  .hub-grid .hub-grid-pic.placed img {
+    top: var(--d-iy, 0);
+    left: var(--d-ix, 0);
+    width: var(--d-iw, 100%);
+  }
+}
+
+.hub-grid .hub-grid-pic::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--a-tint, transparent);
+  pointer-events: none;
+}
+
+/* calendar box button (fix-hub-f, en-investors calendarbox square-bt): 44 px accent square at the
+   cell's right edge, level with the title (--*-ik = cell / node width, from the node tokens);
+   acc-<hex> = the page's primary-color-50 */
+.hub-grid .hub-grid-ics {
+  position: absolute;
+  top: 0;
+  left: calc(100% * var(--m-ik, 1) - 44px);
+  width: 44px;
+  height: 44px;
+  border-radius: 4px;
+  background: var(--hg-acc, #8d99a5) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='%23fff' stroke-width='1.5'%3E%3Crect x='3' y='4' width='14' height='13' rx='1'/%3E%3Cpath d='M3 8h14M7 2v4M13 2v4'/%3E%3C/svg%3E") center / 20px no-repeat;
+}
+
+@media (width >= 1024px) {
+  .hub-grid .hub-grid-ics {
+    left: calc(100% * var(--d-ik, 1) - 44px);
+  }
+}
+
+/* boxlink (fix-hub-f): the whole card cell is the file-box anchor */
+.hub-grid .hub-grid-boxlink {
+  position: relative;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* l<n>-<k>-<lines> (fix-hub-f): the source text's line clamp from 768 (card abstracts) */
+@media (width >= 768px) {
+  .hub-grid .hub-grid-clamp {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--hg-clamp);
+  }
+}
+
+/* (fix-hub-f) a text button on the dark ink band is white (live: white label, white rule) */
+.hub-grid[class*="bg-151f27"] .hub-grid-btn .button.secondary,
+.hub-grid .hub-grid-inv .hub-grid-btn .button.secondary {
+  --c-ink: #fff;
+}
+
+/* (fix-hub-f) sm<n>-<k>-<‰em>: a text node's own tracking below 1024; a form-trigger button
+   keeps its label on one line (live button white-space nowrap) */
+@media (width < 1024px) {
+  .hub-grid .hub-grid-node {
+    letter-spacing: var(--m-ls, var(--a-ls, normal));
+  }
+}
+
+.hub-grid .hub-grid-btn button.button {
+  white-space: nowrap;
+}
+
+/* (fix-hub-j) lm<n>-<k>-<lines>: a text node's line clamp below 768; fm<n>-<k>: a placed picture
+   fills its box below 1024 (en-environment "Reply to the Earth" card: live 280 x 420 cover) */
+@media (width < 768px) {
+  .hub-grid .hub-grid-clampm {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--hg-clampm);
+  }
+
+  .hub-grid .hub-grid-nowrapm {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (width < 1024px) {
+  .hub-grid .hub-grid-pic.placed.hub-grid-fitm img {
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* (fix-hub-i) a filled button on the dark ink band is the live filled-on-dark button (#ffffff1f
+   fill, white label; en/gaming "Go to website"), not the ink fill that vanishes on the band */
+.hub-grid[class*="bg-151f27"] .hub-grid-btn .button.primary {
+  background: #ffffff1f;
+}

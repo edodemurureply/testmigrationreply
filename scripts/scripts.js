@@ -160,8 +160,14 @@ export function decorateMain(main) {
  * @param {Element} doc The container element
  */
 async function loadEager(doc) {
-  document.documentElement.lang = 'en';
+  import('./martech.js').then((m) => m.loadConsent());
+  const segs = window.location.pathname.split('/').filter(Boolean);
+  const brand4b = segs[0] === '4brands-reply';
+  const locale = brand4b ? segs[1] : segs[0];
+  document.documentElement.lang = ['de', 'en', 'fr', 'it', 'pt'].includes(locale) ? locale : 'en';
   decorateTemplateAndTheme();
+  // 4brands Reply minisite chrome + tokens (also settable per page with `theme: brand-4b`)
+  if (brand4b) document.body.classList.add('brand-4b');
   const main = doc.querySelector('main');
   if (main) {
     decorateMain(main);

@@ -1,0 +1,87 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de",
+ "at": "2026-11-17T01:23:58.043Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 3,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 4,
+  "offPage": 104,
+  "textNodes": 158,
+  "controls": 81,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 2,
+   "clipper": "p",
+   "path": "div.b4-highlight.block > aside.b4-highlight-card > div.b4-highlight-title > p",
+   "text": "rotkäppchen-mumm: vertrieb & retail execution",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.card-carousel.scale",
+   "path": "ul.card-carousel-track > li.card-carousel-item.is-clone > div.reply-card.reply-card-slider > a.reply-card-cover",
+   "text": "optimierung der konsumgüterlogistik durch drohnenbest practi",
+   "cutMin": 264,
+   "cutMax": 264
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.b4-stats.block",
+   "path": "li.b4-rail-item > div.b4-stat > div.b4-stat-label > p",
+   "text": "abgeschlossene projekte",
+   "cutMin": 255,
+   "cutMax": 255
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h3#rotkäppchen-mumm-steuert-vertrieb-und-retail-execution-aus-einer-plattform",
+   "path": "div.reply-card-body > a.reply-card-link > div.reply-card-title > h3#rotkäppchen-mumm-steuert-vertrieb-und-retail-execution-aus-einer-plattform",
+   "text": "rotkäppchen-mumm steuert vertrieb und retail execution aus e",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.reply-card-image-container",
+   "path": "li.card-carousel-item > div.reply-card > div.reply-card-image-container > a.reply-card-hero-link",
+   "text": "",
+   "cutMin": 260,
+   "cutMax": 260
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 1,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 3,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 4,
+   "offPage": 104,
+   "textNodes": 161,
+   "controls": 90,
+   "total": 1
+  }
+ }
+}

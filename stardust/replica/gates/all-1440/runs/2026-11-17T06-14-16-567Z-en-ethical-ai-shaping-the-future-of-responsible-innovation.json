@@ -1,0 +1,101 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-17T06:14:16.566Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.reply.com",
+    "eds": "https://main--a355dc1b--aemcoder.aem.page",
+    "edsHostOverride": "https://main--a355dc1b--aemcoder.aem.page",
+    "only": [
+      "en-ethical-ai-shaping-the-future-of-responsible-innovation"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 1,
+    "overridePass": 1,
+    "fail": 1,
+    "error": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 1,
+    "failUnits": 0,
+    "fontsNotLoaded": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 1
+  },
+  "rows": [
+    {
+      "slug": "en-ethical-ai-shaping-the-future-of-responsible-innovation",
+      "path": "/en/ethical-ai-shaping-the-future-of-responsible-innovation",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 8.92,
+      "textPct": 8.78,
+      "heightDelta": 4,
+      "originH": 7687,
+      "edsH": 7683,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "content MISSING 1 / HIDDEN 0"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 1,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 4,
+        "hiddenButtons": 0,
+        "findings": 16,
+        "variable": []
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "timing",
+        "reason": "content MISSING 1 = autoplay rail phase only: the collaborate flip-tile rail (live cardcarousel-runtime data-carousel-type reply-card-slider-simple, data-infinite true, data-carousel-autoplay true; captured at style --slide: 3 / translateX(-676px), current/pages html) shows the cyclic clone order DW2, DW3, Accompanying topics, Quarterly meetings, so origin.items carry h3 \"accompanying topics\" at y 4190; the served rail holds the same 7 tiles in the same order (Quarterly meetings … Accompanying topics, 298 px tiles 40 px apart from x 64) resting at slide 0, so Accompanying topics is the 7th tile beyond the rail edge. Pixel 8.92 % and Δh +4 pass; no heading is absent from the DOM (fix-editorial-4, 2026-11-17)"
+      },
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [
+        "1000-1500:29%",
+        "6500-7000:31.5%"
+      ],
+      "error": null
+    }
+  ]
+}

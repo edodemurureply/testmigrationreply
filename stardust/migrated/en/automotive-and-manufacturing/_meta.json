@@ -1,0 +1,470 @@
+{
+  "slug": "en-automotive-and-manufacturing",
+  "type": "hub",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "media-hero",
+    "card-carousel",
+    "statement",
+    "slider-with-title",
+    "section-heading",
+    "cards-wall",
+    "labs",
+    "logo-wall"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "media-hero",
+    "card-carousel",
+    "statement",
+    "slider-with-title",
+    "section-heading",
+    "cards-wall",
+    "section-heading",
+    "labs",
+    "logo-wall",
+    "section-heading",
+    "card-carousel"
+  ],
+  "canonShas": {
+    "header": "0e3dd8f46a67",
+    "footer": "32c44b5b195c",
+    "css": "5bf5dffd7509"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Solutions for the Automotive sector | Reply",
+    "description": "Discover Reply&#x27;s experience in the implementation of digital and innovative solutions for its customers in the automotive sector.",
+    "canonical": "https://www.reply.com/en/automotive-and-manufacturing",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Solutions for the Automotive sector | Reply",
+    "description": "Discover Reply&#x27;s experience in the implementation of digital and innovative solutions for its customers in the automotive sector.",
+    "url": "https://www.reply.com/en/automotive-and-manufacturing"
+  },
+  "migratedAt": "2026-11-15T22:22:51Z",
+  "designMdSha": "d809c0215087",
+  "designJsonSha": "bdcb89ad7bf4",
+  "sourceCurrentSha": "f2d1c88957d9",
+  "sourceProposedSha": "bd212a61595e",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [
+    "card-carousel--awards card-carousel--b-0 card-carousel--b-19 card-carousel--bm-0 card-carousel--bm-78 card-carousel--featured card-carousel--horizontal card-carousel--t-120 card-carousel--t-255 card-carousel--tm-253 card-carousel--tm-96 hub-text--b-127 hub-text--bm-170 hub-text--mixed hub-text--t-96 hub-text--tm-80 section-heading--t-64 section-heading--tm-40 section-heading--w-6 slider-with-title--autoplay slider-with-title--icons slider-with-title--infinite statement--hub",
+    "card-carousel--awards card-carousel--b-0 card-carousel--bm-0 card-carousel--featured card-carousel--horizontal card-carousel--t-120 card-carousel--tm-96 logo-wall--b-95 logo-wall--bm-126 logo-wall--ice logo-wall--t-96 logo-wall--tm-80 section-heading--t-64 section-heading--tm-40 section-heading--w-6 slider-with-title--autoplay slider-with-title--icons slider-with-title--infinite statement--hub"
+  ],
+  "gatesPassed": [
+    "delivery-lint"
+  ],
+  "gateEvidence": {
+    "pixel-gate-1440": "OPEN: no row in the pixel table (prototypes-1440) — run gate-all.mjs --stage prototype so the page is measured",
+    "pixel-gate-360": "OPEN: no row in the pixel table (prototypes-360) — run gate-all.mjs --stage prototype so the page is measured",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /en/automotive-and-manufacturing)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "module-flattened",
+      "source": "logo-wall-runtime (section 8)",
+      "target": "hub-text",
+      "reason": "one-off source runtime without a hub block; content kept verbatim in order"
+    }
+  ],
+  "assetsBundled": 5,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/de/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/metaverse",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/prebuilt-ai-apps",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quality-engineering",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quantum-computing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/robotics-and-autonomous-things",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/strategy-and-business-model-transformation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/supply-chain-management",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-networks",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/retail-and-consumer-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-and-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-42",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-73",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-phi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/cyber-security-lab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-house-of-models",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-iot-labs-concept-quality",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/testautomationcentre",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/xchange",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/energy-and-emissions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/reply-to-the-earth",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/sustainable-supply-chain",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/continuous-learning",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/wellbeing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/inclusion-and-diversity",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/governance-system",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/governance-policies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/governance/our-commitment-to-ethical-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom?type=financial-news",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/reply-share-information",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-highlights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-calendar-and-events",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-reports",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/shareholders-meeting",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/loyalty-shares",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/internet-of-things/iveco-accelerates-the-digital-transformation-with-industrial-iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quality-engineering/validation-and-synthetic-data-for-next-gen-in-cabin-monitoring-systems",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/data-world/michelin-production-lines-with-predictive-monitoring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/smart-mobility-lab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/automotive-and-manufacturing/stellantis-accelerates-the-transformation-of-vehicle-logistics",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/adr-ottimizza-la-gestione-intelligente-degli-asset-aeroportuali-con-ai-e-iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/ai-powered-software-engineering/how-audi-is-redefining-software-development",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/resolve-it-incidents-with-multi-agent-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/the-power-of-digital-twins-and-edge-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/governance-risk-and-compliance/iveco-group-introduces-a-structured-governance-framework-for-responsible-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/automotive-and-manufacturing/a-new-model-of-manufacturing-digital-and-sustainable",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/bmw-promotes-co2-optimised-charging",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/devbot-audis-intelligent-multi-agent-system",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/a-more-efficient-cloud-for-toyota-thanks-to-finops",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/concept-reply/en/smart-carwash-operations",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/lea-reply/en/homepage",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/news/reply-named-a-visionary-in-the-2022-gartner-magic-quadrant-for-warehouse-management-systems",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/news/fraunhofer-iml-validates-lea-reply-2022",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/news/roboverse-reply-wins-aira-challenge-2022-with-spot-from-boston-dynamics",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/lea-reply/en/content/reply-identified-in-2021-gartner-critical-capabilities-for-wms",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-candidate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-client",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-supplier",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-marketing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/modern-slavery-statement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contents/Reply_Company_Information_en.pdf",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "en/automotive-and-manufacturing/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "en/automotive-and-manufacturing/_meta.json",
+  "driverVersion": "1"
+}

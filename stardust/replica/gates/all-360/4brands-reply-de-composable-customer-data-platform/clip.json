@@ -1,0 +1,87 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.page/4brands-reply/de/composable-customer-data-platform",
+ "at": "2026-11-17T02:35:47.752Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 1,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 6,
+  "offPage": 61,
+  "textNodes": 101,
+  "controls": 27,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.b4-slider-viewport",
+   "path": "li.b4-slider-item > div.b4-slider-card > div.b4-slider-body > p",
+   "text": "api-basierte integration mit crm, kampagnenmanagement, ciam ",
+   "cutMin": 250,
+   "cutMax": 255
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.card-carousel.simple",
+   "path": "ul.card-carousel-track > li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+   "text": "bitburger schafft ein einzigartiges und personalisiertes mar",
+   "cutMin": 103,
+   "cutMax": 121
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h3#bitburger-schafft-ein-einzigartiges-und-personalisiertes-markenerlebnis",
+   "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#bitburger-schafft-ein-einzigartiges-und-personalisiertes-markenerlebnis",
+   "text": "bitburger schafft ein einzigartiges und personalisiertes mar",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.reply-card-image-container",
+   "path": "div.reply-card-body > div.category-label > div.category-name > p",
+   "text": "case study",
+   "cutMin": 56,
+   "cutMax": 56
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h3#customer--consumer-engagement",
+   "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#customer--consumer-engagement",
+   "text": "customer & consumer engagement",
+   "cutMin": 87,
+   "cutMax": 87
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 1,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 4,
+   "offPage": 35,
+   "textNodes": 72,
+   "controls": 24,
+   "total": 0
+  }
+ }
+}

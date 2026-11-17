@@ -1,0 +1,227 @@
+/* b4-stats — key figures on the b4 rail: lifted from stardust/prototypes/brand.css (b4-rail, b4-stat)
+   + 4brands-reply-en.css § 4 (.yzgejaidir margin 56 / 56, 90 / 120 @1440). Figure = t-title in the
+   brand colour, centred; spacer 24; label = t-lead centred. */
+.b4-stats {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 56px 0;
+  overflow: hidden;
+}
+
+/* b4 rail skeleton (modules.css card-carousel + loop-carousel --simple, brand.css b4-rail):
+   left-aligned rail, content-box padding-left 40 / 64, item 100%-80 / 3 cols @768 / 4 cols @1024 /
+   3 cols @1440; arrows (round-bt--filled-on-dark) on the 12-col grid >= 1024; .all-displayed centres
+   the track and drops padding + arrows. */
+.b4-stats .b4-rail-inner {
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: visible;
+}
+
+.b4-stats .b4-rail-viewport {
+  max-width: 1660px;
+  margin: 0 auto;
+  touch-action: pan-y;
+  user-select: none;
+}
+
+.b4-stats .b4-rail-track {
+  --gutter: 1.5rem;
+  --item-width: calc(100% - 80px);
+  --padding-left: 40px;
+
+  position: relative;
+  display: flex;
+  box-sizing: content-box;
+  width: 100%;
+  margin: 0;
+  padding: 0 0 0 var(--padding-left);
+  column-gap: var(--gutter);
+  list-style: none;
+  transition: transform 1s ease-in-out;
+}
+
+.b4-stats.all-displayed .b4-rail-track {
+  justify-content: center;
+  padding-left: 0;
+  transform: none !important;
+}
+
+.b4-stats .b4-rail-item {
+  position: relative;
+  display: flex;
+  flex: 0 0 var(--item-width);
+  min-width: 0;
+  max-width: var(--item-width);
+}
+
+.b4-stats .b4-rail-controls {
+  display: none;
+  pointer-events: none;
+}
+
+.b4-stats.all-displayed .b4-rail-controls {
+  display: none !important;
+}
+
+.b4-stats .round-bt {
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  padding: 1px 6px;
+  border: 0;
+  border-radius: 50%;
+  background-color: #ffffff1a;
+  backdrop-filter: blur(2.125rem);
+  color: #fff;
+  pointer-events: auto;
+  transition: background 0.3s cubic-bezier(0.09, 0.72, 0.76, 1.01);
+}
+
+.b4-stats .round-bt::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  pointer-events: none;
+  background: var(--brand-color);
+  opacity: 0;
+  transform: scale(0);
+  transition: transform 0.4s cubic-bezier(0.09, 0.72, 0.76, 1.01), opacity 0.3s cubic-bezier(0.09, 0.72, 0.76, 1.01);
+}
+
+.b4-stats .round-bt svg {
+  position: relative;
+  z-index: 1;
+}
+
+.b4-stats .round-bt:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.b4-stats .round-bt:hover:not(:disabled) {
+  color: var(--text-on-brand-color);
+}
+
+.b4-stats .round-bt:hover:not(:disabled)::after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+@media (width >= 768px) {
+  .b4-stats .b4-rail-track {
+    --col-width: calc((100% - 128px - 280px) / 8);
+    --item-width: calc(var(--col-width) * 3 + 80px);
+    --gutter: 40px;
+    --padding-left: 64px;
+  }
+}
+
+@media (width >= 1024px) {
+  .b4-stats .b4-rail-track {
+    --col-width: calc((100% - 128px - 440px) / 12);
+    --item-width: calc(var(--col-width) * 4 + 120px);
+  }
+
+  .b4-stats .b4-rail-controls {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: 40px;
+    width: 100%;
+    max-width: 1660px;
+    height: 3rem;
+    margin: 0 auto;
+    padding: 0 64px;
+    transform: translate(-50%, -50%);
+  }
+
+  .b4-stats .b4-rail-prev {
+    grid-column: 1 / 1;
+    justify-self: flex-end;
+  }
+
+  .b4-stats .b4-rail-next {
+    grid-column: 12 / 12;
+    justify-self: flex-start;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-stats .b4-rail-track {
+    --item-width: calc(var(--col-width) * 3 + 80px);
+  }
+}
+
+.b4-stats .b4-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.b4-stats .b4-stat-value,
+.b4-stats .b4-stat-label {
+  width: 100%;
+}
+
+.b4-stats .b4-stat p {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.b4-stats .b4-stat-value p {
+  color: var(--brand-color);
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.b4-stats .b4-spacer {
+  flex: none;
+  width: 100%;
+  height: 24px;
+}
+
+.b4-stats .b4-stat-label p {
+  color: var(--c-ink);
+  font-family: var(--font-lead);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+@media (width >= 768px) {
+  .b4-stats .b4-stat-value p {
+    font-size: 36px;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-stats {
+    margin: 90px 0 120px;
+  }
+
+  .b4-stats .b4-stat-value p {
+    font-size: 42px;
+  }
+
+  .b4-stats .b4-stat-label p {
+    font-size: 24px;
+  }
+}

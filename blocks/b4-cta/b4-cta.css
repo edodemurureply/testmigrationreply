@@ -1,0 +1,369 @@
+/* b4-cta — 4brands call-to-action band: centred text (cols 1-4 / 1-8 / 3-10) + buttons;
+   padding 48 / 56 / 64 / 96. Banner variant: dark rounded panel (ROSE banner). */
+.b4-cta {
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--c-ink);
+}
+
+.b4-cta.dark {
+  background-color: #151f27;
+  color: #fff;
+}
+
+.b4-cta.ice {
+  background-color: var(--c-ice);
+}
+
+.b4-cta .b4-cta-grid {
+  flex: 1 1 100%;
+  margin: 0;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.b4-cta .b4-cta-cell {
+  grid-column: 1 / 5;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 32px;
+  text-align: center;
+}
+
+.b4-cta .b4-cta-btn p,
+.b4-cta .b4-cta-link p {
+  margin: 0;
+}
+
+.b4-cta .b4-cta-text :is(h1, h2, h3, h4) {
+  margin: 0 0 16px;
+  color: inherit;
+  font-family: var(--font-lead);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.b4-cta .b4-cta-text p {
+  margin: 0 0 16px;
+  color: inherit;
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.b4-cta .b4-cta-text p:only-child,
+.b4-cta .b4-cta-text p:first-child:not(:last-child) {
+  font-family: var(--font-display);
+  font-size: 24px;
+  line-height: 130%;
+}
+
+.b4-cta .b4-cta-text :is(em, strong) {
+  color: var(--brand-color);
+  font-style: normal;
+  font-weight: inherit;
+}
+
+.b4-cta .b4-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.b4-cta .b4-cta-btn,
+.b4-cta .b4-cta-link a.button:any-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 14px 24px;
+  border: 0;
+  border-radius: 4px;
+  background: var(--brand-color);
+  color: #fff;
+  font-family: var(--font-label);
+  font-size: 0.875rem;
+  line-height: 1.4;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.b4-cta .b4-cta-btn :is(strong, b) {
+  font-weight: inherit;
+}
+
+.b4-cta .b4-cta-logo img {
+  width: auto;
+  height: 48px;
+}
+
+.b4-cta.banner .b4-cta-cell {
+  padding: 48px 24px;
+  border-radius: 6px;
+  background: #151f27;
+  color: #fff;
+}
+
+.b4-cta .b4-modal {
+  width: min(100% - 2.5rem, 720px);
+  max-height: calc(100% - 2.5rem);
+  padding: 3rem 2rem 2rem;
+  border: 0;
+  border-radius: 6px;
+  background: #fff;
+  color: var(--c-ink);
+}
+
+.b4-cta .b4-modal::backdrop {
+  background: #151f27b3;
+}
+
+.b4-cta .b4-modal-dismiss {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+.b4-cta .b4-modal-dismiss::before,
+.b4-cta .b4-modal-dismiss::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  width: 70%;
+  height: 2px;
+  background: var(--c-ink);
+  transform: rotate(45deg);
+}
+
+.b4-cta .b4-modal-dismiss::after {
+  transform: rotate(-45deg);
+}
+
+@media (width >= 768px) {
+  .b4-cta .b4-cta-grid {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  .b4-cta .b4-cta-cell {
+    grid-column: 1 / 9;
+  }
+}
+
+@media (width >= 1024px) {
+  .b4-cta .b4-cta-grid {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .b4-cta .b4-cta-cell {
+    grid-column: 3 / 11;
+  }
+
+  .b4-cta.banner .b4-cta-cell {
+    grid-column: 2 / 12;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-cta .b4-cta-grid {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .b4-cta .b4-cta-text p:only-child,
+  .b4-cta .b4-cta-text p:first-child:not(:last-child) {
+    font-size: 28px;
+  }
+}
+
+/* fix round 1 (cluster-brand-solution gate): the cell is a column flexbox on the shared .r-cell
+   (wrap + basis 100%), which wrapped the actions into a second column — keep one column; dark band
+   buttons are white with ink text (source btn-white); @1440 the band pads 120 and the lead line is
+   the 42 px display statement (130 %, 32 px below). */
+.b4-cta .b4-cta-cell > * {
+  flex-basis: auto;
+}
+
+.b4-cta.dark .b4-cta-btn,
+.b4-cta.dark .b4-cta-link a.button:any-link {
+  background: #fff;
+  color: var(--c-ink);
+}
+
+@media (width >= 1440px) {
+  .b4-cta:not(.banner) .b4-cta-grid {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .b4-cta:not(.banner) .b4-cta-text p:only-child,
+  .b4-cta:not(.banner) .b4-cta-text p:first-child:not(:last-child) {
+    margin-bottom: 32px;
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 130%;
+  }
+}
+
+/* variant download (fix-brand-solution): the form button of a download form carries the
+   icon-c-snl4 glyph after its label (as the b4-hero download button). */
+.b4-cta.download .b4-cta-btn {
+  column-gap: 10px;
+}
+
+.b4-cta.download .b4-cta-btn::after {
+  content: "\ec5a";
+  font-family: "Website Icons", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+
+@media (width >= 1440px) {
+  .b4-cta.download .b4-cta-btn {
+    column-gap: 11px;
+  }
+
+  .b4-cta.download .b4-cta-btn::after {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+/* fix-brand-solution-2 (download CTA sections, measured on the source page builder): grid margin 28
+   + padding 48 / 56 / 64 / 96; lead line text-c0k7h (display 28 / 36 / 42, 120 %) then a 24 / 42
+   spacer, body copy text-vgevi (16 / 170 %), then a 30 / 36 spacer above the button. */
+.b4-cta.download .b4-cta-grid {
+  margin: 28px 0;
+}
+
+.b4-cta.download .b4-cta-cell {
+  gap: 30px;
+}
+
+.b4-cta.download .b4-cta-text p:not(:only-child) {
+  line-height: 170%;
+}
+
+.b4-cta.download .b4-cta-text > :last-child {
+  margin-bottom: 0;
+}
+
+.b4-cta.download .b4-cta-text p:only-child,
+.b4-cta.download .b4-cta-text p:first-child:not(:last-child) {
+  margin-bottom: 24px;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 120%;
+}
+
+@media (width >= 768px) {
+  .b4-cta.download .b4-cta-text p:only-child,
+  .b4-cta.download .b4-cta-text p:first-child:not(:last-child) {
+    font-size: 36px;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-cta.download.download .b4-cta-grid {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .b4-cta.download .b4-cta-cell {
+    gap: 36px;
+  }
+
+  .b4-cta.download.download .b4-cta-text p:only-child,
+  .b4-cta.download.download .b4-cta-text p:first-child:not(:last-child) {
+    margin-bottom: 42px;
+    font-size: 42px;
+    line-height: 120%;
+  }
+
+  /* fix-brand-solution-4 (SAC trainings): a lead line with no body copy under it has no spacer —
+     the 36 px cell gap alone sits above the button (live 36, was 42 + 36) */
+  /* stylelint-disable-next-line no-descending-specificity */
+  .b4-cta.download.download .b4-cta-text p:only-child {
+    margin-bottom: 0;
+  }
+}
+
+/* ls-<n> (fix-brand-solution-3, as fix-small-2): R-02 wrap compensation below 768 — one tracking
+   (n / 1000 em; 7 = .0075, 12 = .0125, 17 = .0175, 22 = .0225) on every text line of the block,
+   fitted per block against the live line breaks @360 (.work/rollout/fix-brand-solution-3/wrap.mjs) */
+@media (width < 768px) {
+  .b4-cta.ls-5 { --ls-v: 0.005em; }
+  .b4-cta.ls-7 { --ls-v: 0.0075em; }
+  .b4-cta.ls-10 { --ls-v: 0.01em; }
+  .b4-cta.ls-12 { --ls-v: 0.0125em; }
+  .b4-cta.ls-15 { --ls-v: 0.015em; }
+  .b4-cta.ls-17 { --ls-v: 0.0175em; }
+  .b4-cta.ls-20 { --ls-v: 0.02em; }
+  .b4-cta.ls-22 { --ls-v: 0.0225em; }
+  .b4-cta.ls-25 { --ls-v: 0.025em; }
+  .b4-cta.ls-30 { --ls-v: 0.03em; }
+  .b4-cta.ls-35 { --ls-v: 0.035em; }
+
+  main div.b4-cta.block[class*=" ls-"] :is(p, li, h1, h2, h3, h4, h5, h6) {
+    letter-spacing: var(--ls-v, normal);
+  }
+}
+
+/* variant big (fix-small-5, sap-finance closing CTA): the lead line is the source .text-c0k7h
+   display statement at every width (28 / 120 %, break-word; measured @360: 10 lines, 336 px) */
+@media (width < 1440px) {
+  .b4-cta.big .b4-cta-text p:only-child,
+  .b4-cta.big .b4-cta-text p:first-child:not(:last-child) {
+    font-size: 28px;
+    line-height: 120%;
+    overflow-wrap: break-word;
+  }
+}
+
+/* variant sbtn (fix-small-5, sac-advanced-scripting download): the source form button below 768
+   sets its label at 12 / 16.8 with 12 / 20 padding (one line, 46 px tall @360) */
+@media (width < 768px) {
+  .b4-cta.download.sbtn .b4-cta-btn {
+    padding: 12px 20px;
+  }
+
+  .b4-cta.download.sbtn .b4-cta-btn :is(p, strong, a) {
+    font-size: 12px;
+    line-height: 16.8px;
+  }
+}
+
+@media (width < 768px) {
+  /* sbtn (fix-small-5): the source lead line sits 30 px (the cell gap) above the button, no own
+     margin; the label stays on one line in a 46 px button (live form button @360) */
+  .b4-cta.download.sbtn .b4-cta-text > p:last-child {
+    margin-bottom: 0;
+  }
+
+  .b4-cta.download.sbtn .b4-cta-btn {
+    min-height: 46px;
+    align-items: center;
+  }
+
+  .b4-cta.download.sbtn .b4-cta-btn :is(p, strong, a) {
+    white-space: nowrap;
+  }
+}
+
+/* lsx-20 (fix-brand-solution-5, intelligent-product-recommendations download): the statement copy
+   tracked .02em from 1024 — live 7 lines @1440, fitted .015-.04 */
+@media (width >= 1024px) {
+  main div.b4-cta.block.lsx-20 .b4-cta-text p {
+    letter-spacing: 0.02em;
+  }
+}

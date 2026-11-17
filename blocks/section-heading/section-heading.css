@@ -1,0 +1,464 @@
+/* section-heading — modules.css section-heading (margin-top 96 / 104 / 120, margin-bottom 32 / 36 / 40,
+   cols 1-4 / 1-8 / 2-11) + the 4brands variants lifted from the brand-solution prototype (.cxm-head:
+   margin-top 56 / 120 or 80 @1440, spacer 24 / 42, services head centred on the dark band, cols 3-10). */
+.section-heading {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-heading.dark {
+  background-color: #151f27;
+}
+
+/* variant text (content-body face, brand-home offices h3) */
+.section-heading.text .section-heading-title :is(h1, h2, h3, h4) {
+  font-family: var(--font-text);
+}
+
+.section-heading .section-heading-grid {
+  flex: 1 1 100%;
+  margin-top: 96px;
+  margin-bottom: 32px;
+}
+
+.section-heading.b4 .section-heading-grid {
+  margin-top: 56px;
+  margin-bottom: 0;
+}
+
+.section-heading .section-heading-cell {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  align-items: center;
+  place-content: center center;
+}
+
+.section-heading .section-heading-title :is(h1, h2, h3, h4) {
+  margin: 0;
+  color: var(--c-ink);
+  font-family: var(--font-lead);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.section-heading.center .section-heading-title :is(h1, h2, h3, h4, p) {
+  text-align: center;
+}
+
+.section-heading.dark .section-heading-title :is(h1, h2, h3, h4, p) {
+  color: #fff;
+}
+
+.section-heading .section-heading-spacer {
+  flex-shrink: 0;
+  height: 24px;
+}
+
+@media (width >= 768px) {
+  .section-heading .section-heading-grid {
+    margin-top: 104px;
+    margin-bottom: 36px;
+  }
+
+  .section-heading.b4 .section-heading-grid {
+    margin-top: 56px;
+    margin-bottom: 0;
+  }
+
+  .section-heading .section-heading-cell {
+    grid-column: 1 / 9;
+  }
+}
+
+@media (width >= 1024px) {
+  .section-heading .section-heading-cell {
+    grid-column: 2 / 12;
+  }
+
+  .section-heading.center .section-heading-cell {
+    grid-column: 3 / 11;
+  }
+}
+
+@media (width >= 1440px) {
+  .section-heading .section-heading-grid {
+    margin-top: 120px;
+    margin-bottom: 40px;
+  }
+
+  .section-heading.b4 .section-heading-grid {
+    margin-top: 120px;
+    margin-bottom: 0;
+  }
+
+  .section-heading.b4.near .section-heading-grid {
+    margin-top: 80px;
+  }
+
+  .section-heading .section-heading-title :is(h1, h2, h3, h4) {
+    font-size: 36px;
+  }
+
+  .section-heading .section-heading-spacer {
+    height: 42px;
+  }
+}
+
+/* variant ice (cluster-brand-solution): #f4f8fc band */
+.section-heading.ice {
+  background-color: var(--c-ice);
+}
+
+/* variant latest (en-insights .ins-heading--latest): no top margin; cell margin-bottom
+   24 / 32 / 40 + section margin-bottom 8 / 4 / 4 / 0; cols 1-4 / 1-5 / 2-7 */
+.section-heading.latest .section-heading-grid {
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+@media (width >= 768px) {
+  .section-heading.latest .section-heading-grid {
+    margin-top: 0;
+    margin-bottom: 36px;
+  }
+
+  .section-heading.latest .section-heading-cell {
+    grid-column: 1 / 6;
+  }
+}
+
+@media (width >= 1024px) {
+  .section-heading.latest .section-heading-grid {
+    margin-bottom: 44px;
+  }
+
+  .section-heading.latest .section-heading-cell {
+    grid-column: 2 / 8;
+  }
+}
+
+@media (width >= 1440px) {
+  .section-heading.latest .section-heading-grid {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+}
+
+/* variant insights (index .home-insights-head + modules.css btn-ghost): ink band, title + ghost CTA */
+.section-heading.insights {
+  background-color: #151f27;
+}
+
+.section-heading.insights .section-heading-grid {
+  margin-top: 56px;
+  margin-bottom: 32px;
+}
+
+.section-heading.insights .section-heading-cell {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
+}
+
+.section-heading.insights .section-heading-title {
+  grid-column: 1 / 2;
+}
+
+.section-heading.insights .section-heading-title :is(h1, h2, h3, h4, h5, h6) {
+  color: #fff;
+}
+
+.section-heading.insights .section-heading-cta {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 2 / 3;
+  place-content: center flex-end;
+}
+
+.section-heading.insights .section-heading-cta p {
+  margin: 0;
+}
+
+.section-heading.insights .section-heading-cta a {
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  padding: 12px;
+  color: #fff;
+  font-family: var(--font-label);
+  font-size: 0.75rem;
+  line-height: 1.4;
+  text-decoration: none;
+  transition: padding 0.3s cubic-bezier(0.09, 0.72, 0.76, 1.01);
+}
+
+.section-heading.insights .section-heading-cta a:hover::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.25rem;
+  background-color: #ffffff29;
+  transform: translate(-50%);
+}
+
+@media (width >= 768px) {
+  .section-heading.insights .section-heading-grid {
+    margin-top: 64px;
+    margin-bottom: 36px;
+  }
+}
+
+@media (width >= 1440px) {
+  .section-heading.insights .section-heading-grid {
+    margin-top: 72px;
+    margin-bottom: 72px;
+  }
+
+  .section-heading.insights .section-heading-cta a {
+    padding: 14px 20px;
+    font-size: 0.875rem;
+  }
+}
+
+.section-heading.insights .section-heading-cta-item.lg {
+  display: none;
+}
+
+@media (width >= 1024px) {
+  .section-heading.insights .section-heading-cta-item.sm {
+    display: none;
+  }
+
+  .section-heading.insights .section-heading-cta-item.lg {
+    display: block;
+  }
+}
+
+/* hub (cluster-hub): lead = heading + body copy; spacing tokens; w-<n> title width */
+.section-heading.lead .section-heading-title :is(h1, h2, h3, h4) {
+  margin-bottom: 32px;
+}
+
+.section-heading.lead .section-heading-title :is(p, li) {
+  margin: 0 0 16px;
+  color: var(--c-ink);
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 170%;
+}
+
+.section-heading.lead .section-heading-title :is(ul, ol) {
+  margin: 0 0 16px;
+  padding-left: 20px;
+}
+
+.section-heading.lead .section-heading-title > :last-child {
+  margin-bottom: 0;
+}
+
+.section-heading.spaced .section-heading-grid {
+  margin-top: var(--sp-tm, 96px);
+  margin-bottom: var(--sp-bm, 32px);
+}
+
+@media (width >= 768px) {
+  .section-heading.spaced .section-heading-grid {
+    margin-top: var(--sp-t, 120px);
+    margin-bottom: var(--sp-b, 40px);
+  }
+}
+
+@media (width >= 1024px) {
+  .section-heading.spaced:not(.center) .section-heading-cell {
+    grid-column: 2 / span var(--sp-w, 10);
+  }
+}
+
+@media (width >= 1440px) {
+  .section-heading.lead .section-heading-title :is(h1, h2, h3, h4) {
+    margin-bottom: 40px;
+  }
+}
+
+/* insights xmas (en-christmas .gyrdddbaxp: margin-top 60 / 80 @1440, title cell 1-4 / 1-5 / 2-7
+   with margin-bottom 24 / 32 / 40 (+ the 32px spacer row < 768), grid margin-bottom 20 @1440;
+   title only, no ghost CTA) */
+.section-heading.insights.xmas .section-heading-grid {
+  margin-top: 60px;
+  margin-bottom: 56px;
+}
+
+@media (width >= 768px) {
+  .section-heading.insights.xmas .section-heading-grid {
+    margin-top: 60px;
+    margin-bottom: 32px;
+  }
+
+  .section-heading.insights.xmas .section-heading-cell {
+    grid-column: 1 / 6;
+  }
+}
+
+@media (width >= 1024px) {
+  .section-heading.insights.xmas .section-heading-grid {
+    margin-bottom: 40px;
+  }
+
+  .section-heading.insights.xmas .section-heading-cell {
+    grid-column: 2 / 8;
+  }
+}
+
+@media (width >= 1440px) {
+  .section-heading.insights.xmas .section-heading-grid {
+    margin-top: 80px;
+    margin-bottom: 60px;
+  }
+}
+
+/* section style xmas-more (en-christmas .orcoksbcyu): the ink band continues under the rail with
+   a centred ghost "Discover more" link (button-qdjaq: white 14 / 20, 14px block padding);
+   band margin 30 / 40, 0 / 60 @1440 */
+main .section.xmas-more {
+  background-color: #151f27;
+}
+
+main .section.xmas-more > .default-content-wrapper {
+  margin: 0;
+  padding: 30px 40px 40px;
+  text-align: center;
+}
+
+main .section.xmas-more > .default-content-wrapper p {
+  margin: 0;
+}
+
+main .section.xmas-more > .default-content-wrapper a {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 14px 0;
+  border: 0;
+  border-radius: 0;
+  color: #fff;
+  background: none;
+  font-family: var(--font-label);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+/* fix-small-2: the xmas title spans the cell (no CTA column); the ghost link is the source
+   button-qdjaq — 12px / 140 %, 12px block padding below 1440, its 2 px white rule on the bottom edge */
+.section-heading.insights.xmas .section-heading-title {
+  grid-column: 1 / -1;
+}
+
+main .section.xmas-more > .default-content-wrapper a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 1px;
+  width: calc(100% - 2px);
+  height: 2px;
+  border-radius: 1px;
+  background: #fff;
+}
+
+@media (width < 1440px) {
+  main .section.xmas-more > .default-content-wrapper a {
+    padding: 12px 0;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+}
+
+@media (width >= 1440px) {
+  main .section.xmas-more > .default-content-wrapper {
+    padding-top: 0;
+    padding-bottom: 60px;
+  }
+}
+
+/* b4 (4brands) titles: source ProseMirror wrap (overflow-wrap break-word + white-space
+   break-spaces); the centred b4 title is left-aligned below 768 (measured @360, fix-4brands-small) */
+.section-heading.b4 .section-heading-title :is(h1, h2, h3, h4, p) {
+  overflow-wrap: break-word;
+  white-space: break-spaces;
+}
+
+@media (width < 768px) {
+  .section-heading.center.b4 .section-heading-title :is(h1, h2, h3, h4, p) {
+    text-align: left;
+  }
+}
+
+/* variant trk (hub, fix-hub-e): the source face's advance width on the Archivo stand-in — the
+   hub-grid tracking for sekprcvhoj (.0145em); live "Generative AI tools" breaks after "AI" at 360
+   (200 + 72 px words in a 280 px cell), the untracked stand-in set it on one 276 px line */
+.section-heading.trk .section-heading-title :is(h1, h2, h3, h4) {
+  letter-spacing: .0145em;
+}
+
+/* variant rel (4brands related-rail title, fix-brand-solution-3): the source .text-eiuiy —
+   24 px / 140 % below 1440, 28 px from 1440 (live h2 28 x 39.2 @1440, 24 x 33.6 @360) */
+.section-heading.rel .section-heading-title :is(h1, h2, h3, h4) {
+  font-size: 24px;
+  line-height: 140%;
+}
+
+@media (width >= 1440px) {
+  .section-heading.rel .section-heading-title :is(h1, h2, h3, h4) {
+    font-size: 28px;
+  }
+}
+
+/* variant ptrk (hub, fix-hub-e): lead body copy at the hub-grid tracking for the light face
+   (.015em) — en/cloud-computing "Technology" lead: live 5 lines at 360 (135 px), untracked 4 */
+.section-heading.lead.ptrk .section-heading-title p {
+  letter-spacing: .015em;
+}
+
+/* variant mc (fix-brand-solution-4, mit-scrum whitepaper): the source title is centred at every width
+   (h2.text-align-center, not only text-xl-align-center) — keep the b4 centre below 768 */
+@media (width < 768px) {
+  .section-heading.center.b4.mc .section-heading-title :is(h1, h2, h3, h4, p) {
+    text-align: center;
+  }
+}
+
+/* pulled (set by an n-prefixed t / tm token, fix-small-4): the source heading row sits 90 px over
+   the bottom of the band above (en-company-profile "Always aiming a little higher." over the DAM
+   video's white player margin, live margin-top -90 @1440) — positioned so it paints above it */
+/* stylelint-disable-next-line no-descending-specificity */
+.section-heading.pulled .section-heading-grid {
+  position: relative;
+}
+
+/* variant nosp (fix-brand-solution-5, recipe-for-sap-ibp "Das Angebot" on the dark band): the
+   source heading section ends on the title line — no 24 / 42 spacer row below it (live 90 px @360 =
+   56 + 34, 163 px @1440 = 120 + 43) */
+.section-heading.nosp .section-heading-spacer {
+  display: none;
+}
+
+/* variant lh27 (fix-hub-l, en/cloud-computing lead copy): the live p.text sets 16 px / 27 px
+   (khanqyjjei 300 computed 27px, mev 360 + 1440), not 170 % = 27.2 px (+1 px per 4 lines) */
+.section-heading.lead.lh27 .section-heading-title :is(p, li) {
+  line-height: 27px;
+}
+
+/* fix-hub-m: the same live p.text is ProseMirror copy (white-space break-spaces, "liga" 0, mev
+   360) — "We bring unique expertise," wraps "methodologies | to" as live, not "to | accelerate" */
+.section-heading.lead.lh27 .section-heading-title p {
+  white-space: break-spaces;
+  font-variant-ligatures: none;
+  font-feature-settings: "liga" 0;
+}

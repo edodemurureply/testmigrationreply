@@ -1,0 +1,5068 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-17T04:52:14.848Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.reply.com/en/ai-now-summit-reply-sail-reply-sovereign-ai",
+  "at": "2026-11-17T04:51:51.954Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6555,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-bottom.w-full > div.logo.flex > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "go to homepage",
+    "href": "/en"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 906,
+    "y": 28,
+    "w": 41,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 1225,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "custom-menu-runtime.header.flex > nav.header-bottom.w-full > button.hidden.lg:block",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.eventpagetop__cover.parallax-fullw > picture > img.grid-bg",
+    "x": 0,
+    "y": 45,
+    "w": 1440,
+    "h": 810,
+    "text": "",
+    "file": "831c4351-7188-4dec-819b-9152b2c433e5"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.eventpagetop__title.d-flex > div.d-flex.items-baseline > div.label--xsmall-upcase.text-white",
+    "x": 177,
+    "y": 260,
+    "w": 29,
+    "h": 14,
+    "text": "live"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "eventpagetop-runtime > div.eventpagetop__title.d-flex > h1.h1--light.line-clamp-4",
+    "x": 177,
+    "y": 290,
+    "w": 861,
+    "h": 141,
+    "level": 1,
+    "text": "sail reply at ai now summit"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "eventpagetop-runtime > div.eventpagetop__abstract.paragraph-01--light > p",
+    "x": 289,
+    "y": 471,
+    "w": 523,
+    "h": 81,
+    "text": "Sail Reply, exclusive service partner of Mistral AI, is a Silver Sponsor of the "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "eventpagetop-runtime > div.eventpagetop__infobox.infobox > div.h6.infobox__label",
+    "x": 1021,
+    "y": 573,
+    "w": 331,
+    "h": 26,
+    "text": "Info"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.infobox__infos > div.infobox__date.d-flex > span",
+    "x": 1045,
+    "y": 629,
+    "w": 97,
+    "h": 24,
+    "text": "May 28, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.infobox__infos > div.infobox__time.d-flex > span",
+    "x": 1045,
+    "y": 668,
+    "w": 187,
+    "h": 24,
+    "text": "9:00 AM – 9:00 PM GMT+2"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.infobox__infos > div.d-flex.items-center > span",
+    "x": 1045,
+    "y": 707,
+    "w": 210,
+    "h": 24,
+    "text": "Le Carrousel du Louvre, Paris"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.infobox__infos > div.d-flex.items-center > span",
+    "x": 1045,
+    "y": 746,
+    "w": 51,
+    "h": 24,
+    "text": "French"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#zkJw2",
+    "x": 64,
+    "y": 988,
+    "w": 1312,
+    "h": 43,
+    "level": 2,
+    "text": "four ways to meet us on may 28"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 64,
+    "y": 1049,
+    "w": 1312,
+    "h": 27,
+    "text": "From the demo stand to the Build Keynote — Sail Reply will be fully present thro"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-content > div.flex.items-start > h3.text-svb5u.line-clamp-2",
+    "x": 126,
+    "y": 1268,
+    "w": 161,
+    "h": 25,
+    "level": 3,
+    "text": "exhibition stand"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-content > div.flex.items-start > h3.text-svb5u.line-clamp-2",
+    "x": 464,
+    "y": 1268,
+    "w": 97,
+    "h": 25,
+    "level": 3,
+    "text": "workshop"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-content > div.flex.items-start > h3.text-svb5u.line-clamp-2",
+    "x": 802,
+    "y": 1268,
+    "w": 134,
+    "h": 25,
+    "level": 3,
+    "text": "build keynote"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-content > div.flex.items-start > h3.text-svb5u.line-clamp-2",
+    "x": 1140,
+    "y": 1268,
+    "w": 98,
+    "h": 25,
+    "level": 3,
+    "text": "live demo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p#PV7Um",
+    "x": 177,
+    "y": 1646,
+    "w": 411,
+    "h": 14,
+    "text": "OUR PARTNERSHIP"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#iYwZs",
+    "x": 177,
+    "y": 1684,
+    "w": 411,
+    "h": 86,
+    "level": 2,
+    "text": "mistral's dedicated business partner"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 177,
+    "y": 1811,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "fa13e653-b53b-4436-abc2-aac7fe76f146"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 740,
+    "y": 1684,
+    "w": 523,
+    "h": 135,
+    "text": "Sail Reply is the Reply group company exclusively dedicated to Mistral AI — desi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 740,
+    "y": 1831,
+    "w": 523,
+    "h": 108,
+    "text": "As a Mistral Service Partner, we structure the Mistral AI ecosystem to provide b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rogrcutiie.rogrcutiie-md > div > a#jLGBX",
+    "x": 740,
+    "y": 1971,
+    "w": 105,
+    "h": 48,
+    "text": "learn more",
+    "href": "/en/newsroom/news/reply-announces-a-partnership-with-mistral-to-develop-sovereign-and-customizable-artificial-intelligence-models"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p#ZB2jX",
+    "x": 177,
+    "y": 2461,
+    "w": 861,
+    "h": 14,
+    "text": "WHAT WE DEMONSTRATE"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#ESnaT",
+    "x": 177,
+    "y": 2499,
+    "w": 861,
+    "h": 43,
+    "level": 2,
+    "text": "sovereign ai in action"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 177,
+    "y": 2566,
+    "w": 636,
+    "h": 27,
+    "text": "Two key themes at our booth, rooted in real production deployments."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-items.space-y-3 > div#EZpZB > button#EZpZB_header",
+    "x": 233,
+    "y": 2673,
+    "w": 975,
+    "h": 29,
+    "text": "vienna academy — apollo project"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-items.space-y-3 > div#EZpZB > button#EZpZB_header",
+    "x": 233,
+    "y": 2673,
+    "w": 975,
+    "h": 29,
+    "label": "trigger",
+    "value": "vienna academy — apollo project",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#ePIdB",
+    "x": 283,
+    "y": 2674,
+    "w": 880,
+    "h": 27,
+    "level": 3,
+    "text": "vienna academy — apollo project"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-items.space-y-3 > div#TY4ke > button#TY4ke_header",
+    "x": 233,
+    "y": 2779,
+    "w": 975,
+    "h": 29,
+    "text": "sovereign ai architecture"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-items.space-y-3 > div#TY4ke > button#TY4ke_header",
+    "x": 233,
+    "y": 2779,
+    "w": 975,
+    "h": 29,
+    "label": "trigger",
+    "value": "sovereign ai architecture",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#bDbjR",
+    "x": 283,
+    "y": 2780,
+    "w": 880,
+    "h": 27,
+    "level": 3,
+    "text": "sovereign ai architecture"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-items.space-y-3 > div#WoLkH > button#WoLkH_header",
+    "x": 233,
+    "y": 2884,
+    "w": 975,
+    "h": 29,
+    "text": "llm training & fine-tuning"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-items.space-y-3 > div#WoLkH > button#WoLkH_header",
+    "x": 233,
+    "y": 2884,
+    "w": 975,
+    "h": 29,
+    "label": "trigger",
+    "value": "llm training & fine-tuning",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#iV0wE",
+    "x": 283,
+    "y": 2885,
+    "w": 880,
+    "h": 27,
+    "level": 3,
+    "text": "llm training & fine-tuning"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p#yh6t0",
+    "x": 177,
+    "y": 3185,
+    "w": 523,
+    "h": 14,
+    "text": "Workshop session"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#byBko",
+    "x": 177,
+    "y": 3223,
+    "w": 523,
+    "h": 86,
+    "level": 2,
+    "text": "re-inventing real time customer service"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 177,
+    "y": 3327,
+    "w": 523,
+    "h": 27,
+    "text": "28th May"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 177,
+    "y": 3366,
+    "w": 523,
+    "h": 27,
+    "text": "15:55 ( 20 minutes )"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 177,
+    "y": 3405,
+    "w": 523,
+    "h": 27,
+    "text": "Act Stage"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 740,
+    "y": 3223,
+    "w": 523,
+    "h": 162,
+    "text": "Today, any service typically comes with a contact center aiming to resolve escal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p > strong",
+    "x": 740,
+    "y": 3401,
+    "w": 148,
+    "h": 18,
+    "text": "Speakers details:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 740,
+    "y": 3436,
+    "w": 523,
+    "h": 27,
+    "text": "Dimitris Vlitas - Partner at SAIL Reply"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 740,
+    "y": 3475,
+    "w": 523,
+    "h": 27,
+    "text": "Haris Constantinidis - CEO at Mellon Group Technologies"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#jcKcr",
+    "x": 177,
+    "y": 3710,
+    "w": 1087,
+    "h": 86,
+    "level": 2,
+    "text": "discover more about the reply model factory at ai now summit event"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.category-label.text-white > div.category-name",
+    "x": 177,
+    "y": 4137,
+    "w": 69,
+    "h": 14,
+    "text": "Offering"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-grid.pointer-events-none > div.reply-card-body > a.pointer-events-auto",
+    "x": 177,
+    "y": 4175,
+    "w": 523,
+    "h": 39,
+    "text": "reply model factory",
+    "href": "/en/artificial-intelligence/reply-model-factory"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a.pointer-events-auto > h3.h4.text-white",
+    "x": 177,
+    "y": 4175,
+    "w": 523,
+    "h": 39,
+    "level": 3,
+    "text": "reply model factory"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > article.reply-card-abstract.paragraph-01--light > p",
+    "x": 177,
+    "y": 4234,
+    "w": 523,
+    "h": 54,
+    "text": "The production line for creating industrial-grade generative AI models."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#k83Ii",
+    "x": 289,
+    "y": 4660,
+    "w": 861,
+    "h": 43,
+    "level": 2,
+    "text": "learn more before the event"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-sp-nl1",
+    "x": 464,
+    "y": 4748,
+    "w": 512,
+    "h": 18,
+    "text": "Three resources to contextualize what we will share at AI Now."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.running-man",
+    "x": 177,
+    "y": 4801,
+    "w": 601,
+    "h": 601,
+    "text": "reply logo",
+    "file": "running-man-001"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > div.category-label.text-white > div.category-name",
+    "x": 241,
+    "y": 5073,
+    "w": 41,
+    "h": 14,
+    "text": "News"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body.!m-8 > a",
+    "x": 225,
+    "y": 5107,
+    "w": 449,
+    "h": 157,
+    "text": "the austrian academy of sciences is developing \"apollo,\" an ai specialized in an",
+    "href": "/en/newsroom/news/austrian-academy-of-sciences-is-developing-the-ancient-greek-ai-apollo-with-mistral-ai-and-reply"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > a > h3.h4.text-white",
+    "x": 225,
+    "y": 5107,
+    "w": 449,
+    "h": 157,
+    "level": 3,
+    "text": "the austrian academy of sciences is developing \"apollo,\" an ai specialized in ancient greece,"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.running-man",
+    "x": 965,
+    "y": 4801,
+    "w": 601,
+    "h": 601,
+    "text": "reply logo",
+    "file": "running-man-001"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > div.category-label.text-white > div.category-name",
+    "x": 1029,
+    "y": 5073,
+    "w": 41,
+    "h": 14,
+    "text": "News"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body.!m-8 > a",
+    "x": 1013,
+    "y": 5107,
+    "w": 449,
+    "h": 157,
+    "text": "reply announces a partnership with mistral ai to develop artificial intelligence",
+    "href": "/en/newsroom/news/reply-announces-a-partnership-with-mistral-to-develop-sovereign-and-customizable-artificial-intelligence-models"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > a > h3.h4.text-white",
+    "x": 1013,
+    "y": 5107,
+    "w": 449,
+    "h": 157,
+    "level": 3,
+    "text": "reply announces a partnership with mistral ai to develop artificial intelligence solutions"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-prev.round-bt",
+    "x": 64,
+    "y": 5176,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-next.round-bt",
+    "x": 64,
+    "y": 5232,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 289,
+    "y": 5560,
+    "w": 861,
+    "h": 14,
+    "text": "Find us at the Sail Reply booth"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 289,
+    "y": 5598,
+    "w": 861,
+    "h": 252,
+    "text": "We will be present all day on May 28. Sign up and come see us — whether you are "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.fwujsijnzm.fwujsijnzm-md > div > a#ENVqF",
+    "x": 640,
+    "y": 5882,
+    "w": 160,
+    "h": 48,
+    "text": "sign up now",
+    "href": "/mistral-summit-2026-gdg/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.block > nav.footer.p-10 > a",
+    "x": 64,
+    "y": 6121,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 6217,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 6217,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 6265,
+    "w": 103,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 6310,
+    "w": 45,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 6355,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 6399,
+    "w": 67,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 6217,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 6217,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 6265,
+    "w": 142,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 6310,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 6371,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 6416,
+    "w": 149,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 6265,
+    "w": 161,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 6310,
+    "w": 127,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 6355,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 6265,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 6327,
+    "w": 154,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 6371,
+    "w": 147,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 6416,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "void(0)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Careers",
+    "x": 1112,
+    "y": 6217,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Contacts",
+    "x": 1112,
+    "y": 6297,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1112,
+    "y": 6377,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1124,
+    "y": 6390,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1184,
+    "y": 6377,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1196,
+    "y": 6390,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "a6732ee4-95cf-4951-9c4b-3675c7154f7e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1256,
+    "y": 6377,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1268,
+    "y": 6390,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "49664893-bfc1-4d79-9208-3bdd7083126b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1328,
+    "y": 6377,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1340,
+    "y": 6390,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "c48097ef-90ed-4c24-aa40-1764649e72ff"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > span",
+    "x": 64,
+    "y": 6522,
+    "w": 81,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > a.underline",
+    "x": 158,
+    "y": 6522,
+    "w": 136,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.text-white.py-3 > div.flex.justify-between > button#cookie-pref-center",
+    "x": 1276,
+    "y": 859,
+    "w": 164,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 2,
+    "offPage": 3,
+    "textNodes": 88,
+    "controls": 48,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.reply-card-image-container.aspect-w-2",
+     "path": "reply-card-runtime#25D6N > div.reply-card-image-container.aspect-w-2 > div.reply-card-body.!m-8 > a",
+     "text": "reply announces a partnership with mistral ai to develop art",
+     "cutMin": 22,
+     "cutMax": 22
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3.h4.text-white",
+     "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body.!m-8 > a > h3.h4.text-white",
+     "text": "reply announces a partnership with mistral ai to develop art",
+     "cutMin": 3,
+     "cutMax": 3
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--a355dc1b--aemcoder.aem.page/en/ai-now-summit-reply-sail-reply-sovereign-ai",
+  "at": "2026-11-17T04:52:14.720Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6533,
+  "root": "main",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-main > div.site-header-logo > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "href": "/en"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-reply-logo > img",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "file": "reply-logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 900,
+    "y": 28,
+    "w": 46,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 1224,
+    "y": 28,
+    "w": 52,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-header-bar > nav.site-header-main > button.sm-collapsed",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pic-desktop > picture > img",
+    "x": 0,
+    "y": 45,
+    "w": 1440,
+    "h": 810,
+    "text": "",
+    "file": "media_1e6ca331ee16b356d6eace52053f5897aa"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-name > div > p",
+    "x": 177,
+    "y": 260,
+    "w": 32,
+    "h": 14,
+    "text": "live"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-text > div > h1#sail-reply-at-ai-now-summit",
+    "x": 177,
+    "y": 290,
+    "w": 861,
+    "h": 141,
+    "level": 1,
+    "text": "sail reply at ai now summit"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > h1#sail-reply-at-ai-now-summit > span.ink",
+    "x": 177,
+    "y": 289,
+    "w": 662,
+    "h": 141,
+    "text": "Sail Reply at AI Now Summit"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.txt > div > p",
+    "x": 289,
+    "y": 471,
+    "w": 523,
+    "h": 82,
+    "text": "Sail Reply, exclusive service partner of Mistral AI, is a Silver Sponsor of the "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.txt > div > p",
+    "x": 1021,
+    "y": 573,
+    "w": 363,
+    "h": 26,
+    "text": "Info"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.txt > div > p",
+    "x": 1021,
+    "y": 627,
+    "w": 363,
+    "h": 27,
+    "text": "May 28, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.txt > div > p",
+    "x": 1021,
+    "y": 666,
+    "w": 363,
+    "h": 27,
+    "text": "9:00 AM – 9:00 PM GMT+2"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.txt > div > p",
+    "x": 1021,
+    "y": 706,
+    "w": 363,
+    "h": 27,
+    "text": "Le Carrousel du Louvre, Paris"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.txt > div > p",
+    "x": 1021,
+    "y": 745,
+    "w": 363,
+    "h": 27,
+    "text": "French"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-text > div > h2#four-ways-to-meet-us-on-may-28",
+    "x": 289,
+    "y": 988,
+    "w": 861,
+    "h": 43,
+    "level": 2,
+    "text": "four ways to meet us on may 28"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 289,
+    "y": 1071,
+    "w": 861,
+    "h": 27,
+    "text": "From the demo stand to the Build Keynote — Sail Reply will be fully present thro"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > h3#exhibition-stand",
+    "x": 96,
+    "y": 1276,
+    "w": 234,
+    "h": 23,
+    "level": 3,
+    "text": "exhibition stand"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > h3#workshop",
+    "x": 434,
+    "y": 1276,
+    "w": 234,
+    "h": 23,
+    "level": 3,
+    "text": "workshop"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > h3#build-keynote",
+    "x": 772,
+    "y": 1276,
+    "w": 234,
+    "h": 23,
+    "level": 3,
+    "text": "build keynote"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > h3#live-demo",
+    "x": 1110,
+    "y": 1276,
+    "w": 234,
+    "h": 23,
+    "level": 3,
+    "text": "live demo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > div.kicker > p",
+    "x": 177,
+    "y": 1636,
+    "w": 411,
+    "h": 14,
+    "text": "OUR PARTNERSHIP"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-text > div > h2#mistrals-dedicated-business-partner",
+    "x": 177,
+    "y": 1674,
+    "w": 411,
+    "h": 86,
+    "level": 2,
+    "text": "mistral's dedicated business partner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 740,
+    "y": 1636,
+    "w": 523,
+    "h": 135,
+    "text": "Sail Reply is the Reply group company exclusively dedicated to Mistral AI — desi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 740,
+    "y": 1783,
+    "w": 523,
+    "h": 108,
+    "text": "As a Mistral Service Partner, we structure the Mistral AI ecosystem to provide b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > p.button-wrapper > a.button.secondary",
+    "x": 740,
+    "y": 1903,
+    "w": 105,
+    "h": 48,
+    "text": "learn more",
+    "href": "/en/newsroom/news/reply-announces-a-partnership-with-mistral-to-develop-sovereign-and-customizable-artificial-intelligence-models"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pic > picture > img",
+    "x": 177,
+    "y": 1801,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "media_17f26a3bc62ade5d0020d4967fcbd70b42"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > div.kicker > p",
+    "x": 177,
+    "y": 2451,
+    "w": 861,
+    "h": 14,
+    "text": "WHAT WE DEMONSTRATE"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-text > div > h2#sovereign-ai-in-action",
+    "x": 177,
+    "y": 2489,
+    "w": 861,
+    "h": 43,
+    "level": 2,
+    "text": "sovereign ai in action"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > div.lead > p",
+    "x": 177,
+    "y": 2556,
+    "w": 861,
+    "h": 27,
+    "text": "Two key themes at our booth, rooted in real production deployments."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div.acc-item > div.acc-head",
+    "x": 233,
+    "y": 2655,
+    "w": 975,
+    "h": 27,
+    "text": "vienna academy — apollo project"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div.acc-item > div.acc-head",
+    "x": 233,
+    "y": 2655,
+    "w": 975,
+    "h": 27,
+    "label": "trigger",
+    "value": "vienna academy — apollo project",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-item > div.acc-head > h3#vienna-academy--apollo-project",
+    "x": 233,
+    "y": 2655,
+    "w": 285,
+    "h": 27,
+    "level": 3,
+    "text": "vienna academy — apollo project"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div.acc-item > div.acc-head",
+    "x": 233,
+    "y": 2759,
+    "w": 975,
+    "h": 27,
+    "text": "sovereign ai architecture"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div.acc-item > div.acc-head",
+    "x": 233,
+    "y": 2759,
+    "w": 975,
+    "h": 27,
+    "label": "trigger",
+    "value": "sovereign ai architecture",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-item > div.acc-head > h3#sovereign-ai-architecture",
+    "x": 233,
+    "y": 2759,
+    "w": 213,
+    "h": 27,
+    "level": 3,
+    "text": "sovereign ai architecture"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div.acc-item > div.acc-head",
+    "x": 233,
+    "y": 2862,
+    "w": 975,
+    "h": 27,
+    "text": "llm training & fine-tuning"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div.acc-item > div.acc-head",
+    "x": 233,
+    "y": 2862,
+    "w": 975,
+    "h": 27,
+    "label": "trigger",
+    "value": "llm training & fine-tuning",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-item > div.acc-head > h3#llm-training--fine-tuning",
+    "x": 233,
+    "y": 2862,
+    "w": 226,
+    "h": 27,
+    "level": 3,
+    "text": "llm training & fine-tuning"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > div.kicker > p",
+    "x": 177,
+    "y": 3181,
+    "w": 523,
+    "h": 14,
+    "text": "Workshop session"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-text > div > h2#re-inventing-real-time-customer-service",
+    "x": 177,
+    "y": 3219,
+    "w": 523,
+    "h": 86,
+    "level": 2,
+    "text": "re-inventing real time customer service"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > div.lead > p",
+    "x": 177,
+    "y": 3329,
+    "w": 523,
+    "h": 27,
+    "text": "28th May"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > div.lead > p",
+    "x": 177,
+    "y": 3356,
+    "w": 523,
+    "h": 27,
+    "text": "15:55 ( 20 minutes )"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > div.lead > p",
+    "x": 177,
+    "y": 3383,
+    "w": 523,
+    "h": 27,
+    "text": "Act Stage"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 740,
+    "y": 3181,
+    "w": 523,
+    "h": 162,
+    "text": "Today, any service typically comes with a contact center aiming to resolve escal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > p > strong",
+    "x": 740,
+    "y": 3359,
+    "w": 148,
+    "h": 18,
+    "text": "Speakers details:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 740,
+    "y": 3394,
+    "w": 523,
+    "h": 27,
+    "text": "Dimitris Vlitas - Partner at SAIL Reply"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 740,
+    "y": 3433,
+    "w": 523,
+    "h": 27,
+    "text": "Haris Constantinidis - CEO at Mellon Group Technologies"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-text > div > h2#discover-more-about-thereply-model-factory-at-ai-now-summit-event",
+    "x": 289,
+    "y": 3720,
+    "w": 861,
+    "h": 86,
+    "level": 2,
+    "text": "discover more about the reply model factory at ai now summit event"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 177,
+    "y": 4105,
+    "w": 523,
+    "h": 14,
+    "text": "Offering"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > h3#reply-model-factory",
+    "x": 177,
+    "y": 4175,
+    "w": 523,
+    "h": 39,
+    "level": 3,
+    "text": "reply model factory"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > h3#reply-model-factory > a",
+    "x": 177,
+    "y": 4178,
+    "w": 299,
+    "h": 32,
+    "text": "reply model factory",
+    "href": "/en/artificial-intelligence/reply-model-factory"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 177,
+    "y": 4214,
+    "w": 523,
+    "h": 54,
+    "text": "The production line for creating industrial-grade generative AI models."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-text > div > h2#learn-more-before-the-event",
+    "x": 289,
+    "y": 4662,
+    "w": 861,
+    "h": 43,
+    "level": 2,
+    "text": "learn more before the event"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 289,
+    "y": 4746,
+    "w": 861,
+    "h": 27,
+    "text": "Three resources to contextualize what we will share at AI Now."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 225,
+    "y": 5045,
+    "w": 652,
+    "h": 14,
+    "text": "News"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > h3#the-austrian-academy-of-sciences-is-developing-apollo-an-ai-specialized-in-ancient-greece",
+    "x": 225,
+    "y": 5109,
+    "w": 652,
+    "h": 157,
+    "level": 3,
+    "text": "the austrian academy of sciences is developing \"apollo,\" an ai specialized in ancient greece,"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > h3#the-austrian-academy-of-sciences-is-developing-apollo-an-ai-specialized-in-ancient-greece > a",
+    "x": 225,
+    "y": 5112,
+    "w": 405,
+    "h": 150,
+    "text": "the austrian academy of sciences is developing \"apollo,\" an ai specialized in an",
+    "href": "/en/newsroom/news/austrian-academy-of-sciences-is-developing-the-ancient-greek-ai-apollo-with-mistral-ai-and-reply"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 1013,
+    "y": 5045,
+    "w": 652,
+    "h": 14,
+    "text": "News"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > h3#reply-announces-a-partnership-with-mistral-ai-to-develop-artificial-intelligence-solutions",
+    "x": 1013,
+    "y": 5109,
+    "w": 652,
+    "h": 157,
+    "level": 3,
+    "text": "reply announces a partnership with mistral ai to develop artificial intelligence solutions"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > h3#reply-announces-a-partnership-with-mistral-ai-to-develop-artificial-intelligence-solutions > a",
+    "x": 1013,
+    "y": 5112,
+    "w": 412,
+    "h": 150,
+    "text": "reply announces a partnership with mistral ai to develop artificial intelligence",
+    "href": "/en/newsroom/news/reply-announces-a-partnership-with-mistral-to-develop-sovereign-and-customizable-artificial-intelligence-models"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > h2#find-us-at-the-sail-reply-booth",
+    "x": 289,
+    "y": 5534,
+    "w": 861,
+    "h": 14,
+    "level": 2,
+    "text": "find us at the sail reply booth"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.body-text > div > p",
+    "x": 289,
+    "y": 5577,
+    "w": 861,
+    "h": 252,
+    "text": "We will be present all day on May 28. Sign up and come see us — whether you are "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > p.button-wrapper > a.button.primary",
+    "x": 640,
+    "y": 5869,
+    "w": 159,
+    "h": 48,
+    "text": "sign up now",
+    "href": "/mistral-summit-2026-gdg/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-wrap > nav.footer-nav > a.footer-nav-home",
+    "x": 64,
+    "y": 6100,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 6196,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 6196,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 6244,
+    "w": 102,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 6289,
+    "w": 43,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 6333,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 6378,
+    "w": 66,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 6196,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 6196,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 6244,
+    "w": 145,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 6289,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 6350,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 6395,
+    "w": 150,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 6244,
+    "w": 160,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 6289,
+    "w": 131,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 6333,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 6244,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 6305,
+    "w": 153,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 6350,
+    "w": 143,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 6395,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "/en/ai-now-summit-reply-sail-reply-sovereign-ai"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 6196,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 6276,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1112,
+    "y": 6356,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1124,
+    "y": 6368,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1184,
+    "y": 6356,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1196,
+    "y": 6368,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1256,
+    "y": 6356,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1268,
+    "y": 6368,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-linkedin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1328,
+    "y": 6356,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1340,
+    "y": 6368,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-xing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > span",
+    "x": 64,
+    "y": 6501,
+    "w": 84,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > a",
+    "x": 160,
+    "y": 6501,
+    "w": 131,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-inner > div.site-legal-row > button#cookie-pref-center",
+    "x": 1278,
+    "y": 859,
+    "w": 162,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 3,
+    "textNodes": 89,
+    "controls": 47,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "sail reply at ai now summit",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 6,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "four ways to meet us on may 28",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "exhibition stand",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "workshop",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "build keynote",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "live demo",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "mistral's dedicated business partner",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 3,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "sovereign ai in action",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "MOVED BUTTON",
+    "CONTROL MISSING"
+   ]
+  },
+  {
+   "index": 9,
+   "heading": "vienna academy — apollo project",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "MOVED BUTTON",
+    "CONTROL STATE"
+   ]
+  },
+  {
+   "index": 10,
+   "heading": "sovereign ai architecture",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "MOVED BUTTON",
+    "CONTROL STATE"
+   ]
+  },
+  {
+   "index": 11,
+   "heading": "llm training & fine-tuning",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "re-inventing real time customer service",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 7,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 13,
+   "heading": "discover more about the reply model factory at ai now summit event",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 14,
+   "heading": "reply model factory",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 15,
+   "heading": "learn more before the event",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 3,
+    "image": 2
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 16,
+   "heading": "the austrian academy of sciences is developing \"apollo,\" an ai specialized in ancient greece,",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 17,
+   "heading": "reply announces a partnership with mistral ai to develop artificial intelligence solutions",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 2,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "MISSING BUTTON",
+    "MISSING BUTTON"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟠",
+   "kind": "CONTROL STATE",
+   "msg": "trigger: origin \"sovereign ai architecture\" → served \"vienna academy — apollo project\" (band \"vienna academy — apollo project\")",
+   "band": 9,
+   "label": "trigger",
+   "origin": "sovereign ai architecture",
+   "eds": "vienna academy — apollo project"
+  },
+  {
+   "sev": "🟠",
+   "kind": "CONTROL STATE",
+   "msg": "trigger: origin \"llm training & fine-tuning\" → served \"sovereign ai architecture\" (band \"sovereign ai architecture\")",
+   "band": 10,
+   "label": "trigger",
+   "origin": "llm training & fine-tuning",
+   "eds": "sovereign ai architecture"
+  },
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"prev card\" in band \"reply announces a partnership with mistral ai to develop artificial intelligence solutions\" (origin y 5176) not on the served page",
+   "band": 17,
+   "n": 1,
+   "text": "prev card"
+  },
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"next card\" in band \"reply announces a partnership with mistral ai to develop artificial intelligence solutions\" (origin y 5232) not on the served page",
+   "band": 17,
+   "n": 1,
+   "text": "next card"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"find us at the sail reply booth\" (y 5534) has no origin heading",
+   "text": "find us at the sail reply booth"
+  },
+  {
+   "sev": "🟡",
+   "kind": "MOVED BUTTON",
+   "msg": "\"vienna academy — apollo project\" short in band \"sovereign ai in action\" but visible elsewhere on the served page",
+   "band": 8,
+   "n": 1,
+   "text": "vienna academy — apollo project"
+  },
+  {
+   "sev": "🟡",
+   "kind": "CONTROL MISSING",
+   "msg": "trigger = \"vienna academy — apollo project\" (band \"sovereign ai in action\") has no served counterpart",
+   "band": 8,
+   "label": "trigger",
+   "value": "vienna academy — apollo project"
+  },
+  {
+   "sev": "🟡",
+   "kind": "MOVED BUTTON",
+   "msg": "\"sovereign ai architecture\" short in band \"vienna academy — apollo project\" but visible elsewhere on the served page",
+   "band": 9,
+   "n": 1,
+   "text": "sovereign ai architecture"
+  },
+  {
+   "sev": "🟡",
+   "kind": "MOVED BUTTON",
+   "msg": "\"llm training & fine-tuning\" short in band \"sovereign ai architecture\" but visible elsewhere on the served page",
+   "band": 10,
+   "n": 1,
+   "text": "llm training & fine-tuning"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 1,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 2,
+  "hiddenButtons": 0,
+  "controlState": 2,
+  "countDeltas": 0,
+  "findings": 9,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 1339,
+    "y": 7,
+    "w": 17,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 51,
+    "w": 62,
+    "h": 16
+   },
+   {
+    "x": 612,
+    "y": 51,
+    "w": 72,
+    "h": 16
+   },
+   {
+    "x": 740,
+    "y": 51,
+    "w": 110,
+    "h": 16
+   },
+   {
+    "x": 906,
+    "y": 51,
+    "w": 41,
+    "h": 16
+   },
+   {
+    "x": 1003,
+    "y": 51,
+    "w": 60,
+    "h": 16
+   },
+   {
+    "x": 1119,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1225,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 261,
+    "w": 29,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 289,
+    "w": 653,
+    "h": 71
+   },
+   {
+    "x": 177,
+    "y": 359,
+    "w": 258,
+    "h": 71
+   },
+   {
+    "x": 289,
+    "y": 475,
+    "w": 472,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 502,
+    "w": 504,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 529,
+    "w": 359,
+    "h": 18
+   },
+   {
+    "x": 1021,
+    "y": 575,
+    "w": 41,
+    "h": 22
+   },
+   {
+    "x": 1045,
+    "y": 632,
+    "w": 97,
+    "h": 16
+   },
+   {
+    "x": 1045,
+    "y": 671,
+    "w": 187,
+    "h": 16
+   },
+   {
+    "x": 1045,
+    "y": 710,
+    "w": 210,
+    "h": 16
+   },
+   {
+    "x": 1045,
+    "y": 749,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 422,
+    "y": 989,
+    "w": 596,
+    "h": 40
+   },
+   {
+    "x": 333,
+    "y": 1053,
+    "w": 775,
+    "h": 18
+   },
+   {
+    "x": 126,
+    "y": 1270,
+    "w": 161,
+    "h": 20
+   },
+   {
+    "x": 464,
+    "y": 1270,
+    "w": 97,
+    "h": 20
+   },
+   {
+    "x": 802,
+    "y": 1270,
+    "w": 134,
+    "h": 20
+   },
+   {
+    "x": 1140,
+    "y": 1270,
+    "w": 98,
+    "h": 20
+   },
+   {
+    "x": 177,
+    "y": 1647,
+    "w": 126,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 1685,
+    "w": 370,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 1728,
+    "w": 312,
+    "h": 40
+   },
+   {
+    "x": 740,
+    "y": 1688,
+    "w": 516,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1715,
+    "w": 475,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1742,
+    "w": 507,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1769,
+    "w": 517,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1796,
+    "w": 154,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1835,
+    "w": 449,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1862,
+    "w": 513,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1889,
+    "w": 490,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1916,
+    "w": 205,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1986,
+    "w": 105,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 2462,
+    "w": 171,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 2500,
+    "w": 409,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 2570,
+    "w": 565,
+    "h": 18
+   },
+   {
+    "x": 283,
+    "y": 2678,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 283,
+    "y": 2784,
+    "w": 216,
+    "h": 18
+   },
+   {
+    "x": 283,
+    "y": 2889,
+    "w": 225,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 3186,
+    "w": 143,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 3224,
+    "w": 424,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 3267,
+    "w": 324,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 3331,
+    "w": 77,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 3370,
+    "w": 152,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 3409,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 3227,
+    "w": 470,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 3254,
+    "w": 493,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 3281,
+    "w": 471,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 3308,
+    "w": 492,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 3335,
+    "w": 510,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 3362,
+    "w": 329,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 3401,
+    "w": 148,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 3440,
+    "w": 299,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 3479,
+    "w": 461,
+    "h": 18
+   },
+   {
+    "x": 490,
+    "y": 3711,
+    "w": 461,
+    "h": 40
+   },
+   {
+    "x": 295,
+    "y": 3754,
+    "w": 850,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 4138,
+    "w": 69,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 4178,
+    "w": 300,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 4238,
+    "w": 506,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 4265,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 452,
+    "y": 4661,
+    "w": 536,
+    "h": 40
+   },
+   {
+    "x": 464,
+    "y": 4748,
+    "w": 512,
+    "h": 18
+   },
+   {
+    "x": 241,
+    "y": 5074,
+    "w": 41,
+    "h": 11
+   },
+   {
+    "x": 225,
+    "y": 5110,
+    "w": 372,
+    "h": 32
+   },
+   {
+    "x": 225,
+    "y": 5149,
+    "w": 329,
+    "h": 32
+   },
+   {
+    "x": 225,
+    "y": 5188,
+    "w": 413,
+    "h": 32
+   },
+   {
+    "x": 225,
+    "y": 5228,
+    "w": 235,
+    "h": 32
+   },
+   {
+    "x": 1029,
+    "y": 5074,
+    "w": 41,
+    "h": 11
+   },
+   {
+    "x": 1013,
+    "y": 5110,
+    "w": 274,
+    "h": 32
+   },
+   {
+    "x": 1013,
+    "y": 5149,
+    "w": 427,
+    "h": 32
+   },
+   {
+    "x": 1013,
+    "y": 5188,
+    "w": 430,
+    "h": 32
+   },
+   {
+    "x": 1013,
+    "y": 5228,
+    "w": 131,
+    "h": 32
+   },
+   {
+    "x": 604,
+    "y": 5561,
+    "w": 232,
+    "h": 11
+   },
+   {
+    "x": 323,
+    "y": 5600,
+    "w": 794,
+    "h": 46
+   },
+   {
+    "x": 331,
+    "y": 5650,
+    "w": 778,
+    "h": 46
+   },
+   {
+    "x": 292,
+    "y": 5701,
+    "w": 856,
+    "h": 46
+   },
+   {
+    "x": 334,
+    "y": 5751,
+    "w": 773,
+    "h": 46
+   },
+   {
+    "x": 637,
+    "y": 5801,
+    "w": 167,
+    "h": 46
+   },
+   {
+    "x": 664,
+    "y": 5897,
+    "w": 112,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 6218,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 6266,
+    "w": 103,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6311,
+    "w": 45,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6356,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6400,
+    "w": 67,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6218,
+    "w": 135,
+    "h": 16
+   },
+   {
+    "x": 402,
+    "y": 6266,
+    "w": 142,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6311,
+    "w": 89,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6328,
+    "w": 73,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6372,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 6372,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6417,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 6417,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6266,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 6266,
+    "w": 69,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6311,
+    "w": 127,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6356,
+    "w": 121,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6372,
+    "w": 85,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6389,
+    "w": 39,
+    "h": 13
+   },
+   {
+    "x": 642,
+    "y": 6389,
+    "w": 51,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6266,
+    "w": 157,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6283,
+    "w": 36,
+    "h": 13
+   },
+   {
+    "x": 841,
+    "y": 6283,
+    "w": 64,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6328,
+    "w": 154,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6372,
+    "w": 147,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6417,
+    "w": 130,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6434,
+    "w": 128,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 6233,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 1112,
+    "y": 6313,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 6523,
+    "w": 81,
+    "h": 13
+   },
+   {
+    "x": 149,
+    "y": 6523,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 158,
+    "y": 6523,
+    "w": 136,
+    "h": 13
+   },
+   {
+    "x": 1296,
+    "y": 872,
+    "w": 124,
+    "h": 13
+   }
+  ],
+  "eds": [
+   {
+    "x": 1336,
+    "y": 7,
+    "w": 20,
+    "h": 13
+   },
+   {
+    "x": 486,
+    "y": 51,
+    "w": 63,
+    "h": 16
+   },
+   {
+    "x": 605,
+    "y": 51,
+    "w": 71,
+    "h": 16
+   },
+   {
+    "x": 733,
+    "y": 51,
+    "w": 111,
+    "h": 16
+   },
+   {
+    "x": 900,
+    "y": 51,
+    "w": 46,
+    "h": 16
+   },
+   {
+    "x": 1002,
+    "y": 51,
+    "w": 59,
+    "h": 16
+   },
+   {
+    "x": 1118,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1224,
+    "y": 51,
+    "w": 52,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 260,
+    "w": 32,
+    "h": 13
+   },
+   {
+    "x": 177,
+    "y": 289,
+    "w": 662,
+    "h": 71
+   },
+   {
+    "x": 177,
+    "y": 359,
+    "w": 255,
+    "h": 71
+   },
+   {
+    "x": 289,
+    "y": 475,
+    "w": 474,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 502,
+    "w": 505,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 529,
+    "w": 365,
+    "h": 18
+   },
+   {
+    "x": 1021,
+    "y": 575,
+    "w": 39,
+    "h": 22
+   },
+   {
+    "x": 1045,
+    "y": 632,
+    "w": 99,
+    "h": 16
+   },
+   {
+    "x": 1045,
+    "y": 671,
+    "w": 197,
+    "h": 16
+   },
+   {
+    "x": 1045,
+    "y": 710,
+    "w": 213,
+    "h": 16
+   },
+   {
+    "x": 1045,
+    "y": 749,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 419,
+    "y": 989,
+    "w": 602,
+    "h": 40
+   },
+   {
+    "x": 336,
+    "y": 1075,
+    "w": 768,
+    "h": 18
+   },
+   {
+    "x": 96,
+    "y": 1277,
+    "w": 153,
+    "h": 20
+   },
+   {
+    "x": 434,
+    "y": 1277,
+    "w": 94,
+    "h": 20
+   },
+   {
+    "x": 772,
+    "y": 1277,
+    "w": 130,
+    "h": 20
+   },
+   {
+    "x": 1110,
+    "y": 1277,
+    "w": 96,
+    "h": 20
+   },
+   {
+    "x": 177,
+    "y": 1637,
+    "w": 126,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 1675,
+    "w": 360,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 1718,
+    "w": 311,
+    "h": 40
+   },
+   {
+    "x": 740,
+    "y": 1640,
+    "w": 514,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1667,
+    "w": 473,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1694,
+    "w": 509,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1721,
+    "w": 503,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1748,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1787,
+    "w": 449,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1814,
+    "w": 516,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1841,
+    "w": 508,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1868,
+    "w": 163,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1917,
+    "w": 105,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2452,
+    "w": 165,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 2490,
+    "w": 406,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 2560,
+    "w": 553,
+    "h": 18
+   },
+   {
+    "x": 233,
+    "y": 2659,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 233,
+    "y": 2763,
+    "w": 213,
+    "h": 18
+   },
+   {
+    "x": 233,
+    "y": 2866,
+    "w": 226,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 3182,
+    "w": 139,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 3220,
+    "w": 416,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 3263,
+    "w": 322,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 3333,
+    "w": 77,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 3360,
+    "w": 161,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 3387,
+    "w": 82,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 3185,
+    "w": 515,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 3212,
+    "w": 490,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 3239,
+    "w": 505,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 3266,
+    "w": 512,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 3293,
+    "w": 497,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 3320,
+    "w": 196,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 3359,
+    "w": 148,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 3398,
+    "w": 302,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 3437,
+    "w": 468,
+    "h": 18
+   },
+   {
+    "x": 491,
+    "y": 3721,
+    "w": 458,
+    "h": 40
+   },
+   {
+    "x": 298,
+    "y": 3764,
+    "w": 845,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 4106,
+    "w": 68,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 4178,
+    "w": 299,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 4218,
+    "w": 496,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 4245,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 456,
+    "y": 4663,
+    "w": 528,
+    "h": 40
+   },
+   {
+    "x": 469,
+    "y": 4750,
+    "w": 501,
+    "h": 18
+   },
+   {
+    "x": 237,
+    "y": 5046,
+    "w": 39,
+    "h": 11
+   },
+   {
+    "x": 225,
+    "y": 5112,
+    "w": 368,
+    "h": 32
+   },
+   {
+    "x": 225,
+    "y": 5151,
+    "w": 332,
+    "h": 32
+   },
+   {
+    "x": 225,
+    "y": 5190,
+    "w": 405,
+    "h": 32
+   },
+   {
+    "x": 225,
+    "y": 5230,
+    "w": 232,
+    "h": 32
+   },
+   {
+    "x": 1025,
+    "y": 5046,
+    "w": 39,
+    "h": 11
+   },
+   {
+    "x": 1013,
+    "y": 5112,
+    "w": 277,
+    "h": 32
+   },
+   {
+    "x": 1013,
+    "y": 5151,
+    "w": 412,
+    "h": 32
+   },
+   {
+    "x": 1013,
+    "y": 5190,
+    "w": 409,
+    "h": 32
+   },
+   {
+    "x": 1013,
+    "y": 5230,
+    "w": 131,
+    "h": 32
+   },
+   {
+    "x": 591,
+    "y": 5534,
+    "w": 258,
+    "h": 13
+   },
+   {
+    "x": 324,
+    "y": 5579,
+    "w": 793,
+    "h": 46
+   },
+   {
+    "x": 322,
+    "y": 5629,
+    "w": 795,
+    "h": 46
+   },
+   {
+    "x": 341,
+    "y": 5679,
+    "w": 759,
+    "h": 46
+   },
+   {
+    "x": 397,
+    "y": 5730,
+    "w": 646,
+    "h": 46
+   },
+   {
+    "x": 533,
+    "y": 5780,
+    "w": 375,
+    "h": 46
+   },
+   {
+    "x": 664,
+    "y": 5883,
+    "w": 111,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 6196,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 6245,
+    "w": 102,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6290,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6334,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6379,
+    "w": 66,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6196,
+    "w": 135,
+    "h": 18
+   },
+   {
+    "x": 402,
+    "y": 6245,
+    "w": 145,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6290,
+    "w": 88,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6306,
+    "w": 71,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6351,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 6351,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6396,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 6396,
+    "w": 58,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6245,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 6245,
+    "w": 68,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6290,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6334,
+    "w": 120,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6351,
+    "w": 83,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6368,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 643,
+    "y": 6368,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6245,
+    "w": 156,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6262,
+    "w": 41,
+    "h": 13
+   },
+   {
+    "x": 845,
+    "y": 6262,
+    "w": 65,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6306,
+    "w": 153,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6351,
+    "w": 143,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6396,
+    "w": 132,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6413,
+    "w": 126,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 6211,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 1112,
+    "y": 6291,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 6502,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 152,
+    "y": 6502,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 160,
+    "y": 6502,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 1298,
+    "y": 871,
+    "w": 122,
+    "h": 16
+   }
+  ]
+ }
+}

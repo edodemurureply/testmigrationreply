@@ -1,0 +1,2076 @@
+{
+  "discovery": {
+    "fetchTechnique": "chrome",
+    "count": 100,
+    "concurrency": 3
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": null,
+  "crawl": {
+    "failures": [],
+    "pageTimeoutMs": 90000
+  },
+  "captureGaps": {
+    "roots": [
+      {
+        "root": "/en",
+        "slug": "en",
+        "linked": 172,
+        "uncaptured": [
+          "/en/3d-and-mixed-reality/immersive-experiences-with-apple-vision-pro",
+          "/en/about/careers",
+          "/en/ai-powered-software-engineering/an-italian-banking-institution-s-journey-to-low-code",
+          "/en/ai-powered-software-engineering/app-to-the-future",
+          "/en/ai-powered-software-engineering/how-audi-is-redefining-software-development",
+          "/en/ai-powered-software-engineering/silicon-shoring",
+          "/en/ai-powered-software-engineering/sovereign-ai-coding-running-on-edge-environments-for-compliant-software-development",
+          "/en/artificial-intelligence/agentic-ai-for-batch-application-monitoring-in-financial-services",
+          "/en/artificial-intelligence/ai-driven-podcast-production-platform",
+          "/en/artificial-intelligence/ai-enhancing-expert-assistance-at-il-sole-24-ore",
+          "/en/artificial-intelligence/ai-for-retailers",
+          "/en/artificial-intelligence/ai-supported-customer-insight-hub-for-lufthansa",
+          "/en/artificial-intelligence/an-ai-driven-dynamic-pricing-model-for-rcs-mediagroup",
+          "/en/artificial-intelligence/arca-fondi-a-new-dialogue-with-clients-and-distributors-through-ai",
+          "/en/artificial-intelligence/audi-revolutionizes-internal-documentation-with-rag-based-ai-chatbot",
+          "/en/artificial-intelligence/devbot-audis-intelligent-multi-agent-system",
+          "/en/artificial-intelligence/dont-get-stuck-envisioning-the-future-make-it-happen",
+          "/en/artificial-intelligence/engaging-in-a-conversation-thanks-to-ai",
+          "/en/artificial-intelligence/fraport-computer-vision-and-ai-optimise-airport-operations",
+          "/en/artificial-intelligence/game-set-ai-match-changing-insights-at-the-billie-jean-king-cup-by-gainbridge",
+          "/en/artificial-intelligence/greater-reliability-in-payment-services-with-generative-ai",
+          "/en/artificial-intelligence/hyperautomation-private-banking",
+          "/en/artificial-intelligence/ieo-innovates-mammography-screening-with-agentic-systems-based-on-artificial-intelligence",
+          "/en/artificial-intelligence/industrial-agentic-ai",
+          "/en/artificial-intelligence/llmops-scale-generative-ai",
+          "/en/artificial-intelligence/luenendonk-agentic-ai-2026",
+          "/en/artificial-intelligence/machine-learning-bmw",
+          "/en/artificial-intelligence/neurons",
+          "/en/artificial-intelligence/preserving-and-enhancing-st-peter-s-basilica-through-ai",
+          "/en/artificial-intelligence/reply-immersive-experience",
+          "/en/artificial-intelligence/reply-immersive-experience-aqua",
+          "/en/artificial-intelligence/reply-model-factory",
+          "/en/artificial-intelligence/riverty-transforms-customer-service",
+          "/en/artificial-intelligence/scaling-ai-adoption-across-the-aa-with-chatgpt-enterprise",
+          "/en/artificial-intelligence/scaling-ai-in-2026",
+          "/en/artificial-intelligence/smart-bean-the-intelligent-assistant-that-replies-in-the-time-it-takes-to-make-a-coffee",
+          "/en/artificial-intelligence/sovereign-ai-for-european-organisations-foundation-models-infrastructure-and-compliance",
+          "/en/artificial-intelligence/symbiosis-the-operating-model-for-ai-accelerated-organisations",
+          "/en/artificial-intelligence/unipol-accelerates-innovation-in-the-insurance-sector-thanks-to-generative-ai",
+          "/en/artificial-intelligence/unipolsai-digital-assistant",
+          "/en/automotive-and-manufacturing/a-new-model-of-manufacturing-digital-and-sustainable",
+          "/en/automotive-and-manufacturing/more-flexibility-for-charging-parks",
+          "/en/automotive-and-manufacturing/racing-ahead-with-sabelt-digital-upgrade",
+          "/en/automotive-and-manufacturing/stellantis-accelerates-the-transformation-of-vehicle-logistics",
+          "/en/cloud-computing/a-more-efficient-cloud-for-toyota-thanks-to-finops",
+          "/en/cloud-computing/a-new-cloud-operating-model-and-center-of-excellence",
+          "/en/cloud-computing/cloud-migration-without-downtime-thanks-to-a-hybrid-architecture",
+          "/en/cloud-computing/global-cloud-migration-programme",
+          "/en/cloud-computing/modernize-sap-without-disruption",
+          "/en/cloud-computing/reply-cloud-service-providers-monitor",
+          "/en/cloud-computing/sovereign-cloud-in-financial-services",
+          "/en/cx-and-digital-commerce/a-new-order-management-system-to-enhance-online-sales",
+          "/en/cx-and-digital-commerce/building-the-shopping-of-tomorrow",
+          "/en/cx-and-digital-commerce/digital-innovation-starts-from-the-physical-store",
+          "/en/cx-and-digital-commerce/from-showcase-to-purchase",
+          "/en/cx-and-digital-commerce/generali-country-italia-enhances-the-customer-experience-with-an-aws-based-contact-centre",
+          "/en/cx-and-digital-commerce/heyobi-a-holistic-cx-across-all-channels",
+          "/en/cx-and-digital-commerce/marketing-organization-in-the-age-of-ai",
+          "/en/cx-and-digital-commerce/omnichannel-and-order-management",
+          "/en/cybersecurity/the-dual-face-of-ai-in-data-protection-and-privacy",
+          "/en/data-world/amplifon-reduces-complexity-and-costs-by-optimizing-data-governance-and-increasing-end-to-end-data-visibility",
+          "/en/data-world/cariad-creates-centralised-data-platform-for-vw",
+          "/en/data-world/enabling-ai-in-consumer-credit-agos-new-data-platform",
+          "/en/data-world/intelligent-diagnostics-for-on-board-systems",
+          "/en/digital-experience/bmw-promotes-co2-optimised-charging",
+          "/en/digital-experience/easypersonaltrainer-the-video-workout-platform-by-la-gazzetta-dello-sport",
+          "/en/digital-experience/enhancing-southstate-onboarding-experience",
+          "/en/digital-experience/total-search-marketing-rethinking-visibility-in-the-age-of-ai-search",
+          "/en/digital-experience/what-is-generative-engine-optimisation-and-why-companies-need-to-prepare-for-the-new-frontier-of-online-search",
+          "/en/environment/energy-and-emissions",
+          "/en/environment/reply-to-the-earth",
+          "/en/environment/sustainable-supply-chain",
+          "/en/financial-services/ai-to-protect-nexi-payments",
+          "/en/financial-services/how-unipol-makes-insurance-processes-more-efficient-with-process-intelligence-and-ai",
+          "/en/financial-services/new-digital-channels-bper-banca",
+          "/en/governance/our-commitment-to-ethical-ai",
+          "/en/hybrid-work/oxfordshire-county-council-copilot-rollout",
+          "/en/internet-of-things/iveco-accelerates-the-digital-transformation-with-industrial-iot",
+          "/en/investors/financial-calendar-and-events",
+          "/en/investors/financial-highlights",
+          "/en/investors/financial-reports",
+          "/en/investors/governance-policies",
+          "/en/investors/governance-system",
+          "/en/investors/loyalty-shares",
+          "/en/investors/reply-share-information",
+          "/en/investors/shareholders-meeting",
+          "/en/iot/adr-ottimizza-la-gestione-intelligente-degli-asset-aeroportuali-con-ai-e-iot",
+          "/en/iot/agrirouter",
+          "/en/labs/area-42",
+          "/en/labs/area-73",
+          "/en/labs/area-phi",
+          "/en/labs/cyber-security-lab",
+          "/en/labs/reply-house-of-models",
+          "/en/labs/reply-iot-labs-concept-quality",
+          "/en/labs/testautomationcentre",
+          "/en/metaverse",
+          "/en/metaverse/digital-humans",
+          "/en/metaverse/meta-minutes",
+          "/en/modern-slavery-statement",
+          "/en/newsroom",
+          "/en/newsroom/events/rose-the-digital-human",
+          "/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+          "/en/newsroom/news/a-new-ai-generation-marble",
+          "/en/newsroom/news/reply-announces-a-partnership-with-mistral-to-develop-sovereign-and-customizable-artificial-intelligence-models",
+          "/en/newsroom/news/reply-earns-nvidia-physical-ai-specialization-for-production-ready-robotics-and-digital-twins",
+          "/en/newsroom/news/the-first-virtual-unreal-5-web-series",
+          "/en/offices",
+          "/en/people/continuous-learning",
+          "/en/people/inclusion-and-diversity",
+          "/en/people/wellbeing",
+          "/en/prebuilt-ai-apps",
+          "/en/privacy-notice-candidate",
+          "/en/privacy-notice-client",
+          "/en/privacy-notice-marketing",
+          "/en/privacy-notice-supplier",
+          "/en/privacy-policy",
+          "/en/quality-engineering",
+          "/en/quantum-computing",
+          "/en/quantum-computing/optimizing-portfolios-with-quantum-computing",
+          "/en/retail-and-consumer-products",
+          "/en/retail-and-consumer-products/dish-order-development-of-a-fair-delivery-service",
+          "/en/retail-and-consumer-products/sainsburys-redefines-customer-loyalty-with-your-nectar-prices",
+          "/en/robotics-and-autonomous-things",
+          "/en/robotics-and-autonomous-things/predictive-maintenance-with-spot",
+          "/en/robotics-and-autonomous-things/saipem-improves-safety-and-operational-efficiency-through-autonomous-industrial-inspections",
+          "/en/robotics-and-autonomous-things/spotlight-on-ai-embodied-agents",
+          "/en/social",
+          "/en/social-media",
+          "/en/social-media/magnum-michelangelo-social-media-campaign-and-ar-experiences",
+          "/en/strategy-and-business-model-transformation",
+          "/en/strategy-and-business-model-transformation/ai-powered-procurement",
+          "/en/strategy-and-business-model-transformation/process-intelligence-and-ai-in-insurance-from-data-to-continuous-improvement",
+          "/en/strategy-and-business-model-transformation/wealth-management",
+          "/en/supply-chain-management",
+          "/en/supply-chain-management/kiko-milano-partners-with-logistics-reply-to-accelerate-e-commerce-delivery",
+          "/en/supply-chain-management/making-puma-run-faster-with-lea-reply",
+          "/en/supply-chain-management/puma-accelerates-logistics-innovation-with-galilea",
+          "/en/supply-chain-management/shorter-delivery-times-for-the-supplement-manufacturer-tqg",
+          "/en/telco-and-media",
+          "/en/telco-and-media/it-system-integration-api-first",
+          "/en/telco-networks",
+          "/en/xchange"
+        ]
+      },
+      {
+        "root": "/en/aws",
+        "slug": "en-aws",
+        "linked": 3,
+        "uncaptured": [
+          "/en/aws/automotive",
+          "/en/aws/competencies",
+          "/en/aws/generative-ai"
+        ]
+      },
+      {
+        "root": "/en/esg",
+        "slug": "en-esg",
+        "linked": 0,
+        "uncaptured": []
+      },
+      {
+        "root": "/en/iot",
+        "slug": "en-iot",
+        "linked": 12,
+        "uncaptured": [
+          "/en/iot/1nce-enables-the-iot-of-tomorrow-with-unified-apis",
+          "/en/iot/a-new-connected-and-digital-motorcycling-experience",
+          "/en/iot/adr-ottimizza-la-gestione-intelligente-degli-asset-aeroportuali-con-ai-e-iot",
+          "/en/iot/agrirouter",
+          "/en/iot/combining-ai-and-edge-computing-for-industrial-iot",
+          "/en/iot/connected-products",
+          "/en/iot/data-processing-with-aws-native-services-in-the-container-terminal",
+          "/en/iot/electric-mobility",
+          "/en/iot/from-a-fan-to-a-smart-energy-system",
+          "/en/iot/iot-platform-for-renewables",
+          "/en/iot/smart-services-for-multivac",
+          "/en/iot/teknowlogy-iot-survey-2020"
+        ]
+      }
+    ],
+    "detail": "uncaptured first-level targets: en 142, en/aws 3, en/esg 0, en/iot 12"
+  },
+  "dynamicSurface": {
+    "pages": 100,
+    "pagesWithSameSiteData": 42,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 0,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/93b766e1-abbc-4ac6-8595-a8b1084d9583/93b766e1-abbc-4ac6-8595-a8b1084d9583.json",
+        "pages": 100,
+        "examples": [
+          "index",
+          "en-3d-and-mixed-reality",
+          "en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202503.1.0/assets/otFlat.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202503.1.0/assets/otFlat.json",
+        "pages": 100,
+        "examples": [
+          "index",
+          "en-3d-and-mixed-reality",
+          "en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202503.1.0/assets/v2/otPcPanel.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202503.1.0/assets/v2/otPcPanel.json",
+        "pages": 100,
+        "examples": [
+          "index",
+          "en-3d-and-mixed-reality",
+          "en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202503.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202503.1.0/assets/otCommonStyles.css",
+        "pages": 100,
+        "examples": [
+          "index",
+          "en-3d-and-mixed-reality",
+          "en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "pages": 100,
+        "examples": [
+          "index",
+          "en-3d-and-mixed-reality",
+          "en"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_p",
+          "_s",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "en",
+          "frm",
+          "gaf",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "ir",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://www.google-analytics.com/g/collect",
+        "pages": 100,
+        "examples": [
+          "index",
+          "en-3d-and-mixed-reality",
+          "en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/93b766e1-abbc-4ac6-8595-a8b1084d9583/0195a8ea-2e69-76cf-8cf4-50206e0b3729/en.json",
+        "pages": 62,
+        "examples": [
+          "index",
+          "en-3d-and-mixed-reality",
+          "en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "pages": 53,
+        "examples": [
+          "index",
+          "en-3d-and-mixed-reality",
+          "en"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_et",
+          "_eu",
+          "_gaz",
+          "_p",
+          "_s",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "frm",
+          "gaf",
+          "gcd",
+          "gcs",
+          "gcu",
+          "gcut",
+          "gdid",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://analytics.google.com/g/collect",
+        "pages": 53,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-biotagging-and-advanced-traceability",
+          "en-ccpa-privacy-notice"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_tu",
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/ccm/collect",
+        "pages": 53,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-biotagging-and-advanced-traceability",
+          "en-ccpa-privacy-notice"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "query": [
+          "fmt",
+          "medium"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://px.ads.linkedin.com/wa/",
+        "pages": 53,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-biotagging-and-advanced-traceability",
+          "en-ccpa-privacy-notice"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "did",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gdid",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/rmkt/collect/1058439082/",
+        "pages": 53,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-biotagging-and-advanced-traceability",
+          "en-ccpa-privacy-notice"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cta-eu1.hubspot.com",
+        "path": "/web-interactives/public/v1/embed/combinedConfigs",
+        "query": [
+          "__hssc",
+          "__hstc",
+          "currentUrl",
+          "portalId",
+          "utk"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cta-eu1.hubspot.com/web-interactives/public/v1/embed/combinedConfigs",
+        "pages": 53,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-biotagging-and-advanced-traceability",
+          "en-ccpa-privacy-notice"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/de.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/93b766e1-abbc-4ac6-8595-a8b1084d9583/0195a8ea-2e69-76cf-8cf4-50206e0b3729/de.json",
+        "pages": 38,
+        "examples": [
+          "4brands-reply-de",
+          "4brands-reply-de-agentic-ai-rgm",
+          "4brands-reply-de-ai-voice-assistant-fmcg-sales"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "dam-media.reply.com",
+        "path": "/media-delivery/model/{uuid}.json",
+        "query": [
+          "_"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://dam-media.reply.com/media-delivery/model/07a4e26f-b59b-43b0-bbaf-7296a88089de.json",
+        "pages": 22,
+        "examples": [
+          "index",
+          "en-3d-and-mixed-reality",
+          "en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.reply.com",
+        "path": "/api/content-list/default",
+        "query": [
+          "_include",
+          "_limit",
+          "_sortBy",
+          "sectionPermalink",
+          "siteKey"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://api.reply.com/api/content-list/default",
+        "pages": 20,
+        "examples": [
+          "index",
+          "en",
+          "en-adobe"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "js.zi-scripts.com",
+        "path": "/unified/v1/master/getSubscriptions",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://js.zi-scripts.com/unified/v1/master/getSubscriptions",
+        "pages": 16,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-biotagging-and-advanced-traceability",
+          "en-ccpa-privacy-notice"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ws.zoominfo.com",
+        "path": "/pixel/{hash}/",
+        "query": [
+          "iszitag"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://ws.zoominfo.com/pixel/690d26fe104e57c66cd69794/",
+        "pages": 16,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-biotagging-and-advanced-traceability",
+          "en-ccpa-privacy-notice"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "aorta.clickagy.com",
+        "path": "/data",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://aorta.clickagy.com/data",
+        "pages": 16,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-biotagging-and-advanced-traceability",
+          "en-ccpa-privacy-notice"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "aorta.clickagy.com",
+        "path": "/channel-sync/{n}",
+        "query": [
+          "b",
+          "clkgypv",
+          "ws"
+        ],
+        "resourceType": "image",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://aorta.clickagy.com/channel-sync/4",
+        "pages": 16,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-biotagging-and-advanced-traceability",
+          "en-ccpa-privacy-notice"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "hemsync.clickagy.com",
+        "path": "/external/hasHashes",
+        "query": [
+          "cb",
+          "clkgypv",
+          "ws"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://hemsync.clickagy.com/external/hasHashes",
+        "pages": 16,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-biotagging-and-advanced-traceability",
+          "en-ccpa-privacy-notice"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "insight.adsrvr.org",
+        "path": "/track/realtimeconversion",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://insight.adsrvr.org/track/realtimeconversion",
+        "pages": 16,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-biotagging-and-advanced-traceability",
+          "en-ccpa-privacy-notice"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "pages": 10,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-cybersecurity",
+          "en-logistics"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "dam-media.reply.com",
+        "path": "/production/{n}/{n}/{uuid}/{uuid}/playlist.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/vnd.apple.mpegurl",
+        "sameSite": true,
+        "example": "https://dam-media.reply.com/production/31/95/abc8f097-3a41-4d81-bdf6-24d2df7bcc83/6b0d0d21-0238-4994-bd80-085a1bc8ff0d/playlist.m3u8",
+        "pages": 6,
+        "examples": [
+          "index",
+          "en",
+          "en-metaminutes-s3-e1-metaverse-quantum-and-finance"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "dam-media.reply.com",
+        "path": "/production/{n}/{n}/{uuid}/{uuid}.vtt",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/vtt",
+        "sameSite": true,
+        "example": "https://dam-media.reply.com/production/0/0/2c8d98c8-2b9c-4e82-b4d8-578a014840c1/f3de41f5-2fa6-4d4e-badd-166da71a32f8.vtt",
+        "pages": 6,
+        "examples": [
+          "en-company-profile",
+          "en-digital-experience",
+          "en-metaminutes-s3-e1-metaverse-quantum-and-finance"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ibc-flow.techtarget.com",
+        "path": "/a/gif.gif",
+        "query": [
+          "actTypeId",
+          "cid",
+          "r",
+          "ref",
+          "version"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ibc-flow.techtarget.com/a/gif.gif",
+        "pages": 4,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-company-profile",
+          "en-logistics"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "dam-media.reply.com",
+        "path": "/production/{n}/{n}/{uuid}/{uuid}/1280x720.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": true,
+        "example": "https://dam-media.reply.com/production/24/88/c174b62c-f464-99df-a7b3-94ed33d4f497/bae7b304-4354-4e17-a1e7-c16a75b76ea1/1280x720.m3u8",
+        "pages": 4,
+        "examples": [
+          "en-metaminutes-s3-e1-metaverse-quantum-and-finance",
+          "en-metaminutes-s3-e10-generative-ai-for-the-metaverse",
+          "en-metaminutes-s3-e2-education-in-the-metaverse-for-emerging-markets"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "dam-media.reply.com",
+        "path": "/production/{n}/{n}/{uuid}/{uuid}/1280x720-00001.ts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "sameSite": true,
+        "example": "https://dam-media.reply.com/production/24/88/c174b62c-f464-99df-a7b3-94ed33d4f497/bae7b304-4354-4e17-a1e7-c16a75b76ea1/1280x720-00001.ts",
+        "pages": 4,
+        "examples": [
+          "en-metaminutes-s3-e1-metaverse-quantum-and-finance",
+          "en-metaminutes-s3-e10-generative-ai-for-the-metaverse",
+          "en-metaminutes-s3-e2-education-in-the-metaverse-for-emerging-markets"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.facebook.com",
+        "path": "/tr/",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://www.facebook.com/tr/",
+        "pages": 3,
+        "examples": [
+          "4brands-reply-de-engpaesse-in-der-produktion-vermeiden",
+          "4brands-reply-de-rotkaeppchen-mumm-sektkellereien",
+          "4brands-reply-de-sac-essentials"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "dam-media.reply.com",
+        "path": "/production/{n}/{n}/{uuid}/{uuid}/playlistHLS-1080.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/vnd.apple.mpegurl",
+        "sameSite": true,
+        "example": "https://dam-media.reply.com/production/31/95/abc8f097-3a41-4d81-bdf6-24d2df7bcc83/6b0d0d21-0238-4994-bd80-085a1bc8ff0d/playlistHLS-1080.m3u8",
+        "pages": 2,
+        "examples": [
+          "index",
+          "en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "dam-media.reply.com",
+        "path": "/production/{n}/{n}/{uuid}/{uuid}/playlistHLS-1080_00001.ts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "sameSite": true,
+        "example": "https://dam-media.reply.com/production/31/95/abc8f097-3a41-4d81-bdf6-24d2df7bcc83/6b0d0d21-0238-4994-bd80-085a1bc8ff0d/playlistHLS-1080_00001.ts",
+        "pages": 2,
+        "examples": [
+          "index",
+          "en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "dam-media.reply.com",
+        "path": "/production/{n}/{n}/{uuid}/{uuid}/playlistHLS-1080_00002.ts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "sameSite": true,
+        "example": "https://dam-media.reply.com/production/31/95/abc8f097-3a41-4d81-bdf6-24d2df7bcc83/6b0d0d21-0238-4994-bd80-085a1bc8ff0d/playlistHLS-1080_00002.ts",
+        "pages": 2,
+        "examples": [
+          "index",
+          "en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "aorta.clickagy.com",
+        "path": "/pixel.gif",
+        "query": [
+          "b",
+          "clkgypv",
+          "ws"
+        ],
+        "resourceType": "image",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://aorta.clickagy.com/pixel.gif",
+        "pages": 2,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-logistics"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "d1z7icpqkuzo43.cloudfront.net",
+        "path": "/production/{n}/{n}/{uuid}/{uuid}/playlist.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://d1z7icpqkuzo43.cloudfront.net/production/30/94/8d5212c8-5914-4eb0-a654-e7e43a90abc3/4f6837bc-2440-412a-9e0b-02cd794e3f44/playlist.m3u8",
+        "pages": 2,
+        "examples": [
+          "en-biotagging-and-advanced-traceability",
+          "en-biotagging-und-advanced-traceability"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "d1z7icpqkuzo43.cloudfront.net",
+        "path": "/production/{n}/{n}/{uuid}/{uuid}/854x480.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://d1z7icpqkuzo43.cloudfront.net/production/30/94/8d5212c8-5914-4eb0-a654-e7e43a90abc3/4f6837bc-2440-412a-9e0b-02cd794e3f44/854x480.m3u8",
+        "pages": 2,
+        "examples": [
+          "en-biotagging-and-advanced-traceability",
+          "en-biotagging-und-advanced-traceability"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "d1z7icpqkuzo43.cloudfront.net",
+        "path": "/production/{n}/{n}/{uuid}/{uuid}/854x480-00001.ts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "sameSite": false,
+        "example": "https://d1z7icpqkuzo43.cloudfront.net/production/12/12/930983a6-756e-451c-bb99-dde9bda5cf78/f63cf351-3e57-4a76-b9d5-3565ff9a6bd4/854x480-00001.ts",
+        "pages": 2,
+        "examples": [
+          "en-biotagging-and-advanced-traceability",
+          "en-biotagging-und-advanced-traceability"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ws.zoominfo.com",
+        "path": "/pixel/collect",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://ws.zoominfo.com/pixel/collect",
+        "pages": 2,
+        "examples": [
+          "en-gaming",
+          "en-iot"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "maps.googleapis.com",
+        "path": "/maps/api/mapsjs/gen_204",
+        "query": [
+          "csp_test"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://maps.googleapis.com/maps/api/mapsjs/gen_204",
+        "pages": 2,
+        "examples": [
+          "4brands-reply-de",
+          "4brands-reply-en"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "maps.googleapis.com",
+        "path": "/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json+protobuf",
+        "sameSite": false,
+        "example": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+        "pages": 2,
+        "examples": [
+          "4brands-reply-de",
+          "4brands-reply-en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api-onlineservices.reply.com",
+        "path": "/product-detail/SW10211,SW10317,SW10360",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://api-onlineservices.reply.com/product-detail/SW10211,SW10317,SW10360",
+        "pages": 1,
+        "examples": [
+          "en-3d-and-mixed-reality"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api-onlineservices.reply.com",
+        "path": "/product-detail/SW11092,SW11535",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://api-onlineservices.reply.com/product-detail/SW11092,SW11535",
+        "pages": 1,
+        "examples": [
+          "en-ai-powered-software-engineering"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api-onlineservices.reply.com",
+        "path": "/product-detail/SW10348,SW10335,SW10029",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://api-onlineservices.reply.com/product-detail/SW10348,SW10335,SW10029",
+        "pages": 1,
+        "examples": [
+          "en-artificial-intelligence"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api-onlineservices.reply.com",
+        "path": "/product-detail/SW10153,SW10330,SW10471",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://api-onlineservices.reply.com/product-detail/SW10153,SW10330,SW10471",
+        "pages": 1,
+        "examples": [
+          "en-cloud-computing"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api-onlineservices.reply.com",
+        "path": "/product-detail/SW10076,SW10120,SW10449",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://api-onlineservices.reply.com/product-detail/SW10076,SW10120,SW10449",
+        "pages": 1,
+        "examples": [
+          "en-cybersecurity"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api-onlineservices.reply.com",
+        "path": "/product-detail/SW10457,SW10360,SW10060",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://api-onlineservices.reply.com/product-detail/SW10457,SW10360,SW10060",
+        "pages": 1,
+        "examples": [
+          "en-cx-and-digital-commerce"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api-onlineservices.reply.com",
+        "path": "/product-detail/SW12250,SW11960,SW11959,SW11985",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://api-onlineservices.reply.com/product-detail/SW12250,SW11960,SW11959,SW11985",
+        "pages": 1,
+        "examples": [
+          "en-data-world"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api-onlineservices.reply.com",
+        "path": "/product-detail/SW10323",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://api-onlineservices.reply.com/product-detail/SW10323",
+        "pages": 1,
+        "examples": [
+          "en-design"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api-onlineservices.reply.com",
+        "path": "/product-detail/SW10520,SW10291,SW10430,SW10434",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://api-onlineservices.reply.com/product-detail/SW10520,SW10291,SW10430,SW10434",
+        "pages": 1,
+        "examples": [
+          "en-digital-assets"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api-onlineservices.reply.com",
+        "path": "/product-detail/SW10457,SW10954",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://api-onlineservices.reply.com/product-detail/SW10457,SW10954",
+        "pages": 1,
+        "examples": [
+          "en-digital-experience"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api-onlineservices.reply.com",
+        "path": "/product-detail/SW10427",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://api-onlineservices.reply.com/product-detail/SW10427",
+        "pages": 1,
+        "examples": [
+          "en-governance-risk-and-compliance"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api-onlineservices.reply.com",
+        "path": "/product-detail/SW11623,SW10296,SW10305,SW10149,SW11599,SW11555,SW11605,",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://api-onlineservices.reply.com/product-detail/SW11623,SW10296,SW10305,SW10149,SW11599,SW11555,SW11605,",
+        "pages": 1,
+        "examples": [
+          "en-healthcare"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api-onlineservices.reply.com",
+        "path": "/product-detail/SW10096,SW10450,SW10011",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://api-onlineservices.reply.com/product-detail/SW10096,SW10450,SW10011",
+        "pages": 1,
+        "examples": [
+          "en-hybrid-work"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api-onlineservices.reply.com",
+        "path": "/product-detail/SW10324,SW10037",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://api-onlineservices.reply.com/product-detail/SW10324,SW10037",
+        "pages": 1,
+        "examples": [
+          "en-gaming"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.flockler.app",
+        "path": "/v2/{hash}/posts",
+        "query": [
+          "count",
+          "embedUuid",
+          "filterBySectionIds[]",
+          "include[products]",
+          "pageUrl",
+          "reqType"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.flockler.app/v2/181fbe371e10ac66e9576b7c6466eb92/posts",
+        "pages": 1,
+        "examples": [
+          "en-gaming"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "stats-api.flockler.app",
+        "path": "/v1/stats/{hash}",
+        "query": [
+          "campaignId",
+          "postIds",
+          "sig"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://stats-api.flockler.app/v1/stats/181fbe371e10ac66e9576b7c6466eb92",
+        "pages": 1,
+        "examples": [
+          "en-gaming"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.reply.com",
+        "path": "/api/content-meta-options/article",
+        "query": [
+          "key"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://api.reply.com/api/content-meta-options/article",
+        "pages": 1,
+        "examples": [
+          "en-insights"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "googleads.g.doubleclick.net",
+        "path": "/pagead/id",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://googleads.g.doubleclick.net/pagead/id",
+        "pages": 1,
+        "examples": [
+          "en-master-polito-artificial-intelligence-and-cloud"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "jnn-pa.googleapis.com",
+        "path": "/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json+protobuf",
+        "sameSite": false,
+        "example": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "pages": 1,
+        "examples": [
+          "en-master-polito-artificial-intelligence-and-cloud"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.youtube.com",
+        "path": "/youtubei/v1/log_event",
+        "query": [
+          "alt"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.youtube.com/youtubei/v1/log_event",
+        "pages": 1,
+        "examples": [
+          "en-master-polito-artificial-intelligence-and-cloud"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.gstatic.com",
+        "path": "/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+        "pages": 1,
+        "examples": [
+          "en-master-polito-artificial-intelligence-and-cloud"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.youtube.com",
+        "path": "/embed/establish_zw",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://www.youtube.com/embed/establish_zw",
+        "pages": 1,
+        "examples": [
+          "en-master-polito-artificial-intelligence-and-cloud"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api-onlineservices.reply.com",
+        "path": "/product-detail/SW10234,SW10238,SW10237",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://api-onlineservices.reply.com/product-detail/SW10234,SW10238,SW10237",
+        "pages": 1,
+        "examples": [
+          "en-iot"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api-onlineservices.reply.com",
+        "path": "/product-detail/SW12386",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://api-onlineservices.reply.com/product-detail/SW12386",
+        "pages": 1,
+        "examples": [
+          "4brands-reply-de-revenue-growth-management"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 100,
+        "examples": [
+          "index",
+          "en-3d-and-mixed-reality",
+          "en"
+        ]
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "pages": 100,
+        "examples": [
+          "index",
+          "en-3d-and-mixed-reality",
+          "en"
+        ]
+      },
+      {
+        "host": "sleeknotecustomerscripts.sleeknote.com",
+        "pages": 100,
+        "examples": [
+          "index",
+          "en-3d-and-mixed-reality",
+          "en"
+        ]
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "pages": 53,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-biotagging-and-advanced-traceability",
+          "en-ccpa-privacy-notice"
+        ]
+      },
+      {
+        "host": "connect.facebook.net",
+        "pages": 53,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-biotagging-and-advanced-traceability",
+          "en-ccpa-privacy-notice"
+        ]
+      },
+      {
+        "host": "snap.licdn.com",
+        "pages": 53,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-biotagging-and-advanced-traceability",
+          "en-ccpa-privacy-notice"
+        ]
+      },
+      {
+        "host": "js-eu1.hs-scripts.com",
+        "pages": 53,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-biotagging-and-advanced-traceability",
+          "en-ccpa-privacy-notice"
+        ]
+      },
+      {
+        "host": "cdn.jsdelivr.net",
+        "pages": 53,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-biotagging-and-advanced-traceability",
+          "en-ccpa-privacy-notice"
+        ]
+      },
+      {
+        "host": "js-eu1.hs-analytics.net",
+        "pages": 53,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-biotagging-and-advanced-traceability",
+          "en-ccpa-privacy-notice"
+        ]
+      },
+      {
+        "host": "js-eu1.hubspot.com",
+        "pages": 53,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-biotagging-and-advanced-traceability",
+          "en-ccpa-privacy-notice"
+        ]
+      },
+      {
+        "host": "js-eu1.hs-banner.com",
+        "pages": 53,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-biotagging-and-advanced-traceability",
+          "en-ccpa-privacy-notice"
+        ]
+      },
+      {
+        "host": "js.adsrvr.org",
+        "pages": 16,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-biotagging-and-advanced-traceability",
+          "en-ccpa-privacy-notice"
+        ]
+      },
+      {
+        "host": "static.ads-twitter.com",
+        "pages": 16,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-biotagging-and-advanced-traceability",
+          "en-ccpa-privacy-notice"
+        ]
+      },
+      {
+        "host": "js.zi-scripts.com",
+        "pages": 16,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-biotagging-and-advanced-traceability",
+          "en-ccpa-privacy-notice"
+        ]
+      },
+      {
+        "host": "tags.clickagy.com",
+        "pages": 16,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-biotagging-and-advanced-traceability",
+          "en-ccpa-privacy-notice"
+        ]
+      },
+      {
+        "host": "www.google.com",
+        "pages": 13,
+        "examples": [
+          "en-master-polito-artificial-intelligence-and-cloud",
+          "4brands-reply-de-demand-driven-replenishment",
+          "4brands-reply-de-intelligent-product-recommendations"
+        ]
+      },
+      {
+        "host": "www.gstatic.com",
+        "pages": 12,
+        "examples": [
+          "4brands-reply-de-demand-driven-replenishment",
+          "4brands-reply-de-intelligent-product-recommendations",
+          "4brands-reply-de-mit-scrum-kundenzentrierte-erfolge-erzielen"
+        ]
+      },
+      {
+        "host": "trk.techtarget.com",
+        "pages": 4,
+        "examples": [
+          "en-automotive-and-manufacturing",
+          "en-company-profile",
+          "en-logistics"
+        ]
+      },
+      {
+        "host": "maps.googleapis.com",
+        "pages": 2,
+        "examples": [
+          "4brands-reply-de",
+          "4brands-reply-en"
+        ]
+      },
+      {
+        "host": "plugins.flockler.com",
+        "pages": 1,
+        "examples": [
+          "en-gaming"
+        ]
+      },
+      {
+        "host": "www.youtube.com",
+        "pages": 1,
+        "examples": [
+          "en-master-polito-artificial-intelligence-and-cloud"
+        ]
+      },
+      {
+        "host": "static.doubleclick.net",
+        "pages": 1,
+        "examples": [
+          "en-master-polito-artificial-intelligence-and-cloud"
+        ]
+      }
+    ],
+    "frameworkHints": [],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 100,
+        "examples": [
+          "index",
+          "en-3d-and-mixed-reality",
+          "en"
+        ]
+      }
+    ],
+    "formTargets": []
+  },
+  "visionCheck": [
+    {
+      "slug": "4brands-reply-de",
+      "verdict": "ok",
+      "notes": "Hero 'Ihr Digitalisierungspartner...' differs from SEO title but is the real page."
+    },
+    {
+      "slug": "4brands-reply-de-agentic-ai-rgm",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-ai-voice-assistant-fmcg-sales",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-artificial-intelligence-consumer-goods",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-composable-customer-data-platform",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-connected-shelf-iot-supermarket",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-customer-and-consumer-engagement",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-customer-experience-management",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-data-and-analytics-strategie-workshop",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-data-value-management",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-demand-driven-replenishment",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-engpaesse-in-der-produktion-vermeiden",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-gerolsteiner-personalisierte-kundenansprache",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-intelligent-enterprise",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-intelligent-product-recommendations",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-ki-assistent-fuer-den-vertrieb",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-mit-scrum-kundenzentrierte-erfolge-erzielen",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-newsroom",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-potenziale-mit-preis-sensing",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-preis-sensing-smarte-insights-zu-endverbraucherpreisen",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-preis-und-konditionsmanagement-zentis",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-process-mining",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-recipe-for-sap-ibp",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-reply-routes",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-revenue-growth-management",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-revenue-growth-management-reve",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-rotkaeppchen-mumm-sektkellereien",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-sac-advanced-scripting",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-sac-essentials",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-sac-insight-story-design",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-sac-modeling-and-insights-lab",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-sap-analytics-cloud",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-sap-c4-hana-bei-einem-grosshaendler",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-sap-ccm",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-sap-datasphere-trainings",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-sap-finance-knowledge-and-training",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-smart-glasses",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-de-smart-retail-execution",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "4brands-reply-en",
+      "verdict": "ok",
+      "notes": "Hero 'Your digitalization partner...' differs from SEO title but is the real page."
+    },
+    {
+      "slug": "en",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-3d-and-mixed-reality",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-a-very-covid-19-christmas",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-accessibility",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-acknowledgement",
+      "verdict": "suspect",
+      "notes": "Hero shows 'CRM and CX with Reply' (Gartner MQ), not 'Acknowledgement' - content/title mismatch."
+    },
+    {
+      "slug": "en-adobe",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-ai-now-summit-reply-sail-reply-sovereign-ai",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-ai-powered-software-engineering",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-approach-to-uk-taxation",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-artificial-intelligence",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-automotive-and-manufacturing",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-autonomousdrivingsafety",
+      "verdict": "suspect",
+      "notes": "Unrendered template shell: shows placeholder 'Heading' + lorem ipsum; title 'Enhancing Autonomous Driving Safety' not present."
+    },
+    {
+      "slug": "en-aws",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-becoming-ai-native-embracing-the-future-of-digital-experience",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-biotagging-and-advanced-traceability",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-biotagging-und-advanced-traceability",
+      "verdict": "ok",
+      "notes": "German duplicate under /en."
+    },
+    {
+      "slug": "en-building-resilient-eu-forms-infrastructure",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-ccpa-privacy-notice",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-christmas",
+      "verdict": "ok",
+      "notes": "Homepage variant; hero has no headline; title is generic homepage title."
+    },
+    {
+      "slug": "en-cloud-computing",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-company-profile",
+      "verdict": "ok",
+      "notes": "Hero says 'We Reply'."
+    },
+    {
+      "slug": "en-contacts",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-covid-19-implications-2021",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-covid-19-report-close-up-italy",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-covid-19-travel-and-tourism",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-cx-and-digital-commerce",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-cybersecurity",
+      "verdict": "ok",
+      "notes": "Quote text appears scrambled (likely decode animation captured mid-state)."
+    },
+    {
+      "slug": "en-data-world",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-datenschutzerklaerung",
+      "verdict": "ok",
+      "notes": "German legal text under /en."
+    },
+    {
+      "slug": "en-declaration-of-principles",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-deep-and-transformational-growth",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-design",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-digital-assets",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-digital-experience",
+      "verdict": "ok",
+      "notes": "Hero is artwork without visible page headline."
+    },
+    {
+      "slug": "en-energy-and-utilities",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-environment",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-esg",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-ethical-ai-shaping-the-future-of-responsible-innovation",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-event-detail",
+      "verdict": "suspect",
+      "notes": "Template/demo page: lorem ipsum 'Title max 55 characters' hero and agenda; not real content."
+    },
+    {
+      "slug": "en-financial-services",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-frontier-event-2026",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-gaming",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-google-cloud",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-governance",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-governance-risk-and-compliance",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-healthcare",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-hybrid-work",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-impressum",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-insights",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-investors",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-iot",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-labs",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-learning-partner-for-microsoft",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-logistics",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-lufhtansa",
+      "verdict": "suspect",
+      "notes": "Unrendered template shell: placeholder 'Heading' + lorem ipsum + empty video; no real content."
+    },
+    {
+      "slug": "en-master-polito-artificial-intelligence-and-cloud",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-metaminutes-s3-e1-metaverse-quantum-and-finance",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-metaminutes-s3-e10-generative-ai-for-the-metaverse",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-metaminutes-s3-e2-education-in-the-metaverse-for-emerging-markets",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "en-metaminutes-s3-e3-mixed-reality-first-responder-training",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": ""
+    }
+  ],
+  "siblingCandidates": [
+    {
+      "origin": "https://www.reply.com/4brands-reply",
+      "confidence": "high",
+      "evidence": "sub-brand microsite on the same origin, in the fixed page plan",
+      "decision": "in-scope pages only (no brand-source capture; scope is fixed by the site plan)"
+    }
+  ]
+}

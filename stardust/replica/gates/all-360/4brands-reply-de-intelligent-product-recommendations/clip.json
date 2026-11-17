@@ -1,0 +1,57 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/intelligent-product-recommendations",
+ "at": "2026-11-17T01:11:46.984Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 3,
+  "offPage": 23,
+  "textNodes": 64,
+  "controls": 31,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.card-carousel.scale",
+   "path": "ul.card-carousel-track > li.card-carousel-item.is-clone > div.reply-card.reply-card-slider > a.reply-card-cover",
+   "text": "smart retail executionwhite paper",
+   "cutMin": 264,
+   "cutMax": 264
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": null,
+   "path": "div.statement-grid.r-grid > div.statement-cell.r-cell > div.statement-text > p",
+   "text": "für mehr umsatzpotenziale, optimierte sortimentsentscheidung",
+   "cutMin": 70,
+   "cutMax": 70
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 21,
+   "textNodes": 67,
+   "controls": 28,
+   "total": 0
+  }
+ }
+}

@@ -1,0 +1,1799 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-15T09:37:43.885Z",
+    "mode": "descriptive"
+  },
+  "colors": {
+    "background": "#ffffff",
+    "ink": "#151f27",
+    "ink-secondary": "#28333e",
+    "muted": "#586674",
+    "muted-2": "#8d99a5",
+    "border": "#d6e0ea",
+    "accent-red": "#eb0037",
+    "accent-red-2": "#db001b",
+    "accent-teal": "#00e0ce",
+    "accent-yellow": "#ffd138",
+    "accent-orange": "#ff8c00",
+    "brand-green": "#00ea51",
+    "black": "#000000",
+    "body": "#5b5f61"
+  },
+  "typography": {
+    "fontFamilies": {
+      "heading": "Alaska, khanqyjjei, sans-serif",
+      "body": "Alaska, khanqyjjei, sans-serif",
+      "label": "tuqgwxsjgq, AlaskaExpMedium, Helvetica, Arial, sans-serif"
+    },
+    "ramp": {
+      "h1": {
+        "size": "2.25rem",
+        "weight": 300,
+        "lineHeight": 1.1
+      },
+      "h3": {
+        "size": "1.75rem",
+        "weight": 300,
+        "lineHeight": 1.2
+      },
+      "h4": {
+        "size": "1.5rem",
+        "weight": 400,
+        "lineHeight": 1.4
+      },
+      "h5": {
+        "size": "1.25rem",
+        "weight": 400,
+        "lineHeight": 1.3
+      },
+      "h6": {
+        "size": "1.125rem",
+        "weight": 400,
+        "lineHeight": 1.3
+      },
+      "h7": {
+        "size": "1rem",
+        "weight": 400,
+        "lineHeight": 1.4
+      },
+      "paragraph-01": {
+        "size": "1rem",
+        "weight": 300,
+        "lineHeight": 1.7
+      },
+      "paragraph-02": {
+        "size": ".875rem",
+        "weight": 300,
+        "lineHeight": 1.7
+      },
+      "label-small": {
+        "size": ".75rem",
+        "lineHeight": 1.4
+      },
+      "footer-text": {
+        "size": ".75rem",
+        "weight": 300,
+        "lineHeight": 1.4
+      }
+    },
+    "observedLevels": {
+      "h1": {
+        "fontSize": 64,
+        "fontWeight": "500",
+        "count": 91,
+        "score": 763.15
+      },
+      "h2": {
+        "fontSize": 36,
+        "fontWeight": "500",
+        "count": 214,
+        "score": 658.29
+      },
+      "h3": {
+        "fontSize": 28,
+        "fontWeight": "500",
+        "count": 286,
+        "score": 591.9
+      },
+      "h4": {
+        "fontSize": 24,
+        "fontWeight": "500",
+        "count": 47,
+        "score": 205.67
+      },
+      "h5": {
+        "fontSize": 24,
+        "fontWeight": "500",
+        "count": 9,
+        "score": 90
+      },
+      "h6": {
+        "fontSize": 20,
+        "fontWeight": "500",
+        "count": 25,
+        "score": 125
+      }
+    },
+    "source": "stardust/current/assets/css/theme.cfd8e300.css (.h1--light … .footer-text--light) + _computed-styles.json aggregate.type"
+  },
+  "rounded": {
+    "default": "6px",
+    "pill": "50%"
+  },
+  "spacing": {
+    "note": "Tailwind 4px scale (px-10 = 2.5rem, py-4 = 1rem); section paddings per page in stardust/current/assets/css/pages/<slug>.css"
+  },
+  "components": {
+    "button": {
+      "note": "pill/rounded-md buttons, label typography; see theme css .button"
+    },
+    "card": {
+      "shadow": "rgba(0, 0, 0, 0.2) 0px 16px 32px 0px",
+      "note": "reply-card: image + category label + h6 title"
+    }
+  },
+  "extensions": {
+    "componentStyle": [],
+    "motifs": {
+      "radius": {
+        "mode": "6px",
+        "areaMode": "6px",
+        "pill": "50%",
+        "values": [
+          {
+            "value": "6px",
+            "count": 5320,
+            "area": 628251483,
+            "sources": [
+              {
+                "url": "https://www.reply.com/4brands-reply/de",
+                "selector": "#d3jtA > div"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/de",
+                "selector": "#d3jtA > div > picture > img"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/de",
+                "selector": "#DJ5IB > div"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/de/agentic-ai-rgm",
+                "selector": "#cards-tabber_LyaGs > div > div > div:nth-of-type(1) > div > picture > img"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/de/agentic-ai-rgm",
+                "selector": "#cards-tabber_qMnxR > div > div > div:nth-of-type(1) > div > picture > img"
+              }
+            ]
+          },
+          {
+            "value": "50%",
+            "count": 2631,
+            "area": 2765410,
+            "sources": [
+              {
+                "url": "https://www.reply.com/4brands-reply/de",
+                "selector": "#aiqO4 > div > div > div > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/de/agentic-ai-rgm",
+                "selector": "div > gridcontainer-runtime > div > div > div > div:nth-of-type(1) > div > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/de/agentic-ai-rgm",
+                "selector": "#bpyig > div:nth-of-type(2) > button:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/de/agentic-ai-rgm",
+                "selector": "#bpyig > div:nth-of-type(2) > button:nth-of-type(2)"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/de/agentic-ai-rgm",
+                "selector": "#vmh3m > a > div > div > div > div:nth-of-type(1)"
+              }
+            ]
+          },
+          {
+            "value": "4px",
+            "count": 1057,
+            "area": 19639916,
+            "sources": [
+              {
+                "url": "https://www.reply.com/4brands-reply/de",
+                "selector": "div > gridcontainer-runtime > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div > button"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/de",
+                "selector": "#uoJs1"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/de",
+                "selector": "div > section:nth-of-type(20) > div > div > div > map-reply-offices-selector-runtime > div > button"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/de",
+                "selector": "#sticky-highlight-abstract-container > a"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/de/agentic-ai-rgm",
+                "selector": "div > gridcontainer-runtime > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div > button"
+              }
+            ]
+          },
+          {
+            "value": "5px 5px 0px 0px",
+            "count": 138,
+            "area": 4479943,
+            "sources": [
+              {
+                "url": "https://www.reply.com/4brands-reply/de",
+                "selector": "cards-wall-runtime > div > div:nth-of-type(1) > div > div:nth-of-type(1) > reply-card-runtime > a > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/de",
+                "selector": "cards-wall-runtime > div > div:nth-of-type(1) > div > div:nth-of-type(2) > reply-card-runtime > a > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/de",
+                "selector": "cards-wall-runtime > div > div:nth-of-type(1) > div > div:nth-of-type(3) > reply-card-runtime > a > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/de/newsroom",
+                "selector": "cards-wall-runtime > div > div:nth-of-type(2) > div > div:nth-of-type(1) > reply-card-runtime > a > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/de/newsroom",
+                "selector": "cards-wall-runtime > div > div:nth-of-type(2) > div > div:nth-of-type(2) > reply-card-runtime > a > div:nth-of-type(1)"
+              }
+            ]
+          },
+          {
+            "value": "72px",
+            "count": 112,
+            "area": 886464,
+            "sources": [
+              {
+                "url": "https://www.reply.com/en/company-profile",
+                "selector": "div > div > div > continuous-slider-runtime > div > div:nth-of-type(1) > div:nth-of-type(1) > button"
+              },
+              {
+                "url": "https://www.reply.com/en/company-profile",
+                "selector": "#sqXU3"
+              },
+              {
+                "url": "https://www.reply.com/en/company-profile",
+                "selector": "#cyHc6"
+              }
+            ]
+          },
+          {
+            "value": "0px 0px 0px 6px",
+            "count": 99,
+            "area": 335839,
+            "sources": [
+              {
+                "url": "https://www.reply.com/4brands-reply/de",
+                "selector": "nav"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/de/agentic-ai-rgm",
+                "selector": "nav"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/de/ai-voice-assistant-fmcg-sales",
+                "selector": "nav"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/de/artificial-intelligence-consumer-goods",
+                "selector": "nav"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/de/composable-customer-data-platform",
+                "selector": "nav"
+              }
+            ]
+          },
+          {
+            "value": "2px",
+            "count": 47,
+            "area": 1781918,
+            "sources": [
+              {
+                "url": "https://www.reply.com/4brands-reply/de",
+                "selector": "div > div > map-runtime > div > div > div:nth-of-type(3) > div:nth-of-type(7) > button"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/de",
+                "selector": "map-runtime > div > div > div:nth-of-type(3) > div:nth-of-type(12) > div > div:nth-of-type(2) > div"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/en",
+                "selector": "div > div > map-runtime > div > div > div:nth-of-type(3) > div:nth-of-type(7) > button"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/en",
+                "selector": "map-runtime > div > div > div:nth-of-type(3) > div:nth-of-type(12) > div > div:nth-of-type(2) > div"
+              },
+              {
+                "url": "https://www.reply.com/en/a-very-covid-19-christmas",
+                "selector": "nav"
+              }
+            ]
+          },
+          {
+            "value": "8px",
+            "count": 21,
+            "area": 3322598,
+            "sources": [
+              {
+                "url": "https://www.reply.com/en/christmas",
+                "selector": "div > div > div > section:nth-of-type(7) > div > div > div > gridcontainer-runtime"
+              },
+              {
+                "url": "https://www.reply.com/en/contacts",
+                "selector": "#jsv1s"
+              },
+              {
+                "url": "https://www.reply.com/en/contacts",
+                "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > div > a"
+              },
+              {
+                "url": "https://www.reply.com/en/contacts",
+                "selector": "div:nth-of-type(1) > div > div:nth-of-type(3) > div > div > div > div > button"
+              },
+              {
+                "url": "https://www.reply.com/en/frontier-event-2026",
+                "selector": "div > div > div:nth-of-type(1) > div > div > div > gridcontainer-runtime > div"
+              }
+            ]
+          },
+          {
+            "value": "100px",
+            "count": 20,
+            "area": 24500,
+            "sources": [
+              {
+                "url": "https://www.reply.com/en/learning-partner-for-microsoft",
+                "selector": "div > gridcontainer-runtime > div > div > div > div:nth-of-type(1) > gridcontainer-runtime > div"
+              }
+            ]
+          },
+          {
+            "value": "10px",
+            "count": 18,
+            "area": 976182,
+            "sources": [
+              {
+                "url": "https://www.reply.com/en/christmas",
+                "selector": "#YIPpL > div > ol > li:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.reply.com/en/christmas",
+                "selector": "#YIPpL > div > ol > li:nth-of-type(2)"
+              },
+              {
+                "url": "https://www.reply.com/en/christmas",
+                "selector": "#YIPpL > div > ol > li:nth-of-type(3)"
+              },
+              {
+                "url": "https://www.reply.com/en/company-profile",
+                "selector": "#YIPpL > div > ol > li:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.reply.com/en/company-profile",
+                "selector": "#YIPpL > div > ol > li:nth-of-type(2)"
+              }
+            ]
+          },
+          {
+            "value": "80px",
+            "count": 15,
+            "area": 34560,
+            "sources": [
+              {
+                "url": "https://www.reply.com/en/a-very-covid-19-christmas",
+                "selector": "section:nth-of-type(2) > div > div > div > page-index-runtime > div > div > label"
+              },
+              {
+                "url": "https://www.reply.com/en/acknowledgement",
+                "selector": "section:nth-of-type(3) > div > div > div > page-index-runtime > div > div > label"
+              },
+              {
+                "url": "https://www.reply.com/en/adobe",
+                "selector": "section:nth-of-type(3) > div > div > div > page-index-runtime > div > div > label"
+              },
+              {
+                "url": "https://www.reply.com/en/artificial-intelligence",
+                "selector": "section:nth-of-type(4) > div > div > div > page-index-runtime > div > div > label"
+              },
+              {
+                "url": "https://www.reply.com/en/aws",
+                "selector": "section:nth-of-type(4) > div > div > div > page-index-runtime > div > div > label"
+              }
+            ]
+          },
+          {
+            "value": "6px 0px 0px 6px",
+            "count": 14,
+            "area": 1537944,
+            "sources": [
+              {
+                "url": "https://www.reply.com/4brands-reply/de",
+                "selector": "div > div > div > section:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(2) > sticky-highlight-runtime"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/de",
+                "selector": "div > section:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(2) > sticky-highlight-runtime > picture > img"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/en",
+                "selector": "div > div > div > section:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(2) > sticky-highlight-runtime"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/en",
+                "selector": "div > section:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(2) > sticky-highlight-runtime > picture > img"
+              },
+              {
+                "url": "https://www.reply.com/en/ai-now-summit-reply-sail-reply-sovereign-ai",
+                "selector": "div > div > section:nth-of-type(1) > div > div > div > eventpagetop-runtime > div:nth-of-type(5)"
+              }
+            ]
+          },
+          {
+            "value": "999px",
+            "count": 10,
+            "area": 400000,
+            "sources": [
+              {
+                "url": "https://www.reply.com/en/esg",
+                "selector": "gridcontainer-runtime > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > picture > img"
+              },
+              {
+                "url": "https://www.reply.com/en/ethical-ai-shaping-the-future-of-responsible-innovation",
+                "selector": "gridcontainer-runtime > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > picture > img"
+              }
+            ]
+          },
+          {
+            "value": "50px",
+            "count": 6,
+            "area": 90201,
+            "sources": [
+              {
+                "url": "https://www.reply.com/en/learning-partner-for-microsoft",
+                "selector": "div > gridcontainer-runtime > div > div > div:nth-of-type(1) > div > gridcontainer-runtime > div"
+              },
+              {
+                "url": "https://www.reply.com/en/learning-partner-for-microsoft",
+                "selector": "div > gridcontainer-runtime > div > div > div:nth-of-type(2) > div > gridcontainer-runtime > div"
+              },
+              {
+                "url": "https://www.reply.com/en/learning-partner-for-microsoft",
+                "selector": "div > gridcontainer-runtime > div > div > div:nth-of-type(3) > div > gridcontainer-runtime > div"
+              }
+            ]
+          },
+          {
+            "value": "0px 6px 6px 0px",
+            "count": 4,
+            "area": 897020,
+            "sources": [
+              {
+                "url": "https://www.reply.com/en/christmas",
+                "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div > div > videostory-runtime"
+              },
+              {
+                "url": "https://www.reply.com/en/christmas",
+                "selector": "div > div:nth-of-type(3) > div > div > div > videostory-runtime > div:nth-of-type(3) > img"
+              },
+              {
+                "url": "https://www.reply.com/en/company-profile",
+                "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div > div > videostory-runtime"
+              },
+              {
+                "url": "https://www.reply.com/en/company-profile",
+                "selector": "div > div:nth-of-type(3) > div > div > div > videostory-runtime > div:nth-of-type(3) > img"
+              }
+            ]
+          },
+          {
+            "value": "20px 0px 0px",
+            "count": 3,
+            "area": 57672,
+            "sources": [
+              {
+                "url": "https://www.reply.com/4brands-reply/de",
+                "selector": "div > section:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(2) > sticky-highlight-runtime > picture > img"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/en",
+                "selector": "div > section:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(2) > sticky-highlight-runtime > picture > img"
+              },
+              {
+                "url": "https://www.reply.com/en/logistics",
+                "selector": "div > section:nth-of-type(1) > div > div > div:nth-of-type(2) > sticky-highlight-runtime > picture > img"
+              }
+            ]
+          },
+          {
+            "value": "20px 20px 0px 0px",
+            "count": 3,
+            "area": 117720,
+            "sources": [
+              {
+                "url": "https://www.reply.com/4brands-reply/de",
+                "selector": "div > div > div > section:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(2) > sticky-highlight-runtime"
+              },
+              {
+                "url": "https://www.reply.com/4brands-reply/en",
+                "selector": "div > div > div > section:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(2) > sticky-highlight-runtime"
+              },
+              {
+                "url": "https://www.reply.com/en/logistics",
+                "selector": "div > div > div > section:nth-of-type(1) > div > div > div:nth-of-type(2) > sticky-highlight-runtime"
+              }
+            ]
+          },
+          {
+            "value": "0px 0px 180px 180px",
+            "count": 2,
+            "area": 162958,
+            "sources": [
+              {
+                "url": "https://www.reply.com/en/acknowledgement",
+                "selector": "div > div > div > section:nth-of-type(2) > div > div:nth-of-type(2) > div > div"
+              }
+            ]
+          },
+          {
+            "value": "100%",
+            "count": 2,
+            "area": 2592,
+            "sources": [
+              {
+                "url": "https://www.reply.com/en/gaming",
+                "selector": "div:nth-of-type(2) > div > div > article:nth-of-type(1) > div > div:nth-of-type(2) > a > figure"
+              }
+            ]
+          },
+          {
+            "value": "0px 0px 6px 6px",
+            "count": 1,
+            "area": 2064,
+            "sources": [
+              {
+                "url": "https://www.reply.com/en/building-resilient-eu-forms-infrastructure",
+                "selector": "gridcontainer-runtime > div > div > div:nth-of-type(1) > div > div > div > div"
+              }
+            ]
+          }
+        ]
+      },
+      "shadows": [
+        {
+          "value": "rgba(0, 0, 0, 0.2) 0px 16px 32px 0px",
+          "count": 223,
+          "sources": [
+            {
+              "url": "https://www.reply.com/4brands-reply/de",
+              "selector": "div > div > div > section:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(2) > sticky-highlight-runtime"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de",
+              "selector": "#cookie-pref-center"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/agentic-ai-rgm",
+              "selector": "#cookie-pref-center"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/ai-voice-assistant-fmcg-sales",
+              "selector": "#cookie-pref-center"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/artificial-intelligence-consumer-goods",
+              "selector": "#cookie-pref-center"
+            }
+          ]
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.1) 0px 16px 32px 0px",
+          "count": 154,
+          "sources": [
+            {
+              "url": "https://www.reply.com/4brands-reply/de/data-and-analytics-strategie-workshop",
+              "selector": "#UKu7Y"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/intelligent-enterprise",
+              "selector": "#M1DuV"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/intelligent-enterprise",
+              "selector": "#AurxT"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/intelligent-enterprise",
+              "selector": "#IlZpu"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/ki-assistent-fuer-den-vertrieb",
+              "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > reply-card-runtime"
+            }
+          ]
+        },
+        {
+          "value": "rgba(0, 0, 0, 0) 1px 1px 1px 1px",
+          "count": 106,
+          "sources": [
+            {
+              "url": "https://www.reply.com/4brands-reply/de/agentic-ai-rgm",
+              "selector": "#cards-tabber_LyaGs > div > div"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/agentic-ai-rgm",
+              "selector": "#cards-tabber_qMnxR > div > div"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/agentic-ai-rgm",
+              "selector": "#cards-tabber_uomQg > div > div"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/ai-voice-assistant-fmcg-sales",
+              "selector": "#cards-tabber_qMnxR > div > div"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/ai-voice-assistant-fmcg-sales",
+              "selector": "#cards-tabber_uomQg > div > div"
+            }
+          ]
+        }
+      ],
+      "gradients": [
+        {
+          "value": "linear-gradient(24deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 100%)",
+          "count": 55,
+          "area": 40115220,
+          "sources": [
+            {
+              "url": "https://www.reply.com/4brands-reply/de",
+              "selector": "#qTEFb > div > div"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de",
+              "selector": "#PxyEO > div > div"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/en",
+              "selector": "#qen2w > div > div"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/en",
+              "selector": "#PxyEO > div > div"
+            },
+            {
+              "url": "https://www.reply.com/en",
+              "selector": "#f7tiV > div > div"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%)",
+          "count": 54,
+          "area": 6493980,
+          "sources": [
+            {
+              "url": "https://www.reply.com/4brands-reply/de",
+              "selector": "#qTEFb > div > div > div"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de",
+              "selector": "#PxyEO > div > div > div"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/en",
+              "selector": "#qen2w > div > div > div"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/en",
+              "selector": "#PxyEO > div > div > div"
+            },
+            {
+              "url": "https://www.reply.com/en",
+              "selector": "#f7tiV > div > div > div"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(93.67deg, rgb(240, 13, 108) -0.33%, rgb(248, 154, 35) 100%)",
+          "count": 32,
+          "area": 14516679,
+          "sources": [
+            {
+              "url": "https://www.reply.com/4brands-reply/de/revenue-growth-management",
+              "selector": "div > section:nth-of-type(10) > div > div > div > rose-banner-runtime > div:nth-of-type(2) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.reply.com/en/3d-and-mixed-reality",
+              "selector": "div > section:nth-of-type(13) > div > div > div > rose-banner-runtime > div:nth-of-type(2) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.reply.com/en/ai-powered-software-engineering",
+              "selector": "div > section:nth-of-type(8) > div > div > div > rose-banner-runtime > div:nth-of-type(2) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.reply.com/en/artificial-intelligence",
+              "selector": "div > section:nth-of-type(16) > div > div > div > rose-banner-runtime > div:nth-of-type(2) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.reply.com/en/cloud-computing",
+              "selector": "div > section:nth-of-type(19) > div > div > div > rose-banner-runtime > div:nth-of-type(2) > div:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(360deg, rgba(0, 0, 0, 0) 50%, rgb(21, 31, 39) 50%)",
+          "count": 27,
+          "area": 13188635,
+          "sources": [
+            {
+              "url": "https://www.reply.com/4brands-reply/de",
+              "selector": "#main-content > div > div > div > section:nth-of-type(6)"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de",
+              "selector": "#main-content > div > div > div > section:nth-of-type(10)"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/revenue-growth-management-reve",
+              "selector": "#main-content > div > div > div > section:nth-of-type(16)"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/sac-advanced-scripting",
+              "selector": "#main-content > div > div > div > section:nth-of-type(9)"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/sac-essentials",
+              "selector": "#main-content > div > div > div > section:nth-of-type(9)"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(21, 31, 39) 50%)",
+          "count": 20,
+          "area": 9852514,
+          "sources": [
+            {
+              "url": "https://www.reply.com/4brands-reply/de/composable-customer-data-platform",
+              "selector": "#main-content > div > div > div > section:nth-of-type(4)"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/connected-shelf-iot-supermarket",
+              "selector": "#main-content > div > div > div > section:nth-of-type(5)"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/sap-analytics-cloud",
+              "selector": "#main-content > div > div > div > section:nth-of-type(5)"
+            },
+            {
+              "url": "https://www.reply.com/en/adobe",
+              "selector": "#main-content > div > div > div > section:nth-of-type(14)"
+            },
+            {
+              "url": "https://www.reply.com/en/ai-powered-software-engineering",
+              "selector": "#main-content > div > div > div > section:nth-of-type(3)"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) 50%)",
+          "count": 16,
+          "area": 9007200,
+          "sources": [
+            {
+              "url": "https://www.reply.com/4brands-reply/de/customer-and-consumer-engagement",
+              "selector": "div > div > section:nth-of-type(1) > div > div:nth-of-type(1) > div > gridcontainer-runtime > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/data-and-analytics-strategie-workshop",
+              "selector": "div > div > section:nth-of-type(1) > div > div:nth-of-type(1) > div > gridcontainer-runtime > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/data-value-management",
+              "selector": "div > div > section:nth-of-type(1) > div > div:nth-of-type(1) > div > gridcontainer-runtime > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/demand-driven-replenishment",
+              "selector": "div > div > section:nth-of-type(1) > div > div:nth-of-type(1) > div > gridcontainer-runtime > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/sap-finance-knowledge-and-training",
+              "selector": "div > div > section:nth-of-type(1) > div > div:nth-of-type(1) > div > gridcontainer-runtime > div:nth-of-type(2)"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(340deg, rgb(0, 48, 56) 0%, rgb(1, 71, 83) 100%)",
+          "count": 12,
+          "area": 1933416,
+          "sources": [
+            {
+              "url": "https://www.reply.com/en",
+              "selector": "div > cards-wall-runtime > div > div:nth-of-type(1) > div:nth-of-type(7) > reply-card-runtime > div:nth-of-type(1) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.reply.com/en/3d-and-mixed-reality",
+              "selector": "div > cards-wall-runtime > div > div:nth-of-type(1) > div:nth-of-type(2) > reply-card-runtime > div:nth-of-type(1) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.reply.com/en/ai-now-summit-reply-sail-reply-sovereign-ai",
+              "selector": "#kCscS > div > picture"
+            },
+            {
+              "url": "https://www.reply.com/en/ai-now-summit-reply-sail-reply-sovereign-ai",
+              "selector": "div > div:nth-of-type(2) > div > div > div > reply-card-runtime > div > picture"
+            },
+            {
+              "url": "https://www.reply.com/en/ai-now-summit-reply-sail-reply-sovereign-ai",
+              "selector": "#SA5Wl > div > picture"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7))",
+          "count": 11,
+          "area": 8035200,
+          "sources": [
+            {
+              "url": "https://www.reply.com/4brands-reply/de",
+              "selector": "div > div > section:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1) > gridcontainer-runtime > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/ai-voice-assistant-fmcg-sales",
+              "selector": "div > div > section:nth-of-type(1) > div > div:nth-of-type(1) > div > gridcontainer-runtime > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/artificial-intelligence-consumer-goods",
+              "selector": "div > div > section:nth-of-type(1) > div > div:nth-of-type(1) > div > gridcontainer-runtime > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/demand-driven-replenishment",
+              "selector": "div > div > section:nth-of-type(1) > div > div:nth-of-type(1) > div > gridcontainer-runtime > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/intelligent-product-recommendations",
+              "selector": "div > div > section:nth-of-type(1) > div > div:nth-of-type(1) > div > gridcontainer-runtime > div:nth-of-type(2)"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(94deg, rgb(240, 13, 108), rgb(248, 154, 35) 100%)",
+          "count": 8,
+          "area": 3394941,
+          "sources": [
+            {
+              "url": "https://www.reply.com/en",
+              "selector": "#main-content > div > div > div > section:nth-of-type(11)"
+            },
+            {
+              "url": "https://www.reply.com/en/christmas",
+              "selector": "#main-content > div > div > div > section:nth-of-type(13)"
+            },
+            {
+              "url": "https://www.reply.com/en/company-profile",
+              "selector": "div > div > div > cardcarousel-runtime > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.reply.com/en/frontier-event-2026",
+              "selector": "#main-content > div > div > div > section:nth-of-type(7)"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(rgb(255, 255, 255), rgb(244, 248, 252), rgb(244, 248, 252) 100%)",
+          "count": 8,
+          "area": 634364,
+          "sources": [
+            {
+              "url": "https://www.reply.com/en/frontier-event-2026",
+              "selector": "div > div > div:nth-of-type(1) > div > div > div > gridcontainer-runtime > div"
+            },
+            {
+              "url": "https://www.reply.com/en/frontier-event-2026",
+              "selector": "div > div > div:nth-of-type(2) > div > div > div > gridcontainer-runtime > div"
+            },
+            {
+              "url": "https://www.reply.com/en/frontier-event-2026",
+              "selector": "div > div > div:nth-of-type(3) > div > div > div > gridcontainer-runtime > div"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(244, 248, 252) 50%)",
+          "count": 8,
+          "area": 2119680,
+          "sources": [
+            {
+              "url": "https://www.reply.com/4brands-reply/de/sac-advanced-scripting",
+              "selector": "#main-content > div > div > div > section:nth-of-type(3)"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/sac-essentials",
+              "selector": "#main-content > div > div > div > section:nth-of-type(3)"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/sac-insight-story-design",
+              "selector": "#main-content > div > div > div > section:nth-of-type(3)"
+            },
+            {
+              "url": "https://www.reply.com/4brands-reply/de/sac-modeling-and-insights-lab",
+              "selector": "#main-content > div > div > div > section:nth-of-type(3)"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(120deg, rgba(128, 128, 128, 0.05), rgba(128, 128, 128, 0.1))",
+          "count": 2,
+          "area": 156800,
+          "sources": [
+            {
+              "url": "https://www.reply.com/en/gaming",
+              "selector": "div:nth-of-type(1) > div:nth-of-type(2) > div > div > article:nth-of-type(1) > div > div:nth-of-type(1) > figure"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(82.27deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 100%)",
+          "count": 1,
+          "area": 441202,
+          "sources": [
+            {
+              "url": "https://www.reply.com/en/environment",
+              "selector": "#dyXg6 > div > div"
+            }
+          ]
+        }
+      ]
+    },
+    "voice": {
+      "heroHeadline": "House of Models",
+      "heroLede": "Where enterprise knowledge becomes specialised AI",
+      "ctaSamples": [
+        "View all",
+        "Go to ROSE",
+        "Load more"
+      ],
+      "firstParagraph": "It's not about simply having a vision; it's the ability to make your vision into reality.",
+      "heroImage": null,
+      "heroMedium": {
+        "kind": "video",
+        "source": "home hero video-dam-container (parallax)"
+      }
+    },
+    "modules": [
+      {
+        "id": "candidate-reply-card-carousel",
+        "name": "card carousel",
+        "instances": 69,
+        "signal": "class carousel-item + reply-card in main",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-cards-wall",
+        "name": "case-study masonry wall + load more",
+        "instances": 29,
+        "signal": "cards-wall-item",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-card-hero",
+        "name": "featured banner card (card-hero)",
+        "instances": 25,
+        "signal": "card-hero",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-banner-abstract",
+        "name": "abstract banner CTA",
+        "instances": 16,
+        "signal": "banner-abstract",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-video-hero",
+        "name": "DAM video / parallax hero",
+        "instances": 28,
+        "signal": "video-dam-container / parallax-container",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-accordion",
+        "name": "accordion / FAQ",
+        "instances": 20,
+        "signal": "accordion",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-counter",
+        "name": "stats counter row",
+        "instances": 18,
+        "signal": "counter",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-tabs",
+        "name": "tabs",
+        "instances": 13,
+        "signal": "tabs",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-hubspot-form",
+        "name": "HubSpot form",
+        "instances": 43,
+        "signal": "hs-form",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-contact-band",
+        "name": "\"Want to know more about this topic?\" CTA band",
+        "instances": 16,
+        "signal": "heading repeat",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-related-4brands",
+        "name": "\"Das könnte Sie auch interessieren\" related carousel",
+        "instances": 16,
+        "signal": "heading repeat",
+        "status": "candidate"
+      }
+    ],
+    "breakpoints": {
+      "containerMaxWidth": "1660px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 1660,
+          "via": "max-width",
+          "selector": "heroslider-runtime > div.slides > div.slide.active > div.slide__content.absolute",
+          "pages": [
+            "https://www.reply.com/",
+            "https://www.reply.com/en/iot",
+            "https://www.reply.com/4brands-reply/en",
+            "https://www.reply.com/4brands-reply/de/customer-experience-management",
+            "https://www.reply.com/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+            "https://www.reply.com/en/insights",
+            "https://www.reply.com/en/covid-19-implications-2021",
+            "https://www.reply.com/en/accessibility"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1532,
+          "via": "other",
+          "selector": "div.cards-wall-binding > div.cards-wall-grid-container > div.contents > div.cards-wall-item.featured",
+          "pages": [
+            "https://www.reply.com/en/iot"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1480,
+          "via": "max-width",
+          "selector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.xnmcyxdfoy.xnmcyxdfoy-sm > div.vjvavdnnho.vjvavdnnho-xl",
+          "pages": [
+            "https://www.reply.com/4brands-reply/en"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1066,
+          "via": "fixed",
+          "selector": "#I8xhr > span.colors-1-gbfb",
+          "pages": [
+            "https://www.reply.com/4brands-reply/en"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 832,
+          "via": "fixed",
+          "selector": "div.cards-wall-binding > div.cards-wall-filters.insights > div.filters-container.flex > div.flex.flex-col",
+          "pages": [
+            "https://www.reply.com/en/insights"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 804,
+          "via": "fixed",
+          "selector": "#P7IXA > span.colors-1-gbfb",
+          "pages": [
+            "https://www.reply.com/en/covid-19-implications-2021"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 722,
+          "via": "fixed",
+          "selector": "#EdfLI > span.colors-1-gbfb",
+          "pages": [
+            "https://www.reply.com/4brands-reply/de/customer-experience-management"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 690,
+          "via": "fixed",
+          "selector": "#Gp7wM > span.colors-1-gbfb",
+          "pages": [
+            "https://www.reply.com/4brands-reply/en",
+            "https://www.reply.com/4brands-reply/de/rotkaeppchen-mumm-sektkellereien"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 631,
+          "via": "fixed",
+          "selector": "#GKdvu > span.colors-1-gbfb",
+          "pages": [
+            "https://www.reply.com/4brands-reply/en"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 578,
+          "via": "fixed",
+          "selector": "#Zz3jU > span.colors-1-gbfb",
+          "pages": [
+            "https://www.reply.com/en/iot"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 557,
+          "via": "fixed",
+          "selector": "#lLX4q > span.colors-1-gbfb",
+          "pages": [
+            "https://www.reply.com/en/insights"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 526,
+          "via": "other",
+          "selector": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > article.reply-card-abstract.paragraph-01--light > p",
+          "pages": [
+            "https://www.reply.com/en/iot",
+            "https://www.reply.com/4brands-reply/en",
+            "https://www.reply.com/en/insights"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 490,
+          "via": "fixed",
+          "selector": "#OGhDG > span.colors-1-gbfb",
+          "pages": [
+            "https://www.reply.com/en/covid-19-implications-2021"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 393,
+          "via": "fixed",
+          "selector": "#MD59g > span.colors-1-gbfb",
+          "pages": [
+            "https://www.reply.com/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+            "https://www.reply.com/en/insights",
+            "https://www.reply.com/en/covid-19-implications-2021"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 353,
+          "via": "other",
+          "selector": "div.cards-wall-binding > div.cards-wall-grid-container > div.contents > div.cards-wall-item",
+          "pages": [
+            "https://www.reply.com/en/iot",
+            "https://www.reply.com/4brands-reply/en"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 299,
+          "via": "fixed",
+          "selector": "#q0j8x > span.colors-1-gbfb",
+          "pages": [
+            "https://www.reply.com/4brands-reply/de/customer-experience-management"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 277,
+          "via": "fixed",
+          "selector": "#tnK5u > span.colors-1-gbfb",
+          "pages": [
+            "https://www.reply.com/",
+            "https://www.reply.com/4brands-reply/en",
+            "https://www.reply.com/en/insights"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 250,
+          "via": "fixed",
+          "selector": "#xm7Oc > strong > span.colors-i7-rj6",
+          "pages": [
+            "https://www.reply.com/4brands-reply/en"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.reply.com/",
+          "section": 0,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.lqmeyivemz.lqmeyivemz-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/",
+          "section": 1,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.ollabgxjno.ollabgxjno-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/",
+          "section": 2,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.uzgdvtfwoo.uzgdvtfwoo-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/",
+          "section": 3,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.ajrnpgcako.ajrnpgcako-md",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/",
+          "section": 4,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.tdxbbaqgwk.tdxbbaqgwk-md",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/",
+          "section": 5,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.urpbeaetrc.urpbeaetrc-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/",
+          "section": 6,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.idxltngrgg.idxltngrgg-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/",
+          "section": 7,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.sonvvniucx.sonvvniucx-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/",
+          "section": 8,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.vaomlyswgg.vaomlyswgg-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/",
+          "section": 9,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.ziijwinlum.ziijwinlum-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/",
+          "section": 10,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.bwkcsetuie.bwkcsetuie-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/iot",
+          "section": 0,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.exfyvalvns.exfyvalvns-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/iot",
+          "section": 1,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.rdsnvqyomb.rdsnvqyomb-md",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/iot",
+          "section": 2,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.qefasgwgqb.qefasgwgqb-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/iot",
+          "section": 3,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.dwotgwnikp.dwotgwnikp-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/iot",
+          "section": 4,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.rzbwoixfpo.rzbwoixfpo-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/iot",
+          "section": 5,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.jcjdesgllh.jcjdesgllh-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/iot",
+          "section": 6,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.npaqsovhud.npaqsovhud-md",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/iot",
+          "section": 7,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.zczqirqwyr.zczqirqwyr-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/iot",
+          "section": 8,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.waiyofkkqu.waiyofkkqu-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/iot",
+          "section": 9,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.lddshiltws.lddshiltws-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/en",
+          "section": 0,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.ujputfbxdu.ujputfbxdu-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/en",
+          "section": 1,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.dqovwdfwxu.dqovwdfwxu-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/en",
+          "section": 2,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.icblqmxned.icblqmxned-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/en",
+          "section": 3,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.akonibholf.akonibholf-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/en",
+          "section": 4,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.ujmuwdsxhz.ujmuwdsxhz-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/en",
+          "section": 5,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.fvkykaiztp.fvkykaiztp-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/en",
+          "section": 6,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.gganayxlbn.gganayxlbn-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/en",
+          "section": 7,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.xweorvhgjg.xweorvhgjg-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/en",
+          "section": 8,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.uguakuopiq.uguakuopiq-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/en",
+          "section": 9,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.hvigfkolsp.hvigfkolsp-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/en",
+          "section": 10,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.wpcwuegvgu.wpcwuegvgu-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/en",
+          "section": 11,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.wybacvdmka.wybacvdmka-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/en",
+          "section": 12,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.zhhbofoocj.zhhbofoocj-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/en",
+          "section": 13,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.gljgiheega.gljgiheega-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/en",
+          "section": 14,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.igbadazqxd.igbadazqxd-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/en",
+          "section": 15,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.gajyffjexm.gajyffjexm-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/en",
+          "section": 16,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.wgpknycapc.wgpknycapc-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/en",
+          "section": 17,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.fhrxlwucga.fhrxlwucga-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/en",
+          "section": 18,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.ggsjowjtbn.ggsjowjtbn-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/en",
+          "section": 19,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.xnmcyxdfoy.xnmcyxdfoy-sm",
+          "px": 1480
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/de/customer-experience-management",
+          "section": 0,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.wwweowknqw.wwweowknqw-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/de/customer-experience-management",
+          "section": 1,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.vysixkmmxf.vysixkmmxf-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/de/customer-experience-management",
+          "section": 2,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.rhnznhcmma.rhnznhcmma-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/de/customer-experience-management",
+          "section": 3,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.quzetjveui.quzetjveui-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/de/customer-experience-management",
+          "section": 4,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.kekwsukoov.kekwsukoov-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/de/customer-experience-management",
+          "section": 5,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.wejdyaetxh.wejdyaetxh-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/de/customer-experience-management",
+          "section": 6,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.efnrsjhijz.efnrsjhijz-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/de/customer-experience-management",
+          "section": 7,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.pozluraetv.pozluraetv-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/de/customer-experience-management",
+          "section": 8,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.ufztjrzvsp-xl.ufztjrzvsp",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/de/customer-experience-management",
+          "section": 9,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.xitokvvflo.xitokvvflo-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+          "section": 0,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.ujputfbxdu.ujputfbxdu-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+          "section": 1,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.xqdrkpgyaz.xqdrkpgyaz-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+          "section": 2,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.hygzcxjocy.hygzcxjocy-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+          "section": 3,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.wgrjxhxesa.wgrjxhxesa-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+          "section": 4,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.qtagkftwox.qtagkftwox-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+          "section": 5,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.yvtttnqhud.yvtttnqhud-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+          "section": 6,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.zdkqsdsbop.zdkqsdsbop-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+          "section": 7,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.gxrkczqcsl-sm.gxrkczqcsl-md",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+          "section": 8,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.mfbiemfexe.mfbiemfexe-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/insights",
+          "section": 0,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.dlojnwrfst.dlojnwrfst-md",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/insights",
+          "section": 1,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.ohjqpqjliv.ohjqpqjliv-md",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/insights",
+          "section": 2,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.noakexwxtx.noakexwxtx-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/insights",
+          "section": 3,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.aibtfoqpnr.aibtfoqpnr-md",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/insights",
+          "section": 4,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.wwbfpgcrwf.wwbfpgcrwf-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/insights",
+          "section": 5,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.vggqttnxib.vggqttnxib-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/insights",
+          "section": 6,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.nbecxqxdhg.nbecxqxdhg-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/insights",
+          "section": 7,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.lrrdjsrmnm.lrrdjsrmnm-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/insights",
+          "section": 8,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.lthmpibiaq.lthmpibiaq-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/insights",
+          "section": 9,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.dhriftynlj.dhriftynlj-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/insights",
+          "section": 10,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.tyrojtoouw.tyrojtoouw-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/insights",
+          "section": 11,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.oetmndkesh.oetmndkesh-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/insights",
+          "section": 12,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.bwvtkeebyq.bwvtkeebyq-md",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/insights",
+          "section": 13,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.etkytuxfdy.etkytuxfdy-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/covid-19-implications-2021",
+          "section": 0,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.cybppnurxc.cybppnurxc-sm",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/covid-19-implications-2021",
+          "section": 1,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.gaxckohqrb",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/covid-19-implications-2021",
+          "section": 2,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.cbgwceqmuz.cbgwceqmuz-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/covid-19-implications-2021",
+          "section": 3,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.ckgrkrovds.ckgrkrovds-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/covid-19-implications-2021",
+          "section": 4,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.mqknlrayij.mqknlrayij-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/covid-19-implications-2021",
+          "section": 5,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.zcpybwmocs.zcpybwmocs-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/covid-19-implications-2021",
+          "section": 6,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.qifmcanslm.qifmcanslm-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/covid-19-implications-2021",
+          "section": 7,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.yeilcgflfd.yeilcgflfd-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/covid-19-implications-2021",
+          "section": 8,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.fwhbnwfjmi.fwhbnwfjmi-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/covid-19-implications-2021",
+          "section": 9,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.vgowdixefd.vgowdixefd-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/covid-19-implications-2021",
+          "section": 10,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.dzuvefbnyk.dzuvefbnyk-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/covid-19-implications-2021",
+          "section": 11,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.tysmjasvrz.tysmjasvrz-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/covid-19-implications-2021",
+          "section": 12,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.fhkabnjdtk.fhkabnjdtk-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/covid-19-implications-2021",
+          "section": 13,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.zqfjlcuzzq.zqfjlcuzzq-xl",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/accessibility",
+          "section": 0,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.xslotojcpr",
+          "px": 1660
+        },
+        {
+          "url": "https://www.reply.com/en/accessibility",
+          "section": 1,
+          "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.ezwvqixmfn.ezwvqixmfn-xl",
+          "px": 1660
+        }
+      ],
+      "capRegister": [
+        "module cap 1480px on a single section (div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.xnmcyxdfoy.xnmcyxdfoy-sm > div.vjvavdnnho.vjvavdnnho-xl, https://www.reply.com/4brands-reply/en) — intent or mistake? register it"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-15T09:37:47.355Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.reply.com/",
+          "https://www.reply.com/en/iot",
+          "https://www.reply.com/4brands-reply/en",
+          "https://www.reply.com/4brands-reply/de/customer-experience-management",
+          "https://www.reply.com/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+          "https://www.reply.com/en/insights",
+          "https://www.reply.com/en/covid-19-implications-2021",
+          "https://www.reply.com/en/accessibility"
+        ]
+      }
+    }
+  }
+}

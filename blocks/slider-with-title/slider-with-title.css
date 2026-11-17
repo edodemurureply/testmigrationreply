@@ -1,0 +1,679 @@
+/* slider-with-title — hub content slider (theme .slider-with-title, data-variation "3 items" /
+   "4 items", data-alignment left). Title on the grid (cols 1-4 / 1-6 / 2-7, mb-10), rail of
+   items (gutter 1.25rem / 40px, side padding 40 / 64), nav beside the title >= 768 (cols 7-8 /
+   10-11) or centred below the rail; rail pb-16 -mb-6 (shadow room). */
+.slider-with-title {
+  --sp-t: 0px;
+  --sp-tm: 0px;
+  --sp-b: 0px;
+  --sp-bm: 0px;
+
+  display: grid;
+  grid-template-columns: 100%;
+  padding-top: var(--sp-tm);
+  padding-bottom: var(--sp-bm);
+  color: var(--c-ink);
+}
+
+.slider-with-title.dark {
+  background-color: #151f27;
+  color: #fff;
+}
+
+.slider-with-title.light {
+  background-color: #f4f8fc;
+}
+
+.slider-with-title .slider-with-title-text {
+  grid-area: 1 / 1 / 2 / 2;
+  margin-bottom: calc(40px + var(--sp-hsm, var(--sp-hs, 0px)));
+}
+
+.slider-with-title .slider-with-title-title {
+  grid-column: 1 / span 4;
+}
+
+.slider-with-title .slider-with-title-title :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  font-family: var(--font-lead);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.slider-with-title .slider-with-title-title p {
+  margin: 16px 0 0;
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 170%;
+}
+
+.slider-with-title .slider-with-title-rail {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+  overflow: hidden;
+  margin-bottom: -24px;
+  padding-bottom: 64px;
+}
+
+.slider-with-title .slider-with-title-viewport {
+  width: 100%;
+  max-width: 1660px;
+  margin: 0 auto;
+  touch-action: pan-y;
+  user-select: none;
+}
+
+.slider-with-title .slider-with-title-items {
+  --gutter: 1.25rem;
+  --padding: 40px;
+  --item-width: calc(100% - var(--padding) * 2);
+
+  display: flex;
+  box-sizing: content-box;
+  width: 100%;
+  margin: 0;
+  padding: 0 0 0 var(--padding);
+  column-gap: var(--gutter);
+  list-style: none;
+  transform: translate(0);
+  transition: transform 1s ease-in-out;
+}
+
+.slider-with-title.all-displayed .slider-with-title-items {
+  justify-content: center;
+  padding-left: 0;
+}
+
+.slider-with-title .slider-with-title-item {
+  display: flex;
+  flex: 0 0 var(--item-width);
+  flex-direction: column;
+  max-width: var(--item-width);
+  min-width: 0;
+}
+
+.slider-with-title .slider-with-title-media {
+  margin-bottom: var(--sp-msm, var(--sp-ms, 16px));
+}
+
+.slider-with-title .slider-with-title-media picture,
+.slider-with-title .slider-with-title-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.slider-with-title.icons .slider-with-title-media img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.slider-with-title .slider-with-title-item-title :is(h1, h2, h3, h4, h5, h6, p) {
+  margin: 0 0 var(--sp-ts, 5px);
+  font-family: var(--font-lead);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.slider-with-title .slider-with-title-item-title.text p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.slider-with-title .slider-with-title-item-body :is(p, li) {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 170%;
+}
+
+/* variant pmtext (fix-hub-l, en/data-world + en/cloud-computing icon rails): the source copy is
+   ProseMirror p.text (as the foundation .rich rules) — ligatures off and break-spaces, so a
+   line-end space keeps its width ("...trusted data across" wraps @360 like the source); not on
+   picture paragraphs (pipeline pretty-print newlines). Not named "rich": that class is global. */
+.slider-with-title.pmtext .slider-with-title-item-body :is(p, li):not(:has(picture, img)) {
+  overflow-wrap: break-word;
+  white-space: break-spaces;
+  font-variant-ligatures: none;
+  font-feature-settings: "liga" 0;
+}
+
+.slider-with-title .slider-with-title-item-body * + :is(p, ul, ol) {
+  margin-top: var(--sp-ps, 8px);
+}
+
+/* prose: untyped page-builder copy (h5 / p.text / p.text-teki4 keyword list) */
+.slider-with-title.prose .slider-with-title-item-title :is(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--font-body);
+}
+
+.slider-with-title.prose .slider-with-title-item-body p {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.slider-with-title.prose .slider-with-title-item-body p:has(> em:first-child) {
+  font-family: var(--font-lead);
+  font-size: 14px;
+}
+
+.slider-with-title .slider-with-title-item-body :is(ul, ol) {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.slider-with-title .slider-with-title-item-cta {
+  margin-top: 16px;
+}
+
+.slider-with-title.icons .slider-with-title-item,
+.slider-with-title.center .slider-with-title-item {
+  text-align: center;
+}
+
+.slider-with-title.cards .slider-with-title-item {
+  padding: 24px;
+  border: 1px solid var(--c-line);
+  border-radius: 6px;
+  background: #fff;
+}
+
+.slider-with-title.dark .slider-with-title-item :is(h1, h2, h3, h4, h5, h6, p, li) {
+  color: #fff;
+}
+
+.slider-with-title .slider-with-title-controls {
+  grid-row: 3 / 4;
+  grid-column: 1 / 2;
+  pointer-events: none;
+}
+
+.slider-with-title.all-displayed .slider-with-title-controls {
+  display: none;
+}
+
+.slider-with-title .slider-with-title-nav {
+  display: flex;
+  grid-column: 1 / -1;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.5rem;
+  margin-bottom: 40px;
+}
+
+/* round-bt round-bt--outline */
+.slider-with-title .round-bt {
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  padding: 1px 6px;
+  border: 0.0625rem solid var(--c-ink);
+  border-radius: 50%;
+  background: none;
+  color: var(--c-ink);
+  pointer-events: auto;
+  cursor: pointer;
+  transition: background 0.3s cubic-bezier(0.09, 0.72, 0.76, 1.01);
+}
+
+.slider-with-title.dark .round-bt {
+  border-color: #fff;
+  color: #fff;
+}
+
+.slider-with-title .round-bt::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  pointer-events: none;
+  background: var(--brand-color);
+  opacity: 0;
+  transform: scale(0);
+  transition: transform 0.4s cubic-bezier(0.09, 0.72, 0.76, 1.01), opacity 0.3s cubic-bezier(0.09, 0.72, 0.76, 1.01);
+}
+
+.slider-with-title .round-bt svg {
+  position: relative;
+  z-index: 1;
+}
+
+.slider-with-title .round-bt:hover {
+  border-color: transparent;
+  color: var(--text-on-brand-color);
+}
+
+.slider-with-title .round-bt:hover::after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.slider-with-title .round-bt:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+@media (width >= 768px) {
+  .slider-with-title {
+    padding-top: var(--sp-t);
+    padding-bottom: var(--sp-b);
+  }
+
+  .slider-with-title .slider-with-title-title {
+    grid-column: 1 / span 6;
+  }
+
+  .slider-with-title .slider-with-title-text {
+    margin-bottom: calc(40px + var(--sp-hs, 0px));
+  }
+
+  .slider-with-title .slider-with-title-media {
+    margin-bottom: var(--sp-ms, 32px);
+  }
+
+  .slider-with-title .slider-with-title-item-title :is(h1, h2, h3, h4, h5, h6, p) {
+    margin-bottom: var(--sp-ts, 8px);
+  }
+
+  .slider-with-title .slider-with-title-items {
+    --gutter: 40px;
+    --padding: 64px;
+    --item-width: calc((100% - var(--padding) * 2 - var(--gutter)) / 2);
+  }
+
+  .slider-with-title .slider-with-title-controls {
+    grid-area: 1 / 1 / 2 / 2;
+    align-self: end;
+    margin-bottom: 40px;
+  }
+
+  .slider-with-title .slider-with-title-nav {
+    grid-column: 7 / span 2;
+    justify-self: end;
+    margin-bottom: 0;
+  }
+}
+
+@media (width >= 1024px) {
+  .slider-with-title .slider-with-title-title {
+    grid-column: 2 / span 6;
+  }
+
+  .slider-with-title .slider-with-title-items {
+    --item-width: calc((100% - var(--padding) * 2 - var(--gutter) * 2) / 3);
+  }
+
+  .slider-with-title .slider-with-title-nav {
+    grid-column: 10 / span 2;
+  }
+}
+
+@media (width >= 1440px) {
+  .slider-with-title .slider-with-title-title :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 36px;
+  }
+
+  .slider-with-title.four .slider-with-title-items {
+    --item-width: calc((100% - var(--padding) * 2 - var(--gutter) * 3) / 4);
+  }
+
+  .slider-with-title .slider-with-title-item-title :is(h1, h2, h3, h4, h5, h6, p) {
+    font-size: 24px;
+  }
+
+  .slider-with-title .slider-with-title-item-title.text p {
+    font-size: 20px;
+  }
+}
+
+/* stylelint-disable no-descending-specificity -- website variant appended after the base */
+
+/* variant website (fix-hub-e, en/aws "Focus on Reply Companies"): items are the live
+   reply-card card-website-default — 16:9 image (radius .375rem), body margin 1.25rem 0 .875rem:
+   infoline (.label--xsmall-upcase #586674, mb .75rem), title (.h5--medium 20 / 24 px, 400, 1.3,
+   min-height 3.25 / 3.875rem, 2 lines), abstract (14 px / 300 / 1.7, mt .75rem mb .25rem, 4 / 5 / 3
+   lines), sitelinks (10 px label 500, underlined, mt .75rem) */
+.slider-with-title.website .slider-with-title-media {
+  margin-bottom: 0;
+}
+
+.slider-with-title.website .slider-with-title-media picture {
+  overflow: hidden;
+  border-radius: 0.375rem;
+}
+
+.slider-with-title.website .slider-with-title-media img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.slider-with-title.website .slider-with-title-item-title.text p {
+  margin: 1.25rem 0 0.75rem;
+  color: #586674;
+  font-family: var(--font-label);
+  font-size: 0.625rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.012em;
+  text-transform: uppercase;
+}
+
+.slider-with-title.website .slider-with-title-item-body :is(h1, h2, h3, h4, h5, h6) {
+  display: -webkit-box;
+  overflow: hidden;
+  min-height: 3.25rem;
+  margin: 0;
+  color: var(--c-ink);
+  font-family: var(--font-body);
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 0.015em;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.slider-with-title.website .slider-with-title-item-body :is(h1, h2, h3, h4, h5, h6) a {
+  color: inherit;
+}
+
+.slider-with-title.website .slider-with-title-item-body p {
+  display: -webkit-box;
+  overflow: hidden;
+  margin: 0.75rem 0 0.25rem;
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.7;
+  letter-spacing: 0.015em;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+
+.slider-with-title.website .slider-with-title-item-cta {
+  margin: 0.75rem 0 0.875rem;
+}
+
+.slider-with-title.website .slider-with-title-item-cta p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.slider-with-title.website .slider-with-title-item-cta a:any-link {
+  display: inline;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  color: var(--c-ink);
+  font-family: var(--font-label);
+  font-size: 0.625rem;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.012em;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+@media (width >= 1024px) {
+  .slider-with-title.website .slider-with-title-item-body p {
+    -webkit-line-clamp: 5;
+  }
+}
+
+@media (width >= 1440px) {
+  .slider-with-title.website .slider-with-title-item-body :is(h1, h2, h3, h4, h5, h6) {
+    min-height: 3.875rem;
+    font-size: 1.5rem;
+  }
+
+  .slider-with-title.website .slider-with-title-item-body p {
+    -webkit-line-clamp: 3;
+  }
+}
+/* stylelint-enable no-descending-specificity */
+
+/* variant peek (fix-hub-e, en-design "Our services"): the live infinite rail shows the last item
+   one gutter left of the first (its loop clone); the clone is prepended and the track pulled left
+   by one item + gutter so the first real item keeps its place */
+.slider-with-title.peek:not(.all-displayed) .slider-with-title-items {
+  margin-left: calc(-1 * (var(--item-width) + var(--gutter)));
+}
+
+.slider-with-title.all-displayed .slider-with-title-item.clone {
+  display: none;
+}
+
+/* adobe-eco (fix-hub-e, en/adobe ecosystem rail, live probe 1440 / 360): 120 px icons, media ->
+   title 24 / 42 px, title -> body 12 / 24 px; white band < 768, ice band >= 768 */
+.slider-with-title.adobe-eco {
+  --sp-ms: 24px;
+  --sp-ts: 12px;
+}
+
+.slider-with-title.adobe-eco .slider-with-title-media img {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+@media (width >= 768px) {
+  .slider-with-title.adobe-eco {
+    --sp-ms: 42px;
+    --sp-ts: 24px;
+
+    background-color: #f4f8fc;
+  }
+}
+
+/* video media (fix-hub-e, en/digital-experience agencies rail): the live video-dam-container — the
+   DAM player in a 16:9 box (radius .375rem with website) and the 32 px glass pause disc top right */
+.slider-with-title .slider-with-title-media.video {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  border-radius: 0.375rem;
+  background-color: #151f27;
+}
+
+.slider-with-title .slider-with-title-video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.slider-with-title .slider-with-title-player-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.slider-with-title .slider-with-title-toggle {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #ffffff1f;
+  backdrop-filter: blur(20px);
+  cursor: pointer;
+}
+
+/* variant sites (fix-hub-g, en/adobe "Reply companies" card-website rail): the last body paragraph
+   is the live .reply-card-sitelinks (label--xsmall-upcase: 10 px / 27 px, 500, uppercase; 17 px
+   under the abstract, 32 px card bottom margin) — authored as plain text or several links */
+.slider-with-title.website.sites .slider-with-title-item-body p:last-child:not(:first-child) {
+  display: block;
+  margin: 17px 0 32px;
+  font-family: var(--font-label);
+  font-size: 0.625rem;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0.012em;
+  text-transform: uppercase;
+}
+
+.slider-with-title.website.sites .slider-with-title-item-body p:last-child:not(:first-child) a {
+  color: var(--c-ink);
+  text-decoration: underline;
+}
+
+/* sites: the live adobe company cards keep the image's own 2.06:1 cut (412 x 200 @1440, not the
+   aws 16:9 box) and set the infoline untracked (one line, 283 px for the longest label) */
+.slider-with-title.website.sites .slider-with-title-media img {
+  aspect-ratio: auto;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.slider-with-title.website.sites .slider-with-title-item-title.text p {
+  letter-spacing: normal;
+}
+
+/* variant tiles (fix-hub-i, en/google-cloud specializations): the live items are #f4f8fc tiles
+   (padding 30 / 20 / 24), a 200 px picture centred (radius 6), the copy
+   24 px under it (20 px below 1024), centred ink copy also on a dark band */
+.slider-with-title.tiles .slider-with-title-item {
+  padding: 30px 20px 24px;
+  background: #f4f8fc;
+  text-align: center;
+}
+
+.slider-with-title.tiles .slider-with-title-media {
+  margin-bottom: 20px;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.slider-with-title.tiles .slider-with-title-media img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.slider-with-title.tiles .slider-with-title-item :is(h1, h2, h3, h4, h5, h6, p, li) {
+  color: var(--c-ink, #151f27);
+}
+
+@media (width >= 1024px) {
+  .slider-with-title.tiles .slider-with-title-media {
+    margin-bottom: 24px;
+  }
+}
+
+/* tiles: the source sets one tile's copy in a heading tag (h1 at the body copy's 14 px / 300) */
+.slider-with-title.tiles .slider-with-title-item :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+/* fix-hub-h: the sites card body keeps the live reply-card-body bottom margin (14 px) below 768
+   (en/adobe 360: live item 493 px, delivered 480 without it) */
+@media (width < 768px) {
+  .slider-with-title.website.sites .slider-with-title-item-body {
+    margin-bottom: 14px;
+  }
+}
+
+/* variant col16 (fix-hub-j, en-environment waste-management rail, live probe 360 / 1440): the item
+   copy column is the item less 40 px (left-aligned, copy centred: 240 of 280 / 371 of 411), body
+   copy in the text face 16 / 27 px 300; the icon sits 10 px down below 768 */
+.slider-with-title.col16 .slider-with-title-item > * {
+  width: calc(100% - 40px);
+}
+
+.slider-with-title.col16 .slider-with-title-item-body :is(p, li) {
+  font-family: var(--font-text);
+  font-size: 16px;
+  line-height: 27px;
+}
+
+@media (width < 768px) {
+  .slider-with-title.col16 .slider-with-title-media {
+    margin-top: 10px;
+  }
+}
+
+/* stylelint-disable no-descending-specificity -- sitelinks variant appended after the base */
+
+/* variant sitelinks (fix-hub-k, en/digital-experience "Our agencies" card-website rail, live probe
+   360): every card ends in the live .reply-card-sitelinks (label--xsmall-upcase 10 px, 500,
+   uppercase, underlined) — a body paragraph of several links or a lone link (cta) alike; infoline
+   untracked. Below 768 the live geometry: 27 px line, 17 px under the abstract, 32 px bottom
+   margin, card-body bottom 14 px; >= 768 the paragraph keeps the website body box (23.8 px line,
+   1440 gate: the 360 geometry ran the rail 33 px taller than live) */
+.slider-with-title.website.sitelinks .slider-with-title-item-body p:has(> a) {
+  font-family: var(--font-label);
+  font-size: 0.625rem;
+  font-weight: 500;
+  line-height: 23.8px;
+  letter-spacing: 0.012em;
+  text-transform: uppercase;
+}
+
+.slider-with-title.website.sitelinks .slider-with-title-item-body p:has(> a) a {
+  color: var(--c-ink);
+  text-decoration: underline;
+}
+
+.slider-with-title.website.sitelinks .slider-with-title-item-title.text p {
+  letter-spacing: normal;
+}
+
+@media (width < 768px) {
+  .slider-with-title.website.sitelinks .slider-with-title-item-body p:has(> a),
+  .slider-with-title.website.sitelinks .slider-with-title-item-cta p {
+    display: block;
+    margin: 17px 0 32px;
+    font-family: var(--font-label);
+    font-size: 0.625rem;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.012em;
+    text-transform: uppercase;
+  }
+
+  .slider-with-title.website.sitelinks .slider-with-title-item-cta {
+    margin: 0;
+  }
+
+  .slider-with-title.website.sitelinks .slider-with-title-item-cta a:any-link {
+    line-height: 27px;
+  }
+
+  .slider-with-title.website.sitelinks .slider-with-title-item-body {
+    margin-bottom: 14px;
+  }
+}
+/* stylelint-enable no-descending-specificity */

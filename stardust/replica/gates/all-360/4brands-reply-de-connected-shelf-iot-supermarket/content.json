@@ -1,0 +1,3518 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-17T01:08:30.329Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.reply.com/4brands-reply/de/connected-shelf-iot-supermarket",
+  "at": "2026-11-17T01:08:07.544Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6577,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-bottom.w-full > div.logo.flex > a",
+    "x": 40,
+    "y": 0,
+    "w": 190,
+    "h": 64,
+    "text": "logo",
+    "href": "/4brands-reply/de"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.logo.flex > a > img",
+    "x": 40,
+    "y": 0,
+    "w": 190,
+    "h": 64,
+    "text": "logo",
+    "file": "65e121cb-a2d4-437e-996d-420a6ce754e1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.lg:hidden.first-level > button#mobile-menu-toggle",
+    "x": 296,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "text": "toggle menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.lg:hidden.first-level > button#mobile-menu-toggle",
+    "x": 296,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "label": "toggle menu",
+    "value": "toggle menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.grid-bg__container.absolute > picture > img.grid-bg.w-full",
+    "x": 0,
+    "y": 18,
+    "w": 360,
+    "h": 608,
+    "text": "",
+    "file": "71d7b568-ebb8-451c-82b6-dddab52b265e"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.category-label.light > div.category-name",
+    "x": 56,
+    "y": 288,
+    "w": 106,
+    "h": 14,
+    "text": "Best Practice"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h1#UF703",
+    "x": 40,
+    "y": 318,
+    "w": 280,
+    "h": 238,
+    "level": 1,
+    "text": "iot im supermarkt: das intelligente und vernetzte regal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h1#UF703 > span.colors-1-gbfb",
+    "x": 40,
+    "y": 317,
+    "w": 266,
+    "h": 238,
+    "text": "IoT im Supermarkt: das intelligente und vernetzte Regal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-vzc3d",
+    "x": 40,
+    "y": 644,
+    "w": 280,
+    "h": 108,
+    "text": "Leere Regale, massig Kunden im Laden und kein Nachschub in Sicht: Der Albtraum e"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.inline-block > div.hubspot-container > button.cursor-pointer.button",
+    "x": 40,
+    "y": 776,
+    "w": 203,
+    "h": 41,
+    "text": "kontaktieren sie uns"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.inline-block > div.hubspot-container > button.cursor-pointer.button",
+    "x": 40,
+    "y": 776,
+    "w": 203,
+    "h": 41,
+    "label": "trigger",
+    "value": "kontaktieren sie uns",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 40,
+    "y": 933,
+    "w": 280,
+    "h": 168,
+    "text": "Die Lösung? Das „Connected Shelf“ – ein intelligentes, voll vernetztes Regal."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#y0Peg",
+    "x": 40,
+    "y": 1205,
+    "w": 280,
+    "h": 34,
+    "level": 3,
+    "text": "szenario"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 40,
+    "y": 1262,
+    "w": 280,
+    "h": 459,
+    "text": "Leere Regale, massig Kunden im Laden und kein Nachschub in Sicht: Der Albtraum e"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 40,
+    "y": 1753,
+    "w": 280,
+    "h": 540,
+    "text": "Damit leere Fächer der Vergangenheit angehören, entwickelt 4brands Reply, das au"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#wxfZm",
+    "x": 40,
+    "y": 2349,
+    "w": 280,
+    "h": 34,
+    "level": 3,
+    "text": "vorteile"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-1-gbfb",
+    "x": 74,
+    "y": 2469,
+    "w": 212,
+    "h": 107,
+    "text": "Regallücken mit intelligenten Monitoringwerkzeugen vorbeugen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-align-center > span.colors-1-gbfb",
+    "x": 53,
+    "y": 2711,
+    "w": 254,
+    "h": 66,
+    "text": "IoT-Technologien setzen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-align-center > span.colors-i7-rj6",
+    "x": 80,
+    "y": 2745,
+    "w": 189,
+    "h": 66,
+    "text": "neue Maßstäbe"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-align-center > span.colors-1-gbfb",
+    "x": 48,
+    "y": 2778,
+    "w": 264,
+    "h": 166,
+    "text": "für Bestandsmanagement und Kundenzufriedenheit."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > picture > img.content.picture",
+    "x": 120,
+    "y": 3078,
+    "w": 120,
+    "h": 120,
+    "text": "",
+    "file": "a4187293-df01-43a7-96c4-47c8343e5d73"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-align-center > span.colors-1-gbfb",
+    "x": 59,
+    "y": 3220,
+    "w": 242,
+    "h": 22,
+    "text": "Neues Einkaufserlebnis"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-xufux > span.colors-1-gbfb",
+    "x": 52,
+    "y": 3259,
+    "w": 255,
+    "h": 64,
+    "text": "Die Nutzung von IoT-Technologien ermöglicht eine Früherkennung von drohenden Reg"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "cards-tabber-runtime#bpyig > div.tabber__controls.pointer-events-none > button.tabber__prev.pointer-events-auto",
+    "x": 128,
+    "y": 2994,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "cards-tabber-runtime#bpyig > div.tabber__controls.pointer-events-none > button.tabber__next.pointer-events-auto",
+    "x": 184,
+    "y": 2994,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-3wpew > span.colors-1-gbfb",
+    "x": 40,
+    "y": 3471,
+    "w": 268,
+    "h": 63,
+    "text": "Connected Shelf für ein neues Einkaufserlebnis im stationären Handel"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-xufux > span.colors-1-gbfb",
+    "x": 40,
+    "y": 3567,
+    "w": 278,
+    "h": 444,
+    "text": "4brands Reply hat eine Lösung für ein Connected Shelf entwickelt: Die Nutzung vo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-xufux > span.colors-1-gbfb",
+    "x": 40,
+    "y": 4030,
+    "w": 277,
+    "h": 611,
+    "text": "4brands Reply nutzt IoT-Technologien im Regal und hat mit Hilfe der SAP Cloud Pl"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-hzf46 > a",
+    "x": 84,
+    "y": 4808,
+    "w": 150,
+    "h": 22,
+    "text": "4brands reply",
+    "href": "/4brands-reply/de"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > picture > img.content.picture",
+    "x": 84,
+    "y": 4852,
+    "w": 192,
+    "h": 83,
+    "text": "",
+    "file": "38c0db8d-047e-44b6-8ffe-9d2a57010952"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-xufux",
+    "x": 84,
+    "y": 4955,
+    "w": 192,
+    "h": 762,
+    "text": "4brands Reply ist Branchenexperte für die Konsumgüterindustrie und verbindet Ana"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.block > nav.footer.footer-minisites > img",
+    "x": 40,
+    "y": 5853,
+    "w": 211,
+    "h": 71,
+    "text": "logo",
+    "file": "06f51f8d-270a-4b57-ad4e-47ac6ad7083d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a#Contact Us",
+    "x": 40,
+    "y": 5936,
+    "w": 280,
+    "h": 48,
+    "text": "contact us",
+    "href": "/4brands-reply/de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a#Careers",
+    "x": 40,
+    "y": 6004,
+    "w": 280,
+    "h": 48,
+    "text": "careers",
+    "href": "/de/about/careers/de/job-search"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a#Impressum",
+    "x": 40,
+    "y": 6072,
+    "w": 280,
+    "h": 48,
+    "text": "impressum",
+    "href": "/de/impressum"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#footer_privacy_and_legal",
+    "x": 40,
+    "y": 6204,
+    "w": 280,
+    "h": 20,
+    "text": "privacy and legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#footer_privacy_and_legal",
+    "x": 40,
+    "y": 6204,
+    "w": 280,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy and legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 6251,
+    "w": 215,
+    "h": 17,
+    "text": "datenschutz- und cookie richtlinie",
+    "href": "/de/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 6288,
+    "w": 194,
+    "h": 17,
+    "text": "datenschutzhinweis (bewerber)",
+    "href": "/de/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 6325,
+    "w": 181,
+    "h": 17,
+    "text": "datenschutzhinweis (kunden)",
+    "href": "/de/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 6361,
+    "w": 211,
+    "h": 17,
+    "text": "datenschutzhinweis (dienstleister)",
+    "href": "/de/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 6398,
+    "w": 197,
+    "h": 17,
+    "text": "datenschutzhinweis (marketing)",
+    "href": "/de/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 6435,
+    "w": 255,
+    "h": 17,
+    "text": "grundsatzerklärung - lksg (deutschland)",
+    "href": "/de/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 6472,
+    "w": 147,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/de/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.copyright__info.footer-text--light > a.copyright__logo",
+    "x": 40,
+    "y": 6537,
+    "w": 52,
+    "h": 26,
+    "text": "go to reply website",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.copyright__info.footer-text--light > span.copyright__copy",
+    "x": 109,
+    "y": 6542,
+    "w": 81,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.copyright-minisites.text-white > div.flex.justify-between > button#cookie-pref-center",
+    "x": 296,
+    "y": 832,
+    "w": 48,
+    "h": 48,
+    "text": "open cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 9,
+    "textNodes": 46,
+    "controls": 19,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/connected-shelf-iot-supermarket",
+  "at": "2026-11-17T01:08:30.202Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6503,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-main > div.site-header-logo.site-header-logo-img > a",
+    "x": 40,
+    "y": 0,
+    "w": 190,
+    "h": 64,
+    "text": "logo",
+    "href": "/4brands-reply/de"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-logo-4brands > img",
+    "x": 40,
+    "y": 0,
+    "w": 190,
+    "h": 64,
+    "text": "logo",
+    "file": "logo-4brands"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.mobile-toggle > button#mobile-menu-toggle",
+    "x": 296,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "text": "toggle menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.mobile-toggle > button#mobile-menu-toggle",
+    "x": 296,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "label": "toggle menu",
+    "value": "toggle menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-hero-pic.b4-hero-pic-mobile > picture > img",
+    "x": 0,
+    "y": 18,
+    "w": 360,
+    "h": 608,
+    "text": "",
+    "file": "media_1f887bf481c4acc9286edb607b381dc5c6"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-hero-title.r-cell > div.b4-hero-kicker > p",
+    "x": 56,
+    "y": 288,
+    "w": 118,
+    "h": 14,
+    "text": "Best Practice"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-hero-title.r-cell > div.b4-hero-h > h1#iot-im-supermarkt-das-intelligente-und-vernetzte-regal",
+    "x": 40,
+    "y": 318,
+    "w": 280,
+    "h": 238,
+    "level": 1,
+    "text": "iot im supermarkt: das intelligente und vernetzte regal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-hero-h > h1#iot-im-supermarkt-das-intelligente-und-vernetzte-regal > span",
+    "x": 40,
+    "y": 317,
+    "w": 259,
+    "h": 238,
+    "text": "IoT im Supermarkt: das intelligente und vernetzte Regal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-hero-text.r-cell > div.b4-hero-lead > p",
+    "x": 40,
+    "y": 644,
+    "w": 280,
+    "h": 108,
+    "text": "Leere Regale, massig Kunden im Laden und kein Nachschub in Sicht: Der Albtraum e"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-hero-text.r-cell > div.b4-hero-cta > div.b4-hero-btn",
+    "x": 40,
+    "y": 776,
+    "w": 202,
+    "h": 41,
+    "text": "kontaktieren sie uns"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-hero-text.r-cell > div.b4-hero-cta > div.b4-hero-btn",
+    "x": 40,
+    "y": 776,
+    "w": 202,
+    "h": 41,
+    "label": "trigger",
+    "value": "kontaktieren sie uns",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.statement-cell.r-cell > div.statement-text > p",
+    "x": 40,
+    "y": 933,
+    "w": 280,
+    "h": 168,
+    "text": "Die Lösung? Das „Connected Shelf“ – ein intelligentes, voll vernetztes Regal."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-intro-grid.r-grid > div.b4-intro-title.r-cell > h3#szenario",
+    "x": 40,
+    "y": 1177,
+    "w": 280,
+    "h": 34,
+    "level": 3,
+    "text": "szenario"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-intro-title.r-cell > h3#szenario > span",
+    "x": 40,
+    "y": 1177,
+    "w": 128,
+    "h": 32,
+    "text": "Szenario"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-intro-grid.r-grid > div.b4-intro-text.b4-intro-col1 > p",
+    "x": 40,
+    "y": 1234,
+    "w": 280,
+    "h": 459,
+    "text": "Leere Regale, massig Kunden im Laden und kein Nachschub in Sicht: Der Albtraum e"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-intro-grid.r-grid > div.b4-intro-text.b4-intro-col2 > p",
+    "x": 40,
+    "y": 1725,
+    "w": 280,
+    "h": 540,
+    "text": "Damit leere Fächer der Vergangenheit angehören, entwickelt 4brands Reply, das au"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-text-grid.r-grid > div.b4-text-title.r-cell > h3#vorteile",
+    "x": 40,
+    "y": 2321,
+    "w": 280,
+    "h": 34,
+    "level": 3,
+    "text": "vorteile"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-slider-card > div.b4-slider-body > p",
+    "x": 60,
+    "y": 2441,
+    "w": 240,
+    "h": 109,
+    "text": "Regallücken mit intelligenten Monitoringwerkzeugen vorbeugen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.statement-cell.r-cell > div.statement-text > p",
+    "x": 40,
+    "y": 2683,
+    "w": 280,
+    "h": 202,
+    "text": "IoT-Technologien setzen für Bestandsmanagement und Kundenzufriedenheit."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-tabber-grid > div.b4-tabber-controls > button.b4-tabber-prev.round-bt",
+    "x": 128,
+    "y": 2933,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-tabber-grid > div.b4-tabber-controls > button.b4-tabber-next.round-bt",
+    "x": 184,
+    "y": 2933,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-tabber-nav-wrap > ul.b4-tabber-nav > li#b4-tabber-1-tab-1",
+    "x": 40,
+    "y": 3017,
+    "w": 280,
+    "h": 355,
+    "label": "tab selected",
+    "value": "neues einkaufserlebnis die nutzung von iot-technologien ermö",
+    "via": "aria-selected"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-tabber-iconbox > picture > img",
+    "x": 120,
+    "y": 3017,
+    "w": 120,
+    "h": 120,
+    "text": "",
+    "file": "media_193b7dd3143b65a993ce4ff889b399bca6"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-tabber-body > div.b4-tabber-title > p",
+    "x": 40,
+    "y": 3408,
+    "w": 280,
+    "h": 67,
+    "text": "Connected Shelf für ein neues Einkaufserlebnis im stationären Handel"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-tabber-body > div.b4-tabber-text > p",
+    "x": 40,
+    "y": 3503,
+    "w": 280,
+    "h": 452,
+    "text": "4brands Reply hat eine Lösung für ein Connected Shelf entwickelt: Die Nutzung vo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-tabber-body > div.b4-tabber-text > p",
+    "x": 40,
+    "y": 3955,
+    "w": 280,
+    "h": 619,
+    "text": "4brands Reply nutzt IoT-Technologien im Regal und hat mit Hilfe der SAP Cloud Pl"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-profile-link > p > a",
+    "x": 84,
+    "y": 4736,
+    "w": 149,
+    "h": 22,
+    "text": "4brands reply",
+    "href": "/4brands-reply/de"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-profile-media > picture > img",
+    "x": 84,
+    "y": 4780,
+    "w": 192,
+    "h": 83,
+    "text": "",
+    "file": "media_10517eb8142538a72d95a50c005a536204"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-profile-body > div.b4-profile-text > p",
+    "x": 84,
+    "y": 4883,
+    "w": 192,
+    "h": 762,
+    "text": "4brands Reply ist Branchenexperte für die Konsumgüterindustrie und verbindet Ana"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-wrap > nav.brand-footer > img.brand-footer-logo",
+    "x": 40,
+    "y": 5780,
+    "w": 211,
+    "h": 71,
+    "text": "logo",
+    "file": "logo-4brands-footer"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.brand-footer-cta-list > li > a.footer-cta",
+    "x": 40,
+    "y": 5863,
+    "w": 280,
+    "h": 48,
+    "text": "contact us",
+    "href": "/4brands-reply/de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.brand-footer-cta-list > li > a.footer-cta",
+    "x": 40,
+    "y": 5931,
+    "w": 280,
+    "h": 48,
+    "text": "careers",
+    "href": "/de/about/careers/de/job-search"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.brand-footer-cta-list > li > a.footer-cta",
+    "x": 40,
+    "y": 5999,
+    "w": 280,
+    "h": 48,
+    "text": "impressum",
+    "href": "/de/impressum"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.brand-footer-grid > li.brand-footer-legal > button#footer_privacy_and_legal",
+    "x": 40,
+    "y": 6131,
+    "w": 280,
+    "h": 20,
+    "text": "privacy and legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.brand-footer-grid > li.brand-footer-legal > button#footer_privacy_and_legal",
+    "x": 40,
+    "y": 6131,
+    "w": 280,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy and legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 6179,
+    "w": 214,
+    "h": 17,
+    "text": "datenschutz- und cookie richtlinie",
+    "href": "/de/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 6216,
+    "w": 192,
+    "h": 17,
+    "text": "datenschutzhinweis (bewerber)",
+    "href": "/de/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 6253,
+    "w": 181,
+    "h": 17,
+    "text": "datenschutzhinweis (kunden)",
+    "href": "/de/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 6290,
+    "w": 209,
+    "h": 17,
+    "text": "datenschutzhinweis (dienstleister)",
+    "href": "/de/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 6327,
+    "w": 194,
+    "h": 17,
+    "text": "datenschutzhinweis (marketing)",
+    "href": "/de/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 6363,
+    "w": 258,
+    "h": 17,
+    "text": "grundsatzerklärung - lksg (deutschland)",
+    "href": "/de/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 6400,
+    "w": 146,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/de/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.brand-copyright-row > div.brand-copyright-info.footer-text-light > a.brand-copyright-logo",
+    "x": 40,
+    "y": 6465,
+    "w": 52,
+    "h": 26,
+    "text": "go to reply website",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.brand-copyright-row > div.brand-copyright-info.footer-text-light > span.brand-copyright-copy",
+    "x": 109,
+    "y": 6470,
+    "w": 84,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.brand-copyright > div.brand-copyright-row > button#cookie-pref-center",
+    "x": 296,
+    "y": 832,
+    "w": 48,
+    "h": 48,
+    "text": "open cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 1,
+    "offPage": 12,
+    "textNodes": 46,
+    "controls": 23,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": null,
+     "path": "div.statement-grid.r-grid > div.statement-cell.r-cell > div.statement-text > p",
+     "text": "für bestandsmanagement und kundenzufriedenheit.",
+     "cutMin": 6,
+     "cutMax": 6
+    }
+   ],
+   "findings": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 6,
+     "path": "div.statement-grid.r-grid > div.statement-cell.r-cell > div.statement-text > p",
+     "text": "für bestandsmanagement und kundenzufriedenheit.",
+     "clipper": null,
+     "rect": {
+      "l": 230,
+      "t": 2750,
+      "r": 275,
+      "b": 2782,
+      "w": 45,
+      "h": 32
+     },
+     "clip": null,
+     "lines": 4
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "iot im supermarkt: das intelligente und vernetzte regal",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "szenario",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "vorteile",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 2,
+    "text": 10,
+    "image": 2
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": [
+    "COUNT TEXT"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "COUNT TEXT",
+   "msg": "band \"vorteile\": 10 origin → 6 served visible",
+   "band": 3,
+   "origin": 10,
+   "eds": 6,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 1,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 56,
+    "y": 289,
+    "w": 106,
+    "h": 11
+   },
+   {
+    "x": 40,
+    "y": 317,
+    "w": 120,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 357,
+    "w": 239,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 397,
+    "w": 75,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 436,
+    "w": 216,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 476,
+    "w": 266,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 515,
+    "w": 105,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 648,
+    "w": 267,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 675,
+    "w": 241,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 702,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 729,
+    "w": 122,
+    "h": 18
+   },
+   {
+    "x": 60,
+    "y": 789,
+    "w": 163,
+    "h": 13
+   },
+   {
+    "x": 60,
+    "y": 933,
+    "w": 239,
+    "h": 32
+   },
+   {
+    "x": 44,
+    "y": 966,
+    "w": 273,
+    "h": 32
+   },
+   {
+    "x": 49,
+    "y": 1000,
+    "w": 261,
+    "h": 32
+   },
+   {
+    "x": 72,
+    "y": 1034,
+    "w": 215,
+    "h": 32
+   },
+   {
+    "x": 135,
+    "y": 1067,
+    "w": 89,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 1205,
+    "w": 129,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 1266,
+    "w": 267,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1293,
+    "w": 241,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1320,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1347,
+    "w": 230,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1374,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1401,
+    "w": 253,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1428,
+    "w": 261,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1455,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1482,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1509,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1536,
+    "w": 222,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1563,
+    "w": 239,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1590,
+    "w": 224,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1617,
+    "w": 234,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1644,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1671,
+    "w": 193,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1698,
+    "w": 166,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1757,
+    "w": 191,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1784,
+    "w": 223,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1811,
+    "w": 249,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1838,
+    "w": 202,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1865,
+    "w": 252,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1892,
+    "w": 148,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1919,
+    "w": 261,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1946,
+    "w": 174,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1973,
+    "w": 267,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2000,
+    "w": 230,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2027,
+    "w": 231,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2054,
+    "w": 264,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2081,
+    "w": 209,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2108,
+    "w": 183,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2135,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2162,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2189,
+    "w": 239,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2216,
+    "w": 199,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2243,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2270,
+    "w": 116,
+    "h": 18
+   },
+   {
+    "x": 122,
+    "y": 2349,
+    "w": 116,
+    "h": 32
+   },
+   {
+    "x": 106,
+    "y": 2469,
+    "w": 148,
+    "h": 19
+   },
+   {
+    "x": 121,
+    "y": 2498,
+    "w": 118,
+    "h": 19
+   },
+   {
+    "x": 74,
+    "y": 2527,
+    "w": 212,
+    "h": 19
+   },
+   {
+    "x": 132,
+    "y": 2556,
+    "w": 97,
+    "h": 19
+   },
+   {
+    "x": 53,
+    "y": 2711,
+    "w": 254,
+    "h": 32
+   },
+   {
+    "x": 90,
+    "y": 2745,
+    "w": 102,
+    "h": 32
+   },
+   {
+    "x": 192,
+    "y": 2745,
+    "w": 77,
+    "h": 32
+   },
+   {
+    "x": 80,
+    "y": 2778,
+    "w": 146,
+    "h": 32
+   },
+   {
+    "x": 226,
+    "y": 2778,
+    "w": 54,
+    "h": 32
+   },
+   {
+    "x": 53,
+    "y": 2812,
+    "w": 255,
+    "h": 32
+   },
+   {
+    "x": 108,
+    "y": 2845,
+    "w": 144,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2879,
+    "w": 264,
+    "h": 32
+   },
+   {
+    "x": 157,
+    "y": 2913,
+    "w": 45,
+    "h": 32
+   },
+   {
+    "x": 59,
+    "y": 3220,
+    "w": 242,
+    "h": 22
+   },
+   {
+    "x": 56,
+    "y": 3259,
+    "w": 248,
+    "h": 16
+   },
+   {
+    "x": 52,
+    "y": 3283,
+    "w": 255,
+    "h": 16
+   },
+   {
+    "x": 94,
+    "y": 3307,
+    "w": 173,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3471,
+    "w": 255,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3494,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3516,
+    "w": 60,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3567,
+    "w": 270,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3591,
+    "w": 234,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3615,
+    "w": 221,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3639,
+    "w": 256,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3663,
+    "w": 224,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3686,
+    "w": 213,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3710,
+    "w": 278,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3734,
+    "w": 270,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3758,
+    "w": 230,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3781,
+    "w": 224,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3805,
+    "w": 217,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3829,
+    "w": 262,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3853,
+    "w": 253,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3877,
+    "w": 233,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3900,
+    "w": 221,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3924,
+    "w": 216,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3948,
+    "w": 232,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3972,
+    "w": 262,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3996,
+    "w": 228,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4030,
+    "w": 274,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4054,
+    "w": 246,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4078,
+    "w": 257,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4101,
+    "w": 225,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4125,
+    "w": 255,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4149,
+    "w": 277,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4173,
+    "w": 254,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4197,
+    "w": 195,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4220,
+    "w": 249,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4244,
+    "w": 214,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4268,
+    "w": 230,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4292,
+    "w": 258,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4316,
+    "w": 264,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4339,
+    "w": 220,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4363,
+    "w": 270,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4387,
+    "w": 267,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4411,
+    "w": 265,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4435,
+    "w": 256,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4458,
+    "w": 245,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4482,
+    "w": 222,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4506,
+    "w": 194,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4530,
+    "w": 257,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4553,
+    "w": 266,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4577,
+    "w": 240,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4601,
+    "w": 248,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4625,
+    "w": 126,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 4808,
+    "w": 150,
+    "h": 22
+   },
+   {
+    "x": 84,
+    "y": 4958,
+    "w": 126,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 4982,
+    "w": 177,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5006,
+    "w": 162,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5029,
+    "w": 166,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5053,
+    "w": 101,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5077,
+    "w": 157,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5101,
+    "w": 157,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5125,
+    "w": 181,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5148,
+    "w": 135,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5172,
+    "w": 91,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5196,
+    "w": 134,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5220,
+    "w": 192,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5244,
+    "w": 190,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5267,
+    "w": 181,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5291,
+    "w": 124,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5315,
+    "w": 174,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5339,
+    "w": 159,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5363,
+    "w": 179,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5386,
+    "w": 170,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5410,
+    "w": 181,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5434,
+    "w": 190,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5458,
+    "w": 145,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5482,
+    "w": 192,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5505,
+    "w": 188,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5529,
+    "w": 144,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5553,
+    "w": 170,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5577,
+    "w": 180,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5601,
+    "w": 170,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5624,
+    "w": 167,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5648,
+    "w": 121,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5672,
+    "w": 187,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5696,
+    "w": 171,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 5952,
+    "w": 105,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 6020,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 6088,
+    "w": 104,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 6205,
+    "w": 162,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 6252,
+    "w": 215,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6289,
+    "w": 128,
+    "h": 13
+   },
+   {
+    "x": 168,
+    "y": 6289,
+    "w": 66,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6326,
+    "w": 128,
+    "h": 13
+   },
+   {
+    "x": 168,
+    "y": 6326,
+    "w": 54,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6362,
+    "w": 128,
+    "h": 13
+   },
+   {
+    "x": 168,
+    "y": 6362,
+    "w": 83,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6399,
+    "w": 128,
+    "h": 13
+   },
+   {
+    "x": 168,
+    "y": 6399,
+    "w": 69,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6436,
+    "w": 170,
+    "h": 13
+   },
+   {
+    "x": 210,
+    "y": 6436,
+    "w": 85,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6473,
+    "w": 147,
+    "h": 13
+   },
+   {
+    "x": 109,
+    "y": 6543,
+    "w": 81,
+    "h": 13
+   }
+  ],
+  "eds": [
+   {
+    "x": 56,
+    "y": 288,
+    "w": 118,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 317,
+    "w": 125,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 357,
+    "w": 236,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 397,
+    "w": 77,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 436,
+    "w": 206,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 476,
+    "w": 259,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 515,
+    "w": 107,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 648,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 675,
+    "w": 239,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 702,
+    "w": 256,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 729,
+    "w": 123,
+    "h": 18
+   },
+   {
+    "x": 60,
+    "y": 788,
+    "w": 162,
+    "h": 16
+   },
+   {
+    "x": 58,
+    "y": 933,
+    "w": 244,
+    "h": 32
+   },
+   {
+    "x": 50,
+    "y": 966,
+    "w": 261,
+    "h": 32
+   },
+   {
+    "x": 55,
+    "y": 1000,
+    "w": 250,
+    "h": 32
+   },
+   {
+    "x": 79,
+    "y": 1034,
+    "w": 203,
+    "h": 32
+   },
+   {
+    "x": 135,
+    "y": 1067,
+    "w": 91,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 1177,
+    "w": 128,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 1238,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1265,
+    "w": 244,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1292,
+    "w": 261,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1319,
+    "w": 232,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1346,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1373,
+    "w": 250,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1400,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1427,
+    "w": 265,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1454,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1481,
+    "w": 271,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1508,
+    "w": 217,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1535,
+    "w": 236,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1562,
+    "w": 222,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1589,
+    "w": 233,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1616,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1643,
+    "w": 183,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1670,
+    "w": 165,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1729,
+    "w": 195,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1756,
+    "w": 222,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1783,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1810,
+    "w": 171,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1837,
+    "w": 256,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1864,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1891,
+    "w": 263,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1918,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1945,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1972,
+    "w": 235,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1999,
+    "w": 231,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2026,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2053,
+    "w": 210,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2080,
+    "w": 186,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2107,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2134,
+    "w": 262,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2161,
+    "w": 239,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2188,
+    "w": 203,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2215,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2242,
+    "w": 117,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 2321,
+    "w": 111,
+    "h": 32
+   },
+   {
+    "x": 112,
+    "y": 2445,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 129,
+    "y": 2472,
+    "w": 102,
+    "h": 18
+   },
+   {
+    "x": 85,
+    "y": 2499,
+    "w": 191,
+    "h": 18
+   },
+   {
+    "x": 135,
+    "y": 2526,
+    "w": 90,
+    "h": 18
+   },
+   {
+    "x": 56,
+    "y": 2683,
+    "w": 247,
+    "h": 32
+   },
+   {
+    "x": 93,
+    "y": 2717,
+    "w": 103,
+    "h": 32
+   },
+   {
+    "x": 196,
+    "y": 2717,
+    "w": 71,
+    "h": 32
+   },
+   {
+    "x": 85,
+    "y": 2750,
+    "w": 145,
+    "h": 32
+   },
+   {
+    "x": 230,
+    "y": 2750,
+    "w": 45,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 2784,
+    "w": 326,
+    "h": 32
+   },
+   {
+    "x": 154,
+    "y": 2817,
+    "w": 53,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 2851,
+    "w": 299,
+    "h": 32
+   },
+   {
+    "x": 54,
+    "y": 3159,
+    "w": 252,
+    "h": 22
+   },
+   {
+    "x": 54,
+    "y": 3198,
+    "w": 253,
+    "h": 16
+   },
+   {
+    "x": 52,
+    "y": 3221,
+    "w": 257,
+    "h": 16
+   },
+   {
+    "x": 92,
+    "y": 3245,
+    "w": 176,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3410,
+    "w": 257,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3432,
+    "w": 267,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3454,
+    "w": 61,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3506,
+    "w": 274,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3530,
+    "w": 233,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3553,
+    "w": 223,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3577,
+    "w": 257,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3601,
+    "w": 225,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3625,
+    "w": 212,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3649,
+    "w": 232,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3672,
+    "w": 263,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3696,
+    "w": 264,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3720,
+    "w": 249,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3744,
+    "w": 221,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3767,
+    "w": 272,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3791,
+    "w": 253,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3815,
+    "w": 238,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3839,
+    "w": 224,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3863,
+    "w": 213,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3886,
+    "w": 229,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3910,
+    "w": 259,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3934,
+    "w": 231,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3958,
+    "w": 276,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3982,
+    "w": 253,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4005,
+    "w": 257,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4029,
+    "w": 220,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4053,
+    "w": 256,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4077,
+    "w": 279,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4101,
+    "w": 254,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4124,
+    "w": 197,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4148,
+    "w": 248,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4172,
+    "w": 215,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4196,
+    "w": 231,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4220,
+    "w": 257,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4243,
+    "w": 265,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4267,
+    "w": 218,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4291,
+    "w": 274,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4315,
+    "w": 265,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4339,
+    "w": 264,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4362,
+    "w": 261,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4386,
+    "w": 247,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4410,
+    "w": 219,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4434,
+    "w": 196,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4458,
+    "w": 258,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4481,
+    "w": 273,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4505,
+    "w": 240,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4529,
+    "w": 250,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4553,
+    "w": 130,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 4736,
+    "w": 149,
+    "h": 22
+   },
+   {
+    "x": 84,
+    "y": 4886,
+    "w": 122,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 4910,
+    "w": 171,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 4934,
+    "w": 186,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 4957,
+    "w": 130,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 4981,
+    "w": 96,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5005,
+    "w": 150,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5029,
+    "w": 150,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5052,
+    "w": 176,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5076,
+    "w": 136,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5100,
+    "w": 84,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5124,
+    "w": 125,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5148,
+    "w": 183,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5171,
+    "w": 180,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5195,
+    "w": 183,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5219,
+    "w": 120,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5243,
+    "w": 168,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5267,
+    "w": 155,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5290,
+    "w": 174,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5314,
+    "w": 168,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5338,
+    "w": 175,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5362,
+    "w": 184,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5386,
+    "w": 142,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5409,
+    "w": 187,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5433,
+    "w": 187,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5457,
+    "w": 141,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5481,
+    "w": 166,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5505,
+    "w": 179,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5528,
+    "w": 162,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5552,
+    "w": 166,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5576,
+    "w": 117,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5600,
+    "w": 182,
+    "h": 16
+   },
+   {
+    "x": 84,
+    "y": 5624,
+    "w": 170,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 5878,
+    "w": 105,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5946,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 6014,
+    "w": 102,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 6132,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 6180,
+    "w": 214,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6217,
+    "w": 126,
+    "h": 13
+   },
+   {
+    "x": 166,
+    "y": 6217,
+    "w": 67,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6254,
+    "w": 126,
+    "h": 13
+   },
+   {
+    "x": 166,
+    "y": 6254,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6291,
+    "w": 126,
+    "h": 13
+   },
+   {
+    "x": 166,
+    "y": 6291,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6328,
+    "w": 126,
+    "h": 13
+   },
+   {
+    "x": 166,
+    "y": 6328,
+    "w": 68,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6364,
+    "w": 172,
+    "h": 13
+   },
+   {
+    "x": 212,
+    "y": 6364,
+    "w": 85,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6401,
+    "w": 146,
+    "h": 13
+   },
+   {
+    "x": 109,
+    "y": 6471,
+    "w": 84,
+    "h": 13
+   }
+  ]
+ }
+}

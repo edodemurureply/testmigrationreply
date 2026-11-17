@@ -1,0 +1,23 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.reply.com/en/iot (live side from cache stardust/replica/gates/en-iot-1440/chrome-live.json, probed 2026-11-15T10:23:03.054Z — delete the file to re-probe)
+  build: http://localhost:8791/en-iot-proposed.html
+
+■ header: 5 delta(s) — 8 paired of 8/8 texts, 4/4 icons
+  OFFSET       the region and its 3 paired text(s) sit Δy +6px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+  PAIR         "EN"  Δx -3px (1339→1336); Δy +6px (6→12); Δw +3px (17→20); <button> box 37×17 → 40×17
+  PAIR         "Services"  Δx -8px (494→486); Δy +6px (48→54)
+  PAIR         "Industries"  Δx -7px (612→605); Δy +6px (48→54)
+  PAIR         "Insights & Labs"  Δx -7px (740→733); Δy +6px (48→54)
+  PAIR         "ROSE"  Δx -6px (906→900); Δy +6px (48→54); Δw +5px (41→46); <a> box 41×64 → 46×64
+
+■ footer: 8 delta(s) — 25 paired of 25/25 texts, 7/7 icons
+  PAIR         "Offices"  Δw -2px (45→43)
+  PAIR         "Privacy & Cookie Policy"  Δw +3px (142→145)
+  PAIR         "(Candidate)"  Δw -2px (73→71)
+  PAIR         "CCPA Privacy Notice"  Δw +4px (127→131)
+  PAIR         "(UK & IR)"  Δw +6px (51→57)
+  PAIR         "(Germany)"  Δx +4px (841→845)
+  PAIR         "Accessibility Statement"  Δw -4px (147→143)
+  PAIR         "Contacts"  Δw -3px (88→85)
+
+✗ 13 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

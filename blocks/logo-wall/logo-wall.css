@@ -1,0 +1,200 @@
+/* logo-wall — theme .logo-wall: --col-size from the 4 / 8 / 12 grid, element width 2 cols + 40px,
+   5 per row with 20 px inset 16:9 boxes (>= 768), pages of 2 x 4 logos (< 768), row-gap 2.5rem */
+.logo-wall {
+  --sp-t: 96px;
+  --sp-tm: 80px;
+  --sp-b: 96px;
+  --sp-bm: 40px;
+  --col-size: calc((100% - (40px * 3)) / 4);
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+  width: 100%;
+  overflow: hidden;
+  padding-top: var(--sp-tm);
+  padding-bottom: var(--sp-bm);
+}
+
+.logo-wall.ice {
+  background-color: var(--c-ice);
+}
+
+.logo-wall .logo-wall-title {
+  grid-column: 1 / span 4;
+}
+
+.logo-wall .logo-wall-title :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  color: var(--c-ink);
+  font-family: var(--font-lead);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.logo-wall .logo-wall-wall {
+  display: none;
+}
+
+.logo-wall .logo-wall-item {
+  box-sizing: border-box;
+  width: var(--element-width);
+  margin: 0 calc((100% - var(--element-width) * 5) / 4) 12px 0;
+  padding: 20px;
+}
+
+.logo-wall .logo-wall-box,
+.logo-wall .logo-wall-logo {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.logo-wall .logo-wall-box {
+  height: auto;
+  padding-bottom: 56.25%;
+}
+
+.logo-wall :is(.logo-wall-box, .logo-wall-logo) :is(picture, img) {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.logo-wall .logo-wall-viewport {
+  overflow: hidden;
+  padding-bottom: 0;
+}
+
+.logo-wall .logo-wall-pages {
+  display: flex;
+  transform: translate(0);
+  transition: transform 0.5s ease-in-out;
+  touch-action: pan-y;
+}
+
+.logo-wall .logo-wall-page {
+  display: flex;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 40px;
+}
+
+.logo-wall .logo-wall-logo {
+  box-sizing: border-box;
+  width: 139px;
+  height: 78px;
+  margin-bottom: 12px;
+  padding: 20px;
+}
+
+.logo-wall .logo-wall-dots {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.logo-wall.all-displayed .logo-wall-dots {
+  display: none;
+}
+
+.logo-wall .logo-wall-dot {
+  width: 8px;
+  height: 8px;
+  margin-right: 16px;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  background-color: #c5ccd3;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.logo-wall .logo-wall-dot:last-child {
+  margin-right: 0;
+}
+
+.logo-wall .logo-wall-dot.active {
+  background-color: var(--primary-color-50, #8d99a5);
+}
+
+@media (width >= 768px) {
+  .logo-wall {
+    --col-size: calc((100% - (64px * 2) - (40px * 7)) / 8);
+
+    padding-top: var(--sp-t);
+    padding-bottom: var(--sp-b);
+  }
+
+  .logo-wall .logo-wall-title {
+    grid-column: 1 / span 6;
+  }
+
+  .logo-wall .logo-wall-wall {
+    --element-width: calc(var(--col-size) * 2 + 40px);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1660px;
+    margin: 0 auto;
+    padding: 0 64px;
+  }
+
+  .logo-wall .logo-wall-item:nth-of-type(5n) {
+    margin-right: 0;
+  }
+
+  .logo-wall .logo-wall-slider {
+    display: none;
+  }
+}
+
+@media (width >= 1024px) {
+  .logo-wall {
+    --col-size: calc((100% - (64px * 2) - (40px * 11)) / 12);
+  }
+
+  .logo-wall .logo-wall-title {
+    grid-column: 2 / span 6;
+  }
+}
+
+@media (width >= 1440px) {
+  .logo-wall .logo-wall-title :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 36px;
+  }
+}
+
+/* variant nest (fix-hub-j, en-logistics "Some of our customers and partners", live probe 360): the
+   live wall sits in a 280 px column, so below 768 its title is inset 80 (200 wide) and each page
+   holds two 80 x 78 logo boxes (20 px padding: 40 px logos) across 200 px */
+@media (width < 768px) {
+  .logo-wall.nest .logo-wall-title {
+    padding: 0 40px;
+  }
+
+  .logo-wall.nest .logo-wall-page {
+    padding: 0 80px;
+  }
+
+  .logo-wall.nest .logo-wall-logo {
+    width: 80px;
+  }
+
+  .logo-wall.nest .logo-wall-logo picture {
+    inset: 20px;
+    width: auto;
+    height: auto;
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "a": "stardust/replica/gates/all-360/en-ai-powered-software-engineering/origin.png",
+  "b": "stardust/replica/gates/all-360/en-ai-powered-software-engineering/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 5566,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 59291,
+  "pct": 3.28,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/en-ai-powered-software-engineering/diff.png",
+  "masks": [
+    {
+      "yA": 64,
+      "h": 540,
+      "yB": 64
+    }
+  ],
+  "maskedRows": 540,
+  "textPct": 17.74,
+  "textBoxes": 101,
+  "textPixels": 301213,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 4.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 4.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 2.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 6
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 4.1
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 4.9
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 1.3
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 2.4
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 1.8
+    },
+    {
+      "y0": 5500,
+      "y1": 5566,
+      "pct": 2.8
+    }
+  ],
+  "maskReason": "hero DAM video (From Code to Control_02, muted autoplay loop inside the cross-origin dam-media openPlayer iframe of the hero-slider mid cover, 360x540 at y64 — the live heroslider-runtime video-dam-container) shows a different frame on every capture and is not paused by the stitch freeze (cross-origin iframe) — the media rows are authored-volatile on both sides, same treatment as the home, biotagging and company-profile heroes (fix-hub-g, 2026-11-16)"
+}

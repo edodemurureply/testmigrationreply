@@ -1,0 +1,156 @@
+/* status-accordion — live accordion-runtime .reply-accordion dark items (en/google-cloud, 1440
+   probe): ice band, tiles #28333e radius 4, 12 px apart, padding 20 / 24 (32 / 56 >= 1440),
+   24 px award icon in a 44 px column, title 16 / 27.2 medium white, kicker 10 / 14 label caps,
+   22.5 px plus / minus; the band ends 120 px under the last tile (56 below 768) */
+.status-accordion {
+  padding-bottom: 56px;
+  background: #f4f8fc;
+}
+
+.status-accordion .status-accordion-items {
+  display: flex;
+  grid-column: 1 / -1;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.status-accordion .status-accordion-item {
+  padding: 20px 24px;
+  border-radius: 4px;
+  background: #28333e;
+  color: #fff;
+}
+
+.status-accordion .status-accordion-header {
+  padding: 1px 0 1px 6px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.status-accordion .status-accordion-icon {
+  display: flex;
+  flex-shrink: 0;
+  width: 44px;
+}
+
+.status-accordion .status-accordion-icon::before {
+  content: "\ea8a";
+  width: 24px;
+  font-family: "Website Icons", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.status-accordion .status-accordion-labels {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 16px;
+}
+
+.status-accordion .status-accordion-labels > * {
+  margin: 0;
+  color: #fff;
+}
+
+.status-accordion .status-accordion-kicker {
+  margin-bottom: 4px;
+  font-family: txtislskto, var(--font-label);
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.status-accordion .status-accordion-title {
+  font-family: sekprcvhoj, khanqyjjei-fallback, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27.2px;
+  letter-spacing: 0.0145em;
+}
+
+.status-accordion .status-accordion-toggle {
+  position: relative;
+  flex-shrink: 0;
+  width: 22.5px;
+  height: 22.5px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.status-accordion .status-accordion-toggle::before,
+.status-accordion .status-accordion-toggle::after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  transition: transform 0.2s ease-out;
+}
+
+.status-accordion .status-accordion-toggle::before {
+  top: 0;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  margin-left: -1px;
+}
+
+/* closed = plus (live 360 + 1440 captures), open = minus */
+.status-accordion .status-accordion-item.open .status-accordion-toggle::before {
+  transform: scale(0);
+}
+
+.status-accordion .status-accordion-toggle::after {
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  margin-top: -1px;
+}
+
+.status-accordion .status-accordion-body {
+  padding: 16px 0 0 44px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.status-accordion .status-accordion-body p {
+  margin: 0;
+}
+
+/* fix-hub-i: below 768 the live labels column is 154 px (title 138 px: "Partner of the Year for
+   DevOps Specialization" sets 3 lines @360) — 6 px more room right of the labels */
+@media (width < 768px) {
+  .status-accordion .status-accordion-labels {
+    padding-right: 22px;
+  }
+
+  /* fix-hub-l mev @360: live title letter-spacing normal ("Managed Service" sets one 136 px line) */
+  .status-accordion .status-accordion-title {
+    letter-spacing: normal;
+  }
+}
+
+@media (width >= 768px) {
+  .status-accordion {
+    padding-bottom: 120px;
+  }
+}
+
+@media (width >= 1024px) {
+  .status-accordion .status-accordion-items {
+    grid-column: 2 / span 10;
+  }
+}
+
+@media (width >= 1440px) {
+  .status-accordion .status-accordion-item {
+    padding: 32px 56px;
+  }
+}

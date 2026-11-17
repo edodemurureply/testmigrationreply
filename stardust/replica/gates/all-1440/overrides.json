@@ -1,0 +1,54 @@
+{
+ "index": {
+  "verdict": "instrument",
+  "reason": "content HIDDEN = carousel peek cards clipped by the rail viewport on BOTH sides: origin.items and eds.items of content.json both carry the same two hidden latest-insights peek links (x -274 and x 1416, y 5238: llmops..., sovereign ai for european organisations...); content-presence drops the origin's hidden items before diffing and counts the served ones, so the identical clipped peeks read HIDDEN only on delivery. Pixel, height and clip pass; MISSING 0 (fix-small-2, 2026-11-16)"
+ },
+ "en": {
+  "verdict": "instrument",
+  "reason": "content HIDDEN = carousel peek cards clipped by the rail viewport on BOTH sides: origin.items and eds.items of content.json both carry the same two hidden latest-insights peek links (x -274 and x 1416, y 5238: llmops..., sovereign ai for european organisations...); content-presence drops the origin's hidden items before diffing and counts the served ones, so the identical clipped peeks read HIDDEN only on delivery. Pixel, height and clip pass; MISSING 0 (fix-small-2, 2026-11-16)"
+ },
+ "en-christmas": {
+  "verdict": "timing",
+  "reason": "content = autoplay timing only: both xmas rails (live data-carousel-autoplay-interval 3000, delivered as interval-3000) hold the same 14 / 7 cards in the same order and open on the same card (probe-items + probe-tl timelines, .work/rollout/fix-small-2, bg logs fs2-tl / fs2-tl2: live first step at load + 3 s, delivered ~0.5-1 s earlier because the delivered page loads faster); in this capture the served rails sit exactly one card ahead (origin area42 / ai-enhanced ... vs served ai-enhanced / cloud adoption ..., latest insights ai-enhanced / metaverse vs new era / state of BI), so 2 headings read MISSING and the 2 clipped peek links read HIDDEN (content-presence counts served hidden peeks, drops the origin ones). Pixel 2.81 % (hero video masked), Δh -21, clip 0 (fix-small-2, 2026-11-16)"
+ },
+ "4brands-reply-de-customer-experience-management": {
+  "verdict": "instrument",
+  "reason": "content MISSING 1 / HIDDEN 2 = the autoplay related rail (card-carousel simple autoplay, live data-carousel-autoplay 5 s, pause on hover) captured one slide apart: origin probe has 'AI Voice Assistant' at x 64, delivery has 'Reply Routes' at x 64 (the next card) - same 6 cards, same order, same rest positions (96/434/772/1110) and the same first slide at ~5.5 s on both sides; Instrument stardust/.work/rollout/fix-small-5/tl-cem.log (fix-small-4/probe-settle.mjs: rail timeline under the gate's visit+settle, live then delivery, same minute): the second slide fires at 10.6 s live vs 15.4 s delivered only because the settle's parked mouse (mouseover x 0) pauses each rail at a different moment. Pixel 4.9 %, height pass (fix-small-5, 2026-11-16)"
+ },
+ "4brands-reply-de-customer-and-consumer-engagement": {
+  "verdict": "instrument",
+  "reason": "content MISSING 1 / HIDDEN 1 = the autoplay related rail (card-carousel simple autoplay) captured one slide apart: origin has 'Bitburger: Gamification' at x 64, delivery the next card 'Mehr Wirkung' - same cards, same order, same rest positions (96/434/772/1110), first slide at ~5.5 s on both sides; Instrument stardust/.work/rollout/fix-small-5/tl-sapccm360-cce1440-fin1440.log (fix-small-4/probe-settle.mjs: rail timeline under the gate's visit+settle, live then delivery, same minute): later slides drift only with the parked-mouse hover pause (live 11.1 s, delivered 16.0 s). Pixel 8.83 %, height pass (fix-small-5, 2026-11-16)"
+ },
+ "4brands-reply-de-sap-finance-knowledge-and-training": {
+  "verdict": "instrument",
+  "reason": "content HIDDEN 1 = the autoplay benefits rail (b4-slider autoplay = live cardcarousel data-carousel-autoplay, 6 items) captured mid-slide on origin (cards at x -48/290/628/966, i.e. 112 px into the 338 px step) and at rest on delivery (-274/64/402/740), so the left peek 'Individuelle Workshops & Trainings' reads clipped only on delivery; Instrument stardust/.work/rollout/fix-small-5/tl-sapccm360-cce1440-fin1440.log (fix-small-4/probe-settle.mjs: rail timeline under the gate's visit+settle, live then delivery, same minute): same 6 cards in the same order, same rest x (64/402/740/1078), first slide at ~5.6 s both sides, later steps shifted only by the hover pause. Pixel 6.46 %, height pass (fix-small-5, 2026-11-16)"
+ },
+ "en-automotive-and-manufacturing": {
+  "verdict": "timing",
+  "reason": "content = autoplay rail phase only: the expertise slider-with-title rail (live data-autoplay true, data-autoplay-interval 5000, data-infinite; delivered autoplay infinite, 5 s) holds the same items in the same order on both sides (content.json items y 2072-2101: origin future of sales x-62 | software defined vehicle 388 | ai driven development 839 | logistics & production 1290; served software defined vehicle 64 | ai driven development 515 | logistics & production 965 | future of sales 1416) — the probe caught the two rails one step apart, so \"future of sales\" reads HIDDEN; MISSING 0. Pixel 6.04 %, dh -28, clip 0 (run 2026-11-16T22-17-12) (fix-hub-g, 2026-11-16)"
+ },
+ "en-digital-assets": {
+  "verdict": "timing",
+  "reason": "content = autoplay rail phase only: the industries labs rail (live cardcarousel data-carousel-autoplay true, started in view; delivered labs simple peek autoplay inview) holds the same cards in the same order on both sides (content.json items y 5510: origin public administration x444 | energy & utilities 782 | fashion & luxury goods 1120 | healthcare 106 (wrapped); served public administration x-184 | energy & utilities 154 | fashion & luxury goods 492 | financial services 830 | healthcare 1168) — the served rail is one step further, so the peek card reads HIDDEN; MISSING 0. Pixel 7.61 %, dh -8, clip 0 (run 2026-11-16T23-01-00) (fix-hub-g, 2026-11-16)"
+ },
+ "en-3d-and-mixed-reality": {
+  "verdict": "timing",
+  "reason": "content = autoplay rail phase only: the \"Our assets\" scale rail (live data-carousel-autoplay, 5 s; delivered labs scale autoplay inview) holds the same 7 cards in the same order on both sides — content.json items y 4428-4900 (run 2026-11-17T02-3x): origin smart maintenance x-65 | virtual interactive showroom 273 | 3d platform 597 (active) | vto 949 | aria 1287; served ai product discovery -65 | smart maintenance 273 | virtual interactive showroom 597 (active) | 3d platform 949 | vto 1287 — served one step behind; the live phase itself varies by capture (4 steps, VTO active, in the 02:14 run). MISSING = the card off the served edge (aria). Pixel 7.67 % (DAM video masked 5035:658, compare-only 04:0x after the yA:height mask fix), dh -2, clip 1 = clip-allow; MISSING 2-4 by phase (fix-hub-h, 2026-11-17)"
+ },
+ "en-digital-experience": {
+  "verdict": "timing",
+  "reason": "content = autoplay rail phase only: the Best practice card-carousel simple autoplay rail (live data-carousel-autoplay + data-infinite, 5 s) holds the same 8 cards in the same order on both sides — content.json headings y 12100-12500: origin digital accessibility x434 | total search marketing 1110 | how does ai sound 96 | ai for creativity 772 (live rail wrapped past the end); served what is generative engine x119 | the new search 457 | digital experience trends 2025 795 | how does ai sound 1133 — the served rail is behind the live clock, so the live-visible cards read MISSING / HIDDEN off the served edge. Pixel 8.81 % (two DAM videos masked 92:782 + 1358:656, compare-only 04:0x after the yA:height mask fix), dh 5, clip 0 (run 2026-11-17T02-3x) (fix-hub-h, 2026-11-17)"
+ },
+ "en-aws": {
+  "verdict": "timing",
+  "reason": "content = autoplay timing only: the 'Focus on Reply Companies' rail (slider-with-title autoplay infinite, live slider-with-title__items autoplay) holds the same 7 company cards in the same order on both sides and sits at the same phase at the same probe time (fix-hub-i mev hj probe p9, 1440: live and delivered both Airwalk x -387 / Comsysto x 64 / Concept 515 / Data 965 / Discovery 1416 / Sense 1867 / Storm 2317); in the gate capture the live rail had advanced further (origin Discovery first vs served Data first), so 'Discovery Reply' heading/link read MISSING/MOVED and the served Data peek reads HIDDEN. Pixel 9.23 %, dh 0, clip 0 (fix-hub-i, 2026-11-17)"
+ },
+ "en-ethical-ai-shaping-the-future-of-responsible-innovation": {
+  "verdict": "timing",
+  "reason": "content MISSING 1 = autoplay rail phase only: the collaborate flip-tile rail (live cardcarousel-runtime data-carousel-type reply-card-slider-simple, data-infinite true, data-carousel-autoplay true; captured at style --slide: 3 / translateX(-676px), current/pages html) shows the cyclic clone order DW2, DW3, Accompanying topics, Quarterly meetings, so origin.items carry h3 \"accompanying topics\" at y 4190; the served rail holds the same 7 tiles in the same order (Quarterly meetings … Accompanying topics, 298 px tiles 40 px apart from x 64) resting at slide 0, so Accompanying topics is the 7th tile beyond the rail edge. Pixel 8.92 % and Δh +4 pass; no heading is absent from the DOM (fix-editorial-4, 2026-11-17)"
+ },
+ "en-cloud-computing": {
+  "verdict": "timing",
+  "reason": "content = autoplay timing only: the 'Technology' rail (slider-with-title autoplay infinite, live data-infinite slider) holds the same 4 items (Cloud Native Architecture, Cloud Automation, Observability, Security & Compliance) in the same order on both sides; the gate probes the two sides 30 s apart and each rail sits at another phase (1440 05:29:57 live items 1-3 at x 64 / 515 / 965, delivered 05:30:27 items 2-4 at the same x; 360 05:25 live item 4 at x 40, delivered item 1 at x 40), so the one heading off the viewport reads HIDDEN. Pixel 3.76 %, dh -8 (0.06 %), clip 0 at 05:52 (5.05 % at 05:31; one 05:47 capture caught the pinned page-index mid-collapse, -48 px from the bar on, 22 %, re-measured unchanged code) (fix-hub-l, 2026-11-17)"
+ }
+}

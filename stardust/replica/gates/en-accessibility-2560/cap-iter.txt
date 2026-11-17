@@ -1,0 +1,12 @@
+cap-probe  base 1440 → probe 2560 (from stardust/current/DESIGN.json)
+live   https://www.reply.com/en/accessibility
+  modules  2 sections: capped 1660 ×2 · full-bleed ×0
+  contentMaxWidth 1660px (module) · shellMaxWidth fluid · root #main-content
+build  http://localhost:8791/en-accessibility-proposed.html
+  modules  2 sections: capped 1660 ×2 · full-bleed ×0
+  contentMaxWidth 1660px (module) · shellMaxWidth fluid · root #main-content
+rows
+  ✓ content cap: live 1660px = build 1660px (±20, shared module cap)
+  ✓ module 1/2: 1660px = 1660px
+  ✓ module 2/2: 1660px = 1660px
+cap-probe: PASS at 2560 — 0 of 3 rows failed (evidence stardust/replica/gates/en-accessibility-2560/cap-iter.json)

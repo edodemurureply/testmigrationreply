@@ -1,0 +1,117 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.page/en/gaming",
+ "at": "2026-11-17T05:09:57.637Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 3,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 7,
+  "offPage": 42,
+  "textNodes": 139,
+  "controls": 115,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 3,
+   "clipper": "a",
+   "path": "div.reply-card-body > div.reply-card-title > h3#enhancing-the-security-of-online-esports-tournaments-with-ai-driven-solutions > a",
+   "text": "enhancing the security of online esports tournaments with ai",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.social-wall-post",
+   "path": "li.social-wall-card > div.social-wall-post > div.social-wall-meta > a.social-wall-badge",
+   "text": "see original post on twitter (opens in a new window)",
+   "cutMin": 4,
+   "cutMax": 4
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.social-wall-post",
+   "path": "li.social-wall-card > div.social-wall-post > div.social-wall-meta > a.social-wall-profile",
+   "text": "reply totemsee profile page of @reply_totem (x (twitter))@re",
+   "cutMin": 4,
+   "cutMax": 4
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.social-wall-post",
+   "path": "li.social-wall-card > div.social-wall-post > div.social-wall-footer > a.social-wall-source",
+   "text": "1 yr. agosee original post on twitter (opens in a new window",
+   "cutMin": 8,
+   "cutMax": 8
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "strategy & business model transformation",
+   "cutMin": 119,
+   "cutMax": 119
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "strategy & business model transformation",
+   "cutMin": 119,
+   "cutMax": 119
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "hybrid work",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "hybrid work",
+   "cutMin": 48,
+   "cutMax": 48
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 1,
+   "clamped": 3,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 8,
+   "offPage": 49,
+   "textNodes": 139,
+   "controls": 125,
+   "total": 1
+  }
+ }
+}

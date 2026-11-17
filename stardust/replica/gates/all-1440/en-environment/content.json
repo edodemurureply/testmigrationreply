@@ -1,0 +1,4645 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-17T04:04:02.779Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.reply.com/en/environment",
+  "at": "2026-11-17T04:03:41.614Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5184,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-bottom.w-full > div.logo.flex > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "go to homepage",
+    "href": "/en"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 906,
+    "y": 28,
+    "w": 41,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 1225,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "custom-menu-runtime.header.flex > nav.header-bottom.w-full > button.hidden.lg:block",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h1#t9xTx",
+    "x": 177,
+    "y": 277,
+    "w": 861,
+    "h": 70,
+    "level": 1,
+    "text": "environment"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h1#t9xTx > span.colors-1-gbfb",
+    "x": 177,
+    "y": 276,
+    "w": 418,
+    "h": 71,
+    "text": "Environment"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 177,
+    "y": 833,
+    "w": 523,
+    "h": 135,
+    "text": "Embracing is not just a trend, it is a that brings many advantages. We have set "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 177,
+    "y": 980,
+    "w": 523,
+    "h": 108,
+    "text": "We are also committed to aimed at increasing awareness of sustainable themes, an"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-2.aspect-h-3 > picture > img.content.picture",
+    "x": 853,
+    "y": 652,
+    "w": 411,
+    "h": 616,
+    "text": "sustainability goals: reach carbon neutrality by 2025 and ne",
+    "file": "3e803756-0a6c-4498-9000-22ccc03aa452"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h4#HFAh1",
+    "x": 177,
+    "y": 1388,
+    "w": 724,
+    "h": 78,
+    "level": 4,
+    "text": "time world's best companies in sustainable growth 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 177,
+    "y": 1480,
+    "w": 724,
+    "h": 108,
+    "text": "Reply has been named by TIME and Statista as one of the “World’s Best Companies "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > picture > img.content.picture",
+    "x": 1125,
+    "y": 1404,
+    "w": 139,
+    "h": 170,
+    "text": "",
+    "file": "e9b78578-d2e4-4022-992e-27a853b4e4fa"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#EPqFi",
+    "x": 177,
+    "y": 1784,
+    "w": 749,
+    "h": 43,
+    "level": 2,
+    "text": "energy & emissions"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 177,
+    "y": 1869,
+    "w": 636,
+    "h": 81,
+    "text": "Climate change and environmental sustainability present challenges and opportuni"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.qxxcytdwon.qxxcytdwon-md > div > a#Mw1r7",
+    "x": 1131,
+    "y": 1781,
+    "w": 132,
+    "h": 48,
+    "text": "discover more",
+    "href": "/en/environment/energy-and-emissions"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 308,
+    "y": 2022,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "2cef7fcd-8afc-4574-8f54-bc5ae947b647"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#uu524",
+    "x": 197,
+    "y": 2164,
+    "w": 322,
+    "h": 31,
+    "level": 3,
+    "text": "resources"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 197,
+    "y": 2215,
+    "w": 322,
+    "h": 48,
+    "text": "50% renewable electricity in all territories by 2025"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 670,
+    "y": 2022,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "2f1732ae-f73f-4568-87cc-1ef753530756"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#uUQJw",
+    "x": 559,
+    "y": 2164,
+    "w": 322,
+    "h": 31,
+    "level": 3,
+    "text": "mobility"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 559,
+    "y": 2215,
+    "w": 322,
+    "h": 48,
+    "text": "30% hybrid/electric vehicles by 2025"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 1032,
+    "y": 2022,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "376a059e-112d-4e4a-af3e-64cfb4d83ed8"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#S0iR3",
+    "x": 921,
+    "y": 2164,
+    "w": 322,
+    "h": 31,
+    "level": 3,
+    "text": "emissions"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 921,
+    "y": 2215,
+    "w": 322,
+    "h": 48,
+    "text": "The Reply Forest absorbs more than 500 tonnes of CO per year"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 174,
+    "y": 2479,
+    "w": 1092,
+    "h": 614,
+    "text": "",
+    "file": "c1a8b30f-5bef-4640-98a8-a16da0557a1c"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-grid > div.reply-card-body > h3.h4.text-white",
+    "x": 238,
+    "y": 2577,
+    "w": 610,
+    "h": 39,
+    "level": 3,
+    "text": "reply to the earth"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > article.reply-card-abstract.paragraph-01--light > span",
+    "x": 238,
+    "y": 2636,
+    "w": 602,
+    "h": 100,
+    "text": "We launched “Reply to the Earth”, an internal communication program aimed at lea"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-cta > a.button.button-4cibs",
+    "x": 238,
+    "y": 2737,
+    "w": 180,
+    "h": 48,
+    "text": "discover more",
+    "href": "/en/environment/reply-to-the-earth"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-pfihz > span.colors-1-gbfb",
+    "x": 177,
+    "y": 3100,
+    "w": 82,
+    "h": 13,
+    "text": "ROADMAP"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#o9v2y",
+    "x": 177,
+    "y": 3142,
+    "w": 749,
+    "h": 43,
+    "level": 2,
+    "text": "waste management"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h2#o9v2y > span.colors-1-gbfb",
+    "x": 177,
+    "y": 3143,
+    "w": 385,
+    "h": 40,
+    "text": "Waste management"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p > span.colors-1-gbfb",
+    "x": 177,
+    "y": 3231,
+    "w": 610,
+    "h": 45,
+    "text": "Reply is committed, whenever possible, to reusing and recycling electronic waste"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pmyzwtavta.pmyzwtavta-md > div > a#EzMoz",
+    "x": 1131,
+    "y": 3140,
+    "w": 132,
+    "h": 48,
+    "text": "discover more",
+    "href": "/en/environment/waste-management"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-16.aspect-h-9 > picture > img.content.picture",
+    "x": 199,
+    "y": 3393,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "3681fbda-a010-489f-a8c3-fed8513d0c98"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#XT272",
+    "x": 64,
+    "y": 3513,
+    "w": 371,
+    "h": 31,
+    "level": 3,
+    "text": "zero waste"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h3#XT272 > span.colors-1-gbfb",
+    "x": 179,
+    "y": 3515,
+    "w": 141,
+    "h": 27,
+    "text": "Zero waste"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-align-center > span.colors-1-gbfb",
+    "x": 69,
+    "y": 3568,
+    "w": 361,
+    "h": 99,
+    "text": "We are committed to achieving zero-waste status by 2030. Reply will donate, reus"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-16.aspect-h-9 > picture > img.content.picture",
+    "x": 650,
+    "y": 3393,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "79ac6ca1-38b9-490a-9b26-83db54a053b3"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#ZbFr6",
+    "x": 515,
+    "y": 3513,
+    "w": 371,
+    "h": 31,
+    "level": 3,
+    "text": "donations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h3#ZbFr6 > span.colors-1-gbfb",
+    "x": 635,
+    "y": 3515,
+    "w": 129,
+    "h": 27,
+    "text": "Donations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-align-center > span.colors-1-gbfb",
+    "x": 528,
+    "y": 3577,
+    "w": 344,
+    "h": 72,
+    "text": "We are committed to donating electronic equipment, both to our employees and cha"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-16.aspect-h-9 > picture > img.content.picture",
+    "x": 1101,
+    "y": 3393,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "6f67d2b0-9119-48d2-a38e-4cd5a07abb87"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#NypDZ",
+    "x": 965,
+    "y": 3513,
+    "w": 371,
+    "h": 31,
+    "level": 3,
+    "text": "single-use plastic"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h3#NypDZ > span.colors-1-gbfb",
+    "x": 1040,
+    "y": 3515,
+    "w": 222,
+    "h": 27,
+    "text": "Single-use plastic"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-align-center > span.colors-1-gbfb",
+    "x": 978,
+    "y": 3568,
+    "w": 346,
+    "h": 99,
+    "text": "We have set a goal to eliminate single-use plastic in all our locations, consist"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-16.aspect-h-9 > picture > img.content.picture",
+    "x": 177,
+    "y": 3944,
+    "w": 523,
+    "h": 294,
+    "text": "",
+    "file": "b56a8a6c-693a-4834-b574-e02662bc0767"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#Td44q",
+    "x": 853,
+    "y": 3928,
+    "w": 411,
+    "h": 86,
+    "level": 2,
+    "text": "sustainable supply chain"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 853,
+    "y": 4055,
+    "w": 411,
+    "h": 135,
+    "text": "We strictly consider environmental factors when procuring goods and services, pr"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vxvlloekrb.vxvlloekrb-md > div > a#e8paI",
+    "x": 853,
+    "y": 4206,
+    "w": 132,
+    "h": 48,
+    "text": "discover more",
+    "href": "/en/environment/sustainable-supply-chain"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-mu4tw",
+    "x": 173,
+    "y": 4421,
+    "w": 1053,
+    "h": 26,
+    "text": "Discover also"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pwkrhbcedb > div > a#AJFxZ",
+    "x": 226,
+    "y": 4475,
+    "w": 180,
+    "h": 48,
+    "text": "energy & emissions",
+    "href": "/en/environment/energy-and-emissions"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.phhpfuazdc > div > a#LSYYK",
+    "x": 438,
+    "y": 4475,
+    "w": 183,
+    "h": 48,
+    "text": "making a difference",
+    "href": "/en/environment"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.zjltispnhz > div > a#919Fd",
+    "x": 654,
+    "y": 4475,
+    "w": 56,
+    "h": 48,
+    "text": "social",
+    "href": "/en/social"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.bsaxiaywjj > div > a#H7W6G",
+    "x": 742,
+    "y": 4475,
+    "w": 166,
+    "h": 48,
+    "text": "reply to the earth",
+    "href": "/en/environment/reply-to-the-earth"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rhkeijldsh > div > a#xdmYN",
+    "x": 940,
+    "y": 4475,
+    "w": 234,
+    "h": 48,
+    "text": "sustainable supply chain",
+    "href": "/en/environment/sustainable-supply-chain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.block > nav.footer.p-10 > a",
+    "x": 64,
+    "y": 4751,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 4847,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 4847,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 4895,
+    "w": 103,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 4939,
+    "w": 45,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 4984,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 5029,
+    "w": 67,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 4847,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 4847,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 4895,
+    "w": 142,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 4939,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 5001,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 5046,
+    "w": 149,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 4895,
+    "w": 161,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 4939,
+    "w": 127,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 4984,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 4895,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 4956,
+    "w": 154,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 5001,
+    "w": 147,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 5046,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "void(0)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Careers",
+    "x": 1112,
+    "y": 4847,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Contacts",
+    "x": 1112,
+    "y": 4927,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1112,
+    "y": 5007,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1124,
+    "y": 5019,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1184,
+    "y": 5007,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1196,
+    "y": 5019,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "a6732ee4-95cf-4951-9c4b-3675c7154f7e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1256,
+    "y": 5007,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1268,
+    "y": 5019,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "49664893-bfc1-4d79-9208-3bdd7083126b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1328,
+    "y": 5007,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1340,
+    "y": 5019,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "c48097ef-90ed-4c24-aa40-1764649e72ff"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > span",
+    "x": 64,
+    "y": 5151,
+    "w": 81,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > a.underline",
+    "x": 158,
+    "y": 5151,
+    "w": 136,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.text-white.py-3 > div.flex.justify-between > button#cookie-pref-center",
+    "x": 1276,
+    "y": 859,
+    "w": 164,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 1,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 92,
+    "controls": 46,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "article.reply-card-abstract.paragraph-01--light",
+     "path": "div.reply-card-grid > div.reply-card-body > article.reply-card-abstract.paragraph-01--light > span",
+     "text": "we launched “reply to the earth”, an internal communication ",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--a355dc1b--aemcoder.aem.page/en/environment",
+  "at": "2026-11-17T04:04:02.603Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5259,
+  "root": "main",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-main > div.site-header-logo > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "href": "/en"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-reply-logo > img",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "file": "reply-logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 900,
+    "y": 28,
+    "w": 46,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 1224,
+    "y": 28,
+    "w": 52,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-header-bar > nav.site-header-main > button.sm-collapsed",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.hub-grid-node.hub-grid-pic > picture > img",
+    "x": -241,
+    "y": -228,
+    "w": 1920,
+    "h": 1080,
+    "text": "",
+    "file": "media_15589603109d6a73fad279da4199514816"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h1#environment",
+    "x": 177,
+    "y": 278,
+    "w": 862,
+    "h": 70,
+    "level": 1,
+    "text": "environment"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 177,
+    "y": 834,
+    "w": 523,
+    "h": 135,
+    "text": "Embracing is not just a trend, it is a that brings many advantages. We have set "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 177,
+    "y": 981,
+    "w": 523,
+    "h": 108,
+    "text": "We are also committed to aimed at increasing awareness of sustainable themes, an"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > picture.hub-grid-node.hub-grid-pic > img",
+    "x": 853,
+    "y": 653,
+    "w": 411,
+    "h": 616,
+    "text": "sustainability goals: reach carbon neutrality by 2025 and ne",
+    "file": "media_1ac56a55c96ca48ba136bd385b53d591a8"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h4#time-worlds-best-companies-in-sustainable-growth-2026",
+    "x": 177,
+    "y": 1389,
+    "w": 725,
+    "h": 78,
+    "level": 4,
+    "text": "time world's best companies in sustainable growth 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 177,
+    "y": 1482,
+    "w": 725,
+    "h": 81,
+    "text": "Reply has been named by TIME and Statista as one of the “World’s Best Companies "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > picture.hub-grid-node.hub-grid-pic > img",
+    "x": 1125,
+    "y": 1405,
+    "w": 139,
+    "h": 170,
+    "text": "",
+    "file": "media_1a96cbb0c9dfee7bfaeff1362506a6c45d"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h2#energy--emissions",
+    "x": 177,
+    "y": 1770,
+    "w": 749,
+    "h": 43,
+    "level": 2,
+    "text": "energy & emissions"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 177,
+    "y": 1855,
+    "w": 636,
+    "h": 81,
+    "text": "Climate change and environmental sustainability present challenges and opportuni"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.button-wrapper.hub-grid-node > a.button.secondary",
+    "x": 1131,
+    "y": 1767,
+    "w": 133,
+    "h": 67,
+    "text": "discover more",
+    "href": "/en/environment/energy-and-emissions"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.hub-grid-node.hub-grid-pic > picture > img",
+    "x": 308,
+    "y": 2028,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "media_19f83ebd9ddf601db1ca8d788542061443"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h3#resources",
+    "x": 197,
+    "y": 2170,
+    "w": 322,
+    "h": 31,
+    "level": 3,
+    "text": "resources"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 197,
+    "y": 2221,
+    "w": 322,
+    "h": 48,
+    "text": "50% renewable electricity in all territories by 2025"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.hub-grid-node.hub-grid-pic > picture > img",
+    "x": 670,
+    "y": 2028,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "media_140ecdd26b5bc7d6f6bee2f5195066485c"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h3#mobility",
+    "x": 559,
+    "y": 2170,
+    "w": 322,
+    "h": 31,
+    "level": 3,
+    "text": "mobility"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 559,
+    "y": 2221,
+    "w": 322,
+    "h": 48,
+    "text": "30% hybrid/electric vehicles by 2025"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.hub-grid-node.hub-grid-pic > picture > img",
+    "x": 1032,
+    "y": 2028,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "media_176ee06589f6a6e4e84988e28d885d5702"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h3#emissions",
+    "x": 921,
+    "y": 2170,
+    "w": 322,
+    "h": 31,
+    "level": 3,
+    "text": "emissions"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 921,
+    "y": 2221,
+    "w": 322,
+    "h": 51,
+    "text": "The Reply Forest absorbs more than 500 tonnes of CO per year"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.hub-grid-node.hub-grid-fitm > picture > img",
+    "x": 174,
+    "y": 2488,
+    "w": 1093,
+    "h": 615,
+    "text": "",
+    "file": "media_15d0db49170fe6e4946ff1669b48f0ba49"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h3#reply-to-the-earth",
+    "x": 238,
+    "y": 2587,
+    "w": 610,
+    "h": 39,
+    "level": 3,
+    "text": "reply to the earth"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node.hub-grid-clamp",
+    "x": 238,
+    "y": 2646,
+    "w": 602,
+    "h": 82,
+    "text": "We launched “Reply to the Earth”, an internal communication program aimed at lea"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.button-wrapper.hub-grid-node > a.button.primary",
+    "x": 238,
+    "y": 2729,
+    "w": 181,
+    "h": 48,
+    "text": "discover more",
+    "href": "/en/environment/reply-to-the-earth"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 177,
+    "y": 3091,
+    "w": 749,
+    "h": 17,
+    "text": "ROADMAP"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h2#waste-management",
+    "x": 177,
+    "y": 3134,
+    "w": 749,
+    "h": 43,
+    "level": 2,
+    "text": "waste management"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 177,
+    "y": 3219,
+    "w": 636,
+    "h": 54,
+    "text": "Reply is committed, whenever possible, to reusing and recycling electronic waste"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.button-wrapper.hub-grid-node > a.button.secondary",
+    "x": 1131,
+    "y": 3131,
+    "w": 133,
+    "h": 67,
+    "text": "discover more",
+    "href": "/en/environment/waste-management"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-media > picture > img",
+    "x": 199,
+    "y": 3404,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "media_1e0c1ff546926291249bd4941a3c1b2eab"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item.active > div.slider-with-title-item-title.heading > h3#zero-waste",
+    "x": 64,
+    "y": 3524,
+    "w": 371,
+    "h": 31,
+    "level": 3,
+    "text": "zero waste"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item.active > div.slider-with-title-item-body > p",
+    "x": 64,
+    "y": 3575,
+    "w": 371,
+    "h": 108,
+    "text": "We are committed to achieving zero-waste status by 2030. Reply will donate, reus"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-media > picture > img",
+    "x": 650,
+    "y": 3404,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "media_1161e496ce3a72708d117ebc4a0ea33a61"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-title.heading > h3#donations",
+    "x": 515,
+    "y": 3524,
+    "w": 371,
+    "h": 31,
+    "level": 3,
+    "text": "donations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-body > p",
+    "x": 515,
+    "y": 3575,
+    "w": 371,
+    "h": 81,
+    "text": "We are committed to donating electronic equipment, both to our employees and cha"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-media > picture > img",
+    "x": 1101,
+    "y": 3404,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "media_128a12ecb187e5825a19a944a57e632d34"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-title.heading > h3#single-use-plastic",
+    "x": 965,
+    "y": 3524,
+    "w": 371,
+    "h": 31,
+    "level": 3,
+    "text": "single-use plastic"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-body > p",
+    "x": 965,
+    "y": 3575,
+    "w": 371,
+    "h": 81,
+    "text": "We have set a goal to eliminate single-use plastic in all our locations, consist"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > picture.hub-grid-node.hub-grid-pic > img",
+    "x": 177,
+    "y": 3954,
+    "w": 523,
+    "h": 295,
+    "text": "",
+    "file": "media_1001b583b0eff3edb05c3ae8489a79f5c4"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h2#sustainablesupply-chain",
+    "x": 853,
+    "y": 3939,
+    "w": 411,
+    "h": 86,
+    "level": 2,
+    "text": "sustainable supply chain"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 853,
+    "y": 4066,
+    "w": 411,
+    "h": 135,
+    "text": "We strictly consider environmental factors when procuring goods and services, pr"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.button-wrapper.hub-grid-node > a.button.secondary",
+    "x": 853,
+    "y": 4217,
+    "w": 133,
+    "h": 48,
+    "text": "discover more",
+    "href": "/en/environment/sustainable-supply-chain"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.discover-also-cell.r-cell > div.discover-also-kicker > p",
+    "x": 173,
+    "y": 4496,
+    "w": 1053,
+    "h": 26,
+    "text": "Discover also"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.active > a",
+    "x": 227,
+    "y": 4550,
+    "w": 183,
+    "h": 48,
+    "text": "energy & emissions",
+    "href": "/en/environment/energy-and-emissions"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 442,
+    "y": 4550,
+    "w": 180,
+    "h": 48,
+    "text": "making a difference",
+    "href": "/en/environment"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 654,
+    "y": 4550,
+    "w": 57,
+    "h": 48,
+    "text": "social",
+    "href": "/en/social"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 742,
+    "y": 4550,
+    "w": 166,
+    "h": 48,
+    "text": "reply to the earth",
+    "href": "/en/environment/reply-to-the-earth"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 940,
+    "y": 4550,
+    "w": 233,
+    "h": 48,
+    "text": "sustainable supply chain",
+    "href": "/en/environment/sustainable-supply-chain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-wrap > nav.footer-nav > a.footer-nav-home",
+    "x": 64,
+    "y": 4826,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 4922,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 4922,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 4970,
+    "w": 102,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 5014,
+    "w": 43,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 5059,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 5104,
+    "w": 66,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 4922,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 4922,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 4970,
+    "w": 145,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 5014,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 5076,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 5121,
+    "w": 150,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 4970,
+    "w": 160,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 5014,
+    "w": 131,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 5059,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 4970,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 5031,
+    "w": 153,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 5076,
+    "w": 143,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 5121,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "/en/environment"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 4922,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 5002,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1112,
+    "y": 5082,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1124,
+    "y": 5094,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1184,
+    "y": 5082,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1196,
+    "y": 5094,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1256,
+    "y": 5082,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1268,
+    "y": 5094,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-linkedin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1328,
+    "y": 5082,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1340,
+    "y": 5094,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-xing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > span",
+    "x": 64,
+    "y": 5226,
+    "w": 84,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > a",
+    "x": 160,
+    "y": 5226,
+    "w": 131,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-inner > div.site-legal-row > button#cookie-pref-center",
+    "x": 1278,
+    "y": 859,
+    "w": 162,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 1,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 92,
+    "controls": 46,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "p.hub-grid-node.hub-grid-clamp",
+     "path": "div.hub-grid.l1-3-3 > div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node.hub-grid-clamp",
+     "text": "we launched “reply to the earth”, an internal communication ",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ],
+   "findings": [
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.hub-grid.l1-3-3 > div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node.hub-grid-clamp",
+     "text": "we launched “reply to the earth”, an internal communication ",
+     "clipper": "p.hub-grid-node.hub-grid-clamp",
+     "rect": {
+      "l": 238,
+      "t": 2650,
+      "r": 824,
+      "b": 2668,
+      "w": 586,
+      "h": 18
+     },
+     "clip": {
+      "l": 238,
+      "t": 2646,
+      "r": 840,
+      "b": 2728,
+      "w": 602,
+      "h": 82
+     },
+     "lines": 4
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 1
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "environment",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 3,
+    "image": 2
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "energy & emissions",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 3
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "resources",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "mobility",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "emissions",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 3,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "reply to the earth",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "waste management",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 3
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "zero waste",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "donations",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "single-use plastic",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 6,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "sustainable supply chain",
+   "variable": false,
+   "origin": {
+    "link": 6,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 6,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 1339,
+    "y": 7,
+    "w": 17,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 51,
+    "w": 62,
+    "h": 16
+   },
+   {
+    "x": 612,
+    "y": 51,
+    "w": 72,
+    "h": 16
+   },
+   {
+    "x": 740,
+    "y": 51,
+    "w": 110,
+    "h": 16
+   },
+   {
+    "x": 906,
+    "y": 51,
+    "w": 41,
+    "h": 16
+   },
+   {
+    "x": 1003,
+    "y": 51,
+    "w": 60,
+    "h": 16
+   },
+   {
+    "x": 1119,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1225,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 276,
+    "w": 418,
+    "h": 71
+   },
+   {
+    "x": 177,
+    "y": 837,
+    "w": 93,
+    "h": 18
+   },
+   {
+    "x": 270,
+    "y": 837,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 547,
+    "y": 837,
+    "w": 151,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 864,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 222,
+    "y": 864,
+    "w": 155,
+    "h": 18
+   },
+   {
+    "x": 377,
+    "y": 864,
+    "w": 284,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 891,
+    "w": 434,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 918,
+    "w": 521,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 945,
+    "w": 240,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 984,
+    "w": 216,
+    "h": 18
+   },
+   {
+    "x": 393,
+    "y": 984,
+    "w": 194,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1011,
+    "w": 209,
+    "h": 18
+   },
+   {
+    "x": 386,
+    "y": 1011,
+    "w": 284,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1038,
+    "w": 495,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1065,
+    "w": 208,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1391,
+    "w": 651,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 1430,
+    "w": 193,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 1511,
+    "w": 698,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1538,
+    "w": 458,
+    "h": 18
+   },
+   {
+    "x": 634,
+    "y": 1538,
+    "w": 144,
+    "h": 18
+   },
+   {
+    "x": 778,
+    "y": 1538,
+    "w": 32,
+    "h": 18
+   },
+   {
+    "x": 810,
+    "y": 1538,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1565,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 255,
+    "y": 1565,
+    "w": 51,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 1565,
+    "w": 246,
+    "h": 18
+   },
+   {
+    "x": 552,
+    "y": 1565,
+    "w": 4,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1785,
+    "w": 361,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 1873,
+    "w": 603,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1900,
+    "w": 628,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1927,
+    "w": 365,
+    "h": 18
+   },
+   {
+    "x": 1131,
+    "y": 1796,
+    "w": 132,
+    "h": 16
+   },
+   {
+    "x": 293,
+    "y": 2166,
+    "w": 129,
+    "h": 27
+   },
+   {
+    "x": 264,
+    "y": 2218,
+    "w": 188,
+    "h": 16
+   },
+   {
+    "x": 275,
+    "y": 2242,
+    "w": 166,
+    "h": 16
+   },
+   {
+    "x": 669,
+    "y": 2166,
+    "w": 103,
+    "h": 27
+   },
+   {
+    "x": 650,
+    "y": 2218,
+    "w": 141,
+    "h": 16
+   },
+   {
+    "x": 661,
+    "y": 2242,
+    "w": 118,
+    "h": 16
+   },
+   {
+    "x": 1021,
+    "y": 2166,
+    "w": 122,
+    "h": 27
+   },
+   {
+    "x": 972,
+    "y": 2218,
+    "w": 220,
+    "h": 16
+   },
+   {
+    "x": 966,
+    "y": 2242,
+    "w": 163,
+    "h": 16
+   },
+   {
+    "x": 1129,
+    "y": 2248,
+    "w": 7,
+    "h": 12
+   },
+   {
+    "x": 1136,
+    "y": 2242,
+    "w": 63,
+    "h": 16
+   },
+   {
+    "x": 238,
+    "y": 2580,
+    "w": 263,
+    "h": 32
+   },
+   {
+    "x": 238,
+    "y": 2636,
+    "w": 576,
+    "h": 18
+   },
+   {
+    "x": 238,
+    "y": 2663,
+    "w": 578,
+    "h": 18
+   },
+   {
+    "x": 238,
+    "y": 2690,
+    "w": 602,
+    "h": 18
+   },
+   {
+    "x": 238,
+    "y": 2690,
+    "w": 592,
+    "h": 18
+   },
+   {
+    "x": 262,
+    "y": 2752,
+    "w": 132,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 3100,
+    "w": 82,
+    "h": 13
+   },
+   {
+    "x": 177,
+    "y": 3143,
+    "w": 385,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 3231,
+    "w": 610,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 3258,
+    "w": 445,
+    "h": 18
+   },
+   {
+    "x": 1131,
+    "y": 3155,
+    "w": 132,
+    "h": 16
+   },
+   {
+    "x": 179,
+    "y": 3515,
+    "w": 141,
+    "h": 27
+   },
+   {
+    "x": 70,
+    "y": 3568,
+    "w": 359,
+    "h": 18
+   },
+   {
+    "x": 76,
+    "y": 3595,
+    "w": 346,
+    "h": 18
+   },
+   {
+    "x": 69,
+    "y": 3622,
+    "w": 361,
+    "h": 18
+   },
+   {
+    "x": 200,
+    "y": 3649,
+    "w": 98,
+    "h": 18
+   },
+   {
+    "x": 635,
+    "y": 3515,
+    "w": 129,
+    "h": 27
+   },
+   {
+    "x": 528,
+    "y": 3577,
+    "w": 344,
+    "h": 18
+   },
+   {
+    "x": 539,
+    "y": 3604,
+    "w": 321,
+    "h": 18
+   },
+   {
+    "x": 662,
+    "y": 3631,
+    "w": 75,
+    "h": 18
+   },
+   {
+    "x": 1040,
+    "y": 3515,
+    "w": 222,
+    "h": 27
+   },
+   {
+    "x": 978,
+    "y": 3568,
+    "w": 346,
+    "h": 18
+   },
+   {
+    "x": 979,
+    "y": 3595,
+    "w": 343,
+    "h": 18
+   },
+   {
+    "x": 998,
+    "y": 3622,
+    "w": 305,
+    "h": 18
+   },
+   {
+    "x": 1112,
+    "y": 3649,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 3929,
+    "w": 225,
+    "h": 40
+   },
+   {
+    "x": 853,
+    "y": 3973,
+    "w": 237,
+    "h": 40
+   },
+   {
+    "x": 853,
+    "y": 4059,
+    "w": 399,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 4086,
+    "w": 338,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 4113,
+    "w": 358,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 4140,
+    "w": 369,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 4167,
+    "w": 262,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 4221,
+    "w": 132,
+    "h": 16
+   },
+   {
+    "x": 173,
+    "y": 4423,
+    "w": 138,
+    "h": 22
+   },
+   {
+    "x": 226,
+    "y": 4490,
+    "w": 180,
+    "h": 16
+   },
+   {
+    "x": 438,
+    "y": 4490,
+    "w": 183,
+    "h": 16
+   },
+   {
+    "x": 654,
+    "y": 4490,
+    "w": 56,
+    "h": 16
+   },
+   {
+    "x": 742,
+    "y": 4490,
+    "w": 166,
+    "h": 16
+   },
+   {
+    "x": 940,
+    "y": 4490,
+    "w": 234,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 4848,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 4896,
+    "w": 103,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 4940,
+    "w": 45,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 4985,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 5030,
+    "w": 67,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 4848,
+    "w": 135,
+    "h": 16
+   },
+   {
+    "x": 402,
+    "y": 4896,
+    "w": 142,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 4940,
+    "w": 89,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 4957,
+    "w": 73,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 5002,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 5002,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 5047,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 5047,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 4896,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 4896,
+    "w": 69,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 4940,
+    "w": 127,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 4985,
+    "w": 121,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 5002,
+    "w": 85,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 5019,
+    "w": 39,
+    "h": 13
+   },
+   {
+    "x": 642,
+    "y": 5019,
+    "w": 51,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 4896,
+    "w": 157,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 4912,
+    "w": 36,
+    "h": 13
+   },
+   {
+    "x": 841,
+    "y": 4912,
+    "w": 64,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 4957,
+    "w": 154,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 5002,
+    "w": 147,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 5047,
+    "w": 130,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 5064,
+    "w": 128,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 4863,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 1112,
+    "y": 4943,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 5152,
+    "w": 81,
+    "h": 13
+   },
+   {
+    "x": 149,
+    "y": 5152,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 158,
+    "y": 5152,
+    "w": 136,
+    "h": 13
+   },
+   {
+    "x": 1296,
+    "y": 872,
+    "w": 124,
+    "h": 13
+   }
+  ],
+  "eds": [
+   {
+    "x": 1336,
+    "y": 7,
+    "w": 20,
+    "h": 13
+   },
+   {
+    "x": 486,
+    "y": 51,
+    "w": 63,
+    "h": 16
+   },
+   {
+    "x": 605,
+    "y": 51,
+    "w": 71,
+    "h": 16
+   },
+   {
+    "x": 733,
+    "y": 51,
+    "w": 111,
+    "h": 16
+   },
+   {
+    "x": 900,
+    "y": 51,
+    "w": 46,
+    "h": 16
+   },
+   {
+    "x": 1002,
+    "y": 51,
+    "w": 59,
+    "h": 16
+   },
+   {
+    "x": 1118,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1224,
+    "y": 51,
+    "w": 52,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 277,
+    "w": 423,
+    "h": 71
+   },
+   {
+    "x": 177,
+    "y": 838,
+    "w": 96,
+    "h": 18
+   },
+   {
+    "x": 272,
+    "y": 838,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 556,
+    "y": 838,
+    "w": 105,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 865,
+    "w": 101,
+    "h": 18
+   },
+   {
+    "x": 277,
+    "y": 865,
+    "w": 157,
+    "h": 18
+   },
+   {
+    "x": 434,
+    "y": 865,
+    "w": 255,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 892,
+    "w": 467,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 919,
+    "w": 522,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 946,
+    "w": 241,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 985,
+    "w": 219,
+    "h": 18
+   },
+   {
+    "x": 396,
+    "y": 985,
+    "w": 199,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1012,
+    "w": 206,
+    "h": 18
+   },
+   {
+    "x": 383,
+    "y": 1012,
+    "w": 288,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1039,
+    "w": 499,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1066,
+    "w": 207,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1392,
+    "w": 679,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 1431,
+    "w": 194,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 1486,
+    "w": 708,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1513,
+    "w": 482,
+    "h": 18
+   },
+   {
+    "x": 659,
+    "y": 1513,
+    "w": 141,
+    "h": 18
+   },
+   {
+    "x": 800,
+    "y": 1513,
+    "w": 41,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1540,
+    "w": 153,
+    "h": 18
+   },
+   {
+    "x": 330,
+    "y": 1540,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 388,
+    "y": 1540,
+    "w": 243,
+    "h": 18
+   },
+   {
+    "x": 631,
+    "y": 1540,
+    "w": 5,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1771,
+    "w": 385,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 1859,
+    "w": 606,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1886,
+    "w": 540,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1913,
+    "w": 467,
+    "h": 18
+   },
+   {
+    "x": 1157,
+    "y": 1781,
+    "w": 81,
+    "h": 18
+   },
+   {
+    "x": 1173,
+    "y": 1801,
+    "w": 47,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 2172,
+    "w": 138,
+    "h": 27
+   },
+   {
+    "x": 265,
+    "y": 2224,
+    "w": 187,
+    "h": 16
+   },
+   {
+    "x": 273,
+    "y": 2248,
+    "w": 170,
+    "h": 16
+   },
+   {
+    "x": 671,
+    "y": 2172,
+    "w": 99,
+    "h": 27
+   },
+   {
+    "x": 650,
+    "y": 2224,
+    "w": 139,
+    "h": 16
+   },
+   {
+    "x": 659,
+    "y": 2248,
+    "w": 123,
+    "h": 16
+   },
+   {
+    "x": 1016,
+    "y": 2172,
+    "w": 132,
+    "h": 27
+   },
+   {
+    "x": 967,
+    "y": 2224,
+    "w": 230,
+    "h": 16
+   },
+   {
+    "x": 963,
+    "y": 2248,
+    "w": 168,
+    "h": 16
+   },
+   {
+    "x": 1131,
+    "y": 2254,
+    "w": 8,
+    "h": 13
+   },
+   {
+    "x": 1139,
+    "y": 2248,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 238,
+    "y": 2590,
+    "w": 268,
+    "h": 32
+   },
+   {
+    "x": 238,
+    "y": 2650,
+    "w": 586,
+    "h": 18
+   },
+   {
+    "x": 238,
+    "y": 2677,
+    "w": 587,
+    "h": 18
+   },
+   {
+    "x": 238,
+    "y": 2704,
+    "w": 562,
+    "h": 18
+   },
+   {
+    "x": 262,
+    "y": 2743,
+    "w": 133,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 3091,
+    "w": 92,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 3135,
+    "w": 385,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 3223,
+    "w": 621,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 3250,
+    "w": 452,
+    "h": 18
+   },
+   {
+    "x": 1157,
+    "y": 3145,
+    "w": 81,
+    "h": 18
+   },
+   {
+    "x": 1173,
+    "y": 3165,
+    "w": 47,
+    "h": 18
+   },
+   {
+    "x": 180,
+    "y": 3526,
+    "w": 139,
+    "h": 27
+   },
+   {
+    "x": 77,
+    "y": 3579,
+    "w": 345,
+    "h": 18
+   },
+   {
+    "x": 79,
+    "y": 3606,
+    "w": 341,
+    "h": 18
+   },
+   {
+    "x": 70,
+    "y": 3633,
+    "w": 359,
+    "h": 18
+   },
+   {
+    "x": 200,
+    "y": 3660,
+    "w": 99,
+    "h": 18
+   },
+   {
+    "x": 636,
+    "y": 3526,
+    "w": 128,
+    "h": 27
+   },
+   {
+    "x": 535,
+    "y": 3579,
+    "w": 329,
+    "h": 18
+   },
+   {
+    "x": 544,
+    "y": 3606,
+    "w": 312,
+    "h": 18
+   },
+   {
+    "x": 664,
+    "y": 3633,
+    "w": 72,
+    "h": 18
+   },
+   {
+    "x": 1041,
+    "y": 3526,
+    "w": 220,
+    "h": 27
+   },
+   {
+    "x": 980,
+    "y": 3579,
+    "w": 340,
+    "h": 18
+   },
+   {
+    "x": 970,
+    "y": 3606,
+    "w": 361,
+    "h": 18
+   },
+   {
+    "x": 968,
+    "y": 3633,
+    "w": 366,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 3940,
+    "w": 226,
+    "h": 40
+   },
+   {
+    "x": 853,
+    "y": 3984,
+    "w": 239,
+    "h": 40
+   },
+   {
+    "x": 853,
+    "y": 4070,
+    "w": 401,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 4097,
+    "w": 343,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 4124,
+    "w": 364,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 4151,
+    "w": 370,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 4178,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 853,
+    "y": 4231,
+    "w": 133,
+    "h": 18
+   },
+   {
+    "x": 173,
+    "y": 4498,
+    "w": 140,
+    "h": 22
+   },
+   {
+    "x": 227,
+    "y": 4564,
+    "w": 183,
+    "h": 18
+   },
+   {
+    "x": 442,
+    "y": 4564,
+    "w": 180,
+    "h": 18
+   },
+   {
+    "x": 654,
+    "y": 4564,
+    "w": 57,
+    "h": 18
+   },
+   {
+    "x": 742,
+    "y": 4564,
+    "w": 166,
+    "h": 18
+   },
+   {
+    "x": 940,
+    "y": 4564,
+    "w": 233,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 4922,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 4971,
+    "w": 102,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 5015,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 5060,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 5105,
+    "w": 66,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 4922,
+    "w": 135,
+    "h": 18
+   },
+   {
+    "x": 402,
+    "y": 4971,
+    "w": 145,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 5015,
+    "w": 88,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 5032,
+    "w": 71,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 5077,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 5077,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 5122,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 5122,
+    "w": 58,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 4971,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 4971,
+    "w": 68,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 5015,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 5060,
+    "w": 120,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 5077,
+    "w": 83,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 5094,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 643,
+    "y": 5094,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 4971,
+    "w": 156,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 4987,
+    "w": 41,
+    "h": 13
+   },
+   {
+    "x": 845,
+    "y": 4987,
+    "w": 65,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 5032,
+    "w": 153,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 5077,
+    "w": 143,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 5122,
+    "w": 132,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 5139,
+    "w": 126,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 4937,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 1112,
+    "y": 5017,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 5227,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 152,
+    "y": 5227,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 160,
+    "y": 5227,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 1298,
+    "y": 871,
+    "w": 122,
+    "h": 16
+   }
+  ]
+ }
+}

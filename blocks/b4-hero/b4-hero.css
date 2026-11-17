@@ -1,0 +1,572 @@
+/* b4-hero — lifted from stardust/prototypes/brand.css (module: b4-hero + kicker).
+   One-column grid, rows auto/auto: full-bleed 16:9 image (150% / 50% of width) in row 1 (rows 1-2 from
+   1440, so lead + CTA sit on the image); h1 bottom-aligned in row 1; lead + CTA in row 2; hairline rule
+   cols 2-3 >= 1024. Breakpoints 768 / 1024 / 1440. */
+.b4-hero {
+  position: relative;
+  display: flex;
+}
+
+.b4-hero .b4-hero-grid {
+  flex: 1;
+  display: grid;
+  width: 100%;
+  min-width: 0;
+  margin: 0 auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+}
+
+.b4-hero .b4-hero-media {
+  grid-area: 1 / 1 / 2 / 2;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 150%;
+  overflow: hidden;
+}
+
+.b4-hero .b4-hero-bg {
+  position: absolute;
+  inset: 0;
+}
+
+.b4-hero .b4-hero-pic,
+.b4-hero .b4-hero-pic picture {
+  display: block;
+  height: 100%;
+}
+
+.b4-hero .b4-hero-pic img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  transform: translateY(calc(var(--ty, 0%) * -0.85));
+}
+
+.b4-hero .b4-hero-veil {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(180deg, #0000, #000000b3);
+}
+
+.b4-hero .b4-hero-head {
+  grid-area: 1 / 1 / 2 / 2;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 0;
+  align-self: flex-end;
+  align-items: flex-end;
+  align-content: flex-end;
+  margin-bottom: 3rem;
+}
+
+.b4-hero .b4-hero-head > .r-grid,
+.b4-hero .b4-hero-body > .r-grid {
+  flex: 1;
+}
+
+.b4-hero .b4-hero-title {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  align-items: center;
+  align-content: center;
+}
+
+/* eyebrow: category-label (light) */
+.b4-hero .b4-hero-kicker {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  color: #fff;
+}
+
+.b4-hero .b4-hero-kicker p {
+  margin: 0;
+  font-family: var(--font-label);
+  font-size: 0.625rem;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.b4-hero .b4-spacer {
+  flex-basis: 100%;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.b4-hero .b4-spacer-kicker {
+  height: 16px;
+}
+
+/* h1: t-display t-white */
+.b4-hero .b4-hero-h :is(h1, h2) {
+  margin: 0;
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 110%;
+}
+
+.b4-hero .b4-hero-body {
+  grid-area: 2 / 1 / 3 / 2;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 0;
+  align-self: flex-start;
+  margin: 2.5rem 0;
+}
+
+.b4-hero .b4-hero-rule {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.b4-hero .b4-rule {
+  display: block;
+  width: 48px;
+  min-width: 48px;
+  margin-top: 13px;
+  border-top: 1px solid var(--c-ink);
+}
+
+.b4-hero .b4-hero-text {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+}
+
+.b4-hero .b4-hero-lead p {
+  margin: 0;
+  color: var(--c-ink);
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+.b4-hero .b4-spacer-hero {
+  height: 24px;
+}
+
+/* CTA: btn btn--daben */
+.b4-hero .b4-hero-cta p {
+  margin: 0;
+}
+
+.b4-hero .b4-hero-cta a.button:any-link {
+  border: 0;
+  background: var(--c-ink);
+  color: #fff;
+}
+
+.b4-hero .b4-hero-cta a.button:any-link:hover {
+  background: var(--brand-color);
+  color: var(--text-on-brand-color);
+}
+
+@media (width < 768px) {
+  .b4-hero .b4-hero-pic-desktop {
+    display: none;
+  }
+
+  .b4-hero .b4-hero-pic-mobile img,
+  .b4-hero .b4-hero-pic:only-child img {
+    object-fit: cover;
+    width: auto;
+    max-width: 100vw;
+    height: 112.5%;
+  }
+}
+
+@media (width >= 768px) {
+  .b4-hero .b4-hero-pic-mobile {
+    display: none;
+  }
+
+  .b4-hero .b4-hero-media {
+    padding-bottom: 50%;
+  }
+
+  .b4-hero .b4-hero-head {
+    margin-bottom: 2.5rem;
+  }
+
+  .b4-hero .b4-hero-title {
+    grid-column: 1 / 9;
+  }
+
+  .b4-hero .b4-spacer-kicker {
+    height: 20px;
+  }
+
+  .b4-hero .b4-hero-h :is(h1, h2) {
+    font-size: 42px;
+  }
+
+  .b4-hero .b4-hero-body {
+    margin: 3rem 0;
+  }
+
+  .b4-hero .b4-hero-text {
+    grid-column: 1 / 6;
+  }
+
+  .b4-hero .b4-spacer-hero {
+    height: 20px;
+  }
+}
+
+@media (width < 1024px) {
+  .b4-hero .b4-hero-rule {
+    display: none;
+  }
+}
+
+@media (width >= 1024px) {
+  .b4-hero .b4-hero-head {
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 0;
+  }
+
+  .b4-hero .b4-hero-title {
+    grid-column: 2 / 10;
+  }
+
+  /* R-02 compensation (brand-home): live wraps after "digitalization" */
+  .b4-hero .b4-hero-h :is(h1, h2) {
+    letter-spacing: 0.012em;
+  }
+
+  .b4-hero:is(.solution, .case-study) .b4-hero-h :is(h1, h2) {
+    letter-spacing: normal;
+  }
+
+  .b4-hero .b4-hero-body {
+    margin: 4rem 0;
+  }
+
+  .b4-hero .b4-hero-rule {
+    grid-column: 2 / 3;
+  }
+
+  .b4-hero .b4-hero-text {
+    grid-column: 3 / 8;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-hero .b4-hero-media {
+    grid-row: 1 / 3;
+  }
+
+  .b4-hero .b4-hero-head {
+    align-self: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    margin-bottom: 2.5rem;
+  }
+
+  .b4-hero .b4-spacer-kicker {
+    height: 24px;
+  }
+
+  .b4-hero .b4-hero-h :is(h1, h2) {
+    font-size: 64px;
+  }
+
+  .b4-hero .b4-hero-body {
+    margin: 0;
+  }
+
+  .b4-hero .b4-rule {
+    border-top-color: #fff;
+  }
+
+  .b4-hero .b4-hero-lead p {
+    color: #fff;
+  }
+
+  .b4-hero .b4-hero-cta a.button:any-link {
+    background: #ffffff1f;
+    backdrop-filter: blur(20px);
+  }
+}
+
+/* contact button (btn btn--daben as a modal trigger) */
+.b4-hero .b4-hero-btn {
+  position: relative;
+  z-index: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  padding: 12px 20px;
+  border-radius: 4px;
+  background: var(--c-ink);
+  color: #fff;
+  cursor: pointer;
+}
+
+.b4-hero .b4-hero-btn:hover {
+  background: var(--brand-color);
+  color: var(--text-on-brand-color);
+}
+
+.b4-hero .b4-hero-btn:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+.b4-hero .b4-hero-btn p {
+  margin: 0;
+  font-family: var(--font-label);
+  font-size: 0.75rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.b4-hero .b4-hero-btn :is(strong, b) {
+  font-weight: inherit;
+}
+
+.b4-hero .b4-modal {
+  width: min(100% - 2.5rem, 720px);
+  max-height: calc(100% - 2.5rem);
+  padding: 3rem 2rem 2rem;
+  border: 0;
+  border-radius: 6px;
+  background: #fff;
+  color: var(--c-ink);
+}
+
+.b4-hero .b4-modal::backdrop {
+  background: #151f27b3;
+}
+
+.b4-hero .b4-modal-dismiss {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+.b4-hero .b4-modal-dismiss::before,
+.b4-hero .b4-modal-dismiss::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  width: 70%;
+  height: 2px;
+  background: var(--c-ink);
+  transform: rotate(45deg);
+}
+
+.b4-hero .b4-modal-dismiss::after {
+  transform: rotate(-45deg);
+}
+
+@media (width >= 1440px) {
+  .b4-hero .b4-hero-btn {
+    padding: 14px 24px;
+    background: #ffffff1f;
+    backdrop-filter: blur(20px);
+  }
+
+  .b4-hero .b4-hero-btn p {
+    font-size: 0.875rem;
+  }
+}
+
+/* variant case-study (brand-case-study prototype .b4cs-hero): flat 40 % veil instead of the gradient,
+   category label with the (uncoloured) category dot before the name. */
+.b4-hero.case-study .b4-hero-veil {
+  background-color: rgb(0 0 0 / 40%);
+  background-image: none;
+}
+
+.b4-hero.case-study .b4-hero-kicker::before {
+  content: "";
+  flex-shrink: 0;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+}
+
+/* variant solution veils (fix-brand-solution; per-page source .grid-item over the hero image):
+   veil = 180deg 0 -> 70 % (the default gradient), veil-flat = flat 40 %, veil-low = 0deg 60 % -> 0
+   at 50 %; veil-lg = the 180deg gradient from 1024 only (with veil-low: veil-low below 1024).
+   Rows stay auto / auto at 1440 as in the source: the free height splits between head and body. */
+.b4-hero.solution.veil-flat .b4-hero-veil {
+  background-color: rgb(0 0 0 / 40%);
+  background-image: none;
+}
+
+.b4-hero.solution.veil-low .b4-hero-veil {
+  background-image: linear-gradient(0deg, rgb(0 0 0 / 60%), rgb(0 0 0 / 0%) 50%);
+}
+
+.b4-hero.solution.veil-lg:not(.veil-low) .b4-hero-veil {
+  background-image: none;
+}
+
+@media (width >= 1024px) {
+  .b4-hero.solution.veil-lg .b4-hero-veil,
+  .b4-hero.solution.veil-lg:not(.veil-low) .b4-hero-veil {
+    background-image: linear-gradient(180deg, #0000, #000000b3);
+  }
+}
+
+/* variant plain (cluster-brand-case-study, with case-study): hero without an image — ink kicker, H1,
+   lead and rule on white; extra lead paragraphs (tag list) in an aside column (cols 8-10 >= 1024). */
+.b4-hero.plain .b4-hero-media {
+  display: none;
+}
+
+.b4-hero.plain .b4-hero-head {
+  align-self: flex-start;
+  margin: 48px 0 0;
+}
+
+.b4-hero.plain .b4-hero-kicker,
+.b4-hero.plain .b4-hero-h :is(h1, h2),
+.b4-hero.plain .b4-hero-lead p,
+.b4-hero.plain .b4-hero-aside p {
+  color: var(--c-ink);
+}
+
+.b4-hero.plain .b4-hero-kicker::before {
+  background: var(--c-ink);
+}
+
+.b4-hero.plain .b4-hero-aside {
+  grid-column: 1 / 5;
+  grid-row: 2 / 3;
+  margin-top: 40px;
+}
+
+/* tag list = source .text-qqvt1 (sekprcvhoj = the 500 face, 16px / 170%; fix-4brands-small) */
+.b4-hero.plain .b4-hero-aside p {
+  margin: 0;
+  font-family: var(--font-lead);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 170%;
+}
+
+.b4-hero.plain .b4-hero-body {
+  margin: 2.5rem 0 3rem;
+}
+
+@media (width >= 1024px) {
+  .b4-hero.plain .b4-hero-aside {
+    grid-column: 8 / 11;
+    grid-row: 1 / 2;
+    margin-top: 0;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-hero.plain .b4-hero-head {
+    margin: 72px 0 0;
+  }
+
+  .b4-hero.plain .b4-hero-body {
+    margin: 40px 0 72px;
+  }
+
+  .b4-hero.plain .b4-rule {
+    border-top-color: var(--c-ink);
+  }
+
+  .b4-hero.plain .b4-hero-btn,
+  .b4-hero.plain .b4-hero-cta a.button:any-link {
+    background: var(--c-ink);
+    backdrop-filter: none;
+  }
+}
+
+/* variant download (fix-brand-solution): the download button (form-runtime type download) carries the
+   icon-c-snl4 glyph after its label — 16 / 22.4 px, gap 10 px; 20 / 28 px, gap 11 px from 1440. */
+.b4-hero.download .b4-hero-btn {
+  column-gap: 10px;
+}
+
+.b4-hero.download .b4-hero-btn::after {
+  content: "\ec5a";
+  font-family: "Website Icons", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+
+@media (width >= 1440px) {
+  .b4-hero.download .b4-hero-btn {
+    column-gap: 11px;
+  }
+
+  .b4-hero.download .b4-hero-btn::after {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+/* source ProseMirror headings wrap with overflow-wrap: break-word + white-space: break-spaces
+   (a long word breaks mid-word @360, e.g. "Kundenanspra-che"; measured fix-4brands-small) */
+.b4-hero.block .b4-hero-h :is(h1, h2) {
+  overflow-wrap: break-word;
+  white-space: break-spaces;
+}
+
+/* ls-<n> (fix-small-2): R-02 wrap compensation below 768 — one tracking (n / 1000 em, ls-0 =
+   normal) on every text line of the block, measured per block against the live line breaks
+   @360 (stand-in faces set ~2 % narrower; .work/rollout/fix-small-2/wrap.mjs) */
+@media (width < 768px) {
+  .b4-hero.ls-0 { --ls-v: normal; }
+  .b4-hero.ls-5 { --ls-v: 0.005em; }
+  .b4-hero.ls-7 { --ls-v: 0.0075em; }
+  .b4-hero.ls-10 { --ls-v: 0.01em; }
+  .b4-hero.ls-12 { --ls-v: 0.0125em; }
+  .b4-hero.ls-15 { --ls-v: 0.015em; }
+  .b4-hero.ls-20 { --ls-v: 0.02em; }
+  .b4-hero.ls-25 { --ls-v: 0.025em; }
+  .b4-hero.ls-n10 { --ls-v: -0.01em; } /* fix-brand-solution-6, sac-essentials lead 2 lines */
+
+  main div.b4-hero.block[class*=" ls-"] :is(p, li, h1, h2, h3, h4, h5, h6) {
+    letter-spacing: var(--ls-v, normal);
+  }
+}
+
+/* variant h1-blank (fix-brand-solution-4, intelligent-enterprise): the source title cell ends on an
+   empty paragraph under the H1 (<p><br></p>) — measured 45 px @360, 59 px @1440 */
+.b4-hero.h1-blank .b4-hero-h {
+  margin-bottom: 45px;
+}
+
+@media (width >= 1440px) {
+  .b4-hero.h1-blank .b4-hero-h {
+    margin-bottom: 59px;
+  }
+}
+
+/* hls-n5 (fix-small-4, sap-ccm): R-02 wrap compensation >= 1024 for the title only — the live
+   H1 sets 2 lines at 1440 (the stand-in face 3 at normal tracking; fits -0.03 .. -0.005 em) */
+@media (width >= 1024px) {
+  .b4-hero.hls-n5 .b4-hero-h :is(h1, h2) {
+    letter-spacing: -0.005em;
+  }
+}

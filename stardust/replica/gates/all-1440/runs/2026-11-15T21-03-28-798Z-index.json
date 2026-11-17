@@ -1,0 +1,168 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-15T21:03:28.798Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.reply.com",
+    "eds": "https://main--a355dc1b--aemcoder.aem.page",
+    "edsHostOverride": "https://main--a355dc1b--aemcoder.aem.page",
+    "only": [
+      "index"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 1,
+    "overridePass": 0,
+    "fail": 1,
+    "error": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 1,
+    "failContent": 1,
+    "failUnits": 0,
+    "fontsNotLoaded": 1,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "index",
+      "path": "/",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 9.33,
+      "textPct": 12.7,
+      "heightDelta": 0,
+      "originH": 16052,
+      "edsH": 16052,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 14,
+      "clipPass": false,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "passWithOverride": false,
+      "fontsNotLoaded": [
+        "khanqyjjei-fallback",
+        "tuqgwxsjgq-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "clipped 14 (text 1, controls 13)",
+        "content MISSING 5 / HIDDEN 1",
+        "font-not-loaded:khanqyjjei-fallback",
+        "font-not-loaded:tuqgwxsjgq-fallback"
+      ],
+      "clipGroups": [
+        {
+          "kind": "TEXT CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#brick-cognitive-agentic-ai-to-scale-manufacturing",
+          "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#brick-cognitive-agentic-ai-to-scale-manufacturing",
+          "text": "brick cognitive: agentic ai to scale manufacturing",
+          "cutMin": 8,
+          "cutMax": 8
+        },
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#unipol-accelerates-innovation-in-the-insurance-sector-thanks-to-generative-ai",
+          "path": "div.reply-card-body > div.reply-card-title > h3#unipol-accelerates-innovation-in-the-insurance-sector-thanks-to-generative-ai > a",
+          "text": "unipol accelerates innovation in the insurance sector thanks",
+          "cutMin": 24,
+          "cutMax": 24
+        },
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#generali-country-italia-enhances-the-customer-experience-with-an-aws-based-contact-center",
+          "path": "div.reply-card-body > div.reply-card-title > h3#generali-country-italia-enhances-the-customer-experience-with-an-aws-based-contact-center > a",
+          "text": "generali country italia enhances the customer experience wit",
+          "cutMin": 24,
+          "cutMax": 24
+        },
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#bmw-accelerates-migration-to-cloud-native-bi-with-storm-reply-and-aws",
+          "path": "div.reply-card-body > div.reply-card-title > h3#bmw-accelerates-migration-to-cloud-native-bi-with-storm-reply-and-aws > a",
+          "text": "bmw accelerates migration to cloud-native bi with storm repl",
+          "cutMin": 24,
+          "cutMax": 24
+        },
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#game-set-ai-match-changing-insights-at-the-billie-jean-king-cup-by-gainbridge",
+          "path": "div.reply-card-body > div.reply-card-title > h3#game-set-ai-match-changing-insights-at-the-billie-jean-king-cup-by-gainbridge > a",
+          "text": "game, set, ai: match-changing insights at the billie jean ki",
+          "cutMin": 24,
+          "cutMax": 24
+        },
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#riverty-transforms-customer-service-with-ai-and-an-omnichannel-strategy",
+          "path": "div.reply-card-body > div.reply-card-title > h3#riverty-transforms-customer-service-with-ai-and-an-omnichannel-strategy > a",
+          "text": "riverty transforms customer service with ai and an omnichann",
+          "cutMin": 24,
+          "cutMax": 24
+        }
+      ],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 5,
+        "hidden": 1,
+        "controlState": 0,
+        "missingButtons": 7,
+        "hiddenButtons": 0,
+        "findings": 34,
+        "variable": []
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [
+        "0-500:40%",
+        "500-1000:53%",
+        "1000-1500:53.6%",
+        "2000-2500:16.7%",
+        "5000-5500:41.9%"
+      ],
+      "error": null
+    }
+  ]
+}

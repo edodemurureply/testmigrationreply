@@ -1,0 +1,87 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/process-mining",
+ "at": "2026-11-17T01:14:44.393Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 10,
+  "offPage": 33,
+  "textNodes": 76,
+  "controls": 25,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 4,
+   "clipper": "div.b4-slider-viewport",
+   "path": "li.b4-slider-item.is-clone > div.b4-slider-card > div.b4-slider-body > p",
+   "text": "flexibel einsetzbar: value accelerator & individuelle analys",
+   "cutMin": 252,
+   "cutMax": 257
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.card-carousel.simple",
+   "path": "ul.card-carousel-track > li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+   "text": "vom datenpotenzial zur klaren strategieoffering",
+   "cutMin": 38,
+   "cutMax": 186
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.reply-card-image-container",
+   "path": "div.reply-card-body > div.category-label > div.category-name > p",
+   "text": "offering",
+   "cutMin": 6,
+   "cutMax": 15
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h3#vom-datenpotenzial-zur-klaren-strategie",
+   "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#vom-datenpotenzial-zur-klaren-strategie",
+   "text": "vom datenpotenzial zur klaren strategie",
+   "cutMin": 6,
+   "cutMax": 6
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h3#revenue-growth-management",
+   "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#revenue-growth-management",
+   "text": "revenue growth management",
+   "cutMin": 95,
+   "cutMax": 95
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 8,
+   "offPage": 24,
+   "textNodes": 66,
+   "controls": 25,
+   "total": 0
+  }
+ }
+}

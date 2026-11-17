@@ -1,0 +1,114 @@
+/* awards — en-insights.css .ins-awards (ice band) / .ins-awards-head / .ins-eyebrow /
+   .ins-eyebrow-gap--awards; title = modules.css .t-section. Band bottom = .ins-awards-slider margin. */
+.awards-container {
+  display: flow-root;
+  padding-bottom: 80px;
+  background-color: #f4f8fc;
+}
+
+.awards {
+  display: flow-root;
+  margin-top: 40px;
+  margin-bottom: -16px;
+}
+
+.awards .awards-grid {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.awards .awards-cell {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  align-items: center;
+  align-content: center;
+}
+
+.awards .awards-eyebrow p {
+  margin: 0;
+  color: #586674;
+  font-family: txtislskto, var(--font-label);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+.awards .awards-gap {
+  height: 16px;
+}
+
+.awards .awards-title :is(h1, h2, h3, h4, h5, h6, p) {
+  margin: 0;
+  color: var(--c-ink);
+  font-family: var(--font-lead);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+/* R-02 wrap parity < 768: the live line breaks are held by a measure cap */
+@media (width < 768px) {
+  .awards .awards-title :is(h1, h2, h3, h4, h5, h6) {
+    max-width: 215px;
+  }
+}
+
+@media (width >= 768px) {
+  .awards-container {
+    padding-bottom: 88px;
+  }
+
+  .awards {
+    margin-top: 48px;
+    margin-bottom: -12px;
+  }
+
+  .awards .awards-grid {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .awards .awards-cell {
+    grid-column: 1 / 9;
+  }
+
+  .awards .awards-gap {
+    height: 20px;
+  }
+}
+
+@media (width >= 1024px) {
+  .awards .awards-grid {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .awards .awards-cell {
+    grid-column: 2 / 10;
+  }
+}
+
+@media (width >= 1440px) {
+  .awards-container {
+    padding-bottom: 96px;
+  }
+
+  .awards {
+    margin-top: 24px;
+    margin-bottom: -32px;
+  }
+
+  .awards .awards-grid {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+
+  .awards .awards-gap {
+    height: 24px;
+  }
+
+  .awards .awards-title :is(h1, h2, h3, h4, h5, h6, p) {
+    font-size: 36px;
+  }
+}

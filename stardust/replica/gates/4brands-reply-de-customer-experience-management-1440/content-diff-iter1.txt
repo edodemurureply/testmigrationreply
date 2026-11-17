@@ -1,0 +1,50 @@
+
+Content diff @ 1440px (profile "generic", roots: #main-content, header, footer)
+root "#main-content"
+  source: 90 text nodes — 20 headings, 15 eyebrows, 1 CTAs, 54 body; 21 img
+  build: 85 text nodes — 18 headings, 15 eyebrows, 1 CTAs, 51 body; 21 img
+  editable texts (outermost h*/p/ul/ol): source 52 / build 39
+  attributes (placeholder/aria-label/title): source 18 / build 20; icons: source 8 / build 8
+  accepted (invisible, nothing lost): 1 ROLE UPGRADE body → heading — "Unsere Services"
+root "header"
+  source: 25 text nodes — 0 headings, 0 eyebrows, 17 CTAs, 8 body; 1 img
+  build: 25 text nodes — 0 headings, 0 eyebrows, 17 CTAs, 8 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 11 / build 11; icons: source 14 / build 14
+root "footer"
+  source: 11 text nodes — 0 headings, 0 eyebrows, 10 CTAs, 1 body; 1 img
+  build: 11 text nodes — 0 headings, 0 eyebrows, 10 CTAs, 1 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 0 / build 1; icons: source 3 / build 3
+
+Findings: 29 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 6 · accepted 🟢 1 (owner 0, auto 1) · advisory 23
+  🟡 MISSING BODY [#main-content]: source body "Wenn digitale Innovation auf fundiertes Branchen"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Mit dem gezielten Einsatz von Künstlicher Intell"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "effizient zu gestalten, relevante Kundenpotenzia"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "für den nächsten Besuch bereitzustellen."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Allokation der Ressourcen im Vertrieb"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Verbesserte Transparenz im Vertriebsprozess und "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Dank unserer langjährigen Erfahrung sind uns die"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Wir vermitteln praxiserprobtes Wissen rund um di"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 ROLE DOWNGRADE [#main-content]: "SAP Sales Cloud" is a heading in the source but body in build, same look — the outline lost it; restore the heading element.
+  🟡 ROLE DOWNGRADE [#main-content]: "SAP Service Cloud" is a heading in the source but body in build, same look — the outline lost it; restore the heading element.
+  🟡 ROLE DOWNGRADE [#main-content]: "SAP Business Technology Platform" is a heading in the source but body in build, same look — the outline lost it; restore the heading element.
+  🟡 EXTRA [#main-content]: build body "Wenn digitale Innovation auf fundiertes Branchen" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "Mit dem gezielten Einsatz von Künstlicher Intell" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "Verbesserte Transparenz im Vertriebsprozess und " has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "Dank unserer langjährigen Erfahrung sind uns die" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EDITABLE COUNT [#main-content]: build has 39 outermost editable element(s) vs 52 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 MISSING ARIA-LABEL [#main-content]: source <button> aria-label="Prev card" has no build <button> with that aria-label (build <button> aria-labels: "Schließen", "Vorheriger Tab", "Nächster Tab"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <button> aria-label="Next card" has no build <button> with that aria-label (build <button> aria-labels: "Schließen", "Vorheriger Tab", "Nächster Tab"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <button> aria-label="Schließen" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <button> aria-label="Vorheriger Tab" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <button> aria-label="Nächster Tab" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <div> aria-label="Das könnte Sie auch interessieren" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON MOVED [#main-content]: source inline svg 0 0 20 20 / 1 shape(s) (20×20) at "button#1" is at "schließen" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source inline svg 0 0 20 20 / 1 shape(s) (20×20) at "prev card" is at "vorheriger tab" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source inline svg 0 0 20 20 / 1 shape(s) (20×20) at "next card" is at "nächster tab" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 MISSING ARIA-LABEL [header]: source <button> aria-label="Suchergebnisse" has no build <button> with that aria-label (build <button> aria-labels: "Close Services", "Close Knowledge", "Close language selector"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Search results" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON MOVED [header]: source inline svg 0 0 18 18 / 1 shape(s) (0×0) at "suchergebnisse" is at "search results" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 EXTRA ARIA-LABEL [footer]: build <nav> aria-label="Footer navigation" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

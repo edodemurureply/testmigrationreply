@@ -1,0 +1,176 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-17T05:07:16.187Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.reply.com",
+    "eds": "https://main--a355dc1b--aemcoder.aem.page",
+    "edsHostOverride": "https://main--a355dc1b--aemcoder.aem.page",
+    "only": [
+      "en-3d-and-mixed-reality",
+      "en-digital-experience"
+    ]
+  },
+  "totals": {
+    "pages": 2,
+    "pass": 0,
+    "pixelOnlyPass": 2,
+    "overridePass": 2,
+    "fail": 2,
+    "error": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 2,
+    "failUnits": 0,
+    "fontsNotLoaded": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 2
+  },
+  "rows": [
+    {
+      "slug": "en-3d-and-mixed-reality",
+      "path": "/en/3d-and-mixed-reality",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 9.7,
+      "textPct": 22.05,
+      "heightDelta": 2,
+      "originH": 11254,
+      "edsH": 11252,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 1,
+      "clipPass": true,
+      "clipAllowance": 1,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "content MISSING 2 / HIDDEN 0"
+      ],
+      "clipGroups": [
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "div.reply-card-image-container",
+          "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-content > a.reply-card-link",
+          "text": "virtual interactive showroomprotocube reply believes that th",
+          "cutMin": 8,
+          "cutMax": 8
+        }
+      ],
+      "clipAllowReason": "source-faithful: the scale rail active card link (scaled 1.07 below 768) is cut by its unscaled card image container on the source itself — origin clip probe @360 (stardust/.work/rollout/fix-hub-h/clip3d-origin-360.json, VTO active) reports the identical CONTROL CLIPPED, a.pointer-events-auto in .reply-card-body, cut 8px, clip box 30,5850 280x420; delivered gate clip.json same kind / clipper / cut 8 (fix-hub-h, 2026-11-17)",
+      "content": {
+        "missing": 2,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 5,
+        "variable": []
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "timing",
+        "reason": "content MISSING 2 = the 'Our assets' labs scale autoplay rail caught at another step: origin on 'VTO - Virtual Try on' (step 4), served on 'Virtual Interactive Showroom' (step 2) - same 7 cards in the same order (AI Product Discovery, Smart Maintenance, Virtual Interactive Showroom, 3D Platform, VTO, ARIA, Roboverse). Instrument stardust/.work/rollout/fix-hub-k/tl-3d-da-360.log (fix-small-4/probe-settle.mjs under the gate's visit+settle, live then delivery, same minute): the live clock runs from load with ~5 s steps stretched by hover pauses (5.6 / 10.6 / 18.4 / 27.7 s), the delivered inview clock starts when the rail enters the viewport (28.8 / 37.9 s) - the inview clock was chosen at 1440 where a load clock ran 5 steps vs live 3 (fix-hub-h). Pixel 9.67 % (Say Hello DAM video masked), dh 2, clip 1 within the source-faithful allowance (fix-hub-k, 2026-11-17)"
+      },
+      "masked": true,
+      "maskedRows": 438,
+      "maskReason": "one DAM video (muted autoplay loop inside the cross-origin dam-media openPlayer iframe, on both sides): the \"Say Hello! to digital humans\" hero-card mobile player (280x420) shows a different face frame on every capture (origin bearded man vs delivered pink-haired / circuit frame, 02:4x run) — authored-volatile media rows, same treatment as the 1440 entry; card rows measured with stardust/.work/rollout/fix-hub-h/col.mjs x100 (origin 6381-6801, delivered 6367-6787 before the tm-16 fix, 6383-6803 after) — masks are yA:height (fix-hub-h, 2026-11-17)",
+      "hotBands": [
+        "1000-1500:23.9%",
+        "5000-5500:31.6%",
+        "5500-6000:25.7%",
+        "6000-6500:46.6%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "en-digital-experience",
+      "path": "/en/digital-experience",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 6.97,
+      "textPct": 19.79,
+      "heightDelta": -7,
+      "originH": 27506,
+      "edsH": 27513,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "content MISSING 2 / HIDDEN 0"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 2,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 8,
+        "variable": []
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "timing",
+        "reason": "content MISSING 2 = the 'Best practice and insights' card-carousel simple autoplay rail caught one card apart: origin holds 'Reply AI Challenges' in view, served 'Digital Experience Trends 2025' - same 9 cards in the same order. Instrument stardust/.work/rollout/fix-hub-k/tl-dx-360.log (fix-small-4/probe-settle.mjs under the gate's visit+settle, live then delivery, same minute): identical sequence (Total Search Marketing, Reply AI Challenges, What is GEO, The new search, Digital Experience Trends 2025, How does AI sound, Digital accessibility, AI for Creativity) at the same rest x 72 with 5 s steps and a 1 s slide on both sides; the phase drifts only with the hover pauses of the settle scroll (live 7th card at 33.1 s, delivered 31.2 s). Pixel 6.98 % (two DAM videos masked), dh -7, clip 0 (fix-hub-k, 2026-11-17)"
+      },
+      "masked": true,
+      "maskedRows": 960,
+      "maskReason": "two DAM videos (muted autoplay loops inside the cross-origin dam-media openPlayer iframes, on both sides): the hero-slider mobile player (64-604) and the Labyrinth Reply hero-card player (1092-1512) show a different frame on every capture (origin white quiz-UI frame / protest-crowd frame vs delivered space-pilot / portrait frames, 02:4x run) — authored-volatile media rows, same treatment as the 1440 entry; extents identical on both captures (stardust/.work/rollout/fix-hub-h/col.mjs x3 / x60) — masks are yA:height (fix-hub-h, 2026-11-17)",
+      "hotBands": [
+        "3000-3500:24.8%",
+        "6000-6500:20.8%",
+        "6500-7000:21.4%",
+        "18500-19000:26.3%",
+        "19000-19500:17.3%",
+        "19500-20000:30%",
+        "22500-23000:24.1%",
+        "23500-24000:27%"
+      ],
+      "error": null
+    }
+  ]
+}

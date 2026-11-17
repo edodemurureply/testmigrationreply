@@ -1,0 +1,172 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-15T21:06:39.306Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.reply.com",
+    "eds": "https://main--a355dc1b--aemcoder.aem.page",
+    "edsHostOverride": "https://main--a355dc1b--aemcoder.aem.page",
+    "only": [
+      "index"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 1,
+    "overridePass": 0,
+    "fail": 1,
+    "error": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 1,
+    "failContent": 1,
+    "failUnits": 0,
+    "fontsNotLoaded": 1,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "index",
+      "path": "/",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 6.85,
+      "textPct": 20.67,
+      "heightDelta": 0,
+      "originH": 31122,
+      "edsH": 31122,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 16,
+      "clipPass": false,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "passWithOverride": false,
+      "fontsNotLoaded": [
+        "khanqyjjei-fallback",
+        "tuqgwxsjgq-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "clipped 16 (text 1, controls 15)",
+        "content MISSING 4 / HIDDEN 0",
+        "font-not-loaded:khanqyjjei-fallback",
+        "font-not-loaded:tuqgwxsjgq-fallback"
+      ],
+      "clipGroups": [
+        {
+          "kind": "TEXT CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#easypersonaltrainer-the-video-training-platform-by-la-gazzetta-dello-sport",
+          "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#easypersonaltrainer-the-video-training-platform-by-la-gazzetta-dello-sport",
+          "text": "easypersonaltrainer, the video training platform by la gazze",
+          "cutMin": 3,
+          "cutMax": 3
+        },
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#oxfordshire-county-council-accelerates-digital-transformation-with-microsoft-365-copilot",
+          "path": "div.reply-card-body > div.reply-card-title > h3#oxfordshire-county-council-accelerates-digital-transformation-with-microsoft-365-copilot > a",
+          "text": "oxfordshire county council accelerates digital transformatio",
+          "cutMin": 21,
+          "cutMax": 21
+        },
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#adr-optimizes-the-intelligent-management-of-airport-assets-with-ai-and-iot",
+          "path": "div.reply-card-body > div.reply-card-title > h3#adr-optimizes-the-intelligent-management-of-airport-assets-with-ai-and-iot > a",
+          "text": "adr optimizes the intelligent management of airport assets w",
+          "cutMin": 21,
+          "cutMax": 21
+        },
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#unipol-accelerates-innovation-in-the-insurance-sector-thanks-to-generative-ai",
+          "path": "div.reply-card-body > div.reply-card-title > h3#unipol-accelerates-innovation-in-the-insurance-sector-thanks-to-generative-ai > a",
+          "text": "unipol accelerates innovation in the insurance sector thanks",
+          "cutMin": 21,
+          "cutMax": 21
+        },
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#generali-country-italia-enhances-the-customer-experience-with-an-aws-based-contact-center",
+          "path": "div.reply-card-body > div.reply-card-title > h3#generali-country-italia-enhances-the-customer-experience-with-an-aws-based-contact-center > a",
+          "text": "generali country italia enhances the customer experience wit",
+          "cutMin": 21,
+          "cutMax": 21
+        },
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#bmw-accelerates-migration-to-cloud-native-bi-with-storm-reply-and-aws",
+          "path": "div.reply-card-body > div.reply-card-title > h3#bmw-accelerates-migration-to-cloud-native-bi-with-storm-reply-and-aws > a",
+          "text": "bmw accelerates migration to cloud-native bi with storm repl",
+          "cutMin": 21,
+          "cutMax": 21
+        }
+      ],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 4,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 7,
+        "hiddenButtons": 0,
+        "findings": 25,
+        "variable": []
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [
+        "0-500:61.2%",
+        "500-1000:53.1%",
+        "1500-2000:24.8%",
+        "2000-2500:18.9%",
+        "5000-5500:38.8%",
+        "8000-8500:19.4%",
+        "11000-11500:21%",
+        "22500-23000:24.8%",
+        "28500-29000:31.3%"
+      ],
+      "error": null
+    }
+  ]
+}

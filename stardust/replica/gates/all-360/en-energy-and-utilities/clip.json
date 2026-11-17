@@ -1,0 +1,57 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.live/en/energy-and-utilities",
+ "at": "2026-11-17T01:42:50.813Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 2,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 4,
+  "offPage": 18,
+  "textNodes": 77,
+  "controls": 63,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 4,
+   "clipper": "div.slider-with-title-rail",
+   "path": "ul.slider-with-title-items > li.slider-with-title-item > div.slider-with-title-item-title.text > p",
+   "text": "grid infrastructure",
+   "cutMin": 30,
+   "cutMax": 111
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.reply-card-abstract",
+   "path": "div.reply-card-grid > div.reply-card-body > div.reply-card-abstract > p",
+   "text": "discover a2a energia's path of transformation of business pr",
+   "cutMin": null,
+   "cutMax": null
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 2,
+   "clamped": 2,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 3,
+   "offPage": 24,
+   "textNodes": 83,
+   "controls": 63,
+   "total": 2
+  }
+ }
+}

@@ -1,0 +1,56 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-approach-to-uk-taxation/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-approach-to-uk-taxation/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2937,
+    "mode": "overlap"
+  },
+  "heightDelta": 22,
+  "differingPixels": 227158,
+  "pct": 5.37,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-approach-to-uk-taxation/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 10.11,
+  "textBoxes": 94,
+  "textPixels": 687878,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 4.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 4.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 3.4
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 7
+    },
+    {
+      "y0": 2500,
+      "y1": 2937,
+      "pct": 12.4
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--a355dc1b--aemcoder.aem.live/en/approach-to-uk-taxation"
+  }
+}

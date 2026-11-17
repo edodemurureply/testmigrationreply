@@ -1,0 +1,51 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-metaminutes-s3-e3-mixed-reality-first-responder-training/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-metaminutes-s3-e3-mixed-reality-first-responder-training/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2463,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 63556,
+  "pct": 1.79,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-metaminutes-s3-e3-mixed-reality-first-responder-training/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 11.3,
+  "textBoxes": 58,
+  "textPixels": 319735,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 3.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 2.6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 1.3
+    },
+    {
+      "y0": 2000,
+      "y1": 2463,
+      "pct": 1.5
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--a355dc1b--aemcoder.aem.live/en/metaminutes-s3-e3-mixed-reality-first-responder-training"
+  }
+}

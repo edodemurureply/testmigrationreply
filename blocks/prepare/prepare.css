@@ -1,0 +1,276 @@
+/* prepare — lifted from the prototype .ed-prepare + .figure-row[data-count=4] */
+.prepare {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.prepare .bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.prepare .bg picture {
+  display: contents;
+}
+
+.prepare .bg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.prepare .grid {
+  position: relative;
+  margin-top: 56px;
+  margin-bottom: 56px;
+}
+
+.prepare .title {
+  grid-area: 1 / 1 / 2 / 5;
+  place-content: center;
+  align-items: center;
+}
+
+.prepare .gap {
+  grid-area: 2 / 1 / 3 / 5;
+  place-content: center;
+  align-items: center;
+}
+
+.prepare .figures {
+  grid-area: 3 / 1 / 4 / 5;
+  justify-content: center;
+}
+
+.prepare .end {
+  grid-area: 4 / 1 / 5 / 5;
+  place-content: center;
+  align-items: center;
+}
+
+.prepare .sp {
+  display: block;
+  width: 100%;
+}
+
+.prepare .sp-gap {
+  height: 20px;
+}
+
+.prepare .sp-end {
+  height: 42px;
+}
+
+.prepare .sp-title {
+  height: 16px;
+}
+
+.prepare .sp-text {
+  height: 4px;
+}
+
+/* title (.ct-section, white) */
+.prepare .title-text {
+  overflow-wrap: break-word;
+  color: #fff;
+  font-family: var(--font-lead);
+  font-size: 28px;
+  line-height: 120%;
+}
+
+.prepare .title-text :is(h1, h2, h3, h4, h5, h6, p) {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  white-space: break-spaces;
+}
+
+/* figure row */
+.prepare .figure-row {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  column-gap: 40px;
+}
+
+.prepare .figure-grid {
+  display: grid;
+  grid-column: 1 / span 4;
+  width: 100%;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 2rem 40px;
+}
+
+.prepare .item {
+  grid-column: 1 / span 2;
+  color: #fff;
+  text-align: center;
+}
+
+.prepare .item:nth-child(even) {
+  grid-column: 3 / span 2;
+}
+
+.prepare .item .pic {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.prepare .item .pic picture {
+  display: contents;
+}
+
+.prepare .item .pic img {
+  display: block;
+  width: 264px;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  border-radius: 6px;
+}
+
+.prepare :is(.item-title, .item-text) {
+  overflow-wrap: break-word;
+}
+
+.prepare :is(.item-title, .item-text) p {
+  margin: 0;
+  white-space: break-spaces;
+}
+
+.prepare .item-title p {
+  font-family: var(--font-lead);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 140%;
+
+  /* the (uppercase) titles set ~8 % wider in the stand-in than the source face (canvas advance,
+     16px: 288 vs 312px) */
+  letter-spacing: -0.05em;
+}
+
+.prepare .item-text p {
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 170%;
+}
+
+@media (width >= 768px) {
+  .prepare .title,
+  .prepare .gap {
+    grid-column: 1 / 8;
+  }
+
+  .prepare .figures,
+  .prepare .end {
+    grid-column: 1 / 9;
+  }
+
+  .prepare .sp-text {
+    height: 8px;
+  }
+
+  .prepare .figure-row {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+
+  .prepare .figure-grid {
+    grid-column: 1 / span 8;
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+
+  .prepare .item,
+  .prepare .item:nth-child(even) {
+    grid-column: auto / span 2;
+  }
+}
+
+@media (width >= 1024px) {
+  .prepare .title,
+  .prepare .gap {
+    grid-column: 2 / 10;
+  }
+
+  .prepare .figures {
+    grid-column: 1 / 13;
+  }
+
+  .prepare .end {
+    grid-column: 3 / 11;
+  }
+
+  .prepare .sp-gap {
+    height: 24px;
+  }
+
+  .prepare .figure-row {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .prepare .figure-grid {
+    grid-column: 2 / span 10;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    column-gap: 5.75rem;
+  }
+
+  .prepare .item,
+  .prepare .item:nth-child(even) {
+    grid-column: auto / span 1;
+  }
+}
+
+@media (width >= 1440px) {
+  .prepare .grid {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+
+  .prepare .gap {
+    grid-column: 2 / 8;
+  }
+
+  .prepare .sp-gap {
+    height: 50px;
+  }
+
+  .prepare .sp-end {
+    height: 0;
+  }
+
+  .prepare .sp-title {
+    height: 32px;
+  }
+
+  .prepare .title-text {
+    font-size: 36px;
+  }
+
+  .prepare .item-title p {
+    font-size: 18px;
+  }
+
+  .prepare .figure-grid {
+    column-gap: 7.25rem;
+  }
+}
+
+/* the fourth item's title is one step larger in the source (.text-mu4tw: 18px / 130 %, 20px from
+   1440) */
+.prepare .figure-grid .item:nth-child(4) .item-title p {
+  font-size: 18px;
+  line-height: 130%;
+}
+
+@media (width >= 1440px) {
+  .prepare .figure-grid .item:nth-child(4) .item-title p {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,259 @@
+/* b4-offices — lifted from stardust/prototypes/brand.css (module: b4-map, offices button / panel)
+   + 4brands-reply-en.css § 20 (.vjvavdnnho: 1-col grid capped 576 / 768 / 1024 / 1440 / 1480 —
+   register R-01 — mb 56 @1440; cell .xayhepnvfv padding-bottom 64). The map is the live Google
+   embed on the ink canvas, toned to the site's dark map style. */
+.b4-offices .b4-offices-wrap {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  max-width: 576px;
+  margin: 0 auto;
+}
+
+.b4-offices .b4-offices-cell {
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center center;
+  align-items: center;
+  min-width: 0;
+  padding-bottom: 64px;
+}
+
+.b4-offices .b4-offices-cell > * {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.b4-offices .b4-map {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 560px;
+  overflow: hidden;
+  background: #151f27;
+}
+
+.b4-offices .b4-map[hidden] {
+  display: none;
+}
+
+.b4-offices .b4-map-frame {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  filter: invert(90%) hue-rotate(180deg) saturate(0.4);
+}
+
+.b4-offices .b4-map-attr {
+  position: absolute;
+  bottom: 2px;
+  left: 6px;
+  pointer-events: none;
+}
+
+.b4-offices .b4-map-attr p {
+  margin: 0;
+}
+
+.b4-offices .b4-map-attr a {
+  color: #fff;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-decoration: none;
+  pointer-events: auto;
+}
+
+.b4-offices .b4-offices-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.b4-offices .b4-map-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  padding: 12px 20px;
+  border-radius: 4px;
+  background: var(--c-ink);
+  color: #fff;
+  cursor: pointer;
+}
+
+.b4-offices .b4-map-button:hover {
+  background: var(--primary-color-50);
+  color: var(--text-on-brand-color);
+}
+
+.b4-offices .b4-map-button p {
+  margin: 0;
+  font-family: var(--font-label);
+  font-size: 0.75rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+/* offices list (shown after "View office locations") */
+.b4-offices .b4-offices-panel {
+  padding: 0 var(--grid-pad);
+}
+
+.b4-offices .b4-offices-panel[hidden] {
+  display: none;
+}
+
+.b4-offices .b4-office-regions {
+  display: flex;
+  gap: 1rem;
+  margin: 0 0 2rem;
+  padding: 0;
+  list-style: none;
+}
+
+.b4-offices .b4-office-regions p {
+  margin: 0;
+  font-family: var(--font-label);
+  font-size: 0.875rem;
+}
+
+.b4-offices .b4-office-regions .is-active {
+  border-bottom: 2px solid var(--c-ink);
+}
+
+.b4-offices .b4-office-country-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.b4-offices .b4-office-country-head :is(h2, h3, h4) {
+  margin: 0;
+  font-family: var(--font-text);
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.b4-offices .b4-office-count {
+  color: var(--c-slate);
+  font-family: var(--font-label);
+  font-size: 0.75rem;
+}
+
+.b4-offices .b4-office-country-label p {
+  margin: 1.5rem 0 0.5rem;
+  font-family: var(--font-label);
+  font-size: 0.625rem;
+  font-weight: 500;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.b4-offices .b4-office-city {
+  border-bottom: 1px solid var(--c-line);
+}
+
+.b4-offices .b4-office-city-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  cursor: pointer;
+}
+
+.b4-offices .b4-office-city-toggle::after {
+  content: "+";
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.b4-offices .b4-office-city-toggle[aria-expanded="true"]::after {
+  content: "\2212";
+}
+
+.b4-offices .b4-office-city-toggle p {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 1.25rem;
+}
+
+.b4-offices .b4-office-city-body {
+  display: none;
+}
+
+.b4-offices .b4-office-city-toggle[aria-expanded="true"] + .b4-office-city-body {
+  display: block;
+}
+
+.b4-offices .b4-office {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.b4-offices .b4-office-info p {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.b4-offices .b4-office-route a {
+  color: var(--c-ink);
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.b4-offices .b4-office-img img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+@media (width >= 576px) {
+  .b4-offices .b4-offices-wrap {
+    max-width: 768px;
+  }
+}
+
+@media (width >= 768px) {
+  .b4-offices .b4-offices-wrap {
+    max-width: 1024px;
+  }
+}
+
+@media (width >= 1024px) {
+  .b4-offices .b4-offices-wrap {
+    max-width: 1440px;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-offices .b4-offices-wrap {
+    max-width: 1480px;
+    margin-bottom: 56px;
+  }
+
+  .b4-offices .b4-map {
+    border-radius: 6px;
+  }
+
+  .b4-offices .b4-map-button {
+    padding: 14px 24px;
+  }
+
+  .b4-offices .b4-map-button p {
+    font-size: 0.875rem;
+  }
+}

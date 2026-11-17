@@ -1,0 +1,594 @@
+{
+  "slug": "en-digital-experience",
+  "type": "hub",
+  "renderBranch": "A'",
+  "template": "en-iot",
+  "modules": [
+    "hero-slider",
+    "statement",
+    "hero-card",
+    "section-heading",
+    "cards-wall",
+    "slider-with-title",
+    "card-carousel",
+    "rose-cta",
+    "discover-also"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "hero-slider",
+    "statement",
+    "hero-card",
+    "section-heading",
+    "cards-wall",
+    "statement",
+    "slider-with-title",
+    "section-heading",
+    "hero-card",
+    "card-carousel",
+    "section-heading",
+    "card-carousel",
+    "rose-cta",
+    "discover-also"
+  ],
+  "canonShas": {
+    "header": "34285c9d1c3b",
+    "footer": "62f62f11c933",
+    "css": "5bf5dffd7509"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Digital Experience Solutions | Reply",
+    "description": "Discover the expertise of Reply, a leader in the design of digital strategies for its customers.",
+    "canonical": "https://www.reply.com/en/digital-experience",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Digital Experience Solutions | Reply",
+    "description": "Discover the expertise of Reply, a leader in the design of digital strategies for its customers.",
+    "url": "https://www.reply.com/en/digital-experience"
+  },
+  "migratedAt": "2026-11-15T22:22:51Z",
+  "designMdSha": "d809c0215087",
+  "designJsonSha": "bdcb89ad7bf4",
+  "sourceCurrentSha": "ec77e3a0e8f4",
+  "sourceProposedSha": "e9bfd935b1ef",
+  "fidelityTier": "sibling",
+  "archetypeSource": "en-iot",
+  "archetypeSha": "0f103c077137",
+  "variants": [
+    "card-carousel--autoplay card-carousel--awards card-carousel--b-0 card-carousel--bm-108 card-carousel--horizontal card-carousel--hub card-carousel--simple card-carousel--t-217 card-carousel--tm-253 hero-card--hub media-hero--slide section-heading--b-56 section-heading--t-50 section-heading--t-64 section-heading--t-88 section-heading--tm-50 section-heading--tm-56 slider-with-title--b-46 slider-with-title--bm-60 slider-with-title--cards statement--b-162 statement--bm-90 statement--hub",
+    "card-carousel--autoplay card-carousel--awards card-carousel--horizontal card-carousel--hub card-carousel--simple hero-card--hub hero-slider--hub section-heading--b-56 section-heading--t-50 section-heading--t-64 section-heading--t-88 section-heading--tm-50 section-heading--tm-56 slider-with-title--b-46 slider-with-title--bm-60 slider-with-title--cards statement--b-162 statement--bm-90 statement--hub"
+  ],
+  "gatesPassed": [
+    "delivery-lint"
+  ],
+  "gateEvidence": {
+    "pixel-gate-1440": "OPEN: no row in the pixel table (prototypes-1440) — run gate-all.mjs --stage prototype so the page is measured",
+    "pixel-gate-360": "OPEN: no row in the pixel table (prototypes-360) — run gate-all.mjs --stage prototype so the page is measured",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /en/digital-experience)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "heading-promotion",
+      "source": "<p> Digital Experience Trends 2026",
+      "target": "<h1>",
+      "reason": "source hero h1 is empty; the slide title is the page title (one h1)"
+    }
+  ],
+  "assetsBundled": 5,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/de/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/metaverse",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/prebuilt-ai-apps",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quality-engineering",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quantum-computing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/robotics-and-autonomous-things",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/strategy-and-business-model-transformation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/supply-chain-management",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-networks",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/retail-and-consumer-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-and-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-42",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-73",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-phi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/cyber-security-lab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-house-of-models",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-iot-labs-concept-quality",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/testautomationcentre",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/xchange",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/energy-and-emissions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/reply-to-the-earth",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/sustainable-supply-chain",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/continuous-learning",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/wellbeing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/inclusion-and-diversity",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/governance-system",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/governance-policies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/governance/our-commitment-to-ethical-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom?type=financial-news",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/reply-share-information",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-highlights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-calendar-and-events",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-reports",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/shareholders-meeting",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/loyalty-shares",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/digital-experience-trends-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/digital-experience/labyrinth-reply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/easypersonaltrainer-the-video-workout-platform-by-la-gazzetta-dello-sport",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/the-new-eden-viaggi-campaign-manchi-solo-tu",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/georgia-pacific-builds-a-unified-digital-experience-to-accelerate-operations",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/the-new-oppenheimer-website-engineered-for-performance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/news/replys-creative-agencies-drive-nissins-european-repositioning",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/news/triplesense-reply-signs-the-production-of-fiats-first-ai-crafted-commercial-created-with-googles-veo",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/news/new-u-power-website-stepping-into-the-digital-ecosystem-of-an-evolving-brand",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/modernizing-confluent-partner-experience-for-impact-and-scalability",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/bmw-promotes-co2-optimised-charging",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social-media/de-longhi-the-perfetto-coffee-experience",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social-media/de-longhi-in-the-spotlight",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/preserving-and-enhancing-st-peter-s-basilica-through-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/ehc-red-bull-munich-turns-fans-into-stars-with-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/news/triplesense-reply-e-abb-motion-una-partnership-che-si-rinnova-con-la-nuova-campagna-machinery-drives",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/xister-reply-signs-the-redesign-of-the-new-website-of-flee-moov-brand",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/news/reply-chiquita-house-an-immersive-experience-by-bitmama-reply-for-milan-design-week-2025",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/call-me-queen-mascara",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/news/airc-launches-new-pink-ribbon-ad-in-support-of-breast-cancer-prevention-and-research",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/news/triplesense-reply-signs-my-lavazza-the-new-loyalty-programme-that-rewards-passion-for-coffee",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-driven-podcast-production-platform",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/enhancing-southstate-onboarding-experience",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/news/beewise-return-with-time-is-the-new-money-the-summer-campaign",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/hyper-personalised-campaigns-with-generative-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/news/xister-reply-creates-global-campaign-cross-it-with-goodness-for-loacker",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/vivisol-renews-global-healthcare-portals",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/a-journey-to-digital-accessibility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/metaverse/magnum-pleasureland",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cx-and-digital-commerce/unified-digital-communication-platform-for-swissport",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social-media/chiquitas-rebranding",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cx-and-digital-commerce/serving-up-digital-solutions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/trussardi-primo-the-gaming-experience",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/luigi-einaudi-foundation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/avvio-reply/it/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/digital-experience/labyrinth-reply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/like-reply/en/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/digital-experience/reply-ai-studios",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/digital-experience-trends-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/total-search-marketing-rethinking-visibility-in-the-age-of-ai-search",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-ai-challenges",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/what-is-generative-engine-optimisation-and-why-companies-need-to-prepare-for-the-new-frontier-of-online-search",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/geo-content-optimization",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/digital-experience-trends-2025",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/accessibility-testing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-creativity",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/rethinking-dx-in-the-age-of-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/news/bvdw-ranking-of-leading-digital-service-providers-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/luenendonk-2025",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/leader-in-dx-thanks-to-ai-innovations",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/luenendonk-study-2024",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/ai-supported-dx-solutions-that-convince",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/metaverse",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-candidate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-client",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-supplier",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-marketing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/modern-slavery-statement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contents/Reply_Company_Information_en.pdf",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "en/digital-experience/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "en/digital-experience/_meta.json",
+  "driverVersion": "1"
+}

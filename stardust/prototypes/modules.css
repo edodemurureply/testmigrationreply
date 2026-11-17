@@ -1,0 +1,631 @@
+
+/* === module: type-utilities (owner: en-iot) ===
+   Shared text styles used by hub modules — lifted from theme.cfd8e300.css (.h4, .h5--bold, .h6--medium,
+   .label--xsmall-upcase, .paragraph-01/02--light, .line-clamp-*) and styles-eca1f14e.css (.text-c0k7h,
+   .text-3yqg6, .text-rz3fg, .text-mu4tw, .text-xufux). Breakpoints 768 / 1440. */
+.t-h4{font-family:var(--font-body);font-size:1.5rem;font-weight:500;line-height:1.4}
+.t-h5-bold{font-family:var(--font-body);font-size:1.25rem;font-weight:700;line-height:1.3}
+.t-h6{font-family:var(--font-body);font-size:1.125rem;font-weight:400;line-height:1.3}
+.t-label-xs{font-family:var(--font-label);font-size:.625rem;font-weight:500;line-height:1.4;text-transform:uppercase}
+.t-p1{font-family:var(--font-body);font-size:1rem;font-weight:300;line-height:1.7}
+.t-p2{font-family:var(--font-body);font-size:.875rem;font-weight:300;line-height:1.7}
+.t-title{font-family:var(--font-display);font-size:28px;font-weight:500;line-height:120%}      /* .text-c0k7h */
+.t-subtitle{font-family:var(--font-display);font-size:24px;font-weight:500;line-height:140%}   /* .text-3yqg6 */
+.t-section{font-family:var(--font-lead);font-size:28px;font-weight:500;line-height:120%}       /* .text-rz3fg */
+.t-kicker{font-family:var(--font-lead);font-size:18px;font-weight:300;line-height:130%}        /* .text-mu4tw */
+.t-white{color:#fff}
+.t-center{text-align:center}
+.clamp-2,.clamp-3,.clamp-4,.clamp-5,.clamp-10{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden}
+.clamp-2{-webkit-line-clamp:2}.clamp-3{-webkit-line-clamp:3}.clamp-4{-webkit-line-clamp:4}.clamp-5{-webkit-line-clamp:5}.clamp-10{-webkit-line-clamp:10}
+@media (min-width:768px){.t-title{font-size:36px}}
+@media (min-width:1440px){
+  .t-h4{font-size:1.75rem}.t-h5-bold{font-size:1.5rem}.t-h6{font-size:1.25rem}
+  .t-title{font-size:42px}.t-subtitle{font-size:28px}.t-section{font-size:36px}.t-kicker{font-size:20px}
+}
+/* === /module: type-utilities === */
+
+/* === module: buttons (owner: en-iot) ===
+   .btn-link = source .button-gdwj3 (text button, 2px underline that grows to an outline on hover);
+   .btn = filled pill (.button-dfsvv white / .button-mqsta ROSE pink), icon right via row-reverse.
+   Lifted from theme.cfd8e300.css .button.button:is(...) rules. */
+.btn-link{position:relative;display:inline-block;padding:12px 0;background:none;border:0;color:var(--c-ink);
+  font-family:var(--font-label);font-size:.75rem;line-height:1.4;text-align:center;white-space:normal;cursor:pointer;transition:padding .2s ease-out}
+.btn-link::after{content:"";position:absolute;bottom:0;left:50%;transform:translate(-50%);width:100%;height:0;
+  border:.125rem solid transparent;border-bottom-color:var(--c-ink);border-radius:.25rem;transition:border-color .1s ease-out 80ms,height .25s ease-out .15s}
+.btn-link:hover,.btn-link:active{padding:12px 16px}
+.btn-link:hover::after,.btn-link:focus-visible::after{height:100%;border-color:var(--c-ink)}
+.btn-link:active::after{border-color:var(--brand-color)}
+.btn-link:focus{outline:none}
+.btn{position:relative;z-index:0;display:inline-flex;flex-direction:row-reverse;flex-shrink:0;align-items:center;justify-content:center;column-gap:.625rem;
+  overflow:hidden;padding:12px 20px;border-radius:4px;font-family:var(--font-label);font-size:.75rem;line-height:1.4;text-align:center;cursor:pointer}
+.btn i{font-family:"Website Icons";font-style:normal;font-size:1rem;vertical-align:middle}
+.btn i.icon-arrow::before{content:"\ea6c"}
+.btn--white{background:#fff;color:var(--c-ink)}
+.btn--white:hover{background:var(--brand-color);color:var(--text-on-brand-color)}
+.btn--rose{background:#f8004f;color:#fff}
+.btn--rose:hover{background:#d50049}
+@media (min-width:1440px){
+  .btn-link{padding:14px 0;font-size:.875rem}
+  .btn-link:hover,.btn-link:active{padding:14px 24px}
+  .btn{padding:14px 24px;font-size:.875rem;column-gap:.6875rem}
+  .btn i{font-size:1.25rem}
+}
+/* === /module: buttons === */
+
+/* === module: round-bt-variants (owner: en-iot) ===
+   Canon .round-bt is the white-outline footer flavour; carousels use the ink outline (.round-bt--outline)
+   and the on-dark outline (.round-bt--outline-on-dark). Disabled = opacity .3, no hover fill. */
+.round-bt--outline{color:var(--c-ink);border-color:var(--c-ink);padding:1px 6px;background:none}
+.round-bt--outline-on-dark{color:#fff;border-color:#fff;padding:1px 6px;background:none}
+.round-bt--outline svg,.round-bt--outline-on-dark svg{position:relative;z-index:1}
+.round-bt:disabled{opacity:.3;cursor:default}
+.round-bt:disabled:hover{color:inherit;border-color:currentColor}
+.round-bt:disabled:hover::after{opacity:0;transform:scale(0)}
+/* === /module: round-bt-variants === */
+
+/* === module: media-hero (owner: en-iot) ===
+   Full-bleed image hero with the page title over a bottom scrim (source gridcontainer-runtime
+   .parallax-fullw): height = 150% of width <768, 50% >=768; image 112.5% tall on mobile; title row is the
+   12-col grid, bottom-aligned <1024, space-around 1024-1439, centred >=1440. Parallax: --ty set by
+   modules.js (translateY(calc(var(--ty) * -.85))). */
+.media-hero{position:relative;width:100%;overflow:hidden;padding-bottom:150%}
+.media-hero__bg{position:absolute;inset:0;width:100%;height:100%}
+.media-hero__bg img{display:block;width:100%;height:auto;transform:translateY(calc(var(--ty,0%) * -.85))}
+.media-hero__overlay{position:absolute;inset:0;width:100%;height:100%;display:flex;flex-wrap:wrap;align-content:flex-end;justify-content:center;
+  background-image:linear-gradient(0deg,rgba(0,0,0,.6),rgba(0,0,0,0) 50%)}
+.media-hero__overlay>.r-grid{flex:1}
+.media-hero__title{grid-column:1/5;grid-row:1/2;margin-bottom:3rem;color:#fff}
+@media (max-width:767.98px){.media-hero__bg img{object-fit:cover;width:auto;max-width:100vw;height:112.5%}}
+@media (min-width:768px){
+  .media-hero{padding-bottom:50%}
+  .media-hero__title{grid-column:1/9;margin-bottom:2.5rem;align-items:center;align-content:center}
+}
+@media (min-width:1024px){
+  .media-hero__overlay{align-content:space-around;justify-content:flex-start}
+  .media-hero__title{grid-column:2/10;margin-bottom:0}
+}
+@media (min-width:1440px){.media-hero__overlay{align-content:center}}
+/* === /module: media-hero === */
+
+/* === module: highlight-statement (owner: en-iot) ===
+   Centred highlight statement: h2 (.t-title) + h3 (.t-subtitle) in cols 1-4 / 1-8 / 3-10.
+   Spacing lifted from the page sheet (.jamvkunxzc): margin 48/50/50/24, padding 48/56/64/96. */
+.highlight-statement{margin-top:48px;margin-bottom:48px;padding-top:48px;padding-bottom:48px}
+.highlight-statement__cell{grid-column:1/5;grid-row:1/2;align-items:center;align-content:center;justify-content:center}
+@media (min-width:768px){.highlight-statement{margin-top:50px;margin-bottom:50px;padding-top:56px;padding-bottom:56px}.highlight-statement__cell{grid-column:1/9}}
+@media (min-width:1024px){.highlight-statement{padding-top:64px;padding-bottom:64px}.highlight-statement__cell{grid-column:3/11}}
+@media (min-width:1440px){.highlight-statement{margin-top:24px;margin-bottom:24px;padding-top:96px;padding-bottom:96px}}
+/* === /module: highlight-statement === */
+
+/* === module: section-heading (owner: en-iot) ===
+   Left h2 (.t-section) above a module; cols 1-4 / 1-8 / 2-11. Page-sheet spacing (.xwhsndwshx):
+   margin-top 96/104/120, margin-bottom 32/36/40. */
+.section-heading{margin-top:96px;margin-bottom:32px}
+.section-heading__cell{grid-column:1/5;grid-row:1/2;align-items:center;align-content:center;justify-content:center}
+@media (min-width:768px){.section-heading{margin-top:104px;margin-bottom:36px}.section-heading__cell{grid-column:1/9}}
+@media (min-width:1024px){.section-heading__cell{grid-column:2/12}}
+@media (min-width:1440px){.section-heading{margin-top:120px;margin-bottom:40px}}
+/* === /module: section-heading === */
+
+/* === module: reply-card (owner: en-iot) ===
+   The source reply-card family (theme.cfd8e300.css .reply-card*, Tailwind aspect-* utilities).
+   Image container = flex box whose ::before float carries the aspect ratio (--r <768, --r-md >=768).
+   Variants: --horizontal (editorial slider card), --hero (cards-wall featured banner), --thumb
+   (wall thumbnail 1:1 / 2:3), --abstract (bordered wall card with text), --hover (wall card that
+   reveals its abstract on hover), --info (1:1 lab card, plus toggle). */
+.reply-card{position:relative;display:block;max-width:100%;flex-basis:100%}
+.reply-card__cover{display:block}
+.reply-card-image-container{position:relative;z-index:0;display:flex;overflow:hidden;border-radius:.375rem;--r:56.25%;--r-md:var(--r)}
+.reply-card-image-container::before{content:"";float:left;width:1px;height:0;margin-left:-1px;padding-bottom:var(--r)}
+.reply-card-image-container::after{content:"";clear:both;display:table}
+.reply-card-image{position:absolute;top:0;left:0;width:100%;height:100%;background-position:50%;transition:transform .5s cubic-bezier(.09,.72,.76,1.01)}
+.reply-card-image img{display:block;width:100%;height:100%;object-fit:cover}
+.reply-card:hover .reply-card-image{transform:scale(1.05)}
+.reply-card-body{display:flex;flex-direction:column;justify-content:flex-end;flex-basis:100%;max-width:100%;margin:1.25rem 1rem .875rem;color:var(--c-ink)}
+.reply-card-abstract p{margin:0}
+.reply-card-meta{margin-top:1rem}
+.reply-card-meta .category-label{margin-top:0;margin-right:.5rem}
+.reply-card-logo{max-width:9rem;margin-top:1.25rem;margin-bottom:auto;margin-left:1.25rem}
+.reply-card-logo img{display:block;max-width:100%;width:100%;height:auto}
+.category-label{display:flex;flex-wrap:nowrap;align-items:baseline;font-family:var(--font-label);font-size:.625rem;line-height:1.4;text-transform:uppercase}
+.category-dot{flex-shrink:0;width:.5rem;height:.5rem;margin-right:.5rem;border-radius:50%}
+@media (min-width:768px){
+  .reply-card-image-container::before{padding-bottom:var(--r-md)}
+  .reply-card-logo{margin-top:1.5rem;margin-left:1.5rem}
+}
+
+/* --horizontal (card-horizontal-editorial): 2:3 -> 16:9, body 60% wide, radial scrim, abstract on hover >=1440 */
+.reply-card--horizontal .reply-card-image-container{--r:150%;--r-md:56.25%}
+.reply-card--horizontal .reply-card-image::after{content:"";position:absolute;inset:0;width:100%;height:100%;
+  background:radial-gradient(885.36% 73.36% at 34.64% 6.88%,#0000 0% 20.61%,#07041380 100%)}
+.reply-card--horizontal .reply-card-body{position:relative;margin:2rem;padding:0}
+.reply-card--horizontal .category-label{color:#fff;margin:0 0 1rem}
+.reply-card--horizontal .reply-card-abstract{opacity:0;max-height:0;transition:max-height .3s ease-out,opacity .3s ease-out}
+.reply-card--horizontal .reply-card-abstract::before{content:"";display:block;width:100%;height:1rem}
+@media (min-width:768px){
+  .reply-card--horizontal .reply-card-image::after{background:radial-gradient(54.5% 291.68% at 96.4%,#0000 0% 45.79%,#07041380 100%)}
+  .reply-card--horizontal .reply-card-body{flex-basis:60%}
+}
+@media (min-width:1024px){
+  .reply-card--horizontal .reply-card-image::after{background:radial-gradient(56.03% 299.83% at 94.96%,#0000 0% 40.09%,#07041380 100%)}
+  .reply-card--horizontal .category-label{margin-bottom:.75rem}
+}
+@media (min-width:1440px){
+  .reply-card--horizontal .reply-card-image::after{background:radial-gradient(46.49% 248.81% at 81.14%,#0000 0% 45.79%,#07041380 100%)}
+  .reply-card--horizontal .reply-card-body{margin:0 3rem 3rem}
+  .reply-card--horizontal .category-label{margin-bottom:1.25rem}
+  .reply-card--horizontal:hover .reply-card-abstract{opacity:1;max-height:7.75rem}
+}
+
+/* --hero (card-hero-default): 2:3 -> 2:1 featured banner, 4/8/12-col overlay grid, body cols 2-5/2-6 */
+.reply-card--hero .reply-card-image-container{--r:150%;--r-md:50%}
+.reply-card--hero .reply-card-hero__link{position:absolute;inset:0;width:100%;height:100%}
+.reply-card--hero .reply-card-image{height:100%;overflow:hidden}
+.reply-card--hero:hover .reply-card-image{transform:scale(1)}
+.reply-card--hero .reply-card-hero__parallax{position:absolute;width:100%;height:100%}
+.reply-card-grid{position:relative;display:grid;flex-basis:100%;grid-template-columns:repeat(4,1fr);column-gap:2.5rem;pointer-events:none}
+.reply-card--hero .reply-card-body{grid-column:1/span 4;margin:0;padding:0 2.5rem 3rem;display:flex;flex-direction:column;
+  background:linear-gradient(#0000 0%,#000000b3 100%)}
+.reply-card--hero .reply-card-body a{pointer-events:auto}
+.reply-card--hero .reply-card-logo{position:absolute;top:1rem;align-self:flex-start;width:5.625rem;margin:0}
+.reply-card--hero .category-label{color:#fff;margin:0 0 1.25rem}
+@media (min-width:768px){
+  .reply-card--hero .reply-card-image::before{content:"";position:absolute;width:100%;height:100%;background-color:#00000029}
+  .reply-card-grid{grid-template-columns:repeat(8,1fr);align-items:center;background:linear-gradient(24deg,#00000059 0%,#0000 100%)}
+  .reply-card--hero .reply-card-body{grid-column:2/span 4;padding:0;background:none}
+  .reply-card--hero .reply-card-logo{position:relative;top:0;width:7.0625rem;margin:0 0 1.5rem}
+  .reply-card--hero .category-label{margin-bottom:1.5rem}
+}
+@media (min-width:1024px){
+  .reply-card-grid{grid-template-columns:repeat(12,1fr)}
+  .reply-card--hero .reply-card-body{grid-column:2/span 5}
+  .reply-card--hero .reply-card-abstract{margin-top:.75rem}
+}
+@media (min-width:1440px){.reply-card--hero .reply-card-abstract{margin-top:1.25rem}}
+
+/* --thumb (card-wall-thumb-1-1 / -2-3), optional logo badge */
+.reply-card--thumb-1-1 .reply-card-image-container{--r:56.25%;--r-md:100%}
+.reply-card--thumb-2-3 .reply-card-image-container,
+.reply-card--hover .reply-card-image-container{--r:100%;--r-md:150%}
+.reply-card--logo .reply-card-logo{position:absolute;top:0;left:0;z-index:1}
+
+/* --abstract (card-wall-abstract-cover) */
+.reply-card--abstract{background:#fff;border:1px solid var(--c-line);border-radius:.375rem;padding:2rem}
+.reply-card--abstract .reply-card-image-container{margin-bottom:1.25rem}
+.reply-card--abstract .reply-card-body{margin:0}
+.reply-card--abstract .reply-card-abstract{margin-top:1.125rem}
+@media (min-width:1024px) and (max-width:1439.98px){.reply-card--abstract{padding:1.75rem}}
+
+/* --hover (card-wall-hover-2-3): fixed box = image ratio + 126px; image shrinks on hover, abstract fades in */
+.reply-card--hover{--initial-ratio:100%;height:0;padding-bottom:calc(var(--initial-ratio) + 126px);overflow:hidden}
+.reply-card--hover .reply-card-image-container::before{padding-bottom:var(--initial-ratio);transition:padding-bottom .3s ease-out}
+.reply-card--hover:hover .reply-card-image-container::before{padding-bottom:56.25%}
+.reply-card--hover .reply-card-abstract{padding-top:1rem;opacity:0;transition:opacity .3s ease-out}
+.reply-card--hover:hover .reply-card-abstract{opacity:1}
+@media (min-width:768px){
+  .reply-card--hover{--initial-ratio:150%}
+  .reply-card--hover:hover .reply-card-image-container::before{padding-bottom:100%}
+}
+@media (min-width:1440px){.reply-card--hover .reply-card-abstract{-webkit-line-clamp:6}}
+
+/* --info (card-info-slider-1-1-default): 1:1 tile, category + plus toggle on top, title bottom,
+   abstract revealed on hover (pointer:fine) or via the checkbox (pointer:coarse) */
+.reply-card--info .reply-card-image-container{--r:100%;display:grid}
+.reply-card--info .reply-card-image-container>*,.reply-card--info .reply-card-image-container::before,.reply-card--info .reply-card-image-container::after{grid-area:1/1/2/2}
+.reply-card--info .reply-card-toggle{position:relative;z-index:2;place-self:start end;width:1.875rem;height:1.875rem;margin:1.25rem;opacity:0;cursor:pointer}
+.reply-card--info .reply-card-image{pointer-events:none}
+.reply-card--info .reply-card-image::after{content:"";position:absolute;inset:0;width:100%;height:100%;background-color:#00000052;transition:background-color .3s ease-out,filter .3s ease-out}
+.reply-card--info .reply-card-body{position:relative;display:grid;grid-template-columns:1fr auto;grid-template-rows:auto 1fr;margin:1.25rem;padding:0;pointer-events:none}
+.reply-card--info .category-label{grid-area:1/1/span 1/span 1;height:1.875rem;margin:0;color:#fff;align-items:center}
+.reply-card-plus{position:relative;grid-area:1/-2/span 1/span 1;justify-self:flex-end;width:1.875rem;height:1.875rem}
+.reply-card-plus>span{position:absolute;background:#fff}
+.reply-card-plus>span:first-child{top:50%;width:100%;height:1px}
+.reply-card-plus>span:last-child{left:50%;width:1px;height:100%;transition:transform .3s ease-out}
+.reply-card--info .reply-card-content{grid-area:2/1/3/span 2;align-self:end}
+.reply-card--info .reply-card-content a{pointer-events:auto}
+.reply-card--info .reply-card-content h3{opacity:1;max-height:7.75rem;transform:translateY(0);transition:max-height .3s ease-out,opacity .15s ease-out,transform .3s ease-out}
+.reply-card--info .reply-card-abstract{opacity:0;max-height:0;transition:max-height .3s ease-out,opacity .3s ease-out}
+@media (pointer:fine){
+  .reply-card--info:hover .reply-card-image::after{-webkit-backdrop-filter:blur(50px);backdrop-filter:blur(50px);background-color:#0009}
+  .reply-card--info:hover .reply-card-plus>span:last-child{transform:rotate(90deg)}
+  .reply-card--info:hover .reply-card-abstract{opacity:1;max-height:8.875rem}
+}
+@media (pointer:coarse){
+  .reply-card--info .reply-card-toggle:checked~.reply-card-image::after{-webkit-backdrop-filter:blur(50px);backdrop-filter:blur(50px);background-color:#0009}
+  .reply-card--info .reply-card-toggle:checked~.reply-card-body .reply-card-plus>span:last-child{transform:rotate(90deg)}
+  .reply-card--info .reply-card-toggle:checked~.reply-card-body .reply-card-abstract{opacity:1;max-height:8.875rem}
+}
+@media (max-width:1439.98px) and (pointer:fine){.reply-card--info:hover .reply-card-content h3{opacity:0;max-height:0;transform:translateY(-20px)}}
+@media (max-width:1439.98px) and (pointer:coarse){.reply-card--info .reply-card-toggle:checked~.reply-card-body .reply-card-content h3{opacity:0;max-height:0;transform:translateY(-60px)}}
+@media (min-width:1024px){.reply-card--info .reply-card-toggle{cursor:default}}
+@media (min-width:1440px){
+  .reply-card--info .reply-card-toggle{width:2.375rem;height:2.375rem;margin:1.5rem 2.5rem 2.5rem}
+  .reply-card--info .reply-card-body{margin:1.5rem 2.5rem 2.5rem}
+  .reply-card--info .category-label,.reply-card--info .reply-card-plus{height:2.375rem}
+  .reply-card--info .reply-card-plus{width:2.375rem}
+  .reply-card--info .reply-card-abstract::before{content:"";display:block;width:100%;height:1.5rem}
+}
+/* === /module: reply-card === */
+
+/* === module: card-carousel (owner: en-iot) ===
+   Source cardcarousel-runtime .carousel.alternative. Track = flex row, content-box padding-left, the
+   item width/gutter per type and breakpoint as custom properties (% = track width); modules.js slides it
+   (translateX), updates --slide (counter), disables prev/next and toggles .all-displayed when every item
+   fits. Types: --horizontal (editorial cards, side counter + stacked arrows >=1024), --info (lab tiles,
+   centred when all fit), --keywords (related-topic links with arrows on a tinted panel). */
+.card-carousel{position:relative;display:flex;flex-wrap:wrap;justify-content:flex-end;width:100%;overflow:hidden}
+.card-carousel__inner{position:relative;display:block;width:100%;overflow:visible;--item-width:100%;--gutter:0px}
+.card-carousel__viewport{max-width:1660px;margin:0 auto;touch-action:pan-y;-webkit-user-select:none;user-select:none}
+.card-carousel__track{position:relative;display:flex;width:100%;column-gap:var(--gutter);transition:transform 1s ease-in-out;margin:0;padding:0;list-style:none}
+.card-carousel__item{position:relative;display:flex;flex:0 0 var(--item-width);max-width:var(--item-width);min-width:0}
+.card-carousel__item a,.card-carousel__item img{-webkit-user-select:none;user-select:none;-webkit-user-drag:none}
+.card-carousel__controls{pointer-events:none}
+.card-carousel__controls .round-bt{pointer-events:auto}
+.card-carousel.all-displayed .card-carousel__controls{display:none!important}
+
+/* --horizontal */
+.card-carousel--horizontal{min-height:240px}
+.card-carousel--horizontal .card-carousel__track{--gutter:1.25rem;--padding-left:40px;--item-width:calc(100% - 80px);box-sizing:content-box;padding-left:var(--padding-left)}
+.card-carousel--horizontal .card-carousel__controls{position:relative;display:flex;justify-content:flex-end;column-gap:.5rem;height:3rem;margin:1.5rem 40px .1875rem 0}
+.card-carousel--horizontal:not(.all-displayed)::before{counter-reset:slide var(--slide);content:counter(slide);position:absolute;bottom:0;left:0;z-index:1;display:block;
+  width:2rem;margin:.75rem 0 .9375rem 40px;padding-right:.5rem;border-right:1px solid var(--c-mute);font-size:.875rem;line-height:1.5rem;text-align:center}
+.card-carousel--horizontal:not(.all-displayed)::after{content:attr(data-items-count);position:absolute;bottom:0;left:0;display:block;width:2rem;
+  margin:.75rem 0 .9375rem calc(40px + 2rem);padding-left:8px;color:var(--c-mute);font-size:.875rem;line-height:1.5rem;text-align:center}
+@media (min-width:768px){
+  .card-carousel--horizontal .card-carousel__track{--gutter:40px;--padding-left:64px;--col-width:calc((100% - 128px - 280px) / 8);--item-width:calc(var(--col-width) * 7 + 240px)}
+  .card-carousel--horizontal .card-carousel__controls{margin-right:64px}
+  .card-carousel--horizontal:not(.all-displayed)::before{margin-left:64px}
+  .card-carousel--horizontal:not(.all-displayed)::after{margin-left:calc(64px + 2rem)}
+}
+@media (min-width:1024px){
+  .card-carousel--horizontal .card-carousel__track{--col-width:calc((100% - 128px - 440px) / 12);--padding-left:calc(64px + var(--col-width) + 40px)}
+  .card-carousel--horizontal .card-carousel__controls{--col-size:calc((100% - 128px - 440px) / 12);position:absolute;inset:0;width:calc(64px + var(--col-size) + 40px);height:auto;
+    flex-direction:column;row-gap:.5rem;margin:0;padding:0 0 1.5rem 64px;background:var(--pb-bg,#fff)}
+  .card-carousel--horizontal:not(.all-displayed)::before{top:0;bottom:auto;width:1.5rem;margin:1.5rem 0 0 calc(64px + .75rem);padding:0 0 .5rem;border-right:0;border-bottom:1px solid var(--c-mute)}
+  .card-carousel--horizontal:not(.all-displayed)::after{top:0;bottom:auto;width:1.5rem;margin:3.5rem 0 0 calc(64px + .75rem);padding:.5rem 0 0}
+}
+@media (min-width:1440px){
+  .card-carousel--horizontal .card-carousel__controls{padding-bottom:2rem}
+  .card-carousel--horizontal:not(.all-displayed)::before{margin-top:2rem}
+  .card-carousel--horizontal:not(.all-displayed)::after{margin-top:4rem}
+}
+@media (min-width:1660px){
+  .card-carousel--horizontal{--overgrid:calc((100% - 1660px + 128px) / 2)}
+  .card-carousel--horizontal .card-carousel__controls{--padding-left:calc((100% - 1660px + 128px) / 2);--col-size:calc((1660px - 128px - 440px) / 12);
+    width:calc(var(--padding-left) + var(--col-size) + 40px);padding-left:var(--padding-left)}
+  .card-carousel--horizontal:not(.all-displayed)::before,.card-carousel--horizontal:not(.all-displayed)::after{margin-left:calc(var(--overgrid) + .75rem)}
+}
+
+/* --info */
+.card-carousel--info .card-carousel__track{--item-width:calc(100% - 80px);--gutter:1.25rem;--padding-left:40px;box-sizing:content-box;padding-left:var(--padding-left);align-items:flex-start}
+.card-carousel--info.all-displayed .card-carousel__track{justify-content:center;transform:none!important;padding-left:0!important}
+.card-carousel--info .card-carousel__controls{display:none}
+@media (min-width:768px){.card-carousel--info .card-carousel__track{--col-width:calc((100% - 128px - 280px) / 8);--item-width:calc(var(--col-width) * 4 + 120px);--gutter:40px;--padding-left:64px}}
+@media (min-width:1024px){
+  .card-carousel--info .card-carousel__track{--col-width:calc((100% - 128px - 440px) / 12)}
+  .card-carousel--info .card-carousel__controls{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);display:grid;width:100%;max-width:1660px;margin:0 auto;
+    padding:0 64px;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:40px;height:3rem}
+  .card-carousel--info .card-carousel__prev{grid-column:1/1;justify-self:flex-end}
+  .card-carousel--info .card-carousel__next{grid-column:12/12;justify-self:flex-start}
+}
+
+/* --keywords (related-keywords slider) */
+.card-carousel--keywords .card-carousel__inner{--gutter:2rem;display:flex;flex-direction:column;padding:.25rem 0}
+.card-carousel--keywords .card-carousel__viewport{width:100%;min-width:0;flex:1 1 auto}
+.card-carousel--keywords .card-carousel__track{--item-width:auto}
+.card-carousel--keywords .card-carousel__item .btn-link{white-space:nowrap}
+.card-carousel--keywords .card-carousel__controls{position:relative;display:flex;align-items:center;column-gap:8px;flex-shrink:0;height:3rem;margin-top:32px;padding:0 4px;
+  background:var(--c-ice);pointer-events:all}
+@media (min-width:768px){
+  .card-carousel--keywords .card-carousel__inner{flex-direction:row;align-items:center}
+  .card-carousel--keywords .card-carousel__viewport{width:auto}
+  .card-carousel--keywords .card-carousel__controls{height:100%;margin-top:0;padding-left:20px}
+}
+@media (min-width:1024px){.card-carousel--keywords .card-carousel__controls{padding-bottom:4px;padding-left:24px}}
+@media (min-width:1440px){.card-carousel--keywords .card-carousel__controls{padding-left:40px}}
+/* === /module: card-carousel === */
+
+/* === module: cards-wall (owner: en-iot) ===
+   Masonry wall (source cards-wall-runtime): block stack <768; >=768 a CSS grid with 0px auto-rows and a
+   5px row gap, each item spanning N rows (grid-row-end: span N — modules.js measures, the captured 1440
+   spans ride along as data-span); 2 cols >=768, 3 >=1024, 4 >=1112; featured item spans the row.
+   Pager = .btn-link "Load more content" (reveals [hidden] batches; static snapshot per D-02). */
+.cards-wall{overflow:hidden}
+.cards-wall__item{margin-bottom:2.5rem}
+.cards-wall__item--featured{margin-bottom:3.5rem}
+.cards-wall__pager{display:flex;justify-content:center}
+.cards-wall__empty[hidden]{display:none}
+@media (min-width:768px){
+  .cards-wall__grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(calc((100% - 40px) / 2),1fr));grid-auto-rows:0;gap:.3125rem 40px;margin-bottom:4.875rem}
+  .cards-wall__item--featured{grid-column:span 2;margin-bottom:4rem}
+  .cards-wall__item>.reply-card{margin:inherit}
+}
+@media (min-width:1024px){
+  .cards-wall__grid{grid-template-columns:repeat(auto-fill,minmax(calc((100% - 80px) / 3),1fr));margin-bottom:3.25rem}
+  .cards-wall__item--featured{grid-column:span 3;margin-bottom:4.5rem}
+}
+@media (min-width:1112px){
+  .cards-wall__grid{grid-template-columns:repeat(auto-fill,minmax(calc((100% - 120px) / 4),1fr));margin-bottom:0}
+  .cards-wall__item{margin-bottom:3.5rem}
+  .cards-wall__item--featured{grid-column:span 4;margin-bottom:4.5rem}
+}
+/* === /module: cards-wall === */
+
+/* === module: rose-banner (owner: en-iot) ===
+   Gradient CTA banner (source rose-banner-runtime, banner-abstract CTA): logo, title, abstract, white
+   button on the left; a 2-up card slider (ROSE expert sessions + "Ask Rose" CTA card) on the right.
+   12-col grid; gradient spans the full grid >=1024 (rounded), bleeds edge to edge below. */
+.rose-banner{display:block;overflow:hidden}
+.rose-banner__grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-template-rows:auto auto auto;column-gap:40px;row-gap:40px;
+  width:100%;max-width:1660px;margin:0 auto 4rem;padding:0 40px}
+.rose-banner__bg{grid-area:1/1/3/span 4;margin:0 -40px;background:linear-gradient(93.67deg,#f00d6c -.33%,#f89a23 100%)}
+.rose-banner__content{z-index:1;grid-area:1/1/2/span 4;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding-top:2.5rem}
+.rose-banner__logo{display:block}
+.rose-banner__logo img{border-radius:6px}
+.rose-banner__title{margin:.75rem 0;color:#fff}
+.rose-banner__abstract{color:#fff}
+.rose-banner__cta{margin-top:1.25rem}
+.rose-banner__cards{grid-area:2/1/4/span 4;display:flex;flex-direction:column;min-width:0}
+.rose-banner__nav{display:none;align-self:flex-end}
+.rose-banner__nav .round-bt{margin:0 .25rem}
+.rose-banner__slider{position:relative;display:block;width:100%;overflow:visible;touch-action:pan-y;-webkit-user-select:none;user-select:none}
+.rose-banner__track{--gutter:1rem;--item-width:100%;display:flex;width:100%;column-gap:var(--gutter);margin:0;padding:0;list-style:none;transition:transform 1s ease-in-out}
+.rose-card{position:relative;display:flex;flex:0 0 var(--item-width);max-width:var(--item-width);height:0;padding-bottom:calc(var(--item-width) / 2 * 3);
+  background:#fff;border-radius:6px;box-shadow:0 16px 32px #0000001a;transition:opacity .5s ease-in-out}
+.rose-card.out{opacity:0}
+.rose-card>a{display:contents}
+.rose-card picture{display:block}
+.rose-card img{display:block;width:calc(100% - 2rem);margin:0 1rem;height:auto;object-fit:cover}
+.rose-card__text{position:absolute;bottom:0;left:0;right:0;padding:0 2rem 1.75rem}
+.rose-card__title{margin:1.5rem 0}
+.rose-card__icon{display:flex;column-gap:.5rem;width:100%;margin-bottom:1rem}
+@media (min-width:768px){
+  .rose-banner__grid{grid-template-columns:repeat(8,minmax(0,1fr));grid-template-rows:auto auto;row-gap:0;padding:0 64px}
+  .rose-banner__bg{grid-area:1/1/2/span 8;margin:0 -64px}
+  .rose-banner__content{grid-area:1/1/2/span 5;padding-top:3rem;padding-bottom:3rem}
+  .rose-banner__cards{grid-area:1/6/3/span 3;margin-top:3rem}
+  .rose-banner__nav{display:flex}
+  .rose-banner__slider{margin-top:1.75rem}
+  .rose-banner__track{--gutter:40px}
+  .rose-card__text{padding:0 1.5rem 1.5rem}
+  .rose-card__title{margin:.75rem 0}
+}
+@media (min-width:1024px){
+  .rose-banner__grid{grid-template-columns:repeat(12,minmax(0,1fr))}
+  .rose-banner__bg{grid-column:1/span 12;margin:0;border-radius:6px}
+  .rose-banner__content{grid-column:2/span 6;padding-top:3.5rem;padding-bottom:3.5rem}
+  .rose-banner__title{margin-bottom:1.25rem}
+  .rose-banner__cta{margin-top:1.5rem}
+  .rose-banner__cards{grid-column:8/span 4;margin-top:3.5rem}
+  .rose-card__text{padding:0 2rem 1.75rem}
+  .rose-card__title{margin:1rem 0 1.5rem}
+}
+@media (min-width:1440px){
+  .rose-banner__content{grid-column:2/span 4}
+  .rose-banner__cards{grid-column:6/span 6;margin-top:4rem}
+  .rose-banner__track{--item-width:calc((100% - var(--gutter)) / 2)}
+}
+/* === /module: rose-banner === */
+
+/* === module: discover-also (owner: en-iot) ===
+   Tinted rounded panel: kicker "Discover also" + keyword carousel (.card-carousel--keywords).
+   Page-sheet values (.hhwqrvnona / .cqzfhzftgf / .dsfbsnongy / .dydbwyndri / spacer .ryxvxbibec). */
+.discover-also{display:grid;width:100%;max-width:576px;margin:32px auto 80px;grid-template-columns:auto}
+.discover-also__panel{background:var(--c-ice);border-radius:6px}
+.discover-also__grid{padding:3rem 2.5rem 2.5rem}
+.discover-also__cell{grid-column:1/5;margin-right:-2.5rem;align-items:center;align-content:center;justify-content:center}
+.discover-also__spacer{height:28px}
+@media (min-width:576px){.discover-also{max-width:768px}}
+@media (min-width:768px){
+  .discover-also{max-width:1024px;margin-top:40px;margin-bottom:88px;padding:0 4rem}
+  .discover-also__grid{padding-left:0;padding-bottom:3rem}
+  .discover-also__cell{grid-column:2/8;margin-left:-2.5rem}
+  .discover-also__spacer{height:20px}
+}
+@media (min-width:1024px){
+  .discover-also{max-width:1440px}
+  .discover-also__grid{padding-bottom:3.5rem}
+  .discover-also__cell{grid-column:2/12;margin-left:0;margin-right:0}
+  .discover-also__spacer{height:24px}
+}
+@media (min-width:1440px){.discover-also{max-width:1660px;margin-top:64px;margin-bottom:96px}.discover-also__grid{padding-bottom:4rem}}
+/* === /module: discover-also === */
+
+/* === module: nav-active-state (owner: en-iot) ===
+   Canon header addition (no canon rule changed): the live custom-menu marks the current section —
+   first-level button underlined in ink like an open menu (>=1024), current third-level link bold.
+   Pages set .is-active on the matching .primary-nav__link / .mega-menu__item--third a. */
+.mega-menu__item--third a.is-active span{font-weight:700}
+@media (min-width:1024px){.primary-nav__link.is-active::after{width:100%;background-color:var(--c-ink)}}
+/* === /module: nav-active-state === */
+
+/* === module: reply-card-index-variants (owner: index) ===
+   Additions to the shared reply-card family for the home archetype (theme.cfd8e300.css):
+   --slider (card-slider-default: 2:3 cover, copy over a bottom scrim; logo absolute top-left of the body),
+   --product (card-wall-product: same, lighter scrim), --hover-1-1 (card-wall-hover-1-1 ratios),
+   --video (card-wall-thumb-2-3-logo-video-background: DAM player iframe on the apply-default-bg gradient),
+   --parallax (card-hero-default image as the source paints it: 16:9 rendition top-aligned in the 2:1 box,
+   translateY(calc(var(--ty) * -.85)); 2:3 rendition 112.5% tall <768), .reply-card-time (.text-maz2d),
+   play overlay (.player-overlay-layer + .button-play). */
+.reply-card--slider .reply-card-image-container{--r:150%;--r-md:150%}
+.reply-card--slider .reply-card-image::after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(#0000 43.5%,#0c1115f0 100%)}
+.reply-card--product .reply-card-image::after{background:linear-gradient(#0000 43.5%,#0c11158a 100%)}
+.reply-card--slider .reply-card-body{position:relative;margin:1.25rem 2rem 2rem}
+.reply-card--slider .reply-card-body h3,.reply-card--slider .reply-card-time{color:#fff}
+.reply-card--slider .reply-card-logo{position:absolute;top:0;left:0;width:9rem;margin:0}
+.reply-card--slider .category-label{margin-top:1.5rem;color:#fff}
+.reply-card-time{display:block;margin-bottom:1.5rem;color:#586674;font-family:txtislskto,var(--font-label);font-size:.625rem;line-height:1;text-transform:uppercase}
+.reply-card-meta .reply-card-time{display:inline;margin-bottom:0;color:#71808e} /* inline in the meta block: its line box keeps the 27.2px body strut, as on the source */
+.reply-card--hover-1-1{--initial-ratio:56.25%}
+.reply-card--hover-1-1 .reply-card-image-container{--r:56.25%;--r-md:100%}
+.reply-card--hover-1-1:hover .reply-card-image-container::before{padding-bottom:33.3333%}
+.reply-card--video .reply-card-video{position:absolute;top:0;left:0;display:flex;align-items:center;width:100%;height:100%;min-width:50px;overflow:hidden;
+  background:linear-gradient(340deg,#003038 0%,#014753 100%)}
+.reply-card--video .reply-card-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.reply-card-video__link{position:absolute;top:0;left:0;width:100%;height:100%}
+.reply-card-veil{position:absolute;top:0;left:0;width:100%;height:100%;background:#00000029}
+.reply-card-play{position:absolute;top:calc(50% - 2.25rem);left:calc(50% - 2.25rem);width:4.5rem;height:4.5rem;cursor:pointer}
+.reply-card--parallax .reply-card-hero__parallax-box::before{content:none}
+.reply-card--parallax .reply-card-image img{height:auto;object-fit:fill;transform:translateY(calc(var(--ty,0%) * -.85))}
+.reply-card--parallax .reply-card-grid{position:relative;z-index:1}
+@media (max-width:767.98px){
+  .reply-card--parallax .reply-card-image img{width:auto;max-width:100vw;height:112.5%;object-fit:cover;transform:none}
+}
+@media (min-width:768px){
+  .reply-card--slider .reply-card-logo{margin-top:.25rem}
+  .reply-card--hover-1-1{--initial-ratio:100%}
+  .reply-card--hover-1-1:hover .reply-card-image-container::before{padding-bottom:56.25%}
+}
+@media (min-width:768px) and (max-width:1023.98px){
+  .reply-card--slider .reply-card-body{margin:1.5rem;padding-top:1.5rem}
+  .reply-card--slider .category-label{margin-top:1rem}
+}
+@media (min-width:1024px) and (max-width:1439.98px){.reply-card--slider .reply-card-body{padding-top:1.25rem}}
+@media (min-width:1440px){
+  .reply-card--slider .reply-card-body{padding-top:1.5rem}
+  .reply-card--hover-1-1 .reply-card-abstract{-webkit-line-clamp:5}
+}
+/* === /module: reply-card-index-variants === */
+
+/* === module: round-bt-filled (owner: index) ===
+   .round-bt--filled-on-dark (carousel arrows, wall play buttons): borderless frosted disc, white glyph,
+   brand fill grows on hover (canon .round-bt::after). theme.cfd8e300.css .round-bt--filled-on-dark. */
+.round-bt--filled-on-dark{padding:1px 6px;border:0;color:#fff;background-color:#ffffff1a;-webkit-backdrop-filter:blur(2.125rem);backdrop-filter:blur(2.125rem);
+  transition:background .3s cubic-bezier(.09,.72,.76,1.01)}
+.round-bt--filled-on-dark svg{position:relative;z-index:1}
+.round-bt--filled-on-dark:focus-visible{outline:.0625rem solid #fff}
+/* === /module: round-bt-filled === */
+
+/* === module: media-toggle (owner: index) ===
+   DAM video play/pause disc (source .video-dam-button): 2rem frosted circle top-right of the media. */
+.media-toggle{position:absolute;top:1.25rem;right:1.25rem;z-index:2;display:flex;align-items:center;justify-content:center;width:2rem;height:2rem;padding:0;
+  border:0;border-radius:50%;background:#ffffff1f;-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px);cursor:pointer}
+.media-toggle .media-toggle__play,.media-toggle[data-state=paused] .media-toggle__pause{display:none}
+.media-toggle[data-state=paused] .media-toggle__play{display:block}
+/* === /module: media-toggle === */
+
+/* === module: loop-carousel (owner: index) ===
+   Infinite card carousels on the shared .card-carousel skeleton, driven by [data-loop-carousel] in modules.js
+   (clones are generated there — presentational, aria-hidden + inert; never in the HTML).
+   --scale (reply-card-slider-scale): centred active card scaled 1.07 / 1.18 (>=768) / 1.125 (>=1024);
+   --simple (reply-card-slider-simple): left-aligned rail, content-box padding-left 40 / 64;
+   --statements (reply-statements-slider): one statement per view, clipped to its column.
+   Arrows (round-bt--filled-on-dark) sit on the 12-col grid >=1024 only. */
+.card-carousel--scale{padding:2.5rem 0}
+.card-carousel--scale .card-carousel__viewport{padding:0 40px}
+.card-carousel--scale .card-carousel__track{--gutter:1.5rem;--item-width:100%}
+.card-carousel--scale .card-carousel__item.is-active{transform:scale(1.07);transition:transform .3s cubic-bezier(.09,.72,.76,1.01) .5s}
+/* the active card is scaled with transform: its clippers paint through clip-path (same pixels as overflow:hidden,
+   rounded 6px / line-clamp box) so no overflow box mixes scaled and unscaled geometry */
+.card-carousel--scale .reply-card-image-container{overflow:visible;clip-path:inset(0 round .375rem)}
+.card-carousel--scale .reply-card-body .clamp-3{overflow:visible;clip-path:inset(0)}
+.card-carousel--simple .card-carousel__track{--gutter:1.5rem;--item-width:calc(100% - 80px);--padding-left:40px;box-sizing:content-box;width:100%;padding-left:var(--padding-left)}
+.card-carousel--statements .card-carousel__track{--gutter:0px;--item-width:100%}
+.card-carousel[data-loop-carousel] .card-carousel__track{transform:translateX(var(--offset,0px))}
+.card-carousel[data-loop-carousel].is-jumping .card-carousel__track,
+.card-carousel[data-loop-carousel].is-jumping .card-carousel__item{transition:none!important}
+.card-carousel--scale .card-carousel__controls,.card-carousel--simple .card-carousel__controls{display:none}
+@media (min-width:768px){
+  .card-carousel--scale .card-carousel__viewport{padding:0 64px}
+  .card-carousel--scale .card-carousel__track{--gutter:2.5rem;--item-width:calc((100% - var(--gutter) * 2) / 2.6)}
+  .card-carousel--scale .card-carousel__item.is-active{transform:scale(1.18)}
+  .card-carousel--simple .card-carousel__track{--col-width:calc((100% - 128px - 280px) / 8);--item-width:calc(var(--col-width) * 3 + 80px);--gutter:40px;--padding-left:64px}
+}
+@media (min-width:1024px){
+  .card-carousel--scale .card-carousel__track{--item-width:calc((100% - var(--gutter) * 2) / 3)}
+  .card-carousel--scale .card-carousel__item.is-active{transform:scale(1.125)}
+  .card-carousel--simple .card-carousel__track{--col-width:calc((100% - 128px - 440px) / 12);--item-width:calc(var(--col-width) * 4 + 120px)}
+  .card-carousel--scale .card-carousel__controls,.card-carousel--simple .card-carousel__controls{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+    display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:40px;width:100%;max-width:1660px;height:3rem;margin:0 auto;padding:0 64px}
+  .card-carousel--scale .card-carousel__prev,.card-carousel--simple .card-carousel__prev{grid-column:1/1;justify-self:flex-end}
+  .card-carousel--scale .card-carousel__next,.card-carousel--simple .card-carousel__next{grid-column:12/12;justify-self:flex-start}
+}
+@media (min-width:1440px){
+  .card-carousel--scale .card-carousel__track{--item-width:calc((100% - var(--gutter) * 3) / 4)}
+  .card-carousel--simple .card-carousel__track{--item-width:calc(var(--col-width) * 3 + 80px)}
+}
+/* === /module: loop-carousel === */
+
+/* === module: cards-wall-special (owner: index) ===
+   cards-wall-grid-container.special: 3 columns from 1112 (instead of 4). */
+@media (min-width:1112px){.cards-wall--special .cards-wall__grid{grid-template-columns:repeat(auto-fill,minmax(calc((100% - 80px) / 3),1fr))}}
+/* === /module: cards-wall-special === */
+
+/* === module: hero-slider (owner: index) ===
+   Source heroslider-runtime with one slide: parallax-fullw media (150% / 50% of width) holding a DAM
+   video player iframe (16:9, 112.5% tall <768, translateY(calc(var(--ty) * -.85)) — --ty from the shared
+   [data-parallax-hero] script), 24% black veil, pause/play disc, and the caption row on the 4/8/12 grid
+   (hairline rule, title + abstract >=1024) anchored 20 / 24 (>=1024) / 40 px (>=1440) above the bottom. */
+.hero-slider{position:relative;display:block;overflow:hidden}
+.hero-slider__media{position:relative;display:block;height:0;padding-bottom:150%;overflow:hidden}
+.hero-slider__media::after{content:"";position:absolute;inset:0;background:#0000003d;pointer-events:none}
+.hero-slider__frame{position:absolute;top:0;left:0;width:100%;height:100%}
+.hero-slider__video{position:relative;width:100%;min-width:50px;padding-top:56.25%;overflow:hidden;transform:translateY(calc(var(--ty,0%) * -.85))}
+.hero-slider__video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.hero-slider__content{position:absolute;right:0;bottom:1.25rem;left:0;z-index:2;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));column-gap:40px;
+  width:100%;max-width:1660px;margin:0 auto;padding:0 40px}
+.hero-slider__rule{position:relative;grid-column:1/-1;padding-top:1.25rem;border-top:1px solid #ffffff4d}
+.hero-slider__row{display:flex;align-items:center;width:calc(100% - 7.25rem);height:4.3125rem}
+.hero-slider__link{display:flex;align-items:center;color:#fff}
+.hero-slider__title{display:-webkit-box;margin:0;overflow:hidden;color:#fff;-webkit-box-orient:vertical;-webkit-line-clamp:3}
+.hero-slider__desc{display:none;margin:.25rem 0 0;overflow:hidden;color:#fff;text-overflow:ellipsis}
+@media (max-width:767.98px){.hero-slider__video{width:auto;max-width:100vw;height:112.5%}}
+@media (min-width:768px){
+  .hero-slider__media{padding-bottom:50%}
+  .hero-slider__content{grid-template-columns:repeat(8,minmax(0,1fr));padding:0 64px}
+  .hero-slider__row{width:calc(100% - 7.75rem);height:3.5rem}
+  .hero-slider__title{-webkit-line-clamp:2}
+}
+@media (min-width:1024px){
+  .hero-slider__content{grid-template-columns:repeat(12,minmax(0,1fr));bottom:1.5rem}
+  .hero-slider__rule{grid-column:2/-2}
+  .hero-slider__title{text-overflow:ellipsis}
+  .hero-slider__desc{display:block}
+}
+@media (min-width:1440px){
+  .hero-slider__content{bottom:2.5rem}
+  .hero-slider__rule{padding-top:1.5rem}
+  .hero-slider__row{width:calc(100% - 9rem);height:3.625rem}
+}
+@media (min-width:2880px){.hero-slider__media{padding-bottom:31.25%}}
+/* === /module: hero-slider === */
+
+/* === module: btn-ghost (owner: index) ===
+   Source .button-wikmi ("View all" on dark): white label, no chrome, 16% white plate on hover. */
+.btn-ghost{position:relative;z-index:0;display:inline-block;padding:12px;color:#fff;font-family:var(--font-label);font-size:.75rem;line-height:1.4;
+  transition:padding .3s cubic-bezier(.09,.72,.76,1.01)}
+.btn-ghost:hover::before{content:"";position:absolute;bottom:0;left:50%;z-index:-1;width:100%;height:100%;border-radius:.25rem;background-color:#ffffff29;transform:translate(-50%)}
+.btn-ghost:focus-visible{border-radius:.25rem;outline:.125rem solid var(--brand-color);outline-offset:.125rem}
+@media (min-width:1440px){.btn-ghost{padding:14px 20px;font-size:.875rem}}
+/* === /module: btn-ghost === */
+
+/* === module: rose-cta (owner: index) ===
+   Closing "Go to ROSE" band (page-sheet .bwkcsetuie / .xcstraoacx): 94deg pink->orange gradient, centred
+   column (cols 1-4 / 1-8 / 2-11) of spacer 40, ROSE logo (150px in a 16:9 box), display line (.text-uhegw
+   36/42/64), spacer 20, white .btn, spacer 40; padding 24/24 -> 59/77 (>=576). */
+.rose-cta{background-image:linear-gradient(94deg,#f00d6c,#f89a23 100%)}
+.rose-cta__col{grid-column:1/5;display:flex;flex-wrap:wrap;align-items:center;align-content:center;justify-content:center;min-width:0;padding:24px 0}
+.rose-cta__spacer{flex-basis:100%;width:100%}
+.rose-cta__spacer--40{height:40px}
+.rose-cta__spacer--20{height:20px}
+.rose-cta__logo{display:flex;flex-basis:100%;justify-content:center}
+.rose-cta__logo-box{width:150px;aspect-ratio:16/9}
+.rose-cta__logo-box img{display:block;width:150px;border-radius:6px}
+.rose-cta__text{flex-basis:100%;margin:0;color:#fff;font-family:var(--font-display);font-size:36px;font-weight:300;line-height:110%;text-align:center}
+@media (min-width:576px){.rose-cta__col{padding:59px 0 77px}}
+@media (min-width:768px){.rose-cta__col{grid-column:1/9}.rose-cta__text{font-size:42px}}
+@media (min-width:1024px){.rose-cta__col{grid-column:2/12}}
+@media (min-width:1440px){.rose-cta__text{font-size:64px}}
+/* === /module: rose-cta === */
+
+/* === module: video-modal (owner: index) ===
+   Wall play buttons open the DAM player in a dialog (source .modal.video__modal): dark backdrop,
+   16:9 frame on the 4/8/12 grid (cols 1-4 / 1-8 / 2-11), frosted close disc top-right. */
+.video-modal{width:100%;max-width:1660px;max-height:100%;margin:auto;padding:0 40px;border:0;background:none}
+.video-modal::backdrop{background:#000000e6}
+.video-modal__frame{position:relative;width:100%;padding-top:56.25%}
+.video-modal__frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.video-modal__close{position:absolute;top:.75rem;right:.75rem;width:2.5rem;height:2.5rem;cursor:pointer}
+@media (min-width:768px){.video-modal{padding:0 64px}.video-modal__close{top:1.25rem;right:1.25rem;width:3rem;height:3rem}}
+@media (min-width:1024px){.video-modal{padding:0 calc(64px + (100% - 128px - 440px) / 12 + 40px)}}
+/* === /module: video-modal === */

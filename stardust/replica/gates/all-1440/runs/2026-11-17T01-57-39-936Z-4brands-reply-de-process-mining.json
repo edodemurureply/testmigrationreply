@@ -1,0 +1,152 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-17T01:57:39.936Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.reply.com",
+    "eds": "https://main--a355dc1b--aemcoder.aem.page",
+    "edsHostOverride": "https://main--a355dc1b--aemcoder.aem.page",
+    "only": [
+      "4brands-reply-de-process-mining",
+      "4brands-reply-de-sap-finance-knowledge-and-training"
+    ]
+  },
+  "totals": {
+    "pages": 2,
+    "pass": 1,
+    "pixelOnlyPass": 2,
+    "overridePass": 1,
+    "fail": 1,
+    "error": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 1,
+    "failUnits": 0,
+    "fontsNotLoaded": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 1,
+    "degradedTier": 0,
+    "passWithOverrides": 2
+  },
+  "rows": [
+    {
+      "slug": "4brands-reply-de-process-mining",
+      "path": "/4brands-reply/de/process-mining",
+      "origin": "crawl-fullpage",
+      "originAsymmetric": true,
+      "eds": "stitch-live",
+      "pct": 8.93,
+      "textPct": 19.59,
+      "heightDelta": -81,
+      "originH": 4520,
+      "edsH": 4601,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "reasons": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": []
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [
+        "4000-4500:19.8%",
+        "4500-4520:75%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "4brands-reply-de-sap-finance-knowledge-and-training",
+      "path": "/4brands-reply/de/sap-finance-knowledge-and-training",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 6.45,
+      "textPct": 10.43,
+      "heightDelta": -64,
+      "originH": 5066,
+      "edsH": 5130,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "content MISSING 0 / HIDDEN 1"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 1,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 4,
+        "variable": []
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "instrument",
+        "reason": "content HIDDEN 1 = the autoplay benefits rail (b4-slider autoplay = live cardcarousel data-carousel-autoplay, 6 items) captured mid-slide on origin (cards at x -48/290/628/966, i.e. 112 px into the 338 px step) and at rest on delivery (-274/64/402/740), so the left peek 'Individuelle Workshops & Trainings' reads clipped only on delivery; Instrument stardust/.work/rollout/fix-small-5/tl-sapccm360-cce1440-fin1440.log (fix-small-4/probe-settle.mjs: rail timeline under the gate's visit+settle, live then delivery, same minute): same 6 cards in the same order, same rest x (64/402/740/1078), first slide at ~5.6 s both sides, later steps shifted only by the hover pause. Pixel 6.46 %, height pass (fix-small-5, 2026-11-16)"
+      },
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [
+        "4500-5000:18.1%",
+        "5000-5066:99.5%"
+      ],
+      "error": null
+    }
+  ]
+}

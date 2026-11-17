@@ -1,0 +1,97 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.page/en/healthcare",
+ "at": "2026-11-17T04:05:45.484Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 5,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 5,
+  "offPage": 29,
+  "textNodes": 115,
+  "controls": 79,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 3,
+   "clipper": "a",
+   "path": "div.reply-card-body > div.reply-card-title > h3#transforming-controlled-drug-processes-with-intelligent-digital-solutions > a",
+   "text": "transforming controlled drug processes with intelligent digi",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.reply-card-abstract",
+   "path": "div.reply-card.reply-card-kind-abstract > div.reply-card-body > div.reply-card-abstract > p",
+   "text": "nhs blood and transplant (nhsbt) saves lives through the man",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.rose-cta.gap-56m",
+   "path": "a.rose-card-link > div.rose-card-text > div.rose-card-label.top > p",
+   "text": "ask the expert",
+   "cutMin": 24,
+   "cutMax": 60
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.reply-card-image-container",
+   "path": "div.reply-card.reply-card-horizontal > div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+   "text": "the power of generative ai to transform the public sector",
+   "cutMin": 23,
+   "cutMax": 23
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h3#the-power-of-generative-ai-to-transform-the-public-sector",
+   "path": "div.reply-card-body > a.reply-card-link > div.reply-card-title > h3#the-power-of-generative-ai-to-transform-the-public-sector",
+   "text": "the power of generative ai to transform the public sector",
+   "cutMin": 7,
+   "cutMax": 7
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h4#e-mobility-electrical-is-the-forerunner-of-smart-mobility",
+   "path": "a.rose-card-link > div.rose-card-text > div.rose-card-title > h4#e-mobility-electrical-is-the-forerunner-of-smart-mobility",
+   "text": "e-mobility: electrical is the forerunner of smart mobility",
+   "cutMin": 107,
+   "cutMax": 107
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 6,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 7,
+   "offPage": 37,
+   "textNodes": 120,
+   "controls": 84,
+   "total": 0
+  }
+ }
+}

@@ -1,0 +1,97 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.live/en/christmas",
+ "at": "2026-11-17T01:34:36.446Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 1,
+  "textHidden": 4,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 4,
+  "offPage": 73,
+  "textNodes": 137,
+  "controls": 96,
+  "total": 5
+ },
+ "groups": [
+  {
+   "kind": "TEXT HIDDEN",
+   "advisory": false,
+   "n": 2,
+   "clipper": "div.media-banner-box",
+   "path": "div.media-banner-copy > div.media-banner-text > div.media-banner-eyebrow > p",
+   "text": "digital event",
+   "cutMin": 13,
+   "cutMax": 13
+  },
+  {
+   "kind": "TEXT HIDDEN",
+   "advisory": false,
+   "n": 2,
+   "clipper": "div.media-banner-box",
+   "path": "div.media-banner-copy > div.media-banner-text > div.media-banner-title > h4#the-rose-room-presentsrose-the-digital-human",
+   "text": "the rose room presents:",
+   "cutMin": 27,
+   "cutMax": 27
+  },
+  {
+   "kind": "TEXT CLIPPED",
+   "advisory": false,
+   "n": 1,
+   "clipper": "div.media-banner-box",
+   "path": "div.media-banner-copy > div.media-banner-text > div.media-banner-body > p",
+   "text": "segui lo streaming dell’evento e interagisci in diretta con ",
+   "cutMin": 17,
+   "cutMax": 17
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.card-carousel.simple",
+   "path": "ul.card-carousel-track > li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+   "text": "the new era of cybersecurity automationresearch",
+   "cutMin": 264,
+   "cutMax": 264
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.card-carousel.scale",
+   "path": "ul.card-carousel-track > li.card-carousel-item.is-active > div.reply-card.reply-card-slider > a.reply-card-cover",
+   "text": "reply cyber security lablabs",
+   "cutMin": 247,
+   "cutMax": 247
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.card-carousel.scale",
+   "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#reply-cyber-security-lab",
+   "text": "reply cyber security lab",
+   "cutMin": 198,
+   "cutMax": 198
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 2,
+   "textHidden": 4,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 4,
+   "offPage": 73,
+   "textNodes": 136,
+   "controls": 94,
+   "total": 6
+  }
+ }
+}

@@ -1,0 +1,148 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-15T20:30:04.274Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.reply.com",
+    "eds": "https://main--a355dc1b--aemcoder.aem.page",
+    "edsHostOverride": "https://main--a355dc1b--aemcoder.aem.page",
+    "only": [
+      "en-insights"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 0,
+    "overridePass": 0,
+    "fail": 0,
+    "error": 1,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 1,
+    "failContent": 1,
+    "failUnits": 0,
+    "fontsNotLoaded": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "en-insights",
+      "path": "/en/insights",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "none",
+      "pct": null,
+      "textPct": null,
+      "heightDelta": null,
+      "originH": null,
+      "edsH": null,
+      "pixelPass": false,
+      "heightPass": false,
+      "clipped": 5,
+      "clipPass": false,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel error: missing capture",
+        "clipped 5 (text 0, controls 5)",
+        "content MISSING 23 / HIDDEN 0"
+      ],
+      "clipGroups": [
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#cyber-resilience-act-from-regulatory-compliance-to-secure-product-lifecycle",
+          "path": "div.reply-card-body > div.reply-card-title > h3#cyber-resilience-act-from-regulatory-compliance-to-secure-product-lifecycle > a",
+          "text": "cyber resilience act: from regulatory compliance to secure p",
+          "cutMin": 24,
+          "cutMax": 24
+        },
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#from-code-to-control-ais-takeover-of-software-development-lifecycle-1",
+          "path": "div.reply-card-body > div.reply-card-title > h3#from-code-to-control-ais-takeover-of-software-development-lifecycle-1 > a",
+          "text": "from code to control: ai’s takeover of software development ",
+          "cutMin": 24,
+          "cutMax": 24
+        },
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#the-strategic-value-of-an-api-developer-portal-in-the-modern-ai-api-economy",
+          "path": "div.reply-card-body > div.reply-card-title > h3#the-strategic-value-of-an-api-developer-portal-in-the-modern-ai-api-economy > a",
+          "text": "the strategic value of an api developer portal in the modern",
+          "cutMin": 24,
+          "cutMax": 24
+        },
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#v-cycle-multi-agent-architecture--silicon-shoring-for-automotive-engineering",
+          "path": "div.reply-card-body > div.reply-card-title > h3#v-cycle-multi-agent-architecture--silicon-shoring-for-automotive-engineering > a",
+          "text": "v-cycle multi-agent architecture & silicon shoring for autom",
+          "cutMin": 24,
+          "cutMax": 24
+        },
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#mastering-the-digital-customer-journey-smarter-insurance-sales-with-ai",
+          "path": "div.reply-card-body > div.reply-card-title > h3#mastering-the-digital-customer-journey-smarter-insurance-sales-with-ai > a",
+          "text": "mastering the digital customer journey: smarter insurance sa",
+          "cutMin": 24,
+          "cutMax": 24
+        }
+      ],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 23,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 1,
+        "hiddenButtons": 0,
+        "findings": 51,
+        "variable": []
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [],
+      "error": "missing capture"
+    }
+  ]
+}

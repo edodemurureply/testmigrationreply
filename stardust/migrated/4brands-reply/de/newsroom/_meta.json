@@ -1,0 +1,297 @@
+{
+  "slug": "4brands-reply-de-newsroom",
+  "type": "listing",
+  "renderBranch": "A'",
+  "template": "en-insights",
+  "modules": [
+    "intro",
+    "explore b4-events"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "intro",
+    "explore"
+  ],
+  "canonShas": {
+    "header": "ac58e74ce09b",
+    "footer": "2380f42a5846",
+    "css": "5bf5dffd7509"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Newsroom | 4brands Reply",
+    "description": "4brands Reply is the industry expert for the consumer goods sector and supports companies with process consulting and system integration of innovative IT solutions",
+    "canonical": "https://www.reply.com/4brands-reply/de/newsroom",
+    "lang": "de"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Newsroom | 4brands Reply",
+    "description": "4brands Reply is the industry expert for the consumer goods sector and supports companies with process consulting and system integration of innovative IT solutions",
+    "url": "https://www.reply.com/4brands-reply/de/newsroom"
+  },
+  "migratedAt": "2026-11-15T21:37:24Z",
+  "designMdSha": "d809c0215087",
+  "designJsonSha": "bdcb89ad7bf4",
+  "sourceCurrentSha": "fe8ec9d76888",
+  "sourceProposedSha": "4c123af1b051",
+  "fidelityTier": "sibling",
+  "archetypeSource": "en-insights",
+  "archetypeSha": "285b93a62458",
+  "variants": [
+    "intro.ice intro.newsroom explore.newsroom b4-events.newsroom"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "content-fidelity",
+    "delivery-lint"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance 1440 exit 2: card 24->38 (event family), filters/wall 1312->1087 -> variants explore.newsroom, b4-events.newsroom (stardust/.work/rollout/cluster-listing/variance.json)",
+    "content-fidelity": "38/38 cards (35 event, 3 news): titles, hrefs, categories, dates, abstracts, locations verbatim from the capture (gen.py)",
+    "pixel-gate-1440": "OPEN: no row in the pixel table (prototypes-1440) — run gate-all.mjs --stage prototype so the page is measured",
+    "pixel-gate-360": "OPEN: no row in the pixel table (prototypes-360) — run gate-all.mjs --stage prototype so the page is measured",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /4brands-reply/de/newsroom)",
+    "content-count": "OPEN: content-diff: 88 (0 structural 🔴) (cluster-listing-cdiff2.log)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "reuse",
+      "source": "card-wall-event-default / card-wall-abstract-default wall",
+      "target": "b4-events (brand-home block) + news-card row type",
+      "reason": "the newsroom wall is the 4brands event wall, already authored as b4-events; cards-wall has no event card type"
+    },
+    {
+      "kind": "drop",
+      "source": "No contents here. (wall empty-state, hidden on the source)",
+      "target": "-",
+      "reason": "hidden widget empty-state shown only when a filter matches nothing; the listing is static (D-02)"
+    }
+  ],
+  "assetsBundled": 15,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/4brands-reply/en/customer-experience-management",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/en/customer-and-consumer-engagement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/en/data-value-management",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/en/revenue-growth-management",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/en/data-and-analytics-strategy-workshop",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/en/transparency-with-sap-embedded-analytics",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/en/sap-analytics-cloud",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/en/sap-datasphere-trainings",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/en/sap-finance-knowledge-and-training",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/de/about/careers/de/job-search?country=de&company=4brands_reply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/newsroom/events/sap-konsumkompass-2027",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/newsroom/events/lz-ai-day-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/newsroom/events/sap-now-ai-tour-germany-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/newsroom/events/4brands-reply-at-the-dsag-annual-congress-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/newsroom/events/4brands-reply-at-ecr-in-motion-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/newsroom/events/4brands-reply-at-the-get-on-congress",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/newsroom/events/4-brands-reply-at-the-cosnumer-goods-summit-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/newsroom/events/4brands-reply-and-syskoplan-reply-at-the-sap-customer-community-switzerland-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/newsroom/events/retail-ai-end-to-end",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/newsroom/events/ai-for-smarter-business-operations",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/newsroom/events/sap-sapphire-madrid-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/newsroom/events/dsag-cx-theme-days-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/newsroom/events/sap-connect-days-data-and-it-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/newsroom/events/4brands-reply-auf-dem-lz-ai-day-2025",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/newsroom/events/ecr-day-2025",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/newsroom/events/big-bang-ki-festival-2025",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/newsroom/events/gs1-meets-sales-and-cx-innovation-afternoon",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/newsroom/events/autonomous-reply-auf-der-logimat-2025",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/newsroom/news/reply-recognized-in-sap-services-landscape-report",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/de/newsroom/events/4brands-reply-ecr-tag-2024",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/de/newsroom/events/4brands-reply-consumer-goods-experience-day-2024",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/de/newsroom/events/4brands-reply-code-for-kids-workshop",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/de/newsroom/events/4brands-reply-rise-sap-innovation-day-2024",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/de/newsroom/events/lz-strategietag-digitale-zukunft-mit-4brands-reply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/de/newsroom/events/ecr-tag-2023",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/de/newsroom/events/dsag-sap-customer-experience-2023",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/de/newsroom/events/sap-sapphire-2023",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/de/newsroom/events/4brands-reply-foerdert-studienfonds-owl",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/de/newsroom/events/euroshop-2023-mit-4brands-reply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/de/cloud-computing/sap-webinare",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/de/newsroom/events/4brands-reply-auf-dem-ecr-tag-2022",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/de/newsroom/events/dmexco-2022",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/de/newsroom/events/eurocis-2022-tomorrow-is-the-new-today",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/de/newsroom/events/sap-inspire-fuer-scm-planung-mit-4brands-reply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/de/newsroom/events/4brands-reply-auf-dem-lz-strategietag-digitale-zukunft",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/de/newsroom/events/ecr-live-2022-mit-4brands-reply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/de/newsroom/events/4brands-reply-offizielles-mitglied-der-gs1-solution-partner",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/de/about/careers/de/job-search?country=de&company=4brands_reply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-candidate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-client",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-supplier",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-marketing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/modern-slavery-statement",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "4brands-reply/de/newsroom/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "4brands-reply/de/newsroom/_meta.json",
+  "driverVersion": "1"
+}

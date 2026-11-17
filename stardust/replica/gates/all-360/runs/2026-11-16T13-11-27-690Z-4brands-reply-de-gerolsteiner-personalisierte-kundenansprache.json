@@ -1,0 +1,183 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-16T13:11:27.689Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.reply.com",
+    "eds": "https://main--a355dc1b--aemcoder.aem.page",
+    "edsHostOverride": "https://main--a355dc1b--aemcoder.aem.page",
+    "only": [
+      "4brands-reply-de-gerolsteiner-personalisierte-kundenansprache",
+      "en-christmas"
+    ]
+  },
+  "totals": {
+    "pages": 2,
+    "pass": 1,
+    "pixelOnlyPass": 2,
+    "overridePass": 0,
+    "fail": 1,
+    "error": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 1,
+    "failUnits": 0,
+    "fontsNotLoaded": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 1
+  },
+  "rows": [
+    {
+      "slug": "4brands-reply-de-gerolsteiner-personalisierte-kundenansprache",
+      "path": "/4brands-reply/de/gerolsteiner-personalisierte-kundenansprache",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 9.44,
+      "textPct": 15.44,
+      "heightDelta": -24,
+      "originH": 8740,
+      "edsH": 8764,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "reasons": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 2,
+        "variable": []
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [
+        "500-1000:15.6%",
+        "1000-1500:22%",
+        "3500-4000:18.1%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "en-christmas",
+      "path": "/en/christmas",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 7,
+      "textPct": 21.09,
+      "heightDelta": -21,
+      "originH": 10931,
+      "edsH": 10952,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 5,
+      "clipPass": true,
+      "clipAllowance": 5,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "content MISSING 0 / HIDDEN 4"
+      ],
+      "clipGroups": [
+        {
+          "kind": "TEXT HIDDEN",
+          "advisory": false,
+          "n": 2,
+          "clipper": "div.media-banner-box",
+          "path": "div.media-banner-copy > div.media-banner-text > div.media-banner-eyebrow > p",
+          "text": "digital event",
+          "cutMin": 13,
+          "cutMax": 13
+        },
+        {
+          "kind": "TEXT HIDDEN",
+          "advisory": false,
+          "n": 2,
+          "clipper": "div.media-banner-box",
+          "path": "div.media-banner-copy > div.media-banner-text > div.media-banner-title > h4#the-rose-room-presentsrose-the-digital-human",
+          "text": "the rose room presents:",
+          "cutMin": 27,
+          "cutMax": 27
+        },
+        {
+          "kind": "TEXT CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "div.media-banner-box",
+          "path": "div.media-banner-copy > div.media-banner-text > div.media-banner-body > p",
+          "text": "segui lo streaming dell’evento e interagisci in diretta con ",
+          "cutMin": 17,
+          "cutMax": 17
+        }
+      ],
+      "clipAllowReason": "source-faithful: the ROSE Room event card copy (DIGITAL EVENT eyebrow, title, date) overflows the top of the 2:3 parallax box below 768 on the source itself (origin clip probe: 6 counted, h4 \"the rose room presents\" hidden); the served card is anchored bottom-left the same way (fix-small-2)",
+      "content": {
+        "missing": 0,
+        "hidden": 4,
+        "controlState": 0,
+        "missingButtons": 2,
+        "hiddenButtons": 0,
+        "findings": 5,
+        "variable": [
+          ".card-carousel-runtime=.card-carousel"
+        ]
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": true,
+      "maskedRows": 203,
+      "maskReason": "xmas hero video (XMAS_Test_sito_6sec, .hero-slider 360x203 at y64) (muted autoplay loop inside the cross-origin DAM player) shows a different frame on every capture — the media rows are authored-volatile on both sides (fix-small-2, 2026-11-16)",
+      "hotBands": [
+        "0-500:26.3%",
+        "500-1000:47.8%"
+      ],
+      "error": null
+    }
+  ]
+}

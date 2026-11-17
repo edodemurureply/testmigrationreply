@@ -1,0 +1,43 @@
+/* en-iot (page type: hub) — page-only section wrappers. Shared modules live in modules.css.
+   Values lifted from stardust/current/assets/css/pages/en-iot.css (hashed per-instance section classes). */
+.page-main{display:block;width:100%;background:#fff}
+
+/* featured editorial carousel (.kpmsiicije): margin-bottom 64/84/100/120 */
+.iot-featured{margin-bottom:64px}
+
+/* case-study wall (.dwotgwnikp white / .zukaoansab container steps / .yekrgyhohm padding 40|64) */
+.iot-wall{background:#fff}
+.iot-wall__wrap{width:100%;max-width:576px;margin:0 auto}
+.iot-wall__cell{padding:0 40px}
+
+/* labs tiles (.lussjtbktc: padded 4/8/12 grid without a max-width; cell 1-4 / 1-8 / 1-12) */
+.iot-labs{max-width:none}
+.iot-labs__cell{grid-column:1/5;grid-row:1/2;align-items:center;align-content:center;justify-content:center}
+
+/* acknowledgments carousel: per-card cell padding at >=1440 (.zwcqgctndc-xl 30px / .lpetsrixzz-xl 20px 10px) */
+.iot-awards{margin:0}
+
+/* ROSE banner wrapper (.emplqgwwzy): margin-top 96/104/120 */
+.iot-rose{margin-top:96px}
+
+@media (min-width:576px){.iot-wall__wrap{max-width:768px}}
+@media (min-width:768px){
+  .iot-featured{margin-bottom:84px}
+  .iot-wall__wrap{max-width:1024px}
+  .iot-wall__cell{padding:0 64px}
+  .iot-labs__cell{grid-column:1/9}
+  .iot-rose{margin-top:104px}
+}
+@media (min-width:1024px){
+  .iot-featured{margin-bottom:100px}
+  .iot-wall__wrap{max-width:1440px}
+  .iot-labs__cell{grid-column:1/13}
+}
+@media (min-width:1440px){
+  .iot-featured{margin-bottom:120px}
+  .iot-wall__wrap{max-width:1660px}
+  .iot-awards__carousel .card-carousel__item:nth-child(1){padding-left:30px}
+  .iot-awards__carousel .card-carousel__item:nth-child(2){padding-left:20px;padding-right:10px}
+  .iot-rose{margin-top:120px}
+}
+

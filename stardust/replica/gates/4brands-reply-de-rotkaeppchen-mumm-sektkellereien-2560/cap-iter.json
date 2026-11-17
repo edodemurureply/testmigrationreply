@@ -1,0 +1,501 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-15T11:49:40.520Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.reply.com/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+      "http://localhost:8791/4brands-reply-de-rotkaeppchen-mumm-sektkellereien-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from stardust/current/DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.reply.com/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "http://localhost:8791/4brands-reply-de-rotkaeppchen-mumm-sektkellereien-proposed.html"
+  ],
+  "probeNote": "from stardust/current/DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main-content",
+      "isBody": false,
+      "leaves": 23,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "div.block > gridcontainer-runtime.grid-container.bzokxtpjxc > div.grid-item > div.fuyvanaywc.fuyvanaywc-md",
+        "tier": 10,
+        "share": 0.09,
+        "section": 0,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 698,
+        "via": "fixed",
+        "selector": "#nzLWO > span.colors-1-gbfb",
+        "tier": 15,
+        "share": 0.04,
+        "section": 0,
+        "w1": 698,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "div.block > gridcontainer-runtime.grid-container.osxsakywmg > div.grid-item.urbkbtqlzr > div.xsktolgvcc.xsktolgvcc-md",
+        "tier": 10,
+        "share": 0.09,
+        "section": 0,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.xqdrkpgyaz.xqdrkpgyaz-sm > div.dmfztqydac.dmfztqydac-md",
+        "tier": 5,
+        "share": 0.13,
+        "section": 1,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.hygzcxjocy.hygzcxjocy-sm > div.ylmkeyntap.ylmkeyntap-md",
+        "tier": 5,
+        "share": 0.09,
+        "section": 2,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.wgrjxhxesa.wgrjxhxesa-sm > div.yeiwdmfzik.yeiwdmfzik-md",
+        "tier": 5,
+        "share": 0.09,
+        "section": 3,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 393,
+        "via": "fixed",
+        "selector": "#MD59g > span.colors-1-gbfb",
+        "tier": 10,
+        "share": 0.04,
+        "section": 3,
+        "w1": 393,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.qtagkftwox.qtagkftwox-sm > div.hgnjpkzaod.hgnjpkzaod-md",
+        "tier": 5,
+        "share": 0.13,
+        "section": 4,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.yvtttnqhud.yvtttnqhud-sm > div.qnneuirhte.qnneuirhte-md",
+        "tier": 5,
+        "share": 0.13,
+        "section": 5,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.zdkqsdsbop.zdkqsdsbop-sm > div.dklrnilhdz.dklrnilhdz-md",
+        "tier": 5,
+        "share": 0.04,
+        "section": 6,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.gxrkczqcsl-sm.gxrkczqcsl-md > div.hlreikqenb.hlreikqenb-md",
+        "tier": 5,
+        "share": 0.13,
+        "section": 7,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.mfbiemfexe.mfbiemfexe-sm > div.qwubkrjukg.qwubkrjukg-md",
+        "tier": 5,
+        "share": 0.09,
+        "section": 8,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.ujputfbxdu.ujputfbxdu-sm",
+        "px": 1660,
+        "capSelector": "div.block > gridcontainer-runtime.grid-container.bzokxtpjxc > div.grid-item > div.fuyvanaywc.fuyvanaywc-md"
+      },
+      {
+        "index": 1,
+        "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.xqdrkpgyaz.xqdrkpgyaz-sm",
+        "px": 1660,
+        "capSelector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.xqdrkpgyaz.xqdrkpgyaz-sm > div.dmfztqydac.dmfztqydac-md"
+      },
+      {
+        "index": 2,
+        "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.hygzcxjocy.hygzcxjocy-sm",
+        "px": 1660,
+        "capSelector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.hygzcxjocy.hygzcxjocy-sm > div.ylmkeyntap.ylmkeyntap-md"
+      },
+      {
+        "index": 3,
+        "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.wgrjxhxesa.wgrjxhxesa-sm",
+        "px": 1660,
+        "capSelector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.wgrjxhxesa.wgrjxhxesa-sm > div.yeiwdmfzik.yeiwdmfzik-md"
+      },
+      {
+        "index": 4,
+        "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.qtagkftwox.qtagkftwox-sm",
+        "px": 1660,
+        "capSelector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.qtagkftwox.qtagkftwox-sm > div.hgnjpkzaod.hgnjpkzaod-md"
+      },
+      {
+        "index": 5,
+        "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.yvtttnqhud.yvtttnqhud-sm",
+        "px": 1660,
+        "capSelector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.yvtttnqhud.yvtttnqhud-sm > div.qnneuirhte.qnneuirhte-md"
+      },
+      {
+        "index": 6,
+        "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.zdkqsdsbop.zdkqsdsbop-sm",
+        "px": 1660,
+        "capSelector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.zdkqsdsbop.zdkqsdsbop-sm > div.dklrnilhdz.dklrnilhdz-md"
+      },
+      {
+        "index": 7,
+        "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.gxrkczqcsl-sm.gxrkczqcsl-md",
+        "px": 1660,
+        "capSelector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.gxrkczqcsl-sm.gxrkczqcsl-md > div.hlreikqenb.hlreikqenb-md"
+      },
+      {
+        "index": 8,
+        "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.mfbiemfexe.mfbiemfexe-sm",
+        "px": 1660,
+        "capSelector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.mfbiemfexe.mfbiemfexe-sm > div.qwubkrjukg.qwubkrjukg-md"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1660,
+    "contentFrom": "module",
+    "maxCap": 1660,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 176
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main-content",
+      "isBody": false,
+      "leaves": 23,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "section.b4-hero.b4cs-hero > div.b4-hero__grid > div.b4-hero__head > div.r-grid",
+        "tier": 4,
+        "share": 0.09,
+        "section": 0,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 691,
+        "via": "fixed",
+        "selector": "div.r-grid > div.b4-hero__title.r-cell > h1.t-display.t-white > span",
+        "tier": 7,
+        "share": 0.04,
+        "section": 0,
+        "w1": 691,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "section.b4-hero.b4cs-hero > div.b4-hero__grid > div.b4-hero__body > div.r-grid",
+        "tier": 4,
+        "share": 0.09,
+        "section": 0,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "#main-content > section.b4cs-intro > div.b4cs-intro__grid.r-grid",
+        "tier": 2,
+        "share": 0.13,
+        "section": 1,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "#main-content > section.b4cs-client > div.b4cs-client__grid.r-grid",
+        "tier": 2,
+        "share": 0.09,
+        "section": 2,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "#main-content > section.b4cs-challenge > div.b4cs-challenge__grid.r-grid",
+        "tier": 2,
+        "share": 0.09,
+        "section": 3,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 389,
+        "via": "fixed",
+        "selector": "div.b4cs-challenge__grid.r-grid > div.b4cs-challenge__title.r-cell > h2.t-section.t-white > span",
+        "tier": 5,
+        "share": 0.04,
+        "section": 3,
+        "w1": 389,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "#main-content > section.b4cs-solution > div.b4cs-solution__grid.r-grid",
+        "tier": 2,
+        "share": 0.13,
+        "section": 4,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "#main-content > section.b4-quote.b4-quote--first > div.b4-quote__grid",
+        "tier": 2,
+        "share": 0.13,
+        "section": 5,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "#main-content > section.b4cs-statement > div.b4cs-statement__grid.r-grid",
+        "tier": 2,
+        "share": 0.04,
+        "section": 6,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "#main-content > section.b4-quote.b4-quote--dark > div.b4-quote__grid",
+        "tier": 2,
+        "share": 0.13,
+        "section": 7,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "#main-content > section.b4-profile > div.b4-profile__grid.r-grid",
+        "tier": 2,
+        "share": 0.09,
+        "section": 8,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#main-content > section.b4-hero.b4cs-hero",
+        "px": 1660,
+        "capSelector": "section.b4-hero.b4cs-hero > div.b4-hero__grid > div.b4-hero__head > div.r-grid"
+      },
+      {
+        "index": 1,
+        "selector": "#main-content > section.b4cs-intro",
+        "px": 1660,
+        "capSelector": "#main-content > section.b4cs-intro > div.b4cs-intro__grid.r-grid"
+      },
+      {
+        "index": 2,
+        "selector": "#main-content > section.b4cs-client",
+        "px": 1660,
+        "capSelector": "#main-content > section.b4cs-client > div.b4cs-client__grid.r-grid"
+      },
+      {
+        "index": 3,
+        "selector": "#main-content > section.b4cs-challenge",
+        "px": 1660,
+        "capSelector": "#main-content > section.b4cs-challenge > div.b4cs-challenge__grid.r-grid"
+      },
+      {
+        "index": 4,
+        "selector": "#main-content > section.b4cs-solution",
+        "px": 1660,
+        "capSelector": "#main-content > section.b4cs-solution > div.b4cs-solution__grid.r-grid"
+      },
+      {
+        "index": 5,
+        "selector": "#main-content > section.b4-quote.b4-quote--first",
+        "px": 1660,
+        "capSelector": "#main-content > section.b4-quote.b4-quote--first > div.b4-quote__grid"
+      },
+      {
+        "index": 6,
+        "selector": "#main-content > section.b4cs-statement",
+        "px": 1660,
+        "capSelector": "#main-content > section.b4cs-statement > div.b4cs-statement__grid.r-grid"
+      },
+      {
+        "index": 7,
+        "selector": "#main-content > section.b4-quote.b4-quote--dark",
+        "px": 1660,
+        "capSelector": "#main-content > section.b4-quote.b4-quote--dark > div.b4-quote__grid"
+      },
+      {
+        "index": 8,
+        "selector": "#main-content > section.b4-profile",
+        "px": 1660,
+        "capSelector": "#main-content > section.b4-profile > div.b4-profile__grid.r-grid"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1660,
+    "contentFrom": "module",
+    "maxCap": 1660,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 101
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 1660px = build 1660px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/9",
+        "detail": "1660px = 1660px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/9",
+        "detail": "1660px = 1660px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/9",
+        "detail": "1660px = 1660px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 4/9",
+        "detail": "1660px = 1660px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 5/9",
+        "detail": "1660px = 1660px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 6/9",
+        "detail": "1660px = 1660px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 7/9",
+        "detail": "1660px = 1660px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 8/9",
+        "detail": "1660px = 1660px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 9/9",
+        "detail": "1660px = 1660px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/4brands-reply-de-rotkaeppchen-mumm-sektkellereien-2560/cap-iter.json"
+}

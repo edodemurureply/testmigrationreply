@@ -1,0 +1,295 @@
+/* marquee — theme continuous-slider-runtime: rail column-gap 40px (awards) / 2rem (keywords),
+   card labels .text-pfihz (12 px uppercase slate, label face), brand label in the brand colour,
+   button .button 12 px; animation continuous-slide linear infinite */
+.marquee {
+  --sp-t: 24px;
+  --sp-tm: 24px;
+  --sp-b: 24px;
+  --sp-bm: 24px;
+
+  padding-top: var(--sp-tm);
+  padding-bottom: var(--sp-bm);
+}
+
+.marquee .marquee-viewport {
+  display: flex;
+  overflow: hidden;
+}
+
+.marquee .marquee-track {
+  display: flex;
+  flex-shrink: 0;
+  column-gap: 40px;
+  animation: marquee-slide var(--marquee-time, 38s) linear infinite;
+}
+
+.marquee:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+.marquee .marquee-set {
+  display: flex;
+  flex-shrink: 0;
+  column-gap: 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.marquee.keywords :is(.marquee-track, .marquee-set) {
+  column-gap: 2rem;
+}
+
+.marquee .marquee-item {
+  display: flex;
+  flex-direction: column;
+  width: 158px;
+}
+
+.marquee .marquee-media img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: 90px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.marquee .marquee-labels {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.marquee .marquee-labels p {
+  margin: 0;
+  color: var(--c-slate);
+  font-family: var(--font-label);
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+.marquee .marquee-labels em {
+  color: var(--primary-color-50, var(--brand-color));
+  font-size: 16px;
+  font-style: normal;
+}
+
+.marquee .marquee-cta {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.marquee .marquee-cta a {
+  color: var(--c-ink);
+  font-family: var(--font-label);
+  font-size: 12px;
+}
+
+.marquee.keywords .marquee-item {
+  width: auto;
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee .marquee-track {
+    animation: none;
+  }
+}
+
+@media (width >= 768px) {
+  .marquee {
+    padding-top: var(--sp-t);
+    padding-bottom: var(--sp-b);
+  }
+}
+
+@keyframes marquee-slide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-50% - 20px));
+  }
+}
+
+/* variant awards (fix-hub-e, en/aws): the live continuous-slider--awards card rail — each item a
+   .card-uofhl (200 px, padding 24 / 20, 1 px #d6e0ea border, radius 6, white), 90 px badge left,
+   12 px spacer, labels (.text-pfihz 12 px uppercase, brand label .text-nk7e9 #02d34a), 8 px
+   spacer (the most common card spacer), .button-tj1sv text button (12 / 17 px, padding 12); rail runs left to right
+   (data-invert-direction) */
+.marquee.awards .marquee-track {
+  animation-direction: reverse;
+}
+
+.marquee.awards .marquee-item {
+  box-sizing: border-box;
+  width: 200px;
+  min-width: 200px;
+  padding: 24px 20px;
+  border: 1px solid #d6e0ea;
+  border-radius: 6px;
+  background: #fff;
+  color: #5b5f61;
+}
+
+.marquee.awards .marquee-media img {
+  width: 90px;
+  height: 90px;
+  margin: 0;
+}
+
+.marquee.awards .marquee-labels {
+  margin-top: 12px;
+  text-align: left;
+}
+
+.marquee.awards .marquee-labels p {
+  color: #000;
+}
+
+.marquee.awards .marquee-labels em {
+  display: block;
+  color: #02d34a;
+  line-height: 1.4;
+}
+
+.marquee.awards .marquee-cta {
+  margin-top: 8px;
+  text-align: left;
+}
+
+.marquee.awards .marquee-cta p {
+  margin: 0;
+}
+
+.marquee.awards .marquee-cta a:any-link {
+  display: inline-block;
+  padding: 12px;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  color: #151f27;
+  font-family: var(--font-label);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+/* variants pills / reverse / ice (fix-hub-e, /en/company-profile keyword rails): the label is the
+   theme .button-t8zgk pill (label face 14 px / 24 px, padding 6 / 20, 1px #d6e0ea, radius 72px,
+   non-interactive); reverse = data-invert-direction (continuous-slide-inverted); ice = the
+   #f4f8fc band (.vhjsfnwfdu / .qlpqvllkvx) */
+.marquee.ice {
+  background: var(--c-ice);
+}
+
+.marquee.reverse .marquee-track {
+  animation-direction: reverse;
+}
+
+.marquee.pills .marquee-labels {
+  margin-top: 0;
+}
+
+.marquee.pills .marquee-labels p {
+  padding: 6px 20px;
+  border: 1px solid #d6e0ea;
+  border-radius: 72px;
+  color: var(--c-ink);
+  font-family: tuqgwxsjgq, var(--font-label);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: none;
+  pointer-events: none;
+}
+
+/* variant awards wide (fix-hub-e, en/cloud-computing acknowledgments): the same .card-uofhl
+   cards with a 16:9 logo across the card width, a 42 px (>= 1440: 24 px) spacer and slate labels */
+.marquee.awards.wide .marquee-media img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.marquee.awards.wide .marquee-labels {
+  margin-top: 42px;
+}
+
+.marquee.awards.wide .marquee-labels p {
+  color: #586674;
+
+  /* fix-hub-l: the e400 stand-in sets the source's 300 label face ~15 % wider (live "GOOGLE PREMIER"
+     149 px on one line, delivered "GOOGLE" 79 px); -0.05em brings the tallest label to the live
+     5 lines (card 247 px, en/cloud-computing mev a11) */
+  letter-spacing: -0.05em;
+}
+
+@media (width >= 1440px) {
+  .marquee.awards.wide .marquee-labels {
+    margin-top: 24px;
+  }
+}
+
+/* variant cards (fix-hub-e, /en/company-profile awards rail): each item is the theme
+   .card.card-uofhl — 200 px, #fff, 1px #d6e0ea, radius 6px, padding 24 / 20; 16:9 logo box
+   (160 x 90), spacer 20 / 24 @1440, .text-iefbb (label face 12 px, 140 %, #586674), spacer 12,
+   .text-pfihz (the same, uppercase), spacer 8; cards stretch to the tallest (height 100 %) */
+.marquee.cards .marquee-item {
+  box-sizing: border-box;
+  width: 200px;
+  min-width: 200px;
+  padding: 24px 20px;
+  border: 1px solid #d6e0ea;
+  border-radius: 6px;
+  background: #fff;
+  color: #5b5f61;
+}
+
+.marquee.cards .marquee-item .marquee-media {
+  aspect-ratio: 16 / 9;
+}
+
+.marquee.cards .marquee-item .marquee-media img {
+  width: 100%;
+  height: 100%;
+}
+
+.marquee.cards .marquee-item .marquee-labels {
+  margin-top: 20px;
+  padding-bottom: 8px;
+  text-align: left;
+}
+
+.marquee.cards .marquee-item .marquee-labels p {
+  color: #586674;
+  font-family: tuqgwxsjgq, var(--font-label);
+  font-weight: 400;
+}
+
+.marquee.cards .marquee-item .marquee-labels p:first-child {
+  margin-bottom: 12px;
+  text-transform: none;
+}
+
+@media (width >= 1440px) {
+  .marquee.cards .marquee-item .marquee-labels {
+    margin-top: 24px;
+  }
+}
+
+/* cards: a third label line is the source .text-miz3u (10 / 14 px, weight 300, the txtislskto
+   face, sentence case) after an 8 px spacer — "In Europe", "(Advanced Industrial Robotic
+   Applications)" (live, measured @1440 and @360; fix-small-4) */
+.marquee.cards .marquee-item .marquee-labels p:nth-child(n + 3) {
+  margin-top: 8px;
+  font-family: txtislskto, var(--font-label);
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 14px;
+  text-transform: none;
+}

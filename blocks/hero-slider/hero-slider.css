@@ -1,0 +1,383 @@
+/* hero-slider — modules.css hero-slider + media-toggle (index): parallax media 150 % / 50 % (31.25 %
+   >= 2880), DAM player 16:9 (112.5 % tall < 768), 24 % veil, frosted pause disc, caption row on the
+   4 / 8 / 12 grid anchored 20 / 24 / 40 px above the bottom. */
+.hero-slider {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.hero-slider .hero-slider-media {
+  position: relative;
+  display: block;
+  height: 0;
+  padding-bottom: 150%;
+  overflow: hidden;
+}
+
+.hero-slider .hero-slider-media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #0000003d;
+  pointer-events: none;
+}
+
+.hero-slider .hero-slider-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-slider .hero-slider-video {
+  position: relative;
+  width: auto;
+  max-width: 100vw;
+  min-width: 50px;
+  height: 112.5%;
+  padding-top: 56.25%;
+  overflow: hidden;
+  transform: translateY(calc(var(--ty, 0%) * -0.85));
+}
+
+.hero-slider .hero-slider-video iframe,
+.hero-slider .hero-slider-video picture,
+.hero-slider .hero-slider-video img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  object-fit: cover;
+}
+
+/* the player link stays authored (EW5 player-url) but is never displayed */
+.hero-slider .hero-slider-player-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.hero-slider .hero-slider-toggle {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #ffffff1f;
+  backdrop-filter: blur(20px);
+  cursor: pointer;
+}
+
+.hero-slider .hero-slider-toggle .hero-slider-play,
+.hero-slider .hero-slider-toggle[data-state="paused"] .hero-slider-pause {
+  display: none;
+}
+
+.hero-slider .hero-slider-toggle[data-state="paused"] .hero-slider-play {
+  display: block;
+}
+
+.hero-slider .hero-slider-content {
+  position: absolute;
+  right: 0;
+  bottom: 1.25rem;
+  left: 0;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  column-gap: 40px;
+  width: 100%;
+  max-width: 1660px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.hero-slider .hero-slider-rule {
+  position: relative;
+  grid-column: 1 / -1;
+  padding-top: 1.25rem;
+  border-top: 1px solid #ffffff4d;
+}
+
+.hero-slider .hero-slider-row {
+  display: flex;
+  align-items: center;
+  width: calc(100% - 7.25rem);
+  height: 4.3125rem;
+}
+
+.hero-slider .hero-slider-link {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-slider .hero-slider-title :is(h1, h2, h3, h4, h5, h6, p) {
+  display: -webkit-box;
+  margin: 0;
+  overflow: hidden;
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.3;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.hero-slider .hero-slider-desc {
+  display: none;
+  margin: 0.25rem 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hero-slider .hero-slider-desc p {
+  margin: 0;
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+@media (width >= 768px) {
+  .hero-slider .hero-slider-media {
+    padding-bottom: 50%;
+  }
+
+  .hero-slider .hero-slider-video {
+    width: 100%;
+    max-width: none;
+    height: auto;
+  }
+
+  .hero-slider .hero-slider-content {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    padding: 0 64px;
+  }
+
+  .hero-slider .hero-slider-row {
+    width: calc(100% - 7.75rem);
+    height: 3.5rem;
+  }
+
+  .hero-slider .hero-slider-title :is(h1, h2, h3, h4, h5, h6, p) {
+    -webkit-line-clamp: 2;
+  }
+}
+
+@media (width >= 1024px) {
+  .hero-slider .hero-slider-content {
+    bottom: 1.5rem;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .hero-slider .hero-slider-rule {
+    grid-column: 2 / -2;
+  }
+
+  .hero-slider .hero-slider-title :is(h1, h2, h3, h4, h5, h6, p) {
+    text-overflow: ellipsis;
+  }
+
+  .hero-slider .hero-slider-desc {
+    display: block;
+  }
+}
+
+@media (width >= 1440px) {
+  .hero-slider .hero-slider-content {
+    bottom: 2.5rem;
+  }
+
+  .hero-slider .hero-slider-rule {
+    padding-top: 1.5rem;
+  }
+
+  .hero-slider .hero-slider-row {
+    width: calc(100% - 9rem);
+    height: 3.625rem;
+  }
+
+  .hero-slider .hero-slider-title :is(h1, h2, h3, h4, h5, h6, p) {
+    font-size: 1.25rem;
+  }
+}
+
+@media (width >= 2880px) {
+  .hero-slider .hero-slider-media {
+    padding-bottom: 31.25%;
+  }
+}
+
+/* variant video (en-christmas .qwvheahoie): the DAM player alone in a full-width 16:9
+   video-dam-container — no parallax box, veil, disc or caption row */
+.hero-slider.video .hero-slider-media {
+  height: auto;
+  padding-bottom: 0;
+}
+
+.hero-slider.video .hero-slider-media::after {
+  content: none;
+}
+
+.hero-slider.video .hero-slider-frame {
+  position: relative;
+  height: auto;
+}
+
+.hero-slider.video .hero-slider-video {
+  width: 100%;
+  max-width: none;
+  height: auto;
+  padding-top: 56.25%;
+  transform: none;
+}
+
+.hero-slider.video .hero-slider-toggle,
+.hero-slider.video .hero-slider-content {
+  display: none;
+}
+
+/* variant hub (hub pages' gridcontainer-runtime .parallax-allgrid): box 48.89 % of the width at every
+   breakpoint, 6 px radius, the DAM player 16:9 at full width (video-dam-container), parallax kept */
+.hero-slider.hub .hero-slider-media {
+  padding-bottom: 48.89%;
+  border-radius: 6px;
+}
+
+.hero-slider.hub .hero-slider-video {
+  width: 100%;
+  max-width: none;
+  height: auto;
+}
+
+/* variant w169 (fix-hub-c, en-digital-experience): the source box is the 16:9 DAM player from
+   768 (live 1440 x 810), the parallax 150 % box below 768 (live 360 x 540) */
+@media (width >= 768px) {
+  .hero-slider.w169 .hero-slider-media {
+    padding-bottom: 56.25%;
+  }
+}
+
+/* page title (fix-hub-c, hub heroslider pages): the h1 over the band — display 36 / 42 / 64 px,
+   500, white, cols 1-4 / 1-8 / 2-9; foot of the band below 1440 (48 / 40 px up), centred from 1440 */
+.hero-slider .hero-slider-heading-band {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 40px 48px;
+  pointer-events: none;
+}
+
+.hero-slider .hero-slider-heading-grid {
+  display: grid;
+  flex: 1;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  column-gap: 40px;
+}
+
+.hero-slider .hero-slider-heading {
+  grid-column: 1 / 5;
+}
+
+.hero-slider .hero-slider-heading :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+@media (width >= 768px) {
+  .hero-slider .hero-slider-heading-band {
+    padding: 0 64px 40px;
+  }
+
+  .hero-slider .hero-slider-heading-grid {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+
+  .hero-slider .hero-slider-heading {
+    grid-column: 1 / 9;
+  }
+
+  .hero-slider .hero-slider-heading :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+@media (width >= 1024px) {
+  .hero-slider .hero-slider-heading-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .hero-slider .hero-slider-heading {
+    grid-column: 2 / 10;
+  }
+}
+
+@media (width >= 1440px) {
+  .hero-slider .hero-slider-heading-band {
+    align-items: center;
+    padding-bottom: 0;
+  }
+
+  .hero-slider .hero-slider-heading :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 64px;
+    line-height: 70px;
+  }
+}
+
+/* variant mid (fix-hub-e, /en/ai-powered-software-engineering): the live heroslider-runtime
+   .slider__title is centred on the band at every width (top 50 %, translateY(-50%)) */
+.hero-slider.mid .hero-slider-heading-band {
+  align-items: center;
+  padding-bottom: 0;
+}
+
+/* mobile player (fix-hub-e, en-digital-experience): the live video-dam-xs container — a separate
+   2:3 cut (--dam-video-iframe-aspect-ratio 150 %) fills the 360 x 540 band below 768; the 16:9
+   player shows from 768 */
+.hero-slider .hero-slider-video.mobile {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  max-width: none;
+  height: 112.5%;
+  padding-top: 0;
+}
+
+.hero-slider .hero-slider-video.desktop {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .hero-slider .hero-slider-video.desktop {
+    display: block;
+  }
+
+  .hero-slider .hero-slider-video.mobile {
+    display: none;
+  }
+}

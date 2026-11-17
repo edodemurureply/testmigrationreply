@@ -1,0 +1,26 @@
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.reply.com/4brands-reply/de/rotkaeppchen-mumm-sektkellereien
+  build: http://localhost:8791/4brands-reply-de-rotkaeppchen-mumm-sektkellereien-proposed.html
+
+■ header: ✓ parity — 0 paired of 0/0 texts, 2/2 icons
+
+■ footer: 17 delta(s) — 16 paired of 16/17 texts, 4/5 icons
+  REGION BOX   Δh +69px (716→785)
+  PAIR         "Impressum"  Δw -2px (104→102)
+  PAIR         "Privacy and Legal"  Δy +68px (6587→6655)
+  PAIR         "Datenschutz- und Cookie Richtlinie"  Δy +69px (6634→6703)
+  PAIR         "Datenschutzhinweis"  Δy +69px (6671→6740); Δw -2px (194→192)
+  PAIR         "(Bewerber)"  Δx -2px (168→166); Δy +69px (6672→6741); <a> box 194×17 → 192×17
+  PAIR         "Datenschutzhinweis"  Δy +68px (6708→6776)
+  PAIR         "(Kunden)"  Δx -2px (168→166); Δy +68px (6709→6777)
+  PAIR         "Datenschutzhinweis"  Δy +68px (6745→6813); Δw -2px (211→209)
+  PAIR         "(Dienstleister)"  Δx -2px (168→166); Δy +68px (6746→6814); <a> box 211×17 → 209×17
+  PAIR         "Datenschutzhinweis"  Δy +68px (6782→6850); Δw -3px (197→194)
+  PAIR         "(Marketing)"  Δx -2px (168→166); Δy +68px (6783→6851); <a> box 197×17 → 194×17
+  PAIR         "Grundsatzerklärung - LKSG"  Δy +69px (6818→6887); Δw +3px (255→258)
+  PAIR         "(Deutschland)"  Δx +2px (210→212); Δy +69px (6819→6888); <a> box 255×17 → 258×17
+  PAIR         "Accessibility Statement"  letterSpacing normal → 0.12px; Δy +69px (6855→6924)
+  EXTRA        "Imprint"  build <span> "Imprint" has no live source
+  ICONS        4 live vs 5 build (svg/img) — harvest the live vectors verbatim (recreation-procedure.md § Asset harvest), never approximate
+
+✗ 17 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

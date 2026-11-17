@@ -1,0 +1,79 @@
+/* b4-roadmap — lifted from the brand-solution prototype (.cxm-roadmap): grid margin-top 56 / 120 @1440;
+   title (t-section) cols 1-4 / 2-5 @1024, margin-bottom 1.5rem / 1.25rem @768 / 2.5rem @1440;
+   text cols 1-4 / 2-5 @768 / 3-6 @1024. */
+.b4-roadmap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.b4-roadmap.ice {
+  background-color: var(--c-ice);
+}
+
+.b4-roadmap .b4-roadmap-grid {
+  flex: 1 1 100%;
+  margin-top: 56px;
+  margin-bottom: 0;
+}
+
+.b4-roadmap .b4-roadmap-title {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  margin-bottom: 1.5rem;
+}
+
+.b4-roadmap .b4-roadmap-title :is(h1, h2, h3, h4) {
+  margin: 0;
+  font-family: var(--font-lead);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.b4-roadmap .b4-roadmap-text {
+  grid-column: 1 / 5;
+  grid-row: 2 / 3;
+}
+
+@media (width >= 768px) {
+  .b4-roadmap .b4-roadmap-title {
+    margin-bottom: 1.25rem;
+  }
+
+  .b4-roadmap .b4-roadmap-text {
+    grid-column: 2 / 6;
+  }
+}
+
+@media (width >= 1024px) {
+  .b4-roadmap .b4-roadmap-title {
+    grid-column: 2 / 6;
+  }
+
+  .b4-roadmap .b4-roadmap-text {
+    grid-column: 3 / 7;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-roadmap .b4-roadmap-grid {
+    margin-top: 120px;
+  }
+
+  .b4-roadmap .b4-roadmap-title {
+    margin-bottom: 2.5rem;
+  }
+
+  .b4-roadmap .b4-roadmap-title :is(h1, h2, h3, h4) {
+    font-size: 36px;
+  }
+}
+
+/* variant dark (cluster-brand-solution): #151f27 band, white text */
+.b4-roadmap.dark {
+  background-color: #151f27;
+}
+
+.b4-roadmap.dark :is(h1, h2, h3, h4, p, li) {
+  color: #fff;
+}

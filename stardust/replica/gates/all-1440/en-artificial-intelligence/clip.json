@@ -1,0 +1,127 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.live/en/artificial-intelligence",
+ "at": "2026-11-17T00:35:04.367Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 11,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 7,
+  "offPage": 44,
+  "textNodes": 157,
+  "controls": 141,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 10,
+   "clipper": "a",
+   "path": "div.reply-card-body > div.reply-card-title > h3#how-companies-can-build-a-competitive-marketing-organization-in-the-age-of-ai > a",
+   "text": "how companies can build a competitive marketing organization",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.reply-card-abstract",
+   "path": "div.reply-card-grid > div.reply-card-body > div.reply-card-abstract > p",
+   "text": "how liquid reply collaborates with nexi to strengthen the ef",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h4#want-to-know-more-about-this-topic",
+   "path": "li.rose-card.rose-card-contact > div.rose-card-text > div.rose-card-title > h4#want-to-know-more-about-this-topic",
+   "text": "want to know more about this topic?",
+   "cutMin": 95,
+   "cutMax": 95
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.rose-cta.block",
+   "path": "div.rose-card-text > div.rose-card-action > p.button-wrapper > a.button.primary",
+   "text": "ask rose",
+   "cutMin": 63,
+   "cutMax": 63
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "a.button.primary",
+   "path": "div.rose-card-text > div.rose-card-action > p.button-wrapper > a.button.primary",
+   "text": "ask rose",
+   "cutMin": 8,
+   "cutMax": 8
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "cloud computing",
+   "cutMin": 143,
+   "cutMax": 143
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "cloud computing",
+   "cutMin": 143,
+   "cutMax": 143
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "telco networks",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "telco networks",
+   "cutMin": 103,
+   "cutMax": 103
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 11,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 7,
+   "offPage": 24,
+   "textNodes": 147,
+   "controls": 128,
+   "total": 0
+  }
+ }
+}

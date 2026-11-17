@@ -1,0 +1,1788 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-11-15T11:02:30.486Z",
+    "urls": [
+      "https://www.reply.com/4brands-reply/en"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "selectors": [
+      "header .logo img",
+      "header .header-top",
+      "header #nav-container",
+      "header .nav-item.first-level",
+      "header #search-toggle",
+      "footer#footer-content nav.footer",
+      "footer#footer-content nav.footer>img",
+      "footer#footer-content .button-ybxb5",
+      "#footer_privacy_and_legal",
+      "#footer-dropdown_footer_privacy_and_legal",
+      "footer .copyright-minisites",
+      "footer .copyright__logo svg",
+      "sticky-highlight-runtime",
+      "sticky-highlight-runtime .sticky-highlight__title",
+      ".map-offices-container",
+      ".map-button-container"
+    ],
+    "props": [
+      "display",
+      "position",
+      "boxSizing",
+      "width",
+      "height",
+      "maxWidth",
+      "margin",
+      "padding",
+      "gap",
+      "backgroundColor",
+      "backgroundImage",
+      "color",
+      "fontFamily",
+      "fontSize",
+      "fontWeight",
+      "lineHeight",
+      "letterSpacing",
+      "textTransform",
+      "textAlign",
+      "borderRadius",
+      "border",
+      "boxShadow",
+      "opacity",
+      "objectFit"
+    ],
+    "allMatches": true,
+    "failed": [],
+    "warnings": []
+  },
+  "widths": [
+    1440,
+    360
+  ],
+  "selectors": [
+    "header .logo img",
+    "header .header-top",
+    "header #nav-container",
+    "header .nav-item.first-level",
+    "header #search-toggle",
+    "footer#footer-content nav.footer",
+    "footer#footer-content nav.footer>img",
+    "footer#footer-content .button-ybxb5",
+    "#footer_privacy_and_legal",
+    "#footer-dropdown_footer_privacy_and_legal",
+    "footer .copyright-minisites",
+    "footer .copyright__logo svg",
+    "sticky-highlight-runtime",
+    "sticky-highlight-runtime .sticky-highlight__title",
+    ".map-offices-container",
+    ".map-button-container"
+  ],
+  "root": {
+    "https://www.reply.com/4brands-reply/en": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "scrollHeight": 11998,
+        "overflowX": 0
+      },
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 9145,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "https://www.reply.com/4brands-reply/en": {
+      "360": {
+        "header .logo img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 40,
+              "y": 0,
+              "w": 190,
+              "h": 64
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "190.078px",
+              "height": "64px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(21, 31, 39)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(21, 31, 39)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "cover"
+            },
+            "img": {
+              "naturalWidth": 300,
+              "naturalHeight": 101,
+              "currentSrc": "https://dam-media.reply.com/production/18/82/8e3d1166-2bce-dc45-479a-eb7908220258/65e121cb-a2d4-437e-996d-420a6ce754e1.svg"
+            }
+          }
+        ],
+        "header .header-top": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "EN DEEN",
+            "props": {
+              "display": "none",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "4px 0px 4px 20px",
+              "gap": "normal 32px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(21, 31, 39)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px 0px 0px 6px",
+              "border": "0px none rgb(21, 31, 39)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "header #nav-container": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 64,
+              "w": 360,
+              "h": 900
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "900px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "color": "rgb(21, 31, 39)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(21, 31, 39)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "header .nav-item.first-level": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 0,
+              "y": 64,
+              "w": 360,
+              "h": 371
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "list-item",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "371.188px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(21, 31, 39)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(21, 31, 39)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          },
+          {
+            "index": 1,
+            "of": 4,
+            "rect": {
+              "x": 0,
+              "y": 435,
+              "w": 360,
+              "h": 518
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "list-item",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "517.578px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(21, 31, 39)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(21, 31, 39)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          },
+          {
+            "index": 2,
+            "of": 4,
+            "rect": {
+              "x": 0,
+              "y": 953,
+              "w": 360,
+              "h": 70
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "list-item",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "70.3906px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(21, 31, 39)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(21, 31, 39)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          },
+          {
+            "index": 3,
+            "of": 4,
+            "rect": {
+              "x": 0,
+              "y": 1023,
+              "w": 360,
+              "h": 70
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "list-item",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "70.3906px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(21, 31, 39)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(21, 31, 39)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "header #search-toggle": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "100%",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(21, 31, 39)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(21, 31, 39)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "footer#footer-content nav.footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 11069,
+              "w": 360,
+              "h": 880
+            },
+            "visible": true,
+            "text": "Contact Us Careers Imprint Privacy and …",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "880.156px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "40px",
+              "gap": "12px normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(21, 31, 39)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(21, 31, 39)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "footer#footer-content nav.footer>img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 40,
+              "y": 11109,
+              "w": 0,
+              "h": 71
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "0px",
+              "height": "71px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(21, 31, 39)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(21, 31, 39)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "cover"
+            },
+            "img": {
+              "naturalWidth": 0,
+              "naturalHeight": 0,
+              "currentSrc": "https://dam-media.reply.com/production/17/81/0112fd19-81cf-69e1-1f9a-5ec80cbf2c95/06f51f8d-270a-4b57-ad4e-47ac6ad7083d.svg"
+            }
+          }
+        ],
+        "footer#footer-content .button-ybxb5": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 40,
+              "y": 11192,
+              "w": 280,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Contact Us",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "280px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "14px 16px 14px 0px",
+              "gap": "normal 0px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "tuqgwxsjgq",
+              "fontSize": "14px",
+              "fontWeight": "300",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "4px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          },
+          {
+            "index": 1,
+            "of": 3,
+            "rect": {
+              "x": 40,
+              "y": 11260,
+              "w": 280,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Careers",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "280px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "14px 16px 14px 0px",
+              "gap": "normal 0px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "tuqgwxsjgq",
+              "fontSize": "14px",
+              "fontWeight": "300",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "4px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          },
+          {
+            "index": 2,
+            "of": 3,
+            "rect": {
+              "x": 40,
+              "y": 11328,
+              "w": 280,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Imprint",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "280px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "14px 16px 14px 0px",
+              "gap": "normal 0px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "tuqgwxsjgq",
+              "fontSize": "14px",
+              "fontWeight": "300",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "4px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#footer_privacy_and_legal": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 40,
+              "y": 11460,
+              "w": 280,
+              "h": 20
+            },
+            "visible": true,
+            "text": "Privacy and Legal",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "280px",
+              "height": "19.5938px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#footer-dropdown_footer_privacy_and_legal": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 40,
+              "y": 11480,
+              "w": 280,
+              "h": 430
+            },
+            "visible": true,
+            "text": "Privacy & Cookie Policy Privacy Notice …",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "280px",
+              "height": "429.562px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "28px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "footer .copyright-minisites": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 11950,
+              "w": 360,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Reply © 2026",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "48px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "8px 40px 12px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "footer .copyright__logo svg": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 40,
+              "y": 11958,
+              "w": 52,
+              "h": 26
+            },
+            "visible": true,
+            "text": "Reply Logo",
+            "props": {
+              "display": "inline",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "52px",
+              "height": "26px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "12px",
+              "fontWeight": "300",
+              "lineHeight": "16.8px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "sticky-highlight-runtime": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 791,
+              "w": 360,
+              "h": 109
+            },
+            "visible": true,
+            "text": "Rotkäppchen-Mum: manages sales & retail…",
+            "props": {
+              "display": "grid",
+              "position": "fixed",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "109px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal 3%",
+              "backgroundColor": "rgb(40, 51, 62)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "20px 20px 0px 0px",
+              "border": "",
+              "boxShadow": "rgba(0, 0, 0, 0.2) 0px 16px 32px 0px",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "sticky-highlight-runtime .sticky-highlight__title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Rotkäppchen-Mum: manages sales & retail…",
+            "props": {
+              "display": "none",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "20.8px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".map-offices-container": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 10389,
+              "w": 360,
+              "h": 560
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "560px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(21, 31, 39)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(21, 31, 39)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".map-button-container": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 10965,
+              "w": 360,
+              "h": 41
+            },
+            "visible": true,
+            "text": "View office locations",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "40.7969px",
+              "maxWidth": "100%",
+              "margin": "16px 0px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(21, 31, 39)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(21, 31, 39)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      },
+      "1440": {
+        "header .logo img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 64,
+              "y": 28,
+              "w": 190,
+              "h": 64
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "190.078px",
+              "height": "64px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(21, 31, 39)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(21, 31, 39)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "cover"
+            },
+            "img": {
+              "naturalWidth": 300,
+              "naturalHeight": 101,
+              "currentSrc": "https://dam-media.reply.com/production/18/82/8e3d1166-2bce-dc45-479a-eb7908220258/65e121cb-a2d4-437e-996d-420a6ce754e1.svg"
+            }
+          }
+        ],
+        "header .header-top": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 1319,
+              "y": 0,
+              "w": 121,
+              "h": 28
+            },
+            "visible": true,
+            "text": "EN",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "121.266px",
+              "height": "28px",
+              "maxWidth": "none",
+              "margin": "0px -64px 0px 0px",
+              "padding": "4px 64px 4px 20px",
+              "gap": "normal 32px",
+              "backgroundColor": "rgb(21, 31, 39)",
+              "backgroundImage": "none",
+              "color": "rgb(21, 31, 39)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px 0px 0px 6px",
+              "border": "0px none rgb(21, 31, 39)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "header #nav-container": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 318,
+              "y": 28,
+              "w": 426,
+              "h": 64
+            },
+            "visible": true,
+            "text": "Services Knowledge Contact Career",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "426.469px",
+              "height": "63.7969px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(21, 31, 39)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(21, 31, 39)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "header .nav-item.first-level": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 318,
+              "y": 28,
+              "w": 62,
+              "h": 64
+            },
+            "visible": true,
+            "text": "Services",
+            "props": {
+              "display": "list-item",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "62.2969px",
+              "height": "63.7969px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(21, 31, 39)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(21, 31, 39)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          },
+          {
+            "index": 1,
+            "of": 4,
+            "rect": {
+              "x": 436,
+              "y": 28,
+              "w": 83,
+              "h": 64
+            },
+            "visible": true,
+            "text": "Knowledge",
+            "props": {
+              "display": "list-item",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "83.0312px",
+              "height": "63.7969px",
+              "maxWidth": "none",
+              "margin": "0px 0px 0px 56px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(21, 31, 39)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(21, 31, 39)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          },
+          {
+            "index": 2,
+            "of": 4,
+            "rect": {
+              "x": 575,
+              "y": 28,
+              "w": 62,
+              "h": 64
+            },
+            "visible": true,
+            "text": "Contact",
+            "props": {
+              "display": "list-item",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "62.0625px",
+              "height": "63.7969px",
+              "maxWidth": "none",
+              "margin": "0px 0px 0px 56px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(21, 31, 39)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(21, 31, 39)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          },
+          {
+            "index": 3,
+            "of": 4,
+            "rect": {
+              "x": 693,
+              "y": 28,
+              "w": 51,
+              "h": 64
+            },
+            "visible": true,
+            "text": "Career",
+            "props": {
+              "display": "list-item",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "51.0781px",
+              "height": "63.7969px",
+              "maxWidth": "none",
+              "margin": "0px 0px 0px 56px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(21, 31, 39)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(21, 31, 39)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "header #search-toggle": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "100%",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(21, 31, 39)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(21, 31, 39)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "footer#footer-content nav.footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 8664,
+              "w": 1440,
+              "h": 423
+            },
+            "visible": true,
+            "text": "Contact Us Careers Imprint Privacy and …",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "423.375px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "48px 64px",
+              "gap": "24px normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(21, 31, 39)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(21, 31, 39)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "footer#footer-content nav.footer>img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 64,
+              "y": 8712,
+              "w": 0,
+              "h": 71
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "0px",
+              "height": "71px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(21, 31, 39)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(21, 31, 39)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "cover"
+            },
+            "img": {
+              "naturalWidth": 0,
+              "naturalHeight": 0,
+              "currentSrc": "https://dam-media.reply.com/production/17/81/0112fd19-81cf-69e1-1f9a-5ec80cbf2c95/06f51f8d-270a-4b57-ad4e-47ac6ad7083d.svg"
+            }
+          }
+        ],
+        "footer#footer-content .button-ybxb5": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 64,
+              "y": 8807,
+              "w": 180,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Contact Us",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "180.406px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "14px 16px 14px 0px",
+              "gap": "normal 43.2px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "tuqgwxsjgq",
+              "fontSize": "14px",
+              "fontWeight": "300",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "4px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          },
+          {
+            "index": 1,
+            "of": 3,
+            "rect": {
+              "x": 284,
+              "y": 8807,
+              "w": 148,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Careers",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "148.422px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "14px 16px 14px 0px",
+              "gap": "normal 43.2px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "tuqgwxsjgq",
+              "fontSize": "14px",
+              "fontWeight": "300",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "4px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          },
+          {
+            "index": 2,
+            "of": 3,
+            "rect": {
+              "x": 473,
+              "y": 8807,
+              "w": 141,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Imprint",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "140.922px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "14px 16px 14px 0px",
+              "gap": "normal 43.2px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "tuqgwxsjgq",
+              "fontSize": "14px",
+              "fontWeight": "300",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "4px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#footer_privacy_and_legal": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 700,
+              "y": 8807,
+              "w": 676,
+              "h": 20
+            },
+            "visible": true,
+            "text": "Privacy and Legal",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "676px",
+              "height": "19.5938px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#footer-dropdown_footer_privacy_and_legal": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 700,
+              "y": 8855,
+              "w": 676,
+              "h": 185
+            },
+            "visible": true,
+            "text": "Privacy & Cookie Policy Privacy Notice …",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "676px",
+              "height": "184.781px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "28px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "footer .copyright-minisites": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 9087,
+              "w": 1440,
+              "h": 58
+            },
+            "visible": true,
+            "text": "Reply © 2026 Cookie settings",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "58px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "16px 64px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "footer .copyright__logo svg": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 64,
+              "y": 9103,
+              "w": 52,
+              "h": 26
+            },
+            "visible": true,
+            "text": "Reply Logo",
+            "props": {
+              "display": "inline",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "52px",
+              "height": "26px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "12px",
+              "fontWeight": "300",
+              "lineHeight": "16.8px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "sticky-highlight-runtime": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 1148,
+              "y": 108,
+              "w": 292,
+              "h": 118
+            },
+            "visible": true,
+            "text": "Rotkäppchen-Mum: manages sales & retail…",
+            "props": {
+              "display": "grid",
+              "position": "fixed",
+              "boxSizing": "border-box",
+              "width": "292px",
+              "height": "118px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal 18px",
+              "backgroundColor": "rgb(40, 51, 62)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "6px 0px 0px 6px",
+              "border": "",
+              "boxShadow": "rgba(0, 0, 0, 0.2) 0px 16px 32px 0px",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "sticky-highlight-runtime .sticky-highlight__title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 1283,
+              "y": 128,
+              "w": 116,
+              "h": 78
+            },
+            "visible": true,
+            "text": "Rotkäppchen-Mum: manages sales & retail…",
+            "props": {
+              "display": "flow-root",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "116px",
+              "height": "78px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "15px",
+              "fontWeight": "400",
+              "lineHeight": "19.5px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".map-offices-container": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 7920,
+              "w": 1440,
+              "h": 560
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "560px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(21, 31, 39)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(21, 31, 39)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".map-button-container": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 8496,
+              "w": 1440,
+              "h": 48
+            },
+            "visible": true,
+            "text": "View office locations",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "47.5938px",
+              "maxWidth": "100%",
+              "margin": "16px 0px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(21, 31, 39)",
+              "fontFamily": "Alaska, khanqyjjei, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(21, 31, 39)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

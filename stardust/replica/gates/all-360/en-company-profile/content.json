@@ -1,0 +1,4382 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-17T01:35:27.924Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.reply.com/en/company-profile",
+  "at": "2026-11-17T01:35:03.090Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 7653,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-bottom.w-full > div.logo.flex > a",
+    "x": 40,
+    "y": 0,
+    "w": 129,
+    "h": 64,
+    "text": "go to homepage",
+    "href": "/en"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 232,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 232,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.lg:hidden.first-level > button#mobile-menu-toggle",
+    "x": 296,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "text": "toggle menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.lg:hidden.first-level > button#mobile-menu-toggle",
+    "x": 296,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "label": "toggle menu",
+    "value": "toggle menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h1#AvGtN",
+    "x": 40,
+    "y": 516,
+    "w": 280,
+    "h": 40,
+    "level": 1,
+    "text": "we reply"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h1#AvGtN > span.colors-b-wm-m5",
+    "x": 107,
+    "y": 515,
+    "w": 106,
+    "h": 40,
+    "text": "Reply"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#RX3xh",
+    "x": 40,
+    "y": 700,
+    "w": 280,
+    "h": 403,
+    "level": 2,
+    "text": "at reply, we help you turn your vision into reality: we combine our strategic and creative approach with today's cutting"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#e8EXG",
+    "x": 40,
+    "y": 1279,
+    "w": 280,
+    "h": 34,
+    "level": 2,
+    "text": "explore our stories"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "videostory-runtime.aspect-w-2.aspect-h-3 > div.absolute.inset-0 > img.absolute.h-full",
+    "x": 0,
+    "y": 1345,
+    "w": 360,
+    "h": 540,
+    "text": "",
+    "file": "a44b5066-01cd-4837-9c2b-664bf54f5358"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.absolute.inset-0 > div.flex.flex-col > button.round-bt.round-bt--lg",
+    "x": 144,
+    "y": 1579,
+    "w": 72,
+    "h": 72,
+    "text": "play"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.interactive-title > div.title",
+    "x": 70,
+    "y": 1981,
+    "w": 220,
+    "h": 26,
+    "text": "Strategy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.interactive-title > div.title",
+    "x": 40,
+    "y": 2081,
+    "w": 280,
+    "h": 26,
+    "text": "Creativity"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.interactive-title > div.title",
+    "x": 40,
+    "y": 2199,
+    "w": 280,
+    "h": 26,
+    "text": "Technology"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#DTNce",
+    "x": 40,
+    "y": 2299,
+    "w": 280,
+    "h": 403,
+    "level": 2,
+    "text": "these three assets can be found at the core of every reply project. it is by letting them enrich and bolster each other "
+   },
+   {
+    "kind": "button",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flex.shrink-0 > div > button#t0XRd",
+    "x": -134,
+    "y": 2782,
+    "w": 207,
+    "h": 38,
+    "text": "financial services"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flex.shrink-0 > div > button#CHypv",
+    "x": 106,
+    "y": 2782,
+    "w": 125,
+    "h": 38,
+    "text": "logistics"
+   },
+   {
+    "kind": "button",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flex.shrink-0 > div > button#u4mgz",
+    "x": 263,
+    "y": 2782,
+    "w": 302,
+    "h": 38,
+    "text": "retail & consumer products"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flex.shrink-0 > div > button#t0XRd",
+    "x": -3,
+    "y": 2852,
+    "w": 207,
+    "h": 38,
+    "text": "financial services"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flex.shrink-0 > div > button#CHypv",
+    "x": 237,
+    "y": 2852,
+    "w": 125,
+    "h": 38,
+    "text": "logistics"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#sqXYu",
+    "x": 40,
+    "y": 3066,
+    "w": 280,
+    "h": 101,
+    "level": 2,
+    "text": "we make innovation happen."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-vgevi",
+    "x": 40,
+    "y": 3199,
+    "w": 280,
+    "h": 245,
+    "text": "We started with a small team and a purpose: to help the digital revolution happe"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-v-i6h9",
+    "x": 104,
+    "y": 3498,
+    "w": 153,
+    "h": 40,
+    "text": "17,600+"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-sp-nl1",
+    "x": 138,
+    "y": 3541,
+    "w": 84,
+    "h": 18,
+    "text": "People"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-sp-nl1",
+    "x": 99,
+    "y": 3635,
+    "w": 161,
+    "h": 18,
+    "text": "Nationalities"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-v-i6h9",
+    "x": 148,
+    "y": 3686,
+    "w": 65,
+    "h": 40,
+    "text": "152"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-sm-align-center > span.colors-sp-nl1",
+    "x": 65,
+    "y": 3729,
+    "w": 230,
+    "h": 40,
+    "text": "Partnerships with Universities"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-v-i6h9",
+    "x": 129,
+    "y": 3803,
+    "w": 103,
+    "h": 40,
+    "text": "2030"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-center > span.colors-sp-nl1",
+    "x": 93,
+    "y": 3845,
+    "w": 174,
+    "h": 18,
+    "text": "Net Zero Goal"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#DXJkW",
+    "x": 40,
+    "y": 3962,
+    "w": 280,
+    "h": 168,
+    "level": 2,
+    "text": "we are a decentralized network of specialised companies."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 40,
+    "y": 4162,
+    "w": 280,
+    "h": 189,
+    "text": "Among Replyers, you will find passionate geeks, visionary strategists, and creat"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#Kr8ka",
+    "x": 40,
+    "y": 4564,
+    "w": 280,
+    "h": 67,
+    "level": 2,
+    "text": "always aiming a little higher."
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-16.aspect-h-9 > picture > img.content.picture",
+    "x": -154,
+    "y": 4689,
+    "w": 158,
+    "h": 89,
+    "text": "gartner logo",
+    "file": "b1f05470-c394-4fe0-8ee8-b44472267ae2"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-iefbb",
+    "x": -154,
+    "y": 4797,
+    "w": 158,
+    "h": 17,
+    "text": "Leader in MQ for"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-pfihz",
+    "x": -154,
+    "y": 4826,
+    "w": 158,
+    "h": 34,
+    "text": "CRM and CX Services"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-16.aspect-h-9 > picture > img.content.picture",
+    "x": 86,
+    "y": 4689,
+    "w": 158,
+    "h": 89,
+    "text": "pac logo",
+    "file": "b2923252-f5d6-443b-819e-53518c904aa5"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-iefbb",
+    "x": 86,
+    "y": 4797,
+    "w": 158,
+    "h": 17,
+    "text": "Leader"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-pfihz",
+    "x": 86,
+    "y": 4826,
+    "w": 158,
+    "h": 34,
+    "text": "SALESFORCE-RELATED SERVICES"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-miz3u",
+    "x": 86,
+    "y": 4868,
+    "w": 158,
+    "h": 14,
+    "text": "In Europe"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-16.aspect-h-9 > picture > img.content.picture",
+    "x": 326,
+    "y": 4689,
+    "w": 158,
+    "h": 89,
+    "text": "gartner logo",
+    "file": "b1f05470-c394-4fe0-8ee8-b44472267ae2"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-iefbb",
+    "x": 326,
+    "y": 4797,
+    "w": 158,
+    "h": 17,
+    "text": "Visionary in MQ for"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-pfihz",
+    "x": 326,
+    "y": 4826,
+    "w": 158,
+    "h": 50,
+    "text": "Warehouse Management systems"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-miz3u",
+    "x": 326,
+    "y": 4885,
+    "w": 158,
+    "h": 14,
+    "text": "(5th Year in a row)"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#z8D3m",
+    "x": 40,
+    "y": 4980,
+    "w": 280,
+    "h": 67,
+    "level": 2,
+    "text": "lead the way, act sustainably."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 40,
+    "y": 5089,
+    "w": 280,
+    "h": 486,
+    "text": "We know a sustainable future is possible and technology can be a strong asset to"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.fwaiaiqemt.fwaiaiqemt-md > div > a#C4MeZ",
+    "x": 103,
+    "y": 5617,
+    "w": 154,
+    "h": 41,
+    "text": "discover more",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > picture > img.content.picture",
+    "x": 118,
+    "y": 5700,
+    "w": 139,
+    "h": 170,
+    "text": "",
+    "file": "e9b78578-d2e4-4022-992e-27a853b4e4fa"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-md-align-center > span.colors-sp-nl1",
+    "x": 50,
+    "y": 6057,
+    "w": 260,
+    "h": 80,
+    "text": "Be part of our team"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.boeeburnbm.boeeburnbm-sm > div > a#3ZFLT",
+    "x": 133,
+    "y": 6167,
+    "w": 95,
+    "h": 41,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-prev.round-bt",
+    "x": 40,
+    "y": 6268,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-next.round-bt",
+    "x": 96,
+    "y": 6268,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.block > nav.footer.p-10 > a",
+    "x": 40,
+    "y": 6476,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 40,
+    "y": 6572,
+    "w": 280,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 40,
+    "y": 6572,
+    "w": 280,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 6619,
+    "w": 103,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 6656,
+    "w": 45,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 6693,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 6730,
+    "w": 67,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 40,
+    "y": 6786,
+    "w": 280,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 40,
+    "y": 6786,
+    "w": 280,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 6834,
+    "w": 142,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 6871,
+    "w": 165,
+    "h": 17,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 6908,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 6944,
+    "w": 149,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 6981,
+    "w": 161,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 7018,
+    "w": 127,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 7055,
+    "w": 208,
+    "h": 34,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 7108,
+    "w": 261,
+    "h": 17,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 7145,
+    "w": 154,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 7182,
+    "w": 147,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 7219,
+    "w": 261,
+    "h": 17,
+    "text": "do not sell/share my personal information",
+    "href": "void(0)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Careers",
+    "x": 40,
+    "y": 7275,
+    "w": 280,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Contacts",
+    "x": 40,
+    "y": 7379,
+    "w": 280,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 40,
+    "y": 7483,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 52,
+    "y": 7496,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 117,
+    "y": 7483,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 129,
+    "y": 7496,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "a6732ee4-95cf-4951-9c4b-3675c7154f7e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 195,
+    "y": 7483,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 207,
+    "y": 7496,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "49664893-bfc1-4d79-9208-3bdd7083126b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 272,
+    "y": 7483,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 284,
+    "y": 7496,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "c48097ef-90ed-4c24-aa40-1764649e72ff"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > span",
+    "x": 32,
+    "y": 7607,
+    "w": 136,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > a.underline",
+    "x": 32,
+    "y": 7624,
+    "w": 136,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.text-white.py-3 > div.flex.justify-between > button#cookie-pref-center",
+    "x": 296,
+    "y": 832,
+    "w": 48,
+    "h": 48,
+    "text": "open cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 8,
+    "offPage": 167,
+    "textNodes": 185,
+    "controls": 93,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "continuous-slider-runtime.overflow-hidden.flex",
+     "path": "div.slider__container.mx-auto > div.flex.shrink-0 > div > button#t0XRd",
+     "text": "financial services",
+     "cutMin": 8,
+     "cutMax": 129
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "continuous-slider-runtime.overflow-hidden.flex",
+     "path": "div.flex.shrink-0 > div > button#t0XRd > span",
+     "text": "financial services",
+     "cutMin": 108,
+     "cutMax": 189
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "continuous-slider-runtime.overflow-hidden.flex",
+     "path": "div.slider__container.mx-auto > div.flex.shrink-0 > div > button#u4mgz",
+     "text": "retail & consumer products",
+     "cutMin": 210,
+     "cutMax": 210
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "continuous-slider-runtime.overflow-hidden.flex",
+     "path": "div.card.card-uofhl > div.block > div.ProseMirror.content-body > p.text-iefbb",
+     "text": "visionary in mq for",
+     "cutMin": 118,
+     "cutMax": 118
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "continuous-slider-runtime.overflow-hidden.flex",
+     "path": "div.card.card-uofhl > div.block > div.ProseMirror.content-body > p.text-pfihz",
+     "text": "warehouse management systems",
+     "cutMin": 92,
+     "cutMax": 92
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "continuous-slider-runtime.overflow-hidden.flex",
+     "path": "div.card.card-uofhl > div.block > div.ProseMirror.content-body > p.text-miz3u",
+     "text": "(5th year in a row)",
+     "cutMin": 87,
+     "cutMax": 87
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--a355dc1b--aemcoder.aem.live/en/company-profile",
+  "at": "2026-11-17T01:35:27.770Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 7635,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-main > div.site-header-logo > a",
+    "x": 40,
+    "y": 0,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "href": "/en"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-reply-logo > img",
+    "x": 40,
+    "y": 0,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "file": "reply-logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 232,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 232,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.mobile-toggle > button#mobile-menu-toggle",
+    "x": 296,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "text": "toggle menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.mobile-toggle > button#mobile-menu-toggle",
+    "x": 296,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "label": "toggle menu",
+    "value": "toggle menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.r-grid > div.media-hero-title.r-cell > h1#we-reply",
+    "x": 40,
+    "y": 516,
+    "w": 280,
+    "h": 40,
+    "level": 1,
+    "text": "we reply"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h1#we-reply > span > strong",
+    "x": 110,
+    "y": 515,
+    "w": 104,
+    "h": 40,
+    "text": "Reply"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-heading-cell.r-cell > div.section-heading-title > h2#at-reply-we-help-you-turn-your-vision-into-reality-we-combine-our-strategic-and-creative-approach-with-todays-cutting-edge-technologies-to-start-making-things-happen-from-day-one",
+    "x": 40,
+    "y": 700,
+    "w": 280,
+    "h": 403,
+    "level": 2,
+    "text": "at reply, we help you turn your vision into reality: we combine our strategic and creative approach with today's cutting"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-heading-cell.r-cell > div.section-heading-title > h2#explore-our-stories",
+    "x": 40,
+    "y": 1279,
+    "w": 280,
+    "h": 34,
+    "level": 2,
+    "text": "explore our stories"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.video-stories-still > picture > img",
+    "x": 0,
+    "y": 1345,
+    "w": 360,
+    "h": 540,
+    "text": "",
+    "file": "media_17349473e8f61e6bceac913ddec73f2bd7"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.video-stories-story > div.video-stories-overlay > button.video-stories-disc.play",
+    "x": 144,
+    "y": 1579,
+    "w": 72,
+    "h": 72,
+    "text": "play reply_interview_anna jonen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cp-assets-col > div.cp-assets-item > p.cp-assets-title",
+    "x": 81,
+    "y": 1981,
+    "w": 197,
+    "h": 26,
+    "text": "Strategy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cp-assets-col > div.cp-assets-item > p.cp-assets-title",
+    "x": -50,
+    "y": 2081,
+    "w": 460,
+    "h": 26,
+    "text": "Creativity"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cp-assets-col > div.cp-assets-item > p.cp-assets-title",
+    "x": 52,
+    "y": 2181,
+    "w": 257,
+    "h": 26,
+    "text": "Technology"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-heading-cell.r-cell > div.section-heading-title > h2#these-three-assets-can-be-found-at-the-core-of-every-reply-project-it-is-by-letting-them-enrich-and-bolster-each-other-that-we-bring-actionable-solutions-to-a-wide-range-of-industries-and-topics",
+    "x": 40,
+    "y": 2280,
+    "w": 280,
+    "h": 370,
+    "level": 2,
+    "text": "these three assets can be found at the core of every reply project. it is by letting them enrich and bolster each other "
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.marquee-item > div.marquee-labels > p",
+    "x": -256,
+    "y": 2730,
+    "w": 304,
+    "h": 38,
+    "text": "Automotive & Manufacturing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.marquee-item > div.marquee-labels > p",
+    "x": 79,
+    "y": 2730,
+    "w": 198,
+    "h": 38,
+    "text": "Energy & Utilities"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.marquee-item > div.marquee-labels > p",
+    "x": 310,
+    "y": 2730,
+    "w": 208,
+    "h": 38,
+    "text": "Financial Services"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.marquee-item > div.marquee-labels > p",
+    "x": -26,
+    "y": 2800,
+    "w": 303,
+    "h": 38,
+    "text": "Retail & Consumer Products"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.marquee-item > div.marquee-labels > p",
+    "x": 308,
+    "y": 2800,
+    "w": 143,
+    "h": 38,
+    "text": "Healthcare"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-heading-cell.r-cell > div.section-heading-title > h2#we-make-innovation-happen",
+    "x": 40,
+    "y": 3014,
+    "w": 280,
+    "h": 101,
+    "level": 2,
+    "text": "we make innovation happen."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-text-cell.r-cell > div.hub-text-text > p",
+    "x": 40,
+    "y": 3147,
+    "w": 280,
+    "h": 245,
+    "text": "We started with a small team and a purpose: to help the digital revolution happe"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 40,
+    "y": 3448,
+    "w": 280,
+    "h": 40,
+    "text": "17,600+"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 40,
+    "y": 3487,
+    "w": 280,
+    "h": 22,
+    "text": "People"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 40,
+    "y": 3581,
+    "w": 280,
+    "h": 22,
+    "text": "Nationalities"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 40,
+    "y": 3636,
+    "w": 280,
+    "h": 40,
+    "text": "152"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 40,
+    "y": 3675,
+    "w": 280,
+    "h": 45,
+    "text": "Partnerships with Universities"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 40,
+    "y": 3752,
+    "w": 280,
+    "h": 40,
+    "text": "2030"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 40,
+    "y": 3792,
+    "w": 280,
+    "h": 22,
+    "text": "Net Zero Goal"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-heading-cell.r-cell > div.section-heading-title > h2#we-are-a-decentralized-network-of-specialised-companies",
+    "x": 40,
+    "y": 3910,
+    "w": 280,
+    "h": 168,
+    "level": 2,
+    "text": "we are a decentralized network of specialised companies."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-heading-cell.r-cell > div.section-heading-title > p",
+    "x": 40,
+    "y": 4110,
+    "w": 280,
+    "h": 190,
+    "text": "Among Replyers, you will find passionate geeks, visionary strategists, and creat"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-heading-cell.r-cell > div.section-heading-title > h2#always-aiming-a-little-higher",
+    "x": 40,
+    "y": 4514,
+    "w": 280,
+    "h": 67,
+    "level": 2,
+    "text": "always aiming a little higher."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.marquee-media > picture > img",
+    "x": 6,
+    "y": 4639,
+    "w": 158,
+    "h": 89,
+    "text": "fraunhofer logo",
+    "file": "media_1b09457138c3caa4030bbf8a46964ac011"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.marquee-item > div.marquee-labels > p",
+    "x": 6,
+    "y": 4748,
+    "w": 158,
+    "h": 17,
+    "text": "System validation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.marquee-item > div.marquee-labels > p",
+    "x": 6,
+    "y": 4777,
+    "w": 158,
+    "h": 67,
+    "text": "Fraunhofer-institute for material flow and logistics"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.marquee-media > picture > img",
+    "x": 246,
+    "y": 4639,
+    "w": 158,
+    "h": 89,
+    "text": "teknowlogy logo",
+    "file": "media_182c8a848028164b525993292d9cc5f64d"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.marquee-item > div.marquee-labels > p",
+    "x": 246,
+    "y": 4748,
+    "w": 158,
+    "h": 17,
+    "text": "Top"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.marquee-item > div.marquee-labels > p",
+    "x": 246,
+    "y": 4777,
+    "w": 158,
+    "h": 67,
+    "text": "LEADING PROVIDER in AI-related Services"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h2#lead-the-way-act-sustainably",
+    "x": 40,
+    "y": 4962,
+    "w": 280,
+    "h": 67,
+    "level": 2,
+    "text": "lead the way, act sustainably."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 40,
+    "y": 5071,
+    "w": 280,
+    "h": 486,
+    "text": "We know a sustainable future is possible and technology can be a strong asset to"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.button-wrapper.hub-grid-node > a.button.primary",
+    "x": 103,
+    "y": 5599,
+    "w": 154,
+    "h": 41,
+    "text": "discover more",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > picture.hub-grid-node.hub-grid-pic > img",
+    "x": 118,
+    "y": 5682,
+    "w": 139,
+    "h": 170,
+    "text": "",
+    "file": "media_1a96cbb0c9dfee7bfaeff1362506a6c45d"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 40,
+    "y": 6040,
+    "w": 280,
+    "h": 79,
+    "text": "Be part of our team"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.button-wrapper.hub-grid-node > a.button.primary",
+    "x": 133,
+    "y": 6149,
+    "w": 95,
+    "h": 41,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-wrap > nav.footer-nav > a.footer-nav-home",
+    "x": 40,
+    "y": 6458,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 40,
+    "y": 6554,
+    "w": 280,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 40,
+    "y": 6554,
+    "w": 280,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 40,
+    "y": 6602,
+    "w": 102,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 40,
+    "y": 6638,
+    "w": 43,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 40,
+    "y": 6675,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 40,
+    "y": 6712,
+    "w": 66,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 40,
+    "y": 6769,
+    "w": 280,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 40,
+    "y": 6769,
+    "w": 280,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 6816,
+    "w": 145,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 6853,
+    "w": 163,
+    "h": 17,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 6890,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 6927,
+    "w": 150,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 6963,
+    "w": 160,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 7000,
+    "w": 131,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 7037,
+    "w": 206,
+    "h": 34,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 7091,
+    "w": 266,
+    "h": 17,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 7127,
+    "w": 153,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 7164,
+    "w": 143,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 7201,
+    "w": 262,
+    "h": 17,
+    "text": "do not sell/share my personal information",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 40,
+    "y": 7258,
+    "w": 280,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 40,
+    "y": 7362,
+    "w": 280,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 40,
+    "y": 7466,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 52,
+    "y": 7478,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 117,
+    "y": 7466,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 129,
+    "y": 7478,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 195,
+    "y": 7466,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 207,
+    "y": 7478,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-linkedin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 272,
+    "y": 7466,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 284,
+    "y": 7478,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-xing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > span",
+    "x": 32,
+    "y": 7590,
+    "w": 131,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > a",
+    "x": 32,
+    "y": 7607,
+    "w": 131,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-inner > div.site-legal-row > button#cookie-pref-center",
+    "x": 296,
+    "y": 832,
+    "w": 48,
+    "h": 48,
+    "text": "open cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 5,
+    "offPage": 88,
+    "textNodes": 161,
+    "controls": 39,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 5,
+     "clipper": "div.marquee-viewport",
+     "path": "ul.marquee-set > li.marquee-item > div.marquee-labels > p",
+     "text": "automotive & manufacturing",
+     "cutMin": 3,
+     "cutMax": 233
+    }
+   ],
+   "findings": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 233,
+     "path": "ul.marquee-set > li.marquee-item > div.marquee-labels > p",
+     "text": "automotive & manufacturing",
+     "clipper": "div.marquee-viewport",
+     "rect": {
+      "l": -233,
+      "t": 2740,
+      "r": 29,
+      "b": 2758,
+      "w": 262,
+      "h": 18
+     },
+     "clip": {
+      "l": 0,
+      "t": 2730,
+      "r": 360,
+      "b": 2768,
+      "w": 360,
+      "h": 38
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 139,
+     "path": "ul.marquee-set > li.marquee-item > div.marquee-labels > p",
+     "text": "financial services",
+     "clipper": "div.marquee-viewport",
+     "rect": {
+      "l": 333,
+      "t": 2740,
+      "r": 499,
+      "b": 2758,
+      "w": 166,
+      "h": 18
+     },
+     "clip": {
+      "l": 0,
+      "t": 2730,
+      "r": 360,
+      "b": 2768,
+      "w": 360,
+      "h": 38
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 8,
+     "path": "ul.marquee-set > li.marquee-item > div.marquee-labels > p",
+     "text": "retail & consumer products",
+     "clipper": "div.marquee-viewport",
+     "rect": {
+      "l": -8,
+      "t": 2810,
+      "r": 253,
+      "b": 2828,
+      "w": 261,
+      "h": 18
+     },
+     "clip": {
+      "l": 0,
+      "t": 2800,
+      "r": 360,
+      "b": 2838,
+      "w": 360,
+      "h": 38
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 68,
+     "path": "ul.marquee-set > li.marquee-item > div.marquee-labels > p",
+     "text": "healthcare",
+     "clipper": "div.marquee-viewport",
+     "rect": {
+      "l": 327,
+      "t": 2810,
+      "r": 428,
+      "b": 2828,
+      "w": 101,
+      "h": 18
+     },
+     "clip": {
+      "l": 0,
+      "t": 2800,
+      "r": 360,
+      "b": 2838,
+      "w": 360,
+      "h": 38
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 3,
+     "path": "ul.marquee-set > li.marquee-item > div.marquee-labels > p",
+     "text": "leading provider in",
+     "clipper": "div.marquee-viewport",
+     "rect": {
+      "l": 248,
+      "t": 4777,
+      "r": 327,
+      "b": 4793,
+      "w": 79,
+      "h": 16
+     },
+     "clip": {
+      "l": 0,
+      "t": 4614,
+      "r": 360,
+      "b": 4882,
+      "w": 360,
+      "h": 268
+     },
+     "lines": 2
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "we reply",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "at reply, we help you turn your vision into reality: we combine our strategic and creative approach with today's cutting",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "explore our stories",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 3,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "MISSING BUTTON"
+   ]
+  },
+  {
+   "index": 4,
+   "heading": "these three assets can be found at the core of every reply project. it is by letting them enrich and bolster each other ",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 3,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 3,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "MISSING BUTTON",
+    "MISSING BUTTON",
+    "COUNT TEXT"
+   ]
+  },
+  {
+   "index": 5,
+   "heading": "we make innovation happen.",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 8,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 8,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "we are a decentralized network of specialised companies.",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "always aiming a little higher.",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 3,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "lead the way, act sustainably.",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 2,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": [
+    "MISSING BUTTON",
+    "MISSING BUTTON"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"play\" in band \"explore our stories\" (origin y 1579) not on the served page",
+   "band": 3,
+   "n": 1,
+   "text": "play"
+  },
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "×2 \"logistics\" in band \"these three assets can be found at the core of every reply project. it is by letting them enrich and bolster each other \" (origin y 2782) not on the served page",
+   "band": 4,
+   "n": 2,
+   "text": "logistics"
+  },
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"financial services\" in band \"these three assets can be found at the core of every reply project. it is by letting them enrich and bolster each other \" (origin y 2852) not on the served page",
+   "band": 4,
+   "n": 1,
+   "text": "financial services"
+  },
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"prev card\" in band \"lead the way, act sustainably.\" (origin y 6268) not on the served page",
+   "band": 8,
+   "n": 1,
+   "text": "prev card"
+  },
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"next card\" in band \"lead the way, act sustainably.\" (origin y 6268) not on the served page",
+   "band": 8,
+   "n": 1,
+   "text": "next card"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"play reply_interview_anna jonen\" served in band \"explore our stories\", no origin link or button",
+   "band": 3,
+   "n": 1,
+   "text": "play reply_interview_anna jonen"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT TEXT",
+   "msg": "band \"these three assets can be found at the core of every reply project. it is by letting them enrich and bolster each other \": 0 origin → 2 served visible (+3 clipped away)",
+   "band": 4,
+   "origin": 0,
+   "eds": 2,
+   "hidden": 3
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 1,
+  "missingButtons": 6,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 1,
+  "findings": 7,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 40,
+    "y": 515,
+    "w": 67,
+    "h": 40
+   },
+   {
+    "x": 107,
+    "y": 515,
+    "w": 106,
+    "h": 40
+   },
+   {
+    "x": 55,
+    "y": 700,
+    "w": 250,
+    "h": 32
+   },
+   {
+    "x": 83,
+    "y": 734,
+    "w": 194,
+    "h": 32
+   },
+   {
+    "x": 52,
+    "y": 767,
+    "w": 256,
+    "h": 32
+   },
+   {
+    "x": 62,
+    "y": 801,
+    "w": 237,
+    "h": 32
+   },
+   {
+    "x": 80,
+    "y": 834,
+    "w": 200,
+    "h": 32
+   },
+   {
+    "x": 43,
+    "y": 868,
+    "w": 273,
+    "h": 32
+   },
+   {
+    "x": 89,
+    "y": 902,
+    "w": 182,
+    "h": 32
+   },
+   {
+    "x": 82,
+    "y": 935,
+    "w": 195,
+    "h": 32
+   },
+   {
+    "x": 65,
+    "y": 969,
+    "w": 229,
+    "h": 32
+   },
+   {
+    "x": 85,
+    "y": 1002,
+    "w": 190,
+    "h": 32
+   },
+   {
+    "x": 74,
+    "y": 1036,
+    "w": 212,
+    "h": 32
+   },
+   {
+    "x": 80,
+    "y": 1070,
+    "w": 200,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 1279,
+    "w": 271,
+    "h": 32
+   },
+   {
+    "x": 70,
+    "y": 1980,
+    "w": 220,
+    "h": 26
+   },
+   {
+    "x": 58,
+    "y": 2080,
+    "w": 245,
+    "h": 26
+   },
+   {
+    "x": 40,
+    "y": 2198,
+    "w": 287,
+    "h": 26
+   },
+   {
+    "x": 43,
+    "y": 2299,
+    "w": 273,
+    "h": 32
+   },
+   {
+    "x": 64,
+    "y": 2332,
+    "w": 233,
+    "h": 32
+   },
+   {
+    "x": 56,
+    "y": 2366,
+    "w": 249,
+    "h": 32
+   },
+   {
+    "x": 51,
+    "y": 2400,
+    "w": 258,
+    "h": 32
+   },
+   {
+    "x": 67,
+    "y": 2433,
+    "w": 226,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2467,
+    "w": 264,
+    "h": 32
+   },
+   {
+    "x": 64,
+    "y": 2500,
+    "w": 231,
+    "h": 32
+   },
+   {
+    "x": 115,
+    "y": 2534,
+    "w": 131,
+    "h": 32
+   },
+   {
+    "x": 99,
+    "y": 2567,
+    "w": 162,
+    "h": 32
+   },
+   {
+    "x": 43,
+    "y": 2601,
+    "w": 274,
+    "h": 32
+   },
+   {
+    "x": 44,
+    "y": 2635,
+    "w": 273,
+    "h": 32
+   },
+   {
+    "x": 101,
+    "y": 2668,
+    "w": 158,
+    "h": 32
+   },
+   {
+    "x": -108,
+    "y": 2793,
+    "w": 165,
+    "h": 16
+   },
+   {
+    "x": 132,
+    "y": 2793,
+    "w": 83,
+    "h": 16
+   },
+   {
+    "x": 289,
+    "y": 2793,
+    "w": 260,
+    "h": 16
+   },
+   {
+    "x": 13,
+    "y": 2863,
+    "w": 165,
+    "h": 16
+   },
+   {
+    "x": 253,
+    "y": 2863,
+    "w": 83,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3066,
+    "w": 141,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 3099,
+    "w": 163,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 3133,
+    "w": 120,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 3203,
+    "w": 245,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3230,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3257,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3284,
+    "w": 228,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3311,
+    "w": 255,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3339,
+    "w": 261,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3366,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3393,
+    "w": 253,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3420,
+    "w": 91,
+    "h": 18
+   },
+   {
+    "x": 104,
+    "y": 3498,
+    "w": 153,
+    "h": 40
+   },
+   {
+    "x": 138,
+    "y": 3541,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 3592,
+    "w": 49,
+    "h": 40
+   },
+   {
+    "x": 99,
+    "y": 3635,
+    "w": 161,
+    "h": 18
+   },
+   {
+    "x": 148,
+    "y": 3686,
+    "w": 65,
+    "h": 40
+   },
+   {
+    "x": 65,
+    "y": 3729,
+    "w": 230,
+    "h": 18
+   },
+   {
+    "x": 106,
+    "y": 3751,
+    "w": 148,
+    "h": 18
+   },
+   {
+    "x": 129,
+    "y": 3803,
+    "w": 103,
+    "h": 40
+   },
+   {
+    "x": 93,
+    "y": 3845,
+    "w": 174,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3962,
+    "w": 133,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 3995,
+    "w": 212,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 4029,
+    "w": 167,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 4063,
+    "w": 171,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 4096,
+    "w": 170,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 4166,
+    "w": 241,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4193,
+    "w": 228,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4220,
+    "w": 261,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4247,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4274,
+    "w": 207,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4301,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4328,
+    "w": 137,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4564,
+    "w": 246,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 4598,
+    "w": 176,
+    "h": 32
+   },
+   {
+    "x": 91,
+    "y": 4798,
+    "w": 56,
+    "h": 13
+   },
+   {
+    "x": 91,
+    "y": 4827,
+    "w": 113,
+    "h": 13
+   },
+   {
+    "x": 91,
+    "y": 4844,
+    "w": 157,
+    "h": 13
+   },
+   {
+    "x": 91,
+    "y": 4869,
+    "w": 61,
+    "h": 11
+   },
+   {
+    "x": 331,
+    "y": 4798,
+    "w": 147,
+    "h": 13
+   },
+   {
+    "x": 331,
+    "y": 4827,
+    "w": 109,
+    "h": 13
+   },
+   {
+    "x": 331,
+    "y": 4844,
+    "w": 121,
+    "h": 13
+   },
+   {
+    "x": 331,
+    "y": 4861,
+    "w": 77,
+    "h": 13
+   },
+   {
+    "x": 331,
+    "y": 4886,
+    "w": 116,
+    "h": 11
+   },
+   {
+    "x": 40,
+    "y": 4980,
+    "w": 268,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 5013,
+    "w": 177,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 5093,
+    "w": 261,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5120,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5147,
+    "w": 220,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5174,
+    "w": 271,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5201,
+    "w": 270,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5228,
+    "w": 222,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5255,
+    "w": 247,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5282,
+    "w": 236,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5309,
+    "w": 157,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5363,
+    "w": 257,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5390,
+    "w": 215,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5417,
+    "w": 226,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5444,
+    "w": 224,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5471,
+    "w": 234,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5498,
+    "w": 144,
+    "h": 18
+   },
+   {
+    "x": 184,
+    "y": 5498,
+    "w": 32,
+    "h": 18
+   },
+   {
+    "x": 216,
+    "y": 5498,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5525,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 118,
+    "y": 5525,
+    "w": 51,
+    "h": 18
+   },
+   {
+    "x": 169,
+    "y": 5525,
+    "w": 55,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5552,
+    "w": 192,
+    "h": 18
+   },
+   {
+    "x": 232,
+    "y": 5552,
+    "w": 4,
+    "h": 18
+   },
+   {
+    "x": 123,
+    "y": 5630,
+    "w": 114,
+    "h": 13
+   },
+   {
+    "x": 50,
+    "y": 6057,
+    "w": 260,
+    "h": 40
+   },
+   {
+    "x": 130,
+    "y": 6097,
+    "w": 100,
+    "h": 40
+   },
+   {
+    "x": 153,
+    "y": 6180,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6573,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 6620,
+    "w": 103,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6657,
+    "w": 45,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6694,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6731,
+    "w": 67,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6787,
+    "w": 135,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 6835,
+    "w": 142,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6872,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 6872,
+    "w": 73,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6909,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 6909,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6945,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 6945,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6982,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 6982,
+    "w": 69,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7019,
+    "w": 127,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7056,
+    "w": 208,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7072,
+    "w": 39,
+    "h": 13
+   },
+   {
+    "x": 79,
+    "y": 7072,
+    "w": 51,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7109,
+    "w": 196,
+    "h": 13
+   },
+   {
+    "x": 236,
+    "y": 7109,
+    "w": 64,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7146,
+    "w": 154,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7183,
+    "w": 147,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7220,
+    "w": 261,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7291,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 7395,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 7608,
+    "w": 81,
+    "h": 13
+   },
+   {
+    "x": 32,
+    "y": 7625,
+    "w": 136,
+    "h": 13
+   }
+  ],
+  "eds": [
+   {
+    "x": 40,
+    "y": 515,
+    "w": 70,
+    "h": 40
+   },
+   {
+    "x": 110,
+    "y": 515,
+    "w": 104,
+    "h": 40
+   },
+   {
+    "x": 57,
+    "y": 700,
+    "w": 247,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 734,
+    "w": 280,
+    "h": 32
+   },
+   {
+    "x": 76,
+    "y": 767,
+    "w": 207,
+    "h": 32
+   },
+   {
+    "x": 89,
+    "y": 801,
+    "w": 181,
+    "h": 32
+   },
+   {
+    "x": 85,
+    "y": 834,
+    "w": 189,
+    "h": 32
+   },
+   {
+    "x": 49,
+    "y": 868,
+    "w": 262,
+    "h": 32
+   },
+   {
+    "x": 94,
+    "y": 902,
+    "w": 171,
+    "h": 32
+   },
+   {
+    "x": 88,
+    "y": 935,
+    "w": 184,
+    "h": 32
+   },
+   {
+    "x": 68,
+    "y": 969,
+    "w": 224,
+    "h": 32
+   },
+   {
+    "x": 42,
+    "y": 1002,
+    "w": 276,
+    "h": 32
+   },
+   {
+    "x": 58,
+    "y": 1036,
+    "w": 244,
+    "h": 32
+   },
+   {
+    "x": 148,
+    "y": 1070,
+    "w": 63,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 1279,
+    "w": 272,
+    "h": 32
+   },
+   {
+    "x": 81,
+    "y": 1978,
+    "w": 197,
+    "h": 30
+   },
+   {
+    "x": 71,
+    "y": 2078,
+    "w": 218,
+    "h": 30
+   },
+   {
+    "x": 52,
+    "y": 2178,
+    "w": 257,
+    "h": 30
+   },
+   {
+    "x": 41,
+    "y": 2280,
+    "w": 278,
+    "h": 32
+   },
+   {
+    "x": 41,
+    "y": 2314,
+    "w": 279,
+    "h": 32
+   },
+   {
+    "x": 41,
+    "y": 2348,
+    "w": 279,
+    "h": 32
+   },
+   {
+    "x": 75,
+    "y": 2381,
+    "w": 209,
+    "h": 32
+   },
+   {
+    "x": 45,
+    "y": 2415,
+    "w": 269,
+    "h": 32
+   },
+   {
+    "x": 59,
+    "y": 2448,
+    "w": 241,
+    "h": 32
+   },
+   {
+    "x": 45,
+    "y": 2482,
+    "w": 270,
+    "h": 32
+   },
+   {
+    "x": 104,
+    "y": 2516,
+    "w": 152,
+    "h": 32
+   },
+   {
+    "x": 46,
+    "y": 2549,
+    "w": 269,
+    "h": 32
+   },
+   {
+    "x": 46,
+    "y": 2583,
+    "w": 268,
+    "h": 32
+   },
+   {
+    "x": 101,
+    "y": 2616,
+    "w": 159,
+    "h": 32
+   },
+   {
+    "x": -233,
+    "y": 2740,
+    "w": 262,
+    "h": 18
+   },
+   {
+    "x": 103,
+    "y": 2740,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 333,
+    "y": 2740,
+    "w": 166,
+    "h": 18
+   },
+   {
+    "x": -8,
+    "y": 2810,
+    "w": 261,
+    "h": 18
+   },
+   {
+    "x": 327,
+    "y": 2810,
+    "w": 101,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3014,
+    "w": 137,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 3048,
+    "w": 154,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 3081,
+    "w": 120,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 3151,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3178,
+    "w": 235,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3205,
+    "w": 271,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3232,
+    "w": 229,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3260,
+    "w": 256,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3287,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3314,
+    "w": 247,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3341,
+    "w": 255,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3368,
+    "w": 90,
+    "h": 18
+   },
+   {
+    "x": 103,
+    "y": 3447,
+    "w": 153,
+    "h": 40
+   },
+   {
+    "x": 132,
+    "y": 3487,
+    "w": 97,
+    "h": 21
+   },
+   {
+    "x": 155,
+    "y": 3541,
+    "w": 50,
+    "h": 40
+   },
+   {
+    "x": 90,
+    "y": 3581,
+    "w": 179,
+    "h": 21
+   },
+   {
+    "x": 144,
+    "y": 3635,
+    "w": 73,
+    "h": 40
+   },
+   {
+    "x": 50,
+    "y": 3675,
+    "w": 259,
+    "h": 21
+   },
+   {
+    "x": 97,
+    "y": 3698,
+    "w": 166,
+    "h": 21
+   },
+   {
+    "x": 130,
+    "y": 3751,
+    "w": 99,
+    "h": 40
+   },
+   {
+    "x": 81,
+    "y": 3792,
+    "w": 197,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3910,
+    "w": 127,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 3944,
+    "w": 196,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 3977,
+    "w": 152,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 4011,
+    "w": 163,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 4044,
+    "w": 169,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 4114,
+    "w": 236,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4141,
+    "w": 222,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4168,
+    "w": 250,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4196,
+    "w": 270,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4223,
+    "w": 274,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4250,
+    "w": 276,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4277,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4514,
+    "w": 234,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 4548,
+    "w": 164,
+    "h": 32
+   },
+   {
+    "x": 8,
+    "y": 4748,
+    "w": 138,
+    "h": 16
+   },
+   {
+    "x": 8,
+    "y": 4777,
+    "w": 131,
+    "h": 16
+   },
+   {
+    "x": 8,
+    "y": 4794,
+    "w": 135,
+    "h": 16
+   },
+   {
+    "x": 8,
+    "y": 4810,
+    "w": 142,
+    "h": 16
+   },
+   {
+    "x": 8,
+    "y": 4827,
+    "w": 138,
+    "h": 16
+   },
+   {
+    "x": 248,
+    "y": 4748,
+    "w": 29,
+    "h": 16
+   },
+   {
+    "x": 248,
+    "y": 4777,
+    "w": 79,
+    "h": 16
+   },
+   {
+    "x": 248,
+    "y": 4794,
+    "w": 115,
+    "h": 16
+   },
+   {
+    "x": 248,
+    "y": 4810,
+    "w": 104,
+    "h": 16
+   },
+   {
+    "x": 248,
+    "y": 4827,
+    "w": 90,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4962,
+    "w": 266,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 4996,
+    "w": 174,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 5075,
+    "w": 267,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5102,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5129,
+    "w": 243,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5156,
+    "w": 270,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5183,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5210,
+    "w": 221,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5237,
+    "w": 249,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5264,
+    "w": 235,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5291,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5345,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5372,
+    "w": 220,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5399,
+    "w": 235,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5426,
+    "w": 229,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5453,
+    "w": 234,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5480,
+    "w": 141,
+    "h": 18
+   },
+   {
+    "x": 181,
+    "y": 5480,
+    "w": 41,
+    "h": 18
+   },
+   {
+    "x": 222,
+    "y": 5480,
+    "w": 79,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5507,
+    "w": 74,
+    "h": 18
+   },
+   {
+    "x": 114,
+    "y": 5507,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 172,
+    "y": 5507,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 5534,
+    "w": 190,
+    "h": 18
+   },
+   {
+    "x": 230,
+    "y": 5534,
+    "w": 5,
+    "h": 18
+   },
+   {
+    "x": 123,
+    "y": 5611,
+    "w": 114,
+    "h": 16
+   },
+   {
+    "x": 46,
+    "y": 6039,
+    "w": 268,
+    "h": 40
+   },
+   {
+    "x": 132,
+    "y": 6079,
+    "w": 97,
+    "h": 40
+   },
+   {
+    "x": 153,
+    "y": 6161,
+    "w": 55,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 6554,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 6603,
+    "w": 102,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6639,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6676,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6713,
+    "w": 66,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6769,
+    "w": 135,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 6817,
+    "w": 145,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6854,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 6854,
+    "w": 71,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6891,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 6891,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6928,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 6928,
+    "w": 58,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 6964,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 6964,
+    "w": 68,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7001,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7038,
+    "w": 206,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7055,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 80,
+    "y": 7055,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7092,
+    "w": 200,
+    "h": 13
+   },
+   {
+    "x": 240,
+    "y": 7092,
+    "w": 65,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7128,
+    "w": 153,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7165,
+    "w": 143,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7202,
+    "w": 262,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 7273,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 7377,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 32,
+    "y": 7591,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 32,
+    "y": 7608,
+    "w": 131,
+    "h": 13
+   }
+  ]
+ }
+}

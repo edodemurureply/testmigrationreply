@@ -1,0 +1,1573 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics",
+  "writtenAt": "2026-11-16T20:20:17.586248Z",
+  "input": [
+   "stardust/dynamic-features.md",
+   "stardust/dynamic-features-plan.md",
+   "stardust/current/_dynamics.json"
+  ]
+ },
+ "method": "one feature per curated plan row (58); interim tier = captured cards/content authored as blocks (static snapshot 2026-11-15); tags/consent carried disabled in stardust/martech-contract.json (D-01); checks replayed on https://main--a355dc1b--aemcoder.aem.live",
+ "features": [
+  {
+   "id": "a-unknown-third-party-host-www-google-com",
+   "feature": "unknown third-party host www.google.com",
+   "class": "A",
+   "pages": 8,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-human-capture",
+   "status": "done",
+   "snapshot": "2026-11-15",
+   "verifiedBy": "beacon/XHR host www.google.com seen on 8/8 source pages carries no rendered content; the static snapshot ships without it and the replay asserts 0 requests to www.google.com on / (tags stay off per D-01)",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "www.google.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-px-ads-linkedin-com",
+   "feature": "unknown third-party host px.ads.linkedin.com",
+   "class": "A",
+   "pages": 8,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-human-capture",
+   "status": "done",
+   "snapshot": "2026-11-15",
+   "verifiedBy": "beacon/XHR host px.ads.linkedin.com seen on 8/8 source pages carries no rendered content; the static snapshot ships without it and the replay asserts 0 requests to px.ads.linkedin.com on / (tags stay off per D-01)",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "px.ads.linkedin.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-cta-eu1-hubspot-com",
+   "feature": "unknown third-party host cta-eu1.hubspot.com",
+   "class": "A",
+   "pages": 8,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-human-capture",
+   "status": "done",
+   "snapshot": "2026-11-15",
+   "verifiedBy": "beacon/XHR host cta-eu1.hubspot.com seen on 8/8 source pages carries no rendered content; the static snapshot ships without it and the replay asserts 0 requests to cta-eu1.hubspot.com on / (tags stay off per D-01)",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "cta-eu1.hubspot.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "feature": "CMS / app settings object dataLayer",
+   "class": "A",
+   "pages": 8,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "static-snapshot",
+   "reproducibility": "self",
+   "status": "scaffolded-awaiting-owner",
+   "owner": "D-01: dataLayer only feeds GTM/GA, which stay disabled in stardust/martech-contract.json",
+   "verifiedBy": "window.dataLayer undefined on 4/4 probed delivered archetypes (/, /en/iot, /4brands-reply/en, /en/insights); no consumer runs while tags are off; replay asserts no GTM request on /",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "www.googletagmanager.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-js-zi-scripts-com",
+   "feature": "unknown third-party host js.zi-scripts.com",
+   "class": "A",
+   "pages": 5,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-human-capture",
+   "status": "done",
+   "snapshot": "2026-11-15",
+   "verifiedBy": "beacon/XHR host js.zi-scripts.com seen on 5/8 source pages carries no rendered content; the static snapshot ships without it and the replay asserts 0 requests to js.zi-scripts.com on / (tags stay off per D-01)",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "js.zi-scripts.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-ws-zoominfo-com",
+   "feature": "unknown third-party host ws.zoominfo.com",
+   "class": "A",
+   "pages": 5,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-human-capture",
+   "status": "done",
+   "snapshot": "2026-11-15",
+   "verifiedBy": "beacon/XHR host ws.zoominfo.com seen on 5/8 source pages carries no rendered content; the static snapshot ships without it and the replay asserts 0 requests to ws.zoominfo.com on / (tags stay off per D-01)",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "ws.zoominfo.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-aorta-clickagy-com",
+   "feature": "unknown third-party host aorta.clickagy.com",
+   "class": "A",
+   "pages": 5,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-human-capture",
+   "status": "done",
+   "snapshot": "2026-11-15",
+   "verifiedBy": "beacon/XHR host aorta.clickagy.com seen on 5/8 source pages carries no rendered content; the static snapshot ships without it and the replay asserts 0 requests to aorta.clickagy.com on / (tags stay off per D-01)",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "aorta.clickagy.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-hemsync-clickagy-com",
+   "feature": "unknown third-party host hemsync.clickagy.com",
+   "class": "A",
+   "pages": 5,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-human-capture",
+   "status": "done",
+   "snapshot": "2026-11-15",
+   "verifiedBy": "beacon/XHR host hemsync.clickagy.com seen on 5/8 source pages carries no rendered content; the static snapshot ships without it and the replay asserts 0 requests to hemsync.clickagy.com on / (tags stay off per D-01)",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "hemsync.clickagy.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-api-content-list-default",
+   "feature": "first-party API GET /api/content-list/default",
+   "class": "A",
+   "pages": 4,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/en/insights"
+   ],
+   "disposition": "data-fed",
+   "reproducibility": "needs-business-decision",
+   "status": "interim",
+   "snapshot": "2026-11-15",
+   "owner": "D-02: index-backed rebuild (query-index + listing block) vs editorially curated cards",
+   "environmentLimit": "first-party /api/* and /product-detail endpoints answer only on www.reply.com (host-bound, 4/4 probed API paths); the aem.live origin cannot call them \u2014 the captured responses ship as authored content",
+   "verifiedBy": "captured /api/content-list cards rendered: / ink carousel 15 cards, /en/insights 3 runtime carousels 48 cards (3x16), /en/insights latest 7 cards \u2014 counts equal source capture",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/",
+     "selector": ".card-carousel.ink li",
+     "min": 15
+    },
+    {
+     "type": "dom-count",
+     "path": "/en/insights",
+     "selector": ".card-carousel.flush li",
+     "min": 48
+    }
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-ibc-flow-techtarget-com",
+   "feature": "unknown third-party host ibc-flow.techtarget.com",
+   "class": "A",
+   "pages": 2,
+   "paths": [
+    "/",
+    "/en/iot"
+   ],
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-human-capture",
+   "status": "done",
+   "snapshot": "2026-11-15",
+   "verifiedBy": "beacon/XHR host ibc-flow.techtarget.com seen on 2/8 source pages carries no rendered content; the static snapshot ships without it and the replay asserts 0 requests to ibc-flow.techtarget.com on / (tags stay off per D-01)",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "ibc-flow.techtarget.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-t-co",
+   "feature": "unknown third-party host t.co",
+   "class": "A",
+   "pages": 1,
+   "paths": [
+    "/en/iot"
+   ],
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-human-capture",
+   "status": "done",
+   "snapshot": "2026-11-15",
+   "verifiedBy": "beacon/XHR host t.co seen on 1/8 source pages carries no rendered content; the static snapshot ships without it and the replay asserts 0 requests to t.co on /en/iot (tags stay off per D-01)",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/en/iot",
+     "forbiddenHosts": [
+      "t.co"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-product-detail-sw10234-sw10238-sw10237",
+   "feature": "first-party API GET /product-detail/SW10234,SW10238,SW10237",
+   "class": "A",
+   "pages": 1,
+   "paths": [
+    "/en/iot"
+   ],
+   "disposition": "data-fed",
+   "reproducibility": "needs-business-decision",
+   "status": "interim",
+   "snapshot": "2026-11-15",
+   "owner": "production endpoint for /product-detail (rose-banner) on the new host",
+   "environmentLimit": "first-party /api/* and /product-detail endpoints answer only on www.reply.com (host-bound, 4/4 probed API paths); the aem.live origin cannot call them \u2014 the captured responses ship as authored content",
+   "verifiedBy": "rose-banner product codes SW10234,SW10238,SW10237 rendered as rose-cta on /en/iot: 3 cards, 3 links to onlineservices.reply.com",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/en/iot",
+     "selector": ".rose-cta a[href*=\"onlineservices.reply.com\"]",
+     "min": 3
+    }
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-www-facebook-com",
+   "feature": "unknown third-party host www.facebook.com",
+   "class": "A",
+   "pages": 1,
+   "paths": [
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien"
+   ],
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-human-capture",
+   "status": "done",
+   "snapshot": "2026-11-15",
+   "verifiedBy": "beacon/XHR host www.facebook.com seen on 1/8 source pages carries no rendered content; the static snapshot ships without it and the replay asserts 0 requests to www.facebook.com on /4brands-reply/de/rotkaeppchen-mumm-sektkellereien (tags stay off per D-01)",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+     "forbiddenHosts": [
+      "www.facebook.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-api-content-meta-options-article",
+   "feature": "first-party API GET /api/content-meta-options/article",
+   "class": "A",
+   "pages": 1,
+   "paths": [
+    "/en/insights"
+   ],
+   "disposition": "data-fed",
+   "reproducibility": "needs-business-decision",
+   "status": "interim",
+   "snapshot": "2026-11-15",
+   "owner": "D-02: index-backed filtering for the insights explorer",
+   "environmentLimit": "first-party /api/* and /product-detail endpoints answer only on www.reply.com (host-bound, 4/4 probed API paths); the aem.live origin cannot call them \u2014 the captured responses ship as authored content",
+   "verifiedBy": "explore filter options on /en/insights: 35 options delivered vs 35 checkboxes in the source capture; filtering itself is not wired (listing is a static snapshot)",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/en/insights",
+     "selector": ".explore li",
+     "min": 35
+    }
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-card-carousel-runtime-d-flex",
+   "feature": "client-rendered slot card-carousel-runtime d-flex",
+   "class": "CR",
+   "pages": 2,
+   "paths": [
+    "/",
+    "/en/insights"
+   ],
+   "disposition": "static-snapshot",
+   "reproducibility": "self",
+   "status": "done",
+   "snapshot": "2026-11-15",
+   "verifiedBy": "data-endpoint=Default runtime carousels settled and rebuilt as card-carousel: / 15 cards, /en/insights 48 cards (3x16) \u2014 equal to source settled DOM",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/",
+     "selector": ".card-carousel.ink li",
+     "min": 15
+    },
+    {
+     "type": "dom-count",
+     "path": "/en/insights",
+     "selector": ".card-carousel.flush li",
+     "min": 48
+    }
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-mnrycjmtjs-mnrycjmtjs-md-mnrycjmtjs-",
+   "feature": "client-rendered slot mnrycjmtjs mnrycjmtjs-md mnrycjmtjs-lg",
+   "class": "CR",
+   "pages": 1,
+   "paths": [
+    "/en/covid-19-implications-2021"
+   ],
+   "disposition": "static-snapshot",
+   "reproducibility": "self",
+   "status": "done",
+   "snapshot": "2026-11-15",
+   "verifiedBy": "\"Getting prepared for 2021\" slot rebuilt as prepare block on /en/covid-19-implications-2021: 1 heading, 5 images",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/en/covid-19-implications-2021",
+     "selector": ".prepare img",
+     "min": 5
+    }
+   ]
+  },
+  {
+   "id": "d-first-party-data-file-get-media-delivery-model-uuid-json",
+   "feature": "first-party data file GET /media-delivery/model/{uuid}.json",
+   "class": "D",
+   "pages": 1,
+   "paths": [
+    "/"
+   ],
+   "disposition": "data-fed",
+   "reproducibility": "self",
+   "status": "done",
+   "verifiedBy": "/media-delivery/model/{uuid}.json is the dam-media openPlayer model; delivered hero-slider embeds the openPlayer widget (1440px iframe) which loads from dam-media.reply.com (200)",
+   "checks": [
+    {
+     "type": "video-plays",
+     "path": "/",
+     "iframeSelector": ".hero-slider iframe[src*=\"openPlayer\"]",
+     "playbackHost": "dam-media\\.reply\\.com"
+    }
+   ]
+  },
+  {
+   "id": "f-form-backend-hubspot-forms",
+   "feature": "form backend: HubSpot forms",
+   "class": "F",
+   "pages": 8,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "rebuild-native",
+   "reproducibility": "needs-backend",
+   "status": "scaffolded-awaiting-owner",
+   "owner": "D-03: HubSpot form id + field mapping; HubSpot loader stays disabled with the martech contract (D-01)",
+   "verifiedBy": "source evidence is the HubSpot loader/perf beacon (js-eu1.hs-scripts.com, perf-eu1.hsforms.com) on 8/8 pages; no visible HubSpot form on the 8 archetypes (only the header search form); replay asserts the loader is not requested",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "hs-scripts.com",
+      "hsforms.com",
+      "hsforms.net"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "f-form-less-control-group-in-section-jcjdesgllh-3-controls",
+   "feature": "form-less control group in section.jcjdesgllh (3 controls)",
+   "class": "F",
+   "pages": 1,
+   "paths": [
+    "/en/iot"
+   ],
+   "disposition": "client-only",
+   "reproducibility": "self",
+   "status": "done",
+   "verifiedBy": "source section.jcjdesgllh = info-card slider (data-items-count 3, \"Discover our IoT labs\"); delivered labs block on /en/iot: 3 cards, 2 nav buttons",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/en/iot",
+     "selector": ".labs li",
+     "min": 3
+    }
+   ]
+  },
+  {
+   "id": "f-form-less-control-group-in-section-fvkykaiztp-4-controls",
+   "feature": "form-less control group in section.fvkykaiztp (4 controls)",
+   "class": "F",
+   "pages": 1,
+   "paths": [
+    "/4brands-reply/en"
+   ],
+   "disposition": "client-only",
+   "reproducibility": "self",
+   "status": "done",
+   "verifiedBy": "source section.fvkykaiztp = card slider (data-items-count 4, \"Discover our services in detail\"); delivered b4-split on /4brands-reply/en: 4 cards, all displayed",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/4brands-reply/en",
+     "selector": ".b4-split li",
+     "min": 4
+    }
+   ]
+  },
+  {
+   "id": "f-form-ref-node-third-party-www-facebook-com-47-fields",
+   "feature": "form \"ref: <Node>\" \u2192 third-party www.facebook.com (47 fields)",
+   "class": "F",
+   "pages": 1,
+   "paths": [
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien"
+   ],
+   "disposition": "rebuild-native",
+   "reproducibility": "needs-backend",
+   "status": "scaffolded-awaiting-owner",
+   "owner": "D-01/D-03: Facebook pixel stays disabled; its hidden 47-field form (id, ev, dl, rl, ts \u2026) is the pixel transport, not a user form",
+   "verifiedBy": "0 forms in main on delivered /4brands-reply/de/rotkaeppchen-mumm-sektkellereien; replay asserts no request to www.facebook.com",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+     "forbiddenHosts": [
+      "facebook.com",
+      "facebook.net"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "f-form-less-control-group-in-section-etkytuxfdy-7-controls",
+   "feature": "form-less control group in section.etkytuxfdy (7 controls)",
+   "class": "F",
+   "pages": 1,
+   "paths": [
+    "/en/insights"
+   ],
+   "disposition": "client-only",
+   "reproducibility": "self",
+   "status": "done",
+   "verifiedBy": "source section.etkytuxfdy = info-card slider (data-items-count 7); delivered labs.ice on /en/insights: 7 cards, 2 nav buttons",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/en/insights",
+     "selector": ".labs.ice li",
+     "min": 7
+    }
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-de-en-fr-it-pt",
+   "feature": "locale variants de,en,fr,it,pt",
+   "class": "I18N",
+   "pages": 4,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/en/insights",
+    "/en/accessibility"
+   ],
+   "disposition": "rebuild-native",
+   "reproducibility": "needs-business-decision",
+   "status": "pending locale wave",
+   "owner": "D-04: scope of the locale trees",
+   "verifiedBy": "switcher on /, /en/iot, /en/insights: 5 links each -> /de, /fr, /it, /pt (+ /de/iot, /fr/insights \u2026) all 404 on main--a355dc1b--aemcoder.aem.live; 0 links to www.reply.com",
+   "gap": "header language switcher links resolve on the delivered origin (same-origin /de, /fr, /it, /pt and locale twins) which 404; D-04 says they point to the source site (https://www.reply.com/...)",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/",
+     "selector": "header .lang-selector-dropdown a[href^=\"https://www.reply.com/\"]",
+     "min": 4
+    }
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-de-en",
+   "feature": "locale variants de,en",
+   "class": "I18N",
+   "pages": 3,
+   "paths": [
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien"
+   ],
+   "disposition": "rebuild-native",
+   "reproducibility": "needs-business-decision",
+   "status": "pending locale wave",
+   "owner": "D-04: scope of the locale trees",
+   "verifiedBy": "/4brands-reply/en switcher -> /4brands-reply/de (200, delivered); /4brands-reply/de/customer-experience-management EN link -> /4brands-reply/en/customer-experience-management 404 (not delivered, not pointed to source)",
+   "gap": "EN twin of 4brands-reply/de detail pages links to a same-origin 404 instead of the source (D-04)",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/4brands-reply/en",
+     "selector": "header .lang-selector-dropdown a[href$=\"/4brands-reply/de\"]",
+     "min": 1
+    },
+    {
+     "type": "dom-count",
+     "path": "/4brands-reply/de/customer-experience-management",
+     "selector": "header .lang-selector-dropdown a[href^=\"https://www.reply.com/\"]",
+     "min": 1
+    }
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-de-en-it-pt",
+   "feature": "locale variants de,en,it,pt",
+   "class": "I18N",
+   "pages": 1,
+   "paths": [
+    "/en/covid-19-implications-2021"
+   ],
+   "disposition": "rebuild-native",
+   "reproducibility": "needs-business-decision",
+   "status": "pending locale wave",
+   "owner": "D-04: scope of the locale trees",
+   "verifiedBy": "/en/covid-19-implications-2021 switcher: 5 same-origin links (/de, /fr, /it, /pt twins) \u2014 all 404; source offered de, it, pt",
+   "gap": "header language switcher links resolve on the delivered origin (same-origin /de, /fr, /it, /pt and locale twins) which 404; D-04 says they point to the source site (https://www.reply.com/...)",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/en/covid-19-implications-2021",
+     "selector": "header .lang-selector-dropdown a[href^=\"https://www.reply.com/\"]",
+     "min": 3
+    }
+   ]
+  },
+  {
+   "id": "l-listing-candidate-carousel-items-7-cards",
+   "feature": "listing candidate carousel-items (7 cards)",
+   "class": "L",
+   "pages": 2,
+   "paths": [
+    "/en/iot",
+    "/en/insights"
+   ],
+   "disposition": "index-backed",
+   "reproducibility": "needs-business-decision",
+   "status": "interim",
+   "snapshot": "2026-11-15",
+   "owner": "D-02: index-driven or editorially curated listing",
+   "verifiedBy": "/en/iot discover-also 7 links; /en/insights latest carousel 7 cards \u2014 equal to the source card count",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/en/iot",
+     "selector": ".discover-also li",
+     "min": 7
+    },
+    {
+     "type": "dom-count",
+     "path": "/en/insights",
+     "selector": ".card-carousel.latest li",
+     "min": 7
+    }
+   ]
+  },
+  {
+   "id": "l-listing-candidate-carousel-items-33-cards",
+   "feature": "listing candidate carousel-items (33 cards)",
+   "class": "L",
+   "pages": 1,
+   "paths": [
+    "/"
+   ],
+   "disposition": "index-backed",
+   "reproducibility": "needs-business-decision",
+   "status": "interim",
+   "snapshot": "2026-11-15",
+   "owner": "D-02: index-driven or editorially curated listing",
+   "verifiedBy": "/ highlights carousel 33 cards \u2014 equal to the source card count",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/",
+     "selector": ".card-carousel.highlights li",
+     "min": 33
+    }
+   ]
+  },
+  {
+   "id": "l-listing-candidate-carousel-items-carousel-items-runtime-15",
+   "feature": "listing candidate carousel-items carousel-items--runtime (15 cards)",
+   "class": "L",
+   "pages": 1,
+   "paths": [
+    "/"
+   ],
+   "disposition": "index-backed",
+   "reproducibility": "needs-business-decision",
+   "status": "interim",
+   "snapshot": "2026-11-15",
+   "owner": "D-02: index-driven or editorially curated listing",
+   "verifiedBy": "/ runtime ink carousel 15 cards \u2014 equal to the source card count",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/",
+     "selector": ".card-carousel.ink li",
+     "min": 15
+    }
+   ]
+  },
+  {
+   "id": "l-listing-candidate-contents-13-cards",
+   "feature": "listing candidate contents (13 cards)",
+   "class": "L",
+   "pages": 1,
+   "paths": [
+    "/en/iot"
+   ],
+   "disposition": "index-backed",
+   "reproducibility": "needs-business-decision",
+   "status": "interim",
+   "snapshot": "2026-11-15",
+   "owner": "D-02: index-driven or editorially curated listing",
+   "verifiedBy": "/en/iot cards wall 13 items (25 links) \u2014 equal to the source card count",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/en/iot",
+     "selector": ".cards-wall .cards-wall-item",
+     "min": 13
+    }
+   ]
+  },
+  {
+   "id": "l-listing-candidate-carousel-items-8-cards",
+   "feature": "listing candidate carousel-items (8 cards)",
+   "class": "L",
+   "pages": 1,
+   "paths": [
+    "/4brands-reply/en"
+   ],
+   "disposition": "index-backed",
+   "reproducibility": "needs-business-decision",
+   "status": "interim",
+   "snapshot": "2026-11-15",
+   "owner": "D-02: index-driven or editorially curated listing",
+   "verifiedBy": "/4brands-reply/en ice carousels 8 + 5 cards (13 li) \u2014 equal to the source card count",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/4brands-reply/en",
+     "selector": ".card-carousel.horizontal.ice li",
+     "min": 13
+    }
+   ]
+  },
+  {
+   "id": "l-listing-candidate-carousel-items-17-cards",
+   "feature": "listing candidate carousel-items (17 cards)",
+   "class": "L",
+   "pages": 1,
+   "paths": [
+    "/4brands-reply/en"
+   ],
+   "disposition": "index-backed",
+   "reproducibility": "needs-business-decision",
+   "status": "interim",
+   "snapshot": "2026-11-15",
+   "owner": "D-02: index-driven or editorially curated listing",
+   "verifiedBy": "/4brands-reply/en scale split carousel 17 cards \u2014 equal to the source card count",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/4brands-reply/en",
+     "selector": ".card-carousel.scale.split li",
+     "min": 17
+    }
+   ]
+  },
+  {
+   "id": "l-listing-candidate-carousel-items-5-cards",
+   "feature": "listing candidate carousel-items (5 cards)",
+   "class": "L",
+   "pages": 1,
+   "paths": [
+    "/4brands-reply/en"
+   ],
+   "disposition": "index-backed",
+   "reproducibility": "needs-business-decision",
+   "status": "interim",
+   "snapshot": "2026-11-15",
+   "owner": "D-02: index-driven or editorially curated listing",
+   "verifiedBy": "/4brands-reply/en dated ice carousel 5 cards (with the 8-card one: 13 li) \u2014 equal to the source card count",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/4brands-reply/en",
+     "selector": ".card-carousel.horizontal.ice li",
+     "min": 13
+    }
+   ]
+  },
+  {
+   "id": "l-listing-candidate-carousel-items-6-cards",
+   "feature": "listing candidate carousel-items (6 cards)",
+   "class": "L",
+   "pages": 1,
+   "paths": [
+    "/4brands-reply/en"
+   ],
+   "disposition": "index-backed",
+   "reproducibility": "needs-business-decision",
+   "status": "interim",
+   "snapshot": "2026-11-15",
+   "owner": "D-02: index-driven or editorially curated listing",
+   "verifiedBy": "/4brands-reply/en b4-news 6 dated cards \u2014 equal to the source card count",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/4brands-reply/en",
+     "selector": ".b4-news li",
+     "min": 6
+    }
+   ]
+  },
+  {
+   "id": "l-listing-candidate-contents-4-cards",
+   "feature": "listing candidate contents (4 cards)",
+   "class": "L",
+   "pages": 1,
+   "paths": [
+    "/4brands-reply/en"
+   ],
+   "disposition": "index-backed",
+   "reproducibility": "needs-business-decision",
+   "status": "interim",
+   "snapshot": "2026-11-15",
+   "owner": "D-02: index-driven or editorially curated listing",
+   "verifiedBy": "/4brands-reply/en dark cards wall 4 items (8 links) \u2014 equal to the source card count",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/4brands-reply/en",
+     "selector": ".cards-wall.dark .cards-wall-item",
+     "min": 4
+    }
+   ]
+  },
+  {
+   "id": "l-listing-candidate-carousel-items-14-cards",
+   "feature": "listing candidate carousel-items (14 cards)",
+   "class": "L",
+   "pages": 1,
+   "paths": [
+    "/4brands-reply/de/customer-experience-management"
+   ],
+   "disposition": "index-backed",
+   "reproducibility": "needs-business-decision",
+   "status": "interim",
+   "snapshot": "2026-11-15",
+   "owner": "D-02: index-driven or editorially curated listing",
+   "verifiedBy": "/4brands-reply/de/customer-experience-management carousel 14 cards \u2014 equal to the source card count",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/4brands-reply/de/customer-experience-management",
+     "selector": ".card-carousel.ls-17 li",
+     "min": 14
+    }
+   ]
+  },
+  {
+   "id": "l-listing-candidate-carousel-items-carousel-items-runtime-16",
+   "feature": "listing candidate carousel-items carousel-items--runtime (16 cards)",
+   "class": "L",
+   "pages": 1,
+   "paths": [
+    "/en/insights"
+   ],
+   "disposition": "index-backed",
+   "reproducibility": "needs-business-decision",
+   "status": "interim",
+   "snapshot": "2026-11-15",
+   "owner": "D-02: index-driven or editorially curated listing",
+   "verifiedBy": "/en/insights 3 runtime carousels x 16 = 48 cards \u2014 equal to the source card count",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/en/insights",
+     "selector": ".card-carousel.flush li",
+     "min": 48
+    }
+   ]
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-div-content-menu-c",
+   "feature": "modal trigger aria-haspopup (chrome only) \u2192 div:content/menu:content/search:form/menubar:content/button:content",
+   "class": "M",
+   "pages": 7,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "rebuild-native",
+   "reproducibility": "self",
+   "status": "done",
+   "verifiedBy": "source targets are disclosure panels (div/menu), not dialogs, so click-dialog does not apply; probe: Services click -> aria-expanded=true, mega-menu 1440x546 with 25 links, Escape collapses (0 expanded); lang toggle -> 5-link dropdown; search toggle -> 1440x244 panel; 9 aria-haspopup triggers, 76 mega-menu links on /, 11 on 4brands",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/",
+     "selector": "header button[aria-haspopup][aria-controls]",
+     "min": 9
+    },
+    {
+     "type": "dom-count",
+     "path": "/",
+     "selector": "header .mega-menu a",
+     "min": 76
+    },
+    {
+     "type": "no-page-errors",
+     "paths": [
+      "/",
+      "/en/iot",
+      "/4brands-reply/en",
+      "/4brands-reply/de/customer-experience-management",
+      "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+      "/en/insights",
+      "/en/covid-19-implications-2021",
+      "/en/accessibility"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-div-content-menu-content-searc",
+   "feature": "modal trigger aria-haspopup \u2192 div:content/menu:content/search:form/menubar:content/button:content",
+   "class": "M",
+   "pages": 1,
+   "paths": [
+    "/4brands-reply/en"
+   ],
+   "disposition": "rebuild-native",
+   "reproducibility": "self",
+   "status": "done",
+   "verifiedBy": "4brands chrome: Services click -> mini mega-menu 296x449 with 4 links, Escape collapses; 11 menu links on /4brands-reply/en",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/4brands-reply/en",
+     "selector": "header .mega-menu.mega-menu-mini a",
+     "min": 4
+    },
+    {
+     "type": "dom-count",
+     "path": "/4brands-reply/en",
+     "selector": "header .mega-menu a",
+     "min": 11
+    }
+   ]
+  },
+  {
+   "id": "s-site-search-form-en-search",
+   "feature": "site search form \u2192 /en/search",
+   "class": "S",
+   "pages": 5,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "index-backed",
+   "reproducibility": "self",
+   "status": "pending search",
+   "owner": "D-05: results page not in the page plan",
+   "verifiedBy": "/, /en/iot, /en/insights, /en/covid-19-implications-2021: header form action \"/en/search\" -> 404 on the origin",
+   "gap": "header search form submits to same-origin /en/search (and /4brands-reply/{en,de}/search) which 404; D-05 says the control links to the source search (https://www.reply.com/en/search); no delivered site search",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/",
+     "selector": "header form[action^=\"https://www.reply.com/\"]",
+     "min": 1
+    }
+   ]
+  },
+  {
+   "id": "s-site-search-form-js-submitted",
+   "feature": "site search form \u2192 (JS-submitted)",
+   "class": "S",
+   "pages": 3,
+   "paths": [
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien"
+   ],
+   "disposition": "index-backed",
+   "reproducibility": "self",
+   "status": "pending search",
+   "owner": "D-05: results page not in the page plan",
+   "verifiedBy": "/4brands-reply/en form action \"/4brands-reply/en/search\" -> 404; /4brands-reply/de/customer-experience-management -> \"/4brands-reply/de/search\"",
+   "gap": "header search form submits to same-origin /en/search (and /4brands-reply/{en,de}/search) which 404; D-05 says the control links to the source search (https://www.reply.com/en/search); no delivered site search",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/4brands-reply/en",
+     "selector": "header form[action^=\"https://www.reply.com/\"]",
+     "min": 1
+    }
+   ]
+  },
+  {
+   "id": "t-consent-onetrust",
+   "feature": "consent: OneTrust",
+   "class": "T",
+   "pages": 8,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "scaffolded-awaiting-owner",
+   "owner": "D-01: enable the route in stardust/martech-contract.json (consent category + property ids) \u2014 every part disabled by owner decision",
+   "verifiedBy": "2 host(s) (cdn.cookielaw.org, geolocation.onetrust.com) seen on 8/8 source pages; carried in the martech contract disabled; replay asserts 0 requests before consent on /",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "cdn.cookielaw.org",
+      "geolocation.onetrust.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-replydam-discoveryreplymedia-com",
+   "feature": "unknown third-party host replydam.discoveryreplymedia.com",
+   "class": "T",
+   "pages": 8,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "scaffolded-awaiting-owner",
+   "owner": "D-01: enable the route in stardust/martech-contract.json (consent category + property ids) \u2014 every part disabled by owner decision",
+   "verifiedBy": "1 host(s) (replydam.discoveryreplymedia.com) seen on 8/8 source pages; carried in the martech contract disabled; replay asserts 0 requests before consent on /",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "replydam.discoveryreplymedia.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "feature": "tag manager: Google Tag Manager",
+   "class": "T",
+   "pages": 8,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "scaffolded-awaiting-owner",
+   "owner": "D-01: enable the route in stardust/martech-contract.json (consent category + property ids) \u2014 every part disabled by owner decision",
+   "verifiedBy": "1 host(s) (www.googletagmanager.com) seen on 8/8 source pages; carried in the martech contract disabled; replay asserts 0 requests before consent on /",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "www.googletagmanager.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-sleeknotecustomerscripts-sleeknot",
+   "feature": "unknown third-party host sleeknotecustomerscripts.sleeknote.com",
+   "class": "T",
+   "pages": 8,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "scaffolded-awaiting-owner",
+   "owner": "D-01: enable the route in stardust/martech-contract.json (consent category + property ids) \u2014 every part disabled by owner decision",
+   "verifiedBy": "1 host(s) (sleeknotecustomerscripts.sleeknote.com) seen on 8/8 source pages; carried in the martech contract disabled; replay asserts 0 requests before consent on /",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "sleeknotecustomerscripts.sleeknote.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "feature": "analytics: Google Analytics / Ads",
+   "class": "T",
+   "pages": 8,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "scaffolded-awaiting-owner",
+   "owner": "D-01: enable the route in stardust/martech-contract.json (consent category + property ids) \u2014 every part disabled by owner decision",
+   "verifiedBy": "2 host(s) (www.google-analytics.com, analytics.google.com) seen on 8/8 source pages; carried in the martech contract disabled; replay asserts 0 requests before consent on /",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "www.google-analytics.com",
+      "analytics.google.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "feature": "marketing: ad / retargeting pixel",
+   "class": "T",
+   "pages": 8,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "scaffolded-awaiting-owner",
+   "owner": "D-01: enable the route in stardust/martech-contract.json (consent category + property ids) \u2014 every part disabled by owner decision",
+   "verifiedBy": "10 host(s) (connect.facebook.net, ad.doubleclick.net, snap.licdn.com, googleads.g.doubleclick.net) seen on 8/8 source pages; carried in the martech contract disabled; replay asserts 0 requests before consent on /",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "connect.facebook.net",
+      "ad.doubleclick.net",
+      "snap.licdn.com",
+      "googleads.g.doubleclick.net",
+      "js.adsrvr.org",
+      "insight.adsrvr.org",
+      "match.adsrvr.org",
+      "cm.g.doubleclick.net",
+      "ib.adnxs.com",
+      "pixel.rubiconproject.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-linkedin-com",
+   "feature": "unknown third-party host www.linkedin.com",
+   "class": "T",
+   "pages": 8,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "scaffolded-awaiting-owner",
+   "owner": "D-01: enable the route in stardust/martech-contract.json (consent category + property ids) \u2014 every part disabled by owner decision",
+   "verifiedBy": "1 host(s) (www.linkedin.com) seen on 8/8 source pages; carried in the martech contract disabled; replay asserts 0 requests before consent on /",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "www.linkedin.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-px4-ads-linkedin-com",
+   "feature": "unknown third-party host px4.ads.linkedin.com",
+   "class": "T",
+   "pages": 8,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "scaffolded-awaiting-owner",
+   "owner": "D-01: enable the route in stardust/martech-contract.json (consent category + property ids) \u2014 every part disabled by owner decision",
+   "verifiedBy": "1 host(s) (px4.ads.linkedin.com) seen on 8/8 source pages; carried in the martech contract disabled; replay asserts 0 requests before consent on /",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "px4.ads.linkedin.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t-marketing-hubspot-tracking",
+   "feature": "marketing: HubSpot tracking",
+   "class": "T",
+   "pages": 8,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "scaffolded-awaiting-owner",
+   "owner": "D-01: enable the route in stardust/martech-contract.json (consent category + property ids) \u2014 every part disabled by owner decision",
+   "verifiedBy": "4 host(s) (js-eu1.hs-banner.com, js-eu1.hubspot.com, js-eu1.hs-analytics.net, t.co) seen on 8/8 source pages; carried in the martech contract disabled; replay asserts 0 requests before consent on /",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "js-eu1.hs-banner.com",
+      "js-eu1.hubspot.com",
+      "js-eu1.hs-analytics.net",
+      "t.co"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-track-eu1-hubspot-com",
+   "feature": "unknown third-party host track-eu1.hubspot.com",
+   "class": "T",
+   "pages": 8,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "scaffolded-awaiting-owner",
+   "owner": "D-01: enable the route in stardust/martech-contract.json (consent category + property ids) \u2014 every part disabled by owner decision",
+   "verifiedBy": "1 host(s) (track-eu1.hubspot.com) seen on 8/8 source pages; carried in the martech contract disabled; replay asserts 0 requests before consent on /",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "track-eu1.hubspot.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-facebook-com",
+   "feature": "unknown third-party host www.facebook.com",
+   "class": "T",
+   "pages": 7,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "scaffolded-awaiting-owner",
+   "owner": "D-01: enable the route in stardust/martech-contract.json (consent category + property ids) \u2014 every part disabled by owner decision",
+   "verifiedBy": "1 host(s) (www.facebook.com) seen on 7/8 source pages; carried in the martech contract disabled; replay asserts 0 requests before consent on /",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "www.facebook.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-static-ads-twitter-com",
+   "feature": "unknown third-party host static.ads-twitter.com",
+   "class": "T",
+   "pages": 5,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "scaffolded-awaiting-owner",
+   "owner": "D-01: enable the route in stardust/martech-contract.json (consent category + property ids) \u2014 every part disabled by owner decision",
+   "verifiedBy": "1 host(s) (static.ads-twitter.com) seen on 5/8 source pages; carried in the martech contract disabled; replay asserts 0 requests before consent on /",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "static.ads-twitter.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-tags-clickagy-com",
+   "feature": "unknown third-party host tags.clickagy.com",
+   "class": "T",
+   "pages": 5,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "scaffolded-awaiting-owner",
+   "owner": "D-01: enable the route in stardust/martech-contract.json (consent category + property ids) \u2014 every part disabled by owner decision",
+   "verifiedBy": "1 host(s) (tags.clickagy.com) seen on 5/8 source pages; carried in the martech contract disabled; replay asserts 0 requests before consent on /",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "tags.clickagy.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-us-u-openx-net",
+   "feature": "unknown third-party host us-u.openx.net",
+   "class": "T",
+   "pages": 5,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "scaffolded-awaiting-owner",
+   "owner": "D-01: enable the route in stardust/martech-contract.json (consent category + property ids) \u2014 every part disabled by owner decision",
+   "verifiedBy": "1 host(s) (us-u.openx.net) seen on 5/8 source pages; carried in the martech contract disabled; replay asserts 0 requests before consent on /",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "us-u.openx.net"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-analytics-twitter-com",
+   "feature": "unknown third-party host analytics.twitter.com",
+   "class": "T",
+   "pages": 4,
+   "paths": [
+    "/en/iot",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "scaffolded-awaiting-owner",
+   "owner": "D-01: enable the route in stardust/martech-contract.json (consent category + property ids) \u2014 every part disabled by owner decision",
+   "verifiedBy": "1 host(s) (analytics.twitter.com) seen on 4/8 source pages; carried in the martech contract disabled; replay asserts 0 requests before consent on /",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "analytics.twitter.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-trk-techtarget-com",
+   "feature": "unknown third-party host trk.techtarget.com",
+   "class": "T",
+   "pages": 2,
+   "paths": [
+    "/",
+    "/en/iot"
+   ],
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "scaffolded-awaiting-owner",
+   "owner": "D-01: enable the route in stardust/martech-contract.json (consent category + property ids) \u2014 every part disabled by owner decision",
+   "verifiedBy": "1 host(s) (trk.techtarget.com) seen on 2/8 source pages; carried in the martech contract disabled; replay asserts 0 requests before consent on /",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/",
+     "forbiddenHosts": [
+      "trk.techtarget.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "feature": "iframe without src (runtime-injected embed)",
+   "class": "V",
+   "pages": 8,
+   "paths": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-human-capture",
+   "status": "done",
+   "snapshot": "2026-11-15",
+   "verifiedBy": "src-less frames: onetrust-text-resize (0x0, CMP disabled per D-01) and the 1440x560 Google Maps runtime frame on /4brands-reply/en, delivered as the b4-offices maps embed (1 iframe, loading=lazy)",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/4brands-reply/en",
+     "selector": ".b4-offices iframe[src*=\"maps.google\"]",
+     "min": 1
+    }
+   ]
+  },
+  {
+   "id": "v-maps-embedded-map-service",
+   "feature": "maps: embedded map service",
+   "class": "V",
+   "pages": 1,
+   "paths": [
+    "/4brands-reply/en"
+   ],
+   "disposition": "embed-passthrough",
+   "reproducibility": "self",
+   "status": "done",
+   "verifiedBy": "source maps.googleapis/gstatic JS map on /4brands-reply/en -> delivered maps.google.com embed in b4-offices (1 iframe, lazy; tiles load on scroll \u2014 the replay does not scroll, so playback-style vendor assertion is not used)",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/4brands-reply/en",
+     "selector": ".b4-offices iframe[src*=\"maps.google\"]",
+     "min": 1
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-autonomousdrivingsafety/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-autonomousdrivingsafety/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 900,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 15391,
+  "pct": 1.19,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-autonomousdrivingsafety/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 17.58,
+  "textBoxes": 43,
+  "textPixels": 85418,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.1
+    },
+    {
+      "y0": 500,
+      "y1": 900,
+      "pct": 1.3
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--a355dc1b--aemcoder.aem.live/en/autonomousdrivingsafety"
+  }
+}

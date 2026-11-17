@@ -1,0 +1,61 @@
+{
+  "a": "stardust/replica/gates/all-360/en-metaminutes-s3-e3-mixed-reality-first-responder-training/origin.png",
+  "b": "stardust/replica/gates/all-360/en-metaminutes-s3-e3-mixed-reality-first-responder-training/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3167,
+    "mode": "overlap"
+  },
+  "heightDelta": -9,
+  "differingPixels": 57631,
+  "pct": 5.05,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/en-metaminutes-s3-e3-mixed-reality-first-responder-training/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 17.26,
+  "textBoxes": 67,
+  "textPixels": 209840,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 3.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 8.7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 2.7
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 4.3
+    },
+    {
+      "y0": 3000,
+      "y1": 3167,
+      "pct": 7.8
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--a355dc1b--aemcoder.aem.live/en/metaminutes-s3-e3-mixed-reality-first-responder-training"
+  }
+}

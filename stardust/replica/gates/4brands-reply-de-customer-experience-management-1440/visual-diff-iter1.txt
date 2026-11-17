@@ -1,0 +1,981 @@
+[live-session] waiting to pace live navigations to www.reply.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 883 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/4brands-reply-de-customer-experience-management-1440/vdiff-iter1/
+
+build red flags (advisory): 
+  • HEADING FACE ×3: "sekprcvhoj" → "Alaska" on every differing heading (source → build). A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • IMAGE DID NOT LOAD: 71d7b568-ebb8-451c-82b6-dddab52b265e.jpg?im=Crop,rect=(409,0,633,950),allowExpansion;Resize,width=660 rendered 298x447 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 965dc3b1-da5d-48c3-b4ea-8ae35165279f.jpg?im=Crop,rect=(863,0,720,1080),allowExpansion;Resize,width=660 rendered 298x447 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • FLUSH-LEFT TEXT: <h3> "Smart Retail Execution" sits at left -580px (no padding). Left-anchored text at the viewport edge — likely a dropped max-width / centering container.
+  • FLUSH-LEFT TEXT: <h3> "VisionGallery AI: KI-Bildana" sits at left -242px (no padding). Left-anchored text at the viewport edge — likely a dropped max-width / centering container.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 4673,
+  "textLen": 3556,
+  "images": [
+   {
+    "src": "65e121cb-a2d4-437e-996d-420a6ce754e1.svg",
+    "natural": "300x101",
+    "rendered": "190x64",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "df889eba-6000-4c05-a5fc-677b0e88578f.png?im=Crop,rect=(0,0,1920,1080),allowExpansion",
+    "natural": "1920x1080",
+    "rendered": "1440x810",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "e663ac28-9bbf-45ef-8f38-0f976fa67a70.png",
+    "natural": "180x180",
+    "rendered": "120x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aa2ba4d8-d88b-49f9-9f4e-147e6aa276fa.png",
+    "natural": "180x180",
+    "rendered": "120x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "58ba7e10-8f10-4c44-ba11-7d8da9706f3a.png",
+    "natural": "180x180",
+    "rendered": "120x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0ba11843-7232-4696-bd24-f80161bee64a.png",
+    "natural": "180x180",
+    "rendered": "120x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fdfdfe6f-a649-471b-8803-d212bdb1adae.png",
+    "natural": "180x180",
+    "rendered": "120x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6f58c06b-54c6-457f-b1ac-827acfe07bef.jpg?im=Crop,rect=(200,0,400,600),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "dd27812a-253a-4200-9a07-722cb49d2d68.png?im=Crop,rect=(434,9,581,871),allowExpansion;Resize,width=660",
+    "natural": "660x989",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "29fd730e-1250-4601-ae38-93131f6d31af.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bb555b2c-903d-4718-a836-c4173585a8d5.jpg?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "00996e5d-a56d-4619-83dc-a84d8501d200.png?im=Crop,rect=(882,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fa17ab4c-2559-4141-810c-952ea50980dd.jpg?im=Crop,rect=(1180,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "71d7b568-ebb8-451c-82b6-dddab52b265e.jpg?im=Crop,rect=(409,0,633,950),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "298x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "965dc3b1-da5d-48c3-b4ea-8ae35165279f.jpg?im=Crop,rect=(863,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "298x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6f58c06b-54c6-457f-b1ac-827acfe07bef.jpg?im=Crop,rect=(200,0,400,600),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "dd27812a-253a-4200-9a07-722cb49d2d68.png?im=Crop,rect=(434,9,581,871),allowExpansion;Resize,width=660",
+    "natural": "660x989",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "29fd730e-1250-4601-ae38-93131f6d31af.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bb555b2c-903d-4718-a836-c4173585a8d5.jpg?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "00996e5d-a56d-4619-83dc-a84d8501d200.png?im=Crop,rect=(882,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fa17ab4c-2559-4141-810c-952ea50980dd.jpg?im=Crop,rect=(1180,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "38c0db8d-047e-44b6-8ffe-9d2a57010952.png",
+    "natural": "652x283",
+    "rendered": "185x80",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "06f51f8d-270a-4b57-ad4e-47ac6ad7083d.svg",
+    "natural": "0x0",
+    "rendered": "0x71",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Reply_-_LOGO__150dpi.jpg",
+    "natural": "614x164",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Customer Experience Management",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "64px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Kundenzentrierung, die in derKon",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Unsere Services",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ihre Roadmap zur Kunden-zentrier",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "SAP Sales Cloud",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "16px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "SAP Service Cloud",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "16px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "SAP Business Technology Platform",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "16px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Das könnte Sie auch interessiere",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Smart Retail Execution",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "VisionGallery AI: KI-Bildanalyse",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI Voice Assistant für den FMCG-",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply Routes",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Intelligente Produktempfehlung i",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ein nahtloses Vertriebssystem fü",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "IoT im Supermarkt: das intellige",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI Store Check: Regalerhebung am",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Smart Retail Execution",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "VisionGallery AI: KI-Bildanalyse",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI Voice Assistant für den FMCG-",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply Routes",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Intelligente Produktempfehlung i",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ein nahtloses Vertriebssystem fü",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Offering",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "White Paper",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "White Paper",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "White Paper",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "White Paper",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "White Paper",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Best Practice",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "flushText": [
+   {
+    "tag": "h3",
+    "text": "Smart Retail Execution",
+    "left": -899
+   },
+   {
+    "tag": "h3",
+    "text": "VisionGallery AI: KI-Bildana",
+    "left": -561
+   },
+   {
+    "tag": "h3",
+    "text": "AI Voice Assistant für den F",
+    "left": -223
+   }
+  ],
+  "contentBoxes": [
+   {
+    "sel": "qqmfdmgifk",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "fjhnewlooa",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "ewaiiqkymq",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "wtracymyvc",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "zuqjzxvqyw",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "nav",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "ltbzptdxaf",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "igwbvcjkkm",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "ProseMirror",
+    "width": 1087,
+    "left": 177
+   },
+   {
+    "sel": "carousel-items",
+    "width": 1504,
+    "left": -995
+   },
+   {
+    "sel": "ygwvjnytdt",
+    "width": 1312,
+    "left": 64
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 4686,
+  "textLen": 3556,
+  "images": [
+   {
+    "src": "65e121cb-a2d4-437e-996d-420a6ce754e1.svg",
+    "natural": "300x101",
+    "rendered": "190x64",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "df889eba-6000-4c05-a5fc-677b0e88578f.png?im=Crop,rect=(0,0,1920,1080),allowExpansion",
+    "natural": "1920x1080",
+    "rendered": "1440x810",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "e663ac28-9bbf-45ef-8f38-0f976fa67a70.png",
+    "natural": "180x180",
+    "rendered": "120x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aa2ba4d8-d88b-49f9-9f4e-147e6aa276fa.png",
+    "natural": "180x180",
+    "rendered": "120x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "58ba7e10-8f10-4c44-ba11-7d8da9706f3a.png",
+    "natural": "180x180",
+    "rendered": "120x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0ba11843-7232-4696-bd24-f80161bee64a.png",
+    "natural": "180x180",
+    "rendered": "120x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fdfdfe6f-a649-471b-8803-d212bdb1adae.png",
+    "natural": "180x180",
+    "rendered": "120x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6f58c06b-54c6-457f-b1ac-827acfe07bef.jpg?im=Crop,rect=(200,0,400,600),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "dd27812a-253a-4200-9a07-722cb49d2d68.png?im=Crop,rect=(434,9,581,871),allowExpansion;Resize,width=660",
+    "natural": "660x989",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "29fd730e-1250-4601-ae38-93131f6d31af.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bb555b2c-903d-4718-a836-c4173585a8d5.jpg?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "00996e5d-a56d-4619-83dc-a84d8501d200.png?im=Crop,rect=(882,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fa17ab4c-2559-4141-810c-952ea50980dd.jpg?im=Crop,rect=(1180,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "71d7b568-ebb8-451c-82b6-dddab52b265e.jpg?im=Crop,rect=(409,0,633,950),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "965dc3b1-da5d-48c3-b4ea-8ae35165279f.jpg?im=Crop,rect=(863,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "6f58c06b-54c6-457f-b1ac-827acfe07bef.jpg?im=Crop,rect=(200,0,400,600),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "dd27812a-253a-4200-9a07-722cb49d2d68.png?im=Crop,rect=(434,9,581,871),allowExpansion;Resize,width=660",
+    "natural": "660x989",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "29fd730e-1250-4601-ae38-93131f6d31af.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bb555b2c-903d-4718-a836-c4173585a8d5.jpg?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "00996e5d-a56d-4619-83dc-a84d8501d200.png?im=Crop,rect=(882,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fa17ab4c-2559-4141-810c-952ea50980dd.jpg?im=Crop,rect=(1180,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "298x447",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "38c0db8d-047e-44b6-8ffe-9d2a57010952.png",
+    "natural": "652x283",
+    "rendered": "185x80",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "06f51f8d-270a-4b57-ad4e-47ac6ad7083d.svg",
+    "natural": "0x0",
+    "rendered": "0x71",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Customer Experience Management",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "64px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Kundenzentrierung, die in derKon",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Unsere Services",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ihre Roadmap zur Kunden-zentrier",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "SAP Sales Cloud",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "16px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "SAP Service Cloud",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "16px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "SAP Business Technology Platform",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "16px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Das könnte Sie auch interessiere",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "36px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Smart Retail Execution",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "VisionGallery AI: KI-Bildanalyse",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI Voice Assistant für den FMCG-",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply Routes",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Intelligente Produktempfehlung i",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ein nahtloses Vertriebssystem fü",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "IoT im Supermarkt: das intellige",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI Store Check: Regalerhebung am",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Smart Retail Execution",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "VisionGallery AI: KI-Bildanalyse",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI Voice Assistant für den FMCG-",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply Routes",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Intelligente Produktempfehlung i",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ein nahtloses Vertriebssystem fü",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Alaska",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Offering",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "White Paper",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "White Paper",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "White Paper",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "White Paper",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "White Paper",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Best Practice",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "flushText": [
+   {
+    "tag": "h3",
+    "text": "Smart Retail Execution",
+    "left": -580
+   },
+   {
+    "tag": "h3",
+    "text": "VisionGallery AI: KI-Bildana",
+    "left": -242
+   }
+  ],
+  "contentBoxes": [
+   {
+    "sel": "r-grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "r-grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "cxm-statement__grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "cxm-intro__grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "cxm-head__grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "b4-tabber__nav",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "cxm-roadmap__grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "cxm-acc__grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "cxm-head__cell",
+    "width": 1087,
+    "left": 177
+   },
+   {
+    "sel": "card-carousel__track",
+    "width": 1504,
+    "left": -676
+   },
+   {
+    "sel": "b4-teaser__grid",
+    "width": 1312,
+    "left": 64
+   }
+  ]
+ }
+}

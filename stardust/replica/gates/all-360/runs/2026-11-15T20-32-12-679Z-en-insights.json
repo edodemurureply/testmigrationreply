@@ -1,0 +1,136 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-15T20:32:12.679Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.reply.com",
+    "eds": "https://main--a355dc1b--aemcoder.aem.page",
+    "edsHostOverride": "https://main--a355dc1b--aemcoder.aem.page",
+    "only": [
+      "en-insights"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 1,
+    "overridePass": 0,
+    "fail": 1,
+    "error": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 1,
+    "failContent": 1,
+    "failUnits": 0,
+    "fontsNotLoaded": 1,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "en-insights",
+      "path": "/en/insights",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 4.24,
+      "textPct": 18.98,
+      "heightDelta": 59,
+      "originH": 14610,
+      "edsH": 14551,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 3,
+      "clipPass": false,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "passWithOverride": false,
+      "fontsNotLoaded": [
+        "khanqyjjei-fallback",
+        "tuqgwxsjgq-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "clipped 3 (text 0, controls 3)",
+        "content MISSING 23 / HIDDEN 0",
+        "font-not-loaded:khanqyjjei-fallback",
+        "font-not-loaded:tuqgwxsjgq-fallback"
+      ],
+      "clipGroups": [
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#cyber-resilience-act-from-regulatory-compliance-to-secure-product-lifecycle",
+          "path": "div.reply-card-body > div.reply-card-title > h3#cyber-resilience-act-from-regulatory-compliance-to-secure-product-lifecycle > a",
+          "text": "cyber resilience act: from regulatory compliance to secure p",
+          "cutMin": 21,
+          "cutMax": 21
+        },
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#the-strategic-value-of-an-api-developer-portal-in-the-modern-ai-api-economy",
+          "path": "div.reply-card-body > div.reply-card-title > h3#the-strategic-value-of-an-api-developer-portal-in-the-modern-ai-api-economy > a",
+          "text": "the strategic value of an api developer portal in the modern",
+          "cutMin": 21,
+          "cutMax": 21
+        },
+        {
+          "kind": "CONTROL CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "h3#v-cycle-multi-agent-architecture--silicon-shoring-for-automotive-engineering",
+          "path": "div.reply-card-body > div.reply-card-title > h3#v-cycle-multi-agent-architecture--silicon-shoring-for-automotive-engineering > a",
+          "text": "v-cycle multi-agent architecture & silicon shoring for autom",
+          "cutMin": 21,
+          "cutMax": 21
+        }
+      ],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 23,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 1,
+        "hiddenButtons": 0,
+        "findings": 48,
+        "variable": []
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [
+        "6500-7000:18%",
+        "13000-13500:34.8%",
+        "14500-14551:96.4%"
+      ],
+      "error": null
+    }
+  ]
+}

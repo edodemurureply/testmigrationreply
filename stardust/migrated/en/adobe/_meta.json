@@ -1,0 +1,423 @@
+{
+  "slug": "en-adobe",
+  "type": "hub",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "media-hero",
+    "statement",
+    "page-index",
+    "hub-text",
+    "card-carousel",
+    "section-heading",
+    "slider-with-title",
+    "hero-card",
+    "cards-wall"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "media-hero",
+    "statement",
+    "page-index",
+    "hub-text",
+    "card-carousel",
+    "section-heading",
+    "slider-with-title",
+    "section-heading",
+    "section-heading",
+    "card-carousel",
+    "section-heading",
+    "slider-with-title",
+    "section-heading",
+    "hero-card",
+    "section-heading",
+    "card-carousel",
+    "section-heading",
+    "cards-wall"
+  ],
+  "canonShas": {
+    "header": "ce06e7f3373b",
+    "footer": "7407f319333d",
+    "css": "5bf5dffd7509"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "AI-powered Digital Experiences with Adobe | Reply",
+    "description": "As Platinum Adobe Solution Partner and leading provider of Adobe Experience Cloud services, Reply empowers organizations to shape and accelerate their digital future with confidence.",
+    "canonical": "https://www.reply.com/en/adobe",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "AI-powered Digital Experiences with Adobe | Reply",
+    "description": "As Platinum Adobe Solution Partner and leading provider of Adobe Experience Cloud services, Reply empowers organizations to shape and accelerate their digital future with confidence.",
+    "url": "https://www.reply.com/en/adobe"
+  },
+  "migratedAt": "2026-11-15T23:03:25Z",
+  "designMdSha": "d809c0215087",
+  "designJsonSha": "bdcb89ad7bf4",
+  "sourceCurrentSha": "a0cba072b938",
+  "sourceProposedSha": "b4fe86389edb",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [
+    "card-carousel--hub card-carousel--scale card-carousel--simple hero-card--hub hub-text--b-0 hub-text--bm-1 hub-text--hero-after hub-text--t-120 hub-text--tm-0 hub-text--w-6 page-index--hub section-heading--b-0 section-heading--b-120 section-heading--b-55 section-heading--bm-0 section-heading--bm-24 section-heading--bm-28 section-heading--bm-56 section-heading--lead section-heading--tm-56 section-heading--w-5 section-heading--w-6 slider-with-title--autoplay slider-with-title--b-101 slider-with-title--b-119 slider-with-title--bm-102 slider-with-title--bm-56 slider-with-title--cards slider-with-title--infinite slider-with-title--t-257 slider-with-title--t-28 statement--b-0 statement--b-124 statement--b-57 statement--bm-0 statement--bm-76 statement--hub statement--t-124 statement--tm-56 statement--tm-76",
+    "card-carousel--hub card-carousel--scale card-carousel--simple hero-card--hub hub-text--b-0 hub-text--bm-1 hub-text--t-120 hub-text--tm-0 hub-text--w-6 media-hero--intro page-index--hub section-heading--b-0 section-heading--b-120 section-heading--b-55 section-heading--bm-0 section-heading--bm-24 section-heading--bm-28 section-heading--bm-56 section-heading--lead section-heading--tm-56 section-heading--w-5 section-heading--w-6 slider-with-title--autoplay slider-with-title--b-101 slider-with-title--b-119 slider-with-title--bm-102 slider-with-title--bm-56 slider-with-title--cards slider-with-title--infinite slider-with-title--t-257 slider-with-title--t-28 statement--b-0 statement--b-124 statement--b-57 statement--bm-0 statement--bm-76 statement--hub statement--t-124 statement--tm-56 statement--tm-76",
+    "card-carousel--hub card-carousel--scale card-carousel--simple hero-card--hub hub-text--b-0 hub-text--bm-1 hub-text--t-120 hub-text--tm-0 hub-text--w-6 media-hero--intro page-index--hub section-heading--b-0 section-heading--b-120 section-heading--b-55 section-heading--b-57 section-heading--bm-0 section-heading--bm-24 section-heading--bm-28 section-heading--bm-56 section-heading--center section-heading--lead section-heading--tm-56 section-heading--w-5 section-heading--w-6 slider-with-title--autoplay slider-with-title--b-101 slider-with-title--b-119 slider-with-title--bm-102 slider-with-title--bm-56 slider-with-title--cards slider-with-title--infinite slider-with-title--t-257 slider-with-title--t-28 statement--b-124 statement--bm-76 statement--hub statement--t-124 statement--tm-76"
+  ],
+  "gatesPassed": [
+    "delivery-lint"
+  ],
+  "gateEvidence": {
+    "pixel-gate-1440": "OPEN: no row in the pixel table (prototypes-1440) — run gate-all.mjs --stage prototype so the page is measured",
+    "pixel-gate-360": "OPEN: no row in the pixel table (prototypes-360) — run gate-all.mjs --stage prototype so the page is measured",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /en/adobe)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "emphasis-dropped",
+      "source": "Our Adobe projects truly stand out. We are proud to be recog",
+      "target": "plain links",
+      "reason": "prose paragraph with several emphasized links (delivery-lint one-cta-per-p)"
+    }
+  ],
+  "assetsBundled": 13,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/de/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/metaverse",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/prebuilt-ai-apps",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quality-engineering",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quantum-computing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/robotics-and-autonomous-things",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/strategy-and-business-model-transformation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/supply-chain-management",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-networks",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/retail-and-consumer-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-and-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-42",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-73",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-phi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/cyber-security-lab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-house-of-models",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-iot-labs-concept-quality",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/testautomationcentre",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/xchange",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/energy-and-emissions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/reply-to-the-earth",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/sustainable-supply-chain",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/continuous-learning",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/wellbeing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/inclusion-and-diversity",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/governance-system",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/governance-policies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/governance/our-commitment-to-ethical-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom?type=financial-news",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/reply-share-information",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-highlights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-calendar-and-events",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-reports",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/shareholders-meeting",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/loyalty-shares",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cx-and-digital-commerce/leading-provider-of-adobe-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/news/comwrap-reply-named-adobe-2024-digital-experience-emerging-partner-of-the-year",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cx-and-digital-commerce/leading-provider-of-adobe-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cx-and-digital-commerce/unified-digital-communication-platform-for-swissport",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cx-and-digital-commerce/one-system-many-connection-options",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/automotive-and-manufacturing/adobe-experience-manager-assets-for-ace",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/digital-experience/hyper-personalised-campaigns-with-generative-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cx-and-digital-commerce/serving-up-digital-solutions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/events/adobe-summit-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/news/comwrap-reply-reaffirmed-as-adobe-platinum-solution-partner",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/news/comwrap-reply-wins-aem-rock-star-award",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-candidate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-client",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-supplier",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-marketing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/modern-slavery-statement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contents/Reply_Company_Information_en.pdf",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "en/adobe/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "en/adobe/_meta.json",
+  "driverVersion": "1"
+}

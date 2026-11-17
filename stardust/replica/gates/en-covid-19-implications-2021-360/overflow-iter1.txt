@@ -1,0 +1,9 @@
+measure: http://localhost:8791/en-covid-19-implications-2021-proposed.html @360: horizontal overflow +10px (scrollWidth 370 > viewport 360)
+measure  http://localhost:8791/en-covid-19-implications-2021-proposed.html
+  widths 360 · 1 selector(s) · 1 props · first match
+
+@ 360px
+  root  scrollWidth   370  viewport 360  scrollHeight  13651  ◄◄ OVERFLOW +10px
+  html
+       x     0  y      0  w   360  h 13651  vis  "RESEARCH What will be the implications …"
+      display: block

@@ -1,0 +1,126 @@
+{
+  "slug": "4brands-reply-de-sap-c4-hana-bei-einem-grosshaendler",
+  "type": "brand-case-study",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "b4-hero",
+    "b4-intro",
+    "statement",
+    "b4-text",
+    "b4-slider",
+    "b4-profile"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "b4-hero",
+    "b4-intro",
+    "statement",
+    "b4-text",
+    "b4-slider",
+    "b4-text",
+    "b4-intro",
+    "b4-text",
+    "b4-slider",
+    "b4-text",
+    "b4-profile"
+  ],
+  "canonShas": {
+    "header": "09e604c21c9e",
+    "footer": "6f23b422f32c",
+    "css": "5bf5dffd7509"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Effizientes Kundenmanagement mit SAP Sales Cloud | 4brands Reply",
+    "description": "4brands Reply implementiert die SAP Sales Cloud für führende Großhändler. Konsistente Kundendaten, On-Premise-ERP-Integration und agile Projektausführung.",
+    "canonical": "https://www.reply.com/4brands-reply/de/sap-c4-hana-bei-einem-grosshaendler",
+    "lang": "de"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Effizientes Kundenmanagement mit SAP Sales Cloud | 4brands Reply",
+    "description": "4brands Reply implementiert die SAP Sales Cloud für führende Großhändler. Konsistente Kundendaten, On-Premise-ERP-Integration und agile Projektausführung.",
+    "url": "https://www.reply.com/4brands-reply/de/sap-c4-hana-bei-einem-grosshaendler"
+  },
+  "migratedAt": "2026-11-15T20:46:25Z",
+  "designMdSha": "d809c0215087",
+  "designJsonSha": "bdcb89ad7bf4",
+  "sourceCurrentSha": "6d682571cf58",
+  "sourceProposedSha": "c0499560ac56",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "delivery-lint"
+  ],
+  "gateEvidence": {
+    "pixel-gate-1440": "OPEN: no row in the pixel table (prototypes-1440) — run gate-all.mjs --stage prototype so the page is measured",
+    "pixel-gate-360": "OPEN: no row in the pixel table (prototypes-360) — run gate-all.mjs --stage prototype so the page is measured",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /4brands-reply/de/sap-c4-hana-bei-einem-grosshaendler)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 8,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/4brands-reply/en/rotkaeppchen-mumm-sektkellereien",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/de/transparency-with-sap-embedded-analytics",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/de/about/careers/de/job-search?country=de&company=4brands_reply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/en/rotkaeppchen-mumm-sektkellereien",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/de/about/careers/de/job-search?country=de&company=4brands_reply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/de/impressum",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/privacy-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/privacy-notice-candidate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/privacy-notice-client",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/privacy-notice-supplier",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/privacy-notice-marketing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/declaration-of-principles",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/accessibility",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "4brands-reply/de/sap-c4-hana-bei-einem-grosshaendler/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "4brands-reply/de/sap-c4-hana-bei-einem-grosshaendler/_meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,477 @@
+/* =====================================================================
+   4brands Reply minisite — shared brand layer (authored with archetype brand-home / 4brands-reply-en).
+   Reused by the brand-solution and brand-case-study archetypes: load AFTER canon.css + modules.css,
+   put <body class="brand-4b">. Nothing here changes a canon/modules rule for the main Reply pages —
+   every override is scoped under .brand-4b, .site-header--brand, .site-footer--brand or a b4-/brand- class.
+   Values lifted from theme.cfd8e300.css / styles-eca1f14e.css (cited per block) and the page sheet
+   pages/4brands-reply-en.css. Breakpoints 576 / 768 / 1024 / 1440 (source Tailwind steps).
+   ===================================================================== */
+
+/* ---------- brand tokens (live :root custom props on the 4brands tree) ---------- */
+.brand-4b{--brand-color:#DB001B;--primary-color-20:#8D99A5;--primary-color-50:#DB001B;--text-on-brand-color:#FFFFFF}
+.b4-brand{color:var(--brand-color)}                 /* .colors-i7-rj6 */
+.b4-slate{color:#586674}                            /* .colors-oc5-d5 */
+.t-lead{font-family:var(--font-lead)}               /* .text-hzf46 sekprcvhoj 20/24 lh 130% (canon .t-lead) */
+
+/* concealable-content (theme.cfd8e300.css data-hide-*) */
+@media (max-width:767.98px){.b4-hide-below-md{display:none!important}}
+@media (max-width:1023.98px){.b4-hide-below-lg{display:none!important}}
+@media (min-width:768px){.b4-hide-above-md{display:none!important}}
+
+/* icon font glyphs used by the brand modules (styles-eca1f14e.css .icon-* :before) */
+.icon{font-family:"Website Icons";font-style:normal;font-weight:400;speak:never}
+.icon-pin::before{content:"\ef0a"}      /* .icon-a-cq-zi */
+.icon-chevron::before{content:"\ea4e"}     /* .icon-upk8-c (shown while collapsed) */
+.icon-close::before{content:"\eb98"}    /* .icon-3g-uq-p (shown while expanded) */
+.icon-route::before{content:"\ec7a"}    /* .icon-v-gj-hu */
+
+/* =====================================================================
+   BRAND HEADER — canon custom-menu-runtime + minisite deltas:
+   image logo 190x64, nav left-aligned after the logo (ml-8 / xl:ml-16, mr-auto), no search,
+   "mini-menu" dropdowns (absolute under the item, w-max, items 13rem) instead of full-width mega menus.
+   ===================================================================== */
+.site-header__logo--img img{display:block;width:auto;height:64px}
+.site-header--brand .menu-search{display:none}
+.mini-menu__list{padding-top:1.5rem}
+.mini-menu__item{width:100%}
+.mini-menu__item a{display:block;padding:.75rem 2.5rem;color:var(--c-ink)}
+.mini-menu__item a.is-active span{font-weight:700}
+@media (min-width:1024px){
+  .site-header--brand .site-header__menu{margin-left:2rem;margin-right:auto}
+  .site-header--brand .primary-nav{margin-left:0}
+  .mega-menu.mega-menu--mini{position:absolute;top:4rem;left:-4rem;width:max-content;max-width:none;clip-path:inset(0 -64px -64px);overflow:hidden}
+  .mega-menu--mini.show{overflow-y:auto}
+  .mini-menu__inner{padding:1.75rem 4rem 3rem;background:#fff}
+  .mini-menu__list{display:block;width:max-content;max-width:44rem;margin:0 -1.25rem;padding-top:0}
+  .mini-menu__list::after{content:"";display:table;clear:both}
+  .mini-menu__item{width:13rem;padding:0 1.25rem}
+  .mini-menu__item a{padding:.75rem 0;color:var(--c-slate)}
+  .mini-menu__item a:hover{color:var(--c-ink)}
+}
+@media (min-width:1440px){
+  .site-header--brand .site-header__menu{margin-left:4rem}
+  .mini-menu__item a{padding:1rem 0}
+}
+
+/* =====================================================================
+   BRAND FOOTER — footer.footer-minisites (dark nav: logo, 3 CTA links, Privacy and Legal list)
+   + copyright-minisites strip (Reply logo | Reply © 2026, cookie settings).
+   Tailwind utilities from the captured markup; dropdown padding from theme.cfd8e300.css .footer-minisites.
+   ===================================================================== */
+.brand-footer{display:flex;flex-direction:column;align-items:flex-start;row-gap:.75rem;padding:2.5rem}
+.brand-footer__logo{display:block;width:auto;height:71px} /* img height="71", width from the DAM svg ratio */
+.brand-footer__grid{display:grid;grid-template-columns:repeat(1,minmax(0,1fr));column-gap:2.5rem;row-gap:2.75rem;width:100%;margin:0;padding:0;list-style:none;color:#fff}
+.brand-footer__stack{display:flex;flex-direction:column;row-gap:2.5rem;margin:0;padding:0;list-style:none}
+.brand-footer__cta-li{width:100%}
+.brand-footer__cta-list{display:flex;flex-direction:column;column-gap:2.5rem;row-gap:1.25rem}
+.brand-footer__social{display:flex;flex-wrap:wrap;justify-content:flex-start;gap:1.25rem}
+.site-footer--brand .footer-cta{justify-content:space-between;column-gap:0;font-weight:300}
+.brand-footer__legal{display:flex;flex-direction:column}
+.brand-footer__toggle{display:flex;justify-content:space-between;padding:0;border:none;background:transparent;color:#fff;cursor:pointer;text-align:left}
+.brand-footer__toggle .label--medium{line-height:20px}
+.brand-footer__list{columns:1;padding-top:0;opacity:0;max-height:0;overflow:hidden;
+  transition:max-height .35s ease-out,opacity .25s ease-out,padding-top .1s ease-out}
+.brand-footer__list.show{padding-top:28px;opacity:1;max-height:40rem;transition:max-height .35s ease-out,opacity .25s ease-out .1s,padding-top .1s ease-out}
+.brand-footer__list>li{display:flex}
+.brand-footer__list>li+li{margin-top:1.25rem}
+.brand-footer__list .q{color:var(--c-mute)}
+.brand-footer__list>li:nth-child(7) a{letter-spacing:.01em} /* R-02 metric compensation: the live column (206.7px @1440) wraps "Modern Slavery Act Transparency" (208px); the substitute set it 206px and kept one line, re-balancing the 3 columns */
+.brand-copyright{padding:.5rem 2.5rem .75rem;color:#fff}
+.brand-copyright__row{display:flex;justify-content:space-between}
+.brand-copyright__info{display:grid;grid-template-areas:"logo separator copyright";row-gap:2px;align-items:baseline}
+.brand-copyright__logo{grid-area:logo}
+.brand-copyright__logo svg{display:inline;width:52px;height:26px}
+.brand-copyright__sep{grid-area:separator;position:relative;top:1px;width:1px;height:10px;margin:0 .5rem;background-color:#586674}
+.brand-copyright__copy{grid-area:copyright}
+@media (min-width:768px){
+  .brand-footer{padding:3rem 4rem;row-gap:1.5rem}
+  .brand-footer__grid{grid-template-columns:repeat(8,minmax(0,1fr))}
+  .brand-footer__ctas{grid-column:span 2/span 2;justify-self:start;margin-right:-2.5rem}
+  .brand-footer__stack{row-gap:2rem}
+  .brand-footer__social-li{width:8rem}
+  .brand-footer__legal{grid-column:5/span 4;row-gap:1.75rem;margin-left:-2.5rem}
+  .brand-footer__toggle .footer__plus{display:none}
+  .brand-footer__list,.brand-footer__list.show{columns:2;column-gap:1.75rem;padding-top:0!important;opacity:1;max-height:none}
+  .brand-footer__list>li+li{margin-top:1.75rem}
+  .brand-copyright{padding:1rem 4rem}
+  .brand-copyright__info{align-items:center}
+  .brand-copyright__sep{height:23px;margin:0 1rem}
+}
+@media (min-width:1024px){
+  .brand-footer__grid{grid-template-columns:repeat(12,minmax(0,1fr))}
+  .brand-footer__ctas{grid-column:span 6/span 6;margin-right:0}
+  .brand-footer__stack{row-gap:3rem}
+  .brand-footer__cta-list{flex-direction:row}
+  .brand-footer__social-li{width:auto}
+  .brand-footer__social{gap:1.5rem}
+  .site-footer--brand .footer-cta{column-gap:min(3vw,3rem)}
+  .brand-footer__legal{grid-column:7/span 6;margin-left:0}
+  .brand-footer__list,.brand-footer__list.show{columns:3}
+}
+@media (min-width:1440px){
+  .brand-footer__ctas{grid-column:span 5/span 5}
+  .brand-footer__legal{margin-left:-2.5rem}
+}
+
+/* =====================================================================
+   module: brand buttons (styles-eca1f14e.css .button-* + theme .button.button:is(...) sizing 12px / 14px @1440)
+   ===================================================================== */
+.btn--daben{border:0;background:var(--c-ink);color:#fff}                       /* .button-daben */
+.btn--daben:hover{background:var(--brand-color);color:var(--text-on-brand-color)}
+.btn--ink{border:0;background:var(--c-ink);color:#fff}                         /* .button-aulya */
+.btn--ink:hover{background:var(--primary-color-50);color:var(--text-on-brand-color)}
+.btn--v3gxa{display:inline-flex;width:min-content;margin-bottom:1rem;padding:12px 20px;border-radius:4px;background:#fff;color:var(--c-ink);
+  font-family:var(--font-label);font-size:12px;line-height:17px;white-space:nowrap}                   /* .button-v3gxa */
+.btn--v3gxa:hover{background:var(--primary-color-20)}
+.btn-link--on-dark{color:#fff}                                                  /* .button-qdjaq */
+.btn-link--on-dark::after{border-bottom-color:#fff}
+.btn-link--on-dark:hover::after,.btn-link--on-dark:focus-visible::after{border-color:#fff}
+@media (min-width:1440px){
+  .btn--daben{background:#ffffff1f;-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px)}
+}
+
+/* =====================================================================
+   module: sticky-highlight (theme.cfd8e300.css sticky-highlight-runtime.dark) — fixed teaser:
+   bottom sheet <768 (178x108 picture, 20px top radius), right-edge tab >=768 (top 108px, 272 / 292 wide).
+   Visible while body.sticky-highlight-visible (set on load, as the live page carries it).
+   ===================================================================== */
+.sticky-highlight{position:fixed;z-index:5;left:0;right:0;bottom:0;display:grid;
+  grid-template:"picture title" 108px "abstract abstract" minmax(0,1fr)/178px 1fr;column-gap:3%;
+  overflow:hidden;cursor:pointer;color:#fff;background-color:#28333e;border:1px solid #d6e0ea;border-bottom-width:0;border-radius:20px 20px 0 0;
+  box-shadow:0 16px 32px #0003;visibility:hidden;transform:translateY(100%);transition:transform .3s ease-out,visibility .3s ease-out}
+.sticky-highlight-visible .sticky-highlight{visibility:visible;transform:translateY(0);transition:transform .3s ease-out 1s,visibility .3s ease-out 1s}
+.sticky-highlight__picture{grid-area:picture;display:block}
+.sticky-highlight__picture img{display:block;width:178px;height:108px;border-top-left-radius:20px;object-fit:cover}
+.sticky-highlight__title,.sticky-highlight__title-mobile{grid-area:title;align-self:center;margin:0;font-family:var(--font-body);font-weight:400;line-height:1.3}
+.sticky-highlight__title-mobile{width:calc(97% - 44px);font-size:16px}
+.sticky-highlight__title{display:none!important}
+.sticky-highlight__toggle{position:absolute;right:0;width:40px;height:32px;padding:0;border:0;background-color:transparent;color:#fff;font-size:22px;line-height:12px;cursor:pointer}
+.sticky-highlight__toggle[aria-expanded=false] .icon-close,.sticky-highlight__toggle[aria-expanded=true] .icon-chevron{display:none}
+/* the cookie-settings disc rides above the bottom sheet <768 (theme: body.sticky-highlight-visible #cookie-pref-center) */
+.brand-4b .cookie-pref{transition:transform .3s ease-out}
+.brand-4b.sticky-highlight-visible .cookie-pref{transition:transform .3s ease-out 1s;transform:translateY(-109px)}
+@media (min-width:768px){.brand-4b .cookie-pref,.brand-4b.sticky-highlight-visible .cookie-pref{transition:none!important;transform:none!important}}
+.sticky-highlight__abstract{grid-area:abstract;display:none;flex-direction:column;row-gap:1rem}
+.sticky-highlight__abstract p{margin-top:1rem;color:#fff}
+@media (min-width:768px){
+  .sticky-highlight{left:auto;bottom:auto;top:108px;width:272px;column-gap:14px;cursor:auto;border-bottom-width:1px;border-right-width:0;border-radius:6px 0 0 6px;
+    grid-template:"picture title" 100px "abstract abstract" minmax(0,1fr)/100px 1fr;transform:translate(100%)}
+  .sticky-highlight-visible .sticky-highlight{transform:translate(0)}
+  .sticky-highlight__picture img{width:100px;height:100px;border-radius:6px 0 0 6px}
+  .sticky-highlight__title-mobile{display:none}
+  .sticky-highlight__title{display:-webkit-box!important;width:116px;font-size:13px}
+  .sticky-highlight__abstract{display:flex;opacity:0;max-height:0;padding-inline:15px;transition:max-height .3s ease-out,opacity 70ms ease-out}
+  .sticky-highlight__toggle[aria-expanded=true]+.sticky-highlight__abstract{opacity:1;max-height:156px;transition:max-height .3s ease-out,opacity 70ms ease-out .23s}
+}
+@media (min-width:1440px){
+  .sticky-highlight{width:292px;column-gap:18px;grid-template-rows:116px minmax(0,1fr);grid-template-columns:116px 1fr}
+  .sticky-highlight__picture img{width:116px;height:116px}
+  .sticky-highlight__title{font-size:15px}
+  .sticky-highlight__abstract{padding-inline:25px}
+}
+
+/* =====================================================================
+   module: b4-hero (page sheet .kqyfmlixdk/.kwhiwyatvl/.moychwemfb/.hivvdbdlvn, gridcontainer .parallax-fullw)
+   One-column grid, rows auto/auto: full-bleed 16:9 image (150% / 50% of width) with a 180deg 0->70% black
+   veil in row 1 (rows 1-2 from 1440, so the lead + CTA sit on the image); h1 bottom-aligned in row 1
+   (mb 48 / 40, centred 1024-1439); lead + CTA in row 2 (margins 40/48/64, 0 @1440), hairline rule cols 2-3 >=1024.
+   ===================================================================== */
+.b4-hero{position:relative;display:flex}
+.b4-hero__grid{flex:1;display:grid;width:100%;min-width:0;margin:0 auto;grid-template-columns:1fr;grid-template-rows:auto auto}
+.b4-hero__media{grid-area:1/1/2/2;position:relative;width:100%;height:0;padding-bottom:150%;overflow:hidden}
+.b4-hero__bg{position:absolute;inset:0}
+.b4-hero__pic img{display:block;width:100%;height:auto;transform:translateY(calc(var(--ty,0%) * -.85))} /* parallax-fullw: --ty from brand.js */
+.b4-hero__veil{position:absolute;inset:0;background-image:linear-gradient(180deg,#0000,#000000b3)}
+.b4-hero__head{grid-area:1/1/2/2;position:relative;z-index:1;display:flex;flex-wrap:wrap;min-width:0;align-self:flex-end;align-items:flex-end;align-content:flex-end;margin-bottom:3rem}
+.b4-hero__head>.r-grid{flex:1}
+.b4-hero__title{grid-column:1/5;grid-row:1/2;align-items:center;align-content:center}
+.b4-hero__title h1{margin:0}
+@media (min-width:1024px){.b4-hero__title h1{letter-spacing:.012em}} /* R-02 compensation: live wraps after "digitalization" (measured line 836px in a 861px cell) */
+.b4-hero__body{grid-area:2/1/3/2;position:relative;z-index:1;display:flex;flex-wrap:wrap;min-width:0;align-self:flex-start;margin:2.5rem 0}
+.b4-hero__body>.r-grid{flex:1}
+.b4-hero__rule{grid-column:1/2;grid-row:1/2}
+.b4-rule{display:block;width:48px;min-width:48px;margin-top:13px;border-top:1px solid var(--c-ink)}
+.b4-hero__text{grid-column:1/5;grid-row:1/2}
+.b4-hero__lead{margin:0;font-family:var(--font-display);font-size:16px;font-weight:300;line-height:27px;color:var(--c-ink)}
+.b4-spacer{flex-basis:100%;width:100%}
+.b4-spacer--hero{height:24px}
+.b4-spacer--24{height:24px}
+@media (max-width:767.98px){.b4-hero__pic img{object-fit:cover;width:auto;max-width:100vw;height:112.5%}}
+@media (min-width:768px){
+  .b4-hero__media{padding-bottom:50%}
+  .b4-hero__head{margin-bottom:2.5rem}
+  .b4-hero__title{grid-column:1/9}
+  .b4-hero__body{margin:3rem 0}
+  .b4-hero__text{grid-column:1/6}
+  .b4-spacer--hero{height:20px}
+}
+@media (min-width:1024px){
+  .b4-hero__head{align-self:center;align-items:center;align-content:center;margin-bottom:0}
+  .b4-hero__title{grid-column:2/10}
+  .b4-hero__body{margin:4rem 0}
+  .b4-hero__rule{grid-column:2/3}
+  .b4-hero__text{grid-column:3/8}
+}
+@media (min-width:1440px){
+  .b4-hero__media{grid-row:1/3}
+  .b4-hero__head{align-self:flex-end;align-items:flex-end;align-content:flex-end;margin-bottom:2.5rem}
+  .b4-hero__body{margin:0}
+  .b4-rule{border-top-color:#fff}
+  .b4-hero__lead{color:#fff}
+}
+
+/* =====================================================================
+   module: b4-rail — cardcarousel-runtime "carousel alternative card-reply-card-slider-simple" without loop:
+   the shared .card-carousel--simple rail (padding-left 40 / 64, item 100%-80 / 3 cols / 4 cols / 3 cols);
+   .all-displayed (brand.js: every item fits) centres the track and drops the padding + arrows.
+   ===================================================================== */
+.b4-rail .card-carousel__track{transition:transform 1s ease-in-out}
+.b4-rail.all-displayed .card-carousel__track{justify-content:center;padding-left:0;transform:none!important}
+.b4-stat{display:flex;flex-direction:column;align-items:center;width:100%}
+.b4-stat p{width:100%;margin:0}
+.b4-stat .b4-spacer{flex:none}
+
+/* card-info-slider-2-3-default: the --info tile at 2:3, body m-5 / xl:m-10 xl:mt-8, h3 clamp 4 */
+.reply-card--info-2-3 .reply-card-image-container{--r:150%}
+@media (min-width:768px){.reply-card--info-2-3 .reply-card-image-container::before{padding-bottom:150%}}
+.reply-card--info-2-3 .reply-card-plus{align-self:start}
+@media (min-width:1440px){
+  .reply-card--info-2-3 .reply-card-body{margin:2rem 2.5rem 2.5rem}
+  .reply-card--info-2-3 .reply-card-toggle{margin:2rem 2.5rem 2.5rem}
+}
+.clamp-9{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden;-webkit-line-clamp:9}
+
+/* card-carousel--hero: the horizontal editorial slider carrying card-hero-default (2:3 -> 2:1) items */
+.card-carousel--hero .reply-card--hero{width:100%}
+
+/* =====================================================================
+   module: cards-wall--dark (cards-wall-grid-container.cardwalldarktheme): white card copy on the ink band.
+   ===================================================================== */
+.cards-wall--dark .reply-card-body{color:#fff}
+.cards-wall--dark .category-label{color:#fff}
+
+/* =====================================================================
+   module: b4-event (reply-card card-wall-event-default, theme.cfd8e300.css .card-wall-event):
+   white bordered card, 9:4 head (red placeholder /placeholders/red.jpg or the event photo under a 20 % multiply veil),
+   white date block (day .h3 + month), body p-8 / lg:p-7 / xl:p-8: h6 title, category, abstract (.text-xufux), location.
+   ===================================================================== */
+.b4-event{background-color:#fff;border:1px solid var(--c-line);border-radius:.375rem}
+.b4-event>a{display:block;color:var(--c-ink)}
+.b4-event .reply-card-image-container{--r:44.4444%;border-radius:5px 5px 0 0}
+.b4-event__media{position:absolute;inset:0;display:flex;align-items:center;background-repeat:no-repeat;background-size:cover;background-position:50%}
+.b4-event__media--red{background-image:url(https://www.reply.com/placeholders/red.jpg)}
+.b4-event__media--photo{background-blend-mode:multiply;background-color:#0003}
+.b4-event__date{margin-left:2rem;color:#fff;font-family:var(--font-body);font-size:1rem;font-weight:300;line-height:1.7}
+.b4-event__day{font-family:var(--font-body);font-size:1.75rem;font-weight:300;line-height:1.2}
+.b4-event__body{display:block;margin:0;padding:1.25rem 2rem 2rem}
+.b4-event .category-label{margin-top:1.5rem}
+.b4-event__abstract{margin-top:1.125rem;font-family:var(--font-display);font-size:14px;line-height:170%}
+.b4-event__abstract p{margin:0}
+.b4-event__info{margin-top:1.25rem}
+.b4-event__loc{display:flex;align-items:flex-start}
+.b4-event__loc .icon{margin-right:.5rem;line-height:1.4875}
+.t-p2n{font-family:var(--font-body);font-size:.875rem;font-weight:400;line-height:1.7}
+@media (min-width:1024px) and (max-width:1439.98px){.b4-event__body{padding:1.25rem 1.75rem 1.75rem}}
+@media (min-width:1440px){.b4-event__day{font-size:2.25rem}}
+
+/* =====================================================================
+   module: b4-map (map-runtime.cards — Google Maps JS widget, 100vw x 560): static capture of the live
+   map state (zoom 6, ll 52.09579,8.710745, the site's dark style) — the 256 px tiles the live widget
+   loaded, laid out around the centre exactly as captured, plus the two office markers.
+   Delivery wires the real map (dynamics row v-maps-embedded-map-service); this is capture state.
+   ===================================================================== */
+.b4-map{position:relative;width:100vw;max-width:100%;height:560px}
+.b4-map__canvas{position:absolute;inset:0;overflow:hidden;background:#151f27}
+.b4-map__layer,.b4-map__pins{position:absolute;left:50%;top:50%}
+.b4-map__layer{transform:translate(-140px,-29px)}
+.b4-map__tile{position:absolute;display:block;width:256px;height:256px;max-width:none;object-fit:fill}
+.b4-map__marker{position:absolute;display:block;width:40px;height:48px;max-width:none}
+/* Google Maps UI as rendered (controls 40px, white, 2px radius; attribution strip bottom-right) */
+.b4-map__ctl{display:flex;align-items:center;justify-content:center;width:40px;height:40px;padding:0;border:0;background:#fff;cursor:pointer}
+.b4-map__full{position:absolute;top:10px;right:10px;border-radius:2px;box-shadow:0 1px 4px -1px #0000004d}
+.b4-map__cam{position:absolute;right:10px;bottom:138px;border-radius:50%;box-shadow:0 1px 4px -1px #0000004d}
+.b4-map__zoom{position:absolute;right:10px;bottom:23px;display:flex;flex-direction:column;width:40px;border-radius:2px;background:#fff;box-shadow:0 1px 4px -1px #0000004d}
+.b4-map__zoom .b4-map__ctl+.b4-map__ctl{border-top:1px solid #e6e6e6}
+.b4-map__google{position:absolute;left:6px;bottom:2px;color:#fff;font-family:Roboto,Arial,sans-serif;font-size:15px;font-weight:500;line-height:20px}
+.b4-map__attr{position:absolute;right:0;bottom:0;display:flex;column-gap:6px;height:14px;padding:0 6px;background:#f5f5f5d9;color:#000;font-family:Roboto,Arial,sans-serif;font-size:10px;line-height:14px}
+.b4-map__attr a{color:#000}
+.b4-map__attr [data-label]::before{content:attr(data-label)} /* widget chrome, not page copy */
+.b4-map__scale{padding-right:58px;border-left:1px solid #fff;padding-left:4px;background:linear-gradient(#000,#000) no-repeat right 4px bottom 4px/52px 2px}
+@media (min-width:1440px){.b4-map__canvas{border-radius:6px}}
+.b4-map-button{width:300px}
+.b4-offices__btn{display:flex;justify-content:center;margin-top:1rem}
+.b4-offices__panel[hidden]{display:none}
+.b4-office-country__label{text-transform:uppercase}
+.b4-office-country h3{font-family:var(--font-text);font-size:1.75rem;font-weight:500;line-height:1.2} /* hidden list heading (theme map-reply-offices h3) */
+/* R-02 metric compensation (measured on brand-home): the event abstracts (.text-xufux 14px) set one line short
+   at 360 on the substitute (8 -> 7 lines on the first card); tracking calibrated with measure.mjs at 360. */
+@media (max-width:767.98px){.b4-event__abstract{letter-spacing:.02em}}
+
+/* =====================================================================
+   ADDED with archetype brand-solution (4brands-reply-de-customer-experience-management).
+   New classes only — no gated rule above is changed. Shared by the 4brands solution / case-study pages.
+   ===================================================================== */
+
+/* b4-hero kicker: category-label.light above the H1 (spacer .pgzegpfhst 16 / 20 @768 / 24 @1440) */
+.b4-hero__kicker{color:#fff}
+.b4-spacer--kicker{height:16px}
+@media (min-width:768px){.b4-spacer--kicker{height:20px}}
+@media (min-width:1440px){.b4-spacer--kicker{height:24px}}
+
+/* accordion glyphs (styles-eca1f14e.css .icon-bn-gu7 / .icon-h4-qri / .icon-8mw0p :before) */
+.icon-cart::before{content:"\f120"}
+.icon-cloud::before{content:"\eb9d"}
+.icon-image::before{content:"\ea80"}
+
+/* ---------------------------------------------------------------------
+   module: b4-tabber — cards-tabber-runtime.tabber (theme.cfd8e300.css): 4 / 8 / 12-col grid, padding 40 / 64,
+   rows controls | tab cards | panel (row-gap 2.25rem). Tab = icon card (.card-tp4hx), 1px #d6e0ea base line,
+   4px accent bar on the active tab. Items: 100%-80 / min(n,3) @768 / min(n,4) @1024 / min(n,6) @1440;
+   .all-displayed (brand.js: every tab fits) centres the row, drops the padding and the arrows.
+   Panel: cols 1/-1, 2/-2 @1024, 3/-3 @1440; inactive panels stay in the cell at opacity 0 / max-height 0.
+   --------------------------------------------------------------------- */
+.b4-tabber{--gutter:40px;--grid-padding:40px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-template-rows:minmax(0,1fr) auto auto;
+  column-gap:var(--gutter);row-gap:2.25rem;width:100%;max-width:1660px;margin:0 auto;padding:0 var(--grid-padding)}
+.b4-tabber__controls{grid-area:1/1/span 1/-1;justify-self:center;display:flex;column-gap:.5rem}
+.b4-tabber__controls .round-bt{z-index:1}
+.b4-tabber.all-displayed .b4-tabber__prev,.b4-tabber.all-displayed .b4-tabber__next{display:none!important}
+.b4-tabber__nav-wrap{grid-column:1/-1;grid-row:2/span 1;margin:0 -40px;overflow:hidden;touch-action:pan-y;-webkit-user-select:none;user-select:none}
+.b4-tabber__nav{--padding:40px;--item-width:calc(100% - var(--padding) * 2);display:flex;flex-wrap:nowrap;align-items:stretch;justify-content:start;
+  box-sizing:content-box;width:100%;margin:0 auto;padding:0 var(--padding);column-gap:var(--gutter);list-style:none;transition:transform 1s ease-out}
+.b4-tabber.all-displayed .b4-tabber__nav{justify-content:center;padding:0}
+.b4-tabber__tab{position:relative;flex:0 0 var(--item-width);max-width:var(--item-width);padding-bottom:2rem;cursor:pointer;border-radius:.125rem}
+.b4-tabber__tab::before{content:"";position:absolute;bottom:0;left:calc(var(--gutter) * -1);display:block;width:calc(100% + var(--gutter) * 2);height:1px;background-color:#d6e0ea}
+.b4-tabber__tab:first-of-type::before{left:0;width:calc(100% + var(--gutter))}
+.b4-tabber__tab:last-of-type::before{width:calc(100% + var(--gutter))}
+.b4-tabber__tab::after{content:"";position:absolute;bottom:0;left:0;display:block;width:100%;height:4px;background-color:var(--accent-color,var(--brand-color));opacity:0}
+.b4-tabber__tab.is-active::after{opacity:1}
+.b4-tabber__tab:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.b4-tabber__card{display:flex;flex-wrap:wrap;align-content:center;justify-content:center;text-align:center;color:#fff} /* height auto: content sits at the top of the stretched tab (measured) */
+.b4-tabber__iconbox{display:inline-block}
+.b4-tabber__icon{width:120px;height:auto}
+.b4-tabber__gap{height:20px}
+.b4-tabber__card>p{flex-basis:100%;margin:0}
+.b4-tabber__panel{grid-column:1/-1;grid-row:3/span 1;display:flex;flex-grow:1;max-height:0;opacity:0;visibility:hidden;transition:opacity .4s,visibility .4s;color:#fff}
+.b4-tabber__panel.is-active{max-height:none;opacity:1;visibility:visible}
+.b4-tabber__body{display:flex;flex-wrap:wrap;align-content:center;align-items:center;width:100%;min-width:0}
+.b4-tabber__body>*{flex-basis:100%;max-width:100%}
+.b4-tabber__title{margin:0;font-family:var(--font-lead);font-size:16px;font-weight:500;line-height:140%}      /* .text-3wpew */
+.b4-tabber__text{margin:0;font-family:var(--font-display);font-size:14px;font-weight:300;line-height:170%}    /* .text-xufux */
+.b4-tabber__label{margin:0;font-family:var(--font-lead);font-size:14px;font-weight:500;line-height:170%}     /* .text-teki4 */
+.b4-tabber__list{margin:0;padding-left:40px}
+.b4-tabber__list li{position:relative}
+.b4-tabber__list li p{margin-bottom:0} /* .content-body :last-child wins over li p 1em (measured 0) */
+.b4-tabber__s1,.b4-tabber__s3{height:28px}
+.b4-tabber__s2{height:42px}
+@media (min-width:768px){
+  .b4-tabber{--grid-padding:64px;grid-template-columns:repeat(8,minmax(0,1fr))}
+  .b4-tabber__controls{justify-self:end}
+  .b4-tabber__nav-wrap{margin:0 -64px}
+  .b4-tabber__nav{--padding:64px;--bp-tabs-count:min(var(--tabs-count),3);
+    --item-width:calc((100% - var(--padding) * 2 - var(--gutter) * (var(--bp-tabs-count) - 1)) / var(--bp-tabs-count))}
+}
+@media (min-width:1024px){
+  .b4-tabber{grid-template-columns:repeat(12,minmax(0,1fr))}
+  .b4-tabber__nav{--bp-tabs-count:min(var(--tabs-count),4)}
+  .b4-tabber__panel{grid-column:2/-2}
+}
+@media (min-width:1440px){
+  .b4-tabber__nav{--bp-tabs-count:min(var(--tabs-count),6)}
+  .b4-tabber__panel{grid-column:3/-3}
+  .b4-tabber__title{font-size:18px}
+  .b4-tabber__s1,.b4-tabber__s3{height:24px}
+}
+
+/* ---------------------------------------------------------------------
+   module: b4-accordion — accordion-runtime .reply-accordion, items .dark (theme.cfd8e300.css): #28333e tiles,
+   radius 4, gap .75rem, padding px-6 py-5 / xl:px-14 xl:py-8, icon column w-11 (glyph 1.5rem), title .text-qqvt1
+   (16px / 170%), 22.5px plus (2px bars); open item widens -1.25rem / -2rem @1440, body pt-1rem, text #c5ccd3.
+   --------------------------------------------------------------------- */
+.b4-accordion{width:100%}
+.b4-accordion__item{padding:1.25rem 1.5rem;border-radius:4px;background-color:#28333e;color:#fff;transform-origin:50%;transition:all .3s}
+.b4-accordion__item+.b4-accordion__item{margin-top:.75rem}
+.b4-accordion__item.is-open{margin-left:-1.25rem;margin-right:-1.25rem}
+.b4-accordion__header{display:flex;justify-content:space-between;width:100%;padding:1px 6px;border:0;background:none;color:#fff;text-align:start}
+.b4-accordion__header:focus{outline:none}
+.b4-accordion__header:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.b4-accordion__lead{display:flex;flex:1;align-items:center}
+.b4-accordion__icon{display:flex;justify-content:center;align-items:center;font-size:1rem;line-height:1.5rem} /* Tailwind text-base */
+.b4-accordion__icon::before{font-size:1.5rem}
+.b4-accordion__iconcol{display:flex;flex:0 0 2.75rem;width:2.75rem}
+.b4-accordion__labels{display:flex;flex:1;flex-direction:column;justify-content:center;padding-right:1rem}
+.b4-accordion__title{display:block;font-family:var(--font-lead);font-size:16px;font-weight:500;line-height:170%}  /* .text-qqvt1 */
+.b4-accordion__plus{position:relative;display:block;align-self:center;width:22.5px;height:22.5px;transition:transform 1s}
+.b4-accordion__plus::before,.b4-accordion__plus::after{content:"";position:absolute;background-color:#fff;transition:transform .2s ease-out}
+.b4-accordion__plus::before{top:0;left:50%;width:2px;height:100%;margin-left:-1px}
+.b4-accordion__plus::after{top:50%;left:0;width:100%;height:2px;margin-top:-1px}
+.b4-accordion__item.is-open .b4-accordion__plus::before{transform:scale(0)}
+.b4-accordion__body{display:flex;max-height:0;overflow:hidden;transition:all 1s}
+.b4-accordion__body::before{content:"";flex:0 0 2.75rem}
+.b4-accordion__inner{flex:1;min-width:0;visibility:hidden;opacity:0;transition:opacity .1s linear .3s}
+.b4-accordion__item.is-open .b4-accordion__body{max-height:max-content;padding-top:1rem}
+.b4-accordion__item.is-open .b4-accordion__inner{visibility:visible;opacity:1}
+.b4-accordion__text{margin:0;padding-bottom:4px;color:#c5ccd3;font-family:var(--font-display);font-size:14px;font-weight:300;line-height:170%}
+@media (min-width:1440px){
+  .b4-accordion__item{padding:2rem 3.5rem}
+  .b4-accordion__item.is-open{margin-left:-2rem;margin-right:-2rem}
+}
+
+/* ---------------------------------------------------------------------
+   module: b4-teaser — the closing "4brands Reply" brand panel (gridcontainer: ice #f4f8fc, radius 6;
+   inner grid auto / 8 / 12 cols, padding 2.5rem 2.75rem / 3rem 0 / 4rem 0 4.5rem / 4.5rem 0 6rem):
+   link (.text-hzf46) + logo (cols 2-3, rows 2-3 @768) + abstract (.text-xufux).
+   --------------------------------------------------------------------- */
+.b4-teaser{width:100%;border-radius:6px;background-color:#f4f8fc}
+.b4-teaser__grid{display:grid;grid-template-columns:auto;grid-template-rows:auto;width:100%;min-width:0;max-width:576px;margin:0 auto;padding:2.5rem 2.75rem}
+.b4-teaser__grid>div{display:flex;flex-wrap:wrap;min-width:0;align-items:center;align-content:center;justify-content:center}
+.b4-teaser__grid>div>*{flex-basis:100%;max-width:100%}
+.b4-teaser__top{grid-area:1/1/2/2}
+.b4-teaser__link{grid-area:2/1/3/2}
+.b4-teaser__media{grid-area:3/1/4/2}
+.b4-teaser__body{grid-area:4/1/5/2}
+.b4-teaser__link p{margin:0}
+.b4-teaser__link a{text-decoration:underline}
+.b4-teaser__media img{display:block;width:100%;height:auto}
+.b4-teaser__text{margin:0;font-family:var(--font-display);font-size:14px;font-weight:300;line-height:170%}
+.b4-teaser__s0{height:8px}
+.b4-teaser__s1{height:20px}
+.b4-teaser__s2{height:20px}
+@media (min-width:576px){.b4-teaser__grid{max-width:768px}}
+@media (min-width:768px){
+  .b4-teaser__grid{grid-template-columns:repeat(8,1fr);column-gap:2.5rem;max-width:1024px;padding:3rem 0}
+  .b4-teaser__top{grid-area:1/2/2/8}
+  .b4-teaser__link{grid-area:2/4/3/8}
+  .b4-teaser__media{grid-area:2/2/4/4}
+  .b4-teaser__body{grid-area:3/4/4/8}
+  .b4-teaser__s0{height:20px}
+  .b4-teaser__s2{height:16px}
+}
+@media (min-width:1024px){
+  .b4-teaser__grid{grid-template-columns:repeat(12,1fr);max-width:1440px;padding:4rem 0 4.5rem}
+  .b4-teaser__top{grid-area:1/2/2/11}
+  .b4-teaser__link{grid-area:2/4/3/11}
+  .b4-teaser__body{grid-area:3/4/4/11}
+}
+@media (min-width:1440px){
+  .b4-teaser__grid{max-width:1660px;padding:4.5rem 0 6rem}
+  .b4-teaser__link{grid-area:2/5/3/11}
+  .b4-teaser__body{grid-area:3/5/4/11}
+  .b4-teaser__s0,.b4-teaser__s2{height:24px}
+}
+
+/* locale / archetype scoping for two brand-home R-02 compensations (rules above stay as gated):
+   the DE legal list's 7th item is "Accessibility Statement" (no wrap to force), and the solution hero H1
+   wraps on the substitute exactly as live without tracking */
+.brand-footer__list--de>li:nth-child(7) a{letter-spacing:normal}
+@media (min-width:1024px){.b4-hero--solution .b4-hero__title h1{letter-spacing:normal}}
+
+/* R-02 metric compensation (measured on brand-solution): on the substitute the tab abstracts (.text-xufux 14px) set
+   one line short at 360 (16 -> 15 lines; same class as .b4-event__abstract above), and "Consumer Service" (24px)
+   overflows its 230px tab @1440 where live keeps one line. */
+@media (max-width:767.98px){.b4-tabber__text{letter-spacing:.01em}.b4-accordion__title{letter-spacing:-.03em}}
+@media (min-width:1440px){.b4-tabber__card>p{letter-spacing:-.02em}}
+/* b4-tabber: the accent bar slides in on a tab change (theme .nav-item.enter-left / .enter-right :after, .3s ease-out) */
+@keyframes enter-left{0%{transform:translate(-100%)}to{transform:translate(0)}}
+@keyframes enter-right{0%{transform:translate(100%)}to{transform:translate(0)}}
+.b4-tabber__tab.enter-left::after{animation:.3s ease-out enter-left}
+.b4-tabber__tab.enter-right::after{animation:.3s ease-out enter-right}

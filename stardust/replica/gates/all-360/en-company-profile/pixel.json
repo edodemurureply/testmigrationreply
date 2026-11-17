@@ -1,0 +1,115 @@
+{
+  "a": "stardust/replica/gates/all-360/en-company-profile/origin.png",
+  "b": "stardust/replica/gates/all-360/en-company-profile/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 7635,
+    "mode": "overlap"
+  },
+  "heightDelta": 18,
+  "differingPixels": 213444,
+  "pct": 8.36,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/en-company-profile/diff.png",
+  "masks": [
+    {
+      "yA": 64,
+      "h": 540,
+      "yB": 64
+    }
+  ],
+  "maskedRows": 540,
+  "textPct": 16.03,
+  "textBoxes": 135,
+  "textPixels": 504359,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 4.6
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 7.7
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 5
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 6.9
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 6.4
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 21.7
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 11.6
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 7.6
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 13.6
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 19.9
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 2.7
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 4.1
+    },
+    {
+      "y0": 7500,
+      "y1": 7635,
+      "pct": 15.1
+    }
+  ],
+  "maskReason": "hero DAM video (We Reply, muted autoplay loop inside the cross-origin dam-media openPlayer iframe of the media-hero flat cover, 360x540 at y64) shows a different frame on every capture (origin: the robot figure / served: chess board in the 21:xx run) — the media rows are authored-volatile on both sides, same treatment as the home and biotagging heroes (fix-small-4, 2026-11-16)",
+  "capturesDropped": {
+    "masks": [
+      "64:540"
+    ],
+    "edsUrl": "https://main--a355dc1b--aemcoder.aem.live/en/company-profile"
+  }
+}

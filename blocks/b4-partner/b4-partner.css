@@ -1,0 +1,81 @@
+/* b4-partner — lifted from stardust/prototypes/4brands-reply-en.css (§ 11 partnership statement
+   .nvievthcka: padding 48 / 56 / 64 / 96; cell .dsyhdsjjzm 1-4 / 1-8 / 3-10) on the ice band. */
+.b4-partner {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f4f8fc;
+}
+
+.b4-partner .b4-partner-grid {
+  flex: 1 1 100%;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.b4-partner .b4-partner-cell {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  align-items: center;
+  place-content: center center;
+}
+
+.b4-partner .b4-partner-text :is(h1, h2, h3, p) {
+  margin: 0;
+  color: var(--c-ink);
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+  text-align: center;
+
+  /* R-02 metric compensation (prototype: partnership h2 5 -> 4 lines at 360 on the substitute) */
+  letter-spacing: 0.012em;
+}
+
+.b4-partner .b4-partner-text em {
+  color: var(--brand-color);
+  font-style: normal;
+}
+
+@media (width >= 768px) {
+  .b4-partner .b4-partner-grid {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  .b4-partner .b4-partner-cell {
+    grid-column: 1 / 9;
+  }
+
+  .b4-partner .b4-partner-text :is(h1, h2, h3, p) {
+    font-size: 36px;
+  }
+}
+
+@media (width >= 1024px) {
+  .b4-partner .b4-partner-grid {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .b4-partner .b4-partner-cell {
+    grid-column: 3 / 11;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-partner .b4-partner-grid {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .b4-partner .b4-partner-text :is(h1, h2, h3, p) {
+    font-size: 42px;
+  }
+}
+
+/* source ProseMirror title: overflow-wrap break-word + white-space break-spaces (fix-4brands-small) */
+.b4-partner :is(h1, h2, h3) {
+  overflow-wrap: break-word;
+  white-space: break-spaces;
+}

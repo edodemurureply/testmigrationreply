@@ -1,0 +1,122 @@
+{
+  "slug": "4brands-reply-de-smart-glasses",
+  "type": "brand-case-study",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "b4-hero",
+    "statement",
+    "b4-intro",
+    "b4-text",
+    "b4-accordion",
+    "b4-profile"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "b4-hero",
+    "statement",
+    "b4-intro",
+    "b4-text",
+    "b4-accordion",
+    "b4-text",
+    "b4-profile"
+  ],
+  "canonShas": {
+    "header": "09e604c21c9e",
+    "footer": "6f23b422f32c",
+    "css": "5bf5dffd7509"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Effiziente Regalerhebung mit Smart Glasses | 4brands Reply",
+    "description": "Optimieren Sie die Regalerhebung am PoS mit Smart Glasses von 4brands Reply. Hands-free Bedienung, Echtzeit-Daten und zuverlässigere Analysen.",
+    "canonical": "https://www.reply.com/4brands-reply/de/smart-glasses",
+    "lang": "de"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Effiziente Regalerhebung mit Smart Glasses | 4brands Reply",
+    "description": "Optimieren Sie die Regalerhebung am PoS mit Smart Glasses von 4brands Reply. Hands-free Bedienung, Echtzeit-Daten und zuverlässigere Analysen.",
+    "url": "https://www.reply.com/4brands-reply/de/smart-glasses"
+  },
+  "migratedAt": "2026-11-15T20:22:40Z",
+  "designMdSha": "d809c0215087",
+  "designJsonSha": "bdcb89ad7bf4",
+  "sourceCurrentSha": "256745e16724",
+  "sourceProposedSha": "fec096b2ea84",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "delivery-lint"
+  ],
+  "gateEvidence": {
+    "pixel-gate-1440": "OPEN: no row in the pixel table (prototypes-1440) — run gate-all.mjs --stage prototype so the page is measured",
+    "pixel-gate-360": "OPEN: no row in the pixel table (prototypes-360) — run gate-all.mjs --stage prototype so the page is measured",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /4brands-reply/de/smart-glasses)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 8,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/4brands-reply/en/rotkaeppchen-mumm-sektkellereien",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/de/transparency-with-sap-embedded-analytics",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/de/about/careers/de/job-search?country=de&company=4brands_reply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/en/rotkaeppchen-mumm-sektkellereien",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/de/about/careers/de/job-search?country=de&company=4brands_reply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/de/impressum",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/privacy-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/privacy-notice-candidate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/privacy-notice-client",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/privacy-notice-supplier",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/privacy-notice-marketing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/declaration-of-principles",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/accessibility",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "4brands-reply/de/smart-glasses/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "4brands-reply/de/smart-glasses/_meta.json",
+  "driverVersion": "1"
+}

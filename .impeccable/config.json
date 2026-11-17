@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "roboto",
+        "createdAt": "2026-11-15T11:15:35.066Z",
+        "reason": "replica fidelity: the live 4brands page's embedded Google Maps controls render in Roboto; same-design migration must keep it"
+      }
+    ]
+  }
+}

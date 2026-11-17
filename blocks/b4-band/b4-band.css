@@ -1,0 +1,119 @@
+/* b4-band — lifted from stardust/prototypes/4brands-reply-en.css (§ 5 / 9 / 13 dark headings
+   .efejisojbv / .zdjuirdnut / .krzuoswanb) + modules.css t-title. Default (services / fmcg): grid
+   margin-top 28, padding 48 / 56 / 64 / 96, cell 1-4 / 1-8 / 3-10. */
+.b4-band {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #151f27;
+}
+
+.b4-band.ice {
+  background-color: #f4f8fc;
+}
+
+.b4-band .b4-band-grid {
+  flex: 1 1 100%;
+  margin-top: 28px;
+  margin-bottom: 0;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.b4-band .b4-band-cell {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  align-items: center;
+  place-content: center center;
+}
+
+.b4-band .b4-band-text :is(h1, h2, h3, p) {
+  margin: 0;
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+  text-align: center;
+}
+
+.b4-band.ice .b4-band-text :is(h1, h2, h3, p) {
+  color: var(--c-ink);
+}
+
+.b4-band.wide .b4-band-grid {
+  margin-top: 56px;
+  margin-bottom: 28px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+@media (width >= 768px) {
+  .b4-band .b4-band-grid {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  .b4-band .b4-band-cell {
+    grid-column: 1 / 9;
+  }
+
+  .b4-band .b4-band-text :is(h1, h2, h3, p) {
+    font-size: 36px;
+  }
+}
+
+@media (width >= 1024px) {
+  .b4-band .b4-band-grid {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .b4-band .b4-band-cell {
+    grid-column: 3 / 11;
+  }
+
+  .b4-band.wide .b4-band-grid {
+    margin-top: 90px;
+    margin-bottom: 56px;
+  }
+
+  .b4-band.wide .b4-band-cell {
+    grid-column: 2 / 12;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-band .b4-band-grid {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .b4-band.wide .b4-band-grid {
+    margin-top: 120px;
+  }
+
+  .b4-band .b4-band-text :is(h1, h2, h3, p) {
+    font-size: 42px;
+  }
+}
+
+/* variant tight (cluster-brand-home, DE): R-02 metric compensation — the source sets the longer
+   German title on one line @1440 (substitute face is wider) */
+@media (width >= 1440px) {
+  .b4-band.tight .b4-band-text :is(h1, h2, h3, p) {
+    letter-spacing: -0.02em;
+  }
+}
+
+/* source ProseMirror title: overflow-wrap break-word + white-space break-spaces; variant left = the
+   title is left-aligned below 768 (DE FMCG band, measured @360, fix-4brands-small) */
+.b4-band.block .b4-band-text :is(h1, h2, h3, p) {
+  overflow-wrap: break-word;
+  white-space: break-spaces;
+}
+
+@media (width < 768px) {
+  .b4-band.left .b4-band-text :is(h1, h2, h3, p) {
+    text-align: left;
+  }
+}

@@ -1,0 +1,233 @@
+/* stylelint-disable no-descending-specificity -- variant rules follow the base rules */
+
+/* tension — lifted from the prototype .ed-tension (intro + 3 chart columns).
+   The source grid keeps margin 10px/80px with width 100% at every width; the band clips the
+   10px overflow (overflow hard assert). */
+.tension {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  background: #f4f8fc;
+  overflow-x: clip;
+}
+
+.tension .grid {
+  display: grid;
+  flex: 1;
+  width: 100%;
+  min-width: 0;
+  margin: 56px 80px 56px 10px;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto;
+}
+
+.tension .intro {
+  grid-area: 1 / 1 / 2 / 2;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 0;
+  place-content: center;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.tension .chart {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 0;
+  place-content: space-around center;
+  padding: 0 30px;
+}
+
+.tension .chart-1 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.tension .chart-2 {
+  grid-area: 3 / 1 / 4 / 2;
+  align-items: center;
+  align-content: center;
+}
+
+.tension .chart-3 {
+  grid-area: 4 / 1 / 5 / 2;
+  align-items: center;
+  align-content: center;
+}
+
+.tension .intro > *,
+.tension .chart > * {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.tension .sp {
+  display: block;
+  width: 100%;
+  height: 42px;
+}
+
+/* intro text (.ct-kicker / .ct-section / canon .rich p / .ct-source) */
+.tension :is(.kicker, .intro-text, .chart-title, .chart-note) {
+  overflow-wrap: break-word;
+}
+
+.tension .kicker :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  color: #586674;
+  font-family: txtislskto, var(--font-label);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 140%;
+  text-transform: uppercase;
+  white-space: break-spaces;
+}
+
+.tension .intro-text p {
+  margin: 0 0 0.75em;
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 27px;
+  white-space: break-spaces;
+}
+
+.tension .intro-text .lead p {
+  font-family: var(--font-lead);
+  font-size: 28px;
+  line-height: 120%;
+}
+
+.tension .intro-text .source p {
+  margin-bottom: 0;
+  color: #5b5f61;
+  font-family: var(--font-display);
+  font-size: 12px;
+  line-height: 140%;
+}
+
+.tension .intro-text a[href] {
+  text-decoration: underline;
+}
+
+/* charts (.ct-chart-title / .ct-chart-note) */
+.tension :is(.chart-title, .chart-note) p {
+  margin: 0;
+  font-family: var(--font-lead);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 140%;
+  white-space: break-spaces;
+}
+
+.tension .chart-note p {
+  font-size: 14px;
+  line-height: 170%;
+}
+
+.tension .chart .pic {
+  display: inline-block;
+  flex-basis: auto;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.tension .chart .pic picture {
+  display: contents;
+}
+
+.tension .chart .pic img {
+  display: block;
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  border-radius: 6px;
+}
+
+.tension.orange :is(.chart-title, .chart-note) {
+  color: #ff8c00;
+}
+
+.tension.green :is(.chart-title, .chart-note) {
+  color: var(--primary-color-50, #02d34a);
+}
+
+.tension.blue :is(.chart-title, .chart-note) {
+  color: #0052cc;
+}
+
+.tension.magenta :is(.chart-title, .chart-note) {
+  color: #d314c0;
+}
+
+@media (width >= 576px) {
+  .tension .grid {
+    max-width: 768px;
+  }
+}
+
+@media (width >= 768px) {
+  .tension .grid {
+    max-width: 1024px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .tension .intro {
+    grid-area: 1 / 1 / 2 / 4;
+  }
+
+  .tension .chart {
+    align-items: center;
+    align-content: center;
+  }
+
+  .tension .chart-1 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  .tension .chart-2 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+
+  .tension .chart-3 {
+    grid-area: 2 / 3 / 3 / 4;
+  }
+}
+
+@media (width >= 1024px) {
+  .tension .grid {
+    max-width: 1440px;
+  }
+}
+
+@media (width >= 1440px) {
+  .tension .grid {
+    max-width: 1660px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+
+  .tension .intro {
+    padding: 0 130px;
+  }
+
+  .tension .sp-intro {
+    height: 15px;
+  }
+
+  .tension .intro-text .lead p {
+    font-size: 36px;
+  }
+
+  .tension .chart-title p {
+    font-size: 18px;
+  }
+
+  .tension .intro,
+  .tension .chart {
+    text-align: center;
+  }
+}

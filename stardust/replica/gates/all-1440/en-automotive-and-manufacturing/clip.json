@@ -1,0 +1,77 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.live/en/automotive-and-manufacturing",
+ "at": "2026-11-17T00:34:56.050Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 4,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 5,
+  "offPage": 24,
+  "textNodes": 125,
+  "controls": 82,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 4,
+   "clipper": "div.reply-card-image-container",
+   "path": "div.reply-card.reply-card-horizontal > div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+   "text": "mia - digital assistant",
+   "cutMin": 23,
+   "cutMax": 121
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 3,
+   "clipper": "a",
+   "path": "div.reply-card-body > div.reply-card-title > h3#adr-optimizes-the-intelligent-management-of-airport-assets-with-ai-and-iot > a",
+   "text": "adr optimizes the intelligent management of airport assets w",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.reply-card-abstract",
+   "path": "div.reply-card.reply-card-kind-abstract > div.reply-card-body > div.reply-card-abstract > p",
+   "text": "concept reply partnered with onlogic to equip steve’s auto w",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h3#brick-cognitive-agentic-ai-to-scale-manufacturing-1",
+   "path": "div.reply-card-content > a.reply-card-link > div.reply-card-title > h3#brick-cognitive-agentic-ai-to-scale-manufacturing-1",
+   "text": "brick cognitive: agentic ai to scale manufacturing",
+   "cutMin": 121,
+   "cutMax": 121
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 5,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 11,
+   "offPage": 50,
+   "textNodes": 155,
+   "controls": 84,
+   "total": 0
+  }
+ }
+}

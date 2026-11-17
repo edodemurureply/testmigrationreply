@@ -1,0 +1,51 @@
+{
+  "a": "stardust/replica/gates/all-360/en-lufhtansa/origin.png",
+  "b": "stardust/replica/gates/all-360/en-lufhtansa/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 2043,
+    "mode": "overlap"
+  },
+  "heightDelta": 27,
+  "differingPixels": 55623,
+  "pct": 7.56,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/en-lufhtansa/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 15.19,
+  "textBoxes": 46,
+  "textPixels": 114432,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 5.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 13.5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 3
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 6.3
+    },
+    {
+      "y0": 2000,
+      "y1": 2043,
+      "pct": 31.7
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--a355dc1b--aemcoder.aem.live/en/lufhtansa"
+  }
+}

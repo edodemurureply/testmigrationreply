@@ -1,0 +1,46 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-contacts/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-contacts/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 1934,
+    "mode": "overlap"
+  },
+  "heightDelta": -10,
+  "differingPixels": 81534,
+  "pct": 2.93,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-contacts/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 13.6,
+  "textBoxes": 55,
+  "textPixels": 118464,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 2.5
+    },
+    {
+      "y0": 1500,
+      "y1": 1934,
+      "pct": 7.1
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--a355dc1b--aemcoder.aem.live/en/contacts"
+  }
+}

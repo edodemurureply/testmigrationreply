@@ -1,0 +1,5460 @@
+[live-session] waiting to pace live navigations to www.reply.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 911 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/index-360/vdiff-iter1/
+
+build red flags (advisory): 
+  • SURFACE/GROUND MISMATCH: heading "BMW promotes CO₂-optimised charg" is rgb(255, 255, 255) in build vs rgb(21, 31, 39) in source (luminance 255 vs 29). A matched heading renders on a different ground (dark vs light) — check the section background.
+  • SURFACE/GROUND MISMATCH: heading "A more efficient cloud for Toyot" is rgb(255, 255, 255) in build vs rgb(21, 31, 39) in source (luminance 255 vs 29). A matched heading renders on a different ground (dark vs light) — check the section background.
+  • SURFACE/GROUND MISMATCH: heading "More reliability in payment serv" is rgb(255, 255, 255) in build vs rgb(21, 31, 39) in source (luminance 255 vs 29). A matched heading renders on a different ground (dark vs light) — check the section background.
+  • SURFACE/GROUND MISMATCH: heading "IVECO accelerates digital transf" is rgb(255, 255, 255) in build vs rgb(21, 31, 39) in source (luminance 255 vs 29). A matched heading renders on a different ground (dark vs light) — check the section background.
+  • SURFACE/GROUND MISMATCH: heading "Delivering Beauty Faster: KIKO M" is rgb(255, 255, 255) in build vs rgb(21, 31, 39) in source (luminance 255 vs 29). A matched heading renders on a different ground (dark vs light) — check the section background.
+  • IMAGE DID NOT LOAD: 294b7b80-f427-41ce-a4e9-211a5c4e545e.jpg?im=Crop,rect=(1264,0,1024,1536),allowExpansion;Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: d0322109-575b-45fd-9971-45190633c2b6.png?im=Crop,rect=(594,0,717,1076),allowExpansion;Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: ebd11568-a6e0-473c-8f22-b1d3d8b1cfae.png?im=Crop,rect=(1113,0,720,1080),allowExpansion;Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 98da6d2b-71be-4926-a508-d9d1fd9930e1.png?im=AspectCrop=(2,3);Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 847394d7-68d8-423a-ae10-64c57058fc3d.png?im=AspectCrop=(2,3);Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 5bea57ca-5c05-4579-b4bd-039c66635ea7.png?im=Crop,rect=(426,0,720,1080),allowExpansion;Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: fdfe5a02-4402-4408-bbea-c21238d2c6f2.png?im=Crop,rect=(800,1,1194,1791),allowExpansion;Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 751e0db1-5bd5-4c90-b039-f8a9a165a901.png?im=AspectCrop=(2,3);Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 9a93b6a0-e614-498d-b960-cc93afad08b3.png?im=Crop,rect=(911,0,720,1080),allowExpansion;Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: f16c225a-b3ba-49fe-8351-7068a18615a9.png?im=Crop,rect=(1535,0,1088,1632),allowExpansion;Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: d23362bf-eff0-4eda-b073-74a1b709791a.png?im=AspectCrop=(2,3);Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: bb3e5f57-16c5-4945-853a-9e6c1c3d7a22.png?im=Crop,rect=(898,0,1088,1632),allowExpansion;Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: d6fa41bb-ce4c-4e62-809c-7f4b0c618f0d.png?im=Crop,rect=(577,0,720,1080),allowExpansion;Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: b0020ce7-46e0-4222-9da0-d06c8fbfd9dc.png?im=Crop,rect=(737,0,720,1080),allowExpansion;Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: cb969da1-ac1b-4773-989a-07995f05a2fe.png?im=Crop,rect=(500,0,544,816),allowExpansion;Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 77e6c11f-238e-4de3-a334-ba3d0f121f32.png?im=Crop,rect=(894,0,720,1080),allowExpansion;Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 72eeb300-51c4-4455-87ca-4fbad06c9324.png?im=Crop,rect=(872,0,544,816),allowExpansion;Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 175fd154-8d6e-4e0b-b630-ff2caf6b724a.png?im=Crop,rect=(0,1186,1151,1726),allowExpansion rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 8dd9ba3e-acab-400d-8200-715ff4b6b5ed.jpg?im=Crop,rect=(1111,0,720,1080),allowExpansion;Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 7764f2fd-9e93-4a20-9918-f59c65d29271.png?im=AspectCrop=(2,3);Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 535beccc-bc2e-43e2-9c11-ef80f85d545e.png?im=Crop,rect=(956,0,720,1080),allowExpansion;Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: a9916c9c-7fc9-4148-b721-7ffc5f7ae55a.png?im=Crop,rect=(321,0,720,1080),allowExpansion;Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 62c9f5ff-aa0c-4052-99e8-bd9bba14d4c2.png?im=Crop,rect=(870,0,720,1080),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: e8ea9842-9866-4746-bf5c-2f483df4d863.jpg?im=Crop,rect=(1226,0,3072,3072),allowExpansion;Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: ee4139fd-fcd4-43c8-b068-e4caa6c591ee.jpeg?im=AspectCrop=(2,3);Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 2db67ad8-7c08-41e5-b80d-7db22bab0aa1.png?im=Crop,rect=(530,0,720,1080),allowExpansion;Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: d2af934f-956b-4d30-b520-5f198f0a900d.png?im=Crop,rect=(1069,0,720,1080),allowExpansion;Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: adafc1f4-a88d-4a17-9c61-e6368da9b6af.jpg?im=Crop,rect=(2745,0,2048,3072),allowExpansion;Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 7d57eb46-67f1-4f4a-8968-f37b834b299a.png?im=Crop,rect=(898,0,720,1080),allowExpansion;Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: fda3ecc0-d013-4acb-85dd-e3e893fc53a0.jpeg?im=AspectCrop=(2,3);Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 4118e974-1143-4e97-b270-bf33c1cdc91a.png?im=AspectCrop=(2,3);Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 5bea57ca-5c05-4579-b4bd-039c66635ea7.png?im=Crop,rect=(412,0,1080,1080),allowExpansion;Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 310a3be3-9e7f-4d66-92da-9baf6e9fcc92.png?im=AspectCrop=(2,3);Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: bb3e5f57-16c5-4945-853a-9e6c1c3d7a22.png?im=Crop,rect=(515,0,1632,1632),allowExpansion;Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 82817d67-5faf-43d5-8805-561281146620.png?im=AspectCrop=(2,3);Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 0b4b7216-693c-4204-bbbb-967535b07080.jpg?im=Crop,rect=(409,0,1203,1203),allowExpansion;Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: eb63d8d2-2609-4a3f-9833-f3c0aa2d0630.jpg?im=Crop,rect=(778,0,1080,1080),allowExpansion;Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 77e6c11f-238e-4de3-a334-ba3d0f121f32.png?im=Crop,rect=(894,0,720,1080),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 9a93b6a0-e614-498d-b960-cc93afad08b3.png?im=Crop,rect=(736,0,1080,1080),allowExpansion;Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 03949148-5ec9-4734-85e3-92c951b4871b.png?im=Crop,rect=(591,0,720,1080),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: f625a406-bb1c-43de-8c0b-264a2390d4a1.png?im=AspectCrop=(2,3);Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: d6fa41bb-ce4c-4e62-809c-7f4b0c618f0d.png?im=Crop,rect=(577,0,720,1080),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: b169534f-1ac4-4c81-9326-919e6d6f717d.png?im=Crop,rect=(885,0,720,1080),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 7c40f568-dfe0-4104-ac27-a6f2babe6cfc.jpg?im=Crop,rect=(825,0,720,1080),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 7c85a36e-6641-4e27-a609-a4bbbe9d6cf8.jpg?im=AspectCrop=(1,1);Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: d67b0f42-d04d-418e-9a3f-78f4bf88df1c.jpg?im=Crop,rect=(0,0,1073,1610),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: b0020ce7-46e0-4222-9da0-d06c8fbfd9dc.png?im=Crop,rect=(502,0,1080,1080),allowExpansion;Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: bb0c8819-d462-4e41-8dd3-34d270b32102.png?im=Crop,rect=(358,0,720,1080),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 20f3195d-4f8e-42bd-ad7b-54489d97cf3e.png?im=Crop,rect=(967,0,720,1080),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 612baf0b-6eb8-4e6d-8710-8c722851f4c0.png?im=Crop,rect=(1037,0,1632,1632),allowExpansion;Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: bbafbeaa-d61d-426d-8d86-f0a2dbe80441.png?im=AspectCrop=(1,1);Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: db8277e3-0e42-4454-a509-8f747e366f00.png?im=Crop,rect=(595,0,1080,1080),allowExpansion;Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: dd7eb77a-efbb-422e-84da-c9dcc52925b2.png?im=Crop,rect=(896,0,720,1080),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: ce018b44-5420-41c3-aa1b-fdaab26215be.png?im=AspectCrop=(1,1);Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 59f55b97-dd55-4cc9-a621-702881f9aefe.jpg?im=Crop,rect=(774,0,720,1080),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 502354de-40c4-4d9e-b3dc-3ad6bba06419.png?im=Crop,rect=(787,0,1080,1080),allowExpansion;Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: c6a1092f-0342-460a-adb4-b030b7def2f9.jpg?im=Crop,rect=(635,0,720,1080),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 8b2243b0-839d-4ab9-96ce-dde70353a35f.png?im=Crop,rect=(394,0,1080,1080),allowExpansion;Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 499fb1c9-6fd9-4c02-97b3-991a2ba43f91.png?im=AspectCrop=(1,1);Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 08369b5a-4f7c-4dbc-bcc9-21cfa5844697.png?im=Crop,rect=(576,0,720,1080),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: bd2644fd-ba63-4092-8b9f-4059fd5e6fb4.jpg?im=Crop,rect=(730,0,1080,1080),allowExpansion;Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 2e844f99-0679-4476-85f6-72bc6aaf0ff0.png?im=Crop,rect=(1496,0,1215,1822),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: a06ba7c7-7dab-4662-9968-bf586b743af7.png?im=AspectCrop=(1,1);Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: afca804d-eb45-428b-a74f-0f00dde42b3a.png?im=AspectCrop=(2,3);Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: e58a77f3-7bbb-451e-bf05-0a4a26a40ea2.jpg?im=Crop,rect=(420,0,1080,1080),allowExpansion;Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 593331ed-48ed-4a8a-9ad8-249c3572c863.jpg?im=Crop,rect=(533,0,720,1080),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: afdc0a7a-7626-4722-8193-db1087104e45.png?im=Crop,rect=(816,0,720,1080),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: ec3c6775-60ed-4b39-bbbc-1c3c2eb7dff6.jpg?im=Crop,rect=(666,0,1080,1080),allowExpansion;Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: ac1ea336-ce0f-4f7f-91c3-7e63f6fb8884.jpg?im=Crop,rect=(939,0,720,1080),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: bd2d1b83-86f1-4f74-bdff-f596da44718e.jpg?im=Crop,rect=(682,0,1080,1080),allowExpansion;Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 68619213-dba4-4d90-9182-0c6e54ef577c.jpg?im=Crop,rect=(1120,0,720,1080),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 96024e63-b350-42d5-a833-60910a9905dd.png?im=Crop,rect=(50,0,1080,1080),allowExpansion;Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: ad07f038-7c41-4940-9ef3-3b1241127ee3.jpg?im=Crop,rect=(2625,0,3376,3376),allowExpansion;Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: e71a0e62-8b14-462f-b727-f952aca6a0bd.jpg?im=Crop,rect=(1014,0,720,1080),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 15285e1d-6aa8-4356-b931-a5a156369ec5.png?im=Crop,rect=(911,0,1123,1684),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 840ee4a1-3e8e-4ac5-8070-bf9911f3bd70.jpg?im=Crop,rect=(503,0,1080,1080),allowExpansion;Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 9c12262b-ee5c-428a-8c5c-3f1d534e8443.png?im=Crop,rect=(1112,0,720,1080),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 221c327f-b55d-4d53-8871-b08b429e059a.jpg?im=AspectCrop=(2,3);Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 72d1d000-8dce-46a7-9e82-2c0e29337a7e.jpg?im=Crop,rect=(838,0,720,1080),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 94a5c575-6173-4c82-a11a-b83e64b159a6.jpg?im=Crop,rect=(2854,0,4724,7087),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: c0aeb4bd-3cb9-45ca-9dc3-5a9d87b59439.jpg?im=Crop,rect=(713,0,1080,1080),allowExpansion;Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 973043e2-edc7-465d-aac5-9843567f3898.jpg?im=Crop,rect=(256,0,465,698),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: b6e9b778-00ed-4576-b8fc-e7a116ca8fac.jpg?im=Crop,rect=(994,0,720,1080),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 7b7f3647-20e1-418c-801f-fb1aa0e4d6bf.jpg?im=AspectCrop=(16,9);Resize,width=660 rendered 214x120 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 63833c79-dc42-4769-b89a-5311f561afc1.jpg?im=Crop,rect=(760,0,1080,1080),allowExpansion;Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 902ca3a1-603f-4600-9e77-94a6534a1119.jpg?im=Crop,rect=(725,0,1080,1080),allowExpansion;Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 261eee31-1af6-4330-8c8b-0dd74dc4c122.jpg?im=Crop,rect=(576,0,1080,1080),allowExpansion;Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 10dc2333-ee04-4923-847d-3842de012d46.jpg?im=Crop,rect=(863,0,720,1080),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: b52350c0-2607-4e9b-94f3-aac75e531a5a.jpg?im=Crop,rect=(652,0,1080,1080),allowExpansion;Resize,width=660 rendered 280x158 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 08dc94d0-68ed-483a-8a13-91ef7812eda4.png?im=Crop,rect=(912,282,532,798),allowExpansion;Resize,width=660 rendered 280x280 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: c19a21a7-22f2-4a50-b753-ab2285b120bc.jpg?im=Crop,rect=(1008,0,900,1350),allowExpansion;Resize,width=660 rendered 280x420 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: f56ec3f9-312b-40e1-b47d-bdebc0a5c918.svg rendered 24x24 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: a6732ee4-95cf-4951-9c4b-3675c7154f7e.svg rendered 24x24 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 49664893-bfc1-4d79-9208-3bdd7083126b.svg rendered 24x24 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: c48097ef-90ed-4c24-aa40-1764649e72ff.svg rendered 24x24 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • FLUSH-LEFT TEXT: <h3> "Neurons" sits at left -536px (no padding). Left-anchored text at the viewport edge — likely a dropped max-width / centering container.
+  • FLUSH-LEFT TEXT: <h3> "Sainsbury’s redefines custom" sits at left -232px (no padding). Left-anchored text at the viewport edge — likely a dropped max-width / centering container.
+  • FLUSH-LEFT TEXT: <h3> "Agentic AI: from copilot to " sits at left -840px (no padding). Left-anchored text at the viewport edge — likely a dropped max-width / centering container.
+  • FLUSH-LEFT TEXT: <h3> "Sovereign AI for European Or" sits at left -536px (no padding). Left-anchored text at the viewport edge — likely a dropped max-width / centering container.
+  • FLUSH-LEFT TEXT: <h3> "Sovereign AI Coding: Running" sits at left -232px (no padding). Left-anchored text at the viewport edge — likely a dropped max-width / centering container.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 29840,
+  "textLen": 9190,
+  "images": [
+   {
+    "src": "pixel.gif?clkgypv=jstag&ws=1&b=avmJ7_QkqD949CuIccE0YiqL",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4?clkgypv=jstag&ws=1&b=avmJ7_QkqD949CuIccE0YiqL",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "pixel.gif?ch=319&cm=1cb85bc308262d1e73cc1794732211",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "pixel.gif?ch=278&cm=1cb85bc308262d1e73cc1794732211",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6a83d9fb-6523-4b54-ac4a-12b422b1769f.png?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d0322109-575b-45fd-9971-45190633c2b6.png?im=Crop,rect=(381,0,1076,1076),allowExpansion;Resize,width=600",
+    "natural": "600x600",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6a83d9fb-6523-4b54-ac4a-12b422b1769f.png?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d0322109-575b-45fd-9971-45190633c2b6.png?im=Crop,rect=(381,0,1076,1076),allowExpansion;Resize,width=600",
+    "natural": "600x600",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aa4238ba-3403-49d7-a043-8101b9cc4847.png?im=AspectCrop=(16,9);Resize,width=1000",
+    "natural": "1000x563",
+    "rendered": "360x211",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f727e88f-8ead-431b-a235-3071066e869b.png?im=Crop,rect=(318,175,1595,897),allowExpansion;Resize,width=1000",
+    "natural": "1000x562",
+    "rendered": "360x263",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aa4238ba-3403-49d7-a043-8101b9cc4847.png?im=AspectCrop=(16,9);Resize,width=1000",
+    "natural": "1000x563",
+    "rendered": "360x211",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f727e88f-8ead-431b-a235-3071066e869b.png?im=Crop,rect=(318,175,1595,897),allowExpansion;Resize,width=1000",
+    "natural": "1000x562",
+    "rendered": "360x263",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4a3ac8fc-61fc-44d6-b871-c03234921740.png?im=AspectCrop=(16,9);Resize,width=1000",
+    "natural": "0x0",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "590a6b5b-6b81-4e68-963c-33f1418ad260.png?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "0x0",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "4a3ac8fc-61fc-44d6-b871-c03234921740.png?im=AspectCrop=(16,9);Resize,width=1000",
+    "natural": "0x0",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "590a6b5b-6b81-4e68-963c-33f1418ad260.png?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "0x0",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "32281efa-65ff-4225-b742-81b0132935da.jpg?im=Crop,rect=(837,0,1080,1080),allowExpansion;Resize,width=600",
+    "natural": "0x0",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "7105a802-e582-481d-9ddb-871fc30c6b71.jpg?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "0x0",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "7105a802-e582-481d-9ddb-871fc30c6b71.jpg?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "0x0",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "7105a802-e582-481d-9ddb-871fc30c6b71.jpg?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "0x0",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "7105a802-e582-481d-9ddb-871fc30c6b71.jpg?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "0x0",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "2557e702-595a-43a8-a17e-4379ba390f38.jpg?im=Crop,rect=(982,0,900,1350),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "36704776-15c2-4a9e-a371-ec765fd9e220.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "294x441",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "415c2f7b-f829-4017-a08a-c3ae19b1fe5f.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4ba2f964-0517-4479-8934-698dbc813f10.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "300x449",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "31281c32-6367-4910-bd5a-66f11a508dcc.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "af7b44d1-b794-4c0b-bef1-232ea97daa98.jpeg?im=Crop,rect=(789,0,1024,1536),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "3be6a223-531f-46ad-95aa-2d696ab2957d.svg",
+    "natural": "156x48",
+    "rendered": "144x44",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "a8955520-826b-4ef2-85a8-49a67381bb2b.png?im=Crop,rect=(600,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "294b7b80-f427-41ce-a4e9-211a5c4e545e.jpg?im=Crop,rect=(1264,0,1024,1536),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bfce9a07-ef7f-4f99-93c9-3df4ff9fc473.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d0322109-575b-45fd-9971-45190633c2b6.png?im=Crop,rect=(594,0,717,1076),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ebd11568-a6e0-473c-8f22-b1d3d8b1cfae.png?im=Crop,rect=(1113,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "98da6d2b-71be-4926-a508-d9d1fd9930e1.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "604076ec-e54c-424e-b275-e7274eb9607e.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "847394d7-68d8-423a-ae10-64c57058fc3d.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "5bea57ca-5c05-4579-b4bd-039c66635ea7.png?im=Crop,rect=(426,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6147b755-d1e0-4c86-9360-0488f5814491.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fdfe5a02-4402-4408-bbea-c21238d2c6f2.png?im=Crop,rect=(800,1,1194,1791),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "b442cebf-e437-4d55-8d00-d7715ffecc74.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "751e0db1-5bd5-4c90-b039-f8a9a165a901.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "9a93b6a0-e614-498d-b960-cc93afad08b3.png?im=Crop,rect=(911,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "9691886f-e2b6-4869-99c7-b7f4592addcb.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f16c225a-b3ba-49fe-8351-7068a18615a9.png?im=Crop,rect=(1535,0,1088,1632),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d23362bf-eff0-4eda-b073-74a1b709791a.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bb3e5f57-16c5-4945-853a-9e6c1c3d7a22.png?im=Crop,rect=(898,0,1088,1632),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "150095cf-8a6e-47fa-8464-a61c5b77b33f.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d6fa41bb-ce4c-4e62-809c-7f4b0c618f0d.png?im=Crop,rect=(577,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "a0763bc8-7875-4f2b-86e7-3deb49ca8555.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "b0020ce7-46e0-4222-9da0-d06c8fbfd9dc.png?im=Crop,rect=(737,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d87ff0c7-810a-4f53-9a47-8f63e1ed4aa9.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "cb969da1-ac1b-4773-989a-07995f05a2fe.png?im=Crop,rect=(500,0,544,816),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "8c922f87-d8e9-4fac-b5f5-8449da29d0bf.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "77e6c11f-238e-4de3-a334-ba3d0f121f32.png?im=Crop,rect=(894,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "95441c00-4a7c-4ca0-b702-a0744ea9b49c.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "72eeb300-51c4-4455-87ca-4fbad06c9324.png?im=Crop,rect=(872,0,544,816),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "175fd154-8d6e-4e0b-b630-ff2caf6b724a.png?im=Crop,rect=(0,1186,1151,1726),allowExpansion",
+    "natural": "1151x1726",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f58c084b-8db5-4c5f-a00c-67dd1c75312e.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "8dd9ba3e-acab-400d-8200-715ff4b6b5ed.jpg?im=Crop,rect=(1111,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7764f2fd-9e93-4a20-9918-f59c65d29271.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "535beccc-bc2e-43e2-9c11-ef80f85d545e.png?im=Crop,rect=(956,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "a9916c9c-7fc9-4148-b721-7ffc5f7ae55a.png?im=Crop,rect=(321,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "2557e702-595a-43a8-a17e-4379ba390f38.jpg?im=Crop,rect=(982,0,900,1350),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "36704776-15c2-4a9e-a371-ec765fd9e220.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "415c2f7b-f829-4017-a08a-c3ae19b1fe5f.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4ba2f964-0517-4479-8934-698dbc813f10.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "cb8b69c6-6a3f-499d-bd2f-e8530c575da0.png?im=Crop,rect=(1689,0,1656,2484),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "65ea9e2e-c69b-4b28-b51d-ef6222dae37b.jpeg?im=Crop,rect=(2782,0,2048,3072),allowExpansion",
+    "natural": "2048x3072",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "8e0a84a7-bbaf-4556-a012-6409b95af9ec.png?im=AspectCrop=(16,9)",
+    "natural": "427x240",
+    "rendered": "90x51",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "11486e34-b5c3-47c5-90c3-e88ef4b15de6.png?im=AspectCrop=(16,9);Resize,width=660",
+    "natural": "660x371",
+    "rendered": "280x157",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "5eebcbe6-48c6-4f19-bb2d-f0a27438aaf6.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "379de85b-3f9e-452c-9890-b41951857941.png?im=AspectCrop=(1,1);Resize,width=660",
+    "natural": "660x660",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "095d1bec-1665-476d-b77d-33e55bc27906.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "c4cbfd2f-2984-4ffa-9722-42d02033955c.png?im=Crop,rect=(0,0,1920,1080),allowExpansion;Resize,width=660",
+    "natural": "660x371",
+    "rendered": "280x157",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "80988bbd-2d17-4591-8939-367c003acd85.png?im=AspectCrop=(1,1);Resize,width=660",
+    "natural": "660x660",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "45ee61e8-252b-4cd0-a1d6-7c214a9a41f1.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "62c9f5ff-aa0c-4052-99e8-bd9bba14d4c2.png?im=Crop,rect=(711,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "660x660",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "06f59f8c-e001-40e4-9af7-b011ff91703c.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "e8ea9842-9866-4746-bf5c-2f483df4d863.jpg?im=Crop,rect=(1226,0,3072,3072),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "92b418f7-872f-43d5-9f59-6bed280f42f9.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "41027391-0e4d-4af2-b23f-b21fe8bd21b8.png?im=Crop,rect=(778,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "58b074e4-acaa-4b2c-8c9d-f338ea822ebd.jpeg?im=Crop,rect=(175,0,1024,1536),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4a71a971-c7f2-4857-80d5-3483d3fc1582.png?im=Crop,rect=(1141,0,1088,1632),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ee4139fd-fcd4-43c8-b068-e4caa6c591ee.jpeg?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "2db67ad8-7c08-41e5-b80d-7db22bab0aa1.png?im=Crop,rect=(530,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d2af934f-956b-4d30-b520-5f198f0a900d.png?im=Crop,rect=(1069,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adafc1f4-a88d-4a17-9c61-e6368da9b6af.jpg?im=Crop,rect=(2745,0,2048,3072),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7d57eb46-67f1-4f4a-8968-f37b834b299a.png?im=Crop,rect=(898,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fda3ecc0-d013-4acb-85dd-e3e893fc53a0.jpeg?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "41027391-0e4d-4af2-b23f-b21fe8bd21b8.png?im=Crop,rect=(778,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "58b074e4-acaa-4b2c-8c9d-f338ea822ebd.jpeg?im=Crop,rect=(175,0,1024,1536),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4a71a971-c7f2-4857-80d5-3483d3fc1582.png?im=Crop,rect=(1141,0,1088,1632),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4118e974-1143-4e97-b270-bf33c1cdc91a.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "113b9e99-752a-45d4-a85c-7d1ab1414658.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "5bea57ca-5c05-4579-b4bd-039c66635ea7.png?im=Crop,rect=(412,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6147b755-d1e0-4c86-9360-0488f5814491.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "310a3be3-9e7f-4d66-92da-9baf6e9fcc92.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "604076ec-e54c-424e-b275-e7274eb9607e.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bb3e5f57-16c5-4945-853a-9e6c1c3d7a22.png?im=Crop,rect=(515,0,1632,1632),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "82817d67-5faf-43d5-8805-561281146620.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "51316805-899f-47ef-b310-ad59f870f52b.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0b4b7216-693c-4204-bbbb-967535b07080.jpg?im=Crop,rect=(409,0,1203,1203),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "cbd079ac-0c61-4b7a-a691-b22aac4632e3.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eb63d8d2-2609-4a3f-9833-f3c0aa2d0630.jpg?im=Crop,rect=(778,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "c669c2a0-3e71-4972-a094-b42107309adb.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "77e6c11f-238e-4de3-a334-ba3d0f121f32.png?im=Crop,rect=(894,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "95441c00-4a7c-4ca0-b702-a0744ea9b49c.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "9a93b6a0-e614-498d-b960-cc93afad08b3.png?im=Crop,rect=(736,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "9691886f-e2b6-4869-99c7-b7f4592addcb.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "03949148-5ec9-4734-85e3-92c951b4871b.png?im=Crop,rect=(591,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "c07e67f1-8ce8-422e-ad3e-1f65f3c7e099.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f625a406-bb1c-43de-8c0b-264a2390d4a1.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "8748dced-0731-4101-8d93-2619b67695e2.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d6fa41bb-ce4c-4e62-809c-7f4b0c618f0d.png?im=Crop,rect=(577,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "a0763bc8-7875-4f2b-86e7-3deb49ca8555.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "b169534f-1ac4-4c81-9326-919e6d6f717d.png?im=Crop,rect=(885,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eae91fa4-ee3d-49cc-960c-ebbb7a5c2961.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7c40f568-dfe0-4104-ac27-a6f2babe6cfc.jpg?im=Crop,rect=(825,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ccf1ff6d-278e-432e-86a7-7ea5e2972ae6.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7c85a36e-6641-4e27-a609-a4bbbe9d6cf8.jpg?im=AspectCrop=(1,1);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d67b0f42-d04d-418e-9a3f-78f4bf88df1c.jpg?im=Crop,rect=(0,0,1073,1610),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7e9e5643-ec69-4a8c-946e-128e831346b7.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "b0020ce7-46e0-4222-9da0-d06c8fbfd9dc.png?im=Crop,rect=(502,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d87ff0c7-810a-4f53-9a47-8f63e1ed4aa9.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bb0c8819-d462-4e41-8dd3-34d270b32102.png?im=Crop,rect=(358,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "abad7dc3-afc8-4b85-bd84-03083751be43.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20f3195d-4f8e-42bd-ad7b-54489d97cf3e.png?im=Crop,rect=(967,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "511673b2-4ab2-42b9-ba7a-4e16f97d4037.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "612baf0b-6eb8-4e6d-8710-8c722851f4c0.png?im=Crop,rect=(1037,0,1632,1632),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "a0763bc8-7875-4f2b-86e7-3deb49ca8555.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bbafbeaa-d61d-426d-8d86-f0a2dbe80441.png?im=AspectCrop=(1,1);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "dd207d21-35aa-432c-ad5e-2ad59755dd07.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "db8277e3-0e42-4454-a509-8f747e366f00.png?im=Crop,rect=(595,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d3bca125-017f-4017-a446-1f11dc6e41de.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "dd7eb77a-efbb-422e-84da-c9dcc52925b2.png?im=Crop,rect=(896,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "666597d5-eb5c-4435-b890-b0a3eccd02ef.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ce018b44-5420-41c3-aa1b-fdaab26215be.png?im=AspectCrop=(1,1);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "59f55b97-dd55-4cc9-a621-702881f9aefe.jpg?im=Crop,rect=(774,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "47ad7b6d-efe2-4b9b-89d9-a8f55ad51d64.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "502354de-40c4-4d9e-b3dc-3ad6bba06419.png?im=Crop,rect=(787,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "8823dd7b-0d9c-426c-9d18-ef3453386bdb.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "c6a1092f-0342-460a-adb4-b030b7def2f9.jpg?im=Crop,rect=(635,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "8b2243b0-839d-4ab9-96ce-dde70353a35f.png?im=Crop,rect=(394,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "3813d8cf-7bb3-4aa3-86e1-00d9c31d1f2a.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "499fb1c9-6fd9-4c02-97b3-991a2ba43f91.png?im=AspectCrop=(1,1);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "08369b5a-4f7c-4dbc-bcc9-21cfa5844697.png?im=Crop,rect=(576,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "e827d019-ed2e-4140-9334-1a6d7fd5b116.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bd2644fd-ba63-4092-8b9f-4059fd5e6fb4.jpg?im=Crop,rect=(730,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ac66e7e0-1afb-4a04-9952-1fdcacf1bf3e.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "2e844f99-0679-4476-85f6-72bc6aaf0ff0.png?im=Crop,rect=(1496,0,1215,1822),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "26342120-4b8c-4ed7-a4ca-748a8bc8ec9c.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "a06ba7c7-7dab-4662-9968-bf586b743af7.png?im=AspectCrop=(1,1);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "afca804d-eb45-428b-a74f-0f00dde42b3a.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "e58a77f3-7bbb-451e-bf05-0a4a26a40ea2.jpg?im=Crop,rect=(420,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "525d9e7d-1f1c-4340-ad61-1ea560550879.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "593331ed-48ed-4a8a-9ad8-249c3572c863.jpg?im=Crop,rect=(533,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f6620cdd-a0f4-4b07-9521-bc773ce29515.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "afdc0a7a-7626-4722-8193-db1087104e45.png?im=Crop,rect=(816,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "b1a87d26-0d8c-4089-acf7-eb001c46d3a9.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ec3c6775-60ed-4b39-bbbc-1c3c2eb7dff6.jpg?im=Crop,rect=(666,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d6c336ac-3094-4383-8465-8fdd2c0ab5f6.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ac1ea336-ce0f-4f7f-91c3-7e63f6fb8884.jpg?im=Crop,rect=(939,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bd2d1b83-86f1-4f74-bdff-f596da44718e.jpg?im=Crop,rect=(682,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "064b64fc-2c73-489e-b43f-7e2f6d4dcafc.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "68619213-dba4-4d90-9182-0c6e54ef577c.jpg?im=Crop,rect=(1120,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "c687b180-2c8f-4448-adca-f0382320799a.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "96024e63-b350-42d5-a833-60910a9905dd.png?im=Crop,rect=(50,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1c872517-e756-4b17-a219-834e790f373d.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ad07f038-7c41-4940-9ef3-3b1241127ee3.jpg?im=Crop,rect=(2625,0,3376,3376),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "e71a0e62-8b14-462f-b727-f952aca6a0bd.jpg?im=Crop,rect=(1014,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "15285e1d-6aa8-4356-b931-a5a156369ec5.png?im=Crop,rect=(911,0,1123,1684),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "840ee4a1-3e8e-4ac5-8070-bf9911f3bd70.jpg?im=Crop,rect=(503,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "9c12262b-ee5c-428a-8c5c-3f1d534e8443.png?im=Crop,rect=(1112,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "c32077aa-1def-4215-8579-0875383af9b8.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "221c327f-b55d-4d53-8871-b08b429e059a.jpg?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "72d1d000-8dce-46a7-9e82-2c0e29337a7e.jpg?im=Crop,rect=(838,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1a8c1e01-8fae-4c7a-b479-a589bcb73a62.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "94a5c575-6173-4c82-a11a-b83e64b159a6.jpg?im=Crop,rect=(2854,0,4724,7087),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "c0aeb4bd-3cb9-45ca-9dc3-5a9d87b59439.jpg?im=Crop,rect=(713,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "a3dacc60-2b49-4520-9e41-c145f3ada8b1.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "973043e2-edc7-465d-aac5-9843567f3898.jpg?im=Crop,rect=(256,0,465,698),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "b6e9b778-00ed-4576-b8fc-e7a116ca8fac.jpg?im=Crop,rect=(994,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7b7f3647-20e1-418c-801f-fb1aa0e4d6bf.jpg?im=AspectCrop=(16,9);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "214x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "63833c79-dc42-4769-b89a-5311f561afc1.jpg?im=Crop,rect=(760,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "902ca3a1-603f-4600-9e77-94a6534a1119.jpg?im=Crop,rect=(725,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "261eee31-1af6-4330-8c8b-0dd74dc4c122.jpg?im=Crop,rect=(576,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "10dc2333-ee04-4923-847d-3842de012d46.jpg?im=Crop,rect=(863,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "3706d8be-b6e8-4d8f-8f85-16ed46ee6b5b.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "b52350c0-2607-4e9b-94f3-aac75e531a5a.jpg?im=Crop,rect=(652,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eaebfbbf-6d4c-4c99-8135-8698a57e8974.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "08dc94d0-68ed-483a-8a13-91ef7812eda4.png?im=Crop,rect=(912,282,532,798),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ac6c6966-b2a9-497f-a43b-5516d46f71cc.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "c19a21a7-22f2-4a50-b753-ab2285b120bc.jpg?im=Crop,rect=(1008,0,900,1350),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6fcab6ec-285b-4545-a46d-72f4927d4bbe.svg",
+    "natural": "103x36",
+    "rendered": "150x52",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918.svg",
+    "natural": "0x0",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "a6732ee4-95cf-4951-9c4b-3675c7154f7e.svg",
+    "natural": "0x0",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "49664893-bfc1-4d79-9208-3bdd7083126b.svg",
+    "natural": "0x0",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "c48097ef-90ed-4c24-aa40-1764649e72ff.svg",
+    "natural": "0x0",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "Reply_-_LOGO__150dpi.jpg",
+    "natural": "614x164",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f353e0a0-04b2-4e1b-87fb-e478cb82f6bb",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h3",
+    "text": "Neurons",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sainsbury’s redefines customer l",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Aqua - Where intelligence meets ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply earns “NVIDIA Physical AI ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Saipem improves safety and opera",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sovereign Cloud in Financial Ser",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Enabling AI in consumer credit: ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply Model Factory",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Brick Cognitive: Agentic AI to s",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How Unipol improves insurance pr",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Symbiosis. The Operating Model f",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "BMW promotes CO₂-optimised charg",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Easypersonaltrainer, the video t",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Student Tech Clash",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A more efficient cloud for Toyot",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Rethink software development wit",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply announces a partnership wi",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Generali Country Italia boosts C",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "More reliability in payment serv",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "IVECO accelerates digital transf",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "IEO innovates mammographic scree",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Delivering Beauty Faster: KIKO M",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What is Generative Engine Optimi",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply Cloud Service Providers Mo",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "An interactive gaming experience",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Prebuilt AI Apps",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI-Powered Procurement",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "The dual face of artificial inte",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Neurons",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sainsbury’s redefines customer l",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Aqua - Where intelligence meets ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "It's not about simply having a v",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "28px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Innovation is no accident. Your ",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "28px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "You can do more than looking for",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "28px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Don't just tell your visions, ma",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "28px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Don’t make it one day; make it d",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "28px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply Immersive Experience",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Bringing innovation across all i",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "28px",
+    "family": "khanqyjjei",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Stellantis accelerates the trans",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Scaling AI Adoption Across The A",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Oxfordshire County Council accel",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How Audi is redefining software ",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Amplifon integrates its data eco",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Puma accelerates logistics innov",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "ADR optimizes the intelligent ma",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Latest insights",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Agentic AI: from copilot to auto",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sovereign AI for European Organi",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sovereign AI Coding: Running On-",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Agentic AI for Batch Application",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Process Intelligence and AI in t",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "LLMOps: How organisations can sc",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Total Search Marketing: rethinki",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How companies can build a compet",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Modernize SAP for the AI Era wit",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Agentic AI: from copilot to auto",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sovereign AI for European Organi",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sovereign AI Coding: Running On-",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A new model of manufacturing: di",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "BMW promotes CO₂-optimised charg",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Unipol accelerates innovation in",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Generali Country Italia enhances",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "BMW accelerates migration to clo",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Game, set, AI: match-changing in",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Preserving and enhancing St. Pet",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Riverty transforms customer serv",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Delivering Beauty Faster: KIKO M",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A more efficient cloud for Toyot",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "An AI-supported customer insight",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Arca Fondi: a new dialogue with ",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "More reliability in payment serv",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Devbot: Audi’s intelligent multi",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Making PUMA run faster with LEA ",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A new era in design: generative ",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Enhancing consumer checking onbo",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "IVECO accelerates digital transf",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Shorter delivery times for the s",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Smart Bean: the intelligent assi",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI to protect Nexi's payments",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "An AI-driven dynamic pricing mod",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "agrirouter 2.0: A modern data pl",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI enhancing expert assistance a",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Optimizing portfolios with quant",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Cloud migration without downtime",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "An AI-driven podcast production ",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Geox takes a step forward with t",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "heyOBI: a holistic CX across all",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Dialogue with Luigi Einaudi than",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Journey to low-code",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Racing ahead with Sabelt's digit",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "UnipolSai renews one-to-one inte",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Step into the new era of Spatial",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "From showcase to purchase, a ste",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A new order management system to",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "CARIAD creates centralised data ",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Audi revolutionizes internal doc",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Omnichannel and order management",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Spotlight on AI-embodied agents",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "DISH Order: Development of a fai",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Redefining IT system integration",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "More Flexibility for Charging Pa",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Meet Rose, the Digital Human",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Fraport: computer vision and AI ",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply Labs",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Meta Minutes",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A new multi-channel platform for",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Enhancing Cloud Services of an O",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Intelligent diagnostics for on-b",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Say “Hello!” to digital humans",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Hyperautomation in private banki",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Machine translation as a service",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Digital innovation starts from t",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Wealth Management observatory | ",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "The first virtual 'Unreal 5' web",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Global bank cloud migration prog",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "\"Please don't buy\", change the w",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Predictive Maintenance with SPOT",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Coca-Cola: the benefits of advan",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Magnum Michelangelo: Social Medi",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "LEA Reply™",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Product & Accelerator",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "News",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Research",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "flushText": [
+   {
+    "tag": "h3",
+    "text": "Neurons",
+    "left": -536
+   },
+   {
+    "tag": "h3",
+    "text": "Sainsbury’s redefines custom",
+    "left": -232
+   },
+   {
+    "tag": "h3",
+    "text": "Agentic AI: from copilot to ",
+    "left": -840
+   },
+   {
+    "tag": "h3",
+    "text": "Sovereign AI for European Or",
+    "left": -536
+   },
+   {
+    "tag": "h3",
+    "text": "Sovereign AI Coding: Running",
+    "left": -232
+   }
+  ],
+  "contentBoxes": [
+   {
+    "sel": "pt-5",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "ProseMirror",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "reply-card-body",
+    "width": 216,
+    "left": -536
+   },
+   {
+    "sel": "reply-card-body",
+    "width": 216,
+    "left": -232
+   },
+   {
+    "sel": "reply-card-body",
+    "width": 231,
+    "left": 64
+   },
+   {
+    "sel": "reply-card-body",
+    "width": 216,
+    "left": 376
+   },
+   {
+    "sel": "reply-card-body",
+    "width": 216,
+    "left": 680
+   },
+   {
+    "sel": "reply-card-body",
+    "width": 216,
+    "left": 984
+   },
+   {
+    "sel": "reply-card-body",
+    "width": 216,
+    "left": 1288
+   },
+   {
+    "sel": "reply-card-body",
+    "width": 216,
+    "left": 1592
+   },
+   {
+    "sel": "reply-card-body",
+    "width": 216,
+    "left": 1896
+   },
+   {
+    "sel": "reply-card-body",
+    "width": 216,
+    "left": 2200
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 29722,
+  "textLen": 9190,
+  "images": [
+   {
+    "src": "6a83d9fb-6523-4b54-ac4a-12b422b1769f.png?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d0322109-575b-45fd-9971-45190633c2b6.png?im=Crop,rect=(381,0,1076,1076),allowExpansion;Resize,width=600",
+    "natural": "600x600",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6a83d9fb-6523-4b54-ac4a-12b422b1769f.png?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d0322109-575b-45fd-9971-45190633c2b6.png?im=Crop,rect=(381,0,1076,1076),allowExpansion;Resize,width=600",
+    "natural": "600x600",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aa4238ba-3403-49d7-a043-8101b9cc4847.png?im=AspectCrop=(16,9);Resize,width=1000",
+    "natural": "1000x563",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f727e88f-8ead-431b-a235-3071066e869b.png?im=Crop,rect=(318,175,1595,897),allowExpansion;Resize,width=1000",
+    "natural": "1000x562",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aa4238ba-3403-49d7-a043-8101b9cc4847.png?im=AspectCrop=(16,9);Resize,width=1000",
+    "natural": "1000x563",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f727e88f-8ead-431b-a235-3071066e869b.png?im=Crop,rect=(318,175,1595,897),allowExpansion;Resize,width=1000",
+    "natural": "1000x562",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4a3ac8fc-61fc-44d6-b871-c03234921740.png?im=AspectCrop=(16,9);Resize,width=1000",
+    "natural": "1000x563",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "590a6b5b-6b81-4e68-963c-33f1418ad260.png?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4a3ac8fc-61fc-44d6-b871-c03234921740.png?im=AspectCrop=(16,9);Resize,width=1000",
+    "natural": "1000x563",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "590a6b5b-6b81-4e68-963c-33f1418ad260.png?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "32281efa-65ff-4225-b742-81b0132935da.jpg?im=Crop,rect=(837,0,1080,1080),allowExpansion;Resize,width=600",
+    "natural": "600x600",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7105a802-e582-481d-9ddb-871fc30c6b71.jpg?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7105a802-e582-481d-9ddb-871fc30c6b71.jpg?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7105a802-e582-481d-9ddb-871fc30c6b71.jpg?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7105a802-e582-481d-9ddb-871fc30c6b71.jpg?im=AspectCrop=(1,1);Resize,width=600",
+    "natural": "600x600",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "2557e702-595a-43a8-a17e-4379ba390f38.jpg?im=Crop,rect=(982,0,900,1350),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "36704776-15c2-4a9e-a371-ec765fd9e220.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "294x441",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "415c2f7b-f829-4017-a08a-c3ae19b1fe5f.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4ba2f964-0517-4479-8934-698dbc813f10.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "300x449",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "31281c32-6367-4910-bd5a-66f11a508dcc.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "af7b44d1-b794-4c0b-bef1-232ea97daa98.jpeg?im=Crop,rect=(789,0,1024,1536),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "3be6a223-531f-46ad-95aa-2d696ab2957d.svg",
+    "natural": "156x48",
+    "rendered": "144x44",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "a8955520-826b-4ef2-85a8-49a67381bb2b.png?im=Crop,rect=(600,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "294b7b80-f427-41ce-a4e9-211a5c4e545e.jpg?im=Crop,rect=(1264,0,1024,1536),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "bfce9a07-ef7f-4f99-93c9-3df4ff9fc473.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "144x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d0322109-575b-45fd-9971-45190633c2b6.png?im=Crop,rect=(594,0,717,1076),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "ebd11568-a6e0-473c-8f22-b1d3d8b1cfae.png?im=Crop,rect=(1113,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "98da6d2b-71be-4926-a508-d9d1fd9930e1.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "604076ec-e54c-424e-b275-e7274eb9607e.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "144x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "847394d7-68d8-423a-ae10-64c57058fc3d.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "5bea57ca-5c05-4579-b4bd-039c66635ea7.png?im=Crop,rect=(426,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "6147b755-d1e0-4c86-9360-0488f5814491.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "144x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fdfe5a02-4402-4408-bbea-c21238d2c6f2.png?im=Crop,rect=(800,1,1194,1791),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "b442cebf-e437-4d55-8d00-d7715ffecc74.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "144x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "751e0db1-5bd5-4c90-b039-f8a9a165a901.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "9a93b6a0-e614-498d-b960-cc93afad08b3.png?im=Crop,rect=(911,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "9691886f-e2b6-4869-99c7-b7f4592addcb.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "144x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f16c225a-b3ba-49fe-8351-7068a18615a9.png?im=Crop,rect=(1535,0,1088,1632),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "d23362bf-eff0-4eda-b073-74a1b709791a.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "bb3e5f57-16c5-4945-853a-9e6c1c3d7a22.png?im=Crop,rect=(898,0,1088,1632),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "150095cf-8a6e-47fa-8464-a61c5b77b33f.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "144x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d6fa41bb-ce4c-4e62-809c-7f4b0c618f0d.png?im=Crop,rect=(577,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "a0763bc8-7875-4f2b-86e7-3deb49ca8555.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "144x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "b0020ce7-46e0-4222-9da0-d06c8fbfd9dc.png?im=Crop,rect=(737,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "d87ff0c7-810a-4f53-9a47-8f63e1ed4aa9.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "144x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "cb969da1-ac1b-4773-989a-07995f05a2fe.png?im=Crop,rect=(500,0,544,816),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "8c922f87-d8e9-4fac-b5f5-8449da29d0bf.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "144x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "77e6c11f-238e-4de3-a334-ba3d0f121f32.png?im=Crop,rect=(894,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "95441c00-4a7c-4ca0-b702-a0744ea9b49c.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "144x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "72eeb300-51c4-4455-87ca-4fbad06c9324.png?im=Crop,rect=(872,0,544,816),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "175fd154-8d6e-4e0b-b630-ff2caf6b724a.png?im=Crop,rect=(0,1186,1151,1726),allowExpansion",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "f58c084b-8db5-4c5f-a00c-67dd1c75312e.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "144x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "8dd9ba3e-acab-400d-8200-715ff4b6b5ed.jpg?im=Crop,rect=(1111,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "7764f2fd-9e93-4a20-9918-f59c65d29271.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "535beccc-bc2e-43e2-9c11-ef80f85d545e.png?im=Crop,rect=(956,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "a9916c9c-7fc9-4148-b721-7ffc5f7ae55a.png?im=Crop,rect=(321,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "2557e702-595a-43a8-a17e-4379ba390f38.jpg?im=Crop,rect=(982,0,900,1350),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "36704776-15c2-4a9e-a371-ec765fd9e220.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "415c2f7b-f829-4017-a08a-c3ae19b1fe5f.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4ba2f964-0517-4479-8934-698dbc813f10.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "cb8b69c6-6a3f-499d-bd2f-e8530c575da0.png?im=Crop,rect=(1689,0,1656,2484),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "315x473",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "65ea9e2e-c69b-4b28-b51d-ef6222dae37b.jpeg?im=Crop,rect=(2782,0,2048,3072),allowExpansion",
+    "natural": "2048x3072",
+    "rendered": "315x473",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "8e0a84a7-bbaf-4556-a012-6409b95af9ec.png?im=AspectCrop=(16,9)",
+    "natural": "427x240",
+    "rendered": "90x51",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "11486e34-b5c3-47c5-90c3-e88ef4b15de6.png?im=AspectCrop=(16,9);Resize,width=660",
+    "natural": "660x371",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "5eebcbe6-48c6-4f19-bb2d-f0a27438aaf6.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "379de85b-3f9e-452c-9890-b41951857941.png?im=AspectCrop=(1,1);Resize,width=660",
+    "natural": "660x660",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "095d1bec-1665-476d-b77d-33e55bc27906.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "c4cbfd2f-2984-4ffa-9722-42d02033955c.png?im=Crop,rect=(0,0,1920,1080),allowExpansion;Resize,width=660",
+    "natural": "660x371",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "80988bbd-2d17-4591-8939-367c003acd85.png?im=AspectCrop=(1,1);Resize,width=660",
+    "natural": "660x660",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "45ee61e8-252b-4cd0-a1d6-7c214a9a41f1.png?im=AspectCrop=(16,9)",
+    "natural": "913x514",
+    "rendered": "144x81",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "62c9f5ff-aa0c-4052-99e8-bd9bba14d4c2.png?im=Crop,rect=(870,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "06f59f8c-e001-40e4-9af7-b011ff91703c.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "e8ea9842-9866-4746-bf5c-2f483df4d863.jpg?im=Crop,rect=(1226,0,3072,3072),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "92b418f7-872f-43d5-9f59-6bed280f42f9.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "41027391-0e4d-4af2-b23f-b21fe8bd21b8.png?im=Crop,rect=(778,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "58b074e4-acaa-4b2c-8c9d-f338ea822ebd.jpeg?im=Crop,rect=(175,0,1024,1536),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4a71a971-c7f2-4857-80d5-3483d3fc1582.png?im=Crop,rect=(1141,0,1088,1632),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ee4139fd-fcd4-43c8-b068-e4caa6c591ee.jpeg?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "2db67ad8-7c08-41e5-b80d-7db22bab0aa1.png?im=Crop,rect=(530,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "d2af934f-956b-4d30-b520-5f198f0a900d.png?im=Crop,rect=(1069,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "adafc1f4-a88d-4a17-9c61-e6368da9b6af.jpg?im=Crop,rect=(2745,0,2048,3072),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "7d57eb46-67f1-4f4a-8968-f37b834b299a.png?im=Crop,rect=(898,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "fda3ecc0-d013-4acb-85dd-e3e893fc53a0.jpeg?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "41027391-0e4d-4af2-b23f-b21fe8bd21b8.png?im=Crop,rect=(778,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "58b074e4-acaa-4b2c-8c9d-f338ea822ebd.jpeg?im=Crop,rect=(175,0,1024,1536),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4a71a971-c7f2-4857-80d5-3483d3fc1582.png?im=Crop,rect=(1141,0,1088,1632),allowExpansion;Resize,width=660",
+    "natural": "660x990",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4118e974-1143-4e97-b270-bf33c1cdc91a.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "113b9e99-752a-45d4-a85c-7d1ab1414658.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "5bea57ca-5c05-4579-b4bd-039c66635ea7.png?im=Crop,rect=(412,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "6147b755-d1e0-4c86-9360-0488f5814491.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "310a3be3-9e7f-4d66-92da-9baf6e9fcc92.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "604076ec-e54c-424e-b275-e7274eb9607e.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bb3e5f57-16c5-4945-853a-9e6c1c3d7a22.png?im=Crop,rect=(515,0,1632,1632),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "82817d67-5faf-43d5-8805-561281146620.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "51316805-899f-47ef-b310-ad59f870f52b.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0b4b7216-693c-4204-bbbb-967535b07080.jpg?im=Crop,rect=(409,0,1203,1203),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "cbd079ac-0c61-4b7a-a691-b22aac4632e3.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eb63d8d2-2609-4a3f-9833-f3c0aa2d0630.jpg?im=Crop,rect=(778,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "c669c2a0-3e71-4972-a094-b42107309adb.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "77e6c11f-238e-4de3-a334-ba3d0f121f32.png?im=Crop,rect=(894,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "95441c00-4a7c-4ca0-b702-a0744ea9b49c.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "9a93b6a0-e614-498d-b960-cc93afad08b3.png?im=Crop,rect=(736,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "9691886f-e2b6-4869-99c7-b7f4592addcb.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "03949148-5ec9-4734-85e3-92c951b4871b.png?im=Crop,rect=(591,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "c07e67f1-8ce8-422e-ad3e-1f65f3c7e099.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f625a406-bb1c-43de-8c0b-264a2390d4a1.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "8748dced-0731-4101-8d93-2619b67695e2.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "d6fa41bb-ce4c-4e62-809c-7f4b0c618f0d.png?im=Crop,rect=(577,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "a0763bc8-7875-4f2b-86e7-3deb49ca8555.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "b169534f-1ac4-4c81-9326-919e6d6f717d.png?im=Crop,rect=(885,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "eae91fa4-ee3d-49cc-960c-ebbb7a5c2961.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7c40f568-dfe0-4104-ac27-a6f2babe6cfc.jpg?im=Crop,rect=(825,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "ccf1ff6d-278e-432e-86a7-7ea5e2972ae6.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "7c85a36e-6641-4e27-a609-a4bbbe9d6cf8.jpg?im=AspectCrop=(1,1);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "d67b0f42-d04d-418e-9a3f-78f4bf88df1c.jpg?im=Crop,rect=(0,0,1073,1610),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "7e9e5643-ec69-4a8c-946e-128e831346b7.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "b0020ce7-46e0-4222-9da0-d06c8fbfd9dc.png?im=Crop,rect=(502,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "d87ff0c7-810a-4f53-9a47-8f63e1ed4aa9.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bb0c8819-d462-4e41-8dd3-34d270b32102.png?im=Crop,rect=(358,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "abad7dc3-afc8-4b85-bd84-03083751be43.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20f3195d-4f8e-42bd-ad7b-54489d97cf3e.png?im=Crop,rect=(967,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "511673b2-4ab2-42b9-ba7a-4e16f97d4037.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "612baf0b-6eb8-4e6d-8710-8c722851f4c0.png?im=Crop,rect=(1037,0,1632,1632),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "a0763bc8-7875-4f2b-86e7-3deb49ca8555.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bbafbeaa-d61d-426d-8d86-f0a2dbe80441.png?im=AspectCrop=(1,1);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "dd207d21-35aa-432c-ad5e-2ad59755dd07.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "db8277e3-0e42-4454-a509-8f747e366f00.png?im=Crop,rect=(595,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "d3bca125-017f-4017-a446-1f11dc6e41de.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "dd7eb77a-efbb-422e-84da-c9dcc52925b2.png?im=Crop,rect=(896,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "666597d5-eb5c-4435-b890-b0a3eccd02ef.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ce018b44-5420-41c3-aa1b-fdaab26215be.png?im=AspectCrop=(1,1);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "59f55b97-dd55-4cc9-a621-702881f9aefe.jpg?im=Crop,rect=(774,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "47ad7b6d-efe2-4b9b-89d9-a8f55ad51d64.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "502354de-40c4-4d9e-b3dc-3ad6bba06419.png?im=Crop,rect=(787,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "8823dd7b-0d9c-426c-9d18-ef3453386bdb.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "c6a1092f-0342-460a-adb4-b030b7def2f9.jpg?im=Crop,rect=(635,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "8b2243b0-839d-4ab9-96ce-dde70353a35f.png?im=Crop,rect=(394,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "3813d8cf-7bb3-4aa3-86e1-00d9c31d1f2a.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "499fb1c9-6fd9-4c02-97b3-991a2ba43f91.png?im=AspectCrop=(1,1);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "08369b5a-4f7c-4dbc-bcc9-21cfa5844697.png?im=Crop,rect=(576,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "e827d019-ed2e-4140-9334-1a6d7fd5b116.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bd2644fd-ba63-4092-8b9f-4059fd5e6fb4.jpg?im=Crop,rect=(730,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "ac66e7e0-1afb-4a04-9952-1fdcacf1bf3e.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "2e844f99-0679-4476-85f6-72bc6aaf0ff0.png?im=Crop,rect=(1496,0,1215,1822),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "26342120-4b8c-4ed7-a4ca-748a8bc8ec9c.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "a06ba7c7-7dab-4662-9968-bf586b743af7.png?im=AspectCrop=(1,1);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "afca804d-eb45-428b-a74f-0f00dde42b3a.png?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "e58a77f3-7bbb-451e-bf05-0a4a26a40ea2.jpg?im=Crop,rect=(420,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "525d9e7d-1f1c-4340-ad61-1ea560550879.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "593331ed-48ed-4a8a-9ad8-249c3572c863.jpg?im=Crop,rect=(533,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "f6620cdd-a0f4-4b07-9521-bc773ce29515.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "afdc0a7a-7626-4722-8193-db1087104e45.png?im=Crop,rect=(816,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "b1a87d26-0d8c-4089-acf7-eb001c46d3a9.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ec3c6775-60ed-4b39-bbbc-1c3c2eb7dff6.jpg?im=Crop,rect=(666,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "d6c336ac-3094-4383-8465-8fdd2c0ab5f6.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ac1ea336-ce0f-4f7f-91c3-7e63f6fb8884.jpg?im=Crop,rect=(939,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "bd2d1b83-86f1-4f74-bdff-f596da44718e.jpg?im=Crop,rect=(682,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "064b64fc-2c73-489e-b43f-7e2f6d4dcafc.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "68619213-dba4-4d90-9182-0c6e54ef577c.jpg?im=Crop,rect=(1120,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "c687b180-2c8f-4448-adca-f0382320799a.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "96024e63-b350-42d5-a833-60910a9905dd.png?im=Crop,rect=(50,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "1c872517-e756-4b17-a219-834e790f373d.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ad07f038-7c41-4940-9ef3-3b1241127ee3.jpg?im=Crop,rect=(2625,0,3376,3376),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "e71a0e62-8b14-462f-b727-f952aca6a0bd.jpg?im=Crop,rect=(1014,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "15285e1d-6aa8-4356-b931-a5a156369ec5.png?im=Crop,rect=(911,0,1123,1684),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "840ee4a1-3e8e-4ac5-8070-bf9911f3bd70.jpg?im=Crop,rect=(503,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "9c12262b-ee5c-428a-8c5c-3f1d534e8443.png?im=Crop,rect=(1112,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "c32077aa-1def-4215-8579-0875383af9b8.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "221c327f-b55d-4d53-8871-b08b429e059a.jpg?im=AspectCrop=(2,3);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "72d1d000-8dce-46a7-9e82-2c0e29337a7e.jpg?im=Crop,rect=(838,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "1a8c1e01-8fae-4c7a-b479-a589bcb73a62.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "94a5c575-6173-4c82-a11a-b83e64b159a6.jpg?im=Crop,rect=(2854,0,4724,7087),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "c0aeb4bd-3cb9-45ca-9dc3-5a9d87b59439.jpg?im=Crop,rect=(713,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "a3dacc60-2b49-4520-9e41-c145f3ada8b1.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "973043e2-edc7-465d-aac5-9843567f3898.jpg?im=Crop,rect=(256,0,465,698),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "b6e9b778-00ed-4576-b8fc-e7a116ca8fac.jpg?im=Crop,rect=(994,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "7b7f3647-20e1-418c-801f-fb1aa0e4d6bf.jpg?im=AspectCrop=(16,9);Resize,width=660",
+    "natural": "0x0",
+    "rendered": "214x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "63833c79-dc42-4769-b89a-5311f561afc1.jpg?im=Crop,rect=(760,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "902ca3a1-603f-4600-9e77-94a6534a1119.jpg?im=Crop,rect=(725,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "261eee31-1af6-4330-8c8b-0dd74dc4c122.jpg?im=Crop,rect=(576,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "10dc2333-ee04-4923-847d-3842de012d46.jpg?im=Crop,rect=(863,0,720,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "3706d8be-b6e8-4d8f-8f85-16ed46ee6b5b.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "b52350c0-2607-4e9b-94f3-aac75e531a5a.jpg?im=Crop,rect=(652,0,1080,1080),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x158",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "eaebfbbf-6d4c-4c99-8135-8698a57e8974.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "08dc94d0-68ed-483a-8a13-91ef7812eda4.png?im=Crop,rect=(912,282,532,798),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x280",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "ac6c6966-b2a9-497f-a43b-5516d46f71cc.png?im=AspectCrop=(16,9)",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "c19a21a7-22f2-4a50-b753-ab2285b120bc.jpg?im=Crop,rect=(1008,0,900,1350),allowExpansion;Resize,width=660",
+    "natural": "0x0",
+    "rendered": "280x420",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "6fcab6ec-285b-4545-a46d-72f4927d4bbe.svg",
+    "natural": "103x36",
+    "rendered": "150x52",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918.svg",
+    "natural": "0x0",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "a6732ee4-95cf-4951-9c4b-3675c7154f7e.svg",
+    "natural": "0x0",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "49664893-bfc1-4d79-9208-3bdd7083126b.svg",
+    "natural": "0x0",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "c48097ef-90ed-4c24-aa40-1764649e72ff.svg",
+    "natural": "0x0",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h3",
+    "text": "Neurons",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sainsbury’s redefines customer l",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Aqua - Where intelligence meets ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply earns “NVIDIA Physical AI ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Saipem improves safety and opera",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sovereign Cloud in Financial Ser",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Enabling AI in consumer credit: ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply Model Factory",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Brick Cognitive: Agentic AI to s",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How Unipol improves insurance pr",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Symbiosis. The Operating Model f",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "BMW promotes CO₂-optimised charg",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Easypersonaltrainer, the video t",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Student Tech Clash",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A more efficient cloud for Toyot",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Rethink software development wit",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply announces a partnership wi",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Generali Country Italia boosts C",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "More reliability in payment serv",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "IVECO accelerates digital transf",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "IEO innovates mammographic scree",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Delivering Beauty Faster: KIKO M",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What is Generative Engine Optimi",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply Cloud Service Providers Mo",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "An interactive gaming experience",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Prebuilt AI Apps",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI-Powered Procurement",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "The dual face of artificial inte",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Neurons",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sainsbury’s redefines customer l",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Aqua - Where intelligence meets ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "It's not about simply having a v",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "28px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Innovation is no accident. Your ",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "28px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "You can do more than looking for",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "28px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Don't just tell your visions, ma",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "28px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Don’t make it one day; make it d",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "28px",
+    "family": "aawdfdgnxz",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply Immersive Experience",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Bringing innovation across all i",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "28px",
+    "family": "khanqyjjei",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Stellantis accelerates the trans",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Scaling AI Adoption Across The A",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Oxfordshire County Council accel",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How Audi is redefining software ",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Amplifon integrates its data eco",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Puma accelerates logistics innov",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "ADR optimizes the intelligent ma",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Latest insights",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "sekprcvhoj",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Agentic AI: from copilot to auto",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sovereign AI for European Organi",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sovereign AI Coding: Running On-",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Agentic AI for Batch Application",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Process Intelligence and AI in t",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "LLMOps: How organisations can sc",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Total Search Marketing: rethinki",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How companies can build a compet",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Modernize SAP for the AI Era wit",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Agentic AI: from copilot to auto",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sovereign AI for European Organi",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sovereign AI Coding: Running On-",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A new model of manufacturing: di",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "BMW promotes CO₂-optimised charg",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Unipol accelerates innovation in",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Generali Country Italia enhances",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "BMW accelerates migration to clo",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Game, set, AI: match-changing in",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Preserving and enhancing St. Pet",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Riverty transforms customer serv",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Delivering Beauty Faster: KIKO M",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A more efficient cloud for Toyot",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "An AI-supported customer insight",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Arca Fondi: a new dialogue with ",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "More reliability in payment serv",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Devbot: Audi’s intelligent multi",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Making PUMA run faster with LEA ",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A new era in design: generative ",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Enhancing consumer checking onbo",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "IVECO accelerates digital transf",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Shorter delivery times for the s",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Smart Bean: the intelligent assi",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI to protect Nexi's payments",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "An AI-driven dynamic pricing mod",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "agrirouter 2.0: A modern data pl",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI enhancing expert assistance a",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Optimizing portfolios with quant",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Cloud migration without downtime",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "An AI-driven podcast production ",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Geox takes a step forward with t",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "heyOBI: a holistic CX across all",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Dialogue with Luigi Einaudi than",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Journey to low-code",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Racing ahead with Sabelt's digit",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "UnipolSai renews one-to-one inte",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Step into the new era of Spatial",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "From showcase to purchase, a ste",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A new order management system to",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "CARIAD creates centralised data ",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Audi revolutionizes internal doc",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Omnichannel and order management",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Spotlight on AI-embodied agents",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "DISH Order: Development of a fai",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Redefining IT system integration",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "More Flexibility for Charging Pa",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Meet Rose, the Digital Human",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Fraport: computer vision and AI ",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reply Labs",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Meta Minutes",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A new multi-channel platform for",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Enhancing Cloud Services of an O",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Intelligent diagnostics for on-b",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Say “Hello!” to digital humans",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Hyperautomation in private banki",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Machine translation as a service",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Digital innovation starts from t",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Wealth Management observatory | ",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "The first virtual 'Unreal 5' web",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Global bank cloud migration prog",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "\"Please don't buy\", change the w",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Predictive Maintenance with SPOT",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Coca-Cola: the benefits of advan",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Magnum Michelangelo: Social Medi",
+    "color": "rgb(21, 31, 39)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "LEA Reply™",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Alaska",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Product & Accelerator",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "News",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Research",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Case Study",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "flushText": [
+   {
+    "tag": "h3",
+    "text": "Neurons",
+    "left": -536
+   },
+   {
+    "tag": "h3",
+    "text": "Sainsbury’s redefines custom",
+    "left": -232
+   },
+   {
+    "tag": "h3",
+    "text": "Agentic AI: from copilot to ",
+    "left": -840
+   },
+   {
+    "tag": "h3",
+    "text": "Sovereign AI for European Or",
+    "left": -536
+   },
+   {
+    "tag": "h3",
+    "text": "Sovereign AI Coding: Running",
+    "left": -232
+   }
+  ],
+  "contentBoxes": [
+   {
+    "sel": "hero-slider__rule",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "reply-card-body",
+    "width": 216,
+    "left": -536
+   },
+   {
+    "sel": "reply-card-body",
+    "width": 216,
+    "left": -232
+   },
+   {
+    "sel": "reply-card-body",
+    "width": 231,
+    "left": 64
+   },
+   {
+    "sel": "reply-card-body",
+    "width": 216,
+    "left": 376
+   },
+   {
+    "sel": "reply-card-body",
+    "width": 216,
+    "left": 680
+   },
+   {
+    "sel": "reply-card-body",
+    "width": 216,
+    "left": 984
+   },
+   {
+    "sel": "reply-card-body",
+    "width": 216,
+    "left": 1288
+   },
+   {
+    "sel": "reply-card-body",
+    "width": 216,
+    "left": 1592
+   },
+   {
+    "sel": "reply-card-body",
+    "width": 216,
+    "left": 1896
+   },
+   {
+    "sel": "reply-card-body",
+    "width": 216,
+    "left": 2200
+   },
+   {
+    "sel": "reply-card-body",
+    "width": 216,
+    "left": 2504
+   }
+  ]
+ }
+}

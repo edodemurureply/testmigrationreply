@@ -1,0 +1,6272 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-17T00:47:17.199Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.reply.com/en/design",
+  "at": "2026-11-17T00:46:53.997Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6945,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-bottom.w-full > div.logo.flex > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "go to homepage",
+    "href": "/en"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 906,
+    "y": 28,
+    "w": 41,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 1225,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "custom-menu-runtime.header.flex > nav.header-bottom.w-full > button.hidden.lg:block",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.grid-bg__container.absolute > picture > img.grid-bg.w-full",
+    "x": 0,
+    "y": 49,
+    "w": 1440,
+    "h": 810,
+    "text": "",
+    "file": "e1df7de8-831d-4955-8792-c45f5991911b"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h1#gllr2",
+    "x": 177,
+    "y": 417,
+    "w": 861,
+    "h": 70,
+    "level": 1,
+    "text": "design"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h1#gllr2 > span.colors-1-gbfb",
+    "x": 177,
+    "y": 416,
+    "w": 223,
+    "h": 71,
+    "text": "Design"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 289,
+    "y": 932,
+    "w": 861,
+    "h": 151,
+    "text": "We design the experiences of tomorrow, that make businesses future-proof."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#0y8LC > div.reply-card-image-container.aspect-w-2 > a.absolute.h-full",
+    "x": 64,
+    "y": 1203,
+    "w": 1312,
+    "h": 656,
+    "text": "designing agentic experiences",
+    "href": "/en/design/designing-agentic-experiences"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.absolute.w-full > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 64,
+    "y": 1203,
+    "w": 1312,
+    "h": 738,
+    "text": "",
+    "file": "2f861f3b-e0b2-4a10-bf7e-fe79a2b1927a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.category-label.text-white > div.category-name",
+    "x": 193,
+    "y": 1442,
+    "w": 106,
+    "h": 14,
+    "text": "Best Practice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-grid.pointer-events-none > div.reply-card-body > a.pointer-events-auto",
+    "x": 177,
+    "y": 1480,
+    "w": 523,
+    "h": 39,
+    "text": "designing agentic experiences",
+    "href": "/en/design/designing-agentic-experiences"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a.pointer-events-auto > h3.h4.text-white",
+    "x": 177,
+    "y": 1480,
+    "w": 523,
+    "h": 39,
+    "level": 3,
+    "text": "designing agentic experiences"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > article.reply-card-abstract.paragraph-01--light > p",
+    "x": 177,
+    "y": 1539,
+    "w": 523,
+    "h": 82,
+    "text": "Spark Reply's approach helps complex organisations in architecting intent-driven"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#fZ6WN",
+    "x": 177,
+    "y": 2099,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "our services"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-16.aspect-h-9 > picture > img.content.picture",
+    "x": -387,
+    "y": 2224,
+    "w": 411,
+    "h": 231,
+    "text": "",
+    "file": "35e557cb-1fd0-4f0e-8390-ba07be1fbd62"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h5#jkawY",
+    "x": -387,
+    "y": 2497,
+    "w": 411,
+    "h": 31,
+    "level": 5,
+    "text": "launch innovative experiences"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-left",
+    "x": -387,
+    "y": 2549,
+    "w": 411,
+    "h": 81,
+    "text": "Re-imagine or enhance the product / service portfolio to meet the expectations o"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-16.aspect-h-9 > picture > img.content.picture",
+    "x": 64,
+    "y": 2224,
+    "w": 411,
+    "h": 231,
+    "text": "",
+    "file": "af6e55e4-cc07-4838-a7f5-488f898a5cd9"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h5#klwxw",
+    "x": 64,
+    "y": 2497,
+    "w": 411,
+    "h": 31,
+    "level": 5,
+    "text": "scaling internal teams at speed"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-left",
+    "x": 64,
+    "y": 2549,
+    "w": 411,
+    "h": 81,
+    "text": "Support in creating and scaling high-performing, design and product management t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-left > em",
+    "x": 64,
+    "y": 2648,
+    "w": 79,
+    "h": 16,
+    "text": "DesignOps"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-left > em",
+    "x": 64,
+    "y": 2671,
+    "w": 162,
+    "h": 16,
+    "text": "Product management"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-left > em",
+    "x": 64,
+    "y": 2695,
+    "w": 126,
+    "h": 16,
+    "text": "CX management"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-16.aspect-h-9 > picture > img.content.picture",
+    "x": 515,
+    "y": 2224,
+    "w": 411,
+    "h": 231,
+    "text": "",
+    "file": "56d11f0a-408e-4978-a5dc-e9965318d10d"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h5#baWkU",
+    "x": 515,
+    "y": 2497,
+    "w": 411,
+    "h": 31,
+    "level": 5,
+    "text": "identify growth opportunities"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-left",
+    "x": 515,
+    "y": 2549,
+    "w": 411,
+    "h": 81,
+    "text": "Interpret and anticipate tomorrow’s needs to identify new opportunities and chal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-left > em",
+    "x": 515,
+    "y": 2648,
+    "w": 123,
+    "h": 16,
+    "text": "Growth strategy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-left > em",
+    "x": 515,
+    "y": 2671,
+    "w": 149,
+    "h": 16,
+    "text": "Experience strategy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-left > em",
+    "x": 515,
+    "y": 2695,
+    "w": 145,
+    "h": 16,
+    "text": "Innovation strategy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-left > em",
+    "x": 515,
+    "y": 2719,
+    "w": 141,
+    "h": 16,
+    "text": "Customer research"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-16.aspect-h-9 > picture > img.content.picture",
+    "x": 965,
+    "y": 2224,
+    "w": 411,
+    "h": 231,
+    "text": "",
+    "file": "58c4d8cf-d745-4f6d-bd81-2c3f2af9ffda"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h5#Yx8qS",
+    "x": 965,
+    "y": 2497,
+    "w": 411,
+    "h": 31,
+    "level": 5,
+    "text": "start-up new businesses"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-left",
+    "x": 965,
+    "y": 2549,
+    "w": 411,
+    "h": 81,
+    "text": "Support in seizing whole new market opportunities through disruptive experiences"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-left > em",
+    "x": 965,
+    "y": 2648,
+    "w": 139,
+    "h": 16,
+    "text": "Business modelling"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-left > em",
+    "x": 965,
+    "y": 2671,
+    "w": 125,
+    "h": 16,
+    "text": "Product strategy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-left > em",
+    "x": 965,
+    "y": 2695,
+    "w": 253,
+    "h": 16,
+    "text": "Concept to launch design and dev."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-left > em",
+    "x": 965,
+    "y": 2719,
+    "w": 164,
+    "h": 16,
+    "text": "Go to market strategy"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-16.aspect-h-9 > picture > img.content.picture",
+    "x": 1416,
+    "y": 2224,
+    "w": 411,
+    "h": 231,
+    "text": "",
+    "file": "35e557cb-1fd0-4f0e-8390-ba07be1fbd62"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h5#jkawY",
+    "x": 1416,
+    "y": 2497,
+    "w": 411,
+    "h": 31,
+    "level": 5,
+    "text": "launch innovative experiences"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-left",
+    "x": 1416,
+    "y": 2549,
+    "w": 411,
+    "h": 81,
+    "text": "Re-imagine or enhance the product / service portfolio to meet the expectations o"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-left > em",
+    "x": 1416,
+    "y": 2648,
+    "w": 259,
+    "h": 16,
+    "text": "Next-generation experience design"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-left > em",
+    "x": 1416,
+    "y": 2671,
+    "w": 107,
+    "h": 16,
+    "text": "Service design"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-left > em",
+    "x": 1416,
+    "y": 2695,
+    "w": 44,
+    "h": 16,
+    "text": "UX/UI"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-left > em",
+    "x": 1416,
+    "y": 2719,
+    "w": 212,
+    "h": 16,
+    "text": "Digital product development"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-left > em",
+    "x": 1416,
+    "y": 2743,
+    "w": 151,
+    "h": 16,
+    "text": "Customer validation"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-xl-align-left > em",
+    "x": 1416,
+    "y": 2767,
+    "w": 162,
+    "h": 16,
+    "text": "Product management"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title__container--nav > div.slider-with-title__nav > button.slider-with-title__prev.round-bt",
+    "x": 1159,
+    "y": 2136,
+    "w": 48,
+    "h": 48,
+    "text": "prev item"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title__container--nav > div.slider-with-title__nav > button.slider-with-title__next.round-bt",
+    "x": 1215,
+    "y": 2136,
+    "w": 48,
+    "h": 48,
+    "text": "next item"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#tC2fw",
+    "x": 177,
+    "y": 3067,
+    "w": 1087,
+    "h": 43,
+    "level": 2,
+    "text": "projects and expertise"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#20971 > div.reply-card-image-container.aspect-w-2 > a.absolute.h-full",
+    "x": 64,
+    "y": 3151,
+    "w": 1312,
+    "h": 656,
+    "text": "bmw promotes co₂-optimised charging",
+    "href": "/en/digital-experience/bmw-promotes-co2-optimised-charging"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.absolute.w-full > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 64,
+    "y": 3151,
+    "w": 1312,
+    "h": 738,
+    "text": "",
+    "file": "5bea57ca-5c05-4579-b4bd-039c66635ea7"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-logo.aspect-w-16 > img",
+    "x": 177,
+    "y": 3326,
+    "w": 113,
+    "h": 64,
+    "text": "",
+    "file": "6147b755-d1e0-4c86-9360-0488f5814491"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.category-label.text-white > div.category-name",
+    "x": 193,
+    "y": 3413,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-grid.pointer-events-none > div.reply-card-body > a.pointer-events-auto",
+    "x": 177,
+    "y": 3451,
+    "w": 523,
+    "h": 78,
+    "text": "bmw promotes co₂-optimised charging",
+    "href": "/en/digital-experience/bmw-promotes-co2-optimised-charging"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a.pointer-events-auto > h3.h4.text-white",
+    "x": 177,
+    "y": 3451,
+    "w": 523,
+    "h": 78,
+    "level": 3,
+    "text": "bmw promotes co₂-optimised charging"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > article.reply-card-abstract.paragraph-01--light > p",
+    "x": 177,
+    "y": 3550,
+    "w": 523,
+    "h": 82,
+    "text": "With the ‘COOL’ feature, the automotive group helps customers identify the ideal"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#24784 > a",
+    "x": 64,
+    "y": 3891,
+    "w": 411,
+    "h": 718,
+    "text": "designing a global ai learning experience at scale case study",
+    "href": "/spur-reply/en/customer-stories/delivering-global-ai-learning-experiences-at-scale"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 64,
+    "y": 3891,
+    "w": 411,
+    "h": 616,
+    "text": "",
+    "file": "6933639c-60a7-4690-ad7f-db2bcdae80f8"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 80,
+    "y": 4527,
+    "w": 379,
+    "h": 52,
+    "text": "designing a global ai learning experience at scale",
+    "href": "/spur-reply/en/customer-stories/delivering-global-ai-learning-experiences-at-scale"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 80,
+    "y": 4527,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "designing a global ai learning experience at scale"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#21006 > a",
+    "x": 515,
+    "y": 3891,
+    "w": 411,
+    "h": 539,
+    "text": "modernizing confluent’s partner experience for impact and scalability case study",
+    "href": "/en/digital-experience/modernizing-confluent-partner-experience-for-impact-and-scalability"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 515,
+    "y": 3891,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "df675fe9-56c0-4dc4-bfbb-d347d52949c2"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > div.reply-card-logo.absolute > img",
+    "x": 539,
+    "y": 3915,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "dcf43475-b915-44d6-8983-4bbb6bd19bc1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 531,
+    "y": 4321,
+    "w": 379,
+    "h": 78,
+    "text": "modernizing confluent’s partner experience for impact and scalability",
+    "href": "/en/digital-experience/modernizing-confluent-partner-experience-for-impact-and-scalability"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 531,
+    "y": 4321,
+    "w": 379,
+    "h": 78,
+    "level": 3,
+    "text": "modernizing confluent’s partner experience for impact and scalability"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 998,
+    "y": 3924,
+    "w": 345,
+    "h": 194,
+    "text": "",
+    "file": "f444ef5c-73eb-4c1e-a3c7-565d804efbc3"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#7188 > div.reply-card-body > a",
+    "x": 998,
+    "y": 4138,
+    "w": 345,
+    "h": 52,
+    "text": "glassx: from insurance to the market",
+    "href": "/en/design/glassx-from-insurance-to-the-market"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 998,
+    "y": 4138,
+    "w": 345,
+    "h": 52,
+    "level": 3,
+    "text": "glassx: from insurance to the market"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 1014,
+    "y": 4206,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > article.reply-card-abstract.text > p",
+    "x": 998,
+    "y": 4238,
+    "w": 345,
+    "h": 95,
+    "text": "We supported Unipol, a leading Insurance company in Italy, in designing a new mo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#6819 > a",
+    "x": 965,
+    "y": 4436,
+    "w": 411,
+    "h": 487,
+    "text": "designing a secure trading platform case study",
+    "href": "/work/designing-a-secure-trading-platform"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 965,
+    "y": 4436,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "5d6574c9-6fe5-442d-9bff-e1aafb5ba5fc"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 981,
+    "y": 4866,
+    "w": 379,
+    "h": 26,
+    "text": "designing a secure trading platform",
+    "href": "/work/designing-a-secure-trading-platform"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 981,
+    "y": 4866,
+    "w": 379,
+    "h": 26,
+    "level": 3,
+    "text": "designing a secure trading platform"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#3064 > a",
+    "x": 515,
+    "y": 4496,
+    "w": 411,
+    "h": 718,
+    "text": "a new digital experience for insurance agencies case study",
+    "href": "/en/design/re-thinking-the-agency-experience"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 515,
+    "y": 4496,
+    "w": 411,
+    "h": 616,
+    "text": "",
+    "file": "50e63e33-25f1-490f-9026-7eaba94a8355"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 531,
+    "y": 5132,
+    "w": 379,
+    "h": 52,
+    "text": "a new digital experience for insurance agencies",
+    "href": "/en/design/re-thinking-the-agency-experience"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 531,
+    "y": 5132,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "a new digital experience for insurance agencies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#3066 > a",
+    "x": 64,
+    "y": 4676,
+    "w": 411,
+    "h": 513,
+    "text": "redesigning the digital buying journey case study",
+    "href": "/en/design/re-thinking-buying-experience"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 64,
+    "y": 4676,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "b829b247-7526-498d-8a6f-bec136fff03c"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body > a",
+    "x": 80,
+    "y": 5106,
+    "w": 379,
+    "h": 52,
+    "text": "redesigning the digital buying journey",
+    "href": "/en/design/re-thinking-buying-experience"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 80,
+    "y": 5106,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "redesigning the digital buying journey"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-binding > div.pager-container > button.more.pager",
+    "x": 631,
+    "y": 5276,
+    "w": 178,
+    "h": 48,
+    "text": "load more content"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.banner-content.flex > picture.banner-logo > img.picture.grid-bg",
+    "x": 177,
+    "y": 5475,
+    "w": 103,
+    "h": 36,
+    "text": "reply rose logo",
+    "file": "6fcab6ec-285b-4545-a46d-72f4927d4bbe"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-banner-container.rosepub > div.banner-content.flex > h3.banner-title.text-white",
+    "x": 177,
+    "y": 5523,
+    "w": 411,
+    "h": 202,
+    "level": 3,
+    "text": "one tap between your ideas and the path to reach them"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-banner-container.rosepub > div.banner-content.flex > div.banner-abstract.text-white",
+    "x": 177,
+    "y": 5745,
+    "w": 411,
+    "h": 82,
+    "text": "Book your one-to-one online session with Reply’s worldwide network of experts an"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-banner-container.rosepub > div.banner-content.flex > a#rose-banner-cta",
+    "x": 177,
+    "y": 5850,
+    "w": 187,
+    "h": 56,
+    "text": "go to rose",
+    "href": "/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cards-slider__item.carousel-item > div.rose-card-text.absolute > h4.rose-card-title.line-clamp-4",
+    "x": 997,
+    "y": 5846,
+    "w": 234,
+    "h": 52,
+    "level": 4,
+    "text": "want to know more about this topic?"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cards-slider__item.carousel-item > div.rose-card-text.absolute > a#rb-ct-btn",
+    "x": 997,
+    "y": 5922,
+    "w": 164,
+    "h": 56,
+    "text": "ask rose",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-mu4tw",
+    "x": 173,
+    "y": 6182,
+    "w": 1053,
+    "h": 26,
+    "text": "Discover also"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.enkibqpmqi > div > a#enKAu",
+    "x": 185,
+    "y": 6236,
+    "w": 217,
+    "h": 48,
+    "text": "cx & digital commerce",
+    "href": "/en/cx-and-digital-commerce"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cxwlpyqbld > div > a#jqCu2",
+    "x": 434,
+    "y": 6236,
+    "w": 173,
+    "h": 48,
+    "text": "3d & mixed reality",
+    "href": "/en/3d-and-mixed-reality"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.uyvipuvgdl > div > a#KlsPM",
+    "x": 639,
+    "y": 6236,
+    "w": 73,
+    "h": 48,
+    "text": "gaming",
+    "href": "/en/gaming"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.exgmpohbnh > div > a#j0ma3",
+    "x": 743,
+    "y": 6236,
+    "w": 117,
+    "h": 48,
+    "text": "social media",
+    "href": "/en/social-media"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.uluxktookv > div > a#HqfFG",
+    "x": 892,
+    "y": 6236,
+    "w": 161,
+    "h": 48,
+    "text": "cloud computing",
+    "href": "/en/cloud-computing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.qkudeukdsy > div > a#9VtBG",
+    "x": 1085,
+    "y": 6236,
+    "w": 131,
+    "h": 48,
+    "text": "cybersecurity",
+    "href": "/en/cybersecurity"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.block > nav.footer.p-10 > a",
+    "x": 64,
+    "y": 6512,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 6608,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 6608,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 6655,
+    "w": 103,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 6700,
+    "w": 45,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 6745,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 6790,
+    "w": 67,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 6608,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 6608,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 6655,
+    "w": 142,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 6700,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 6762,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 6807,
+    "w": 149,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 6655,
+    "w": 161,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 6700,
+    "w": 127,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 6745,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 6655,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 6717,
+    "w": 154,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 6762,
+    "w": 147,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 6807,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "void(0)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Careers",
+    "x": 1112,
+    "y": 6608,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Contacts",
+    "x": 1112,
+    "y": 6688,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1112,
+    "y": 6768,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1124,
+    "y": 6780,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1184,
+    "y": 6768,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1196,
+    "y": 6780,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "a6732ee4-95cf-4951-9c4b-3675c7154f7e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1256,
+    "y": 6768,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1268,
+    "y": 6780,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "49664893-bfc1-4d79-9208-3bdd7083126b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1328,
+    "y": 6768,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1340,
+    "y": 6780,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "c48097ef-90ed-4c24-aa40-1764649e72ff"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > span",
+    "x": 64,
+    "y": 6912,
+    "w": 81,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > a.underline",
+    "x": 158,
+    "y": 6912,
+    "w": 136,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.text-white.py-3 > div.flex.justify-between > button#cookie-pref-center",
+    "x": 1276,
+    "y": 859,
+    "w": 164,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 9,
+    "offPage": 29,
+    "textNodes": 129,
+    "controls": 63,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 6,
+     "clipper": "div.slider-with-title__outer-container--items.overflow-hidden",
+     "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-left > em",
+     "text": "next-generation experience design",
+     "cutMin": 20,
+     "cutMax": 235
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.slider-with-title__outer-container--items.overflow-hidden",
+     "path": "div.pggibwrcrx > div.block > div.ProseMirror.content-body > h5#jkawY",
+     "text": "launch innovative experiences",
+     "cutMin": 365,
+     "cutMax": 387
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slider-with-title__outer-container--items.overflow-hidden",
+     "path": "div.pggibwrcrx > div.block > div.ProseMirror.content-body > p.text.text-xl-align-left",
+     "text": "re-imagine or enhance the product / service portfolio to mee",
+     "cutMin": 348,
+     "cutMax": 348
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--a355dc1b--aemcoder.aem.live/en/design",
+  "at": "2026-11-17T00:47:17.107Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6945,
+  "root": "main",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-main > div.site-header-logo > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "href": "/en"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-reply-logo > img",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "file": "reply-logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 900,
+    "y": 28,
+    "w": 46,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 1224,
+    "y": 28,
+    "w": 52,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-header-bar > nav.site-header-main > button.sm-collapsed",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-hero-pic.desktop > picture > img",
+    "x": 0,
+    "y": 49,
+    "w": 1440,
+    "h": 810,
+    "text": "",
+    "file": "media_17e8cabe1c973c771e813dcc143a08f8f3"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.r-grid > div.media-hero-title.r-cell > h1#design",
+    "x": 177,
+    "y": 417,
+    "w": 861,
+    "h": 70,
+    "level": 1,
+    "text": "design"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-hero-title.r-cell > h1#design > span",
+    "x": 177,
+    "y": 416,
+    "w": 228,
+    "h": 71,
+    "text": "Design"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.statement-cell.r-cell > div.statement-text > p",
+    "x": 289,
+    "y": 932,
+    "w": 861,
+    "h": 151,
+    "text": "We design the experiences of tomorrow, that make businesses future-proof."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-card-card > div.hero-card-image-container > a.hero-card-cover",
+    "x": 64,
+    "y": 1203,
+    "w": 1312,
+    "h": 656,
+    "text": "designing agentic experiences",
+    "href": "/en/design/designing-agentic-experiences"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-card-pic.desktop > picture > img",
+    "x": 64,
+    "y": 1203,
+    "w": 1312,
+    "h": 738,
+    "text": "",
+    "file": "media_1811349a48f9a402833e34fadc08b688e5"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 193,
+    "y": 1442,
+    "w": 118,
+    "h": 14,
+    "text": "Best Practice"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-card-body > div.hero-card-title > h3#designing-agentic-experiences",
+    "x": 177,
+    "y": 1480,
+    "w": 523,
+    "h": 39,
+    "level": 3,
+    "text": "designing agentic experiences"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-card-title > h3#designing-agentic-experiences > a",
+    "x": 177,
+    "y": 1483,
+    "w": 455,
+    "h": 32,
+    "text": "designing agentic experiences",
+    "href": "/en/design/designing-agentic-experiences"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-card-body > div.hero-card-abstract > p",
+    "x": 177,
+    "y": 1539,
+    "w": 523,
+    "h": 82,
+    "text": "Spark Reply's approach helps complex organisations in architecting intent-driven"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-text.r-grid > div.slider-with-title-title.r-cell > h3#our-services",
+    "x": 177,
+    "y": 2099,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "our services"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-media > picture > img",
+    "x": -387,
+    "y": 2224,
+    "w": 411,
+    "h": 231,
+    "text": "",
+    "file": "media_18c08a3bb9e9101c2ad410d15a31cde6ae"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item.clone > div.slider-with-title-item-title.heading > h5",
+    "x": -387,
+    "y": 2497,
+    "w": 411,
+    "h": 31,
+    "level": 5,
+    "text": "scaling internal teams at speed"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item.clone > div.slider-with-title-item-body > p",
+    "x": -387,
+    "y": 2549,
+    "w": 411,
+    "h": 82,
+    "text": "Support in creating and scaling high-performing, design and product management t"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-media > picture > img",
+    "x": 64,
+    "y": 2224,
+    "w": 411,
+    "h": 231,
+    "text": "",
+    "file": "media_12a0a02e2db6b8b1efef75d1d585c9ca75"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item.active > div.slider-with-title-item-title.heading > h5#identify-growth-opportunities",
+    "x": 64,
+    "y": 2497,
+    "w": 411,
+    "h": 31,
+    "level": 5,
+    "text": "identify growth opportunities"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item.active > div.slider-with-title-item-body > p",
+    "x": 64,
+    "y": 2549,
+    "w": 411,
+    "h": 82,
+    "text": "Interpret and anticipate tomorrow’s needs to identify new opportunities and chal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-item-body > p > em",
+    "x": 64,
+    "y": 2648,
+    "w": 117,
+    "h": 16,
+    "text": "Growth strategy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-item-body > p > em",
+    "x": 64,
+    "y": 2672,
+    "w": 146,
+    "h": 16,
+    "text": "Experience strategy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-item-body > p > em",
+    "x": 64,
+    "y": 2696,
+    "w": 139,
+    "h": 16,
+    "text": "Innovation strategy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-item-body > p > em",
+    "x": 64,
+    "y": 2720,
+    "w": 140,
+    "h": 16,
+    "text": "Customer research"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-media > picture > img",
+    "x": 515,
+    "y": 2224,
+    "w": 411,
+    "h": 231,
+    "text": "",
+    "file": "media_132af70411275fb7b0c13fed2ae268c37f"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-title.heading > h5#start-up-new-businesses",
+    "x": 515,
+    "y": 2497,
+    "w": 411,
+    "h": 31,
+    "level": 5,
+    "text": "start-up new businesses"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-body > p",
+    "x": 515,
+    "y": 2549,
+    "w": 411,
+    "h": 82,
+    "text": "Support in seizing whole new market opportunities through disruptive experiences"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-item-body > p > em",
+    "x": 515,
+    "y": 2648,
+    "w": 141,
+    "h": 16,
+    "text": "Business modelling"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-item-body > p > em",
+    "x": 515,
+    "y": 2672,
+    "w": 121,
+    "h": 16,
+    "text": "Product strategy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-item-body > p > em",
+    "x": 515,
+    "y": 2696,
+    "w": 249,
+    "h": 16,
+    "text": "Concept to launch design and dev."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-item-body > p > em",
+    "x": 515,
+    "y": 2720,
+    "w": 158,
+    "h": 16,
+    "text": "Go to market strategy"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-media > picture > img",
+    "x": 965,
+    "y": 2224,
+    "w": 411,
+    "h": 231,
+    "text": "",
+    "file": "media_1364bb4e69195def6e03d82fb2dbb5f986"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-title.heading > h5#launch-innovative-experiences",
+    "x": 965,
+    "y": 2497,
+    "w": 411,
+    "h": 31,
+    "level": 5,
+    "text": "launch innovative experiences"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-body > p",
+    "x": 965,
+    "y": 2549,
+    "w": 411,
+    "h": 82,
+    "text": "Re-imagine or enhance the product / service portfolio to meet the expectations o"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-item-body > p > em",
+    "x": 965,
+    "y": 2648,
+    "w": 255,
+    "h": 16,
+    "text": "Next-generation experience design"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-item-body > p > em",
+    "x": 965,
+    "y": 2672,
+    "w": 107,
+    "h": 16,
+    "text": "Service design"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-item-body > p > em",
+    "x": 965,
+    "y": 2696,
+    "w": 43,
+    "h": 16,
+    "text": "UX/UI"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-item-body > p > em",
+    "x": 965,
+    "y": 2720,
+    "w": 204,
+    "h": 16,
+    "text": "Digital product development"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-item-body > p > em",
+    "x": 965,
+    "y": 2743,
+    "w": 145,
+    "h": 16,
+    "text": "Customer validation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-item-body > p > em",
+    "x": 965,
+    "y": 2767,
+    "w": 158,
+    "h": 16,
+    "text": "Product management"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-media > picture > img",
+    "x": 1416,
+    "y": 2224,
+    "w": 411,
+    "h": 231,
+    "text": "",
+    "file": "media_18c08a3bb9e9101c2ad410d15a31cde6ae"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-title.heading > h5#scaling-internal-teams-at-speed",
+    "x": 1416,
+    "y": 2497,
+    "w": 411,
+    "h": 31,
+    "level": 5,
+    "text": "scaling internal teams at speed"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-body > p",
+    "x": 1416,
+    "y": 2549,
+    "w": 411,
+    "h": 82,
+    "text": "Support in creating and scaling high-performing, design and product management t"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-item-body > p > em",
+    "x": 1416,
+    "y": 2648,
+    "w": 81,
+    "h": 16,
+    "text": "DesignOps"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-item-body > p > em",
+    "x": 1416,
+    "y": 2672,
+    "w": 158,
+    "h": 16,
+    "text": "Product management"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-item-body > p > em",
+    "x": 1416,
+    "y": 2696,
+    "w": 124,
+    "h": 16,
+    "text": "CX management"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-controls.r-grid > div.slider-with-title-nav > button.slider-with-title-prev.round-bt",
+    "x": 1159,
+    "y": 2136,
+    "w": 48,
+    "h": 48,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-controls.r-grid > div.slider-with-title-nav > button.slider-with-title-next.round-bt",
+    "x": 1215,
+    "y": 2136,
+    "w": 48,
+    "h": 48,
+    "text": "next"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-heading-cell.r-cell > div.section-heading-title > h2#projects-and-expertise",
+    "x": 177,
+    "y": 3067,
+    "w": 1087,
+    "h": 43,
+    "level": 2,
+    "text": "projects and expertise"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card.reply-card-hero > div.reply-card-image-container > a.reply-card-cover",
+    "x": 64,
+    "y": 3150,
+    "w": 1312,
+    "h": 656,
+    "text": "bmw promotes co₂-optimised charging",
+    "href": "/en/digital-experience/bmw-promotes-co2-optimised-charging"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 64,
+    "y": 3150,
+    "w": 1312,
+    "h": 656,
+    "text": "",
+    "file": "media_1b44565809b0fe90e2d58f65dd95dec014"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 177,
+    "y": 3325,
+    "w": 113,
+    "h": 64,
+    "text": "",
+    "file": "media_1fa630a61a3562556cff33f37a5c734266"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 193,
+    "y": 3413,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#bmw-promotes-co-optimised-charging",
+    "x": 177,
+    "y": 3451,
+    "w": 523,
+    "h": 78,
+    "level": 3,
+    "text": "bmw promotes co₂-optimised charging"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#bmw-promotes-co-optimised-charging > a",
+    "x": 177,
+    "y": 3451,
+    "w": 523,
+    "h": 78,
+    "text": "bmw promotes co₂-optimised charging",
+    "href": "/en/digital-experience/bmw-promotes-co2-optimised-charging"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-abstract > p",
+    "x": 177,
+    "y": 3549,
+    "w": 523,
+    "h": 82,
+    "text": "With the ‘COOL’ feature, the automotive group helps customers identify the ideal"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 64,
+    "y": 3890,
+    "w": 411,
+    "h": 616,
+    "text": "designing a global ai learning experience at scale case study",
+    "href": "/spur-reply/en/customer-stories/delivering-global-ai-learning-experiences-at-scale"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 64,
+    "y": 3890,
+    "w": 411,
+    "h": 616,
+    "text": "",
+    "file": "media_17ceaa6e1388c4daab613470db94c155b0"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#designing-a-global-ai-learning-experience-at-scale",
+    "x": 80,
+    "y": 4526,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "designing a global ai learning experience at scale"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#designing-a-global-ai-learning-experience-at-scale > a",
+    "x": 80,
+    "y": 4526,
+    "w": 379,
+    "h": 52,
+    "text": "designing a global ai learning experience at scale",
+    "href": "/spur-reply/en/customer-stories/delivering-global-ai-learning-experiences-at-scale"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 96,
+    "y": 4594,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 515,
+    "y": 3890,
+    "w": 411,
+    "h": 411,
+    "text": "modernizing confluent’s partner experience for impact and scalability case study",
+    "href": "/en/digital-experience/modernizing-confluent-partner-experience-for-impact-and-scalability"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 515,
+    "y": 3890,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "media_1b361426434eff869213eab7443e53e6a7"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 539,
+    "y": 3914,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_1764f9f0ec10443dc721e2b15f1678f3eb"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#modernizing-confluents-partner-experience-for-impact-and-scalability",
+    "x": 531,
+    "y": 4321,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "modernizing confluent’s partner experience for impact and scalability"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#modernizing-confluents-partner-experience-for-impact-and-scalability > a",
+    "x": 531,
+    "y": 4321,
+    "w": 379,
+    "h": 52,
+    "text": "modernizing confluent’s partner experience for impact and scalability",
+    "href": "/en/digital-experience/modernizing-confluent-partner-experience-for-impact-and-scalability"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 547,
+    "y": 4389,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 998,
+    "y": 3923,
+    "w": 345,
+    "h": 194,
+    "text": "",
+    "file": "media_18616aa975ab42582e0649b8d90ab2f5ec"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#glassx-from-insurance-to-the-market",
+    "x": 998,
+    "y": 4137,
+    "w": 345,
+    "h": 52,
+    "level": 3,
+    "text": "glassx: from insurance to the market"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#glassx-from-insurance-to-the-market > a",
+    "x": 998,
+    "y": 4137,
+    "w": 345,
+    "h": 52,
+    "text": "glassx: from insurance to the market",
+    "href": "/en/design/glassx-from-insurance-to-the-market"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 1014,
+    "y": 4205,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-abstract > p",
+    "x": 998,
+    "y": 4237,
+    "w": 345,
+    "h": 95,
+    "text": "We supported Unipol, a leading Insurance company in Italy, in designing a new mo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 965,
+    "y": 4435,
+    "w": 411,
+    "h": 411,
+    "text": "designing a secure trading platform case study",
+    "href": "/work/designing-a-secure-trading-platform"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 965,
+    "y": 4435,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "media_1699af66d3790b5a1bed75a00e574733e5"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#designing-a-secure-trading-platform",
+    "x": 981,
+    "y": 4866,
+    "w": 379,
+    "h": 26,
+    "level": 3,
+    "text": "designing a secure trading platform"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#designing-a-secure-trading-platform > a",
+    "x": 981,
+    "y": 4866,
+    "w": 379,
+    "h": 26,
+    "text": "designing a secure trading platform",
+    "href": "/work/designing-a-secure-trading-platform"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 997,
+    "y": 4908,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 515,
+    "y": 4495,
+    "w": 411,
+    "h": 616,
+    "text": "a new digital experience for insurance agencies case study",
+    "href": "/en/design/re-thinking-the-agency-experience"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 515,
+    "y": 4495,
+    "w": 411,
+    "h": 616,
+    "text": "",
+    "file": "media_1f09da622a47f86e218f8d8b4311cb42dd"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#a-new-digital-experience-for-insurance-agencies",
+    "x": 531,
+    "y": 5131,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "a new digital experience for insurance agencies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#a-new-digital-experience-for-insurance-agencies > a",
+    "x": 531,
+    "y": 5131,
+    "w": 379,
+    "h": 52,
+    "text": "a new digital experience for insurance agencies",
+    "href": "/en/design/re-thinking-the-agency-experience"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 547,
+    "y": 5199,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 64,
+    "y": 4675,
+    "w": 411,
+    "h": 411,
+    "text": "redesigning the digital buying journey case study",
+    "href": "/en/design/re-thinking-buying-experience"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 64,
+    "y": 4675,
+    "w": 411,
+    "h": 411,
+    "text": "",
+    "file": "media_19c16c124ecb154c17762a48b36f36f7b9"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#redesigning-the-digital-buying-journey",
+    "x": 80,
+    "y": 5106,
+    "w": 379,
+    "h": 52,
+    "level": 3,
+    "text": "redesigning the digital buying journey"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#redesigning-the-digital-buying-journey > a",
+    "x": 80,
+    "y": 5106,
+    "w": 379,
+    "h": 52,
+    "text": "redesigning the digital buying journey",
+    "href": "/en/design/re-thinking-buying-experience"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 96,
+    "y": 5174,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-cell.r-cell > div.cards-wall-pager > div.cards-wall-more",
+    "x": 633,
+    "y": 5275,
+    "w": 174,
+    "h": 48,
+    "text": "load more content"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-logo > picture > img",
+    "x": 177,
+    "y": 5475,
+    "w": 103,
+    "h": 36,
+    "text": "reply rose logo",
+    "file": "media_1e36aa2918a3736dbda877e3fa482274ca"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-content > div.rose-cta-title > h3#one-tap-between-your-ideas-and-the-path-to-reach-them",
+    "x": 177,
+    "y": 5523,
+    "w": 411,
+    "h": 202,
+    "level": 3,
+    "text": "one tap between your ideas and the path to reach them"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-content > div.rose-cta-abstract > p",
+    "x": 177,
+    "y": 5744,
+    "w": 411,
+    "h": 82,
+    "text": "Book your one-to-one online session with Reply’s worldwide network of experts an"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-action > p.button-wrapper > a.button.primary",
+    "x": 177,
+    "y": 5850,
+    "w": 196,
+    "h": 56,
+    "text": "go to rose",
+    "href": "/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-card-text > div.rose-card-title > h4#want-to-know-more-about-this-topic",
+    "x": 659,
+    "y": 5846,
+    "w": 234,
+    "h": 52,
+    "level": 4,
+    "text": "want to know more about this topic?"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-card-action > p.button-wrapper > a.button.primary",
+    "x": 659,
+    "y": 5922,
+    "w": 167,
+    "h": 56,
+    "text": "ask rose",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.discover-also-cell.r-cell > div.discover-also-kicker > p",
+    "x": 173,
+    "y": 6182,
+    "w": 1053,
+    "h": 26,
+    "text": "Discover also"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.active > a",
+    "x": 183,
+    "y": 6236,
+    "w": 221,
+    "h": 48,
+    "text": "cx & digital commerce",
+    "href": "/en/cx-and-digital-commerce"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 437,
+    "y": 6236,
+    "w": 175,
+    "h": 48,
+    "text": "3d & mixed reality",
+    "href": "/en/3d-and-mixed-reality"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 643,
+    "y": 6236,
+    "w": 73,
+    "h": 48,
+    "text": "gaming",
+    "href": "/en/gaming"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 748,
+    "y": 6236,
+    "w": 118,
+    "h": 48,
+    "text": "social media",
+    "href": "/en/social-media"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 898,
+    "y": 6236,
+    "w": 160,
+    "h": 48,
+    "text": "cloud computing",
+    "href": "/en/cloud-computing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 1090,
+    "y": 6236,
+    "w": 126,
+    "h": 48,
+    "text": "cybersecurity",
+    "href": "/en/cybersecurity"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-wrap > nav.footer-nav > a.footer-nav-home",
+    "x": 64,
+    "y": 6511,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 6607,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 6607,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 6655,
+    "w": 102,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 6700,
+    "w": 43,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 6745,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 6789,
+    "w": 66,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 6607,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 6607,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 6655,
+    "w": 145,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 6700,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 6761,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 6806,
+    "w": 150,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 6655,
+    "w": 160,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 6700,
+    "w": 131,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 6745,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 6655,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 6717,
+    "w": 153,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 6761,
+    "w": 143,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 6806,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "/en/design"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 6607,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 6687,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1112,
+    "y": 6767,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1124,
+    "y": 6779,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1184,
+    "y": 6767,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1196,
+    "y": 6779,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1256,
+    "y": 6767,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1268,
+    "y": 6779,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-linkedin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1328,
+    "y": 6767,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1340,
+    "y": 6779,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-xing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > span",
+    "x": 64,
+    "y": 6912,
+    "w": 84,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > a",
+    "x": 160,
+    "y": 6912,
+    "w": 131,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-inner > div.site-legal-row > button#cookie-pref-center",
+    "x": 1278,
+    "y": 859,
+    "w": 162,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 6,
+    "offPage": 4,
+    "textNodes": 104,
+    "controls": 63,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 3,
+     "clipper": "div.slider-with-title-rail",
+     "path": "li.slider-with-title-item > div.slider-with-title-item-body > p > em",
+     "text": "designops",
+     "cutMin": 57,
+     "cutMax": 134
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slider-with-title-rail",
+     "path": "ul.slider-with-title-items > li.slider-with-title-item.clone > div.slider-with-title-item-title.heading > h5",
+     "text": "scaling internal teams at speed",
+     "cutMin": 387,
+     "cutMax": 387
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slider-with-title-rail",
+     "path": "ul.slider-with-title-items > li.slider-with-title-item > div.slider-with-title-item-title.heading > h5#scaling-internal-teams-at-speed",
+     "text": "scaling internal teams at speed",
+     "cutMin": 367,
+     "cutMax": 367
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slider-with-title-rail",
+     "path": "ul.slider-with-title-items > li.slider-with-title-item > div.slider-with-title-item-body > p",
+     "text": "support in creating and scaling high-performing, design and ",
+     "cutMin": 362,
+     "cutMax": 362
+    }
+   ],
+   "findings": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 387,
+     "path": "ul.slider-with-title-items > li.slider-with-title-item.clone > div.slider-with-title-item-title.heading > h5",
+     "text": "scaling internal teams at speed",
+     "clipper": "div.slider-with-title-rail",
+     "rect": {
+      "l": -387,
+      "t": 2499,
+      "r": 4,
+      "b": 2526,
+      "w": 391,
+      "h": 27
+     },
+     "clip": {
+      "l": 0,
+      "t": 2224,
+      "r": 1440,
+      "b": 2852,
+      "w": 1440,
+      "h": 628
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 367,
+     "path": "ul.slider-with-title-items > li.slider-with-title-item > div.slider-with-title-item-title.heading > h5#scaling-internal-teams-at-speed",
+     "text": "scaling internal teams at speed",
+     "clipper": "div.slider-with-title-rail",
+     "rect": {
+      "l": 1416,
+      "t": 2499,
+      "r": 1807,
+      "b": 2526,
+      "w": 391,
+      "h": 27
+     },
+     "clip": {
+      "l": 0,
+      "t": 2224,
+      "r": 1440,
+      "b": 2852,
+      "w": 1440,
+      "h": 628
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 362,
+     "path": "ul.slider-with-title-items > li.slider-with-title-item > div.slider-with-title-item-body > p",
+     "text": "support in creating and scaling high-performing, design and ",
+     "clipper": "div.slider-with-title-rail",
+     "rect": {
+      "l": 1416,
+      "t": 2553,
+      "r": 1802,
+      "b": 2571,
+      "w": 386,
+      "h": 18
+     },
+     "clip": {
+      "l": 0,
+      "t": 2224,
+      "r": 1440,
+      "b": 2852,
+      "w": 1440,
+      "h": 628
+     },
+     "lines": 3
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 57,
+     "path": "li.slider-with-title-item > div.slider-with-title-item-body > p > em",
+     "text": "designops",
+     "clipper": "div.slider-with-title-rail",
+     "rect": {
+      "l": 1416,
+      "t": 2648,
+      "r": 1497,
+      "b": 2664,
+      "w": 81,
+      "h": 16
+     },
+     "clip": {
+      "l": 0,
+      "t": 2224,
+      "r": 1440,
+      "b": 2852,
+      "w": 1440,
+      "h": 628
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 134,
+     "path": "li.slider-with-title-item > div.slider-with-title-item-body > p > em",
+     "text": "product management",
+     "clipper": "div.slider-with-title-rail",
+     "rect": {
+      "l": 1416,
+      "t": 2672,
+      "r": 1574,
+      "b": 2688,
+      "w": 158,
+      "h": 16
+     },
+     "clip": {
+      "l": 0,
+      "t": 2224,
+      "r": 1440,
+      "b": 2852,
+      "w": 1440,
+      "h": 628
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 100,
+     "path": "li.slider-with-title-item > div.slider-with-title-item-body > p > em",
+     "text": "cx management",
+     "clipper": "div.slider-with-title-rail",
+     "rect": {
+      "l": 1416,
+      "t": 2696,
+      "r": 1540,
+      "b": 2712,
+      "w": 124,
+      "h": 16
+     },
+     "clip": {
+      "l": 0,
+      "t": 2224,
+      "r": 1440,
+      "b": 2852,
+      "w": 1440,
+      "h": 628
+     },
+     "lines": 1
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "design",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "designing agentic experiences",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "our services",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 2,
+    "text": 15,
+    "image": 3
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 17,
+    "textHidden": 5,
+    "image": 3,
+    "imageHidden": 2
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "MISSING BUTTON",
+    "MISSING BUTTON",
+    "COUNT TEXT"
+   ]
+  },
+  {
+   "index": 4,
+   "heading": "projects and expertise",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 2
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "bmw promotes co₂-optimised charging",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 1,
+    "image": 4
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 4,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "glassx: from insurance to the market",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "modernizing confluent’s partner experience for impact and scalability",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 0,
+    "image": 2
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "designing a global ai learning experience at scale",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "designing a secure trading platform",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "redesigning the digital buying journey",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "a new digital experience for insurance agencies",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "one tap between your ideas and the path to reach them",
+   "variable": false,
+   "origin": {
+    "link": 8,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 8,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"prev item\" in band \"our services\" (origin y 2136) not on the served page",
+   "band": 3,
+   "n": 1,
+   "text": "prev item"
+  },
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"next item\" in band \"our services\" (origin y 2136) not on the served page",
+   "band": 3,
+   "n": 1,
+   "text": "next item"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"previous\" served in band \"our services\", no origin link or button",
+   "band": 3,
+   "n": 1,
+   "text": "previous"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"next\" served in band \"our services\", no origin link or button",
+   "band": 3,
+   "n": 1,
+   "text": "next"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT TEXT",
+   "msg": "band \"our services\": 15 origin → 17 served visible (+5 clipped away)",
+   "band": 3,
+   "origin": 15,
+   "eds": 17,
+   "hidden": 5
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 2,
+  "missingButtons": 2,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 1,
+  "findings": 5,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 1339,
+    "y": 7,
+    "w": 17,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 51,
+    "w": 62,
+    "h": 16
+   },
+   {
+    "x": 612,
+    "y": 51,
+    "w": 72,
+    "h": 16
+   },
+   {
+    "x": 740,
+    "y": 51,
+    "w": 110,
+    "h": 16
+   },
+   {
+    "x": 906,
+    "y": 51,
+    "w": 41,
+    "h": 16
+   },
+   {
+    "x": 1003,
+    "y": 51,
+    "w": 60,
+    "h": 16
+   },
+   {
+    "x": 1119,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1225,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 416,
+    "w": 223,
+    "h": 71
+   },
+   {
+    "x": 401,
+    "y": 934,
+    "w": 639,
+    "h": 46
+   },
+   {
+    "x": 291,
+    "y": 984,
+    "w": 858,
+    "h": 46
+   },
+   {
+    "x": 656,
+    "y": 1035,
+    "w": 127,
+    "h": 46
+   },
+   {
+    "x": 193,
+    "y": 1443,
+    "w": 106,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 1483,
+    "w": 453,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 1543,
+    "w": 448,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1570,
+    "w": 499,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1597,
+    "w": 330,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2100,
+    "w": 232,
+    "h": 40
+   },
+   {
+    "x": -387,
+    "y": 2499,
+    "w": 389,
+    "h": 27
+   },
+   {
+    "x": 64,
+    "y": 2499,
+    "w": 398,
+    "h": 27
+   },
+   {
+    "x": 64,
+    "y": 2553,
+    "w": 401,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 2580,
+    "w": 363,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 2607,
+    "w": 151,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 2648,
+    "w": 79,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 2671,
+    "w": 162,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 2695,
+    "w": 126,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 2499,
+    "w": 373,
+    "h": 27
+   },
+   {
+    "x": 515,
+    "y": 2553,
+    "w": 374,
+    "h": 18
+   },
+   {
+    "x": 515,
+    "y": 2580,
+    "w": 371,
+    "h": 18
+   },
+   {
+    "x": 515,
+    "y": 2607,
+    "w": 91,
+    "h": 18
+   },
+   {
+    "x": 515,
+    "y": 2648,
+    "w": 123,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 2671,
+    "w": 149,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 2695,
+    "w": 145,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 2719,
+    "w": 141,
+    "h": 16
+   },
+   {
+    "x": 965,
+    "y": 2499,
+    "w": 306,
+    "h": 27
+   },
+   {
+    "x": 965,
+    "y": 2553,
+    "w": 304,
+    "h": 18
+   },
+   {
+    "x": 965,
+    "y": 2580,
+    "w": 375,
+    "h": 18
+   },
+   {
+    "x": 965,
+    "y": 2607,
+    "w": 197,
+    "h": 18
+   },
+   {
+    "x": 965,
+    "y": 2648,
+    "w": 139,
+    "h": 16
+   },
+   {
+    "x": 965,
+    "y": 2671,
+    "w": 125,
+    "h": 16
+   },
+   {
+    "x": 965,
+    "y": 2695,
+    "w": 253,
+    "h": 16
+   },
+   {
+    "x": 965,
+    "y": 2719,
+    "w": 164,
+    "h": 16
+   },
+   {
+    "x": 1416,
+    "y": 2499,
+    "w": 389,
+    "h": 27
+   },
+   {
+    "x": 1416,
+    "y": 2553,
+    "w": 367,
+    "h": 18
+   },
+   {
+    "x": 1416,
+    "y": 2580,
+    "w": 372,
+    "h": 18
+   },
+   {
+    "x": 1416,
+    "y": 2607,
+    "w": 225,
+    "h": 18
+   },
+   {
+    "x": 1416,
+    "y": 2648,
+    "w": 259,
+    "h": 16
+   },
+   {
+    "x": 1416,
+    "y": 2671,
+    "w": 107,
+    "h": 16
+   },
+   {
+    "x": 1416,
+    "y": 2695,
+    "w": 44,
+    "h": 16
+   },
+   {
+    "x": 1416,
+    "y": 2719,
+    "w": 212,
+    "h": 16
+   },
+   {
+    "x": 1416,
+    "y": 2743,
+    "w": 151,
+    "h": 16
+   },
+   {
+    "x": 1416,
+    "y": 2767,
+    "w": 162,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 3068,
+    "w": 420,
+    "h": 40
+   },
+   {
+    "x": 193,
+    "y": 3414,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 3454,
+    "w": 448,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 3494,
+    "w": 132,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 3554,
+    "w": 521,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 3581,
+    "w": 490,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 3608,
+    "w": 523,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 4529,
+    "w": 310,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 4555,
+    "w": 205,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 4596,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 531,
+    "y": 4323,
+    "w": 340,
+    "h": 22
+   },
+   {
+    "x": 531,
+    "y": 4349,
+    "w": 277,
+    "h": 22
+   },
+   {
+    "x": 531,
+    "y": 4375,
+    "w": 110,
+    "h": 22
+   },
+   {
+    "x": 547,
+    "y": 4416,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 998,
+    "y": 4140,
+    "w": 309,
+    "h": 22
+   },
+   {
+    "x": 998,
+    "y": 4166,
+    "w": 77,
+    "h": 22
+   },
+   {
+    "x": 1014,
+    "y": 4207,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 998,
+    "y": 4241,
+    "w": 296,
+    "h": 16
+   },
+   {
+    "x": 998,
+    "y": 4264,
+    "w": 343,
+    "h": 16
+   },
+   {
+    "x": 998,
+    "y": 4288,
+    "w": 339,
+    "h": 16
+   },
+   {
+    "x": 998,
+    "y": 4312,
+    "w": 174,
+    "h": 16
+   },
+   {
+    "x": 981,
+    "y": 4868,
+    "w": 377,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 4909,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 531,
+    "y": 5134,
+    "w": 293,
+    "h": 22
+   },
+   {
+    "x": 531,
+    "y": 5160,
+    "w": 202,
+    "h": 22
+   },
+   {
+    "x": 547,
+    "y": 5201,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 80,
+    "y": 5108,
+    "w": 317,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 5134,
+    "w": 78,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 5175,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 631,
+    "y": 5291,
+    "w": 178,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 5525,
+    "w": 379,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 5576,
+    "w": 396,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 5626,
+    "w": 293,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 5676,
+    "w": 115,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 5749,
+    "w": 393,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 5776,
+    "w": 396,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 5803,
+    "w": 231,
+    "h": 18
+   },
+   {
+    "x": 201,
+    "y": 5870,
+    "w": 108,
+    "h": 16
+   },
+   {
+    "x": 997,
+    "y": 5848,
+    "w": 205,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 5874,
+    "w": 177,
+    "h": 22
+   },
+   {
+    "x": 1021,
+    "y": 5941,
+    "w": 85,
+    "h": 16
+   },
+   {
+    "x": 173,
+    "y": 6184,
+    "w": 138,
+    "h": 22
+   },
+   {
+    "x": 185,
+    "y": 6251,
+    "w": 217,
+    "h": 16
+   },
+   {
+    "x": 434,
+    "y": 6251,
+    "w": 173,
+    "h": 16
+   },
+   {
+    "x": 639,
+    "y": 6251,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 743,
+    "y": 6251,
+    "w": 117,
+    "h": 16
+   },
+   {
+    "x": 892,
+    "y": 6251,
+    "w": 161,
+    "h": 16
+   },
+   {
+    "x": 1085,
+    "y": 6251,
+    "w": 131,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 6609,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 6656,
+    "w": 103,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6701,
+    "w": 45,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6746,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6791,
+    "w": 67,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6609,
+    "w": 135,
+    "h": 16
+   },
+   {
+    "x": 402,
+    "y": 6656,
+    "w": 142,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6701,
+    "w": 89,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6718,
+    "w": 73,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6763,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 6763,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6808,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 6808,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6656,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 6656,
+    "w": 69,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6701,
+    "w": 127,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6746,
+    "w": 121,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6763,
+    "w": 85,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6780,
+    "w": 39,
+    "h": 13
+   },
+   {
+    "x": 642,
+    "y": 6780,
+    "w": 51,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6656,
+    "w": 157,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6673,
+    "w": 36,
+    "h": 13
+   },
+   {
+    "x": 841,
+    "y": 6673,
+    "w": 64,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6718,
+    "w": 154,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6763,
+    "w": 147,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6808,
+    "w": 130,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6824,
+    "w": 128,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 6624,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 1112,
+    "y": 6704,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 6913,
+    "w": 81,
+    "h": 13
+   },
+   {
+    "x": 149,
+    "y": 6913,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 158,
+    "y": 6913,
+    "w": 136,
+    "h": 13
+   },
+   {
+    "x": 1296,
+    "y": 872,
+    "w": 124,
+    "h": 13
+   }
+  ],
+  "eds": [
+   {
+    "x": 1336,
+    "y": 7,
+    "w": 20,
+    "h": 13
+   },
+   {
+    "x": 486,
+    "y": 51,
+    "w": 63,
+    "h": 16
+   },
+   {
+    "x": 605,
+    "y": 51,
+    "w": 71,
+    "h": 16
+   },
+   {
+    "x": 733,
+    "y": 51,
+    "w": 111,
+    "h": 16
+   },
+   {
+    "x": 900,
+    "y": 51,
+    "w": 46,
+    "h": 16
+   },
+   {
+    "x": 1002,
+    "y": 51,
+    "w": 59,
+    "h": 16
+   },
+   {
+    "x": 1118,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1224,
+    "y": 51,
+    "w": 52,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 416,
+    "w": 228,
+    "h": 71
+   },
+   {
+    "x": 399,
+    "y": 934,
+    "w": 642,
+    "h": 46
+   },
+   {
+    "x": 293,
+    "y": 984,
+    "w": 855,
+    "h": 46
+   },
+   {
+    "x": 659,
+    "y": 1035,
+    "w": 121,
+    "h": 46
+   },
+   {
+    "x": 193,
+    "y": 1442,
+    "w": 118,
+    "h": 13
+   },
+   {
+    "x": 177,
+    "y": 1483,
+    "w": 455,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 1543,
+    "w": 446,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1570,
+    "w": 511,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1597,
+    "w": 295,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 2100,
+    "w": 235,
+    "h": 40
+   },
+   {
+    "x": -387,
+    "y": 2499,
+    "w": 391,
+    "h": 27
+   },
+   {
+    "x": 64,
+    "y": 2499,
+    "w": 353,
+    "h": 27
+   },
+   {
+    "x": 64,
+    "y": 2553,
+    "w": 356,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 2580,
+    "w": 408,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 2607,
+    "w": 35,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 2648,
+    "w": 117,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 2672,
+    "w": 146,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 2696,
+    "w": 139,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 2720,
+    "w": 140,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 2499,
+    "w": 307,
+    "h": 27
+   },
+   {
+    "x": 515,
+    "y": 2553,
+    "w": 404,
+    "h": 18
+   },
+   {
+    "x": 515,
+    "y": 2580,
+    "w": 385,
+    "h": 18
+   },
+   {
+    "x": 515,
+    "y": 2607,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 515,
+    "y": 2648,
+    "w": 141,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 2672,
+    "w": 121,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 2696,
+    "w": 249,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 2720,
+    "w": 158,
+    "h": 16
+   },
+   {
+    "x": 965,
+    "y": 2499,
+    "w": 385,
+    "h": 27
+   },
+   {
+    "x": 965,
+    "y": 2553,
+    "w": 359,
+    "h": 18
+   },
+   {
+    "x": 965,
+    "y": 2580,
+    "w": 358,
+    "h": 18
+   },
+   {
+    "x": 965,
+    "y": 2607,
+    "w": 221,
+    "h": 18
+   },
+   {
+    "x": 965,
+    "y": 2648,
+    "w": 255,
+    "h": 16
+   },
+   {
+    "x": 965,
+    "y": 2672,
+    "w": 107,
+    "h": 16
+   },
+   {
+    "x": 965,
+    "y": 2696,
+    "w": 43,
+    "h": 16
+   },
+   {
+    "x": 965,
+    "y": 2720,
+    "w": 204,
+    "h": 16
+   },
+   {
+    "x": 965,
+    "y": 2743,
+    "w": 145,
+    "h": 16
+   },
+   {
+    "x": 965,
+    "y": 2767,
+    "w": 158,
+    "h": 16
+   },
+   {
+    "x": 1416,
+    "y": 2499,
+    "w": 391,
+    "h": 27
+   },
+   {
+    "x": 1416,
+    "y": 2553,
+    "w": 386,
+    "h": 18
+   },
+   {
+    "x": 1416,
+    "y": 2580,
+    "w": 350,
+    "h": 18
+   },
+   {
+    "x": 1416,
+    "y": 2607,
+    "w": 145,
+    "h": 18
+   },
+   {
+    "x": 1416,
+    "y": 2648,
+    "w": 81,
+    "h": 16
+   },
+   {
+    "x": 1416,
+    "y": 2672,
+    "w": 158,
+    "h": 16
+   },
+   {
+    "x": 1416,
+    "y": 2696,
+    "w": 124,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 3068,
+    "w": 418,
+    "h": 40
+   },
+   {
+    "x": 193,
+    "y": 3413,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 177,
+    "y": 3454,
+    "w": 448,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 3493,
+    "w": 126,
+    "h": 32
+   },
+   {
+    "x": 177,
+    "y": 3553,
+    "w": 513,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 3581,
+    "w": 518,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 3608,
+    "w": 465,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 4528,
+    "w": 306,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 4554,
+    "w": 202,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 4594,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 531,
+    "y": 4323,
+    "w": 330,
+    "h": 22
+   },
+   {
+    "x": 531,
+    "y": 4349,
+    "w": 378,
+    "h": 22
+   },
+   {
+    "x": 547,
+    "y": 4389,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 998,
+    "y": 4139,
+    "w": 308,
+    "h": 22
+   },
+   {
+    "x": 998,
+    "y": 4165,
+    "w": 72,
+    "h": 22
+   },
+   {
+    "x": 1014,
+    "y": 4205,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 998,
+    "y": 4240,
+    "w": 294,
+    "h": 16
+   },
+   {
+    "x": 998,
+    "y": 4264,
+    "w": 334,
+    "h": 16
+   },
+   {
+    "x": 998,
+    "y": 4288,
+    "w": 332,
+    "h": 16
+   },
+   {
+    "x": 998,
+    "y": 4311,
+    "w": 168,
+    "h": 16
+   },
+   {
+    "x": 981,
+    "y": 4868,
+    "w": 368,
+    "h": 22
+   },
+   {
+    "x": 997,
+    "y": 4908,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 531,
+    "y": 5133,
+    "w": 286,
+    "h": 22
+   },
+   {
+    "x": 531,
+    "y": 5159,
+    "w": 201,
+    "h": 22
+   },
+   {
+    "x": 547,
+    "y": 5199,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 80,
+    "y": 5108,
+    "w": 309,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 5134,
+    "w": 76,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 5174,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 633,
+    "y": 5289,
+    "w": 174,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 5525,
+    "w": 379,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 5575,
+    "w": 403,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 5626,
+    "w": 291,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 5676,
+    "w": 113,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 5748,
+    "w": 395,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 5776,
+    "w": 376,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 5803,
+    "w": 228,
+    "h": 18
+   },
+   {
+    "x": 201,
+    "y": 5868,
+    "w": 117,
+    "h": 18
+   },
+   {
+    "x": 659,
+    "y": 5848,
+    "w": 200,
+    "h": 22
+   },
+   {
+    "x": 659,
+    "y": 5874,
+    "w": 172,
+    "h": 22
+   },
+   {
+    "x": 683,
+    "y": 5940,
+    "w": 88,
+    "h": 18
+   },
+   {
+    "x": 173,
+    "y": 6184,
+    "w": 140,
+    "h": 22
+   },
+   {
+    "x": 183,
+    "y": 6250,
+    "w": 221,
+    "h": 18
+   },
+   {
+    "x": 437,
+    "y": 6250,
+    "w": 175,
+    "h": 18
+   },
+   {
+    "x": 643,
+    "y": 6250,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 748,
+    "y": 6250,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 898,
+    "y": 6250,
+    "w": 160,
+    "h": 18
+   },
+   {
+    "x": 1090,
+    "y": 6250,
+    "w": 126,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 6607,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 6656,
+    "w": 102,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6701,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6746,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6790,
+    "w": 66,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6607,
+    "w": 135,
+    "h": 18
+   },
+   {
+    "x": 402,
+    "y": 6656,
+    "w": 145,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6701,
+    "w": 88,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6718,
+    "w": 71,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6762,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 6762,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6807,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 6807,
+    "w": 58,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6656,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 6656,
+    "w": 68,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6701,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6746,
+    "w": 120,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6762,
+    "w": 83,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6779,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 643,
+    "y": 6779,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6656,
+    "w": 156,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6673,
+    "w": 41,
+    "h": 13
+   },
+   {
+    "x": 845,
+    "y": 6673,
+    "w": 65,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6718,
+    "w": 153,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6762,
+    "w": 143,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6807,
+    "w": 132,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6824,
+    "w": 126,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 6622,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 1112,
+    "y": 6702,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 6913,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 152,
+    "y": 6913,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 160,
+    "y": 6913,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 1298,
+    "y": 871,
+    "w": 122,
+    "h": 16
+   }
+  ]
+ }
+}

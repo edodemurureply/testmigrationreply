@@ -1,0 +1,303 @@
+/* event-agenda — event template agenda (label, title, copy, link CTA, day tabs, sessions).
+   Values from the live /en/event-detail section (grid 4/8/12, tabber, session grid). */
+.event-agenda {
+  display: block;
+  width: 100%;
+  padding-top: 72px;
+}
+
+.event-agenda .event-agenda-grid {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.event-agenda .event-agenda-intro {
+  display: contents;
+}
+
+.event-agenda .event-agenda-label,
+.event-agenda .event-agenda-title,
+.event-agenda .event-agenda-text,
+.event-agenda .event-agenda-cta,
+.event-agenda .event-agenda-tabber {
+  grid-column: 1 / 5;
+  min-width: 0;
+}
+
+.event-agenda .event-agenda-label {
+  grid-row: 1;
+  padding-bottom: 16px;
+}
+
+.event-agenda .event-agenda-label p {
+  margin: 0;
+  color: #586674;
+  font-family: txtislskto, var(--font-label);
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+.event-agenda .event-agenda-title {
+  grid-row: 2;
+}
+
+.event-agenda .event-agenda-title :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  font-family: var(--font-lead);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.event-agenda .event-agenda-text {
+  grid-row: 3;
+  padding-top: 24px;
+}
+
+.event-agenda .event-agenda-text p {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 170%;
+}
+
+.event-agenda .event-agenda-cta {
+  grid-row: 4;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 24px;
+}
+
+/* tabber */
+.event-agenda .event-agenda-tabber {
+  grid-row: 5;
+}
+
+.event-agenda .event-agenda-tabs {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: center;
+  margin: 0 calc(-1 * var(--grid-pad));
+  padding: 3.5rem var(--grid-pad);
+  overflow: hidden;
+}
+
+.event-agenda .event-agenda-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 13.1875rem;
+  min-width: 70%;
+  margin: 0;
+  padding: 24px 40px;
+  border: 0;
+  border-radius: 2px;
+  background: #fff;
+  color: var(--c-ink);
+  text-align: left;
+  cursor: pointer;
+  transition: box-shadow .5s;
+}
+
+.event-agenda .event-agenda-tab[aria-selected="true"] {
+  box-shadow: 0 14px 54px #e8edf2;
+}
+
+.event-agenda .event-agenda-tab span {
+  font-family: var(--font-lead);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 170%;
+}
+
+.event-agenda .event-agenda-tab .event-agenda-tab-date {
+  color: #586674;
+}
+
+.event-agenda .event-agenda-panel {
+  display: grid;
+  row-gap: 2.5rem;
+}
+
+.event-agenda .event-agenda-panel[hidden] {
+  display: none;
+}
+
+.event-agenda .event-agenda-session {
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: .5rem;
+}
+
+.event-agenda .event-agenda-session p {
+  margin: 0;
+}
+
+.event-agenda .event-agenda-time p {
+  color: #586674;
+  font-family: var(--font-lead);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 170%;
+}
+
+.event-agenda .event-agenda-session-title p {
+  font-family: var(--font-lead);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 170%;
+}
+
+.event-agenda .event-agenda-category {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.event-agenda .event-agenda-tag {
+  height: 1.375rem;
+  padding: 4px 8px 2px;
+  border-radius: .125rem;
+  background: var(--brand-color);
+  color: var(--text-on-brand-color, #151f27);
+  font-family: var(--font-body);
+  font-size: .625rem;
+  font-weight: 500;
+  line-height: 1.7;
+  text-transform: uppercase;
+}
+
+.event-agenda .event-agenda-desc {
+  padding-top: .875rem;
+}
+
+.event-agenda .event-agenda-desc p {
+  color: #586674;
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 170%;
+}
+
+@media (width >= 768px) {
+  .event-agenda .event-agenda-label,
+  .event-agenda .event-agenda-title {
+    grid-column: 1 / 7;
+  }
+
+  .event-agenda .event-agenda-label {
+    padding-bottom: 24px;
+  }
+
+  .event-agenda .event-agenda-text,
+  .event-agenda .event-agenda-cta,
+  .event-agenda .event-agenda-tabber {
+    grid-column: 1 / 9;
+  }
+
+  .event-agenda .event-agenda-tab {
+    width: 13.4375rem;
+    min-width: 33.3333%;
+  }
+
+  .event-agenda .event-agenda-session {
+    grid-template-columns: 4.5rem 2.5rem 1fr 1rem auto 3rem;
+    row-gap: 0;
+  }
+
+  .event-agenda .event-agenda-time {
+    grid-area: 1 / 1 / 3 / 2;
+  }
+
+  .event-agenda .event-agenda-session-title {
+    grid-area: 1 / 3 / 2 / 4;
+  }
+
+  .event-agenda .event-agenda-category {
+    grid-area: 1 / 5 / 3 / 7;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .event-agenda .event-agenda-desc {
+    grid-area: 2 / 3 / 3 / 6;
+    padding-top: 0;
+  }
+}
+
+@media (width >= 1024px) {
+  .event-agenda .event-agenda-label,
+  .event-agenda .event-agenda-title,
+  .event-agenda .event-agenda-text {
+    grid-column: 2 / 9;
+  }
+
+  .event-agenda .event-agenda-cta {
+    grid-area: 2 / 9 / 3 / 12;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-top: 0;
+  }
+
+  .event-agenda .event-agenda-tabber {
+    grid-area: 4 / 1 / 5 / 13;
+  }
+
+  .event-agenda .event-agenda-tabs {
+    --col-size: calc((100% - (40px * 11)) / 12);
+
+    margin: 0;
+    padding: 3.5rem calc(var(--col-size) + 40px);
+  }
+
+  .event-agenda .event-agenda-panels {
+    padding: 0 calc((100% - (40px * 11)) / 12 + 40px);
+  }
+
+  .event-agenda .event-agenda-session {
+    grid-template-columns: 4.5rem 2.5rem 1fr 1.25rem auto 6rem;
+  }
+}
+
+@media (width >= 1440px) {
+  .event-agenda .event-agenda-text {
+    grid-column: 2 / 8;
+  }
+
+  .event-agenda .event-agenda-cta {
+    align-items: center;
+  }
+
+  .event-agenda .event-agenda-cta .button.secondary {
+    padding: 14px 0;
+  }
+
+  .event-agenda .event-agenda-tab {
+    padding: 24px 56px;
+  }
+
+  .event-agenda .event-agenda-title :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 36px;
+  }
+
+  .event-agenda .event-agenda-tabber {
+    grid-column: 2 / 12;
+  }
+
+  .event-agenda .event-agenda-tabs {
+    --col-size: calc((100% - (40px * 9)) / 10);
+
+    padding: 3.5rem calc(var(--col-size) + 40px + (var(--col-size) / 2));
+  }
+
+  .event-agenda .event-agenda-panels {
+    padding: 0 calc((100% - (40px * 9)) / 10 + 40px);
+  }
+
+  .event-agenda .event-agenda-session {
+    grid-template-columns: 4.5rem 2.5rem 1fr 2.5rem auto 6rem;
+  }
+}

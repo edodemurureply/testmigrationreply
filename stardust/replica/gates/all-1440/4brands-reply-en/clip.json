@@ -1,0 +1,107 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/en",
+ "at": "2026-11-17T00:30:55.377Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 3,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 8,
+  "offPage": 83,
+  "textNodes": 179,
+  "controls": 96,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 3,
+   "clipper": "p",
+   "path": "div.b4-highlight.block > aside.b4-highlight-card > div.b4-highlight-title > p",
+   "text": "rotkäppchen-mum: manages sales & retail execution",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.reply-card-image-container",
+   "path": "div.reply-card.reply-card-horizontal > div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+   "text": "gerolsteiner lays the foundation for personalized customer e",
+   "cutMin": 23,
+   "cutMax": 23
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.card-carousel.scale",
+   "path": "ul.card-carousel-track > li.card-carousel-item.is-clone > div.reply-card.reply-card-slider > a.reply-card-cover",
+   "text": "more impact in fmcg marketing with the composable cdpofferin",
+   "cutMin": 105,
+   "cutMax": 105
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.card-carousel.scale",
+   "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#more-impact-in-fmcg-marketing-with-the-composable-cdp",
+   "text": "more impact in fmcg marketing with the composable cdp",
+   "cutMin": 73,
+   "cutMax": 73
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.card-carousel.scale",
+   "path": "div.reply-card-body > div.category-label > div.category-name > p",
+   "text": "offering",
+   "cutMin": 73,
+   "cutMax": 73
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.card-carousel.scale",
+   "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#simulation-of-consumer-behavior-with-generative-ai-and-synthetic-data",
+   "text": "simulation of consumer behavior with generative ai and synth",
+   "cutMin": 37,
+   "cutMax": 37
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.reply-card-image-container",
+   "path": "li.card-carousel-item > div.reply-card > div.reply-card-image-container > a.reply-card-hero-link",
+   "text": "",
+   "cutMin": 274,
+   "cutMax": 274
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 1,
+   "textHidden": 1,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 5,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 7,
+   "offPage": 84,
+   "textNodes": 182,
+   "controls": 105,
+   "total": 2
+  }
+ }
+}

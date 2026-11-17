@@ -1,0 +1,77 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.page/en/google-cloud",
+ "at": "2026-11-17T05:01:38.840Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 1,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 4,
+  "offPage": 8,
+  "textNodes": 101,
+  "controls": 55,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": null,
+   "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > a.hub-grid-boxlink > p.hub-grid-node",
+   "text": "specialists in ai solutions",
+   "cutMin": 205,
+   "cutMax": 245
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": null,
+   "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > a.hub-grid-boxlink > h3#machine-learning-reply",
+   "text": "machine learning reply",
+   "cutMin": 236,
+   "cutMax": 236
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": null,
+   "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node > a",
+   "text": "machinelearning.com",
+   "cutMin": 144,
+   "cutMax": 144
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "a",
+   "path": "div.reply-card-body > div.reply-card-title > h3#go-reply-wins-2026-google-cloud-partner-of-the-year-award-in-the-talent-development-emea-category > a",
+   "text": "go reply wins 2026 google cloud partner of the year award in",
+   "cutMin": null,
+   "cutMax": null
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 4,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 6,
+   "offPage": 8,
+   "textNodes": 101,
+   "controls": 57,
+   "total": 0
+  }
+ }
+}

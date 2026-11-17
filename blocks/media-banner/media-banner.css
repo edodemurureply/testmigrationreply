@@ -1,0 +1,256 @@
+/* media-banner — en-christmas .yymqmozoab (.gjxwvsmcxi grid, .hsdillhnbf parallax-fullw grid
+   container 150 % / 50 %, radius 8, .wsvoekcqfu copy column) + theme .grid-bg parallax; spacers
+   10 / 10 / 20 / 20 (10 @1440) / 15 (25 @1440) / 15-20-25 between the copy blocks. */
+.media-banner {
+  display: flow-root;
+}
+
+.media-banner .media-banner-grid {
+  margin-top: 56px;
+  margin-bottom: 56px;
+}
+
+.media-banner .media-banner-cell {
+  grid-column: 1 / -1;
+}
+
+.media-banner .media-banner-box {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 150%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.media-banner .media-banner-bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.media-banner .media-banner-art {
+  height: 100%;
+}
+
+.media-banner .media-banner-bg.has-m .media-banner-art {
+  display: none;
+}
+
+.media-banner .media-banner-bg.has-m .media-banner-art.m {
+  display: block;
+}
+
+.media-banner .media-banner-art picture {
+  display: block;
+  height: 100%;
+}
+
+.media-banner .media-banner-art img {
+  display: block;
+  width: auto;
+  max-width: 100vw;
+  height: 112.5%;
+  object-fit: cover;
+  transform: translateY(calc(var(--ty, 0%) * -0.85));
+}
+
+.media-banner .media-banner-copy {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 50px 80px;
+  color: #fff;
+}
+
+.media-banner .media-banner-text p,
+.media-banner .media-banner-text :is(h2, h3, h4) {
+  margin: 0;
+  color: #fff;
+}
+
+/* eyebrow / meta / note = source .text-maz2d / .text-miz3u (txtislskto 10px / 140 %) */
+.media-banner :is(.media-banner-eyebrow, .media-banner-meta, .media-banner-note) p {
+  font-family: txtislskto, var(--font-label);
+  font-size: 0.625rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.media-banner .media-banner-eyebrow p {
+  text-transform: uppercase;
+}
+
+.media-banner .media-banner-title {
+  margin-top: 10px;
+}
+
+.media-banner .media-banner-title :is(h2, h3, h4) {
+  font-family: var(--font-text);
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.media-banner .media-banner-meta {
+  margin-top: 10px;
+}
+
+.media-banner .media-banner-body {
+  margin-top: 20px;
+}
+
+/* body = source ProseMirror p (khanqyjjei 300, 16px / 27px) */
+.media-banner .media-banner-body p {
+  font-family: var(--font-text);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+.media-banner .media-banner-note {
+  margin-top: 20px;
+}
+
+.media-banner .media-banner-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+/* source .button-4cibs / .button-qdjaq: tuqgwxsjgq 12px / 140 %, 12 / 20 padding below 1440 */
+.media-banner .media-banner-pill p {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 20px;
+  border-radius: 4px;
+  background: #ffffff1f;
+  font-family: var(--font-label);
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.media-banner .media-banner-pill em {
+  font-style: normal;
+}
+
+/* the first source button (.button-4cibs) carries the arrow glyph after its label (Website Icons
+   \ea6c, 16 / 22.4 px, gap 10 px; 20 / 28 px, gap 11 px from 1440) */
+.media-banner .media-banner-pill:first-child p {
+  column-gap: 10px;
+}
+
+.media-banner .media-banner-pill:first-child p::after {
+  content: "\ea6c";
+  font-family: "Website Icons", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+
+.media-banner .media-banner-pill + .media-banner-pill p {
+  position: relative;
+  padding-right: 0;
+  padding-left: 0;
+  background: none;
+}
+
+@media (width >= 768px) {
+  .media-banner .media-banner-box {
+    padding-bottom: 50%;
+  }
+
+  .media-banner .media-banner-bg.has-m .media-banner-art {
+    display: block;
+  }
+
+  .media-banner .media-banner-bg.has-m .media-banner-art.m {
+    display: none;
+  }
+
+  .media-banner .media-banner-art img {
+    width: 100%;
+    max-width: none;
+    height: auto;
+  }
+
+  .media-banner .media-banner-copy {
+    align-items: center;
+    padding-right: 300px;
+  }
+
+  .media-banner .media-banner-actions {
+    row-gap: 20px;
+  }
+}
+
+@media (width >= 1440px) {
+  .media-banner .media-banner-grid {
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+
+  .media-banner .media-banner-copy {
+    padding: 100px 630px 0 115px;
+  }
+
+  .media-banner .media-banner-note {
+    margin-top: 10px;
+  }
+
+  .media-banner .media-banner-title :is(h2, h3, h4) {
+    font-size: 1.75rem;
+  }
+
+  .media-banner .media-banner-pill p {
+    padding: 14px 24px;
+    font-size: 0.875rem;
+  }
+
+  .media-banner .media-banner-pill:first-child p {
+    column-gap: 11px;
+  }
+
+  .media-banner .media-banner-pill:first-child p::after {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .media-banner .media-banner-actions {
+    row-gap: 25px;
+    margin-top: 25px;
+  }
+}
+
+/* rose below 768: the source leaves 99 px between the event card and the wall below (measured @360,
+   fix-small-2) */
+@media (width < 768px) {
+  .media-banner.rose .media-banner-grid {
+    margin-bottom: 98px;
+  }
+}
+
+/* @1440 the wall below starts 106 px under the card (measured, fix-small-2) */
+@media (width >= 1440px) {
+  .media-banner.rose .media-banner-grid {
+    margin-bottom: 106px;
+  }
+}
+
+/* the second source button (.button-qdjaq) paints its 2 px white rule along the bottom edge
+   (captured on the source at 360 and 1440) */
+.media-banner .media-banner-pill + .media-banner-pill p::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 1px;
+  width: calc(100% - 2px);
+  height: 2px;
+  border-radius: 1px;
+  background: #fff;
+}

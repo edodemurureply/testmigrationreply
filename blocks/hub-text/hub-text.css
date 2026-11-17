@@ -1,0 +1,171 @@
+/* hub-text — hub page-builder rich text (content-body: .text-rz3fg / .text-eiuiy headings,
+   .text-vgevi / .text-xufux copy) on the 4 / 8 / 12 grid; outer spacing from the source section. */
+.hub-text {
+  --sp-t: 72px;
+  --sp-tm: 56px;
+  --sp-b: 72px;
+  --sp-bm: 56px;
+  --sp-w: 10;
+
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--c-ink);
+}
+
+.hub-text.dark {
+  background-color: #151f27;
+  color: #fff;
+}
+
+.hub-text .hub-text-grid {
+  flex: 1 1 100%;
+  padding-top: var(--sp-tm);
+  padding-bottom: var(--sp-bm);
+}
+
+.hub-text .hub-text-cell {
+  grid-column: 1 / 5;
+}
+
+.hub-text .hub-text-text {
+  min-width: 0;
+}
+
+.hub-text .hub-text-text :is(h1, h2, h3) {
+  margin: 0 0 32px;
+  font-family: var(--font-lead);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.hub-text .hub-text-text :is(h4, h5, h6) {
+  margin: 0 0 16px;
+  font-family: var(--font-lead);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.hub-text .hub-text-text :is(p, li) {
+  margin: 0 0 16px;
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 170%;
+}
+
+.hub-text .hub-text-text :is(ul, ol) {
+  margin: 0 0 16px;
+  padding-left: 20px;
+}
+
+.hub-text .hub-text-text > :last-child {
+  margin-bottom: 0;
+}
+
+.hub-text .hub-text-text picture {
+  display: block;
+  margin: 0 0 24px;
+}
+
+.hub-text .hub-text-text img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.hub-text .hub-text-text a {
+  color: inherit;
+}
+
+.hub-text.dark .hub-text-text :is(h1, h2, h3, h4, h5, h6, p, li) {
+  color: #fff;
+}
+
+.hub-text.center .hub-text-text {
+  text-align: center;
+}
+
+.hub-text.center .hub-text-text img {
+  margin: 0 auto;
+}
+
+@media (width >= 768px) {
+  .hub-text .hub-text-grid {
+    padding-top: var(--sp-t);
+    padding-bottom: var(--sp-b);
+  }
+
+  .hub-text .hub-text-cell {
+    grid-column: 1 / 9;
+  }
+}
+
+@media (width >= 1024px) {
+  .hub-text .hub-text-cell {
+    grid-column: 2 / span var(--sp-w);
+  }
+
+  .hub-text.center .hub-text-cell {
+    grid-column: 3 / 11;
+  }
+}
+
+@media (width >= 1440px) {
+  .hub-text .hub-text-text :is(h1, h2, h3) {
+    margin-bottom: 40px;
+    font-size: 36px;
+  }
+
+  .hub-text .hub-text-text :is(h4, h5, h6) {
+    font-size: 28px;
+  }
+}
+
+/* mixed: a flattened one-off module keeps its pictures in the flow at a bounded size */
+.hub-text.mixed .hub-text-text img {
+  width: auto;
+  max-height: 240px;
+}
+
+/* quote (fix-hub-c) — the source encrypted-title quote (encryptedtitle-runtime .text-4job6:
+   42 / 50 px, 300, ink, centred, cols 3-10 >= 1024): the authored “ / quote / ” paragraphs run
+   inline as one centred statement; a link paragraph after it is the underline text button
+   (.button-sgwbt: 16 / 22 px, padding 20 0, 2 px ink rule) after a 42 px spacer */
+.hub-text.quote .hub-text-text {
+  text-align: center;
+}
+
+.hub-text.quote .hub-text-text > p:not(.button-wrapper) {
+  display: inline;
+  margin: 0;
+  font-family: var(--font-text);
+  font-size: 42px;
+  font-weight: 300;
+  line-height: 50px;
+}
+
+.hub-text.quote .hub-text-text > p.button-wrapper {
+  margin: 42px 0 0;
+}
+
+.hub-text.quote .hub-text-text a.button {
+  padding: 20px 0;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+@media (width >= 1024px) {
+  .hub-text.quote .hub-text-cell {
+    grid-column: 3 / 11;
+  }
+}
+
+/* variant ptrk (fix-hub-g, en-company-profile): body copy at the hub-grid tracking for the light
+   face aawdfdgnxz (.015em) — live "We started with a small team…" 9 lines at 360 (245 px, 280 px
+   cell), the untracked stand-in set 8 (218 px) */
+/* stylelint-disable-next-line no-descending-specificity */
+.hub-text.ptrk .hub-text-text p {
+  letter-spacing: .015em;
+}

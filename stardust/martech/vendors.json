@@ -1,0 +1,37 @@
+{
+ "pages": 8,
+ "vendors": [
+  {
+   "host": "www.reply.com",
+   "pages": 8,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "cdn.cookielaw.org",
+   "pages": 8,
+   "firstParty": false,
+   "role": "consent: OneTrust",
+   "class": "T",
+   "inCsp": false
+  },
+  {
+   "host": "dam-media.reply.com",
+   "pages": 1,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  }
+ ],
+ "inline": {
+  "dataLayer": 8
+ },
+ "cspHosts": [
+  "forms-eu1.hsforms.com",
+  "forms-na1.hsforms.com",
+  "forms.hsforms.com"
+ ]
+}

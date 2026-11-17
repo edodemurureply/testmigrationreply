@@ -1,0 +1,652 @@
+/* labs — lifted from stardust/prototypes/modules.css (card-carousel base + --info, reply-card base +
+   --info, category label, canon .round-bt + --outline, .t-h5-bold / .t-p2) + en-iot.css (.iot-labs:
+   padded 4 / 8 / 12-col grid without a max-width, cell 1-4 / 1-8 / 1-12). */
+.labs .labs-grid {
+  max-width: none;
+}
+
+.labs .labs-cell {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  align-items: center;
+  place-content: center center;
+}
+
+.labs .labs-inner {
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: hidden; /* the source card-carousel root clips the rail at the cell edge */
+}
+
+.labs .labs-viewport {
+  max-width: 1660px;
+  margin: 0 auto;
+  touch-action: pan-y;
+  user-select: none;
+}
+
+.labs .labs-track {
+  --item-width: calc(100% - 80px);
+  --gutter: 1.25rem;
+  --padding-left: 40px;
+
+  position: relative;
+  display: flex;
+  box-sizing: content-box;
+  align-items: flex-start;
+  width: 100%;
+  column-gap: var(--gutter);
+  margin: 0;
+  padding: 0 0 0 var(--padding-left);
+  list-style: none;
+  transition: transform 1s ease-in-out;
+}
+
+.labs.all-displayed .labs-track {
+  justify-content: center;
+  padding-left: 0;
+  transform: none !important;
+}
+
+.labs .labs-item {
+  position: relative;
+  display: flex;
+  flex: 0 0 var(--item-width);
+  max-width: var(--item-width);
+  min-width: 0;
+}
+
+.labs .labs-controls {
+  display: none;
+  pointer-events: none;
+}
+
+/* round-bt round-bt--outline */
+.labs .round-bt {
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  padding: 1px 6px;
+  border: 0.0625rem solid var(--c-ink);
+  border-radius: 50%;
+  background: none;
+  color: var(--c-ink);
+  cursor: pointer;
+  pointer-events: auto;
+  transition: border-color 50ms linear;
+}
+
+.labs .round-bt::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  pointer-events: none;
+  background: var(--brand-color);
+  opacity: 0;
+  transform: scale(0);
+  transition: transform 0.4s cubic-bezier(0.09, 0.72, 0.76, 1.01), opacity 0.3s ease-out;
+}
+
+.labs .round-bt svg {
+  position: relative;
+  z-index: 1;
+}
+
+.labs .round-bt:hover {
+  border-color: transparent;
+  color: var(--text-on-brand-color);
+}
+
+.labs .round-bt:hover::after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.labs .round-bt:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+/* reply-card --info */
+.labs .reply-card {
+  position: relative;
+  display: block;
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.labs .reply-card-image-container {
+  position: relative;
+  z-index: 0;
+  display: grid;
+  overflow: hidden;
+  border-radius: 0.375rem;
+}
+
+.labs .reply-card-image-container > *,
+.labs .reply-card-image-container::before,
+.labs .reply-card-image-container::after {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.labs .reply-card-image-container::before {
+  content: "";
+  width: 1px;
+  height: 0;
+  margin-left: -1px;
+  padding-bottom: 100%;
+}
+
+.labs .reply-card-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  transition: transform 0.5s cubic-bezier(0.09, 0.72, 0.76, 1.01);
+}
+
+.labs .reply-card-pic,
+.labs .reply-card-image picture,
+.labs .reply-card-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.labs .reply-card-pic.desktop {
+  display: none;
+}
+
+.labs .reply-card-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000052;
+  transition: background-color 0.3s ease-out, filter 0.3s ease-out;
+}
+
+.labs .reply-card:hover .reply-card-image {
+  transform: scale(1.05);
+}
+
+.labs .reply-card-toggle {
+  position: relative;
+  z-index: 2;
+  place-self: start end;
+  width: 1.875rem;
+  height: 1.875rem;
+  margin: 1.25rem;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.labs .reply-card-body {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto 1fr;
+  margin: 1.25rem;
+  padding: 0;
+  pointer-events: none;
+  color: #fff;
+}
+
+.labs .category-label {
+  display: flex;
+  grid-area: 1 / 1 / span 1 / span 1;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 1.875rem;
+  margin: 0;
+  color: #fff;
+}
+
+.labs .category-name p {
+  margin: 0;
+  font-family: var(--font-label);
+  font-size: 0.625rem;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.labs .reply-card-plus {
+  position: relative;
+  grid-area: 1 / -2 / span 1 / span 1;
+  justify-self: flex-end;
+  width: 1.875rem;
+  height: 1.875rem;
+}
+
+.labs .reply-card-plus > span {
+  position: absolute;
+  background: #fff;
+}
+
+.labs .reply-card-plus > span:first-child {
+  top: 50%;
+  width: 100%;
+  height: 1px;
+}
+
+.labs .reply-card-plus > span:last-child {
+  left: 50%;
+  width: 1px;
+  height: 100%;
+  transition: transform 0.3s ease-out;
+}
+
+.labs .reply-card-content {
+  grid-area: 2 / 1 / 3 / span 2;
+  align-self: end;
+}
+
+.labs .reply-card-content a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  pointer-events: auto;
+}
+
+.labs .reply-card-title {
+  max-height: 7.75rem;
+  opacity: 1;
+  transform: translateY(0);
+  transition: max-height 0.3s ease-out, opacity 0.15s ease-out, transform 0.3s ease-out;
+}
+
+.labs .reply-card-title :is(h2, h3, h4, h5, h6, p) {
+  display: -webkit-box;
+  margin: 0;
+  overflow: hidden;
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.3;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.labs .reply-card-abstract {
+  display: -webkit-box;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.labs .reply-card-abstract p {
+  margin: 0;
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+@media (width >= 577px) {
+  .labs .reply-card-pic.desktop {
+    display: block;
+  }
+
+  .labs .reply-card-pic.mobile {
+    display: none;
+  }
+}
+
+@media (pointer: fine) {
+  .labs .reply-card:hover .reply-card-image::after {
+    backdrop-filter: blur(50px);
+    background-color: #0009;
+  }
+
+  .labs .reply-card:hover .reply-card-plus > span:last-child {
+    transform: rotate(90deg);
+  }
+
+  .labs .reply-card:hover .reply-card-abstract {
+    max-height: 8.875rem;
+    opacity: 1;
+  }
+}
+
+@media (pointer: coarse) {
+  .labs .reply-card-toggle:checked ~ .reply-card-image::after {
+    backdrop-filter: blur(50px);
+    background-color: #0009;
+  }
+
+  .labs .reply-card-toggle:checked ~ .reply-card-body .reply-card-plus > span:last-child {
+    transform: rotate(90deg);
+  }
+
+  .labs .reply-card-toggle:checked ~ .reply-card-body .reply-card-abstract {
+    max-height: 8.875rem;
+    opacity: 1;
+  }
+}
+
+@media (width < 1440px) and (pointer: fine) {
+  .labs .reply-card:hover .reply-card-title {
+    max-height: 0;
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+@media (width < 1440px) and (pointer: coarse) {
+  .labs .reply-card-toggle:checked ~ .reply-card-body .reply-card-title {
+    max-height: 0;
+    opacity: 0;
+    transform: translateY(-60px);
+  }
+}
+
+@media (width >= 768px) {
+  .labs .labs-cell {
+    grid-column: 1 / 9;
+  }
+
+  .labs .labs-track {
+    --col-width: calc((100% - 128px - 280px) / 8);
+    --item-width: calc(var(--col-width) * 4 + 120px);
+    --gutter: 40px;
+    --padding-left: 64px;
+  }
+}
+
+@media (width >= 1024px) {
+  .labs .labs-cell {
+    grid-column: 1 / 13;
+  }
+
+  .labs .labs-track {
+    --col-width: calc((100% - 128px - 440px) / 12);
+  }
+
+  .labs .labs-controls {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: 40px;
+    width: 100%;
+    max-width: 1660px;
+    height: 3rem;
+    margin: 0 auto;
+    padding: 0 64px;
+    transform: translate(-50%, -50%);
+  }
+
+  .labs.all-displayed .labs-controls {
+    display: none;
+  }
+
+  .labs .labs-prev {
+    grid-column: 1 / 1;
+    justify-self: flex-end;
+  }
+
+  .labs .labs-next {
+    grid-column: 12 / 12;
+    justify-self: flex-start;
+  }
+
+  .labs .reply-card-toggle {
+    cursor: default;
+  }
+}
+
+@media (width >= 1440px) {
+  .labs .reply-card-toggle {
+    width: 2.375rem;
+    height: 2.375rem;
+    margin: 1.5rem 2.5rem 2.5rem;
+  }
+
+  .labs .reply-card-body {
+    margin: 1.5rem 2.5rem 2.5rem;
+  }
+
+  .labs .category-label,
+  .labs .reply-card-plus {
+    height: 2.375rem;
+  }
+
+  .labs .reply-card-plus {
+    width: 2.375rem;
+  }
+
+  .labs .reply-card-abstract::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1.5rem;
+  }
+
+  .labs .reply-card-title :is(h2, h3, h4, h5, h6, p) {
+    font-size: 1.5rem;
+  }
+}
+
+/* variant ice (en-insights acknowledgments, card-carousel--info directly in the band): the rail is
+   not on a padded grid — the track's own 40 / 64 px padding-left is the only inset */
+.labs.ice .labs-grid {
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* variant scale (reply-card-slider-scale: en-labs, hub "tools" rails): 2:3 cards on a looping
+   rail, active card centred; 280 / 24 px gap below 1024, 298 / 40 px gap and the active card
+   scaled 1.125 from >= 1024 (live: 298 x 447, active 335 x 503) */
+.labs.scale .labs-grid {
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.labs.scale .labs-viewport {
+  max-width: none;
+}
+
+.labs.scale .labs-track {
+  --item-width: 280px;
+  --gutter: 24px;
+
+  align-items: center;
+  padding-left: 0;
+}
+
+.labs.scale .reply-card-image-container::before {
+  padding-bottom: 150%;
+}
+
+.labs.scale .labs-controls {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+
+.labs.scale .reply-card {
+  transition: transform 1s ease-in-out;
+}
+
+/* fix-hub-h: the scale card title is h3.h5--bold.line-clamp-4 on the live card-info-slider-2-3
+   (en-3d-and-mixed-reality "ARIA - Virtual Personal Shopper" sets 3 lines, not 2 + ellipsis) */
+.labs.scale .reply-card-title :is(h2, h3, h4, h5, h6, p) {
+  -webkit-line-clamp: 4;
+}
+
+/* the source rail section: 40 px above the cards, 105 px below (< 1024; 90 px from 1024) */
+.labs.scale .labs-inner {
+  padding: 40px 0 105px;
+}
+
+/* the active card scales 1.07 below 768, 1.18 from 768 (theme .card-reply-card-slider-scale) */
+.labs.scale .labs-item.active .reply-card {
+  transform: scale(1.07);
+}
+
+@media (width >= 768px) {
+  .labs.scale .labs-item.active .reply-card {
+    transform: scale(1.18);
+  }
+}
+
+@media (width >= 1024px) {
+  .labs.scale .labs-inner {
+    padding: 40px 0 90px;
+  }
+
+  .labs.scale .labs-track {
+    --item-width: 298px;
+    --gutter: 40px;
+  }
+
+  .labs.scale .labs-item.active .reply-card {
+    transform: scale(1.125);
+  }
+}
+
+/* variant simple (reply-card-slider-simple, hub "areas of expertise" / labs rails): full-bleed rail
+   (40 / 64 px inset), 2:3 cards 280 wide below 768, 4 cols from 1024, 3 cols from 1440 (live 298 x
+   447) — `wide` keeps 4 cols at 1440 (411 x 616); `peek` shows the looped last card at the left;
+   band `dark` (#151f27) / `light` (#f4f8fc) with the source's space below the rail (b-<px> >= 1024 /
+   bm-<px> below: measured, overriding the 96 / 80 and 120 / 80 defaults) */
+.labs.simple .labs-grid {
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.labs.simple .reply-card-image-container::before {
+  padding-bottom: 150%;
+}
+
+.labs.simple.peek:not(.all-displayed) .labs-track {
+  margin-left: calc(-1 * (var(--item-width) + var(--gutter)));
+}
+
+.labs.simple .labs-item.clone {
+  pointer-events: none;
+}
+
+.labs.simple.all-displayed .labs-item.clone {
+  display: none;
+}
+
+.labs.simple.dark {
+  padding-bottom: var(--labs-bm, 80px);
+  background-color: #151f27;
+}
+
+.labs.simple.light {
+  padding-bottom: var(--labs-bm, 80px);
+  background-color: #f4f8fc;
+}
+
+@media (width >= 1024px) {
+  .labs.simple.dark {
+    padding-bottom: var(--labs-b, 96px);
+  }
+
+  .labs.simple.light {
+    padding-bottom: var(--labs-b, 120px);
+  }
+}
+
+@media (width >= 1440px) {
+  .labs.simple:not(.wide) .labs-track {
+    --item-width: calc(var(--col-width) * 3 + 80px);
+  }
+}
+
+/* variant gap (fix-hub-e, en-automotive-and-manufacturing): white space below the rail before the
+   next band (live section margin: 120 >= 1024 / 96 below, b-<px> / bm-<px> override) */
+.labs.gap {
+  margin-bottom: var(--labs-bm, 96px);
+}
+
+@media (width >= 1024px) {
+  .labs.gap {
+    margin-bottom: var(--labs-b, 120px);
+  }
+}
+
+/* variant pad (fix-hub-e, en-3d-and-mixed-reality "Our assets" rail): the measured space under the
+   scale rail before the next section (bm-<px> below 1024 / b-<px> from 1024; defaults 105 / 90) */
+.labs.scale.pad .labs-inner {
+  padding-bottom: var(--labs-bm, 105px);
+}
+
+@media (width >= 1024px) {
+  .labs.scale.pad .labs-inner {
+    padding-bottom: var(--labs-b, 90px);
+  }
+}
+
+/* variant arrows (fix-hub-h, en-3d-and-mixed-reality "Our assets"): the live scale rail shows its
+   prev / next round-bt--filled-on-dark (48 px, white 10 % fill) >= 1024, centred on the card row
+   (x 89 / 1303, the 12-column control grid) */
+@media (width >= 1024px) {
+  .labs.scale.arrows .labs-controls {
+    z-index: 2;
+    top: calc(50% + (40px - var(--labs-b, 105px)) / 2);
+    width: 100%;
+    height: 3rem;
+    overflow: visible;
+    clip-path: none;
+  }
+
+  .labs.scale.arrows .round-bt {
+    border: 0;
+    background: rgb(255 255 255 / 10%);
+    color: #fff;
+  }
+}
+
+/* variants (fix-hub-j) — c4: the card-info-slider-2-3 title clamps at 4 lines (live
+   h3.h5--bold.line-clamp-4, max-height 124 px: en-healthcare / en-logistics labs rails show 3-line
+   titles at 360); below 768: g24m — the rail's 24 px card gap (live pitch 304 at 360); slim — the
+   card-slider-default card (en-healthcare "Our capabilities"): no plus glyph, body inset 20 / 32 /
+   32, title h6--medium (body face 18 / 23.4 px, 400) clamped at 3 lines */
+.labs.c4 .reply-card-title :is(h2, h3, h4, h5, h6, p) {
+  -webkit-line-clamp: 4;
+}
+
+@media (width < 768px) {
+  .labs.g24m .labs-track {
+    --gutter: 24px;
+  }
+
+  .labs.slim .reply-card-plus {
+    visibility: hidden;
+  }
+
+  .labs.slim .reply-card-body {
+    margin: 20px 32px 32px;
+  }
+
+  .labs.slim .reply-card-title :is(h2, h3, h4, h5, h6, p) {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+    -webkit-line-clamp: 3;
+  }
+}

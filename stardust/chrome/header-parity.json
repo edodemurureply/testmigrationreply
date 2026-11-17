@@ -1,0 +1,69 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-16T20:41:41.994Z",
+ "source": "https://www.reply.com/en",
+ "build": "https://main--a355dc1b--aemcoder.aem.page/en",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  360,
+  1440
+ ],
+ "counts": {
+  "error": 2,
+  "warn": 4,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "budget-truncated@360 (source)",
+   "width": 360,
+   "path": "(source)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the source record stopped at depth 1 at Toggle search: raise --max-states/--max-depth for full coverage"
+  },
+  {
+   "key": "budget-truncated@360 (build)",
+   "width": 360,
+   "path": "(build)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the build record stopped at depth 1 at Toggle search"
+  },
+  {
+   "key": "motion@1440 EN [click]",
+   "width": 1440,
+   "path": "EN",
+   "action": "click",
+   "id": "motion",
+   "severity": "error",
+   "detail": "transform: 1000ms on the source, 300/350ms on the build"
+  },
+  {
+   "key": "budget-truncated@1440 (source)",
+   "width": 1440,
+   "path": "(source)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the source record stopped at depth 1 at EN: raise --max-states/--max-depth for full coverage"
+  },
+  {
+   "key": "budget-truncated@1440 (build)",
+   "width": 1440,
+   "path": "(build)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the build record stopped at depth 1 at EN"
+  },
+  {
+   "key": "panel-visual@1440 EN [click]",
+   "width": 1440,
+   "path": "EN",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 5.3% (bar 2%; source 74×204, build 76×204; texture 42% thick)"
+  }
+ ]
+}

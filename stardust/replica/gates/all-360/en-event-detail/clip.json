@@ -1,0 +1,67 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.live/en/event-detail",
+ "at": "2026-11-17T01:46:27.416Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 4,
+  "offPage": 1,
+  "textNodes": 70,
+  "controls": 33,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.event-agenda-tabs",
+   "path": "div.event-agenda-tabber > div.event-agenda-tabs > button#event-agenda-im29v-tab-0 > span.event-agenda-tab-date",
+   "text": "day, month 00",
+   "cutMin": 62,
+   "cutMax": 74
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.event-agenda-tabs",
+   "path": "div.event-agenda-grid.r-grid > div.event-agenda-tabber > div.event-agenda-tabs > button#event-agenda-im29v-tab-0",
+   "text": "tabday, month 00",
+   "cutMin": 114,
+   "cutMax": 114
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.event-agenda-tabs",
+   "path": "div.event-agenda-grid.r-grid > div.event-agenda-tabber > div.event-agenda-tabs > button#event-agenda-im29v-tab-2",
+   "text": "tabday, month 00",
+   "cutMin": 114,
+   "cutMax": 114
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 1,
+   "offPage": 2,
+   "textNodes": 70,
+   "controls": 30,
+   "total": 0
+  }
+ }
+}

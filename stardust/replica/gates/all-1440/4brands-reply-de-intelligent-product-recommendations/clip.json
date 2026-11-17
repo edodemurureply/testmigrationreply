@@ -1,0 +1,67 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/intelligent-product-recommendations",
+ "at": "2026-11-17T00:17:49.580Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 4,
+  "offPage": 15,
+  "textNodes": 74,
+  "controls": 38,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.card-carousel.scale",
+   "path": "ul.card-carousel-track > li.card-carousel-item.is-clone > div.reply-card.reply-card-slider > a.reply-card-cover",
+   "text": "ai voice assistant für den fmcg-vertriebwhite paper",
+   "cutMin": 105,
+   "cutMax": 105
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.card-carousel.scale",
+   "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#ai-voice-assistant-für-den-fmcg-vertrieb",
+   "text": "ai voice assistant für den fmcg-vertrieb",
+   "cutMin": 73,
+   "cutMax": 73
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.card-carousel.scale",
+   "path": "div.reply-card-body > div.category-label > div.category-name > p",
+   "text": "white paper",
+   "cutMin": 57,
+   "cutMax": 57
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 1,
+   "textHidden": 1,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 4,
+   "offPage": 15,
+   "textNodes": 77,
+   "controls": 35,
+   "total": 2
+  }
+ }
+}

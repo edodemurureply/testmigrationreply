@@ -1,0 +1,3774 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-17T00:17:49.580Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.reply.com/4brands-reply/de/intelligent-product-recommendations",
+  "at": "2026-11-17T00:17:28.916Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4891,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "text": "de"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "label": "trigger",
+    "value": "de",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-bottom.w-full > div.logo.flex > a",
+    "x": 64,
+    "y": 28,
+    "w": 190,
+    "h": 64,
+    "text": "logo",
+    "href": "/4brands-reply/de"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.logo.flex > a > img",
+    "x": 64,
+    "y": 28,
+    "w": 190,
+    "h": 64,
+    "text": "logo",
+    "file": "65e121cb-a2d4-437e-996d-420a6ce754e1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#1fde0439-3cf3-1f97-f0d9-ac3259ebe41a",
+    "x": 318,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#1fde0439-3cf3-1f97-f0d9-ac3259ebe41a",
+    "x": 318,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#c3fc51ff-3ebd-221c-9135-da9d3945aa3f",
+    "x": 436,
+    "y": 28,
+    "w": 83,
+    "h": 64,
+    "text": "knowledge"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#c3fc51ff-3ebd-221c-9135-da9d3945aa3f",
+    "x": 436,
+    "y": 28,
+    "w": 83,
+    "h": 64,
+    "label": "trigger",
+    "value": "knowledge",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 575,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "text": "kontakt",
+    "href": "/4brands-reply/de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 692,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "text": "karriere",
+    "href": "/de/about/careers/de/job-search"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "custom-menu-runtime.header.flex > nav.header-bottom.w-full > button.hidden.lg:block",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.grid-bg__container.absolute > picture > img.grid-bg.w-full",
+    "x": 0,
+    "y": 49,
+    "w": 1440,
+    "h": 810,
+    "text": "",
+    "file": "00996e5d-a56d-4619-83dc-a84d8501d200"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.category-label.light > div.category-name",
+    "x": 193,
+    "y": 229,
+    "w": 90,
+    "h": 14,
+    "text": "White Paper"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h1#GjVnJ",
+    "x": 177,
+    "y": 267,
+    "w": 861,
+    "h": 211,
+    "level": 1,
+    "text": "intelligente produktempfehlung im fmcg vertrieb"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h1#GjVnJ > span.colors-1-gbfb",
+    "x": 177,
+    "y": 266,
+    "w": 765,
+    "h": 212,
+    "text": "Intelligente Produktempfehlung im FMCG Vertrieb"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-vzc3d",
+    "x": 289,
+    "y": 518,
+    "w": 523,
+    "h": 81,
+    "text": "Entdecken Sie unsere Product Recommendation Engine zur agilen und marktorientier"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.inline-block > div.hubspot-container > button.cursor-pointer.button",
+    "x": 289,
+    "y": 619,
+    "w": 322,
+    "h": 56,
+    "text": "whitepaper herunterladen"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.inline-block > div.hubspot-container > button.cursor-pointer.button",
+    "x": 289,
+    "y": 619,
+    "w": 322,
+    "h": 56,
+    "label": "trigger",
+    "value": "whitepaper herunterladen",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-align-center > span.colors-l7-bhf",
+    "x": 292,
+    "y": 938,
+    "w": 856,
+    "h": 147,
+    "text": "Für mehr Umsatzpotenziale, optimierte Sortimentsentscheidungen und eine nachhalt"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-align-center > span.colors-i7-rj6",
+    "x": 678,
+    "y": 1039,
+    "w": 341,
+    "h": 46,
+    "text": "Kundenbindung"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#QVVGU",
+    "x": 177,
+    "y": 1211,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "vertriebsboost im b2b-umfeld"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 177,
+    "y": 1294,
+    "w": 523,
+    "h": 324,
+    "text": "Die Konsumgüterbranche befindet sich im Wandel: Immer mehr Wettbewerber drängen "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 740,
+    "y": 1294,
+    "w": 523,
+    "h": 324,
+    "text": "Unser Whitepaper zeigt, wie Unternehmen mithilfe unserer Product Recommendation "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#bCUpt",
+    "x": 289,
+    "y": 1858,
+    "w": 861,
+    "h": 43,
+    "level": 3,
+    "text": "die inhalte unseres whitepapers im überblick"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h3#bCUpt > span.colors-1-gbfb",
+    "x": 294,
+    "y": 1859,
+    "w": 853,
+    "h": 40,
+    "text": "Die Inhalte unseres Whitepapers im Überblick"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > picture > img.content.picture",
+    "x": 209,
+    "y": 1980,
+    "w": 120,
+    "h": 120,
+    "text": "",
+    "file": "32dbc163-2f17-46f3-b084-43ea0f5d45a2"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-align-center > span.colors-1-gbfb",
+    "x": 161,
+    "y": 2122,
+    "w": 217,
+    "h": 27,
+    "text": "Die Datenquellen"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > picture > img.content.picture",
+    "x": 660,
+    "y": 1980,
+    "w": 120,
+    "h": 120,
+    "text": "",
+    "file": "0a213c10-5f52-4ab8-ad5b-838b2b14f4a7"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-align-center > span.colors-1-gbfb",
+    "x": 552,
+    "y": 2122,
+    "w": 337,
+    "h": 58,
+    "text": "Product Recommendation Engine"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > picture > img.content.picture",
+    "x": 1111,
+    "y": 1980,
+    "w": 120,
+    "h": 120,
+    "text": "",
+    "file": "fc2643e6-4c5f-4123-a4b3-114e1ce93690"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text.text-align-center > span.colors-1-gbfb",
+    "x": 969,
+    "y": 2122,
+    "w": 403,
+    "h": 27,
+    "text": "Integration in Vertriebsprozesse"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 289,
+    "y": 2250,
+    "w": 861,
+    "h": 95,
+    "text": "wirkungsvolle Vertriebsunterstützung"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 289,
+    "y": 2589,
+    "w": 861,
+    "h": 353,
+    "text": "Möchten Sie mehr erfahren? Laden Sie jetzt unser Whitepaper herunter und entdeck"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.inline-block > form-runtime#aDjju > button.cursor-pointer.button",
+    "x": 559,
+    "y": 2978,
+    "w": 322,
+    "h": 56,
+    "text": "whitepaper herunterladen"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.inline-block > form-runtime#aDjju > button.cursor-pointer.button",
+    "x": 559,
+    "y": 2978,
+    "w": 322,
+    "h": 56,
+    "label": "trigger",
+    "value": "whitepaper herunterladen",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#CFYEE",
+    "x": 177,
+    "y": 3158,
+    "w": 1087,
+    "h": 43,
+    "level": 3,
+    "text": "das könnte sie auch interessieren"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#LVNLP > a",
+    "x": -105,
+    "y": 3283,
+    "w": 298,
+    "h": 447,
+    "text": "ai voice assistant für den fmcg-vertrieb white paper",
+    "href": "/4brands-reply/de/ai-voice-assistant-fmcg-sales"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": -105,
+    "y": 3283,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "29fd730e-1250-4601-ae38-93131f6d31af"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": -73,
+    "y": 3608,
+    "w": 234,
+    "h": 52,
+    "level": 3,
+    "text": "ai voice assistant für den fmcg-vertrieb"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#kr68r > a",
+    "x": 233,
+    "y": 3283,
+    "w": 298,
+    "h": 447,
+    "text": "smart retail execution white paper",
+    "href": "/4brands-reply/de/smart-retail-execution"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 233,
+    "y": 3283,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "6f58c06b-54c6-457f-b1ac-827acfe07bef"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": 265,
+    "y": 3608,
+    "w": 234,
+    "h": 52,
+    "level": 3,
+    "text": "smart retail execution"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#AeTx1 > a",
+    "x": 552,
+    "y": 3255,
+    "w": 335,
+    "h": 503,
+    "text": "visiongallery ai: ki-bildanalyse vom pos white paper",
+    "href": "/4brands-reply/de/visiongallery-ai"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 552,
+    "y": 3255,
+    "w": 335,
+    "h": 502,
+    "text": "",
+    "file": "dd27812a-253a-4200-9a07-722cb49d2d68"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": 588,
+    "y": 3621,
+    "w": 263,
+    "h": 59,
+    "level": 3,
+    "text": "visiongallery ai: ki-bildanalyse vom pos"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#jSQFD > a",
+    "x": 909,
+    "y": 3283,
+    "w": 298,
+    "h": 447,
+    "text": "reply routes white paper",
+    "href": "/4brands-reply/de/reply-routes"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 909,
+    "y": 3283,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "bb555b2c-903d-4718-a836-c4173585a8d5"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": 941,
+    "y": 3634,
+    "w": 234,
+    "h": 26,
+    "level": 3,
+    "text": "reply routes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#yaP2r > a",
+    "x": 1247,
+    "y": 3283,
+    "w": 298,
+    "h": 447,
+    "text": "data & ai für konsumgüter offering",
+    "href": "/4brands-reply/de/artificial-intelligence-consumer-goods"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 1247,
+    "y": 3283,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "46c57fd1-b2f6-4778-9654-a4d96885387c"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+    "x": 1279,
+    "y": 3608,
+    "w": 234,
+    "h": 52,
+    "level": 3,
+    "text": "data & ai für konsumgüter"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-prev.round-bt",
+    "x": 89,
+    "y": 3483,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-next.round-bt",
+    "x": 1303,
+    "y": 3483,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-hzf46 > a",
+    "x": 515,
+    "y": 3988,
+    "w": 180,
+    "h": 27,
+    "text": "4brands reply",
+    "href": "/4brands-reply/de"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > picture > img.content.picture",
+    "x": 177,
+    "y": 4081,
+    "w": 185,
+    "h": 80,
+    "text": "",
+    "file": "38c0db8d-047e-44b6-8ffe-9d2a57010952"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-xufux",
+    "x": 515,
+    "y": 4041,
+    "w": 636,
+    "h": 214,
+    "text": "4brands Reply ist Branchenexperte für die Konsumgüterindustrie und verbindet Ana"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.block > nav.footer.footer-minisites > img",
+    "x": 64,
+    "y": 4520,
+    "w": 211,
+    "h": 71,
+    "text": "logo",
+    "file": "06f51f8d-270a-4b57-ad4e-47ac6ad7083d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a#Contact Us",
+    "x": 64,
+    "y": 4615,
+    "w": 180,
+    "h": 48,
+    "text": "contact us",
+    "href": "/4brands-reply/de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a#Careers",
+    "x": 284,
+    "y": 4615,
+    "w": 148,
+    "h": 48,
+    "text": "careers",
+    "href": "/de/about/careers/de/job-search"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a#Impressum",
+    "x": 473,
+    "y": 4615,
+    "w": 179,
+    "h": 48,
+    "text": "impressum",
+    "href": "/de/impressum"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#footer_privacy_and_legal",
+    "x": 700,
+    "y": 4615,
+    "w": 676,
+    "h": 20,
+    "text": "privacy and legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#footer_privacy_and_legal",
+    "x": 700,
+    "y": 4615,
+    "w": 676,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy and legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text--light.flex > a",
+    "x": 700,
+    "y": 4662,
+    "w": 207,
+    "h": 34,
+    "text": "datenschutz- und cookie richtlinie",
+    "href": "/de/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text--light.flex > a",
+    "x": 700,
+    "y": 4724,
+    "w": 194,
+    "h": 17,
+    "text": "datenschutzhinweis (bewerber)",
+    "href": "/de/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text--light.flex > a",
+    "x": 700,
+    "y": 4769,
+    "w": 181,
+    "h": 17,
+    "text": "datenschutzhinweis (kunden)",
+    "href": "/de/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text--light.flex > a",
+    "x": 935,
+    "y": 4662,
+    "w": 207,
+    "h": 34,
+    "text": "datenschutzhinweis (dienstleister)",
+    "href": "/de/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text--light.flex > a",
+    "x": 935,
+    "y": 4724,
+    "w": 197,
+    "h": 17,
+    "text": "datenschutzhinweis (marketing)",
+    "href": "/de/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text--light.flex > a",
+    "x": 1169,
+    "y": 4662,
+    "w": 207,
+    "h": 34,
+    "text": "grundsatzerklärung - lksg (deutschland)",
+    "href": "/de/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text--light.flex > a",
+    "x": 1169,
+    "y": 4724,
+    "w": 147,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/de/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.copyright__info.footer-text--light > a.copyright__logo",
+    "x": 64,
+    "y": 4849,
+    "w": 52,
+    "h": 26,
+    "text": "go to reply website",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.copyright__info.footer-text--light > span.copyright__copy",
+    "x": 149,
+    "y": 4854,
+    "w": 81,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.copyright-minisites.text-white > div.flex.justify-between > button#cookie-pref-center",
+    "x": 1276,
+    "y": 859,
+    "w": 164,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 1,
+    "textHidden": 1,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 4,
+    "offPage": 15,
+    "textNodes": 77,
+    "controls": 35,
+    "total": 2
+   },
+   "groups": [
+    {
+     "kind": "TEXT CLIPPED",
+     "advisory": false,
+     "n": 1,
+     "clipper": "h3.h6--medium.line-clamp-3",
+     "path": "a > div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+     "text": "visiongallery ai: ki-bildanalyse vom pos",
+     "cutMin": 4,
+     "cutMax": 4
+    },
+    {
+     "kind": "TEXT HIDDEN",
+     "advisory": false,
+     "n": 1,
+     "clipper": "div.reply-card-image-container.aspect-w-2",
+     "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > div.category-label.light > div.category-name",
+     "text": "white paper",
+     "cutMin": 12,
+     "cutMax": 12
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "cardcarousel-runtime#20PzQ",
+     "path": "div.olymndgslb > div.block > reply-card-runtime#LVNLP > a",
+     "text": "ai voice assistant für den fmcg-vertriebwhite paper",
+     "cutMin": 105,
+     "cutMax": 105
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3.h6--medium.line-clamp-3",
+     "path": "a > div.reply-card-image-container.aspect-w-2 > div.reply-card-body > h3.h6--medium.line-clamp-3",
+     "text": "ai voice assistant für den fmcg-vertrieb",
+     "cutMin": 73,
+     "cutMax": 73
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.reply-card-image-container.aspect-w-2",
+     "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > div.category-label.light > div.category-name",
+     "text": "white paper",
+     "cutMin": 57,
+     "cutMax": 57
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/intelligent-product-recommendations",
+  "at": "2026-11-17T00:17:49.468Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4898,
+  "root": "main",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "text": "de"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "label": "trigger",
+    "value": "de",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-main > div.site-header-logo.site-header-logo-img > a",
+    "x": 64,
+    "y": 28,
+    "w": 190,
+    "h": 64,
+    "text": "logo",
+    "href": "/4brands-reply/de"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-logo-4brands > img",
+    "x": 64,
+    "y": 28,
+    "w": 190,
+    "h": 64,
+    "text": "logo",
+    "file": "logo-4brands"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 318,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 318,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#knowledge",
+    "x": 437,
+    "y": 28,
+    "w": 81,
+    "h": 64,
+    "text": "knowledge"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#knowledge",
+    "x": 437,
+    "y": 28,
+    "w": 81,
+    "h": 64,
+    "label": "trigger",
+    "value": "knowledge",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 575,
+    "y": 28,
+    "w": 57,
+    "h": 64,
+    "text": "kontakt",
+    "href": "/4brands-reply/de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 687,
+    "y": 28,
+    "w": 57,
+    "h": 64,
+    "text": "karriere",
+    "href": "/de/about/careers/de/job-search"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-header-bar > nav.site-header-main > button.sm-collapsed",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-hero-pic.b4-hero-pic-desktop > picture > img",
+    "x": 0,
+    "y": 49,
+    "w": 1440,
+    "h": 810,
+    "text": "",
+    "file": "media_1c211b4036567ec68b234c04485052132b"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-hero-title.r-cell > div.b4-hero-kicker > p",
+    "x": 177,
+    "y": 242,
+    "w": 101,
+    "h": 14,
+    "text": "White Paper"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-hero-title.r-cell > div.b4-hero-h > h1#intelligente-produktempfehlung-im-fmcg-vertrieb",
+    "x": 177,
+    "y": 280,
+    "w": 861,
+    "h": 211,
+    "level": 1,
+    "text": "intelligente produktempfehlung im fmcg vertrieb"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-hero-text.r-cell > div.b4-hero-lead > p",
+    "x": 289,
+    "y": 532,
+    "w": 523,
+    "h": 54,
+    "text": "Entdecken Sie unsere Product Recommendation Engine zur agilen und marktorientier"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-hero-text.r-cell > div.b4-hero-cta > div.b4-hero-btn",
+    "x": 289,
+    "y": 606,
+    "w": 315,
+    "h": 56,
+    "text": "whitepaper herunterladen"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-hero-text.r-cell > div.b4-hero-cta > div.b4-hero-btn",
+    "x": 289,
+    "y": 606,
+    "w": 315,
+    "h": 56,
+    "label": "trigger",
+    "value": "whitepaper herunterladen",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.statement-cell.r-cell > div.statement-text > p",
+    "x": 289,
+    "y": 936,
+    "w": 861,
+    "h": 151,
+    "text": "Für mehr Umsatzpotenziale, optimierte Sortimentsentscheidungen und eine nachhalt"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.statement-cell.r-cell > div.statement-text > h3#vertriebsboost-im-b2b-umfeld",
+    "x": 177,
+    "y": 1211,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "vertriebsboost im b2b-umfeld"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.statement-cell.r-cell > div.statement-text > p",
+    "x": 177,
+    "y": 1294,
+    "w": 523,
+    "h": 324,
+    "text": "Die Konsumgüterbranche befindet sich im Wandel: Immer mehr Wettbewerber drängen "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.statement-cell.r-cell > div.statement-text > p",
+    "x": 740,
+    "y": 1294,
+    "w": 523,
+    "h": 324,
+    "text": "Unser Whitepaper zeigt, wie Unternehmen mithilfe unserer Product Recommendation "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-heading-cell.r-cell > div.section-heading-title > h3#die-inhalte-unseres-whitepapers-im-überblick",
+    "x": 289,
+    "y": 1864,
+    "w": 861,
+    "h": 43,
+    "level": 3,
+    "text": "die inhalte unseres whitepapers im überblick"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-tabber-nav-wrap > ul.b4-tabber-nav > li#b4-tabber-1-tab-1",
+    "x": 64,
+    "y": 1986,
+    "w": 411,
+    "h": 234,
+    "label": "tab selected",
+    "value": "die datenquellen",
+    "via": "aria-selected"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-tabber-iconbox > picture > img",
+    "x": 209,
+    "y": 1986,
+    "w": 120,
+    "h": 120,
+    "text": "",
+    "file": "media_1e8218260092e6a9ba21381ee565626b11"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-tabber-iconbox > picture > img",
+    "x": 660,
+    "y": 1986,
+    "w": 120,
+    "h": 120,
+    "text": "",
+    "file": "media_18e1b9abd6317d23f9713a0fc2e75b5d5c"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-tabber-iconbox > picture > img",
+    "x": 1111,
+    "y": 1986,
+    "w": 120,
+    "h": 120,
+    "text": "",
+    "file": "media_18e57f9707e579f3c64279b7c18038cd52"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-tabber-body > div.b4-tabber-text > p",
+    "x": 289,
+    "y": 2256,
+    "w": 861,
+    "h": 95,
+    "text": "Erfahren Sie, welche internen und externen Datenquellen für eine wirkungsvolle V"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-cta-cell.r-cell > div.b4-cta-text > p",
+    "x": 289,
+    "y": 2595,
+    "w": 861,
+    "h": 353,
+    "text": "Möchten Sie mehr erfahren? Laden Sie jetzt unser Whitepaper herunter und entdeck"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-cta-cell.r-cell > div.b4-cta-actions > div.b4-cta-btn",
+    "x": 562,
+    "y": 2984,
+    "w": 315,
+    "h": 56,
+    "text": "whitepaper herunterladen"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-cta-cell.r-cell > div.b4-cta-actions > div.b4-cta-btn",
+    "x": 562,
+    "y": 2984,
+    "w": 315,
+    "h": 56,
+    "label": "trigger",
+    "value": "whitepaper herunterladen",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-heading-cell.r-cell > div.section-heading-title > h3#das-könnte-sie-auch-interessieren",
+    "x": 177,
+    "y": 3164,
+    "w": 1087,
+    "h": 43,
+    "level": 3,
+    "text": "das könnte sie auch interessieren"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.card-carousel-item.is-clone > div.reply-card.reply-card-slider > a.reply-card-cover",
+    "x": -105,
+    "y": 3289,
+    "w": 298,
+    "h": 447,
+    "text": "ai voice assistant für den fmcg-vertrieb white paper",
+    "href": "/4brands-reply/de/ai-voice-assistant-fmcg-sales"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image > picture > img",
+    "x": -105,
+    "y": 3289,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_159d1fb5f19497265d7b28606f57856860"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#ai-voice-assistant-für-den-fmcg-vertrieb",
+    "x": -73,
+    "y": 3614,
+    "w": 234,
+    "h": 52,
+    "level": 3,
+    "text": "ai voice assistant für den fmcg-vertrieb"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.card-carousel-item.is-clone > div.reply-card.reply-card-slider > a.reply-card-cover",
+    "x": 233,
+    "y": 3289,
+    "w": 298,
+    "h": 447,
+    "text": "smart retail execution white paper",
+    "href": "/4brands-reply/de/smart-retail-execution"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image > picture > img",
+    "x": 233,
+    "y": 3289,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_19a44751a018e677030aac369838cee918"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#smart-retail-execution",
+    "x": 265,
+    "y": 3614,
+    "w": 234,
+    "h": 52,
+    "level": 3,
+    "text": "smart retail execution"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.card-carousel-item.is-active > div.reply-card.reply-card-slider > a.reply-card-cover",
+    "x": 552,
+    "y": 3261,
+    "w": 335,
+    "h": 503,
+    "text": "visiongallery ai: ki-bildanalyse vom pos white paper",
+    "href": "/4brands-reply/de/visiongallery-ai"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image > picture > img",
+    "x": 552,
+    "y": 3261,
+    "w": 335,
+    "h": 503,
+    "text": "",
+    "file": "media_114fcb57298fc33194c4d56466a55e9b49"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#visiongallery-ai-ki-bildanalyse-vom-pos",
+    "x": 588,
+    "y": 3627,
+    "w": 263,
+    "h": 59,
+    "level": 3,
+    "text": "visiongallery ai: ki-bildanalyse vom pos"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+    "x": 909,
+    "y": 3289,
+    "w": 298,
+    "h": 447,
+    "text": "reply routes white paper",
+    "href": "/4brands-reply/de/reply-routes"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image > picture > img",
+    "x": 909,
+    "y": 3289,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_1c0868cf384182aad8aa1755d51b787158"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#reply-routes",
+    "x": 941,
+    "y": 3640,
+    "w": 234,
+    "h": 26,
+    "level": 3,
+    "text": "reply routes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+    "x": 1247,
+    "y": 3289,
+    "w": 298,
+    "h": 447,
+    "text": "data & ai für konsumgüter offering",
+    "href": "/4brands-reply/de/artificial-intelligence-consumer-goods"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image > picture > img",
+    "x": 1247,
+    "y": 3289,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_13d17c4f36691052e6574cd628bee2f7f4"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#data--ai-für-konsumgüter",
+    "x": 1279,
+    "y": 3614,
+    "w": 234,
+    "h": 52,
+    "level": 3,
+    "text": "data & ai für konsumgüter"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-carousel-inner > div.card-carousel-controls > button.card-carousel-prev.round-bt",
+    "x": 89,
+    "y": 3489,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-carousel-inner > div.card-carousel-controls > button.card-carousel-next.round-bt",
+    "x": 1303,
+    "y": 3489,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-teaser-link > p > a",
+    "x": 515,
+    "y": 3994,
+    "w": 179,
+    "h": 27,
+    "text": "4brands reply",
+    "href": "/4brands-reply/de"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-teaser-media > picture > img",
+    "x": 177,
+    "y": 4087,
+    "w": 185,
+    "h": 80,
+    "text": "",
+    "file": "media_10517eb8142538a72d95a50c005a536204"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.b4-teaser-body > div.b4-teaser-text > p",
+    "x": 515,
+    "y": 4047,
+    "w": 636,
+    "h": 214,
+    "text": "4brands Reply ist Branchenexperte für die Konsumgüterindustrie und verbindet Ana"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-wrap > nav.brand-footer > img.brand-footer-logo",
+    "x": 64,
+    "y": 4526,
+    "w": 211,
+    "h": 71,
+    "text": "logo",
+    "file": "logo-4brands-footer"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.brand-footer-cta-list > li > a.footer-cta",
+    "x": 64,
+    "y": 4621,
+    "w": 180,
+    "h": 48,
+    "text": "contact us",
+    "href": "/4brands-reply/de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.brand-footer-cta-list > li > a.footer-cta",
+    "x": 284,
+    "y": 4621,
+    "w": 149,
+    "h": 48,
+    "text": "careers",
+    "href": "/de/about/careers/de/job-search"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.brand-footer-cta-list > li > a.footer-cta",
+    "x": 473,
+    "y": 4621,
+    "w": 177,
+    "h": 48,
+    "text": "impressum",
+    "href": "/de/impressum"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.brand-footer-grid > li.brand-footer-legal > button#footer_privacy_and_legal",
+    "x": 700,
+    "y": 4621,
+    "w": 676,
+    "h": 20,
+    "text": "privacy and legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.brand-footer-grid > li.brand-footer-legal > button#footer_privacy_and_legal",
+    "x": 700,
+    "y": 4621,
+    "w": 676,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy and legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text-light > a",
+    "x": 700,
+    "y": 4669,
+    "w": 207,
+    "h": 34,
+    "text": "datenschutz- und cookie richtlinie",
+    "href": "/de/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text-light > a",
+    "x": 700,
+    "y": 4730,
+    "w": 192,
+    "h": 17,
+    "text": "datenschutzhinweis (bewerber)",
+    "href": "/de/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text-light > a",
+    "x": 700,
+    "y": 4775,
+    "w": 181,
+    "h": 17,
+    "text": "datenschutzhinweis (kunden)",
+    "href": "/de/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text-light > a",
+    "x": 935,
+    "y": 4669,
+    "w": 207,
+    "h": 34,
+    "text": "datenschutzhinweis (dienstleister)",
+    "href": "/de/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text-light > a",
+    "x": 935,
+    "y": 4730,
+    "w": 194,
+    "h": 17,
+    "text": "datenschutzhinweis (marketing)",
+    "href": "/de/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text-light > a",
+    "x": 1169,
+    "y": 4669,
+    "w": 207,
+    "h": 34,
+    "text": "grundsatzerklärung - lksg (deutschland)",
+    "href": "/de/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_footer_privacy_and_legal > li.footer-text-light > a",
+    "x": 1169,
+    "y": 4730,
+    "w": 146,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/de/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.brand-copyright-row > div.brand-copyright-info.footer-text-light > a.brand-copyright-logo",
+    "x": 64,
+    "y": 4856,
+    "w": 52,
+    "h": 26,
+    "text": "go to reply website",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.brand-copyright-row > div.brand-copyright-info.footer-text-light > span.brand-copyright-copy",
+    "x": 149,
+    "y": 4860,
+    "w": 84,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.brand-copyright > div.brand-copyright-row > button#cookie-pref-center",
+    "x": 1278,
+    "y": 859,
+    "w": 162,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 4,
+    "offPage": 15,
+    "textNodes": 74,
+    "controls": 38,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.card-carousel.scale",
+     "path": "ul.card-carousel-track > li.card-carousel-item.is-clone > div.reply-card.reply-card-slider > a.reply-card-cover",
+     "text": "ai voice assistant für den fmcg-vertriebwhite paper",
+     "cutMin": 105,
+     "cutMax": 105
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.card-carousel.scale",
+     "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#ai-voice-assistant-für-den-fmcg-vertrieb",
+     "text": "ai voice assistant für den fmcg-vertrieb",
+     "cutMin": 73,
+     "cutMax": 73
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.card-carousel.scale",
+     "path": "div.reply-card-body > div.category-label > div.category-name > p",
+     "text": "white paper",
+     "cutMin": 57,
+     "cutMax": 57
+    }
+   ],
+   "findings": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 105,
+     "path": "ul.card-carousel-track > li.card-carousel-item.is-clone > div.reply-card.reply-card-slider > a.reply-card-cover",
+     "text": "ai voice assistant für den fmcg-vertriebwhite paper",
+     "clipper": "div.card-carousel.scale",
+     "rect": {
+      "l": -105,
+      "t": 3289,
+      "r": 193,
+      "b": 3736,
+      "w": 298,
+      "h": 447
+     },
+     "clip": {
+      "l": 0,
+      "t": 3249,
+      "r": 1440,
+      "b": 3776,
+      "w": 1440,
+      "h": 527
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 73,
+     "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#ai-voice-assistant-für-den-fmcg-vertrieb",
+     "text": "ai voice assistant für den fmcg-vertrieb",
+     "clipper": "div.card-carousel.scale",
+     "rect": {
+      "l": -73,
+      "t": 3616,
+      "r": 149,
+      "b": 3638,
+      "w": 222,
+      "h": 22
+     },
+     "clip": {
+      "l": 0,
+      "t": 3249,
+      "r": 1440,
+      "b": 3776,
+      "w": 1440,
+      "h": 527
+     },
+     "lines": 2
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 57,
+     "path": "div.reply-card-body > div.category-label > div.category-name > p",
+     "text": "white paper",
+     "clipper": "div.card-carousel.scale",
+     "rect": {
+      "l": -57,
+      "t": 3690,
+      "r": 44,
+      "b": 3703,
+      "w": 101,
+      "h": 13
+     },
+     "clip": {
+      "l": 0,
+      "t": 3249,
+      "r": 1440,
+      "b": 3776,
+      "w": 1440,
+      "h": 527
+     },
+     "lines": 1
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 105,
+     "path": "ul.card-carousel-track > li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+     "text": "data & ai für konsumgüteroffering",
+     "clipper": "div.card-carousel.scale",
+     "rect": {
+      "l": 1247,
+      "t": 3289,
+      "r": 1545,
+      "b": 3736,
+      "w": 298,
+      "h": 447
+     },
+     "clip": {
+      "l": 0,
+      "t": 3249,
+      "r": 1440,
+      "b": 3776,
+      "w": 1440,
+      "h": 527
+     }
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "intelligente produktempfehlung im fmcg vertrieb",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "vertriebsboost im b2b-umfeld",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "die inhalte unseres whitepapers im überblick",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 6,
+    "image": 3
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": [
+    "COUNT TEXT"
+   ]
+  },
+  {
+   "index": 4,
+   "heading": "das könnte sie auch interessieren",
+   "variable": false,
+   "origin": {
+    "link": 5,
+    "button": 2,
+    "text": 0,
+    "image": 5
+   },
+   "eds": {
+    "link": 5,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 5,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "ai voice assistant für den fmcg-vertrieb",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "smart retail execution",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "data & ai für konsumgüter",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "visiongallery ai: ki-bildanalyse vom pos",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "reply routes",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "COUNT TEXT",
+   "msg": "band \"die inhalte unseres whitepapers im überblick\": 6 origin → 2 served visible",
+   "band": 3,
+   "origin": 6,
+   "eds": 2,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 1,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 1339,
+    "y": 7,
+    "w": 17,
+    "h": 13
+   },
+   {
+    "x": 318,
+    "y": 51,
+    "w": 62,
+    "h": 16
+   },
+   {
+    "x": 436,
+    "y": 51,
+    "w": 83,
+    "h": 16
+   },
+   {
+    "x": 575,
+    "y": 51,
+    "w": 60,
+    "h": 16
+   },
+   {
+    "x": 692,
+    "y": 51,
+    "w": 59,
+    "h": 16
+   },
+   {
+    "x": 193,
+    "y": 230,
+    "w": 90,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 266,
+    "w": 387,
+    "h": 71
+   },
+   {
+    "x": 177,
+    "y": 336,
+    "w": 765,
+    "h": 71
+   },
+   {
+    "x": 177,
+    "y": 407,
+    "w": 487,
+    "h": 71
+   },
+   {
+    "x": 289,
+    "y": 522,
+    "w": 487,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 549,
+    "w": 424,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 576,
+    "w": 107,
+    "h": 18
+   },
+   {
+    "x": 313,
+    "y": 638,
+    "w": 243,
+    "h": 16
+   },
+   {
+    "x": 292,
+    "y": 938,
+    "w": 856,
+    "h": 46
+   },
+   {
+    "x": 327,
+    "y": 988,
+    "w": 787,
+    "h": 46
+   },
+   {
+    "x": 410,
+    "y": 1039,
+    "w": 269,
+    "h": 46
+   },
+   {
+    "x": 678,
+    "y": 1039,
+    "w": 341,
+    "h": 46
+   },
+   {
+    "x": 1019,
+    "y": 1039,
+    "w": 11,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 1212,
+    "w": 573,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 1298,
+    "w": 521,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1325,
+    "w": 520,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1352,
+    "w": 520,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1379,
+    "w": 509,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1406,
+    "w": 516,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1433,
+    "w": 504,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1460,
+    "w": 461,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1487,
+    "w": 503,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1514,
+    "w": 411,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1541,
+    "w": 418,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1568,
+    "w": 469,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1595,
+    "w": 302,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1298,
+    "w": 482,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1325,
+    "w": 491,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1352,
+    "w": 506,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1379,
+    "w": 218,
+    "h": 18
+   },
+   {
+    "x": 958,
+    "y": 1379,
+    "w": 194,
+    "h": 18
+   },
+   {
+    "x": 1152,
+    "y": 1379,
+    "w": 81,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1406,
+    "w": 495,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1433,
+    "w": 464,
+    "h": 18
+   },
+   {
+    "x": 1204,
+    "y": 1433,
+    "w": 48,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1460,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 805,
+    "y": 1460,
+    "w": 306,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1487,
+    "w": 464,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1514,
+    "w": 520,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1541,
+    "w": 448,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1568,
+    "w": 205,
+    "h": 18
+   },
+   {
+    "x": 945,
+    "y": 1568,
+    "w": 259,
+    "h": 18
+   },
+   {
+    "x": 1204,
+    "y": 1568,
+    "w": 4,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1595,
+    "w": 467,
+    "h": 18
+   },
+   {
+    "x": 294,
+    "y": 1859,
+    "w": 853,
+    "h": 40
+   },
+   {
+    "x": 161,
+    "y": 2122,
+    "w": 217,
+    "h": 27
+   },
+   {
+    "x": 552,
+    "y": 2122,
+    "w": 337,
+    "h": 27
+   },
+   {
+    "x": 677,
+    "y": 2153,
+    "w": 85,
+    "h": 27
+   },
+   {
+    "x": 969,
+    "y": 2122,
+    "w": 403,
+    "h": 27
+   },
+   {
+    "x": 298,
+    "y": 2253,
+    "w": 467,
+    "h": 16
+   },
+   {
+    "x": 765,
+    "y": 2253,
+    "w": 272,
+    "h": 16
+   },
+   {
+    "x": 1036,
+    "y": 2253,
+    "w": 106,
+    "h": 16
+   },
+   {
+    "x": 300,
+    "y": 2277,
+    "w": 840,
+    "h": 16
+   },
+   {
+    "x": 312,
+    "y": 2301,
+    "w": 118,
+    "h": 16
+   },
+   {
+    "x": 429,
+    "y": 2301,
+    "w": 699,
+    "h": 16
+   },
+   {
+    "x": 557,
+    "y": 2324,
+    "w": 325,
+    "h": 16
+   },
+   {
+    "x": 417,
+    "y": 2591,
+    "w": 607,
+    "h": 46
+   },
+   {
+    "x": 359,
+    "y": 2642,
+    "w": 722,
+    "h": 46
+   },
+   {
+    "x": 381,
+    "y": 2692,
+    "w": 677,
+    "h": 46
+   },
+   {
+    "x": 371,
+    "y": 2742,
+    "w": 237,
+    "h": 46
+   },
+   {
+    "x": 607,
+    "y": 2742,
+    "w": 371,
+    "h": 46
+   },
+   {
+    "x": 978,
+    "y": 2742,
+    "w": 82,
+    "h": 46
+   },
+   {
+    "x": 1060,
+    "y": 2742,
+    "w": 10,
+    "h": 46
+   },
+   {
+    "x": 530,
+    "y": 2793,
+    "w": 379,
+    "h": 46
+   },
+   {
+    "x": 392,
+    "y": 2843,
+    "w": 655,
+    "h": 46
+   },
+   {
+    "x": 578,
+    "y": 2894,
+    "w": 283,
+    "h": 46
+   },
+   {
+    "x": 583,
+    "y": 2997,
+    "w": 243,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 3159,
+    "w": 632,
+    "h": 40
+   },
+   {
+    "x": -73,
+    "y": 3610,
+    "w": 223,
+    "h": 22
+   },
+   {
+    "x": -73,
+    "y": 3636,
+    "w": 204,
+    "h": 22
+   },
+   {
+    "x": -57,
+    "y": 3685,
+    "w": 90,
+    "h": 11
+   },
+   {
+    "x": 265,
+    "y": 3610,
+    "w": 132,
+    "h": 22
+   },
+   {
+    "x": 265,
+    "y": 3636,
+    "w": 105,
+    "h": 22
+   },
+   {
+    "x": 281,
+    "y": 3685,
+    "w": 90,
+    "h": 11
+   },
+   {
+    "x": 588,
+    "y": 3623,
+    "w": 232,
+    "h": 25
+   },
+   {
+    "x": 588,
+    "y": 3652,
+    "w": 248,
+    "h": 25
+   },
+   {
+    "x": 941,
+    "y": 3636,
+    "w": 136,
+    "h": 22
+   },
+   {
+    "x": 957,
+    "y": 3685,
+    "w": 90,
+    "h": 11
+   },
+   {
+    "x": 1279,
+    "y": 3610,
+    "w": 135,
+    "h": 22
+   },
+   {
+    "x": 1279,
+    "y": 3636,
+    "w": 141,
+    "h": 22
+   },
+   {
+    "x": 1279,
+    "y": 3685,
+    "w": 69,
+    "h": 11
+   },
+   {
+    "x": 515,
+    "y": 3988,
+    "w": 180,
+    "h": 27
+   },
+   {
+    "x": 515,
+    "y": 4044,
+    "w": 631,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 4068,
+    "w": 630,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 4092,
+    "w": 621,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 4116,
+    "w": 596,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 4140,
+    "w": 581,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 4163,
+    "w": 603,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 4187,
+    "w": 596,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 4211,
+    "w": 544,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 4235,
+    "w": 358,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 4631,
+    "w": 105,
+    "h": 16
+   },
+   {
+    "x": 284,
+    "y": 4631,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 473,
+    "y": 4631,
+    "w": 104,
+    "h": 16
+   },
+   {
+    "x": 700,
+    "y": 4616,
+    "w": 162,
+    "h": 16
+   },
+   {
+    "x": 700,
+    "y": 4663,
+    "w": 156,
+    "h": 13
+   },
+   {
+    "x": 700,
+    "y": 4680,
+    "w": 56,
+    "h": 13
+   },
+   {
+    "x": 700,
+    "y": 4725,
+    "w": 128,
+    "h": 13
+   },
+   {
+    "x": 828,
+    "y": 4725,
+    "w": 66,
+    "h": 13
+   },
+   {
+    "x": 700,
+    "y": 4770,
+    "w": 128,
+    "h": 13
+   },
+   {
+    "x": 828,
+    "y": 4770,
+    "w": 54,
+    "h": 13
+   },
+   {
+    "x": 935,
+    "y": 4663,
+    "w": 125,
+    "h": 13
+   },
+   {
+    "x": 935,
+    "y": 4680,
+    "w": 83,
+    "h": 13
+   },
+   {
+    "x": 935,
+    "y": 4725,
+    "w": 128,
+    "h": 13
+   },
+   {
+    "x": 1063,
+    "y": 4725,
+    "w": 69,
+    "h": 13
+   },
+   {
+    "x": 1169,
+    "y": 4663,
+    "w": 167,
+    "h": 13
+   },
+   {
+    "x": 1169,
+    "y": 4680,
+    "w": 85,
+    "h": 13
+   },
+   {
+    "x": 1169,
+    "y": 4725,
+    "w": 147,
+    "h": 13
+   },
+   {
+    "x": 149,
+    "y": 4855,
+    "w": 81,
+    "h": 13
+   },
+   {
+    "x": 1296,
+    "y": 872,
+    "w": 124,
+    "h": 13
+   }
+  ],
+  "eds": [
+   {
+    "x": 1336,
+    "y": 7,
+    "w": 20,
+    "h": 13
+   },
+   {
+    "x": 318,
+    "y": 51,
+    "w": 63,
+    "h": 16
+   },
+   {
+    "x": 437,
+    "y": 51,
+    "w": 81,
+    "h": 16
+   },
+   {
+    "x": 575,
+    "y": 51,
+    "w": 57,
+    "h": 16
+   },
+   {
+    "x": 687,
+    "y": 51,
+    "w": 57,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 242,
+    "w": 101,
+    "h": 13
+   },
+   {
+    "x": 177,
+    "y": 279,
+    "w": 371,
+    "h": 71
+   },
+   {
+    "x": 177,
+    "y": 350,
+    "w": 753,
+    "h": 71
+   },
+   {
+    "x": 177,
+    "y": 420,
+    "w": 495,
+    "h": 71
+   },
+   {
+    "x": 289,
+    "y": 536,
+    "w": 489,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 563,
+    "w": 520,
+    "h": 18
+   },
+   {
+    "x": 313,
+    "y": 624,
+    "w": 236,
+    "h": 18
+   },
+   {
+    "x": 297,
+    "y": 938,
+    "w": 846,
+    "h": 46
+   },
+   {
+    "x": 328,
+    "y": 988,
+    "w": 784,
+    "h": 46
+   },
+   {
+    "x": 412,
+    "y": 1039,
+    "w": 264,
+    "h": 46
+   },
+   {
+    "x": 677,
+    "y": 1039,
+    "w": 340,
+    "h": 46
+   },
+   {
+    "x": 1016,
+    "y": 1039,
+    "w": 12,
+    "h": 46
+   },
+   {
+    "x": 177,
+    "y": 1212,
+    "w": 569,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 1298,
+    "w": 513,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1325,
+    "w": 500,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1352,
+    "w": 517,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1379,
+    "w": 498,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1406,
+    "w": 512,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1433,
+    "w": 495,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1460,
+    "w": 457,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1487,
+    "w": 496,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1514,
+    "w": 400,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1541,
+    "w": 520,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1568,
+    "w": 348,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1595,
+    "w": 295,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1298,
+    "w": 469,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1325,
+    "w": 483,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1352,
+    "w": 505,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1379,
+    "w": 220,
+    "h": 18
+   },
+   {
+    "x": 960,
+    "y": 1379,
+    "w": 190,
+    "h": 18
+   },
+   {
+    "x": 1151,
+    "y": 1379,
+    "w": 80,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1406,
+    "w": 474,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1433,
+    "w": 459,
+    "h": 18
+   },
+   {
+    "x": 1199,
+    "y": 1433,
+    "w": 48,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1460,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 805,
+    "y": 1460,
+    "w": 296,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1487,
+    "w": 450,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1514,
+    "w": 509,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1541,
+    "w": 504,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1568,
+    "w": 127,
+    "h": 18
+   },
+   {
+    "x": 867,
+    "y": 1568,
+    "w": 252,
+    "h": 18
+   },
+   {
+    "x": 1119,
+    "y": 1568,
+    "w": 124,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1595,
+    "w": 327,
+    "h": 18
+   },
+   {
+    "x": 296,
+    "y": 1865,
+    "w": 848,
+    "h": 40
+   },
+   {
+    "x": 160,
+    "y": 2128,
+    "w": 218,
+    "h": 27
+   },
+   {
+    "x": 553,
+    "y": 2128,
+    "w": 333,
+    "h": 27
+   },
+   {
+    "x": 676,
+    "y": 2159,
+    "w": 88,
+    "h": 27
+   },
+   {
+    "x": 970,
+    "y": 2128,
+    "w": 401,
+    "h": 27
+   },
+   {
+    "x": 291,
+    "y": 2259,
+    "w": 858,
+    "h": 16
+   },
+   {
+    "x": 302,
+    "y": 2283,
+    "w": 836,
+    "h": 16
+   },
+   {
+    "x": 300,
+    "y": 2307,
+    "w": 840,
+    "h": 16
+   },
+   {
+    "x": 594,
+    "y": 2330,
+    "w": 253,
+    "h": 16
+   },
+   {
+    "x": 405,
+    "y": 2597,
+    "w": 629,
+    "h": 46
+   },
+   {
+    "x": 355,
+    "y": 2648,
+    "w": 731,
+    "h": 46
+   },
+   {
+    "x": 376,
+    "y": 2698,
+    "w": 688,
+    "h": 46
+   },
+   {
+    "x": 371,
+    "y": 2748,
+    "w": 246,
+    "h": 46
+   },
+   {
+    "x": 617,
+    "y": 2748,
+    "w": 357,
+    "h": 46
+   },
+   {
+    "x": 974,
+    "y": 2748,
+    "w": 95,
+    "h": 46
+   },
+   {
+    "x": 535,
+    "y": 2799,
+    "w": 371,
+    "h": 46
+   },
+   {
+    "x": 393,
+    "y": 2849,
+    "w": 653,
+    "h": 46
+   },
+   {
+    "x": 574,
+    "y": 2900,
+    "w": 292,
+    "h": 46
+   },
+   {
+    "x": 586,
+    "y": 3002,
+    "w": 236,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 3165,
+    "w": 636,
+    "h": 40
+   },
+   {
+    "x": -73,
+    "y": 3616,
+    "w": 222,
+    "h": 22
+   },
+   {
+    "x": -73,
+    "y": 3642,
+    "w": 201,
+    "h": 22
+   },
+   {
+    "x": -57,
+    "y": 3690,
+    "w": 101,
+    "h": 13
+   },
+   {
+    "x": 265,
+    "y": 3616,
+    "w": 129,
+    "h": 22
+   },
+   {
+    "x": 265,
+    "y": 3642,
+    "w": 104,
+    "h": 22
+   },
+   {
+    "x": 281,
+    "y": 3690,
+    "w": 101,
+    "h": 13
+   },
+   {
+    "x": 588,
+    "y": 3629,
+    "w": 232,
+    "h": 25
+   },
+   {
+    "x": 588,
+    "y": 3658,
+    "w": 253,
+    "h": 25
+   },
+   {
+    "x": 606,
+    "y": 3712,
+    "w": 114,
+    "h": 15
+   },
+   {
+    "x": 941,
+    "y": 3642,
+    "w": 139,
+    "h": 22
+   },
+   {
+    "x": 957,
+    "y": 3690,
+    "w": 101,
+    "h": 13
+   },
+   {
+    "x": 1279,
+    "y": 3616,
+    "w": 132,
+    "h": 22
+   },
+   {
+    "x": 1279,
+    "y": 3642,
+    "w": 140,
+    "h": 22
+   },
+   {
+    "x": 1279,
+    "y": 3690,
+    "w": 77,
+    "h": 13
+   },
+   {
+    "x": 515,
+    "y": 3994,
+    "w": 179,
+    "h": 27
+   },
+   {
+    "x": 515,
+    "y": 4050,
+    "w": 621,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 4074,
+    "w": 627,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 4098,
+    "w": 633,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 4122,
+    "w": 630,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 4146,
+    "w": 606,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 4169,
+    "w": 602,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 4193,
+    "w": 577,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 4217,
+    "w": 564,
+    "h": 16
+   },
+   {
+    "x": 515,
+    "y": 4241,
+    "w": 245,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 4636,
+    "w": 105,
+    "h": 18
+   },
+   {
+    "x": 284,
+    "y": 4636,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 473,
+    "y": 4636,
+    "w": 102,
+    "h": 18
+   },
+   {
+    "x": 700,
+    "y": 4622,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 700,
+    "y": 4670,
+    "w": 156,
+    "h": 13
+   },
+   {
+    "x": 700,
+    "y": 4686,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 700,
+    "y": 4731,
+    "w": 126,
+    "h": 13
+   },
+   {
+    "x": 826,
+    "y": 4731,
+    "w": 67,
+    "h": 13
+   },
+   {
+    "x": 700,
+    "y": 4776,
+    "w": 126,
+    "h": 13
+   },
+   {
+    "x": 826,
+    "y": 4776,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 935,
+    "y": 4670,
+    "w": 122,
+    "h": 13
+   },
+   {
+    "x": 935,
+    "y": 4686,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 935,
+    "y": 4731,
+    "w": 126,
+    "h": 13
+   },
+   {
+    "x": 1060,
+    "y": 4731,
+    "w": 68,
+    "h": 13
+   },
+   {
+    "x": 1169,
+    "y": 4670,
+    "w": 169,
+    "h": 13
+   },
+   {
+    "x": 1169,
+    "y": 4686,
+    "w": 85,
+    "h": 13
+   },
+   {
+    "x": 1169,
+    "y": 4731,
+    "w": 146,
+    "h": 13
+   },
+   {
+    "x": 149,
+    "y": 4861,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 1298,
+    "y": 871,
+    "w": 122,
+    "h": 16
+   }
+  ]
+ }
+}

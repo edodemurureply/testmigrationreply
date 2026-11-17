@@ -1,0 +1,5197 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-11-15T09:40:35.926Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.reply.com/",
+   "https://www.reply.com/en/iot",
+   "https://www.reply.com/4brands-reply/en",
+   "https://www.reply.com/4brands-reply/de/customer-experience-management",
+   "https://www.reply.com/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+   "https://www.reply.com/en/insights",
+   "https://www.reply.com/en/covid-19-implications-2021",
+   "https://www.reply.com/en/accessibility"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/": {
+   "url": "https://www.reply.com/",
+   "status": 200,
+   "host": "www.reply.com",
+   "title": "Digital Services, Technology and Consulting | Reply",
+   "forms": [
+    {
+     "name": "flex",
+     "action": "https://www.reply.com/en/search",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "EN",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 10,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Services",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 627,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Industries",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 312,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Insights & Labs",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 285,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "We care",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 277,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "We are",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 452,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "English",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 48,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "search",
+      "heading": "",
+      "textLen": 25,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menubar",
+      "heading": "",
+      "textLen": 2078,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "We are",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 39,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Privacy & legal",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 318,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 782,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Privacy Preference Center",
+     "textLen": 2358,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 16,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "//dam-media.reply.com/media-delivery/widgets/openPlayer/v2/widget.html?resourceId=07a4e26f-b59b-43b0-bbaf-7296a88089de&videoResourceId=abc8f097-3a41-4d81-bdf6-24d2df7bcc83&playerIframeId=ds-07a4e26f-b",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "//dam-media.reply.com/media-delivery/widgets/openPlayer/v2/widget.html?resourceId=07a4e26f-b59b-43b0-bbaf-7296a88089de&videoResourceId=e3b56503-6971-ff34-48ec-0285d899b901&playerIframeId=ds-07a4e26f-b",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=lldx7tb&cookie_sync=1&upv=3.0.0&upid=d9pqcc5&ref=https%3A%2F%2Fwww.reply.com%2Fen",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "//dam-media.reply.com/media-delivery/widgets/openPlayer/v2/widget.html?resourceId=07a4e26f-b59b-43b0-bbaf-7296a88089de&videoResourceId=abc8f097-3a41-4d81-bdf6-24d2df7bcc83&playerIframeId=ds-07a4e26f-b59b-43b0-bbaf-7296a88089de&analyticsEnabled=true&captionLang=en",
+     "title": "House of Models_color",
+     "w": 1440,
+     "h": 810
+    },
+    {
+     "src": "//dam-media.reply.com/media-delivery/widgets/openPlayer/v2/widget.html?resourceId=07a4e26f-b59b-43b0-bbaf-7296a88089de&videoResourceId=e3b56503-6971-ff34-48ec-0285d899b901&playerIframeId=ds-07a4e26f-b59b-43b0-bbaf-7296a88089de&analyticsEnabled=true&captionLang=en",
+     "title": "Valorem US St. Peter\\u0027s Basilica Showreel 2024",
+     "w": 298,
+     "h": 447
+    },
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=lldx7tb&cookie_sync=1&upv=3.0.0&upid=d9pqcc5&ref=https%3A%2F%2Fwww.reply.com%2Fen",
+     "title": "TTD Universal Pixel",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 1
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [
+     "de",
+     "en",
+     "fr",
+     "it",
+     "pt"
+    ],
+    "switcher": [
+     "https://www.reply.com/de",
+     "https://www.reply.com/fr",
+     "https://www.reply.com/it",
+     "https://www.reply.com/pt",
+     "https://www.reply.com/de"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [
+    {
+     "cls": "card-carousel-runtime d-flex",
+     "attrs": [
+      "data-endpoint=Default"
+     ],
+     "text": "Agentic AI: from copilot to autopilotResearch Sovereign AI f"
+    }
+   ],
+   "listingCandidates": [
+    {
+     "cls": "carousel-items",
+     "cards": 33,
+     "sameSite": 32,
+     "hasDate": false
+    },
+    {
+     "cls": "carousel-items carousel-items--runtime",
+     "cards": 15,
+     "sameSite": 15,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 7,
+   "inlineFetch": false,
+   "mainText": 9735,
+   "domAddedAfterLoad": 45,
+   "hosts": {
+    "www.reply.com": 16,
+    "dam-media.reply.com": 37,
+    "cdn.cookielaw.org": 11,
+    "replydam.discoveryreplymedia.com": 93,
+    "geolocation.onetrust.com": 1,
+    "www.googletagmanager.com": 8,
+    "api.reply.com": 1,
+    "sleeknotecustomerscripts.sleeknote.com": 1,
+    "www.google-analytics.com": 8,
+    "analytics.google.com": 2,
+    "static.ads-twitter.com": 1,
+    "trk.techtarget.com": 1,
+    "connect.facebook.net": 2,
+    "js.zi-scripts.com": 2,
+    "ad.doubleclick.net": 1,
+    "www.google.com": 10,
+    "snap.licdn.com": 1,
+    "px.ads.linkedin.com": 7,
+    "www.facebook.com": 1,
+    "ibc-flow.techtarget.com": 1,
+    "cdn.jsdelivr.net": 1,
+    "googleads.g.doubleclick.net": 3,
+    "ws.zoominfo.com": 1,
+    "js.adsrvr.org": 2,
+    "tags.clickagy.com": 1,
+    "www.linkedin.com": 2,
+    "js-eu1.hs-scripts.com": 1,
+    "insight.adsrvr.org": 2,
+    "aorta.clickagy.com": 9,
+    "match.adsrvr.org": 4,
+    "cm.g.doubleclick.net": 4,
+    "px4.ads.linkedin.com": 2,
+    "us-u.openx.net": 3,
+    "ib.adnxs.com": 2,
+    "pixel.rubiconproject.com": 1,
+    "hemsync.clickagy.com": 1,
+    "js-eu1.hs-banner.com": 1,
+    "js-eu1.hubspot.com": 1,
+    "js-eu1.hs-analytics.net": 1,
+    "cta-eu1.hubspot.com": 1,
+    "track-eu1.hubspot.com": 1,
+    "perf-eu1.hsforms.com": 1
+   },
+   "thirdPartyHosts": [
+    "cdn.cookielaw.org",
+    "replydam.discoveryreplymedia.com",
+    "geolocation.onetrust.com",
+    "www.googletagmanager.com",
+    "sleeknotecustomerscripts.sleeknote.com",
+    "www.google-analytics.com",
+    "analytics.google.com",
+    "static.ads-twitter.com",
+    "trk.techtarget.com",
+    "connect.facebook.net",
+    "js.zi-scripts.com",
+    "ad.doubleclick.net",
+    "www.google.com",
+    "snap.licdn.com",
+    "px.ads.linkedin.com",
+    "www.facebook.com",
+    "ibc-flow.techtarget.com",
+    "cdn.jsdelivr.net",
+    "googleads.g.doubleclick.net",
+    "ws.zoominfo.com",
+    "js.adsrvr.org",
+    "tags.clickagy.com",
+    "www.linkedin.com",
+    "js-eu1.hs-scripts.com",
+    "insight.adsrvr.org",
+    "aorta.clickagy.com",
+    "match.adsrvr.org",
+    "cm.g.doubleclick.net",
+    "px4.ads.linkedin.com",
+    "us-u.openx.net",
+    "ib.adnxs.com",
+    "pixel.rubiconproject.com",
+    "hemsync.clickagy.com",
+    "js-eu1.hs-banner.com",
+    "js-eu1.hubspot.com",
+    "js-eu1.hs-analytics.net",
+    "cta-eu1.hubspot.com",
+    "track-eu1.hubspot.com",
+    "perf-eu1.hsforms.com"
+   ],
+   "scripts": [
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://www.reply.com/scripts/theme.06e98347.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-5J8JCZQ",
+    "https://dam-media.reply.com/media-delivery/widgets/openPlayer/v2/referers.min.js",
+    "https://dam-media.reply.com/media-delivery/common/discoveryWidget.v4.min.js",
+    "https://cdn.cookielaw.org/scripttemplates/202503.1.0/otBannerSdk.js",
+    "https://dam-media.reply.com/media-delivery/widgets/openPlayer/v2/controller.min.js",
+    "https://dam-media.reply.com/media-delivery/resources/jquery/v3.6.0/jquery.min.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-NX5RCR1CJ8&cx=c&gtm=4e6bb1",
+    "https://dam-media.reply.com/media-delivery/resources/video-js/v7.13.3/video.min.js",
+    "https://dam-media.reply.com/media-delivery/resources/video-js/v7.13.3/videojs-playlist.min.js",
+    "https://dam-media.reply.com/media-delivery/resources/video-js/v0.6.0/videojs-sprite-thumbnails.min.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-4V48VRMXYG&cx=c&gtm=4e6bb1",
+    "https://www.googletagmanager.com/gtag/js?id=G-03WJT618YJ&cx=c&gtm=4e6bb1",
+    "https://www.googletagmanager.com/gtag/js?id=G-F9W9706WEQ&cx=c&gtm=4e6bb1",
+    "https://sleeknotecustomerscripts.sleeknote.com/38207.js",
+    "https://static.ads-twitter.com/uwt.js",
+    "https://trk.techtarget.com/tracking.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://js.zi-scripts.com/zi-tag.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://connect.facebook.net/signals/config/350425859155563?v=2.9.439&r=stable&domain=www.reply.com&optin_meta_enabled_capi=true&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex",
+    "https://www.googletagmanager.com/gtag/js?id=AW-1058439082&cx=c&gtm=4e6bb1",
+    "https://cdn.jsdelivr.net/npm/meta-capi-param-builder-clientjs/dist/clientParamBuilder.bundle.js",
+    "https://www.googletagmanager.com/gtag/js?id=AW-477691837&cx=c&gtm=4e6bb1",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1058439082/?random=1794735638386&cv=11&fst=1794735638386&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bb1v893306520za20ozb81007131",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1058439082/?random=1794735638410&cv=11&fst=1794735638410&bg=ffffff&guid=ON&async=1&gtm=45be6bb1v893306520z8810071315za20gzb810071315zd8",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/477691837/?random=1794735638504&cv=11&fst=1794735638504&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bb1v9178880896za20ozb81007131",
+    "https://js.adsrvr.org/up_loader.1.1.0.js",
+    "https://tags.clickagy.com/data.js?rnd=62fe5c0e6ad96",
+    "https://js-eu1.hs-scripts.com/145684924.js",
+    "https://js.adsrvr.org/universal_pixel.js",
+    "https://js-eu1.hs-banner.com/v2/145684924/banner.js",
+    "https://js-eu1.hubspot.com/web-interactives-embed.js",
+    "https://js-eu1.hs-analytics.net/analytics/1794735600000/145684924.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "dam-media.reply.com",
+     "path": "/media-delivery/model/{uuid}.json",
+     "query": [
+      "_"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://dam-media.reply.com/media-delivery/model/07a4e26f-b59b-43b0-bbaf-7296a88089de.json"
+    },
+    {
+     "method": "GET",
+     "host": "api.reply.com",
+     "path": "/api/content-list/default",
+     "query": [
+      "_include",
+      "_limit",
+      "_sortBy",
+      "sectionPermalink",
+      "siteKey"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://api.reply.com/api/content-list/default"
+    },
+    {
+     "method": "GET",
+     "host": "dam-media.reply.com",
+     "path": "/production/{n}/{n}/{uuid}/{uuid}/playlist.m3u8",
+     "query": [],
+     "status": 200,
+     "contentType": "application/vnd.apple.mpegurl",
+     "example": "https://dam-media.reply.com/production/31/95/abc8f097-3a41-4d81-bdf6-24d2df7bcc83/6b0d0d21-0238-4994-bd80-085a1bc8ff0d/playlist.m3u8"
+    },
+    {
+     "method": "GET",
+     "host": "dam-media.reply.com",
+     "path": "/production/{n}/{n}/{uuid}/{uuid}/playlistHLS-1080.m3u8",
+     "query": [],
+     "status": 200,
+     "contentType": "application/vnd.apple.mpegurl",
+     "example": "https://dam-media.reply.com/production/31/95/abc8f097-3a41-4d81-bdf6-24d2df7bcc83/6b0d0d21-0238-4994-bd80-085a1bc8ff0d/playlistHLS-1080.m3u8"
+    },
+    {
+     "method": "GET",
+     "host": "dam-media.reply.com",
+     "path": "/production/{n}/{n}/{uuid}/{uuid}/playlistHLS-1080_00001.ts",
+     "query": [],
+     "status": 200,
+     "contentType": "video/MP2T",
+     "example": "https://dam-media.reply.com/production/31/95/abc8f097-3a41-4d81-bdf6-24d2df7bcc83/6b0d0d21-0238-4994-bd80-085a1bc8ff0d/playlistHLS-1080_00001.ts"
+    },
+    {
+     "method": "GET",
+     "host": "dam-media.reply.com",
+     "path": "/production/{n}/{n}/{uuid}/{uuid}/playlistHLS-1080_00002.ts",
+     "query": [],
+     "status": 200,
+     "contentType": "video/MP2T",
+     "example": "https://dam-media.reply.com/production/31/95/abc8f097-3a41-4d81-bdf6-24d2df7bcc83/6b0d0d21-0238-4994-bd80-085a1bc8ff0d/playlistHLS-1080_00002.ts"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/93b766e1-abbc-4ac6-8595-a8b1084d9583/93b766e1-abbc-4ac6-8595-a8b1084d95",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/93b766e1-abbc-4ac6-8595-a8b1084d9583/0195a8ea-2e69-76cf-8cf4-50206e0b37",
+    "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/otFlat.json",
+    "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/v2/otPcPanel.json",
+    "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+    "POST www.google-analytics.com/g/collect",
+    "POST analytics.google.com/g/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/ccm/collect",
+    "GET ibc-flow.techtarget.com/a/gif.gif",
+    "POST px.ads.linkedin.com/wa/",
+    "GET js.zi-scripts.com/unified/v1/master/getSubscriptions",
+    "POST www.google.com/rmkt/collect/1058439082/",
+    "POST www.google.com/rmkt/collect/477691837/",
+    "GET ws.zoominfo.com/pixel/690d26fe104e57c66cd69794/",
+    "POST aorta.clickagy.com/data",
+    "GET aorta.clickagy.com/pixel.gif",
+    "GET aorta.clickagy.com/channel-sync/4",
+    "GET hemsync.clickagy.com/external/hasHashes",
+    "GET cta-eu1.hubspot.com/web-interactives/public/v1/embed/combinedConfigs",
+    "POST insight.adsrvr.org/track/realtimeconversion"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4V48VRMXYG&gtm=45je6bb1v9101934939za20ozb810071315zd810071315xf1&_p=1794735636216&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&cid=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-03WJT618YJ&gtm=45je6bb1v9164825874za20ozb810071315zd810071315xf1&_p=1794735636216&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&cid=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-NX5RCR1CJ8&gtm=45je6bb1v9100924311za20ozb810071315zd810071315xf1&_p=1794735636216&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&_eu=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F9W9706WEQ&gtm=45je6bb1v871636865za20ozb810071315zd810071315xf1&_p=1794735636216&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&_eu=A",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-NX5RCR1CJ8&gtm=45je6bb1v9100924311z8810071315za20gzb810071315zd810071315xf1&_p=1794735636216&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=d",
+     "body": "en=page_path_level&ep.full_url=www.reply.com%2Fen&ep.path_l1=%2Fen&ep.path_l2=null&ep.path_l3=null&ep.path_l4=null&ep.querystring_par=null&_et=3\r\nen=page_load_time&epn.loading_time_sec=1.2&_et=15"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-NX5RCR1CJ8&gtm=45je6bb1v9100924311za20gzb810071315zd810071315xf1&_p=1794735636216&_gaz=1&gcs=G111&gcu=1&gcd=13r3v3r3r5l1&npa=0&dma=0&gdid=dYWJhMj&_eu=E",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F9W9706WEQ&gtm=45je6bb1v871636865z8810071315za20gzb810071315zd810071315xf1&_p=1794735636216&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dY",
+     "body": "en=page_path_level&ep.full_url=www.reply.com%2Fen&ep.path_l1=%2Fen&ep.path_l2=null&ep.path_l3=null&ep.path_l4=null&ep.querystring_par=null&_et=3\r\nen=page_load_time&epn.loading_time_sec=1.2&_et=2"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-F9W9706WEQ&gtm=45je6bb1v871636865za20gzb810071315zd810071315xf1&_p=1794735636216&_gaz=1&gcs=G111&gcu=1&gcd=13r3v3r3r5l1&npa=0&dma=0&gdid=dYWJhMj&_eu=AA",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=1&ae=g&auid=1937858339.1794735638&dt=Digital%20Services%2C%20Technology%20and%20Consulting%20%7C%20Reply&en=page_view&dl=https%3A%2F%2Fwww.reply.co",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1937858339.1794735638&gtm=45He6bb1v810071315za200zd810071315xeaxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+     "body": "H4sIAAAAAAAAAz2QT2vcMBTEv4p5Z6krW7Jk6xaaNhhyKNkll1KK/jx7RWTZtbQtS5rvXrwpOQ6P+b2ZeYU1+Az6O++5kG1DWi6VqBVRgrftDwLZbWEtz7jlsCTQNWOM8Z5ACTOCrlUvFG8l7xolCfhlNiGBhg3XeP3klhkIXLYIGs6lrFkfDh+XAyYg8AdtDgWPYUomPuGvC+YyeNAglEXFWUNlbS0VWHvq647RzrUo+eiNtQ0QWM2Ej4vxNw8bx86NTFDLW0GFcUitZB2VXS0Nd/3oRwUEQj5tJuVoCnrQo4kZCcTw1bx/hl08BJPKu5hDdqBfYc32WExB0FS87ZTHkF7QD+luXT8we55TKBFBw32YQjGxOuL2OzjMpDqhO6clLtO1MslXn5eU"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1058439082/?random=1794735638386&cv=11&fst=1794735638386&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bb1v893306520za20ozb810071315zd810071315xecxf1&gcd=",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 8224,
+   "mainEmptyAtLoad": false
+  },
+  "/en/iot": {
+   "url": "https://www.reply.com/en/iot",
+   "status": 200,
+   "host": "www.reply.com",
+   "title": "IoT - Internet of Things Solutions | Reply",
+   "forms": [
+    {
+     "name": "flex",
+     "action": "https://www.reply.com/en/search",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [
+    {
+     "container": "section.jcjdesgllh",
+     "controls": 3,
+     "names": [],
+     "submit": null
+    }
+   ],
+   "triggers": [
+    {
+     "text": "EN",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 10,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Services",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 627,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Industries",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 312,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Insights & Labs",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 285,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "We care",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 277,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "We are",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 452,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "English",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 48,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "search",
+      "heading": "",
+      "textLen": 25,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menubar",
+      "heading": "",
+      "textLen": 2078,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "We are",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 39,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Privacy & legal",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 318,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 782,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Privacy Preference Center",
+     "textLen": 2358,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 2,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=lldx7tb&cookie_sync=1&upv=3.0.0&upid=d9pqcc5&ref=https%3A%2F%2Fwww.reply.com%2Fen%2Fiot",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=lldx7tb&cookie_sync=1&upv=3.0.0&upid=d9pqcc5&ref=https%3A%2F%2Fwww.reply.com%2Fen%2Fiot",
+     "title": "TTD Universal Pixel",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [
+     "de",
+     "en",
+     "fr",
+     "it",
+     "pt"
+    ],
+    "switcher": [
+     "https://www.reply.com/de/iot",
+     "https://www.reply.com/fr/iot",
+     "https://www.reply.com/it/iot",
+     "https://www.reply.com/pt/iot",
+     "https://www.reply.com/de/iot"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "carousel-items",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "contents",
+     "cards": 13,
+     "sameSite": 13,
+     "hasDate": false
+    },
+    {
+     "cls": "carousel-items all-displayed",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "carousel-items",
+     "cards": 7,
+     "sameSite": 7,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 7,
+   "inlineFetch": false,
+   "mainText": 3603,
+   "domAddedAfterLoad": 47,
+   "hosts": {
+    "www.reply.com": 15,
+    "cdn.cookielaw.org": 11,
+    "replydam.discoveryreplymedia.com": 31,
+    "geolocation.onetrust.com": 1,
+    "www.googletagmanager.com": 7,
+    "sleeknotecustomerscripts.sleeknote.com": 1,
+    "api.reply.com": 2,
+    "api-onlineservices.reply.com": 1,
+    "www.google-analytics.com": 8,
+    "analytics.google.com": 4,
+    "trk.techtarget.com": 1,
+    "static.ads-twitter.com": 1,
+    "connect.facebook.net": 2,
+    "js.zi-scripts.com": 2,
+    "www.google.com": 10,
+    "ad.doubleclick.net": 1,
+    "analytics.twitter.com": 1,
+    "t.co": 1,
+    "snap.licdn.com": 1,
+    "px.ads.linkedin.com": 7,
+    "ibc-flow.techtarget.com": 1,
+    "googleads.g.doubleclick.net": 3,
+    "www.facebook.com": 1,
+    "cdn.jsdelivr.net": 1,
+    "ws.zoominfo.com": 1,
+    "js-eu1.hs-scripts.com": 1,
+    "js.adsrvr.org": 2,
+    "tags.clickagy.com": 1,
+    "www.linkedin.com": 2,
+    "insight.adsrvr.org": 2,
+    "aorta.clickagy.com": 9,
+    "match.adsrvr.org": 4,
+    "cm.g.doubleclick.net": 4,
+    "px4.ads.linkedin.com": 2,
+    "ib.adnxs.com": 2,
+    "pixel.rubiconproject.com": 1,
+    "us-u.openx.net": 3,
+    "hemsync.clickagy.com": 1,
+    "js-eu1.hs-banner.com": 1,
+    "js-eu1.hubspot.com": 1,
+    "js-eu1.hs-analytics.net": 1,
+    "track-eu1.hubspot.com": 1,
+    "cta-eu1.hubspot.com": 1,
+    "perf-eu1.hsforms.com": 1,
+    "dam-media.reply.com": 5,
+    "onlineservices.reply.com": 2
+   },
+   "thirdPartyHosts": [
+    "cdn.cookielaw.org",
+    "replydam.discoveryreplymedia.com",
+    "geolocation.onetrust.com",
+    "www.googletagmanager.com",
+    "sleeknotecustomerscripts.sleeknote.com",
+    "www.google-analytics.com",
+    "analytics.google.com",
+    "trk.techtarget.com",
+    "static.ads-twitter.com",
+    "connect.facebook.net",
+    "js.zi-scripts.com",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "analytics.twitter.com",
+    "t.co",
+    "snap.licdn.com",
+    "px.ads.linkedin.com",
+    "ibc-flow.techtarget.com",
+    "googleads.g.doubleclick.net",
+    "www.facebook.com",
+    "cdn.jsdelivr.net",
+    "ws.zoominfo.com",
+    "js-eu1.hs-scripts.com",
+    "js.adsrvr.org",
+    "tags.clickagy.com",
+    "www.linkedin.com",
+    "insight.adsrvr.org",
+    "aorta.clickagy.com",
+    "match.adsrvr.org",
+    "cm.g.doubleclick.net",
+    "px4.ads.linkedin.com",
+    "ib.adnxs.com",
+    "pixel.rubiconproject.com",
+    "us-u.openx.net",
+    "hemsync.clickagy.com",
+    "js-eu1.hs-banner.com",
+    "js-eu1.hubspot.com",
+    "js-eu1.hs-analytics.net",
+    "track-eu1.hubspot.com",
+    "cta-eu1.hubspot.com",
+    "perf-eu1.hsforms.com"
+   ],
+   "scripts": [
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://www.reply.com/scripts/theme.06e98347.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-5J8JCZQ",
+    "https://cdn.cookielaw.org/scripttemplates/202503.1.0/otBannerSdk.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-NX5RCR1CJ8&cx=c&gtm=4e6bb1",
+    "https://www.googletagmanager.com/gtag/js?id=G-4V48VRMXYG&cx=c&gtm=4e6bb1",
+    "https://www.googletagmanager.com/gtag/js?id=G-F9W9706WEQ&cx=c&gtm=4e6bb1",
+    "https://sleeknotecustomerscripts.sleeknote.com/38207.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-03WJT618YJ&cx=c&gtm=4e6bb1",
+    "https://trk.techtarget.com/tracking.js",
+    "https://static.ads-twitter.com/uwt.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://js.zi-scripts.com/zi-tag.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://www.googletagmanager.com/gtag/js?id=AW-1058439082&cx=c&gtm=4e6bb1",
+    "https://connect.facebook.net/signals/config/350425859155563?v=2.9.439&r=stable&domain=www.reply.com&optin_meta_enabled_capi=true&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex",
+    "https://www.googletagmanager.com/gtag/js?id=AW-477691837&cx=c&gtm=4e6bb1",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1058439082/?random=1794735649359&cv=11&fst=1794735649359&bg=ffffff&guid=ON&async=1&gtm=45be6bb1v893306520z8810071315za20gzb810071315zd8",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1058439082/?random=1794735649336&cv=11&fst=1794735649336&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bb1v893306520za20ozb81007131",
+    "https://cdn.jsdelivr.net/npm/meta-capi-param-builder-clientjs/dist/clientParamBuilder.bundle.js",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/477691837/?random=1794735649479&cv=11&fst=1794735649479&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bb1v9178880896za20ozb81007131",
+    "https://js-eu1.hs-scripts.com/145684924.js",
+    "https://js.adsrvr.org/up_loader.1.1.0.js",
+    "https://tags.clickagy.com/data.js?rnd=62fe5c0e6ad96",
+    "https://js.adsrvr.org/universal_pixel.js",
+    "https://js-eu1.hs-banner.com/v2/145684924/banner.js",
+    "https://js-eu1.hubspot.com/web-interactives-embed.js",
+    "https://js-eu1.hs-analytics.net/analytics/1794735600000/145684924.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "api.reply.com",
+     "path": "/api/content-list/default",
+     "query": [
+      "_include",
+      "_limit",
+      "_sortBy",
+      "id",
+      "siteKey"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://api.reply.com/api/content-list/default"
+    },
+    {
+     "method": "GET",
+     "host": "api-onlineservices.reply.com",
+     "path": "/product-detail/SW10234,SW10238,SW10237",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://api-onlineservices.reply.com/product-detail/SW10234,SW10238,SW10237"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/93b766e1-abbc-4ac6-8595-a8b1084d9583/93b766e1-abbc-4ac6-8595-a8b1084d95",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/93b766e1-abbc-4ac6-8595-a8b1084d9583/0195a8ea-2e69-76cf-8cf4-50206e0b37",
+    "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/otFlat.json",
+    "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/v2/otPcPanel.json",
+    "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+    "POST www.google-analytics.com/g/collect",
+    "POST analytics.google.com/g/collect",
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST px.ads.linkedin.com/wa/",
+    "GET ibc-flow.techtarget.com/a/gif.gif",
+    "GET js.zi-scripts.com/unified/v1/master/getSubscriptions",
+    "POST www.google.com/rmkt/collect/1058439082/",
+    "POST www.google.com/rmkt/collect/477691837/",
+    "GET ws.zoominfo.com/pixel/690d26fe104e57c66cd69794/",
+    "POST aorta.clickagy.com/data",
+    "GET aorta.clickagy.com/pixel.gif",
+    "GET aorta.clickagy.com/channel-sync/4",
+    "GET hemsync.clickagy.com/external/hasHashes",
+    "GET cta-eu1.hubspot.com/web-interactives/public/v1/embed/combinedConfigs",
+    "POST insight.adsrvr.org/track/realtimeconversion"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4V48VRMXYG&gtm=45je6bb1v9101934939za20ozb810071315zd810071315xf1&_p=1794735647552&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&cid=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-03WJT618YJ&gtm=45je6bb1v9164825874za20ozb810071315zd810071315xf1&_p=1794735647552&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&cid=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-NX5RCR1CJ8&gtm=45je6bb1v9100924311za20ozb810071315zd810071315xf1&_p=1794735647552&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&_eu=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F9W9706WEQ&gtm=45je6bb1v871636865za20ozb810071315zd810071315xf1&_p=1794735647552&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&_eu=A",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-NX5RCR1CJ8&gtm=45je6bb1v9100924311z8810071315za20gzb810071315zd810071315xf1&_p=1794735647552&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=d",
+     "body": "en=page_path_level&ep.full_url=www.reply.com%2Fen%2Fiot&ep.path_l1=%2Fen&ep.path_l2=%2Fiot&ep.path_l3=null&ep.path_l4=null&ep.querystring_par=null&_et=3\r\nen=page_load_time&epn.loading_time_sec=0.7&_et=15"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-NX5RCR1CJ8&gtm=45je6bb1v9100924311za20gzb810071315zd810071315xf1&_p=1794735647552&_gaz=1&gcs=G111&gcu=1&gcd=13r3v3r3r5l1&npa=0&dma=0&gdid=dYWJhMj&_eu=E",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F9W9706WEQ&gtm=45je6bb1v871636865z8810071315za20gzb810071315zd810071315xf1&_p=1794735647552&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dY",
+     "body": "en=page_path_level&ep.full_url=www.reply.com%2Fen%2Fiot&ep.path_l1=%2Fen&ep.path_l2=%2Fiot&ep.path_l3=null&ep.path_l4=null&ep.querystring_par=null&_et=3\r\nen=page_load_time&epn.loading_time_sec=0.7&_et=3"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-F9W9706WEQ&gtm=45je6bb1v871636865za20gzb810071315zd810071315xf1&_p=1794735647552&_gaz=1&gcs=G111&gcu=1&gcd=13r3v3r3r5l1&npa=0&dma=0&gdid=dYWJhMj&_eu=AA",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=1&ae=g&auid=1652818761.1794735649&dt=IoT%20-%20Internet%20of%20Things%20Solutions%20%7C%20Reply&en=page_view&dl=https%3A%2F%2Fwww.reply.com%2Fen%2F",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1652818761.1794735649&gtm=45He6bb1v810071315za200zd810071315xeaxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+     "body": "H4sIAAAAAAAAAz2QzU7kMBCEXyXqs804sRMnvnEAFIkDYiIuq9XKP+0ZC8cJsUcIsbz7KsyKY6lVX1fVJ6zBZVC/+MBF1zak5Z0UtSRS8Lb9TSDbLazlBbcclgSqZowxPhAoYUZQtRyE5G0nhqYTBNwy65BAwYZr/LixywwELlsEBedS1qwOh5/LAdMhLAUIvKPJoeAxnJKOz/h2wVxGBwpYL1vPuKGukYy6RjsqB2+o877RXS/q1hkgsOoTPi7aXT2DMUw3ngrpGBU991QzY2g/iFrY3jrkPRAIedp0ylEXdKC8jhkJxHCvr59hFw9Bp3IVc8gW1Ces2RyLLgiKiq+d8hjSK7ox3a7rD2bPM4USERSMy1TRakwFt4SlWnw1nUM65eq4xEsJS8rV"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1058439082/?random=1794735649336&cv=11&fst=1794735649336&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bb1v893306520za20ozb810071315zd810071315xecxf1&gcd=",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 2003,
+   "mainEmptyAtLoad": false
+  },
+  "/4brands-reply/en": {
+   "url": "https://www.reply.com/4brands-reply/en",
+   "status": 200,
+   "host": "www.reply.com",
+   "title": "Digital Transformation for the Consumer Goods Industry | 4brands Reply",
+   "forms": [
+    {
+     "name": "flex",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [
+    {
+     "container": "section.fvkykaiztp",
+     "controls": 4,
+     "names": [],
+     "submit": null
+    }
+   ],
+   "triggers": [
+    {
+     "text": "EN",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 4,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Services",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 118,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Knowledge",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 115,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "English",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 23,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "search",
+      "heading": "",
+      "textLen": 25,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menubar",
+      "heading": "",
+      "textLen": 300,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Gütersloh",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 85,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Privacy and Legal",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 318,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 782,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Privacy Preference Center",
+     "textLen": 2358,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 4,
+   "media": [],
+   "iframes": [
+    {
+     "src": null,
+     "title": null,
+     "w": 1440,
+     "h": 560
+    },
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [
+     "de",
+     "en"
+    ],
+    "switcher": [
+     "https://www.reply.com/de/about/careers/de/job-search?country=de&company=4brands_reply",
+     "https://www.reply.com/en/retail-and-consumer-products/sales-and-retail-execution-platform",
+     "https://www.reply.com/en/retail-and-consumer-products/sales-and-retail-execution-platform",
+     "https://www.reply.com/en/cx-and-digital-commerce/bitburger-gamification-as-the-key-to-data-driven-marketing",
+     "https://www.reply.com/en/cx-and-digital-commerce/bitburger-personalizes-marketing"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "carousel-items all-displayed",
+     "cards": 4,
+     "sameSite": 4,
+     "hasDate": false
+    },
+    {
+     "cls": "carousel-items",
+     "cards": 8,
+     "sameSite": 8,
+     "hasDate": false
+    },
+    {
+     "cls": "carousel-items",
+     "cards": 17,
+     "sameSite": 17,
+     "hasDate": false
+    },
+    {
+     "cls": "carousel-items",
+     "cards": 5,
+     "sameSite": 4,
+     "hasDate": true
+    },
+    {
+     "cls": "contents",
+     "cards": 4,
+     "sameSite": 4,
+     "hasDate": false
+    },
+    {
+     "cls": "carousel-items",
+     "cards": 6,
+     "sameSite": 5,
+     "hasDate": true
+    },
+    {
+     "cls": "contents",
+     "cards": 4,
+     "sameSite": 4,
+     "hasDate": true
+    }
+   ],
+   "inlineScripts": 5,
+   "inlineFetch": false,
+   "mainText": 10022,
+   "domAddedAfterLoad": 194,
+   "hosts": {
+    "www.reply.com": 17,
+    "cdn.cookielaw.org": 11,
+    "replydam.discoveryreplymedia.com": 27,
+    "dam-media.reply.com": 2,
+    "geolocation.onetrust.com": 1,
+    "www.googletagmanager.com": 7,
+    "maps.googleapis.com": 34,
+    "sleeknotecustomerscripts.sleeknote.com": 1,
+    "api.reply.com": 2,
+    "www.google-analytics.com": 8,
+    "analytics.google.com": 3,
+    "connect.facebook.net": 2,
+    "www.google.com": 10,
+    "ad.doubleclick.net": 1,
+    "snap.licdn.com": 1,
+    "px.ads.linkedin.com": 6,
+    "www.facebook.com": 1,
+    "cdn.jsdelivr.net": 1,
+    "www.linkedin.com": 1,
+    "googleads.g.doubleclick.net": 3,
+    "js-eu1.hs-scripts.com": 1,
+    "px4.ads.linkedin.com": 2,
+    "js-eu1.hs-banner.com": 1,
+    "js-eu1.hubspot.com": 1,
+    "js-eu1.hs-analytics.net": 1,
+    "cta-eu1.hubspot.com": 1,
+    "track-eu1.hubspot.com": 1,
+    "perf-eu1.hsforms.com": 1,
+    "maps.gstatic.com": 2,
+    "fonts.googleapis.com": 2,
+    "fonts.gstatic.com": 2
+   },
+   "thirdPartyHosts": [
+    "cdn.cookielaw.org",
+    "replydam.discoveryreplymedia.com",
+    "geolocation.onetrust.com",
+    "www.googletagmanager.com",
+    "maps.googleapis.com",
+    "sleeknotecustomerscripts.sleeknote.com",
+    "www.google-analytics.com",
+    "analytics.google.com",
+    "connect.facebook.net",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "snap.licdn.com",
+    "px.ads.linkedin.com",
+    "www.facebook.com",
+    "cdn.jsdelivr.net",
+    "www.linkedin.com",
+    "googleads.g.doubleclick.net",
+    "js-eu1.hs-scripts.com",
+    "px4.ads.linkedin.com",
+    "js-eu1.hs-banner.com",
+    "js-eu1.hubspot.com",
+    "js-eu1.hs-analytics.net",
+    "cta-eu1.hubspot.com",
+    "track-eu1.hubspot.com",
+    "perf-eu1.hsforms.com",
+    "maps.gstatic.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com"
+   ],
+   "scripts": [
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://www.reply.com/scripts/theme.06e98347.js",
+    "https://www.reply.com/scripts/chunk-592.2b89b3a8.js",
+    "https://www.reply.com/scripts/chunk-589.bff3bccb.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-5J8JCZQ",
+    "https://cdn.cookielaw.org/scripttemplates/202503.1.0/otBannerSdk.js",
+    "https://maps.googleapis.com/maps/api/js?libraries=marker&key=AIzaSyBRc6IderW1Ycgj5McAA6IV_yhtKSreyN8&callback=google.maps.__ib__",
+    "https://maps.googleapis.com/maps-api-v3/api/js/66/13d/marker.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/66/13d/util.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/66/13d/common.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-NX5RCR1CJ8&cx=c&gtm=4e6bb1",
+    "https://maps.googleapis.com/maps-api-v3/api/js/66/13d/main.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-F9W9706WEQ&cx=c&gtm=4e6bb1",
+    "https://www.googletagmanager.com/gtag/js?id=G-4V48VRMXYG&cx=c&gtm=4e6bb1",
+    "https://sleeknotecustomerscripts.sleeknote.com/38207.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-03WJT618YJ&cx=c&gtm=4e6bb1",
+    "https://maps.googleapis.com/maps-api-v3/api/js/66/13d/overlay.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/66/13d/map.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://connect.facebook.net/signals/config/350425859155563?v=2.9.439&r=stable&domain=www.reply.com&optin_meta_enabled_capi=true&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex",
+    "https://www.googletagmanager.com/gtag/js?id=AW-1058439082&cx=c&gtm=4e6bb1",
+    "https://cdn.jsdelivr.net/npm/meta-capi-param-builder-clientjs/dist/clientParamBuilder.bundle.js",
+    "https://www.googletagmanager.com/gtag/js?id=AW-477691837&cx=c&gtm=4e6bb1",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1058439082/?random=1794735660130&cv=11&fst=1794735660130&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bb1v893306520za20ozb81007131",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1058439082/?random=1794735660154&cv=11&fst=1794735660154&bg=ffffff&guid=ON&async=1&gtm=45be6bb1v893306520z8810071315za20gzb810071315zd8",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/477691837/?random=1794735660235&cv=11&fst=1794735660235&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bb1v9178880896za20ozb81007131",
+    "https://js-eu1.hs-scripts.com/145684924.js",
+    "https://js-eu1.hs-banner.com/v2/145684924/banner.js",
+    "https://js-eu1.hubspot.com/web-interactives-embed.js",
+    "https://js-eu1.hs-analytics.net/analytics/1794735600000/145684924.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/66/13d/onion.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/66/13d/log.js",
+    "https://maps.googleapis.com/maps/vt?pb=!1m4!1m3!1i6!2i30!3i20!1m4!1m3!1i6!2i30!3i21!1m4!1m3!1i6!2i31!3i20!1m4!1m3!1i6!2i31!3i21!1m4!1m3!1i6!2i30!3i22!1m4!1m3!1i6!2i31!3i22!1m4!1m3!1i6!2i32!3i20!1m4!1m",
+    "https://maps.googleapis.com/maps-api-v3/api/js/66/13d/controls.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "api.reply.com",
+     "path": "/api/content-list/default",
+     "query": [
+      "_include",
+      "_limit",
+      "_sortBy",
+      "sectionPermalink",
+      "siteKey"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://api.reply.com/api/content-list/default"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/93b766e1-abbc-4ac6-8595-a8b1084d9583/93b766e1-abbc-4ac6-8595-a8b1084d95",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/93b766e1-abbc-4ac6-8595-a8b1084d9583/0195a8ea-2e69-76cf-8cf4-50206e0b37",
+    "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/v2/otPcPanel.json",
+    "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/otFlat.json",
+    "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+    "GET maps.googleapis.com/maps/api/mapsjs/gen_204",
+    "POST www.google-analytics.com/g/collect",
+    "POST analytics.google.com/g/collect",
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/rmkt/collect/1058439082/",
+    "POST www.google.com/rmkt/collect/477691837/",
+    "POST px.ads.linkedin.com/wa/",
+    "GET cta-eu1.hubspot.com/web-interactives/public/v1/embed/combinedConfigs",
+    "POST maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4V48VRMXYG&gtm=45je6bb1v9101934939za20ozb810071315zd810071315xf1&_p=1794735658225&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&cid=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-03WJT618YJ&gtm=45je6bb1v9164825874za20ozb810071315zd810071315xf1&_p=1794735658225&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&cid=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-NX5RCR1CJ8&gtm=45je6bb1v9100924311za20ozb810071315zd810071315xf1&_p=1794735658225&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&_eu=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F9W9706WEQ&gtm=45je6bb1v871636865za20ozb810071315zd810071315xf1&_p=1794735658225&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&_eu=A",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-NX5RCR1CJ8&gtm=45je6bb1v9100924311z8810071315za20gzb810071315zd810071315xf1&_p=1794735658225&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=d",
+     "body": "en=page_path_level&ep.full_url=www.reply.com%2F4brands-reply%2Fen&ep.path_l1=%2F4brands-reply&ep.path_l2=%2Fen&ep.path_l3=null&ep.path_l4=null&ep.querystring_par=null&_et=2\r\nen=sticky_interaction&ep.event_category=not_present&ep.event_action=viewed&ep.event_label=language_en&ep.file_name=Digital%20Transformation%20for%20the%20Consumer%20Goods%20Industry%20%7C%204brands%20Reply&ep.destination_url=n"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-NX5RCR1CJ8&gtm=45je6bb1v9100924311za20gzb810071315zd810071315xf1&_p=1794735658225&_gaz=1&gcs=G111&gcu=1&gcd=13r3v3r3r5l1&npa=0&dma=0&gdid=dYWJhMj&_eu=E",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F9W9706WEQ&gtm=45je6bb1v871636865z8810071315za20gzb810071315zd810071315xf1&_p=1794735658225&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dY",
+     "body": "en=page_path_level&ep.full_url=www.reply.com%2F4brands-reply%2Fen&ep.path_l1=%2F4brands-reply&ep.path_l2=%2Fen&ep.path_l3=null&ep.path_l4=null&ep.querystring_par=null&_et=3\r\nen=page_load_time&epn.loading_time_sec=0.8&_et=3"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-F9W9706WEQ&gtm=45je6bb1v871636865za20gzb810071315zd810071315xf1&_p=1794735658225&_gaz=1&gcs=G111&gcu=1&gcd=13r3v3r3r5l1&npa=0&dma=0&gdid=dYWJhMj&_eu=AA",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=12&frm=0&apvc=1&ae=g&auid=150163216.1794735660&dt=Digital%20Transformation%20for%20the%20Consumer%20Goods%20Industry%20%7C%204brands%20Reply&en=page_view&dl=http",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?_gsid=87gJRmQrprzoTTpUBWH0RsT4PaWaAYHlvA&auid=150163216.1794735660&gtm=45He6bb1v810071315za200zd810071315xeaxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+     "body": "H4sIAAAAAAAAAz2QS2/bMBCE/4qwZ7KmHiQl3oI+DAE5FLGRS1EUS3JlE5UoVaRQGGn+eyEnyHF2sTM73wsswScwP2rZyEq1TNZKN6Vmuqml/MkguTUs+ZnWFOYIphRCiLpjkMNEYErdNbqWSgkhFAM/TxgiGFhpGW+f3DwBg20dwcA15yWZw+Fjc2jsitEnfp8cKAKDv2RTyHQKl4jjE/3ZKOXegwHVoWs71fC2cYorKzX3tUXupVYo3aDRaWCw4IUeZ/T3m0F7K62qeDUMLW9Kcryj2vOqLX2DVoiyRGAQ0nnFmEbM5MEMOCZiMIZv+JYMuzgGjPlNTCE5MC+wJHvKmAkMb153l8cQf5Pv48OyfNjs/5xDHgkMfAmXkHEs7mnDvE6YwxyLYV6L"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1058439082/?random=1794735660130&cv=11&fst=1794735660130&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bb1v893306520za20ozb810071315zd810071315xecxf1&gcd=",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 8117,
+   "mainEmptyAtLoad": false
+  },
+  "/4brands-reply/de/customer-experience-management": {
+   "url": "https://www.reply.com/4brands-reply/de/customer-experience-management",
+   "status": 200,
+   "host": "www.reply.com",
+   "title": "Customer Experience Management | 4brands Reply",
+   "forms": [
+    {
+     "name": "flex",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "DE",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 4,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Services",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 118,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Knowledge",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 115,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Deutsch",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 23,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "search",
+      "heading": "",
+      "textLen": 18,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menubar",
+      "heading": "",
+      "textLen": 302,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "SAP Sales Cloud",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 504,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "SAP Service Cloud",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 400,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "SAP Business Technology Platform",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 565,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Privacy and Legal",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 216,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 938,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Datenschutz-Präferenz-Center",
+     "textLen": 2260,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 4,
+   "media": [],
+   "iframes": [
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "de",
+    "hreflang": [
+     "de",
+     "en"
+    ],
+    "switcher": [
+     "https://www.reply.com/de/about/careers/de/job-search?country=de&company=4brands_reply",
+     "https://www.reply.com/de/cloud-computing/ein-nahtloses-vertriebssystem-fuer-ritter-sport",
+     "https://www.reply.com/de/retail-and-consumer-products/ai-store-check",
+     "https://www.reply.com/de/cloud-computing/ein-nahtloses-vertriebssystem-fuer-ritter-sport",
+     "https://www.reply.com/de/about/careers/de/job-search?country=de&company=4brands_reply"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "carousel-items",
+     "cards": 14,
+     "sameSite": 14,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 5,
+   "inlineFetch": false,
+   "mainText": 3534,
+   "domAddedAfterLoad": 32,
+   "hosts": {
+    "www.reply.com": 13,
+    "cdn.cookielaw.org": 11,
+    "replydam.discoveryreplymedia.com": 15,
+    "dam-media.reply.com": 2,
+    "geolocation.onetrust.com": 1,
+    "www.googletagmanager.com": 7,
+    "sleeknotecustomerscripts.sleeknote.com": 1,
+    "www.google-analytics.com": 8,
+    "analytics.google.com": 4,
+    "connect.facebook.net": 2,
+    "www.google.com": 10,
+    "ad.doubleclick.net": 1,
+    "snap.licdn.com": 1,
+    "www.facebook.com": 1,
+    "cdn.jsdelivr.net": 1,
+    "px.ads.linkedin.com": 7,
+    "googleads.g.doubleclick.net": 3,
+    "js-eu1.hs-scripts.com": 1,
+    "www.linkedin.com": 2,
+    "px4.ads.linkedin.com": 2,
+    "js-eu1.hs-analytics.net": 1,
+    "js-eu1.hs-banner.com": 1,
+    "js-eu1.hubspot.com": 1,
+    "track-eu1.hubspot.com": 1,
+    "cta-eu1.hubspot.com": 1,
+    "perf-eu1.hsforms.com": 1
+   },
+   "thirdPartyHosts": [
+    "cdn.cookielaw.org",
+    "replydam.discoveryreplymedia.com",
+    "geolocation.onetrust.com",
+    "www.googletagmanager.com",
+    "sleeknotecustomerscripts.sleeknote.com",
+    "www.google-analytics.com",
+    "analytics.google.com",
+    "connect.facebook.net",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "snap.licdn.com",
+    "www.facebook.com",
+    "cdn.jsdelivr.net",
+    "px.ads.linkedin.com",
+    "googleads.g.doubleclick.net",
+    "js-eu1.hs-scripts.com",
+    "www.linkedin.com",
+    "px4.ads.linkedin.com",
+    "js-eu1.hs-analytics.net",
+    "js-eu1.hs-banner.com",
+    "js-eu1.hubspot.com",
+    "track-eu1.hubspot.com",
+    "cta-eu1.hubspot.com",
+    "perf-eu1.hsforms.com"
+   ],
+   "scripts": [
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://www.reply.com/scripts/theme.06e98347.js",
+    "https://cdn.cookielaw.org/scripttemplates/202503.1.0/otBannerSdk.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-5J8JCZQ",
+    "https://sleeknotecustomerscripts.sleeknote.com/38207.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-NX5RCR1CJ8&cx=c&gtm=4e6bb1",
+    "https://www.googletagmanager.com/gtag/js?id=G-4V48VRMXYG&cx=c&gtm=4e6bb1",
+    "https://www.googletagmanager.com/gtag/js?id=G-F9W9706WEQ&cx=c&gtm=4e6bb1",
+    "https://www.googletagmanager.com/gtag/js?id=G-03WJT618YJ&cx=c&gtm=4e6bb1",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://connect.facebook.net/signals/config/350425859155563?v=2.9.439&r=stable&domain=www.reply.com&optin_meta_enabled_capi=true&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex",
+    "https://www.googletagmanager.com/gtag/js?id=AW-1058439082&cx=c&gtm=4e6bb1",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://cdn.jsdelivr.net/npm/meta-capi-param-builder-clientjs/dist/clientParamBuilder.bundle.js",
+    "https://www.googletagmanager.com/gtag/js?id=AW-477691837&cx=c&gtm=4e6bb1",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1058439082/?random=1794735670953&cv=11&fst=1794735670953&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bb1v893306520za20ozb81007131",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1058439082/?random=1794735670977&cv=11&fst=1794735670977&bg=ffffff&guid=ON&async=1&gtm=45be6bb1v893306520z8810071315za20gzb810071315zd8",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/477691837/?random=1794735671075&cv=11&fst=1794735671075&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bb1v9178880896za20ozb81007131",
+    "https://js-eu1.hs-scripts.com/145684924.js",
+    "https://js-eu1.hs-analytics.net/analytics/1794735600000/145684924.js",
+    "https://js-eu1.hs-banner.com/v2/145684924/banner.js",
+    "https://js-eu1.hubspot.com/web-interactives-embed.js"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/93b766e1-abbc-4ac6-8595-a8b1084d9583/93b766e1-abbc-4ac6-8595-a8b1084d95",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/93b766e1-abbc-4ac6-8595-a8b1084d9583/0195a8ea-2e69-76cf-8cf4-50206e0b37",
+    "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/otFlat.json",
+    "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/v2/otPcPanel.json",
+    "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+    "POST www.google-analytics.com/g/collect",
+    "POST analytics.google.com/g/collect",
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/rmkt/collect/1058439082/",
+    "POST px.ads.linkedin.com/wa/",
+    "POST www.google.com/rmkt/collect/477691837/",
+    "GET cta-eu1.hubspot.com/web-interactives/public/v1/embed/combinedConfigs"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4V48VRMXYG&gtm=45je6bb1v9101934939za20ozb810071315zd810071315xf1&_p=1794735669272&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&cid=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-03WJT618YJ&gtm=45je6bb1v9164825874za20ozb810071315zd810071315xf1&_p=1794735669272&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&cid=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-NX5RCR1CJ8&gtm=45je6bb1v9100924311za20ozb810071315zd810071315xf1&_p=1794735669272&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&_eu=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F9W9706WEQ&gtm=45je6bb1v871636865za20ozb810071315zd810071315xf1&_p=1794735669272&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&_eu=A",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-NX5RCR1CJ8&gtm=45je6bb1v9100924311z8810071315za20gzb810071315zd810071315xf1&_p=1794735669272&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=d",
+     "body": "en=page_path_level&ep.full_url=www.reply.com%2F4brands-reply%2Fde%2Fcustomer-experience-management&ep.path_l1=%2F4brands-reply&ep.path_l2=%2Fde&ep.path_l3=%2Fcustomer-experience-management&ep.path_l4=null&ep.querystring_par=null&_et=3\r\nen=page_load_time&epn.loading_time_sec=0.7&_et=13"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-NX5RCR1CJ8&gtm=45je6bb1v9100924311za20gzb810071315zd810071315xf1&_p=1794735669272&_gaz=1&gcs=G111&gcu=1&gcd=13r3v3r3r5l1&npa=0&dma=0&gdid=dYWJhMj&_eu=E",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F9W9706WEQ&gtm=45je6bb1v871636865z8810071315za20gzb810071315zd810071315xf1&_p=1794735669272&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dY",
+     "body": "en=page_path_level&ep.full_url=www.reply.com%2F4brands-reply%2Fde%2Fcustomer-experience-management&ep.path_l1=%2F4brands-reply&ep.path_l2=%2Fde&ep.path_l3=%2Fcustomer-experience-management&ep.path_l4=null&ep.querystring_par=null&_et=3\r\nen=page_load_time&epn.loading_time_sec=0.7&_et=2"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-F9W9706WEQ&gtm=45je6bb1v871636865za20gzb810071315zd810071315xf1&_p=1794735669272&_gaz=1&gcs=G111&gcu=1&gcd=13r3v3r3r5l1&npa=0&dma=0&gdid=dYWJhMj&_eu=AA",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=6&frm=0&apvc=1&ae=g&auid=790751258.1794735671&dt=Customer%20Experience%20Management%20%7C%204brands%20Reply&en=page_view&dl=https%3A%2F%2Fwww.reply.com%2F4brands",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=790751258.1794735671&gtm=45He6bb1v810071315za200zd810071315xeaxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1058439082/?random=1794735670953&cv=11&fst=1794735670953&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bb1v893306520za20ozb810071315zd810071315xecxf1&gcd=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1058439082/?random=1794735670977&cv=11&fst=1794735670977&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6bb1v893306520z8810071315za20gzb810071315zd810071315xeaxf1&gcd=13r3",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 2383,
+   "mainEmptyAtLoad": false
+  },
+  "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien": {
+   "url": "https://www.reply.com/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+   "status": 200,
+   "host": "www.reply.com",
+   "title": "Rotkäppchen-Mumm: Erfolgreiche CRM-Transformation | 4brands Reply",
+   "forms": [
+    {
+     "name": "flex",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "ref: <Node>",
+     "action": "https://www.facebook.com/tr/",
+     "method": "post",
+     "role": "",
+     "inChrome": false,
+     "fields": 47,
+     "signature": [
+      "text:id",
+      "text:ev",
+      "text:dl",
+      "text:rl",
+      "text:if",
+      "text:ts",
+      "text:iw",
+      "text:sw",
+      "text:sh",
+      "text:v",
+      "text:r",
+      "text:a"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "DE",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 4,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Services",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 118,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Knowledge",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 115,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Deutsch",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 23,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "search",
+      "heading": "",
+      "textLen": 18,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menubar",
+      "heading": "",
+      "textLen": 302,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Privacy and Legal",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 216,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 938,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Datenschutz-Präferenz-Center",
+     "textLen": 2260,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 4,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "about:blank",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "about:blank",
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "de",
+    "hreflang": [
+     "de",
+     "en"
+    ],
+    "switcher": [
+     "https://www.reply.com/de/about/careers/de/job-search?country=de&company=4brands_reply",
+     "https://www.reply.com/de/about/careers/de/job-search?country=de&company=4brands_reply",
+     "https://www.reply.com/de/impressum",
+     "https://www.reply.com/de/privacy-policy",
+     "https://www.reply.com/de/privacy-notice-candidate"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 5,
+   "inlineFetch": false,
+   "mainText": 3344,
+   "domAddedAfterLoad": 80,
+   "hosts": {
+    "www.reply.com": 12,
+    "cdn.cookielaw.org": 11,
+    "dam-media.reply.com": 2,
+    "replydam.discoveryreplymedia.com": 3,
+    "geolocation.onetrust.com": 1,
+    "www.googletagmanager.com": 22,
+    "sleeknotecustomerscripts.sleeknote.com": 1,
+    "www.google-analytics.com": 8,
+    "analytics.google.com": 4,
+    "connect.facebook.net": 2,
+    "www.google.com": 10,
+    "ad.doubleclick.net": 1,
+    "snap.licdn.com": 1,
+    "px.ads.linkedin.com": 7,
+    "cdn.jsdelivr.net": 1,
+    "googleads.g.doubleclick.net": 3,
+    "js-eu1.hs-scripts.com": 1,
+    "www.linkedin.com": 2,
+    "px4.ads.linkedin.com": 2,
+    "js-eu1.hubspot.com": 1,
+    "js-eu1.hs-banner.com": 1,
+    "js-eu1.hs-analytics.net": 1,
+    "cta-eu1.hubspot.com": 1,
+    "track-eu1.hubspot.com": 1,
+    "perf-eu1.hsforms.com": 1,
+    "www.facebook.com": 1
+   },
+   "thirdPartyHosts": [
+    "cdn.cookielaw.org",
+    "replydam.discoveryreplymedia.com",
+    "geolocation.onetrust.com",
+    "www.googletagmanager.com",
+    "sleeknotecustomerscripts.sleeknote.com",
+    "www.google-analytics.com",
+    "analytics.google.com",
+    "connect.facebook.net",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "snap.licdn.com",
+    "px.ads.linkedin.com",
+    "cdn.jsdelivr.net",
+    "googleads.g.doubleclick.net",
+    "js-eu1.hs-scripts.com",
+    "www.linkedin.com",
+    "px4.ads.linkedin.com",
+    "js-eu1.hubspot.com",
+    "js-eu1.hs-banner.com",
+    "js-eu1.hs-analytics.net",
+    "cta-eu1.hubspot.com",
+    "track-eu1.hubspot.com",
+    "perf-eu1.hsforms.com",
+    "www.facebook.com"
+   ],
+   "scripts": [
+    "https://www.reply.com/scripts/theme.06e98347.js",
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://cdn.cookielaw.org/scripttemplates/202503.1.0/otBannerSdk.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-5J8JCZQ",
+    "https://sleeknotecustomerscripts.sleeknote.com/38207.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-F9W9706WEQ&cx=c&gtm=4e6bc0h2",
+    "https://www.googletagmanager.com/gtag/js?id=G-NX5RCR1CJ8&cx=c&gtm=4e6bc0h2",
+    "https://www.googletagmanager.com/gtag/js?id=G-4V48VRMXYG&cx=c&gtm=4e6bc0h2",
+    "https://www.googletagmanager.com/gtag/js?id=G-03WJT618YJ&cx=c&gtm=4e6bc0h2",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://connect.facebook.net/signals/config/350425859155563?v=2.9.439&r=stable&domain=www.reply.com&optin_meta_enabled_capi=true&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://www.googletagmanager.com/gtag/js?id=AW-477691837&cx=c&gtm=4e6bc0h2",
+    "https://cdn.jsdelivr.net/npm/meta-capi-param-builder-clientjs/dist/clientParamBuilder.bundle.js",
+    "https://www.googletagmanager.com/gtag/js?id=AW-1058439082&cx=c&gtm=4e6bc0h2",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/477691837/?random=1794735681278&cv=11&fst=1794735681278&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bc0h2v9178880896za20ozb810071",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1058439082/?random=1794735681394&cv=11&fst=1794735681394&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bc0h2v893306520za20ozb810071",
+    "https://js-eu1.hs-scripts.com/145684924.js",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1058439082/?random=1794735681417&cv=11&fst=1794735681417&bg=ffffff&guid=ON&async=1&gtm=45be6bc0h2v893306520z8810071315za20gzb810071315z",
+    "https://js-eu1.hubspot.com/web-interactives-embed.js",
+    "https://js-eu1.hs-banner.com/v2/145684924/banner.js",
+    "https://js-eu1.hs-analytics.net/analytics/1794735600000/145684924.js"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/93b766e1-abbc-4ac6-8595-a8b1084d9583/93b766e1-abbc-4ac6-8595-a8b1084d95",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/93b766e1-abbc-4ac6-8595-a8b1084d9583/0195a8ea-2e69-76cf-8cf4-50206e0b37",
+    "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/otFlat.json",
+    "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/v2/otPcPanel.json",
+    "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+    "POST www.google-analytics.com/g/collect",
+    "POST analytics.google.com/g/collect",
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST px.ads.linkedin.com/wa/",
+    "POST www.google.com/rmkt/collect/477691837/",
+    "POST www.google.com/rmkt/collect/1058439082/",
+    "GET cta-eu1.hubspot.com/web-interactives/public/v1/embed/combinedConfigs",
+    "POST www.facebook.com/tr/"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4V48VRMXYG&gtm=45je6bc0h2v9101934939za20ozb810071315zd810071315xf1&_p=1794735679604&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&ci",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-03WJT618YJ&gtm=45je6bc0h2v9164825874za20ozb810071315zd810071315xf1&_p=1794735679604&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&ci",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F9W9706WEQ&gtm=45je6bc0h2v871636865za20ozb810071315zd810071315xf1&_p=1794735679604&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&_eu",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-NX5RCR1CJ8&gtm=45je6bc0h2v9100924311za20ozb810071315zd810071315xf1&_p=1794735679604&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&_e",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F9W9706WEQ&gtm=45je6bc0h2v871636865z8810071315za20gzb810071315zd810071315xf1&_p=1794735679604&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=",
+     "body": "en=page_path_level&ep.full_url=www.reply.com%2F4brands-reply%2Fde%2Frotkaeppchen-mumm-sektkellereien&ep.path_l1=%2F4brands-reply&ep.path_l2=%2Fde&ep.path_l3=%2Frotkaeppchen-mumm-sektkellereien&ep.path_l4=null&ep.querystring_par=null&_et=3\r\nen=page_load_time&epn.loading_time_sec=0.8&_et=14"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-F9W9706WEQ&gtm=45je6bc0h2v871636865za20gzb810071315zd810071315xf1&_p=1794735679604&_gaz=1&gcs=G111&gcu=1&gcd=13r3v3r3r5l1&npa=0&dma=0&gdid=dYWJhMj&_eu=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-NX5RCR1CJ8&gtm=45je6bc0h2v9100924311z8810071315za20gzb810071315zd810071315xf1&_p=1794735679604&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid",
+     "body": "en=page_path_level&ep.full_url=www.reply.com%2F4brands-reply%2Fde%2Frotkaeppchen-mumm-sektkellereien&ep.path_l1=%2F4brands-reply&ep.path_l2=%2Fde&ep.path_l3=%2Frotkaeppchen-mumm-sektkellereien&ep.path_l4=null&ep.querystring_par=null&_et=3\r\nen=page_load_time&epn.loading_time_sec=0.8&_et=2"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-NX5RCR1CJ8&gtm=45je6bc0h2v9100924311za20gzb810071315zd810071315xf1&_p=1794735679604&_gaz=1&gcs=G111&gcu=1&gcd=13r3v3r3r5l1&npa=0&dma=0&gdid=dYWJhMj&_eu",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=12&frm=0&apvc=1&ae=g&auid=1443954457.1794735681&dt=Rotk%C3%A4ppchen-Mumm%3A%20Erfolgreiche%20CRM-Transformation%20%7C%204brands%20Reply&en=page_view&dl=https%3A%",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1443954457.1794735681&gtm=45He6bc0h2v810071315za200zd810071315xeaxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+     "body": "H4sIAAAAAAAAAz2Q3WobMRCFX8XMtRRrLWm1q7tQkmBIoNgmNyUUrTRrC0tadSVTQpq36Zv0xYp/yOWZYc6c831A9q6A/sGlkKu2I5K3SjSKKMGlfCNQ7OxzfcW5+CmBbhhjjPcEqo8IulG9UFy2XbNiHQE3ReMTaJgxh/c7O0UgcJoDaDjUmoteLr82SzHMJrlCL5Olw+U81aPBnO0BE42nGGnBYz1iCDijxwQEfuNQfMWt3ycTNvjrhKWuHWgQbtWiQksFG0faM8apsUJSIRhzzLRdowQQyGaPz5NxlxvVt8wa21Bh+pYKziwdbDdSboRshRp531kg4MtuNqkEU9GBHk0oSCD4R3P9DGfx5E2qVxF9saA/IJdhW01F0FR8nl2efTqiW6f7nL9s"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/477691837/?random=1794735681278&cv=11&fst=1794735681278&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bc0h2v9178880896za20ozb810071315zd810071315xecxf1&gc",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 3344,
+   "mainEmptyAtLoad": false
+  },
+  "/en/insights": {
+   "url": "https://www.reply.com/en/insights",
+   "status": 200,
+   "host": "www.reply.com",
+   "title": "Insights | Reply",
+   "forms": [
+    {
+     "name": "flex",
+     "action": "https://www.reply.com/en/search",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [
+    {
+     "container": "section.etkytuxfdy",
+     "controls": 7,
+     "names": [],
+     "submit": null
+    }
+   ],
+   "triggers": [
+    {
+     "text": "EN",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 10,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Services",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 627,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Industries",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 312,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Insights & Labs",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 285,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "We care",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 277,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "We are",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 452,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "English",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 48,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "search",
+      "heading": "",
+      "textLen": 25,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menubar",
+      "heading": "",
+      "textLen": 2078,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "We are",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 39,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Privacy & legal",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 318,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 782,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Privacy Preference Center",
+     "textLen": 2358,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 4,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=lldx7tb&cookie_sync=1&upv=3.0.0&upid=d9pqcc5&ref=https%3A%2F%2Fwww.reply.com%2Fen%2Finsights",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=lldx7tb&cookie_sync=1&upv=3.0.0&upid=d9pqcc5&ref=https%3A%2F%2Fwww.reply.com%2Fen%2Finsights",
+     "title": "TTD Universal Pixel",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [
+     "de",
+     "en",
+     "fr",
+     "it",
+     "pt"
+    ],
+    "switcher": [
+     "https://www.reply.com/de/insights",
+     "https://www.reply.com/fr/insights",
+     "https://www.reply.com/it/insights",
+     "https://www.reply.com/pt/insights",
+     "https://www.reply.com/de/insights"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [
+    {
+     "cls": "card-carousel-runtime d-flex",
+     "attrs": [
+      "data-endpoint=Default"
+     ],
+     "text": "FinOps for AI: Controlling costs while driving innovationArt"
+    },
+    {
+     "cls": "card-carousel-runtime d-flex",
+     "attrs": [
+      "data-endpoint=Default"
+     ],
+     "text": "SFDR impacts on Financial Market ParticipantsWhite Paper Sus"
+    },
+    {
+     "cls": "card-carousel-runtime d-flex",
+     "attrs": [
+      "data-endpoint=Default"
+     ],
+     "text": "Mobile banking insights: trends and user behaviourWhite Pape"
+    }
+   ],
+   "listingCandidates": [
+    {
+     "cls": "carousel-items",
+     "cards": 7,
+     "sameSite": 7,
+     "hasDate": true
+    },
+    {
+     "cls": "carousel-items carousel-items--runtime",
+     "cards": 16,
+     "sameSite": 16,
+     "hasDate": false
+    },
+    {
+     "cls": "carousel-items carousel-items--runtime",
+     "cards": 16,
+     "sameSite": 16,
+     "hasDate": false
+    },
+    {
+     "cls": "carousel-items carousel-items--runtime",
+     "cards": 16,
+     "sameSite": 16,
+     "hasDate": true
+    },
+    {
+     "cls": "carousel-items",
+     "cards": 7,
+     "sameSite": 7,
+     "hasDate": true
+    }
+   ],
+   "inlineScripts": 6,
+   "inlineFetch": false,
+   "mainText": 7674,
+   "domAddedAfterLoad": 44,
+   "hosts": {
+    "www.reply.com": 15,
+    "cdn.cookielaw.org": 11,
+    "replydam.discoveryreplymedia.com": 61,
+    "www.googletagmanager.com": 7,
+    "geolocation.onetrust.com": 1,
+    "sleeknotecustomerscripts.sleeknote.com": 1,
+    "api.reply.com": 4,
+    "www.google-analytics.com": 8,
+    "analytics.google.com": 3,
+    "static.ads-twitter.com": 1,
+    "connect.facebook.net": 2,
+    "js.zi-scripts.com": 2,
+    "ad.doubleclick.net": 1,
+    "www.google.com": 10,
+    "analytics.twitter.com": 1,
+    "snap.licdn.com": 1,
+    "t.co": 1,
+    "px.ads.linkedin.com": 7,
+    "googleads.g.doubleclick.net": 3,
+    "www.facebook.com": 1,
+    "cdn.jsdelivr.net": 1,
+    "js-eu1.hs-scripts.com": 1,
+    "www.linkedin.com": 2,
+    "ws.zoominfo.com": 1,
+    "js.adsrvr.org": 2,
+    "tags.clickagy.com": 1,
+    "px4.ads.linkedin.com": 2,
+    "insight.adsrvr.org": 2,
+    "aorta.clickagy.com": 9,
+    "match.adsrvr.org": 4,
+    "cm.g.doubleclick.net": 4,
+    "us-u.openx.net": 3,
+    "ib.adnxs.com": 2,
+    "pixel.rubiconproject.com": 1,
+    "js-eu1.hubspot.com": 1,
+    "js-eu1.hs-banner.com": 1,
+    "js-eu1.hs-analytics.net": 1,
+    "hemsync.clickagy.com": 1,
+    "track-eu1.hubspot.com": 1,
+    "cta-eu1.hubspot.com": 1,
+    "perf-eu1.hsforms.com": 1,
+    "dam-media.reply.com": 4
+   },
+   "thirdPartyHosts": [
+    "cdn.cookielaw.org",
+    "replydam.discoveryreplymedia.com",
+    "www.googletagmanager.com",
+    "geolocation.onetrust.com",
+    "sleeknotecustomerscripts.sleeknote.com",
+    "www.google-analytics.com",
+    "analytics.google.com",
+    "static.ads-twitter.com",
+    "connect.facebook.net",
+    "js.zi-scripts.com",
+    "ad.doubleclick.net",
+    "www.google.com",
+    "analytics.twitter.com",
+    "snap.licdn.com",
+    "t.co",
+    "px.ads.linkedin.com",
+    "googleads.g.doubleclick.net",
+    "www.facebook.com",
+    "cdn.jsdelivr.net",
+    "js-eu1.hs-scripts.com",
+    "www.linkedin.com",
+    "ws.zoominfo.com",
+    "js.adsrvr.org",
+    "tags.clickagy.com",
+    "px4.ads.linkedin.com",
+    "insight.adsrvr.org",
+    "aorta.clickagy.com",
+    "match.adsrvr.org",
+    "cm.g.doubleclick.net",
+    "us-u.openx.net",
+    "ib.adnxs.com",
+    "pixel.rubiconproject.com",
+    "js-eu1.hubspot.com",
+    "js-eu1.hs-banner.com",
+    "js-eu1.hs-analytics.net",
+    "hemsync.clickagy.com",
+    "track-eu1.hubspot.com",
+    "cta-eu1.hubspot.com",
+    "perf-eu1.hsforms.com"
+   ],
+   "scripts": [
+    "https://www.reply.com/scripts/theme.06e98347.js",
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-5J8JCZQ",
+    "https://cdn.cookielaw.org/scripttemplates/202503.1.0/otBannerSdk.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-NX5RCR1CJ8&cx=c&gtm=4e6bb1",
+    "https://www.googletagmanager.com/gtag/js?id=G-F9W9706WEQ&cx=c&gtm=4e6bb1",
+    "https://www.googletagmanager.com/gtag/js?id=G-4V48VRMXYG&cx=c&gtm=4e6bb1",
+    "https://sleeknotecustomerscripts.sleeknote.com/38207.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-03WJT618YJ&cx=c&gtm=4e6bb1",
+    "https://static.ads-twitter.com/uwt.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://js.zi-scripts.com/zi-tag.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://www.googletagmanager.com/gtag/js?id=AW-477691837&cx=c&gtm=4e6bb1",
+    "https://www.googletagmanager.com/gtag/js?id=AW-1058439082&cx=c&gtm=4e6bb1",
+    "https://connect.facebook.net/signals/config/350425859155563?v=2.9.439&r=stable&domain=www.reply.com&optin_meta_enabled_capi=true&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/477691837/?random=1794735691785&cv=11&fst=1794735691785&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bb1v9178880896za20ozb81007131",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1058439082/?random=1794735691867&cv=11&fst=1794735691867&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bb1v893306520za20ozb81007131",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1058439082/?random=1794735691892&cv=11&fst=1794735691892&bg=ffffff&guid=ON&async=1&gtm=45be6bb1v893306520z8810071315za20gzb810071315zd8",
+    "https://cdn.jsdelivr.net/npm/meta-capi-param-builder-clientjs/dist/clientParamBuilder.bundle.js",
+    "https://js-eu1.hs-scripts.com/145684924.js",
+    "https://js.adsrvr.org/up_loader.1.1.0.js",
+    "https://tags.clickagy.com/data.js?rnd=62fe5c0e6ad96",
+    "https://js.adsrvr.org/universal_pixel.js",
+    "https://js-eu1.hubspot.com/web-interactives-embed.js",
+    "https://js-eu1.hs-banner.com/v2/145684924/banner.js",
+    "https://js-eu1.hs-analytics.net/analytics/1794735600000/145684924.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "api.reply.com",
+     "path": "/api/content-list/default",
+     "query": [
+      "_include",
+      "_limit",
+      "_sortBy",
+      "meta:services",
+      "sectionPermalink",
+      "siteKey"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://api.reply.com/api/content-list/default"
+    },
+    {
+     "method": "GET",
+     "host": "api.reply.com",
+     "path": "/api/content-meta-options/article",
+     "query": [
+      "key"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://api.reply.com/api/content-meta-options/article"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/93b766e1-abbc-4ac6-8595-a8b1084d9583/93b766e1-abbc-4ac6-8595-a8b1084d95",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/93b766e1-abbc-4ac6-8595-a8b1084d9583/0195a8ea-2e69-76cf-8cf4-50206e0b37",
+    "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/otFlat.json",
+    "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/v2/otPcPanel.json",
+    "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+    "POST www.google-analytics.com/g/collect",
+    "POST analytics.google.com/g/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/ccm/collect",
+    "POST px.ads.linkedin.com/wa/",
+    "POST www.google.com/rmkt/collect/477691837/",
+    "GET js.zi-scripts.com/unified/v1/master/getSubscriptions",
+    "POST www.google.com/rmkt/collect/1058439082/",
+    "GET ws.zoominfo.com/pixel/690d26fe104e57c66cd69794/",
+    "POST aorta.clickagy.com/data",
+    "GET aorta.clickagy.com/pixel.gif",
+    "GET aorta.clickagy.com/channel-sync/4",
+    "GET hemsync.clickagy.com/external/hasHashes",
+    "GET cta-eu1.hubspot.com/web-interactives/public/v1/embed/combinedConfigs",
+    "POST insight.adsrvr.org/track/realtimeconversion"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4V48VRMXYG&gtm=45je6bb1v9101934939za20ozb810071315zd810071315xf1&_p=1794735689904&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&cid=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-03WJT618YJ&gtm=45je6bb1v9164825874za20ozb810071315zd810071315xf1&_p=1794735689904&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&cid=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-NX5RCR1CJ8&gtm=45je6bb1v9100924311za20ozb810071315zd810071315xf1&_p=1794735689904&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&_eu=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F9W9706WEQ&gtm=45je6bb1v871636865za20ozb810071315zd810071315xf1&_p=1794735689904&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&_eu=A",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-NX5RCR1CJ8&gtm=45je6bb1v9100924311z8810071315za20gzb810071315zd810071315xf1&_p=1794735689904&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=d",
+     "body": "en=page_path_level&ep.full_url=www.reply.com%2Fen%2Finsights&ep.path_l1=%2Fen&ep.path_l2=%2Finsights&ep.path_l3=null&ep.path_l4=null&ep.querystring_par=null&_et=2\r\nen=page_load_time&epn.loading_time_sec=0.9&_et=16"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-NX5RCR1CJ8&gtm=45je6bb1v9100924311za20gzb810071315zd810071315xf1&_p=1794735689904&_gaz=1&gcs=G111&gcu=1&gcd=13r3v3r3r5l1&npa=0&dma=0&gdid=dYWJhMj&_eu=E",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F9W9706WEQ&gtm=45je6bb1v871636865z8810071315za20gzb810071315zd810071315xf1&_p=1794735689904&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dY",
+     "body": "en=page_path_level&ep.full_url=www.reply.com%2Fen%2Finsights&ep.path_l1=%2Fen&ep.path_l2=%2Finsights&ep.path_l3=null&ep.path_l4=null&ep.querystring_par=null&_et=3\r\nen=page_load_time&epn.loading_time_sec=0.9&_et=4"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-F9W9706WEQ&gtm=45je6bb1v871636865za20gzb810071315zd810071315xf1&_p=1794735689904&_gaz=1&gcs=G111&gcu=1&gcd=13r3v3r3r5l1&npa=0&dma=0&gdid=dYWJhMj&_eu=AA",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=11&frm=0&apvc=1&ae=g&auid=1442517290.1794735692&dt=Insights%20%7C%20Reply&en=page_view&dl=https%3A%2F%2Fwww.reply.com%2Fen%2Finsights&scrsrc=www.googletagmanager",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1442517290.1794735692&gtm=45He6bb1v810071315za200zd810071315xeaxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+     "body": "H4sIAAAAAAAAAz2QQU/EIBCF/4qZM7i0UCjcPKhp4sG4Gy/GGArTXSJlsbAxRv3vpqvx+DLz3rxvPiEHX8A8cc2F7FrScalEo4gSvOueCRS3hFwfcSnhmMA0jDHGNYEaZgTTKC0U76RuFNME/HG2IYGBBXP8uHTHGQiclggGDrXmYjab/8kG0yakEvaHWoDAO44lVNyGfbLxAd9OWOrgwQDjreVSWeol66gWk6JtqxVtnJucEpw33gOBbPd4d7T+7PFMNq0Xktq+d1RMKGnvu5HqUTnJfC8100AglN1iU4m2ogcz2ViQQAw39vcyrOI22FR/xRyKA/MJuYzbaiuCoeJ7TbkL6RX9kK5y/o9Z++xCjQgGhj/Mi6+LhxUfCBxwBpNOMRIoZ+TdR15X"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/477691837/?random=1794735691785&cv=11&fst=1794735691785&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bb1v9178880896za20ozb810071315zd810071315xecxf1&gcd=",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 4700,
+   "mainEmptyAtLoad": false
+  },
+  "/en/covid-19-implications-2021": {
+   "url": "https://www.reply.com/en/covid-19-implications-2021",
+   "status": 200,
+   "host": "www.reply.com",
+   "title": "What will be the implications in 2021 with covid-19 still on play? | Reply",
+   "forms": [
+    {
+     "name": "flex",
+     "action": "https://www.reply.com/en/search",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "EN",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 10,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Services",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 627,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Industries",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 312,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Insights & Labs",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 285,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "We care",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 277,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "We are",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 452,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "English",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 48,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "search",
+      "heading": "",
+      "textLen": 25,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menubar",
+      "heading": "",
+      "textLen": 2078,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 0,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "We are",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 39,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Privacy & legal",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 318,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 782,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Privacy Preference Center",
+     "textLen": 2358,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 2,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=lldx7tb&cookie_sync=1&upv=3.0.0&upid=d9pqcc5&ref=https%3A%2F%2Fwww.reply.com%2Fen%2Fcovid-19-implications-2021",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=lldx7tb&cookie_sync=1&upv=3.0.0&upid=d9pqcc5&ref=https%3A%2F%2Fwww.reply.com%2Fen%2Fcovid-19-implications-2021",
+     "title": "TTD Universal Pixel",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [
+     "de",
+     "en",
+     "it",
+     "pt"
+    ],
+    "switcher": [
+     "https://www.reply.com/de/covid-19-implications-2021",
+     "https://www.reply.com/it/covid-19-implications-2021",
+     "https://www.reply.com/pt/covid-19-implications-2021",
+     "https://www.reply.com/de/covid-19-implications-2021",
+     "https://www.reply.com/it/covid-19-implications-2021"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [
+    {
+     "cls": "mnrycjmtjs mnrycjmtjs-md mnrycjmtjs-lg",
+     "attrs": [],
+     "text": "Getting prepared for 2021"
+    }
+   ],
+   "listingCandidates": [],
+   "inlineScripts": 6,
+   "inlineFetch": false,
+   "mainText": 8708,
+   "domAddedAfterLoad": 44,
+   "hosts": {
+    "www.reply.com": 13,
+    "cdn.cookielaw.org": 11,
+    "replydam.discoveryreplymedia.com": 26,
+    "geolocation.onetrust.com": 1,
+    "www.googletagmanager.com": 7,
+    "sleeknotecustomerscripts.sleeknote.com": 1,
+    "www.google-analytics.com": 8,
+    "analytics.google.com": 2,
+    "static.ads-twitter.com": 1,
+    "connect.facebook.net": 2,
+    "js.zi-scripts.com": 2,
+    "www.google.com": 10,
+    "ad.doubleclick.net": 1,
+    "t.co": 1,
+    "analytics.twitter.com": 1,
+    "snap.licdn.com": 1,
+    "px.ads.linkedin.com": 7,
+    "www.facebook.com": 1,
+    "googleads.g.doubleclick.net": 3,
+    "cdn.jsdelivr.net": 1,
+    "js-eu1.hs-scripts.com": 1,
+    "ws.zoominfo.com": 1,
+    "www.linkedin.com": 2,
+    "js.adsrvr.org": 2,
+    "tags.clickagy.com": 1,
+    "insight.adsrvr.org": 2,
+    "aorta.clickagy.com": 9,
+    "match.adsrvr.org": 4,
+    "px4.ads.linkedin.com": 2,
+    "cm.g.doubleclick.net": 4,
+    "ib.adnxs.com": 2,
+    "us-u.openx.net": 3,
+    "pixel.rubiconproject.com": 1,
+    "js-eu1.hs-banner.com": 1,
+    "js-eu1.hs-analytics.net": 1,
+    "js-eu1.hubspot.com": 1,
+    "hemsync.clickagy.com": 1,
+    "track-eu1.hubspot.com": 1,
+    "cta-eu1.hubspot.com": 1,
+    "perf-eu1.hsforms.com": 1
+   },
+   "thirdPartyHosts": [
+    "cdn.cookielaw.org",
+    "replydam.discoveryreplymedia.com",
+    "geolocation.onetrust.com",
+    "www.googletagmanager.com",
+    "sleeknotecustomerscripts.sleeknote.com",
+    "www.google-analytics.com",
+    "analytics.google.com",
+    "static.ads-twitter.com",
+    "connect.facebook.net",
+    "js.zi-scripts.com",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "t.co",
+    "analytics.twitter.com",
+    "snap.licdn.com",
+    "px.ads.linkedin.com",
+    "www.facebook.com",
+    "googleads.g.doubleclick.net",
+    "cdn.jsdelivr.net",
+    "js-eu1.hs-scripts.com",
+    "ws.zoominfo.com",
+    "www.linkedin.com",
+    "js.adsrvr.org",
+    "tags.clickagy.com",
+    "insight.adsrvr.org",
+    "aorta.clickagy.com",
+    "match.adsrvr.org",
+    "px4.ads.linkedin.com",
+    "cm.g.doubleclick.net",
+    "ib.adnxs.com",
+    "us-u.openx.net",
+    "pixel.rubiconproject.com",
+    "js-eu1.hs-banner.com",
+    "js-eu1.hs-analytics.net",
+    "js-eu1.hubspot.com",
+    "hemsync.clickagy.com",
+    "track-eu1.hubspot.com",
+    "cta-eu1.hubspot.com",
+    "perf-eu1.hsforms.com"
+   ],
+   "scripts": [
+    "https://www.reply.com/scripts/theme.06e98347.js",
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://cdn.cookielaw.org/scripttemplates/202503.1.0/otBannerSdk.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-5J8JCZQ",
+    "https://www.googletagmanager.com/gtag/js?id=G-NX5RCR1CJ8&cx=c&gtm=4e6bb1",
+    "https://www.googletagmanager.com/gtag/js?id=G-03WJT618YJ&cx=c&gtm=4e6bb1",
+    "https://www.googletagmanager.com/gtag/js?id=G-4V48VRMXYG&cx=c&gtm=4e6bb1",
+    "https://www.googletagmanager.com/gtag/js?id=G-F9W9706WEQ&cx=c&gtm=4e6bb1",
+    "https://sleeknotecustomerscripts.sleeknote.com/38207.js",
+    "https://static.ads-twitter.com/uwt.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://js.zi-scripts.com/zi-tag.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://www.googletagmanager.com/gtag/js?id=AW-1058439082&cx=c&gtm=4e6bb1",
+    "https://connect.facebook.net/signals/config/350425859155563?v=2.9.439&r=stable&domain=www.reply.com&optin_meta_enabled_capi=true&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex",
+    "https://www.googletagmanager.com/gtag/js?id=AW-477691837&cx=c&gtm=4e6bb1",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1058439082/?random=1794735702679&cv=11&fst=1794735702679&bg=ffffff&guid=ON&async=1&gtm=45be6bb1v893306520z8810071315za20gzb810071315zd8",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1058439082/?random=1794735702656&cv=11&fst=1794735702656&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bb1v893306520za20ozb81007131",
+    "https://cdn.jsdelivr.net/npm/meta-capi-param-builder-clientjs/dist/clientParamBuilder.bundle.js",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/477691837/?random=1794735702782&cv=11&fst=1794735702782&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bb1v9178880896za20ozb81007131",
+    "https://js-eu1.hs-scripts.com/145684924.js",
+    "https://js.adsrvr.org/up_loader.1.1.0.js",
+    "https://tags.clickagy.com/data.js?rnd=62fe5c0e6ad96",
+    "https://js.adsrvr.org/universal_pixel.js",
+    "https://js-eu1.hs-banner.com/v2/145684924/banner.js",
+    "https://js-eu1.hs-analytics.net/analytics/1794735600000/145684924.js",
+    "https://js-eu1.hubspot.com/web-interactives-embed.js"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/93b766e1-abbc-4ac6-8595-a8b1084d9583/93b766e1-abbc-4ac6-8595-a8b1084d95",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/93b766e1-abbc-4ac6-8595-a8b1084d9583/0195a8ea-2e69-76cf-8cf4-50206e0b37",
+    "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/otFlat.json",
+    "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/v2/otPcPanel.json",
+    "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+    "POST www.google-analytics.com/g/collect",
+    "POST analytics.google.com/g/collect",
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST px.ads.linkedin.com/wa/",
+    "GET js.zi-scripts.com/unified/v1/master/getSubscriptions",
+    "POST www.google.com/rmkt/collect/1058439082/",
+    "POST www.google.com/rmkt/collect/477691837/",
+    "GET ws.zoominfo.com/pixel/690d26fe104e57c66cd69794/",
+    "POST aorta.clickagy.com/data",
+    "GET aorta.clickagy.com/pixel.gif",
+    "GET aorta.clickagy.com/channel-sync/4",
+    "GET hemsync.clickagy.com/external/hasHashes",
+    "GET cta-eu1.hubspot.com/web-interactives/public/v1/embed/combinedConfigs",
+    "POST insight.adsrvr.org/track/realtimeconversion"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-03WJT618YJ&gtm=45je6bb1v9164825874za20ozb810071315zd810071315xf1&_p=1794735700974&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&cid=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4V48VRMXYG&gtm=45je6bb1v9101934939za20ozb810071315zd810071315xf1&_p=1794735700974&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&cid=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-NX5RCR1CJ8&gtm=45je6bb1v9100924311za20ozb810071315zd810071315xf1&_p=1794735700974&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&_eu=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F9W9706WEQ&gtm=45je6bb1v871636865za20ozb810071315zd810071315xf1&_p=1794735700974&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&_eu=A",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-NX5RCR1CJ8&gtm=45je6bb1v9100924311z8810071315za20gzb810071315zd810071315xf1&_p=1794735700974&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=d",
+     "body": "en=page_path_level&ep.full_url=www.reply.com%2Fen%2Fcovid-19-implications-2021&ep.path_l1=%2Fen&ep.path_l2=%2Fcovid-19-implications-2021&ep.path_l3=null&ep.path_l4=null&ep.querystring_par=null&_et=2\r\nen=page_load_time&epn.loading_time_sec=0.8&_et=16"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-NX5RCR1CJ8&gtm=45je6bb1v9100924311za20gzb810071315zd810071315xf1&_p=1794735700974&_gaz=1&gcs=G111&gcu=1&gcd=13r3v3r3r5l1&npa=0&dma=0&gdid=dYWJhMj&_eu=E",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F9W9706WEQ&gtm=45je6bb1v871636865z8810071315za20gzb810071315zd810071315xf1&_p=1794735700974&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dY",
+     "body": "en=page_path_level&ep.full_url=www.reply.com%2Fen%2Fcovid-19-implications-2021&ep.path_l1=%2Fen&ep.path_l2=%2Fcovid-19-implications-2021&ep.path_l3=null&ep.path_l4=null&ep.querystring_par=null&_et=4\r\nen=page_load_time&epn.loading_time_sec=0.8&_et=4"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-F9W9706WEQ&gtm=45je6bb1v871636865za20gzb810071315zd810071315xf1&_p=1794735700974&_gaz=1&gcs=G111&gcu=1&gcd=13r3v3r3r5l1&npa=0&dma=0&gdid=dYWJhMj&_eu=AA",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=1&ae=g&auid=623551569.1794735702&dt=What%20will%20be%20the%20implications%20in%202021%20with%20covid-19%20still%20on%20play%3F%20%7C%20Reply&en=page",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=623551569.1794735702&gtm=45He6bb1v810071315za200zd810071315xeaxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+     "body": "H4sIAAAAAAAAA02QQW/cIBCF/wqaM3QBG2NzqXJoIks5VNlVeqiiCptxjIIxXdiuVmn+e+VsG/X4NDPvzfteIXmXwXyvuqpulKSqanQtNNV1pdQThTwefSqPeMx+jWAE55xXHYXiFwQjdFfrSmkuVScpuHWxPoKBI6Zw+TSuC1A4HQMYmEtJ2ex2H5Mdxt24/vKOiY75JQU/2uLXmJnkUgCFMw7ZF9z752jDA/48YS69AwPYDeMkecOGxg6s4oNjrcCO8clp11Qd6lEChWSf8X617npTCVV3ijMtWmS1QMGsEC2rlEOHteZOcqDg8+FoYw62oAMz2ZCRQvC39poMm7jzNparWHwewbxCysO+2IJgWP22udz7+IKujzcpfdhs/xx8CQgGvs22kLMP"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1058439082/?random=1794735702656&cv=11&fst=1794735702656&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bb1v893306520za20ozb810071315zd810071315xecxf1&gcd=",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 8708,
+   "mainEmptyAtLoad": false
+  },
+  "/en/accessibility": {
+   "url": "https://www.reply.com/en/accessibility",
+   "status": 200,
+   "host": "www.reply.com",
+   "title": "Accessibility | Reply",
+   "forms": [
+    {
+     "name": "flex",
+     "action": "https://www.reply.com/en/search",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "EN",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 10,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Services",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 627,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Industries",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 312,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Insights & Labs",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 285,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "We care",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 277,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "We are",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 452,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "English",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 48,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "search",
+      "heading": "",
+      "textLen": 25,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menubar",
+      "heading": "",
+      "textLen": 2078,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "We are",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 39,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Privacy & legal",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "menu",
+      "heading": "",
+      "textLen": 318,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 782,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Privacy Preference Center",
+     "textLen": 2358,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 2,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=lldx7tb&cookie_sync=1&upv=3.0.0&upid=d9pqcc5&ref=https%3A%2F%2Fwww.reply.com%2Fen%2Faccessibility",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=lldx7tb&cookie_sync=1&upv=3.0.0&upid=d9pqcc5&ref=https%3A%2F%2Fwww.reply.com%2Fen%2Faccessibility",
+     "title": "TTD Universal Pixel",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [
+     "de",
+     "en",
+     "fr",
+     "it",
+     "pt"
+    ],
+    "switcher": [
+     "https://www.reply.com/de/accessibility",
+     "https://www.reply.com/fr/accessibility",
+     "https://www.reply.com/it/accessibility",
+     "https://www.reply.com/pt/accessibility",
+     "https://www.reply.com/de/accessibility"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 6,
+   "inlineFetch": false,
+   "mainText": 1284,
+   "domAddedAfterLoad": 44,
+   "hosts": {
+    "www.reply.com": 13,
+    "cdn.cookielaw.org": 11,
+    "dam-media.reply.com": 4,
+    "geolocation.onetrust.com": 1,
+    "replydam.discoveryreplymedia.com": 5,
+    "www.googletagmanager.com": 7,
+    "sleeknotecustomerscripts.sleeknote.com": 1,
+    "www.google-analytics.com": 8,
+    "analytics.google.com": 4,
+    "static.ads-twitter.com": 1,
+    "connect.facebook.net": 2,
+    "js.zi-scripts.com": 2,
+    "ad.doubleclick.net": 1,
+    "www.google.com": 10,
+    "analytics.twitter.com": 1,
+    "t.co": 1,
+    "snap.licdn.com": 1,
+    "www.facebook.com": 1,
+    "px.ads.linkedin.com": 7,
+    "cdn.jsdelivr.net": 1,
+    "googleads.g.doubleclick.net": 3,
+    "ws.zoominfo.com": 1,
+    "js-eu1.hs-scripts.com": 1,
+    "js.adsrvr.org": 2,
+    "www.linkedin.com": 2,
+    "tags.clickagy.com": 1,
+    "aorta.clickagy.com": 9,
+    "insight.adsrvr.org": 2,
+    "px4.ads.linkedin.com": 2,
+    "match.adsrvr.org": 4,
+    "cm.g.doubleclick.net": 4,
+    "us-u.openx.net": 3,
+    "ib.adnxs.com": 2,
+    "pixel.rubiconproject.com": 1,
+    "hemsync.clickagy.com": 1,
+    "js-eu1.hs-banner.com": 1,
+    "js-eu1.hubspot.com": 1,
+    "js-eu1.hs-analytics.net": 1,
+    "cta-eu1.hubspot.com": 1,
+    "track-eu1.hubspot.com": 1,
+    "perf-eu1.hsforms.com": 1
+   },
+   "thirdPartyHosts": [
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com",
+    "replydam.discoveryreplymedia.com",
+    "www.googletagmanager.com",
+    "sleeknotecustomerscripts.sleeknote.com",
+    "www.google-analytics.com",
+    "analytics.google.com",
+    "static.ads-twitter.com",
+    "connect.facebook.net",
+    "js.zi-scripts.com",
+    "ad.doubleclick.net",
+    "www.google.com",
+    "analytics.twitter.com",
+    "t.co",
+    "snap.licdn.com",
+    "www.facebook.com",
+    "px.ads.linkedin.com",
+    "cdn.jsdelivr.net",
+    "googleads.g.doubleclick.net",
+    "ws.zoominfo.com",
+    "js-eu1.hs-scripts.com",
+    "js.adsrvr.org",
+    "www.linkedin.com",
+    "tags.clickagy.com",
+    "aorta.clickagy.com",
+    "insight.adsrvr.org",
+    "px4.ads.linkedin.com",
+    "match.adsrvr.org",
+    "cm.g.doubleclick.net",
+    "us-u.openx.net",
+    "ib.adnxs.com",
+    "pixel.rubiconproject.com",
+    "hemsync.clickagy.com",
+    "js-eu1.hs-banner.com",
+    "js-eu1.hubspot.com",
+    "js-eu1.hs-analytics.net",
+    "cta-eu1.hubspot.com",
+    "track-eu1.hubspot.com",
+    "perf-eu1.hsforms.com"
+   ],
+   "scripts": [
+    "https://www.reply.com/scripts/theme.06e98347.js",
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://cdn.cookielaw.org/scripttemplates/202503.1.0/otBannerSdk.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-5J8JCZQ",
+    "https://sleeknotecustomerscripts.sleeknote.com/38207.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-F9W9706WEQ&cx=c&gtm=4e6bb1",
+    "https://www.googletagmanager.com/gtag/js?id=G-4V48VRMXYG&cx=c&gtm=4e6bb1",
+    "https://www.googletagmanager.com/gtag/js?id=G-NX5RCR1CJ8&cx=c&gtm=4e6bb1",
+    "https://www.googletagmanager.com/gtag/js?id=G-03WJT618YJ&cx=c&gtm=4e6bb1",
+    "https://static.ads-twitter.com/uwt.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://js.zi-scripts.com/zi-tag.js",
+    "https://connect.facebook.net/signals/config/350425859155563?v=2.9.439&r=stable&domain=www.reply.com&optin_meta_enabled_capi=true&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://www.googletagmanager.com/gtag/js?id=AW-1058439082&cx=c&gtm=4e6bb1",
+    "https://www.googletagmanager.com/gtag/js?id=AW-477691837&cx=c&gtm=4e6bb1",
+    "https://cdn.jsdelivr.net/npm/meta-capi-param-builder-clientjs/dist/clientParamBuilder.bundle.js",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1058439082/?random=1794735713725&cv=11&fst=1794735713725&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bb1v893306520za20ozb81007131",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1058439082/?random=1794735713749&cv=11&fst=1794735713749&bg=ffffff&guid=ON&async=1&gtm=45be6bb1v893306520z8810071315za20gzb810071315zd8",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/477691837/?random=1794735713815&cv=11&fst=1794735713815&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bb1v9178880896za20ozb81007131",
+    "https://js-eu1.hs-scripts.com/145684924.js",
+    "https://js.adsrvr.org/up_loader.1.1.0.js",
+    "https://tags.clickagy.com/data.js?rnd=62fe5c0e6ad96",
+    "https://js.adsrvr.org/universal_pixel.js",
+    "https://js-eu1.hs-banner.com/v2/145684924/banner.js",
+    "https://js-eu1.hubspot.com/web-interactives-embed.js",
+    "https://js-eu1.hs-analytics.net/analytics/1794735600000/145684924.js"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/93b766e1-abbc-4ac6-8595-a8b1084d9583/93b766e1-abbc-4ac6-8595-a8b1084d95",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/93b766e1-abbc-4ac6-8595-a8b1084d9583/0195a8ea-2e69-76cf-8cf4-50206e0b37",
+    "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/otFlat.json",
+    "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/v2/otPcPanel.json",
+    "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+    "POST www.google-analytics.com/g/collect",
+    "POST analytics.google.com/g/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/ccm/collect",
+    "GET js.zi-scripts.com/unified/v1/master/getSubscriptions",
+    "POST px.ads.linkedin.com/wa/",
+    "POST www.google.com/rmkt/collect/1058439082/",
+    "POST www.google.com/rmkt/collect/477691837/",
+    "GET ws.zoominfo.com/pixel/690d26fe104e57c66cd69794/",
+    "POST aorta.clickagy.com/data",
+    "GET aorta.clickagy.com/channel-sync/4",
+    "GET aorta.clickagy.com/pixel.gif",
+    "GET hemsync.clickagy.com/external/hasHashes",
+    "GET cta-eu1.hubspot.com/web-interactives/public/v1/embed/combinedConfigs",
+    "POST insight.adsrvr.org/track/realtimeconversion"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4V48VRMXYG&gtm=45je6bb1v9101934939za20ozb810071315zd810071315xf1&_p=1794735712028&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&cid=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-03WJT618YJ&gtm=45je6bb1v9164825874za20ozb810071315zd810071315xf1&_p=1794735712028&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&cid=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F9W9706WEQ&gtm=45je6bb1v871636865za20ozb810071315zd810071315xf1&_p=1794735712028&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&_eu=A",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-NX5RCR1CJ8&gtm=45je6bb1v9100924311za20ozb810071315zd810071315xf1&_p=1794735712028&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&_eu=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F9W9706WEQ&gtm=45je6bb1v871636865z8810071315za20gzb810071315zd810071315xf1&_p=1794735712028&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dY",
+     "body": "en=page_path_level&ep.full_url=www.reply.com%2Fen%2Faccessibility&ep.path_l1=%2Fen&ep.path_l2=%2Faccessibility&ep.path_l3=null&ep.path_l4=null&ep.querystring_par=null&_et=3\r\nen=page_load_time&epn.loading_time_sec=0.8&_et=14"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-F9W9706WEQ&gtm=45je6bb1v871636865za20gzb810071315zd810071315xf1&_p=1794735712028&_gaz=1&gcs=G111&gcu=1&gcd=13r3v3r3r5l1&npa=0&dma=0&gdid=dYWJhMj&_eu=AA",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-NX5RCR1CJ8&gtm=45je6bb1v9100924311z8810071315za20gzb810071315zd810071315xf1&_p=1794735712028&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=d",
+     "body": "en=page_path_level&ep.full_url=www.reply.com%2Fen%2Faccessibility&ep.path_l1=%2Fen&ep.path_l2=%2Faccessibility&ep.path_l3=null&ep.path_l4=null&ep.querystring_par=null&_et=2\r\nen=page_load_time&epn.loading_time_sec=0.8&_et=4\r\nen=general_action&ep.event_category=Scroll%20Tracking&ep.event_action=%2Fen%2Faccessibility&epn.event_label=25\r\nen=general_action&ep.event_category=Scroll-OK&epn.event_action=3"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-NX5RCR1CJ8&gtm=45je6bb1v9100924311za20gzb810071315zd810071315xf1&_p=1794735712028&_gaz=1&gcs=G111&gcu=1&gcd=13r3v3r3r5l1&npa=0&dma=0&gdid=dYWJhMj&_eu=E",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=1&ae=g&auid=1817643350.1794735714&dt=Accessibility%20%7C%20Reply&en=page_view&dl=https%3A%2F%2Fwww.reply.com%2Fen%2Faccessibility&scrsrc=www.googlet",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1817643350.1794735714&gtm=45He6bb1v810071315za200zd810071315xeaxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+     "body": "H4sIAAAAAAAAA02QT2vcMBDFv0qYs9S1LMmydNtDGww5lOySSyhBf8aJqKxVLS1lSfPdgzcl5PiYeW/eb16hxFDBPHLNxSB7IvmgBFNECS7lLwLVr7G0B1xrPGUwrOu6jmsCLS4IhiktFJeK8WFgBMJpsTGDgRVLunzzpwUInNcEBl5aK9Xsdp+THead9R5rjS6m2C5A4C+6Ghse4nO26R7/nLG2KYCBIMfOiVlRoeVIg2WOdjqMVM5sVsH2UukOCBT7jHcnG66eftCKSTbSnmtFhQ1IrfeOjtY7JXTvlOdAINbjanNNtmEAM9tUkUCKP+zHZdjEbbS5fYglVg/mFUp1h2YbgqHibUu5i/k3hinvS/mM2focY0sIBvZfWW/+3dxvjwACL7iAyeeU"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1058439082/?random=1794735713725&cv=11&fst=1794735713725&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bb1v893306520za20ozb810071315zd810071315xecxf1&gcd=",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 1284,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-unknown-third-party-host-www-google-com",
+   "class": "A",
+   "feature": "unknown third-party host www.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.google.com"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-px-ads-linkedin-com",
+   "class": "A",
+   "feature": "unknown third-party host px.ads.linkedin.com",
+   "hint": "inspect",
+   "evidence": [
+    "px.ads.linkedin.com"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-cta-eu1-hubspot-com",
+   "class": "A",
+   "feature": "unknown third-party host cta-eu1.hubspot.com",
+   "hint": "inspect",
+   "evidence": [
+    "cta-eu1.hubspot.com"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-js-zi-scripts-com",
+   "class": "A",
+   "feature": "unknown third-party host js.zi-scripts.com",
+   "hint": "inspect",
+   "evidence": [
+    "js.zi-scripts.com"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-ws-zoominfo-com",
+   "class": "A",
+   "feature": "unknown third-party host ws.zoominfo.com",
+   "hint": "inspect",
+   "evidence": [
+    "ws.zoominfo.com"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-aorta-clickagy-com",
+   "class": "A",
+   "feature": "unknown third-party host aorta.clickagy.com",
+   "hint": "inspect",
+   "evidence": [
+    "aorta.clickagy.com"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-hemsync-clickagy-com",
+   "class": "A",
+   "feature": "unknown third-party host hemsync.clickagy.com",
+   "hint": "inspect",
+   "evidence": [
+    "hemsync.clickagy.com"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-api-content-list-default",
+   "class": "A",
+   "feature": "first-party API GET /api/content-list/default",
+   "api": {
+    "method": "GET",
+    "path": "/api/content-list/default"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /api/content-list/default?_include,_limit,_sortBy,sectionPermalink,siteKey → 200",
+    "GET /api/content-list/default?_include,_limit,_sortBy,id,siteKey → 200",
+    "GET /api/content-list/default?_include,_limit,_sortBy,meta:services,sectionPermalink,siteKey → 200"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/en/insights"
+   ],
+   "reach": {
+    "pages": 20,
+    "of": 100
+   }
+  },
+  {
+   "id": "a-unknown-third-party-host-ibc-flow-techtarget-com",
+   "class": "A",
+   "feature": "unknown third-party host ibc-flow.techtarget.com",
+   "hint": "inspect",
+   "evidence": [
+    "ibc-flow.techtarget.com"
+   ],
+   "pages": [
+    "/",
+    "/en/iot"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-t-co",
+   "class": "A",
+   "feature": "unknown third-party host t.co",
+   "hint": "inspect",
+   "evidence": [
+    "t.co"
+   ],
+   "pages": [
+    "/en/iot"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-product-detail-sw10234-sw10238-sw10237",
+   "class": "A",
+   "feature": "first-party API GET /product-detail/SW10234,SW10238,SW10237",
+   "api": {
+    "method": "GET",
+    "path": "/product-detail/SW10234,SW10238,SW10237"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /product-detail/SW10234,SW10238,SW10237 → 200"
+   ],
+   "pages": [
+    "/en/iot"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 100
+   }
+  },
+  {
+   "id": "a-unknown-third-party-host-www-facebook-com",
+   "class": "A",
+   "feature": "unknown third-party host www.facebook.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.facebook.com"
+   ],
+   "pages": [
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-api-content-meta-options-article",
+   "class": "A",
+   "feature": "first-party API GET /api/content-meta-options/article",
+   "api": {
+    "method": "GET",
+    "path": "/api/content-meta-options/article"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /api/content-meta-options/article?key → 200"
+   ],
+   "pages": [
+    "/en/insights"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 100
+   }
+  },
+  {
+   "id": "cr-client-rendered-slot-card-carousel-runtime-d-flex",
+   "class": "CR",
+   "feature": "client-rendered slot card-carousel-runtime d-flex",
+   "hint": "client-rendered",
+   "evidence": [
+    "data-endpoint=Default"
+   ],
+   "pages": [
+    "/",
+    "/en/insights"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-mnrycjmtjs-mnrycjmtjs-md-mnrycjmtjs-",
+   "class": "CR",
+   "feature": "client-rendered slot mnrycjmtjs mnrycjmtjs-md mnrycjmtjs-lg",
+   "hint": "client-rendered",
+   "evidence": [
+    "Getting prepared for 2021"
+   ],
+   "pages": [
+    "/en/covid-19-implications-2021"
+   ]
+  },
+  {
+   "id": "d-first-party-data-file-get-media-delivery-model-uuid-json",
+   "class": "D",
+   "feature": "first-party data file GET /media-delivery/model/{uuid}.json",
+   "api": {
+    "method": "GET",
+    "path": "/media-delivery/model/{uuid}.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /media-delivery/model/{uuid}.json?_ → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 22,
+    "of": 100
+   }
+  },
+  {
+   "id": "f-form-backend-hubspot-forms",
+   "class": "F",
+   "feature": "form backend: HubSpot forms",
+   "role": "form backend: HubSpot forms",
+   "hint": "forms",
+   "evidence": [
+    "js-eu1.hs-scripts.com",
+    "perf-eu1.hsforms.com"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "f-form-less-control-group-in-section-jcjdesgllh-3-controls",
+   "class": "F",
+   "feature": "form-less control group in section.jcjdesgllh (3 controls)",
+   "hint": "client-compute?",
+   "evidence": [],
+   "pages": [
+    "/en/iot"
+   ]
+  },
+  {
+   "id": "f-form-less-control-group-in-section-fvkykaiztp-4-controls",
+   "class": "F",
+   "feature": "form-less control group in section.fvkykaiztp (4 controls)",
+   "hint": "client-compute?",
+   "evidence": [],
+   "pages": [
+    "/4brands-reply/en"
+   ]
+  },
+  {
+   "id": "f-form-ref-node-third-party-www-facebook-com-47-fields",
+   "class": "F",
+   "feature": "form \"ref: <Node>\" → third-party www.facebook.com (47 fields)",
+   "signature": [
+    "text:id",
+    "text:ev",
+    "text:dl",
+    "text:rl",
+    "text:if",
+    "text:ts",
+    "text:iw",
+    "text:sw",
+    "text:sh",
+    "text:v",
+    "text:r",
+    "text:a"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "text:id,text:ev,text:dl,text:rl,text:if,text:ts,text:iw,text:sw,text:sh,text:v,text:r,text:a"
+   ],
+   "pages": [
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien"
+   ]
+  },
+  {
+   "id": "f-form-less-control-group-in-section-etkytuxfdy-7-controls",
+   "class": "F",
+   "feature": "form-less control group in section.etkytuxfdy (7 controls)",
+   "hint": "client-compute?",
+   "evidence": [],
+   "pages": [
+    "/en/insights"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-de-en-fr-it-pt",
+   "class": "I18N",
+   "feature": "locale variants de,en,fr,it,pt",
+   "hint": "locale",
+   "evidence": [
+    "https://www.reply.com/de",
+    "https://www.reply.com/fr",
+    "https://www.reply.com/it",
+    "https://www.reply.com/de/iot",
+    "https://www.reply.com/fr/iot",
+    "https://www.reply.com/it/iot",
+    "https://www.reply.com/de/insights",
+    "https://www.reply.com/fr/insights",
+    "https://www.reply.com/it/insights",
+    "https://www.reply.com/de/accessibility",
+    "https://www.reply.com/fr/accessibility",
+    "https://www.reply.com/it/accessibility"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/en/insights",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-de-en",
+   "class": "I18N",
+   "feature": "locale variants de,en",
+   "hint": "locale",
+   "evidence": [
+    "https://www.reply.com/de/about/careers/de/job-search?country=de&company=4brands_reply",
+    "https://www.reply.com/en/retail-and-consumer-products/sales-and-retail-execution-platform",
+    "https://www.reply.com/de/cloud-computing/ein-nahtloses-vertriebssystem-fuer-ritter-sport",
+    "https://www.reply.com/de/retail-and-consumer-products/ai-store-check",
+    "https://www.reply.com/de/impressum"
+   ],
+   "pages": [
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-de-en-it-pt",
+   "class": "I18N",
+   "feature": "locale variants de,en,it,pt",
+   "hint": "locale",
+   "evidence": [
+    "https://www.reply.com/de/covid-19-implications-2021",
+    "https://www.reply.com/it/covid-19-implications-2021",
+    "https://www.reply.com/pt/covid-19-implications-2021"
+   ],
+   "pages": [
+    "/en/covid-19-implications-2021"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-carousel-items-7-cards",
+   "class": "L",
+   "feature": "listing candidate carousel-items (7 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/en/iot",
+    "/en/insights"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-carousel-items-33-cards",
+   "class": "L",
+   "feature": "listing candidate carousel-items (33 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-carousel-items-carousel-items-runtime-15",
+   "class": "L",
+   "feature": "listing candidate carousel-items carousel-items--runtime (15 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-contents-13-cards",
+   "class": "L",
+   "feature": "listing candidate contents (13 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/en/iot"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-carousel-items-8-cards",
+   "class": "L",
+   "feature": "listing candidate carousel-items (8 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/4brands-reply/en"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-carousel-items-17-cards",
+   "class": "L",
+   "feature": "listing candidate carousel-items (17 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/4brands-reply/en"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-carousel-items-5-cards",
+   "class": "L",
+   "feature": "listing candidate carousel-items (5 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/4brands-reply/en"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-carousel-items-6-cards",
+   "class": "L",
+   "feature": "listing candidate carousel-items (6 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/4brands-reply/en"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-contents-4-cards",
+   "class": "L",
+   "feature": "listing candidate contents (4 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/4brands-reply/en"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-carousel-items-14-cards",
+   "class": "L",
+   "feature": "listing candidate carousel-items (14 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/4brands-reply/de/customer-experience-management"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-carousel-items-carousel-items-runtime-16",
+   "class": "L",
+   "feature": "listing candidate carousel-items carousel-items--runtime (16 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/en/insights"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-div-content-menu-c",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → div:content/menu:content/search:form/menubar:content/button:content",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "EN",
+    "Services",
+    "Industries",
+    "Insights & Labs",
+    "DE",
+    "Knowledge",
+    "Deutsch"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "reach": {
+    "pages": 1046,
+    "of": 100
+   }
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-div-content-menu-content-searc",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup → div:content/menu:content/search:form/menubar:content/button:content",
+   "hint": "modal",
+   "evidence": [
+    "EN",
+    "Services",
+    "Knowledge",
+    "English"
+   ],
+   "pages": [
+    "/4brands-reply/en"
+   ],
+   "reach": {
+    "pages": 1046,
+    "of": 100
+   }
+  },
+  {
+   "id": "s-site-search-form-en-search",
+   "class": "S",
+   "feature": "site search form → /en/search",
+   "hint": "search",
+   "evidence": [
+    "search:query"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ],
+   "reach": {
+    "pages": 0,
+    "of": 100
+   }
+  },
+  {
+   "id": "s-site-search-form-js-submitted",
+   "class": "S",
+   "feature": "site search form → (JS-submitted)",
+   "hint": "search",
+   "evidence": [
+    "search:query"
+   ],
+   "pages": [
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien"
+   ],
+   "reach": {
+    "pages": 0,
+    "of": 100
+   }
+  },
+  {
+   "id": "t-consent-onetrust",
+   "class": "T",
+   "feature": "consent: OneTrust",
+   "role": "consent: OneTrust",
+   "hint": "tags",
+   "evidence": [
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-replydam-discoveryreplymedia-com",
+   "class": "T",
+   "feature": "unknown third-party host replydam.discoveryreplymedia.com",
+   "hint": "inspect",
+   "evidence": [
+    "replydam.discoveryreplymedia.com"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "role": "tag manager: Google Tag Manager",
+   "hint": "tags",
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-sleeknotecustomerscripts-sleeknot",
+   "class": "T",
+   "feature": "unknown third-party host sleeknotecustomerscripts.sleeknote.com",
+   "hint": "inspect",
+   "evidence": [
+    "sleeknotecustomerscripts.sleeknote.com"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "role": "analytics: Google Analytics / Ads",
+   "hint": "tags",
+   "evidence": [
+    "www.google-analytics.com",
+    "analytics.google.com"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "role": "marketing: ad / retargeting pixel",
+   "hint": "tags",
+   "evidence": [
+    "connect.facebook.net",
+    "ad.doubleclick.net",
+    "snap.licdn.com",
+    "googleads.g.doubleclick.net",
+    "js.adsrvr.org",
+    "insight.adsrvr.org",
+    "match.adsrvr.org",
+    "cm.g.doubleclick.net",
+    "ib.adnxs.com",
+    "pixel.rubiconproject.com"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-linkedin-com",
+   "class": "T",
+   "feature": "unknown third-party host www.linkedin.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.linkedin.com"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-px4-ads-linkedin-com",
+   "class": "T",
+   "feature": "unknown third-party host px4.ads.linkedin.com",
+   "hint": "inspect",
+   "evidence": [
+    "px4.ads.linkedin.com"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "t-marketing-hubspot-tracking",
+   "class": "T",
+   "feature": "marketing: HubSpot tracking",
+   "role": "marketing: HubSpot tracking",
+   "hint": "tags",
+   "evidence": [
+    "js-eu1.hs-banner.com",
+    "js-eu1.hubspot.com",
+    "js-eu1.hs-analytics.net",
+    "t.co"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-track-eu1-hubspot-com",
+   "class": "T",
+   "feature": "unknown third-party host track-eu1.hubspot.com",
+   "hint": "inspect",
+   "evidence": [
+    "track-eu1.hubspot.com"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-facebook-com",
+   "class": "T",
+   "feature": "unknown third-party host www.facebook.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.facebook.com"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-static-ads-twitter-com",
+   "class": "T",
+   "feature": "unknown third-party host static.ads-twitter.com",
+   "hint": "inspect",
+   "evidence": [
+    "static.ads-twitter.com"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-tags-clickagy-com",
+   "class": "T",
+   "feature": "unknown third-party host tags.clickagy.com",
+   "hint": "inspect",
+   "evidence": [
+    "tags.clickagy.com"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-us-u-openx-net",
+   "class": "T",
+   "feature": "unknown third-party host us-u.openx.net",
+   "hint": "inspect",
+   "evidence": [
+    "us-u.openx.net"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-analytics-twitter-com",
+   "class": "T",
+   "feature": "unknown third-party host analytics.twitter.com",
+   "hint": "inspect",
+   "evidence": [
+    "analytics.twitter.com"
+   ],
+   "pages": [
+    "/en/iot",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-trk-techtarget-com",
+   "class": "T",
+   "feature": "unknown third-party host trk.techtarget.com",
+   "hint": "inspect",
+   "evidence": [
+    "trk.techtarget.com"
+   ],
+   "pages": [
+    "/",
+    "/en/iot"
+   ]
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "hint": "embed-runtime",
+   "evidence": [
+    "onetrust-text-resize",
+    "1440×560"
+   ],
+   "pages": [
+    "/",
+    "/en/iot",
+    "/4brands-reply/en",
+    "/4brands-reply/de/customer-experience-management",
+    "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+    "/en/insights",
+    "/en/covid-19-implications-2021",
+    "/en/accessibility"
+   ]
+  },
+  {
+   "id": "v-maps-embedded-map-service",
+   "class": "V",
+   "feature": "maps: embedded map service",
+   "role": "maps: embedded map service",
+   "hint": "media",
+   "evidence": [
+    "maps.googleapis.com",
+    "maps.gstatic.com"
+   ],
+   "pages": [
+    "/4brands-reply/en"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 100,
+  "of": 100,
+  "endpoints": {
+   "GET cdn.cookielaw.org/consent/{uuid}/{uuid}.json": 100,
+   "GET cdn.cookielaw.org/consent/{uuid}/{uuid}/de.json": 38,
+   "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/otFlat.json": 100,
+   "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/v2/otPcPanel.json": 100,
+   "GET cdn.cookielaw.org/scripttemplates/202503.1.0/assets/otCommonStyles.css": 100,
+   "POST analytics.google.com/g/collect": 53,
+   "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg": 100,
+   "POST www.google.com/ccm/collect": 53,
+   "POST px.ads.linkedin.com/wa/": 53,
+   "POST www.google.com/rmkt/collect/{n}/": 53,
+   "GET cta-eu1.hubspot.com/web-interactives/public/v1/embed/combinedConfigs": 53,
+   "POST www.google-analytics.com/g/collect": 100,
+   "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location": 53,
+   "POST ad.doubleclick.net/ccm/s/collect": 10,
+   "GET dam-media.reply.com/media-delivery/model/{uuid}.json": 22,
+   "POST www.facebook.com/tr/": 3,
+   "GET api.reply.com/api/content-list/default": 20,
+   "GET api-onlineservices.reply.com/product-detail/SW12386": 1,
+   "GET maps.googleapis.com/maps/api/mapsjs/gen_204": 2,
+   "POST maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo": 2,
+   "GET cdn.cookielaw.org/consent/{uuid}/{uuid}/en.json": 62,
+   "GET api-onlineservices.reply.com/product-detail/SW10211,SW10317,SW10360": 1,
+   "GET api-onlineservices.reply.com/product-detail/SW11092,SW11535": 1,
+   "GET api-onlineservices.reply.com/product-detail/SW10348,SW10335,SW10029": 1,
+   "GET ibc-flow.techtarget.com/a/gif.gif": 4,
+   "GET js.zi-scripts.com/unified/v1/master/getSubscriptions": 16,
+   "GET ws.zoominfo.com/pixel/{hash}/": 16,
+   "POST aorta.clickagy.com/data": 16,
+   "GET aorta.clickagy.com/pixel.gif": 2,
+   "GET aorta.clickagy.com/channel-sync/{n}": 16,
+   "GET hemsync.clickagy.com/external/hasHashes": 16,
+   "POST insight.adsrvr.org/track/realtimeconversion": 16,
+   "GET d1z7icpqkuzo43.cloudfront.net/production/{n}/{n}/{uuid}/{uuid}/playlist.m3u8": 2,
+   "GET d1z7icpqkuzo43.cloudfront.net/production/{n}/{n}/{uuid}/{uuid}/854x480.m3u8": 2,
+   "GET d1z7icpqkuzo43.cloudfront.net/production/{n}/{n}/{uuid}/{uuid}/854x480-00001.ts": 2,
+   "GET api-onlineservices.reply.com/product-detail/SW10153,SW10330,SW10471": 1,
+   "GET dam-media.reply.com/production/{n}/{n}/{uuid}/{uuid}.vtt": 6,
+   "GET api-onlineservices.reply.com/product-detail/SW10457,SW10360,SW10060": 1,
+   "GET api-onlineservices.reply.com/product-detail/SW10076,SW10120,SW10449": 1,
+   "GET api-onlineservices.reply.com/product-detail/SW12250,SW11960,SW11959,SW11985": 1,
+   "GET api-onlineservices.reply.com/product-detail/SW10323": 1,
+   "GET api-onlineservices.reply.com/product-detail/SW10520,SW10291,SW10430,SW10434": 1,
+   "GET api-onlineservices.reply.com/product-detail/SW10457,SW10954": 1,
+   "GET api-onlineservices.reply.com/product-detail/SW10324,SW10037": 1,
+   "POST ws.zoominfo.com/pixel/collect": 2,
+   "GET api.flockler.app/v2/{hash}/posts": 1,
+   "GET stats-api.flockler.app/v1/stats/{hash}": 1,
+   "GET api-onlineservices.reply.com/product-detail/SW10427": 1,
+   "GET api-onlineservices.reply.com/product-detail/SW11623,SW10296,SW10305,SW10149,SW11599,SW11555,SW11605,": 1,
+   "GET api-onlineservices.reply.com/product-detail/SW10096,SW10450,SW10011": 1,
+   "GET api.reply.com/api/content-meta-options/article": 1,
+   "GET api-onlineservices.reply.com/product-detail/SW10234,SW10238,SW10237": 1,
+   "GET googleads.g.doubleclick.net/pagead/id": 1,
+   "POST jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT": 1,
+   "POST www.youtube.com/youtubei/v1/log_event": 1,
+   "GET www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg": 1,
+   "GET www.youtube.com/embed/establish_zw": 1,
+   "GET dam-media.reply.com/production/{n}/{n}/{uuid}/{uuid}/playlist.m3u8": 6,
+   "GET dam-media.reply.com/production/{n}/{n}/{uuid}/{uuid}/1280x720.m3u8": 4,
+   "GET dam-media.reply.com/production/{n}/{n}/{uuid}/{uuid}/1280x720-00001.ts": 4,
+   "GET dam-media.reply.com/production/{n}/{n}/{uuid}/{uuid}/playlistHLS-1080.m3u8": 2,
+   "GET dam-media.reply.com/production/{n}/{n}/{uuid}/{uuid}/playlistHLS-1080_00001.ts": 2,
+   "GET dam-media.reply.com/production/{n}/{n}/{uuid}/{uuid}/playlistHLS-1080_00002.ts": 2
+  },
+  "searchFormPages": 0,
+  "formPages": 0,
+  "triggerPages": {
+   "aria-haspopup": 1046,
+   "flockler-popup-trigger": 12
+  }
+ }
+}

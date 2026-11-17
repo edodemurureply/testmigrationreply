@@ -1,0 +1,136 @@
+/* accordion — canon .reply-accordion, light items on the ice band (contacts "Specific questions"). */
+.accordion {
+  display: block;
+  width: 100%;
+  background: var(--c-ice);
+}
+
+.accordion.white {
+  background: #fff;
+}
+
+.accordion .accordion-grid {
+  padding-bottom: 48px;
+}
+
+.accordion .accordion-head,
+.accordion .accordion-list {
+  grid-column: 1 / -1;
+}
+
+.accordion .accordion-head :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0 0 40px;
+  font-family: var(--font-lead);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.accordion .accordion-items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.accordion .accordion-item {
+  padding: 20px 24px;
+  background: #fff;
+}
+
+.accordion.white .accordion-item {
+  background: var(--c-ice);
+}
+
+.accordion .accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  cursor: pointer;
+}
+
+.accordion .accordion-title :is(p, h2, h3, h4, h5, h6) {
+  margin: 0;
+  font-family: var(--font-lead);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.accordion .accordion-toggle {
+  position: relative;
+  flex: 0 0 24px;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--c-ink);
+  cursor: pointer;
+}
+
+.accordion .accordion-toggle::before,
+.accordion .accordion-toggle::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 24px;
+  border-top: 1.5px solid currentcolor;
+  transform: translateY(-50%);
+}
+
+.accordion .accordion-toggle::after {
+  transform: translateY(-50%) rotate(90deg);
+  transition: transform .2s ease-out;
+}
+
+.accordion .accordion-item.open .accordion-toggle::after {
+  transform: translateY(-50%) rotate(0deg);
+}
+
+.accordion .accordion-body-inner {
+  padding-top: 24px;
+}
+
+.accordion .accordion-body-inner p {
+  margin: 0 0 12px;
+  font-family: var(--font-display);
+  font-size: 16px;
+  line-height: 170%;
+}
+
+.accordion .accordion-body-inner p:last-child {
+  margin-bottom: 0;
+}
+
+.accordion .accordion-body-inner a[href]:not(.button) {
+  text-decoration: underline;
+}
+
+@media (width >= 1024px) {
+  .accordion .accordion-head,
+  .accordion .accordion-list {
+    grid-column: 2 / 12;
+  }
+}
+
+@media (width >= 1440px) {
+  .accordion .accordion-grid {
+    padding-bottom: 64px;
+  }
+
+  .accordion .accordion-head :is(h1, h2, h3, h4, h5, h6) {
+    margin-bottom: 44px;
+    font-size: 28px;
+  }
+
+  .accordion .accordion-item {
+    padding: 32px 56px;
+  }
+
+  .accordion .accordion-title :is(p, h2, h3, h4, h5, h6) {
+    font-size: 20px;
+  }
+}

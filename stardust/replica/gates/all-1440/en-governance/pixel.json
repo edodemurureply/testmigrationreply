@@ -1,0 +1,56 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-governance/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-governance/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2702,
+    "mode": "overlap"
+  },
+  "heightDelta": -1,
+  "differingPixels": 91507,
+  "pct": 2.35,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-governance/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 14.86,
+  "textBoxes": 74,
+  "textPixels": 334038,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.2
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 2.3
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 3.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 1.5
+    },
+    {
+      "y0": 2500,
+      "y1": 2702,
+      "pct": 2.9
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--a355dc1b--aemcoder.aem.page/en/governance"
+  }
+}

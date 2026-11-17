@@ -1,0 +1,772 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-15T10:33:20.353Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.reply.com/en/iot",
+      "http://localhost:8791/en-iot-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from stardust/current/DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.reply.com/en/iot",
+    "http://localhost:8791/en-iot-proposed.html"
+  ],
+  "probeNote": "from stardust/current/DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main-content",
+      "isBody": false,
+      "leaves": 76,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "div.block > gridcontainer-runtime.grid-container.apfvhxaemh > div.grid-item.tsimgirqqr > div.aursgiwpzb.aursgiwpzb-md",
+        "tier": 10,
+        "share": 0.01,
+        "section": 0,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 578,
+        "via": "fixed",
+        "selector": "#Zz3jU > span.colors-1-gbfb",
+        "tier": 15,
+        "share": 0.01,
+        "section": 0,
+        "w1": 578,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.rdsnvqyomb.rdsnvqyomb-md > div.jamvkunxzc.jamvkunxzc-md",
+        "tier": 5,
+        "share": 0.03,
+        "section": 1,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "#r4Fzf > div.carousel.alternative > div.carousel-items-container",
+        "tier": 10,
+        "share": 0.12,
+        "section": 2,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 526,
+        "via": "other",
+        "selector": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > article.reply-card-abstract.paragraph-01--light > p",
+        "tier": 20,
+        "share": 0.01,
+        "section": 2,
+        "w1": 449,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 526,
+        "via": "other",
+        "selector": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > article.reply-card-abstract.paragraph-01--light > p",
+        "tier": 20,
+        "share": 0.01,
+        "section": 2,
+        "w1": 449,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 526,
+        "via": "other",
+        "selector": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body > article.reply-card-abstract.paragraph-01--light > p",
+        "tier": 20,
+        "share": 0.01,
+        "section": 2,
+        "w1": 449,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.dwotgwnikp.dwotgwnikp-sm > div.zukaoansab.zukaoansab-xl",
+        "tier": 5,
+        "share": 0.39,
+        "section": 3,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1532,
+        "via": "other",
+        "selector": "div.cards-wall-binding > div.cards-wall-grid-container > div.contents > div.cards-wall-item.featured",
+        "tier": 12,
+        "share": 0.04,
+        "section": 3,
+        "w1": 1312,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 353,
+        "via": "other",
+        "selector": "div.cards-wall-binding > div.cards-wall-grid-container > div.contents > div.cards-wall-item",
+        "tier": 12,
+        "share": 0.03,
+        "section": 3,
+        "w1": 298,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 353,
+        "via": "other",
+        "selector": "div.cards-wall-binding > div.cards-wall-grid-container > div.contents > div.cards-wall-item",
+        "tier": 12,
+        "share": 0.03,
+        "section": 3,
+        "w1": 298,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 353,
+        "via": "other",
+        "selector": "div.cards-wall-binding > div.cards-wall-grid-container > div.contents > div.cards-wall-item",
+        "tier": 12,
+        "share": 0.04,
+        "section": 3,
+        "w1": 298,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 353,
+        "via": "other",
+        "selector": "div.cards-wall-binding > div.cards-wall-grid-container > div.contents > div.cards-wall-item",
+        "tier": 12,
+        "share": 0.04,
+        "section": 3,
+        "w1": 298,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 353,
+        "via": "other",
+        "selector": "div.cards-wall-binding > div.cards-wall-grid-container > div.contents > div.cards-wall-item",
+        "tier": 12,
+        "share": 0.03,
+        "section": 3,
+        "w1": 298,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 353,
+        "via": "other",
+        "selector": "div.cards-wall-binding > div.cards-wall-grid-container > div.contents > div.cards-wall-item",
+        "tier": 12,
+        "share": 0.03,
+        "section": 3,
+        "w1": 298,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 353,
+        "via": "other",
+        "selector": "div.cards-wall-binding > div.cards-wall-grid-container > div.contents > div.cards-wall-item",
+        "tier": 12,
+        "share": 0.03,
+        "section": 3,
+        "w1": 298,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 353,
+        "via": "other",
+        "selector": "div.cards-wall-binding > div.cards-wall-grid-container > div.contents > div.cards-wall-item",
+        "tier": 12,
+        "share": 0.03,
+        "section": 3,
+        "w1": 298,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 353,
+        "via": "other",
+        "selector": "div.cards-wall-binding > div.cards-wall-grid-container > div.contents > div.cards-wall-item",
+        "tier": 12,
+        "share": 0.03,
+        "section": 3,
+        "w1": 298,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 353,
+        "via": "other",
+        "selector": "div.cards-wall-binding > div.cards-wall-grid-container > div.contents > div.cards-wall-item",
+        "tier": 12,
+        "share": 0.03,
+        "section": 3,
+        "w1": 298,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 353,
+        "via": "other",
+        "selector": "div.cards-wall-binding > div.cards-wall-grid-container > div.contents > div.cards-wall-item",
+        "tier": 12,
+        "share": 0.03,
+        "section": 3,
+        "w1": 298,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 353,
+        "via": "other",
+        "selector": "div.cards-wall-binding > div.cards-wall-grid-container > div.contents > div.cards-wall-item",
+        "tier": 12,
+        "share": 0.03,
+        "section": 3,
+        "w1": 298,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.rzbwoixfpo.rzbwoixfpo-sm > div.xwhsndwshx.xwhsndwshx-md",
+        "tier": 5,
+        "share": 0.01,
+        "section": 4,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "#ry2yx > div.carousel.alternative > div.carousel-items-container",
+        "tier": 10,
+        "share": 0.12,
+        "section": 5,
+        "w1": 1312,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.npaqsovhud.npaqsovhud-md > div.iphixmmapf.iphixmmapf-md",
+        "tier": 5,
+        "share": 0.01,
+        "section": 6,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "#r4Fzf > div.carousel.alternative > div.carousel-items-container",
+        "tier": 10,
+        "share": 0.05,
+        "section": 7,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "div.ovmkeaafyy > div.block > rose-banner-runtime > div.rose-banner-container.rosepub",
+        "tier": 9,
+        "share": 0.14,
+        "section": 8,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 353,
+        "via": "other",
+        "selector": "div.rose-cards-slider__items.carousel-items > div.rose-cards-slider__item.carousel-item > a.contents > div.rose-card-text.absolute",
+        "tier": 15,
+        "share": 0.04,
+        "section": 8,
+        "w1": 298,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 353,
+        "via": "other",
+        "selector": "div.rose-cards-slider__items.carousel-items > div.rose-cards-slider__item.carousel-item > a.contents > div.rose-card-text.absolute",
+        "tier": 15,
+        "share": 0.04,
+        "section": 8,
+        "w1": 298,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.lddshiltws.lddshiltws-sm > div.hhwqrvnona.hhwqrvnona-md",
+        "tier": 5,
+        "share": 0.11,
+        "section": 9,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.exfyvalvns.exfyvalvns-sm",
+        "px": 1660,
+        "capSelector": "div.block > gridcontainer-runtime.grid-container.apfvhxaemh > div.grid-item.tsimgirqqr > div.aursgiwpzb.aursgiwpzb-md"
+      },
+      {
+        "index": 1,
+        "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.rdsnvqyomb.rdsnvqyomb-md",
+        "px": 1660,
+        "capSelector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.rdsnvqyomb.rdsnvqyomb-md > div.jamvkunxzc.jamvkunxzc-md"
+      },
+      {
+        "index": 2,
+        "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.qefasgwgqb.qefasgwgqb-sm",
+        "px": 1660,
+        "capSelector": "#r4Fzf > div.carousel.alternative > div.carousel-items-container"
+      },
+      {
+        "index": 3,
+        "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.dwotgwnikp.dwotgwnikp-sm",
+        "px": 1660,
+        "capSelector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.dwotgwnikp.dwotgwnikp-sm > div.zukaoansab.zukaoansab-xl"
+      },
+      {
+        "index": 4,
+        "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.rzbwoixfpo.rzbwoixfpo-sm",
+        "px": 1660,
+        "capSelector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.rzbwoixfpo.rzbwoixfpo-sm > div.xwhsndwshx.xwhsndwshx-md"
+      },
+      {
+        "index": 5,
+        "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.jcjdesgllh.jcjdesgllh-sm",
+        "px": 1660,
+        "capSelector": "#ry2yx > div.carousel.alternative > div.carousel-items-container"
+      },
+      {
+        "index": 6,
+        "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.npaqsovhud.npaqsovhud-md",
+        "px": 1660,
+        "capSelector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.npaqsovhud.npaqsovhud-md > div.iphixmmapf.iphixmmapf-md"
+      },
+      {
+        "index": 7,
+        "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.zczqirqwyr.zczqirqwyr-sm",
+        "px": 1660,
+        "capSelector": "#r4Fzf > div.carousel.alternative > div.carousel-items-container"
+      },
+      {
+        "index": 8,
+        "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.waiyofkkqu.waiyofkkqu-sm",
+        "px": 1660,
+        "capSelector": "div.ovmkeaafyy > div.block > rose-banner-runtime > div.rose-banner-container.rosepub"
+      },
+      {
+        "index": 9,
+        "selector": "div.gjvfaftykp.gjvfaftykp-sm > div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.lddshiltws.lddshiltws-sm",
+        "px": 1660,
+        "capSelector": "div.exfbbtbgqw.exfbbtbgqw-md > div.block > section.lddshiltws.lddshiltws-sm > div.hhwqrvnona.hhwqrvnona-md"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1660,
+    "contentFrom": "module",
+    "maxCap": 1660,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 366
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main-content",
+      "isBody": false,
+      "leaves": 76,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "#main-content > section.media-hero > div.media-hero__overlay > div.r-grid",
+        "tier": 3,
+        "share": 0.01,
+        "section": 0,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 567,
+        "via": "fixed",
+        "selector": "div.r-grid > div.media-hero__title.r-cell > h1.t-display > span",
+        "tier": 6,
+        "share": 0.01,
+        "section": 0,
+        "w1": 567,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "#main-content > section.highlight-statement.r-grid",
+        "tier": 1,
+        "share": 0.03,
+        "section": 1,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "section.iot-featured > div.card-carousel.card-carousel--horizontal > div.card-carousel__inner > div.card-carousel__viewport",
+        "tier": 4,
+        "share": 0.12,
+        "section": 2,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 526,
+        "via": "other",
+        "selector": "div.reply-card-image-container > div.reply-card-body > article.reply-card-abstract.t-p1 > p",
+        "tier": 11,
+        "share": 0.01,
+        "section": 2,
+        "w1": 449,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 526,
+        "via": "other",
+        "selector": "div.reply-card-image-container > div.reply-card-body > article.reply-card-abstract.t-p1 > p",
+        "tier": 11,
+        "share": 0.01,
+        "section": 2,
+        "w1": 449,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 526,
+        "via": "other",
+        "selector": "div.reply-card-image-container > div.reply-card-body > article.reply-card-abstract.t-p1 > p",
+        "tier": 11,
+        "share": 0.01,
+        "section": 2,
+        "w1": 449,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "#main-content > section.iot-wall > div.iot-wall__wrap",
+        "tier": 2,
+        "share": 0.39,
+        "section": 3,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "#main-content > section.section-heading.r-grid",
+        "tier": 1,
+        "share": 0.01,
+        "section": 4,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "div.iot-labs__cell.r-cell > div.card-carousel.card-carousel--info > div.card-carousel__inner > div.card-carousel__viewport",
+        "tier": 5,
+        "share": 0.12,
+        "section": 5,
+        "w1": 1312,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "#main-content > section.section-heading.r-grid",
+        "tier": 1,
+        "share": 0.01,
+        "section": 6,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "section.iot-awards > div.card-carousel.card-carousel--horizontal > div.card-carousel__inner > div.card-carousel__viewport",
+        "tier": 4,
+        "share": 0.05,
+        "section": 7,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "#main-content > section.iot-rose > div.rose-banner > div.rose-banner__grid",
+        "tier": 3,
+        "share": 0.14,
+        "section": 8,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 353,
+        "via": "other",
+        "selector": "div.rose-banner__track > div.rose-card.is-active > a > div.rose-card__text",
+        "tier": 9,
+        "share": 0.04,
+        "section": 8,
+        "w1": 298,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 353,
+        "via": "other",
+        "selector": "div.rose-banner__track > div.rose-card > a > div.rose-card__text",
+        "tier": 9,
+        "share": 0.04,
+        "section": 8,
+        "w1": 298,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1660,
+        "via": "max-width",
+        "selector": "#main-content > section.discover-also",
+        "tier": 1,
+        "share": 0.11,
+        "section": 9,
+        "w1": 1440,
+        "maxWidth": "1660px"
+      },
+      {
+        "kind": "module",
+        "px": 290,
+        "via": "fixed",
+        "selector": "div.card-carousel__inner > div.card-carousel__viewport > div.card-carousel__track > div.card-carousel__item",
+        "tier": 9,
+        "share": 0.01,
+        "section": 9,
+        "w1": 290,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 262,
+        "via": "fixed",
+        "selector": "div.card-carousel__inner > div.card-carousel__viewport > div.card-carousel__track > div.card-carousel__item",
+        "tier": 9,
+        "share": 0.01,
+        "section": 9,
+        "w1": 262,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#main-content > section.media-hero",
+        "px": 1660,
+        "capSelector": "#main-content > section.media-hero > div.media-hero__overlay > div.r-grid"
+      },
+      {
+        "index": 1,
+        "selector": "#main-content > section.highlight-statement.r-grid",
+        "px": 1660,
+        "capSelector": "#main-content > section.highlight-statement.r-grid"
+      },
+      {
+        "index": 2,
+        "selector": "#main-content > section.iot-featured",
+        "px": 1660,
+        "capSelector": "section.iot-featured > div.card-carousel.card-carousel--horizontal > div.card-carousel__inner > div.card-carousel__viewport"
+      },
+      {
+        "index": 3,
+        "selector": "#main-content > section.iot-wall",
+        "px": 1660,
+        "capSelector": "#main-content > section.iot-wall > div.iot-wall__wrap"
+      },
+      {
+        "index": 4,
+        "selector": "#main-content > section.section-heading.r-grid",
+        "px": 1660,
+        "capSelector": "#main-content > section.section-heading.r-grid"
+      },
+      {
+        "index": 5,
+        "selector": "#main-content > section.iot-labs.r-grid",
+        "px": 1660,
+        "capSelector": "div.iot-labs__cell.r-cell > div.card-carousel.card-carousel--info > div.card-carousel__inner > div.card-carousel__viewport"
+      },
+      {
+        "index": 6,
+        "selector": "#main-content > section.section-heading.r-grid",
+        "px": 1660,
+        "capSelector": "#main-content > section.section-heading.r-grid"
+      },
+      {
+        "index": 7,
+        "selector": "#main-content > section.iot-awards",
+        "px": 1660,
+        "capSelector": "section.iot-awards > div.card-carousel.card-carousel--horizontal > div.card-carousel__inner > div.card-carousel__viewport"
+      },
+      {
+        "index": 8,
+        "selector": "#main-content > section.iot-rose",
+        "px": 1660,
+        "capSelector": "#main-content > section.iot-rose > div.rose-banner > div.rose-banner__grid"
+      },
+      {
+        "index": 9,
+        "selector": "#main-content > section.discover-also",
+        "px": 1660,
+        "capSelector": "#main-content > section.discover-also"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1660,
+    "contentFrom": "module",
+    "maxCap": 1660,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 291
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 1660px = build 1660px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/10",
+        "detail": "1660px = 1660px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/10",
+        "detail": "1660px = 1660px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/10",
+        "detail": "1660px = 1660px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 4/10",
+        "detail": "1660px = 1660px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 5/10",
+        "detail": "1660px = 1660px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 6/10",
+        "detail": "1660px = 1660px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 7/10",
+        "detail": "1660px = 1660px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 8/10",
+        "detail": "1660px = 1660px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 9/10",
+        "detail": "1660px = 1660px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 10/10",
+        "detail": "1660px = 1660px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/en-iot-2560/cap-iter.json"
+}

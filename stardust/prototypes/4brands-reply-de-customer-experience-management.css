@@ -1,0 +1,93 @@
+/* 4brands-reply-de-customer-experience-management (page type: brand-solution) — section placement only.
+   Brand chrome + brand modules (b4-hero, b4-tabber, b4-accordion, b4-teaser) live in brand.css, the related
+   carousel is the shared loop .card-carousel--simple (modules.css). Values lifted from
+   stardust/current/assets/css/pages/4brands-reply-de-customer-experience-management.css (hashed per-instance
+   section classes named per rule). Every section is a flex box wrapping a flex:1 grid, so grid margins stay
+   inside the section background. Breakpoints 768 / 1024 / 1440 (source steps). */
+.b4-solution{display:block;width:100%;background:#fff}
+.b4-solution>section{display:flex;flex-wrap:wrap;width:100%;min-width:0}
+.b4-solution>section>*{flex:1 1 100%;min-width:0}
+.cxm-dark{--pb-bg:#151f27;background-color:#151f27}   /* .quzetjveui / .kekwsukoov */
+.cxm-ice{--pb-bg:#f4f8fc;background-color:#f4f8fc}    /* .wejdyaetxh / .efnrsjhijz */
+.b4-spacer{flex-shrink:0}
+
+/* 2 · statement (.ewaiiqkymq: mb 28, padding 48 / 56 / 64 / 96 + mt 28 @1440; cell .brkcrazlcv 1-4 / 1-8 / 3-10) */
+.cxm-statement__grid{margin-top:0;margin-bottom:28px;padding-top:48px;padding-bottom:48px}
+.cxm-statement__cell{grid-column:1/5;grid-row:1/2;align-items:center;align-content:center;justify-content:center}
+.cxm-statement p{margin:0;font-weight:300;color:var(--c-ink)}
+
+/* 3 · intro (.wtracymyvc: mb 56, 120 @1440; title .drqniddbes / text .qjruivwium) */
+.cxm-intro__grid{margin-top:0;margin-bottom:56px}
+.cxm-intro__title{grid-column:1/5;grid-row:1/2;margin-bottom:1.5rem}
+.cxm-intro__title h2{margin:0}
+.cxm-intro__text{grid-column:1/5;grid-row:2/3}
+
+/* 4 / 8 · headings with a spacer (.zuqjzxvqyw mt 56, 120 @1440 / .ziwxbamwqq mt 56, 80 @1440;
+   spacers .kodkslzqcm / .xokmoztotk 24 -> 42 @1440; cells .kgwnrwtrru 1-4 / 1-8 / 3-10, .uglxeougeg 1-4 / 1-8 / 2-11) */
+.cxm-head__grid{margin-top:56px;margin-bottom:0}
+.cxm-head__cell{grid-column:1/5;grid-row:1/2;align-items:center;align-content:center;justify-content:center}
+.cxm-head__cell h2{margin:0}
+.cxm-spacer--head{height:24px}
+
+/* 5 · services tabber (.lydyqcziwn: mb 56, 120 @1440) */
+.cxm-services>.b4-tabber{margin-bottom:56px}
+
+/* 6 · roadmap (.ltbzptdxaf: mt 56, 120 @1440; title .kfqdwcumti / text .zyhjbudypp) */
+.cxm-roadmap__grid{margin-top:56px;margin-bottom:0}
+.cxm-roadmap__title{grid-column:1/5;grid-row:1/2;margin-bottom:1.5rem}
+.cxm-roadmap__title h3{margin:0}
+.cxm-roadmap__text{grid-column:1/5;grid-row:2/3}
+
+/* 7 · accordion (.igwbvcjkkm: mt 28 mb 56, 56 / 120 @1440; cell .ehgpnfupxw 1-4 / 1-8 / 3-10) */
+.cxm-acc__grid{margin-top:28px;margin-bottom:56px}
+.cxm-acc__cell{grid-column:1/5;grid-row:1/2;align-items:center;align-content:center;justify-content:center}
+
+/* 9 · related carousel (.qefcqgldaq: mb 0, 50 @1440) */
+.cxm-related>.card-carousel{margin-bottom:0}
+
+/* 10 · brand teaser (.uynvrihbaj: margin 56 / 56, 120 / 120 @1440; cell .sbsuqtpbvc 1-4 / 1-8 / 1-12) */
+.cxm-brand__grid{margin-top:56px;margin-bottom:56px}
+.cxm-brand__cell{grid-column:1/5;grid-row:1/2;align-items:center;align-content:center;justify-content:center}
+
+@media (min-width:768px){
+  .cxm-statement__grid{padding-top:56px;padding-bottom:56px}
+  .cxm-statement__cell{grid-column:1/9}
+  .cxm-intro__title{grid-column:1/9;margin-bottom:2.5rem}
+  .cxm-intro__text{grid-column:1/9}
+  .cxm-head__cell{grid-column:1/9}
+  .cxm-roadmap__title{margin-bottom:1.25rem}
+  .cxm-roadmap__text{grid-column:2/6}
+  .cxm-acc__cell{grid-column:1/9}
+  .cxm-brand__cell{grid-column:1/9}
+}
+@media (min-width:1024px){
+  .cxm-statement__grid{padding-top:64px;padding-bottom:64px}
+  .cxm-statement__cell{grid-column:3/11}
+  .cxm-intro__title{grid-column:2/6;margin-bottom:0}
+  .cxm-intro__text{grid-column:6/12;grid-row:1/2}
+  .cxm-head--services .cxm-head__cell{grid-column:3/11}
+  .cxm-head--related .cxm-head__cell{grid-column:2/12}
+  .cxm-roadmap__title{grid-column:2/6}
+  .cxm-roadmap__text{grid-column:3/7}
+  .cxm-acc__cell{grid-column:3/11}
+  .cxm-brand__cell{grid-column:1/13}
+}
+@media (min-width:1440px){
+  .cxm-statement__grid{margin-top:28px;padding-top:96px;padding-bottom:96px}
+  .cxm-intro__grid{margin-bottom:120px}
+  .cxm-intro__title{grid-column:2/7}
+  .cxm-intro__text{grid-column:7/12}
+  .cxm-head--services .cxm-head__grid{margin-top:120px}
+  .cxm-head--related .cxm-head__grid{margin-top:80px}
+  .cxm-spacer--head{height:42px}
+  .cxm-services>.b4-tabber{margin-bottom:120px}
+  .cxm-roadmap__grid{margin-top:120px}
+  .cxm-roadmap__title{margin-bottom:2.5rem}
+  .cxm-acc__grid{margin-top:56px;margin-bottom:120px}
+  .cxm-related>.card-carousel{margin-bottom:50px}
+  .cxm-brand__grid{margin-top:120px;margin-bottom:120px}
+}
+
+/* R-02 metric compensation: live sets the statement in 4 lines @1440 ("binden." wraps; the substitute keeps it on
+   line 3 at 847 of 861px) and 9 lines @360 */
+.cxm-statement p{letter-spacing:.012em}

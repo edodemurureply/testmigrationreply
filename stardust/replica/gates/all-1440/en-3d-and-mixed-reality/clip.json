@@ -1,0 +1,147 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.page/en/3d-and-mixed-reality",
+ "at": "2026-11-17T05:12:10.414Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 1,
+  "clamped": 2,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 12,
+  "offPage": 45,
+  "textNodes": 138,
+  "controls": 119,
+  "total": 1
+ },
+ "groups": [
+  {
+   "kind": "CONTROL CLIPPED",
+   "advisory": false,
+   "n": 1,
+   "clipper": "div.reply-card-image-container",
+   "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-content > a.reply-card-link",
+   "text": "virtual interactive showroomprotocube reply believes that th",
+   "cutMin": 11,
+   "cutMax": 11
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 3,
+   "clipper": "div.reply-card-image-container",
+   "path": "div.reply-card.reply-card-horizontal > div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+   "text": "immersive experience area",
+   "cutMin": 23,
+   "cutMax": 65
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 2,
+   "clipper": "a",
+   "path": "div.reply-card-body > div.reply-card-title > h3#meet-futura-the-ai-driven-tour-expert-enhancing-cruise-experiences > a",
+   "text": "meet futura, the ai-driven tour expert enhancing cruise expe",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.rose-cta.wall-gap",
+   "path": "a.rose-card-link > div.rose-card-text > div.rose-card-label.top > p",
+   "text": "ask the expert",
+   "cutMin": 24,
+   "cutMax": 79
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h3#ai-product-discovery",
+   "path": "div.reply-card-content > a.reply-card-link > div.reply-card-title > h3#ai-product-discovery",
+   "text": "ai product discovery",
+   "cutMin": 65,
+   "cutMax": 65
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h3#vto---virtual-try-on",
+   "path": "div.reply-card-content > a.reply-card-link > div.reply-card-title > h3#vto---virtual-try-on",
+   "text": "vto - virtual try on",
+   "cutMin": 56,
+   "cutMax": 56
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h4#personalisation-at-scale-with-the-adobe-experience-cloud",
+   "path": "a.rose-card-link > div.rose-card-text > div.rose-card-title > h4#personalisation-at-scale-with-the-adobe-experience-cloud",
+   "text": "personalisation at scale with the adobe experience cloud",
+   "cutMin": 112,
+   "cutMax": 112
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "social media",
+   "cutMin": 74,
+   "cutMax": 74
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "social media",
+   "cutMin": 74,
+   "cutMax": 74
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "cybersecurity",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "cybersecurity",
+   "cutMin": 19,
+   "cutMax": 19
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 1,
+   "clamped": 2,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 12,
+   "offPage": 27,
+   "textNodes": 125,
+   "controls": 104,
+   "total": 1
+  }
+ }
+}

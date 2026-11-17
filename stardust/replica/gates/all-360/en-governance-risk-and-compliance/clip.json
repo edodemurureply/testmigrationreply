@@ -1,0 +1,97 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.page/en/governance-risk-and-compliance",
+ "at": "2026-11-17T03:56:10.826Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 3,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 4,
+  "offPage": 40,
+  "textNodes": 118,
+  "controls": 70,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.card-carousel.simple",
+   "path": "ul.card-carousel-track > li.card-carousel-item.is-clone > div.reply-card.reply-card-slider > a.reply-card-cover",
+   "text": "aml package 2021",
+   "cutMin": 264,
+   "cutMax": 264
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.reply-card-abstract",
+   "path": "div.reply-card-grid > div.reply-card-body > div.reply-card-abstract > p",
+   "text": "discover how iveco group has made responsible ai a guiding p",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h3#compliance-and-innovation-under-the-lens-navigating-the-eu-ai-act",
+   "path": "a.reply-card-cover > div.reply-card-body > div.reply-card-title > h3#compliance-and-innovation-under-the-lens-navigating-the-eu-ai-act",
+   "text": "compliance and innovation under the lens: navigating the eu ",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "a",
+   "path": "div.reply-card-body > div.reply-card-title > h3#climate-and-environmental-risk-integration-within-the-prudential-framework-sustainable-frtb > a",
+   "text": "climate and environmental risk integration within the pruden",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "quality engineering",
+   "cutMin": 127,
+   "cutMax": 127
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "quality engineering",
+   "cutMin": 127,
+   "cutMax": 127
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 2,
+   "clamped": 3,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 4,
+   "offPage": 48,
+   "textNodes": 123,
+   "controls": 73,
+   "total": 2
+  }
+ }
+}

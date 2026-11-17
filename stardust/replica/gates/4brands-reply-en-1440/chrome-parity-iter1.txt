@@ -1,0 +1,37 @@
+[live-session] waiting to pace live navigations to www.reply.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 792 ms
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.reply.com/4brands-reply/en
+  build: http://localhost:8791/4brands-reply-en-proposed.html
+
+■ header: 4 delta(s) — 5 paired of 5/5 texts, 3/3 icons
+  OFFSET       the region and its 1 paired text(s) sit Δy -27px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+  PAIR         "EN"  Δx -3px (1339→1336); Δy -27px (33→6); Δw +3px (17→20); <button> box 37×17 → 40×17
+  PAIR         "Knowledge"  Δy -27px (75→48); Δw -2px (83→81); <button> box 83×64 → 81×64
+  PAIR         "Contact"  Δy -27px (75→48); Δw -3px (62→59); <a> box 62×64 → 59×64
+  PAIR         "Career"  Δx -4px (693→689); Δy -27px (75→48)
+
+■ footer: 22 delta(s) — 21 paired of 21/21 texts, 4/4 icons
+  REGION BOX   Δy -32px (8664→8632)
+  PAIR         "Contact Us"  fontWeight 300 → 400; Δy -32px (8821→8789)
+  PAIR         "Careers"  fontWeight 300 → 400; Δy -32px (8821→8789)
+  PAIR         "Imprint"  fontWeight 300 → 400; Δy -32px (8821→8789); Δw -3px (66→63); <a> box 141×48 → 138×48
+  PAIR         "Privacy and Legal"  Δy -32px (8807→8775)
+  PAIR         "Privacy & Cookie Policy"  Δy -32px (8855→8823); Δw +3px (142→145)
+  PAIR         "Privacy Notice"  Δy -32px (8899→8867); Δw -2px (165→163)
+  PAIR         "(Candidate)"  Δy -32px (8900→8868); Δw -2px (73→71); <a> box 165×17 → 163×17
+  PAIR         "Privacy Notice"  Δy -32px (8944→8912)
+  PAIR         "(Client)"  Δy -32px (8945→8913)
+  PAIR         "Privacy Notice"  Δy -32px (8989→8957)
+  PAIR         "(Supplier)"  Δy -32px (8990→8958)
+  PAIR         "Privacy Notice"  Δy -32px (8855→8823)
+  PAIR         "(Marketing)"  Δy -32px (8856→8824)
+  PAIR         "CCPA Privacy Notice"  Δy -32px (8899→8867); Δw +4px (127→131)
+  PAIR         "Modern Slavery Act Transparency Policy"  Δy -32px (8944→8912); Δh -16px (50→34)
+  PAIR         "(UK & IR)"  Δy -49px (8979→8930); Δw +6px (51→57); <a> box 207×50 → 206×34
+  PAIR         "Declaration of Principles - LKSG"  Δx -234px (1169→935); Δy +119px (8855→8974)
+  PAIR         "(Germany)"  Δx -234px (1169→935); Δy +120px (8872→8992)
+  PAIR         "Approach to UK Taxation"  Δy -93px (8916→8823)
+  PAIR         "Accessibility Statement"  Δy -94px (8961→8867); Δw -4px (147→143)
+  PAIR         "Do Not Sell/Share My Personal Informatio"  Δy -94px (9006→8912)
+
+✗ 26 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

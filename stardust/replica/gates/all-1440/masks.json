@@ -1,0 +1,63 @@
+{
+ "index": {
+  "masks": [
+   "64:720"
+  ],
+  "reason": "hero DAM video (House of Models, muted autoplay loop inside the cross-origin DAM player) shows a different frame on every capture — the media rows are authored-volatile on both sides (archetype-home, 2026-11-15)"
+ },
+ "en": {
+  "masks": [
+   "64:720"
+  ],
+  "reason": "hero DAM video (House of Models, muted autoplay loop inside the cross-origin DAM player) shows a different frame on every capture — the media rows are authored-volatile on both sides (fix-small-2, 2026-11-16; same mask as index)"
+ },
+ "en-christmas": {
+  "masks": [
+   "92:810"
+  ],
+  "reason": "xmas hero video (XMAS_Test_sito_6sec, .hero-slider 1440x810 at y92) (muted autoplay loop inside the cross-origin DAM player) shows a different frame on every capture — the media rows are authored-volatile on both sides (fix-small-2, 2026-11-16)"
+ },
+ "en-biotagging-and-advanced-traceability": {
+  "masks": [
+   "92:720"
+  ],
+  "reason": "hero DAM video (muted autoplay loop inside the cross-origin dam-media openPlayer iframe, live data-video-status + pause control on the cover) shows a different frame on every capture; the delivered cover is its poster still — the media rows are authored-volatile, same treatment as the home hero (fix-small-3, 2026-11-16)"
+ },
+ "en-biotagging-und-advanced-traceability": {
+  "masks": [
+   "92:720"
+  ],
+  "reason": "hero DAM video (muted autoplay loop inside the cross-origin dam-media openPlayer iframe, live data-video-status + pause control on the cover) shows a different frame on every capture; the delivered cover is its poster still — the media rows are authored-volatile, same treatment as the home hero (fix-small-3, 2026-11-16)"
+ },
+ "en-covid-19-travel-and-tourism": {
+  "masks": [
+   "92:780"
+  ],
+  "reason": "hero DAM video (muted autoplay loop inside the cross-origin dam-media openPlayer iframe, live data-video-status + pause control on the cover) shows a different frame on every capture; the delivered cover is its poster still — the media rows are authored-volatile, same treatment as the home hero (fix-small-3, 2026-11-16)"
+ },
+ "en-labs": {
+  "masks": [
+   "92:704"
+  ],
+  "reason": "hero DAM video (OTTAVO_HD, muted autoplay loop inside the cross-origin dam-media openPlayer iframe on both sides, .hero-slider.hub 48.89 % box) shows a different frame on every capture — the media rows are authored-volatile on both sides (fix-hub-f, 2026-11-16)"
+ },
+ "en-company-profile": {
+  "masks": [
+   "92:720"
+  ],
+  "reason": "hero DAM video (We Reply, muted autoplay loop inside the cross-origin dam-media openPlayer iframe of the media-hero flat cover, 1440x720 at y92) shows a different frame on every capture (origin: the robot figure / served: chess board in the 21:xx run) — the media rows are authored-volatile on both sides, same treatment as the home and biotagging heroes (fix-small-4, 2026-11-16)"
+ },
+ "en-digital-experience": {
+  "masks": [
+   "92:782",
+   "1358:656"
+  ],
+  "reason": "two DAM videos (muted autoplay loops inside the cross-origin dam-media openPlayer iframes, on both sides): the hero-slider w169 player (Video RDX 2026_169, 1440x782 at y92) and the Labyrinth Reply hero-card player (1312x656 at y1358) show a different frame on every capture (origin: magenta title frame / NOW-quiz frame and dancer vs priest frames in the 01:2x run) — the media rows are authored-volatile on both sides, same treatment as the home, company-profile and labs heroes; row extents measured on both captures with stardust/.work/rollout/fix-hub-h/col.mjs (92-874, 1358-2014 identical) — masks are yA:height (fix-hub-h, 2026-11-17)"
+ },
+ "en-3d-and-mixed-reality": {
+  "masks": [
+   "5035:658"
+  ],
+  "reason": "one DAM video (muted autoplay loop inside the cross-origin dam-media openPlayer iframe, on both sides): the \"Say Hello! to digital humans\" hero-card player (Canvas_WEBSITE_3, 1312x656) shows a different face frame on every capture (origin pink-haired / bearded faces vs delivered close-up ear frame in the 02:0x run) — authored-volatile media rows, same treatment as en-digital-experience, home, company-profile and labs heroes; row extents measured on both captures with stardust/.work/rollout/fix-hub-h/col.mjs x100 (origin 5035-5691, delivered 5037-5693) — masks are yA:height (fix-hub-h, 2026-11-17)"
+ }
+}

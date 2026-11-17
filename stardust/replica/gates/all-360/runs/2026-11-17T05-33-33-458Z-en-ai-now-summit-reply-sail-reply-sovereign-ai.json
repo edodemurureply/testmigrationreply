@@ -1,0 +1,116 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-17T05:33:33.458Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.reply.com",
+    "eds": "https://main--a355dc1b--aemcoder.aem.page",
+    "edsHostOverride": "https://main--a355dc1b--aemcoder.aem.page",
+    "only": [
+      "en-ai-now-summit-reply-sail-reply-sovereign-ai"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 0,
+    "overridePass": 0,
+    "fail": 1,
+    "error": 0,
+    "failPixel": 1,
+    "failHeight": 0,
+    "failClip": 1,
+    "failContent": 0,
+    "failUnits": 0,
+    "fontsNotLoaded": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "en-ai-now-summit-reply-sail-reply-sovereign-ai",
+      "path": "/en/ai-now-summit-reply-sail-reply-sovereign-ai",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 24.99,
+      "textPct": 35.37,
+      "heightDelta": -128,
+      "originH": 7263,
+      "edsH": 7391,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 1,
+      "clipPass": false,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 24.99% > 10%",
+        "clipped 1 (text 1, controls 0)"
+      ],
+      "clipGroups": [
+        {
+          "kind": "TEXT HIDDEN",
+          "advisory": false,
+          "n": 1,
+          "clipper": "div.body.r-cell",
+          "path": "div.body.r-cell > div.body-text > div > p",
+          "text": "offering",
+          "cutMin": 11,
+          "cutMax": 11
+        }
+      ],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 2,
+        "missingButtons": 2,
+        "hiddenButtons": 0,
+        "findings": 11,
+        "variable": []
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [
+        "1500-2000:44.6%",
+        "2000-2500:36.2%",
+        "4000-4500:38.5%",
+        "4500-5000:48.7%",
+        "5000-5500:41.4%",
+        "5500-6000:28.4%",
+        "6000-6500:34.9%",
+        "7000-7263:83.1%"
+      ],
+      "error": null
+    }
+  ]
+}

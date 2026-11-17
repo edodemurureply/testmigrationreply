@@ -1,0 +1,4311 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-15T12:04:28.499Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-17T06:52:39.652Z",
+  "pages": [
+    {
+      "slug": "4brands-reply-de",
+      "path": "/4brands-reply/de",
+      "title": "Digitale Transformation für die Konsumgüterindustrie | 4brands Reply",
+      "templateId": "brand-home",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:024a43dc94f8be68864b86d411567f0c930b9d12be5501f41567e3cde3138c48",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.9,
+          "heightDelta": 31,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 2,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": [
+              "[data-carousel-type=\"reply-card-slider-scale\"]=.card-carousel.scale",
+              ".gm-style=.b4-map-frame"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-agentic-ai-rgm",
+      "path": "/4brands-reply/de/agentic-ai-rgm",
+      "title": "Agentic AI Revenue Growth Management für FMCG | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:33e3099b520daacac9750c9049c80cbf12b7bfd5e39d25329cd9df6fe6c8cf81",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-agentic-ai-rgm.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/agentic-ai-rgm"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/agentic-ai-rgm",
+        "deployedAt": "2026-11-15T14:54:03.898Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.41,
+          "heightDelta": -22,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 2,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [
+            "content MISSING 0 / HIDDEN 2"
+          ],
+          "override": "instrument",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-ai-voice-assistant-fmcg-sales",
+      "path": "/4brands-reply/de/ai-voice-assistant-fmcg-sales",
+      "title": "AI Voice Assistant für den FMCG-Vertrieb | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:20f5298e9e034b7993964df6552c0269b2ce6a5e01928e5a7790dc67a760887b",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-ai-voice-assistant-fmcg-sales.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/ai-voice-assistant-fmcg-sales"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/ai-voice-assistant-fmcg-sales",
+        "deployedAt": "2026-11-15T14:54:03.991Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.42,
+          "heightDelta": -19,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/u4b/merged-360.json",
+          "at": "2026-11-17T05:02:38.559Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-artificial-intelligence-consumer-goods",
+      "path": "/4brands-reply/de/artificial-intelligence-consumer-goods",
+      "title": "Künstliche Intelligenz für Konsumgüter | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:6c1fd846da3646cff1faeb03eeaa9f77f7add3038bb6614d82fa45b8b4123843",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-artificial-intelligence-consumer-goods.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/artificial-intelligence-consumer-goods"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/artificial-intelligence-consumer-goods",
+        "deployedAt": "2026-11-15T14:54:04.086Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.01,
+          "heightDelta": -2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-composable-customer-data-platform",
+      "path": "/4brands-reply/de/composable-customer-data-platform",
+      "title": "Composable Customer Data Platform (cCDP) | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:944982d305f4fcf718212132931994e52dd796e052109bd399c8615708fcc02e",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-composable-customer-data-platform.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/composable-customer-data-platform"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/composable-customer-data-platform",
+        "deployedAt": "2026-11-15T14:54:04.183Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.82,
+          "heightDelta": 6,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/merged-360.json",
+          "at": "2026-11-17T04:19:14.493Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-connected-shelf-iot-supermarket",
+      "path": "/4brands-reply/de/connected-shelf-iot-supermarket",
+      "title": "IoT im Supermarkt: Connected Shelf für volle Regale | 4brands Reply",
+      "templateId": "brand-case-study",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:3f9a26d44fb2baf9808938aa9063ef7a47aabc0cb3444beebe194830a933077b",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-connected-shelf-iot-supermarket.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/connected-shelf-iot-supermarket"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.97,
+          "heightDelta": 74,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-customer-and-consumer-engagement",
+      "path": "/4brands-reply/de/customer-and-consumer-engagement",
+      "title": "Customer & Consumer Engagement | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:887091956eba0c02a9187ed934250d8d45d2afce7a880e7c742567c16ddb9d12",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-customer-and-consumer-engagement.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/customer-and-consumer-engagement"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/customer-and-consumer-engagement",
+        "deployedAt": "2026-11-15T14:54:04.276Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.9,
+          "heightDelta": -3,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": "instrument",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-customer-experience-management",
+      "path": "/4brands-reply/de/customer-experience-management",
+      "title": "Customer Experience Management | 4brands Reply",
+      "templateId": "4brands-reply-de-customer-experience-management",
+      "source": {
+        "migratedHtml": "stardust/migrated/4brands-reply/de/customer-experience-management.html",
+        "metaJson": "stardust/migrated/4brands-reply/de/customer-experience-management/_meta.json",
+        "sourceHash": "sha256:cd6c188099cf6a853cc2319fd0318f0c0d202711c9471e311ba3979d23752df7",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/customer-experience-management"
+      },
+      "blocks": [
+        "b4-hero",
+        "statement",
+        "b4-intro",
+        "section-heading",
+        "b4-tabber",
+        "b4-roadmap",
+        "b4-accordion",
+        "card-carousel",
+        "b4-teaser"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/customer-experience-management",
+        "deployedAt": "2026-11-15T13:15:52.101Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.34,
+          "heightDelta": 11,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 1,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": [
+              ".card-carousel-runtime=.card-carousel"
+            ]
+          },
+          "reasons": [
+            "content MISSING 0 / HIDDEN 1"
+          ],
+          "override": "instrument",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-data-and-analytics-strategie-workshop",
+      "path": "/4brands-reply/de/data-and-analytics-strategie-workshop",
+      "title": "Data and Analytics Strategie Workshop | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:120b4e759c9c05979d313a81ea8c69761a3cdfee8e2359d553b604bcbbce12db",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-data-and-analytics-strategie-workshop.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/data-and-analytics-strategie-workshop"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/data-and-analytics-strategie-workshop",
+        "deployedAt": "2026-11-15T14:54:04.373Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.19,
+          "heightDelta": 25,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-data-value-management",
+      "path": "/4brands-reply/de/data-value-management",
+      "title": "Data Value Management | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:c4aabc6999422b730a580f8acde2d8bcf619222a5f27c3526b75bfe708a33349",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-data-value-management.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/data-value-management"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/data-value-management",
+        "deployedAt": "2026-11-17T04:19:31.872Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.65,
+          "heightDelta": 30,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/merged-360.json",
+          "at": "2026-11-17T04:19:14.493Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-demand-driven-replenishment",
+      "path": "/4brands-reply/de/demand-driven-replenishment",
+      "title": "Demand Driven Replenishment | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:98962e2251dc6bf9c6d0739d32482cdbb112593f6f297ab933f2b12919ee40b3",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-demand-driven-replenishment.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/demand-driven-replenishment"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/demand-driven-replenishment",
+        "deployedAt": "2026-11-15T14:54:04.549Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.11,
+          "heightDelta": 2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-engpaesse-in-der-produktion-vermeiden",
+      "path": "/4brands-reply/de/engpaesse-in-der-produktion-vermeiden",
+      "title": "Engpässe in der Produktion vermeiden | 4brands Reply",
+      "templateId": "brand-case-study",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:113215905e0eed205184723254eaa72db4b714eddfc24d9e02d3c8e4748e86d4",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-engpaesse-in-der-produktion-vermeiden.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/engpaesse-in-der-produktion-vermeiden"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.62,
+          "heightDelta": 2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-gerolsteiner-personalisierte-kundenansprache",
+      "path": "/4brands-reply/de/gerolsteiner-personalisierte-kundenansprache",
+      "title": "Gerolsteiner schafft die Grundlage für personalisierte Kundenansprache | 4brands Reply",
+      "templateId": "brand-case-study",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:81720a775c8d820659e9da0028560aa512cf9e472a83fa0bd1bf65226e19c2bb",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-gerolsteiner-personalisierte-kundenansprache.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/gerolsteiner-personalisierte-kundenansprache"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.51,
+          "heightDelta": -24,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-intelligent-enterprise",
+      "path": "/4brands-reply/de/intelligent-enterprise",
+      "title": "Intelligent Enterprise mit SAP S/4HANA | 4brands Repl",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:955dfc775f0d0e922f0b4f8e6b9ad49b3711a9d23253f4b13f9eb2d7c269d6b9",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-intelligent-enterprise.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/intelligent-enterprise"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/intelligent-enterprise",
+        "deployedAt": "2026-11-17T04:19:31.938Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.15,
+          "heightDelta": 2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/merged-360.json",
+          "at": "2026-11-17T04:19:14.493Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-intelligent-product-recommendations",
+      "path": "/4brands-reply/de/intelligent-product-recommendations",
+      "title": "Intelligente Produktempfehlung im FMCG Vertrieb | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:fa71be87eefc662604de5898e8766df686a5140c238edc038132d0a7090af237",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-intelligent-product-recommendations.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/intelligent-product-recommendations"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/intelligent-product-recommendations",
+        "deployedAt": "2026-11-15T14:54:04.722Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.8,
+          "heightDelta": 2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-ki-assistent-fuer-den-vertrieb",
+      "path": "/4brands-reply/de/ki-assistent-fuer-den-vertrieb",
+      "title": "KI-Assistent für Vertriebserfolg mit SAP-Daten | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:1bd11c963a320cfafcfce2bc7f0ae6d1bcc3885e16ee9fab626e6810e8d7af58",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-ki-assistent-fuer-den-vertrieb.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/ki-assistent-fuer-den-vertrieb"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/ki-assistent-fuer-den-vertrieb",
+        "deployedAt": "2026-11-15T14:54:04.818Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.2,
+          "heightDelta": -6,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-mit-scrum-kundenzentrierte-erfolge-erzielen",
+      "path": "/4brands-reply/de/mit-scrum-kundenzentrierte-erfolge-erzielen",
+      "title": "Mit agilen Methoden zum Erfolg | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:669647471f70f17773d51dc75df973c53cd8511494920308dff9fc3f85d07d44",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-mit-scrum-kundenzentrierte-erfolge-erzielen.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/mit-scrum-kundenzentrierte-erfolge-erzielen"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/mit-scrum-kundenzentrierte-erfolge-erzielen",
+        "deployedAt": "2026-11-15T14:54:04.900Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.05,
+          "heightDelta": 24,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-newsroom",
+      "path": "/4brands-reply/de/newsroom",
+      "title": "Newsroom | 4brands Reply",
+      "templateId": "listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:fd58253c44a4cd6858ec1dc34489a9e3e275c7c0d1c9874dac43ba7b8ddcd4a7",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-newsroom.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/newsroom"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.87,
+          "heightDelta": 2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/u4b/merged-360.json",
+          "at": "2026-11-17T05:02:38.559Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-potenziale-mit-preis-sensing",
+      "path": "/4brands-reply/de/potenziale-mit-preis-sensing",
+      "title": "Potenziale mit Preis-Sensing nutzen | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:6525494c2d6516490b7dad82c6d13a26db1a7ab001772dc9de8a1eb6d5fec5ab",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-potenziale-mit-preis-sensing.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/potenziale-mit-preis-sensing"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/potenziale-mit-preis-sensing",
+        "deployedAt": "2026-11-15T14:54:04.991Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.02,
+          "heightDelta": -30,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-preis-sensing-smarte-insights-zu-endverbraucherpreisen",
+      "path": "/4brands-reply/de/preis-sensing-smarte-insights-zu-endverbraucherpreisen",
+      "title": "Price Sensing: Intelligente Einblicke in die Preisgestaltung | 4brands Reply",
+      "templateId": "brand-case-study",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:dc4959cefe7916d01ac728fa5b1a7ba0d380da87628b5d0a844ef95857d665e5",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-preis-sensing-smarte-insights-zu-endverbraucherpreisen.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/preis-sensing-smarte-insights-zu-endverbraucherpreisen"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/preis-sensing-smarte-insights-zu-endverbraucherpreisen",
+        "deployedAt": "2026-11-15T21:13:54.180Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.46,
+          "heightDelta": -12,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-preis-und-konditionsmanagement-zentis",
+      "path": "/4brands-reply/de/preis-und-konditionsmanagement-zentis",
+      "title": "Zentis: Neues Preis- und Konditionsmanagement | 4brands Reply",
+      "templateId": "brand-case-study",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:cee9e00af44b304ffe33bf46cd8a3541592d51ce8fa389f295000ee2d7bda178",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-preis-und-konditionsmanagement-zentis.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/preis-und-konditionsmanagement-zentis"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.84,
+          "heightDelta": 16,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-process-mining",
+      "path": "/4brands-reply/de/process-mining",
+      "title": "Process Mining: Transparenz für Ihre Prozesse | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:3b131dc7e409477d2280eedd5be90b66b182da31743f716ec28bf568607d3498",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-process-mining.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/process-mining"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/process-mining",
+        "deployedAt": "2026-11-15T14:54:05.080Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.89,
+          "heightDelta": -17,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-recipe-for-sap-ibp",
+      "path": "/4brands-reply/de/recipe-for-sap-ibp",
+      "title": "Sales & Operations Planning mit RECIPE | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:01cb8982219f793d503091bc1b9f37d51d7bae782003a4fe837b8456e41f39ee",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-recipe-for-sap-ibp.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/recipe-for-sap-ibp"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/recipe-for-sap-ibp",
+        "deployedAt": "2026-11-15T14:54:05.177Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.82,
+          "heightDelta": 2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/merged-360.json",
+          "at": "2026-11-17T04:19:14.493Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-reply-routes",
+      "path": "/4brands-reply/de/reply-routes",
+      "title": "Effiziente Tourenplanung mit Reply Routes | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:f9f25062bd863c4284b254420719c385fb9286527a5edaaf63657f0b6c129105",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-reply-routes.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/reply-routes"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/reply-routes",
+        "deployedAt": "2026-11-15T14:54:05.270Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.87,
+          "heightDelta": 54,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-revenue-growth-management",
+      "path": "/4brands-reply/de/revenue-growth-management",
+      "title": "Revenue Growth Management | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:3a9461b7f40e120838a9e2f8b806f216b181034b622010d1cab912ff8e8bb8a7",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-revenue-growth-management.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/revenue-growth-management"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/revenue-growth-management",
+        "deployedAt": "2026-11-15T14:54:05.454Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.19,
+          "heightDelta": -10,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-revenue-growth-management-reve",
+      "path": "/4brands-reply/de/revenue-growth-management-reve",
+      "title": "REVE - Die Planungsoberfläche für Revenue Growth Management | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:68d84e12ae0b01dc08fcb6fb4194a895e6f66aea913e4176a9ad0b5380977aef",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-revenue-growth-management-reve.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/revenue-growth-management-reve"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/revenue-growth-management-reve",
+        "deployedAt": "2026-11-15T14:54:05.360Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.64,
+          "heightDelta": 4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/merged-360.json",
+          "at": "2026-11-17T04:19:14.493Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-rotkaeppchen-mumm-sektkellereien",
+      "path": "/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+      "title": "Rotkäppchen-Mumm: Erfolgreiche CRM-Transformation | 4brands Reply",
+      "templateId": "4brands-reply-de-rotkaeppchen-mumm-sektkellereien",
+      "source": {
+        "migratedHtml": "stardust/migrated/4brands-reply/de/rotkaeppchen-mumm-sektkellereien.html",
+        "metaJson": "stardust/migrated/4brands-reply/de/rotkaeppchen-mumm-sektkellereien/_meta.json",
+        "sourceHash": "sha256:fadf2004733b615322a42c42618dc4175a840a6488b27d4741fcded1f22ba7a8",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/rotkaeppchen-mumm-sektkellereien"
+      },
+      "blocks": [
+        "b4-hero",
+        "b4-intro",
+        "b4-client",
+        "b4-text",
+        "b4-quote",
+        "statement",
+        "b4-profile"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/rotkaeppchen-mumm-sektkellereien",
+        "deployedAt": "2026-11-15T19:49:07.132Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.86,
+          "heightDelta": 2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-sac-advanced-scripting",
+      "path": "/4brands-reply/de/sac-advanced-scripting",
+      "title": "SAC Advanced Scripting | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:1003d49db6aa890c3c15c13fedc9c18ca4f2498aa3a380a625fea96cd4b5be96",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-sac-advanced-scripting.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/sac-advanced-scripting"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/sac-advanced-scripting",
+        "deployedAt": "2026-11-15T14:54:05.554Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.45,
+          "heightDelta": 2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/merged-360.json",
+          "at": "2026-11-17T04:19:14.493Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-sac-essentials",
+      "path": "/4brands-reply/de/sac-essentials",
+      "title": "SAC Essentials | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:31c1ad21404ee35c5d92ac70460da4d4cd3004e10833ff7b9194187a5e90371f",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-sac-essentials.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/sac-essentials"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/sac-essentials",
+        "deployedAt": "2026-11-15T14:54:05.650Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.82,
+          "heightDelta": 2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/merged-360.json",
+          "at": "2026-11-17T04:19:14.493Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-sac-insight-story-design",
+      "path": "/4brands-reply/de/sac-insight-story-design",
+      "title": "SAC Insight Story Design | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ddfe7d58f0779d930d7996f54d09acda6a771ce9f45b22b54c8bf8d944f70dea",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-sac-insight-story-design.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/sac-insight-story-design"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/sac-insight-story-design",
+        "deployedAt": "2026-11-15T14:54:05.738Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.44,
+          "heightDelta": -6,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-sac-modeling-and-insights-lab",
+      "path": "/4brands-reply/de/sac-modeling-and-insights-lab",
+      "title": "SAC Modeling & Insights Lab | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:5872aa4a6eed99f1bf7c9b1067e515956b8b3ea8b8088469513b49303ab7a876",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-sac-modeling-and-insights-lab.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/sac-modeling-and-insights-lab"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/sac-modeling-and-insights-lab",
+        "deployedAt": "2026-11-15T14:54:05.828Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.44,
+          "heightDelta": 4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-sap-analytics-cloud",
+      "path": "/4brands-reply/de/sap-analytics-cloud",
+      "title": "From Dashboard Designer to Decision Architect | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d0c0862de2b37d207051d4b154b793c2779178e1cb41a0b720be1c10ca5f5098",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-sap-analytics-cloud.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/sap-analytics-cloud"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/sap-analytics-cloud",
+        "deployedAt": "2026-11-15T14:54:05.908Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.93,
+          "heightDelta": 13,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/merged-360.json",
+          "at": "2026-11-17T04:19:14.493Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-sap-c4-hana-bei-einem-grosshaendler",
+      "path": "/4brands-reply/de/sap-c4-hana-bei-einem-grosshaendler",
+      "title": "Effizientes Kundenmanagement mit SAP Sales Cloud | 4brands Reply",
+      "templateId": "brand-case-study",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:39f79aa6fc7693899f3da2783ee531112a9084718809b56d20d2808d41969d46",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-sap-c4-hana-bei-einem-grosshaendler.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/sap-c4-hana-bei-einem-grosshaendler"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/sap-c4-hana-bei-einem-grosshaendler",
+        "deployedAt": "2026-11-15T21:13:54.232Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.53,
+          "heightDelta": -77,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-sap-ccm",
+      "path": "/4brands-reply/de/sap-ccm",
+      "title": "Volle Kontrolle über Konditionen mit SAP CCM | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:c00d46b36b92ee3de7cdff7560a5211f73d4922daff80c451c97adb7407e2e1c",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-sap-ccm.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/sap-ccm"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/sap-ccm",
+        "deployedAt": "2026-11-15T14:54:06.000Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.41,
+          "heightDelta": 17,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 2,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [
+            "content MISSING 0 / HIDDEN 2"
+          ],
+          "override": "instrument",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-sap-datasphere-trainings",
+      "path": "/4brands-reply/de/sap-datasphere-trainings",
+      "title": "Datenpool ohne Durchblick – trotz moderner Architektur | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:888e218921f81c38f7148faf53d61a7b5cc0bb26dc9f40e4825f57ebee59511b",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-sap-datasphere-trainings.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/sap-datasphere-trainings"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/sap-datasphere-trainings",
+        "deployedAt": "2026-11-15T14:54:06.090Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.32,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-sap-finance-knowledge-and-training",
+      "path": "/4brands-reply/de/sap-finance-knowledge-and-training",
+      "title": "SAP Finance Knowledge & Training | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:8e27551a4d0d014c5bc3a0c588379a7d83e1a377e348d15b09bbd9f35047ac0e",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-sap-finance-knowledge-and-training.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/sap-finance-knowledge-and-training"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/sap-finance-knowledge-and-training",
+        "deployedAt": "2026-11-15T14:54:06.181Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.76,
+          "heightDelta": 30,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-smart-glasses",
+      "path": "/4brands-reply/de/smart-glasses",
+      "title": "Effiziente Regalerhebung mit Smart Glasses | 4brands Reply",
+      "templateId": "brand-case-study",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0a845ae012cbd2e3352bc3c4b9977aa86c62cae5a727ef88d316723227d0ea40",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-smart-glasses.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/smart-glasses"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.12,
+          "heightDelta": 11,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-de-smart-retail-execution",
+      "path": "/4brands-reply/de/smart-retail-execution",
+      "title": "Smart Retail Execution mit smartREX | 4brands Reply",
+      "templateId": "brand-solution",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:770f72187ca70b5f70f46dcdab6b1e46aad73617b0777ee871d5e5f3d78f57bd",
+        "currentStatePath": "stardust/current/pages/4brands-reply-de-smart-retail-execution.json",
+        "sourceUrl": "https://www.reply.com/4brands-reply/de/smart-retail-execution"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de/smart-retail-execution",
+        "deployedAt": "2026-11-15T14:54:06.275Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.22,
+          "heightDelta": -44,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "4brands-reply-en",
+      "path": "/4brands-reply/en",
+      "title": "Digital Transformation for the Consumer Goods Industry | 4brands Reply",
+      "templateId": "4brands-reply-en",
+      "source": {
+        "migratedHtml": "stardust/migrated/4brands-reply/en.html",
+        "metaJson": "stardust/migrated/4brands-reply/en/_meta.json",
+        "sourceHash": "sha256:c2cd78652327e5e6d10e4e421c73d03f27047d5c6d5e4f734dbf6ddcb8fce478",
+        "sourceUrl": "https://www.reply.com/4brands-reply/en"
+      },
+      "blocks": [
+        "b4-hero",
+        "statement",
+        "b4-about",
+        "b4-stats",
+        "b4-band",
+        "section-heading",
+        "card-carousel",
+        "b4-split",
+        "b4-partner",
+        "cards-wall",
+        "b4-news",
+        "b4-events",
+        "b4-newsroom",
+        "b4-offices"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/en",
+        "deployedAt": "2026-11-15T19:51:34.984Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.72,
+          "heightDelta": -4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 2,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": [
+              "[data-carousel-type=\"reply-card-slider-scale\"]=.card-carousel.scale",
+              ".gm-style=.b4-map-frame"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en",
+      "path": "/en",
+      "title": "Digital Services, Technology and Consulting | Reply",
+      "templateId": "home",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d66bc3f2f7a1a33f40c2920c9dc83f3daa9e8a0676f1c4b089e89d06bb90cc69",
+        "currentStatePath": "stardust/current/pages/en.json",
+        "sourceUrl": "https://www.reply.com/en"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/en",
+        "deployedAt": "2026-11-17T02:00:37.605Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.12,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 4,
+            "controlState": 0,
+            "missingButtons": 7,
+            "hiddenButtons": 0,
+            "findings": 19,
+            "variable": [
+              ".card-carousel-runtime=.card-carousel",
+              ".card-carousel-runtime=.believe-rail"
+            ]
+          },
+          "reasons": [
+            "content MISSING 0 / HIDDEN 4"
+          ],
+          "override": "instrument",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-3d-and-mixed-reality",
+      "path": "/en/3d-and-mixed-reality",
+      "title": "3D & Mixed Reality | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:9a5ace16cb976e8ae3e54b6b0df8461bdf2c78089c881e9d726a71c088f8fd39",
+        "currentStatePath": "stardust/current/pages/en-3d-and-mixed-reality.json",
+        "sourceUrl": "https://www.reply.com/en/3d-and-mixed-reality"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.7,
+          "heightDelta": 2,
+          "clipped": 1,
+          "content": {
+            "missing": 2,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [
+            "content MISSING 2 / HIDDEN 0"
+          ],
+          "override": "timing",
+          "table": "stardust/.work/rollout/s19/uhk/merged-360.json",
+          "at": "2026-11-17T05:25:49.560Z"
+        }
+      }
+    },
+    {
+      "slug": "en-a-very-covid-19-christmas",
+      "path": "/en/a-very-covid-19-christmas",
+      "title": "A very Covid-19 Christmas | Reply",
+      "templateId": "editorial",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:418d05e228e3491ce5170c7e0c26b26ba9ee322d93ef50cf38b621ec3f78927d",
+        "currentStatePath": "stardust/current/pages/en-a-very-covid-19-christmas.json",
+        "sourceUrl": "https://www.reply.com/en/a-very-covid-19-christmas"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/en/a-very-covid-19-christmas",
+        "deployedAt": "2026-11-15T14:53:54.249Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.72,
+          "heightDelta": 37,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-accessibility",
+      "path": "/en/accessibility",
+      "title": "Accessibility | Reply",
+      "templateId": "en-accessibility",
+      "source": {
+        "migratedHtml": "stardust/migrated/en/accessibility.html",
+        "metaJson": "stardust/migrated/en/accessibility/_meta.json",
+        "sourceHash": "sha256:9b00bd897261dee6f5231669dc116568895600ea172babdcb4510a65a256a3fc",
+        "sourceUrl": "https://www.reply.com/en/accessibility"
+      },
+      "blocks": [
+        "intro"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/en/accessibility",
+        "deployedAt": "2026-11-15T13:06:08.556Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.82,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-acknowledgement",
+      "path": "/en/acknowledgement",
+      "title": "Acknowledgement | Reply",
+      "templateId": "editorial",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:6c6f817be5479be2bdb381abd27f170b004585fae152242a24d2ef0fbd8d7ed5",
+        "currentStatePath": "stardust/current/pages/en-acknowledgement.json",
+        "sourceUrl": "https://www.reply.com/en/acknowledgement"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/en/acknowledgement",
+        "deployedAt": "2026-11-15T14:53:54.511Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.32,
+          "heightDelta": -20,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/ued/merged-360.json",
+          "at": "2026-11-17T05:16:50.285Z"
+        }
+      }
+    },
+    {
+      "slug": "en-adobe",
+      "path": "/en/adobe",
+      "title": "AI-powered Digital Experiences with Adobe | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:49923c58c14b9c41823a483ec1db946fd963cfc603b10d1aab1cd67a642fbc78",
+        "currentStatePath": "stardust/current/pages/en-adobe.json",
+        "sourceUrl": "https://www.reply.com/en/adobe"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.7,
+          "heightDelta": -3,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 4,
+            "hiddenButtons": 0,
+            "findings": 10,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/merged-360.json",
+          "at": "2026-11-17T04:19:14.493Z"
+        }
+      }
+    },
+    {
+      "slug": "en-ai-now-summit-reply-sail-reply-sovereign-ai",
+      "path": "/en/ai-now-summit-reply-sail-reply-sovereign-ai",
+      "title": "Sail Reply at the AI Now Summit | Reply",
+      "templateId": "editorial",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:93c806d8d3386bb04e0a55cceee11aa9618457babdbc3ba5ed4c813203a832d9",
+        "currentStatePath": "stardust/current/pages/en-ai-now-summit-reply-sail-reply-sovereign-ai.json",
+        "sourceUrl": "https://www.reply.com/en/ai-now-summit-reply-sail-reply-sovereign-ai"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/en/ai-now-summit-reply-sail-reply-sovereign-ai",
+        "deployedAt": "2026-11-15T14:53:54.560Z",
+        "verifiedAt": "2026-11-17T06:52:39.506Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.24,
+          "heightDelta": -45,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 2,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 11,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/merged-360-fix7.json",
+          "at": "2026-11-17T06:52:32.267Z"
+        }
+      }
+    },
+    {
+      "slug": "en-ai-powered-software-engineering",
+      "path": "/en/ai-powered-software-engineering",
+      "title": "AI-powered Software Engineering | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:f8f9b820372a669ad3539feafd15d06f7830050b0eb17abaead55686a749db69",
+        "currentStatePath": "stardust/current/pages/en-ai-powered-software-engineering.json",
+        "sourceUrl": "https://www.reply.com/en/ai-powered-software-engineering"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.28,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 4,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 11,
+            "variable": []
+          },
+          "reasons": [
+            "content MISSING 4 / HIDDEN 0"
+          ],
+          "override": "timing",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-approach-to-uk-taxation",
+      "path": "/en/approach-to-uk-taxation",
+      "title": "Approach to UK Taxation | Reply",
+      "templateId": "plain",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:1985abcb034da9fcd12422ef657bbe6211f3848ecdfa8c558b8cad3f015695c7",
+        "currentStatePath": "stardust/current/pages/en-approach-to-uk-taxation.json",
+        "sourceUrl": "https://www.reply.com/en/approach-to-uk-taxation"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": "2026-11-16T19:45:37.913Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.27,
+          "heightDelta": 45,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-artificial-intelligence",
+      "path": "/en/artificial-intelligence",
+      "title": "Artificial Intelligence & Machine Learning | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:560c03ba64765b4f4b063a743eb2aa87faa19d2c82789dc01ac34aeaedff25c2",
+        "currentStatePath": "stardust/current/pages/en-artificial-intelligence.json",
+        "sourceUrl": "https://www.reply.com/en/artificial-intelligence"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.42,
+          "heightDelta": -6,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-automotive-and-manufacturing",
+      "path": "/en/automotive-and-manufacturing",
+      "title": "Solutions for the Automotive sector | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:6c7cff8945fc9794ee3cd4a1479f7658ecb01cc96f823200e40df8b078856002",
+        "currentStatePath": "stardust/current/pages/en-automotive-and-manufacturing.json",
+        "sourceUrl": "https://www.reply.com/en/automotive-and-manufacturing"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.15,
+          "heightDelta": -32,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 1,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 7,
+            "variable": []
+          },
+          "reasons": [
+            "content MISSING 0 / HIDDEN 1"
+          ],
+          "override": "timing",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-autonomousdrivingsafety",
+      "path": "/en/autonomousdrivingsafety",
+      "title": "Enhancing Autonomous Driving Safety | Reply",
+      "templateId": "plain",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:8e5caa21d83c0f3eb52d6913368d71416179738a2a87635fee117221f6d1d614",
+        "currentStatePath": "stardust/current/pages/en-autonomousdrivingsafety.json",
+        "sourceUrl": "https://www.reply.com/en/autonomousdrivingsafety"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": "2026-11-16T19:45:37.981Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.16,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-aws",
+      "path": "/en/aws",
+      "title": "AWS Solutions | Connect your Business in Cloud with Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e6a36c8a13e993b05d28ab0c9d72a2cc50661e24eb5b44f689e3cc30b2188d9b",
+        "currentStatePath": "stardust/current/pages/en-aws.json",
+        "sourceUrl": "https://www.reply.com/en/aws"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.66,
+          "heightDelta": 68,
+          "clipped": 0,
+          "content": {
+            "missing": 5,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 10,
+            "variable": []
+          },
+          "reasons": [
+            "content MISSING 5 / HIDDEN 0"
+          ],
+          "override": "timing",
+          "table": "stardust/.work/rollout/s19/uhl/merged-360.json",
+          "at": "2026-11-17T05:52:51.763Z"
+        }
+      }
+    },
+    {
+      "slug": "en-becoming-ai-native-embracing-the-future-of-digital-experience",
+      "path": "/en/becoming-ai-native-embracing-the-future-of-digital-experience",
+      "title": "Becoming AI-Native: Embracing the Future of Digital Experience | Reply",
+      "templateId": "editorial",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:dd7d0dab419a524f7b963967acadc5fcc8f7e3e4af51aa0a65853967e43adcec",
+        "currentStatePath": "stardust/current/pages/en-becoming-ai-native-embracing-the-future-of-digital-experience.json",
+        "sourceUrl": "https://www.reply.com/en/becoming-ai-native-embracing-the-future-of-digital-experience"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/en/becoming-ai-native-embracing-the-future-of-digital-experience",
+        "deployedAt": "2026-11-15T14:53:54.604Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.8,
+          "heightDelta": 129,
+          "clipped": 1,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-biotagging-and-advanced-traceability",
+      "path": "/en/biotagging-and-advanced-traceability",
+      "title": "Biotagging and Advanced Traceability | Reply",
+      "templateId": "editorial",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0146eeaa333fdc6ae48eacad4cc6b19185e2b57b52a46fe0e481a55eaafa9113",
+        "currentStatePath": "stardust/current/pages/en-biotagging-and-advanced-traceability.json",
+        "sourceUrl": "https://www.reply.com/en/biotagging-and-advanced-traceability"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/en/biotagging-and-advanced-traceability",
+        "deployedAt": "2026-11-15T14:53:54.412Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.9,
+          "heightDelta": -18,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-biotagging-und-advanced-traceability",
+      "path": "/en/biotagging-und-advanced-traceability",
+      "title": "Biotagging und Advanced Traceability | Reply",
+      "templateId": "editorial",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:95f106e58740d49028acab87d5f84070e03036e108ec00ddb17f3b0e8539a44f",
+        "currentStatePath": "stardust/current/pages/en-biotagging-und-advanced-traceability.json",
+        "sourceUrl": "https://www.reply.com/en/biotagging-und-advanced-traceability"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/en/biotagging-und-advanced-traceability",
+        "deployedAt": "2026-11-15T14:53:54.462Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.61,
+          "heightDelta": -5,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-building-resilient-eu-forms-infrastructure",
+      "path": "/en/building-resilient-eu-forms-infrastructure",
+      "title": "Digital Sovereignty by Design: Building Resilient EU Forms Infrastructure | Reply",
+      "templateId": "editorial",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:53e3e7d739ecf5947fe3aa47579ae7786aaa0030019e45db630209981c7ef659",
+        "currentStatePath": "stardust/current/pages/en-building-resilient-eu-forms-infrastructure.json",
+        "sourceUrl": "https://www.reply.com/en/building-resilient-eu-forms-infrastructure"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/en/building-resilient-eu-forms-infrastructure",
+        "deployedAt": "2026-11-15T14:53:54.653Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.27,
+          "heightDelta": -119,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-ccpa-privacy-notice",
+      "path": "/en/ccpa-privacy-notice",
+      "title": "CCPA Privacy Notice | Reply",
+      "templateId": "plain",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:c1da847933cb22bbcd104f46c73e2c1ec842873179c0937585e61c05b4860543",
+        "currentStatePath": "stardust/current/pages/en-ccpa-privacy-notice.json",
+        "sourceUrl": "https://www.reply.com/en/CCPA-privacy-notice"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/en/ccpa-privacy-notice",
+        "deployedAt": "2026-11-16T19:45:38.047Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.33,
+          "heightDelta": -30,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-christmas",
+      "path": "/en/christmas",
+      "title": "Digital Services, Technology and Consulting | Reply",
+      "templateId": "home",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:c1d0dd5c307773c2f5506a60ba880fe8aeb9dacbc605213196449656ef26eaa9",
+        "currentStatePath": "stardust/current/pages/en-christmas.json",
+        "sourceUrl": "https://www.reply.com/en/christmas"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/en/christmas",
+        "deployedAt": "2026-11-16T00:53:11.800Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7,
+          "heightDelta": -21,
+          "clipped": 5,
+          "content": {
+            "missing": 1,
+            "hidden": 4,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 8,
+            "variable": [
+              ".card-carousel-runtime=.card-carousel"
+            ]
+          },
+          "reasons": [
+            "content MISSING 1 / HIDDEN 4"
+          ],
+          "override": "instrument",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-cloud-computing",
+      "path": "/en/cloud-computing",
+      "title": "Cloud Computing and Cloud Solutions | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:5138fa1acd4b1322ff79e083ac1009daf65959c920533ec2eff2d698577e0978",
+        "currentStatePath": "stardust/current/pages/en-cloud-computing.json",
+        "sourceUrl": "https://www.reply.com/en/cloud-computing"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": "2026-11-17T06:52:39.367Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.46,
+          "heightDelta": 8,
+          "clipped": 0,
+          "content": {
+            "missing": 1,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [
+            "content MISSING 1 / HIDDEN 0"
+          ],
+          "override": "timing",
+          "table": "stardust/.work/merged-360-fix7.json",
+          "at": "2026-11-17T06:52:32.267Z"
+        }
+      }
+    },
+    {
+      "slug": "en-company-profile",
+      "path": "/en/company-profile",
+      "title": "Company Profile | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:226a5f944bd85b76e1f41f894c5ab2ff8e708e991774cb5e9aa8fcf2d4705aa8",
+        "currentStatePath": "stardust/current/pages/en-company-profile.json",
+        "sourceUrl": "https://www.reply.com/en/company-profile"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.36,
+          "heightDelta": 18,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 6,
+            "hiddenButtons": 0,
+            "findings": 7,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-contacts",
+      "path": "/en/contacts",
+      "title": "Contacts | Reply",
+      "templateId": "plain",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:2a081e8c23dd0fcf4d613b9f0577d60fe3f57bf64235365c81b86fa3a8f896dd",
+        "currentStatePath": "stardust/current/pages/en-contacts.json",
+        "sourceUrl": "https://www.reply.com/en/contacts"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/en/contacts",
+        "deployedAt": "2026-11-15T14:50:21.288Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.62,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 5,
+            "missingButtons": 5,
+            "hiddenButtons": 0,
+            "findings": 14,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-covid-19-implications-2021",
+      "path": "/en/covid-19-implications-2021",
+      "title": "What will be the implications in 2021 with covid-19 still on play? | Reply",
+      "templateId": "en-covid-19-implications-2021",
+      "source": {
+        "migratedHtml": "stardust/migrated/en/covid-19-implications-2021.html",
+        "metaJson": "stardust/migrated/en/covid-19-implications-2021/_meta.json",
+        "sourceHash": "sha256:4299e22b307204214d2f657494830fc35bd72f52def51955bcd4dfebae330118",
+        "sourceUrl": "https://www.reply.com/en/covid-19-implications-2021"
+      },
+      "blocks": [
+        "editorial-hero",
+        "page-index",
+        "text-band",
+        "tension",
+        "prepare"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/en/covid-19-implications-2021",
+        "deployedAt": "2026-11-15T13:07:59.596Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.19,
+          "heightDelta": 19,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-covid-19-report-close-up-italy",
+      "path": "/en/covid-19-report-close-up-italy",
+      "title": "The Coronavirus in Italy: keeping up with a new reality | Reply",
+      "templateId": "editorial",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:900c416bbcdd68094ee40fc6f7d80a5789addef3f55b4e47d0c568f014922a5d",
+        "currentStatePath": "stardust/current/pages/en-covid-19-report-close-up-italy.json",
+        "sourceUrl": "https://www.reply.com/en/covid-19-report-close-up-italy"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/en/covid-19-report-close-up-italy",
+        "deployedAt": "2026-11-15T14:53:54.305Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.95,
+          "heightDelta": 29,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-covid-19-travel-and-tourism",
+      "path": "/en/covid-19-travel-and-tourism",
+      "title": "Travelling in times of Coronavirus: what has changed? | Reply",
+      "templateId": "editorial",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:bf9a442ed219a61d3ebe6d2fa016b9cd7599869bfc33fae62579ec462090ce9b",
+        "currentStatePath": "stardust/current/pages/en-covid-19-travel-and-tourism.json",
+        "sourceUrl": "https://www.reply.com/en/covid-19-travel-and-tourism"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/en/covid-19-travel-and-tourism",
+        "deployedAt": "2026-11-15T14:53:54.357Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.75,
+          "heightDelta": -41,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-cx-and-digital-commerce",
+      "path": "/en/cx-and-digital-commerce",
+      "title": "Customer Experience & Digital Commerce solutions | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:2daeb566035b205e3c865aa8a94400588ba7f8c350e36fed308751cbfd96cba7",
+        "currentStatePath": "stardust/current/pages/en-cx-and-digital-commerce.json",
+        "sourceUrl": "https://www.reply.com/en/cx-and-digital-commerce"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.01,
+          "heightDelta": 12,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/merged-360.json",
+          "at": "2026-11-17T04:19:14.493Z"
+        }
+      }
+    },
+    {
+      "slug": "en-cybersecurity",
+      "path": "/en/cybersecurity",
+      "title": "Cybersecurity Services & Solutions | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ca7b11090d0c53b738107427083384fe060391f434a2c766c891fc94253d32ba",
+        "currentStatePath": "stardust/current/pages/en-cybersecurity.json",
+        "sourceUrl": "https://www.reply.com/en/cybersecurity"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": "2026-11-16T19:45:38.109Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.11,
+          "heightDelta": 16,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-data-world",
+      "path": "/en/data-world",
+      "title": "Data Strategy, Big Data & Data Management solutions | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:439a90cb2114e8e11591b7431d85a96ac2bfb4a2e0a6e5de4b12c0e14bf4608d",
+        "currentStatePath": "stardust/current/pages/en-data-world.json",
+        "sourceUrl": "https://www.reply.com/en/data-world"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.75,
+          "heightDelta": -2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/uhl/merged-360.json",
+          "at": "2026-11-17T05:52:51.763Z"
+        }
+      }
+    },
+    {
+      "slug": "en-datenschutzerklaerung",
+      "path": "/en/datenschutzerklaerung",
+      "title": "Datenschutzerklaerung | Reply",
+      "templateId": "plain",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ec6540a849e09e2015fdf2f9d8c05be4216e94a85713bd29b7485e0c876fa1a2",
+        "currentStatePath": "stardust/current/pages/en-datenschutzerklaerung.json",
+        "sourceUrl": "https://www.reply.com/en/datenschutzerklaerung"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": "2026-11-16T19:45:38.170Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.2,
+          "heightDelta": -336,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-declaration-of-principles",
+      "path": "/en/declaration-of-principles",
+      "title": "Declaration of Principles | Reply",
+      "templateId": "plain",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0d2b6d97ee89e410836570bdd1c7af951653581f754df45f5da6f9375fb7ccfd",
+        "currentStatePath": "stardust/current/pages/en-declaration-of-principles.json",
+        "sourceUrl": "https://www.reply.com/en/declaration-of-principles"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/en/declaration-of-principles",
+        "deployedAt": "2026-11-15T14:50:21.387Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.79,
+          "heightDelta": 60,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-deep-and-transformational-growth",
+      "path": "/en/deep-and-transformational-growth",
+      "title": "Deep & transformational Growth | Reply",
+      "templateId": "editorial",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:fcaeb3b7cd728fd1ca11cb691da885ae3c6f7b070aa3f769092a0dd500f2e69c",
+        "currentStatePath": "stardust/current/pages/en-deep-and-transformational-growth.json",
+        "sourceUrl": "https://www.reply.com/en/deep-and-transformational-growth"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/en/deep-and-transformational-growth",
+        "deployedAt": "2026-11-15T14:53:54.703Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.53,
+          "heightDelta": 40,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-design",
+      "path": "/en/design",
+      "title": "Design Solutions | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ba38ad2c1e944f87b4846e210c0135cd98e25f18bc59cf6bd1dcb4cb08c85aa7",
+        "currentStatePath": "stardust/current/pages/en-design.json",
+        "sourceUrl": "https://www.reply.com/en/design"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": "2026-11-16T19:45:38.234Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.92,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-digital-assets",
+      "path": "/en/digital-assets",
+      "title": "Blockchain & Digital Assets | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e193d51de4e5aef2684a567e55d2a162da916527dfbc7077e7ae69391fccdd6a",
+        "currentStatePath": "stardust/current/pages/en-digital-assets.json",
+        "sourceUrl": "https://www.reply.com/en/digital-assets"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.69,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/uhk/merged-360.json",
+          "at": "2026-11-17T05:25:49.560Z"
+        }
+      }
+    },
+    {
+      "slug": "en-digital-experience",
+      "path": "/en/digital-experience",
+      "title": "Digital Experience Solutions | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:f82af04e0fe2a3dee0dba4c851132391486b46e47df7002e353820e29590652e",
+        "currentStatePath": "stardust/current/pages/en-digital-experience.json",
+        "sourceUrl": "https://www.reply.com/en/digital-experience"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.23,
+          "heightDelta": -7,
+          "clipped": 0,
+          "content": {
+            "missing": 2,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 8,
+            "variable": []
+          },
+          "reasons": [
+            "content MISSING 2 / HIDDEN 0"
+          ],
+          "override": "timing",
+          "table": "stardust/.work/rollout/s19/uhk/merged-360.json",
+          "at": "2026-11-17T05:25:49.560Z"
+        }
+      }
+    },
+    {
+      "slug": "en-energy-and-utilities",
+      "path": "/en/energy-and-utilities",
+      "title": "Energy & Utilities Solutions | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:5cd435dd36c5fce96563102b02ed06668b62337228c94f218aa3c37933b2aaad",
+        "currentStatePath": "stardust/current/pages/en-energy-and-utilities.json",
+        "sourceUrl": "https://www.reply.com/en/energy-and-utilities"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": "2026-11-16T19:45:38.297Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.26,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-environment",
+      "path": "/en/environment",
+      "title": "Environment | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:14518b37c0303a6ebaa841ad318929859e38c51cee4cf69a5ddf21f4da406dc1",
+        "currentStatePath": "stardust/current/pages/en-environment.json",
+        "sourceUrl": "https://www.reply.com/en/environment"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": null,
+        "deployedAt": "2026-11-16T19:45:38.357Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.11,
+          "heightDelta": -46,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/merged-360.json",
+          "at": "2026-11-17T04:19:14.493Z"
+        }
+      }
+    },
+    {
+      "slug": "en-esg",
+      "path": "/en/esg",
+      "title": "ESG | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:8359fe75134cf6c38f881a5d7547c64a0f2e8bec34680e1e388b622752b204c7",
+        "currentStatePath": "stardust/current/pages/en-esg.json",
+        "sourceUrl": "https://www.reply.com/en/esg"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.74,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 4,
+            "hiddenButtons": 0,
+            "findings": 7,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/merged-360.json",
+          "at": "2026-11-17T04:19:14.493Z"
+        }
+      }
+    },
+    {
+      "slug": "en-ethical-ai-shaping-the-future-of-responsible-innovation",
+      "path": "/en/ethical-ai-shaping-the-future-of-responsible-innovation",
+      "title": "Ethical AI: Shaping the Future of Responsible Innovation | Reply",
+      "templateId": "editorial",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:093ce6646deee27676e4e3039b5325116b13c854cf289f8c290a1f9f6f8b0256",
+        "currentStatePath": "stardust/current/pages/en-ethical-ai-shaping-the-future-of-responsible-innovation.json",
+        "sourceUrl": "https://www.reply.com/en/ethical-ai-shaping-the-future-of-responsible-innovation"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/en/ethical-ai-shaping-the-future-of-responsible-innovation",
+        "deployedAt": "2026-11-15T14:53:54.757Z",
+        "verifiedAt": "2026-11-17T06:52:39.652Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.44,
+          "heightDelta": -2,
+          "clipped": 0,
+          "content": {
+            "missing": 1,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [
+            "content MISSING 1 / HIDDEN 0"
+          ],
+          "override": "timing",
+          "table": "stardust/.work/merged-360-fix7.json",
+          "at": "2026-11-17T06:52:32.267Z"
+        }
+      }
+    },
+    {
+      "slug": "en-event-detail",
+      "path": "/en/event-detail",
+      "title": "Event Detail | Reply",
+      "templateId": "plain",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:08754d412bcac3aca82f2523e24079f7610cbb3156a19a0221bb797d5751c316",
+        "currentStatePath": "stardust/current/pages/en-event-detail.json",
+        "sourceUrl": "https://www.reply.com/en/event-detail"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": "2026-11-16T19:45:38.417Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.22,
+          "heightDelta": 58,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-financial-services",
+      "path": "/en/financial-services",
+      "title": "Solutions & Consulting for Financial Services | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:7010a42ab25a6b292e7168838a7c0e71f5cc176938ca28230f2f4c919757a691",
+        "currentStatePath": "stardust/current/pages/en-financial-services.json",
+        "sourceUrl": "https://www.reply.com/en/financial-services"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.26,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/merged-360.json",
+          "at": "2026-11-17T04:19:14.493Z"
+        }
+      }
+    },
+    {
+      "slug": "en-frontier-event-2026",
+      "path": "/en/frontier-event-2026",
+      "title": "AI Frontier: from vision to E7 | Reply",
+      "templateId": "editorial",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:53ea0106afb600956aa3ec502512a729a48789b771aa1e6d39400c192351cb81",
+        "currentStatePath": "stardust/current/pages/en-frontier-event-2026.json",
+        "sourceUrl": "https://www.reply.com/en/frontier-event-2026"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/en/frontier-event-2026",
+        "deployedAt": "2026-11-15T14:53:54.811Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.94,
+          "heightDelta": 132,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-gaming",
+      "path": "/en/gaming",
+      "title": "Gaming & Gamification solutions | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:c32762669787ee005114b0fbfdeef3a36d7df07a3d112a693fccb0e0b7b00d6d",
+        "currentStatePath": "stardust/current/pages/en-gaming.json",
+        "sourceUrl": "https://www.reply.com/en/gaming"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.59,
+          "heightDelta": 9,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 1,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [
+            "content MISSING 0 / HIDDEN 1"
+          ],
+          "override": "timing",
+          "table": "stardust/.work/rollout/s19/uhl/merged-360.json",
+          "at": "2026-11-17T05:52:51.763Z"
+        }
+      }
+    },
+    {
+      "slug": "en-google-cloud",
+      "path": "/en/google-cloud",
+      "title": "Reply and Google Cloud | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:f2337001cd6296521b8d2f47e3eb7ea4fd6ad0796ef90ca4713ef01c33e7fc68",
+        "currentStatePath": "stardust/current/pages/en-google-cloud.json",
+        "sourceUrl": "https://www.reply.com/en/google-cloud"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.07,
+          "heightDelta": 81,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 3,
+            "hiddenButtons": 0,
+            "findings": 10,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/uhl/merged-360.json",
+          "at": "2026-11-17T05:52:51.763Z"
+        }
+      }
+    },
+    {
+      "slug": "en-governance",
+      "path": "/en/governance",
+      "title": "Governance | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:959d57fd5578bd48944c83b01ebfa7420b5793c11ea5dbf74e2ef170cd0c23bb",
+        "currentStatePath": "stardust/current/pages/en-governance.json",
+        "sourceUrl": "https://www.reply.com/en/governance"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.47,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/merged-360.json",
+          "at": "2026-11-17T04:19:14.493Z"
+        }
+      }
+    },
+    {
+      "slug": "en-governance-risk-and-compliance",
+      "path": "/en/governance-risk-and-compliance",
+      "title": "Governance, Risk and Compliance | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0619f419a4dd38b32c43a2746f59022d7fb51779defa22f9c15a8126fa097a1a",
+        "currentStatePath": "stardust/current/pages/en-governance-risk-and-compliance.json",
+        "sourceUrl": "https://www.reply.com/en/governance-risk-and-compliance"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.55,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/merged-360.json",
+          "at": "2026-11-17T04:19:14.493Z"
+        }
+      }
+    },
+    {
+      "slug": "en-healthcare",
+      "path": "/en/healthcare",
+      "title": "Government and Healthcare | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:a76ca32a951445b5a12bb916a869af5ce26977bf398660654df7d965304c3a82",
+        "currentStatePath": "stardust/current/pages/en-healthcare.json",
+        "sourceUrl": "https://www.reply.com/en/healthcare"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.67,
+          "heightDelta": 7,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/merged-360.json",
+          "at": "2026-11-17T04:19:14.493Z"
+        }
+      }
+    },
+    {
+      "slug": "en-hybrid-work",
+      "path": "/en/hybrid-work",
+      "title": "The Future of Work: Hybrid Models and the Digital Workplace | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:264a31b0b92b248f030df9065b9eb28b95453f3ee3b8a8654d69e7ffdc0fe92e",
+        "currentStatePath": "stardust/current/pages/en-hybrid-work.json",
+        "sourceUrl": "https://www.reply.com/en/hybrid-work"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.3,
+          "heightDelta": 37,
+          "clipped": 1,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/merged-360.json",
+          "at": "2026-11-17T04:19:14.493Z"
+        }
+      }
+    },
+    {
+      "slug": "en-impressum",
+      "path": "/en/impressum",
+      "title": "Imprint | Reply",
+      "templateId": "plain",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:a96169a8aa217ded42b837bbb8c6cfb40ba3e77c27b9a90144ebf7c0d07ce873",
+        "currentStatePath": "stardust/current/pages/en-impressum.json",
+        "sourceUrl": "https://www.reply.com/en/impressum"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/en/impressum",
+        "deployedAt": "2026-11-15T14:50:21.476Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.95,
+          "heightDelta": -29,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-insights",
+      "path": "/en/insights",
+      "title": "Insights | Reply",
+      "templateId": "en-insights",
+      "source": {
+        "migratedHtml": "stardust/migrated/en/insights.html",
+        "metaJson": "stardust/migrated/en/insights/_meta.json",
+        "sourceHash": "sha256:f2b50fd8c14a2d4264d43fcb98efb838c662476744c7d7e110389e8e0ce253f3",
+        "sourceUrl": "https://www.reply.com/en/insights"
+      },
+      "blocks": [
+        "intro",
+        "section-heading",
+        "card-carousel",
+        "hero-card",
+        "collections",
+        "explore",
+        "cards-wall",
+        "awards"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/en/insights",
+        "deployedAt": "2026-11-15T20:39:37.598Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.58,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-investors",
+      "path": "/en/investors",
+      "title": "Investors | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:928d88eef5428fedac1d0dcabacd9dbc33fe668936716ecdf16c2188622b935c",
+        "currentStatePath": "stardust/current/pages/en-investors.json",
+        "sourceUrl": "https://www.reply.com/en/investors"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": "2026-11-16T19:45:38.475Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.85,
+          "heightDelta": -116,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-iot",
+      "path": "/en/iot",
+      "title": "IoT - Internet of Things Solutions | Reply",
+      "templateId": "en-iot",
+      "source": {
+        "migratedHtml": "stardust/migrated/en/iot.html",
+        "metaJson": "stardust/migrated/en/iot/_meta.json",
+        "sourceHash": "sha256:348b1e6310292420ea7e7c11f1eb7a33b84849b737abf29ee503128309ceac00",
+        "sourceUrl": "https://www.reply.com/en/iot"
+      },
+      "blocks": [
+        "media-hero",
+        "statement",
+        "featured",
+        "cards-wall",
+        "section-heading",
+        "labs",
+        "awards",
+        "rose-cta",
+        "discover-also"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/en/iot",
+        "deployedAt": "2026-11-15T20:15:58.819Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.43,
+          "heightDelta": -24,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-labs",
+      "path": "/en/labs",
+      "title": "Reply Labs - Making Innovation Real | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:83f43f4dc66871a0b63dc0f0a3cf8b6610ec79412920878f5caf089126f6eb6e",
+        "currentStatePath": "stardust/current/pages/en-labs.json",
+        "sourceUrl": "https://www.reply.com/en/labs"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": "2026-11-16T19:45:38.536Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.62,
+          "heightDelta": 0,
+          "clipped": 1,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-learning-partner-for-microsoft",
+      "path": "/en/learning-partner-for-microsoft",
+      "title": "Learning Partner for Microsoft | Reply",
+      "templateId": "editorial",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:fcff537230dc8a0d58c00425f0afbd318858cb633941948e239491920d14eac4",
+        "currentStatePath": "stardust/current/pages/en-learning-partner-for-microsoft.json",
+        "sourceUrl": "https://www.reply.com/en/learning-partner-for-microsoft"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/en/learning-partner-for-microsoft",
+        "deployedAt": "2026-11-15T14:53:54.888Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.51,
+          "heightDelta": 54,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/ue5/merged-360.json",
+          "at": "2026-11-17T05:34:11.844Z"
+        }
+      }
+    },
+    {
+      "slug": "en-logistics",
+      "path": "/en/logistics",
+      "title": "Logistic solutions | Reply",
+      "templateId": "hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:a529b4cd360ddcd3b61a47c39b5914e12b2dd63f57d4bfc66f5a940c702e3b23",
+        "currentStatePath": "stardust/current/pages/en-logistics.json",
+        "sourceUrl": "https://www.reply.com/en/logistics"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.06,
+          "heightDelta": 14,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 7,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/.work/rollout/s19/merged-360.json",
+          "at": "2026-11-17T04:19:14.493Z"
+        }
+      }
+    },
+    {
+      "slug": "en-lufhtansa",
+      "path": "/en/lufhtansa",
+      "title": "Lufhtansa | Reply",
+      "templateId": "plain",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:bce7c3511f0d7b8a2f231b9024709aef2137857abf2e781c4ca9c51120812e80",
+        "currentStatePath": "stardust/current/pages/en-lufhtansa.json",
+        "sourceUrl": "https://www.reply.com/en/lufhtansa"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": "2026-11-16T19:45:38.595Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.56,
+          "heightDelta": 27,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-master-polito-artificial-intelligence-and-cloud",
+      "path": "/en/master-polito-artificial-intelligence-and-cloud",
+      "title": "Master’s Degree in Artificial Intelligence & Cloud | Reply",
+      "templateId": "editorial",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:cd16b7cf075a50aabbf13ca98dbc213dfa017a23f0b568dfe1710b3f4b593d6b",
+        "currentStatePath": "stardust/current/pages/en-master-polito-artificial-intelligence-and-cloud.json",
+        "sourceUrl": "https://www.reply.com/en/master-polito-artificial-intelligence-and-cloud"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/en/master-polito-artificial-intelligence-and-cloud",
+        "deployedAt": "2026-11-15T14:53:54.965Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.51,
+          "heightDelta": 201,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 2,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-metaminutes-s3-e1-metaverse-quantum-and-finance",
+      "path": "/en/metaminutes-s3-e1-metaverse-quantum-and-finance",
+      "title": "Metaverse, Quantum and Finance - Meta Minutes series | Reply",
+      "templateId": "plain",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:291e0b42b471952590af149de625a72ab9fb1e73b754945c90dab01768f93667",
+        "currentStatePath": "stardust/current/pages/en-metaminutes-s3-e1-metaverse-quantum-and-finance.json",
+        "sourceUrl": "https://www.reply.com/en/metaminutes-s3-e1-metaverse-quantum-and-finance"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": "2026-11-16T19:45:38.653Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.07,
+          "heightDelta": -8,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-metaminutes-s3-e10-generative-ai-for-the-metaverse",
+      "path": "/en/metaminutes-s3-e10-generative-ai-for-the-metaverse",
+      "title": "Generative AI for the Metaverse | Reply",
+      "templateId": "plain",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:2ce53d36e2bef0509dfb0efeb7ace09b25e2fbf7162500c0bb500f06638274bd",
+        "currentStatePath": "stardust/current/pages/en-metaminutes-s3-e10-generative-ai-for-the-metaverse.json",
+        "sourceUrl": "https://www.reply.com/en/metaminutes-s3-e10-generative-ai-for-the-metaverse"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": "2026-11-16T19:45:38.716Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.63,
+          "heightDelta": -8,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-metaminutes-s3-e2-education-in-the-metaverse-for-emerging-markets",
+      "path": "/en/metaminutes-s3-e2-education-in-the-metaverse-for-emerging-markets",
+      "title": "Education in the Metaverse for Emerging Markets - Meta Minutes series | Reply",
+      "templateId": "plain",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:b0857eff26ee98cfa6069c42247e8d65ce4547860cdd108ff0992c609b76a5d5",
+        "currentStatePath": "stardust/current/pages/en-metaminutes-s3-e2-education-in-the-metaverse-for-emerging-markets.json",
+        "sourceUrl": "https://www.reply.com/en/metaminutes-s3-e2-education-in-the-metaverse-for-emerging-markets"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": "2026-11-16T19:45:38.781Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.23,
+          "heightDelta": -9,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "en-metaminutes-s3-e3-mixed-reality-first-responder-training",
+      "path": "/en/metaminutes-s3-e3-mixed-reality-first-responder-training",
+      "title": "Mixed Reality First Responder Training | Reply",
+      "templateId": "plain",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0876f6846fb3fd0f9b83d2e24a7843009f0b64f71cf6e0cc98993af3e9ce1fd3",
+        "currentStatePath": "stardust/current/pages/en-metaminutes-s3-e3-mixed-reality-first-responder-training.json",
+        "sourceUrl": "https://www.reply.com/en/metaminutes-s3-e3-mixed-reality-first-responder-training"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": "2026-11-16T19:45:38.838Z",
+        "verifiedAt": "2026-11-16T21:46:27.679Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.05,
+          "heightDelta": -9,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "Digital Services, Technology and Consulting | Reply",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:31e37b43338fa63dff8bb1ab863004de812a7fb61dfe6d21d8e554ed4cb9563e",
+        "sourceUrl": "https://www.reply.com/"
+      },
+      "blocks": [
+        "hero-slider",
+        "card-carousel",
+        "statement",
+        "feature",
+        "make",
+        "cards-wall",
+        "section-heading",
+        "rose-cta"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "deployed",
+        "deployedUrl": "https://main--a355dc1b--aemcoder.aem.live/",
+        "deployedAt": "2026-11-17T02:00:37.541Z",
+        "verifiedAt": null,
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.11,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 4,
+            "controlState": 0,
+            "missingButtons": 7,
+            "hiddenButtons": 0,
+            "findings": 19,
+            "variable": [
+              ".card-carousel-runtime=.card-carousel",
+              ".card-carousel-runtime=.believe-rail"
+            ]
+          },
+          "reasons": [
+            "content MISSING 0 / HIDDEN 4"
+          ],
+          "override": "instrument",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T01:58:19.134Z"
+        }
+      }
+    }
+  ]
+}

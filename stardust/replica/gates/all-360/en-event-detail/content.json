@@ -1,0 +1,3923 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-17T01:46:27.416Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.reply.com/en/event-detail",
+  "at": "2026-11-17T01:46:06.971Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5086,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-bottom.w-full > div.logo.flex > a",
+    "x": 40,
+    "y": 0,
+    "w": 129,
+    "h": 64,
+    "text": "go to homepage",
+    "href": "/en"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 232,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 232,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.lg:hidden.first-level > button#mobile-menu-toggle",
+    "x": 296,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "text": "toggle menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.lg:hidden.first-level > button#mobile-menu-toggle",
+    "x": 296,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "label": "toggle menu",
+    "value": "toggle menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "eventpagetop-runtime > div.eventpagetop__title.d-flex > h1.h1--light.line-clamp-4",
+    "x": 40,
+    "y": 203,
+    "w": 280,
+    "h": 158,
+    "level": 1,
+    "text": "title max 55 characters tellus dui aliquam."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "eventpagetop-runtime > div.eventpagetop__infobox.infobox > div.h6.infobox__label",
+    "x": 64,
+    "y": 468,
+    "w": 232,
+    "h": 23,
+    "text": "Info"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-maz2d > span.colors-oc5-d5",
+    "x": 40,
+    "y": 648,
+    "w": 42,
+    "h": 11,
+    "text": "Label"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#JRagt",
+    "x": 40,
+    "y": 677,
+    "w": 280,
+    "h": 134,
+    "level": 2,
+    "text": "title 55 characters max, lorem ipsum dolor sit amet"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-xufux",
+    "x": 40,
+    "y": 836,
+    "w": 280,
+    "h": 119,
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis erat co"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.yffdjmomjz.yffdjmomjz-md > div > button#YHkhR",
+    "x": 40,
+    "y": 979,
+    "w": 110,
+    "h": 41,
+    "text": "do something"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-teki4",
+    "x": 80,
+    "y": 1100,
+    "w": 116,
+    "h": 24,
+    "text": "Tab"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 80,
+    "y": 1126,
+    "w": 107,
+    "h": 16,
+    "text": "Day, Month 00"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-teki4",
+    "x": 276,
+    "y": 1100,
+    "w": 116,
+    "h": 24,
+    "text": "Tab"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 276,
+    "y": 1126,
+    "w": 107,
+    "h": 16,
+    "text": "Day, Month 00"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 40,
+    "y": 1230,
+    "w": 70,
+    "h": 16,
+    "text": "00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 40,
+    "y": 1254,
+    "w": 70,
+    "h": 16,
+    "text": "00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-qqvt1",
+    "x": 40,
+    "y": 1283,
+    "w": 280,
+    "h": 109,
+    "text": "Title 100 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ccpplczhao.ccpplczhao-md > div.inline-block > div.tag-badge",
+    "x": 40,
+    "y": 1400,
+    "w": 76,
+    "h": 22,
+    "text": "category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-vgevi > span.colors-oc5-d5",
+    "x": 40,
+    "y": 1448,
+    "w": 275,
+    "h": 181,
+    "text": "Title 200 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 40,
+    "y": 1677,
+    "w": 70,
+    "h": 16,
+    "text": "00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 40,
+    "y": 1701,
+    "w": 70,
+    "h": 16,
+    "text": "00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-qqvt1",
+    "x": 40,
+    "y": 1730,
+    "w": 280,
+    "h": 109,
+    "text": "Title 100 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ccpplczhao.ccpplczhao-md > div.inline-block > div.tag-badge",
+    "x": 40,
+    "y": 1846,
+    "w": 76,
+    "h": 22,
+    "text": "category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-vgevi > span.colors-oc5-d5",
+    "x": 40,
+    "y": 1894,
+    "w": 275,
+    "h": 181,
+    "text": "Title 200 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 40,
+    "y": 2124,
+    "w": 70,
+    "h": 16,
+    "text": "00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 40,
+    "y": 2148,
+    "w": 70,
+    "h": 16,
+    "text": "00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-qqvt1",
+    "x": 40,
+    "y": 2176,
+    "w": 280,
+    "h": 109,
+    "text": "Title 100 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ccpplczhao.ccpplczhao-md > div.inline-block > div.tag-badge",
+    "x": 40,
+    "y": 2293,
+    "w": 76,
+    "h": 22,
+    "text": "category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-vgevi > span.colors-oc5-d5",
+    "x": 40,
+    "y": 2341,
+    "w": 275,
+    "h": 181,
+    "text": "Title 200 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 40,
+    "y": 2571,
+    "w": 70,
+    "h": 16,
+    "text": "00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 40,
+    "y": 2594,
+    "w": 70,
+    "h": 16,
+    "text": "00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-qqvt1",
+    "x": 40,
+    "y": 2623,
+    "w": 280,
+    "h": 109,
+    "text": "Title 100 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ccpplczhao.ccpplczhao-md > div.inline-block > div.tag-badge",
+    "x": 40,
+    "y": 2740,
+    "w": 76,
+    "h": 22,
+    "text": "category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-vgevi > span.colors-oc5-d5",
+    "x": 40,
+    "y": 2788,
+    "w": 275,
+    "h": 181,
+    "text": "Title 200 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 40,
+    "y": 3017,
+    "w": 70,
+    "h": 16,
+    "text": "00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 40,
+    "y": 3041,
+    "w": 70,
+    "h": 16,
+    "text": "00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-qqvt1",
+    "x": 40,
+    "y": 3070,
+    "w": 280,
+    "h": 109,
+    "text": "Title 100 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ccpplczhao.ccpplczhao-md > div.inline-block > div.tag-badge",
+    "x": 40,
+    "y": 3187,
+    "w": 76,
+    "h": 22,
+    "text": "category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-vgevi > span.colors-oc5-d5",
+    "x": 40,
+    "y": 3235,
+    "w": 275,
+    "h": 181,
+    "text": "Title 200 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 40,
+    "y": 3464,
+    "w": 70,
+    "h": 16,
+    "text": "00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+    "x": 40,
+    "y": 3488,
+    "w": 70,
+    "h": 16,
+    "text": "00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-qqvt1",
+    "x": 40,
+    "y": 3517,
+    "w": 280,
+    "h": 109,
+    "text": "Title 100 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ccpplczhao.ccpplczhao-md > div.inline-block > div.tag-badge",
+    "x": 40,
+    "y": 3634,
+    "w": 76,
+    "h": 22,
+    "text": "category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > p.text-vgevi > span.colors-oc5-d5",
+    "x": 40,
+    "y": 3682,
+    "w": 275,
+    "h": 181,
+    "text": "Title 200 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.block > nav.footer.p-10 > a",
+    "x": 40,
+    "y": 3908,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 40,
+    "y": 4004,
+    "w": 280,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 40,
+    "y": 4004,
+    "w": 280,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 4052,
+    "w": 103,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 4089,
+    "w": 45,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 4125,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 4162,
+    "w": 67,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 40,
+    "y": 4219,
+    "w": 280,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 40,
+    "y": 4219,
+    "w": 280,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 4266,
+    "w": 142,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 4303,
+    "w": 165,
+    "h": 17,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 4340,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 4377,
+    "w": 149,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 4414,
+    "w": 161,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 4450,
+    "w": 127,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 4487,
+    "w": 208,
+    "h": 34,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 4541,
+    "w": 261,
+    "h": 17,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 4578,
+    "w": 154,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 4614,
+    "w": 147,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 4651,
+    "w": 261,
+    "h": 17,
+    "text": "do not sell/share my personal information",
+    "href": "void(0)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Careers",
+    "x": 40,
+    "y": 4708,
+    "w": 280,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Contacts",
+    "x": 40,
+    "y": 4812,
+    "w": 280,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 40,
+    "y": 4916,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 52,
+    "y": 4928,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 117,
+    "y": 4916,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 129,
+    "y": 4928,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "a6732ee4-95cf-4951-9c4b-3675c7154f7e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 195,
+    "y": 4916,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 207,
+    "y": 4928,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "49664893-bfc1-4d79-9208-3bdd7083126b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 272,
+    "y": 4916,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 284,
+    "y": 4928,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "c48097ef-90ed-4c24-aa40-1764649e72ff"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > span",
+    "x": 32,
+    "y": 5040,
+    "w": 136,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > a.underline",
+    "x": 32,
+    "y": 5057,
+    "w": 136,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.text-white.py-3 > div.flex.justify-between > button#cookie-pref-center",
+    "x": 296,
+    "y": 832,
+    "w": 48,
+    "h": 48,
+    "text": "open cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 1,
+    "offPage": 2,
+    "textNodes": 70,
+    "controls": 30,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.tabs-nav__wrapper.overflow-hidden",
+     "path": "div.block > div.ProseMirror.content-body > p.text-teki4 > span.colors-oc5-d5",
+     "text": "day, month 00",
+     "cutMin": 23,
+     "cutMax": 23
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--a355dc1b--aemcoder.aem.live/en/event-detail",
+  "at": "2026-11-17T01:46:27.295Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5028,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-main > div.site-header-logo > a",
+    "x": 40,
+    "y": 0,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "href": "/en"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-reply-logo > img",
+    "x": 40,
+    "y": 0,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "file": "reply-logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 232,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 232,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.mobile-toggle > button#mobile-menu-toggle",
+    "x": 296,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "text": "toggle menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.mobile-toggle > button#mobile-menu-toggle",
+    "x": 296,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "label": "toggle menu",
+    "value": "toggle menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-hero-grid > div.event-hero-title > h1#title-max-55-characters-tellus-dui-aliquam",
+    "x": 40,
+    "y": 203,
+    "w": 280,
+    "h": 158,
+    "level": 1,
+    "text": "title max 55 characters tellus dui aliquam."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-hero-grid > div.event-hero-infobox > div.event-hero-info-label",
+    "x": 64,
+    "y": 468,
+    "w": 232,
+    "h": 23,
+    "text": "Info"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-intro > div.event-agenda-label > p",
+    "x": 40,
+    "y": 647,
+    "w": 280,
+    "h": 14,
+    "text": "Label"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-intro > div.event-agenda-title > h2#title-55-characters-max-lorem-ipsum-dolor-sit-amet",
+    "x": 40,
+    "y": 677,
+    "w": 280,
+    "h": 101,
+    "level": 2,
+    "text": "title 55 characters max, lorem ipsum dolor sit amet"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-intro > div.event-agenda-text > p",
+    "x": 40,
+    "y": 802,
+    "w": 280,
+    "h": 95,
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis erat co"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-intro > div.event-agenda-cta > button.button.secondary",
+    "x": 40,
+    "y": 921,
+    "w": 110,
+    "h": 41,
+    "text": "do something"
+   },
+   {
+    "kind": "button",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-tabber > div.event-agenda-tabs > button#event-agenda-im29v-tab-0",
+    "x": -114,
+    "y": 1018,
+    "w": 196,
+    "h": 96,
+    "text": "day, month 00"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-tabber > div.event-agenda-tabs > button#event-agenda-im29v-tab-1",
+    "x": 82,
+    "y": 1018,
+    "w": 196,
+    "h": 96,
+    "text": "tab day, month 00"
+   },
+   {
+    "kind": "button",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-tabber > div.event-agenda-tabs > button#event-agenda-im29v-tab-2",
+    "x": 278,
+    "y": 1018,
+    "w": 196,
+    "h": 96,
+    "text": "tab day, month 00"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-time > p",
+    "x": 40,
+    "y": 1170,
+    "w": 280,
+    "h": 48,
+    "text": "00:00 PM 00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-session-title > p",
+    "x": 40,
+    "y": 1225,
+    "w": 280,
+    "h": 109,
+    "text": "Title 100 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-category > span.event-agenda-tag",
+    "x": 40,
+    "y": 1342,
+    "w": 81,
+    "h": 22,
+    "text": "category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-desc > p",
+    "x": 40,
+    "y": 1386,
+    "w": 280,
+    "h": 190,
+    "text": "Title 200 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-time > p",
+    "x": 40,
+    "y": 1617,
+    "w": 280,
+    "h": 48,
+    "text": "00:00 PM 00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-session-title > p",
+    "x": 40,
+    "y": 1672,
+    "w": 280,
+    "h": 109,
+    "text": "Title 100 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-category > span.event-agenda-tag",
+    "x": 40,
+    "y": 1789,
+    "w": 81,
+    "h": 22,
+    "text": "category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-desc > p",
+    "x": 40,
+    "y": 1833,
+    "w": 280,
+    "h": 190,
+    "text": "Title 200 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-time > p",
+    "x": 40,
+    "y": 2063,
+    "w": 280,
+    "h": 48,
+    "text": "00:00 PM 00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-session-title > p",
+    "x": 40,
+    "y": 2119,
+    "w": 280,
+    "h": 109,
+    "text": "Title 100 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-category > span.event-agenda-tag",
+    "x": 40,
+    "y": 2236,
+    "w": 81,
+    "h": 22,
+    "text": "category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-desc > p",
+    "x": 40,
+    "y": 2280,
+    "w": 280,
+    "h": 190,
+    "text": "Title 200 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-time > p",
+    "x": 40,
+    "y": 2510,
+    "w": 280,
+    "h": 48,
+    "text": "00:00 PM 00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-session-title > p",
+    "x": 40,
+    "y": 2566,
+    "w": 280,
+    "h": 109,
+    "text": "Title 100 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-category > span.event-agenda-tag",
+    "x": 40,
+    "y": 2683,
+    "w": 81,
+    "h": 22,
+    "text": "category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-desc > p",
+    "x": 40,
+    "y": 2727,
+    "w": 280,
+    "h": 190,
+    "text": "Title 200 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-time > p",
+    "x": 40,
+    "y": 2957,
+    "w": 280,
+    "h": 48,
+    "text": "00:00 PM 00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-session-title > p",
+    "x": 40,
+    "y": 3013,
+    "w": 280,
+    "h": 109,
+    "text": "Title 100 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-category > span.event-agenda-tag",
+    "x": 40,
+    "y": 3129,
+    "w": 81,
+    "h": 22,
+    "text": "category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-desc > p",
+    "x": 40,
+    "y": 3173,
+    "w": 280,
+    "h": 190,
+    "text": "Title 200 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-time > p",
+    "x": 40,
+    "y": 3404,
+    "w": 280,
+    "h": 48,
+    "text": "00:00 PM 00:00 PM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-session-title > p",
+    "x": 40,
+    "y": 3459,
+    "w": 280,
+    "h": 109,
+    "text": "Title 100 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-category > span.event-agenda-tag",
+    "x": 40,
+    "y": 3576,
+    "w": 81,
+    "h": 22,
+    "text": "category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.event-agenda-session > div.event-agenda-desc > p",
+    "x": 40,
+    "y": 3620,
+    "w": 280,
+    "h": 190,
+    "text": "Title 200 characters max lorem ipsum dolor sit amet lorem ipsum dolor sit amet l"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-wrap > nav.footer-nav > a.footer-nav-home",
+    "x": 40,
+    "y": 3851,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 40,
+    "y": 3947,
+    "w": 280,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 40,
+    "y": 3947,
+    "w": 280,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 40,
+    "y": 3994,
+    "w": 102,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 40,
+    "y": 4031,
+    "w": 43,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 40,
+    "y": 4068,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 40,
+    "y": 4105,
+    "w": 66,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 40,
+    "y": 4162,
+    "w": 280,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 40,
+    "y": 4162,
+    "w": 280,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 4209,
+    "w": 145,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 4246,
+    "w": 163,
+    "h": 17,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 4283,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 4319,
+    "w": 150,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 4356,
+    "w": 160,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 4393,
+    "w": 131,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 4430,
+    "w": 206,
+    "h": 34,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 4483,
+    "w": 266,
+    "h": 17,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 4520,
+    "w": 153,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 4557,
+    "w": 143,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 4594,
+    "w": 262,
+    "h": 17,
+    "text": "do not sell/share my personal information",
+    "href": "/en/event-detail"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 40,
+    "y": 4651,
+    "w": 280,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 40,
+    "y": 4755,
+    "w": 280,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 40,
+    "y": 4859,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 52,
+    "y": 4871,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 117,
+    "y": 4859,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 129,
+    "y": 4871,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 195,
+    "y": 4859,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 207,
+    "y": 4871,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-linkedin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 272,
+    "y": 4859,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 284,
+    "y": 4871,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-xing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > span",
+    "x": 32,
+    "y": 4983,
+    "w": 131,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > a",
+    "x": 32,
+    "y": 4999,
+    "w": 131,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-inner > div.site-legal-row > button#cookie-pref-center",
+    "x": 296,
+    "y": 832,
+    "w": 48,
+    "h": 48,
+    "text": "open cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 4,
+    "offPage": 1,
+    "textNodes": 70,
+    "controls": 33,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.event-agenda-tabs",
+     "path": "div.event-agenda-tabber > div.event-agenda-tabs > button#event-agenda-im29v-tab-0 > span.event-agenda-tab-date",
+     "text": "day, month 00",
+     "cutMin": 62,
+     "cutMax": 74
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.event-agenda-tabs",
+     "path": "div.event-agenda-grid.r-grid > div.event-agenda-tabber > div.event-agenda-tabs > button#event-agenda-im29v-tab-0",
+     "text": "tabday, month 00",
+     "cutMin": 114,
+     "cutMax": 114
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.event-agenda-tabs",
+     "path": "div.event-agenda-grid.r-grid > div.event-agenda-tabber > div.event-agenda-tabs > button#event-agenda-im29v-tab-2",
+     "text": "tabday, month 00",
+     "cutMin": 114,
+     "cutMax": 114
+    }
+   ],
+   "findings": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 114,
+     "path": "div.event-agenda-grid.r-grid > div.event-agenda-tabber > div.event-agenda-tabs > button#event-agenda-im29v-tab-0",
+     "text": "tabday, month 00",
+     "clipper": "div.event-agenda-tabs",
+     "rect": {
+      "l": -114,
+      "t": 1018,
+      "r": 82,
+      "b": 1114,
+      "w": 196,
+      "h": 96
+     },
+     "clip": {
+      "l": 0,
+      "t": 962,
+      "r": 360,
+      "b": 1170,
+      "w": 360,
+      "h": 208
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 74,
+     "path": "div.event-agenda-tabber > div.event-agenda-tabs > button#event-agenda-im29v-tab-0 > span.event-agenda-tab-date",
+     "text": "day, month 00",
+     "clipper": "div.event-agenda-tabs",
+     "rect": {
+      "l": -74,
+      "t": 1069,
+      "r": 30,
+      "b": 1085,
+      "w": 104,
+      "h": 16
+     },
+     "clip": {
+      "l": 0,
+      "t": 962,
+      "r": 360,
+      "b": 1170,
+      "w": 360,
+      "h": 208
+     },
+     "lines": 1
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 114,
+     "path": "div.event-agenda-grid.r-grid > div.event-agenda-tabber > div.event-agenda-tabs > button#event-agenda-im29v-tab-2",
+     "text": "tabday, month 00",
+     "clipper": "div.event-agenda-tabs",
+     "rect": {
+      "l": 278,
+      "t": 1018,
+      "r": 474,
+      "b": 1114,
+      "w": 196,
+      "h": 96
+     },
+     "clip": {
+      "l": 0,
+      "t": 962,
+      "r": 360,
+      "b": 1170,
+      "w": 360,
+      "h": 208
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 62,
+     "path": "div.event-agenda-tabber > div.event-agenda-tabs > button#event-agenda-im29v-tab-2 > span.event-agenda-tab-date",
+     "text": "day, month 00",
+     "clipper": "div.event-agenda-tabs",
+     "rect": {
+      "l": 318,
+      "t": 1069,
+      "r": 422,
+      "b": 1085,
+      "w": 104,
+      "h": 16
+     },
+     "clip": {
+      "l": 0,
+      "t": 962,
+      "r": 360,
+      "b": 1170,
+      "w": 360,
+      "h": 208
+     },
+     "lines": 1
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "title max 55 characters tellus dui aliquam.",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "title 55 characters max, lorem ipsum dolor sit amet",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 35,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 2,
+    "text": 25,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "COUNT TEXT"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"tab day, month 00\" served in band \"title 55 characters max, lorem ipsum dolor sit amet\", no origin link or button",
+   "band": 2,
+   "n": 1,
+   "text": "tab day, month 00"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT TEXT",
+   "msg": "band \"title 55 characters max, lorem ipsum dolor sit amet\": 35 origin → 25 served visible",
+   "band": 2,
+   "origin": 35,
+   "eds": 25,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 1,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 1,
+  "findings": 2,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 40,
+    "y": 202,
+    "w": 227,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 241,
+    "w": 202,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 281,
+    "w": 164,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 321,
+    "w": 161,
+    "h": 40
+   },
+   {
+    "x": 64,
+    "y": 469,
+    "w": 37,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 648,
+    "w": 42,
+    "h": 11
+   },
+   {
+    "x": 40,
+    "y": 677,
+    "w": 116,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 711,
+    "w": 247,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 745,
+    "w": 268,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 778,
+    "w": 121,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 839,
+    "w": 202,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 863,
+    "w": 241,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 886,
+    "w": 204,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 910,
+    "w": 255,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 934,
+    "w": 53,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 992,
+    "w": 110,
+    "h": 13
+   },
+   {
+    "x": 80,
+    "y": 1103,
+    "w": 27,
+    "h": 16
+   },
+   {
+    "x": 80,
+    "y": 1126,
+    "w": 107,
+    "h": 16
+   },
+   {
+    "x": 276,
+    "y": 1103,
+    "w": 27,
+    "h": 16
+   },
+   {
+    "x": 276,
+    "y": 1126,
+    "w": 107,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 1230,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 1254,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 1287,
+    "w": 264,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1314,
+    "w": 280,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1341,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1368,
+    "w": 21,
+    "h": 18
+   },
+   {
+    "x": 48,
+    "y": 1407,
+    "w": 60,
+    "h": 11
+   },
+   {
+    "x": 40,
+    "y": 1448,
+    "w": 261,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1475,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1502,
+    "w": 267,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1529,
+    "w": 244,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1556,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1584,
+    "w": 271,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1611,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1677,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 1701,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 1734,
+    "w": 264,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1761,
+    "w": 280,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1788,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1815,
+    "w": 21,
+    "h": 18
+   },
+   {
+    "x": 48,
+    "y": 1853,
+    "w": 60,
+    "h": 11
+   },
+   {
+    "x": 40,
+    "y": 1894,
+    "w": 261,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1922,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1949,
+    "w": 267,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1976,
+    "w": 244,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2003,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2030,
+    "w": 271,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2058,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2124,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 2148,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 2180,
+    "w": 264,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2208,
+    "w": 280,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2235,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2262,
+    "w": 21,
+    "h": 18
+   },
+   {
+    "x": 48,
+    "y": 2300,
+    "w": 60,
+    "h": 11
+   },
+   {
+    "x": 40,
+    "y": 2341,
+    "w": 261,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2368,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2396,
+    "w": 267,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2423,
+    "w": 244,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2450,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2477,
+    "w": 271,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2504,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2571,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 2594,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 2627,
+    "w": 264,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2654,
+    "w": 280,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2682,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2709,
+    "w": 21,
+    "h": 18
+   },
+   {
+    "x": 48,
+    "y": 2747,
+    "w": 60,
+    "h": 11
+   },
+   {
+    "x": 40,
+    "y": 2788,
+    "w": 261,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2815,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2842,
+    "w": 267,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2870,
+    "w": 244,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2897,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2924,
+    "w": 271,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2951,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3017,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3041,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3074,
+    "w": 264,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3101,
+    "w": 280,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3128,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3156,
+    "w": 21,
+    "h": 18
+   },
+   {
+    "x": 48,
+    "y": 3194,
+    "w": 60,
+    "h": 11
+   },
+   {
+    "x": 40,
+    "y": 3235,
+    "w": 261,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3262,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3289,
+    "w": 267,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3316,
+    "w": 244,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3344,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3371,
+    "w": 271,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3398,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3464,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3488,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3521,
+    "w": 264,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3548,
+    "w": 280,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3575,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3602,
+    "w": 21,
+    "h": 18
+   },
+   {
+    "x": 48,
+    "y": 3641,
+    "w": 60,
+    "h": 11
+   },
+   {
+    "x": 40,
+    "y": 3682,
+    "w": 261,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3709,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3736,
+    "w": 267,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3763,
+    "w": 244,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3791,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3818,
+    "w": 271,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3845,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4005,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4053,
+    "w": 103,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4090,
+    "w": 45,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4126,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4163,
+    "w": 67,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4220,
+    "w": 135,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4267,
+    "w": 142,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4304,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 4304,
+    "w": 73,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4341,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 4341,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4378,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 4378,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4415,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 4415,
+    "w": 69,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4451,
+    "w": 127,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4488,
+    "w": 208,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4505,
+    "w": 39,
+    "h": 13
+   },
+   {
+    "x": 79,
+    "y": 4505,
+    "w": 51,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4542,
+    "w": 196,
+    "h": 13
+   },
+   {
+    "x": 236,
+    "y": 4542,
+    "w": 64,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4579,
+    "w": 154,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4615,
+    "w": 147,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4652,
+    "w": 261,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4724,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 4828,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 5041,
+    "w": 81,
+    "h": 13
+   },
+   {
+    "x": 32,
+    "y": 5058,
+    "w": 136,
+    "h": 13
+   }
+  ],
+  "eds": [
+   {
+    "x": 40,
+    "y": 202,
+    "w": 227,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 241,
+    "w": 195,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 281,
+    "w": 160,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 321,
+    "w": 154,
+    "h": 40
+   },
+   {
+    "x": 64,
+    "y": 469,
+    "w": 35,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 647,
+    "w": 47,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 677,
+    "w": 272,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 711,
+    "w": 257,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 745,
+    "w": 197,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 805,
+    "w": 197,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 829,
+    "w": 232,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 853,
+    "w": 273,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 877,
+    "w": 225,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 933,
+    "w": 110,
+    "h": 16
+   },
+   {
+    "x": -74,
+    "y": 1069,
+    "w": 104,
+    "h": 16
+   },
+   {
+    "x": 122,
+    "y": 1045,
+    "w": 27,
+    "h": 16
+   },
+   {
+    "x": 122,
+    "y": 1069,
+    "w": 104,
+    "h": 16
+   },
+   {
+    "x": 318,
+    "y": 1045,
+    "w": 27,
+    "h": 16
+   },
+   {
+    "x": 318,
+    "y": 1069,
+    "w": 104,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 1173,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 1197,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 1229,
+    "w": 257,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1257,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1284,
+    "w": 265,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1311,
+    "w": 20,
+    "h": 18
+   },
+   {
+    "x": 48,
+    "y": 1349,
+    "w": 65,
+    "h": 11
+   },
+   {
+    "x": 40,
+    "y": 1390,
+    "w": 253,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1417,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1445,
+    "w": 259,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1472,
+    "w": 237,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1499,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1526,
+    "w": 263,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1553,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1620,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 1643,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 1676,
+    "w": 257,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1703,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1731,
+    "w": 265,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1758,
+    "w": 20,
+    "h": 18
+   },
+   {
+    "x": 48,
+    "y": 1796,
+    "w": 65,
+    "h": 11
+   },
+   {
+    "x": 40,
+    "y": 1837,
+    "w": 253,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1864,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1891,
+    "w": 259,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1919,
+    "w": 237,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1946,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1973,
+    "w": 263,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2000,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2066,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 2090,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 2123,
+    "w": 257,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2150,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2177,
+    "w": 265,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2205,
+    "w": 20,
+    "h": 18
+   },
+   {
+    "x": 48,
+    "y": 2243,
+    "w": 65,
+    "h": 11
+   },
+   {
+    "x": 40,
+    "y": 2284,
+    "w": 253,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2311,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2338,
+    "w": 259,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2365,
+    "w": 237,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2393,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2420,
+    "w": 263,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2447,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2513,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 2537,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 2570,
+    "w": 257,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2597,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2624,
+    "w": 265,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2651,
+    "w": 20,
+    "h": 18
+   },
+   {
+    "x": 48,
+    "y": 2690,
+    "w": 65,
+    "h": 11
+   },
+   {
+    "x": 40,
+    "y": 2731,
+    "w": 253,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2758,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2785,
+    "w": 259,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2812,
+    "w": 237,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2839,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2867,
+    "w": 263,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2894,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2960,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 2984,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3017,
+    "w": 257,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3044,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3071,
+    "w": 265,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3098,
+    "w": 20,
+    "h": 18
+   },
+   {
+    "x": 48,
+    "y": 3136,
+    "w": 65,
+    "h": 11
+   },
+   {
+    "x": 40,
+    "y": 3177,
+    "w": 253,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3205,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3232,
+    "w": 259,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3259,
+    "w": 237,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3286,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3313,
+    "w": 263,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3341,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3407,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3431,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 3463,
+    "w": 257,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3491,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3518,
+    "w": 265,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3545,
+    "w": 20,
+    "h": 18
+   },
+   {
+    "x": 48,
+    "y": 3583,
+    "w": 65,
+    "h": 11
+   },
+   {
+    "x": 40,
+    "y": 3624,
+    "w": 253,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3652,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3679,
+    "w": 259,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3706,
+    "w": 237,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3733,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3760,
+    "w": 263,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3788,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3947,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3995,
+    "w": 102,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4032,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4069,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4106,
+    "w": 66,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4162,
+    "w": 135,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4210,
+    "w": 145,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4247,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 4247,
+    "w": 71,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4284,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 4284,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4320,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 4320,
+    "w": 58,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4357,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 4357,
+    "w": 68,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4394,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4431,
+    "w": 206,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4448,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 80,
+    "y": 4448,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4484,
+    "w": 200,
+    "h": 13
+   },
+   {
+    "x": 240,
+    "y": 4484,
+    "w": 65,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4521,
+    "w": 153,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4558,
+    "w": 143,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4595,
+    "w": 262,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 4666,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4770,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 32,
+    "y": 4984,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 32,
+    "y": 5000,
+    "w": 131,
+    "h": 13
+   }
+  ]
+ }
+}

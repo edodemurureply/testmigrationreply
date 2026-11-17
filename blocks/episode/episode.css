@@ -1,0 +1,331 @@
+/* episode — Meta Minutes podcast episode (reply.com plain template). Lifted from the captured
+   page sheet (stardust/current/assets/css/pages/en-metaminutes-*.css) and styles-eca1f14e.css. */
+.episode {
+  display: block;
+  width: 100%;
+  color: #000;
+}
+
+/* ---------- hero (section .vbrjbrsxgw / cell .nrthuwmvwu) ---------- */
+.episode .episode-hero {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.episode .episode-hero-cell {
+  grid-column: 1 / 5;
+  justify-content: flex-start;
+}
+
+.episode .episode-label {
+  margin-bottom: 16px;
+  font-family: var(--font-label);
+  font-size: 10px;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+.episode .episode-label p {
+  margin: 0;
+}
+
+.episode .episode-title :is(h1, h2) {
+  font-family: var(--font-display);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 110%;
+}
+
+.episode .episode-speakers {
+  display: grid;
+  grid-template-columns: 1fr 11fr;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.episode .episode-speakers-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.episode .episode-speakers-icon :is(p, picture) {
+  margin: 0;
+}
+
+.episode .episode-speakers-icon img {
+  display: block;
+  width: 30px;
+  height: auto;
+}
+
+.episode .episode-speakers-text p {
+  margin: 0;
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+/* below 576 the source stacks its two 42px spacer cells under the badges (the first with the
+   cells' 10px top padding): 52 + 42 = 94px before the player */
+.episode .episode-badges {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 30px;
+  margin-bottom: 94px;
+}
+
+.episode .episode-badge {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 10px;
+}
+
+.episode .episode-badge :is(p, picture) {
+  margin: 0;
+}
+
+.episode .episode-badge a {
+  display: block;
+}
+
+.episode .episode-badge img {
+  display: block;
+  width: 150px;
+  height: auto;
+}
+
+/* ---------- player (section .uclphiqjej: half transparent / half ink) ---------- */
+.episode .episode-player {
+  background-image: linear-gradient(180deg, rgb(0 0 0 / 0%) 50%, #151f27 50%);
+}
+
+.episode .episode-player .r-grid {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.episode .episode-player-cell {
+  grid-column: 1 / 5;
+  justify-content: center;
+}
+
+.episode .episode-player-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.episode .episode-player-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.episode .episode-player-src {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* ---------- text (section .zfphvkockx: ink band, centred white copy) ---------- */
+.episode .episode-text {
+  background: #151f27;
+  color: #fff;
+}
+
+.episode .episode-text .r-grid {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.episode .episode-text-cell {
+  grid-column: 1 / 5;
+  justify-content: center;
+}
+
+/* source p.text.text-xl-align-center: text face 300 / 27px, centred only from 1440 */
+.episode .episode-text .rich p {
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 27px;
+  text-align: left;
+  color: #fff;
+}
+
+.episode .episode-text .rich a {
+  color: #fff;
+}
+
+/* ---------- outro (section .cvdveabxeo: statement + CTA) ---------- */
+.episode .episode-outro .r-grid {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.episode .episode-outro-cell {
+  grid-column: 1 / 5;
+  justify-content: center;
+}
+
+.episode .episode-outro-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.episode .episode-outro-inner p:not(.button-wrapper) {
+  margin: 24px 0;
+  font-family: var(--font-display);
+  font-size: 28px;
+  line-height: 120%;
+  color: var(--c-ink);
+}
+
+.episode .episode-outro-inner p.button-wrapper {
+  margin: 0;
+}
+
+.episode .episode-outro-inner a.button:any-link {
+  padding: 14px 24px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@media (width >= 576px) {
+  .episode .episode-badges {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 42px;
+  }
+
+  .episode .episode-badge {
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+  }
+}
+
+@media (width >= 768px) {
+  .episode .episode-hero {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .episode .episode-hero-cell,
+  .episode .episode-player-cell,
+  .episode .episode-text-cell,
+  .episode .episode-outro-cell {
+    grid-column: 1 / 9;
+  }
+
+  .episode .episode-label {
+    margin-bottom: 20px;
+  }
+
+  .episode .episode-title :is(h1, h2) {
+    font-size: 42px;
+  }
+
+  .episode .episode-badges {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .episode .episode-outro .r-grid {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  .episode .episode-outro-inner p:not(.button-wrapper) {
+    margin: 20px 0;
+    font-size: 36px;
+  }
+}
+
+@media (width >= 1024px) {
+  .episode .episode-hero {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .episode .episode-hero-cell {
+    grid-column: 2 / 10;
+  }
+
+  .episode .episode-player-cell,
+  .episode .episode-text-cell {
+    grid-column: 2 / 12;
+  }
+
+  .episode .episode-outro-cell {
+    grid-column: 3 / 11;
+  }
+
+  .episode .episode-badges {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .episode .episode-text .r-grid {
+    padding-bottom: 88px;
+  }
+
+  .episode .episode-outro .r-grid {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .episode .episode-outro-inner p:not(.button-wrapper) {
+    margin: 24px 0;
+  }
+}
+
+@media (width >= 1440px) {
+  .episode .episode-hero {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+
+  .episode .episode-label {
+    margin-bottom: 24px;
+  }
+
+  .episode .episode-title :is(h1, h2) {
+    font-size: 64px;
+  }
+
+  .episode .episode-badges {
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 39px;
+    margin-bottom: 0;
+  }
+
+  .episode .episode-player .r-grid {
+    margin-top: 20px;
+  }
+
+  .episode .episode-text .r-grid {
+    padding-top: 50px;
+    padding-bottom: 120px;
+  }
+
+  .episode .episode-text .rich p {
+    text-align: center;
+  }
+
+  .episode .episode-outro .r-grid {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .episode .episode-outro-inner p:not(.button-wrapper) {
+    margin: 24px 0 32px;
+    font-size: 42px;
+  }
+}

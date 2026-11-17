@@ -1,0 +1,582 @@
+/* statement — centred highlight statement (prototype .cxm-statement / modules.css highlight-statement).
+   Grid margin-bottom 28, padding 48 / 56 / 64 / 96 (+ margin-top 28 @1440); cell 1-4 / 1-8 / 3-10.
+   Text: t-title (display 28 / 36 / 42, 500, 120%) in light weight, centred; h3 = t-subtitle. */
+.statement {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.statement .statement-grid {
+  flex: 1 1 100%;
+  margin-top: 0;
+  margin-bottom: 28px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.statement .statement-cell {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  align-items: center;
+  place-content: center center;
+}
+
+.statement .statement-text :is(p, h2) {
+  margin: 0;
+  color: var(--c-ink);
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 120%;
+  text-align: center;
+
+  /* R-02 metric compensation: live sets the statement in 4 lines @1440 and 9 lines @360 */
+  letter-spacing: 0.012em;
+}
+
+.statement .statement-text h2 {
+  font-weight: 500;
+  letter-spacing: normal;
+}
+
+.statement .statement-text h3 {
+  margin: 0;
+  color: var(--c-ink);
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 140%;
+  text-align: center;
+}
+
+.statement .statement-text :is(em, strong) {
+  color: var(--brand-color);
+  font-style: normal;
+  font-weight: inherit;
+}
+
+/* variant b4 (brand home .b4-statement): t-subtitle face below 768 (24px / 140 %), no tracking */
+.statement.b4 .statement-text :is(p, h2) {
+  letter-spacing: normal;
+}
+
+@media (width < 768px) {
+  .statement.b4 .statement-text :is(p, h2) {
+    font-size: 24px;
+    line-height: 140%;
+  }
+}
+
+@media (width >= 768px) {
+  .statement .statement-grid {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  .statement .statement-cell {
+    grid-column: 1 / 9;
+  }
+
+  .statement .statement-text :is(p, h2) {
+    font-size: 36px;
+  }
+}
+
+@media (width >= 1024px) {
+  .statement .statement-grid {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .statement .statement-cell {
+    grid-column: 3 / 11;
+  }
+}
+
+@media (width >= 1440px) {
+  .statement .statement-grid {
+    margin-top: 28px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .statement .statement-text :is(p, h2) {
+    font-size: 42px;
+  }
+
+  .statement .statement-text h3 {
+    font-size: 28px;
+  }
+}
+
+/* variant case-study (brand-case-study .b4cs-statement): margin-top 28 at every width */
+.statement.case-study .statement-grid {
+  margin-top: 28px;
+}
+
+.statement.case-study .statement-text :is(p, h2) {
+  font-weight: 500;
+  letter-spacing: normal;
+}
+
+/* variants lead / left / dark / ice (cluster-brand-solution): a section title + body copy
+   (h2 t-section 28 / 36, p 16 / 300) instead of the display statement; left = cols 2-11 */
+.statement.dark {
+  background-color: #151f27;
+}
+
+.statement.ice {
+  background-color: var(--c-ice);
+}
+
+.statement.lead .statement-text :is(h1, h2, h3, h4) {
+  margin: 0 0 24px;
+  font-family: var(--font-lead);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.statement.lead .statement-text :is(p, li) {
+  margin: 0 0 12px;
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 300;
+
+  /* fix-brand-solution-2: source copy lines are 27 px tall (content-body p) at 360 and 1440,
+     paragraphs 12 px apart (0.75em) */
+  line-height: 27px;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.statement.lead .statement-text > :is(p, ul, ol):last-child {
+  margin-bottom: 16px;
+}
+
+.statement.left .statement-text :is(h1, h2, h3, h4, p, li) {
+  text-align: left;
+}
+
+.statement.dark .statement-text :is(h1, h2, h3, h4, p, li) {
+  color: #fff;
+}
+
+@media (width >= 1024px) {
+  .statement.left .statement-cell {
+    grid-column: 2 / 12;
+  }
+}
+
+@media (width >= 1440px) {
+  .statement.lead .statement-text :is(h1, h2, h3, h4) {
+    font-size: 36px;
+  }
+
+  .statement.lead .statement-text :is(p, li) {
+    font-size: 16px;
+  }
+}
+
+/* variant cols (cluster-brand-solution): section title (cols 2-7) over body copy set in two
+   columns (2 x 523 px, gap 40) from 1024 — the source's two text columns; title 40 px above. */
+@media (width >= 1024px) {
+  .statement.cols .statement-text {
+    column-count: 2;
+    column-gap: 40px;
+  }
+
+  .statement.cols .statement-text :is(h1, h2, h3, h4) {
+    max-width: 58.5%;
+    margin-bottom: 40px;
+    column-span: all;
+  }
+
+  .statement.cols .statement-text :is(p, ul, ol) {
+    break-inside: avoid;
+  }
+}
+
+/* variant eyebrow (cluster-brand-case-study): the first paragraph is a small uppercase label */
+.statement.eyebrow .statement-text > :is(p, h2, h3):first-child {
+  margin: 0 0 12px;
+  color: #586674;
+  font-family: var(--font-text);
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+@media (width >= 1440px) {
+  .statement.eyebrow .statement-text > :is(p, h2, h3):first-child {
+    margin-bottom: 24px;
+    font-size: 10px;
+  }
+}
+
+/* variant hub — reply.com hub highlight statement (modules.css .highlight-statement): margins
+   48 / 50 (>= 768) / 24 (>= 1440) above and below. Added with archetype-hub. */
+.statement.hub .statement-grid {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+@media (width >= 768px) {
+  .statement.hub .statement-grid {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (width >= 1440px) {
+  .statement.hub .statement-grid {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+/* variants flush / flush-b (cluster-brand-home DE, cluster-brand-case-study): no 28 px top /
+   bottom margin (the source band starts / ends at the statement padding) */
+.statement.flush .statement-grid {
+  margin-top: 0;
+}
+
+.statement.flush-b .statement-grid {
+  margin-bottom: 0;
+}
+
+/* hub spacing tokens (cluster-hub): measured outer space above / below the text */
+.statement.spaced .statement-grid {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: var(--sp-tm, 96px);
+  padding-bottom: var(--sp-bm, 96px);
+}
+
+@media (width >= 768px) {
+  .statement.spaced .statement-grid {
+    padding-top: var(--sp-t, 120px);
+    padding-bottom: var(--sp-b, 120px);
+  }
+}
+
+/* hub: a source page without an h1 authors its opening statement as the h1 (same face as p) */
+.statement.hub .statement-text h1 {
+  margin: 0;
+  color: var(--c-ink);
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 120%;
+  text-align: center;
+}
+
+@media (width >= 768px) {
+  .statement.hub .statement-text h1 {
+    font-size: 36px;
+  }
+}
+
+@media (width >= 1440px) {
+  .statement.hub .statement-text h1 {
+    font-size: 42px;
+  }
+}
+
+/* variant cols (fix-brand-solution): <strong> in the two-column body copy is plain bold ink text
+   (source b, strong { font-weight: 700 }), not the brand-coloured statement run; <em> stays red. */
+.statement.cols .statement-text p strong {
+  color: inherit;
+  font-weight: 700;
+}
+
+/* variant sub (fix-hub-a, hub): the statement paragraph is followed by body copy (p.text 16 / 300,
+   line-height 1.7) after a page-builder spacer of 32 / 36 (>= 768) / 40 (>= 1440) */
+.statement.sub .statement-text > p + p {
+  margin-top: 32px;
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.7;
+  letter-spacing: normal;
+}
+
+@media (width >= 768px) {
+  .statement.sub .statement-text > p + p {
+    margin-top: 36px;
+  }
+}
+
+@media (width >= 1440px) {
+  .statement.sub .statement-text > p + p {
+    margin-top: 40px;
+  }
+}
+
+/* fix-brand-solution-2: spaced lead sections = the 4brands text sections (grid margin 56 / 120 or
+   28 / 120, no padding, measured per page into t- / tm- / b- / bm-): the last paragraph sits on the
+   section edge (content-body :last-child margin 0), the title cell is 40 px above the copy @1440 */
+.statement.lead.spaced .statement-text > :last-child {
+  margin-bottom: 0;
+}
+
+@media (width >= 1440px) {
+  .statement.lead.spaced .statement-text :is(h1, h2, h3, h4) {
+    margin-bottom: 40px;
+  }
+}
+
+/* variant narrow (fix-brand-solution-2): left-aligned copy on cols 3-10 from 1024 (source cell
+   grid-column 3 / 11) */
+@media (width >= 1024px) {
+  .statement.narrow .statement-cell {
+    grid-column: 3 / 11;
+  }
+}
+
+/* variant stair (fix-brand-solution-2): source title cell cols 2-5 over the copy cell cols 3-6 from
+   1024 (cols 1-4 / 2-5 at 768); one column below 768 */
+@media (width >= 768px) {
+  .statement.stair .statement-cell {
+    display: grid;
+    grid-column: 1 / 6;
+    grid-template-columns: subgrid;
+  }
+
+  .statement.stair .statement-text {
+    display: grid;
+    grid-column: 1 / -1;
+    grid-template-columns: subgrid;
+  }
+
+  .statement.stair .statement-text > :is(h1, h2, h3, h4) {
+    grid-column: 1 / 5;
+  }
+
+  .statement.stair .statement-text > :not(h1, h2, h3, h4) {
+    grid-column: 2 / 6;
+  }
+}
+
+@media (width >= 1024px) {
+  .statement.stair .statement-cell {
+    grid-column: 2 / 7;
+  }
+}
+
+/* variant textlink (fix-hub-c, hub): the link after the statement is the source's unstyled
+   .button-default — a plain 16 / 27 px label-face text link set straight under the copy */
+.statement.textlink .statement-text p.button-wrapper {
+  margin: 0;
+  line-height: 27px;
+}
+
+.statement.textlink .statement-text a.button {
+  padding: 0;
+  border-radius: 0;
+  background: none;
+  color: var(--c-ink);
+  font-family: var(--font-label);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+/* variant title (fix-brand-solution-2): the source sets a section title as a paragraph
+   (p.text-rz3fg, the lead title face 28 / 36, 500, 120 %) — kept a paragraph, styled as the title */
+.statement.lead.title .statement-text > p:first-child {
+  margin-bottom: 0;
+  font-family: var(--font-lead);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+@media (width >= 1440px) {
+  .statement.lead.title .statement-text > p:first-child {
+    font-size: 36px;
+  }
+}
+
+/* variant logo (fix-brand-solution-2; REVE): the product logo (100 px, radius 6) beside the
+   product name (ehjkbitsdn 700, 28 / 36 @1440, 120 %), centred as one row */
+.statement.logo .statement-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.statement.logo .statement-text :is(picture, img) {
+  display: block;
+  width: 100px;
+  height: auto;
+  border-radius: 6px;
+}
+
+.statement.logo .statement-text :is(h1, h2, h3) {
+  margin: 0;
+  font-family: ehjkbitsdn, var(--font-lead);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+@media (width >= 1440px) {
+  .statement.logo .statement-text :is(h1, h2, h3) {
+    font-size: 36px;
+  }
+}
+
+.statement.logo .statement-text :is(h1, h2, h3) strong {
+  color: inherit;
+  font-weight: inherit;
+}
+
+/* variant tl-up (fix-hub-e, en-3d-and-mixed-reality): the source text link sits 6 px closer to
+   the copy from 768 (origin glyph rows 1112 vs 1118 @1440, the next section follows 7 px higher) */
+@media (width >= 768px) {
+  .statement.textlink.tl-up .statement-text p.button-wrapper {
+    margin-top: -6px;
+  }
+}
+
+/* ls-<n> (fix-brand-solution-3, as fix-small-2): R-02 wrap compensation below 768 — one tracking
+   (n / 1000 em; 7 = .0075, 12 = .0125, 17 = .0175, 22 = .0225) on every text line of the block,
+   fitted per block against the live line breaks @360 (.work/rollout/fix-brand-solution-3/wrap.mjs) */
+@media (width < 768px) {
+  .statement.ls-5 { --ls-v: 0.005em; }
+  .statement.ls-7 { --ls-v: 0.0075em; }
+  .statement.ls-10 { --ls-v: 0.01em; }
+  .statement.ls-12 { --ls-v: 0.0125em; }
+  .statement.ls-15 { --ls-v: 0.015em; }
+  .statement.ls-17 { --ls-v: 0.0175em; }
+  .statement.ls-20 { --ls-v: 0.02em; }
+  .statement.ls-22 { --ls-v: 0.0225em; }
+  .statement.ls-25 { --ls-v: 0.025em; }
+  .statement.ls-30 { --ls-v: 0.03em; }
+  .statement.ls-35 { --ls-v: 0.035em; }
+
+  main div.statement.block[class*=" ls-"] :is(p, li, h1, h2, h3, h4, h5, h6) {
+    letter-spacing: var(--ls-v, normal);
+  }
+}
+
+/* hls-<n> / lsx-<n> (fix-brand-solution-4): R-02 wrap compensation split by role — hls tracks only
+   the section title at every width (ai-voice "Ideal ausgestattet von unterwegs": live 2 lines @1440,
+   3 @360, fitted .015-.04 / .0375-.04), lsx the copy from 1024 (fitted .01-.015 @1440) */
+main div.statement.block.hls-40 .statement-text :is(h1, h2, h3, h4) {
+  letter-spacing: 0.04em;
+}
+
+@media (width >= 1024px) {
+  main div.statement.block.lsx-12 .statement-text :is(p, li) {
+    letter-spacing: 0.0125em;
+  }
+}
+
+/* lsx-n5 (fix-brand-solution-5, demand-driven "Unser Leistungsportfolio ..." dark statement): copy
+   tracked -.005em from 1024 — live 2 lines @1440, fitted -.03..-.0025 */
+@media (width >= 1024px) {
+  main div.statement.block.lsx-n5 .statement-text :is(p, li) {
+    letter-spacing: -0.005em;
+  }
+}
+
+/* c2-<n> (fix-brand-solution-4, with cols): the n-th paragraph opens the source's second text cell —
+   stacked below 768 the cell sits 20 px further down than a paragraph break (measured @360 on
+   artificial-intelligence-consumer-goods and data-and-analytics-strategie-workshop) */
+@media (width < 768px) {
+  .statement.cols.c2-2 .statement-text > p:nth-of-type(2),
+  .statement.cols.c2-3 .statement-text > p:nth-of-type(3) {
+    padding-top: 20px;
+  }
+}
+
+/* bs / hlm-<n> / bw (fix-brand-solution-4): more R-02 wrap compensation below 768, fitted with
+   .work/rollout/fix-brand-solution-3/wrap.mjs @360 — bs sets the copy in the source ProseMirror
+   white-space (break-spaces; data-and-analytics cols matches only as bs + .0075), hlm tracks the
+   title only; bw lets an over-long title word break (source overflow-wrap: break-word), e.g.
+   sap-datasphere "Schulungsportfolio" on its own 4th line */
+@media (width < 768px) {
+  main div.statement.block.bs .statement-text :is(p, li) {
+    white-space: break-spaces;
+  }
+
+  main div.statement.block.hlm-30 .statement-text :is(h1, h2, h3, h4) {
+    letter-spacing: 0.03em;
+  }
+}
+
+.statement.bw .statement-text :is(h1, h2, h3, h4) {
+  overflow-wrap: break-word;
+}
+
+/* variant pbw (fix-small-5): the copy breaks an over-long word like the source ProseMirror
+   paragraph (overflow-wrap: break-word) — customer-and-consumer-engagement "Konsumentenanspr|ache"
+   @360 sets on 10 lines instead of overflowing on 8 */
+.statement.pbw .statement-text :is(p, li) {
+  overflow-wrap: break-word;
+}
+
+/* ls2-<n> (fix-small-5, with cols c2-2): tracking on the second paragraph only below 768, where
+   the source's second text cell breaks wider than the first (sap-finance: .0125 fits the live 11
+   lines of "Darüber hinaus ..." while the first paragraph keeps its 6 at normal) */
+@media (width < 768px) {
+  main div.statement.block.ls2-12 .statement-text > p:nth-of-type(2) {
+    letter-spacing: 0.0125em;
+  }
+}
+
+/* fix-brand-solution-6 (REVE): logo — the logo paragraph carries no copy margin (the row is the
+   100 px logo tall, live 97 + 0); p0 — the body paragraphs sit flush (source content-body blocks,
+   margin 0), the title keeps its 40 px */
+/* stylelint-disable-next-line no-descending-specificity */
+.statement.logo .statement-text > p {
+  margin: 0;
+}
+
+.statement.p0 .statement-text :is(p, li) {
+  margin-bottom: 0;
+}
+
+/* fix-brand-solution-6 (composable-customer-data-platform): eyebrow with spaced lead — the label
+   sits 24 px above the title from 1440 (live h2 120 → h3 158), not the 40 px title gap; hb — a
+   <strong> section title is plain bold in the band's text colour (source span 700, white on dark),
+   not the brand-red statement run; p14 — body copy 14 / 170 % (source p.text 14 / 23.8) */
+@media (width >= 1440px) {
+  .statement.lead.spaced.eyebrow .statement-text > :first-child {
+    margin-bottom: 24px;
+  }
+}
+
+.statement.hb .statement-text :is(h1, h2, h3, h4) strong {
+  color: inherit;
+  font-weight: 700;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.statement.p14 .statement-text p {
+  font-size: 14px;
+  line-height: 170%;
+}
+
+/* variant lgap (fix-hub-i, en/aws award statement): the source button sits 24 px under the copy
+   (360: 1832 -> 1856), not straight under it; >= 768 the gate is closer without it (fix-hub-l) */
+@media (width < 768px) {
+  .statement.lgap .statement-text p.button-wrapper {
+    margin-top: 24px;
+  }
+}
+
+/* tl-up below 768 (fix-hub-h, en-3d-and-mixed-reality @360): the live text-link row is 28 px
+   (statement block 330 = copy 302 + link 28); the label-face strut made it 29 */
+@media (width < 768px) {
+  .statement.textlink.tl-up .statement-text p.button-wrapper {
+    height: 28px;
+  }
+}

@@ -1,0 +1,84 @@
+/* aise-intro — live .qjgxpjlbof / .swgqybcbrn (padding 48 / 56 / 64 / 96, sides 40 / 64),
+   .yledoxnniz (cols 1-4 / 1-8 / 3-10), h1.text-maz2d (10 px label face, #586674, 140 %,
+   uppercase), spacer .frankzxzky (24 / 20 @768 / 24 @1440), p.text-ufev2 (display face 28 px /
+   36 px @1440, 120 %) */
+.aise-intro {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 40px;
+  max-width: 576px;
+  margin: 0 auto;
+  padding: 48px 40px;
+}
+
+.aise-intro .aise-intro-col {
+  grid-column: 1 / 5;
+  text-align: center;
+}
+
+.aise-intro .aise-intro-eyebrow {
+  margin: 0 0 24px;
+  color: #586674;
+  font-family: txtislskto, var(--font-label);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.aise-intro .aise-intro-lead {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+@media (width >= 576px) {
+  .aise-intro {
+    max-width: 768px;
+  }
+}
+
+@media (width >= 768px) {
+  .aise-intro {
+    grid-template-columns: repeat(8, 1fr);
+    max-width: 1024px;
+    padding: 56px 64px;
+  }
+
+  .aise-intro .aise-intro-col {
+    grid-column: 1 / 9;
+  }
+
+  .aise-intro .aise-intro-eyebrow {
+    margin-bottom: 20px;
+  }
+}
+
+@media (width >= 1024px) {
+  .aise-intro {
+    grid-template-columns: repeat(12, 1fr);
+    max-width: 1440px;
+    padding: 64px;
+  }
+
+  .aise-intro .aise-intro-col {
+    grid-column: 3 / 11;
+  }
+}
+
+@media (width >= 1440px) {
+  .aise-intro {
+    max-width: 1660px;
+    padding: 96px 64px;
+  }
+
+  .aise-intro .aise-intro-eyebrow {
+    margin-bottom: 24px;
+  }
+
+  .aise-intro .aise-intro-lead {
+    font-size: 36px;
+  }
+}

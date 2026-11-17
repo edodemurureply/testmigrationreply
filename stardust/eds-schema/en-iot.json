@@ -1,0 +1,571 @@
+{
+ "source": "http://localhost:8791/en-iot-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "media-hero",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Internet of Things"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "highlight-statement",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "We are a leader in end-to-end IoT systems."
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Accelerate your IoT initiatives or create a new generation of connected products."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "iot-featured",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "Case Study"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "IVECO accelerates digital transformation with Industrial IoT",
+     "href": "/en/internet-of-things/iveco-accelerates-the-digital-transformation-with-industrial-iot"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "With the support of Hermes Reply, IVECO Group has implemented an Industrial IoT platform to connect plants, optimise production, and enable data-driven decisions."
+    },
+    {
+     "role": "eyebrow",
+     "order": 3,
+     "text": "Case Study"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "1NCE enables the IoT of tomorrow with unified APIs",
+     "href": "/en/iot/1nce-enables-the-iot-of-tomorrow-with-unified-apis"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "As IoT adoption accelerates, businesses need scalable and secure connectivity solutions. 1NCE, a global leader in IoT connectivity, partnered with Storm Reply to develop a unified API infrastructure that ensures secure authentication, seamless integration, and real-time monitoring."
+    },
+    {
+     "role": "eyebrow",
+     "order": 6,
+     "text": "Research"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Connected Products: behind the scenes",
+     "href": "/en/iot/connected-products"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "This research delves into the innovation and trends of connected solutions for consumers, mobility, healthcare, and industrial uses."
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card-carousel__item",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "iot-wall",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "Case Study"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "ADR optimizes the intelligent management of airport assets with AI and IoT",
+     "href": "/en/iot/adr-ottimizza-la-gestione-intelligente-degli-asset-aeroportuali-con-ai-e-iot"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Discover how Sense Reply supported the management of Rome Fiumicino and Ciampino Airports through IoT, cloud, and artificial intelligence."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "From a fan to a smart energy system",
+     "href": "/en/iot/from-a-fan-to-a-smart-energy-system"
+    },
+    {
+     "role": "eyebrow",
+     "order": 4,
+     "text": "Case Study"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "AI-Powered Digital Twins for Maintenance, Anomaly Detection and Productivity",
+     "href": "/en/artificial-intelligence/ai-powered-digital-twins-for-maintenance-anomaly-detection-and-productivity"
+    },
+    {
+     "role": "eyebrow",
+     "order": 6,
+     "text": "Article"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "IoT for Smarter Car Wash Operations",
+     "href": "https://www.reply.com/concept-reply/en/smart-carwash-operations"
+    },
+    {
+     "role": "eyebrow",
+     "order": 8,
+     "text": "Case Study"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Concept Reply partnered with OnLogic to equip Steve’s Auto World, a leading U.S. car wash operator, with a connected IoT solution that integrates sensor data, edge processing, AI-powered anomaly detection, and cloud-based automation to enable proactive maintenance and improve operational efficiency."
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "A Demand Response platform for power grids",
+     "href": "/en/energy-and-utilities/a-demand-response-platform-for-electric-grids"
+    },
+    {
+     "role": "eyebrow",
+     "order": 11,
+     "text": "Case Study"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Sense Reply supported a global energy operator, with an integrated IoT platform for energy asset management and access to the energy flexibility market."
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "agrirouter 2.0: A modern data platform as basis for smart farming",
+     "href": "/en/iot/agrirouter"
+    },
+    {
+     "role": "eyebrow",
+     "order": 14,
+     "text": "Case Study"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "A new connected and digital motorcycling experience",
+     "href": "/en/iot/a-new-connected-and-digital-motorcycling-experience"
+    },
+    {
+     "role": "eyebrow",
+     "order": 16,
+     "text": "Case Study"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Combining AI and Edge Computing for Industrial IoT",
+     "href": "/en/iot/combining-ai-and-edge-computing-for-industrial-iot"
+    },
+    {
+     "role": "eyebrow",
+     "order": 18,
+     "text": "Best Practice"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Precision farming: How to develop ISOBUS conform?",
+     "href": "https://www.reply.com/concept-reply/en/precision-farming-how-to-develop-isobus-conform"
+    },
+    {
+     "role": "eyebrow",
+     "order": 20,
+     "text": "White Paper"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "Towards integrated mobility: IoT solutions for charging electric vehicles",
+     "href": "/en/iot/electric-mobility"
+    },
+    {
+     "role": "eyebrow",
+     "order": 22,
+     "text": "Case Study"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "An IoT platform to harmonise renewable energy data",
+     "href": "/en/iot/iot-platform-for-renewables"
+    },
+    {
+     "role": "eyebrow",
+     "order": 24,
+     "text": "Case Study"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Data processing with AWS-native services in the container Terminal",
+     "href": "/en/iot/data-processing-with-aws-native-services-in-the-container-terminal"
+    },
+    {
+     "role": "eyebrow",
+     "order": 26,
+     "text": "Case Study"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Smart services for Multivac",
+     "href": "/en/iot/smart-services-for-multivac"
+    },
+    {
+     "role": "eyebrow",
+     "order": 28,
+     "text": "Case Study"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Load more content"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "No contents here."
+    }
+   ],
+   "imgCount": 17,
+   "editableTexts": 16,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cards-wall__item",
+     "count": 13,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 3,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "section-heading",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Discover our IoT labs"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "iot-labs",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "Labs"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Connected products Lab"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "We design and develop product ecosystems connected through cutting-edge IoT solutions."
+    },
+    {
+     "role": "eyebrow",
+     "order": 3,
+     "text": "Labs"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Global test automation center"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Discover the Reply Centre dedicated to automated monitoring & testing of business-critical products and services quality."
+    },
+    {
+     "role": "eyebrow",
+     "order": 6,
+     "text": "Labs"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "IoT Validation Lab"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Visit our IoT Validation Lab and discover how to build or test the interconnected solution you are looking for."
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card-carousel__item",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "section-heading",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Acknowledgments"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "iot-awards",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Reply named a Leader in the IDC MarketScape Report on Smart Manufacturing in Europe",
+     "href": "/en/newsroom/news/reply-named-a-leader-in-the-idc-marketscape-report-on-smart-manufacturing-in-europe"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Reply was recently positioned as a \"Leader\" in the IDC MarketScape."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Reply named Europe's leading IoT provider",
+     "href": "/en/iot/teknowlogy-iot-survey-2020"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Reply has been named Europe's leading IoT provider in IoT C&SI 2020 Survey."
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card-carousel__item",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "iot-rose",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "The one click between a challenge and its solution"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Gain expertise with Reply’s worldwide network of experts and find practical solutions to your challenges."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Go to ROSE",
+     "href": "https://onlineservices.reply.com"
+    },
+    {
+     "role": "eyebrow",
+     "order": 3,
+     "text": "Ask the expert"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Scale your Digital Solutions with AXULUS"
+    },
+    {
+     "role": "eyebrow",
+     "order": 5,
+     "text": "en/de • 1 session x 1h"
+    },
+    {
+     "role": "eyebrow",
+     "order": 6,
+     "text": "Ask the expert"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Discover how to begin your IIoT initiative"
+    },
+    {
+     "role": "eyebrow",
+     "order": 8,
+     "text": "en • 1 session x 2h"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Want to know more about this topic?"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Ask Rose",
+     "href": "/en/contacts?formId=Zmaw7"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.rose-card",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "discover-also",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Discover also"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Artificial Intelligence",
+     "href": "/en/artificial-intelligence"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Quantum Computing",
+     "href": "/en/quantum-computing"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Robotics & Autonomous Things",
+     "href": "/en/robotics-and-autonomous-things"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Cloud Computing",
+     "href": "/en/cloud-computing"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Automotive & Manufacturing",
+     "href": "/en/automotive-and-manufacturing"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Cybersecurity",
+     "href": "/en/cybersecurity"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Data World",
+     "href": "/en/data-world"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card-carousel__item",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

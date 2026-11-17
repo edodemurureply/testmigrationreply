@@ -1,0 +1,6867 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-17T05:32:54.904Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.reply.com/en/google-cloud",
+  "at": "2026-11-17T05:32:32.710Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6259,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-bottom.w-full > div.logo.flex > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "go to homepage",
+    "href": "/en"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 906,
+    "y": 28,
+    "w": 41,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 1225,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "custom-menu-runtime.header.flex > nav.header-bottom.w-full > button.hidden.lg:block",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.grid-bg__container.absolute > picture > img.grid-bg.w-full",
+    "x": 0,
+    "y": 49,
+    "w": 1440,
+    "h": 810,
+    "text": "",
+    "file": "6b28be97-9e83-423b-a0a2-53e9a9096712"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.category-label.light > div.category-name",
+    "x": 177,
+    "y": 317,
+    "w": 69,
+    "h": 14,
+    "text": "Offering"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h1#qQhED",
+    "x": 177,
+    "y": 355,
+    "w": 861,
+    "h": 70,
+    "level": 1,
+    "text": "reply and google cloud"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h1#qQhED > span.colors-1-gbfb",
+    "x": 177,
+    "y": 354,
+    "w": 791,
+    "h": 71,
+    "text": "Reply and Google Cloud"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-vzc3d",
+    "x": 289,
+    "y": 465,
+    "w": 523,
+    "h": 54,
+    "text": "We are Google Cloud Premier partner to help in transforming your business levera"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.inline-block > div.hubspot-container > button.cursor-pointer.button",
+    "x": 289,
+    "y": 539,
+    "w": 151,
+    "h": 48,
+    "text": "contact us"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.inline-block > div.hubspot-container > button.cursor-pointer.button",
+    "x": 289,
+    "y": 539,
+    "w": 151,
+    "h": 48,
+    "label": "trigger",
+    "value": "contact us",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.flex.flex-col > li.nav-item.nav-link > a.whitespace-nowrap",
+    "x": 104,
+    "y": 839,
+    "w": 248,
+    "h": 16,
+    "text": "reply's expertise on google cloud",
+    "href": "/en/google-cloud"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.flex.flex-col > li.nav-item.nav-link > a.whitespace-nowrap",
+    "x": 392,
+    "y": 839,
+    "w": 75,
+    "h": 16,
+    "text": "our status",
+    "href": "/en/google-cloud"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.flex.flex-col > li.nav-item.nav-link > a.whitespace-nowrap",
+    "x": 507,
+    "y": 839,
+    "w": 239,
+    "h": 16,
+    "text": "our google cloud specializations",
+    "href": "/en/google-cloud"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.flex.flex-col > li.nav-item.nav-link > a.whitespace-nowrap",
+    "x": 786,
+    "y": 839,
+    "w": 163,
+    "h": 16,
+    "text": "case studies & insights",
+    "href": "/en/google-cloud"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.flex.flex-col > li.nav-item.nav-link > a.whitespace-nowrap",
+    "x": 989,
+    "y": 839,
+    "w": 90,
+    "h": 16,
+    "text": "latest news",
+    "href": "/en/google-cloud"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#BjJOz",
+    "x": 177,
+    "y": 1004,
+    "w": 523,
+    "h": 86,
+    "level": 2,
+    "text": "reply's expertise on google cloud"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 740,
+    "y": 1004,
+    "w": 523,
+    "h": 135,
+    "text": "Reply provides solutions on Google Cloud starting from digital transformation co"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 740,
+    "y": 1151,
+    "w": 523,
+    "h": 81,
+    "text": "Reply implements customer tailored projects as well as repeatable solutions with"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#GzXhZ",
+    "x": 177,
+    "y": 1472,
+    "w": 861,
+    "h": 14,
+    "level": 2,
+    "text": "the partnership"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#BtOAT",
+    "x": 177,
+    "y": 1510,
+    "w": 861,
+    "h": 43,
+    "level": 3,
+    "text": "our status"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-items.space-y-3 > div#WC1lC > button#WC1lC_header",
+    "x": 233,
+    "y": 1633,
+    "w": 975,
+    "h": 29,
+    "text": "google cloud premier partner"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-items.space-y-3 > div#WC1lC > button#WC1lC_header",
+    "x": 233,
+    "y": 1633,
+    "w": 975,
+    "h": 29,
+    "label": "trigger",
+    "value": "google cloud premier partner",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h4#d4jHP",
+    "x": 283,
+    "y": 1634,
+    "w": 880,
+    "h": 27,
+    "level": 4,
+    "text": "google cloud premier partner"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-items.space-y-3 > div#YOWJP > button#YOWJP_header",
+    "x": 233,
+    "y": 1738,
+    "w": 975,
+    "h": 29,
+    "text": "google cloud managed service provider"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-items.space-y-3 > div#YOWJP > button#YOWJP_header",
+    "x": 233,
+    "y": 1738,
+    "w": 975,
+    "h": 29,
+    "label": "trigger",
+    "value": "google cloud managed service provider",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h4#mgRM5",
+    "x": 283,
+    "y": 1739,
+    "w": 880,
+    "h": 27,
+    "level": 4,
+    "text": "google cloud managed service provider"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-items.space-y-3 > div#tTEwC > button#tTEwC_header",
+    "x": 233,
+    "y": 1843,
+    "w": 975,
+    "h": 47,
+    "text": "2024 partner of the year for devops specialization"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-items.space-y-3 > div#tTEwC > button#tTEwC_header",
+    "x": 233,
+    "y": 1843,
+    "w": 975,
+    "h": 47,
+    "label": "trigger",
+    "value": "2024 partner of the year for devops specialization",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h4#FwiMn",
+    "x": 283,
+    "y": 1862,
+    "w": 880,
+    "h": 27,
+    "level": 4,
+    "text": "partner of the year for devops specialization"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#wNCqN",
+    "x": 289,
+    "y": 2163,
+    "w": 861,
+    "h": 43,
+    "level": 2,
+    "text": "our google cloud specializations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h2#wNCqN > span.colors-1-gbfb",
+    "x": 406,
+    "y": 2164,
+    "w": 629,
+    "h": 40,
+    "text": "Our Google Cloud specializations"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 113,
+    "y": 2364,
+    "w": 200,
+    "h": 200,
+    "text": "",
+    "file": "591e5f8f-8b06-4708-87fe-5ad2e44043bd"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 84,
+    "y": 2588,
+    "w": 258,
+    "h": 143,
+    "text": "Partners who achieve this specialization have demonstrated success in building a"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 451,
+    "y": 2364,
+    "w": 200,
+    "h": 200,
+    "text": "",
+    "file": "e7205f12-5e56-435e-b060-71c812196c07"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-xl-align-center",
+    "x": 422,
+    "y": 2588,
+    "w": 258,
+    "h": 190,
+    "text": "Partners who achieve this specialization have demonstrated success in building f"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 789,
+    "y": 2364,
+    "w": 200,
+    "h": 200,
+    "text": "",
+    "file": "01b9bb8a-7fc4-4283-a444-d48c33c29091"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 760,
+    "y": 2588,
+    "w": 258,
+    "h": 119,
+    "text": "Partners who achieve this specialization have demonstrated success with ingestio"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.aspect-w-1.aspect-h-1 > picture > img.content.picture",
+    "x": 1127,
+    "y": 2364,
+    "w": 200,
+    "h": 200,
+    "text": "",
+    "file": "0e00ed79-2067-4a8b-a50a-b178c41b75fa"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 1098,
+    "y": 2588,
+    "w": 258,
+    "h": 95,
+    "text": "Partners that achieve this Specialization have demonstrated success with DevOps "
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 1436,
+    "y": 2588,
+    "w": 258,
+    "h": 143,
+    "text": "Partners that have achieved this Specialization have an established generative A"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title__container--nav > div.slider-with-title__nav > button.slider-with-title__prev.round-bt",
+    "x": 1159,
+    "y": 2246,
+    "w": 48,
+    "h": 48,
+    "text": "prev item"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title__container--nav > div.slider-with-title__nav > button.slider-with-title__next.round-bt",
+    "x": 1215,
+    "y": 2246,
+    "w": 48,
+    "h": 48,
+    "text": "next item"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#vvhzS",
+    "x": 177,
+    "y": 3080,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "reply google cloud companies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#UiRzN > a",
+    "x": 289,
+    "y": 3163,
+    "w": 411,
+    "h": 231,
+    "text": "go reply",
+    "href": "/go-reply/en/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 289,
+    "y": 3163,
+    "w": 411,
+    "h": 231,
+    "text": "",
+    "file": "194b104c-5199-48ef-9d7d-5c788539a9be"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#UiRzN > div.reply-card-body > a",
+    "x": 289,
+    "y": 3414,
+    "w": 411,
+    "h": 175,
+    "text": "google cloud premier partner go reply go reply specialises in the development of",
+    "href": "/go-reply/en/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h5--medium.line-clamp-2",
+    "x": 289,
+    "y": 3440,
+    "w": 411,
+    "h": 62,
+    "level": 3,
+    "text": "go reply"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.label--xsmall-upcase.reply-card-sitelinks > p > a",
+    "x": 289,
+    "y": 3610,
+    "w": 57,
+    "h": 11,
+    "text": "go.com",
+    "href": "/go-reply/en/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > reply-card-runtime#i34rj > a",
+    "x": 740,
+    "y": 3163,
+    "w": 411,
+    "h": 231,
+    "text": "machine learning reply",
+    "href": "/machine-learning-reply/it/HomePage"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 740,
+    "y": 3163,
+    "w": 411,
+    "h": 231,
+    "text": "",
+    "file": "923d910b-ac85-45f5-a6ac-89c40208f146"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#i34rj > div.reply-card-body > a",
+    "x": 740,
+    "y": 3414,
+    "w": 411,
+    "h": 175,
+    "text": "specialists in ai solutions machine learning reply machine learning reply specia",
+    "href": "/machine-learning-reply/it/HomePage"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h5--medium.line-clamp-2",
+    "x": 740,
+    "y": 3440,
+    "w": 411,
+    "h": 62,
+    "level": 3,
+    "text": "machine learning reply"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.label--xsmall-upcase.reply-card-sitelinks > p > a",
+    "x": 740,
+    "y": 3610,
+    "w": 169,
+    "h": 11,
+    "text": "machinelearning.com",
+    "href": "/machine-learning-reply/it/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#mutDa",
+    "x": 177,
+    "y": 3855,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "case studies & insights"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#19122 > a",
+    "x": 64,
+    "y": 3968,
+    "w": 298,
+    "h": 298,
+    "text": "brico io enhances the in-store experience with tooli's conversational ai.",
+    "href": "/en/artificial-intelligence/brico-io-enhances-in-store-experience-with-tooli-conversational-ai"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 64,
+    "y": 3968,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "869c3d16-7e1c-4ee5-b10f-81680d74cc5f"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > div.reply-card-logo.absolute > img",
+    "x": 88,
+    "y": 3992,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "334b8eb6-a344-44b6-9598-5dd4112f0325"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#19122 > div.reply-card-body > a",
+    "x": 80,
+    "y": 4286,
+    "w": 266,
+    "h": 78,
+    "text": "brico io enhances the in-store experience with tooli's conversational ai.",
+    "href": "/en/artificial-intelligence/brico-io-enhances-in-store-experience-with-tooli-conversational-ai"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 80,
+    "y": 4286,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "brico io enhances the in-store experience with tooli's conversational ai."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 96,
+    "y": 4380,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#18279 > a",
+    "x": 402,
+    "y": 3968,
+    "w": 298,
+    "h": 298,
+    "text": "an ai-driven dynamic pricing model for rcs mediagroup",
+    "href": "/en/artificial-intelligence/an-ai-driven-dynamic-pricing-model-for-rcs-mediagroup"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 402,
+    "y": 3968,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "bbafbeaa-d61d-426d-8d86-f0a2dbe80441"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > div.reply-card-logo.absolute > img",
+    "x": 426,
+    "y": 3992,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "dd207d21-35aa-432c-ad5e-2ad59755dd07"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#18279 > div.reply-card-body > a",
+    "x": 418,
+    "y": 4286,
+    "w": 266,
+    "h": 78,
+    "text": "an ai-driven dynamic pricing model for rcs mediagroup",
+    "href": "/en/artificial-intelligence/an-ai-driven-dynamic-pricing-model-for-rcs-mediagroup"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 418,
+    "y": 4286,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "an ai-driven dynamic pricing model for rcs mediagroup"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 434,
+    "y": 4380,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#14243 > a",
+    "x": 740,
+    "y": 3968,
+    "w": 298,
+    "h": 447,
+    "text": "extract value from your dark data using google ai",
+    "href": "/go-reply/en/extract-value-from-your-dark-data-using-google-ai"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 740,
+    "y": 3968,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "02f4ce58-e6ca-4c22-a492-6c38b30c10e0"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#14243 > div.reply-card-body > a",
+    "x": 756,
+    "y": 4435,
+    "w": 266,
+    "h": 78,
+    "text": "extract value from your dark data using google ai",
+    "href": "/go-reply/en/extract-value-from-your-dark-data-using-google-ai"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 756,
+    "y": 4435,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "extract value from your dark data using google ai"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 772,
+    "y": 4529,
+    "w": 90,
+    "h": 14,
+    "text": "White Paper"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#12456 > a",
+    "x": 1078,
+    "y": 3968,
+    "w": 298,
+    "h": 298,
+    "text": "telepass adopts mlops to maximise data value",
+    "href": "/en/data-world/telepass-adopts-mlops-to-maximise-data-value"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 1078,
+    "y": 3968,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "50057e6e-cfdd-437b-a733-a7d45788fe0b"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > div.reply-card-logo.absolute > img",
+    "x": 1102,
+    "y": 3992,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "50dc600c-52d9-4f77-bbe0-35d72ee87baa"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#12456 > div.reply-card-body > a",
+    "x": 1094,
+    "y": 4286,
+    "w": 266,
+    "h": 52,
+    "text": "telepass adopts mlops to maximise data value",
+    "href": "/en/data-world/telepass-adopts-mlops-to-maximise-data-value"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 1094,
+    "y": 4286,
+    "w": 266,
+    "h": 52,
+    "level": 3,
+    "text": "telepass adopts mlops to maximise data value"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 1110,
+    "y": 4354,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-binding > div.pager-container > button.more.pager",
+    "x": 631,
+    "y": 4603,
+    "w": 178,
+    "h": 48,
+    "text": "load more content"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h3#zwxPA",
+    "x": 177,
+    "y": 4796,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "latest news"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 97,
+    "y": 4913,
+    "w": 232,
+    "h": 130,
+    "text": "",
+    "file": "766c377d-7a08-4e7f-b70b-ff1f2ebb27e0"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#22655 > div.reply-card-body > a",
+    "x": 97,
+    "y": 5063,
+    "w": 232,
+    "h": 78,
+    "text": "go reply wins 2026 google cloud partner of the year award in the talent developm",
+    "href": "/en/newsroom/news/go-reply-wins-2026-google-cloud-partner-of-the-year-award-in-the-talent-development-emea-category"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 97,
+    "y": 5063,
+    "w": 232,
+    "h": 78,
+    "level": 3,
+    "text": "go reply wins 2026 google cloud partner of the year award in the talent development: emea category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 113,
+    "y": 5157,
+    "w": 41,
+    "h": 14,
+    "text": "News"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-category-and-time-container > time.text-maz2d",
+    "x": 97,
+    "y": 5181,
+    "w": 85,
+    "h": 11,
+    "text": "04/22/2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > article.reply-card-abstract.text > p",
+    "x": 97,
+    "y": 5216,
+    "w": 232,
+    "h": 190,
+    "text": "Go Reply, the Reply Company leading specialist in cloud-native solutions on the "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#21362 > a",
+    "x": 403,
+    "y": 4881,
+    "w": 296,
+    "h": 653,
+    "text": "26 february 2026 reply and google cloud techie meet-up event go reply, reply’s t",
+    "href": "/en/newsroom/events/reply-and-google-cloud-techie-meet-up"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body.p-8 > h3.h6--medium.line-clamp-3",
+    "x": 435,
+    "y": 5032,
+    "w": 232,
+    "h": 52,
+    "level": 3,
+    "text": "reply and google cloud techie meet-up"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#18800 > a",
+    "x": 741,
+    "y": 4881,
+    "w": 296,
+    "h": 550,
+    "text": "9 – 10 july 2025 google cloud summit london 2025 event as proud sponsors, reply ",
+    "href": "/en/newsroom/events/google-cloud-summit-london-2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body.p-8 > h3.h6--medium.line-clamp-3",
+    "x": 773,
+    "y": 5032,
+    "w": 232,
+    "h": 52,
+    "level": 3,
+    "text": "google cloud summit london 2025"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#18646 > a",
+    "x": 1079,
+    "y": 4881,
+    "w": 296,
+    "h": 526,
+    "text": "12 june 2025 google cloud summit milan 2025 event reply participates in the goog",
+    "href": "/en/newsroom/events/google-cloud-summit-milan-2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.reply-card-body.p-8 > h3.h6--medium.line-clamp-3",
+    "x": 1111,
+    "y": 5032,
+    "w": 232,
+    "h": 52,
+    "level": 3,
+    "text": "google cloud summit milan 2025"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-binding > div.pager-container > button.more.pager",
+    "x": 631,
+    "y": 5595,
+    "w": 178,
+    "h": 48,
+    "text": "load more content"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.block > nav.footer.p-10 > a",
+    "x": 64,
+    "y": 5826,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 5922,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 5922,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 5970,
+    "w": 103,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 6015,
+    "w": 45,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 6059,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 6104,
+    "w": 67,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 5922,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 5922,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 5970,
+    "w": 142,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 6015,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 6076,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 6121,
+    "w": 149,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 5970,
+    "w": 161,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 6015,
+    "w": 127,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 6059,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 5970,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 6031,
+    "w": 154,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 6076,
+    "w": 147,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 6121,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "void(0)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Careers",
+    "x": 1112,
+    "y": 5922,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Contacts",
+    "x": 1112,
+    "y": 6002,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1112,
+    "y": 6082,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1124,
+    "y": 6094,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1184,
+    "y": 6082,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1196,
+    "y": 6094,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "a6732ee4-95cf-4951-9c4b-3675c7154f7e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1256,
+    "y": 6082,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1268,
+    "y": 6094,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "49664893-bfc1-4d79-9208-3bdd7083126b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1328,
+    "y": 6082,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1340,
+    "y": 6094,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "c48097ef-90ed-4c24-aa40-1764649e72ff"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > span",
+    "x": 64,
+    "y": 6227,
+    "w": 81,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > a.underline",
+    "x": 158,
+    "y": 6227,
+    "w": 136,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.text-white.py-3 > div.flex.justify-between > button#cookie-pref-center",
+    "x": 1276,
+    "y": 859,
+    "w": 164,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 1,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 1,
+    "offPage": 4,
+    "textNodes": 116,
+    "controls": 68,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slider-with-title__outer-container--items.overflow-hidden",
+     "path": "div.ipfhudpreh > div.block > div.ProseMirror.content-body > p.text.text-align-center",
+     "text": "partners that have achieved this specialization have an esta",
+     "cutMin": 254,
+     "cutMax": 254
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3.h6--medium.line-clamp-3",
+     "path": "reply-card-runtime#22655 > div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+     "text": "go reply wins 2026 google cloud partner of the year award in",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--a355dc1b--aemcoder.aem.page/en/google-cloud",
+  "at": "2026-11-17T05:32:54.760Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6130,
+  "root": "main",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-main > div.site-header-logo > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "href": "/en"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-reply-logo > img",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "file": "reply-logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 900,
+    "y": 28,
+    "w": 46,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 1224,
+    "y": 28,
+    "w": 52,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-header-bar > nav.site-header-main > button.sm-collapsed",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-hero-pic.desktop > picture > img",
+    "x": 0,
+    "y": 49,
+    "w": 1440,
+    "h": 810,
+    "text": "",
+    "file": "media_1c9667ae9bc642f6ab4b3d9e4d39e490fd"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.r-grid > div.media-hero-title.r-cell > div.media-hero-label",
+    "x": 177,
+    "y": 317,
+    "w": 861,
+    "h": 14,
+    "text": "Offering"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.r-grid > div.media-hero-title.r-cell > h1#reply-and-google-cloud",
+    "x": 177,
+    "y": 355,
+    "w": 861,
+    "h": 70,
+    "level": 1,
+    "text": "reply and google cloud"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-hero-title.r-cell > h1#reply-and-google-cloud > span",
+    "x": 177,
+    "y": 354,
+    "w": 796,
+    "h": 71,
+    "text": "Reply and Google Cloud"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.r-grid > div.media-hero-intro.r-cell > p",
+    "x": 289,
+    "y": 465,
+    "w": 523,
+    "h": 54,
+    "text": "We are Google Cloud Premier partner to help in transforming your business levera"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-hero-intro.r-cell > p.media-hero-cta-wrap > button.media-hero-cta",
+    "x": 289,
+    "y": 540,
+    "w": 149,
+    "h": 48,
+    "text": "contact us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.active > a",
+    "x": 104,
+    "y": 839,
+    "w": 250,
+    "h": 16,
+    "text": "reply's expertise on google cloud",
+    "href": "/en/google-cloud"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 394,
+    "y": 839,
+    "w": 74,
+    "h": 16,
+    "text": "our status",
+    "href": "/en/google-cloud"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 508,
+    "y": 839,
+    "w": 237,
+    "h": 16,
+    "text": "our google cloud specializations",
+    "href": "/en/google-cloud"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 785,
+    "y": 839,
+    "w": 166,
+    "h": 16,
+    "text": "case studies & insights",
+    "href": "/en/google-cloud"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 991,
+    "y": 839,
+    "w": 89,
+    "h": 16,
+    "text": "latest news",
+    "href": "/en/google-cloud"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h2#replys-expertise-on-google-cloud",
+    "x": 177,
+    "y": 1004,
+    "w": 523,
+    "h": 86,
+    "level": 2,
+    "text": "reply's expertise on google cloud"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 740,
+    "y": 1004,
+    "w": 523,
+    "h": 135,
+    "text": "Reply provides solutions on Google Cloud starting from digital transformation co"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > p.hub-grid-node",
+    "x": 740,
+    "y": 1151,
+    "w": 523,
+    "h": 81,
+    "text": "Reply implements customer tailored projects as well as repeatable solutions with"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h2#the-partnership",
+    "x": 177,
+    "y": 1472,
+    "w": 861,
+    "h": 14,
+    "level": 2,
+    "text": "the partnership"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h3#our-status",
+    "x": 177,
+    "y": 1510,
+    "w": 861,
+    "h": 43,
+    "level": 3,
+    "text": "our status"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.status-accordion-header > div.status-accordion-labels > h4#google-cloud-premier-partner",
+    "x": 283,
+    "y": 1634,
+    "w": 886,
+    "h": 27,
+    "level": 4,
+    "text": "google cloud premier partner"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.status-accordion-item > div.status-accordion-header > button.status-accordion-toggle",
+    "x": 1185,
+    "y": 1636,
+    "w": 23,
+    "h": 23,
+    "text": "google cloud premier partner"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.status-accordion-item > div.status-accordion-header > button.status-accordion-toggle",
+    "x": 1185,
+    "y": 1636,
+    "w": 23,
+    "h": 23,
+    "label": "google cloud premier partner",
+    "value": "google cloud premier partner",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.status-accordion-header > div.status-accordion-labels > h4#google-cloud-managed-service-provider",
+    "x": 283,
+    "y": 1739,
+    "w": 886,
+    "h": 27,
+    "level": 4,
+    "text": "google cloud managed service provider"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.status-accordion-item > div.status-accordion-header > button.status-accordion-toggle",
+    "x": 1185,
+    "y": 1742,
+    "w": 23,
+    "h": 23,
+    "text": "google cloud managed service provider"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.status-accordion-item > div.status-accordion-header > button.status-accordion-toggle",
+    "x": 1185,
+    "y": 1742,
+    "w": 23,
+    "h": 23,
+    "label": "google cloud managed service provider",
+    "value": "google cloud managed service provider",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.status-accordion-header > div.status-accordion-labels > p.status-accordion-kicker",
+    "x": 283,
+    "y": 1844,
+    "w": 886,
+    "h": 14,
+    "text": "2024"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.status-accordion-header > div.status-accordion-labels > h4#partner-of-the-year-for-devops-specialization",
+    "x": 283,
+    "y": 1862,
+    "w": 886,
+    "h": 27,
+    "level": 4,
+    "text": "partner of the year for devops specialization"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.status-accordion-item > div.status-accordion-header > button.status-accordion-toggle",
+    "x": 1185,
+    "y": 1856,
+    "w": 23,
+    "h": 23,
+    "text": "partner of the year for devops specialization"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.status-accordion-item > div.status-accordion-header > button.status-accordion-toggle",
+    "x": 1185,
+    "y": 1856,
+    "w": 23,
+    "h": 23,
+    "label": "partner of the year for devops specialization",
+    "value": "partner of the year for devops specialization",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h2#our-google-cloud-specializations",
+    "x": 289,
+    "y": 2163,
+    "w": 861,
+    "h": 43,
+    "level": 2,
+    "text": "our google cloud specializations"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-media > picture > img",
+    "x": 113,
+    "y": 2364,
+    "w": 200,
+    "h": 200,
+    "text": "",
+    "file": "media_17d1bc6acee081d967abffc857da71a248"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item.active > div.slider-with-title-item-body > p",
+    "x": 84,
+    "y": 2588,
+    "w": 258,
+    "h": 143,
+    "text": "Partners who achieve this specialization have demonstrated success in building a"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-media > picture > img",
+    "x": 451,
+    "y": 2364,
+    "w": 200,
+    "h": 200,
+    "text": "",
+    "file": "media_17c93ea4e040dbcd704c925c3f589122a6"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-body > p",
+    "x": 422,
+    "y": 2588,
+    "w": 258,
+    "h": 190,
+    "text": "Partners who achieve this specialization have demonstrated success in building f"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-media > picture > img",
+    "x": 789,
+    "y": 2364,
+    "w": 200,
+    "h": 200,
+    "text": "",
+    "file": "media_1dd9aa80d835fc184c247d94388aadd1e8"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-body > p",
+    "x": 760,
+    "y": 2588,
+    "w": 258,
+    "h": 119,
+    "text": "Partners who achieve this specialization have demonstrated success with ingestio"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-media > picture > img",
+    "x": 1127,
+    "y": 2364,
+    "w": 200,
+    "h": 200,
+    "text": "",
+    "file": "media_159fbaf7fb3842281711311ce5e569b7de"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-body > p",
+    "x": 1098,
+    "y": 2588,
+    "w": 258,
+    "h": 95,
+    "text": "Partners that achieve this Specialization have demonstrated success with DevOps "
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.slider-with-title-item > div.slider-with-title-item-body > p",
+    "x": 1436,
+    "y": 2588,
+    "w": 258,
+    "h": 119,
+    "text": "Partners that have achieved this Specialization have an established generative A"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-controls.r-grid > div.slider-with-title-nav > button.slider-with-title-prev.round-bt",
+    "x": 1159,
+    "y": 2246,
+    "w": 48,
+    "h": 48,
+    "text": "prev item"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider-with-title-controls.r-grid > div.slider-with-title-nav > button.slider-with-title-next.round-bt",
+    "x": 1215,
+    "y": 2246,
+    "w": 48,
+    "h": 48,
+    "text": "next item"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h3#reply-google-cloud-companies",
+    "x": 177,
+    "y": 3075,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "reply google cloud companies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > a.hub-grid-boxlink",
+    "x": 289,
+    "y": 3158,
+    "w": 411,
+    "h": 231,
+    "text": "go reply",
+    "href": "/go-reply/en/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.hub-grid-node.hub-grid-pic > picture > img",
+    "x": 289,
+    "y": 3158,
+    "w": 411,
+    "h": 231,
+    "text": "",
+    "file": "media_1b975d081e19e06dc12f7672451225177d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > a.hub-grid-boxlink",
+    "x": 289,
+    "y": 3409,
+    "w": 411,
+    "h": 141,
+    "text": "google cloud premier partner go reply go reply specialises in the development of",
+    "href": "/go-reply/en/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > a.hub-grid-boxlink > h3#go-reply",
+    "x": 289,
+    "y": 3435,
+    "w": 411,
+    "h": 31,
+    "level": 3,
+    "text": "go reply"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.hub-grid-node > a",
+    "x": 289,
+    "y": 3573,
+    "w": 50,
+    "h": 40,
+    "text": "go.com",
+    "href": "/go-reply/en/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > a.hub-grid-boxlink",
+    "x": 740,
+    "y": 3158,
+    "w": 411,
+    "h": 231,
+    "text": "machine learning reply",
+    "href": "/machine-learning-reply/it/HomePage"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.hub-grid-node.hub-grid-pic > picture > img",
+    "x": 740,
+    "y": 3158,
+    "w": 411,
+    "h": 231,
+    "text": "",
+    "file": "media_14d1cf2f1f7897156b35d1740a99dd38d1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > a.hub-grid-boxlink",
+    "x": 740,
+    "y": 3409,
+    "w": 411,
+    "h": 141,
+    "text": "specialists in ai solutions machine learning reply machine learning reply specia",
+    "href": "/machine-learning-reply/it/HomePage"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > a.hub-grid-boxlink > h3#machine-learning-reply",
+    "x": 740,
+    "y": 3435,
+    "w": 411,
+    "h": 31,
+    "level": 3,
+    "text": "machine learning reply"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-cell > p.hub-grid-node > a",
+    "x": 740,
+    "y": 3573,
+    "w": 164,
+    "h": 40,
+    "text": "machinelearning.com",
+    "href": "/machine-learning-reply/it/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h3#case-studies--insights",
+    "x": 177,
+    "y": 3846,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "case studies & insights"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 64,
+    "y": 3959,
+    "w": 298,
+    "h": 298,
+    "text": "brico io enhances the in-store experience with tooli's conversational ai.",
+    "href": "/en/artificial-intelligence/brico-io-enhances-in-store-experience-with-tooli-conversational-ai"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 64,
+    "y": 3959,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "media_1a6036feaacd95c35bdfb9a9cd82214fde"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 88,
+    "y": 3983,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_1f1fa797494f609c56ad58fd33a648ab9d"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#brico-io-enhances-the-in-store-experience-with-toolis-conversational-ai",
+    "x": 80,
+    "y": 4277,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "brico io enhances the in-store experience with tooli's conversational ai."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#brico-io-enhances-the-in-store-experience-with-toolis-conversational-ai > a",
+    "x": 80,
+    "y": 4277,
+    "w": 266,
+    "h": 78,
+    "text": "brico io enhances the in-store experience with tooli's conversational ai.",
+    "href": "/en/artificial-intelligence/brico-io-enhances-in-store-experience-with-tooli-conversational-ai"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 96,
+    "y": 4371,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 402,
+    "y": 3959,
+    "w": 298,
+    "h": 298,
+    "text": "an ai-driven dynamic pricing model for rcs mediagroup",
+    "href": "/en/artificial-intelligence/an-ai-driven-dynamic-pricing-model-for-rcs-mediagroup"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 402,
+    "y": 3959,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "media_1c525c12d67f3bacb48271c58daf0ee321"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 426,
+    "y": 3983,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_15a0491c7f1abc1c9087458e121f52f39e"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#an-ai-driven-dynamic-pricing-model-for-rcs-mediagroup",
+    "x": 418,
+    "y": 4277,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "an ai-driven dynamic pricing model for rcs mediagroup"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#an-ai-driven-dynamic-pricing-model-for-rcs-mediagroup > a",
+    "x": 418,
+    "y": 4277,
+    "w": 266,
+    "h": 78,
+    "text": "an ai-driven dynamic pricing model for rcs mediagroup",
+    "href": "/en/artificial-intelligence/an-ai-driven-dynamic-pricing-model-for-rcs-mediagroup"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 434,
+    "y": 4371,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 740,
+    "y": 3959,
+    "w": 298,
+    "h": 447,
+    "text": "extract value from your dark data using google ai",
+    "href": "/go-reply/en/extract-value-from-your-dark-data-using-google-ai"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 740,
+    "y": 3959,
+    "w": 298,
+    "h": 447,
+    "text": "",
+    "file": "media_1331b5bda59eeac53cad89c6ef29f2943b"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#extract-value-from-your-dark-data-using-google-ai",
+    "x": 756,
+    "y": 4426,
+    "w": 266,
+    "h": 78,
+    "level": 3,
+    "text": "extract value from your dark data using google ai"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#extract-value-from-your-dark-data-using-google-ai > a",
+    "x": 756,
+    "y": 4426,
+    "w": 266,
+    "h": 78,
+    "text": "extract value from your dark data using google ai",
+    "href": "/go-reply/en/extract-value-from-your-dark-data-using-google-ai"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 772,
+    "y": 4520,
+    "w": 101,
+    "h": 14,
+    "text": "White Paper"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 1078,
+    "y": 3959,
+    "w": 298,
+    "h": 298,
+    "text": "telepass adopts mlops to maximise data value",
+    "href": "/en/data-world/telepass-adopts-mlops-to-maximise-data-value"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.desktop > picture > img",
+    "x": 1078,
+    "y": 3959,
+    "w": 298,
+    "h": 298,
+    "text": "",
+    "file": "media_13c3223d17a87aac4f93d6e4543e8745b6"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 1102,
+    "y": 3983,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_1a30197bf0c753ec289aed8f851e61ade3"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#telepass-adopts-mlops-to-maximise-data-value",
+    "x": 1094,
+    "y": 4277,
+    "w": 266,
+    "h": 52,
+    "level": 3,
+    "text": "telepass adopts mlops to maximise data value"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#telepass-adopts-mlops-to-maximise-data-value > a",
+    "x": 1094,
+    "y": 4277,
+    "w": 266,
+    "h": 52,
+    "text": "telepass adopts mlops to maximise data value",
+    "href": "/en/data-world/telepass-adopts-mlops-to-maximise-data-value"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 1110,
+    "y": 4345,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-cell.r-cell > div.cards-wall-pager > div.cards-wall-more",
+    "x": 633,
+    "y": 4594,
+    "w": 174,
+    "h": 48,
+    "text": "load more content"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-grid-grid.r-grid > div.hub-grid-cell > h3#latest-news",
+    "x": 177,
+    "y": 4787,
+    "w": 636,
+    "h": 43,
+    "level": 3,
+    "text": "latest news"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 97,
+    "y": 4904,
+    "w": 232,
+    "h": 131,
+    "text": "",
+    "file": "media_1758ccde7b039948c9a01214fddddcf1e7"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#go-reply-wins-2026-google-cloud-partner-of-the-year-award-in-the-talent-development-emea-category",
+    "x": 97,
+    "y": 5054,
+    "w": 232,
+    "h": 78,
+    "level": 3,
+    "text": "go reply wins 2026 google cloud partner of the year award in the talent development: emea category"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#go-reply-wins-2026-google-cloud-partner-of-the-year-award-in-the-talent-development-emea-category > a",
+    "x": 97,
+    "y": 5054,
+    "w": 232,
+    "h": 78,
+    "text": "go reply wins 2026 google cloud partner of the year award in the talent developm",
+    "href": "/en/newsroom/news/go-reply-wins-2026-google-cloud-partner-of-the-year-award-in-the-talent-development-emea-category"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 113,
+    "y": 5148,
+    "w": 44,
+    "h": 14,
+    "text": "News"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-meta > div.reply-card-time > p",
+    "x": 97,
+    "y": 5170,
+    "w": 75,
+    "h": 13,
+    "text": "04/22/2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-abstract > p",
+    "x": 97,
+    "y": 5207,
+    "w": 232,
+    "h": 190,
+    "text": "Go Reply, the Reply Company leading specialist in cloud-native solutions on the "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-event > a.reply-card-cover",
+    "x": 403,
+    "y": 4872,
+    "w": 296,
+    "h": 621,
+    "text": "26 february 2026 reply and google cloud techie meet-up event go reply, reply’s t",
+    "href": "/en/newsroom/events/reply-and-google-cloud-techie-meet-up"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 403,
+    "y": 4872,
+    "w": 296,
+    "h": 132,
+    "text": "",
+    "file": "media_19738317802bde4b53d688fcc3cf8952da"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#reply-and-google-cloud-techie-meet-up",
+    "x": 435,
+    "y": 5023,
+    "w": 232,
+    "h": 52,
+    "level": 3,
+    "text": "reply and google cloud techie meet-up"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-event > a.reply-card-cover",
+    "x": 741,
+    "y": 4872,
+    "w": 296,
+    "h": 542,
+    "text": "9 – 10 july 2025 google cloud summit london 2025 event as proud sponsors, reply ",
+    "href": "/en/newsroom/events/google-cloud-summit-london-2025"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 741,
+    "y": 4872,
+    "w": 296,
+    "h": 132,
+    "text": "",
+    "file": "media_154b9ad21c5fecbe31e862d740692a744e"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#google-cloud-summit-london-2025",
+    "x": 773,
+    "y": 5023,
+    "w": 232,
+    "h": 52,
+    "level": 3,
+    "text": "google cloud summit london 2025"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-event > a.reply-card-cover",
+    "x": 1079,
+    "y": 4872,
+    "w": 296,
+    "h": 518,
+    "text": "12 june 2025 google cloud summit milan 2025 event reply participates in the goog",
+    "href": "/en/newsroom/events/google-cloud-summit-milan-2025"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 1079,
+    "y": 4872,
+    "w": 296,
+    "h": 132,
+    "text": "",
+    "file": "media_154b9ad21c5fecbe31e862d740692a744e"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#google-cloud-summit-milan-2025",
+    "x": 1111,
+    "y": 5023,
+    "w": 232,
+    "h": 52,
+    "level": 3,
+    "text": "google cloud summit milan 2025"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-cell.r-cell > div.cards-wall-pager > div.cards-wall-more",
+    "x": 633,
+    "y": 5586,
+    "w": 174,
+    "h": 48,
+    "text": "load more content"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-wrap > nav.footer-nav > a.footer-nav-home",
+    "x": 64,
+    "y": 5697,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 5793,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 5793,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 5841,
+    "w": 102,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 5886,
+    "w": 43,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 5930,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 5975,
+    "w": 66,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 5793,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 5793,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 5841,
+    "w": 145,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 5886,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 5947,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 5992,
+    "w": 150,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 5841,
+    "w": 160,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 5886,
+    "w": 131,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 5930,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 5841,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 5902,
+    "w": 153,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 5947,
+    "w": 143,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 5992,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "/en/google-cloud"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 5793,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 5873,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1112,
+    "y": 5953,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1124,
+    "y": 5965,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1184,
+    "y": 5953,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1196,
+    "y": 5965,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1256,
+    "y": 5953,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1268,
+    "y": 5965,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-linkedin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1328,
+    "y": 5953,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1340,
+    "y": 5965,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-xing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > span",
+    "x": 64,
+    "y": 6098,
+    "w": 84,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > a",
+    "x": 160,
+    "y": 6098,
+    "w": 131,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-inner > div.site-legal-row > button#cookie-pref-center",
+    "x": 1278,
+    "y": 859,
+    "w": 162,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 1,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 1,
+    "offPage": 4,
+    "textNodes": 116,
+    "controls": 68,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slider-with-title-rail",
+     "path": "ul.slider-with-title-items > li.slider-with-title-item > div.slider-with-title-item-body > p",
+     "text": "partners that have achieved this specialization have an esta",
+     "cutMin": 251,
+     "cutMax": 251
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "a",
+     "path": "div.reply-card-body > div.reply-card-title > h3#go-reply-wins-2026-google-cloud-partner-of-the-year-award-in-the-talent-development-emea-category > a",
+     "text": "go reply wins 2026 google cloud partner of the year award in",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ],
+   "findings": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 251,
+     "path": "ul.slider-with-title-items > li.slider-with-title-item > div.slider-with-title-item-body > p",
+     "text": "partners that have achieved this specialization have an esta",
+     "clipper": "div.slider-with-title-rail",
+     "rect": {
+      "l": 1451,
+      "t": 2591,
+      "r": 1679,
+      "b": 2607,
+      "w": 228,
+      "h": 16
+     },
+     "clip": {
+      "l": 0,
+      "t": 2334,
+      "r": 1440,
+      "b": 2890,
+      "w": 1440,
+      "h": 556
+     },
+     "lines": 5
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 3,
+     "path": "div.reply-card-body > div.reply-card-title > h3#go-reply-wins-2026-google-cloud-partner-of-the-year-award-in-the-talent-development-emea-category > a",
+     "text": "go reply wins 2026 google cloud partner of the year award in",
+     "clipper": "a",
+     "rect": {
+      "l": 97,
+      "t": 5056,
+      "r": 309,
+      "b": 5078,
+      "w": 212,
+      "h": 22
+     },
+     "clip": {
+      "l": 97,
+      "t": 5054,
+      "r": 329,
+      "b": 5132,
+      "w": 232,
+      "h": 78
+     },
+     "lines": 6
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "reply and google cloud",
+   "variable": false,
+   "origin": {
+    "link": 5,
+    "button": 1,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 5,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "CONTROL MISSING"
+   ]
+  },
+  {
+   "index": 2,
+   "heading": "reply's expertise on google cloud",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "the partnership",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "our status",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 3,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 3,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "MISSING BUTTON",
+    "CONTROL STATE"
+   ]
+  },
+  {
+   "index": 5,
+   "heading": "our google cloud specializations",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 2,
+    "text": 5,
+    "image": 4
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 1,
+    "image": 4,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "reply google cloud companies",
+   "variable": false,
+   "origin": {
+    "link": 4,
+    "button": 0,
+    "text": 0,
+    "image": 2
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "go reply",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "machine learning reply",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "case studies & insights",
+   "variable": false,
+   "origin": {
+    "link": 4,
+    "button": 0,
+    "text": 0,
+    "image": 7
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 7,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "brico io enhances the in-store experience with tooli's conversational ai.",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "an ai-driven dynamic pricing model for rcs mediagroup",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "telepass adopts mlops to maximise data value",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 13,
+   "heading": "extract value from your dark data using google ai",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 14,
+   "heading": "latest news",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 4,
+    "imageHidden": 0
+   },
+   "findings": [
+    "COUNT IMAGES"
+   ]
+  },
+  {
+   "index": 15,
+   "heading": "reply and google cloud techie meet-up",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 16,
+   "heading": "google cloud summit london 2025",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 17,
+   "heading": "google cloud summit milan 2025",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 18,
+   "heading": "go reply wins 2026 google cloud partner of the year award in the talent development: emea category",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"2024 partner of the year for devops specialization\" in band \"our status\" (origin y 1843) not on the served page",
+   "band": 4,
+   "n": 1,
+   "text": "2024 partner of the year for devops specialization"
+  },
+  {
+   "sev": "🟠",
+   "kind": "CONTROL STATE",
+   "msg": "trigger: origin \"2024 partner of the year for devops specialization\" → served \"partner of the year for devops specialization\" (band \"our status\")",
+   "band": 4,
+   "label": "trigger",
+   "origin": "2024 partner of the year for devops specialization",
+   "eds": "partner of the year for devops specialization"
+  },
+  {
+   "sev": "🟡",
+   "kind": "CONTROL MISSING",
+   "msg": "trigger = \"contact us\" (band \"reply and google cloud\") has no served counterpart",
+   "band": 1,
+   "label": "trigger",
+   "value": "contact us"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"partner of the year for devops specialization\" served in band \"our status\", no origin link or button",
+   "band": 4,
+   "n": 1,
+   "text": "partner of the year for devops specialization"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"latest news\": 1 origin → 4 served visible",
+   "band": 14,
+   "origin": 1,
+   "eds": 4,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 1,
+  "missingButtons": 1,
+  "hiddenButtons": 0,
+  "controlState": 1,
+  "countDeltas": 1,
+  "findings": 5,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 1339,
+    "y": 7,
+    "w": 17,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 51,
+    "w": 62,
+    "h": 16
+   },
+   {
+    "x": 612,
+    "y": 51,
+    "w": 72,
+    "h": 16
+   },
+   {
+    "x": 740,
+    "y": 51,
+    "w": 110,
+    "h": 16
+   },
+   {
+    "x": 906,
+    "y": 51,
+    "w": 41,
+    "h": 16
+   },
+   {
+    "x": 1003,
+    "y": 51,
+    "w": 60,
+    "h": 16
+   },
+   {
+    "x": 1119,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1225,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 318,
+    "w": 69,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 354,
+    "w": 791,
+    "h": 71
+   },
+   {
+    "x": 289,
+    "y": 469,
+    "w": 499,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 496,
+    "w": 481,
+    "h": 18
+   },
+   {
+    "x": 313,
+    "y": 554,
+    "w": 103,
+    "h": 16
+   },
+   {
+    "x": 104,
+    "y": 839,
+    "w": 248,
+    "h": 16
+   },
+   {
+    "x": 392,
+    "y": 839,
+    "w": 75,
+    "h": 16
+   },
+   {
+    "x": 507,
+    "y": 839,
+    "w": 239,
+    "h": 16
+   },
+   {
+    "x": 786,
+    "y": 839,
+    "w": 163,
+    "h": 16
+   },
+   {
+    "x": 989,
+    "y": 839,
+    "w": 90,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 1005,
+    "w": 380,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 1048,
+    "w": 258,
+    "h": 40
+   },
+   {
+    "x": 740,
+    "y": 1008,
+    "w": 508,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1035,
+    "w": 496,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1062,
+    "w": 441,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1089,
+    "w": 161,
+    "h": 18
+   },
+   {
+    "x": 901,
+    "y": 1089,
+    "w": 288,
+    "h": 18
+   },
+   {
+    "x": 1189,
+    "y": 1089,
+    "w": 8,
+    "h": 18
+   },
+   {
+    "x": 1197,
+    "y": 1089,
+    "w": 14,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1116,
+    "w": 130,
+    "h": 18
+   },
+   {
+    "x": 870,
+    "y": 1116,
+    "w": 39,
+    "h": 18
+   },
+   {
+    "x": 910,
+    "y": 1116,
+    "w": 340,
+    "h": 18
+   },
+   {
+    "x": 1250,
+    "y": 1116,
+    "w": 4,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1155,
+    "w": 454,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1182,
+    "w": 513,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1209,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1473,
+    "w": 123,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 1511,
+    "w": 198,
+    "h": 40
+   },
+   {
+    "x": 283,
+    "y": 1638,
+    "w": 250,
+    "h": 18
+   },
+   {
+    "x": 283,
+    "y": 1743,
+    "w": 338,
+    "h": 18
+   },
+   {
+    "x": 283,
+    "y": 1845,
+    "w": 37,
+    "h": 11
+   },
+   {
+    "x": 283,
+    "y": 1866,
+    "w": 380,
+    "h": 18
+   },
+   {
+    "x": 406,
+    "y": 2164,
+    "w": 629,
+    "h": 40
+   },
+   {
+    "x": 120,
+    "y": 2591,
+    "w": 187,
+    "h": 16
+   },
+   {
+    "x": 89,
+    "y": 2615,
+    "w": 249,
+    "h": 16
+   },
+   {
+    "x": 91,
+    "y": 2638,
+    "w": 243,
+    "h": 16
+   },
+   {
+    "x": 106,
+    "y": 2662,
+    "w": 214,
+    "h": 16
+   },
+   {
+    "x": 93,
+    "y": 2686,
+    "w": 240,
+    "h": 16
+   },
+   {
+    "x": 103,
+    "y": 2710,
+    "w": 220,
+    "h": 16
+   },
+   {
+    "x": 458,
+    "y": 2591,
+    "w": 187,
+    "h": 16
+   },
+   {
+    "x": 427,
+    "y": 2615,
+    "w": 249,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 2638,
+    "w": 231,
+    "h": 16
+   },
+   {
+    "x": 448,
+    "y": 2662,
+    "w": 205,
+    "h": 16
+   },
+   {
+    "x": 433,
+    "y": 2686,
+    "w": 236,
+    "h": 16
+   },
+   {
+    "x": 424,
+    "y": 2710,
+    "w": 253,
+    "h": 16
+   },
+   {
+    "x": 427,
+    "y": 2734,
+    "w": 248,
+    "h": 16
+   },
+   {
+    "x": 528,
+    "y": 2757,
+    "w": 46,
+    "h": 16
+   },
+   {
+    "x": 796,
+    "y": 2591,
+    "w": 187,
+    "h": 16
+   },
+   {
+    "x": 765,
+    "y": 2615,
+    "w": 249,
+    "h": 16
+   },
+   {
+    "x": 786,
+    "y": 2638,
+    "w": 206,
+    "h": 16
+   },
+   {
+    "x": 775,
+    "y": 2662,
+    "w": 228,
+    "h": 16
+   },
+   {
+    "x": 775,
+    "y": 2686,
+    "w": 228,
+    "h": 16
+   },
+   {
+    "x": 1134,
+    "y": 2591,
+    "w": 186,
+    "h": 16
+   },
+   {
+    "x": 1101,
+    "y": 2615,
+    "w": 251,
+    "h": 16
+   },
+   {
+    "x": 1150,
+    "y": 2638,
+    "w": 155,
+    "h": 16
+   },
+   {
+    "x": 1102,
+    "y": 2662,
+    "w": 250,
+    "h": 16
+   },
+   {
+    "x": 1439,
+    "y": 2615,
+    "w": 252,
+    "h": 16
+   },
+   {
+    "x": 1436,
+    "y": 2686,
+    "w": 258,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 3081,
+    "w": 588,
+    "h": 40
+   },
+   {
+    "x": 289,
+    "y": 3415,
+    "w": 237,
+    "h": 11
+   },
+   {
+    "x": 289,
+    "y": 3442,
+    "w": 113,
+    "h": 27
+   },
+   {
+    "x": 289,
+    "y": 3517,
+    "w": 349,
+    "h": 16
+   },
+   {
+    "x": 289,
+    "y": 3541,
+    "w": 398,
+    "h": 16
+   },
+   {
+    "x": 289,
+    "y": 3565,
+    "w": 238,
+    "h": 16
+   },
+   {
+    "x": 289,
+    "y": 3610,
+    "w": 57,
+    "h": 11
+   },
+   {
+    "x": 740,
+    "y": 3415,
+    "w": 201,
+    "h": 11
+   },
+   {
+    "x": 740,
+    "y": 3442,
+    "w": 300,
+    "h": 27
+   },
+   {
+    "x": 740,
+    "y": 3517,
+    "w": 331,
+    "h": 16
+   },
+   {
+    "x": 740,
+    "y": 3541,
+    "w": 356,
+    "h": 16
+   },
+   {
+    "x": 740,
+    "y": 3565,
+    "w": 365,
+    "h": 16
+   },
+   {
+    "x": 740,
+    "y": 3610,
+    "w": 169,
+    "h": 11
+   },
+   {
+    "x": 177,
+    "y": 3856,
+    "w": 432,
+    "h": 40
+   },
+   {
+    "x": 80,
+    "y": 4288,
+    "w": 243,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 4314,
+    "w": 254,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 4340,
+    "w": 258,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 4381,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 418,
+    "y": 4288,
+    "w": 225,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 4314,
+    "w": 227,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 4340,
+    "w": 131,
+    "h": 22
+   },
+   {
+    "x": 434,
+    "y": 4381,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 756,
+    "y": 4437,
+    "w": 248,
+    "h": 22
+   },
+   {
+    "x": 756,
+    "y": 4463,
+    "w": 245,
+    "h": 22
+   },
+   {
+    "x": 756,
+    "y": 4489,
+    "w": 22,
+    "h": 22
+   },
+   {
+    "x": 772,
+    "y": 4530,
+    "w": 90,
+    "h": 11
+   },
+   {
+    "x": 1094,
+    "y": 4288,
+    "w": 247,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 4314,
+    "w": 246,
+    "h": 22
+   },
+   {
+    "x": 1110,
+    "y": 4355,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 631,
+    "y": 4618,
+    "w": 178,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 4797,
+    "w": 229,
+    "h": 40
+   },
+   {
+    "x": 97,
+    "y": 5065,
+    "w": 206,
+    "h": 22
+   },
+   {
+    "x": 97,
+    "y": 5091,
+    "w": 227,
+    "h": 22
+   },
+   {
+    "x": 97,
+    "y": 5117,
+    "w": 211,
+    "h": 22
+   },
+   {
+    "x": 113,
+    "y": 5158,
+    "w": 41,
+    "h": 11
+   },
+   {
+    "x": 97,
+    "y": 5181,
+    "w": 85,
+    "h": 11
+   },
+   {
+    "x": 97,
+    "y": 5219,
+    "w": 213,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 5243,
+    "w": 189,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 5267,
+    "w": 217,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 5291,
+    "w": 197,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 5314,
+    "w": 212,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 5338,
+    "w": 213,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 5362,
+    "w": 201,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 5386,
+    "w": 218,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 4912,
+    "w": 47,
+    "h": 40
+   },
+   {
+    "x": 435,
+    "y": 4958,
+    "w": 122,
+    "h": 18
+   },
+   {
+    "x": 435,
+    "y": 5034,
+    "w": 185,
+    "h": 22
+   },
+   {
+    "x": 435,
+    "y": 5060,
+    "w": 229,
+    "h": 22
+   },
+   {
+    "x": 435,
+    "y": 5109,
+    "w": 46,
+    "h": 11
+   },
+   {
+    "x": 435,
+    "y": 5143,
+    "w": 181,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5167,
+    "w": 208,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5191,
+    "w": 162,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5215,
+    "w": 218,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5238,
+    "w": 228,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5262,
+    "w": 153,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5286,
+    "w": 219,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5310,
+    "w": 204,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5333,
+    "w": 226,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5357,
+    "w": 46,
+    "h": 16
+   },
+   {
+    "x": 459,
+    "y": 5401,
+    "w": 143,
+    "h": 16
+   },
+   {
+    "x": 459,
+    "y": 5433,
+    "w": 188,
+    "h": 16
+   },
+   {
+    "x": 459,
+    "y": 5457,
+    "w": 169,
+    "h": 16
+   },
+   {
+    "x": 459,
+    "y": 5480,
+    "w": 70,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 4912,
+    "w": 101,
+    "h": 40
+   },
+   {
+    "x": 773,
+    "y": 4958,
+    "w": 81,
+    "h": 18
+   },
+   {
+    "x": 773,
+    "y": 5034,
+    "w": 230,
+    "h": 22
+   },
+   {
+    "x": 773,
+    "y": 5060,
+    "w": 136,
+    "h": 22
+   },
+   {
+    "x": 773,
+    "y": 5109,
+    "w": 46,
+    "h": 11
+   },
+   {
+    "x": 773,
+    "y": 5143,
+    "w": 190,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5167,
+    "w": 176,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5191,
+    "w": 199,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5215,
+    "w": 210,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5238,
+    "w": 207,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5262,
+    "w": 220,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5286,
+    "w": 229,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5310,
+    "w": 102,
+    "h": 16
+   },
+   {
+    "x": 797,
+    "y": 5353,
+    "w": 203,
+    "h": 16
+   },
+   {
+    "x": 797,
+    "y": 5377,
+    "w": 122,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 4912,
+    "w": 39,
+    "h": 40
+   },
+   {
+    "x": 1111,
+    "y": 4958,
+    "w": 87,
+    "h": 18
+   },
+   {
+    "x": 1111,
+    "y": 5034,
+    "w": 230,
+    "h": 22
+   },
+   {
+    "x": 1111,
+    "y": 5060,
+    "w": 115,
+    "h": 22
+   },
+   {
+    "x": 1111,
+    "y": 5109,
+    "w": 46,
+    "h": 11
+   },
+   {
+    "x": 1111,
+    "y": 5143,
+    "w": 230,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 5167,
+    "w": 214,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 5191,
+    "w": 190,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 5215,
+    "w": 212,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 5238,
+    "w": 205,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 5262,
+    "w": 195,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 5286,
+    "w": 184,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 5310,
+    "w": 102,
+    "h": 16
+   },
+   {
+    "x": 1135,
+    "y": 5353,
+    "w": 162,
+    "h": 16
+   },
+   {
+    "x": 631,
+    "y": 5610,
+    "w": 178,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 5923,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 5971,
+    "w": 103,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6016,
+    "w": 45,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6060,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 6105,
+    "w": 67,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 5923,
+    "w": 135,
+    "h": 16
+   },
+   {
+    "x": 402,
+    "y": 5971,
+    "w": 142,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6016,
+    "w": 89,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6032,
+    "w": 73,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6077,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 6077,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 6122,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 6122,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 5971,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 5971,
+    "w": 69,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6016,
+    "w": 127,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6060,
+    "w": 121,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6077,
+    "w": 85,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 6094,
+    "w": 39,
+    "h": 13
+   },
+   {
+    "x": 642,
+    "y": 6094,
+    "w": 51,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 5971,
+    "w": 157,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 5988,
+    "w": 36,
+    "h": 13
+   },
+   {
+    "x": 841,
+    "y": 5988,
+    "w": 64,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6032,
+    "w": 154,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6077,
+    "w": 147,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6122,
+    "w": 130,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6139,
+    "w": 128,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 5938,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 1112,
+    "y": 6018,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 6228,
+    "w": 81,
+    "h": 13
+   },
+   {
+    "x": 149,
+    "y": 6228,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 158,
+    "y": 6228,
+    "w": 136,
+    "h": 13
+   },
+   {
+    "x": 1296,
+    "y": 872,
+    "w": 124,
+    "h": 13
+   }
+  ],
+  "eds": [
+   {
+    "x": 1336,
+    "y": 7,
+    "w": 20,
+    "h": 13
+   },
+   {
+    "x": 486,
+    "y": 51,
+    "w": 63,
+    "h": 16
+   },
+   {
+    "x": 605,
+    "y": 51,
+    "w": 71,
+    "h": 16
+   },
+   {
+    "x": 733,
+    "y": 51,
+    "w": 111,
+    "h": 16
+   },
+   {
+    "x": 900,
+    "y": 51,
+    "w": 46,
+    "h": 16
+   },
+   {
+    "x": 1002,
+    "y": 51,
+    "w": 59,
+    "h": 16
+   },
+   {
+    "x": 1118,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1224,
+    "y": 51,
+    "w": 52,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 317,
+    "w": 77,
+    "h": 13
+   },
+   {
+    "x": 177,
+    "y": 354,
+    "w": 796,
+    "h": 71
+   },
+   {
+    "x": 289,
+    "y": 469,
+    "w": 490,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 496,
+    "w": 474,
+    "h": 18
+   },
+   {
+    "x": 313,
+    "y": 554,
+    "w": 101,
+    "h": 18
+   },
+   {
+    "x": 104,
+    "y": 839,
+    "w": 250,
+    "h": 16
+   },
+   {
+    "x": 394,
+    "y": 839,
+    "w": 74,
+    "h": 16
+   },
+   {
+    "x": 508,
+    "y": 839,
+    "w": 237,
+    "h": 16
+   },
+   {
+    "x": 785,
+    "y": 839,
+    "w": 166,
+    "h": 16
+   },
+   {
+    "x": 991,
+    "y": 839,
+    "w": 89,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 1005,
+    "w": 396,
+    "h": 40
+   },
+   {
+    "x": 177,
+    "y": 1048,
+    "w": 264,
+    "h": 40
+   },
+   {
+    "x": 740,
+    "y": 1008,
+    "w": 507,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1035,
+    "w": 495,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1062,
+    "w": 439,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1089,
+    "w": 160,
+    "h": 18
+   },
+   {
+    "x": 900,
+    "y": 1089,
+    "w": 284,
+    "h": 18
+   },
+   {
+    "x": 1184,
+    "y": 1089,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 1193,
+    "y": 1089,
+    "w": 15,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1116,
+    "w": 129,
+    "h": 18
+   },
+   {
+    "x": 869,
+    "y": 1116,
+    "w": 40,
+    "h": 18
+   },
+   {
+    "x": 909,
+    "y": 1116,
+    "w": 342,
+    "h": 18
+   },
+   {
+    "x": 1252,
+    "y": 1116,
+    "w": 4,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1155,
+    "w": 462,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1182,
+    "w": 509,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 1209,
+    "w": 267,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 1472,
+    "w": 141,
+    "h": 13
+   },
+   {
+    "x": 177,
+    "y": 1511,
+    "w": 200,
+    "h": 40
+   },
+   {
+    "x": 283,
+    "y": 1638,
+    "w": 256,
+    "h": 18
+   },
+   {
+    "x": 283,
+    "y": 1743,
+    "w": 346,
+    "h": 18
+   },
+   {
+    "x": 283,
+    "y": 1844,
+    "w": 34,
+    "h": 13
+   },
+   {
+    "x": 283,
+    "y": 1866,
+    "w": 383,
+    "h": 18
+   },
+   {
+    "x": 401,
+    "y": 2164,
+    "w": 639,
+    "h": 40
+   },
+   {
+    "x": 122,
+    "y": 2591,
+    "w": 182,
+    "h": 16
+   },
+   {
+    "x": 94,
+    "y": 2615,
+    "w": 238,
+    "h": 16
+   },
+   {
+    "x": 94,
+    "y": 2638,
+    "w": 238,
+    "h": 16
+   },
+   {
+    "x": 110,
+    "y": 2662,
+    "w": 206,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 2686,
+    "w": 233,
+    "h": 16
+   },
+   {
+    "x": 105,
+    "y": 2710,
+    "w": 215,
+    "h": 16
+   },
+   {
+    "x": 460,
+    "y": 2591,
+    "w": 182,
+    "h": 16
+   },
+   {
+    "x": 432,
+    "y": 2615,
+    "w": 238,
+    "h": 16
+   },
+   {
+    "x": 439,
+    "y": 2638,
+    "w": 224,
+    "h": 16
+   },
+   {
+    "x": 455,
+    "y": 2662,
+    "w": 193,
+    "h": 16
+   },
+   {
+    "x": 438,
+    "y": 2686,
+    "w": 227,
+    "h": 16
+   },
+   {
+    "x": 429,
+    "y": 2710,
+    "w": 244,
+    "h": 16
+   },
+   {
+    "x": 431,
+    "y": 2734,
+    "w": 241,
+    "h": 16
+   },
+   {
+    "x": 528,
+    "y": 2757,
+    "w": 46,
+    "h": 16
+   },
+   {
+    "x": 798,
+    "y": 2591,
+    "w": 182,
+    "h": 16
+   },
+   {
+    "x": 770,
+    "y": 2615,
+    "w": 238,
+    "h": 16
+   },
+   {
+    "x": 790,
+    "y": 2638,
+    "w": 198,
+    "h": 16
+   },
+   {
+    "x": 779,
+    "y": 2662,
+    "w": 220,
+    "h": 16
+   },
+   {
+    "x": 777,
+    "y": 2686,
+    "w": 225,
+    "h": 16
+   },
+   {
+    "x": 1137,
+    "y": 2591,
+    "w": 180,
+    "h": 16
+   },
+   {
+    "x": 1107,
+    "y": 2615,
+    "w": 241,
+    "h": 16
+   },
+   {
+    "x": 1150,
+    "y": 2638,
+    "w": 154,
+    "h": 16
+   },
+   {
+    "x": 1104,
+    "y": 2662,
+    "w": 247,
+    "h": 16
+   },
+   {
+    "x": 1439,
+    "y": 2638,
+    "w": 253,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 3076,
+    "w": 604,
+    "h": 40
+   },
+   {
+    "x": 289,
+    "y": 3409,
+    "w": 271,
+    "h": 13
+   },
+   {
+    "x": 289,
+    "y": 3437,
+    "w": 118,
+    "h": 27
+   },
+   {
+    "x": 289,
+    "y": 3481,
+    "w": 364,
+    "h": 16
+   },
+   {
+    "x": 289,
+    "y": 3505,
+    "w": 400,
+    "h": 16
+   },
+   {
+    "x": 289,
+    "y": 3529,
+    "w": 244,
+    "h": 16
+   },
+   {
+    "x": 289,
+    "y": 3573,
+    "w": 50,
+    "h": 13
+   },
+   {
+    "x": 289,
+    "y": 3600,
+    "w": 13,
+    "h": 13
+   },
+   {
+    "x": 740,
+    "y": 3409,
+    "w": 225,
+    "h": 13
+   },
+   {
+    "x": 740,
+    "y": 3437,
+    "w": 307,
+    "h": 27
+   },
+   {
+    "x": 740,
+    "y": 3481,
+    "w": 342,
+    "h": 16
+   },
+   {
+    "x": 740,
+    "y": 3505,
+    "w": 363,
+    "h": 16
+   },
+   {
+    "x": 740,
+    "y": 3529,
+    "w": 368,
+    "h": 16
+   },
+   {
+    "x": 740,
+    "y": 3573,
+    "w": 164,
+    "h": 13
+   },
+   {
+    "x": 740,
+    "y": 3600,
+    "w": 25,
+    "h": 13
+   },
+   {
+    "x": 177,
+    "y": 3847,
+    "w": 449,
+    "h": 40
+   },
+   {
+    "x": 80,
+    "y": 4279,
+    "w": 250,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 4305,
+    "w": 247,
+    "h": 22
+   },
+   {
+    "x": 80,
+    "y": 4331,
+    "w": 257,
+    "h": 22
+   },
+   {
+    "x": 96,
+    "y": 4371,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 418,
+    "y": 4279,
+    "w": 221,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 4305,
+    "w": 227,
+    "h": 22
+   },
+   {
+    "x": 418,
+    "y": 4331,
+    "w": 129,
+    "h": 22
+   },
+   {
+    "x": 434,
+    "y": 4371,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 756,
+    "y": 4428,
+    "w": 240,
+    "h": 22
+   },
+   {
+    "x": 756,
+    "y": 4454,
+    "w": 240,
+    "h": 22
+   },
+   {
+    "x": 756,
+    "y": 4480,
+    "w": 22,
+    "h": 22
+   },
+   {
+    "x": 772,
+    "y": 4520,
+    "w": 101,
+    "h": 13
+   },
+   {
+    "x": 1094,
+    "y": 4279,
+    "w": 251,
+    "h": 22
+   },
+   {
+    "x": 1094,
+    "y": 4305,
+    "w": 239,
+    "h": 22
+   },
+   {
+    "x": 1110,
+    "y": 4345,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 633,
+    "y": 4608,
+    "w": 174,
+    "h": 18
+   },
+   {
+    "x": 177,
+    "y": 4788,
+    "w": 232,
+    "h": 40
+   },
+   {
+    "x": 97,
+    "y": 5056,
+    "w": 212,
+    "h": 22
+   },
+   {
+    "x": 97,
+    "y": 5082,
+    "w": 225,
+    "h": 22
+   },
+   {
+    "x": 97,
+    "y": 5108,
+    "w": 204,
+    "h": 22
+   },
+   {
+    "x": 113,
+    "y": 5148,
+    "w": 44,
+    "h": 13
+   },
+   {
+    "x": 97,
+    "y": 5170,
+    "w": 75,
+    "h": 13
+   },
+   {
+    "x": 97,
+    "y": 5210,
+    "w": 214,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 5234,
+    "w": 228,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 5258,
+    "w": 215,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 5282,
+    "w": 223,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 5305,
+    "w": 227,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 5329,
+    "w": 227,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 5353,
+    "w": 190,
+    "h": 16
+   },
+   {
+    "x": 97,
+    "y": 5377,
+    "w": 116,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 4903,
+    "w": 48,
+    "h": 40
+   },
+   {
+    "x": 435,
+    "y": 4949,
+    "w": 121,
+    "h": 18
+   },
+   {
+    "x": 435,
+    "y": 5025,
+    "w": 185,
+    "h": 22
+   },
+   {
+    "x": 435,
+    "y": 5051,
+    "w": 228,
+    "h": 22
+   },
+   {
+    "x": 435,
+    "y": 5091,
+    "w": 50,
+    "h": 13
+   },
+   {
+    "x": 435,
+    "y": 5126,
+    "w": 182,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5150,
+    "w": 208,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5174,
+    "w": 226,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5198,
+    "w": 228,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5221,
+    "w": 216,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5245,
+    "w": 225,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5269,
+    "w": 209,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5293,
+    "w": 228,
+    "h": 16
+   },
+   {
+    "x": 435,
+    "y": 5317,
+    "w": 103,
+    "h": 16
+   },
+   {
+    "x": 459,
+    "y": 5360,
+    "w": 149,
+    "h": 16
+   },
+   {
+    "x": 459,
+    "y": 5392,
+    "w": 187,
+    "h": 16
+   },
+   {
+    "x": 459,
+    "y": 5416,
+    "w": 169,
+    "h": 16
+   },
+   {
+    "x": 459,
+    "y": 5440,
+    "w": 79,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 4903,
+    "w": 110,
+    "h": 40
+   },
+   {
+    "x": 773,
+    "y": 4949,
+    "w": 81,
+    "h": 18
+   },
+   {
+    "x": 773,
+    "y": 5025,
+    "w": 229,
+    "h": 22
+   },
+   {
+    "x": 773,
+    "y": 5051,
+    "w": 137,
+    "h": 22
+   },
+   {
+    "x": 773,
+    "y": 5091,
+    "w": 50,
+    "h": 13
+   },
+   {
+    "x": 773,
+    "y": 5126,
+    "w": 197,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5150,
+    "w": 228,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5174,
+    "w": 221,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5198,
+    "w": 195,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5221,
+    "w": 174,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5245,
+    "w": 231,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5269,
+    "w": 214,
+    "h": 16
+   },
+   {
+    "x": 773,
+    "y": 5293,
+    "w": 46,
+    "h": 16
+   },
+   {
+    "x": 797,
+    "y": 5337,
+    "w": 202,
+    "h": 16
+   },
+   {
+    "x": 797,
+    "y": 5360,
+    "w": 131,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 4903,
+    "w": 46,
+    "h": 40
+   },
+   {
+    "x": 1111,
+    "y": 4949,
+    "w": 88,
+    "h": 18
+   },
+   {
+    "x": 1111,
+    "y": 5025,
+    "w": 229,
+    "h": 22
+   },
+   {
+    "x": 1111,
+    "y": 5051,
+    "w": 115,
+    "h": 22
+   },
+   {
+    "x": 1111,
+    "y": 5091,
+    "w": 50,
+    "h": 13
+   },
+   {
+    "x": 1111,
+    "y": 5126,
+    "w": 227,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 5150,
+    "w": 216,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 5174,
+    "w": 229,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 5198,
+    "w": 203,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 5221,
+    "w": 161,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 5245,
+    "w": 231,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 5269,
+    "w": 195,
+    "h": 16
+   },
+   {
+    "x": 1111,
+    "y": 5293,
+    "w": 46,
+    "h": 16
+   },
+   {
+    "x": 1135,
+    "y": 5337,
+    "w": 162,
+    "h": 16
+   },
+   {
+    "x": 633,
+    "y": 5600,
+    "w": 174,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 5793,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 5842,
+    "w": 102,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 5887,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 5931,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 5976,
+    "w": 66,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 5793,
+    "w": 135,
+    "h": 18
+   },
+   {
+    "x": 402,
+    "y": 5842,
+    "w": 145,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 5887,
+    "w": 88,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 5903,
+    "w": 71,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 5948,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 5948,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 5993,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 5993,
+    "w": 58,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 5842,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 5842,
+    "w": 68,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 5887,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 5931,
+    "w": 120,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 5948,
+    "w": 83,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 5965,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 643,
+    "y": 5965,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 5842,
+    "w": 156,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 5859,
+    "w": 41,
+    "h": 13
+   },
+   {
+    "x": 845,
+    "y": 5859,
+    "w": 65,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 5903,
+    "w": 153,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 5948,
+    "w": 143,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 5993,
+    "w": 132,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 6010,
+    "w": 126,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 5808,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 1112,
+    "y": 5888,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 6099,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 152,
+    "y": 6099,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 160,
+    "y": 6099,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 1298,
+    "y": 871,
+    "w": 122,
+    "h": 16
+   }
+  ]
+ }
+}

@@ -1,0 +1,326 @@
+/* b4-text — lifted from the brand-case-study prototype (.b4cs-solution default, .b4cs-challenge = dark).
+   Default: grid margin 56 / 0 (120 / 0 @1440); title 1-4 / 1-8 / 2-5 / 2-6, text 1-4 / 1-8 / 6-11 / 7-11.
+   Dark: ink band, grid margin 56 / 56 (120 / 120 @1440); title + text 1-4 / 1-8 / 3-10, centred white. */
+.b4-text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.b4-text .b4-text-grid {
+  flex: 1 1 100%;
+  margin-top: 56px;
+  margin-bottom: 0;
+}
+
+.b4-text .b4-text-title {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  margin-bottom: 1.5rem;
+}
+
+.b4-text .b4-text-title :is(h1, h2, h3, h4) {
+  margin: 0;
+  color: var(--c-ink);
+  font-family: var(--font-lead);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.b4-text .b4-text-body {
+  grid-column: 1 / 5;
+  grid-row: 2 / 3;
+}
+
+.b4-text.dark {
+  background-color: var(--c-ink);
+}
+
+.b4-text.dark .b4-text-grid {
+  margin-bottom: 56px;
+}
+
+.b4-text.dark .b4-text-title :is(h1, h2, h3, h4),
+.b4-text.dark .b4-text-body :is(p, li) {
+  color: #fff;
+  text-align: center;
+}
+
+@media (width < 768px) {
+  /* R-02 wrap compensation (live solution paragraph = 8 lines @360 on the substitute face) */
+  .b4-text:not(.dark) .b4-text-body p:not(:has(strong)) {
+    letter-spacing: -0.01em;
+  }
+}
+
+@media (width >= 768px) {
+  .b4-text .b4-text-title {
+    grid-column: 1 / 9;
+    margin-bottom: 2.5rem;
+  }
+
+  .b4-text .b4-text-body {
+    grid-column: 1 / 9;
+  }
+
+  .b4-text.dark .b4-text-title {
+    margin-bottom: 1.25rem;
+  }
+}
+
+@media (width >= 1024px) {
+  .b4-text .b4-text-title {
+    grid-column: 2 / 6;
+    margin-bottom: 0;
+  }
+
+  .b4-text .b4-text-body {
+    grid-column: 6 / 12;
+    grid-row: 1 / 2;
+  }
+
+  .b4-text.dark .b4-text-title,
+  .b4-text.dark .b4-text-body {
+    grid-column: 3 / 11;
+  }
+
+  .b4-text.dark .b4-text-title {
+    margin-bottom: 1.25rem;
+  }
+
+  .b4-text.dark .b4-text-body {
+    grid-row: 2 / 3;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-text .b4-text-grid {
+    margin-top: 120px;
+  }
+
+  .b4-text.dark .b4-text-grid {
+    margin-bottom: 120px;
+  }
+
+  .b4-text .b4-text-title {
+    grid-column: 2 / 7;
+  }
+
+  .b4-text .b4-text-title :is(h1, h2, h3, h4) {
+    font-size: 36px;
+  }
+
+  .b4-text .b4-text-body {
+    grid-column: 7 / 12;
+  }
+
+  .b4-text.dark .b4-text-title {
+    margin-bottom: 2.5rem;
+  }
+
+  .b4-text.dark .b4-text-title,
+  .b4-text.dark .b4-text-body {
+    grid-column: 3 / 11;
+  }
+}
+
+/* cluster-brand-case-study (additive variants; default / dark untouched):
+   ice band; center / stack = stacked cols 3-10 (centred / left), wide = cols 2-11,
+   single = cols 2-9; eyebrow = small uppercase label above the title;
+   spacing top0 / bot0 / bot / first. */
+.b4-text.ice {
+  background-color: var(--c-ice);
+}
+
+.b4-text .b4-text-title:empty {
+  display: none;
+}
+
+.b4-text.top0 .b4-text-grid {
+  margin-top: 0;
+}
+
+/* top-s: small top space (28 @1440, 0 below) */
+.b4-text.top-s .b4-text-grid {
+  margin-top: 0;
+}
+
+@media (width >= 1440px) {
+  .b4-text.top-s .b4-text-grid {
+    margin-top: 28px;
+  }
+}
+
+.b4-text.bot .b4-text-grid {
+  margin-bottom: 56px;
+}
+
+.b4-text.bot0 .b4-text-grid {
+  margin-bottom: 0;
+}
+
+/* bot-s: small bottom space (20 / 42 @1440) under a heading band before a card row */
+.b4-text.bot-s .b4-text-grid {
+  margin-bottom: 20px;
+}
+
+@media (width >= 1440px) {
+  .b4-text.bot-s .b4-text-grid {
+    margin-bottom: 42px;
+  }
+}
+
+.b4-text.first:not(.top0) .b4-text-grid {
+  margin-top: 28px;
+}
+
+.b4-text .b4-text-title .b4-text-eyebrow {
+  margin: 0 0 12px;
+  color: #586674;
+  font-family: var(--font-text);
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.b4-text .b4-text-title h2.b4-text-eyebrow,
+.b4-text .b4-text-title h3.b4-text-eyebrow,
+.b4-text .b4-text-title h4.b4-text-eyebrow {
+  font-family: var(--font-text);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.b4-text:is(.center, .stack, .wide, .single) .b4-text-title {
+  margin-bottom: 1.5rem;
+}
+
+.b4-text.center :is(.b4-text-title, .b4-text-body) :is(h1, h2, h3, h4, p, li) {
+  text-align: center;
+}
+
+.b4-text:is(.stack, .wide, .single) :is(.b4-text-title, .b4-text-body) :is(h1, h2, h3, h4, p, li) {
+  text-align: left;
+}
+
+.b4-text.dark .b4-text-title .b4-text-eyebrow {
+  color: #586674;
+}
+
+@media (width >= 768px) {
+  .b4-text:is(.center, .stack, .wide, .single) .b4-text-title {
+    margin-bottom: 1.25rem;
+  }
+}
+
+@media (width >= 1024px) {
+  .b4-text:is(.center, .stack, .wide, .single) .b4-text-body {
+    grid-row: 2 / 3;
+  }
+
+  .b4-text:is(.center, .stack) :is(.b4-text-title, .b4-text-body) {
+    grid-column: 3 / 11;
+  }
+
+  .b4-text.wide :is(.b4-text-title, .b4-text-body) {
+    grid-column: 2 / 12;
+  }
+
+  .b4-text.single :is(.b4-text-title, .b4-text-body) {
+    grid-column: 2 / 10;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-text.bot .b4-text-grid {
+    margin-bottom: 120px;
+  }
+
+  .b4-text.first:not(.top0) .b4-text-grid {
+    margin-top: 120px;
+  }
+
+  .b4-text .b4-text-title .b4-text-eyebrow {
+    margin-bottom: 24px;
+  }
+
+  .b4-text:is(.center, .stack, .wide, .single) .b4-text-title {
+    margin-bottom: 2.5rem;
+  }
+
+  .b4-text:is(.center, .stack) :is(.b4-text-title, .b4-text-body) {
+    grid-column: 3 / 11;
+  }
+
+  .b4-text.wide :is(.b4-text-title, .b4-text-body) {
+    grid-column: 2 / 12;
+  }
+
+  .b4-text.single :is(.b4-text-title, .b4-text-body) {
+    grid-column: 2 / 10;
+  }
+}
+
+/* heading-only / text-only bands: no title gap; top-s (small top space) sits with top0 */
+.b4-text .b4-text-body:empty {
+  display: none;
+}
+
+.b4-text .b4-text-grid:has(.b4-text-body:empty) .b4-text-title {
+  margin-bottom: 0;
+}
+
+/* eyebrow on the default side-by-side layout: the text column starts level with the title, under
+   the label (label 14 + 12 / 24 gap) */
+@media (width >= 1024px) {
+  .b4-text.eyebrow:not(.center, .stack, .wide, .single, .dark) .b4-text-body {
+    padding-top: 26px;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-text.eyebrow:not(.center, .stack, .wide, .single, .dark) .b4-text-body {
+    padding-top: 38px;
+  }
+}
+
+/* source ProseMirror headings: overflow-wrap break-word + white-space break-spaces (measured @360,
+   fix-4brands-small); wide = the related-content title, 24px below 768 */
+.b4-text :is(.b4-text-title, .b4-text-body) :is(h1, h2, h3, h4) {
+  overflow-wrap: break-word;
+  white-space: break-spaces;
+}
+
+@media (width < 768px) {
+  .b4-text.wide .b4-text-title :is(h1, h2, h3, h4) {
+    font-size: 24px;
+  }
+}
+
+/* track-normal (fix-4brands-small, zentis): the live paragraphs wrap at normal tracking @360 */
+@media (width < 768px) {
+  .b4-text.track-normal:not(.dark) .b4-text-body p:not(:has(strong)) {
+    letter-spacing: normal;
+  }
+}
+
+/* ls-<n> (fix-small-2): R-02 wrap compensation below 768 — one tracking (n / 1000 em, ls-0 =
+   normal) on every text line of the block, measured per block against the live line breaks
+   @360 (stand-in faces set ~2 % narrower; .work/rollout/fix-small-2/wrap.mjs) */
+@media (width < 768px) {
+  .b4-text.ls-0 { --ls-v: normal; }
+  .b4-text.ls-5 { --ls-v: 0.005em; }
+  .b4-text.ls-7 { --ls-v: 0.0075em; }
+  .b4-text.ls-10 { --ls-v: 0.01em; }
+  .b4-text.ls-12 { --ls-v: 0.0125em; }
+  .b4-text.ls-15 { --ls-v: 0.015em; }
+  .b4-text.ls-20 { --ls-v: 0.02em; }
+  .b4-text.ls-25 { --ls-v: 0.025em; }
+
+  main div.b4-text.block[class*=" ls-"] :is(p, li, h1, h2, h3, h4, h5, h6) {
+    letter-spacing: var(--ls-v, normal);
+  }
+}

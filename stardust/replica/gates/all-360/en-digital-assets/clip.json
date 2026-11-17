@@ -1,0 +1,77 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.page/en/digital-assets",
+ "at": "2026-11-17T04:54:56.214Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 4,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 2,
+  "offPage": 44,
+  "textNodes": 148,
+  "controls": 76,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 3,
+   "clipper": "a",
+   "path": "div.reply-card-body > div.reply-card-title > h3#calderdale-and-huddersfield-nhs-foundation-trust-and-solidsoft-reply-win-best-digital-partner-award > a",
+   "text": "calderdale and huddersfield nhs foundation trust and solidso",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.hero-card-abstract",
+   "path": "div.hero-card-grid > div.hero-card-body > div.hero-card-abstract > p",
+   "text": "by using the ai-powered reply sonar platform we created an o",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "energy & utilities",
+   "cutMin": 70,
+   "cutMax": 70
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.discover-also-rail",
+   "path": "div.discover-also-track > ul > li > a",
+   "text": "energy & utilities",
+   "cutMin": 70,
+   "cutMax": 70
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 4,
+   "clamped": 4,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 30,
+   "textNodes": 140,
+   "controls": 67,
+   "total": 4
+  }
+ }
+}

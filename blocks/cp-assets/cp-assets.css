@@ -1,0 +1,112 @@
+/* cp-assets — live .xxindfkzbw (#f4f8fc), .dboabnqrnq (margin-top 96 / 104 @768 / 120 @1440,
+   sides 40 / 64, cols 1-4 / 1-8 / 2-11), spacers .teivoqtrut / .lpbfygigyd (56 / 64 @768 /
+   72 @1440), theme .interactive-title (max-content, centred): .title lrhxqnxayj caps 28 / 36 @768 /
+   42 @1024 / 64 @1440 (6.5vw <= 408), line-height 1.1, -webkit-text-stroke 1px #151f27, clear;
+   .subtitle display face 300, 14 / 16 / 18 / 20 px, 130 %, opacity 0, translateY(60%) */
+.cp-assets {
+  display: flex;
+  justify-content: center;
+  padding: 96px 40px 0;
+  background: var(--c-ice);
+}
+
+.cp-assets .cp-assets-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 56px;
+}
+
+.cp-assets .cp-assets-item {
+  display: block;
+  width: max-content;
+  margin: 0 auto;
+  text-align: center;
+  cursor: default;
+}
+
+.cp-assets .cp-assets-title {
+  margin: 0;
+  color: transparent;
+  font-family: lrhxqnxayj, var(--font-display);
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1.1;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px #151f27;
+  transition: color 0.4s ease-out, -webkit-text-stroke 0.4s ease;
+}
+
+.cp-assets .cp-assets-subtitle {
+  margin: 0;
+  color: #151f27;
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.3;
+  opacity: 0;
+  transform: translateY(60%);
+  transition: opacity 0.25s ease-out, transform 0.4s ease-out;
+}
+
+.cp-assets .cp-assets-item:hover .cp-assets-title {
+  color: var(--brand-color);
+  -webkit-text-stroke: 1px var(--brand-color);
+}
+
+.cp-assets .cp-assets-item:hover .cp-assets-subtitle {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (width <= 408px) {
+  .cp-assets .cp-assets-title {
+    font-size: 6.5vw;
+  }
+}
+
+@media (width >= 768px) {
+  .cp-assets {
+    padding: 104px 64px 0;
+  }
+
+  .cp-assets .cp-assets-col {
+    row-gap: 64px;
+  }
+
+  .cp-assets .cp-assets-title {
+    font-size: 36px;
+  }
+
+  .cp-assets .cp-assets-subtitle {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1024px) {
+  .cp-assets .cp-assets-title {
+    font-size: 42px;
+  }
+
+  .cp-assets .cp-assets-subtitle {
+    font-size: 18px;
+  }
+}
+
+@media (width >= 1440px) {
+  .cp-assets {
+    padding-top: 120px;
+  }
+
+  .cp-assets .cp-assets-col {
+    row-gap: 72px;
+  }
+
+  .cp-assets .cp-assets-title {
+    font-size: 64px;
+  }
+
+  .cp-assets .cp-assets-subtitle {
+    font-size: 20px;
+  }
+}

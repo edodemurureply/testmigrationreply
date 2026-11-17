@@ -1,0 +1,1214 @@
+/* b4-slider — 4brands content slider (cardcarousel-runtime, free-form items). Rail on the 12-col
+   grid: content box padding 40 / 64; items 100% - 80 / 2 per view @768 / 3 @1024 / 4 @1440;
+   gap 16 / 24. Grid variant wraps instead of sliding. */
+.b4-slider {
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--c-ink);
+}
+
+.b4-slider.dark {
+  background-color: #151f27;
+  color: #fff;
+}
+
+.b4-slider.ice {
+  background-color: var(--c-ice);
+}
+
+.b4-slider .b4-slider-inner {
+  position: relative;
+  flex: 1 1 100%;
+  min-width: 0;
+  margin: 0 auto;
+  padding: 0 0 56px;
+  max-width: 1440px;
+}
+
+.b4-slider .b4-slider-viewport {
+  overflow: hidden;
+  padding: 0 40px;
+}
+
+.b4-slider .b4-slider-track {
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transform: translateX(var(--offset, 0));
+  transition: transform 0.6s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.b4-slider .b4-slider-item {
+  flex: 0 0 calc(100% - 0px);
+  min-width: 0;
+}
+
+.b4-slider .b4-slider-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 100%;
+}
+
+.b4-slider.cards .b4-slider-inner {
+  padding-bottom: 0;
+}
+
+.b4-slider.cards .b4-slider-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.b4-slider.cards .b4-slider-body {
+  position: absolute;
+  inset: auto 20px 24px;
+  color: #fff;
+}
+
+.b4-slider.cards .b4-slider-body :is(h1, h2, h3, h4, h5, h6) {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.b4-slider.info .b4-slider-card,
+.b4-slider.icon .b4-slider-card {
+  padding: 32px 24px;
+  border-radius: 6px;
+  background: var(--c-ice);
+}
+
+.b4-slider.dark.info .b4-slider-card,
+.b4-slider.dark.icon .b4-slider-card {
+  background: #ffffff14;
+}
+
+.b4-slider.center .b4-slider-inner .b4-slider-card {
+  align-items: center;
+  text-align: center;
+}
+
+.b4-slider .b4-slider-media img {
+  display: block;
+  width: 120px;
+  max-width: 100%;
+  height: auto;
+}
+
+.b4-slider.cards .b4-slider-media img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.b4-slider .b4-slider-body :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0 0 12px;
+  color: inherit;
+  font-family: var(--font-lead);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.b4-slider .b4-slider-body :is(h1, h2) {
+  font-size: 36px;
+}
+
+.b4-slider .b4-slider-body :is(p, li) {
+  margin: 0 0 8px;
+  color: inherit;
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.b4-slider .b4-slider-body ul {
+  margin: 0;
+  padding-left: 1.2em;
+  text-align: left;
+}
+
+.b4-slider .b4-slider-actions a.button:any-link {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 4px;
+  background: var(--brand-color);
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.b4-slider .b4-slider-controls {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 16px var(--grid-pad, 20px) 0;
+}
+
+.b4-slider.all-displayed .b4-slider-controls {
+  display: none;
+}
+
+.b4-slider .round-bt {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid currentcolor;
+  border-radius: 50%;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+@media (width >= 768px) {
+  .b4-slider .b4-slider-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+}
+
+@media (width >= 1024px) {
+  .b4-slider .b4-slider-viewport {
+    padding: 0 64px;
+  }
+
+  .b4-slider .b4-slider-track {
+    gap: 40px;
+  }
+
+  .b4-slider .b4-slider-item {
+    flex-basis: calc((100% - 80px) / 3);
+  }
+
+  .b4-slider.grid .b4-slider-track {
+    justify-content: center;
+    transform: none;
+  }
+
+  .b4-slider .b4-slider-controls {
+    position: absolute;
+    inset: 50% 16px auto;
+    justify-content: space-between;
+    padding: 0;
+    pointer-events: none;
+    transform: translateY(-50%);
+  }
+
+  .b4-slider .b4-slider-controls .round-bt {
+    pointer-events: auto;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-slider .b4-slider-inner {
+    padding-bottom: 120px;
+  }
+
+  .b4-slider.cards .b4-slider-inner {
+    padding-bottom: 0;
+  }
+
+  .b4-slider .b4-slider-item {
+    flex-basis: 298px;
+  }
+
+  .b4-slider .b4-slider-body :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 24px;
+  }
+
+  .b4-slider .b4-slider-body :is(h1, h2) {
+    font-size: 42px;
+  }
+
+  .b4-slider .b4-slider-body p:first-child:not(:only-child) {
+    font-size: 24px;
+  }
+}
+
+/* variant tile (cluster-brand-solution; reply-card card-info-slider-1-1-icon-dark): 1:1 #28333e tiles,
+   radius 6, soft drop shadow; band padding 40; tile padding 20 / 40 @1440; icon glyph 26 / 48 px +
+   gap 16 / 24 beside the title (20 / 24 px, 700), vertically centred; the abstract is revealed on
+   hover / focus (the source flips the tile with a checkbox). */
+.b4-slider.tile .b4-slider-inner,
+.b4-slider.tile.all-displayed .b4-slider-inner {
+  padding: 40px 0;
+}
+
+.b4-slider.tile .b4-slider-item > .b4-slider-card {
+  position: relative;
+  justify-content: center;
+  gap: 0;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  padding: 20px;
+  border-radius: 6px;
+  background: #28333e;
+  box-shadow: 0 20px 40px rgb(0 0 0 / 6%);
+  color: #fff;
+}
+
+.b4-slider.tile .b4-slider-tilehead {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.b4-slider.tile .b4-slider-tilehead :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  font-family: var(--font-lead);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.b4-slider.tile .b4-slider-icon {
+  flex-shrink: 0;
+  color: #f4f8fc;
+  font-family: "Website Icons", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.b4-slider.tile .b4-slider-body > :not(.b4-slider-tilehead) {
+  display: none;
+}
+
+.b4-slider.tile .b4-slider-card:is(:hover, :focus-within) .b4-slider-tilehead {
+  display: none;
+}
+
+.b4-slider.tile .b4-slider-card:is(:hover, :focus-within) .b4-slider-body > :not(.b4-slider-tilehead) {
+  display: block;
+}
+
+.b4-slider.tile .b4-slider-icon[data-icon="icon-5y-mbg"]::before { content: "\eb55"; }
+.b4-slider.tile .b4-slider-icon[data-icon="icon-a14jq"]::before { content: "\ef3b"; }
+.b4-slider.tile .b4-slider-icon[data-icon="icon-bd-ojh"]::before { content: "\f25c"; }
+.b4-slider.tile .b4-slider-icon[data-icon="icon-bi-xwo"]::before { content: "\f181"; }
+.b4-slider.tile .b4-slider-icon[data-icon="icon-bn-gu7"]::before { content: "\f120"; }
+.b4-slider.tile .b4-slider-icon[data-icon="icon-d-ibzk"]::before { content: "\eea9"; }
+.b4-slider.tile .b4-slider-icon[data-icon="icon-d69t-s"]::before { content: "\ea7e"; }
+.b4-slider.tile .b4-slider-icon[data-icon="icon-fywsj"]::before { content: "\ed39"; }
+.b4-slider.tile .b4-slider-icon[data-icon="icon-hn-yhl"]::before { content: "\ede3"; }
+.b4-slider.tile .b4-slider-icon[data-icon="icon-jlr-dw"]::before { content: "\f274"; }
+.b4-slider.tile .b4-slider-icon[data-icon="icon-m-qp-jn"]::before { content: "\f207"; }
+.b4-slider.tile .b4-slider-icon[data-icon="icon-r7-mhs"]::before { content: "\eb71"; }
+
+@media (width >= 1440px) {
+  .b4-slider.tile .b4-slider-inner,
+  .b4-slider.tile.all-displayed .b4-slider-inner {
+    padding: 40px 0;
+  }
+
+  .b4-slider.tile .b4-slider-item > .b4-slider-card {
+    padding: 40px;
+  }
+
+  .b4-slider.tile .b4-slider-tilehead {
+    align-items: center;
+    gap: 24px;
+  }
+
+  .b4-slider.tile .b4-slider-tilehead :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 24px;
+  }
+
+  .b4-slider.tile .b4-slider-icon {
+    font-size: 48px;
+  }
+}
+
+/* variant info @1440 (fix round 2): the source info-card slider (card-reply-info-card-slider) shows
+   three 411 px items per view (100% - 2 x 40 gap) on the band, text across the full item width. */
+@media (width >= 1440px) {
+  .b4-slider.info .b4-slider-item {
+    flex-basis: calc((100% - 80px) / 3);
+  }
+
+  .b4-slider.info .b4-slider-item > .b4-slider-card {
+    padding: 0;
+    background: none;
+  }
+}
+
+/* variants box / ink / halfdark / feature (cluster-brand-case-study, additive):
+   box — reply-card stat / benefit tiles: 200 px boxes, radius 6, #718090 (ink: #151f27), text
+   centred in white (label 16 px, value 20 / 24 px); band padding 40. halfdark — band painted white
+   over ink (the tiles bridge into the next dark band). feature — icon items: 120 px icon, title
+   20 / 24 px, text 14 px; band padding 0 / 48 (56 / 120 @1440). */
+.b4-slider.halfdark {
+  background: linear-gradient(#0000 50%, #151f27 50%);
+}
+
+.b4-slider.box:not(.tile) .b4-slider-inner {
+  padding: 40px 0;
+}
+
+.b4-slider.box .b4-slider-item > .b4-slider-card {
+  justify-content: center;
+  height: 200px;
+  padding: 0 20px;
+  border-radius: 6px;
+  background: #718090;
+  color: #fff;
+  text-align: center;
+  gap: 0;
+}
+
+.b4-slider.box.ink .b4-slider-item > .b4-slider-card {
+  background: #151f27;
+}
+
+.b4-slider.box .b4-slider-body :is(p, li) {
+  margin: 0;
+  font-size: 16px;
+  line-height: 27.2px;
+}
+
+.b4-slider.box .b4-slider-body p + p {
+  margin-top: 24px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.b4-slider.feature:not(.tile) .b4-slider-inner {
+  padding: 0 0 48px;
+}
+
+.b4-slider.feature:not(.box) .b4-slider-item > .b4-slider-card {
+  gap: 0;
+}
+
+.b4-slider.feature .b4-slider-media {
+  margin-bottom: 24px;
+}
+
+.b4-slider.feature .b4-slider-body :is(p, li) {
+  margin: 0;
+  font-size: 14px;
+  line-height: 23.8px;
+}
+
+.b4-slider.feature .b4-slider-body p:first-child:not(:only-child, :has(+ p > strong:only-child)) {
+  margin-bottom: 12px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+@media (width >= 1440px) {
+  .b4-slider.box:not(.tile) .b4-slider-inner {
+    padding: 40px 0;
+  }
+
+  .b4-slider.box .b4-slider-body p + p {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+
+  .b4-slider.feature:not(.tile) .b4-slider-inner {
+    padding: 56px 0 120px;
+  }
+
+  .b4-slider.feature .b4-slider-body p:first-child:not(:only-child, :has(+ p > strong:only-child)) {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+}
+
+/* feature: a bold-only paragraph is the source's unlabeled placeholder button (ink text on the
+   band); lift — items pulled 28 px into the previous band, one 18 / 20 px text line, no padding */
+.b4-slider.feature .b4-slider-body p > strong:only-child {
+  color: var(--c-ink);
+  font-weight: 400;
+  line-height: 18px;
+}
+
+
+.b4-slider.feature.lift:not(.tile) .b4-slider-inner {
+  margin-top: -28px;
+  padding: 0;
+}
+
+.b4-slider.feature.lift .b4-slider-body p:first-child:only-child {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+@media (width >= 1440px) {
+  .b4-slider.feature.lift:not(.tile) .b4-slider-inner {
+    padding: 0;
+  }
+
+  .b4-slider.feature.lift .b4-slider-body p:first-child:only-child {
+    font-size: 20px;
+  }
+}
+
+/* feature: text followed only by the placeholder button keeps the 14 px text face */
+.b4-slider.feature:not(.lift) .b4-slider-body p:first-child:has(+ p > strong:only-child) {
+  margin: 0;
+  font-size: 14px;
+  line-height: 23.8px;
+}
+
+/* box: the arrows sit over the row at every width (the band stays 40 / 200 / 40);
+   feature.info: icon items without the info card panel at every width */
+.b4-slider.box .b4-slider-controls {
+  position: absolute;
+  inset: 50% 0 auto;
+  justify-content: space-between;
+  padding: 0;
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+
+.b4-slider.box .b4-slider-controls .round-bt {
+  pointer-events: auto;
+}
+
+.b4-slider.feature.info .b4-slider-item > .b4-slider-card {
+  padding: 0;
+  background: none;
+}
+
+/* variant bg (fix-brand-solution; card-reply-info-card-slider cards with a background image): card
+   padding 10 / 15 + grid 40 (= 50 / 55), min-height 600 / 630 @768 (+ 20), white text; icon 120,
+   title 20 / 26 (24 / 31.2 @1440) 12 above the body, body 14 / 23.8 display face. */
+.b4-slider.info.bg .b4-slider-item > .b4-slider-card {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  align-items: stretch;
+  gap: 0;
+  min-height: 620px;
+  padding: 50px 55px;
+  border-radius: 0;
+  background: none;
+  color: #fff;
+  text-align: left;
+}
+
+.b4-slider.bg .b4-slider-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+.b4-slider.bg .b4-slider-bg :is(picture, img) {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.b4-slider.bg .b4-slider-media {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.b4-slider.info.bg .b4-slider-inner .b4-slider-item .b4-slider-card .b4-slider-body {
+  color: #fff;
+}
+
+.b4-slider.info.bg .b4-slider-inner .b4-slider-item .b4-slider-card .b4-slider-body p,
+.b4-slider.info.bg .b4-slider-inner .b4-slider-item .b4-slider-card .b4-slider-body li {
+  margin: 0 0 10.5px;
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 23.8px;
+  text-align: left;
+}
+
+.b4-slider.info.bg .b4-slider-inner .b4-slider-item
+  .b4-slider-card .b4-slider-body > p:first-child {
+  margin-bottom: 12px;
+  font-family: var(--font-lead);
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.b4-slider.info.bg.eyebrow .b4-slider-inner .b4-slider-item
+  .b4-slider-card .b4-slider-body > p:nth-child(2) {
+  margin-bottom: 24px;
+  color: #586674;
+  font-family: var(--font-text);
+  font-size: 10px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.b4-slider.info.bg.meta .b4-slider-inner .b4-slider-item
+  .b4-slider-card .b4-slider-body > p:nth-child(2) {
+  text-align: justify;
+}
+
+.b4-slider.bg .b4-slider-meta {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin-top: 13.5px;
+}
+
+.b4-slider.info.bg .b4-slider-inner .b4-slider-item
+  .b4-slider-card .b4-slider-body .b4-slider-meta > p:nth-child(n) {
+  grid-row: 1;
+  grid-column: 1;
+  margin: 0;
+}
+
+.b4-slider.info.bg .b4-slider-inner .b4-slider-item
+  .b4-slider-card .b4-slider-body .b4-slider-meta > p:first-child {
+  grid-column: 2;
+  align-self: end;
+  text-align: right;
+}
+
+/* short — the Datasphere card grid min-height 520 / 450 @576 / 550 @768 / 580 @1024 / 520 @1440 */
+.b4-slider.info.bg.short .b4-slider-item > .b4-slider-card {
+  min-height: 540px;
+}
+
+/* cta — text + button cards: grid min-height 350 / 400 @1440, padding 40 / 80 40 40 @1440, content
+   centred; text 28 / 36 px @1440 (120 %), 36 px above the link-style button (14 / 19.6, 12 / 16.8
+   below 1440; padding 14 / 12 px 0). */
+.b4-slider.info.bg.cta .b4-slider-item > .b4-slider-card {
+  justify-content: center;
+  min-height: 370px;
+}
+
+.b4-slider.info.bg.cta .b4-slider-inner .b4-slider-item
+  .b4-slider-card .b4-slider-body > p:first-child {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 28px;
+  line-height: 120%;
+  text-align: left;
+}
+
+.b4-slider.info.bg.cta .b4-slider-inner .b4-slider-item
+  .b4-slider-card .b4-slider-body > p:nth-child(2),
+.b4-slider.bg.cta .b4-slider-actions a.button:any-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 36px 0 0;
+  padding: 12px 0;
+  border-radius: 0;
+  background: none;
+  color: #fff;
+  font-family: var(--font-label);
+  font-size: 12px;
+  line-height: 16.8px;
+}
+
+.b4-slider.info.bg.cta .b4-slider-inner .b4-slider-item
+  .b4-slider-card .b4-slider-actions > p:nth-child(n) {
+  margin: 0;
+}
+
+.b4-slider.info.bg.cta .b4-slider-inner .b4-slider-item
+  .b4-slider-card .b4-slider-body > p:nth-child(2) :is(strong, b) {
+  font-weight: 400;
+}
+
+.b4-slider.info.bg.cta .b4-slider-inner .b4-slider-item
+  .b4-slider-card .b4-slider-body > p:nth-child(2)::after {
+  content: "\ec5a";
+  font-family: "Website Icons", sans-serif;
+  font-size: 12px;
+}
+
+.b4-slider.bg.cta .b4-slider-actions a.button:any-link {
+  margin-top: 36px;
+}
+
+@media (width >= 576px) {
+  .b4-slider.info.bg.short .b4-slider-item > .b4-slider-card {
+    min-height: 470px;
+  }
+}
+
+@media (width >= 768px) {
+  .b4-slider.info.bg .b4-slider-item > .b4-slider-card {
+    min-height: 650px;
+  }
+
+  .b4-slider.info.bg.short .b4-slider-item > .b4-slider-card {
+    min-height: 570px;
+  }
+
+  .b4-slider.info.bg.cta .b4-slider-item > .b4-slider-card {
+    min-height: 370px;
+  }
+}
+
+@media (width >= 1024px) {
+  .b4-slider.info.bg.short .b4-slider-item > .b4-slider-card {
+    min-height: 600px;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-slider.info.bg.short .b4-slider-item > .b4-slider-card {
+    min-height: 540px;
+  }
+
+  .b4-slider.info.bg.cta .b4-slider-item > .b4-slider-card {
+    min-height: 420px;
+    padding: 90px 55px 50px;
+  }
+
+  .b4-slider.info.bg .b4-slider-inner .b4-slider-item
+    .b4-slider-card .b4-slider-body > p:first-child {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+
+  .b4-slider.info.bg.cta .b4-slider-inner .b4-slider-item
+    .b4-slider-card .b4-slider-body > p:first-child {
+    font-size: 36px;
+    line-height: 120%;
+  }
+
+  .b4-slider.info.bg.cta .b4-slider-inner .b4-slider-item
+    .b4-slider-card .b4-slider-body > p:nth-child(2),
+  .b4-slider.bg.cta .b4-slider-actions a.button:any-link {
+    gap: 11px;
+    padding: 14px 0;
+    font-size: 14px;
+    line-height: 19.6px;
+  }
+
+  .b4-slider.info.bg.cta .b4-slider-inner .b4-slider-item
+    .b4-slider-card .b4-slider-body > p:nth-child(2)::after {
+    font-size: 14px;
+  }
+}
+
+/* variant autoplay (fix-brand-solution-2): the live infinite rail slides 1 s ease-in-out; loop
+   clones are hidden while every item fits */
+.b4-slider.autoplay .b4-slider-track {
+  transition: transform 1s ease-in-out;
+}
+
+.b4-slider.autoplay.all-displayed .is-clone {
+  display: none;
+}
+
+/* variant ptitle (fix-brand-solution-2): the item title is authored as the first paragraph (source
+   p.text-hzf46: lead face 500, 20 / 130 %, 24 @1440) — also when it is the item's only paragraph */
+/* stylelint-disable-next-line no-descending-specificity */
+.b4-slider.ptitle .b4-slider-body > p:first-child {
+  font-family: var(--font-lead);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+@media (width >= 1440px) {
+  /* stylelint-disable-next-line no-descending-specificity */
+  .b4-slider.ptitle .b4-slider-body > p:first-child {
+    font-size: 24px;
+  }
+}
+
+/* variant top (fix-brand-solution-2): the source slider section's own margin-top 28 / 56 @1440
+   (the lead section above it ends on its last line) */
+/* stylelint-disable-next-line no-descending-specificity */
+.b4-slider.top .b4-slider-inner {
+  padding-top: 28px;
+}
+
+@media (width >= 1440px) {
+  /* stylelint-disable-next-line no-descending-specificity */
+  .b4-slider.top .b4-slider-inner {
+    padding-top: 56px;
+  }
+}
+
+/* cards title (fix-brand-solution-2): source h5--bold is 24 px from 1440 */
+@media (width >= 1440px) {
+  /* stylelint-disable-next-line no-descending-specificity */
+  .b4-slider.cards .b4-slider-body :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 24px;
+  }
+}
+
+/* ls-<n> (fix-small-2): R-02 wrap compensation below 768 — one tracking (n / 1000 em, ls-0 =
+   normal) on every text line of the block, measured per block against the live line breaks
+   @360 (stand-in faces set ~2 % narrower; .work/rollout/fix-small-2/wrap.mjs) */
+@media (width < 768px) {
+  .b4-slider.ls-0 { --ls-v: normal; }
+  .b4-slider.ls-5 { --ls-v: 0.005em; }
+  .b4-slider.ls-7 { --ls-v: 0.0075em; }
+  .b4-slider.ls-10 { --ls-v: 0.01em; }
+  .b4-slider.ls-12 { --ls-v: 0.0125em; }
+  .b4-slider.ls-15 { --ls-v: 0.015em; }
+  .b4-slider.ls-20 { --ls-v: 0.02em; }
+  .b4-slider.ls-22 { --ls-v: 0.0225em; }
+  .b4-slider.ls-25 { --ls-v: 0.025em; }
+
+  main div.b4-slider.block[class*=" ls-"] :is(p, li, h1, h2, h3, h4, h5, h6) {
+    letter-spacing: var(--ls-v, normal);
+  }
+}
+
+/* variant flat (fix-brand-solution-3, with info): the source reply-info-card-slider item has no
+   card panel at any width (padding 0, transparent; measured @360: items 280 px, 300 px apart,
+   arrows hidden) — the @1440 info rule below 1440 too */
+/* stylelint-disable-next-line no-descending-specificity */
+.b4-slider.info.flat .b4-slider-item > .b4-slider-card {
+  padding: 0;
+  background: none;
+}
+
+@media (width < 768px) {
+  .b4-slider.flat .b4-slider-track {
+    gap: 20px;
+  }
+
+  .b4-slider.flat .b4-slider-controls {
+    display: none;
+  }
+}
+
+/* band spacing tokens (fix-brand-solution-4): the source slider band's own padding where it differs
+   from the variant default — t-<px> / b-<px> from 768, tm-<px> / bm-<px> below 768 (tile rails
+   right under a section heading start flush or 16 px down; the CTA info row ends 56 above the
+   teaser @1440) */
+@media (width < 768px) {
+  div.b4-slider.block.tm-0 .b4-slider-inner { padding-top: 0; }
+  div.b4-slider.block.tm-16 .b4-slider-inner { padding-top: 16px; }
+  div.b4-slider.block.bm-0 .b4-slider-inner { padding-bottom: 0; }
+  div.b4-slider.block.tm-56 .b4-slider-inner { padding-top: 56px; }
+}
+
+@media (width >= 768px) {
+  div.b4-slider.block.t-0 .b4-slider-inner { padding-top: 0; }
+  div.b4-slider.block.b-0 .b4-slider-inner { padding-bottom: 0; }
+  div.b4-slider.block.b-56 .b4-slider-inner { padding-bottom: 56px; }
+  div.b4-slider.block.t-120 .b4-slider-inner { padding-top: 120px; }
+  div.b4-slider.block.b-112 .b4-slider-inner { padding-bottom: 112px; }
+}
+
+/* tile titles clamp to two lines as the source h5--bold.line-clamp-2 ("Mehrwerte mit Preis-…") */
+.b4-slider.tile .b4-slider-tilehead > :is(h1, h2, h3, h4, h5, h6) {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+/* variant wide (fix-brand-solution-4, with tile): card-info-slider-1-1-icon rails of three — 411 px
+   square tiles @1440 (100 % - 2 x 40 gap), first tile on the left grid edge */
+@media (width >= 1440px) {
+  .b4-slider.tile.wide .b4-slider-item {
+    flex-basis: calc((100% - 80px) / 3);
+  }
+}
+
+/* variant halfink (fix-brand-solution-4, sap-datasphere-trainings CTA cards): the dark band of the
+   section above runs on behind the top half of the cards @1440 (source split section background) */
+@media (width >= 1440px) {
+  .b4-slider.halfink .b4-slider-inner {
+    background-image: linear-gradient(180deg, #151f27 calc((100% - 56px) / 2), #0000 0);
+  }
+}
+
+/* halfink below 768 (fix-small-5, measured @360 on the live capture): the cards sit 16 px below the
+   dark band's end and the dark runs 249 px into the band (233 px behind the 412 px card) */
+@media (width < 768px) {
+  .b4-slider.halfink .b4-slider-inner {
+    padding-top: 16px;
+    background-image: linear-gradient(180deg, #151f27 249px, #0000 0);
+  }
+}
+
+/* tls-<n> / bls-n<n> (fix-small-5): R-02 wrap compensation below 768 split by role — item title
+   (h3 or the ptitle paragraph) tracked +n / 1000 em, the remaining item text -n / 1000 em, fitted
+   against the live line breaks @360 (.work/rollout/fix-small-5/wrap-*-360.json) */
+@media (width < 768px) {
+  .b4-slider.bls-n20 .b4-slider-body :is(p, li) {
+    letter-spacing: -0.02em;
+  }
+
+  .b4-slider.bls-n30 .b4-slider-body :is(p, li) {
+    letter-spacing: -0.03em;
+  }
+
+  /* fix-brand-solution-6 (sac-advanced-scripting icon row): live 3 / 3 / 3 lines @360 */
+  .b4-slider.bls-n50 .b4-slider-body :is(p, li) {
+    letter-spacing: -0.05em;
+  }
+
+  /* stylelint-disable-next-line no-descending-specificity */
+  .b4-slider.tls-20 .b4-slider-body > :is(h3, p:first-child) {
+    letter-spacing: 0.02em;
+  }
+}
+
+/* variant fine (fix-small-4, sap-ccm whitepaper grid): the source item text runs at the small
+   ProseMirror sizes — title 18 / 23.4 (20 / 26 >= 1024) lead face 300, abstract 14 / 23.8 display
+   face 300, 11 / 12 px apart (live .text-mu4tw / .text-xufux, measured @360 and @1440) */
+/* stylelint-disable-next-line no-descending-specificity */
+.b4-slider.grid.fine .b4-slider-body p:first-child:not(:only-child) {
+  margin-bottom: 11px;
+  font-family: var(--font-lead);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 23.4px;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.b4-slider.grid.fine .b4-slider-body p:last-child:not(:only-child) {
+  margin-bottom: 0;
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 23.8px;
+}
+
+@media (width >= 1024px) {
+  /* stylelint-disable-next-line no-descending-specificity */
+  .b4-slider.grid.fine .b4-slider-body p:first-child:not(:only-child) {
+    margin-bottom: 12px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+/* variant ltext (fix-small-5, sac-advanced-scripting icon row): the item copy is the source
+   ProseMirror lead paragraph below 768 — lead face 300, 16 / 22.4 (measured @360) */
+@media (width < 768px) {
+  /* stylelint-disable-next-line no-descending-specificity */
+  .b4-slider.ltext .b4-slider-body p {
+    font-family: var(--font-lead);
+    font-weight: 300;
+    line-height: 22.4px;
+  }
+}
+
+/* variant noctl (fix-small-5, sap-finance benefits rail): the source rail shows no prev / next
+   arrows below 768 (live capture @360: the dark band ends below the item copy) */
+@media (width < 768px) {
+  .b4-slider.noctl .b4-slider-controls {
+    display: none;
+  }
+}
+
+/* variant t18 (fix-brand-solution-5, sac-essentials learning goals on ice): the source item copy is
+   18 / 25.2 from 1440 (live 3-line items, 270 px tall) instead of 16 / 24 */
+@media (width >= 1440px) {
+  /* stylelint-disable-next-line no-descending-specificity */
+  .b4-slider.t18 .b4-slider-body :is(p, li) {
+    font-size: 18px;
+    line-height: 25.2px;
+  }
+}
+
+/* variant stat (fix-brand-solution-5, revenue-growth-management-reve key figures): the value is the
+   source h2 42 / 50.4 lead 500 in brand red (no italic), 24 px above the label; the label is the
+   source p 20 / 130 % (24 / 31.2 from 1440) light lead copy */
+.b4-slider.stat .b4-slider-body :is(h2, h3) {
+  margin-bottom: 24px;
+  line-height: 50.4px;
+}
+
+.b4-slider.stat .b4-slider-body :is(h2, h3) em {
+  color: var(--brand-color);
+  font-style: normal;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.b4-slider.stat .b4-slider-body p {
+  margin: 0;
+  font-family: var(--font-lead);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+@media (width >= 1440px) {
+  /* stylelint-disable-next-line no-descending-specificity */
+  .b4-slider.stat .b4-slider-body p {
+    font-size: 24px;
+  }
+}
+
+/* variant dcard (fix-brand-solution-5, composable-customer-data-platform result rail): the source
+   rail is a row of ink cards (298 / 280 x 320, measured @1440 / @360) with the icon over a bold
+   white label, the arrows over the row; band 28 / 56 (56 / 56 from 768) around the cards */
+/* stylelint-disable-next-line no-descending-specificity */
+.b4-slider.dcard .b4-slider-inner {
+  padding: 28px 0 56px;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.b4-slider.dcard .b4-slider-item > .b4-slider-card {
+  justify-content: center;
+  height: 320px;
+  padding: 24px;
+  border-radius: 6px;
+  background: #151f27;
+  color: #fff;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.b4-slider.dcard .b4-slider-body p {
+  color: #fff;
+  font-family: var(--font-lead);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.b4-slider.dcard .b4-slider-controls {
+  position: absolute;
+  inset: 50% 0 auto;
+  justify-content: space-between;
+  padding: 0;
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+
+.b4-slider.dcard .b4-slider-controls button {
+  pointer-events: auto;
+}
+
+@media (width >= 768px) {
+  .b4-slider.dcard .b4-slider-inner {
+    padding: 56px 0;
+  }
+}
+
+/* variant scale (fix-brand-solution-6, recipe-for-sap-ibp; source carousel alternative
+   card-reply-card-slider-scale, infinite, no autoplay): white icon cards (radius 6, padding 20,
+   icon 120, 12 / 15 px to a 20 / 26 lead light grey label, 24 / 31.2 from 1440) on the band, the
+   active item centred and scaled 1.07 / 1.18 / 1.125; items 100 % / (100 % - 80) / 2.6 /
+   (100 % - 80) / 3 / (100 % - 120) / 4, gutter 24 / 40; rail margin 40, band tail 28 / 90 (live
+   measured @360 / @1440); arrows 48 px rgba(255 255 255 / 10 %) 25 px inside the rail from 1024,
+   none below 768 */
+/* stylelint-disable-next-line no-descending-specificity */
+.b4-slider.scale .b4-slider-inner {
+  padding: 40px 0 68px;
+}
+
+.b4-slider.scale .b4-slider-viewport {
+  margin: -20px 0;
+  padding-block: 20px;
+}
+
+.b4-slider.scale .b4-slider-track {
+  --w: 100%;
+
+  gap: 24px;
+}
+
+.b4-slider.scale:not(.all-displayed) .b4-slider-track {
+  transform: translateX(calc(50% - var(--w) / 2 + var(--offset, 0px)));
+}
+
+.b4-slider.scale.all-displayed .is-clone {
+  display: none;
+}
+
+.b4-slider.scale .b4-slider-item {
+  display: flex;
+  flex-basis: var(--w);
+  align-items: center;
+}
+
+.b4-slider.scale:not(.all-displayed) .b4-slider-item.is-active {
+  transform: scale(1.07);
+  transition: transform 0.3s cubic-bezier(0.09, 0.72, 0.76, 1.01) 0.5s;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.b4-slider.scale .b4-slider-item > .b4-slider-card {
+  gap: 12px;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  border-radius: 6px;
+  background: #fff;
+  color: #5b5f61;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.b4-slider.scale .b4-slider-body p {
+  margin: 0;
+  color: inherit;
+  font-family: var(--font-lead);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+@media (width < 768px) {
+  .b4-slider.scale .b4-slider-controls {
+    display: none;
+  }
+}
+
+@media (width >= 768px) {
+  .b4-slider.scale .b4-slider-track {
+    --w: calc((100% - 80px) / 2.6);
+
+    gap: 40px;
+  }
+
+  .b4-slider.scale:not(.all-displayed) .b4-slider-item.is-active {
+    transform: scale(1.18);
+  }
+}
+
+@media (width >= 1024px) {
+  .b4-slider.scale .b4-slider-track {
+    --w: calc((100% - 80px) / 3);
+  }
+
+  .b4-slider.scale:not(.all-displayed) .b4-slider-item.is-active {
+    transform: scale(1.125);
+  }
+
+  .b4-slider.scale .b4-slider-controls {
+    inset: 50% 89px auto;
+  }
+
+  .b4-slider.scale .b4-slider-controls .round-bt {
+    width: 48px;
+    height: 48px;
+    border: 0;
+    background: rgb(255 255 255 / 10%);
+    color: #fff;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-slider.scale .b4-slider-inner {
+    padding-bottom: 130px;
+  }
+
+  .b4-slider.scale .b4-slider-track {
+    --w: calc((100% - 120px) / 4);
+  }
+
+  .b4-slider.scale .b4-slider-item {
+    flex-basis: var(--w);
+  }
+
+  .b4-slider.scale .b4-slider-item > .b4-slider-card {
+    gap: 15px;
+  }
+
+  /* stylelint-disable-next-line no-descending-specificity */
+  .b4-slider.scale .b4-slider-body p {
+    font-size: 24px;
+  }
+}
+
+/* variant g24 (fix-brand-solution-6, REVE solution row): 24 px from the icon to the copy (source
+   spacer 24), the copy flush at 140 % (16 / 22.4; 18 / 25.2 with t18 from 1440) */
+/* stylelint-disable-next-line no-descending-specificity */
+.b4-slider.g24 .b4-slider-card {
+  gap: 24px;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.b4-slider.g24 .b4-slider-body :is(p, li) {
+  margin: 0;
+  line-height: 140%;
+}
+
+/* stat below 768 (fix-brand-solution-6, REVE @360): the key figure is the source 28 / 33.6 */
+@media (width < 768px) {
+  /* stylelint-disable-next-line no-descending-specificity */
+  .b4-slider.stat .b4-slider-body :is(h2, h3) {
+    font-size: 28px;
+    line-height: 33.6px;
+  }
+}
+
+/* variant ctext (fix-brand-solution-6, composable-customer-data-platform process rail): the item
+   title is the source 130 % lead light (20 / 26, 24 / 31.2 from 1440; live @360 / @1440), 24 px under the icon and 12 px over
+   the step copy, which is 14 / 170 % (source p.text 14 / 23.8) */
+/* stylelint-disable-next-line no-descending-specificity */
+.b4-slider.ctext .b4-slider-card {
+  gap: 24px;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.b4-slider.ctext .b4-slider-body p:first-child:not(:only-child) {
+  margin: 0 0 12px;
+  font-family: var(--font-lead);
+  font-size: 20px;
+  line-height: 130%;
+}
+
+@media (width >= 1440px) {
+  /* stylelint-disable-next-line no-descending-specificity */
+  .b4-slider.ctext .b4-slider-body p:first-child:not(:only-child) {
+    font-size: 24px;
+  }
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.b4-slider.ctext .b4-slider-body p:not(:first-child) {
+  margin: 0;
+  font-size: 14px;
+  line-height: 170%;
+}
+
+/* astart (fix-brand-solution-6, sap-analytics-cloud course cards): below 768 each source card is
+   as tall as its own content (live @360: card 1 ends ~170 px above card 2), not the tallest */
+@media (width < 768px) {
+  .b4-slider.astart .b4-slider-track {
+    align-items: flex-start;
+  }
+}
+
+/* ink259 / bw (fix-brand-solution-6, sap-analytics-cloud CTA cards @360): the dark band of the
+   section above runs 259 px into this band (live: cards at 56, dark ends 203 px into them); bw —
+   an item line breaks inside a word that is wider than the card ('Wunschter-min', live) */
+@media (width < 768px) {
+  .b4-slider.ink259 .b4-slider-inner {
+    background-image: linear-gradient(180deg, #151f27 259px, #0000 0);
+  }
+
+  /* stylelint-disable-next-line no-descending-specificity */
+  .b4-slider.bw .b4-slider-body :is(p, li) {
+    overflow-wrap: break-word;
+  }
+}
+
+/* tlsx-20 (fix-brand-solution-6, composable process rail): item title tracked .02em from 1024 —
+   live 2 / 1 / 1 / 1 / 1 / 2 title lines @1440 ('Analyse & Zieldefinition' wraps; fitted .015-.025) */
+@media (width >= 1024px) {
+  /* stylelint-disable-next-line no-descending-specificity */
+  .b4-slider.tlsx-20 .b4-slider-body > :is(h3, p:first-child:not(:only-child)) {
+    letter-spacing: 0.02em;
+  }
+}
+
+/* lsx-20 (fix-brand-solution-6, REVE solution row): copy tracked .02em from 1024 — live 5 / 2 / 3 / 3
+   lines @1440 (fitted .015-.03; normal sets the first item on 4) */
+@media (width >= 1024px) {
+  main div.b4-slider.block.lsx-20 .b4-slider-body :is(p, li) {
+    letter-spacing: 0.02em;
+  }
+}

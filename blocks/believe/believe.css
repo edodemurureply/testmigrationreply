@@ -1,0 +1,199 @@
+/* believe — index.css .home-believe (grid, eyebrow, statements column) + modules.css
+   card-carousel--statements (one statement per view, clipped) + .t-title; home R-02 tracking .015em. */
+.believe {
+  display: flow-root;
+}
+
+.believe .believe-grid {
+  row-gap: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.believe .believe-eyebrow {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+  min-width: 0;
+}
+
+.believe .believe-eyebrow p {
+  margin: 0;
+  color: var(--c-slate);
+  font-family: var(--font-label);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 140%;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.believe .believe-statements {
+  grid-column: 1 / 5;
+  grid-row: 2 / 3;
+  min-width: 0;
+}
+
+.believe .believe-rail {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.believe .believe-track {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.believe .believe-item {
+  flex: 0 0 100%;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.believe .believe-item :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  color: var(--c-ink);
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.015em;
+}
+
+@media (width >= 768px) {
+  .believe .believe-grid {
+    margin-bottom: 88px;
+  }
+
+  .believe .believe-statements {
+    grid-column: 1 / 9;
+  }
+
+  .believe .believe-item :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 36px;
+  }
+}
+
+@media (width >= 1024px) {
+  .believe .believe-grid {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .believe .believe-eyebrow {
+    grid-column: 2 / 4;
+    padding-top: 12px;
+  }
+
+  .believe .believe-statements {
+    grid-column: 4 / 11;
+    grid-row: 1 / 2;
+  }
+}
+
+@media (width >= 1440px) {
+  .believe .believe-grid {
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
+
+  .believe .believe-item :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 42px;
+  }
+}
+
+/* variant forward (en-christmas .xxzlgsthah: .allcmunvxx grid 1fr / 1fr 2fr 7fr 2fr >= 1024,
+   cells padded 40 / 64 / 20, eyebrow padding-bottom 20 < 1024, margins 50 / 50 at 1440; spacer
+   42 / 56 then the forward heading, brand-green underline as the source <mark>) */
+.believe.forward .believe-grid {
+  grid-template-columns: 1fr;
+  gap: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.believe.forward .believe-eyebrow {
+  grid-column: 1 / 2;
+  padding: 0 40px 20px;
+}
+
+.believe.forward .believe-statements {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  padding: 0 40px;
+}
+
+.believe.forward .believe-forward {
+  margin-top: 42px;
+}
+
+.believe.forward .believe-forward :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  color: #000;
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.believe.forward .believe-forward a {
+  color: #000;
+  text-decoration: underline #00ea51;
+}
+
+@media (width >= 768px) {
+  .believe.forward .believe-eyebrow,
+  .believe.forward .believe-statements {
+    padding-right: 64px;
+    padding-left: 64px;
+  }
+
+  .believe.forward .believe-forward :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 36px;
+  }
+}
+
+@media (width >= 1024px) {
+  .believe.forward .believe-grid {
+    grid-template-columns: 1fr 2fr 7fr 2fr;
+  }
+
+  .believe.forward .believe-eyebrow {
+    grid-column: 2 / 3;
+    padding: 0 20px;
+  }
+
+  .believe.forward .believe-statements {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    padding: 0 20px;
+  }
+}
+
+@media (width >= 1440px) {
+  .believe.forward .believe-grid {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .believe.forward .believe-forward {
+    margin-top: 56px;
+  }
+
+  .believe.forward .believe-forward :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 42px;
+  }
+}
+
+/* forward below 768 (fix-small-2): the source statement starts 25 px under the eyebrow line
+   (measured @360: eyebrow 637 → statement 688 on the 14 px eyebrow line) */
+@media (width < 768px) {
+  .believe.forward .believe-eyebrow {
+    padding-bottom: 25px;
+  }
+}

@@ -1,0 +1,969 @@
+/* card-carousel — lifted from stardust/prototypes/modules.css (card-carousel skeleton, loop-carousel
+   --simple / --scale, reply-card base + --slider, category label, round-bt--filled-on-dark) and canon.css
+   (.round-bt). Track = flex row, item width / gutter per type and breakpoint as custom properties
+   (% = track width); the block JS slides it (--offset) and builds the loop clones. */
+.card-carousel {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 100%;
+  overflow: hidden;
+}
+
+.card-carousel .card-carousel-inner {
+  --item-width: 100%;
+  --gutter: 0px; /* stylelint-disable-line length-zero-no-unit -- used inside calc() */
+
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: visible;
+}
+
+.card-carousel .card-carousel-viewport {
+  max-width: 1660px;
+  margin: 0 auto;
+  touch-action: pan-y;
+  user-select: none;
+}
+
+.card-carousel .card-carousel-track {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  column-gap: var(--gutter);
+  list-style: none;
+  transform: translateX(var(--offset, 0));
+  transition: transform 1s ease-in-out;
+}
+
+.card-carousel .card-carousel-item {
+  position: relative;
+  display: flex;
+  flex: 0 0 var(--item-width);
+  min-width: 0;
+  max-width: var(--item-width);
+}
+
+.card-carousel .card-carousel-item a,
+.card-carousel .card-carousel-item img {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.card-carousel.is-jumping .card-carousel-track,
+.card-carousel.is-jumping .card-carousel-item {
+  transition: none;
+}
+
+.card-carousel .card-carousel-controls {
+  display: none;
+  pointer-events: none;
+}
+
+/* round-bt round-bt--filled-on-dark */
+.card-carousel .round-bt {
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  padding: 1px 6px;
+  border: 0;
+  border-radius: 50%;
+  background-color: #ffffff1a;
+  backdrop-filter: blur(2.125rem);
+  color: #fff;
+  pointer-events: auto;
+  transition: background 0.3s cubic-bezier(0.09, 0.72, 0.76, 1.01);
+}
+
+.card-carousel .round-bt::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  pointer-events: none;
+  background: var(--brand-color);
+  opacity: 0;
+  transform: scale(0);
+  transform-origin: 50%;
+  transition: transform 0.4s cubic-bezier(0.09, 0.72, 0.76, 1.01), opacity 0.3s cubic-bezier(0.09, 0.72, 0.76, 1.01);
+}
+
+.card-carousel .round-bt svg {
+  position: relative;
+  z-index: 1;
+}
+
+.card-carousel .round-bt:hover {
+  color: var(--text-on-brand-color);
+}
+
+.card-carousel .round-bt:hover::after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.card-carousel .round-bt:focus-visible {
+  outline: 0.0625rem solid #fff;
+}
+
+/* --simple: left-aligned rail */
+.card-carousel.simple .card-carousel-track {
+  --gutter: 1.5rem;
+  --item-width: calc(100% - 80px);
+  --padding-left: 40px;
+
+  box-sizing: content-box;
+  width: 100%;
+  padding-left: var(--padding-left);
+}
+
+/* --scale: centred active card scaled */
+.card-carousel.scale {
+  padding: 2.5rem 0;
+}
+
+.card-carousel.scale .card-carousel-viewport {
+  padding: 0 40px;
+}
+
+.card-carousel.scale .card-carousel-track {
+  --gutter: 1.5rem;
+  --item-width: 100%;
+}
+
+.card-carousel.scale .card-carousel-item.is-active {
+  transform: scale(1.07);
+  transition: transform 0.3s cubic-bezier(0.09, 0.72, 0.76, 1.01) 0.5s;
+}
+
+/* reply-card (base + --slider: 2:3 cover, copy over a bottom scrim) */
+.card-carousel .reply-card {
+  position: relative;
+  display: block;
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.card-carousel .reply-card-cover {
+  display: block;
+}
+
+.card-carousel .reply-card-image-container {
+  --r: 150%;
+  --r-md: 150%;
+
+  position: relative;
+  z-index: 0;
+  display: flex;
+  overflow: hidden;
+  border-radius: 0.375rem;
+}
+
+.card-carousel .reply-card-image-container::before {
+  content: "";
+  float: left;
+  width: 1px;
+  height: 0;
+  margin-left: -1px;
+  padding-bottom: var(--r);
+}
+
+.card-carousel .reply-card-image-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.card-carousel .reply-card-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s cubic-bezier(0.09, 0.72, 0.76, 1.01);
+}
+
+.card-carousel .reply-card-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#0000 43.5%, #0c1115f0 100%);
+}
+
+.card-carousel .reply-card-image picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.card-carousel .reply-card-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-carousel .reply-card:hover .reply-card-image {
+  transform: scale(1.05);
+}
+
+.card-carousel .reply-card-body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-basis: 100%;
+  max-width: 100%;
+  margin: 1.25rem 2rem 2rem;
+  color: #fff;
+}
+
+.card-carousel.scale .reply-card-image-container {
+  overflow: visible;
+  clip-path: inset(0 round 0.375rem);
+}
+
+/* title: t-h6 clamp-3 */
+.card-carousel .reply-card-title :is(h2, h3, h4, h5, h6, p) {
+  display: -webkit-box;
+  margin: 0;
+  overflow: hidden;
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.3;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.card-carousel .category-label {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin-top: 1.5rem;
+  color: #fff;
+}
+
+.card-carousel .category-dot {
+  flex-shrink: 0;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+}
+
+.card-carousel .category-name p {
+  margin: 0;
+  font-family: var(--font-label);
+  font-size: 0.625rem;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+@media (width >= 768px) {
+  .card-carousel .reply-card-image-container::before {
+    padding-bottom: var(--r-md);
+  }
+
+  .card-carousel.simple .card-carousel-track {
+    --col-width: calc((100% - 128px - 280px) / 8);
+    --item-width: calc(var(--col-width) * 3 + 80px);
+    --gutter: 40px;
+    --padding-left: 64px;
+  }
+
+  .card-carousel.scale .card-carousel-viewport {
+    padding: 0 64px;
+  }
+
+  .card-carousel.scale .card-carousel-track {
+    --gutter: 2.5rem;
+    --item-width: calc((100% - var(--gutter) * 2) / 2.6);
+  }
+
+  .card-carousel.scale .card-carousel-item.is-active {
+    transform: scale(1.18);
+  }
+}
+
+@media (width >= 768px) and (width < 1024px) {
+  .card-carousel .reply-card-body {
+    margin: 1.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .card-carousel .category-label {
+    margin-top: 1rem;
+  }
+}
+
+@media (width >= 1024px) {
+  .card-carousel.simple .card-carousel-track {
+    --col-width: calc((100% - 128px - 440px) / 12);
+    --item-width: calc(var(--col-width) * 4 + 120px);
+  }
+
+  .card-carousel.scale .card-carousel-track {
+    --item-width: calc((100% - var(--gutter) * 2) / 3);
+  }
+
+  .card-carousel.scale .card-carousel-item.is-active {
+    transform: scale(1.125);
+  }
+
+  .card-carousel .card-carousel-controls {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: 40px;
+    width: 100%;
+    max-width: 1660px;
+    height: 3rem;
+    margin: 0 auto;
+    padding: 0 64px;
+    transform: translate(-50%, -50%);
+  }
+
+  .card-carousel .card-carousel-prev {
+    grid-column: 1 / 1;
+    justify-self: flex-end;
+  }
+
+  .card-carousel .card-carousel-next {
+    grid-column: 12 / 12;
+    justify-self: flex-start;
+  }
+}
+
+@media (width >= 1024px) and (width < 1440px) {
+  .card-carousel .reply-card-body {
+    padding-top: 1.25rem;
+  }
+}
+
+@media (width >= 1440px) {
+  .card-carousel.simple {
+    margin-bottom: 50px;
+  }
+
+  .card-carousel.simple .card-carousel-track {
+    --item-width: calc(var(--col-width) * 3 + 80px);
+  }
+
+  .card-carousel.scale .card-carousel-track {
+    --item-width: calc((100% - var(--gutter) * 3) / 4);
+  }
+
+  .card-carousel .reply-card-body {
+    padding-top: 1.5rem;
+  }
+
+  .card-carousel .reply-card-title :is(h2, h3, h4, h5, h6, p) {
+    font-size: 1.25rem;
+  }
+}
+
+/* variant horizontal — modules.css card-carousel--horizontal + reply-card--horizontal
+   (card-horizontal-editorial: 2:3 -> 16:9, body 60 % wide, radial scrim, abstract on hover >= 1440);
+   slide counter (--slide / data-items-count), outline arrows below the track, stacked in the left
+   column >= 1024 on the band colour (--pb-bg). Added with archetype-brand-home. */
+.card-carousel.horizontal {
+  min-height: 240px;
+}
+
+.card-carousel.ice {
+  --pb-bg: #f4f8fc;
+
+  border-bottom: 56px solid #f4f8fc; /* band margin painted in the band colour */
+  background-color: #f4f8fc;
+}
+
+.card-carousel.split {
+  background-color: #f4f8fc;
+  background-image: linear-gradient(360deg, #0000 50%, #151f27 50%);
+}
+
+.card-carousel.horizontal .card-carousel-track {
+  --gutter: 1.25rem;
+  --padding-left: 40px;
+  --item-width: calc(100% - 80px);
+
+  box-sizing: content-box;
+  padding-left: var(--padding-left);
+}
+
+.card-carousel.horizontal .card-carousel-controls {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 0.5rem;
+  height: 3rem;
+  margin: 1.5rem 40px 0.1875rem 0;
+}
+
+.card-carousel.horizontal .round-bt {
+  border: 0.0625rem solid var(--c-ink);
+  background: none;
+  backdrop-filter: none;
+  color: var(--c-ink);
+}
+
+.card-carousel.horizontal .round-bt:hover {
+  border-color: transparent;
+  color: var(--text-on-brand-color);
+}
+
+.card-carousel.horizontal .round-bt:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.card-carousel.horizontal .round-bt:disabled:hover {
+  border-color: var(--c-ink);
+  color: var(--c-ink);
+}
+
+.card-carousel.horizontal .round-bt:disabled:hover::after {
+  opacity: 0;
+  transform: scale(0);
+}
+
+.card-carousel.horizontal::before {
+  content: counter(slide);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  display: block;
+  width: 2rem;
+  margin: 0.75rem 0 0.9375rem 40px;
+  padding-right: 0.5rem;
+  border-right: 1px solid var(--c-mute);
+  color: var(--c-ink);
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  text-align: center;
+  counter-reset: slide var(--slide);
+}
+
+.card-carousel.horizontal::after {
+  content: attr(data-items-count);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 2rem;
+  margin: 0.75rem 0 0.9375rem calc(40px + 2rem);
+  padding-left: 8px;
+  color: var(--c-mute);
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.card-carousel.horizontal .reply-card-image-container {
+  --r: 150%;
+  --r-md: 56.25%;
+}
+
+.card-carousel.horizontal .reply-card-image::after {
+  inset: 0;
+  background: radial-gradient(885.36% 73.36% at 34.64% 6.88%, #0000 0% 20.61%, #07041380 100%);
+}
+
+.card-carousel.horizontal .reply-card-pic {
+  width: 100%;
+  height: 100%;
+}
+
+.card-carousel.horizontal .reply-card-pic.desktop {
+  display: none;
+}
+
+.card-carousel.horizontal .reply-card-body {
+  position: relative;
+  margin: 2rem;
+  padding: 0;
+}
+
+.card-carousel.horizontal .reply-card-link {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.card-carousel.horizontal .category-label {
+  margin: 0 0 1rem;
+}
+
+.card-carousel.horizontal .reply-card-title :is(h2, h3, h4, h5, h6, p) {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.4;
+  -webkit-line-clamp: 4;
+}
+
+.card-carousel.horizontal .reply-card-abstract {
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.card-carousel.horizontal .reply-card-abstract::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1rem;
+}
+
+.card-carousel.horizontal .reply-card-abstract p {
+  display: -webkit-box;
+  margin: 0;
+  overflow: hidden;
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.7;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+
+.card-carousel.horizontal .reply-card:hover .reply-card-image {
+  transform: scale(1.05);
+}
+
+@media (width >= 769px) {
+  .card-carousel.horizontal .reply-card-pic.desktop {
+    display: block;
+  }
+
+  .card-carousel.horizontal .reply-card-pic.mobile {
+    display: none;
+  }
+}
+
+@media (width >= 768px) {
+  .card-carousel.horizontal .card-carousel-track {
+    --gutter: 40px;
+    --padding-left: 64px;
+    --col-width: calc((100% - 128px - 280px) / 8);
+    --item-width: calc(var(--col-width) * 7 + 240px);
+  }
+
+  .card-carousel.horizontal .card-carousel-controls {
+    margin-right: 64px;
+  }
+
+  .card-carousel.horizontal::before {
+    margin-left: 64px;
+  }
+
+  .card-carousel.horizontal::after {
+    margin-left: calc(64px + 2rem);
+  }
+
+  .card-carousel.horizontal .reply-card-image::after {
+    background: radial-gradient(54.5% 291.68% at 96.4%, #0000 0% 45.79%, #07041380 100%);
+  }
+
+  .card-carousel.horizontal .reply-card-body {
+    flex-basis: 60%;
+  }
+}
+
+@media (width >= 1024px) {
+  .card-carousel.horizontal .card-carousel-track {
+    --col-width: calc((100% - 128px - 440px) / 12);
+    --padding-left: calc(64px + var(--col-width) + 40px);
+  }
+
+  .card-carousel.horizontal .card-carousel-controls {
+    --col-size: calc((100% - 128px - 440px) / 12);
+
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    row-gap: 0.5rem;
+    width: calc(64px + var(--col-size) + 40px);
+    max-width: none;
+    height: auto;
+    margin: 0;
+    padding: 0 0 1.5rem 64px;
+    background: var(--pb-bg, #fff);
+    transform: none;
+  }
+
+  .card-carousel.horizontal::before {
+    top: 0;
+    bottom: auto;
+    width: 1.5rem;
+    margin: 1.5rem 0 0 calc(64px + 0.75rem);
+    padding: 0 0 0.5rem;
+    border-right: 0;
+    border-bottom: 1px solid var(--c-mute);
+  }
+
+  .card-carousel.horizontal::after {
+    top: 0;
+    bottom: auto;
+    width: 1.5rem;
+    margin: 3.5rem 0 0 calc(64px + 0.75rem);
+    padding: 0.5rem 0 0;
+  }
+
+  .card-carousel.horizontal .reply-card-image::after {
+    background: radial-gradient(56.03% 299.83% at 94.96%, #0000 0% 40.09%, #07041380 100%);
+  }
+
+  .card-carousel.horizontal .category-label {
+    margin-bottom: 0.75rem;
+  }
+}
+
+@media (width >= 1440px) {
+  .card-carousel.ice {
+    border-bottom-width: 120px;
+  }
+
+  .card-carousel.horizontal .card-carousel-controls {
+    padding-bottom: 2rem;
+  }
+
+  .card-carousel.horizontal::before {
+    margin-top: 2rem;
+  }
+
+  .card-carousel.horizontal::after {
+    margin-top: 4rem;
+  }
+
+  .card-carousel.horizontal .reply-card-image::after {
+    background: radial-gradient(46.49% 248.81% at 81.14%, #0000 0% 45.79%, #07041380 100%);
+  }
+
+  .card-carousel.horizontal .reply-card-body {
+    margin: 0 3rem 3rem;
+    padding-top: 0;
+  }
+
+  .card-carousel.horizontal .category-label {
+    margin-bottom: 1.25rem;
+  }
+
+  .card-carousel.horizontal .reply-card-title :is(h2, h3, h4, h5, h6, p) {
+    font-size: 1.75rem;
+  }
+
+  .card-carousel.horizontal .reply-card:hover .reply-card-abstract {
+    max-height: 7.75rem;
+    opacity: 1;
+  }
+}
+
+@media (width >= 1660px) {
+  .card-carousel.horizontal {
+    --overgrid: calc((100% - 1660px + 128px) / 2);
+  }
+
+  .card-carousel.horizontal .card-carousel-controls {
+    --padding-left: calc((100% - 1660px + 128px) / 2);
+    --col-size: calc((1660px - 128px - 440px) / 12);
+
+    width: calc(var(--padding-left) + var(--col-size) + 40px);
+    padding-left: var(--padding-left);
+  }
+
+  .card-carousel.horizontal::before,
+  .card-carousel.horizontal::after {
+    margin-left: calc(var(--overgrid) + 0.75rem);
+  }
+}
+
+/* variant featured — hub featured editorial slider band (en-iot.css .iot-featured: margin-bottom
+   64 / 84 / 100 / 120). Added with archetype-hub; awards = the same slider without the band margin. */
+.card-carousel.featured {
+  margin-bottom: 64px;
+}
+
+@media (width >= 768px) {
+  .card-carousel.featured {
+    margin-bottom: 84px;
+  }
+}
+
+@media (width >= 1024px) {
+  .card-carousel.featured {
+    margin-bottom: 100px;
+  }
+}
+
+@media (width >= 1440px) {
+  .card-carousel.featured {
+    margin-bottom: 120px;
+  }
+}
+
+/* variant latest (en-insights .ins-latest, with horizontal): margin-bottom 96 / 104 / 96 / 120;
+   flush (with simple): no band margin (insights collections rails on the ink band) */
+.card-carousel.latest {
+  margin-bottom: 96px;
+}
+
+@media (width >= 768px) {
+  .card-carousel.latest {
+    margin-bottom: 104px;
+  }
+}
+
+@media (width >= 1024px) {
+  .card-carousel.latest {
+    margin-bottom: 96px;
+  }
+}
+
+@media (width >= 1440px) {
+  .card-carousel.latest {
+    margin-bottom: 120px;
+  }
+
+  .card-carousel.simple.flush {
+    margin-bottom: 0;
+  }
+}
+
+/* partner logo on slider cards (index: reply-card--slider .reply-card-logo) */
+.card-carousel .reply-card-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 9rem;
+  margin: 0;
+}
+
+.card-carousel .reply-card-logo picture,
+.card-carousel .reply-card-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* variant highlights (index .home-highlights, with scale): band padding 56 / 88 / 120 top, 60 bottom
+   around the scale rail's own 2.5rem; ink (index .home-insights, with simple): ink band, bottom 56 / 120.
+   Both carry the home R-02 tracking on the card titles (.home .t-h6 letter-spacing .01em). */
+.card-carousel.highlights {
+  border-top: 56px solid #fff;
+  border-bottom: 60px solid #fff;
+}
+
+.card-carousel.ink {
+  border-bottom: 56px solid #151f27;
+  background-color: #151f27;
+}
+
+.card-carousel:is(.highlights, .ink) .reply-card-title :is(h2, h3, h4, h5, h6, p) {
+  letter-spacing: 0.01em;
+}
+
+@media (width >= 768px) {
+  .card-carousel .reply-card-logo {
+    margin-top: 0.25rem;
+  }
+
+  .card-carousel.highlights {
+    border-top-width: 88px;
+  }
+}
+
+@media (width >= 1440px) {
+  .card-carousel.highlights {
+    border-top-width: 120px;
+  }
+
+  .card-carousel.ink {
+    border-bottom-width: 120px;
+  }
+
+  .card-carousel.simple.ink {
+    margin-bottom: 0;
+  }
+}
+
+/* date line above the title (index news cards, .reply-card-time on reply-card--slider) */
+.card-carousel .reply-card-body .reply-card-time p {
+  margin: 0 0 1.5rem;
+  color: #fff;
+  font-family: txtislskto, var(--font-label);
+  font-size: 0.625rem;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+/* scale: the active card is scaled with transform — its title clamp paints through clip-path (same
+   pixels as overflow hidden) so no overflow box mixes scaled and unscaled geometry (modules.css).
+   The clip-path sits on the title wrapper (not on the heading or inside it), so the heading text
+   stays readable to the presence probe (fix-4brands-small). */
+.card-carousel.scale .reply-card-body .reply-card-title {
+  clip-path: inset(0);
+}
+
+.card-carousel.scale .reply-card-body .reply-card-title :is(h2, h3, h4, h5, h6, p) {
+  overflow: visible;
+}
+
+/* hub spacing tokens (cluster-hub): t-<px> / tm-<px> / b-<px> / bm-<px> = the source section's
+   measured space above / below the rail (>= 768 / < 768), e.g. a featured rail right after the hero */
+.card-carousel.spaced {
+  margin-top: var(--sp-tm, 0);
+  margin-bottom: var(--sp-bm, 0);
+}
+
+@media (width >= 768px) {
+  .card-carousel.spaced {
+    margin-top: var(--sp-t, 0);
+    margin-bottom: var(--sp-b, 0);
+  }
+}
+
+/* highlights xmas (en-christmas .ollabgxjno: band 60 top at every width, 60 / 120 @1440 bottom);
+   ink xmas (en-christmas .rorkuftzjb: no bottom padding < 1440, 60 @1440 — the Discover more
+   row follows on the same ink band) */
+.card-carousel.highlights.xmas {
+  border-top-width: 60px;
+}
+
+.card-carousel.ink.xmas {
+  border-bottom-width: 0;
+}
+
+/* below 768 the xmas highlights band ends 63 px under the cards (measured @360, fix-small-2) */
+@media (width < 768px) {
+  .card-carousel.highlights.xmas {
+    border-bottom-width: 63px;
+  }
+}
+
+@media (width >= 768px) {
+  .card-carousel.highlights.xmas {
+    border-top-width: 60px;
+  }
+}
+
+@media (width >= 1440px) {
+  .card-carousel.highlights.xmas {
+    border-top-width: 60px;
+    border-bottom-width: 120px;
+  }
+
+  .card-carousel.ink.xmas {
+    border-bottom-width: 60px;
+  }
+}
+
+/* variant white (with split; fix-brand-solution SAC trainings): ink upper half over white */
+.card-carousel.split.white {
+  background-color: #fff;
+}
+
+/* variant info (with simple; fix-brand-solution-2): the live reply-info-card-slider rail — cards
+   4 columns wide at 1440 too (3 per view), the 1024 simple width */
+@media (width >= 1440px) {
+  .card-carousel.simple.info .card-carousel-track {
+    --item-width: calc(var(--col-width) * 4 + 120px);
+  }
+}
+
+/* all-displayed (fix-brand-solution-2): every real card fits — the live rail drops its loop clones
+   and arrows (displayAllItemsIfPossible) */
+.card-carousel.all-displayed .card-carousel-item.is-clone,
+.card-carousel.all-displayed .card-carousel-controls {
+  display: none;
+}
+
+/* variant low (with split; fix-brand-solution-2): white upper half over the ink band that
+   continues into the next section (sap-analytics-cloud related rail) */
+.card-carousel.split.low {
+  margin-bottom: 0;
+  background-color: #151f27;
+  background-image: linear-gradient(180deg, #fff 50%, #0000 50%);
+}
+
+/* variant cta (fix-hub-e, en-3d-and-mixed-reality "Come and live the experience" labs rail): the
+   live reply-card-cta (mt-4 / xl:mt-5) holding a.button.button-4cibs — white glass button
+   (rgb 255 255 255 / 12 %, blur 20, radius 4), 12 px / 1.4 with 12 x 20 padding, 14 px with
+   14 x 24 from 1440 (styles + theme .button-4cibs) */
+.card-carousel.cta .reply-card-cta {
+  margin-top: 1rem;
+}
+
+.card-carousel.cta .reply-card-cta .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 4px;
+  background-color: #ffffff1f;
+  backdrop-filter: blur(20px);
+  color: #fff;
+  font-family: var(--font-label);
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-decoration: none;
+  pointer-events: auto;
+}
+
+@media (width >= 1280px) {
+  .card-carousel.cta .reply-card-cta {
+    margin-top: 1.25rem;
+  }
+}
+
+@media (width >= 1440px) {
+  .card-carousel.cta .reply-card-cta .button {
+    padding: 14px 24px;
+    font-size: 0.875rem;
+  }
+}
+
+/* ls-<n> (fix-brand-solution-3, as fix-small-2): R-02 wrap compensation below 768 — one tracking
+   (n / 1000 em; 7 = .0075, 12 = .0125, 17 = .0175, 22 = .0225) on every text line of the block,
+   fitted per block against the live line breaks @360 (.work/rollout/fix-brand-solution-3/wrap.mjs) */
+@media (width < 768px) {
+  .card-carousel.ls-5 { --ls-v: 0.005em; }
+  .card-carousel.ls-7 { --ls-v: 0.0075em; }
+  .card-carousel.ls-10 { --ls-v: 0.01em; }
+  .card-carousel.ls-12 { --ls-v: 0.0125em; }
+  .card-carousel.ls-15 { --ls-v: 0.015em; }
+  .card-carousel.ls-17 { --ls-v: 0.0175em; }
+  .card-carousel.ls-20 { --ls-v: 0.02em; }
+  .card-carousel.ls-22 { --ls-v: 0.0225em; }
+  .card-carousel.ls-25 { --ls-v: 0.025em; }
+  .card-carousel.ls-30 { --ls-v: 0.03em; }
+  .card-carousel.ls-35 { --ls-v: 0.035em; }
+
+  main div.card-carousel.block[class*=" ls-"] :is(p, li, h1, h2, h3, h4, h5, h6) {
+    letter-spacing: var(--ls-v, normal);
+  }
+}

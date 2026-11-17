@@ -1,0 +1,3414 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-17T00:34:03.932Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.reply.com/en/approach-to-uk-taxation",
+  "at": "2026-11-17T00:33:46.049Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 2959,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-top.hidden > div.lang-selector.flex > button.flex.footer-text--light",
+    "x": 1339,
+    "y": 6,
+    "w": 37,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-bottom.w-full > div.logo.flex > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "go to homepage",
+    "href": "/en"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#services",
+    "x": 494,
+    "y": 28,
+    "w": 62,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#4ca3136d-8b73-40f4-e048-f04a206f4ff6",
+    "x": 612,
+    "y": 28,
+    "w": 72,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#e5805fc6-31f6-6b53-156c-64b63d3ffa92",
+    "x": 740,
+    "y": 28,
+    "w": 110,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 906,
+    "y": 28,
+    "w": 41,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#3d2beb58-9978-b6e5-b0d3-45faf9b290ac",
+    "x": 1003,
+    "y": 28,
+    "w": 60,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > button#f513cb5a-ffba-4ef4-6e16-ca04600f07e3",
+    "x": 1119,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.nav-item.first-level > a.nav-link.flex",
+    "x": 1225,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "custom-menu-runtime.header.flex > nav.header-bottom.w-full > button.hidden.lg:block",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-pfihz",
+    "x": 177,
+    "y": 164,
+    "w": 861,
+    "h": 17,
+    "text": "Reply Limited"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h1#dryas",
+    "x": 177,
+    "y": 201,
+    "w": 861,
+    "h": 70,
+    "level": 1,
+    "text": "approach to uk taxation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 289,
+    "y": 311,
+    "w": 523,
+    "h": 27,
+    "text": "22 September 2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h6#BUU1q",
+    "x": 289,
+    "y": 430,
+    "w": 861,
+    "h": 26,
+    "level": 6,
+    "text": "tax policy principles"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 289,
+    "y": 466,
+    "w": 861,
+    "h": 81,
+    "text": "This document sets out the approach taken by Reply Limited and its UK subsidiari"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.ul.ul-default > li > p",
+    "x": 329,
+    "y": 567,
+    "w": 821,
+    "h": 27,
+    "text": "its taxation obligations are dealt with in a responsible and low risk manner, an"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.ul.ul-default > li > p",
+    "x": 329,
+    "y": 594,
+    "w": 821,
+    "h": 27,
+    "text": "it pays the right amount of tax at the right time in accordance with the laws of"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 289,
+    "y": 637,
+    "w": 861,
+    "h": 81,
+    "text": "This document and the principles set out have been approved by the UK Finance Di"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h6#C3Lgk",
+    "x": 289,
+    "y": 738,
+    "w": 861,
+    "h": 52,
+    "level": 6,
+    "text": "uk tax risk management and procedures"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 289,
+    "y": 800,
+    "w": 861,
+    "h": 135,
+    "text": "Although pro ud to be a decentralised network of specialised companies far comme"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 289,
+    "y": 947,
+    "w": 861,
+    "h": 81,
+    "text": "The UK Group completes both direct and indirect tax returns and manages these by"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 289,
+    "y": 1040,
+    "w": 861,
+    "h": 27,
+    "text": "The objective of the UK Group is to be low tax risk by aiming to:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 329,
+    "y": 1087,
+    "w": 821,
+    "h": 27,
+    "text": "submit its UK tax returns on a timely basis;"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 329,
+    "y": 1114,
+    "w": 821,
+    "h": 27,
+    "text": "pay its tax liabilities by their due dates;"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 329,
+    "y": 1141,
+    "w": 821,
+    "h": 81,
+    "text": "disclose relevant details, should there be materiai uncertainty regarding the ta"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 329,
+    "y": 1222,
+    "w": 821,
+    "h": 81,
+    "text": "ensure that the Finance Director has relevant qualifications and experience, and"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h6#ZhMf9",
+    "x": 289,
+    "y": 1323,
+    "w": 861,
+    "h": 52,
+    "level": 6,
+    "text": "attitude to tax planning"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 289,
+    "y": 1385,
+    "w": 861,
+    "h": 108,
+    "text": "The UK Group seeks to implement any transactions in a tax efficient way, utilisi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 289,
+    "y": 1505,
+    "w": 861,
+    "h": 81,
+    "text": "In cases where the tax guidance is unclear or the UK Group does not feel it has "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h6#G8nXW",
+    "x": 289,
+    "y": 1606,
+    "w": 861,
+    "h": 52,
+    "level": 6,
+    "text": "level of risk accepted for uk taxation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 289,
+    "y": 1668,
+    "w": 861,
+    "h": 189,
+    "text": "As a business that is part of an extensive wider international group, the UK Gro"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 289,
+    "y": 1869,
+    "w": 861,
+    "h": 54,
+    "text": "The UK Group describes itself as risk adverse regarding taxation matters and tak"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h6#tlBUB",
+    "x": 289,
+    "y": 1943,
+    "w": 861,
+    "h": 52,
+    "level": 6,
+    "text": "working with hmrc"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 289,
+    "y": 2005,
+    "w": 861,
+    "h": 81,
+    "text": "The UK Group does not have a specific contact at HMRC but acts in an open and ho"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 289,
+    "y": 2098,
+    "w": 861,
+    "h": 81,
+    "text": "Should a situation arise where there is any uncertainty on a significant transac"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h6#RNubP",
+    "x": 289,
+    "y": 2199,
+    "w": 861,
+    "h": 52,
+    "level": 6,
+    "text": "details of legislation complied with"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 289,
+    "y": 2261,
+    "w": 861,
+    "h": 81,
+    "text": "This document has been published in accordance with the Finance Act 2016, Schedu"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.block > nav.footer.p-10 > a",
+    "x": 64,
+    "y": 2526,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 2622,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 64,
+    "y": 2622,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 2670,
+    "w": 103,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 2715,
+    "w": 45,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 2759,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 64,
+    "y": 2804,
+    "w": 67,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 2622,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 402,
+    "y": 2622,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 2670,
+    "w": 142,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 2715,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 2776,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 402,
+    "y": 2821,
+    "w": 149,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 2670,
+    "w": 161,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 2715,
+    "w": 127,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 603,
+    "y": 2759,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 2670,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 2731,
+    "w": 154,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 2776,
+    "w": 147,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 804,
+    "y": 2821,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "void(0)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Careers",
+    "x": 1112,
+    "y": 2622,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Contacts",
+    "x": 1112,
+    "y": 2702,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1112,
+    "y": 2782,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1124,
+    "y": 2794,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1184,
+    "y": 2782,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1196,
+    "y": 2794,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "a6732ee4-95cf-4951-9c4b-3675c7154f7e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1256,
+    "y": 2782,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1268,
+    "y": 2794,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "49664893-bfc1-4d79-9208-3bdd7083126b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 1328,
+    "y": 2782,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 1340,
+    "y": 2794,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "c48097ef-90ed-4c24-aa40-1764649e72ff"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > span",
+    "x": 64,
+    "y": 2927,
+    "w": 81,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > a.underline",
+    "x": 158,
+    "y": 2927,
+    "w": 136,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.text-white.py-3 > div.flex.justify-between > button#cookie-pref-center",
+    "x": 1276,
+    "y": 859,
+    "w": 164,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 65,
+    "controls": 37,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--a355dc1b--aemcoder.aem.live/en/approach-to-uk-taxation",
+  "at": "2026-11-17T00:34:03.770Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 2937,
+  "root": "main",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "text": "en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-top > div.lang-selector > button.lang-selector-toggle.footer-text-light",
+    "x": 1336,
+    "y": 6,
+    "w": 40,
+    "h": 17,
+    "label": "trigger",
+    "value": "en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-main > div.site-header-logo > a",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "href": "/en"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-reply-logo > img",
+    "x": 64,
+    "y": 28,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "file": "reply-logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "text": "services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#services",
+    "x": 486,
+    "y": 28,
+    "w": 63,
+    "h": 64,
+    "label": "trigger",
+    "value": "services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "text": "industries"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#industries",
+    "x": 605,
+    "y": 28,
+    "w": 71,
+    "h": 64,
+    "label": "trigger",
+    "value": "industries",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "text": "insights & labs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#insights-labs",
+    "x": 733,
+    "y": 28,
+    "w": 111,
+    "h": 64,
+    "label": "trigger",
+    "value": "insights & labs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 900,
+    "y": 28,
+    "w": 46,
+    "h": 64,
+    "text": "rose",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "text": "we care"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-care",
+    "x": 1002,
+    "y": 28,
+    "w": 59,
+    "h": 64,
+    "label": "trigger",
+    "value": "we care",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item.primary-nav-item-parent > button#we-are",
+    "x": 1118,
+    "y": 28,
+    "w": 51,
+    "h": 64,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#nav-container > li.primary-nav-item > a.primary-nav-link",
+    "x": 1224,
+    "y": 28,
+    "w": 52,
+    "h": 64,
+    "text": "join us",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 1312,
+    "y": 28,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-header-bar > nav.site-header-main > button.sm-collapsed",
+    "x": 1376,
+    "y": -36,
+    "w": 64,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.intro-title.r-cell > div.intro-eyebrow > p",
+    "x": 177,
+    "y": 164,
+    "w": 861,
+    "h": 17,
+    "text": "Reply Limited"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.intro-title.r-cell > div.rich > h1#approach-to-uk-taxation",
+    "x": 177,
+    "y": 197,
+    "w": 861,
+    "h": 70,
+    "level": 1,
+    "text": "approach to uk taxation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.intro-lead.r-cell > div.rich > p",
+    "x": 289,
+    "y": 307,
+    "w": 523,
+    "h": 27,
+    "text": "22 September 2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.intro-container > div.default-content-wrapper > h6#tax-policy-principles",
+    "x": 289,
+    "y": 406,
+    "w": 861,
+    "h": 26,
+    "level": 6,
+    "text": "tax policy principles"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.intro-container > div.default-content-wrapper > p",
+    "x": 289,
+    "y": 442,
+    "w": 861,
+    "h": 81,
+    "text": "This document sets out the approach taken by Reply Limited and its UK subsidiari"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 329,
+    "y": 543,
+    "w": 821,
+    "h": 27,
+    "text": "its taxation obligations are dealt with in a responsible and low risk manner, an"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 329,
+    "y": 570,
+    "w": 821,
+    "h": 27,
+    "text": "it pays the right amount of tax at the right time in accordance with the laws of"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.intro-container > div.default-content-wrapper > p",
+    "x": 289,
+    "y": 614,
+    "w": 861,
+    "h": 81,
+    "text": "This document and the principles set out have been approved by the UK Finance Di"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.intro-container > div.default-content-wrapper > h6#uk-tax-risk-management-and-procedures",
+    "x": 289,
+    "y": 715,
+    "w": 861,
+    "h": 52,
+    "level": 6,
+    "text": "uk tax risk management and procedures"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.intro-container > div.default-content-wrapper > p",
+    "x": 289,
+    "y": 777,
+    "w": 861,
+    "h": 135,
+    "text": "Although pro ud to be a decentralised network of specialised companies far comme"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.intro-container > div.default-content-wrapper > p",
+    "x": 289,
+    "y": 924,
+    "w": 861,
+    "h": 81,
+    "text": "The UK Group completes both direct and indirect tax returns and manages these by"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.intro-container > div.default-content-wrapper > p",
+    "x": 289,
+    "y": 1017,
+    "w": 861,
+    "h": 27,
+    "text": "The objective of the UK Group is to be low tax risk by aiming to:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 329,
+    "y": 1064,
+    "w": 821,
+    "h": 27,
+    "text": "submit its UK tax returns on a timely basis;"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 329,
+    "y": 1091,
+    "w": 821,
+    "h": 27,
+    "text": "pay its tax liabilities by their due dates;"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 329,
+    "y": 1118,
+    "w": 821,
+    "h": 82,
+    "text": "disclose relevant details, should there be materiai uncertainty regarding the ta"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 329,
+    "y": 1200,
+    "w": 821,
+    "h": 82,
+    "text": "ensure that the Finance Director has relevant qualifications and experience, and"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.intro-container > div.default-content-wrapper > h6#attitude-to-tax-planning",
+    "x": 289,
+    "y": 1301,
+    "w": 861,
+    "h": 52,
+    "level": 6,
+    "text": "attitude to tax planning"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.intro-container > div.default-content-wrapper > p",
+    "x": 289,
+    "y": 1363,
+    "w": 861,
+    "h": 108,
+    "text": "The UK Group seeks to implement any transactions in a tax efficient way, utilisi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.intro-container > div.default-content-wrapper > p",
+    "x": 289,
+    "y": 1483,
+    "w": 861,
+    "h": 81,
+    "text": "In cases where the tax guidance is unclear or the UK Group does not feel it has "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.intro-container > div.default-content-wrapper > h6#level-of-risk-accepted-for-uk-taxation",
+    "x": 289,
+    "y": 1584,
+    "w": 861,
+    "h": 52,
+    "level": 6,
+    "text": "level of risk accepted for uk taxation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.intro-container > div.default-content-wrapper > p",
+    "x": 289,
+    "y": 1646,
+    "w": 861,
+    "h": 189,
+    "text": "As a business that is part of an extensive wider international group, the UK Gro"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.intro-container > div.default-content-wrapper > p",
+    "x": 289,
+    "y": 1847,
+    "w": 861,
+    "h": 54,
+    "text": "The UK Group describes itself as risk adverse regarding taxation matters and tak"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.intro-container > div.default-content-wrapper > h6#working-with-hmrc",
+    "x": 289,
+    "y": 1921,
+    "w": 861,
+    "h": 52,
+    "level": 6,
+    "text": "working with hmrc"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.intro-container > div.default-content-wrapper > p",
+    "x": 289,
+    "y": 1983,
+    "w": 861,
+    "h": 81,
+    "text": "The UK Group does not have a specific contact at HMRC but acts in an open and ho"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.intro-container > div.default-content-wrapper > p",
+    "x": 289,
+    "y": 2076,
+    "w": 861,
+    "h": 81,
+    "text": "Should a situation arise where there is any uncertainty on a significant transac"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.intro-container > div.default-content-wrapper > h6#details-of-legislation-complied-with",
+    "x": 289,
+    "y": 2177,
+    "w": 861,
+    "h": 52,
+    "level": 6,
+    "text": "details of legislation complied with"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.intro-container > div.default-content-wrapper > p",
+    "x": 289,
+    "y": 2239,
+    "w": 861,
+    "h": 81,
+    "text": "This document has been published in accordance with the Finance Act 2016, Schedu"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-wrap > nav.footer-nav > a.footer-nav-home",
+    "x": 64,
+    "y": 2504,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 2600,
+    "w": 298,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 64,
+    "y": 2600,
+    "w": 298,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 2648,
+    "w": 102,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 2692,
+    "w": 43,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 2737,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 64,
+    "y": 2782,
+    "w": 66,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 2600,
+    "w": 523,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 402,
+    "y": 2600,
+    "w": 523,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 2648,
+    "w": 145,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 2692,
+    "w": 161,
+    "h": 34,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 2754,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 402,
+    "y": 2799,
+    "w": 150,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 2648,
+    "w": 160,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 2692,
+    "w": 131,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 603,
+    "y": 2737,
+    "w": 161,
+    "h": 50,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 2648,
+    "w": 161,
+    "h": 34,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 2709,
+    "w": 153,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 2754,
+    "w": 143,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 804,
+    "y": 2799,
+    "w": 161,
+    "h": 34,
+    "text": "do not sell/share my personal information",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 2600,
+    "w": 264,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 1112,
+    "y": 2680,
+    "w": 264,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1112,
+    "y": 2760,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1124,
+    "y": 2772,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1184,
+    "y": 2760,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1196,
+    "y": 2772,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1256,
+    "y": 2760,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1268,
+    "y": 2772,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-linkedin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 1328,
+    "y": 2760,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 1340,
+    "y": 2772,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-xing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > span",
+    "x": 64,
+    "y": 2904,
+    "w": 84,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > a",
+    "x": 160,
+    "y": 2904,
+    "w": 131,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-inner > div.site-legal-row > button#cookie-pref-center",
+    "x": 1278,
+    "y": 859,
+    "w": 162,
+    "h": 41,
+    "text": "cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 65,
+    "controls": 37,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "approach to uk taxation",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 19,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 19,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 1339,
+    "y": 7,
+    "w": 17,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 51,
+    "w": 62,
+    "h": 16
+   },
+   {
+    "x": 612,
+    "y": 51,
+    "w": 72,
+    "h": 16
+   },
+   {
+    "x": 740,
+    "y": 51,
+    "w": 110,
+    "h": 16
+   },
+   {
+    "x": 906,
+    "y": 51,
+    "w": 41,
+    "h": 16
+   },
+   {
+    "x": 1003,
+    "y": 51,
+    "w": 60,
+    "h": 16
+   },
+   {
+    "x": 1119,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1225,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 165,
+    "w": 117,
+    "h": 13
+   },
+   {
+    "x": 177,
+    "y": 200,
+    "w": 824,
+    "h": 71
+   },
+   {
+    "x": 289,
+    "y": 315,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 432,
+    "w": 210,
+    "h": 22
+   },
+   {
+    "x": 289,
+    "y": 497,
+    "w": 841,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 524,
+    "w": 59,
+    "h": 18
+   },
+   {
+    "x": 329,
+    "y": 571,
+    "w": 644,
+    "h": 18
+   },
+   {
+    "x": 329,
+    "y": 598,
+    "w": 813,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 641,
+    "w": 789,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 668,
+    "w": 822,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 695,
+    "w": 739,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 766,
+    "w": 434,
+    "h": 22
+   },
+   {
+    "x": 289,
+    "y": 831,
+    "w": 839,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 858,
+    "w": 847,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 885,
+    "w": 851,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 912,
+    "w": 554,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 951,
+    "w": 842,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 978,
+    "w": 768,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1005,
+    "w": 242,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1044,
+    "w": 514,
+    "h": 18
+   },
+   {
+    "x": 329,
+    "y": 1091,
+    "w": 345,
+    "h": 18
+   },
+   {
+    "x": 329,
+    "y": 1118,
+    "w": 318,
+    "h": 18
+   },
+   {
+    "x": 329,
+    "y": 1145,
+    "w": 779,
+    "h": 18
+   },
+   {
+    "x": 329,
+    "y": 1172,
+    "w": 811,
+    "h": 18
+   },
+   {
+    "x": 329,
+    "y": 1199,
+    "w": 467,
+    "h": 18
+   },
+   {
+    "x": 329,
+    "y": 1226,
+    "w": 774,
+    "h": 18
+   },
+   {
+    "x": 329,
+    "y": 1253,
+    "w": 805,
+    "h": 18
+   },
+   {
+    "x": 329,
+    "y": 1280,
+    "w": 231,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1351,
+    "w": 255,
+    "h": 22
+   },
+   {
+    "x": 289,
+    "y": 1416,
+    "w": 820,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1443,
+    "w": 823,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1470,
+    "w": 518,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1509,
+    "w": 817,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1536,
+    "w": 837,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1563,
+    "w": 301,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1634,
+    "w": 395,
+    "h": 22
+   },
+   {
+    "x": 289,
+    "y": 1699,
+    "w": 846,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1726,
+    "w": 834,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1753,
+    "w": 857,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1780,
+    "w": 857,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1807,
+    "w": 848,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1834,
+    "w": 229,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1873,
+    "w": 846,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1900,
+    "w": 346,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1971,
+    "w": 208,
+    "h": 22
+   },
+   {
+    "x": 289,
+    "y": 2036,
+    "w": 837,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 2063,
+    "w": 748,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 2102,
+    "w": 825,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 2129,
+    "w": 836,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 2156,
+    "w": 790,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 2227,
+    "w": 369,
+    "h": 22
+   },
+   {
+    "x": 289,
+    "y": 2292,
+    "w": 847,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 2319,
+    "w": 515,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 2623,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 2671,
+    "w": 103,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 2716,
+    "w": 45,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 2760,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 2805,
+    "w": 67,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 2623,
+    "w": 135,
+    "h": 16
+   },
+   {
+    "x": 402,
+    "y": 2671,
+    "w": 142,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 2716,
+    "w": 89,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 2732,
+    "w": 73,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 2777,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 2777,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 2822,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 2822,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 2671,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 2671,
+    "w": 69,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 2716,
+    "w": 127,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 2760,
+    "w": 121,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 2777,
+    "w": 85,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 2794,
+    "w": 39,
+    "h": 13
+   },
+   {
+    "x": 642,
+    "y": 2794,
+    "w": 51,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 2671,
+    "w": 157,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 2688,
+    "w": 36,
+    "h": 13
+   },
+   {
+    "x": 841,
+    "y": 2688,
+    "w": 64,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 2732,
+    "w": 154,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 2777,
+    "w": 147,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 2822,
+    "w": 130,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 2839,
+    "w": 128,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 2638,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 1112,
+    "y": 2718,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 64,
+    "y": 2928,
+    "w": 81,
+    "h": 13
+   },
+   {
+    "x": 149,
+    "y": 2928,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 158,
+    "y": 2928,
+    "w": 136,
+    "h": 13
+   },
+   {
+    "x": 1296,
+    "y": 872,
+    "w": 124,
+    "h": 13
+   }
+  ],
+  "eds": [
+   {
+    "x": 1336,
+    "y": 7,
+    "w": 20,
+    "h": 13
+   },
+   {
+    "x": 486,
+    "y": 51,
+    "w": 63,
+    "h": 16
+   },
+   {
+    "x": 605,
+    "y": 51,
+    "w": 71,
+    "h": 16
+   },
+   {
+    "x": 733,
+    "y": 51,
+    "w": 111,
+    "h": 16
+   },
+   {
+    "x": 900,
+    "y": 51,
+    "w": 46,
+    "h": 16
+   },
+   {
+    "x": 1002,
+    "y": 51,
+    "w": 59,
+    "h": 16
+   },
+   {
+    "x": 1118,
+    "y": 51,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 1224,
+    "y": 51,
+    "w": 52,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 164,
+    "w": 129,
+    "h": 16
+   },
+   {
+    "x": 177,
+    "y": 196,
+    "w": 815,
+    "h": 71
+   },
+   {
+    "x": 289,
+    "y": 311,
+    "w": 167,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 408,
+    "w": 216,
+    "h": 22
+   },
+   {
+    "x": 289,
+    "y": 473,
+    "w": 859,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 500,
+    "w": 61,
+    "h": 18
+   },
+   {
+    "x": 329,
+    "y": 547,
+    "w": 639,
+    "h": 18
+   },
+   {
+    "x": 329,
+    "y": 574,
+    "w": 806,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 618,
+    "w": 801,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 645,
+    "w": 821,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 672,
+    "w": 738,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 743,
+    "w": 444,
+    "h": 22
+   },
+   {
+    "x": 289,
+    "y": 808,
+    "w": 842,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 835,
+    "w": 850,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 862,
+    "w": 845,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 889,
+    "w": 559,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 928,
+    "w": 851,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 955,
+    "w": 779,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 982,
+    "w": 237,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1021,
+    "w": 521,
+    "h": 18
+   },
+   {
+    "x": 329,
+    "y": 1068,
+    "w": 350,
+    "h": 18
+   },
+   {
+    "x": 329,
+    "y": 1095,
+    "w": 314,
+    "h": 18
+   },
+   {
+    "x": 329,
+    "y": 1122,
+    "w": 767,
+    "h": 18
+   },
+   {
+    "x": 329,
+    "y": 1149,
+    "w": 801,
+    "h": 18
+   },
+   {
+    "x": 329,
+    "y": 1176,
+    "w": 481,
+    "h": 18
+   },
+   {
+    "x": 329,
+    "y": 1204,
+    "w": 771,
+    "h": 18
+   },
+   {
+    "x": 329,
+    "y": 1231,
+    "w": 806,
+    "h": 18
+   },
+   {
+    "x": 329,
+    "y": 1258,
+    "w": 227,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1329,
+    "w": 249,
+    "h": 22
+   },
+   {
+    "x": 289,
+    "y": 1394,
+    "w": 823,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1421,
+    "w": 830,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1448,
+    "w": 517,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1487,
+    "w": 834,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1514,
+    "w": 841,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1541,
+    "w": 310,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1612,
+    "w": 392,
+    "h": 22
+   },
+   {
+    "x": 289,
+    "y": 1677,
+    "w": 857,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1704,
+    "w": 847,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1731,
+    "w": 816,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1758,
+    "w": 813,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1785,
+    "w": 840,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1812,
+    "w": 335,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1851,
+    "w": 852,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1878,
+    "w": 342,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 1949,
+    "w": 211,
+    "h": 22
+   },
+   {
+    "x": 289,
+    "y": 2014,
+    "w": 855,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 2041,
+    "w": 753,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 2080,
+    "w": 826,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 2107,
+    "w": 843,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 2134,
+    "w": 792,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 2205,
+    "w": 363,
+    "h": 22
+   },
+   {
+    "x": 289,
+    "y": 2270,
+    "w": 841,
+    "h": 18
+   },
+   {
+    "x": 289,
+    "y": 2297,
+    "w": 553,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 2600,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 2649,
+    "w": 102,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 2693,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 2738,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 64,
+    "y": 2783,
+    "w": 66,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 2600,
+    "w": 135,
+    "h": 18
+   },
+   {
+    "x": 402,
+    "y": 2649,
+    "w": 145,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 2693,
+    "w": 88,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 2710,
+    "w": 71,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 2755,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 2755,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 402,
+    "y": 2800,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 494,
+    "y": 2800,
+    "w": 58,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 2649,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 695,
+    "y": 2649,
+    "w": 68,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 2693,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 2738,
+    "w": 120,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 2755,
+    "w": 83,
+    "h": 13
+   },
+   {
+    "x": 603,
+    "y": 2772,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 643,
+    "y": 2772,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 2649,
+    "w": 156,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 2665,
+    "w": 41,
+    "h": 13
+   },
+   {
+    "x": 845,
+    "y": 2665,
+    "w": 65,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 2710,
+    "w": 153,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 2755,
+    "w": 143,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 2800,
+    "w": 132,
+    "h": 13
+   },
+   {
+    "x": 804,
+    "y": 2817,
+    "w": 126,
+    "h": 13
+   },
+   {
+    "x": 1112,
+    "y": 2615,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 1112,
+    "y": 2695,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 64,
+    "y": 2905,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 152,
+    "y": 2905,
+    "w": 5,
+    "h": 13
+   },
+   {
+    "x": 160,
+    "y": 2905,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 1298,
+    "y": 871,
+    "w": 122,
+    "h": 16
+   }
+  ]
+ }
+}

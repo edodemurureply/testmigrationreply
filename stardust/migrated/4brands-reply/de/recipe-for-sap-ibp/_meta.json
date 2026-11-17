@@ -1,0 +1,161 @@
+{
+  "slug": "4brands-reply-de-recipe-for-sap-ibp",
+  "type": "brand-solution",
+  "renderBranch": "A'",
+  "template": "4brands-reply-de-customer-experience-management",
+  "modules": [
+    "b4-hero",
+    "statement",
+    "section-heading",
+    "b4-slider",
+    "b4-teaser"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "b4-hero",
+    "statement",
+    "statement",
+    "section-heading",
+    "b4-slider",
+    "statement",
+    "b4-teaser"
+  ],
+  "canonShas": {
+    "header": "f6d79f997837",
+    "footer": "f2836c338626",
+    "css": "5bf5dffd7509"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Sales &amp; Operations Planning mit RECIPE | 4brands Reply",
+    "description": "Optimieren Sie Ihr S&amp;OP mit RECIPE von 4brands Reply. Integrierte Planung mit SAP IBP und maßgeschneiderte Lösungen für die Konsumgüterindustrie.",
+    "canonical": "https://www.reply.com/4brands-reply/de/recipe-for-sap-ibp",
+    "lang": "de"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Sales &amp; Operations Planning mit RECIPE | 4brands Reply",
+    "description": "Optimieren Sie Ihr S&amp;OP mit RECIPE von 4brands Reply. Integrierte Planung mit SAP IBP und maßgeschneiderte Lösungen für die Konsumgüterindustrie.",
+    "url": "https://www.reply.com/4brands-reply/de/recipe-for-sap-ibp"
+  },
+  "migratedAt": "2026-11-15T13:52:01Z",
+  "designMdSha": "d809c0215087",
+  "designJsonSha": "bdcb89ad7bf4",
+  "sourceCurrentSha": "8dbbd0762adf",
+  "sourceProposedSha": "8eebd1c6d40a",
+  "fidelityTier": "sibling",
+  "archetypeSource": "4brands-reply-de-customer-experience-management",
+  "archetypeSha": "53d3130d0036",
+  "variants": [
+    "b4-hero--solution b4-slider--center b4-slider--dark section-heading--b4 section-heading--dark statement--ice statement--lead statement--left"
+  ],
+  "gatesPassed": [
+    "content-fidelity",
+    "delivery-lint"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "encoder gen.py: headings, paragraphs, lists, CTA labels + hrefs, images in capture order from stardust/current/pages/<slug>.html; modal forms are HubSpot mounts (dynamics row 18)",
+    "pixel-gate-1440": "OPEN: no row in the pixel table (prototypes-1440) — run gate-all.mjs --stage prototype so the page is measured",
+    "pixel-gate-360": "OPEN: no row in the pixel table (prototypes-360) — run gate-all.mjs --stage prototype so the page is measured",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /4brands-reply/de/recipe-for-sap-ibp)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 7,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/4brands-reply/en/customer-experience-management",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/de",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/4brands-reply/de/revenue-growth-management",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/4brands-reply/de/transparency-with-sap-embedded-analytics",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/de/sap-analytics-cloud",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/4brands-reply/de/sap-datasphere-trainings",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/4brands-reply/de/sap-finance-knowledge-and-training",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/4brands-reply/de#xvCx5",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/4brands-reply/de#lpKxk",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.reply.com/de/about/careers/de/job-search?country=de&company=4brands_reply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/en/customer-experience-management",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/4brands-reply/de",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/4brands-reply/de?formId=GfIuK",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.reply.com/de/about/careers/de/job-search?country=de&company=4brands_reply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/de/impressum",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/privacy-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/privacy-notice-candidate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/privacy-notice-client",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/privacy-notice-supplier",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/privacy-notice-marketing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/declaration-of-principles",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/accessibility",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "4brands-reply/de/recipe-for-sap-ibp/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "4brands-reply/de/recipe-for-sap-ibp/_meta.json",
+  "driverVersion": "1"
+}

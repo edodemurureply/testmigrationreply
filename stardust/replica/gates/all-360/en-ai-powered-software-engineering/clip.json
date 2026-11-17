@@ -1,0 +1,87 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.live/en/ai-powered-software-engineering",
+ "at": "2026-11-17T01:27:32.751Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 6,
+  "offPage": 91,
+  "textNodes": 117,
+  "controls": 66,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.card-carousel.scale",
+   "path": "ul.card-carousel-track > li.card-carousel-item > div.reply-card.reply-card-slider > a.reply-card-cover",
+   "text": "agentic ai for legacy modernisationbest practice",
+   "cutMin": 30,
+   "cutMax": 194
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.aise-agents-intro",
+   "path": "ul.aise-agents-items > li.aise-agents-item > div.aise-agents-intro > p.aise-agents-title",
+   "text": "artificial intelligence for legacy modernisation",
+   "cutMin": 241,
+   "cutMax": 241
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.aise-agents-intro",
+   "path": "ul.aise-agents-items > li.aise-agents-item > div.aise-agents-intro > p.aise-agents-copy",
+   "text": "generative ai to expedite the comprehension, rewriting, and ",
+   "cutMin": 245,
+   "cutMax": 245
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.card-carousel.scale",
+   "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#ai-change-request-assistant",
+   "text": "ai change request assistant",
+   "cutMin": 128,
+   "cutMax": 128
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.card-carousel.scale",
+   "path": "div.reply-card-body > div.category-label > div.category-name > p",
+   "text": "case study",
+   "cutMin": 57,
+   "cutMax": 57
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 1,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 7,
+   "offPage": 105,
+   "textNodes": 129,
+   "controls": 70,
+   "total": 0
+  }
+ }
+}

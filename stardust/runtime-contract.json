@@ -1,0 +1,16 @@
+{
+  "runtime": "vanilla-eds",
+  "blockWrapperClass": "block",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "notes": {
+    "source": "scripts/scripts.js decorateButtons (requires <strong>/<em>, p.button-wrapper) + scripts/aem.js decorateBlock (.block, data-block-name, div.<name>-wrapper, section .<name>-container)",
+    "icons": "decorateIcon emits <img src=/icons/<name>.svg loading=lazy width=16 height=16> inside span.icon",
+    "chrome": "header/footer blocks load /nav + /footer; /4brands-reply/(en|de)/… pages default to /4brands-reply/<loc>/nav|footer; `nav`/`footer` metadata overrides",
+    "bodyClasses": "body.brand-4b on /4brands-reply/… (scripts.js loadEager) or theme metadata brand-4b",
+    "lang": "html[lang] from the locale segment (de/en/fr/it/pt; 4brands: second segment), default en",
+    "classNames": "canon BEM class names are kebab-cased in the foundation: __ and -- become - (stylelint selector-class-pattern)"
+  }
+}

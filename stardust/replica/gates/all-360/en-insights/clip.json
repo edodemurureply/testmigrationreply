@@ -1,0 +1,87 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.live/en/insights",
+ "at": "2026-11-17T01:51:40.642Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 6,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 6,
+  "offPage": 138,
+  "textNodes": 201,
+  "controls": 134,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 6,
+   "clipper": "div.card-carousel.simple",
+   "path": "ul.card-carousel-track > li.card-carousel-item.is-clone > div.reply-card.reply-card-slider > a.reply-card-cover",
+   "text": "finops for ai: controlling costs while driving innovationart",
+   "cutMin": 264,
+   "cutMax": 264
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 3,
+   "clipper": "a",
+   "path": "div.reply-card-body > div.reply-card-title > h3#cyber-resilience-act-from-regulatory-compliance-to-secure-product-lifecycle > a",
+   "text": "cyber resilience act: from regulatory compliance to secure p",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h3#from-code-to-control-ais-takeover-of-software-development-lifecycle",
+   "path": "div.reply-card-body > a.reply-card-link > div.reply-card-title > h3#from-code-to-control-ais-takeover-of-software-development-lifecycle",
+   "text": "from code to control: ai’s takeover of software development ",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.hero-card-abstract",
+   "path": "div.hero-card-grid > div.hero-card-body > div.hero-card-abstract > p",
+   "text": "how european financial institutions are realigning their clo",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h3#sovereign-ai-for-european-organisations-foundation-models-infrastructure-and-compliance",
+   "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#sovereign-ai-for-european-organisations-foundation-models-infrastructure-and-compliance",
+   "text": "sovereign ai for european organisations: foundation models, ",
+   "cutMin": null,
+   "cutMax": null
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 7,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 6,
+   "offPage": 138,
+   "textNodes": 200,
+   "controls": 133,
+   "total": 0
+  }
+ }
+}

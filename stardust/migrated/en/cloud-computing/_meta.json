@@ -1,0 +1,565 @@
+{
+  "slug": "en-cloud-computing",
+  "type": "hub",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "media-hero",
+    "statement",
+    "hero-card",
+    "page-index",
+    "section-heading",
+    "slider-with-title",
+    "cards-wall",
+    "marquee",
+    "rose-cta",
+    "discover-also"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "media-hero",
+    "statement",
+    "hero-card",
+    "page-index",
+    "section-heading",
+    "slider-with-title",
+    "cards-wall",
+    "section-heading",
+    "slider-with-title",
+    "cards-wall",
+    "section-heading",
+    "cards-wall",
+    "section-heading",
+    "cards-wall",
+    "section-heading",
+    "marquee",
+    "section-heading",
+    "cards-wall",
+    "rose-cta",
+    "discover-also"
+  ],
+  "canonShas": {
+    "header": "1e6ca4afcfc2",
+    "footer": "b51036253449",
+    "css": "5bf5dffd7509"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Cloud Computing and Cloud Solutions | Reply",
+    "description": "Discover Reply&#x27;s best practices in implementing cloud strategies and services for different types of companies and sectors.",
+    "canonical": "https://www.reply.com/en/cloud-computing",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Cloud Computing and Cloud Solutions | Reply",
+    "description": "Discover Reply&#x27;s best practices in implementing cloud strategies and services for different types of companies and sectors.",
+    "url": "https://www.reply.com/en/cloud-computing"
+  },
+  "migratedAt": "2026-11-15T22:22:51Z",
+  "designMdSha": "d809c0215087",
+  "designJsonSha": "bdcb89ad7bf4",
+  "sourceCurrentSha": "003e2b2a008d",
+  "sourceProposedSha": "053949961cf5",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [
+    "cards-wall--t-120 cards-wall--t-50 cards-wall--tm-96 hero-card--b-120 hero-card--hub hub-text--b-25 hub-text--bm-43 hub-text--mixed hub-text--t-25 hub-text--tm-25 media-hero--slide page-index--hub section-heading--b-0 section-heading--b-56 section-heading--b-72 section-heading--bm-0 section-heading--bm-36 section-heading--bm-56 section-heading--bm-57 section-heading--lead section-heading--t-72 section-heading--tm-48 section-heading--tm-56 section-heading--w-6 section-heading--w-8 slider-with-title--autoplay slider-with-title--b-51 slider-with-title--cards slider-with-title--icons slider-with-title--infinite slider-with-title--t-4 slider-with-title--tm-36 statement--bm-56 statement--hub statement--tm-56",
+    "cards-wall--t-120 cards-wall--t-50 cards-wall--tm-96 hero-card--b-120 hero-card--hub marquee--t-25 marquee--tm-25 media-hero--slide page-index--hub section-heading--b-0 section-heading--b-56 section-heading--b-72 section-heading--bm-0 section-heading--bm-36 section-heading--bm-56 section-heading--bm-57 section-heading--lead section-heading--t-72 section-heading--tm-48 section-heading--tm-56 section-heading--w-6 section-heading--w-8 slider-with-title--autoplay slider-with-title--b-51 slider-with-title--cards slider-with-title--icons slider-with-title--infinite slider-with-title--t-4 slider-with-title--tm-36 statement--bm-56 statement--hub statement--tm-56"
+  ],
+  "gatesPassed": [
+    "delivery-lint"
+  ],
+  "gateEvidence": {
+    "pixel-gate-1440": "OPEN: no row in the pixel table (prototypes-1440) — run gate-all.mjs --stage prototype so the page is measured",
+    "pixel-gate-360": "OPEN: no row in the pixel table (prototypes-360) — run gate-all.mjs --stage prototype so the page is measured",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /en/cloud-computing)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "module-flattened",
+      "source": "continuous-slider-runtime (section 15)",
+      "target": "hub-text",
+      "reason": "one-off source runtime without a hub block; content kept verbatim in order"
+    }
+  ],
+  "assetsBundled": 5,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/de/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en/metaverse",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/prebuilt-ai-apps",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quality-engineering",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quantum-computing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/robotics-and-autonomous-things",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/strategy-and-business-model-transformation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/supply-chain-management",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-networks",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/symbiosis-reply/en",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/reply-model-factory",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/retail-and-consumer-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-and-media",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/industrial-agentic-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/brick-reply/en/brick-cognitive-agentic-ai-to-scale-manufacturing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-42",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-73",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/area-phi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/cyber-security-lab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-house-of-models",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/reply-iot-labs-concept-quality",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/labs/testautomationcentre",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/xchange",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/ai-for-retailers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/scaling-ai-in-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/energy-and-emissions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/reply-to-the-earth",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/environment/sustainable-supply-chain",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/social",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/continuous-learning",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/wellbeing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/people/inclusion-and-diversity",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/governance-system",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/governance-policies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/governance/our-commitment-to-ethical-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom?type=financial-news",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/reply-share-information",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-highlights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-calendar-and-events",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/financial-reports",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/shareholders-meeting",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/investors/loyalty-shares",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/newsroom/financial-news/the-board-of-directors-approves-the-quarterly-financial-report-as-of-30-september-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt/iot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/sovereign-cloud-in-financial-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/reply-cloud-service-providers-monitor",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/caffe",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/cloud-centre-of-excellence",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/define-and-implement-your-multicloud-strategy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/a-multicloud-approach-for-the-future-of-energy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/cloud-migration-without-downtime-thanks-to-a-hybrid-architecture",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/global-cloud-migration-programme",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/optimising-and-accelerating-the-migration-to-the-cloud",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/cloud-adoption-in-financial-services-second-edition",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/best-in-class-for-azure-it-ecosystem",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/cloud-adoption-in-financial-services-interviews",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/switching-a-product-lifecycle-management-to-the-cloud",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/university-portsmouth-microsoft-first-integration",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/strategy-and-business-model-transformation/digital-sovereignty",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/sovereign-clouds",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/iot/1nce-enables-the-iot-of-tomorrow-with-unified-apis",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/devbot-audis-intelligent-multi-agent-system",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/artificial-intelligence/making-a-small-town-more-attractive-with-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/sustainably-managing-the-supply-chain-with-oracle-sustainability",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/cost-efficient-cloud-solutions-for-the-automotive-industry",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/gss-reduces-terraform-review-time",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/a-more-efficient-cloud-for-toyota-thanks-to-finops",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/innovating-application-management-with-a-tailored-devops-solution",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/cloud-management-between-finops-and-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-and-media/it-system-integration-api-first",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/cloud-governance-focus-on-finops",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/liquid-reply/en/Mastering-complex-micro-services-with-GitOps",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/liquid-reply/en/finops-for-the-multi-cloud",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/supply-chain-management/improving-order-flow-and-inventory-victrola-s-move-to-sap-cloud-erp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/emerald-publishing-sustainable-cloud-integration",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/storm-reply/en/mainstreet-partners-cloud-ready-for-the-future",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/unify-crm-and-erp-systems-with-oracle-netsuite",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/erp-and-cloud-the-recipe-for-confectionery-excellence",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/the-journey-towards-an-effective-modernization-strategy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/data-world/monte-titoli-activites-with-advanced-analytics-and-ml-on-aws",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cloud-computing/rio-logistics-for-traton",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/events/aws-summit-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/events/oracle-ai-world-tour-milan-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/events/oracle-ai-world-tour-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom/events/google-cloud-summit-london-2025",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quality-engineering",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/quantum-computing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/robotics-and-autonomous-things",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/telco-networks",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/offices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/newsroom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-candidate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-client",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-supplier",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/privacy-notice-marketing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/modern-slavery-statement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.reply.com/en/about/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contents/Reply_Company_Information_en.pdf",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "en/cloud-computing/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "en/cloud-computing/_meta.json",
+  "driverVersion": "1"
+}

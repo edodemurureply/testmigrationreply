@@ -1,0 +1,6690 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-17T05:04:23.742Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.reply.com/en/3d-and-mixed-reality",
+  "at": "2026-11-17T05:03:46.297Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 11254,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.header-bottom.w-full > div.logo.flex > a",
+    "x": 40,
+    "y": 0,
+    "w": 129,
+    "h": 64,
+    "text": "go to homepage",
+    "href": "/en"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 232,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.menu-search.first-level > button#search-toggle",
+    "x": 232,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.lg:hidden.first-level > button#mobile-menu-toggle",
+    "x": 296,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "text": "toggle menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.nav.flex > li.lg:hidden.first-level > button#mobile-menu-toggle",
+    "x": 296,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "label": "toggle menu",
+    "value": "toggle menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.grid-bg__container.absolute > picture > img.grid-bg.w-full",
+    "x": 0,
+    "y": 18,
+    "w": 360,
+    "h": 608,
+    "text": "",
+    "file": "309cf036-63de-4124-981a-ad600439ec10"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h1#TAI6y",
+    "x": 40,
+    "y": 477,
+    "w": 280,
+    "h": 79,
+    "level": 1,
+    "text": "3d & mixed reality"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProseMirror.content-body > h1#TAI6y > span.colors-1-gbfb",
+    "x": 40,
+    "y": 476,
+    "w": 215,
+    "h": 80,
+    "text": "3D & Mixed Reality"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text.text-align-center",
+    "x": 40,
+    "y": 700,
+    "w": 280,
+    "h": 302,
+    "text": "We create new customer experiences, combining digital content creation, AI and c"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vpmmobcipd.vpmmobcipd-md > div > a#y5bog",
+    "x": 144,
+    "y": 1002,
+    "w": 72,
+    "h": 27,
+    "text": "button",
+    "href": "/contents/REP26_ESG_Data_Addendum_2025_ITA-1.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#waYfE > div.reply-card-image-container.aspect-w-2 > a.absolute.h-full",
+    "x": 40,
+    "y": 1126,
+    "w": 280,
+    "h": 420,
+    "text": "reply immersive experience",
+    "href": "/en/artificial-intelligence/reply-immersive-experience"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.absolute.w-full > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 1126,
+    "w": 280,
+    "h": 420,
+    "text": "",
+    "file": "cb8b69c6-6a3f-499d-bd2f-e8530c575da0"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-grid.pointer-events-none > div.reply-card-body > a.pointer-events-auto",
+    "x": 80,
+    "y": 1315,
+    "w": 200,
+    "h": 101,
+    "text": "reply immersive experience",
+    "href": "/en/artificial-intelligence/reply-immersive-experience"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a.pointer-events-auto > h3.h4.text-white",
+    "x": 80,
+    "y": 1315,
+    "w": 200,
+    "h": 101,
+    "level": 3,
+    "text": "reply immersive experience"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > article.reply-card-abstract.paragraph-01--light > p",
+    "x": 80,
+    "y": 1416,
+    "w": 200,
+    "h": 82,
+    "text": "Products to explore. Stories to enter. Experiences to live with all the senses, "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#thJ3L",
+    "x": 40,
+    "y": 1602,
+    "w": 280,
+    "h": 67,
+    "level": 2,
+    "text": "come and live the experience"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p",
+    "x": 40,
+    "y": 1701,
+    "w": 280,
+    "h": 108,
+    "text": "Want to try some devices and technical solutions for yourself? Come visit us in "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 1865,
+    "w": 280,
+    "h": 420,
+    "text": "",
+    "file": "b64955e5-68d8-49c0-b8dd-3983b6b9fa8e"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > div.category-label.text-white > div.category-name",
+    "x": 88,
+    "y": 2132,
+    "w": 35,
+    "h": 14,
+    "text": "Labs"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body.!m-8 > a",
+    "x": 72,
+    "y": 2162,
+    "w": 216,
+    "h": 34,
+    "text": "metaverse lab",
+    "href": "/en/labs/metaverse-lab"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > a > h3.h4.text-white",
+    "x": 72,
+    "y": 2162,
+    "w": 216,
+    "h": 34,
+    "level": 3,
+    "text": "metaverse lab"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-8 > div.reply-card-cta.mt-4 > a.button.button-4cibs",
+    "x": 72,
+    "y": 2212,
+    "w": 154,
+    "h": 41,
+    "text": "discover more",
+    "href": "/en/labs/metaverse-lab"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 340,
+    "y": 1865,
+    "w": 280,
+    "h": 420,
+    "text": "",
+    "file": "9a72c8e5-ca4a-4d7b-a99e-d796aed03e34"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-prev.round-bt",
+    "x": 216,
+    "y": 2309,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-next.round-bt",
+    "x": 272,
+    "y": 2309,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#kVZnU",
+    "x": 40,
+    "y": 2456,
+    "w": 280,
+    "h": 34,
+    "level": 2,
+    "text": "our case studies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#18384 > a",
+    "x": 40,
+    "y": 2529,
+    "w": 280,
+    "h": 280,
+    "text": "delivering a 3d showroom experience from home",
+    "href": "/our-work/shaw-floors/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 2529,
+    "w": 280,
+    "h": 280,
+    "text": "",
+    "file": "987c10f6-53b3-45c8-becf-7e547e5341dc"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > div.reply-card-logo.absolute > img",
+    "x": 60,
+    "y": 2549,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "cebf3df7-9181-45e0-8dbb-87d48057655f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#18384 > div.reply-card-body > a",
+    "x": 56,
+    "y": 2829,
+    "w": 248,
+    "h": 47,
+    "text": "delivering a 3d showroom experience from home",
+    "href": "/our-work/shaw-floors/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 56,
+    "y": 2829,
+    "w": 248,
+    "h": 47,
+    "level": 3,
+    "text": "delivering a 3d showroom experience from home"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 72,
+    "y": 2892,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#16599 > div.reply-card-image-container.aspect-w-1 > a.absolute.h-full",
+    "x": 40,
+    "y": 2946,
+    "w": 280,
+    "h": 280,
+    "text": "preserving and enhancing st. peter's basilica through ai",
+    "href": "/en/artificial-intelligence/preserving-and-enhancing-st-peter-s-basilica-through-ai"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#16599 > div.reply-card-body > a",
+    "x": 56,
+    "y": 3246,
+    "w": 248,
+    "h": 70,
+    "text": "preserving and enhancing st. peter's basilica through ai",
+    "href": "/en/artificial-intelligence/preserving-and-enhancing-st-peter-s-basilica-through-ai"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 56,
+    "y": 3246,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "preserving and enhancing st. peter's basilica through ai"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 72,
+    "y": 3332,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#14589 > a",
+    "x": 40,
+    "y": 3386,
+    "w": 280,
+    "h": 158,
+    "text": "an immersive journey into luxury shopping with the mall luxury outlets",
+    "href": "/en/3d-and-mixed-reality/an-immersive-journey-into-luxury-with-the-mall-luxury-outlets"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 3386,
+    "w": 280,
+    "h": 157,
+    "text": "",
+    "file": "82043b88-7d77-4be0-ace0-0324a3d4c484"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > div.reply-card-logo.absolute > img",
+    "x": 60,
+    "y": 3406,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "1421be27-3bb1-4e8b-a04d-c4751105b67e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#14589 > div.reply-card-body > a",
+    "x": 56,
+    "y": 3564,
+    "w": 248,
+    "h": 70,
+    "text": "an immersive journey into luxury shopping with the mall luxury outlets",
+    "href": "/en/3d-and-mixed-reality/an-immersive-journey-into-luxury-with-the-mall-luxury-outlets"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 56,
+    "y": 3564,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "an immersive journey into luxury shopping with the mall luxury outlets"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 72,
+    "y": 3650,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#12211 > a",
+    "x": 40,
+    "y": 3704,
+    "w": 280,
+    "h": 280,
+    "text": "meet futura, the ai-driven tour expert enhancing cruise experiences",
+    "href": "/en/artificial-intelligence/futura-the-ai-driven-tour-expert"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 3704,
+    "w": 280,
+    "h": 280,
+    "text": "",
+    "file": "3c8c0dc3-1402-40b0-9122-6b531ecefdca"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > div.reply-card-logo.absolute > img",
+    "x": 60,
+    "y": 3724,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "4c379356-338b-4a41-b9e8-cf22db824ecd"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#12211 > div.reply-card-body > a",
+    "x": 56,
+    "y": 4004,
+    "w": 248,
+    "h": 70,
+    "text": "meet futura, the ai-driven tour expert enhancing cruise experiences",
+    "href": "/en/artificial-intelligence/futura-the-ai-driven-tour-expert"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 56,
+    "y": 4004,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "meet futura, the ai-driven tour expert enhancing cruise experiences"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 72,
+    "y": 4090,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 4144,
+    "w": 280,
+    "h": 157,
+    "text": "",
+    "file": "34ff4a88-fd9c-453e-85ce-02bb3c9e4b55"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > div.reply-card-logo.absolute > img",
+    "x": 60,
+    "y": 4164,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "09474ad1-96a3-4543-bf6e-280744d16e71"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > div.player-icon-container.absolute > button.button.button-play",
+    "x": 144,
+    "y": 4187,
+    "w": 72,
+    "h": 72,
+    "text": "play"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > div.player-icon-container.absolute > button.button.button-play",
+    "x": 144,
+    "y": 4187,
+    "w": 72,
+    "h": 72,
+    "label": "play",
+    "value": "play",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#6948 > div.reply-card-body > a",
+    "x": 56,
+    "y": 4322,
+    "w": 248,
+    "h": 47,
+    "text": "the digital revolution of real estate",
+    "href": "/en/3d-and-mixed-reality/digital-revolution-of-real-estate"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 56,
+    "y": 4322,
+    "w": 248,
+    "h": 47,
+    "level": 3,
+    "text": "the digital revolution of real estate"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 72,
+    "y": 4384,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#4535 > a",
+    "x": 40,
+    "y": 4438,
+    "w": 280,
+    "h": 280,
+    "text": "new holland agriculture",
+    "href": "/en/progetti/agriculture-4-0"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 4438,
+    "w": 280,
+    "h": 280,
+    "text": "",
+    "file": "57233e2c-0b36-49c4-80c5-d8af1b06641e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#4535 > div.reply-card-body > a",
+    "x": 56,
+    "y": 4738,
+    "w": 248,
+    "h": 23,
+    "text": "new holland agriculture",
+    "href": "/en/progetti/agriculture-4-0"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 56,
+    "y": 4738,
+    "w": 248,
+    "h": 23,
+    "level": 3,
+    "text": "new holland agriculture"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flex.items-center > div.category-label > div.category-name",
+    "x": 72,
+    "y": 4778,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#4095 > a",
+    "x": 40,
+    "y": 4884,
+    "w": 280,
+    "h": 158,
+    "text": "digitising production with 3d technologies: the reda story",
+    "href": "/en/3d-and-mixed-reality/reda-optimised-its-operations-thanks-to-digital-fabrics"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 4884,
+    "w": 280,
+    "h": 157,
+    "text": "",
+    "file": "44cd652e-9c15-4f6a-9c5a-7a7baa80ed07"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > div.reply-card-logo.absolute > img",
+    "x": 60,
+    "y": 4904,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "6ec3cfe9-affb-4010-9685-9084ccb0378d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#4095 > div.reply-card-body > a",
+    "x": 56,
+    "y": 5062,
+    "w": 248,
+    "h": 70,
+    "text": "digitising production with 3d technologies: the reda story",
+    "href": "/en/3d-and-mixed-reality/reda-optimised-its-operations-thanks-to-digital-fabrics"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 56,
+    "y": 5062,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "digitising production with 3d technologies: the reda story"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 72,
+    "y": 5148,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 5202,
+    "w": 280,
+    "h": 280,
+    "text": "",
+    "file": "08dc94d0-68ed-483a-8a13-91ef7812eda4"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > div.reply-card-logo.absolute > img",
+    "x": 60,
+    "y": 5222,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "ac6c6966-b2a9-497f-a43b-5516d46f71cc"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > div.player-icon-container.absolute > button.button.button-play",
+    "x": 144,
+    "y": 5306,
+    "w": 72,
+    "h": 72,
+    "text": "play"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > div.player-icon-container.absolute > button.button.button-play",
+    "x": 144,
+    "y": 5306,
+    "w": 72,
+    "h": 72,
+    "label": "play",
+    "value": "play",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#3407 > div.reply-card-body > a",
+    "x": 56,
+    "y": 5502,
+    "w": 248,
+    "h": 70,
+    "text": "magnum michelangelo: social media campaign & ar experiences",
+    "href": "/en/social-media/magnum-michelangelo-social-media-campaign-and-ar-experiences"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 56,
+    "y": 5502,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "magnum michelangelo: social media campaign & ar experiences"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 72,
+    "y": 5588,
+    "w": 86,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-binding > div.pager-container > button.more.pager",
+    "x": 104,
+    "y": 5642,
+    "w": 152,
+    "h": 41,
+    "text": "load more content"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#tzyZF",
+    "x": 40,
+    "y": 5779,
+    "w": 280,
+    "h": 34,
+    "level": 2,
+    "text": "our assets"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": -264,
+    "y": 5865,
+    "w": 280,
+    "h": 420,
+    "text": "",
+    "file": "5ed15f7a-5f63-403d-9515-a132525b897b"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 30,
+    "y": 5850,
+    "w": 300,
+    "h": 449,
+    "text": "",
+    "file": "c7c77e7f-f199-420d-968a-7b883c7b9a14"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body.!m-5 > div.reply-card-content > a.pointer-events-auto",
+    "x": 52,
+    "y": 6250,
+    "w": 257,
+    "h": 28,
+    "text": "vto - virtual try on",
+    "href": "/en/3d-and-mixed-reality/virtual-try-on"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-content > a.pointer-events-auto > h3.h5--bold.line-clamp-4",
+    "x": 52,
+    "y": 6250,
+    "w": 257,
+    "h": 28,
+    "level": 3,
+    "text": "vto - virtual try on"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-2 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 344,
+    "y": 5865,
+    "w": 280,
+    "h": 420,
+    "text": "",
+    "file": "39229238-e79a-49a6-b75a-4b44a6af4738"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.category-label.text-white > div.category-name",
+    "x": 96,
+    "y": 6570,
+    "w": 106,
+    "h": 14,
+    "text": "Best Practice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-grid.pointer-events-none > div.reply-card-body > a.pointer-events-auto",
+    "x": 80,
+    "y": 6604,
+    "w": 200,
+    "h": 67,
+    "text": "say “hello!” to digital humans",
+    "href": "/en/metaverse/digital-humans"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a.pointer-events-auto > h3.h4.text-white",
+    "x": 80,
+    "y": 6604,
+    "w": 200,
+    "h": 67,
+    "level": 3,
+    "text": "say “hello!” to digital humans"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > article.reply-card-abstract.paragraph-01--light > p",
+    "x": 80,
+    "y": 6671,
+    "w": 200,
+    "h": 82,
+    "text": "Revolutionize your digital presence with AI-powered digital humans: the ultimate"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > h2#P9cOx",
+    "x": 40,
+    "y": 6897,
+    "w": 280,
+    "h": 67,
+    "level": 2,
+    "text": "best practices and insights"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#10927 > a",
+    "x": 40,
+    "y": 6996,
+    "w": 280,
+    "h": 158,
+    "text": "step into the new era of spatial computing with apple vision pro and reply",
+    "href": "/en/3d-and-mixed-reality/immersive-experiences-with-apple-vision-pro"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 6996,
+    "w": 280,
+    "h": 157,
+    "text": "",
+    "file": "a06ba7c7-7dab-4662-9968-bf586b743af7"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#10927 > div.reply-card-body > a",
+    "x": 56,
+    "y": 7173,
+    "w": 248,
+    "h": 70,
+    "text": "step into the new era of spatial computing with apple vision pro and reply",
+    "href": "/en/3d-and-mixed-reality/immersive-experiences-with-apple-vision-pro"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 56,
+    "y": 7173,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "step into the new era of spatial computing with apple vision pro and reply"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 72,
+    "y": 7260,
+    "w": 106,
+    "h": 14,
+    "text": "Best Practice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#10542 > a",
+    "x": 40,
+    "y": 7314,
+    "w": 280,
+    "h": 280,
+    "text": "3d realism trends",
+    "href": "/en/3d-and-mixed-reality/3d-realism-trends"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 7314,
+    "w": 280,
+    "h": 280,
+    "text": "",
+    "file": "0e80c688-5c3f-4af8-9b2a-d6d24ca62d3e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#10542 > div.reply-card-body > a",
+    "x": 56,
+    "y": 7614,
+    "w": 248,
+    "h": 23,
+    "text": "3d realism trends",
+    "href": "/en/3d-and-mixed-reality/3d-realism-trends"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 56,
+    "y": 7614,
+    "w": 248,
+    "h": 23,
+    "level": 3,
+    "text": "3d realism trends"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flex.items-center > div.category-label > div.category-name",
+    "x": 72,
+    "y": 7653,
+    "w": 74,
+    "h": 14,
+    "text": "Research"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-16 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 73,
+    "y": 7793,
+    "w": 214,
+    "h": 120,
+    "text": "",
+    "file": "d70c683f-78f4-4b5e-993c-0ab83c4498fb"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#10609 > div.reply-card-body > a",
+    "x": 73,
+    "y": 7933,
+    "w": 214,
+    "h": 70,
+    "text": "3d scanning, a gateway to digital creativity",
+    "href": "/en/3d-and-mixed-reality/3d-scanning-a-gateway-to-digital-creativity"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 73,
+    "y": 7933,
+    "w": 214,
+    "h": 70,
+    "level": 3,
+    "text": "3d scanning, a gateway to digital creativity"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 89,
+    "y": 8019,
+    "w": 90,
+    "h": 14,
+    "text": "White Paper"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.reply-card-abstract.text > p > span",
+    "x": 73,
+    "y": 8054,
+    "w": 191,
+    "h": 111,
+    "text": "An in-depth look at how consumer 3D scanning is altering the landscape of digita"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > reply-card-runtime#9796 > a",
+    "x": 40,
+    "y": 8243,
+    "w": 280,
+    "h": 280,
+    "text": "on the trail of modern mixed reality devices",
+    "href": "/en/3d-and-mixed-reality/modern-mixed-reality-devices"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container.aspect-w-1 > picture.reply-card-image.absolute > img.picture.grid-bg",
+    "x": 40,
+    "y": 8243,
+    "w": 280,
+    "h": 280,
+    "text": "",
+    "file": "dd8b8156-75eb-484d-9baa-6060e3d463f0"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "reply-card-runtime#9796 > div.reply-card-body > a",
+    "x": 56,
+    "y": 8543,
+    "w": 248,
+    "h": 47,
+    "text": "on the trail of modern mixed reality devices",
+    "href": "/en/3d-and-mixed-reality/modern-mixed-reality-devices"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+    "x": 56,
+    "y": 8543,
+    "w": 248,
+    "h": 47,
+    "level": 3,
+    "text": "on the trail of modern mixed reality devices"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-category-and-time-container > div.category-label > div.category-name",
+    "x": 72,
+    "y": 8606,
+    "w": 90,
+    "h": 14,
+    "text": "White Paper"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-binding > div.pager-container > button.more.pager",
+    "x": 104,
+    "y": 8660,
+    "w": 152,
+    "h": 41,
+    "text": "load more content"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.banner-content.flex > picture.banner-logo > img.picture.grid-bg",
+    "x": 40,
+    "y": 8797,
+    "w": 103,
+    "h": 36,
+    "text": "reply rose logo",
+    "file": "6fcab6ec-285b-4545-a46d-72f4927d4bbe"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-banner-container.rosepub > div.banner-content.flex > h3.banner-title.text-white",
+    "x": 40,
+    "y": 8845,
+    "w": 280,
+    "h": 101,
+    "level": 3,
+    "text": "jump into the virtual world from where you stand"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-banner-container.rosepub > div.banner-content.flex > div.banner-abstract.text-white",
+    "x": 40,
+    "y": 8957,
+    "w": 280,
+    "h": 109,
+    "text": "Gain expertise with Reply’s worldwide network of experts and find practical idea"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-banner-container.rosepub > div.banner-content.flex > a#rose-banner-cta",
+    "x": 40,
+    "y": 9086,
+    "w": 158,
+    "h": 46,
+    "text": "go to rose",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.contents > picture > img.mx-4",
+    "x": 56,
+    "y": 9173,
+    "w": 248,
+    "h": 248,
+    "text": "",
+    "file": "Spatial-Computing-green-reply"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.contents > div.rose-card-text.absolute > h4.rose-card-title.line-clamp-4",
+    "x": 72,
+    "y": 9433,
+    "w": 216,
+    "h": 94,
+    "level": 4,
+    "text": "spatial computing with ar/vr technology and the metaverse"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.contents > picture > img.mx-4",
+    "x": 352,
+    "y": 9173,
+    "w": 248,
+    "h": 248,
+    "text": "",
+    "file": "Create-and-manage-3D-digital-twins-of-yo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.block > div.ProseMirror.content-body > p.text-mu4tw",
+    "x": 40,
+    "y": 9737,
+    "w": 320,
+    "h": 23,
+    "text": "Discover also"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.zisagxumht > div > a#Mu4lY",
+    "x": 40,
+    "y": 9792,
+    "w": 88,
+    "h": 41,
+    "text": "data world",
+    "href": "/en/data-world"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.nbievgyyvl > div > a#QETsj",
+    "x": 160,
+    "y": 9792,
+    "w": 143,
+    "h": 41,
+    "text": "digital experience",
+    "href": "/en/digital-experience"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ruyfmrecwl > div > a#9qFrh",
+    "x": 335,
+    "y": 9792,
+    "w": 160,
+    "h": 41,
+    "text": "artificial intelligence",
+    "href": "/en/artificial-intelligence"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-prev.round-bt",
+    "x": 44,
+    "y": 9865,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.alternative > div.carousel-control-container > button.carousel-control-next.round-bt",
+    "x": 100,
+    "y": 9865,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.block > nav.footer.p-10 > a",
+    "x": 40,
+    "y": 10077,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 40,
+    "y": 10173,
+    "w": 280,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#f25bee84-2c55-fd2f-d3da-7a877f1ce2ef",
+    "x": 40,
+    "y": 10173,
+    "w": 280,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 10220,
+    "w": 103,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 10257,
+    "w": 45,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 10294,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_f25bee84-2c55-fd2f-d3da-7a877f1ce2ef > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 10331,
+    "w": 67,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 40,
+    "y": 10388,
+    "w": 280,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.flex.flex-col > button#425e7302-f771-1d48-c799-42f6ecbf5eb6",
+    "x": 40,
+    "y": 10388,
+    "w": 280,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 10435,
+    "w": 142,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 10472,
+    "w": 165,
+    "h": 17,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 10509,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 10546,
+    "w": 149,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 10582,
+    "w": 161,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 10619,
+    "w": 127,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 10656,
+    "w": 208,
+    "h": 34,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 10709,
+    "w": 261,
+    "h": 17,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 10746,
+    "w": 154,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 10783,
+    "w": 147,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown_425e7302-f771-1d48-c799-42f6ecbf5eb6 > li.footer-text--light.flex > a",
+    "x": 40,
+    "y": 10820,
+    "w": 261,
+    "h": 17,
+    "text": "do not sell/share my personal information",
+    "href": "void(0)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Careers",
+    "x": 40,
+    "y": 10877,
+    "w": 280,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li.w-full > a#Contacts",
+    "x": 40,
+    "y": 10981,
+    "w": 280,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 40,
+    "y": 11085,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 52,
+    "y": 11097,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "f56ec3f9-312b-40e1-b47d-bdebc0a5c918"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 117,
+    "y": 11085,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 129,
+    "y": 11097,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "a6732ee4-95cf-4951-9c4b-3675c7154f7e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 195,
+    "y": 11085,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 207,
+    "y": 11097,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "49664893-bfc1-4d79-9208-3bdd7083126b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.list-none.mb-0 > li > a.round-bt.round-bt--outline-on-dark",
+    "x": 272,
+    "y": 11085,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt.round-bt--outline-on-dark > i > img",
+    "x": 284,
+    "y": 11097,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "c48097ef-90ed-4c24-aa40-1764649e72ff"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > span",
+    "x": 32,
+    "y": 11209,
+    "w": 136,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.flex.justify-between > div.footer-text--light.flex > a.underline",
+    "x": 32,
+    "y": 11225,
+    "w": 136,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.text-white.py-3 > div.flex.justify-between > button#cookie-pref-center",
+    "x": 296,
+    "y": 832,
+    "w": 48,
+    "h": 48,
+    "text": "open cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 1,
+    "clamped": 3,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 2,
+    "offPage": 52,
+    "textNodes": 113,
+    "controls": 90,
+    "total": 1
+   },
+   "groups": [
+    {
+     "kind": "CONTROL CLIPPED",
+     "advisory": false,
+     "n": 1,
+     "clipper": "div.reply-card-image-container.aspect-w-2",
+     "path": "div.reply-card-image-container.aspect-w-2 > div.reply-card-body.!m-5 > div.reply-card-content > a.pointer-events-auto",
+     "text": "vto - virtual try on3d modelling and generative ai to power ",
+     "cutMin": 8,
+     "cutMax": 8
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 2,
+     "clipper": "article.reply-card-abstract.paragraph-01--light",
+     "path": "div.reply-card-grid.pointer-events-none > div.reply-card-body > article.reply-card-abstract.paragraph-01--light > p",
+     "text": "products to explore. stories to enter. experiences to live w",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "h3.h6--medium.line-clamp-3",
+     "path": "reply-card-runtime#10927 > div.reply-card-body > a > h3.h6--medium.line-clamp-3",
+     "text": "step into the new era of spatial computing with apple vision",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "cardcarousel-runtime#ceIpx",
+     "path": "div.xqrgzlryeq.xqrgzlryeq-sm > div.ruyfmrecwl > div > a#9qFrh",
+     "text": "artificial intelligence",
+     "cutMin": 135,
+     "cutMax": 135
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "cardcarousel-runtime#ceIpx",
+     "path": "div.ruyfmrecwl > div > a#9qFrh > span",
+     "text": "artificial intelligence",
+     "cutMin": 135,
+     "cutMax": 135
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--a355dc1b--aemcoder.aem.page/en/3d-and-mixed-reality",
+  "at": "2026-11-17T05:04:23.594Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 11252,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-main > div.site-header-logo > a",
+    "x": 40,
+    "y": 0,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "href": "/en"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > span.icon.icon-reply-logo > img",
+    "x": 40,
+    "y": 0,
+    "w": 129,
+    "h": 64,
+    "text": "reply logo",
+    "file": "reply-logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 232,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "text": "toggle search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.menu-search > button#search-toggle",
+    "x": 232,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "label": "toggle search",
+    "value": "toggle search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.mobile-toggle > button#mobile-menu-toggle",
+    "x": 296,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "text": "toggle menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.site-header-tools > li.mobile-toggle > button#mobile-menu-toggle",
+    "x": 296,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "label": "toggle menu",
+    "value": "toggle menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-hero-pic.mobile > picture > img",
+    "x": 0,
+    "y": 18,
+    "w": 360,
+    "h": 608,
+    "text": "",
+    "file": "media_104c14c2b9fcc488f36c3de8c5ba39b57c"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.r-grid > div.media-hero-title.r-cell > h1#3d--mixed-reality",
+    "x": 40,
+    "y": 477,
+    "w": 280,
+    "h": 79,
+    "level": 1,
+    "text": "3d & mixed reality"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-hero-title.r-cell > h1#3d--mixed-reality > span",
+    "x": 40,
+    "y": 476,
+    "w": 214,
+    "h": 80,
+    "text": "3D & Mixed Reality"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.statement-cell.r-cell > div.statement-text > p",
+    "x": 40,
+    "y": 700,
+    "w": 280,
+    "h": 302,
+    "text": "We create new customer experiences, combining digital content creation, AI and c"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.statement-text > p.button-wrapper > a.button.primary",
+    "x": 144,
+    "y": 1004,
+    "w": 72,
+    "h": 27,
+    "text": "button",
+    "href": "/contents/REP26_ESG_Data_Addendum_2025_ITA-1.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-card-card > div.hero-card-image-container > a.hero-card-cover",
+    "x": 40,
+    "y": 1126,
+    "w": 280,
+    "h": 420,
+    "text": "reply immersive experience",
+    "href": "/en/artificial-intelligence/reply-immersive-experience"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 1126,
+    "w": 315,
+    "h": 473,
+    "text": "",
+    "file": "media_162bd59813e004ae65925393511d931b39"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-card-body > div.hero-card-title > h3#reply-immersive-experience",
+    "x": 80,
+    "y": 1316,
+    "w": 200,
+    "h": 101,
+    "level": 3,
+    "text": "reply immersive experience"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-card-title > h3#reply-immersive-experience > a",
+    "x": 80,
+    "y": 1319,
+    "w": 142,
+    "h": 94,
+    "text": "reply immersive experience",
+    "href": "/en/artificial-intelligence/reply-immersive-experience"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-card-body > div.hero-card-abstract > p",
+    "x": 80,
+    "y": 1417,
+    "w": 200,
+    "h": 82,
+    "text": "Products to explore. Stories to enter. Experiences to live with all the senses, "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-heading-cell.r-cell > div.section-heading-title > h2#come-and-live-the-experience",
+    "x": 40,
+    "y": 1602,
+    "w": 280,
+    "h": 67,
+    "level": 2,
+    "text": "come and live the experience"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-heading-cell.r-cell > div.section-heading-title > p",
+    "x": 40,
+    "y": 1702,
+    "w": 280,
+    "h": 109,
+    "text": "Want to try some devices and technical solutions for yourself? Come visit us in "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 1864,
+    "w": 280,
+    "h": 420,
+    "text": "",
+    "file": "media_1da46ce0c569ba192eadf19dc24b39b6e1"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 88,
+    "y": 2132,
+    "w": 38,
+    "h": 14,
+    "text": "Labs"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+    "x": 72,
+    "y": 2162,
+    "w": 216,
+    "h": 34,
+    "text": "metaverse lab",
+    "href": "/en/labs/metaverse-lab"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#metaverse-lab",
+    "x": 72,
+    "y": 2162,
+    "w": 216,
+    "h": 34,
+    "level": 3,
+    "text": "metaverse lab"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-cta > a.button",
+    "x": 72,
+    "y": 2212,
+    "w": 154,
+    "h": 41,
+    "text": "discover more",
+    "href": "/en/labs/metaverse-lab"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 340,
+    "y": 1864,
+    "w": 280,
+    "h": 420,
+    "text": "",
+    "file": "media_1f2e67101493325c22f2fc1b6d3633bb5e"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-carousel-inner > div.card-carousel-controls > button.card-carousel-prev.round-bt",
+    "x": 216,
+    "y": 2308,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-carousel-inner > div.card-carousel-controls > button.card-carousel-next.round-bt",
+    "x": 272,
+    "y": 2308,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-heading-cell.r-cell > div.section-heading-title > h2#our-case-studies",
+    "x": 40,
+    "y": 2455,
+    "w": 280,
+    "h": 34,
+    "level": 2,
+    "text": "our case studies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 40,
+    "y": 2529,
+    "w": 280,
+    "h": 280,
+    "text": "delivering a 3d showroom experience from home",
+    "href": "/our-work/shaw-floors/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 2529,
+    "w": 280,
+    "h": 280,
+    "text": "",
+    "file": "media_1c4ac959a9a7a108bc7dc759ba8c8d1dbb"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 60,
+    "y": 2549,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_1c084e5e76339dd372d020923274252b8c"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#delivering-a-3d-showroom-experience-from-home",
+    "x": 56,
+    "y": 2829,
+    "w": 248,
+    "h": 47,
+    "level": 3,
+    "text": "delivering a 3d showroom experience from home"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#delivering-a-3d-showroom-experience-from-home > a",
+    "x": 56,
+    "y": 2829,
+    "w": 248,
+    "h": 47,
+    "text": "delivering a 3d showroom experience from home",
+    "href": "/our-work/shaw-floors/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 72,
+    "y": 2892,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card.reply-card-kind-thumb-2-3 > div.reply-card-image-container > a.reply-card-video-link",
+    "x": 40,
+    "y": 2946,
+    "w": 280,
+    "h": 280,
+    "text": "preserving and enhancing st. peter's basilica through ai",
+    "href": "/en/artificial-intelligence/preserving-and-enhancing-st-peter-s-basilica-through-ai"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card.reply-card-kind-thumb-2-3 > div.reply-card-image-container > button.reply-card-toggle",
+    "x": 268,
+    "y": 2966,
+    "w": 32,
+    "h": 32,
+    "text": "pause video"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#preserving-and-enhancing-st-peters-basilica-through-ai",
+    "x": 56,
+    "y": 3246,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "preserving and enhancing st. peter's basilica through ai"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#preserving-and-enhancing-st-peters-basilica-through-ai > a",
+    "x": 56,
+    "y": 3246,
+    "w": 248,
+    "h": 70,
+    "text": "preserving and enhancing st. peter's basilica through ai",
+    "href": "/en/artificial-intelligence/preserving-and-enhancing-st-peter-s-basilica-through-ai"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 72,
+    "y": 3332,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 40,
+    "y": 3386,
+    "w": 280,
+    "h": 158,
+    "text": "an immersive journey into luxury shopping with the mall luxury outlets",
+    "href": "/en/3d-and-mixed-reality/an-immersive-journey-into-luxury-with-the-mall-luxury-outlets"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 3386,
+    "w": 280,
+    "h": 158,
+    "text": "",
+    "file": "media_1db1980e90fff9730bc1b306face58d4b3"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 60,
+    "y": 3406,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_1c2b25338a41ecaf8b5f17426c836b6949"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#an-immersive-journey-into-luxury-shopping-with-the-mall-luxury-outlets",
+    "x": 56,
+    "y": 3563,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "an immersive journey into luxury shopping with the mall luxury outlets"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#an-immersive-journey-into-luxury-shopping-with-the-mall-luxury-outlets > a",
+    "x": 56,
+    "y": 3563,
+    "w": 248,
+    "h": 70,
+    "text": "an immersive journey into luxury shopping with the mall luxury outlets",
+    "href": "/en/3d-and-mixed-reality/an-immersive-journey-into-luxury-with-the-mall-luxury-outlets"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 72,
+    "y": 3650,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 40,
+    "y": 3704,
+    "w": 280,
+    "h": 280,
+    "text": "meet futura, the ai-driven tour expert enhancing cruise experiences",
+    "href": "/en/artificial-intelligence/futura-the-ai-driven-tour-expert"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 3704,
+    "w": 280,
+    "h": 280,
+    "text": "",
+    "file": "media_15618feeb4cea26ddf0fef89446d38f605"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 60,
+    "y": 3724,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_18a3a57af988d1fd030b2e52e4421fe2b7"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#meet-futura-the-ai-driven-tour-expert-enhancing-cruise-experiences",
+    "x": 56,
+    "y": 4004,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "meet futura, the ai-driven tour expert enhancing cruise experiences"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#meet-futura-the-ai-driven-tour-expert-enhancing-cruise-experiences > a",
+    "x": 56,
+    "y": 4004,
+    "w": 248,
+    "h": 70,
+    "text": "meet futura, the ai-driven tour expert enhancing cruise experiences",
+    "href": "/en/artificial-intelligence/futura-the-ai-driven-tour-expert"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 72,
+    "y": 4090,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 4144,
+    "w": 280,
+    "h": 158,
+    "text": "",
+    "file": "media_1f9a6506e3dab1924cc1a02802a98a0df4"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 60,
+    "y": 4164,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_1bbd840d9294b19343471fe1ead17c9725"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container > div.reply-card-play-icon > button.reply-card-play-button",
+    "x": 144,
+    "y": 4186,
+    "w": 72,
+    "h": 72,
+    "text": "play"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container > div.reply-card-play-icon > button.reply-card-play-button",
+    "x": 144,
+    "y": 4186,
+    "w": 72,
+    "h": 72,
+    "label": "play",
+    "value": "play",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#the-digital-revolution-of-real-estate",
+    "x": 56,
+    "y": 4321,
+    "w": 248,
+    "h": 47,
+    "level": 3,
+    "text": "the digital revolution of real estate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#the-digital-revolution-of-real-estate > a",
+    "x": 56,
+    "y": 4321,
+    "w": 248,
+    "h": 47,
+    "text": "the digital revolution of real estate",
+    "href": "/en/3d-and-mixed-reality/digital-revolution-of-real-estate"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 72,
+    "y": 4384,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-hover > a.reply-card-cover",
+    "x": 40,
+    "y": 4438,
+    "w": 280,
+    "h": 280,
+    "text": "new holland agriculture",
+    "href": "/en/progetti/agriculture-4-0"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 4438,
+    "w": 280,
+    "h": 280,
+    "text": "",
+    "file": "media_1d68e1b570d21a1b3f2439f7908474a8f5"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#new-holland-agriculture",
+    "x": 56,
+    "y": 4738,
+    "w": 248,
+    "h": 23,
+    "level": 3,
+    "text": "new holland agriculture"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#new-holland-agriculture > a",
+    "x": 56,
+    "y": 4738,
+    "w": 248,
+    "h": 23,
+    "text": "new holland agriculture",
+    "href": "/en/progetti/agriculture-4-0"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 72,
+    "y": 4777,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 40,
+    "y": 4884,
+    "w": 280,
+    "h": 158,
+    "text": "digitising production with 3d technologies: the reda story",
+    "href": "/en/3d-and-mixed-reality/reda-optimised-its-operations-thanks-to-digital-fabrics"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 4884,
+    "w": 280,
+    "h": 158,
+    "text": "",
+    "file": "media_124583118543588a7f29dc2ac33080823b"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 60,
+    "y": 4904,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_149a371a3d396ac5d7ae543482449250f0"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#digitising-production-with-3d-technologies-the-reda-story",
+    "x": 56,
+    "y": 5062,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "digitising production with 3d technologies: the reda story"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#digitising-production-with-3d-technologies-the-reda-story > a",
+    "x": 56,
+    "y": 5062,
+    "w": 248,
+    "h": 70,
+    "text": "digitising production with 3d technologies: the reda story",
+    "href": "/en/3d-and-mixed-reality/reda-optimised-its-operations-thanks-to-digital-fabrics"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 72,
+    "y": 5148,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 5202,
+    "w": 280,
+    "h": 280,
+    "text": "",
+    "file": "media_1e5123abdebc70674d72cafd4023f5fcd9"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-logo > picture > img",
+    "x": 60,
+    "y": 5222,
+    "w": 144,
+    "h": 81,
+    "text": "",
+    "file": "media_18c628589307a51b086b450a284a9caf41"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container > div.reply-card-play-icon > button.reply-card-play-button",
+    "x": 144,
+    "y": 5306,
+    "w": 72,
+    "h": 72,
+    "text": "play"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-image-container > div.reply-card-play-icon > button.reply-card-play-button",
+    "x": 144,
+    "y": 5306,
+    "w": 72,
+    "h": 72,
+    "label": "play",
+    "value": "play",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#magnum-michelangelo-social-media-campaign--ar-experiences",
+    "x": 56,
+    "y": 5502,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "magnum michelangelo: social media campaign & ar experiences"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#magnum-michelangelo-social-media-campaign--ar-experiences > a",
+    "x": 56,
+    "y": 5502,
+    "w": 248,
+    "h": 70,
+    "text": "magnum michelangelo: social media campaign & ar experiences",
+    "href": "/en/social-media/magnum-michelangelo-social-media-campaign-and-ar-experiences"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 72,
+    "y": 5588,
+    "w": 95,
+    "h": 14,
+    "text": "Case Study"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-cell.r-cell > div.cards-wall-pager > div.cards-wall-more",
+    "x": 105,
+    "y": 5642,
+    "w": 149,
+    "h": 41,
+    "text": "load more content"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-heading-cell.r-cell > div.section-heading-title > h2#our-assets",
+    "x": 40,
+    "y": 5779,
+    "w": 280,
+    "h": 34,
+    "level": 2,
+    "text": "our assets"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": -264,
+    "y": 5864,
+    "w": 280,
+    "h": 420,
+    "text": "",
+    "file": "media_1c0c096839ca6af54073dce6be45de2333"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 30,
+    "y": 5850,
+    "w": 300,
+    "h": 449,
+    "text": "",
+    "file": "media_15ece0dfa2be06f724a2f442e3e40a09dc"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-content > a.reply-card-link",
+    "x": 52,
+    "y": 6222,
+    "w": 257,
+    "h": 56,
+    "text": "virtual interactive showroom",
+    "href": "/en/digital-experience/virtual-interactive-showroom"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.reply-card-link > div.reply-card-title > h3#virtual-interactive-showroom",
+    "x": 52,
+    "y": 6222,
+    "w": 257,
+    "h": 56,
+    "level": 3,
+    "text": "virtual interactive showroom"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 344,
+    "y": 5864,
+    "w": 280,
+    "h": 420,
+    "text": "",
+    "file": "media_1613bf3a83d75270292a684d97549cca38"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-card-card > div.hero-card-image-container > a.hero-card-cover",
+    "x": 40,
+    "y": 6380,
+    "w": 280,
+    "h": 420,
+    "text": "say “hello!” to digital humans",
+    "href": "/en/metaverse/digital-humans"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 96,
+    "y": 6570,
+    "w": 118,
+    "h": 14,
+    "text": "Best Practice"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-card-body > div.hero-card-title > h3#say-hello-to-digital-humans",
+    "x": 80,
+    "y": 6604,
+    "w": 200,
+    "h": 67,
+    "level": 3,
+    "text": "say “hello!” to digital humans"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-card-title > h3#say-hello-to-digital-humans > a",
+    "x": 80,
+    "y": 6607,
+    "w": 181,
+    "h": 61,
+    "text": "say “hello!” to digital humans",
+    "href": "/en/metaverse/digital-humans"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-card-body > div.hero-card-abstract > p",
+    "x": 80,
+    "y": 6671,
+    "w": 200,
+    "h": 82,
+    "text": "Revolutionize your digital presence with AI-powered digital humans: the ultimate"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-heading-cell.r-cell > div.section-heading-title > h2#best-practices-and-insights",
+    "x": 40,
+    "y": 6896,
+    "w": 280,
+    "h": 67,
+    "level": 2,
+    "text": "best practices and insights"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-1-1 > a.reply-card-cover",
+    "x": 40,
+    "y": 6995,
+    "w": 280,
+    "h": 158,
+    "text": "step into the new era of spatial computing with apple vision pro and reply",
+    "href": "/en/3d-and-mixed-reality/immersive-experiences-with-apple-vision-pro"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 6995,
+    "w": 280,
+    "h": 158,
+    "text": "",
+    "file": "media_14c3f814405215772328fa29d702f610b9"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#step-into-the-new-era-of-spatial-computing-with-apple-vision-pro-and-reply",
+    "x": 56,
+    "y": 7173,
+    "w": 248,
+    "h": 70,
+    "level": 3,
+    "text": "step into the new era of spatial computing with apple vision pro and reply"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#step-into-the-new-era-of-spatial-computing-with-apple-vision-pro-and-reply > a",
+    "x": 56,
+    "y": 7173,
+    "w": 248,
+    "h": 70,
+    "text": "step into the new era of spatial computing with apple vision pro and reply",
+    "href": "/en/3d-and-mixed-reality/immersive-experiences-with-apple-vision-pro"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 72,
+    "y": 7259,
+    "w": 118,
+    "h": 14,
+    "text": "Best Practice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-hover > a.reply-card-cover",
+    "x": 40,
+    "y": 7313,
+    "w": 280,
+    "h": 280,
+    "text": "3d realism trends",
+    "href": "/en/3d-and-mixed-reality/3d-realism-trends"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 7313,
+    "w": 280,
+    "h": 280,
+    "text": "",
+    "file": "media_180aa4789afe86ef67207ccfa7b6ecd403"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#3d-realism-trends",
+    "x": 56,
+    "y": 7613,
+    "w": 248,
+    "h": 23,
+    "level": 3,
+    "text": "3d realism trends"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#3d-realism-trends > a",
+    "x": 56,
+    "y": 7613,
+    "w": 248,
+    "h": 23,
+    "text": "3d realism trends",
+    "href": "/en/3d-and-mixed-reality/3d-realism-trends"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 72,
+    "y": 7653,
+    "w": 84,
+    "h": 14,
+    "text": "Research"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic > picture > img",
+    "x": 73,
+    "y": 7792,
+    "w": 214,
+    "h": 120,
+    "text": "",
+    "file": "media_1aa9e158b9cba7588b3bb8b88dab480b72"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#3d-scanning-a-gateway-to-digital-creativity",
+    "x": 73,
+    "y": 7932,
+    "w": 214,
+    "h": 70,
+    "level": 3,
+    "text": "3d scanning, a gateway to digital creativity"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#3d-scanning-a-gateway-to-digital-creativity > a",
+    "x": 73,
+    "y": 7932,
+    "w": 214,
+    "h": 70,
+    "text": "3d scanning, a gateway to digital creativity",
+    "href": "/en/3d-and-mixed-reality/3d-scanning-a-gateway-to-digital-creativity"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 89,
+    "y": 8019,
+    "w": 101,
+    "h": 14,
+    "text": "White Paper"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-abstract > p",
+    "x": 73,
+    "y": 8051,
+    "w": 214,
+    "h": 119,
+    "text": "An in-depth look at how consumer 3D scanning is altering the landscape of digita"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-item > div.reply-card.reply-card-kind-thumb-2-3 > a.reply-card-cover",
+    "x": 40,
+    "y": 8243,
+    "w": 280,
+    "h": 280,
+    "text": "on the trail of modern mixed reality devices",
+    "href": "/en/3d-and-mixed-reality/modern-mixed-reality-devices"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-pic.mobile > picture > img",
+    "x": 40,
+    "y": 8243,
+    "w": 280,
+    "h": 280,
+    "text": "",
+    "file": "media_1998b1b99fc006fddabc496ef78d57be56"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-body > div.reply-card-title > h3#on-the-trail-of-modern-mixed-reality-devices",
+    "x": 56,
+    "y": 8543,
+    "w": 248,
+    "h": 47,
+    "level": 3,
+    "text": "on the trail of modern mixed reality devices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.reply-card-title > h3#on-the-trail-of-modern-mixed-reality-devices > a",
+    "x": 56,
+    "y": 8543,
+    "w": 248,
+    "h": 47,
+    "text": "on the trail of modern mixed reality devices",
+    "href": "/en/3d-and-mixed-reality/modern-mixed-reality-devices"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.category-label > div.category-name > p",
+    "x": 72,
+    "y": 8605,
+    "w": 101,
+    "h": 14,
+    "text": "White Paper"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-wall-cell.r-cell > div.cards-wall-pager > div.cards-wall-more",
+    "x": 105,
+    "y": 8659,
+    "w": 149,
+    "h": 41,
+    "text": "load more content"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-logo > picture > img",
+    "x": 40,
+    "y": 8794,
+    "w": 103,
+    "h": 36,
+    "text": "reply rose logo",
+    "file": "media_1e36aa2918a3736dbda877e3fa482274ca"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-content > div.rose-cta-title > h3#jump-into-the-virtual-world-from-where-you-stand",
+    "x": 40,
+    "y": 8842,
+    "w": 280,
+    "h": 101,
+    "level": 3,
+    "text": "jump into the virtual world from where you stand"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-content > div.rose-cta-abstract > p",
+    "x": 40,
+    "y": 8955,
+    "w": 280,
+    "h": 109,
+    "text": "Gain expertise with Reply’s worldwide network of experts and find practical idea"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-cta-action > p.button-wrapper > a.button.primary",
+    "x": 40,
+    "y": 9084,
+    "w": 166,
+    "h": 46,
+    "text": "go to rose",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-card-image > picture > img",
+    "x": 56,
+    "y": 9170,
+    "w": 248,
+    "h": 248,
+    "text": "",
+    "file": "media_1b1735f1408956145f8c16da5c7358ad24"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-card-text > div.rose-card-title > h4#spatial-computing-with-arvr-technology-and-the-metaverse",
+    "x": 72,
+    "y": 9454,
+    "w": 216,
+    "h": 70,
+    "level": 4,
+    "text": "spatial computing with ar/vr technology and the metaverse"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rose-card-image > picture > img",
+    "x": 352,
+    "y": 9170,
+    "w": 248,
+    "h": 248,
+    "text": "",
+    "file": "media_19aaceda57fc7c4a0cf7c08cc97507ec3d"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.discover-also-cell.r-cell > div.discover-also-kicker > p",
+    "x": 40,
+    "y": 9734,
+    "w": 320,
+    "h": 23,
+    "text": "Discover also"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.active > a",
+    "x": 40,
+    "y": 9790,
+    "w": 88,
+    "h": 41,
+    "text": "data world",
+    "href": "/en/data-world"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 160,
+    "y": 9790,
+    "w": 143,
+    "h": 41,
+    "text": "digital experience",
+    "href": "/en/digital-experience"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 334,
+    "y": 9790,
+    "w": 156,
+    "h": 41,
+    "text": "artificial intelligence",
+    "href": "/en/artificial-intelligence"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.discover-also-rail > div.discover-also-controls > button.discover-also-prev.round-bt",
+    "x": 44,
+    "y": 9862,
+    "w": 48,
+    "h": 48,
+    "text": "prev card"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.discover-also-rail > div.discover-also-controls > button.discover-also-next.round-bt",
+    "x": 100,
+    "y": 9862,
+    "w": 48,
+    "h": 48,
+    "text": "next card"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-wrap > nav.footer-nav > a.footer-nav-home",
+    "x": 40,
+    "y": 10074,
+    "w": 113,
+    "h": 56,
+    "text": "go to homepage",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 40,
+    "y": 10170,
+    "w": 280,
+    "h": 20,
+    "text": "we are"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-a > button#footer-we-are",
+    "x": 40,
+    "y": 10170,
+    "w": 280,
+    "h": 20,
+    "label": "trigger",
+    "value": "we are",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 40,
+    "y": 10218,
+    "w": 102,
+    "h": 17,
+    "text": "company profile",
+    "href": "/en/company-profile"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 40,
+    "y": 10255,
+    "w": 43,
+    "h": 17,
+    "text": "offices",
+    "href": "/en/offices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 40,
+    "y": 10292,
+    "w": 55,
+    "h": 17,
+    "text": "investors",
+    "href": "/en/investors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-we-are > li.footer-text-light > a",
+    "x": 40,
+    "y": 10328,
+    "w": 66,
+    "h": 17,
+    "text": "newsroom",
+    "href": "/en/newsroom"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 40,
+    "y": 10385,
+    "w": 280,
+    "h": 20,
+    "text": "privacy & legal"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-grid > li.footer-nav-group.footer-nav-group-b > button#footer-privacy-legal",
+    "x": 40,
+    "y": 10385,
+    "w": 280,
+    "h": 20,
+    "label": "trigger",
+    "value": "privacy & legal",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 10433,
+    "w": 145,
+    "h": 17,
+    "text": "privacy & cookie policy",
+    "href": "/en/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 10470,
+    "w": 163,
+    "h": 17,
+    "text": "privacy notice (candidate)",
+    "href": "/en/privacy-notice-candidate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 10506,
+    "w": 135,
+    "h": 17,
+    "text": "privacy notice (client)",
+    "href": "/en/privacy-notice-client"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 10543,
+    "w": 150,
+    "h": 17,
+    "text": "privacy notice (supplier)",
+    "href": "/en/privacy-notice-supplier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 10580,
+    "w": 160,
+    "h": 17,
+    "text": "privacy notice (marketing)",
+    "href": "/en/privacy-notice-marketing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 10617,
+    "w": 131,
+    "h": 17,
+    "text": "ccpa privacy notice",
+    "href": "/en/CCPA-privacy-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 10654,
+    "w": 206,
+    "h": 34,
+    "text": "modern slavery act transparency policy (uk & ir)",
+    "href": "/en/modern-slavery-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 10707,
+    "w": 266,
+    "h": 17,
+    "text": "declaration of principles - lksg (germany)",
+    "href": "/en/declaration-of-principles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 10744,
+    "w": 153,
+    "h": 17,
+    "text": "approach to uk taxation",
+    "href": "/en/approach-to-uk-taxation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 10781,
+    "w": 143,
+    "h": 17,
+    "text": "accessibility statement",
+    "href": "/en/accessibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu#footer-dropdown-privacy-legal > li.footer-text-light > a",
+    "x": 40,
+    "y": 10817,
+    "w": 262,
+    "h": 17,
+    "text": "do not sell/share my personal information",
+    "href": "/en/3d-and-mixed-reality"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 40,
+    "y": 10874,
+    "w": 280,
+    "h": 48,
+    "text": "careers",
+    "href": "/en/about/careers/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-nav-actions > li > a.footer-cta",
+    "x": 40,
+    "y": 10978,
+    "w": 280,
+    "h": 48,
+    "text": "contacts",
+    "href": "/en/contacts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 40,
+    "y": 11082,
+    "w": 48,
+    "h": 48,
+    "text": "facebook",
+    "href": "/ReplyinUK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 52,
+    "y": 11094,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 117,
+    "y": 11082,
+    "w": 48,
+    "h": 48,
+    "text": "twitter",
+    "href": "/Reply_UK"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 129,
+    "y": 11094,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 195,
+    "y": 11082,
+    "w": 48,
+    "h": 48,
+    "text": "linkedin",
+    "href": "/company/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 207,
+    "y": 11094,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-linkedin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "menu.footer-social > li > a.round-bt",
+    "x": 272,
+    "y": 11082,
+    "w": 48,
+    "h": 48,
+    "text": "xing",
+    "href": "/pages/reply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.round-bt > i > img",
+    "x": 284,
+    "y": 11094,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "social-xing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > span",
+    "x": 32,
+    "y": 11206,
+    "w": 131,
+    "h": 17,
+    "text": "Reply © 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-row > div.site-legal-text.footer-text-light > a",
+    "x": 32,
+    "y": 11223,
+    "w": 131,
+    "h": 17,
+    "text": "company information",
+    "href": "/contents/Reply_Company_Information_en.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-legal-inner > div.site-legal-row > button#cookie-pref-center",
+    "x": 296,
+    "y": 832,
+    "w": 48,
+    "h": 48,
+    "text": "open cookie settings"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 1,
+    "clamped": 3,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 2,
+    "offPage": 74,
+    "textNodes": 128,
+    "controls": 107,
+    "total": 1
+   },
+   "groups": [
+    {
+     "kind": "CONTROL CLIPPED",
+     "advisory": false,
+     "n": 1,
+     "clipper": "div.reply-card-image-container",
+     "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-content > a.reply-card-link",
+     "text": "virtual interactive showroomprotocube reply believes that th",
+     "cutMin": 8,
+     "cutMax": 8
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.hero-card-abstract",
+     "path": "div.hero-card-grid > div.hero-card-body > div.hero-card-abstract > p",
+     "text": "products to explore. stories to enter. experiences to live w",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "a",
+     "path": "div.reply-card-body > div.reply-card-title > h3#step-into-the-new-era-of-spatial-computing-with-apple-vision-pro-and-reply > a",
+     "text": "step into the new era of spatial computing with apple vision",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.discover-also-rail",
+     "path": "div.discover-also-track > ul > li > a",
+     "text": "artificial intelligence",
+     "cutMin": 131,
+     "cutMax": 131
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.discover-also-rail",
+     "path": "div.discover-also-track > ul > li > a",
+     "text": "artificial intelligence",
+     "cutMin": 131,
+     "cutMax": 131
+    }
+   ],
+   "findings": [
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 5,
+     "path": "div.hero-card-grid > div.hero-card-body > div.hero-card-abstract > p",
+     "text": "products to explore. stories to enter. experiences to live w",
+     "clipper": "div.hero-card-abstract",
+     "rect": {
+      "l": 80,
+      "t": 1421,
+      "r": 242,
+      "b": 1439,
+      "w": 162,
+      "h": 18
+     },
+     "clip": {
+      "l": 80,
+      "t": 1417,
+      "r": 280,
+      "b": 1499,
+      "w": 200,
+      "h": 82
+     },
+     "lines": 9
+    },
+    {
+     "kind": "CONTROL CLIPPED",
+     "cut": 8,
+     "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-content > a.reply-card-link",
+     "text": "virtual interactive showroomprotocube reply believes that th",
+     "clipper": "div.reply-card-image-container",
+     "rect": {
+      "l": 52,
+      "t": 6222,
+      "r": 308,
+      "b": 6278,
+      "w": 257,
+      "h": 56
+     },
+     "clip": {
+      "l": 30,
+      "t": 5850,
+      "r": 310,
+      "b": 6270,
+      "w": 280,
+      "h": 420
+     }
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 3,
+     "path": "div.hero-card-grid > div.hero-card-body > div.hero-card-abstract > p",
+     "text": "revolutionize your digital presence with ai-powered digital ",
+     "clipper": "div.hero-card-abstract",
+     "rect": {
+      "l": 80,
+      "t": 6675,
+      "r": 280,
+      "b": 6693,
+      "w": 200,
+      "h": 18
+     },
+     "clip": {
+      "l": 80,
+      "t": 6671,
+      "r": 280,
+      "b": 6753,
+      "w": 200,
+      "h": 82
+     },
+     "lines": 7
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.reply-card-body > div.reply-card-title > h3#step-into-the-new-era-of-spatial-computing-with-apple-vision-pro-and-reply > a",
+     "text": "step into the new era of spatial computing with apple vision",
+     "clipper": "a",
+     "rect": {
+      "l": 56,
+      "t": 7174,
+      "r": 277,
+      "b": 7194,
+      "w": 221,
+      "h": 20
+     },
+     "clip": {
+      "l": 56,
+      "t": 7173,
+      "r": 304,
+      "b": 7243,
+      "w": 248,
+      "h": 70
+     },
+     "lines": 4
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 131,
+     "path": "div.discover-also-track > ul > li > a",
+     "text": "artificial intelligence",
+     "clipper": "div.discover-also-rail",
+     "rect": {
+      "l": 334,
+      "t": 9790,
+      "r": 491,
+      "b": 9830,
+      "w": 156,
+      "h": 41
+     },
+     "clip": {
+      "l": 40,
+      "t": 9786,
+      "r": 360,
+      "b": 9915,
+      "w": 320,
+      "h": 129
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 131,
+     "path": "div.discover-also-track > ul > li > a",
+     "text": "artificial intelligence",
+     "clipper": "div.discover-also-rail",
+     "rect": {
+      "l": 334,
+      "t": 9802,
+      "r": 491,
+      "b": 9818,
+      "w": 156,
+      "h": 16
+     },
+     "clip": {
+      "l": 40,
+      "t": 9786,
+      "r": 360,
+      "b": 9915,
+      "w": 320,
+      "h": 129
+     },
+     "lines": 1
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "3d & mixed reality",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "reply immersive experience",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "come and live the experience",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 1
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "metaverse lab",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 2,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "our case studies",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 2
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "delivering a 3d showroom experience from home",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 7,
+   "heading": "preserving and enhancing st. peter's basilica through ai",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 2
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "an immersive journey into luxury shopping with the mall luxury outlets",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 2
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "meet futura, the ai-driven tour expert enhancing cruise experiences",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 1,
+    "image": 2
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "the digital revolution of real estate",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "new holland agriculture",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 2
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "digitising production with 3d technologies: the reda story",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 1,
+    "image": 2
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 13,
+   "heading": "magnum michelangelo: social media campaign & ar experiences",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 14,
+   "heading": "our assets",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 2
+   },
+   "findings": [
+    "MISSING HEADING",
+    "MISSING LINK",
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 15,
+   "heading": "say “hello!” to digital humans",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 16,
+   "heading": "best practices and insights",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 17,
+   "heading": "step into the new era of spatial computing with apple vision pro and reply",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 18,
+   "heading": "3d realism trends",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 19,
+   "heading": "3d scanning, a gateway to digital creativity",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 20,
+   "heading": "on the trail of modern mixed reality devices",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 21,
+   "heading": "jump into the virtual world from where you stand",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 2,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 1,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 1
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🔴",
+   "kind": "MISSING HEADING",
+   "msg": "h3 \"vto - virtual try on\" (origin y 6250) has no served heading",
+   "band": 14,
+   "text": "vto - virtual try on"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"vto - virtual try on\" → /en/3d-and-mixed-reality/virtual-try-on in band \"our assets\" (origin y 6250) not on the served page",
+   "band": 14,
+   "n": 1,
+   "text": "vto - virtual try on",
+   "href": "/en/3d-and-mixed-reality/virtual-try-on"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"virtual interactive showroom\" (y 6222) has no origin heading",
+   "text": "virtual interactive showroom"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"pause video\" served in band \"delivering a 3d showroom experience from home\", no origin link or button",
+   "band": 6,
+   "n": 1,
+   "text": "pause video"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"virtual interactive showroom\" served in band \"our assets\", no origin link or button",
+   "band": 14,
+   "n": 1,
+   "text": "virtual interactive showroom"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 1,
+  "hiddenHeadings": 0,
+  "extraHeadings": 1,
+  "missingLinks": 1,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 2,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 5,
+  "structural": 2,
+  "missing": 2,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 40,
+    "y": 476,
+    "w": 215,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 515,
+    "w": 128,
+    "h": 40
+   },
+   {
+    "x": 69,
+    "y": 700,
+    "w": 223,
+    "h": 32
+   },
+   {
+    "x": 108,
+    "y": 734,
+    "w": 144,
+    "h": 32
+   },
+   {
+    "x": 86,
+    "y": 767,
+    "w": 187,
+    "h": 32
+   },
+   {
+    "x": 52,
+    "y": 801,
+    "w": 257,
+    "h": 32
+   },
+   {
+    "x": 52,
+    "y": 834,
+    "w": 256,
+    "h": 32
+   },
+   {
+    "x": 56,
+    "y": 868,
+    "w": 247,
+    "h": 32
+   },
+   {
+    "x": 105,
+    "y": 902,
+    "w": 150,
+    "h": 32
+   },
+   {
+    "x": 64,
+    "y": 935,
+    "w": 232,
+    "h": 32
+   },
+   {
+    "x": 121,
+    "y": 969,
+    "w": 117,
+    "h": 32
+   },
+   {
+    "x": 144,
+    "y": 1006,
+    "w": 72,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 1318,
+    "w": 70,
+    "h": 27
+   },
+   {
+    "x": 80,
+    "y": 1352,
+    "w": 131,
+    "h": 27
+   },
+   {
+    "x": 80,
+    "y": 1385,
+    "w": 141,
+    "h": 27
+   },
+   {
+    "x": 80,
+    "y": 1420,
+    "w": 164,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 1447,
+    "w": 130,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 1474,
+    "w": 193,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 1474,
+    "w": 183,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1602,
+    "w": 270,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 1635,
+    "w": 164,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 1705,
+    "w": 247,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1732,
+    "w": 261,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1759,
+    "w": 217,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1786,
+    "w": 140,
+    "h": 18
+   },
+   {
+    "x": 88,
+    "y": 2133,
+    "w": 35,
+    "h": 11
+   },
+   {
+    "x": 72,
+    "y": 2165,
+    "w": 187,
+    "h": 27
+   },
+   {
+    "x": 92,
+    "y": 2225,
+    "w": 114,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 2456,
+    "w": 242,
+    "h": 32
+   },
+   {
+    "x": 56,
+    "y": 2830,
+    "w": 245,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 2854,
+    "w": 213,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 2893,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 56,
+    "y": 3247,
+    "w": 243,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 3271,
+    "w": 172,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 3294,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 3333,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 56,
+    "y": 3565,
+    "w": 243,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 3588,
+    "w": 235,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 3612,
+    "w": 183,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 3651,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 56,
+    "y": 4005,
+    "w": 247,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 4028,
+    "w": 210,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 4052,
+    "w": 175,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 4091,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 56,
+    "y": 4323,
+    "w": 224,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 4346,
+    "w": 103,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 4385,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 56,
+    "y": 4739,
+    "w": 231,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 4779,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 56,
+    "y": 5063,
+    "w": 245,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 5086,
+    "w": 246,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 5110,
+    "w": 49,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 5149,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 56,
+    "y": 5503,
+    "w": 220,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 5526,
+    "w": 244,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 5550,
+    "w": 146,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 5589,
+    "w": 86,
+    "h": 11
+   },
+   {
+    "x": 104,
+    "y": 5655,
+    "w": 152,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 5779,
+    "w": 155,
+    "h": 32
+   },
+   {
+    "x": 96,
+    "y": 6571,
+    "w": 106,
+    "h": 11
+   },
+   {
+    "x": 80,
+    "y": 6607,
+    "w": 183,
+    "h": 27
+   },
+   {
+    "x": 80,
+    "y": 6640,
+    "w": 187,
+    "h": 27
+   },
+   {
+    "x": 80,
+    "y": 6675,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 6702,
+    "w": 199,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 6729,
+    "w": 130,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 6897,
+    "w": 218,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 6930,
+    "w": 177,
+    "h": 32
+   },
+   {
+    "x": 56,
+    "y": 7174,
+    "w": 226,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 7198,
+    "w": 226,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 7221,
+    "w": 193,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 7261,
+    "w": 106,
+    "h": 11
+   },
+   {
+    "x": 56,
+    "y": 7615,
+    "w": 172,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 7654,
+    "w": 74,
+    "h": 11
+   },
+   {
+    "x": 73,
+    "y": 7934,
+    "w": 137,
+    "h": 20
+   },
+   {
+    "x": 73,
+    "y": 7957,
+    "w": 175,
+    "h": 20
+   },
+   {
+    "x": 73,
+    "y": 7981,
+    "w": 93,
+    "h": 20
+   },
+   {
+    "x": 89,
+    "y": 8020,
+    "w": 90,
+    "h": 11
+   },
+   {
+    "x": 73,
+    "y": 8054,
+    "w": 171,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 8078,
+    "w": 176,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 8102,
+    "w": 180,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 8125,
+    "w": 191,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 8149,
+    "w": 80,
+    "h": 16
+   },
+   {
+    "x": 56,
+    "y": 8544,
+    "w": 208,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 8567,
+    "w": 204,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 8607,
+    "w": 90,
+    "h": 11
+   },
+   {
+    "x": 104,
+    "y": 8673,
+    "w": 152,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 8845,
+    "w": 199,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 8878,
+    "w": 256,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 8912,
+    "w": 239,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 8961,
+    "w": 220,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 8989,
+    "w": 246,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 9016,
+    "w": 215,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 9043,
+    "w": 184,
+    "h": 18
+   },
+   {
+    "x": 60,
+    "y": 9102,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 72,
+    "y": 9396,
+    "w": 116,
+    "h": 11
+   },
+   {
+    "x": 72,
+    "y": 9434,
+    "w": 180,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 9457,
+    "w": 109,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 9481,
+    "w": 184,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 9504,
+    "w": 100,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 9552,
+    "w": 154,
+    "h": 11
+   },
+   {
+    "x": 40,
+    "y": 9738,
+    "w": 124,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 9805,
+    "w": 88,
+    "h": 13
+   },
+   {
+    "x": 160,
+    "y": 9805,
+    "w": 143,
+    "h": 13
+   },
+   {
+    "x": 335,
+    "y": 9805,
+    "w": 160,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10174,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 10221,
+    "w": 103,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10258,
+    "w": 45,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10295,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10332,
+    "w": 67,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10389,
+    "w": 135,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 10436,
+    "w": 142,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10473,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 10473,
+    "w": 73,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10510,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 10510,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10547,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 10547,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10583,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 10583,
+    "w": 69,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10620,
+    "w": 127,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10657,
+    "w": 208,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10674,
+    "w": 39,
+    "h": 13
+   },
+   {
+    "x": 79,
+    "y": 10674,
+    "w": 51,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10710,
+    "w": 196,
+    "h": 13
+   },
+   {
+    "x": 236,
+    "y": 10710,
+    "w": 64,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10747,
+    "w": 154,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10784,
+    "w": 147,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10821,
+    "w": 261,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10893,
+    "w": 73,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 10997,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 11210,
+    "w": 81,
+    "h": 13
+   },
+   {
+    "x": 32,
+    "y": 11226,
+    "w": 136,
+    "h": 13
+   }
+  ],
+  "eds": [
+   {
+    "x": 40,
+    "y": 476,
+    "w": 214,
+    "h": 40
+   },
+   {
+    "x": 40,
+    "y": 515,
+    "w": 125,
+    "h": 40
+   },
+   {
+    "x": 72,
+    "y": 700,
+    "w": 215,
+    "h": 32
+   },
+   {
+    "x": 111,
+    "y": 734,
+    "w": 137,
+    "h": 32
+   },
+   {
+    "x": 88,
+    "y": 767,
+    "w": 185,
+    "h": 32
+   },
+   {
+    "x": 58,
+    "y": 801,
+    "w": 243,
+    "h": 32
+   },
+   {
+    "x": 58,
+    "y": 834,
+    "w": 244,
+    "h": 32
+   },
+   {
+    "x": 59,
+    "y": 868,
+    "w": 242,
+    "h": 32
+   },
+   {
+    "x": 108,
+    "y": 902,
+    "w": 145,
+    "h": 32
+   },
+   {
+    "x": 68,
+    "y": 935,
+    "w": 224,
+    "h": 32
+   },
+   {
+    "x": 120,
+    "y": 969,
+    "w": 119,
+    "h": 32
+   },
+   {
+    "x": 144,
+    "y": 1007,
+    "w": 72,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 1319,
+    "w": 71,
+    "h": 27
+   },
+   {
+    "x": 80,
+    "y": 1353,
+    "w": 130,
+    "h": 27
+   },
+   {
+    "x": 80,
+    "y": 1386,
+    "w": 142,
+    "h": 27
+   },
+   {
+    "x": 80,
+    "y": 1421,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 1448,
+    "w": 127,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 1475,
+    "w": 190,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 1475,
+    "w": 180,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1602,
+    "w": 261,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 1636,
+    "w": 162,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 1706,
+    "w": 240,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1733,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1760,
+    "w": 215,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1787,
+    "w": 135,
+    "h": 18
+   },
+   {
+    "x": 88,
+    "y": 2132,
+    "w": 38,
+    "h": 13
+   },
+   {
+    "x": 72,
+    "y": 2165,
+    "w": 185,
+    "h": 27
+   },
+   {
+    "x": 92,
+    "y": 2224,
+    "w": 114,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 2455,
+    "w": 245,
+    "h": 32
+   },
+   {
+    "x": 56,
+    "y": 2830,
+    "w": 245,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 2853,
+    "w": 210,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 2892,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 56,
+    "y": 3247,
+    "w": 242,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 3270,
+    "w": 174,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 3294,
+    "w": 97,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 3332,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 56,
+    "y": 3564,
+    "w": 241,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 3588,
+    "w": 231,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 3611,
+    "w": 180,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 3650,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 56,
+    "y": 4005,
+    "w": 243,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 4028,
+    "w": 204,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 4051,
+    "w": 176,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 4090,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 56,
+    "y": 4322,
+    "w": 217,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 4346,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 4384,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 56,
+    "y": 4739,
+    "w": 226,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 4777,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 56,
+    "y": 5063,
+    "w": 234,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 5086,
+    "w": 248,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 5109,
+    "w": 47,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 5148,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 56,
+    "y": 5503,
+    "w": 217,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 5526,
+    "w": 241,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 5549,
+    "w": 151,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 5588,
+    "w": 95,
+    "h": 13
+   },
+   {
+    "x": 105,
+    "y": 5654,
+    "w": 149,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 5779,
+    "w": 158,
+    "h": 32
+   },
+   {
+    "x": 96,
+    "y": 6570,
+    "w": 118,
+    "h": 13
+   },
+   {
+    "x": 80,
+    "y": 6607,
+    "w": 179,
+    "h": 27
+   },
+   {
+    "x": 80,
+    "y": 6640,
+    "w": 181,
+    "h": 27
+   },
+   {
+    "x": 80,
+    "y": 6675,
+    "w": 200,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 6702,
+    "w": 141,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 6729,
+    "w": 196,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 6729,
+    "w": 182,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 6896,
+    "w": 272,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 6930,
+    "w": 112,
+    "h": 32
+   },
+   {
+    "x": 56,
+    "y": 7174,
+    "w": 221,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 7197,
+    "w": 216,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 7221,
+    "w": 194,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 7259,
+    "w": 118,
+    "h": 13
+   },
+   {
+    "x": 56,
+    "y": 7614,
+    "w": 177,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 7653,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 73,
+    "y": 7933,
+    "w": 139,
+    "h": 20
+   },
+   {
+    "x": 73,
+    "y": 7957,
+    "w": 163,
+    "h": 20
+   },
+   {
+    "x": 73,
+    "y": 7980,
+    "w": 85,
+    "h": 20
+   },
+   {
+    "x": 89,
+    "y": 8019,
+    "w": 101,
+    "h": 13
+   },
+   {
+    "x": 73,
+    "y": 8054,
+    "w": 166,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 8077,
+    "w": 180,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 8101,
+    "w": 174,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 8125,
+    "w": 183,
+    "h": 16
+   },
+   {
+    "x": 73,
+    "y": 8149,
+    "w": 81,
+    "h": 16
+   },
+   {
+    "x": 56,
+    "y": 8544,
+    "w": 202,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 8567,
+    "w": 202,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 8605,
+    "w": 101,
+    "h": 13
+   },
+   {
+    "x": 105,
+    "y": 8671,
+    "w": 149,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 8842,
+    "w": 194,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 8876,
+    "w": 240,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 8909,
+    "w": 232,
+    "h": 32
+   },
+   {
+    "x": 40,
+    "y": 8959,
+    "w": 218,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 8986,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 9013,
+    "w": 241,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 9041,
+    "w": 115,
+    "h": 18
+   },
+   {
+    "x": 60,
+    "y": 9099,
+    "w": 100,
+    "h": 16
+   },
+   {
+    "x": 72,
+    "y": 9416,
+    "w": 129,
+    "h": 13
+   },
+   {
+    "x": 72,
+    "y": 9455,
+    "w": 216,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 9478,
+    "w": 212,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 9502,
+    "w": 134,
+    "h": 20
+   },
+   {
+    "x": 72,
+    "y": 9548,
+    "w": 173,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 9735,
+    "w": 126,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 9802,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 160,
+    "y": 9802,
+    "w": 143,
+    "h": 16
+   },
+   {
+    "x": 334,
+    "y": 9802,
+    "w": 156,
+    "h": 16
+   },
+   {
+    "x": 40,
+    "y": 10170,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 10219,
+    "w": 102,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10256,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10293,
+    "w": 55,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10329,
+    "w": 66,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10385,
+    "w": 135,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 10434,
+    "w": 145,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10471,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 10471,
+    "w": 71,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10507,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 10507,
+    "w": 43,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10544,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 10544,
+    "w": 58,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10581,
+    "w": 92,
+    "h": 13
+   },
+   {
+    "x": 132,
+    "y": 10581,
+    "w": 68,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10618,
+    "w": 131,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10655,
+    "w": 206,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10671,
+    "w": 40,
+    "h": 13
+   },
+   {
+    "x": 80,
+    "y": 10671,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10708,
+    "w": 200,
+    "h": 13
+   },
+   {
+    "x": 240,
+    "y": 10708,
+    "w": 65,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10745,
+    "w": 153,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10782,
+    "w": 143,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10818,
+    "w": 262,
+    "h": 13
+   },
+   {
+    "x": 40,
+    "y": 10889,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 10993,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 32,
+    "y": 11207,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 32,
+    "y": 11224,
+    "w": 131,
+    "h": 13
+   }
+  ]
+ }
+}

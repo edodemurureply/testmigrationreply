@@ -1,0 +1,132 @@
+/* make — index.css .home-make (grid margins, text column, title on --font-text 28 / 36 / 42) +
+   .home-eyebrow--make (label face, sentence case, 27px line). */
+.make {
+  display: flow-root;
+}
+
+.make .make-grid {
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.make .make-text {
+  grid-column: 1 / 5;
+  min-width: 0;
+}
+
+.make .make-eyebrow p {
+  margin: 0;
+  color: var(--c-slate);
+  font-family: var(--font-label);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+.make .make-title :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  color: var(--c-ink);
+  font-family: var(--font-text);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+@media (width >= 768px) {
+  .make .make-grid {
+    margin-bottom: 36px;
+  }
+
+  .make .make-text {
+    grid-column: 1 / 9;
+  }
+
+  .make .make-title :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 36px;
+  }
+}
+
+@media (width >= 1024px) {
+  .make .make-grid {
+    margin-top: 46px;
+  }
+
+  .make .make-text {
+    grid-column: 2 / 10;
+  }
+}
+
+@media (width >= 1440px) {
+  .make .make-grid {
+    margin-bottom: 40px;
+  }
+
+  .make .make-text {
+    padding-right: 300px;
+  }
+
+  .make .make-title :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 42px;
+  }
+}
+
+/* variant xmas (en-christmas .tdxbbaqgwk: margin-top 96 / 120 @1440, bottom 40 / 56 @1440, no
+   1440 right padding) */
+.make.xmas .make-grid {
+  margin-top: 96px;
+  margin-bottom: 40px;
+}
+
+@media (width >= 1440px) {
+  .make.xmas .make-grid {
+    margin-top: 120px;
+    margin-bottom: 56px;
+  }
+
+  .make.xmas .make-text {
+    padding-right: 0;
+  }
+}
+
+/* variant stories (en-christmas .hgztbtfhav "GET INSPIRED": .liplasoobi grid 1fr / 1fr 8fr 3fr
+   >= 1024, cell padding 40 / 64 / 20, margin-top 90 / 120 @1440, spacer 24 under the title) */
+.make.stories .make-grid {
+  grid-template-columns: 1fr;
+  column-gap: 0;
+  margin-top: 90px;
+  margin-bottom: 24px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.make.stories .make-text {
+  grid-column: 1 / 2;
+  padding: 0 40px;
+}
+
+@media (width >= 768px) {
+  .make.stories .make-text {
+    padding: 0 64px;
+  }
+}
+
+@media (width >= 1024px) {
+  .make.stories .make-grid {
+    grid-template-columns: 1fr 8fr 3fr;
+  }
+
+  .make.stories .make-text {
+    grid-column: 2 / 3;
+    padding: 0 20px;
+  }
+}
+
+@media (width >= 1440px) {
+  .make.stories .make-grid {
+    margin-top: 120px;
+  }
+
+  .make.stories .make-text {
+    padding-right: 20px;
+  }
+}

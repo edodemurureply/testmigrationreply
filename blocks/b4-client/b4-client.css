@@ -1,0 +1,146 @@
+/* b4-client — lifted from the brand-case-study prototype (.b4cs-client): ice band, grid margin 56 / 56,
+   120 / 120 @1440. Title (t-section) 1-4 / 1-5 / 2-7 / 2-6; rule (48 px, ink) col 2 @1024, hidden < 768;
+   text 1-4 / 2-5 / 3-8 / 3-7; logo 1-4 row 3 / 6-8 rows 1-3 / 9-11. */
+.b4-client {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--c-ice);
+}
+
+.b4-client .b4-client-grid {
+  flex: 1 1 100%;
+  margin-top: 56px;
+  margin-bottom: 56px;
+}
+
+.b4-client .b4-client-title {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  margin-bottom: 2rem;
+}
+
+.b4-client .b4-client-title :is(h1, h2, h3, h4) {
+  margin: 0;
+  color: var(--c-ink);
+  font-family: var(--font-lead);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.b4-client .b4-client-rule {
+  display: none;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  margin-bottom: 2.5rem;
+}
+
+.b4-client .b4-rule {
+  display: block;
+  width: 48px;
+  min-width: 48px;
+  margin-top: 13px;
+  border-top: 1px solid var(--c-ink);
+}
+
+.b4-client .b4-client-text {
+  grid-column: 1 / 5;
+  grid-row: 2 / 3;
+  margin-bottom: 2.5rem;
+}
+
+.b4-client .b4-client-logo {
+  grid-column: 1 / 5;
+  grid-row: 3 / 4;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.b4-client .b4-client-logo :is(picture, img) {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (width >= 768px) {
+  .b4-client .b4-client-title {
+    grid-column: 1 / 6;
+    margin-bottom: 3.5rem;
+  }
+
+  .b4-client .b4-client-rule {
+    display: flex;
+  }
+
+  .b4-client .b4-client-text {
+    grid-column: 2 / 6;
+  }
+
+  .b4-client .b4-client-logo {
+    grid-column: 6 / 9;
+    grid-row: 1 / 4;
+    margin-bottom: 0;
+  }
+}
+
+@media (width >= 1024px) {
+  .b4-client .b4-client-title {
+    grid-column: 2 / 8;
+  }
+
+  .b4-client .b4-client-rule {
+    grid-column: 2 / 3;
+    margin-bottom: 0;
+  }
+
+  .b4-client .b4-client-text {
+    grid-column: 3 / 9;
+    margin-bottom: 0;
+  }
+
+  .b4-client .b4-client-logo {
+    grid-column: 9 / 12;
+  }
+}
+
+@media (width >= 1440px) {
+  .b4-client .b4-client-grid {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+
+  .b4-client .b4-client-title {
+    grid-column: 2 / 7;
+  }
+
+  .b4-client .b4-client-title :is(h1, h2, h3, h4) {
+    font-size: 36px;
+  }
+
+  .b4-client .b4-client-rule {
+    margin-bottom: 2rem;
+  }
+
+  .b4-client .b4-client-text {
+    grid-column: 3 / 8;
+    margin-bottom: 2rem;
+  }
+}
+
+/* ls-<n> (fix-small-2): R-02 wrap compensation below 768 — one tracking (n / 1000 em, ls-0 =
+   normal) on every text line of the block, measured per block against the live line breaks
+   @360 (stand-in faces set ~2 % narrower; .work/rollout/fix-small-2/wrap.mjs) */
+@media (width < 768px) {
+  .b4-client.ls-0 { --ls-v: normal; }
+  .b4-client.ls-5 { --ls-v: 0.005em; }
+  .b4-client.ls-7 { --ls-v: 0.0075em; }
+  .b4-client.ls-10 { --ls-v: 0.01em; }
+  .b4-client.ls-12 { --ls-v: 0.0125em; }
+  .b4-client.ls-15 { --ls-v: 0.015em; }
+  .b4-client.ls-20 { --ls-v: 0.02em; }
+  .b4-client.ls-25 { --ls-v: 0.025em; }
+
+  main div.b4-client.block[class*=" ls-"] :is(p, li, h1, h2, h3, h4, h5, h6) {
+    letter-spacing: var(--ls-v, normal);
+  }
+}

@@ -1,0 +1,792 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "all"
+      ],
+      "startedAt": "2026-11-15T12:05:33.328Z",
+      "blocks": 2,
+      "endedAt": "2026-11-15T12:50:27.578Z",
+      "gates": {
+        "chrome": "chrome-parity Reply shell 1440 17 / 360 11 deltas; 4brands shell 13 / 11 — R-02 text widths (same as gated prototypes) + shell-height footer offset",
+        "headerContract": "pending (live explore timeout) — foundation-requests.md"
+      },
+      "verdict": "foundation: files 39, chrome docs 6 live, lint ok, chrome-parity 1440 17 / 360 11 (4brands 13 / 11), shells /drafts/shell /drafts/4brands-shell"
+    },
+    "archetype-plain": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "plain"
+      ],
+      "archetype": "en-accessibility",
+      "pages": 1,
+      "startedAt": "2026-11-15T12:52:31Z",
+      "endedAt": "2026-11-15T13:06:45Z",
+      "blocks": 1,
+      "gates": {
+        "360": {
+          "pixel": "3.82%",
+          "dh": 0
+        },
+        "1440": {
+          "pixel": "2.21%",
+          "dh": 0
+        },
+        "crop": "hdr 1.55% / ftr 1.02%",
+        "rows": "pixel/Δh/clip/content pass; row FAIL font-not-loaded (fallback local(Arial) face) — foundation request queued for C-final"
+      },
+      "verdict": "archetype-plain: page /en/accessibility live, blocks 1 (converted 1, reused 0), gate 1440 2.21% Δh 0 / 360 3.82% Δh 0, clipped 0, missing 0, crop hdr/ftr 1.55%/1.02%, rounds 1, requests 2"
+    },
+    "archetype-hub": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "hub"
+      ],
+      "archetype": "en-iot",
+      "pages": 1,
+      "startedAt": "2026-11-15T20:16:46Z",
+      "endedAt": "2026-11-15T20:16:46Z",
+      "blocks": 8,
+      "gates": {
+        "360": "9.44% Δh -24",
+        "1440": "5.35% Δh -17",
+        "crop": "hdr 1.64% / ftr 1.68%",
+        "fonts": "font-not-loaded fallback faces (queued for C-final)"
+      },
+      "verdict": "archetype-hub: page /en/iot live, blocks 8 (converted 4, reused 4), gate 1440 5.35% Δh -17 / 360 9.44% Δh -24, clipped 0, missing 0, crop hdr/ftr 1.64%/1.68%, rounds 1, requests 0"
+    },
+    "archetype-home": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "home"
+      ],
+      "archetype": "index",
+      "pages": 1,
+      "startedAt": "2026-11-15T20:16:56Z",
+      "endedAt": "2026-11-15T21:22:02Z",
+      "blocks": 10,
+      "gates": {
+        "360": "5.73% Δh 0",
+        "1440": "7.25% Δh 0",
+        "crop": "hdr 2.20% / ftr 1.08%",
+        "fonts": "font-not-loaded (C-final)"
+      },
+      "note": "missing 5/2 + hidden 2/4 are autoplay rail cards (carousel timing, as archetype-brand-solution); presence.json does not apply to headings; main wall in /fragments/index-wall (200-image limit); header crop 2.20% (frozen header, C-final).",
+      "verdict": "archetype-home: page / live, blocks 10 (converted 3, reused 7), gate 1440 7.25% Δh 0 / 360 5.73% Δh 0, clipped 13/15 (all within clip-allow), missing 5/2 (+hidden 2/4, carousel timing), crop hdr/ftr 2.20%/1.08%, rounds 2, requests 0"
+    },
+    "archetype-listing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "listing"
+      ],
+      "archetype": "en-insights",
+      "pages": 1,
+      "startedAt": "2026-11-15T20:16:56Z",
+      "endedAt": "2026-11-15T21:22:02Z",
+      "blocks": 9,
+      "gates": {
+        "360": "2.59% Δh 0",
+        "1440": "6.94% Δh +5",
+        "crop": "hdr 1.71% / ftr 1.08%",
+        "fonts": "font-not-loaded (C-final)"
+      },
+      "verdict": "archetype-listing: page /en/insights live, blocks 9 (converted 4, reused 5), gate 1440 6.94% Δh +5 / 360 2.59% Δh 0, clipped 5/3 (all within clip-allow), missing 0, crop hdr/ftr 1.71%/1.08%, rounds 1, requests 0"
+    },
+    "archetype-brand-home": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "brand-home"
+      ],
+      "archetype": "4brands-reply-en",
+      "pages": 1,
+      "startedAt": "2026-11-15T13:29:58Z",
+      "endedAt": "2026-11-15T19:52:06Z",
+      "blocks": 15,
+      "gates": {
+        "360": "6.5% Δh +8",
+        "1440": "5.44% Δh +13",
+        "crop": "hdr 0.94% / ftr 1.13%",
+        "fonts": "font-not-loaded fallback faces (queued for C-final)",
+        "presence": "slider edge card + Google Maps controls counted-not-matched (presence.json)"
+      },
+      "verdict": "archetype-brand-home: page /4brands-reply/en live, blocks 15 (converted 11, reused 4), gate 1440 5.44% Δh +13 / 360 6.5% Δh +8, clipped 1 (allowed), missing 0, crop hdr/ftr 0.94%/1.13%, rounds 2, requests 0"
+    },
+    "archetype-editorial": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "editorial"
+      ],
+      "archetype": "en-covid-19-implications-2021",
+      "pages": 1,
+      "startedAt": "2026-11-15T12:52:31Z",
+      "endedAt": "2026-11-15T13:16:00Z",
+      "blocks": 5,
+      "gates": {
+        "360": {
+          "pixel": "8.88%",
+          "dh": 2
+        },
+        "1440": {
+          "pixel": "2.93%",
+          "dh": 0
+        },
+        "crop": "hdr 1.55% / ftr 1.02%",
+        "rows": "pixel/Δh/clip/content pass; row FAIL font-not-loaded (queued foundation request)"
+      },
+      "verdict": "archetype-editorial: page /en/covid-19-implications-2021 live, blocks 5 (converted 5, reused 0), gate 1440 2.93% Δh 0 / 360 8.88% Δh 2, clipped 0, missing 0, crop hdr/ftr 1.55%/1.02%, rounds 0, requests 0"
+    },
+    "archetype-brand-case-study": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "brand-case-study"
+      ],
+      "archetype": "4brands-reply-de-rotkaeppchen-mumm-sektkellereien",
+      "pages": 1,
+      "startedAt": "2026-11-15T13:29:58Z",
+      "endedAt": "2026-11-15T19:49:44Z",
+      "blocks": 8,
+      "gates": {
+        "360": "3.87% Δh +2",
+        "1440": "1.73% Δh -1",
+        "crop": "hdr 0.79% / ftr 1.16%",
+        "fonts": "font-not-loaded fallback faces (queued for C-final)"
+      },
+      "verdict": "archetype-brand-case-study: page /4brands-reply/de/rotkaeppchen-mumm-sektkellereien live, blocks 8 (converted 4, reused 4), gate 1440 1.73% Δh -1 / 360 3.87% Δh +2, clipped 0, missing 0, crop hdr/ftr 0.79%/1.16%, rounds 1, requests 0"
+    },
+    "archetype-brand-solution": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "brand-solution"
+      ],
+      "archetype": "4brands-reply-de-customer-experience-management",
+      "pages": 1,
+      "startedAt": "2026-11-15T12:52:31Z",
+      "endedAt": "2026-11-15T13:29:58Z",
+      "blocks": 9,
+      "gates": {
+        "360": {
+          "pixel": "6.32%",
+          "dh": 11
+        },
+        "1440": {
+          "pixel": "4.9%",
+          "dh": 9
+        },
+        "crop": "hdr 0.89% / ftr 0.91%",
+        "rows": "pixel/Δh/clip pass; content-presence 1 missing heading + 2 hidden links inside the autoplaying card-carousel (live and build one slide apart; live hides the same edge cards) — accepted as moving-region residual; font-not-loaded queued"
+      },
+      "verdict": "archetype-brand-solution: page /4brands-reply/de/customer-experience-management live, blocks 9 (converted 9, reused 0), gate 1440 4.9% Δh 9 / 360 6.32% Δh 11, clipped 0, missing 1 + hidden 2 (carousel timing), crop hdr/ftr 0.89%/0.91%, rounds 1, requests 0"
+    },
+    "cluster-plain": {
+      "status": "failed",
+      "kind": "cluster",
+      "templates": [
+        "plain"
+      ],
+      "startedAt": "2026-11-15T13:06:57Z",
+      "endedAt": "2026-11-15T14:50:45Z",
+      "pages": 13,
+      "blocks": 5,
+      "gates": {
+        "360": {
+          "worst": "27.06% en-event-detail (pre-fix)"
+        },
+        "1440": {
+          "worst": "23.06% en-event-detail (pre-fix)"
+        },
+        "rows": "3/13 pass (contacts, impressum, declaration-of-principles); fix round 1 live (list-item spacing, episode badge, taxation lead face) NOT re-gated; thin placeholders event-detail/lufhtansa/autonomousdrivingsafety off-height; font-not-loaded flag on all rows"
+      },
+      "verdict": "cluster-plain: pages 13/13 live, blocks 5, gate 1440 23.06% / 360 27.06% (worst, pre-fix), failed 10, requests 0 — resume: re-gate after fix round 1, rounds 2-3 on the 10 failing rows"
+    },
+    "cluster-hub": {
+      "status": "failed",
+      "kind": "cluster",
+      "templates": [
+        "hub"
+      ],
+      "startedAt": "2026-11-15T21:23:05Z",
+      "endedAt": "2026-11-16T00:49:06Z",
+      "pages": 27,
+      "blocks": 15,
+      "gates": {
+        "360": "56.78% worst; pilot 14.97%",
+        "1440": "58.9% worst; pilot 13.66%"
+      },
+      "note": "3 fix rounds used; one-off source modules kept as generic rich text drift (digital-experience, esg, investors Δh); carousel timing MISSING; re-gate at C-final after font fix.",
+      "verdict": "cluster-hub: pages 27/27 live, blocks 15, gate 1440 58.9% / 360 56.78% (worst), failed 27, requests 0"
+    },
+    "cluster-home": {
+      "status": "failed",
+      "kind": "cluster",
+      "templates": [
+        "home"
+      ],
+      "startedAt": "2026-11-15T21:23:05Z",
+      "pages": 2,
+      "blocks": 11,
+      "note": "gated after render; carousel timing MISSING + fallback fonts not loaded; re-gate at gate-all after C-final font fix",
+      "endedAt": "2026-11-16T01:04:17Z",
+      "gates": {
+        "360": "en 6.93% Δh 0 clip 15 MISSING 4; en-christmas 23.3% Δh -12 MISSING 4",
+        "1440": "en 10.4% Δh 0 clip 13 MISSING 7; en-christmas 27.92% Δh 35 MISSING 10"
+      },
+      "verdict": "cluster-home: pages 2/2 live, blocks 11, gate 1440 27.92% / 360 23.3% (worst), failed 2, requests 0"
+    },
+    "cluster-listing": {
+      "status": "failed",
+      "kind": "cluster",
+      "templates": [
+        "listing"
+      ],
+      "startedAt": "2026-11-15T21:23:05Z",
+      "endedAt": "2026-11-16T00:53:31Z",
+      "pages": 1,
+      "blocks": 3,
+      "gates": {
+        "360": "11.45% Δh -8",
+        "1440": "15.35% Δh 247 (event wall spans)"
+      },
+      "note": "3 fix rounds used; next: pin source span N per event card; re-gate at C-final after font fix.",
+      "verdict": "cluster-listing: pages 1/1 live, blocks 3, gate 1440 15.35% / 360 11.45% (worst), failed 1, requests 0"
+    },
+    "cluster-brand-home": {
+      "status": "failed",
+      "kind": "cluster",
+      "templates": [
+        "brand-home"
+      ],
+      "startedAt": "2026-11-15T19:52:19Z",
+      "endedAt": "2026-11-15T21:15:03Z",
+      "pages": 1,
+      "blocks": 15,
+      "gates": {
+        "360": "18.17% Δh 11, MISSING 1 (slider timing)",
+        "1440": "6.58% Δh 11"
+      },
+      "note": "3 fix rounds used; 360 residual wrap offsets; re-gate after C-final font fix.",
+      "verdict": "cluster-brand-home: pages 1/1 live, blocks 15, gate 1440 6.58% / 360 18.17% (worst), failed 1, requests 0"
+    },
+    "cluster-editorial": {
+      "status": "failed",
+      "kind": "cluster",
+      "templates": [
+        "editorial"
+      ],
+      "startedAt": "2026-11-15T13:16:09Z",
+      "note": "fix-round cap reached (r1–r5); final r6 gate recorded. Residuals: Δh on long reports (acknowledgement, covid-19-report-close-up-italy, biotagging), content MISSING on 7 rows at 1440; font-not-loaded queued for C-final. Re-gate at gate-all after C-final foundation fixes.",
+      "endedAt": "2026-11-15T19:41:49Z",
+      "pages": 14,
+      "gates": {
+        "360": "0/14 pass, pixel up to 54.27 %",
+        "1440": "0/14 pass, pixel 10.79–42.22 %"
+      },
+      "verdict": "cluster-editorial: pages 14/14 live, blocks 5, gate 1440 42.22% / 360 54.27% (worst), failed 14, requests 0"
+    },
+    "cluster-brand-case-study": {
+      "status": "failed",
+      "kind": "cluster",
+      "templates": [
+        "brand-case-study"
+      ],
+      "startedAt": "2026-11-15T19:52:19Z",
+      "endedAt": "2026-11-15T21:15:03Z",
+      "pages": 7,
+      "blocks": 12,
+      "gates": {
+        "360": "worst 18.18% (gerolsteiner); pass preis-sensing, sap-c4-hana",
+        "1440": "7/7 pixel pass, worst 9.62%"
+      },
+      "note": "3 fix rounds used; residuals: 360 wraps on fallback fonts push sections down (gerolsteiner, zentis, engpaesse, connected-shelf); smart-glasses MISSING 1 (source h1 S<span>mart split). Re-gate after C-final font fix.",
+      "verdict": "cluster-brand-case-study: pages 7/7 live, blocks 12, gate 1440 9.62% / 360 18.18% (worst), failed 5, requests 0"
+    },
+    "cluster-brand-solution": {
+      "status": "failed",
+      "kind": "cluster",
+      "templates": [
+        "brand-solution"
+      ],
+      "startedAt": "2026-11-15T13:29:58Z",
+      "note": "2 fix rounds used; residuals: SAC info-card backgrounds absent from capture, eyebrow-as-h2 on composable-customer-data-platform, slider/carousel offsets, 360 heading alignment; data-value-management 9.66/9.96% but MISSING 1-2 (carousel timing). Re-gate after one more round.",
+      "endedAt": "2026-11-15T18:44:31Z",
+      "verdict": "cluster-brand-solution: pages 27/27 live, blocks 12, gate 1440 35.1% / 360 30.1% (worst), failed 27, requests 0"
+    },
+    "gate-all": {
+      "status": "failed",
+      "kind": "final",
+      "startedAt": "2026-11-16T01:05:12Z",
+      "note": "after C-final font fix; failures concentrate in hub (one-off modules as rich text), brand-solution (slider/heights), editorial (long-report Δh). Next: fix wave per template, then re-run gate-all",
+      "endedAt": "2026-11-16T04:58:07.058Z",
+      "gates": {
+        "360": {
+          "pass": 11,
+          "fail": 89,
+          "error": 0
+        },
+        "1440": {
+          "pass": 20,
+          "fail": 78,
+          "error": 2
+        }
+      },
+      "verdict": "gate-all: roster 100, 1440 20 PASS / 78 FAIL / 2 error (missing capture: sac-advanced-scripting, biotagging-und), 360 11 PASS / 89 FAIL; both widths pass 10; coverage --gate applied (1440 then 360)"
+    },
+    "fix-hub-a": {
+      "status": "failed",
+      "kind": "cluster",
+      "templates": [
+        "hub"
+      ],
+      "pages": 14,
+      "startedAt": "2026-11-16T04:59:23.387Z",
+      "note": "Improved design 29.4→16.0%, digital-experience Δh +5297→+170 and MISSING 105→6, cloud-computing MISSING 31→2. Residuals: hero parallax offset, autoplay slider timing, fallback-font rail overflow, one-off modules on adobe/aws/company-profile/digital-assets/ai-powered still flat rich text (target: hub-grid block from fix-hub-b). data-world 1440 eds recapture stalled.",
+      "endedAt": "2026-11-16T06:14:54.744Z",
+      "verdict": "fix-hub-a: pages 0/14 pass both widths, 1440 worst 55.32% / 360 worst 56.78% (360 not re-gated), blocks touched 5, requests 0"
+    },
+    "fix-hub-b": {
+      "status": "failed",
+      "kind": "cluster",
+      "templates": [
+        "hub"
+      ],
+      "pages": 13,
+      "startedAt": "2026-11-16T04:59:23.387Z",
+      "note": "1440 pixel down on 12/13 (esg 50.2→13.4, investors 24.6→10.7, governance 58.5→13.8). Residuals: Archivo fallback vs Alaska wraps; autoplay timing; investors page-index light variant unstyled; gaming Instagram wall; google-cloud accordion static; statement inline highlights. Undeployed local fixes: labs h1, investors hero (stardust/.work/rollout/fix-hub-b/loc). Re-gate 360.",
+      "endedAt": "2026-11-16T06:33:49.812Z",
+      "verdict": "fix-hub-b: pages 1/13 pass at 1440 (environment 9.9%), 0/13 both widths (360 not re-gated), 1440 worst 43.05%, blocks touched 3 (hub-grid new, labs scale, media-hero tint), requests 0"
+    },
+    "fix-brand-solution": {
+      "status": "failed",
+      "kind": "cluster",
+      "templates": [
+        "brand-solution"
+      ],
+      "pages": 28,
+      "startedAt": "2026-11-16T04:59:23.387Z",
+      "note": "Shared hero cause fixed (unpinned rows, per-page veils): smart-retail 17.5→2.7%, agentic 21.3→8.0% at 1440. Residuals: autoplay-carousel content MISSING/HIDDEN on ~10 pages (overrides do not count as pass), SAC CTA-to-carousel spacing, sap-analytics-cloud / sap-datasphere 1440 rows unconfirmed after the background-card fix.",
+      "endedAt": "2026-11-16T06:35:26.430Z",
+      "verdict": "fix-brand-solution: pages 3/28 pass both widths (1440 5/28, 360 3/28), 1440 worst 30.1% / 360 worst 27.15%, blocks touched 7, requests 0"
+    },
+    "fix-editorial": {
+      "status": "failed",
+      "kind": "cluster",
+      "templates": [
+        "editorial"
+      ],
+      "pages": 14,
+      "startedAt": "2026-11-16T04:59:23.387Z",
+      "note": "C-final fix wave after gate-all roster; pages in stardust/rollout/units/fix-editorial.paths",
+      "endedAt": "2026-11-16T06:42:53.561Z",
+      "verdict": "fix-editorial: pages 0/14 pass both widths (1440 3/14), 1440 worst 25.54% / 360 worst 36.23%; 4 gate rounds used; residuals: Δh on long reports (covid-19-report, a-very-covid-19-christmas), ai-now-summit 360 asymmetric origin capture, ethical-ai content MISSING 2"
+    },
+    "fix-plain-home": {
+      "status": "failed",
+      "kind": "cluster",
+      "templates": [
+        "plain",
+        "home"
+      ],
+      "pages": 12,
+      "note": "C-final fix wave after gate-all roster; pages in stardust/rollout/units/fix-plain-home.paths",
+      "startedAt": "2026-11-16T06:39:35.491Z",
+      "endedAt": "2026-11-16T08:04:35.814Z",
+      "verdict": "fix-plain-home: pages 9/12 pass both widths, 1440 worst 26.31% / 360 worst 23.29% (en-christmas), blocks touched 6, requests 1; failing: en-christmas (pixel + carousel MISSING + 360 clip), en (10.44% 1440, title clamp controls clipped, carousel MISSING), index (carousel MISSING)"
+    },
+    "fix-4brands-small": {
+      "status": "failed",
+      "kind": "cluster",
+      "templates": [
+        "brand-case-study",
+        "brand-home",
+        "listing"
+      ],
+      "pages": 9,
+      "note": "C-final fix wave after gate-all roster; pages in stardust/rollout/units/fix-4brands-small.paths",
+      "startedAt": "2026-11-16T06:39:35.524Z",
+      "endedAt": "2026-11-16T08:10:31.182Z",
+      "verdict": "fix-4brands-small: pages 4/9 pass both widths, 1440 worst 9.61% / 360 worst 14.46%, blocks touched 11, requests 0; failing at 360 only: gerolsteiner 14.46%, zentis 12.99%, newsroom 11.45%, engpaesse 10.83%, connected-shelf 10.59%"
+    },
+    "gate-all-2": {
+      "status": "failed",
+      "kind": "final",
+      "note": "roster re-run after fix waves e/f/brand-solution-3/small-3 (first attempt s12 hit the 900 s run-bg cap; re-run with --timeout)",
+      "startedAt": "2026-11-16T13:28:20.507Z",
+      "endedAt": "2026-11-16T19:46:01.534Z",
+      "gates": {
+        "360": {
+          "pass": 46,
+          "fail": 54,
+          "error": 0
+        },
+        "1440": {
+          "pass": 49,
+          "fail": 51,
+          "error": 0
+        }
+      },
+      "verdict": "gate-all-2: roster 100, 1440 49 PASS / 51 FAIL (pixel 41, content 19, clip 1), 360 46 PASS / 54 FAIL (pixel 45, content 18, clip 3, height 1); both widths pass 45; coverage --gate applied (1440 then 360) + 1440-only failures re-marked failed; 16 stale cluster-error rows that now pass both returned to deployed"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-11-16T19:47:00Z",
+      "endedAt": "2026-11-16T20:11:51Z",
+      "gates": {
+        "freeze": "unchanged (22 files)",
+        "gateAll": "gate-all-2: 1440 49/100, 360 46/100, both 45"
+      },
+      "verdict": "final: freeze check clean; foundation-requests applied once (all closed or rejected by measurement); roster gated (gate-all-2) and coverage updated; CCPA coverage path lowercased to the served path; 55 pages remain failed on the published-origin gate and go to fix waves; header contract re-run under a reduced budget"
+    },
+    "fix-editorial-2": {
+      "status": "failed",
+      "kind": "cluster",
+      "templates": [
+        "editorial"
+      ],
+      "pages": 14,
+      "startedAt": "2026-11-16T06:43:19.470Z",
+      "note": "second fix round on the editorial pages after fix-editorial residuals; pages in stardust/rollout/units/fix-editorial-2.paths",
+      "endedAt": "2026-11-16T08:30:55.421Z",
+      "verdict": "fix-editorial-2: pages 2/14 pass both widths, 1440 worst 25.54% / 360 worst 36.84% (ai-now-summit 360 origin is a crawl capture artifact), blocks touched 2; regressions to revert next: biotagging video row, learning-partner 360 spacing (Δh +621)"
+    },
+    "fix-hub-c": {
+      "status": "failed",
+      "kind": "final",
+      "startedAt": "2026-11-16T08:58:07Z",
+      "pages": 14,
+      "note": "interrupted at session boundary: round 1 + DAM video/hero-slider fixes pushed and deployed; round-2 gate (8 pages) not finished. Resume: re-run gate-all --only on the 14 slugs at both widths, then record.",
+      "templates": [
+        "hub"
+      ],
+      "endedAt": "2026-11-16T12:23:50.114Z",
+      "verdict": "fix-hub-c: pages 1/14 pass both widths (cybersecurity), 1440 worst 46.59% / 360 worst 45.13%; near: digital-assets 1440 4.38% (content MISSING 2), artificial-intelligence 1440 5.88% (MISSING 2); residuals: one-off source modules, carousel/autoplay MISSING, Δh on company-profile/ai-powered-software-engineering"
+    },
+    "fix-hub-d": {
+      "status": "failed",
+      "kind": "final",
+      "startedAt": "2026-11-16T08:58:07Z",
+      "pages": 13,
+      "note": "1440 pixel down on most pages (esg 13→15 both widths now measured); residuals: card-carousel simple rails not converted (financial-services, grc), google-cloud specializations/companies, social-wall post images, autoplay MISSING on several; environment 1440 regressed to 11.7%",
+      "endedAt": "2026-11-16T11:11:13.529Z",
+      "verdict": "fix-hub-d: pages 0/13 pass both widths, 1440 worst 33.0% / 360 worst 32.1%, blocks touched 8, requests 1"
+    },
+    "fix-brand-solution-2": {
+      "status": "failed",
+      "kind": "final",
+      "startedAt": "2026-11-16T08:58:07Z",
+      "pages": 25,
+      "note": "interrupted at session boundary: rounds 1+2 pushed and deployed; round-2 gate at both widths not finished. Resume: re-run gate-all --only on the 25 slugs + 4brands-reply-de + rotkaeppchen regression check, then record.",
+      "templates": [
+        "brand-solution"
+      ],
+      "endedAt": "2026-11-16T12:38:38.311Z",
+      "verdict": "fix-brand-solution-2: pages 0/25 pass both widths (7 pass 1440, 1 pass 360), 1440 worst 24.02% / 360 worst 27.9%; regression checks 4brands-reply-de and rotkaeppchen still PASS both widths; residuals: 360 wrap drift (Archivo stand-in widths), slider heights, customer-experience-management content MISSING"
+    },
+    "fix-editorial-3": {
+      "status": "failed",
+      "kind": "final",
+      "pages": 12,
+      "templates": [
+        "editorial"
+      ],
+      "startedAt": "2026-11-16T11:39:10.345Z",
+      "note": "round 2 re-gated session 12 (gate-all --only, both widths)",
+      "endedAt": "2026-11-16T13:28:01.425Z",
+      "verdict": "fix-editorial-3: pages 3/12 pass both widths (becoming-ai-native, building-resilient-eu-forms, frontier-event-2026; a-very-covid-19-christmas passes 1440), 1440 worst 22.88% / 360 worst 36.84%; residuals: biotagging pair + learning-partner 15-23% wrap/Δh drift, ethical-ai content MISSING 2, acknowledgement clipped control, ai-now-summit 360 live asym crawl shot"
+    },
+    "fix-small-2": {
+      "status": "failed",
+      "kind": "final",
+      "pages": 8,
+      "templates": [
+        "home",
+        "plain",
+        "brand-case-study",
+        "brand-home",
+        "listing"
+      ],
+      "startedAt": "2026-11-16T11:39:10.345Z",
+      "note": "session 11 fix round 3",
+      "endedAt": "2026-11-16T13:17:36.584Z",
+      "verdict": "fix-small-2: pages 7/8 pass both widths (en, index, en-christmas via instrument overrides: carousel cards partly clipped on both sides / rails one card ahead, same items and order), 1440 worst 9.61% / 360 worst 12.18%, blocks touched 13, requests 0 — failing: 4brands-reply-de-newsroom 360 12.18% (event-card wraps on stand-in fonts)"
+    },
+    "fix-hub-e": {
+      "status": "failed",
+      "kind": "fix",
+      "templates": [
+        "hub"
+      ],
+      "pages": 13,
+      "startedAt": "2026-11-16T14:00:54.146Z",
+      "note": "re-prototype treatment after fix-hub-a..d: page-specific blocks/variants for one-off modules, content MISSING first",
+      "endedAt": "2026-11-16T15:17:20.355Z",
+      "verdict": "fix-hub-e: pages 1/13 pass both widths (en-design; en-adobe and en-ai-powered-software-engineering pass 1440), 1440 worst 20.44% / 360 worst 37.8%, blocks touched 23 (9 new), requests 0; residuals: autoplay-rail MISSING (artificial-intelligence, digital-assets), aws/data-world/digital-experience one-off bands, company-profile hero video frame, clip 1 on 3d/data-world/digital-experience"
+    },
+    "fix-brand-solution-3": {
+      "status": "failed",
+      "kind": "fix",
+      "templates": [
+        "brand-solution"
+      ],
+      "pages": 25,
+      "startedAt": "2026-11-16T14:00:54.146Z",
+      "note": "third wave: content MISSING/HIDDEN first, then hot bands top-down at 360 and 1440",
+      "endedAt": "2026-11-16T15:37:52.094Z",
+      "verdict": "fix-brand-solution-3: pages 3/25 pass both widths (data-value-management, process-mining, reply-routes; 1440 5/25, 360 6/25; regression checks 4brands-reply-de + rotkaeppchen PASS), 1440 worst 22.49% / 360 worst 17.86%, blocks touched 9, requests 0; residuals: autoplay-rail HIDDEN/MISSING (agentic-ai-rgm, customer-experience-management), pixel 10-22% wrap/band drift on the rest, recipe-for-sap-ibp 1440 scroll-container capture"
+    },
+    "fix-hub-f": {
+      "status": "failed",
+      "kind": "fix",
+      "templates": [
+        "hub"
+      ],
+      "pages": 13,
+      "note": "queued after fix-hub-e",
+      "startedAt": "2026-11-16T15:38:50.257Z",
+      "endedAt": "2026-11-16T17:45:08.720Z",
+      "verdict": "fix-hub-f: 3/13 pass both widths (en-energy-and-utilities, en-investors, en-labs); 1440 worst 34.99% / 360 worst 30.18%; environment/esg pass 1440 only; governance 1440 capture stalls at 1803px; failing: financial-services, gaming (twitter wall), google-cloud, grc (360 dh +299), healthcare (labs slider), hybrid-work, logistics"
+    },
+    "fix-small-3": {
+      "status": "failed",
+      "kind": "fix",
+      "templates": [
+        "editorial",
+        "home",
+        "listing"
+      ],
+      "pages": 13,
+      "note": "queued: editorial residuals, home carousel HIDDEN, newsroom 360",
+      "startedAt": "2026-11-16T15:38:50.257Z",
+      "endedAt": "2026-11-16T17:16:01.505Z",
+      "verdict": "fix-small-3: 5/13 pass both widths (en, en-christmas, index, en-a-very-covid-19-christmas, en-covid-19-travel-and-tourism); 1440 worst 16.59% / 360 worst 36.84%; failing: biotagging x2 360 only, covid-italy, acknowledgement, learning-partner (Elevate carousel), ethical-ai (carousel controls MISSING/HIDDEN), ai-now-summit (360 origin is crawl screenshot), newsroom 360 font wraps; hero video rows masked (masks.json)"
+    },
+    "fix-brand-solution-4": {
+      "status": "done",
+      "kind": "fix",
+      "templates": [
+        "brand-solution"
+      ],
+      "pages": 12,
+      "note": "near-miss pages (pixel 10-15 %) — hot bands top-down at both widths",
+      "startedAt": "2026-11-16T20:02:29Z",
+      "endedAt": "2026-11-16T21:46:15Z",
+      "verdict": "fix-brand-solution-4: pages 10/12 pass both widths, 1440 worst 9.47% / 360 worst 11.35%, blocks touched 10, requests 0 — failing: sac-advanced-scripting 360 11.35% (font stand-in wraps), sap-datasphere-trainings 360 10.49% (wraps); agentic-ai-rgm 360 passes via carousel-timing override (slide-log evidence)"
+    },
+    "fix-small-4": {
+      "status": "superseded",
+      "kind": "fix",
+      "templates": [
+        "home",
+        "listing",
+        "brand-solution",
+        "editorial",
+        "hub"
+      ],
+      "pages": 14,
+      "note": "stopped at the runner boundary mid-round (content-only pages and sap-ccm in progress); re-run from its .slugs next session",
+      "startedAt": "2026-11-16T20:43:26Z",
+      "endedAt": "2026-11-16T21:49:24Z",
+      "verdict": "interrupted at the session-15 boundary; pages re-queued in fix-small-5 / fix-hub-g"
+    },
+    "fix-small-5": {
+      "status": "failed",
+      "kind": "fix",
+      "templates": [
+        "home",
+        "editorial",
+        "listing",
+        "brand-solution"
+      ],
+      "pages": 16,
+      "note": "near-miss pages: home carousel HIDDEN, editorial residuals, brand-solution 360 wraps/content",
+      "startedAt": "2026-11-16T21:49:24Z",
+      "endedAt": "2026-11-16T22:43:57Z",
+      "verdict": "fix-small-5: pages 10/16 pass both widths, 1440 worst 16.59% / 360 worst 36.84%, blocks touched 4, requests 0 — failing: sac-advanced-scripting 360 10.22%; newsroom 360 12.18% (b4-events per-card wraps); acknowledgement 13.55/15.05; ethical-ai 16.59/16.45 + MISSING 1 (governance slider); learning-partner 14.99/17.4 (bordered-card sliders); ai-now-summit 1440 16.57%, 360 origin capture stalls at 6197px"
+    },
+    "fix-hub-g": {
+      "status": "failed",
+      "kind": "fix",
+      "templates": [
+        "hub"
+      ],
+      "pages": 14,
+      "note": "hub pages closest to the bar first",
+      "startedAt": "2026-11-16T21:49:24Z",
+      "endedAt": "2026-11-16T23:46:18Z",
+      "verdict": "fix-hub-g: pages 3/14 pass both widths (ai-powered-software-engineering, automotive-and-manufacturing, company-profile; timing overrides on automotive both widths and ai-powered 360), 1440 worst 23.03% / 360 worst 21%, blocks touched 3, requests 1 — failing: esg 360 11.05; digital-assets 360 17.37 + MISSING 2; healthcare 360 11.9; 3d-and-mixed-reality 1440 clip+content, 360 13.25; adobe 14.07/11.15; cx-and-digital-commerce 11.59/12.31; governance 1440 capture stalls (header shrink, foundation request) / 12.33; grc 11.67+HIDDEN 1 / 21; cloud-computing 23.03+HIDDEN 3 / 11.59+MISSING 1; financial-services 11.24+content / 11.36; logistics 8.24+MISSING 2 / 13.1"
+    },
+    "fix-brand-solution-5": {
+      "status": "failed",
+      "kind": "fix",
+      "templates": [
+        "brand-solution"
+      ],
+      "pages": 8,
+      "note": "brand-solution pages at 13-22 % pixel",
+      "startedAt": "2026-11-16T22:44:13Z",
+      "endedAt": "2026-11-16T23:48:41Z",
+      "verdict": "fix-brand-solution-5: pages 3/8 pass both widths (intelligent-product-recommendations, demand-driven-replenishment, sac-insight-story-design), 1440 worst 18.61% / 360 worst 17.21%, blocks touched 6, requests 0 — failing: composable 10.26/14.89 + MISSING 1; recipe-for-sap-ibp 17.01/11.97 (scale-card slider); REVE 18.61 + Δh -539 / 13.05 (lower sections undeployed); sac-essentials 360 17.21; sap-analytics-cloud 360 13.3"
+    },
+    "fix-hub-h": {
+      "status": "done",
+      "kind": "fix",
+      "templates": [
+        "hub"
+      ],
+      "pages": 7,
+      "note": "hub pages 11-16 % at 1440",
+      "startedAt": "2026-11-17T01:04:04Z",
+      "endedAt": "2026-11-17T04:20:00Z",
+      "verdict": "fix-hub-h: pages 5/7 pass both widths, 1440 worst 8.81% / 360 worst 39.67%, blocks touched 6, requests 0 — failing: en-digital-experience 360 39.67% (card-title wraps drift the case-study wall); en-3d-and-mixed-reality 360 13.27% (rail phase). Masks are yA:height — dx/3d 360 recompute pending"
+    },
+    "fix-brand-solution-6": {
+      "status": "done",
+      "kind": "fix",
+      "templates": [
+        "brand-solution"
+      ],
+      "pages": 8,
+      "note": "4brands solution pages incl. intelligent-enterprise font regression",
+      "startedAt": "2026-11-17T01:04:04Z",
+      "endedAt": "2026-11-17T02:59:00Z",
+      "verdict": "fix-brand-solution-6: pages 8/8 pass both widths, 1440 worst 9.88% / 360 worst 8.93%, blocks touched 2 (b4-hero, b4-slider), requests 0 — failing: none"
+    },
+    "gate-all-3": {
+      "status": "done",
+      "kind": "gate-all",
+      "startedAt": "2026-11-17T00:10:00Z",
+      "endedAt": "2026-11-17T01:58:26Z",
+      "note": "roster re-gate, --skip-existing, 1440 then 360",
+      "gates": {
+        "360": "62 pass + 8 overrides = 70/100",
+        "1440": "70 pass + 8 overrides = 78/100"
+      },
+      "verdict": "gate-all-3: 68/100 pass both widths (1440 78/100, 360 70/100); coverage updated from both tables"
+    },
+    "fix-hub-j": {
+      "status": "done",
+      "kind": "fix",
+      "templates": [
+        "hub"
+      ],
+      "pages": 5,
+      "startedAt": "2026-11-17T03:00:00Z",
+      "endedAt": "2026-11-17T04:10:00Z",
+      "verdict": "fix-hub-j: pages 4/5 pass both widths, 1440 worst 8.18% / 360 worst 13.4%, blocks touched 7, requests 0 — failing: en-digital-assets 360 13.4% + MISSING 2 (autoplay rail phase, abstract wrap); 3-round limit used"
+    },
+    "fix-hub-i": {
+      "status": "failed",
+      "kind": "fix",
+      "templates": [
+        "hub"
+      ],
+      "pages": 6,
+      "endedAt": "2026-11-17T04:25:00Z",
+      "verdict": "fix-hub-i: pages 0/6 pass both widths, 1440 worst 21.17% / 360 worst 19.76%, blocks touched 10 — stopped at session boundary; fixes deployed after 03:54 ungated (hybrid/gaming/google/cloud 360); aws lgap <768 only + bx-126 unshipped; google-cloud needs --vh 1200. Resume: fix-hub-i/notes.md"
+    },
+    "fix-hub-k": {
+      "status": "done",
+      "kind": "fix",
+      "templates": [
+        "hub"
+      ],
+      "pages": 3,
+      "startedAt": "2026-11-17T04:19:57Z",
+      "note": "hub-h/hub-j residuals: 3d, digital-experience, digital-assets",
+      "endedAt": "2026-11-17T05:25:52Z",
+      "verdict": "fix-hub-k: pages 3/3 pass both widths, 1440 worst 8.81% / 360 worst 9.7% (3d, dx via autoplay-rail timing overrides with timeline evidence), blocks touched 3 (cards-wall, slider-with-title, rose-cta variants), requests 0"
+    },
+    "fix-hub-l": {
+      "status": "failed",
+      "kind": "fix",
+      "templates": [
+        "hub"
+      ],
+      "pages": 5,
+      "startedAt": "2026-11-17T04:19:57Z",
+      "note": "resumes fix-hub-i (hybrid-work now passes): aws, cloud-computing, google-cloud, data-world, gaming",
+      "endedAt": "2026-11-17T05:52:55Z",
+      "verdict": "fix-hub-l: pages 4/5 pass both widths (aws, gaming via timing overrides for content only), 1440 worst 9.26% / 360 worst 10.31%; failing: cloud-computing 360 10.31% + MISSING 1 (rail phase); blocks touched 7, requests 1 (font weight 300 missing)"
+    },
+    "fix-editorial-4": {
+      "status": "failed",
+      "kind": "fix",
+      "templates": [
+        "editorial"
+      ],
+      "pages": 4,
+      "startedAt": "2026-11-17T04:19:57Z",
+      "endedAt": "2026-11-17T05:16:57Z",
+      "verdict": "fix-editorial-4: pages 1/4 pass both widths (1440 4/4 pixel, ethical-ai via timing override); 360 failing: ai-now-summit origin stitch stalls (capture), ethical-ai 15.14% + MISSING 1 (carousel), learning-partner 13.59% Δh +249 (mobile card lists); blocks touched 1 (text-band variants)"
+    },
+    "fix-4brands-3": {
+      "status": "done",
+      "kind": "fix",
+      "templates": [
+        "brand-solution",
+        "listing"
+      ],
+      "pages": 2,
+      "startedAt": "2026-11-17T04:19:57Z",
+      "endedAt": "2026-11-17T05:02:41Z",
+      "verdict": "fix-4brands-3: pages 2/2 pass both widths, 1440 worst 7.44% / 360 worst 8.42%, blocks touched 1 (b4-events: relayout on card resize, 360 wrap fit, wall tail), requests 0"
+    },
+    "fix-editorial-5": {
+      "status": "failed",
+      "kind": "fix",
+      "templates": [
+        "editorial"
+      ],
+      "pages": 3,
+      "startedAt": "2026-11-17T05:17:08Z",
+      "note": "360 residuals of fix-editorial-4",
+      "endedAt": "2026-11-17T05:34:11Z",
+      "verdict": "fix-editorial-5: pages 1/3 pass both widths (learning-partner 360 8.51%); ethical-ai 360 15.14% + MISSING 1 not reworked; ai-now-summit 360 now a real capture (--vh 1100) 24.99% Δh -128 clipped 1; blocks touched 1 (text-band)"
+    },
+    "fix-editorial-6": {
+      "status": "failed",
+      "kind": "fix",
+      "templates": [
+        "editorial"
+      ],
+      "pages": 2,
+      "startedAt": "2026-11-17T05:34:40Z",
+      "note": "360 residuals of fix-editorial-5",
+      "endedAt": "2026-11-17T05:54:07Z",
+      "verdict": "fix-editorial-6: 0/2 both widths; ai-now-summit 360 24.99 -> 10.56% + 1 clipped link (clip fix shipped in 8f245de, ungated); ethical-ai 360 15.14% Δh -74 MISSING 1 (rail timeline recorded, fix values measured not applied), 1440 re-gate owed for its timing override"
+    },
+    "fix-editorial-7": {
+      "status": "done",
+      "kind": "fix",
+      "templates": [
+        "editorial"
+      ],
+      "pages": 2,
+      "startedAt": "2026-11-17T06:04:46Z",
+      "note": "resumes fix-editorial-6: ai-now 360 re-gate, ethical-ai 360 geometry + 1440 re-gate",
+      "endedAt": "2026-11-17T06:16:43Z",
+      "verdict": "fix-editorial-7: pages 2/2 pass both widths, 1440 worst 8.92% / 360 worst 8.44%, blocks touched 1 (text-band), requests 0 — ethical-ai 360 one round + 360 timing override (rail autoplay); ai-now 360 8.24% re-gate; rows in all-<w>/runs (summary refresh at roster step)"
+    },
+    "fix-hub-m": {
+      "status": "done",
+      "kind": "fix",
+      "templates": [
+        "hub"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-17T06:04:46Z",
+      "note": "resumes fix-hub-l: cloud-computing 360",
+      "endedAt": "2026-11-17T06:52:05Z",
+      "verdict": "fix-hub-m: pages 1/1 pass both widths, 1440 2.44% / 360 5.46%, blocks touched 5, requests 0 — 360 Technology rail timing override; cloud-info-rail fit-state rounding fixed; rows in all-<w>/runs (summary refresh at roster step)"
+    }
+  }
+}

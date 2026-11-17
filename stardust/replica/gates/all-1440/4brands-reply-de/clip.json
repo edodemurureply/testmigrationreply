@@ -1,0 +1,117 @@
+{
+ "url": "https://main--a355dc1b--aemcoder.aem.live/4brands-reply/de",
+ "at": "2026-11-17T00:30:54.819Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 6,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 8,
+  "offPage": 78,
+  "textNodes": 168,
+  "controls": 90,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 5,
+   "clipper": "p",
+   "path": "div.b4-highlight.block > aside.b4-highlight-card > div.b4-highlight-title > p",
+   "text": "rotkäppchen-mumm: vertrieb & retail execution",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.reply-card-image-container",
+   "path": "div.reply-card.reply-card-horizontal > div.reply-card-image-container > div.reply-card-body > a.reply-card-link",
+   "text": "gerolsteiner schafft die grundlage für personalisierte kunde",
+   "cutMin": 23,
+   "cutMax": 23
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.card-carousel.scale",
+   "path": "ul.card-carousel-track > li.card-carousel-item.is-clone > div.reply-card.reply-card-slider > a.reply-card-cover",
+   "text": "mehr wirkung im fmcg-marketing mit der composable cdpofferin",
+   "cutMin": 105,
+   "cutMax": 105
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.card-carousel.scale",
+   "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#mehr-wirkung-im-fmcg-marketing-mit-der-composable-cdp",
+   "text": "mehr wirkung im fmcg-marketing mit der composable cdp",
+   "cutMin": 73,
+   "cutMax": 73
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.card-carousel.scale",
+   "path": "div.reply-card-body > div.category-label > div.category-name > p",
+   "text": "offering",
+   "cutMin": 73,
+   "cutMax": 73
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.card-carousel.scale",
+   "path": "div.reply-card-image-container > div.reply-card-body > div.reply-card-title > h3#simulation-des-konsumentenverhaltens-mit-generativer-ki-und-synthetischen-daten",
+   "text": "simulation des konsumentenverhaltens mit generativer ki und ",
+   "cutMin": 92,
+   "cutMax": 92
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.reply-card-image-container",
+   "path": "li.card-carousel-item > div.reply-card > div.reply-card-image-container > a.reply-card-hero-link",
+   "text": "",
+   "cutMin": 274,
+   "cutMax": 274
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "h3#4brands-reply-auf-dem-dsag-jahreskongress-2026",
+   "path": "a.b4-event-link > div.b4-event-body > div.b4-event-title > h3#4brands-reply-auf-dem-dsag-jahreskongress-2026",
+   "text": "4brands reply auf dem dsag-jahreskongress 2026",
+   "cutMin": null,
+   "cutMax": null
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 1,
+   "textHidden": 1,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 7,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 8,
+   "offPage": 79,
+   "textNodes": 172,
+   "controls": 98,
+   "total": 2
+  }
+ }
+}
