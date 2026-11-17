@@ -1,0 +1,20 @@
+{
+  "variantName": "make",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Heading band on the responsive grid: a small uppercase eyebrow line above a large section title set in the text face (28 / 36 / 42 px).",
+  "contentPattern": "One cell: eyebrow paragraph(s) followed by a heading (h2); paragraphs before the heading become the eyebrow, the heading and anything after it the title.",
+  "options": [
+    {
+      "class": "xmas",
+      "label": "Christmas spacing"
+    },
+    {
+      "class": "stories",
+      "label": "Stories grid"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use for a section intro that pairs a short eyebrow label with a large section title.",
+  "reuseGuidance": "Reuse on any page needing an eyebrow-plus-title section head by authoring one paragraph and one h2 in a single cell."
+}

@@ -1,0 +1,16 @@
+{
+  "variantName": "explore",
+  "baseBlock": "custom",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Centred section title above a filter bar of dropdown select buttons plus search; collapses to an 'Open filters' toggle panel below 1024px.",
+  "contentPattern": "Row 1: heading title; then one row per filter: label paragraph | dropdown heading paragraph + options list (first item 'All'); final single-paragraph row = search field label.",
+  "options": [
+    {
+      "class": "newsroom",
+      "label": "Newsroom"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use above a cards-wall listing to show a title and filter dropdowns with search.",
+  "reuseGuidance": "Reuse on listing pages by adding one row per filter with its options list and a final search label row."
+}

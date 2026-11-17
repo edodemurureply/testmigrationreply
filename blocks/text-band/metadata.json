@@ -1,0 +1,272 @@
+{
+  "variantName": "text-band",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Versatile editorial text band on the 12-col grid: centred title over body groups with optional background image and figures; variants render side media, cards, sliders, accordion, agenda, quotes, statements, notes, figures and coloured bands.",
+  "contentPattern": "Image-only rows before the title = background; a title row (h2 or paragraph, optional kicker/lead); text rows = body groups; image-only rows after the title = figures; untitled treats every text row as a body group; spacing tokens dt-/db-/mt-/mb-<n> set margins.",
+  "options": [
+    {
+      "class": "untitled",
+      "label": "No title"
+    },
+    {
+      "class": "has-bg",
+      "label": "Background image"
+    },
+    {
+      "class": "pendulum",
+      "label": "Pendulum"
+    },
+    {
+      "class": "framework",
+      "label": "Framework"
+    },
+    {
+      "class": "highlight",
+      "label": "Highlight"
+    },
+    {
+      "class": "large",
+      "label": "Large highlight title"
+    },
+    {
+      "class": "orange",
+      "label": "Orange title"
+    },
+    {
+      "class": "green",
+      "label": "Green title"
+    },
+    {
+      "class": "blue",
+      "label": "Blue title"
+    },
+    {
+      "class": "magenta",
+      "label": "Magenta title"
+    },
+    {
+      "class": "white",
+      "label": "White title"
+    },
+    {
+      "class": "left",
+      "label": "Left"
+    },
+    {
+      "class": "wide",
+      "label": "Wide"
+    },
+    {
+      "class": "split",
+      "label": "Split"
+    },
+    {
+      "class": "cols",
+      "label": "Columns"
+    },
+    {
+      "class": "media",
+      "label": "Media left"
+    },
+    {
+      "class": "media-right",
+      "label": "Media right"
+    },
+    {
+      "class": "statement",
+      "label": "Statement"
+    },
+    {
+      "class": "intro-wide",
+      "label": "Wide intro"
+    },
+    {
+      "class": "cards",
+      "label": "Cards"
+    },
+    {
+      "class": "cards-left",
+      "label": "Cards left"
+    },
+    {
+      "class": "ncards",
+      "label": "Number cards"
+    },
+    {
+      "class": "ncard",
+      "label": "Number card"
+    },
+    {
+      "class": "teasers",
+      "label": "Teasers"
+    },
+    {
+      "class": "accordion",
+      "label": "Accordion"
+    },
+    {
+      "class": "agenda",
+      "label": "Agenda"
+    },
+    {
+      "class": "figures",
+      "label": "Figures"
+    },
+    {
+      "class": "quote",
+      "label": "Quote"
+    },
+    {
+      "class": "pull-q",
+      "label": "Pull quote"
+    },
+    {
+      "class": "tq",
+      "label": "Text quote"
+    },
+    {
+      "class": "note",
+      "label": "Note"
+    },
+    {
+      "class": "partner",
+      "label": "Partner slider"
+    },
+    {
+      "class": "nlp",
+      "label": "Item slider"
+    },
+    {
+      "class": "pills",
+      "label": "Pills"
+    },
+    {
+      "class": "pr-card",
+      "label": "PR card"
+    },
+    {
+      "class": "vcard",
+      "label": "Video card"
+    },
+    {
+      "class": "video",
+      "label": "Video"
+    },
+    {
+      "class": "chart",
+      "label": "Chart"
+    },
+    {
+      "class": "kv",
+      "label": "Key visual"
+    },
+    {
+      "class": "boxed",
+      "label": "Boxed"
+    },
+    {
+      "class": "tile",
+      "label": "Tile"
+    },
+    {
+      "class": "tile-dark",
+      "label": "Dark tile"
+    },
+    {
+      "class": "flip",
+      "label": "Flip"
+    },
+    {
+      "class": "bleed",
+      "label": "Bleed"
+    },
+    {
+      "class": "inset",
+      "label": "Inset"
+    },
+    {
+      "class": "grey",
+      "label": "Grey band"
+    },
+    {
+      "class": "dark",
+      "label": "Dark band"
+    },
+    {
+      "class": "navy",
+      "label": "Navy band"
+    },
+    {
+      "class": "black",
+      "label": "Black band"
+    },
+    {
+      "class": "gradient",
+      "label": "Gradient band"
+    },
+    {
+      "class": "m-slide",
+      "label": "Mobile slider"
+    },
+    {
+      "class": "d-slide",
+      "label": "Desktop slider"
+    },
+    {
+      "class": "m-nav",
+      "label": "Mobile nav"
+    },
+    {
+      "class": "m-nav-r",
+      "label": "Mobile nav right"
+    },
+    {
+      "class": "m-center",
+      "label": "Mobile centered"
+    },
+    {
+      "class": "m-card",
+      "label": "Mobile card"
+    },
+    {
+      "class": "m-tight",
+      "label": "Mobile tight"
+    },
+    {
+      "class": "m-tile",
+      "label": "Mobile tile"
+    },
+    {
+      "class": "fig-top",
+      "label": "Figure top"
+    },
+    {
+      "class": "fig-under",
+      "label": "Figure under"
+    },
+    {
+      "class": "fig-narrow",
+      "label": "Narrow figure"
+    },
+    {
+      "class": "img-s",
+      "label": "Small image"
+    },
+    {
+      "class": "img-m",
+      "label": "Medium image"
+    },
+    {
+      "class": "img-wide",
+      "label": "Wide image"
+    },
+    {
+      "class": "trk",
+      "label": "Tracking"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use for general editorial text sections: a title with body copy, optionally with background image, side media or card/slider/accordion layouts.",
+  "reuseGuidance": "Reuse as the default rich text section by authoring title and text rows, choosing a layout and band-colour option instead of creating a new block."
+}

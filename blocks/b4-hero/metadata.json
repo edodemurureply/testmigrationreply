@@ -1,0 +1,84 @@
+{
+  "variantName": "b4-hero",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Full-bleed parallax image with dark gradient veil and the H1 on it, lead text and CTA/contact buttons below (on the image from 1440); plain variant is ink text on white without an image.",
+  "contentPattern": "One cell per row, classified by content: picture(s) (desktop 16:9, optional mobile 2:3), eyebrow paragraph before the heading, h1/h2 headline, lead paragraph(s), link paragraph = CTA, bold-only paragraph = contact-dialog button.",
+  "options": [
+    {
+      "class": "solution",
+      "label": "Solution (no veil)"
+    },
+    {
+      "class": "veil-flat",
+      "label": "Flat veil"
+    },
+    {
+      "class": "veil-low",
+      "label": "Low veil"
+    },
+    {
+      "class": "veil-lg",
+      "label": "Veil from 1024"
+    },
+    {
+      "class": "download",
+      "label": "Download icon"
+    },
+    {
+      "class": "case-study",
+      "label": "Case study"
+    },
+    {
+      "class": "plain",
+      "label": "Plain (no image)"
+    },
+    {
+      "class": "h1-blank",
+      "label": "Space below H1"
+    },
+    {
+      "class": "hls-n5",
+      "label": "Headline tracking -5"
+    },
+    {
+      "class": "ls-n10",
+      "label": "Letter spacing -10"
+    },
+    {
+      "class": "ls-0",
+      "label": "Letter spacing 0"
+    },
+    {
+      "class": "ls-5",
+      "label": "Letter spacing 5"
+    },
+    {
+      "class": "ls-7",
+      "label": "Letter spacing 7"
+    },
+    {
+      "class": "ls-10",
+      "label": "Letter spacing 10"
+    },
+    {
+      "class": "ls-12",
+      "label": "Letter spacing 12"
+    },
+    {
+      "class": "ls-15",
+      "label": "Letter spacing 15"
+    },
+    {
+      "class": "ls-20",
+      "label": "Letter spacing 20"
+    },
+    {
+      "class": "ls-25",
+      "label": "Letter spacing 25"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use as the top hero of a page with a large background image, headline, short lead and call-to-action.",
+  "reuseGuidance": "Reuse at the top of brand, solution and case-study pages; choose solution or case-study plus a veil option to match the page type."
+}

@@ -1,0 +1,80 @@
+{
+  "variantName": "card-carousel",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Infinite horizontal card rail with round prev/next arrow buttons; image cards with title and category, centred scaled active card in scale mode, editorial horizontal cards with slide counter, optional ice/ink bands.",
+  "contentPattern": "One row per card: cell 1 picture (optional second picture = mobile crop or partner logo) | cell 2 optional date paragraph, heading (h3) with the card link, category paragraph and optional abstract.",
+  "options": [
+    {
+      "class": "simple",
+      "label": "Simple"
+    },
+    {
+      "class": "scale",
+      "label": "Scale"
+    },
+    {
+      "class": "horizontal",
+      "label": "Horizontal"
+    },
+    {
+      "class": "autoplay",
+      "label": "Autoplay"
+    },
+    {
+      "class": "noloop",
+      "label": "No loop"
+    },
+    {
+      "class": "highlights",
+      "label": "Highlights"
+    },
+    {
+      "class": "ink",
+      "label": "Ink band"
+    },
+    {
+      "class": "ice",
+      "label": "Ice band"
+    },
+    {
+      "class": "split",
+      "label": "Split"
+    },
+    {
+      "class": "white",
+      "label": "White"
+    },
+    {
+      "class": "low",
+      "label": "Low"
+    },
+    {
+      "class": "featured",
+      "label": "Featured"
+    },
+    {
+      "class": "latest",
+      "label": "Latest"
+    },
+    {
+      "class": "cta",
+      "label": "CTA"
+    },
+    {
+      "class": "info",
+      "label": "Info"
+    },
+    {
+      "class": "flush",
+      "label": "Flush"
+    },
+    {
+      "class": "xmas",
+      "label": "Christmas"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use for a sliding rail of linked content cards (insights, news, case studies) with arrows and optional autoplay.",
+  "reuseGuidance": "Reuse for any card slider by adding one row per card and choosing simple, scale or horizontal plus a band variant."
+}

@@ -1,0 +1,44 @@
+{
+  "variantName": "page-index",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Dark horizontal in-page index bar of anchor links with scroll-spy underline, a round share button with social popover, sticky pinning under the header on desktop and a bottom drawer on mobile.",
+  "contentPattern": "Row 1: bulleted list of links to #heading-id anchors on the page; optional row 2: a paragraph used as the mobile drawer title.",
+  "options": [
+    {
+      "class": "hub",
+      "label": "Hub (no mobile height)"
+    },
+    {
+      "class": "light",
+      "label": "Light bar"
+    },
+    {
+      "class": "accent-0b5a55",
+      "label": "Teal accent"
+    },
+    {
+      "class": "noshare",
+      "label": "No share button"
+    },
+    {
+      "class": "packed",
+      "label": "Packed entries"
+    },
+    {
+      "class": "inset",
+      "label": "Inset bar"
+    },
+    {
+      "class": "pin",
+      "label": "Pin inset bar"
+    },
+    {
+      "class": "keep",
+      "label": "Keep bar in flow"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use on long editorial or hub pages to give readers a sticky in-page table of contents with share actions.",
+  "reuseGuidance": "Reuse on any long page by listing links to its section heading IDs; add light, noshare or inset to match the page style."
+}

@@ -1,0 +1,56 @@
+{
+  "variantName": "media-hero",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Full-bleed parallax image band (2:3 mobile, 2:1 desktop) with a bottom scrim or black veil and a large display h1 on the grid; optional intro copy, category label, slide caption with hairline rule, or embedded video.",
+  "contentPattern": "Rows classified by content: picture(s) (desktop image, optional mobile crop), an h1 page title, optional paragraphs after it (intro copy, category label, bold-italic form-trigger button, or a linked slide caption).",
+  "options": [
+    {
+      "class": "intro",
+      "label": "Intro copy"
+    },
+    {
+      "class": "label",
+      "label": "Category label"
+    },
+    {
+      "class": "over",
+      "label": "Intro over image on mobile"
+    },
+    {
+      "class": "slide",
+      "label": "Slide caption"
+    },
+    {
+      "class": "flat",
+      "label": "No scrim"
+    },
+    {
+      "class": "tint-20",
+      "label": "Tint 20%"
+    },
+    {
+      "class": "tint-24",
+      "label": "Tint 24%"
+    },
+    {
+      "class": "tint-40",
+      "label": "Tint 40%"
+    },
+    {
+      "class": "fade-70",
+      "label": "Full-height fade"
+    },
+    {
+      "class": "mcenter",
+      "label": "Centered on mobile"
+    },
+    {
+      "class": "tight",
+      "label": "Tight title"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use as the top hero of hub or offering pages: a full-width image with the page title.",
+  "reuseGuidance": "Reuse for any image-led page hero by authoring a picture row and an h1 row, adding intro or label paragraphs and tint options as needed."
+}

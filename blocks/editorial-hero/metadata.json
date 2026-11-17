@@ -1,0 +1,44 @@
+{
+  "variantName": "editorial-hero",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Article hero with a full-width parallax image band, category label, large h1 title, lead paragraph and tags; light, dimmed, overlay and event-info layouts.",
+  "contentPattern": "Rows: 1 hero picture (optional second mobile crop) | 2 category label | 3 h1 title | 4 lead paragraph | 5 tags paragraph or event info (optional CTA as last cell).",
+  "options": [
+    {
+      "class": "xl",
+      "label": "XL title"
+    },
+    {
+      "class": "light",
+      "label": "Light"
+    },
+    {
+      "class": "dim",
+      "label": "Dim image"
+    },
+    {
+      "class": "overlay",
+      "label": "Overlay"
+    },
+    {
+      "class": "event",
+      "label": "Event"
+    },
+    {
+      "class": "pin-info",
+      "label": "Pinned info"
+    },
+    {
+      "class": "cta",
+      "label": "CTA"
+    },
+    {
+      "class": "dl",
+      "label": "DL"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use as the opening hero of an article, research report or event page with image, category, title and lead.",
+  "reuseGuidance": "Reuse at the top of editorial pages, keeping the row order and picking light, dim, overlay or event variants as needed."
+}

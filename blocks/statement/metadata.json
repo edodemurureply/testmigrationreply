@@ -1,0 +1,112 @@
+{
+  "variantName": "statement",
+  "baseBlock": "quote",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Large centred highlight statement on the grid with brand-coloured emphasis runs; variants add a left-aligned section title over body copy, two-column copy, eyebrow label, product logo or dark/ice band.",
+  "contentPattern": "One cell with a statement paragraph (or an h2 title plus optional h3 / body paragraphs); em/strong mark brand-coloured runs; spacing tokens t-/tm-/b-/bm-/w-<n> set margins.",
+  "options": [
+    {
+      "class": "b4",
+      "label": "4brands"
+    },
+    {
+      "class": "hub",
+      "label": "Hub margins"
+    },
+    {
+      "class": "case-study",
+      "label": "Case study"
+    },
+    {
+      "class": "lead",
+      "label": "Title with body copy"
+    },
+    {
+      "class": "left",
+      "label": "Left aligned"
+    },
+    {
+      "class": "dark",
+      "label": "Dark band"
+    },
+    {
+      "class": "ice",
+      "label": "Ice band"
+    },
+    {
+      "class": "cols",
+      "label": "Two-column copy"
+    },
+    {
+      "class": "eyebrow",
+      "label": "Eyebrow label"
+    },
+    {
+      "class": "flush",
+      "label": "No top margin"
+    },
+    {
+      "class": "flush-b",
+      "label": "No bottom margin"
+    },
+    {
+      "class": "sub",
+      "label": "With body copy"
+    },
+    {
+      "class": "narrow",
+      "label": "Narrow"
+    },
+    {
+      "class": "stair",
+      "label": "Stair layout"
+    },
+    {
+      "class": "textlink",
+      "label": "Text link"
+    },
+    {
+      "class": "title",
+      "label": "Paragraph title"
+    },
+    {
+      "class": "logo",
+      "label": "With logo"
+    },
+    {
+      "class": "tl-up",
+      "label": "Text link up"
+    },
+    {
+      "class": "bw",
+      "label": "Bold weight"
+    },
+    {
+      "class": "pbw",
+      "label": "Paragraph bold weight"
+    },
+    {
+      "class": "bs",
+      "label": "Bold strong"
+    },
+    {
+      "class": "hb",
+      "label": "Heading bold"
+    },
+    {
+      "class": "lgap",
+      "label": "Large gap"
+    },
+    {
+      "class": "p0",
+      "label": "No padding"
+    },
+    {
+      "class": "p14",
+      "label": "Padding 14"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use for a prominent highlight statement or short section title with body copy between modules.",
+  "reuseGuidance": "Reuse for any emphasised message by authoring one paragraph (em for brand colour), adding lead/left/cols for title-plus-copy sections."
+}

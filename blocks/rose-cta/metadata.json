@@ -1,0 +1,64 @@
+{
+  "variantName": "rose-cta",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Pink-to-orange gradient banner with ROSE logo, title, abstract and button beside a card slider of expert sessions with prev/next arrows, closed by an 'Ask Rose' contact card with a bell glyph; band variant is a centred logo, display line and CTA.",
+  "contentPattern": "Intro row (logo picture, heading title, abstract paragraph, CTA link paragraph) plus one row per card: picture, label paragraph, heading with session link, meta paragraph, optional CTA paragraph; band: one row with logo | text + CTA.",
+  "options": [
+    {
+      "class": "band",
+      "label": "Closing band"
+    },
+    {
+      "class": "solo",
+      "label": "Contact card only"
+    },
+    {
+      "class": "nonav",
+      "label": "No arrows"
+    },
+    {
+      "class": "rail-gap",
+      "label": "Rail gap"
+    },
+    {
+      "class": "wall-gap",
+      "label": "Wall gap"
+    },
+    {
+      "class": "gap-56",
+      "label": "Gap 56"
+    },
+    {
+      "class": "gap-56m",
+      "label": "Gap 56 mobile"
+    },
+    {
+      "class": "gap-80",
+      "label": "Gap 80"
+    },
+    {
+      "class": "logo27",
+      "label": "Small logo"
+    },
+    {
+      "class": "trk-d",
+      "label": "Desktop tracking"
+    },
+    {
+      "class": "ls10",
+      "label": "Tracking 10"
+    },
+    {
+      "class": "ls25",
+      "label": "Tracking 25"
+    },
+    {
+      "class": "cls15",
+      "label": "Card tracking 15"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use to promote the ROSE expert network with a branded banner and a slider of expert session cards, or as a compact closing CTA band.",
+  "reuseGuidance": "Reuse on hub pages by authoring the intro row and one row per expert session; use band for a cardless call to action."
+}

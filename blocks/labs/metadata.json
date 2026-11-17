@@ -1,0 +1,72 @@
+{
+  "variantName": "labs",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Info-card slider of square or 2:3 image cards with category label, plus glyph and title; abstract revealed on hover/tap; prev/next arrows, optional looping scale or autoplay rail.",
+  "contentPattern": "One row per card: picture (optional mobile crop) | optional category paragraph | heading with card link | abstract paragraph(s).",
+  "options": [
+    {
+      "class": "simple",
+      "label": "Simple"
+    },
+    {
+      "class": "scale",
+      "label": "Scale"
+    },
+    {
+      "class": "autoplay",
+      "label": "Autoplay"
+    },
+    {
+      "class": "inview",
+      "label": "Start in view"
+    },
+    {
+      "class": "peek",
+      "label": "Peek"
+    },
+    {
+      "class": "wide",
+      "label": "Wide"
+    },
+    {
+      "class": "ice",
+      "label": "Ice"
+    },
+    {
+      "class": "dark",
+      "label": "Dark"
+    },
+    {
+      "class": "light",
+      "label": "Light"
+    },
+    {
+      "class": "slim",
+      "label": "Slim"
+    },
+    {
+      "class": "pad",
+      "label": "Pad"
+    },
+    {
+      "class": "gap",
+      "label": "Gap"
+    },
+    {
+      "class": "arrows",
+      "label": "Arrows"
+    },
+    {
+      "class": "c4",
+      "label": "4 columns"
+    },
+    {
+      "class": "g24m",
+      "label": "Mobile gap 24"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use for a 'Discover our labs' style slider of image cards that reveal an abstract on hover.",
+  "reuseGuidance": "Reuse for any set of labs, services or capabilities by adding one row per card with image, title link and abstract."
+}

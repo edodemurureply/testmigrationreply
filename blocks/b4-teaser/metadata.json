@@ -1,0 +1,80 @@
+{
+  "variantName": "b4-teaser",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Rounded ice-blue brand card on the grid with a brand-name link, brand logo and abstract paragraph.",
+  "contentPattern": "Cells classified by content: paragraph with a link = title link, picture = logo, other paragraphs = abstract (typically 3 single-cell rows).",
+  "options": [
+    {
+      "class": "t-0",
+      "label": "No top margin (desktop)"
+    },
+    {
+      "class": "t-56",
+      "label": "Top margin 56 (desktop)"
+    },
+    {
+      "class": "b-0",
+      "label": "No bottom margin (desktop)"
+    },
+    {
+      "class": "tm-0",
+      "label": "No top margin (mobile)"
+    },
+    {
+      "class": "tm-28",
+      "label": "Top margin 28 (mobile)"
+    },
+    {
+      "class": "bm-0",
+      "label": "No bottom margin (mobile)"
+    },
+    {
+      "class": "ls-5",
+      "label": "Letter spacing 5"
+    },
+    {
+      "class": "ls-7",
+      "label": "Letter spacing 7"
+    },
+    {
+      "class": "ls-10",
+      "label": "Letter spacing 10"
+    },
+    {
+      "class": "ls-12",
+      "label": "Letter spacing 12"
+    },
+    {
+      "class": "ls-15",
+      "label": "Letter spacing 15"
+    },
+    {
+      "class": "ls-17",
+      "label": "Letter spacing 17"
+    },
+    {
+      "class": "ls-20",
+      "label": "Letter spacing 20"
+    },
+    {
+      "class": "ls-22",
+      "label": "Letter spacing 22"
+    },
+    {
+      "class": "ls-25",
+      "label": "Letter spacing 25"
+    },
+    {
+      "class": "ls-30",
+      "label": "Letter spacing 30"
+    },
+    {
+      "class": "ls-35",
+      "label": "Letter spacing 35"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use to close solution pages with the brand panel (name link, logo and abstract).",
+  "reuseGuidance": "Reuse at the end of solution pages with the same link, logo and abstract rows; use margin classes to tune spacing."
+}

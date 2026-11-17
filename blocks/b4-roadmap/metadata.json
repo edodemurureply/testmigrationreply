@@ -1,0 +1,20 @@
+{
+  "variantName": "b4-roadmap",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Section head with a large title above a narrow rich-text lead column; optional ice or dark band background.",
+  "contentPattern": "Cell 1 heading (h2/h3), cell 2 rich text; order-tolerant (first heading = title, rest = text).",
+  "options": [
+    {
+      "class": "ice",
+      "label": "Ice background"
+    },
+    {
+      "class": "dark",
+      "label": "Dark background"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use as the heading and short lead introducing a roadmap or step sequence.",
+  "reuseGuidance": "Reuse above accordions or step lists that need a titled intro; choose ice or dark to match the band."
+}

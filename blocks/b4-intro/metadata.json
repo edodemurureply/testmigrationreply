@@ -1,0 +1,80 @@
+{
+  "variantName": "b4-intro",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Two-column intro: h2 section title beside a rich-text column (stacked below 1024); optional ice or dark band backgrounds and a split layout with two text columns.",
+  "contentPattern": "Cell 1 = heading (h2/h3), cell 2 = paragraphs/lists; order-tolerant (first heading is the title, the rest is text); with split the first text row fills column 1 and later rows column 2.",
+  "options": [
+    {
+      "class": "split",
+      "label": "Split (two text columns)"
+    },
+    {
+      "class": "ice",
+      "label": "Ice band"
+    },
+    {
+      "class": "dark",
+      "label": "Dark band"
+    },
+    {
+      "class": "eyebrow",
+      "label": "Eyebrow label"
+    },
+    {
+      "class": "mid",
+      "label": "Mid spacing"
+    },
+    {
+      "class": "top",
+      "label": "Top spacing"
+    },
+    {
+      "class": "tb",
+      "label": "Top and bottom spacing"
+    },
+    {
+      "class": "top0",
+      "label": "No top spacing"
+    },
+    {
+      "class": "bot0",
+      "label": "No bottom spacing"
+    },
+    {
+      "class": "ls-0",
+      "label": "Letter spacing 0"
+    },
+    {
+      "class": "ls-5",
+      "label": "Letter spacing 5"
+    },
+    {
+      "class": "ls-7",
+      "label": "Letter spacing 7"
+    },
+    {
+      "class": "ls-10",
+      "label": "Letter spacing 10"
+    },
+    {
+      "class": "ls-12",
+      "label": "Letter spacing 12"
+    },
+    {
+      "class": "ls-15",
+      "label": "Letter spacing 15"
+    },
+    {
+      "class": "ls-20",
+      "label": "Letter spacing 20"
+    },
+    {
+      "class": "ls-25",
+      "label": "Letter spacing 25"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use for a section introduction with a title next to (or above) one or two columns of body text.",
+  "reuseGuidance": "Reuse for any heading-plus-text intro section; add split for two text columns and ice/dark to match the surrounding band."
+}

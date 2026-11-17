@@ -1,0 +1,28 @@
+{
+  "variantName": "b4-band",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Full-width dark ink (#151f27) band with a single centred white 28/36/42 px title; ice variant uses #f4f8fc with ink text.",
+  "contentPattern": "One row, one cell: a heading (h2), optionally followed by paragraphs, all placed in one centred cell.",
+  "options": [
+    {
+      "class": "wide",
+      "label": "Wide (heading before carousel)"
+    },
+    {
+      "class": "ice",
+      "label": "Ice band"
+    },
+    {
+      "class": "left",
+      "label": "Left-aligned on mobile"
+    },
+    {
+      "class": "tight",
+      "label": "Tight tracking"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use as a centred section heading band that separates page sections or introduces a following carousel.",
+  "reuseGuidance": "Reuse wherever a standalone statement heading is needed; use wide right before a carousel and ice on light sections."
+}

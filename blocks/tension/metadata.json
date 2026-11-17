@@ -1,0 +1,28 @@
+{
+  "variantName": "tension",
+  "baseBlock": "columns",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Research row: an intro (coloured kicker heading, lead, text, data-source line) above three chart columns, each with a coloured chart title, chart image and note.",
+  "contentPattern": "Row 1 intro: h2 kicker, lead paragraph, text paragraphs, source paragraph with link; rows 2..n: one chart each (title paragraph, chart image, note paragraph).",
+  "options": [
+    {
+      "class": "orange",
+      "label": "Orange"
+    },
+    {
+      "class": "green",
+      "label": "Green"
+    },
+    {
+      "class": "blue",
+      "label": "Blue"
+    },
+    {
+      "class": "magenta",
+      "label": "Magenta"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use to present a research finding with an introductory text and a row of supporting charts.",
+  "reuseGuidance": "Reuse for data-story sections by authoring one intro row and one row per chart, picking a colour option."
+}

@@ -1,0 +1,108 @@
+{
+  "variantName": "b4-accordion",
+  "baseBlock": "accordion",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Stack of dark (#28333e) rounded tiles, each with an icon-font glyph, title and plus/minus toggle; items expand independently; optional ice, dark, light-tile and two-column pair layouts.",
+  "contentPattern": "One row per item: optional icon-name cell (cart, cloud, image, edit, screen, person, people, list, bulb), heading (h3) cell, body cell (paragraphs/lists); with split/pair an optional first h2-only row is the heading above.",
+  "options": [
+    {
+      "class": "ice",
+      "label": "Ice band"
+    },
+    {
+      "class": "dark",
+      "label": "Dark band"
+    },
+    {
+      "class": "light",
+      "label": "Light tiles"
+    },
+    {
+      "class": "split",
+      "label": "Split (title + text)"
+    },
+    {
+      "class": "pair",
+      "label": "Pair (two columns)"
+    },
+    {
+      "class": "wide",
+      "label": "Wide"
+    },
+    {
+      "class": "bw",
+      "label": "Break words"
+    },
+    {
+      "class": "t-0",
+      "label": "No top padding"
+    },
+    {
+      "class": "tm-0",
+      "label": "No top margin"
+    },
+    {
+      "class": "tm-56",
+      "label": "Top margin 56"
+    },
+    {
+      "class": "b-0",
+      "label": "No bottom padding"
+    },
+    {
+      "class": "bm-0",
+      "label": "No bottom margin"
+    },
+    {
+      "class": "ib-32",
+      "label": "Intro bottom 32"
+    },
+    {
+      "class": "ls-5",
+      "label": "Letter spacing 5"
+    },
+    {
+      "class": "ls-7",
+      "label": "Letter spacing 7"
+    },
+    {
+      "class": "ls-10",
+      "label": "Letter spacing 10"
+    },
+    {
+      "class": "ls-12",
+      "label": "Letter spacing 12"
+    },
+    {
+      "class": "ls-15",
+      "label": "Letter spacing 15"
+    },
+    {
+      "class": "ls-17",
+      "label": "Letter spacing 17"
+    },
+    {
+      "class": "ls-20",
+      "label": "Letter spacing 20"
+    },
+    {
+      "class": "ls-22",
+      "label": "Letter spacing 22"
+    },
+    {
+      "class": "ls-25",
+      "label": "Letter spacing 25"
+    },
+    {
+      "class": "ls-30",
+      "label": "Letter spacing 30"
+    },
+    {
+      "class": "ls-35",
+      "label": "Letter spacing 35"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use for expandable FAQ or feature lists where each item has an icon, a title and hidden detail text.",
+  "reuseGuidance": "Reuse for any collapsible list by authoring one row per item; pick ice/dark/light for the band and pair for side-by-side FAQ columns."
+}

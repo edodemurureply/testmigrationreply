@@ -1,0 +1,11 @@
+{
+  "variantName": "b4-offices",
+  "baseBlock": "custom",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Full-width embedded Google map with attribution; a button swaps it for an offices list with region filter, country headings with office counts and expandable city accordions showing address, phone, route link and photo.",
+  "contentPattern": "Rows classified by content: a Google Maps link row, a filter-label text row, one row per office (h3 country | label | city | address/phone/route-link paragraphs | optional photo), then a button-label text row.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use to show an interactive office map with a toggleable, country-grouped list of office locations.",
+  "reuseGuidance": "Reuse for any location finder by adding one row per office and keeping the map-link, filter and button rows."
+}

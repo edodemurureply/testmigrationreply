@@ -1,0 +1,96 @@
+{
+  "variantName": "cards-wall",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Masonry grid of cards (1 column mobile, 2/3/4 columns at 768/1024/1112) with image, category, title and abstract; hero, hover, event and product card types; optional Load more pager and dark ink band.",
+  "contentPattern": "One row per card: optional card-type cell (e.g. hero, thumb-1-1, thumb-2-3, hover, event, logo, span-N) | pictures | heading with card link, category paragraph, optional date and abstract; an optional final row with a single paragraph is the pager label.",
+  "options": [
+    {
+      "class": "all",
+      "label": "Show all"
+    },
+    {
+      "class": "dark",
+      "label": "Dark"
+    },
+    {
+      "class": "listing",
+      "label": "Listing"
+    },
+    {
+      "class": "split",
+      "label": "Split"
+    },
+    {
+      "class": "special",
+      "label": "Special"
+    },
+    {
+      "class": "home-featured",
+      "label": "Home featured"
+    },
+    {
+      "class": "home-main",
+      "label": "Home main"
+    },
+    {
+      "class": "title-name",
+      "label": "Title name"
+    },
+    {
+      "class": "ranges",
+      "label": "Date ranges"
+    },
+    {
+      "class": "htop",
+      "label": "Hero top"
+    },
+    {
+      "class": "hfull",
+      "label": "Hero full"
+    },
+    {
+      "class": "adobe-news",
+      "label": "Adobe news"
+    },
+    {
+      "class": "ttrack",
+      "label": "Title tracking"
+    },
+    {
+      "class": "ev24",
+      "label": "Event 24"
+    },
+    {
+      "class": "evtrack",
+      "label": "Event tracking"
+    },
+    {
+      "class": "evtime",
+      "label": "Event time"
+    },
+    {
+      "class": "evdim",
+      "label": "Event dim"
+    },
+    {
+      "class": "evmeta",
+      "label": "Event meta"
+    },
+    {
+      "class": "t18",
+      "label": "Title 18"
+    },
+    {
+      "class": "catnw",
+      "label": "Category no-wrap"
+    },
+    {
+      "class": "xmas",
+      "label": "Christmas"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use for a masonry wall of linked content cards such as insights listings, news or event grids.",
+  "reuseGuidance": "Reuse for listing or hub pages by authoring one row per card, setting an optional card-type cell to control each card's layout."
+}

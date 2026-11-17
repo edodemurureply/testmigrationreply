@@ -1,0 +1,24 @@
+{
+  "variantName": "b4-profile",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Rounded ice-blue card on the grid with a brand-name link, brand logo and abstract paragraph.",
+  "contentPattern": "Cells classified by content: paragraph with a link = title link, picture = logo, other paragraphs = abstract (typically 3 single-cell rows).",
+  "options": [
+    {
+      "class": "plain",
+      "label": "Plain (no card background)"
+    },
+    {
+      "class": "top0",
+      "label": "No top margin"
+    },
+    {
+      "class": "bot0",
+      "label": "No bottom margin"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use to close a case study with the brand boilerplate card (name link, logo and abstract).",
+  "reuseGuidance": "Reuse at the end of case-study pages with the same link, logo and abstract rows; use top0/bot0 to tune spacing."
+}

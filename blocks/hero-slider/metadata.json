@@ -1,0 +1,28 @@
+{
+  "variantName": "hero-slider",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Home opening band with full-width parallax video or still behind a dark veil, pause/play disc, and caption row with hairline rule, linked title and abstract.",
+  "contentPattern": "Row 1: a paragraph with the DAM video player link or a picture; row 2: heading (h1) with the slide link plus abstract paragraph(s).",
+  "options": [
+    {
+      "class": "video",
+      "label": "Video only"
+    },
+    {
+      "class": "hub",
+      "label": "Hub"
+    },
+    {
+      "class": "mid",
+      "label": "Mid"
+    },
+    {
+      "class": "w169",
+      "label": "16:9"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use as the opening video or image hero band of a home or hub page with a linked title.",
+  "reuseGuidance": "Reuse at the top of a landing page by swapping the media link and the linked title and abstract."
+}

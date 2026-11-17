@@ -1,0 +1,16 @@
+{
+  "variantName": "b4-about",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "About band: 28/36 px ink section title over two rich-text columns on the 4/8/12-column grid (stacked on mobile, side by side from 768).",
+  "contentPattern": "One cell per row: a heading-only row is the title; the first text row fills column 1, all later text rows fill column 2.",
+  "options": [
+    {
+      "class": "tight",
+      "label": "Tight tracking (column 2)"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use for an \"About\" section with a title and two columns of descriptive body text.",
+  "reuseGuidance": "Reuse for any title-plus-two-text-columns introduction; author the heading first, then one row per column."
+}

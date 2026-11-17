@@ -1,0 +1,20 @@
+{
+  "variantName": "b4-events",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Masonry wall of white bordered link cards on an ice band (2/3/4 columns), each with a 9:4 red or photo head showing the date, then title, category, abstract and location.",
+  "contentPattern": "One row per event: cell 1 = optional picture + day and month paragraphs; cell 2 = h3 with the event link, then category, abstract(s), optional hours and location paragraphs; news rows use one cell (h3 link, category, date, abstract).",
+  "options": [
+    {
+      "class": "newsroom",
+      "label": "Newsroom"
+    },
+    {
+      "class": "track-normal",
+      "label": "Normal tracking"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use to list upcoming events (or newsroom items) as a wall of dated link cards.",
+  "reuseGuidance": "Reuse for any event or news listing by authoring one row per item; use newsroom on the white newsroom page below the filter bar."
+}

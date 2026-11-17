@@ -1,0 +1,48 @@
+{
+  "variantName": "intro",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Statement intro band: large display title, short 48px rule and lead paragraph(s); ice, dark and simple text variants.",
+  "contentPattern": "One cell: optional eyebrow paragraph, leading heading(s) as title, then paragraphs/lists/CTAs as the lead.",
+  "options": [
+    {
+      "class": "plain-lead",
+      "label": "Plain lead"
+    },
+    {
+      "class": "simple",
+      "label": "Simple"
+    },
+    {
+      "class": "ice",
+      "label": "Ice"
+    },
+    {
+      "class": "dark",
+      "label": "Dark"
+    },
+    {
+      "class": "newsroom",
+      "label": "Newsroom"
+    },
+    {
+      "class": "listing",
+      "label": "Listing"
+    },
+    {
+      "class": "fit-wrap",
+      "label": "Fit wrap"
+    },
+    {
+      "class": "flush",
+      "label": "Flush"
+    },
+    {
+      "class": "break-subheads",
+      "label": "Break subheads"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use at the top of plain, legal or listing pages for a title with a short lead statement.",
+  "reuseGuidance": "Reuse as the page intro by authoring a heading and lead text, choosing simple for legal pages or plain-lead for listings."
+}

@@ -1,0 +1,76 @@
+{
+  "variantName": "section-heading",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Section title (h2 section face) on the 4/8/12-col grid, left or centred, optionally on a dark or ice band, with optional body copy or a ghost 'View all' button on the right.",
+  "contentPattern": "One cell with a heading and optional paragraphs; with insights, link-only paragraphs become the right-hand CTA; spacing tokens t-/tm-/b-/bm-/w-<n> set margins and width.",
+  "options": [
+    {
+      "class": "center",
+      "label": "Centered"
+    },
+    {
+      "class": "dark",
+      "label": "Dark band"
+    },
+    {
+      "class": "ice",
+      "label": "Ice band"
+    },
+    {
+      "class": "b4",
+      "label": "4brands spacing"
+    },
+    {
+      "class": "near",
+      "label": "Near previous module"
+    },
+    {
+      "class": "text",
+      "label": "Text face"
+    },
+    {
+      "class": "insights",
+      "label": "Insights with CTA"
+    },
+    {
+      "class": "latest",
+      "label": "Latest listing"
+    },
+    {
+      "class": "lead",
+      "label": "With body copy"
+    },
+    {
+      "class": "rel",
+      "label": "Related rail title"
+    },
+    {
+      "class": "mc",
+      "label": "Centered on mobile"
+    },
+    {
+      "class": "trk",
+      "label": "Tracking"
+    },
+    {
+      "class": "ptrk",
+      "label": "Paragraph tracking"
+    },
+    {
+      "class": "lh27",
+      "label": "Line height 27"
+    },
+    {
+      "class": "nosp",
+      "label": "No spacer"
+    },
+    {
+      "class": "xmas",
+      "label": "Christmas"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use to introduce a page section with a standalone title, optionally with lead copy or a 'View all' link.",
+  "reuseGuidance": "Reuse above any module needing a title by authoring a heading in one cell and adding alignment, band or spacing options."
+}

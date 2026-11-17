@@ -1,0 +1,100 @@
+{
+  "variantName": "b4-text",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Text band with a section title beside (or above, when stacked) a rich-text column; white by default, ice or dark ink bands with centred white text.",
+  "contentPattern": "Order-tolerant cells: first heading = title, every other node = rich text; with eyebrow the first node is a small uppercase label.",
+  "options": [
+    {
+      "class": "dark",
+      "label": "Dark"
+    },
+    {
+      "class": "ice",
+      "label": "Ice"
+    },
+    {
+      "class": "center",
+      "label": "Centered stacked"
+    },
+    {
+      "class": "stack",
+      "label": "Stacked left"
+    },
+    {
+      "class": "wide",
+      "label": "Wide stacked"
+    },
+    {
+      "class": "single",
+      "label": "Single column stacked"
+    },
+    {
+      "class": "eyebrow",
+      "label": "Eyebrow label"
+    },
+    {
+      "class": "top0",
+      "label": "No top margin"
+    },
+    {
+      "class": "top-s",
+      "label": "Small top margin"
+    },
+    {
+      "class": "bot",
+      "label": "Bottom margin"
+    },
+    {
+      "class": "bot-s",
+      "label": "Small bottom margin"
+    },
+    {
+      "class": "bot0",
+      "label": "No bottom margin"
+    },
+    {
+      "class": "first",
+      "label": "First band spacing"
+    },
+    {
+      "class": "track-normal",
+      "label": "Normal text tracking"
+    },
+    {
+      "class": "ls-0",
+      "label": "Letter spacing 0"
+    },
+    {
+      "class": "ls-5",
+      "label": "Letter spacing 5"
+    },
+    {
+      "class": "ls-7",
+      "label": "Letter spacing 7"
+    },
+    {
+      "class": "ls-10",
+      "label": "Letter spacing 10"
+    },
+    {
+      "class": "ls-12",
+      "label": "Letter spacing 12"
+    },
+    {
+      "class": "ls-15",
+      "label": "Letter spacing 15"
+    },
+    {
+      "class": "ls-20",
+      "label": "Letter spacing 20"
+    },
+    {
+      "class": "ls-25",
+      "label": "Letter spacing 25"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use for a section title with accompanying rich text, side by side or stacked.",
+  "reuseGuidance": "Reuse for any titled text section; pick dark/ice for the band and center/stack/wide/single for layout."
+}

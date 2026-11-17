@@ -1,0 +1,48 @@
+{
+  "variantName": "hero-card",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Featured banner card: wide 2:1 parallax image (2:3 on mobile) with an overlaid body holding optional logo, category, linked title and abstract.",
+  "contentPattern": "Cells classified by content: pictures (desktop, optional mobile crop, logo last with logo variant) | category paragraph | heading with card link | abstract paragraph(s) | optional link-only CTA paragraph.",
+  "options": [
+    {
+      "class": "feature",
+      "label": "Feature"
+    },
+    {
+      "class": "first",
+      "label": "First"
+    },
+    {
+      "class": "logo",
+      "label": "Logo"
+    },
+    {
+      "class": "hub",
+      "label": "Hub"
+    },
+    {
+      "class": "band",
+      "label": "Band"
+    },
+    {
+      "class": "ice-top",
+      "label": "Ice top"
+    },
+    {
+      "class": "bleed",
+      "label": "Bleed"
+    },
+    {
+      "class": "inset",
+      "label": "Inset"
+    },
+    {
+      "class": "still",
+      "label": "Still"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use to feature a single story, case study or product as a large linked banner card.",
+  "reuseGuidance": "Reuse wherever one highlighted item needs a full-width banner, adding logo when a partner logo is supplied."
+}

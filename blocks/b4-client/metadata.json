@@ -1,0 +1,44 @@
+{
+  "variantName": "b4-client",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Ice band with an ink section title, a short horizontal rule beside rich body text, and the client logo on the right (cols 9-11 from 1024).",
+  "contentPattern": "Cells classified by content, order-tolerant: first heading = title, a picture = client logo, every other node = body text.",
+  "options": [
+    {
+      "class": "ls-0",
+      "label": "Letter spacing 0"
+    },
+    {
+      "class": "ls-5",
+      "label": "Letter spacing 5"
+    },
+    {
+      "class": "ls-7",
+      "label": "Letter spacing 7"
+    },
+    {
+      "class": "ls-10",
+      "label": "Letter spacing 10"
+    },
+    {
+      "class": "ls-12",
+      "label": "Letter spacing 12"
+    },
+    {
+      "class": "ls-15",
+      "label": "Letter spacing 15"
+    },
+    {
+      "class": "ls-20",
+      "label": "Letter spacing 20"
+    },
+    {
+      "class": "ls-25",
+      "label": "Letter spacing 25"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use on case-study pages to introduce the client with a title, short description and the client logo.",
+  "reuseGuidance": "Reuse for any client or partner introduction on a case study; author heading, text and one logo image in any order."
+}

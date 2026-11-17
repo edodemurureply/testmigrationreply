@@ -1,0 +1,68 @@
+{
+  "variantName": "b4-tabber",
+  "baseBlock": "tabs",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Row of icon cards acting as tabs on a dark band with an accent bar on the active card, prev/next arrows when overflowing, and a text panel with title, list label and benefit list.",
+  "contentPattern": "One row per tab: icon picture | tab label | panel content (first paragraph = title, list = benefits, paragraph before the list = list label, other nodes = text).",
+  "options": [
+    {
+      "class": "ice",
+      "label": "Ice background"
+    },
+    {
+      "class": "label-s",
+      "label": "Small tab label"
+    },
+    {
+      "class": "nolead",
+      "label": "No lead title"
+    },
+    {
+      "class": "pc",
+      "label": "Panel compact"
+    },
+    {
+      "class": "ltitle",
+      "label": "List label as title"
+    },
+    {
+      "class": "nls-10",
+      "label": "Tab label letter spacing 10"
+    },
+    {
+      "class": "ls-0",
+      "label": "Letter spacing 0"
+    },
+    {
+      "class": "ls-5",
+      "label": "Letter spacing 5"
+    },
+    {
+      "class": "ls-7",
+      "label": "Letter spacing 7"
+    },
+    {
+      "class": "ls-10",
+      "label": "Letter spacing 10"
+    },
+    {
+      "class": "ls-12",
+      "label": "Letter spacing 12"
+    },
+    {
+      "class": "ls-15",
+      "label": "Letter spacing 15"
+    },
+    {
+      "class": "ls-20",
+      "label": "Letter spacing 20"
+    },
+    {
+      "class": "ls-25",
+      "label": "Letter spacing 25"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use to present several solution areas as icon tabs, each revealing a descriptive panel with a benefit list.",
+  "reuseGuidance": "Reuse for tabbed feature or solution overviews by adding one three-cell row per tab."
+}
